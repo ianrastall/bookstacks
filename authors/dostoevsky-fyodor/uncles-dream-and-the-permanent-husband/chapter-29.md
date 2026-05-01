@@ -1,0 +1,141 @@
+---
+layout: book
+title: "The Permanent Husband: CHAPTER XIV."
+chapter_order: 29
+book: "Uncle's Dream; and The Permanent Husband"
+author: "Fyodor Dostoevsky"
+---
+
+A young fellow of some nineteen summers entered the room; he might have been even younger, to judge by his handsome but self-satisfied and very juvenile face.
+
+He was not badly dressed, at all events his clothes fitted him well; in stature he was a little above the middle height; he had thick black hair, and dark, bold eyes—and these were the striking features of his face. Unfortunately his nose was a little too broad and tip-tilted, otherwise he would have been a really remarkably good-looking young fellow.—He came in with some pretension.
+
+“I believe I have the opportunity of speaking to Mr. Trusotsky?” he observed deliberately, and bringing out the word opportunity with much apparent satisfaction, as though he wished to accentuate the fact that he could not possibly be supposed to feel either honour or pleasure in meeting Mr. Trusotsky. Velchaninoff thought he knew what all this meant; Pavel Pavlovitch seemed to have an inkling of the state of affairs, too. His expression was one of anxiety, but he did not show the white feather.
+
+“Not having the honour of your acquaintance,” he said with dignity, “I do not understand what sort of business you can have with me.”
+
+“Kindly listen to me first, and you can then let me know your ideas on the subject,” observed the young gentleman, pulling out his tortoiseshell glasses, and focusing the champagne bottle with them. Having deliberately inspected that object, he put up his glasses again, and fixing his attention once more upon Pavel Pavlovitch, remarked:
+
+“Alexander Loboff.”
+
+“What about Alexander Loboff?”
+
+“That's my name. You've not heard of me?”
+
+“No.”
+
+“H'm! Well, I don't know when you should have, now I think of it; but I've come on important business concerning yourself. I suppose I can sit down? I'm tired.”
+
+“Oh, pray sit down,” said Velchaninoff, but not before the young man had taken a chair. In spite of the pain at his heart Velchaninoff could not help being interested in this impudent youngling.
+
+There seemed to be something in his good-looking, fresh young face that reminded him of Nadia.
+
+“You can sit down too,” observed Loboff, indicating an empty seat to Pavel Pavlovitch, with a careless nod of his head.
+
+“Thank you; I shall stand.”
+
+“Very well, but you'll soon get tired. You need not go away, I think, Mr. Velchaninoff.”
+
+“I have nowhere to go to, my good sir, I am at home.”
+
+“As you like; I confess I should prefer your being present while I have an explanation with this gentleman. Nadejda Fedosievna has given you a flattering enough character, sir, to me.”
+
+“Nonsense; how could she have had time to do so?”
+
+“Immediately after you left. Now, Mr. Trusotsky, this is what I wish to observe,” he continued to Pavel, the latter still standing in front of him; “we, that is Nadejda Fedosievna and myself, have long loved one another, and have plighted our troth. You have suddenly come between us as an obstruction; I have come to tell you that you had better clear out of the way at once. Are you prepared to adopt my suggestion?”
+
+Pavel Pavlovitch took a step backward in amazement; his face paled visibly, but in a moment a spiteful smile curled his lip.
+
+“Not in the slightest degree prepared, sir,” he said, laconically.
+
+“Dear me,” said the young fellow, settling himself comfortably in his chair, and throwing one leg over the other.
+
+“Indeed, I do not know whom I am speaking to,” added Pavel Pavlovitch, “so that it can't hardly be worth your while to continue.”
+
+So saying he sat down at last.
+
+“I said you'd get tired,” remarked the youth. “I informed you just now,” he added, “that my name is Alexander Loboff, and that Nadejda and I have plighted our troth; consequently you cannot truthfully say, as you did say just now, that you don't know who I am, nor can you honestly assert that you do not see what we can have to talk about. Not to speak of myself—there is Nadejda Fedosievna to be considered—the lady to whom you have so impudently attached yourself: that alone is matter sufficient for explanation between us.”
+
+All this the young fellow rattled off carelessly enough, as if the thing were so self-evident that it hardly needed mentioning. While talking, he raised his eye-glass once more, and inspected some object for an instant, putting the glass back in his pocket immediately afterwards.
+
+“Excuse me, young man,” began Pavel Pavlovitch: but the words “young man” were fatal.
+
+“At any other moment,” observed the youth, “I should of course forbid your calling me ‘young man’ at once; but you must admit that in this case my youth is my principal advantage over yourself, and that even this very day you would have given anything—nay, at the moment when you presented your bracelet—to be just a little bit younger.”
+
+“Cheeky young brat!” muttered Velchaninoff.
+
+“In any case,” began Pavel Pavlovitch, with dignity, “I do not consider your reasons as set forth—most questionable and improper reasons at the best—sufficient to justify the continuance of this conversation. I see your 'business' is mere childishness and nonsense: to-morrow I shall have the pleasure of an explanation with Mr. Zachlebnikoff, my respected friend. Meanwhile, sir, perhaps you will make it convenient to—depart.”
+
+“That's the sort of man he is,” cried the youth, hotly, turning to Velchaninoff: “he is not content with being as good as kicked out of the place, and having faces made at him, but he must go down again to-morrow to carry tales about us to Mr. Zachlebnikoff. Do you not prove by this, you obstinate man, that you wish to carry off the young lady by force? that you desire to buy her of people who preserve—thanks to the relics of barbarism still triumphant among us—a species of power over her? Surely she showed you sufficiently clearly that she despises you? You have had your wretched tasteless present of to-day—that bracelet thing—returned to you; what more do you want?”
+
+“Excuse me, no bracelet has been, or can be returned to me,” said Pavel Pavlovitch, with a shudder of anxiety, however.
+
+“How so? hasn't Mr. Velchaninoff given it to you?”
+
+“Oh, the deuce take you, sir,” thought Velchaninoff. “Nadejda Fedosievna certainly did give me this case for you, Pavel Pavlovitch,” he said; “I did not wish to take it, but she was anxious that I should: here it is, I'm very sorry.”
+
+He took out the case and laid it down on the table before the enraged Pavel Pavlovitch.
+
+“How is it you have not handed it to him before?” asked the young man severely.
+
+“I had no time, as you may conclude,” said Velchaninoff with a frown.
+
+“H'm! Strange circumstance!”
+
+“ What , sir?”
+
+“Well, you must admit it is strange! However, I am quite prepared to believe that there has been some mistake.”
+
+Velchaninoff would have given worlds to get up and drub the impertinent young rascal and drag him out of the house by the ear; but he could not contain himself, and burst out laughing. The boy immediately followed suit and laughed too.
+
+But for Pavel Pavlovitch it was no laughing matter.
+
+If Velchaninoff had seen the ferocious look which the former cast at him at the moment when he and Loboff laughed, he would have realized that Pavel Pavlovitch was in the act of passing a fatal limit of forbearance. He did not see the look; but it struck him that it was only fair to stand up for Pavel now.
+
+“Listen, Mr. Loboff,” he said, in friendly tones, “not to enter into the consideration of other matters, I may point out that Mr. Trusotsky brings with him, in his wooing of Miss Zachlebnikoff, a name and circumstances fully well-known to that esteemed family; in the second place, he brings a fairly respectable position in the world; and thirdly, he brings wealth. Therefore he may well be surprised to find himself confronted by such a rival as yourself—a gentleman of great wealth, doubtless, but at the same time so very young, that he could not possibly look upon you as a serious rival; therefore, again, he is quite right in begging you to bring the conversation to an end.”
+
+“What do you mean by ‘so very young’ ? I was nineteen a month since; by the law I might have been married long ago. That's a sufficient answer to your argument.”
+
+“But what father would consent to allowing his daughter to marry you now —even though you may be a Rothschild to come, or a benefactor to humanity in the future. A man of nineteen years old is not capable of answering for himself and yet you are ready to take on your own responsibility another being—in other words, a being who is as much a child as you are yourself. Why, it is hardly even honourable on your part, is it? I have presumed to address you thus, because you yourself referred the matter to me as a sort of arbiter between yourself and Pavel Pavlovitch.”
+
+“Yes, by-the-bye, ‘Pavel Pavlovitch,’ I forgot he was called that,” remarked the youth. “I wonder why I thought of him all along as ‘Vassili Petrovitch.’ Look here, sir (addressing Velchaninoff), you have not surprised me in the least. I knew you were all tarred with one brush. It is strange that you should have been described to me as a man of some originality. However, to business. All that you have said is, of course, utter nonsense; not only is there nothing ‘dishonourable’ about my intentions, as you permitted yourself to suggest, but the fact of the matter is entirely the reverse, as I hope to prove to you by-and-bye. In the first place, we have promised each other marriage, besides which I have given her my word that if she ever repents of her promise she shall have her full liberty to throw me over. I have given her surety to that effect before witnesses.”
+
+“I bet anything your friend—what's his name?—Predposiloff invented that idea,” cried Velchaninoff.
+
+“He-he-he!” giggled Pavel Pavlovitch contemptuously.
+
+“What is that person giggling about? You are right, sir, it was Predposiloff's idea. But I don't think you and I quite understand one another, do we? and I had such a good report of you. How old are you? Are you fifty yet?”
+
+“Stick to business, if you please.”
+
+“Forgive the liberty. I did not mean anything offensive. Well, to proceed. I am no millionaire, and I am no great benefactor to humanity (to reply to your arguments), but I shall manage to keep myself and my wife. Of course I have nothing now; I was brought up, in fact, in their house from my childhood.”
+
+“How so?”
+
+“Oh, because I am a distant relative of this Mr. Zachlebnikoff's wife. When my people died, he took me in and sent me to school. The old fellow is really quite a kind-hearted man, if you only knew it.”
+
+“I do know it!”
+
+“Yes, he's an old fogey rather, but a kind-hearted old fellow; but I left him four months ago and began to keep myself. I first joined a railway office at ten roubles a month, and am now in a notary's place at twenty-five. I made him a formal proposal for her a fortnight since. He first laughed like mad, and afterwards fell into a violent rage, and Nadia was locked up. She bore it heroically. He had been furious with me before for throwing up a post in his department which he procured for me. You see he is a good and kind old fellow at home, but get him in his office and—oh, my word!—he's a sort of Jupiter Tonans ! I told him straight out that I didn't like his ways; but the great row was—thanks to the second chief at the office; he said I insulted him, but I only told him he was an ignorant beggar. So I threw them all up, and went in for the notary business. Listen to that! What a clap! We shall have a thunder-storm directly! What a good thing I arrived before the rain! I came here on foot, you know, all the way, nearly at a run, too!”
+
+“How in the world did you find an opportunity of speaking to Miss Nadia then? especially since you are not allowed to meet.”
+
+“Oh, one can always get over the railing; then there's that red-haired girl, she helps, and Maria Nikitishna—oh, but she's a snake, that girl! What's the matter? Are you afraid of the thunder-storm?”
+
+“No, I'm ill—seriously ill!”
+
+Velchaninoff had risen from his seat with a fearful sudden pain in his chest, and was trying to walk up and down the room.
+
+“Oh, really! then I'm disturbing you. I shall go at once,” said the youth, jumping up.
+
+“No, you don't disturb me!” said Velchaninoff ceremoniously.
+
+“How not; of course I do, if you've got the stomach ache! Well now, Vassili—what's your name—Pavel Pavlovitch, let's conclude this matter. I will formulate my question for once into words which will adapt themselves to your understanding: Are you prepared to renounce your claim to the hand of Nadejda Fedosievna before her parents, and in my presence, with all due formality?”
+
+“No, sir; not in the slightest degree prepared,” said Pavel Pavlovitch witheringly; “and allow me to say once more that all this is childish and absurd, and that you had better clear out!”
+
+“Take care,” said the youth, holding up a warning forefinger; “better give it up now, for I warn you that otherwise you will spend a lot of money down there, and take a lot of trouble; and when you come back in nine months you will be turned out of the house by Nadejda Fedosievna herself; and if you don't go then , it will be the worse for you. Excuse me for saying so, but at present you are like the dog in the manger. Think over it, and be sensible for once in your life.”
+
+“Spare me the moral, if you please,” began Pavel Pavlovitch furiously; “and as for your low threats I shall take my measures to-morrow— serious measures.”
+
+“Low threats? pooh! You are low yourself to take them as such. Very well, I'll wait till to-morrow then; but if you—there's the thunder again!— au revoir —very glad to have met you, sir.” He nodded to Velchaninoff and made off hurriedly, evidently anxious to reach home before the rain.

@@ -1,0 +1,19 @@
+---
+layout: book
+title: "52. To his Stepmother."
+chapter_order: 54
+book: "Private Letters of Edward Gibbon (1753-1794), Volume 1"
+author: "Edward Gibbon"
+---
+
+London, April the 18th, 1768.
+
+Dear Madam ,
+
+The reason I have delayed (besides the usual one) was the real scarcity of news either of a publick or a private nature. As to myself I got safe to town, and have lived there in my usual manner; the Romans, [107] Boodle's, [108] the Theatre and some acquaintances whom you already know. In all these places nothing new or interesting has occurred. Ranelagh [109] is indeed opened. I was there last night for the first time. Notwithstanding the brilliancy of the first moment, I must own I think it very soon grows insipid to a by-stander, or by-walker if you like it better. I acknowledge it indeed the most convenient place for courtships of every kind. It is certainly the best market we have in England. Lord Abingdon [110] is just going to make a pretty considerable purchase; of Miss Warren, Mrs. Fitzroy's sister. The Lord wants money, the Lady a title, so that as the bargain seems advantageous to both parties we apprehend it will speedily be concluded.
+
+I will not trouble you with election news, as it is both dull and uncertain. I must however mention that I have seen Serjeant Glynn, [111] who is encouraged by the Sollicitor General [112] to pursue his petition, and who flatters himself that the Duke of B. will lend his weight, and that the D. of G. will stand neuter. He is strongly of opinion that Sir Thomas should be in town to make interest, and has intended for some time past to write to the Baronet who sleeps at Pilewell. The opponents ( without intending anything ) have already canvassed most of the members. Indeed there seems to be a general dislike to petitions (of which there never was known so great a number), and I think most of the returned members have a very good chance unless they are attacked by formidable men. Such is the case of Preston [113] fought by Lord Strange, and such I fear will be the case of Yarmouth; many people at least have a bad opinion both of our cause and of our interest. [114] I do not think this can be called carrying the three boroughs in the isle of Wight. Northampton will be attacked and defended with great vigour and expence. [115] That will be the second act of Lord H.'s Tragi-Comi-farce. As Osborn & Rodney have exactly all the same votes, if Howe succeeds, there must be a new election of a second member, and in that case the two Noble Lords may probably quarrel about the man, which may compleat the third act of the said farce. I shall say nothing of Wilkes; [116] every man has his story and his opinion, which mutually destroy each other. Wednesday will decide most of these disputes, and you may depend on my immediately writing some particulars of that great day. Lord B.'s tryal [117] is not yet come out. I will take care to send it with La Princesse de Babylone , [118] a new Romance of Voltaire which is a very agreable absurd trifle. A propos, poor Voltaire is almost ruined. He had intrusted most of his money to that expensive scoundrel the Duke of Wirtenbergh, [119] who paid him a much greater interest for it than anybody else would give. The Duke is ruined, the security worth nothing and the money vanished. Voltaire has dismissed several dependants who lived in his house, and even his niece Madam Denys, all with handsome presents; and keeps only a man and three maids, with Père Adam an old Jesuit that plays at chess with him from morning to night. I am really sorry for the poor old man; as he spent his fortune much better than he acquired it.
+
+I hear Sir Simeon [120] is confined with the gout to Hartley. The reputation of his new Physician is quite ruined by it.
+
+I am, Dear Madam, Most truly your's & my father's, E. Gibbon .

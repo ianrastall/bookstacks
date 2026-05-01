@@ -1,0 +1,19 @@
+---
+layout: book
+title: "48. To his Stepmother."
+chapter_order: 50
+book: "Private Letters of Edward Gibbon (1753-1794), Volume 1"
+author: "Edward Gibbon"
+---
+
+Miss Lake's in St. James's place, January the 18th, 1766.
+
+Dear Madam ,
+
+I have the pleasure of assuring you that my Rheumatism (or what else you chuse to call it) has again sounded a retreat & left me quite well. However I do still intend to consult a physician by way of precaution, & I think that Physician shall be Heberden. [98] I have seen a number of servants, but believe I shall pitch upon one who seems very clever without having anything of the fine Gentleman, & whose demands surprize me only by their reasonableness. I wrote to his last master at Bath four or five days ago, & expect an answer with some impatience.—I believe I mentioned in my last that I was to introduce d'Eyverdun to Miss C. at the play. They saw each other: the Lady with some apparent pleasure; the Gentleman with as little horror as could be expected. I presented him, proposed a visit, pressed for time & place; & am by her own appointment to carry him to pass the evening with her next Monday. The rest must depend on himself. As to myself; I hardly know myself as yet, in this immense City; & to speak honestly am not as yet very highly entertained. I have had some invitations & expect more, but I must acknowledge, I sometimes regret the small parties where an acquaintance may pass the evening & sup without form or invitation. I have however candor enough to lay these defects rather upon the confined circle of my friends than on the general manners of the Metropolis. Society (no doubt) may be very agreable here, but the avenues to it are fortified with some care, and I wish I may be able to muster up that modest assurance which is so necessary to force them. Several more of my acquaintance Up park, Port Elliott, Hartley, [99] are however come or coming to town & may serve to enliven it. The public diversions are a great ressource, and the Cocoa Tree [100] serves now and then to take off an idle hour. I am not even without hopes of being enrolled in the School of Vice which, notwithstanding the terrors of its name, is as agreable and I believe as innocent a Club as any in this Metropolis. What I want the most, is to be taken off the town and to get into private keeping. You may guess I mean my old scheme of boarding in a genteel family. You know I have talked of Toriano. I wish it may succeed, but the very situation of the man which makes it so agreeable makes it likewise very difficult. Things must be treated with a degree of delicacy. An acquaintance must be formed, and I shall not think this winter ill-spent if it lays a good foundation for next. In the mean time I am looking out for something to stay my stomach. I have heard of a house near Leicester fields which appears tolerable, and of another near Soho whose very situation excludes it.
+
+We wait for Tuesday Sevennight with impatience. Mr. Pitt is in Town and spoke a great while last Tuesday. He is the declared Advocate of the Colonies, but a very equivocal one of the present ministry; tho' great compliments passed between him & Conway. [101] The debate yesterday (which lasted till nine in the evening) was on printing the American papers. The friends to secresy, thought it much better only to leave them upon the table for the inspection and copies of about 500 people.—Almost all the separations come to nothing except that of L. & Lady B. which has taken place already.
+
+I forgot upon the study table some maps which I want to make up into an atlas. Will you be so good, Dear Madam, as to collect all the French or Latin loose maps in the study and send them to me by the first opportunity. Pray do not despise me so far as to give me no commissions.
+
+I am, Dear Madam, Most truly your's and my father's, E. Gibbon .

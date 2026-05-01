@@ -1,0 +1,17 @@
+---
+layout: book
+title: "590. Lord Sheffield to Edward Gibbon."
+chapter_order: 173
+book: "Private Letters of Edward Gibbon (1753-1794), Volume 2"
+author: "Edward Gibbon"
+---
+
+Your former letter said you should be very sure, very high & select. You now say you are not merchants, &c. General Bude [229] (a Genevois) recommended Dergueuse. The Duke of Leeds, hearing that he was known to me, desired Glover to enquire of me by letter. I advised Leigneur not to propose or trouble himself about terms, but to let General Bude do whatever was necessary of that kind. He has been at Moins sometime. He came from thence here, and is much pleased with his good fortune. Lord Carnarvon is older than we imagined. If there are the means at Lausanne of interesting Genl. Bude in favour of S[every], it might be usefull. I should make an agreement for S. or not according to the rank or character of the Principles; but I really do not know what salary should be thought of—you should give me some hint thereon. When I answered Glover, I told him if he should hear of any considerable Family who wished to have a friend to attend a son, that you and I could recommend one that would be very desireable. You are so awkward and careless about letters that I do not like to write to you except about matters that might be published at Charing-cross.
+
+As to your £3000 debentures, I apprehend I have explained them to you before. Hammersley's Banking House has advanced £40,000 on Lord Barrymore's Estate in Ireland (£10,000 per annum at least); they have 6 per cent., and have raised the money by Debentures, giving the same security and £20,000 in the funds in addition. Their house and the £20,000 answerable for the interest. It is thought an excellent thing , and Pelham transferred it to me as a Friend. If you do not like it at any time you may have premium on selling. I wish you to indulge your own notions as to this matter and not to mind mine. I am not fond of being responsible as to other property than land. The Debentures are in the custody of Goslings, to enable them to receive at Hammersley's the interest half yearly.
+
+Your Tabby apprehensions about your writings are silly enough—you have none except the mortgage on Buriton and Newhaven, and those being blended in your conveyance of the Estates, the Title of the purchaser and your security are the same, and if your counterpart were lost, the Title of the Purchaser would be your security. The Mortgage Deeds of Buriton are in my archive, very properly as Trustee. Instead of your curious notion of sending the writings in Batt's custody for the sake of safety to Lausanne, it will be better to send them in their Box to Gosling's Iron-room, to appease your fears. I had settled with Batt to examine the List when I go next to Town. Your Navigation Mortgage is in Gosling's hands. I had lately heard of a £3000 mortgage in this county that I thought would do, but they talked of only 3½ per Ct.
+
+I have had a new care lately which has occupied me as much as possible. I mean the French clergy; above 1200 have landed in this country. I have exerted myself in their favour; I have succeeded pretty well in obviating prejudice in respect to the rise of provisions by the arrival of so many friends. There is little in respect to the arrival of so many popish priests.
+
+Tell Lady Eliza I have written a very pretty letter long ago, & I am surprised she has not received it.

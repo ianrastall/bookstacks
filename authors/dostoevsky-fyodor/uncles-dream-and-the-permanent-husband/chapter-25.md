@@ -1,0 +1,103 @@
+---
+layout: book
+title: "The Permanent Husband: CHAPTER X."
+chapter_order: 25
+book: "Uncle's Dream; and The Permanent Husband"
+author: "Fyodor Dostoevsky"
+---
+
+The doctor's anxiety was justified; Liza grew worse, so much so that it was clear she was far more seriously ill than Velchaninoff and Claudia Petrovna had thought the day before.
+
+When the former arrived in the morning, Liza was still conscious, though burning with fever. He assured his friend Claudia, afterwards, that the child had smiled at him and held out her little hot hand. Whether she actually did so, or whether he so much longed for her to do so that he imagined it done, is uncertain.
+
+By the evening, however, Liza was quite unconscious, and so she remained during the whole of her illness. Ten days after her removal to the country she died.
+
+This was a sad period for Velchaninoff; the Pogoryeltseffs were quite anxious on his account. He was with them for the greater part of the time, and during the last few days of the little one's illness, he used to sit all alone for hours together in some corner, apparently thinking of nothing. Claudia Petrovna would attempt to distract him but he hardly answered her, and conversation was clearly painful to him. Claudia was quite surprised that “all this” should affect him so deeply.
+
+The children were the best consolation and distraction for him; with them he could even laugh and play at intervals. Every hour, at least, he would rise from his chair and creep on tip-toes to the sick-room to look at the little invalid. Sometimes he imagined that she knew him; he had no hope for her recovery—none of the family had any hope; but he never left the precincts of the child's chamber, sitting principally in the next room.
+
+Twice, however, he had evinced great activity of a sudden; he had jumped up and started off for town, where he had called upon all the most eminent doctors of the place, and arranged consultations between them. The last consultation was on the day before Liza's death.
+
+Claudia Petrovna had spoken seriously to him a day or two since, as to the absolute necessity of hunting up Pavel Pavlovitch Trusotsky, because in case of anything happening to Liza, she could not be buried without certain documents from him.
+
+Velchaninoff promised to write to him, and did write a couple of lines, which he took to the Pokrofsky. Pavel Pavlovitch was not at home, as usual, but he left the letter to the care of Maria Sisevna.
+
+At last Liza died—on a lovely summer evening, just as the sun was setting; and only then did Velchaninoff rouse himself.
+
+When the little one was laid out, all covered with flowers, and dressed in a fair white frock belonging to one of Claudia Petrovna's children, Velchaninoff came up to the lady of the house, and told her with flashing eyes that he would now go and fetch the murderer. Regardless of all advice to put off his search until to-morrow he started for town immediately.
+
+He knew where to find Pavel Pavlovitch. He had not been in town exclusively to find the doctors those two days. Occasionally, while watching the dying child, he had been struck with the idea that if he could only find and bring down Pavel Pavlovitch she might hear his voice and be called back, as it were, from the darkness of delirium; at such moments he had been seized with desperation, and twice he had started up and driven wildly off to town in order to find Pavel Pavlovitch.
+
+The latter's room was the same as before, but it was useless to look for him there, for, according to Maria Sisevna's report, he was now two or three days absent from home at a stretch, and was generally to be found with some friends in the Voznecensky.
+
+Arrived in town about ten o'clock, Velchaninoff went straight to these latter people, and securing the services of a member of the family to assist in finding Pavel Pavlovitch, set out on his quest. He did not know what he should do with Pavel Pavlovitch when found, whether he should kill him then and there, or simply inform him of the death of the child, and of the necessity for his assistance in arranging for her funeral. After a long and fruitless search Velchaninoff found Pavel Pavlovitch quite accidentally; he was quarrelling with some person in the street—tipsy as usual, and seemed to be getting the worst of the controversy, which appeared to be about a money claim.
+
+On catching sight of Velchaninoff, Pavel Pavlovitch stretched out his arms to him and begged for help; while his opponent—observing Velchaninoff's athletic figure—made off. Pavel Pavlovitch shook his fist after him triumphantly, and hooted at him with cries of victory; but this amusement was brought to a sudden conclusion by Velchaninoff, who, impelled by some mysterious motive—which he could not analyse, took him by the shoulders, and began to shake him violently, so violently that his teeth chattered.
+
+Pavel Pavlovitch ceased to shout after his opponent, and gazed with a stupid tipsy expression of alarm at his new antagonist. Velchaninoff, having shaken him till he was tired, and not knowing what to do next with him, set him down violently on the pavement, backwards.
+
+“Liza is dead!” he said.
+
+Pavel Pavlovitch sat on the pavement and stared, he was too far gone to take in the news. At last he seemed to realize.
+
+“Dead!” he whispered, in a strange inexplicable tone. Velchaninoff was not sure whether his face was simply twitching, or whether he was trying to grin in his usual disagreeable way; but the next moment the drunkard raised his shaking hand to cross himself. He then struggled to his feet and staggered off, appearing totally oblivious of the fact that such a person as Velchaninoff existed.
+
+However, the latter very soon pursued and caught him, seizing him once more by the shoulder.
+
+“Do you understand, you drunken sot, that without you the funeral arrangements cannot be made?” he shouted, panting with rage.
+
+Pavel Pavlovitch turned his head.
+
+“The artillery—lieutenant—don't you remember him?” he muttered, thickly.
+
+“ What? ” cried Velchaninoff, with a shudder.
+
+“He's her father—find him! he'll bury her!”
+
+“You liar! You said that out of pure malice. I thought you'd invent something of the sort!”
+
+Quite beside himself with passion Velchaninoff brought down his powerful fist with all his strength on Pavel Pavlovitch's head; another moment and he might have followed up the blow and slain the man as he stood. His victim never winced, but he turned upon Velchaninoff a face of such insane terrible passion, that his whole visage looked distorted.
+
+“Do you understand Russian?” he asked more firmly, as though his fury had chased away the effects of drunkenness. “Very well, then, you are a——!” (here followed a specimen of the very vilest language which the Russian tongue could furnish); “and now you can go back to her!” So saying he tore himself from Velchaninoff's grasp, nearly knocking himself over with the effort, and staggered away. Velchaninoff did not follow him.
+
+Next day, however, a most respectable-looking middle-aged man arrived at the Pogoryeltseft's house, in civil uniform, and handed to Claudia Petrovna a packet addressed to her “from Pavel Pavlovitch Trusotsky.”
+
+In this packet was a sum of three hundred roubles, together with all certificates necessary for Liza's funeral. Pavel Pavlovitch had written a short note couched in very polite and correct phraseology, and thanking Claudia Petrovna sincerely “for her great kindness to the orphan—kindness for which heaven alone could recompense her.” He added rather confusedly that severe illness prevented his personal presence at the funeral of his “tenderly loved and unfortunate daughter,” but that he “felt he could repose all confidence (as to the ceremony being fittingly performed) in the angelic goodness of Claudia Petrovna.” The three hundred roubles, he explained, were to go towards the funeral and other expenses. If there should be any of the money left after defraying all charges, Claudia Petrovna was requested to spend the same in prayers for the repose of the soul of the deceased.
+
+Nothing further was to be discovered by questioning the messenger; and it was soon evident that the latter knew nothing, excepting that he had only consented to act as bearer of the packet, in response to the urgent appeal of Pavel Pavlovitch.
+
+Pogoryeltseff was a little offended by the offer of money for expenses, and would have sent it back, but Claudia Petrovna suggested that a receipt should be taken from the cemetery authorities for the cost of the funeral (since one could not well refuse to allow a man to bury his own child), together with a document undertaking that the rest of the three hundred roubles should be spent in prayer for the soul of Liza.
+
+Velchaninoff afterwards posted an envelope containing these two papers to Trusotsky's lodging.
+
+After the funeral Velchaninoff disappeared from the country altogether. He wandered about town for a whole fortnight, knocking up against people as he went blindly through the streets. Now and then he spent a whole day lying in his bed, oblivious of the most ordinary needs and occupations; the Pogoryeltseffs often invited him to their house, and he invariably promised to come, and as invariably forgot all about it. Claudia Petrovna went as far as to call for him herself, but she did not find him at home. The same thing happened with his lawyer, who had some good news to tell him. The difference with his opponent had been settled advantageously for Velchaninoff, the former having accepted a small bonification and renounced his claim to the property in dispute. All that was wanting was the formal acquiescence of Velchaninoff himself.
+
+Finding him at home at last, after many endeavours, the lawyer was excessively surprised to discover that Velchaninoff was as callous and cool as to the result of his (the lawyer's) labours, as he had before been ardent and excitable.
+
+The hottest days of July had now arrived, but Velchaninoff was oblivious of everything. His grief swelled and ached at his heart like some internal boil; his greatest sorrow was that Liza had not had time to know him, and died without ever guessing how fondly he loved her. The sweet new beacon of his life, which had glimmered for a short while within his heart, was extinguished once more, and lost in eternal gloom.
+
+The whole object of his existence, as he now told himself at every moment, should have been that Liza might feel his love about her and around her, each day, each hour, each moment of her life.
+
+“There can be no higher aim or object than this in life,” he thought, in gloomy ecstasy. “If there be other aims in life, none can be holier or better than this of mine. All my old unworthy life should have been purified and atoned for by my love for Liza; in place of myself—my sinful, worn-out, useless life—I should have bequeathed to the world a sweet, pure, beautiful being, in whose innocence all my guilt should have been absorbed, and lost, and forgiven, and in her I should have forgiven myself.”
+
+Such thoughts would flit through Velchaninoff's head as he mused sorrowfully over the memory of the dead child. He thought over all he had seen of her; he recalled her little face all burning with fever, then lying at rest in her coffin, covered with lovely flowers. He remembered that once he had noticed that one of her fingers was quite black from some bruise or pinch—goodness knows what had made it so, but it was the sight of that little finger which had filled him with longing to go straight away and murder Pavel Pavlovitch.
+
+“Do you know what Liza is to me?” Pavel had said, he recollected, one day; and now he understood the exclamation. It was no pretence of love, no posturing and nonsense—it was real love! How, then, could the wretch have been so cruel to a child whom he so dearly loved? He could not bear to think of it, the question was painful, and quite unanswerable.
+
+One day he wandered down—he knew not exactly how—to the cemetery where Liza was buried, and hunted up her grave. This was the first time he had been there since the funeral; he had never dared to go there before, fearing that the visit would be too painful. But strangely enough, when he found the little mound and had bent down and kissed it, he felt happier and lighter at heart than before.
+
+It was a lovely evening, the sun was setting, the tall grass waved about the tombs, and a bee hummed somewhere near him. The flowers and crosses placed on the tomb by Claudia Petrovna were still there. A ray of hope blazed up in his heart for the first time for many a long day. “How light-hearted I feel,” he thought, as he felt the spell of the quiet of God's Acre, and the hush of the beautiful still evening. A flow of some indefinable faith in something poured into his heart.
+
+“This is Liza's gift,” he thought; “this is Liza herself talking to me!”
+
+It was quite dark when he left the cemetery and turned his steps homewards.
+
+Not far from the gate of the burial ground there stood a small inn or public-house, and through the open windows he could see the people inside sitting at tables. It instantly struck Velchaninoff that one of the guests, sitting nearest to the window, was Pavel Pavlovitch, and that the latter had seen him and was observing him curiously.
+
+He went on further, but before very long he heard footsteps pursuing him. It was, of course, Pavel Pavlovitch. Probably the unusually serene and peaceful expression of Velchaninoff's face as he went by had attracted and encouraged him.
+
+He soon caught Velchaninoff up, and smiled timidly at him, but not with the old drunken grin. He did not appear to be in the smallest degree drunk.
+
+“Good evening,” said Pavel Pavlovitch.
+
+“How d'ye do?” replied Velchaninoff.

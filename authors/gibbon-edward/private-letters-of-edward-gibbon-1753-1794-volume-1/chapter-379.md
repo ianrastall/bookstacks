@@ -1,0 +1,19 @@
+---
+layout: book
+title: "377. To his Stepmother."
+chapter_order: 379
+book: "Private Letters of Edward Gibbon (1753-1794), Volume 1"
+author: "Edward Gibbon"
+---
+
+Bentinck Street, July the 3rd, 1779.
+
+Dear Madam ,
+
+I have the pleasure of acquainting you, that I am now appointed one of the Lords of Trade in the room of Bamber Gascoyne; [435] Andrew Stuart [436] has succeeded at the same time to the place of Jolliffe, and our new Colleagues [437] do us the honour of saying that in both instances they have gained by the exchange. As the salary of this place will secure and improve my own situation, so I really set much more value upon it, as it will enable me to discharge a small part of my debt of duty and gratitude towards you. For the future you may depend on receiving the interest of the Bond (at 5 per cent.) which will make the two half yearly payments £150 instead of £100 each; and will I hope be sufficient to support your establishment at Bath in a manner more agreeable to you. I have only to beg a short respite, and that you would be satisfied with the usual draught at present and the double (£200) at next Christmas. At the moment my increase of fortune encreases my actual poverty. Sir Francis Wronghead [438] was perfectly in the right when he said, "Mayhap I may not receive the first quarter of my salary this halfe yeare:" he might have added that the heavy fees of offices eat up the greatest part of it, and that a space of some months must elapse before the stream begins to flow regularly and beneficially. I am not insensible that this addition of income is of a very precarious nature, and that the event of an hour or the caprice of a man may throw me back into my former anxiety, but the alteration shall never affect your happiness or situation, and the plan of retirement into Switzerland with my friend d'Eyverdun which I had perfectly considered and digested will be a resource not unworthy of a Philosopher, which I shall always have it in my power to command.
+
+I am now going to resume my literary employments, which have suffered a short interruption, and I shall resume them, if not with more tranquility at least with more cheerfulness of mind. I find myself however under a difficulty of reconciling two plans for this year, each of which is equally recommended by my interest, my duty and my inclination. On the one hand I anxiously desire to publish the continuation of my history about this time twelvemonth. Though much is already done, much still remains to do, and I should almost despair of being able to finish so large a task, unless I steadily proceed without losing a day, or unless I compensate any intervals of negligence by extraordinary and improper efforts of industry. This important object seems to confine me to Bentinck Street and my Library: but on the other hand I am desirous and even impatient to visit you at Bath; to carry you down to Port Eliot, where I am sure the air and society would be your best Physician, to see Mrs. Eliot, and to convince him of the grateful sense that I entertain of his behaviour in consenting to my re-election, [439] which I know was highly unpleasant to him. I shall endeavour to concert measures in such a manner as to reconcile those opposite views: but I foresee that the execution of such a scheme can only become practicable towards the Autumn.
+
+I ought to make some apology for leaving some days in anxious suspence. I can only say, that I was myself in the same condition. Every morning I expected the event of the evening, and every evening the return of the morning. Till the business was absolutely finished, a hundred accidents might have dashed the cup from my lips, and I was afraid of raising your hopes only to embitter the melancholy news which might have followed.
+
+I am, Dear Madam, Ever yours, E. G.

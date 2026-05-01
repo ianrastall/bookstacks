@@ -1,0 +1,167 @@
+---
+layout: book
+title: "The Permanent Husband: CHAPTER XIII."
+chapter_order: 28
+book: "Uncle's Dream; and The Permanent Husband"
+author: "Fyodor Dostoevsky"
+---
+
+In spite of Velchaninoff's apparently happy day, the feeling of annoyance and suffering at his heart had hardly actually left him for a single moment. Before he sang the song he had not known what to do with himself, or suppressed anger and melancholy—perhaps that was the reason why he had sung with so much feeling and passion.
+
+“To think that I could so have lowered myself as to forget everything!” he thought—and then despised himself for thinking it; “it is more humiliating still to cry over what is done,” he continued. “Far better to fly into a passion with someone instead.”
+
+“Fool!” he muttered—looking askance at Pavel Pavlovitch, who sat beside him as still as a mouse. Pavel Pavlovitch preserved a most obstinate silence—probably concentrating and ranging his energies. He occasionally took his hat off, impatiently, and wiped the perspiration from his forehead.
+
+Once—and once only—Pavel spoke, to the coachman, he asked whether there was going to be a thunder-storm.
+
+“Wheugh!” said the man, “I should think so! It's been a steamy day—just the day for it!”
+
+By the time town was reached—half-past ten—the whole sky was overcast.
+
+“I am coming to your house,” said Pavel to Velchaninoff, when almost at the door.
+
+“Quite so; but I warn you, I feel very unwell to-night!”
+
+“All right—I won't stay too long.”
+
+When the two men passed under the gateway, Pavel Pavlovitch disappeared into the 'dvornik's' room for a minute, to speak to Mavra.
+
+“What did you go in there for?” asked Velchaninoff severely as they mounted the stairs and reached his own door.
+
+“Oh—nothing—nothing at all,—just to tell them about the coachman.——”
+
+“Very well. Mind, I shall not allow you to drink!”
+
+Pavel Pavlovitch did not answer.
+
+Velchaninoff lit a candle, while Pavel threw himself into a chair;—then the former came and stood menacingly before him.
+
+“I may have told you I should have my last word to say to-night, as well as you!” he said with suppressed anger in his voice and manner: “Here it is. I consider conscientiously that things are square between you and me, now; and therefore there is no more to be said, understand me, about anything . Since this is so, had you not better go, and let me close the door after you?”
+
+“Let's cry ‘quits’ first, Alexey Ivanovitch,” said Pavel Pavlovitch, gazing into Velchaninoff's eyes with great sweetness.
+
+“Quits?” cried the latter, in amazement; “you strange man, what are we to cry quits about? Are you harping upon your promise of a ‘last word’ ?”
+
+“Yes.”
+
+“Oh, well, we have nothing more to cry quits for. We have been quits long since,” said Velchaninoff.
+
+“Dear me, do you really think so?” cried Pavel Pavlovitch, in a shrill, sharp voice, pressing his two hands tightly together, finger to finger, as he held them up before his breast.
+
+Velchaninoff said nothing. He rose from his seat and began to walk up and down the room. The word “Liza” resounded through and through his soul like the voice of a bell.
+
+“Well, what is there that you still consider unsettled between us?” he asked at last, looking angrily at Pavel, who had never ceased to follow him with his eyes—always holding his hands before his breast, finger tip to finger tip.
+
+“Don't go down there any more,” said Pavel, almost in a whisper, and rising from his seat with every indication of humble entreaty.
+
+“ What! is that all?” cried Velchaninoff, bursting into an angry laugh; “good heavens, man, you have done nothing but surprise me all day.” He had begun in a tone of exasperation, but he now abruptly changed both voice and expression, and continued with an air of deep feeling. “Listen,” he said, “listen to me. I don't think I have ever felt so deeply humiliated as I am feeling now, in consequence of the events of to-day. In the first place, that I should have condescended to go down with you at all, and in the second place, all that happened there. It has been such a day of pettifogging—pitiful pettifogging. I have profaned and lowered myself by taking a share in it all, and forgetting——Well, it's done now. But look here—you fell upon me to-day, unawares—upon a sick man. Oh, you needn't excuse yourself; at all events I shall certainly not go there again. I have not the slightest interest in so doing,” he concluded, with an air of decision.
+
+“No, really!” cried Pavel Pavlovitch, making no secret of his delight and exultation.
+
+Velchaninoff glanced contemptuously at him, and recommenced his march up and down the room.
+
+“You have determined to be happy under any circumstances, I suppose?” he observed, after a pause. He could not resist making the remark disdainfully.
+
+“Yes, I have,” said Pavel, quietly.
+
+“It's no business of mine that he's a fool and a knave, out of pure idiocy!” thought Velchaninoff. “I can't help hating him, though I feel that he is not even worth hating.”
+
+“I'm a permanent husband,” said Pavel Pavlovitch, with the most exquisitely servile irony, at his own expense. “I remember you using that expression, Alexey Ivanovitch, long ago, when you were with us at T——. I remember many of your original phrases of that time, and when you spoke of ‘permanent husbands,’ the other day, I recollected the expression.”
+
+At this point Mavra entered the room with a bottle of champagne and two glasses.
+
+“Forgive me, Alexey Ivanovitch,” said Pavel, “you know I can't get on without it. Don't consider it an audacity on my part—think of it as a mere bit of by-play unworthy your notice.”
+
+“Well,” consented Velchaninoff, with a look of disgust, “but I must remind you that I don't feel well, and that—”
+
+“One little moment—I'll go at once, I really will—I must just drink one glass, my throat is so——”
+
+He seized the bottle eagerly, and poured himself out a glass, drank it greedily at a gulp, and sat down. He looked at Velchaninoff almost tenderly.
+
+“What a nasty looking beast!” muttered the latter to himself.
+
+“It's all her friends that make her like that,” said Pavel, suddenly, with animation.
+
+“What? Oh, you refer to the lady. I——”
+
+“And, besides, she is so very young still, you see,” resumed Pavel. “I shall be her slave—she shall see a little society, and a bit of the world. She will change, sir, entirely.”
+
+“I mustn't forget to give him back the bracelet, by-the-bye,” thought Velchaninoff, frowning, as he felt for the case in his coat pocket.
+
+“You said just now that I am determined to be happy, Alexey Ivanovitch,” continued Pavel, confidentially, and with almost touching earnestness. “I must marry, else what will become of me? You see for yourself” (he pointed to the bottle), “and that's only a hundredth part of what I demean myself to nowadays. I cannot get on without marrying again, sir; I must have a new faith. If I can but believe in some one again, sir, I shall rise—I shall be saved.”
+
+“Why are you telling me all this?” exclaimed Velchaninoff, very nearly laughing in his face; it seemed so absurdly inconsistent.
+
+“Look here,” he continued, roaring the words out, “let me know now, once for all, why did you drag me down there? what good was I to do you there?”
+
+“I—I wished to try——,” began Pavel, with some confusion.
+
+“Try what?”
+
+“The effect, sir. You see, Alexey Ivanovitch, I have only been visiting there a week” (he grew more and more confused), “and yesterday, when I met you, I thought to myself that I had never seen her yet in society; that is, in the society of other men besides myself—a stupid idea, I know it is—I was very anxious to try—you know my wretchedly jealous nature.” He suddenly raised his head and blushed violently.
+
+“He can't be telling me the truth!” thought Velchaninoff; he was struck dumb with surprise.
+
+“Well, go on!” he muttered at last.
+
+“Well, I see it was all her pretty childish nature, sir—that and her friends together. You must forgive my stupid conduct towards yourself to-day, Alexey Ivanovitch. I will never do it again—never again, sir, I assure you!”
+
+“I shall never be there to give you the opportunity,” replied Velchaninoff with a laugh.
+
+“That's partly why I say it,” said Pavel.
+
+“Oh, come! I'm not the only man in the world you know!” said the other irritably.
+
+“I am sorry to hear you say that, Alexey Ivanovitch. My esteem for Nadejda is such that I——”
+
+“Oh, forgive me, forgive me! I meant nothing, I assure you! Only it surprises me that you should have expected so much of me—that you trusted me so completely.”
+
+“I trusted you entirely, sir, solely on account of—all that has passed.”
+
+“So that you still consider me the most honourable of men?” Velchaninoff paused, the naïve nature of his sudden question surprised even himself.
+
+“I always did think you that, sir!” said Pavel, hanging his head.
+
+“Of course, quite so—I didn't mean quite that—I wanted to say, in spite of all prejudices you may have formed, you——”
+
+“Yes, in spite of all prejudices!”
+
+“And when you first came to Petersburg?” asked Velchaninoff, who himself felt the monstrosity of his own inquisitive questions, but could not resist putting them.
+
+“I considered you the most honourable of men when I first came to Petersburg, sir; no less. I always respected you, Alexey Ivanovitch!”
+
+Pavel Pavlovitch raised his eyes and looked at his companion without the smallest trace of confusion.
+
+Velchaninoff suddenly felt cowed and afraid. He was anxious that nothing should result—nothing disagreeable—from this conversation, since he himself was responsible for having initiated it.
+
+“I loved you, Alexey Ivanovitch; all that year at T—— I loved you—you did not observe it,” continued Pavel Pavlovitch, his voice trembling with emotion, to the great discomfiture of his companion. “You did not observe my affection, because I was too lowly a being to deserve any sort of notice; but it was unnecessary that you should observe my love. Well, sir, and all these nine years I have thought of you, for I have never known such a year of life as that year was.” (Pavel's eyes seemed to have a special glare in them at this point.) “I remembered many of your sayings and expressions, sir, and I thought of you always as a man imbued with the loftiest sentiments, and gifted with knowledge and intellect, sir—of the highest order—a man of grand ideas. ‘Great ideas do not proceed so frequently from greatness of intellect, as from elevation of taste and feeling.’ You yourself said that, sir, once. I dare say you have forgotten the fact, but you did say it. Therefore I always thought of you, sir, as a man of taste and feeling; consequently I concluded—consequently I trusted you, in spite of everything.”
+
+Pavel Pavlovitch's chin suddenly began to tremble. Velchaninoff was frightened out of his wits. This unexpected tone must be put an end to at all hazards.
+
+“Enough, Pavel Pavlovitch!” he said softly, blushing violently and with some show of irritation. “And why—why (Velchaninoff suddenly began to shout passionately)—why do you come hanging round the neck of a sick man, a worried man—a man who is almost out of his wits with fever and annoyance of all sorts, and drag him into this abyss of lies and mirage and vision and shame—and unnatural, disproportionate, distorted nonsense! Yes, sir, that's the most shameful part of the whole business—the disproportionate nonsense of what you say! You know it's all humbug; both of us are mean wretches—both of us; and if you like I'll prove to you at once that not only you don't love me, but that you loathe and hate me with all your heart, and that you are a liar, whether you know it or not! You took me down to see your bride, not—not a bit in the world to try how she would behave in the society of other men—absurd idea!—You simply saw me, yesterday, and your vile impulse led you to carry me off there in order that you might show me the girl, and say, as it were. There, look at that! She's to be mine! Try your hand there if you can! It was nothing but your challenge to me! You may not have known it, but this was so, as I say; and you felt the impulse which I have described. Such a challenge could not be made without hatred; consequently you hate me.”
+
+Velchaninoff almost rushed up and down the room as he shouted the above words; and with every syllable the humiliating consciousness that he was allowing himself to descend to the level of Pavel Pavlovitch afflicted him and tormented him more and more!
+
+“I was only anxious to be at peace with you, Alexey Ivanovitch!” said Pavel sadly, his chin and lips working again.
+
+Velchaninoff flew into a violent rage, as if he had been insulted in the most unexampled manner.
+
+“I tell you once more, sir,” he cried, “that you have attached yourself to a sick and irritated man, in order that you may surprise him into saying something unseemly in his madness! We are, I tell you, man, we are men of different worlds. Understand me! between us two there is a grave,” he hissed in his fury, and stopped.
+
+“And how do you know,—sir,” cried Pavel Pavlovitch, his face suddenly becoming all twisted, and deadly white to look at, as he strode up to Velchaninoff, “how do you know what that grave means to me, sir, here!” (He beat his breast with terrible earnestness, droll though he looked.) “Yes, sir, we both stand on the brink of the grave, but on my side there is more, sir, than on yours—yes, more, more, more!” he hissed, beating his breast without pause— “more than on yours—the grave means more to me than to you!”
+
+But at this moment a loud ring at the bell brought both men to their senses. Someone was ringing so loud that the bell-wire was in danger of snapping.
+
+“People don't ring like that for me, observed Velchaninoff angrily.”
+
+“No more they do for me, sir! I assure you they don't!” said Pavel Pavlovitch anxiously. He had become the quiet timid Pavel again in a moment. Velchaninoff frowned and went to open the door.
+
+“Mr. Velchaninoff, if I am not mistaken?” said a strange voice, apparently belonging to some young and very self-satisfied person, at the door.
+
+“What is it?”
+
+“I have been informed that Mr. Trusotsky is at this moment in your rooms. I must see him at once.”
+
+Velchaninoff felt inclined to send this self-satisfied looking young gentleman flying downstairs again; but he reflected—refrained, stood aside and let him in.
+
+“Here is Mr. Trusotsky. Come in.”

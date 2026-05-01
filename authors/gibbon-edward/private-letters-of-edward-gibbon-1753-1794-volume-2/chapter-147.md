@@ -1,0 +1,11 @@
+---
+layout: book
+title: "564. To Lord Sheffield."
+chapter_order: 147
+book: "Private Letters of Edward Gibbon (1753-1794), Volume 2"
+author: "Edward Gibbon"
+---
+
+Lausanne, May 18th, 1791.
+
+*I write a short letter, on small paper, to inform you, that the various deeds, which arrived safe and in good condition, have this morning been sealed, signed, and delivered, in the presence of respectable and well known English witnesses,* though out of compliment to you I inserted one Irish evidence, a protégé of Sarah's, and considering all things a very pretty gentleman. I am very well behaved to him. *To have read the aforesaid acts, would have been difficult; to have understood them, impracticable. I therefore signed them with my eyes shut, and in that implicit confidence, which we freemen and Britons are humbly content to yield to our lawyers and ministers. I hope, however, most seriously hope, that every thing has been carefully examined, and that I am not totally ruined. It is not without much impatience that I expect an account of the payment and investment of the purchase-money,* and am somewhat afraid of the high charges of auctioneers and attornies. The writings well secured are delivered to a trusty carrier, who promises to begin his Journey Monday next, the 23rd instant, and to deposit them in Downing Street about a fortnight afterwards. *It was my intention to have added a new edition of my Will: but I have an unexpected call to go to Geneva to-morrow with the Severys, and must defer that business a few days, till after my return. On my return I may possibly find a letter from you, and will write more fully in answer: my posthumous work, contained in a single sheet, will not ruin you in postage. In the meanwhile, let me desire you either never to talk of Lausanne, or to execute the journey this summer; after the dispatch of public and private business, there can be no real obstacle but in yourself, and if you deceive me I shall insist on the additional year's purchase for Newhaven, which I had given up in consideration of the visit. Pray do not go to War with Russia: [164] it is very foolish: I am quite angry with Pitt. Adieu.* Pray inform Mrs. G. of our conclusion and her security. I write to her this post after a long pause. I am a sad dog.

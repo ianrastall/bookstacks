@@ -1,0 +1,183 @@
+---
+layout: book
+title: "Uncle's Dream: CHAPTER X."
+chapter_order: 10
+book: "Uncle's Dream; and The Permanent Husband"
+author: "Fyodor Dostoevsky"
+---
+
+On they flew.
+
+I have said already that this very day, on her first drive after the prince, Maria Alexandrovna had been inspired with a great idea! and I promised to reveal this idea in its proper place. But I am sure the reader has guessed it already!—It was, to “confiscate” the prince in her turn, and carry him off to the village where, at this moment, her husband Afanassy Matveyevitch vegetated alone.
+
+I must admit that our heroine was growing more and more anxious as the day went on; but this is often the case with heroes of all kinds, just before they attain their great ends! Some such instinct whispered to her that it was not safe to remain in Mordasoff another hour, if it could be avoided;—but once in the country house, the whole town might go mad and stand on its head, for all she cared!
+
+Of course she must not lose time, even there! All sorts of things might happen—even the police might interfere. (Reader, I shall never believe, for my part, that my heroine really had the slightest fear of the vulgar police force; but as it has been rumoured in Mordasoff that at this moment such a thought did pass through her brain, why, I must record the fact.)
+
+In a word she saw clearly that Zina's marriage with the prince must be brought about at once, without delay! It was easily done: the priest at the village should perform the ceremony; why not the day after to-morrow? or indeed, in case of need, to-morrow? Marriages had often been brought about in less time than this—in two hours, she had heard! It would be easy enough to persuade the prince that haste and simplicity would be in far better taste than all the usual pomps and vanities of common everyday weddings. In fact, she relied upon her skill in putting the matter to the old man as a fitting dramatic issue to a romantic story of love, and thus to touch the most sensitive string of his chivalrous heart.
+
+In case of absolute need there was always the possibility of making him drunk, or rather of keeping him perpetually drunk. And then, come what might, Zina would be a princess! And if this marriage were fated to produce scandal among the prince's relations and friends in St. Petersburg and Moscow, Maria Alexandrovna comforted herself with the reflection that marriages in high life nearly always were productive of scandal; and that such a result might fairly be looked upon as “good form,” and as peculiar to aristocratic circles.
+
+Besides, she felt sure that Zina need only show herself in society, with her mamma to support her, and every one of all those countesses and princes should very soon either acknowledge her of their own accord, or yield to the head-washing that Maria Alexandrovna felt herself so competent to give to any or all of them, individually or collectively.
+
+It was in consequence of these reflections that Maria Alexandrovna was now hastening with all speed towards her village, in order to bring back Afanassy Matveyevitch, whose presence she considered absolutely necessary at this crisis. It was desirable that her husband should appear and invite the prince down to the country: she relied upon the appearance of the father of the family, in dress-coat and white tie, hastening up to town on the first rumours of the prince's arrival there, to produce a very favourable impression upon the old man's self-respect: it would flatter him; and after such a courteous action, followed by a polite and warmly-couched invitation to the country, the prince would hardly refuse to go.
+
+At last the carriage stopped at the door of a long low wooden house, surrounded by old lime trees. This was the country house, Maria Alexandrovna's village residence.
+
+Lights were burning inside.
+
+“Where's my old fool?” cried Maria Alexandrovna bursting like a hurricane into the sitting-room.
+
+“Whats this towel lying here for?—Oh!—he's been wiping his head, has he. What, the baths again! and tea—of course tea!—always tea! Well, what are you winking your eyes at me for, you old fool?—Here, why is his hair not cropped? Grisha, Grisha!—here; why didn't you cut your master's hair, as I told you?”
+
+Maria Alexandrovna, on entering the room, had intended to greet her husband more kindly than this; but seeing that he had just been to the baths and that he was drinking tea with great satisfaction, as usual, she could not restrain her irritable feelings.
+
+She felt the contrast between her own activity and intellectual energy, and the stolid indifference and sheep-like contentedness of her husband, and it went to her heart!
+
+Meanwhile the “old fool,” or to put it more politely, he who had been addressed by that title, sat at the tea-urn, and stared with open mouth, in abject alarm, opening and shutting his lips as he gazed at the wife of his bosom, who had almost petrified him by her sudden appearance.
+
+At the door stood the sleepy, fat Grisha, looking on at the scene, and blinking both eyes at periodical intervals.
+
+“I couldn't cut his hair as you wished, because he wouldn't let me!” he growled at last. “ ‘You'd better let me do it!’ —I said, ‘or the mistress'll be down one of these days, and then we shall both catch it!’ ”
+
+“No,” he says, “I want it like this now, and you shall cut it on Sunday. I like it long!”
+
+“What!—So you wish to curl it without my leave, do you! What an idea—as if you could wear curls with your sheep-face underneath! Good gracious, what a mess you've made of the place; and what's the smell—what have you been doing, idiot, eh!” cried Maria Alexandrovna, waxing more and more angry, and turning furiously upon the wretched and perfectly innocent Afanassy!
+
+“Mam—mammy!” muttered the poor frightened master of the house, gazing with frightened eyes at the mistress, and blinking with all his might— “mammy!”
+
+“How many times have I dinned into your stupid head that I am not your ‘mammy.’ How can I be your mammy, you idiotic pigmy? How dare you call a noble lady by such a name; a lady whose proper place is in the highest circles, not beside an ass like yourself!”
+
+“Yes—yes,—but—but, you are my legal wife, you know, after all;—so I—it was husbandly affection you know——” murmured poor Afanassy, raising both hands to his head as he spoke, to defend his hair from the tugs he evidently expected.
+
+“Oh, idiot that you are! did anyone ever hear such a ridiculous answer as that—legal wife, indeed! Who ever heard the expression ‘ legal wife,’ in good society—nasty low expression! And how dare you remind me that I am your wife, when I use all my power and do all I possibly can at every moment to forget the fact, eh? What are you covering your head with your hands for? Look at his hair—now: wet, as wet as reeds! it will take three hours to dry that head! How on earth am I to take him like this? How can he show his face among respectable people? What am I to do?”
+
+And Maria Alexandrovna bit her finger-nails with rage as she walked furiously up and down the room.
+
+It was no very great matter, of course; and one that was easily set right; but Maria Alexandrovna required a vent for her feelings and felt the need of emptying out her accumulated wrath upon the head of the wretched Afanassy Matveyevitch; for tyranny is a habit recallable at need.
+
+Besides, everyone knows how great a contrast there is between the sweetness and refinement shown by many ladies of a certain class on the stage, as it were, of society life, and the revelations of character behind the scenes at home; and I was anxious to bring out this contrast for my reader's benefit.
+
+Afanassy watched the movements of his terrible spouse in fear and trembling; perspiration formed upon his brow as he gazed.
+
+“Grisha!” she cried at last, “dress your master this instant! Dress-coat, black trousers, white waistcoat and tie, quick! Where's his hairbrush—quick, quick!”
+
+“Mam—my! Why, I've just been to the bath. I shall catch cold if I go up to town just now!”
+
+“You won't catch cold!”
+
+“But—mammy, my hair's quite wet!”
+
+“We'll dry it in a minute. Here, Grisha, take this brush and brush away till he's dry,—harder—harder—much harder! There, that's better!”
+
+Grisha worked like a man. For the greater convenience of his herculean task he seized his master's shoulder with one hand as he rubbed violently with the other. Poor Afanassy grunted and groaned and almost wept.
+
+“Now, then, lift him up a bit. Where's the pomatum? Bend your head, duffer!—bend lower, you abject dummy!” And Maria Alexandrovna herself undertook to pomade her husband's hair, ploughing her hands through it without the slightest pity. Afanassy heartily wished that his shock growth had been cut. He winced, and groaned and moaned, but did not cry out under the painful operation.
+
+“You suck my life-blood out of me—bend lower, you idiot!” remarked the fond wife— “bend lower still, I tell you!”
+
+“How have I sucked your life blood?” asked the victim, bending his head as low as circumstances permitted.
+
+“Fool!—allegorically, of course—can't you understand? Now, then, comb it yourself. Here, Grisha, dress him, quick!”
+
+Our heroine threw herself into an arm-chair, and critically watched the ceremony of adorning her husband. Meanwhile the latter had a little opportunity to get his breath once more and compose his feelings generally; so that when matters arrived at the point where the tie is tied, he had even developed so much audacity as to express opinions of his own as to how the bow should be manufactured.
+
+At last, having put his dress-coat on, the lord of the manor was his brave self again, and gazed at his highly ornate person in the glass with great satisfaction and complacency.
+
+“Where are you going to take me to?” he now asked, smiling at his reflected self.
+
+Maria Alexandrovna could not believe her ears.
+
+“What— what ? How dare you ask me where I am taking you to, sir!”
+
+“But—mammy—I must know, you know——”
+
+“Hold your tongue! You let me hear you call me mammy again, especially where we are going to now! you sha'n't have any tea for a month!”
+
+The frightened consort held his peace.
+
+“Look at that, now! You haven't got a single 'order' to put on—sloven!” she continued, looking at his black coat with contempt.
+
+“The Government awards orders, mammy; and I am not a sloven, but a town councillor!” said Afanassy, with a sudden excess of noble wrath.
+
+“What, what— what ! So you've learned to argue now, have you—you mongrel, you? However, I haven't time to waste over you now, or I'd——but I sha'n't forget it. Here, Grisha, give him his fur coat and his hat—quick; and look here, Grisha, when I'm gone, get these three rooms ready, and the green room, and the corner bedroom. Quick—find your broom; take the coverings off the looking-glasses and clocks, and see that all is ready and tidy within an hour. Put on a dress coat, and see that the other men have gloves: don't lose time. Quick, now!”
+
+She entered the carriage, followed by Afanassy. The latter sat bewildered and lost.
+
+Meanwhile Maria Alexandrovna reflected as to how best she could drum into her husband's thick skull certain essential instructions with regard to the present situation of affairs. But Afanassy anticipated her.
+
+“I had a very original dream to-day, Maria Alexandrovna,” he observed quite unexpectedly, in the middle of a long silence.
+
+“Tfu! idiot. I thought you were going to say something of terrific interest, from the look of you. Dream, indeed! How dare you mention your miserable dreams to me! Original, too! Listen here: if you dare so much as remind me of the word ‘dream,’ or say anything else, either, where we are going to-day, I—I don't know what I won't do to you! Now, look here: Prince K. has arrived at my house. Do you remember Prince K.?”
+
+“Oh, yes, mammy, I remember; and why has he done us this honour?”
+
+“Be quiet; that's not your business. Now, you are to invite him, with all the amiability you can, to come down to our house in the country, at once! That is what I am taking you up for. And if you dare so much as breathe another word of any kind, either to-day or to-morrow, or next day, without leave from me, you shall herd geese for a whole year. You're not to say a single word, mind! and that's all you have to think of. Do you understand, now?”
+
+“Well, but if I'm asked anything?”
+
+“Hold your tongue all the same!”
+
+“Oh, but I can't do that—I can't do——”
+
+“Very well, then; you can say ‘H'm,’ or something of that sort, to give them the idea that you are very wise indeed, and like to think well before answering.”
+
+“H'm.”
+
+“Understand me, now. I am taking you up because you are to make it appear that you have just heard of the prince's visit, and have hastened up to town in a transport of joy to express your unbounded respect and gratitude to him, and to invite him at once to your country house! Do you understand me?”
+
+“H'm.”
+
+“I don't want you to say ‘H'm’ now , you fool! You must answer me when I speak!”
+
+“All right—all right, mammy. All shall be as you wish; but why am I to ask the prince down?”
+
+“What—what! arguing again. What business is it of yours why you are to invite him? How dare you ask questions!”
+
+“Why it's all the same thing, mammy. How am I to invite him if I must not say a word?”
+
+“Oh, I shall do all the talking. All you have to do is to bow. Do you hear? Bow ; and hold your hat in your hand and look polite. Do you understand, or not?”
+
+“I understand, mam—Maria-Alexandrovna.”
+
+“The prince is very witty, indeed; so mind, if he says anything either to yourself or anyone else, you are to laugh cordially and merrily. Do you hear me?”
+
+“H'm.”
+
+“Don't say ‘H'm’ to me , I tell you. You are to answer me plainly and simply. Do you hear me, or not?”
+
+“Yes, yes; I hear you, of course. That's all right. I only say ‘H'm,’ for practice; I want to get into the way of saying it. But look here, mammy, it's all very well; you say I'm not to speak, and if he speaks to me I'm to look at him and laugh—but what if he asks me a question?”
+
+“Oh—you dense log of a man! I tell you again, you are to be quiet. I'll answer for you. You have simply got to look polite, and smile!”
+
+“But he'll think I am dumb!” said Afanassy.
+
+“Well, and what if he does. Let him! You'll conceal the fact that you are a fool, anyhow!”
+
+“H'm, and if other people ask me questions?”
+
+“No one will; there'll be no one to ask you. But if there should be anyone else in the room, and they ask you questions, all you have to do is to smile sarcastically. Do you know what a sarcastic smile is?”
+
+“What, a witty sort of smile, is it, mammy?”
+
+“I'll let you know about it! Witty , indeed! Why, who would think of expecting anything witty from a fool like you. No, sir, a jesting smile— jesting and contemptuous !”
+
+“H'm.”
+
+“Good heavens. I'm afraid for this idiot,” thought Maria Alexandrovna to herself. “I really think it would have been almost better to leave him behind, after all.” So thinking, nervous and anxious, Maria Alexandrovna drove on. She looked out of the window, and she fidgeted, and she bustled the coachman up. The horses were almost flying through the air; but to her they appeared to be crawling. Afanassy sat silent and thoughtful in the corner of the carriage, practising his lessons. At last the carriage arrived at the town house.
+
+Hardly, however, had Maria Alexandrovna mounted the outer steps when she became aware of a fine pair of horses trotting up—drawing a smart sledge with a hood to it. In fact, the very “turn-out” in which Anna Nicolaevna Antipova was generally to be seen.
+
+Two ladies sat in the sledge. One of these was, of course, Mrs. Antipova herself; the other was Natalia Dimitrievna, of late the great friend and ally of the former lady.
+
+Maria Alexandrovna's heart sank.
+
+But she had no time to say a word, before another smart vehicle drove up, in which there reclined yet another guest. Exclamations of joy and delight were now heard.
+
+“Maria Alexandrovna! and Afanassy Matveyevitch! Just arrived, too! Where from? How extremely delightful! And here we are, you see, just driven up at the right moment. We are going to spend the evening with you. What a delightful surprise.”
+
+The guests alighted and fluttered up the steps like so many swallows.
+
+Maria Alexandrovna could neither believe her eyes nor her ears.
+
+“Curse you all!” she said to herself. “This looks like a plot—it must be seen to; but it takes more than a flight of magpies like you to get to windward of me . Wait a little!!”

@@ -1,0 +1,265 @@
+---
+layout: book
+title: "The Permanent Husband: CHAPTER XII."
+chapter_order: 27
+book: "Uncle's Dream; and The Permanent Husband"
+author: "Fyodor Dostoevsky"
+---
+
+The Zachlebnikoffs were certainly, as Velchaninoff had expressed it, a most respectable family. Zachlebnikoff himself was a most eminently dignified and “solid” gentleman to look at. What Pavel Pavlovitch had said as to their resources was, however, quite true; they lived well, but if paterfamilias were to die, it would be very awkward for the rest.
+
+Old Zachlebnikoff received Velchaninoff most cordially. He was no longer the legal opponent; he appeared now in a far more agreeable guise.
+
+“I congratulate you,” he said at once, “upon the issue. I did my best to arrange it so, and your lawyer was a capital fellow to deal with. You have your sixty thousand without trouble or worry, you see; and if we hadn't squared it we might have fought on for two or three years.”
+
+Velchaninoff was introduced to the lady of the house as well—an elderly, simple-looking, worn woman. Then the girls began to troop in, one by one and occasionally two together. But, somehow, there seemed to be even more than Velchaninoff had been led to expect; ten or a dozen were collected already—he could not count them exactly. It turned out that some were friends from the neighbouring houses.
+
+The Zachlebnikoffs' country house was a large wooden structure of no particular style of architecture, but handsome enough, and was possessed of a fine large garden. There were, however, two or three other houses built round the latter, so that the garden was common property for all, which fact resulted in great intimacy between the Zachlebnikoff girls and the young ladies of the neighbouring houses.
+
+Velchaninoff discovered, almost from the first moment, that his arrival—in the capacity of Pavel Pavlovitch's friend, desiring an introduction to the family—was expected, and looked forward to as a solemn and important occasion.
+
+Being an expert in such matters he very soon observed that there was even more than this in his reception. Judging from the extra politeness of the parents, and by the exceeding smartness of the young ladies, he could not help suspecting that Pavel Pavlovitch had been improving the occasion, and that he had—not, of course, in so many words—given to understand that Velchaninoff was a single man—dull and disconsolate, and had represented him as likely enough at any moment to change his manner of living and set up an establishment, especially as he had just come in for a considerable inheritance. He thought that Katerina Fedosievna, the eldest girl—twenty-four years of age, and a splendid girl according to Pavel's description—seemed rather “got up to kill,” from the look of her. She was eminent, even among her well-dressed sisters, for special elegance of costume, and for a certain originality about the make-up of her abundant hair.
+
+The rest of the girls all looked as though they were well aware that Velchaninoff was making acquaintance with the family “for Katie,” and had come down “to have a look at her.” Their looks and words all strengthened the impression that they were acting with this supposition in view, as the day went on.
+
+Katerina Fedosievna was a fine tall girl, rather plump, and with an extremely pleasing face. She seemed to be of a quiet, if not actually sleepy, disposition.
+
+“Strange, that such a fine girl should be unmarried,” thought Velchaninoff, as he watched her with much satisfaction.
+
+All the sisters were nice-looking, and there were several pretty faces among the friends assembled. Velchaninoff was much diverted by the presence of all these young ladies.
+
+Nadejda Fedosievna, the school-girl and bride elect of Pavel Pavlovitch, had not as yet condescended to appear. Velchaninoff awaited her coming with a degree of impatience which surprised and amused him. At last she came, and came with effect, too, accompanied by a lively girl, her friend—Maria Nikitishna—who was considerably older than herself and a very old friend of the family, having been governess in a neighbouring house for some years. She was quite one of the family, and boasted of about twenty-three years of age. She was much esteemed by all the girls, and evidently acted at present as guide, philosopher, and friend to Nadia (Nadejda). Velchaninoff saw at the first glance that all the girls were against Pavel Pavlovitch, friends and all; and when Nadia came in, it did not take him long to discover that she absolutely hated him. He observed, further, that Pavel Pavlovitch either did not, or would not , notice this fact.
+
+Nadia was the prettiest of all the girls—a little brunette , with an impudent audacious expression; she might have been a Nihilist from the independence of her look. The sly little creature had a pair of flashing eyes and a most charming smile, though as often as not her smile was more full of mischief and wickedness than of amiability; her lips and teeth were wonders; she was slender but well put together, and the expression of her face was thoughtful though at the same time childish.
+
+“Fifteen years old” was imprinted in every feature of her face and every motion of her body. It appeared afterwards that Pavel Pavlovitch had actually seen the girl for the first time with a little satchel in her hand, coming back from school. She had ceased to carry the satchel since that day.
+
+The present brought down by Pavel Pavlovitch proved a failure, and was the cause of a very painful impression.
+
+Pavel Pavlovitch no sooner saw his bride elect enter the room than he approached her with a broad grin on his face. He gave his present with the preface that he “offered it in recognition of the agreeable sensation experienced by him at his last visit upon the occasion of Nadejda Fedosievna singing a certain song to the pianoforte,” and there he stopped in confusion and stood before her lost and miserable, shoving the jeweller's box into her hand. Nadia, however, would not take the present, and drew her hands away.
+
+She approached her mother imperiously (the latter looked much put out), and said aloud: “I won't take it, mother.” Nadia was blushing with shame and anger.
+
+“Take it and say ‘thank you’ to Pavel Pavlovitch for it,” said her father quietly but firmly. He was very far from pleased.
+
+“Quite unnecessary, quite unnecessary!” he muttered to Pavel Pavlovitch.
+
+Nadia, seeing there was nothing else to be done, took the case and curtsied—just as children do, giving a little bob down and then a bob up again, as if she had been on springs.
+
+One of the sisters came across to look at the present whereupon Nadia handed it over to her unopened, thereby showing that she did not care so much as to look at it herself.
+
+The bracelet was taken out and handed around from one to the other of the company; but all examined it silently, and some even ironically, only the mother of the family muttered that the bracelet was “very pretty.”
+
+Pavel Pavlovitch would have been delighted to see the earth open and swallow him up.
+
+Velchaninoff helped the wretched man out of the mess. He suddenly began to talk loudly and eloquently about the first thing that struck him, and before five minutes had passed he had won the attention of everyone in the room. He was a wonderfully clever society talker. He had the knack of putting on an air of absolute sincerity, and of impressing his hearers with the belief that he considered them equally sincere; he was able to act the simple, careless, and happy young fellow to perfection. He was a master of the art of interlarding his talk with occasional flashes of real wit, apparently spontaneous but actually pre-arranged, and very likely stale , in so far that he had himself made the joke before.
+
+But to-day he was particularly successful; he felt that he must talk on and talk well, and he knew that before many moments were past he should succeed in monopolizing all eyes and all ears—that no joke should be laughed at but his own, and no voice heard but his.
+
+And sure enough the spell of his presence seemed to produce a wonderful effect; in a while the talking and laughter became general, with Velchaninoff as the centre and motor of all. Mrs. Zachlebnikoff's kind face lighted up with real pleasure, and Katie's pretty eyes were alight with absolute fascination, while her whole visage glowed with delight.
+
+Only Nadia frowned at him, and watched him keenly from beneath her dark lashes. It was clear that she was prejudiced against him. This last fact only roused Velchaninoff to greater exertions. The mischievous Maria Nikitishna, however, as Nadia's ally, succeeded in playing off a successful piece of chaff against Velchaninoff; she pretended that Pavel Pavlovitch had represented Velchaninoff as the friend of his childhood, thereby making the latter out to be some seven or eight years older than he really was. Velchaninoff liked the look of Maria, notwithstanding.
+
+Pavel Pavlovitch was the picture of perplexity. He quite understood the success which his “friend” was achieving, and at first he felt glad and proud of that success, laughing at the jokes and taking a share of the conversation; but for some reason or other he gradually relapsed into thoughtfulness, and thence into melancholy—which fact was sufficiently plain from the expression of his lugubrious and careworn physiognomy.
+
+“Well, my dear fellow, you are the sort of guest one need not exert oneself to entertain,” said old Zachlebnikoff at last, rising and making for his private study, where he had business of importance awaiting his attention; “and I was led to believe that you were the most morose of hypochondriacs. Dear me! what mistakes one does make about other people, to be sure!”
+
+There was a grand piano in the room, and Velchaninoff suddenly turned to Nadia and remarked:
+
+“You sing, don't you?”
+
+“Who told you I did?” said Nadia curtly.
+
+“Pavel Pavlovitch.”
+
+“It isn't true; I only sing for a joke—I have no voice.”
+
+“Oh, but I have no voice either, and yet I sing!”
+
+“Well, you sing to us first, and then I'll sing,” said Nadia, with sparkling eyes; “not now though—after dinner. I hate music,” she added, “I'm so sick of the piano. We have singing and strumming going on all day here;—and Katie is the only one of us all worth hearing!”
+
+Velchaninoff immediately attacked Katie, and besieged her with petitions to play. This attention from him to her eldest daughter so pleased mamma that she flushed up with satisfaction.
+
+Katie went to the piano, blushing like a school-girl, and evidently much ashamed of herself for blushing; she played some little piece of Haydn's correctly enough but without much expression.
+
+When she had finished Velchaninoff praised the music warmly—Haydn's music generally, and this little piece in particular. He looked at Katie too, with admiration, and his expression seemed to say. “By Jove, you're a fine girl!” So eloquent was his look that everyone in the room was able to read it, and especially Katie herself.
+
+“What a pretty garden you have!” said Velchaninoff after a short pause, looking through the glass doors of the balcony. “Let's all go out; may we?”
+
+“Oh, yes! do let's go out!” cried several voices together. He seemed to have hit upon the very thing most desired by all.
+
+So they all adjourned into the garden, and walked about there until dinner-time; and Velchaninoff had the opportunity of making closer acquaintance with some of the girls of the establishment. Two or three young fellows “dropped in” from the neighbouring houses—a student, a school-boy, and another young fellow of about twenty in a pair of huge spectacles. Each of these young fellows immediately attached himself to the particular young lady of his choice.
+
+The young man in spectacles no sooner arrived than he went aside with Nadia and Maria Nikitishna, and entered into an animated whispering conversation with them, with much frowning and impatience of manner.
+
+This gentleman seemed to consider it his mission to treat Pavel Pavlovitch with the most ineffable contempt.
+
+Some of the girls proposed a game. One of them suggested “Proverbs,” but it was voted dull; another suggested acting, but the objection was made that they never knew how to finish off.
+
+“It may be more successful with you,” said Nadia to Velchaninoff confidentially. “You know we all thought you were Pavel Pavlovitch's friend, but it appears that he was only boasting. I am very glad you have come—for a certain reason!” she added, looking knowingly into Velchaninoff's face, and then retreating back again to Maria's wing, blushing.
+
+“We'll play ‘Proverbs’ in the evening,” said another, “and we'll all chaff Pavel Pavlovitch; you must help us too!”
+
+“We are so glad you're come—it's so dull here as a rule,” said a third, a funny-looking red-haired girl, whose face was comically hot, with running apparently. Goodness knows where she had dropped from; Velchaninoff had not observed her arrive.
+
+Pavel Pavlovitch's agitation increased every moment. Meanwhile Velchaninoff took the opportunity of making great friends with Nadia. She had ceased to frown at him as before, and had now developed the wildest of spirits, dancing and jumping about, singing and whistling, and occasionally even catching hold of his hand in her innocent friendliness.
+
+She was very happy indeed, apparently; but she took no more notice of Pavel Pavlovitch than if he had not been there at all.
+
+Pavel Pavlovitch was very jealous of all this, and once or twice when Nadia and Velchaninoff talked apart, he joined them and rudely interrupted their conversation by interposing his anxious face between them.
+
+Katia could not help being fully aware by this time that their charming guest had not come in for her sake, as had been believed by the family; indeed, it was clear that Nadia interested him so much that she excluded everyone else, to a considerable extent, from his attention. However, in spite of this, her good-natured face retained its amiability of expression all the same. She seemed to be happy enough witnessing the happiness of the rest and listening to the merry talk; she could not take a large share in the conversation herself, poor girl!
+
+“What a fine girl your sister, Katerina Fedosievna is,” remarked Velchaninoff to Nadia.
+
+“Katia? I should think so! there is no better girl in the world. She's our family angel! I'm in love with her myself!” replied Nadia enthusiastically.
+
+At last, dinner was announced, and a very good dinner it was, several courses being added for the benefit of the guests: a bottle of tokay made its appearance, and champagne was handed round in honour of the occasion. The good humour of the company was general, old Zachlebnikoff was in high spirits, having partaken of an extra glass of wine this evening. So infectious was the hilarity that even Pavel Pavlovitch took heart of grace and made a pun. From the end of the table where he sat beside the lady of the house, there suddenly came a loud laugh from the delighted girls who had been fortunate enough to hear the virgin attempt.
+
+“Papa, papa, Pavel Pavlovitch has made a joke!” cried several at once: “he says that there is quite a ‘galaxy of gals’ here!”
+
+“Oho! he's made a pun too, has he?” cried the old fellow. “Well, what is it, let's have it!” He turned to Pavel Pavlovitch with beaming face, prepared to roar over the latter's joke.
+
+“Why, I tell you, he says there's quite a ‘galaxy of gals.’ ”
+
+“Well, go on, where's the joke?” repeated papa, still dense to the merits of the pun, but beaming more and more with benevolent desire to see it.
+
+“Oh, papa, how stupid you are not to see it. Why ‘gals’ and ‘galaxy,’ don't you see?—he says there's quite a gal-axy of gals!”
+
+“Oh! oh!” guffawed the old gentleman, “Ha-ha! Well, we'll hope he'll make a better one next time, that's all.”
+
+“Pavel Pavlovitch can't acquire all the perfections at once,” said Maria Nikitishna. “Oh, my goodness! he's swallowed a bone—look!” she added, jumping up from her chair.
+
+The alarm was general, and Maria's delight was great.
+
+Poor Pavel Pavlovitch had only choked over a glass of wine, which he seized and drank to hide his confusion; but Maria declared that it was a fishbone—that she had seen it herself, and that people had been known to die of swallowing a bone just like that.
+
+“Clap him on the back!” cried somebody.
+
+It appeared that there were numerous kind friends ready to perform this friendly office, and poor Pavel protested in vain that it was nothing but a common choke. The belabouring went on until the coughing fit was over, and it became evident that mischievous Maria was at the bottom of it all.
+
+After dinner old Mr. Zachlebnikoff retired for his post-prandial nap, bidding the young people enjoy themselves in the garden as best they might.
+
+“You enjoy yourself, too!” he added to Pavel Pavlovitch, tapping the latter's shoulder affably as he went by.
+
+When the party were all collected in the garden once more, Pavel suddenly approached Velchaninoff: “One moment,” he whispered, pulling the latter by the coat-sleeve.
+
+The two men went aside into a lonely by-path.
+
+“None of that here , please; I won't allow it here!” said Pavel Pavlovitch in a choking whisper.
+
+“None of what? Who?” asked Velchaninoff, staring with all his eyes.
+
+Pavel Pavlovitch said nothing more, but gazed furiously at his companion, his lips trembling in a desperate attempt at a pretended smile. At this moment the voices of several of the girls broke in upon them, calling them to some game. Velchaninoff shrugged his shoulders and re-joined the party. Pavel followed him.
+
+“I'm sure Pavel Pavlovitch was borrowing a handkerchief from you, wasn't he? He forgot his handkerchief last time too. Pavel Pavlovitch has forgotten his handkerchief again, and he has a cold as usual!” cried Maria.
+
+“Oh, Pavel Pavlovitch, why didn't you say so?” cried Mrs. Zachlebnikoff, making towards the house; “you shall have one at once.”
+
+In vain poor Pavel protested that he had two of those necessary articles, and was not suffering from a cold. Mrs. Zachlebnikoff was glad of the excuse for retiring to the house, and heard nothing. A few moments afterwards a maid pursued Pavel with a handkerchief, to the confusion of the latter gentleman.
+
+A game of “proverbs” was now proposed. All sat down, and the young man with spectacles was made to retire to a considerable distance and wait there with his nose close up against the wall and his back turned until the proverb should have been chosen and the words arranged. Velchaninoff was the next in turn to be the questioner.
+
+Then the cry arose for Pavel Pavlovitch, and the latter, who had more or less recovered his good humour by this time, proceeded to the spot indicated; and, resolved to do his duty like a man, took his stand with his nose to the wall, ready to stay there motionless until called. The red-haired young lady was detailed to watch him, in case of fraud on his part.
+
+No sooner, however, had the wretched Pavel taken up his position at the wall, than the whole party took to their heels and ran away as fast as their legs could carry them.
+
+“Run quick!” whispered the girls to Velchaninoff, in despair, for he had not started with them.
+
+“Why, what's happened? What's the matter?” asked the latter, keeping up as best he could.
+
+“Don't make a noise! we want to get away and let him go on standing there—that's all.”
+
+Katia, it appeared, did not like this practical joke. When the last stragglers of the party arrived at the end of the garden, among them Velchaninoff, the latter found Katia angrily scolding the rest of the girls.
+
+“Very well,” she was saying, “I won't tell mother this time; but I shall go away myself: it's too bad! What will the poor fellow's feelings be, standing all alone there, and finding us fled!”
+
+And off she went. The rest, however, were entirely unsympathizing, and enjoyed the joke thoroughly. Velchaninoff was entreated to appear entirely unconscious when Pavel Pavlovitch should appear again, just as though nothing whatever had happened. It was a full quarter of an hour before Pavel put in an appearance, two thirds, at least, of that time he must have stood at the wall. When he reached the party he found everyone busy over a game of Goriélki , laughing and shouting and making themselves thoroughly happy.
+
+Wild with rage, Pavel Pavlovitch again made straight for Velchaninoff, and tugged him by the coat-sleeve.
+
+“One moment, sir!”
+
+“Oh, my goodness! he's always coming in with his ‘one moments’ !” said someone.
+
+“A handkerchief wanted again probably!” shouted someone else after the pair as they retired.
+
+“Come now, this time it was you! You were the originator of this insult!” muttered Pavel, his teeth chattering with fury.
+
+Velchaninoff interrupted him, and strongly recommended Pavel to bestir himself to be merrier.
+
+“You are chaffed because you get angry,” he said; “if you try to be jolly instead of sulky you'll be let alone!”
+
+To his surprise these words impressed Pavel deeply; he was quiet at once, and returned to the party with a guilty air, and immediately began to take part in the games engaged in once more. He was not further bullied at present, and within half an hour his good humour seemed quite re-established.
+
+To Velchaninoff's astonishment, however, he never seemed to presume to speak to Nadia, although he kept as close to her, on all occasions, as he possibly could. He seemed to take his position as quite natural, and was not put out by her contemptuous air towards him.
+
+Pavel Pavlovitch was teased once more, however, before the evening ended.
+
+A game of “Hide-and-seek” was commenced, and Pavel had hidden in a small room in the house. Being observed entering there by someone, he was locked in, and left there raging for an hour. Meanwhile, Velchaninoff learned the “special reason” for Nadia's joy at his arrival. Maria conducted him to a lonely alley, where Nadia was awaiting him alone.
+
+“I have quite convinced myself,” began the latter, when they were left alone, “that you are not nearly so great a friend of Pavel Pavlovitch as he gave us to understand. I have also convinced myself that you alone can perform a certain great service for me. Here is his horrid bracelet” (she drew the case out of her pocket)— “I wish to ask you to be so kind as to return it to him; I cannot do so myself, because I am quite determined never to speak to him again all my life. You can tell him so from me, and better add that he is not to worry me with any more of his nasty presents. I'll let him know something else I have to say through other channels. Will you do this for me?”
+
+“Oh, for goodness sake, spare me!” cried Velchaninoff, almost wringing his hands.
+
+“How spare you?” cried poor Nadia. Her artificial tone put on for the occasion had collapsed at once before this check, and she was nearly crying. Velchaninoff burst out laughing.
+
+“I don't mean—I should be delighted, you know—but the thing is, I have my own accounts to settle with him!”
+
+“I knew you weren't his friend, and that he was lying. I shall never marry him—never! You may rely on that! I don't understand how he could dare—at all events, you really must give him back this horrid bracelet. What am I to do if you don't? I must have it given back to him this very day. He'll catch it if he interferes with father about me!”
+
+At this moment the spectacled young gentleman issued from the shrubs at their elbow.
+
+“You are bound to return the bracelet!” he burst out furiously, upon Velchaninoff, “if only out of respect to the rights of woman——”
+
+He did not finish the sentence, for Nadia pulled him away from beside Velchaninoff with all her strength.
+
+“How stupid you are,” she cried; “go away. How dare you listen? I told you to stand a long way off!” She stamped her foot with rage, and for some while after the young fellow had slunk away she continued to walk along with flashing eyes, furious with indignation. “You wouldn't believe how stupid he is!” she cried at last. “You laugh, but think of my feelings!”
+
+“That's not he , is it?” laughed Velchaninoff.
+
+“Of course not. How could you imagine such a thing! It's only his friend, and how he can choose such friends I can't understand! They say he is a ‘future motive-power,’ but I don't see it. Alexey Ivanovitch, for the last time—I have no one else to ask—will you give the bracelet back or not?”
+
+“Very well, I will. Give it to me!”
+
+“Oh, you dear, good Alexey Ivanovitch, thanks!” she cried, enthusiastic with delight. “I'll sing all the evening for that! I sing beautifully, you know! I was telling you a wicked story before dinner. Oh, I wish you would come down here again; I'd tell you all , then, and lots of other things besides—for you are a dear, kind, good fellow, like—like Katia!”
+
+And sure enough when they reached home she sat down and sang a couple of songs in a voice which, though entirely untrained, was of great natural sweetness and considerable strength.
+
+When the party returned from the garden they had found Pavel Pavlovitch drinking tea with the old folks on the balcony. He had probably been talking on serious topics, as he was to take his departure the day after to-morrow for nine months. He never so much as glanced at Velchaninoff and the rest when they entered; but he evidently had not complained to the authorities, and all was quiet as yet. But, when Nadia began to sing, he came in. Nadia did not answer a single one of his questions, but he did not seem offended by this, and took his stand behind her chair. Once there, his whole appearance gave it to be understood that that was his own place by right, and that he allowed none to dispute it.
+
+“It's Alexey Ivanovitch's turn to sing now!” cried the girls, when Nadia's song was finished, and all crowded round to hear Velchaninoff, who sat down to accompany himself. He chose a song of Glinke's, too much neglected nowadays; it ran:—
+
+“When from your  
+merry lips  
+Tenderness  
+flows,”  
+&c.
+
+Velchaninoff seemed to address the words to Nadia exclusively, but the whole party stood around him. His voice had long since gone the way of all flesh, but it was clear that he must have had a good one once, and it so happened that Velchaninoff had heard this particular song many years ago, from Glinkes' own lips, when a student at the university, and remembered the great effect that it had made upon him when he first heard it. The song was full of the most intense passion of expression, and Velchaninoff sang it well, with his eyes fixed upon Nadia.
+
+Amid the applause that followed the completion of the performance, Pavel Pavlovitch came forward, seized Nadia's hand and drew her away from the proximity of Velchaninoff; he then returned to the latter at the piano, and, with every evidence of frantic rage, whispered to him, his lips all of a tremble,
+
+“One moment with you!”
+
+Velchaninoff, seeing that the man was capable of worse things in his then frame of mind, took Pavel's hand and led him out through the balcony into the garden—quite dark now.
+
+“Do you understand, sir, that you must come away at once— this very minute ?” said Pavel Pavlovitch.
+
+“No, sir, I do not!”
+
+“Do you remember,” continued Pavel in his frenzied whisper, “do you remember that you begged me to tell you all , everything —down to the smallest details? Well, the time has come for telling you all—come!”
+
+Velchaninoff considered a moment, glanced once more at Pavel Pavlovitch, and consented to go.
+
+“Oh! stay and have another cup of tea!” said Mrs. Zachlebnikoff, when this decision was announced.
+
+“Pavel Pavlovitch, why are you taking Alexey Ivanovitch away?” cried the girls, with angry looks. As for Nadia, she looked so cross with Pavel, that the latter felt absolutely uncomfortable; but he did not give in.
+
+“Oh, but I am very much obliged to Pavel Pavlovitch,” said Velchaninoff, “for reminding me of some most important business which I must attend to this very evening, and which I might have forgotten,” laughed Velchaninoff, as he shook hands with his host and made his bow to the ladies, especially to Katia, as the family thought.
+
+“You must come again soon!” said the host; “we have been so glad to see you; it was so good of you to come!”
+
+“Yes, so glad!” said the lady of the house.
+
+“Do come again soon!” cried the girls, as Pavel Pavlovitch and Velchaninoff took their seats in the carriage; “Alexey Ivanovitch, do come back soon!” And with these voices in their ears they drove away.

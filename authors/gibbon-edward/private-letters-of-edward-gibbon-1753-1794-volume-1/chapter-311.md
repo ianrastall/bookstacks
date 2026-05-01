@@ -1,0 +1,19 @@
+---
+layout: book
+title: "309. To his Stepmother."
+chapter_order: 311
+book: "Private Letters of Edward Gibbon (1753-1794), Volume 1"
+author: "Edward Gibbon"
+---
+
+Bentinck Street, April the 14th, 1777.
+
+Dear Madam ,
+
+I will freely acknowledge that I was not a little surprized and even vexed at finding by your last letter, that you had conceived so strong a dislike to my intended journey. But I must add at the same time that I was equally sensible of the obliging frankness with which you communicate your objections. The less foundation I can discover for your apprehensions, the more I am convinced of the delicacy of your regard. True love is of very timid and even pusillanimous nature, and can easily transform the most harmless objects into horrid phantoms which appear to threaten the happiness of those who are dear to us. But when you have indulged the exquisite sensibility of friendship, you will, I am sure, make a proper use of your excellent understanding, and will soon smile at your own terrors. The constancy and danger of a twenty years' passion is a subject upon which I hardly know how to be serious. I am ignorant what effect that period of time has produced upon me, but I do assure you that it has committed very great ravages upon the Lady, and that at present she is very far from being an object either of desire or scandal. As a woman of talents and fortune she is at the head of the literature of Paris, the station of her husband procures her respect from the first people of the country, and the reception which I shall meet with in her house will give me advantages that have fallen to the share of few Englishmen. When I mention her house , I must remove the misapprehension which seems to have allarmed you. I shall visit but not lodge there. I have not the least reason to believe that they think of offering me an apartment, but if they do, I shall certainly refuse it, for the sake of my own comfort and freedom: So that the husband will be easy, the world will be mute, and my moral character will still preserve its immaculate purity.
+
+A moment's reflection will satisfy you that I have as little to fear from the hatred of the priests as from the love of Madame N. Whatever might be the wishes of the French Clergy, the wisdom of the Government and the liberal temper of the Nation have rendered those monsters perfectly inoffensive. Their own subjects (Voltaire for instance, who resides near Geneva, but in France) think, converse and write with the most unbounded freedom: and can you imagine that an English Protestant, a member of the British Legislature, living at Paris under the protection of his Minister, and in Society with their own, will be exposed to the smallest possible danger or even trouble for having published a profane book in a foreign language and country? When David Hume (the name, the most abhorred by the Godly) was at Paris, he was oppressed only with civilities; and the recent fame of my book is perhaps the circumstance which will introduce me with the most favour and eclat.
+
+The scheme of passing some months at Paris (though I have patiently waited till I could execute it with prudence and propriety) has been formed many years ago. I cannot persuade myself without any reason that strikes my understanding to renounce an expedition which promises so much entertainment and information: but it will be a very considerable alloy to my satisfaction if I leave any uneasiness or apprehension on your mind. I could very much have wished to fulfil my promise of an Easter visit; but I imagined that I had already explained how closely I was confined in town by my daily attendance on Dr. Hunter's lectures. They prevent my setting out for Paris till after the 25th instant, by which time I hope we shall have paid the King's debts. [358] You may depend on receiving regular though concise intelligence of my motions.
+
+I am, Dear Madam, Most truly yours, E. Gibbon .

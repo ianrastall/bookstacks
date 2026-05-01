@@ -1,0 +1,113 @@
+---
+layout: book
+title: "The Permanent Husband: CHAPTER VIII."
+chapter_order: 23
+book: "Uncle's Dream; and The Permanent Husband"
+author: "Fyodor Dostoevsky"
+---
+
+Next morning, while waiting for Pavel Pavlovitch, who had promised to be in good time in order to drive down to the Pogoryeltseffs with him, Velchaninoff walked up and down the room, sipped his coffee, and every other minute reflected upon one and the same idea; namely, that he felt like a man who had awaked from sleep with the deep impression of having received a box on the ear the last thing at night.
+
+“Hm!” he thought, anxiously, “he understands the state of the case only too well; he'll take it out of me by means of Liza!” The dear image of the poor little girl danced before his eyes. His heart beat quicker when he reflected that to-day—in a couple of hours—he would see his own Liza once more. “Yes—there's no question about it,” he said to himself; “my whole end and aim in life is there now! What do I care about all these ‘memories’ and boxes on the ear; and what have I lived for up to now?—for sorrow and discomfort—that's all! but now , now—it's all different!”
+
+But in spite of his ecstatic feelings he grew more and more thoughtful.
+
+“He is worrying me for Liza, that's plain; and he bullies Liza—he is going to take it out of me that way—for all ! Hm! at all events I cannot possibly allow such sallies as his of last night,” and Velchaninoff blushed hotly “and here's half-past eleven and he hasn't come yet.” He waited long—till half-past twelve, and his anguish of impatience grew more and more keen. Pavel Pavlovitch did not appear. At length the idea began to take shape that Pavel Pavlovitch naturally would not come again for the sole purpose of another scene like that of last night. The thought filled Velchaninoff with despair. “The brute knows I am depending upon him—and what on earth am I to do now about Liza? How can I make my appearance without him?”
+
+At last he could bear it no longer and set off to the Pokrofsky at one o'clock to look for Pavel Pavlovitch.
+
+At the lodging, Velchaninoff was informed that Pavel Pavlovitch had not been at home all night, and had only called in at nine o'clock, stayed a quarter of an hour, and had gone out again.
+
+Velchaninoff stood at the door listening to the servants' report, mechanically tried the handle, recollected himself, and asked to see Maria Sisevna.
+
+The latter obeyed his summons at once.
+
+She was a kind-hearted old creature, of generous feelings, as Velchaninoff described her afterwards to Claudia Petrovna. Having first enquired as to his journey yesterday with Liza, Maria launched into anecdotes of Pavel Pavlovitch. She declared that she would long ago have turned her lodger out neck and crop, but for the child. Pavel Pavlovitch had been turned out of the hotel for generally disreputable behaviour. “Oh, he does dreadful things!” she continued. “Fancy his telling the poor child, in anger, that she wasn't his daughter, but——”
+
+“Oh no, no! impossible!” cried Velchaninoff in alarm.
+
+“I heard it myself! She's only a small child, of course, but that sort of thing doesn't do before an intelligent child like her! She cried dreadfully—she was quite upset. We had a catastrophe in the house a short while since. Some commissionnaire or somebody took a room in the evening, and hung himself before morning. He had bolted with money, they say. Well, crowds of people came in to stare at him. Pavel Pavlovitch wasn't at home, but the child had escaped and was wandering about; and she must needs go with the rest to see the sight. I saw her looking at the suicide with an extraordinary expression, and carried her off at once, of course; and fancy, I hardly managed to get home with her—trembling all over she was—when off she goes in a dead faint, and it was all I could do to bring her round at all. I don't know whether she's epileptic or what—and ever since that she has been ill. When her father heard, he came and pinched her all over—he doesn't beat her; he always pinches her like that,—then he went out and got drunk somewhere, and came back and frightened her. ‘I'm going to hang myself too,’ he says, ‘because of you. I shall hang myself on that blind string there,’ he says, and he makes a loop in the string before her very eyes. The poor little thing went quite out of her mind with terror, and cried and clasped him round with her little arms. ‘I'll be good—I'll be good!’ she shrieks. It was a pitiful sight—it was, indeed!”
+
+Velchaninoff, though prepared for strange revelations concerning Pavel Pavlovitch and his ways, was quite dumbfounded by these tales; he could scarcely believe his ears.
+
+Maria Sisevna told him many more such little anecdotes. Among others, there was one occasion, when, if she (Maria) had not been by, Liza would have thrown herself out of the window.
+
+Pavel Pavlovitch had come staggering out of the room muttering, “I shall smash her head in with a stick! I shall murder her like a dog!” and he had gone away, repeating this over and over again to himself.
+
+Velchaninoff hired a carriage and set off towards the Pogoryeltseffs. Before he had left the town behind him, the carriage was delayed by a block at a cross road, just by a small bridge, over which was passing, at the moment, a long funeral procession. There were carriages waiting to move on on both sides of the bridge, and a considerable crowd of foot passengers besides.
+
+The funeral was evidently of some person of considerable importance, for the train of private and hired vehicles was a very long one; and at the window of one of these carriages in the procession Velchaninoff suddenly beheld the face of Pavel Pavlovitch.
+
+Velchaninoff would not have believed his eyes, but that Pavel Pavlovitch nodded his head and smiled to him. He seemed to be delighted to have recognised Velchaninoff; he even began to kiss his hand out of the window.
+
+Velchaninoff jumped out of his own vehicle, and in spite of policemen, crowd, and everything else, elbowed his way to Pavel Pavlovitch's carriage window. He found the latter sitting alone.
+
+“What are you doing?” he cried. “Why didn't you come to my house? Why are you here?”
+
+“I'm paying a debt; don't shout so! I'm repaying a debt,” said Pavel Pavlovitch, giggling and winking. “I'm escorting the mortal remains of my dear friend Stepan Michailovitch Bagantoff!”
+
+“What absurdity, you drunken, insane creature,” cried Velchaninoff louder than ever, and beside himself with outraged feeling. “Get out and come with me. Quick! get out instantly!”
+
+“I can't. It's a debt——”
+
+“I'll pull you out, then!” shouted Velchaninoff.
+
+“Then I'll scream, sir, I'll scream!” giggled Pavel Pavlovitch, as merrily as ever, just as though the whole thing was a joke. However, he retreated into the further corner of the carriage, all the same.
+
+“Look out, sir, look out! You'll be knocked down!” cried a policeman.
+
+Sure enough, an outside carriage was making its way on to the bridge from the side, stopping the procession, and causing a commotion. Velchaninoff was obliged to spring aside, and the press of carriages and people immediately separated him from Pavel Pavlovitch. He shrugged his shoulders and returned to his own vehicle.
+
+“It's all the same. I couldn't take such a fellow with me, anyhow,” he reflected, still all of a tremble with excitement and the rage of disgust. When he repeated Maria Sisevna's story, and his meeting at the funeral, to Claudia Petrovna afterwards, the latter became buried in deep thought.
+
+“I am anxious for you,” she said at last. “You must break off all relations with that man, and as soon as possible.”
+
+“Oh, he's nothing but a drunken fool!” cried Velchaninoff passionately; “as if I am to be afraid of him ! And how can I break off relations with him? Remember Liza!”
+
+Meanwhile Liza was lying ill; fever had set in last night, and an eminent doctor was momentarily expected from town! He had been sent for early this morning.
+
+These news quite upset Velchaninoff. Claudia Petrovna took him in to see the patient.
+
+“I observed her very carefully yesterday,” she said, stopping at the door of Liza's room before entering it. “She is a proud and morose child. She is ashamed of being with us, and of having been thrown over by her father. In my opinion that is the whole secret of her illness.”
+
+“How ‘thrown over’ ? Why do you suppose that he has thrown her over?”
+
+“The simple fact that he allowed her to come here to a strange house, and with a man who was also a stranger, or nearly so; or, at all events, with whom his relations were such that——”
+
+“Oh, but I took her myself, almost by force.”
+
+Liza was not surprised to see Velchaninoff alone. She only smiled bitterly, and turned her hot face to the wall. She made no reply to his passionate promises to bring her father down to-morrow without fail, or to his timid attempts at consolation.
+
+As soon as Velchaninoff left the sick child's presence, he burst into tears.
+
+The doctor did not arrive until evening. On seeing the patient he frightened everybody by his very first remark, observing that it was a pity he had not been sent for before.
+
+When informed that the child had only been taken ill last night, he could not believe it at first.
+
+“Well, it all depends upon how this night is passed,” he decided at last.
+
+Having made all necessary arrangements, he took his departure, promising to come as early as possible next morning.
+
+Velchaninoff was anxious to stay the night, but Claudia Petrovna begged him to try once more “to bring down that brute of a man.”
+
+“Try once more!” cried Velchaninoff, passionately; “why, I'll tie him hand and foot and bring him along myself!”
+
+The idea that he would tie Pavel Pavlovitch up and carry him down in his arms overpowered Velchaninoff, and filled him with impatience to execute his frantic desire.
+
+“I don't feel the slightest bit guilty before him any more,” he said to Claudia Petrovna, at parting, “and I withdraw all my servile, abject words of yesterday—all I said to you,” he added, wrathfully.
+
+Liza lay with closed eyes, apparently asleep; she seemed to be better. When Velchaninoff bent cautiously over her in order to kiss—if it were but the edge of her bed linen—she suddenly opened her eyes, just as though she had been waiting for him, and whispered, “Take me away!”
+
+It was but a quiet, sad petition—without a trace of yesterday's irritation; but at the same time there was that in her voice which betrayed that she made the request in the full knowledge that it could not be assented to.
+
+No sooner did Velchaninoff, in despair, begin to assure her as tenderly as he could that what she desired was impossible, than she silently closed her eyes and said not another word, just as though she neither saw nor heard him.
+
+Arrived in town Velchaninoff told his man to drive him to the Pokrofsky. It was ten o'clock at night.
+
+Pavel Pavlovitch was not at his lodgings. Velchaninoff waited for him half an hour, walking up and down the passage in a state of feverish impatience. Maria Sisevna assured him at last that Pavel Pavlovitch would not come in until the small hours.
+
+“Well, then, I'll return here before daylight,” he said, beside himself with desperation, and he went home to his own rooms.
+
+What was his amazement, when, on arriving at the gate of his house, he learned from Mavra that “yesterday's visitor” had been waiting for him ever since before ten o'clock.
+
+“He's had some tea,” she added, “and sent me for wine again—the same wine as yesterday. He gave me the money to buy it with.”

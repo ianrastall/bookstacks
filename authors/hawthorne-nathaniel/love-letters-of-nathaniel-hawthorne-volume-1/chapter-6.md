@@ -1,0 +1,27 @@
+---
+layout: book
+title: "TO MISS PEABODY: Salem , May 26 th , 1839"
+chapter_order: 6
+book: "Love Letters of Nathaniel Hawthorne, Volume 1"
+author: "Nathaniel Hawthorne"
+---
+
+Salem , May 26 th , 1839
+
+Mine own Self ,
+
+I felt rather dismal yesterday—a sort of vague weight on my spirit—a sense that something was wanting to me here. What or who could it have been that I so missed? I thought it not best to go to your house last evening; so that I have not yet seen Elizabeth—but we shall probably attend the Hurley-Burley tonight. Would that my Dove might be there! It seems really monstrous that here, in her own home—or what was her home, till she found another in my arms—she should no longer be. Oh, my dearest, I yearn for you, and my heart heaves when I think of you—(and that is always, but sometimes a thought makes me know and feel you more vividly than at others, and that I call "thinking of you")—heaves and swells (my heart does) as sometimes you have felt it beneath you, when your head was resting on it. At such moments it is stirred up from its depths. Then our two ocean-hearts mingle their floods.
+
+I do not believe that this letter will extend to three pages. My feelings do not, of their own accord, assume words—at least, not a continued flow of words. I write a few lines, and then I fall a-musing about many things, which seem to have no connection among themselves, save that my Dove flits lightly through them all. I feel as if my being were dissolved and the idea of you were diffused throughout it. Am I writing nonsense? That is for you to decide. You know what is Truth—"what is what"—and I should not dare to say to you what I felt to be other than the Truth—other than the very "what." It is very singular (but I do not suppose I can express it) that, while I love you so dearly, and while I am so conscious of the deep embrace of our spirits, still I have an awe of you that I never felt for anybody else. Awe is not the word, either; because it might imply something stern in you—whereas—but you must make it out for yourself. I do wish that I could put this into words—not so much for your satisfaction (because I believe you will understand) as for my own. I suppose I should have pretty much the same feeling if an angel were to come from Heaven and be my dearest friend—only the angel could not have the tenderest of human natures too, the sense of which is mingled with this sentiment. Perhaps it is because in meeting you, I really meet a spirit, whereas the obstructions of earth have prevented such a meeting in every other place. But I leave the mystery here. Some time or other, it may be made plainer to me. But methinks it converts my love into a religion. And then it is singular, too, that this awe (or whatever it be) does not prevent me from feeling that it is I who have the charge of you, and that my Dove is to follow my guidance and do my bidding. Am I not very bold to say this? And will not you rebel? Oh no; because I possess the power only so far as I love you. My love gives me the right, and your love consents to it.
+
+Since writing the above I have been asleep; and I dreamed that I had been sleeping a whole year in the open air; and that while I slept, the grass grew around me. It seemed, in my dream, that the very bed-clothes which actually covered me were spread beneath me, and when I awoke (in my dream) I snatched them up, and the earth under them looked black, as if it had been burnt—one square place, exactly the size of the bedclothes. Yet there was grass and herbage scattered over this burnt space, looking as fresh, and bright, and dewy, as if the summer rain and the summer sun had been cherishing them all the time. Interpret this for me, my Dove—but do not draw any somber omens from it. What is signified [by] my nap of a whole year? (It made me grieve to think that I had lost so much of eternity)—and what was the fire that blasted the spot of earth which I occupied, while the grass flourished all around?—And what comfort am I to draw from the fresh herbage amid the burnt space? But it is a silly dream, and you cannot expound any sense out of it. Generally, I cannot remember what my dreams have been—only there is a confused sense of having passed through adventures, pleasurable or otherwise. I suspect that you mingle with my dreams, but take care to flit away just before I awake, leaving me but dimly and doubtfully conscious of your visits.
+
+Do you never start so suddenly from a dream that you are afraid to look round the room, lest your dream-personages (so strong and distinct seemed their existence, a moment before) should have thrust themselves out of dream-land into the midst of realities? I do, sometimes.
+
+I wish I were to see you this evening. How many times have you thought of me today? All the time?—Or not at all? Did you ever read such a foolish letter as this? (Here I was interrupted, and have taken a stroll down on the Neck—a beautiful, beautiful, beautiful sunshine, and air, and sea. Would that my Dove had been with me. I fear that we shall perforce lose some of our mutual intimacy with Nature—we walk together so seldom that she will seem more like a stranger. Would that I could write such sweet letters to mine own self, as mine own self writes to me. Good bye, dearest self. Direct yours to
+
+Nath. Hawthorne, Esq. Custom-House, Boston.
+
+Miss Sophia A. Peabody, No. 4 Avon Place, Boston.
+
+TO MISS PEABODY

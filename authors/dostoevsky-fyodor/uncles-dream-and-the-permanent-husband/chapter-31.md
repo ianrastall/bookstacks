@@ -1,0 +1,113 @@
+---
+layout: book
+title: "The Permanent Husband: CHAPTER XVI."
+chapter_order: 31
+book: "Uncle's Dream; and The Permanent Husband"
+author: "Fyodor Dostoevsky"
+---
+
+A feeling of immense happiness took possession of Velchaninoff; something was finished, and done with, and settled. Some huge anxiety was at an end, so it seemed to him. This anxiety had lasted five weeks.
+
+He raised his hand and looked at the blood-stained rag bound about it.
+
+“Oh, yes!” he thought, “it is, indeed, all over now.”
+
+And all this morning—the first time for many a day, he did not even once think of Liza; just as if the blood from those cut fingers had wiped out that grief as well, and made him “quits” with it.
+
+He quite realized how terrible was the danger which he had passed through.
+
+“For those people,” he thought, “who do not know a minute or two before-hand that they are going to murder you, when they once get the knife into their hands, and feel the first touch of warm blood—Good Heaven! they not only cut your throat, they hack your head off afterwards—right off!”
+
+Velchaninoff could not sit at home, he must go out and let something happen to him, and he walked about in hopes of something turning up; he longed to talk , and it struck him that he might fairly go to the doctor and talk to him, and have his hand properly bound up.
+
+The doctor inquired how he hurt his hand, which made Velchaninoff laugh like mad; he was on the point of telling all, but refrained. Several times during the day he was on the point of telling others the whole story. Once it was to a perfect stranger in a restaurant, with whom he had begun to converse on his own initiative. Before this day he had hated the very idea of speaking to strangers in the public restaurants.
+
+He went into a shop and ordered some new clothes, not with the idea of visiting the Pogoryeltseffs however—the thought of any such visit was distasteful to him; besides he could not leave town, he felt that he must stay and see what was going to happen.
+
+Velchaninoff dined and enjoyed his dinner, talking affably to his neighbour and to the waiter as well. When evening fell he went home, his head was whirling a little, and he felt slightly delirious; the first sight of his rooms gave him quite a start. He walked round them and reflected. He visited the kitchen, which he had hardly ever done before in his life, and thought, “This is where they heated the plates last night.” He locked the doors carefully, and lit his candles earlier than usual. As he shut the door he remembered that he had asked Mavra, as he passed the dvornik's lodging, whether Pavel Pavlovitch had been. Just as if the latter could possibly have been near the place!
+
+Having then carefully locked himself in, he opened the little cupboard where his razors were kept, and took out “the” razor. There was still some of the blood on the bone handle. He put the razor back again, and locked the cupboard.
+
+He was sleepy; he felt that he must go to sleep as speedily as possible, otherwise he would be useless “for to-morrow,” and to-morrow seemed to him for some reason or other to be about to be a fateful day for him.
+
+But all those thoughts which had crowded in upon him all day, and had never left him for a moment, were still in full swing within his brain; he thought, and thought, and thought, and could not fall asleep.
+
+If Pavel Pavlovitch arrived at murdering point accidentally, had he ever seriously thought of murder even for a single evil instant before? Velchaninoff decided the question strangely enough: Pavel Pavlovitch had the desire to murder him, but did not himself know of the existence of this desire.
+
+“It seems an absurd conclusion; but so it is!” thought Velchaninoff.
+
+Pavel Pavlovitch did not come to Petersburg to look out for a new appointment, nor did he come for the sake of finding Bagantoff, in spite of his rage when the latter died. No! he despised Bagantoff thoroughly. Pavel Pavlovitch had come to St. Petersburg for him , and had brought Liza with him, for him alone, Velchaninoff.
+
+“Did I expect to have my throat cut?” Velchaninoff decided that he had expected it, from the moment when he saw Pavel Pavlovitch in the carriage following in Bagantoff's funeral procession. “That is I expected something—of course, not exactly to have my throat cut! And surely—surely, it was not all bonâ fide yesterday,” he reflected, raising his head from the pillow in the excitement of the idea. “ Surely it cannot have been all in good faith that that fellow assured me of his love for me, beating his breast, and with his under lip trembling, as he spoke!
+
+“Yes, it was absolutely bonâ fide !” he decided. “This quasimodo of T—— was quite good enough and generous enough to fall in love with his wife's lover—his wife in whom he never observed 'anything' during the twenty years of their married life.
+
+“He respected and loved me for nine years, and remembered both me and my sayings. My goodness, to think of that! and I knew nothing whatever of all this! Oh, no! he was not lying yesterday! But did he love me while he declared his love for me, and said that we must be ‘quits!’ Yes, he did, he loved me spitefully—and spiteful love is sometimes the strongest of all.
+
+“I daresay I made a colossal impression upon him down at T——, for it is just upon such Schiller-like men that one is liable to make a colossal impression. He exaggerated my value a thousand fold; perhaps it was my ‘philosophical retirement’ that struck him! It would be curious to discover precisely what it was that made so great an impression upon him. Who knows, it may have been that I wore a good pair of gloves, and knew how to put them on. These quasimodo fellows love æstheticism to distraction! Give them a start in the direction of admiration for yourself, and they will do all the rest, and give you a thousand times more than your due of every virtue that exists; will fight to the death for you with pleasure, if you ask it of them. How high he must have held my aptitude for illusionizing others; perhaps that has struck him as much as anything else! for he remarked: ‘If this man deceived me, whom am I ever to trust again!’
+
+“After such a cry as that a man may well turn wild beast.
+
+“And he came here to 'embrace and weep over me,' as he expressed it. H'm! that means he came to cut my throat, and thought that he came to embrace and weep over me. He brought Liza with him, too.
+
+“What if I had wept with him and embraced him? Perhaps he really would have fully and entirely forgiven me—for he was yearning to forgive me, I could see that! And all this turned to drunkenness and bestiality at the first check. Yes, Pavel Pavlovitch, the most deformed of all deformities is the abortion with noble feelings. And this man was foolish enough to take me down to see his ‘bride.’ My goodness! his bride! Only such a lunatic of a fellow could ever have developed so wild an idea as a ‘new existence’ to be inaugurated by an alliance between himself and Nadia. But you are not to blame, Pavel Pavlovitch, you are a deformity, and all your ideas and actions and aspirations must of necessity be deformed. But deformity though he be, why in the world was my sanction, my blessing, as it were, necessary to his union with Miss Zachlebnikoff? Perhaps he sincerely hoped that there, with so much sweet innocence and charm around us, we should fall into each other's arms in some leafy spot, and weep out our differences on each other's shoulders?
+
+“Was murder in his thoughts when I caught him standing between our beds that first time, in the darkness? No. I think not. And yet the first idea of it may have entered his soul as he stood there—And if I had not left the razors out, probably nothing would have happened. Surely that is so; for he avoided me for weeks—he was sorry for me, and avoided me. He chose Bagantoff to expend his wrath upon, first, not me! He jumped out of bed and fussed over the hot plates, to divert his mind from murder perhaps—from the knife to charity! Perhaps he tried to save both himself and me by his hot plates!”
+
+So mused Velchaninoff, his poor overwrought brain working on and on, and jumping from conclusion to conclusion with the endless activity of fever, until he fell asleep. Next morning he awoke with no less tired brain and body, but with a new terror, an unexpected and novel feeling of dread hanging over him.
+
+This dread consisted in the fact that he felt that he, Velchaninoff, must go and see Pavel Pavlovitch that very day; he knew not why he must go, but he felt drawn to go, as though by some unseen force. The idea was too loathsome to look into, so he left it to take care of itself as an unalterable fact. The madness of it, however, was modified, and the whole aspect of the thought became more reasonable, after a while, when it took shape and resolved itself into a conviction in Velchaninoff's mind that Pavel Pavlovitch had returned home, locked himself up, and hung himself to the bedpost, as Maria Sisevna had described of the wretched suicide witnessed by poor Liza.
+
+“Why should the fool hang himself?” he repeated over and over again; yet the thought would return that he was bound to hang himself, as Liza had said that he threatened to do. Velchaninoff could not help adding that if he were in Pavel Pavlovitch's place he would probably do the same.
+
+So the end of it was that instead of going out to his dinner, he set off for Pavel Pavlovitch's lodging, “just to ask Maria Sisevna after him.” But before he had reached the street he paused and his face flushed up with shame. “Surely I am not going there to embrace and weep over him! Surely I am not going to add this one last pitiful folly to the long list of my late shameful actions!”
+
+However, his good providence saved him from this “pitiful folly,” for he had hardly passed through the large gateway into the street, when Alexander Loboff suddenly collided with him. The young fellow was dashing along in a state of great excitement.
+
+“I was just coming to you. Our friend Pavel Pavlovitch—a nice sort of fellow he is——”
+
+“Has he hung himself?” gasped Velchaninoff.
+
+“Hung himself? Who? Why?” asked Loboff, with his eyes starting out of his head.
+
+“Oh! go on, I meant nothing!”
+
+“Tfu! What a funny line your thoughts seem to take. He hasn't hung himself a bit—why in the world should he?—on the contrary, he's gone away. I've just seen him off! My goodness, how that fellow can drink! We had three bottles of wine. Predposiloff was there too—but how the fellow drinks! Good heavens! he was singing in the carriage when the train went off! He thought of you, and kissed his hand to you, and sent his love. He's a scamp, that fellow, eh?”
+
+Young Loboff had apparently had quite his share of the three bottles, his face was flushed and his utterance thick. Velchaninoff roared with laughter.
+
+“So you ended up by weeping over each others shoulders, did you? Ha-ha-ha! Oh, you poetical, Schiller-ish, funny fellows, you!”
+
+“Don't scold us. You must know he went down there yesterday and to-day, and he has withdrawn. He ‘sneaked’ like anything about Nadia and me. They've shut her up. There was such a row, but we wouldn't give way—and, my word, how the fellow drinks! He was always talking about you; but, of course, he is no companion for you. You are, more or less, a respectable sort of man, and must have belonged to society at some time of your life, though you seem to have retired into private life just now. Is it poverty, or what? I couldn't make head or tail of Pavel Pavlovitch's story.”
+
+“Oh! Then it was he who gave you those interesting details about me?”
+
+“Yes; don't be cross about it. It's better to be a citizen than ‘a swell’ any-day! The thing is one does not know whom to respect in Russia nowadays! Don't you think it a diseased feature of the times, in Russia, that one doesn't know whom to respect?”
+
+“Quite so, quite so. Well, go on about Pavel Pavlovitch——”
+
+“Well, he sat down in the railway carriage and began singing, then he cried a bit. It was really disgusting to see the fellow. I hate fools! Then he began to throw money to beggars ‘for the repose of Liza's soul,’ he said. Is that his wife?”
+
+“Daughter.”
+
+“What's the matter with your hand?”
+
+“I cut it.”
+
+“H'm! Never mind, cheer up! It'll be all right soon! I am glad that fellow has gone, you know,—confound him! But I bet anything he'll marry as soon as he arrives at his place.”
+
+“Well, what of that? You are going to marry, too!”
+
+“I! That's quite a different affair! What a funny man you are! Why, if you are fifty, he must be sixty! Well, ta-ta! Glad I met you—can't come in—don't ask me—no time!”
+
+He started off at a run, but turned a minute after and came back.
+
+“What a fool I am!” he cried, “I forgot all about it—he sent you a letter. Here it is. How was it you didn't see him off? Ta-ta!”
+
+Velchaninoff returned home and opened the letter, which was sealed and addressed to himself.
+
+There was not a syllable inside in Pavel Pavlovitch's own hand writing; but he drew out another letter, and knew the writing at once. It was an old, faded, yellow-looking sheet of paper, and the ink was faint and discoloured; the letter was addressed to Velchaninoff, and written ten years before—a couple of months after his departure from T——. He had never received a copy of this one, but another letter, which he well remembered, had evidently been written and sent instead of it; he could tell that by the substance of the faded document in his hand. In this present letter Natalia Vasilievna bade farewell to him for ever (as she had done in the other communication), and informed him that she expected her confinement in a few months. She added, for his consolation, that she would find an opportunity of purveying his child to him in good time, and pointed out that their friendship was now cemented for ever. She begged him to love her no longer, because she could no longer return his love, but authorized him to pay a visit to T—— after a year's absence, in order to see the child. Goodness only knows why she had not sent this letter, but had changed it for another!
+
+Velchaninoff was deadly pale when he read this document; but he imagined Pavel Pavlovitch finding it in the family box of black wood with mother-of-pearl ornamentation and silver mounting, and reading it for the first time!
+
+“I should think he, too, grew as pale as a corpse,” he reflected, catching sight of his own face in the looking-glass. “Perhaps he read it and then closed his eyes and hoped and prayed that when he opened them again the dreadful letter would be nothing but a sheet of white paper once more! Perhaps the poor fellow tried this desperate expedient two or three times before he accepted the truth!”

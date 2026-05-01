@@ -1,0 +1,21 @@
+---
+layout: book
+title: "415. To his Stepmother."
+chapter_order: 417
+book: "Private Letters of Edward Gibbon (1753-1794), Volume 1"
+author: "Edward Gibbon"
+---
+
+Bentinck Street, April 13th, 1781.
+
+Dear Madam ,
+
+I am always obliged to you for waking me by a friendly pinch from my silent lethargy, and I think it most prudent to write before I fall asleep again.
+
+An author must always begin on the subject of his own work, the subject always most interesting to himself, but on this occasion he may assume the privilege of friendship and justly believe that it is not less interesting to you. Your praise has afforded me real satisfaction, not only because I wish to please you, but as I do not know any person (where questions of pure learning are concerned) from whose approbation I should derive more pride. To speak frankly, I am of your opinion with regard to the improvement of the style, nor is it very surprizing that my long practice should make a workman more expert and ready at his trade. I am curious to learn what passage in Prior you have in your eye: but as the works of that agreeable Poet are not extremely familiar to me, the resemblance is more probably the effect of chance than of design. The reception of these two volumes has been very unlike that of the first, and yet my vanity is so very dextrous, that I am not displeased with the difference. The effects of novelty could no longer operate, and the public was not surprized by the unexpected appearance of a new and unknown author. The progress of these two volumes has hitherto been quiet and silent. Almost everybody that reads has purchased, but few persons (comparatively) have read them; and I find that the greater number, satisfied that they have acquired a valuable fund of entertainment, differ the perusal to the summer, the country and a more quiet period. Yet I have reason to think, from the opinion of some judges, that my reputation has not suffered by this publication. The Clergy (such is the advantage of total loss of character) commend my decency and moderation: but the patriots wish to damn the work and the author.
+
+Mrs. Hester Gibbon is now in town and stays some weeks. Her house is repairing, and her old friend Mrs. Hutchinson [477] is just dead, without leaving her anything, at which Hester expresses more resentment than seems becoming in the character of a Saint. She is still healthy and sensible, refuses as formerly to enter my house, but appears pleased with my attentions, and those of Mrs. and Lady Porten and of Lord and Lady Sheffield, who have all visited her in Surrey Street. She enquired civilly and even quietly into your situation, and approved the sentiments which naturally fell from me.—When I sent you my book I likewise despatched another with a very polite letter to Port Eliot—A dead silence—I accidentally called in Spring Gardens to visit the son, and heard that the father had been three weeks or a month in town. I instantly wrote a note to express my surprize and concern,—a dead silence of four days terminated only by a mute, blank, formal visit. Mrs. Eliot however (they are an odd family) has called upon me this morning to announce her arrival; and I shall return her visit this evening.
+
+My health this winter has been perfect, without the slightest attack of the gout, and I rejoyce to hear that you revive with the Spring. A friend like Mrs. P. was a real loss, and I think with you that in such an intimate connection the heart is of much more importance than the head. Embrace in my name Sara and the tame cat. I hope the former is not offended with, and I am persuaded that the latter adores, me, but am much disappointed that her Bath residence has not produced any shining adventures: a pair of small, neat horns might peep very gracefully out of a laurel crown, which her husband well deserves, though I think with you that his effusions are too frequent and precipitate. [478] Adieu, dear Madam. I am still ignorant and indeed indifferent about the precise moment of my parliamentary beatification. Lord S. is chaired next Monday at Coventry; but it is needless to mention that family, as you hear the earliest and most copious accounts of them. Once more, Adieu!
+
+I am, Dear Madam, Most truly yours, E. Gibbon .

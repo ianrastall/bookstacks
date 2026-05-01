@@ -1,0 +1,15 @@
+---
+layout: book
+title: "574. The Hon. Maria Holroyd to Edward Gibbon."
+chapter_order: 157
+book: "Private Letters of Edward Gibbon (1753-1794), Volume 2"
+author: "Edward Gibbon"
+---
+
+Berne, Oct. 7th, 1791.
+
+The truth is, that I attempted to write to you, the day we arrived here, & found myself unequal to a longer account of things, than just to say—we are eighteen Leagues from Lausanne, & I have made the family lift up their hands & eyes in astonishment, by wishing to walk back that distance. I ought to express my Gratitude for all the kindness and attentions we have met with, during our stay in Switzerland, & if I was less sensible of it, I could compose a fine speech—but I can only say, I can feel, & I hope you will never find me ungrateful. Tuesday we slept at Avenches & arrived here at two o'clock on Wednesday. If you wish to know how we amused ourselves on the Road, I will tell you, by Meditation & Silence. If you wish to know what was the Subject of our Meditations I will answer for myself—Lausanne. Indeed, my Thoughts have not quitted that place, for five minutes, & I begin to wonder, whether I shall ever think of any thing else. Our horse, that had one Wooden & one broken Leg, fell down, & rather damaged a third Leg—so that, as Papa thought if any accident should happen to the fourth, we might find some difficulty in proceeding on our journey, & being rather indignant at their slow method of moving, he has dismissed them, rather too precipitately, as we are now uncertain whether we shall leave this Town to-morrow or a fortnight hence. No horses to be had at present.
+
+Yesterday we went to the Lac de Thun—the day was very fine, & we crossed the Lake to Mr. Fischer's house, where we found his Lady and Mother. We stopped at Mr. de Mulhinen's house in our return—& saw Mad e . de Mulhinen, who is a very pleasing Woman. Papa was so much pleased with the Lake that he lamented very much that he had not persuaded you & Severy to come with us there & stay two or three days. Perhaps you might have been inexorable, but I wish the other part of the scheme had been thought of a little sooner. I liked the expedition upon the lake very well, but it was not the Lake of Geneva, nor was the Boat St. J. Legard's; & yet, as there was a Lake & a Boat, there was resemblance enough, for me to make comparisons, to the disadvantage of the present time. Mr. Coxe gave Papa a Letter to Mr. Wyttenbach; he has been here, & walked about the Town with us on Wednesday evening, & has made me very happy by promising to send me a Collection of Alpine Plants. He is to take us this morning to shew us the World. Papa is gone with Mr. Fischer on horseback to see Farms. After dinner we are to go to the library, & to-morrow, if we can get horses, we shall go to Bienne. Mon r . Fredennick was here this morning, & every body seems to try who shall pay most attention. I wish they would try & be disagreeable, to make me rejoice at being on my return to England. Mon r . Wyttenbach is come & prevents me adding any more, than to assure you that I am your ever obliged & affec.
+
+M. T. Holroyd .

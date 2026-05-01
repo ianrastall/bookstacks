@@ -1,0 +1,25 @@
+---
+layout: book
+title: "TO MISS PEABODY: Brook Farm , October 18 th , Saturday [1841]"
+chapter_order: 19
+book: "Love Letters of Nathaniel Hawthorne, Volume 2"
+author: "Nathaniel Hawthorne"
+---
+
+Brook Farm , October 18 th , Saturday [1841]
+
+Most dear wife, I received thy letter and note, last night, and was much gladdened by them; for never has my soul so yearned for thee as now. But, belovedest, my spirit is moved to talk to thee to day about these magnetic miracles, and to beseech thee to take no part in them. I am unwilling that a power should be exercised on thee, of which we know neither the origin nor the consequence, and the phenomena of which seem rather calculated to bewilder us, than to teach us any truths about the present or future state of being. If I possessed such a power over thee, I should not dare to exercise it; nor can I consent to its being exercised by another. Supposing that this power arises from the transfusion of one spirit into another, it seems to me that the sacredness of an individual is violated by it; there would be an intrusion into thy holy of holies—and the intruder would not be thy husband! Canst thou think, without a shrinking of thy soul, of any human being coming into closer communion with thee than I may?—than either nature or my own sense of right would permit me? I cannot. And, dearest, thou must remember, too, that thou art now a part of me, and that, by surrendering thyself to the influence of this magnetic lady, thou surrenderest more than thine own moral and spiritual being—allowing that the influence is a moral and spiritual one. And, sweetest, I really do not like the idea of being brought, through thy medium, into such an intimate relation with Mrs. Park!
+
+Now, ownest wife, I have no faith whatever that people are raised to the seventh heaven, or to any heaven at all, or that they gain any insight into the mysteries of life beyond death, by means of this strange science. Without distrusting that the phenomena which thou tellest me of, and others as remarkable, have really occurred, I think that they are to be accounted for as the result of a physical and material, not of a spiritual, influence. Opium has produced many a brighter vision of heaven (and just as susceptible of proof) than those which thou recountest. They are dreams, my love—and such dreams as thy sweetest fancy, either waking or sleeping, could vastly improve upon. And what delusion can be more lamentable and mischievous, than to mistake the physical and material for the spiritual? What so miserable as to lose the soul's true, though hidden, knowledge and consciousness of heaven, in the mist of an earth-born vision? Thou shalt not do this. If thou wouldst know what heaven is, before thou comest thither hand in hand with thy husband, then retire into the depths of thine own spirit, and thou wilt find it there among holy thoughts and feelings; but do not degrade high Heaven and its inhabitants into any such symbols and forms as those which Miss Larned describes—do not let an earthly effluence from Mrs. Park's corporeal system bewilder thee, and perhaps contaminate something spiritual and sacred. I should as soon think of seeking revelations of the future state in the rottenness of the grave—where so many do seek it.
+
+Belovedest wife, I am sensible that these arguments of mine may appear to have little real weight; indeed, what I write does no sort of justice to what I think. But I care the less for this, because I know that my deep and earnest feeling upon the subject will weigh more with thee than all the arguments in the world. And thou wilt know that the view which I take of this matter is caused by no want of faith in mysteries, but from a deep reverence of the soul, and of the mysteries which it knows within itself, but never transmits to the earthly eye or ear. Keep thy imagination sane—that is one of the truest conditions of communion with Heaven.
+
+Dearest, after these grave considerations, it seems hardly worth while to submit a merely external one; but as it occurs to me, I will write it. I cannot think, without invincible repugnance, of thy holy name being bruited abroad in connection with these magnetic phenomena. Some (horrible thought!) would pronounce my Dove an impostor; the great majority would deem thee crazed; and even the few believers would feel a sort of interest in thee, which it would be anything but pleasant to excite. And what adequate motive can there be for exposing thyself to all this misconception? Thou wilt say, perhaps, that thy visions and experiences would never be known. But Miss Larned's are known to all who choose to listen.
+
+October 19th. Monday.—Most beloved, what a preachment have I made to thee! I love thee, I love thee, I love thee, most infinitely. Love is the true magnetism. What carest thou for any other? Belovedest, it is probable that thou wilt see thy husband tomorrow. Art thou magnificent? God bless thee. What a bright day is here; but the woods are fading now. It is time I were in the city, for the winter.
+
+Thine Ownest.
+
+Miss Sophia A. Peabody, Care of Dr. N. Peabody, Boston, Mass.
+
+TO MISS PEABODY
