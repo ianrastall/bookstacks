@@ -10,18 +10,26 @@ layout: default
     </div>
     <p class="tool-description">By {{ page.author }}</p>
     
-    <div class="toc-tree">
-        <ol class="toc-list toc-depth-1">
+    <nav class="toc-tree" aria-label="Table of contents">
+        <ol class="toc-list toc-list-regular">
             {% assign book_pages = site.pages | where: "layout", "book" %}
             {% assign chapters = book_pages | where_exp: "chapter", "chapter.url contains page.url" | sort: "chapter_order" %}
+            {% assign current_toc_section = "" %}
             {% for chapter in chapters %}
+                {% assign toc_section = chapter.toc_section | default: "" %}
+                {% if toc_section != "" and toc_section != current_toc_section %}
+                    <li class="toc-section-heading">{{ toc_section }}</li>
+                    {% assign current_toc_section = toc_section %}
+                {% elsif toc_section == "" %}
+                    {% assign current_toc_section = "" %}
+                {% endif %}
                 <li class="toc-item">
                     <a class="toc-link" href="{{ chapter.url | relative_url }}">
                         <span class="toc-link-index">{{ chapter.chapter_order }}</span>
-                        <span class="toc-link-title">{{ chapter.title }}</span>
+                        <span class="toc-link-title">{{ chapter.toc_title | default: chapter.title }}</span>
                     </a>
                 </li>
             {% endfor %}
         </ol>
-    </div>
+    </nav>
 </section>

@@ -9,18 +9,18 @@ title: Home
             <h2>Library</h2>
         </div>
     </div>
-    {% assign authors = site.pages | where: "layout", "author_index" | sort: "author_name" %}
+    {% assign authors = site.pages | where: "layout", "author_index" | sort: "url" %}
     {% assign books = site.pages | where: "layout", "book_index" %}
     {% assign chapters = site.pages | where: "layout", "book" %}
     <p class="tool-description">A curated index of public domain texts, with {{ authors.size }} authors, {{ books.size }} books, and {{ chapters.size }} chapters.</p>
     
     <div class="tool-grid">
         {% for author in authors %}
-        <a class="tool-card" href="{{ author.url | relative_url }}">
+        <a class="tool-card author-card" href="{{ author.url | relative_url }}">
             <div class="tool-icon">
                 <span class="material-icons">person</span>
             </div>
-            <h3>{{ author.author_name }}</h3>
+            <h3 class="author-name">{% include author_name.html name=author.author_name url=author.url %}</h3>
         </a>
         {% endfor %}
     </div>

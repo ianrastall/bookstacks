@@ -1,0 +1,16 @@
+{%- assign author_name = include.name | default: "" -%}
+{%- assign author_url = include.url | default: "" -%}
+{%- assign author_slug = author_url | split: "/authors/" | last | split: "/" | first -%}
+{%- assign surname_slug = author_slug | split: "-" | first -%}
+{%- assign name_parts = author_name | split: " " -%}
+{%- assign rendered_name = "" -%}
+{%- for name_part in name_parts -%}
+{%- assign normalized_part = name_part | downcase | replace: ".", "" | replace: ",", "" | replace: "'", "" | replace: "’", "" -%}
+{%- capture rendered_part -%}{% if normalized_part == surname_slug %}<strong>{{ name_part }}</strong>{% else %}{{ name_part }}{% endif %}{%- endcapture -%}
+{%- if forloop.first -%}
+{%- assign rendered_name = rendered_part -%}
+{%- else -%}
+{%- assign rendered_name = rendered_name | append: " " | append: rendered_part -%}
+{%- endif -%}
+{%- endfor -%}
+{{- rendered_name -}}
