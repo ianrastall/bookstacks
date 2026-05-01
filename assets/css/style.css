@@ -634,11 +634,34 @@ a.btn {
     text-decoration: none;
 }
 
+.chapter-container {
+    --reader-width: 44rem;
+    --chapter-sidebar-width: 13rem;
+    --chapter-layout-gap: clamp(2rem, 5vw, 4rem);
+    --chapter-layout-width: calc(var(--reader-width) + var(--chapter-sidebar-width) + var(--chapter-layout-gap));
+}
+
+.chapter-header {
+    max-width: var(--chapter-layout-width);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.chapter-layout {
+    display: grid;
+    grid-template-columns: minmax(0, var(--reader-width)) minmax(11rem, var(--chapter-sidebar-width));
+    gap: var(--chapter-layout-gap);
+    align-items: start;
+    max-width: var(--chapter-layout-width);
+    margin: 0 auto;
+}
+
 .reader-content {
     font-size: 1rem;
     line-height: 1.75;
-    max-width: none;
+    max-width: var(--reader-width, 44rem);
     margin: 0;
+    min-width: 0;
 }
 
 .reader-content > * + * {
@@ -785,24 +808,28 @@ a.btn {
     color: var(--accent);
 }
 
-.chapter-header {
-    margin-bottom: 1.25rem;
-}
-
 .chapter-breadcrumbs-inline {
     margin: 0;
     font-size: 0.95rem;
 }
 
+.chapter-sidebar {
+    position: sticky;
+    top: 1.5rem;
+}
+
 .chapter-navigation {
-    display: flex;
+    display: grid;
     gap: 0.75rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: none;
-    margin: 3rem 0 0;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--border-color);
+    max-width: var(--chapter-sidebar-width, 13rem);
+    margin: 0;
+}
+
+.chapter-nav-button {
+    width: 100%;
+    justify-content: center;
+    min-height: 2.5rem;
+    white-space: nowrap;
 }
 
 .is-disabled {
@@ -815,8 +842,33 @@ a.btn {
     .toc-list {
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
+}
+
+@media (max-width: 960px) {
+    .chapter-header,
+    .chapter-layout {
+        max-width: var(--reader-width, 44rem);
+    }
+
+    .chapter-layout {
+        display: block;
+    }
+
+    .chapter-sidebar {
+        position: static;
+        margin-top: 2rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--border-color);
+    }
 
     .chapter-navigation {
-        justify-content: flex-start;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        max-width: none;
+    }
+}
+
+@media (max-width: 560px) {
+    .chapter-navigation {
+        grid-template-columns: 1fr;
     }
 }

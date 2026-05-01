@@ -5,8 +5,24 @@ layout: default
 {% assign author_slug = url_parts[2] %}
 {% assign book_slug = url_parts[3] %}
 {% assign book_url = '/authors/' | append: author_slug | append: '/' | append: book_slug | append: '/' %}
+{% assign book_pages = site.pages | where: "layout", "book" %}
+{% assign chapters = book_pages | where_exp: "chapter", "chapter.url contains book_url" | sort: "chapter_order" %}
+{% assign previous_chapter = nil %}
+{% assign next_chapter = nil %}
+{% assign found_current = false %}
+{% for chapter in chapters %}
+    {% if found_current %}
+        {% assign next_chapter = chapter %}
+        {% break %}
+    {% endif %}
+    {% if chapter.url == page.url %}
+        {% assign found_current = true %}
+    {% else %}
+        {% assign previous_chapter = chapter %}
+    {% endif %}
+{% endfor %}
 
-<section class="tool-container">
+<section class="tool-container chapter-container">
     
     <div class="tool-header chapter-header">
         <nav class="chapter-breadcrumbs chapter-breadcrumbs-inline" aria-label="Breadcrumb">
@@ -18,16 +34,44 @@ layout: default
         </nav>
     </div>
 
-    <article class="reader-content">
-        <h2 class="navchap">{{ page.title }}</h2>
-        {{ content }}
-    </article>
+    <div class="chapter-layout">
+        <article class="reader-content">
+            <h2 class="navchap">{{ page.title }}</h2>
+            {{ content }}
+        </article>
 
-    <nav class="chapter-navigation" style="margin-top: 40px; border-top: 1px solid var(--border-color); padding-top: 20px;">
-        <a class="btn btn-primary" href="{{ book_url | relative_url }}">
-            <span class="material-icons" style="vertical-align: middle; margin-right: 5px;">menu_book</span>
-            Table of Contents
-        </a>
-    </nav>
+        <aside class="chapter-sidebar">
+            <nav class="chapter-navigation" aria-label="Chapter navigation">
+                {% if previous_chapter %}
+                    <a class="btn btn-secondary chapter-nav-button" href="{{ previous_chapter.url | relative_url }}">
+                        <span class="material-icons" aria-hidden="true">arrow_back</span>
+                        Previous
+                    </a>
+                {% else %}
+                    <span class="btn btn-secondary chapter-nav-button is-disabled" aria-disabled="true">
+                        <span class="material-icons" aria-hidden="true">arrow_back</span>
+                        Previous
+                    </span>
+                {% endif %}
+
+                <a class="btn btn-primary chapter-nav-button" href="{{ book_url | relative_url }}">
+                    <span class="material-icons" aria-hidden="true">menu_book</span>
+                    Contents
+                </a>
+
+                {% if next_chapter %}
+                    <a class="btn btn-secondary chapter-nav-button" href="{{ next_chapter.url | relative_url }}">
+                        Next
+                        <span class="material-icons" aria-hidden="true">arrow_forward</span>
+                    </a>
+                {% else %}
+                    <span class="btn btn-secondary chapter-nav-button is-disabled" aria-disabled="true">
+                        Next
+                        <span class="material-icons" aria-hidden="true">arrow_forward</span>
+                    </span>
+                {% endif %}
+            </nav>
+        </aside>
+    </div>
 
 </section>
