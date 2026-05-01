@@ -17,7 +17,14 @@ layout: default
     <p class="tool-description">Books by {{ page.author_name }}</p>
     
     <div class="tool-grid">
-        {% assign books = site.pages | where_exp: "book", "book.layout == 'book_index' and book.url contains page.url" | sort: "book_title" %}
+        {% assign candidate_books = site.pages | where: "layout", "book_index" | sort: "book_title" %}
+        {% assign books = "" | split: "" %}
+        {% for book in candidate_books %}
+            {% if book.url contains page.url %}
+                {% assign books = books | push: book %}
+            {% endif %}
+        {% endfor %}
+        
         {% for book in books %}
         <a class="tool-card" href="{{ book.url | relative_url }}">
             <div class="tool-icon">
