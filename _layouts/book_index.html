@@ -12,7 +12,8 @@ layout: default
     
     <div class="toc-tree">
         <ol class="toc-list toc-depth-1">
-            {% assign chapters = site.pages | where_exp: "chapter", "chapter.layout == 'book' and chapter.url contains page.url" | sort: "chapter_order" %}
+            {% assign book_pages = site.pages | where: "layout", "book" %}
+            {% assign chapters = book_pages | where_exp: "chapter", "chapter.url contains page.url" | sort: "chapter_order" %}
             {% for chapter in chapters %}
                 <li class="toc-item">
                     <a class="toc-link" href="{{ chapter.url | relative_url }}">
