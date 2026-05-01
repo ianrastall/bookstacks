@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<section class="tool-container">
+    <div class="tool-header">
+        <div class="tool-title">
+            <span class="material-icons">person</span>
+            <h2>{{ page.author_name }}</h2>
+        </div>
+        <div class="tool-actions">
+            <a class="btn btn-secondary btn-compact" href="{{ '/' | relative_url }}">
+                <span class="material-icons">home</span>
+                Home
+            </a>
+        </div>
+    </div>
+    <p class="tool-description">Books by {{ page.author_name }}</p>
+    
+    <div class="tool-grid">
+        {% assign books = site.pages | where_exp: "book", "book.layout == 'book_index' and book.url contains page.url" | sort: "book_title" %}
+        {% for book in books %}
+        <a class="tool-card" href="{{ book.url | relative_url }}">
+            <div class="tool-icon">
+                <span class="material-icons">menu_book</span>
+            </div>
+            <h3>{{ book.book_title }}</h3>
+        </a>
+        {% endfor %}
+    </div>
+</section>

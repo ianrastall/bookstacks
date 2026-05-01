@@ -1,0 +1,989 @@
+---
+layout: book
+title: "ACT III"
+chapter_order: 4
+book: "All's Well That Ends Well"
+author: "William Shakespeare"
+---
+
+## SCENE I. Florence. A room in the Duke’s palace.
+
+*Flourish. Enter the DUKE OF FLORENCE attended;
+two French Lords, and Soldiers.*
+
+**DUKE.**
+
+So that, from point to point, now have you heard
+The fundamental reasons of this war,
+Whose great decision hath much blood let forth,
+And more thirsts after.
+
+**FIRST LORD.**
+
+Holy seems the quarrel
+Upon your Grace’s part; black and fearful
+On the opposer.
+
+**DUKE.**
+
+Therefore we marvel much our cousin France
+Would, in so just a business, shut his bosom
+Against our borrowing prayers.
+
+**SECOND LORD.**
+
+Good my lord,
+The reasons of our state I cannot yield,
+But like a common and an outward man
+That the great figure of a council frames
+By self-unable motion; therefore dare not
+Say what I think of it, since I have found
+Myself in my incertain grounds to fail
+As often as I guess’d.
+
+**DUKE.**
+
+Be it his pleasure.
+
+**FIRST LORD.**
+
+But I am sure the younger of our nature,
+That surfeit on their ease, will day by day
+Come here for physic.
+
+**DUKE.**
+
+Welcome shall they be;
+And all the honours that can fly from us
+Shall on them settle. You know your places well;
+When better fall, for your avails they fell.
+Tomorrow to the field.
+
+*Flourish. Exeunt.*
+
+## SCENE II. Rossillon. A room in the Countess’s palace.
+
+*Enter COUNTESS and CLOWN.*
+
+**COUNTESS.**
+
+It hath happen’d all as I would have had it, save that he comes not along with
+her.
+
+**CLOWN.**
+
+By my troth, I take my young lord to be a very melancholy man.
+
+**COUNTESS.**
+
+By what observance, I pray you?
+
+**CLOWN.**
+
+Why, he will look upon his boot and sing; mend the ruff and sing; ask questions
+and sing; pick his teeth and sing. I know a man that had this trick of
+melancholy sold a goodly manor for a song.
+
+**COUNTESS.**
+
+Let me see what he writes, and when he means to come.
+
+*Opening a letter.*
+
+**CLOWN.**
+
+I have no mind to Isbel since I was at court. Our old lings and our Isbels o’
+th’ country are nothing like your old ling and your Isbels o’ th’ court. The
+brains of my Cupid’s knock’d out, and I begin to love, as an old man loves
+money, with no stomach.
+
+**COUNTESS.**
+
+What have we here?
+
+**CLOWN.**
+
+E’en that you have there.
+
+*Exit.*
+
+**COUNTESS.**
+
+[*Reads.*] *I have sent you a daughter-in-law; she hath recovered the
+king and undone me. I have wedded her, not bedded her, and sworn to make the
+“not” eternal. You shall hear I am run away; know it before the report come. If
+there be breadth enough in the world, I will hold a long distance. My duty to
+you. Your unfortunate son,*
+BERTRAM.
+
+**This is not well, rash and unbridled boy,**
+
+To fly the favours of so good a king,
+To pluck his indignation on thy head
+By the misprizing of a maid too virtuous
+For the contempt of empire.
+
+*Enter CLOWN.*
+
+**CLOWN.**
+
+O madam, yonder is heavy news within between two soldiers and my young lady.
+
+**COUNTESS.**
+
+What is the matter?
+
+**CLOWN.**
+
+Nay, there is some comfort in the news, some comfort; your son will not be
+kill’d so soon as I thought he would.
+
+**COUNTESS.**
+
+Why should he be kill’d?
+
+**CLOWN.**
+
+So say I, madam, if he run away, as I hear he does; the danger is in standing
+to’t; that’s the loss of men, though it be the getting of children. Here they
+come will tell you more. For my part, I only hear your son was run away.
+
+*Exit.*
+
+*Enter HELENA and the two GENTLEMEN.*
+
+**FIRST GENTLEMAN.**
+
+Save you, good madam.
+
+**HELENA.**
+
+Madam, my lord is gone, for ever gone.
+
+**SECOND GENTLEMAN.**
+
+Do not say so.
+
+**COUNTESS.**
+
+Think upon patience. Pray you, gentlemen,—
+I have felt so many quirks of joy and grief
+That the first face of neither on the start
+Can woman me unto ’t. Where is my son, I pray you?
+
+**SECOND GENTLEMAN.**
+
+Madam, he’s gone to serve the Duke of Florence;
+We met him thitherward, for thence we came,
+And, after some despatch in hand at court,
+Thither we bend again.
+
+**HELENA.**
+
+Look on this letter, madam; here’s my passport.
+
+**[ Reads. ] When thou canst get the ring upon my finger, which never shall come off, and show me a child begotten of thy body that I am father to, then call me husband; but in such a “then” I write a “never”.**
+
+This is a dreadful sentence.
+
+**COUNTESS.**
+
+Brought you this letter, gentlemen?
+
+**FIRST GENTLEMAN.**
+
+Ay, madam; And for the contents’ sake, are sorry for our pains.
+
+**COUNTESS.**
+
+I pr’ythee, lady, have a better cheer;
+If thou engrossest all the griefs are thine,
+Thou robb’st me of a moiety. He was my son,
+But I do wash his name out of my blood,
+And thou art all my child. Towards Florence is he?
+
+**SECOND GENTLEMAN.**
+
+Ay, madam.
+
+**COUNTESS.**
+
+And to be a soldier?
+
+**SECOND GENTLEMAN.**
+
+Such is his noble purpose, and, believe’t,
+The duke will lay upon him all the honour
+That good convenience claims.
+
+**COUNTESS.**
+
+Return you thither?
+
+**FIRST GENTLEMAN.**
+
+Ay, madam, with the swiftest wing of speed.
+
+**HELENA.**
+
+[*Reads.*] *Till I have no wife, I have nothing in France.*
+’Tis bitter.
+
+**COUNTESS.**
+
+Find you that there?
+
+**HELENA.**
+
+Ay, madam.
+
+**FIRST GENTLEMAN.**
+
+’Tis but the boldness of his hand haply, which his heart was not consenting to.
+
+**COUNTESS.**
+
+Nothing in France until he have no wife!
+There’s nothing here that is too good for him
+But only she, and she deserves a lord
+That twenty such rude boys might tend upon,
+And call her hourly mistress. Who was with him?
+
+**FIRST GENTLEMAN.**
+
+A servant only, and a gentleman which I have sometime known.
+
+**COUNTESS.**
+
+Parolles, was it not?
+
+**FIRST GENTLEMAN.**
+
+Ay, my good lady, he.
+
+**COUNTESS.**
+
+A very tainted fellow, and full of wickedness.
+My son corrupts a well-derived nature
+With his inducement.
+
+**FIRST GENTLEMAN.**
+
+Indeed, good lady,
+The fellow has a deal of that too much,
+Which holds him much to have.
+
+**COUNTESS.**
+
+Y’are welcome, gentlemen.
+I will entreat you, when you see my son,
+To tell him that his sword can never win
+The honour that he loses: more I’ll entreat you
+Written to bear along.
+
+**SECOND GENTLEMAN.**
+
+We serve you, madam,
+In that and all your worthiest affairs.
+
+**COUNTESS.**
+
+Not so, but as we change our courtesies.
+Will you draw near?
+
+*Exeunt COUNTESS and GENTLEMEN.*
+
+**HELENA.**
+
+“Till I have no wife, I have nothing in France.”
+Nothing in France until he has no wife!
+Thou shalt have none, Rossillon, none in France;
+Then hast thou all again. Poor lord, is’t I
+That chase thee from thy country, and expose
+Those tender limbs of thine to the event
+Of the none-sparing war? And is it I
+That drive thee from the sportive court, where thou
+Wast shot at with fair eyes, to be the mark
+Of smoky muskets? O you leaden messengers,
+That ride upon the violent speed of fire,
+Fly with false aim; move the still-peering air,
+That sings with piercing; do not touch my lord.
+Whoever shoots at him, I set him there;
+Whoever charges on his forward breast,
+I am the caitiff that do hold him to’t;
+And though I kill him not, I am the cause
+His death was so effected. Better ’twere
+I met the ravin lion when he roar’d
+With sharp constraint of hunger; better ’twere
+That all the miseries which nature owes
+Were mine at once. No; come thou home, Rossillon,
+Whence honour but of danger wins a scar,
+As oft it loses all. I will be gone;
+My being here it is that holds thee hence.
+Shall I stay here to do’t? No, no, although
+The air of paradise did fan the house,
+And angels offic’d all. I will be gone,
+That pitiful rumour may report my flight
+To consolate thine ear. Come, night; end, day;
+For with the dark, poor thief, I’ll steal away.
+
+*Exit.*
+
+## SCENE III. Florence. Before the Duke’s palace.
+
+*Flourish. Enter the DUKE OF FLORENCE, BERTRAM,
+drum and trumpets, Soldiers,PAROLLES.*
+
+**DUKE.**
+
+The general of our horse thou art, and we,
+Great in our hope, lay our best love and credence
+Upon thy promising fortune.
+
+**BERTRAM.**
+
+Sir, it is
+A charge too heavy for my strength; but yet
+We’ll strive to bear it for your worthy sake
+To th’extreme edge of hazard.
+
+**DUKE.**
+
+Then go thou forth;
+And fortune play upon thy prosperous helm,
+As thy auspicious mistress!
+
+**BERTRAM.**
+
+This very day,
+Great Mars, I put myself into thy file;
+Make me but like my thoughts, and I shall prove
+A lover of thy drum, hater of love.
+
+*Exeunt.*
+
+## SCENE IV. Rossillon. A room in the Countess’s palace.
+
+*Enter COUNTESS and STEWARD.*
+
+**COUNTESS.**
+
+Alas! and would you take the letter of her?
+Might you not know she would do as she has done,
+By sending me a letter? Read it again.
+
+**STEWARD.**
+
+[*Reads.*] *I am Saint Jaques’ pilgrim, thither gone.
+Ambitious love hath so in me offended
+That barefoot plod I the cold ground upon,
+With sainted vow my faults to have amended.
+Write, write, that from the bloody course of war
+My dearest master, your dear son, may hie.
+Bless him at home in peace, whilst I from far
+His name with zealous fervour sanctify.
+His taken labours bid him me forgive;
+I, his despiteful Juno, sent him forth
+From courtly friends, with camping foes to live,
+Where death and danger dog the heels of worth.
+He is too good and fair for death and me;
+Whom I myself embrace to set him free.*
+
+**COUNTESS.**
+
+Ah, what sharp stings are in her mildest words!
+Rynaldo, you did never lack advice so much
+As letting her pass so; had I spoke with her,
+I could have well diverted her intents,
+Which thus she hath prevented.
+
+**STEWARD.**
+
+Pardon me, madam;
+If I had given you this at over-night,
+She might have been o’erta’en; and yet she writes
+Pursuit would be but vain.
+
+**COUNTESS.**
+
+What angel shall
+Bless this unworthy husband? He cannot thrive,
+Unless her prayers, whom heaven delights to hear
+And loves to grant, reprieve him from the wrath
+Of greatest justice. Write, write, Rynaldo,
+To this unworthy husband of his wife;
+Let every word weigh heavy of her worth,
+That he does weigh too light; my greatest grief,
+Though little he do feel it, set down sharply.
+Dispatch the most convenient messenger.
+When haply he shall hear that she is gone
+He will return; and hope I may that she,
+Hearing so much, will speed her foot again,
+Led hither by pure love. Which of them both
+Is dearest to me I have no skill in sense
+To make distinction. Provide this messenger.
+My heart is heavy, and mine age is weak;
+Grief would have tears, and sorrow bids me speak.
+
+*Exeunt.*
+
+## SCENE V. Without the walls of Florence.
+
+*Enter an old WIDOW OF FLORENCE, DIANA, VIOLENTA,
+MARIANA and other CITIZENS.*
+
+**WIDOW.**
+
+Nay, come; for if they do approach the city, we shall lose all the sight.
+
+**DIANA.**
+
+They say the French count has done most honourable service.
+
+**WIDOW.**
+
+It is reported that he has taken their great’st commander, and that with his
+own hand he slew the duke’s brother.
+
+*A tucket afar off.*
+
+**MARIANA.**
+
+Come, let’s return again, and suffice ourselves with the report of it. Well,
+Diana, take heed of this French earl; the honour of a maid is her name; and no
+legacy is so rich as honesty.
+
+**WIDOW.**
+
+I have told my neighbour how you have been solicited by a gentleman his
+companion.
+
+**MARIANA.**
+
+I know that knave; hang him! one Parolles; a filthy officer he is in those
+suggestions for the young earl. Beware of them, Diana; their promises,
+enticements, oaths, tokens, and all these engines of lust, are not the things
+they go under; many a maid hath been seduced by them; and the misery is,
+example, that so terrible shows in the wreck of maidenhood, cannot for all that
+dissuade succession, but that they are limed with the twigs that threaten them.
+I hope I need not to advise you further; but I hope your own grace will keep
+you where you are, though there were no further danger known but the modesty
+which is so lost.
+
+**DIANA.**
+
+You shall not need to fear me.
+
+*Enter HELENA in the dress of a pilgrim.*
+
+**WIDOW.**
+
+I hope so. Look, here comes a pilgrim. I know she will lie at my house; thither
+they send one another; I’ll question her. God save you, pilgrim! Whither are
+bound?
+
+**HELENA.**
+
+To Saint Jaques le Grand.
+Where do the palmers lodge, I do beseech you?
+
+**WIDOW.**
+
+At the Saint Francis here, beside the port.
+
+**HELENA.**
+
+Is this the way?
+
+*A march afar.*
+
+**WIDOW.**
+
+Ay, marry, is’t. Hark you, they come this way.
+If you will tarry, holy pilgrim,
+But till the troops come by,
+I will conduct you where you shall be lodg’d;
+The rather for I think I know your hostess
+As ample as myself.
+
+**HELENA.**
+
+Is it yourself?
+
+**WIDOW.**
+
+If you shall please so, pilgrim.
+
+**HELENA.**
+
+I thank you, and will stay upon your leisure.
+
+**WIDOW.**
+
+You came, I think, from France?
+
+**HELENA.**
+
+I did so.
+
+**WIDOW.**
+
+Here you shall see a countryman of yours
+That has done worthy service.
+
+**HELENA.**
+
+His name, I pray you.
+
+**DIANA.**
+
+The Count Rossillon. Know you such a one?
+
+**HELENA.**
+
+But by the ear, that hears most nobly of him;
+His face I know not.
+
+**DIANA.**
+
+Whatsome’er he is,
+He’s bravely taken here. He stole from France,
+As ’tis reported, for the king had married him
+Against his liking. Think you it is so?
+
+**HELENA.**
+
+Ay, surely, mere the truth; I know his lady.
+
+**DIANA.**
+
+There is a gentleman that serves the count
+Reports but coarsely of her.
+
+**HELENA.**
+
+What’s his name?
+
+**DIANA.**
+
+Monsieur Parolles.
+
+**HELENA.**
+
+O, I believe with him,
+In argument of praise, or to the worth
+Of the great count himself, she is too mean
+To have her name repeated; all her deserving
+Is a reserved honesty, and that
+I have not heard examin’d.
+
+**DIANA.**
+
+Alas, poor lady!
+’Tis a hard bondage to become the wife
+Of a detesting lord.
+
+**WIDOW.**
+
+Ay, right; good creature, wheresoe’er she is,
+Her heart weighs sadly. This young maid might do her
+A shrewd turn, if she pleas’d.
+
+**HELENA.**
+
+How do you mean?
+Maybe the amorous count solicits her
+In the unlawful purpose.
+
+**WIDOW.**
+
+He does indeed,
+And brokes with all that can in such a suit
+Corrupt the tender honour of a maid;
+But she is arm’d for him, and keeps her guard
+In honestest defence.
+
+*Enter, with a drum and colours, a party of the Florentine army, BERTRAM and PAROLLES.*
+
+**MARIANA.**
+
+The gods forbid else!
+
+**WIDOW.**
+
+So, now they come.
+That is Antonio, the Duke’s eldest son;
+That Escalus.
+
+**HELENA.**
+
+Which is the Frenchman?
+
+**DIANA.**
+
+He;
+That with the plume; ’tis a most gallant fellow.
+I would he lov’d his wife; if he were honester
+He were much goodlier. Is’t not a handsome gentleman?
+
+**HELENA.**
+
+I like him well.
+
+**DIANA.**
+
+’Tis pity he is not honest. Yond’s that same knave
+That leads him to these places. Were I his lady
+I would poison that vile rascal.
+
+**HELENA.**
+
+Which is he?
+
+**DIANA.**
+
+That jack-an-apes with scarfs. Why is he melancholy?
+
+**HELENA.**
+
+Perchance he’s hurt i’ the battle.
+
+**PAROLLES.**
+
+Lose our drum! Well.
+
+**MARIANA.**
+
+He’s shrewdly vex’d at something. Look, he has spied us.
+
+**WIDOW.**
+
+Marry, hang you!
+
+**MARIANA.**
+
+And your courtesy, for a ring-carrier!
+
+*Exeunt BERTRAM, PAROLLES, OFFICERS and SOLDIERS.*
+
+**WIDOW.**
+
+The troop is past. Come, pilgrim, I will bring you
+Where you shall host; of enjoin’d penitents
+There’s four or five, to great Saint Jaques bound,
+Already at my house.
+
+**HELENA.**
+
+I humbly thank you.
+Please it this matron and this gentle maid
+To eat with us tonight; the charge and thanking
+Shall be for me; and, to requite you further,
+I will bestow some precepts of this virgin,
+Worthy the note.
+
+**BOTH.**
+
+We’ll take your offer kindly.
+
+*Exeunt.*
+
+## SCENE VI. Camp before Florence.
+
+*Enter BERTRAM and the two French LORDS.*
+
+**FIRST LORD.**
+
+Nay, good my lord, put him to’t; let him have his way.
+
+**SECOND LORD.**
+
+If your lordship find him not a hilding, hold me no more in your respect.
+
+**FIRST LORD.**
+
+On my life, my lord, a bubble.
+
+**BERTRAM.**
+
+Do you think I am so far deceived in him?
+
+**FIRST LORD.**
+
+Believe it, my lord, in mine own direct knowledge, without any malice, but to
+speak of him as my kinsman, he’s a most notable coward, an infinite and endless
+liar, an hourly promise-breaker, the owner of no one good quality worthy your
+lordship’s entertainment.
+
+**SECOND LORD.**
+
+It were fit you knew him; lest, reposing too far in his virtue, which he hath
+not, he might at some great and trusty business, in a main danger fail you.
+
+**BERTRAM.**
+
+I would I knew in what particular action to try him.
+
+**SECOND LORD.**
+
+None better than to let him fetch off his drum, which you hear him so
+confidently undertake to do.
+
+**FIRST LORD.**
+
+I with a troop of Florentines will suddenly surprise him; such I will have whom
+I am sure he knows not from the enemy; we will bind and hoodwink him so that he
+shall suppose no other but that he is carried into the leaguer of the
+adversaries when we bring him to our own tents. Be but your lordship present at
+his examination; if he do not for the promise of his life, and in the highest
+compulsion of base fear, offer to betray you, and deliver all the intelligence
+in his power against you, and that with the divine forfeit of his soul upon
+oath, never trust my judgment in anything.
+
+**SECOND LORD.**
+
+O, for the love of laughter, let him fetch his drum; he says he has a stratagem
+for’t. When your lordship sees the bottom of his success in’t, and to what
+metal this counterfeit lump of ore will be melted, if you give him not John
+Drum’s entertainment, your inclining cannot be removed. Here he comes.
+
+*Enter PAROLLES.*
+
+**FIRST LORD.**
+
+O, for the love of laughter, hinder not the honour of his design: let him fetch
+off his drum in any hand.
+
+**BERTRAM.**
+
+How now, monsieur! This drum sticks sorely in your disposition.
+
+**SECOND LORD.**
+
+A pox on ’t; let it go; ’tis but a drum.
+
+**PAROLLES.**
+
+But a drum! Is’t but a drum? A drum so lost! There was excellent command, to
+charge in with our horse upon our own wings, and to rend our own soldiers.
+
+**SECOND LORD.**
+
+That was not to be blam’d in the command of the service; it was a disaster of
+war that Caesar himself could not have prevented, if he had been there to
+command.
+
+**BERTRAM.**
+
+Well, we cannot greatly condemn our success: some dishonour we had in the loss
+of that drum, but it is not to be recovered.
+
+**PAROLLES.**
+
+It might have been recovered.
+
+**BERTRAM.**
+
+It might, but it is not now.
+
+**PAROLLES.**
+
+It is to be recovered. But that the merit of service is seldom attributed to
+the true and exact performer, I would have that drum or another, or *hic
+jacet*.
+
+**BERTRAM.**
+
+Why, if you have a stomach, to’t, monsieur, if you think your mystery in
+stratagem can bring this instrument of honour again into his native quarter, be
+magnanimous in the enterprise, and go on; I will grace the attempt for a worthy
+exploit; if you speed well in it, the duke shall both speak of it and extend to
+you what further becomes his greatness, even to the utmost syllable of your
+worthiness.
+
+**PAROLLES.**
+
+By the hand of a soldier, I will undertake it.
+
+**BERTRAM.**
+
+But you must not now slumber in it.
+
+**PAROLLES.**
+
+I’ll about it this evening; and I will presently pen down my dilemmas,
+encourage myself in my certainty, put myself into my mortal preparation; and by
+midnight look to hear further from me.
+
+**BERTRAM.**
+
+May I be bold to acquaint his grace you are gone about it?
+
+**PAROLLES.**
+
+I know not what the success will be, my lord, but the attempt I vow.
+
+**BERTRAM.**
+
+I know th’art valiant; and to the possibility of thy soldiership, will
+subscribe for thee. Farewell.
+
+**PAROLLES.**
+
+I love not many words.
+
+*Exit.*
+
+**FIRST LORD.**
+
+No more than a fish loves water. Is not this a strange fellow, my lord, that so
+confidently seems to undertake this business, which he knows is not to be done;
+damns himself to do, and dares better be damn’d than to do’t.
+
+**SECOND LORD.**
+
+You do not know him, my lord, as we do; certain it is that he will steal
+himself into a man’s favour, and for a week escape a great deal of discoveries,
+but when you find him out, you have him ever after.
+
+**BERTRAM.**
+
+Why, do you think he will make no deed at all of this, that so seriously he
+does address himself unto?
+
+**FIRST LORD.**
+
+None in the world; but return with an invention, and clap upon you two or three
+probable lies; but we have almost embossed him; you shall see his fall tonight;
+for indeed he is not for your lordship’s respect.
+
+**SECOND LORD.**
+
+We’ll make you some sport with the fox ere we case him. He was first smok’d by
+the old Lord Lafew; when his disguise and he is parted, tell me what a sprat
+you shall find him; which you shall see this very night.
+
+**FIRST LORD.**
+
+I must go look my twigs. He shall be caught.
+
+**BERTRAM.**
+
+Your brother, he shall go along with me.
+
+**FIRST LORD.**
+
+As’t please your lordship. I’ll leave you.
+
+*Exit.*
+
+**BERTRAM.**
+
+Now will I lead you to the house, and show you
+The lass I spoke of.
+
+**SECOND LORD.**
+
+But you say she’s honest.
+
+**BERTRAM.**
+
+That’s all the fault. I spoke with her but once,
+And found her wondrous cold, but I sent to her
+By this same coxcomb that we have i’ the wind
+Tokens and letters which she did re-send,
+And this is all I have done. She’s a fair creature;
+Will you go see her?
+
+**SECOND LORD.**
+
+With all my heart, my lord.
+
+*Exeunt.*
+
+## SCENE VII. Florence. A room in the Widow’s house.
+
+*Enter HELENA and WIDOW.*
+
+**HELENA.**
+
+If you misdoubt me that I am not she,
+I know not how I shall assure you further,
+But I shall lose the grounds I work upon.
+
+**WIDOW.**
+
+Though my estate be fall’n, I was well born,
+Nothing acquainted with these businesses,
+And would not put my reputation now
+In any staining act.
+
+**HELENA.**
+
+Nor would I wish you.
+First give me trust, the count he is my husband,
+And what to your sworn counsel I have spoken
+Is so from word to word; and then you cannot,
+By the good aid that I of you shall borrow,
+Err in bestowing it.
+
+**WIDOW.**
+
+I should believe you,
+For you have show’d me that which well approves
+Y’are great in fortune.
+
+**HELENA.**
+
+Take this purse of gold,
+And let me buy your friendly help thus far,
+Which I will over-pay, and pay again
+When I have found it. The count he woos your daughter
+Lays down his wanton siege before her beauty,
+Resolv’d to carry her; let her in fine consent,
+As we’ll direct her how ’tis best to bear it.
+Now his important blood will naught deny
+That she’ll demand; a ring the county wears,
+That downward hath succeeded in his house
+From son to son, some four or five descents
+Since the first father wore it. This ring he holds
+In most rich choice; yet, in his idle fire,
+To buy his will, it would not seem too dear,
+Howe’er repented after.
+
+**WIDOW.**
+
+Now I see
+The bottom of your purpose.
+
+**HELENA.**
+
+You see it lawful then; it is no more
+But that your daughter, ere she seems as won,
+Desires this ring; appoints him an encounter;
+In fine, delivers me to fill the time,
+Herself most chastely absent. After,
+To marry her, I’ll add three thousand crowns
+To what is pass’d already.
+
+**WIDOW.**
+
+I have yielded.
+Instruct my daughter how she shall persever,
+That time and place with this deceit so lawful
+May prove coherent. Every night he comes
+With musics of all sorts, and songs compos’d
+To her unworthiness: it nothing steads us
+To chide him from our eaves; for he persists
+As if his life lay on ’t.
+
+**HELENA.**
+
+Why then tonight
+Let us assay our plot; which, if it speed,
+Is wicked meaning in a lawful deed,
+And lawful meaning in a lawful act,
+Where both not sin, and yet a sinful fact.
+But let’s about it.
+
+*Exeunt.*

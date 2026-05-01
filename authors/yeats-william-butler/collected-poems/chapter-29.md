@@ -1,0 +1,16 @@
+---
+layout: book
+title: "The Travail of Passion"
+chapter_order: 29
+book: "Collected Poems"
+author: "William Butler Yeats"
+---
+
+When the flaming lute-thronged angelic door is wide;
+When an immortal passion breathes in mortal clay;
+Our hearts endure the scourge, the plaited thorns, the way
+Crowded with bitter faces, the wounds in palm and side,
+The hyssop-heavy sponge, the flowers by Kidron stream:
+We will bend down and loosen our hair over you,
+That it may drop faint perfume, and be heavy with dew,
+Lilies of death-pale hope, roses of passionate dream.

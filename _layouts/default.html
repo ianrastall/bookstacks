@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <script>
+        (function () {
+            try {
+                const storedTheme = localStorage.getItem('theme');
+                const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+                const resolvedTheme = storedTheme === 'light' || storedTheme === 'dark' ? storedTheme : (prefersLight ? 'light' : 'dark');
+                document.documentElement.setAttribute('data-theme', resolvedTheme);
+            } catch (_) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        {% include header.html %}
+        
+        <main>
+            <div class="main-grid">
+                {{ content }}
+            </div>
+        </main>
+
+        {% include footer.html %}
+    </div>
+
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</body>
+</html>

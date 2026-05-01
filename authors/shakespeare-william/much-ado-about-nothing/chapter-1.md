@@ -1,0 +1,29 @@
+---
+layout: book
+title: "Dramatis Personæ"
+chapter_order: 1
+book: "Much Ado About Nothing"
+author: "William Shakespeare"
+---
+
+**DON PEDRO, Prince of Arragon.**
+
+DON JOHN, his bastard Brother.
+CLAUDIO, a young Lord of Florence.
+BENEDICK, a young Lord of Padua.
+LEONATO, Governor of Messina.
+ANTONIO, his Brother.
+BALTHASAR, Servant to Don Pedro.
+BORACHIO, follower of Don John.
+CONRADE, follower of Don John.
+DOGBERRY, a Constable.
+VERGES, a Headborough.
+FRIAR FRANCIS.
+A Sexton.
+A Boy.
+
+**HERO, Daughter to Leonato.**
+
+BEATRICE, Niece to Leonato.
+MARGARET, Waiting gentlewoman attending on Hero.
+URSULA, Waiting gentlewoman attending on Hero.

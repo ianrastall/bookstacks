@@ -1,0 +1,149 @@
+---
+layout: book
+title: "V"
+chapter_order: 5
+book: "The Gambler"
+author: "Fyodor Dostoevsky"
+---
+
+Yes, she had been extraordinarily meditative. Yet, on leaving the table, she immediately ordered me to accompany her for a walk. We took the children with us, and set out for the fountain in the Park.
+
+I was in such an irritated frame of mind that in rude and abrupt fashion I blurted out a question as to “why our Marquis de Griers had ceased to accompany her for strolls, or to speak to her for days together.”
+
+“Because he is a brute,” she replied in rather a curious way. It was the first time that I had heard her speak so of De Griers: consequently, I was momentarily awed into silence by this expression of resentment.
+
+“Have you noticed, too, that today he is by no means on good terms with the General?” I went on.
+
+“Yes—and I suppose you want to know why,” she replied with dry captiousness. “You are aware, are you not, that the General is mortgaged to the Marquis, with all his property? Consequently, if the General’s mother does not die, the Frenchman will become the absolute possessor of everything which he now holds only in pledge.”
+
+“Then it is really the case that everything is mortgaged? I have heard rumours to that effect, but was unaware how far they might be true.”
+
+“Yes, theyaretrue. What then?”
+
+“Why, it will be a case of ‘Farewell, Mlle. Blanche,’” I remarked; “for in such an event she would never become Madame General. Do you know, I believe the old man is so much in love with her that he will shoot himself if she should throw him over. At his age it is a dangerous thing to fall in love.”
+
+“Yes, something, I believe,willhappen to him,” assented Polina thoughtfully.
+
+“And what a fine thing it all is!” I continued. “Could anything be more abominable than the way in which she has agreed to marry for money alone? Not one of the decencies has been observed; the whole affair has taken place without the least ceremony. And as for the grandmother, what could be more comical, yet more dastardly, than the sending of telegram after telegram to know if she is dead? What do you think of it, Polina Alexandrovna?”
+
+“Yes, it is very horrible,” she interrupted with a shudder. “Consequently, I am the more surprised thatyoushould be so cheerful. What areyouso pleased about? About the fact that you have gone and lost my money?”
+
+“What? The money that you gave me to lose? I told you I should never win for other people—least of all for you. I obeyed you simply because you ordered me to; but you must not blame me for the result. I warned you that no good would ever come of it. You seem much depressed at having lost your money. Why do you need it so greatly?”
+
+“Why doyouask me these questions?”
+
+“Because you promised to explain matters to me. Listen. I am certain that, as soon as ever I ‘begin to play for myself’ (and I still have 120 gülden left), I shall win. You can then take of me what you require.”
+
+She made a contemptuous grimace.
+
+“You must not be angry with me,” I continued, “for making such a proposal. I am so conscious of being only a nonentity in your eyes that you need not mind accepting money from me. A gift from me could not possibly offend you. Moreover, it was I who lost your gülden.”
+
+She glanced at me, but, seeing that I was in an irritable, sarcastic mood, changed the subject.
+
+“My affairs cannot possibly interest you,” she said. “Still, if youdowish to know, I am in debt. I borrowed some money, and must pay it back again. I have a curious, senseless idea that I am bound to win at the gaming-tables. Why I think so I cannot tell, but I do think so, and with some assurance. Perhaps it is because of that assurance that I now find myself without any other resource.”
+
+“Or perhaps it is because it is sonecessaryfor you to win. It is like a drowning man catching at a straw. You yourself will agree that, unless he were drowning he would not mistake a straw for the trunk of a tree.”
+
+Polina looked surprised.
+
+“What?” she said. “Do not you also hope something from it? Did you not tell me again and again, two weeks ago, that you were certain of winning at roulette if you played here? And did you not ask me not to consider you a fool for doing so? Were you joking? You cannot have been, for I remember that you spoke with a gravity which forbade the idea of your jesting.”
+
+“True,” I replied gloomily. “I always felt certain that I should win. Indeed, what you say makes me ask myself—Why have my absurd, senseless losses of today raised a doubt in my mind? Yet I amstillpositive that, so soon as ever I begin to play for myself, I shall infallibly win.”
+
+“And why are you so certain?”
+
+“To tell the truth, I do not know. I only know that Imustwin—that it is the one resource I have left. Yes, why do I feel so assured on the point?”
+
+“Perhaps because one cannot help winning if one is fanatically certain of doing so.”
+
+“Yet I dare wager that you do not think me capable of serious feeling in the matter?”
+
+“I do not care whether you are so or not,” answered Polina with calm indifference. “Well, since you ask me, Idodoubt your ability to take anything seriously. You are capable of worrying, but not deeply. You are too ill-regulated and unsettled a person for that. But why do you want money? Not a single one of the reasons which you have given can be looked upon as serious.”
+
+“By the way,” I interrupted, “you say you want to pay off a debt. It must be a large one. Is it to the Frenchman?”
+
+“What do you mean by asking all these questions? You are very clever today. Surely you are not drunk?”
+
+“You know that you and I stand on no ceremony, and that sometimes I put to you very plain questions. I repeat that I am your slave—and slaves cannot be shamed or offended.”
+
+“You talk like a child. It is always possible to comport oneself with dignity. If one has a quarrel it ought to elevate rather than to degrade one.”
+
+“A maxim straight from the copybook! Suppose Icannotcomport myself with dignity. By that I mean that, though I am a man of self-respect, I am unable to carry off a situation properly. Do you know the reason? It is because we Russians are too richly and multifariously gifted to be able at once to find the proper mode of expression. It is all a question of mode. Most of us are so bounteously endowed with intellect as to require also a spice of genius to choose the right form of behaviour. And genius is lacking in us for the reason that so little genius at all exists. It belongs only to the French—though a few other Europeans have elaborated their forms so well as to be able to figure with extreme dignity, and yet be wholly undignified persons. That is why, with us, the mode is so all-important. The Frenchman may receive an insult—a real, a venomous insult: yet, he will not so much as frown. But a tweaking of the nose he cannot bear, for the reason that such an act is an infringement of the accepted, of the time-hallowed order of decorum. That is why our good ladies are so fond of Frenchmen—the Frenchman’s manners, they say, are perfect! But in my opinion there is no such thing as a Frenchman’s manners. The Frenchman is only a bird—thecoq gaulois. At the same time, as I am not a woman, I do not properly understand the question. Cocks may be excellent birds. If I am wrong you must stop me. You ought to stop and correct me more often when I am speaking to you, for I am too apt to say everything that is in my head.
+
+“You see, I have lost my manners. I agree that I have none, nor yet any dignity. I will tell you why. I set no store upon such things. Everything in me has undergone a cheek. You know the reason. I have not a single human thought in my head. For a long while I have been ignorant of what is going on in the world—here or in Russia. I have been to Dresden, yet am completely in the dark as to what Dresden is like. You know the cause of my obsession. I have no hope now, and am a mere cipher in your eyes; wherefore, I tell you outright that wherever I go I see only you—all the rest is a matter of indifference.
+
+“Why or how I have come to love you I do not know. It may be that you are not altogether fair to look upon. Do you know, I am ignorant even as to what your face is like. In all probability, too, your heart is not comely, and it is possible that your mind is wholly ignoble.”
+
+“And because you do not believe in my nobility of soul you think to purchase me with money?” she said.
+
+“Whenhave I thought to do so?” was my reply.
+
+“You are losing the thread of the argument. If you do not wish to purchase me, at all events you wish to purchase my respect.”
+
+“Not at all. I have told you that I find it difficult to explain myself. You are hard upon me. Do not be angry at my chattering. You know why you ought not to be angry with me—that I am simply an imbecile. However, I do not mind if youareangry. Sitting in my room, I need but to think of you, to imagine to myself the rustle of your dress, and at once I fall almost to biting my hands. Why should you be angry with me? Because I call myself your slave? Revel, I pray you, in my slavery—revel in it. Do you know that sometimes I could kill you?—not because I do not love you, or am jealous of you, but, because I feel as though I could simply devour you... You are laughing!”
+
+“No, I am not,” she retorted. “But I order you, nevertheless, to be silent.”
+
+She stopped, well nigh breathless with anger. God knows, she may not have been a beautiful woman, yet I loved to see her come to a halt like this, and was therefore, the more fond of arousing her temper. Perhaps she divined this, and for that very reason gave way to rage. I said as much to her.
+
+“What rubbish!” she cried with a shudder.
+
+“I do not care,” I continued. “Also, do you know that it is not safe for us to take walks together? Often I have a feeling that I should like to strike you, to disfigure you, to strangle you. Are you certain that it will never come to that? You are driving me to frenzy. Am I afraid of a scandal, or of your anger? Why should I fear your anger? I love without hope, and know that hereafter I shall love you a thousand times more. If ever I should kill you I should have to kill myself too. But I shall put off doing so as long as possible, for I wish to continue enjoying the unbearable pain which your coldness gives me. Do you know a very strange thing? It is that, with every day, my love for you increases—though that would seem to be almost an impossibility. Why should I not become a fatalist? Remember how, on the third day that we ascended the Shlangenberg, I was moved to whisper in your ear: ‘Say but the word, and I will leap into the abyss.’ Had you said it, I should have leapt. Do you not believe me?”
+
+“What stupid rubbish!” she cried.
+
+“I care not whether it be wise or stupid,” I cried in return. “I only know that in your presence I must speak, speak, speak. Therefore, I am speaking. I lose all conceit when I am with you, and everything ceases to matter.”
+
+“Why should I have wanted you to leap from the Shlangenberg?” she said drily, and (I think) with wilful offensiveness. “Thatwould have been of no use to me.”
+
+“Splendid!” I shouted. “I know well that you must have used the words ‘of no use’ in order to crush me.Ican see through you. ‘Of no use,’ did you say? Why, to give pleasure isalwaysof use; and, as for barbarous, unlimited power—even if it be only over a fly—why, it is a kind of luxury. Man is a despot by nature, and loves to torture. You, in particular, love to do so.”
+
+I remember that at this moment she looked at me in a peculiar way. The fact is that my face must have been expressing all the maze of senseless, gross sensations which were seething within me. To this day I can remember, word for word, the conversation as I have written it down. My eyes were suffused with blood, and the foam had caked itself on my lips. Also, on my honour I swear that, had she bidden me cast myself from the summit of the Shlangenberg, I should have done it. Yes, had she bidden me in jest, or only in contempt and with a spit in my face, I should have cast myself down.
+
+“Oh no! Why so? I believe you,” she said, but in such a manner—in the manner of which, at times, she was a mistress—and with such a note of disdain and viperish arrogance in her tone, that God knows I could have killed her.
+
+Yes, at that moment she stood in peril. I had not lied to her about that.
+
+“Surely you are not a coward?” suddenly she asked me.
+
+“I do not know,” I replied. “Perhaps I am, but I do not know. I have long given up thinking about such things.”
+
+“If I said to you, ‘Kill that man,’ would you kill him?”
+
+“Whom?”
+
+“Whomsoever I wish?”
+
+“The Frenchman?”
+
+“Do not ask me questions; return me answers. I repeat, whomsoever I wish? I desire to see if you were speaking seriously just now.”
+
+She awaited my reply with such gravity and impatience that I found the situation unpleasant.
+
+“Doyou, rather, tell me,” I said, “what is going on here? Why do you seem half-afraid of me? I can see for myself what is wrong. You are the step-daughter of a ruined and insensate man who is smitten with love for this devil of a Blanche. And there is this Frenchman, too, with his mysterious influence over you. Yet, you actually ask me such a question! If you do not tell me how things stand, I shall have to put in my oar and do something. Are you ashamed to be frank with me? Are you shy of me?”
+
+“I am not going to talk to you on that subject. I have asked you a question, and am waiting for an answer.”
+
+“Well, then—I will kill whomsoever you wish,” I said. “But are youreallygoing to bid me do such deeds?”
+
+“Why should you think that I am going to let you off? I shall bid you do it, or else renounce me. Could you ever do the latter? No, you know that you couldn’t. You would first kill whom I had bidden you, and then killmefor having dared to send you away!”
+
+Something seemed to strike upon my brain as I heard these words. Of course, at the time I took them half in jest and half as a challenge; yet, she had spoken them with great seriousness. I felt thunderstruck that she should so express herself, that she should assert such a right over me, that she should assume such authority and say outright: “Either you kill whom I bid you, or I will have nothing more to do with you.” Indeed, in what she had said there was something so cynical and unveiled as to pass all bounds. For how could she ever regard me as the same after the killing was done? This was more than slavery and abasement; it was sufficient to bring a man back to his right senses. Yet, despite the outrageous improbability of our conversation, my heart shook within me.
+
+Suddenly, she burst out laughing. We were seated on a bench near the spot where the children were playing—just opposite the point in the alley-way before the Casino where the carriages drew up in order to set down their occupants.
+
+“Do you see that fat Baroness?” she cried. “It is the Baroness Burmergelm. She arrived three days ago. Just look at her husband—that tall, wizened Prussian there, with the stick in his hand. Do you remember how he stared at us the other day? Well, go to the Baroness, take off your hat to her, and say something in French.”
+
+“Why?”
+
+“Because you have sworn that you would leap from the Shlangenberg for my sake, and that you would kill any one whom I might bid you kill. Well, instead of such murders and tragedies, I wish only for a good laugh. Go without answering me, and let me see the Baron give you a sound thrashing with his stick.”
+
+“Then you throw me out a challenge?—you think that I will not do it?”
+
+“Yes, I do challenge you. Go, for such is my will.”
+
+“Then Iwillgo, however mad be your fancy. Only, look here: shall you not be doing the General a great disservice, as well as, through him, a great disservice to yourself? It is not about myself I am worrying—it is about you and the General. Why, for a mere fancy, should I go and insult a woman?”
+
+“Ah! Then I can see that you are only a trifler,” she said contemptuously. “Your eyes are swimming with blood—but only because you have drunk a little too much at luncheon. Do I not know that what I have asked you to do is foolish and wrong, and that the General will be angry about it? But I want to have a good laugh, all the same. I want that, and nothing else. Why should you insult a woman, indeed? Well, you will be given a sound thrashing for so doing.”
+
+I turned away, and went silently to do her bidding. Of course the thing was folly, but I could not get out of it. I remember that, as I approached the Baroness, I felt as excited as a schoolboy. I was in a frenzy, as though I were drunk.

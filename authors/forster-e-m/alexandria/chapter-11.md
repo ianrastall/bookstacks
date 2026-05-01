@@ -1,0 +1,39 @@
+---
+layout: book
+title: "Section IV."
+chapter_order: 11
+book: "Alexandria: A History and a Guide"
+author: "E. M. Forster"
+---
+
+Route :—Take Nouzha Tram (green trefoil) at the lower end of the Boulevard Ramleh, just off the Square. The Rond Point Tram (white star) passes through the Square, but does not go further than the Water Works—about half-way to Nouzha.
+
+Chief Points of Interest :—Municipal Gardens; Nouzha and Antoniadis Gardens.
+
+For the Boulevard Ramleh see Section V. Having traversed it, the tram bears to the right and passes the Alhambra Theatre, the only one in the town—not a bad building.—Just beyond the Theatre a road leads left, to the Cathedral of the Coptic Catholic Patriarchate , (p. 212 ) or Church of the Resurrection. The building is not remarkable, but of interest to all who would explore the ecclesiastical ramifications of Alexandria. It was dedicated in 1902 by the Patriarch Cyril II and endowed by the Emperor Francis Joseph of Austria, as an inscription by the entrance (shortly to be removed) states; the alternative date—1618—reckons by the Coptic Calendar, which begins not with the birth of Christ but with the persecutions of the 3rd cent. (p. 47 ). The facade of the church imitates that of St. John Lateran, Rome. Beyond the church are the British Consulate and the Egyptian Government Hospital (Section V).
+
+The Tram turns left, along the Rue Sultan Hussein , still popularly known as the Rue d’Allemagne , and passes between the Menasce Schools (Jewish) and Cromer Park, a small fenced garden reserved for ladies and babies.— Place Said , a round space in the midst of which is a large Ptolemaic Column, erected in memory of the retaking of Khartoum, Sept. 2nd, 1898; on each side of the column, statues of the lion-headed goddess, Sekhet. The native women who sometimes sit in masses in the Place are professional mourners and await a funeral out of the Egyptian Government Hospital behind. Roads go from the Place: left, to Mazarita Station on the Ramleh tram line (Section V); right, to the Rue Rosette . (Section I).
+
+Left, the Municipal Gardens , small but admirably planned; the designer, M. Monfront, has shown real genius in his treatment of the area. The gardens follow the line of the Arab Walls (p. 81 ) and also cross the course of the old Farkha Canal that once connected the Mahmoudieh Canal and the sea (p. 152 ). Both these features have been utilised; the fortifications have turned into picturesque hillocks or survive as masses of masonry, which, though of little merit in themselves, have been cleverly grouped and look mediaeval by moonlight; while the water of the canal has been preserved in an artificial pool, the abode of ducks. The gardens should be thoroughly explored. In them—visible from tram—is a Statue of Nubar Pasha , by Puech; the tarboosh is too large but the general effect dignified; the left hand rests on a tablet inscribed “La justice est la base de tout Gouvernment,” and the same maxim appears on the pedestal. Nubar was an Armenian—a politician whose honesty is variously estimated, though there is no question as to his ability. He became minister under the Khedive Ismail (1878) and tried to regulate his finance, also serving under Tewfik. He was, as his favourite motto suggests, cautious in temperament. He is buried outside the Armenian Church, (p. 143 ).
+
+The tram touches the end of the Rue Rosette (Section I) and passes through the belt of the gardens: they continue on the right, still following the course of the vanished Arab walls and utilising the acclivities, and are to be continued still further, as far as the railway station; they will then form a great horseshoe.—Left are the Roman Catholic Cemeteries, and in the second of these, at the end of the main walk, is a fine Antique Tomb , which should be seen. It lies in a hole; great walls of alabaster have fallen and exposed their shining surfaces. The shrine (Heroon) of Pompey stood near here, and it has been suggested that this was the actual place where his head was deposited after his murderers had brought it to Julius Caesar; this is pure conjecture, but the tomb may well date from the period (B.C. 48) for the work is very good.—To the right, in the new part of the cemetery are other ancient tombs, also a cemented shaft with foot holds cut on its interior.
+
+Almost opposite the entrance to the Cemetery is the War Memorial to French Soldiers, a truncated obelisk of Carrara marble, designed as a labour of love in memory of his fallen comrades by Mons. V. Erlanger, the French architect of Alexandria and unveiled April 23, 1921 by Lord Allenby.
+
+The scroll facing the main thoroughfare bears the following inscription:
+
+“In memory of French Soldiers fallen during the Great War and offered by members of the British Community to the French Colony to Commemorate the glorious deeds of arms, performed by the French Armies 1914-1918.”
+
+Now the tram turns, right, by the Rosetta Gate Police Station, surmounted by a turret clock in commemoration of King Edward VII, and comes to the Rond Point, where are the Waterworks, and up the rise Hadra Prison; then crosses the railway, the ancient Hadra cemetery ( see Museum Room 19) and Hadra village, and reaches its terminus at Nouzha, close to Nouzha railway station and to the Mahmoudieh Canal.
+
+Nouzha was in Ptolemaic times the suburb of Eleusis. Here lived Callimachus the poet (p. 30 ); here (B.C. 168) Popillius the Roman general checked the King of Syria who was about to seize Alexandria, and, drawing a circle round him in the sand, obliged him to decide forthwith between peace and war. Here (A.D. 640), were quartered the cavalry of Amr (p. 55 ), before he entered the town.—The Gardens are across the railway. They have been developed by the Municipality out of a small park of Ismail’s, and are most beautiful; if one could judge Alexandria by her gardens one would do nothing but praise. Some are formalised, others free; those who like pelicans will find them in a pond to the right; the zoological garden, a bandstand, and a restaurant, are straight ahead; view from over the top over Lake Hadra towards Abou el Nawatir (Section V).—Right of the bandstand is an enclosure entered by payment; this too should be visited as the trees and flowers are fine; glasshouses also.
+
+Above the pelican pond a small gate leads from the Nouzha Gardens into the Antoniadis Gardens (entrance charge; varying according to the day of week). These too belong to the Municipality of Alexandria. They are full of modern statues, which, though of no merit, make a pleasant formal effect. The trees and creepers are fine, and there is a beautiful lawn at the back of the house. Here, until recently, lived the Antoniadis family, wealthy Greeks.
+
+In the field behind the Antoniadis Gardens is an antique Tomb . It is easiest reached through the back gate, which a gardener will sometimes unlock; otherwise one must return to the Nouzha Gardens, pass out, and follow the canal for a little way, finally turning to the left. The tomb is behind an absurd spiral of rockwork. It is reached down a flight of steps and the hall is often under water. Same plan as at Anfouchi (p. 126 ); a sunken hall, out of which three tomb chambers open.
+
+The road beyond the Gardens, along the edge of the Canal, is pretty, and probably follows the course of the ancient Canal to Canopus, whither the Alexandrians used to go out in barges, to enjoy themselves and to worship Serapis. In one place it skirts the waters of Hadra.
+
+The other way (west) the Canal flows into the city (Section II) finally entering the Harbour.—(For history of the Canal see p. 91 ).
+
+There is a road direct from Nouzha to Sidi Gaber (Section V) by the side of the lake. It passes, left, the place where two colossal statues were discovered: Antony as Osiris, and Cleopatra as Isis: Antony is in the Museum (Garden Court, p. 120 ).

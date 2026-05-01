@@ -1,0 +1,51 @@
+---
+layout: book
+title: "IV"
+chapter_order: 4
+book: "A Nobleman's Nest"
+author: "Ivan Turgenev"
+---
+
+The young man, with whom we have just made the reader acquainted, was named Vladímir Nikoláitch Pánshin. He served in Petersburg, as an official for special commissions, in the Ministry of the Interior. He had come to the town of O \* \* \* to execute a temporary governmental commission, and was under the command of Governor-General Zonnenberg, to whom he was distantly related. Pánshin's father, a staff-captain of cavalry on the retired list, a famous gambler, a man with a crumpled visage and a nervous twitching of the lips, had passed his whole life in the society of people of quality, had frequented the English Clubs in both capitals, and bore the reputation of an adroit, not very trustworthy, but charming and jolly fellow. In spite of his adroitness, he found himself almost constantly on the very verge of indigence, and left behind him to his only son a small and impaired fortune. On the other hand, he had, after his own fashion, taken pains with his education: Vladímir Nikoláitch spoke French capitally, English well, and German badly; but it is permissible to let fall a German word in certain circumstances—chiefly humorous,—"*c'est même très chic*,"as the Petersburg Parisians express themselves. Vladímir Nikoláitch already understood, at the age of fifteen, how to enter any drawing-room whatever without embarrassment, how to move about in it agreeably, and to withdraw at the proper time. Pánshin's father had procured for his son many influential connections; as he shuffled the cards between two rubbers, or after a successful capture of all the tricks, he let slip no opportunity to drop a nice little word about his "Volódka"to some important personage who was fond of social games. On his side, Vladímir Nikoláitch, during his stay in the university, whence he emerged with the rank of actual student, made acquaintance with several young men of quality, and became a frequenter of the best houses. He was received gladly everywhere; he was extremely good-looking, easy in his manners, entertaining, always well and ready for everything; where it was requisite, he was respectful; where it was possible, he was insolent, a capital companion, *un charmant garçon*. The sacred realm opened out before him. Pánshin speedily grasped the secret of the science of society; he understood how to imbue himself with genuine respect for its decrees; he understood how, with half-bantering gravity, to busy himself with nonsense and assume the appearance of regarding everything serious as trivial; he danced exquisitely, he dressed in English style. In a short time he became renowned as one of the most agreeable and adroit young men in Petersburg. Pánshin was, in reality, very adroit,—no less so than his father: but he was, also, very gifted. He could do everything: he sang prettily, he drew dashingly, he wrote verses, he acted very far from badly on the stage. He had only just passed his twenty-eighth birthday, but he was already Junior Gentleman of the Emperor's bedchamber, and had a very tolerable rank. Pánshin firmly believed in himself, in his brains, in his penetration; he advanced boldly and cheerfully, at full swing; his life flowed along as on oil. He was accustomed to please everybody, old and young, and imagined that he was a judge of people, especially of women: he did know well their everyday weaknesses. As a man not a stranger to art, he felt within him both fervour, and some enthusiasm, and rapture, and in consequence of this he permitted himself various deviations from the rules: he caroused, he picked up acquaintance with persons who did not belong to society, and, in general, maintained a frank and simple demeanour; but in soul he was cold and cunning, and in the midst of the wildest carouse his clever little brown eye was always on guard, and watching; this bold, this free young man could never forget himself and get completely carried away. To his honour it must be said, that he never bragged of his conquests. He had hit upon Márya Dmítrievna's house immediately on his arrival in O \* \* \*, and had promptly made himself entirely at home there. Márya Dmítrievna fairly adored him.
+
+Pánshin amiably saluted all who were in the room, shook hands with Márya Dmítrievna and Lizavéta Mikhaílovna, lightly tapped Gedeónovsky on the shoulder, and whirling round on his heels, caught Lyénotchka by the head, and kissed her on the brow.
+
+"And you are not afraid to ride such a vicious horse?"—Márya Dmítrievna asked him.
+
+"Good gracious! it is a very peaceable beast; but I'll tell you what I am afraid of: I'm afraid to play preference with Sergyéi Petróvitch; last night, at the Byelenítzyns', he won my last farthing."
+
+Gedeónovsky laughed a shrill and servile laugh: he fawned on the brilliant young official from Petersburg, the pet of the governor. In his conversations with Márya Dmítrievna, he frequently alluded to Pánshin's remarkable capacities. "For why should not I praise him?"he argued. "The young man is making a success in the highest sphere of life, discharges his service in an exemplary manner, and is not the least bit proud."Moreover, even in Petersburg Pánshin was considered an energetic official: he got through an immense amount of work; he alluded to it jestingly, as is befitting a fashionable man who attaches no particular importance to his labours, but he was "an executor."The higher officials love such subordinates; he never had the slightest doubt himself, that, if he so wished, he could become a Minister in course of time.
+
+"You are pleased to say that I beat you at cards,"—remarked Gedeónovsky:—"but who was it that won twelve rubles from me last week? and besides...."
+
+"Villain, villain,"Pánshin interrupted him, with a caressing but almost disdainful carelessness, and without paying any further attention to him, he stepped up to Liza.
+
+"I have not been able to find the overture of 'Oberon'here,"he began:—"Mme. Byelenítzyn was merely boasting, that she had all the classical music,—as a matter of fact, she has nothing except polkas and waltzes; but I have already written to Moscow, and within a week I shall have that overture. By the way,"—he continued,—"I wrote a new romance yesterday; the words also are my own. Would you like to have me sing it for you? I do not know how it has turned out; Mme. Byelenítzyn thought it extremely charming, but her words signify nothing,—I wish to know your opinion. However, I think it will be better later on...."
+
+"Why later on?"—interposed Márya Dmítrievna:—"Why not now?"
+
+"I obey, ma'am,"—said Pánshin, with a certain bright, sweet smile, which was wont to appear on his face, and suddenly to vanish,—pushed forward a chair with his knee, seated himself at the piano, and after striking several chords, he began to sing, clearly enunciating the words, the following romance:
+
+Pánshin sang the second couplet with peculiar expression and force; the surging of the waves could be heard in the tempestuous accompaniment. After the words: "I suffer pain...."he heaved a slight sigh, dropped his eyes, and lowered his voice,— *morendo*. When he had finished, Liza praised the motive, Márya Dmítrievna said: "It is charming;"—while Gedeónovsky even shouted: "Ravishing! both poetry and harmony are equally ravishing!..."Lyénotchka, with childish adoration, gazed at the singer. In a word, the composition of the youthful dilettante pleased all present extremely; but outside of the door of the drawing-room, in the anteroom, stood an elderly man, who had just arrived, to whom, judging by the expression of his downcast face and the movement of his shoulders, Pánshin's romance, charming as it was, afforded no pleasure. After waiting a while, and whisking the dust from his boots with a coarse handkerchief, this man suddenly screwed up his eyes, pressed his lips together grimly, bent his back, which was already sufficiently bowed without that, and slowly entered the drawing-room.
+
+"Ah! Christofór Feódoritch, good afternoon!"—Pánshin was the first of all to exclaim, and sprang hastily from his seat.—"I had no suspicion that you were here,—I could not, on any account, have made up my mind to sing my romance in your presence. I know that you do not care for frivolous music."
+
+"I vas not listening,"remarked the newcomer, in imperfect Russian, and having saluted all, he remained awkwardly standing in the middle of the room.
+
+"Have you come, Monsieur Lemm,"—said Márya Dmítrievna,—"to give a music lesson to Liza?"
+
+"No, not to Lisaféta Mikhaílovna, but to Eléna Mikhaílovna."
+
+"Ah! Well,—very good. Lyénotchka, go upstairs with Monsieur Lemm."
+
+The old man was on the point of following the little girl, but Pánshin stopped him.
+
+"Do not go away after the lesson, Christofór Feódoritch,"—he said:—"Lizavéta Mikhaílovna and I will play a Beethoven sonata for four hands."
+
+The old man muttered something, but Pánshin went on in German, pronouncing his words badly:
+
+"Lizavéta Mikhaílovna has shown me the spiritual cantata which you presented to her—'tis a very fine thing! Please do not think that I am incapable of appreciating serious music,—quite the contrary: it is sometimes tiresome, but, on the other hand, it is very beneficial."
+
+The old man crimsoned to his very ears, cast a sidelong glance at Liza, and hastily left the room.
+
+Márya Dmítrievna requested Pánshin to repeat the romance; but he declared, that he did not wish to wound the ears of the learned German, and proposed to Liza that they should occupy themselves with the Beethoven sonata. Then Márya Dmítrievna sighed, and in her turn, proposed to Gedeónovsky that he should take a stroll in the garden with her.—"I wish,"—she said, "to talk and take counsel with you still further, over our poor Fédya."Gedeónovsky grinned, bowed, took up—with two fingers, his hat, and his gloves neatly laid on its brim, and withdrew, in company with Márya Dmítrievna. Pánshin and Liza were left alone in the room; she fetched the sonata, and opened it; both seated themselves, in silence, at the piano.—From above, the faint sounds of scales, played by Lyénotchka's uncertain little fingers, were wafted to them.

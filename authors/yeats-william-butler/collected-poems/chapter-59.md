@@ -1,0 +1,91 @@
+---
+layout: book
+title: "The Madness of King Goll"
+chapter_order: 59
+book: "Collected Poems"
+author: "William Butler Yeats"
+---
+
+I sat on cushioned otter skin:
+My word was law from Ith to Emen,
+And shook at Invar Amargin
+The hearts of the world-troubling seamen,
+And drove tumult and war away
+From girl and boy and man and beast;
+The fields grew fatter day by day,
+The wild fowl of the air increased;
+And every ancient Ollave said,
+While he bent down his fading head,
+‘He drives away the Northern cold.’
+*They will not hush, the leaves a-flutter round me, the beech*
+*leaves old.*
+
+I sat and mused and drank sweet wine;
+A herdsman came from inland valleys,
+Crying, the pirates drove his swine
+To fill their dark-beaked hollow galleys.
+I called my battle-breaking men,
+And my loud brazen battle-cars
+From rolling vale and rivery glen;
+And under the blinking of the stars
+Fell on the pirates by the deep,
+And hurled them in the gulph of sleep:
+These hands won many a torque of gold.
+*They will not hush, the leaves a-flutter round me, the*
+*beech leaves old.*
+
+But slowly, as I shouting slew
+And trampled in the bubbling mire,
+In my most secret spirit grew
+A whirling and a wandering fire:
+I stood: keen stars above me shone,
+Around me shone keen eyes of men:
+I laughed aloud and hurried on
+By rocky shore and rushy fen;
+I laughed because birds fluttered by,
+And starlight gleamed, and clouds flew high,
+And rushes waved and waters rolled.
+*They will not hush, the leaves a-flutter round me, the*
+*beech leaves old.*
+
+And now I wander in the woods
+When summer gluts the golden bees,
+Or in autumnal solitudes
+Arise the leopard-coloured trees;
+Or when along the wintry strands
+The cormorants shiver on their rocks;
+I wander on, and wave my hands,
+And sing, and shake my heavy locks.
+The grey wolf knows me; by one ear
+I lead along the woodland deer;
+The hares run by me growing bold.
+*They will not hush, the leaves a-flutter round me, the*
+*beech leaves old.*
+
+I came upon a little town,
+That slumbered in the harvest moon,
+And passed a-tiptoe up and down,
+Murmuring, to a fitful tune,
+How I have followed, night and day,
+A tramping of tremendous feet,
+And saw where this old tympan lay,
+Deserted on a doorway seat,
+And bore it to the woods with me;
+Of some unhuman misery
+Our married voices wildly trolled.
+*They will not hush, the leaves a-flutter round me, the*
+*beech leaves old.*
+
+I sang how, when day’s toil is done,
+Orchil shakes out her long dark hair
+That hides away the dying sun
+And sheds faint odours through the air:
+When my hand passed from wire to wire
+It quenched, with sound like falling dew,
+The whirling and the wandering fire;
+But lift a mournful ulalu,
+For the kind wires are torn and still,
+And I must wander wood and hill
+Through summer’s heat and winter’s cold.
+*They will not hush, the leaves a-flutter round me, the*
+*beech leaves old.*

@@ -1,0 +1,37 @@
+---
+layout: book
+title: "CHAPTER XX. THE JOURNEY RESUMED."
+chapter_order: 121
+book: "Resurrection"
+author: "Leo Tolstoy"
+---
+
+The carters had left the inn long before Nekhludoff awoke. The landlady had had her tea, and came in wiping her fat, perspiring neck with her handkerchief, and said that a soldier had brought a note from the halting station. The note was from Mary Pavlovna. She wrote that Kryltzoff’s attack was more serious than they had imagined. “We wished him to be left behind and to remain with him, but this has not been allowed, so that we shall take him on; but we fear the worst. Please arrange so that if he should be left in the next town, one of us might remain with him. If in order to get the permission to stay I should be obliged to get married to him, I am of course ready to do so.”
+
+Nekhludoff sent the young labourer to the post station to order horses and began packing up hurriedly. Before he had drunk his second tumbler of tea the three-horsed postcart drove up to the porch with ringing bells, the wheels rattling on the frozen mud as on stones. Nekhludoff paid the fat-necked landlady, hurried out and got into the cart, and gave orders to the driver to go on as fast as possible, so as to overtake the gang. Just past the gates of the commune pasture ground they did overtake the carts, loaded with sacks and the sick prisoners, as they rattled over the frozen mud, that was just beginning to be rolled smooth by the wheels (the officer was not there, he had gone in advance). The soldiers, who had evidently been drinking, followed by the side of the road, chatting merrily. There were a great many carts. In each of the first carts sat six invalid criminal convicts, close packed. On each of the last two were three political prisoners. Novodvoroff, Grabetz and Kondratieff sat on one, Rintzeva, Nabatoff and the woman to whom Mary Pavlovna had given up her own place on the other, and on one of the carts lay Kryltzoff on a heap of hay, with a pillow under his head, and Mary Pavlovna sat by him on the edge of the cart. Nekhludoff ordered his driver to stop, got out and went up to Kryltzoff. One of the tipsy soldiers waved his hand towards Nekhludoff, but he paid no attention and started walking by Kryltzoff’s side, holding on to the side of the cart with his hand. Dressed in a sheepskin coat, with a fur cap on his head and his mouth bound up with a handkerchief, he seemed paler and thinner than ever. His beautiful eyes looked very large and brilliant. Shaken from side to side by the jottings of the cart, he lay with his eyes fixed on Nekhludoff; but when asked about his health, he only closed his eyes and angrily shook his head. All his energy seemed to be needed in order to bear the jolting of the cart. Mary Pavlovna was on the other side. She exchanged a significant glance with Nekhludoff, which expressed all her anxiety about Kryltzoff’s state, and then began to talk at once in a cheerful manner.
+
+“It seems the officer is ashamed of himself,” she shouted, so as to be heard above the rattle of the wheels. “Bousovkin’s manacles have been removed, and he is carrying his little girl himself. Katusha and Simonson are with him, and Vera, too. She has taken my place.”
+
+Kryltzoff said something that could not be heard because of the noise, and frowning in the effort to repress his cough shook his head. Then Nekhludoff stooped towards him, so as to hear, and Kryltzoff, freeing his mouth of the handkerchief, whispered:
+
+“Much better now. Only not to catch cold.”
+
+Nekhludoff nodded in acquiescence, and again exchanged a glance with Mary Pavlovna.
+
+“How about the problem of the three bodies?” whispered Kryltzoff, smiling with great difficulty. “The solution is difficult.”
+
+Nekhludoff did not understand, but Mary Pavlovna explained that he meant the well-known mathematical problem which defined the position of the sun, moon and earth, which Kryltzoff compared to the relations between Nekhludoff, Katusha and Simonson. Kryltzoff nodded, to show that Mary Pavlovna had explained his joke correctly.
+
+“The decision does not lie with me,” Nekhludoff said.
+
+“Did you get my note? Will you do it?” Mary Pavlovna asked.
+
+“Certainly,” answered Nekhludoff; and noticing a look of displeasure on Kryltzoff’s face, he returned to his conveyance, and holding with both hands to the sides of the cart, got in, which jolted with him over the ruts of the rough road. He passed the gang, which, with its grey cloaks and sheepskin coats, chains and manacles, stretched over three-quarters of a mile of the road. On the opposite side of the road Nekhludoff noticed Katusha’s blue shawl, Vera Doukhova’s black coat, and Simonson’s crochet cap, white worsted stockings, with bands, like those of sandals, tied round him. Simonson was walking with the woman and carrying on a heated discussion.
+
+When they saw Nekhludoff they bowed to him, and Simonson raised his hat in a solemn manner. Nekhludoff, having nothing to say, did not stop, and was soon ahead of the carts. Having got again on to a smoother part of the road, they drove still more quickly, but they had continually to turn aside to let pass long rows of carts that were moving along the road in both directions.
+
+The road, which was cut up by deep ruts, lay through a thick pine forest, mingled with birch trees and larches, bright with yellow leaves they had not yet shed. By the time Nekhludoff had passed about half the gang he reached the end of the forest. Fields now lay stretched along both sides of the road, and the crosses and cupolas of a monastery appeared in the distance. The clouds had dispersed, and it had cleared up completely; the leaves, the frozen puddles and the gilt crosses and cupolas of the monastery glittered brightly in the sun that had risen above the forest. A little to the right mountains began to gleam white in the blue-grey distance, and the trap entered a large village. The village street was full of people, both Russians and other nationalities, wearing peculiar caps and cloaks. Tipsy men and women crowded and chattered round booths, traktirs, public houses and carts. The vicinity of a town was noticeable. Giving a pull and a lash of the whip to the horse on his right, the driver sat down sideways on the right edge of the seat, so that the reins hung over that side, and with evident desire of showing off, he drove quickly down to the river, which had to be crossed by a ferry. The raft was coming towards them, and had reached the middle of the river. About twenty carts were waiting to cross. Nekhludoff had not long to wait. The raft, which had been pulled far up the stream, quickly approached the landing, carried by the swift waters. The tall, silent, broad-shouldered, muscular ferryman, dressed in sheepskins, threw the ropes and moored the raft with practised hand, landed the carts that were on it, and put those that were waiting on the bank on board. The whole raft was filled with vehicles and horses shuffling at the sight of the water. The broad, swift river splashed against the sides of the ferryboats, tightening their moorings.
+
+When the raft was full, and Nekhludoff’s cart, with the horses taken out of it, stood closely surrounded by other carts on the side of the raft, the ferryman barred the entrance, and, paying no heed to the prayers of those who had not found room in the raft, unfastened the ropes and set off.
+
+All was quiet on the raft; one could hear nothing but the tramp of the ferryman’s boots and the horses changing from foot to foot.

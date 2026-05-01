@@ -1,0 +1,169 @@
+---
+layout: book
+title: "IX"
+chapter_order: 9
+book: "The Gambler"
+author: "Fyodor Dostoevsky"
+---
+
+For on the topmost tier of the hotel verandah, after being carried up the steps in an armchair amid a bevy of footmen, maid-servants, and other menials of the hotel, headed by the landlord (that functionary had actually run out to meet a visitor who arrived with so much stir and din, attended by her own retinue, and accompanied by so great a pile of trunks and portmanteaux)—on the topmost tier of the verandah, I say, there was sitting—the grandmother!Yes, it wasshe—rich, and imposing, and seventy-five years of age—Antonida Vassilievna Tarassevitcha, landowner andgrande dameof Moscow—the “La Baboulenka” who had caused so many telegrams to be sent off and received—who had been dying, yet not dying—who had, in her own person, descended upon us even as snow might fall from the clouds! Though unable to walk, she had arrived borne aloft in an armchair (her mode of conveyance for the last five years), as brisk, aggressive, self-satisfied, bolt-upright, loudly imperious, and generally abusive as ever. In fact, she looked exactly as she had on the only two occasions when I had seen her since my appointment to the General’s household. Naturally enough, I stood petrified with astonishment. She had sighted me a hundred paces off! Even while she was being carried along in her chair she had recognised me, and called me by name and surname (which, as usual, after hearing once, she had remembered ever afterwards).
+
+“And this is the woman whom they had thought to see in her grave after making her will!” I thought to myself. “Yet she will outlive us, and every one else in the hotel. Good Lord! what is going to become of us now? What on earth is to happen to the General? She will turn the place upside down!”
+
+“My good sir,” the old woman continued in a stentorian voice, “what are you standingtherefor, with your eyes almost falling out of your head? Cannot you come and say how-do-you-do? Are you too proud to shake hands? Or do you not recognise me? Here, Potapitch!” she cried to an old servant who, dressed in a frock coat and white waistcoat, had a bald, red head (he was the chamberlain who always accompanied her on her journeys). “Just think! Alexis Ivanovitch does not recognise me! They have buried me for good and all! Yes, and after sending hosts of telegrams to know if I were dead or not! Yes, yes, I have heard the whole story. I am very much alive, though, as you may see.”
+
+“Pardon me, Antonida Vassilievna,” I replied good humouredly as I recovered my presence of mind. “Ihave no reason to wish you ill. I am merely rather astonished to see you. Why should I not be so, seeing how unexpected—”
+
+“Whyshould you be astonished? I just got into my chair, and came. Things are quiet enough in the train, for there is no one there to chatter. Have you been out for a walk?”
+
+“Yes. I have just been to the Casino.”
+
+“Oh? Well, it is quite nice here,” she went on as she looked about her. “The place seems comfortable, and all the trees are out. I like it very well. Are your people at home? Is the General, for instance, indoors?”
+
+“Yes; and probably all of them.”
+
+“Do they observe the convenances, and keep up appearances? Such things always give one tone. I have heard that they are keeping a carriage, even as Russian gentlefolks ought to do. When abroad, our Russian people always cut a dash. Is Prascovia here too?”
+
+“Yes. Polina Alexandrovna is here.”
+
+“And the Frenchwoman? However, I will go and look for them myself. Tell me the nearest way to their rooms. Doyoulike being here?”
+
+“Yes, I thank you, Antonida Vassilievna.”
+
+“And you, Potapitch, you go and tell that fool of a landlord to reserve me a suitable suite of rooms. They must be handsomely decorated, and not too high up. Have my luggage taken up to them. But what are you tumbling over yourselves for? Why are you all tearing about? What scullions these fellows are!—Who is that with you?” she added to myself.
+
+“A Mr Astley,” I replied.
+
+“And who is Mr Astley?”
+
+“A fellow-traveller, and my very good friend, as well as an acquaintance of the General’s.”
+
+“Oh, an Englishman? Then that is why he stared at me without even opening his lips. However, I like Englishmen. Now, take me upstairs, direct to their rooms. Where are they lodging?”
+
+Madame was lifted up in her chair by the lacqueys, and I preceded her up the grand staircase. Our progress was exceedingly effective, for everyone whom we met stopped to stare at the cortège. It happened that the hotel had the reputation of being the best, the most expensive, and the most aristocratic in all the spa, and at every turn on the staircase or in the corridors we encountered fine ladies and important-looking Englishmen—more than one of whom hastened downstairs to inquire of the awestruck landlord who the newcomer was. To all such questions he returned the same answer—namely, that the old lady was an influential foreigner, a Russian, a Countess, and agrande dame, and that she had taken the suite which, during the previous week, had been tenanted by the Grande Duchesse de N.
+
+Meanwhile the cause of the sensation—the Grandmother—was being borne aloft in her armchair. Every person whom she met she scanned with an inquisitive eye, after first of all interrogating me about him or her at the top of her voice. She was stout of figure, and, though she could not leave her chair, one felt, the moment that one first looked at her, that she was also tall of stature. Her back was as straight as a board, and never did she lean back in her seat. Also, her large grey head, with its keen, rugged features, remained always erect as she glanced about her in an imperious, challenging sort of way, with looks and gestures that clearly were unstudied. Though she had reached her seventy-sixth year, her face was still fresh, and her teeth had not decayed. Lastly, she was dressed in a black silk gown and white mobcap.
+
+“She interests me tremendously,” whispered Mr Astley as, still smoking, he walked by my side. Meanwhile I was reflecting that probably the old lady knew all about the telegrams, and even about De Griers, though little or nothing about Mlle. Blanche. I said as much to Mr Astley.
+
+But what a frail creature is man! No sooner was my first surprise abated than I found myself rejoicing in the shock which we were about to administer to the General. So much did the thought inspire me that I marched ahead in the gayest of fashions.
+
+Our party was lodging on the third floor. Without knocking at the door, or in any way announcing our presence, I threw open the portals, and the Grandmother was borne through them in triumph. As though of set purpose, the whole party chanced at that moment to be assembled in the General’s study. The time was eleven o’clock, and it seemed that an outing of some sort (at which a portion of the party were to drive in carriages, and others to ride on horseback, accompanied by one or two extraneous acquaintances) was being planned. The General was present, and also Polina, the children, the latter’s nurses, De Griers, Mlle. Blanche (attired in a riding-habit), her mother, the young Prince, and a learned German whom I beheld for the first time. Into the midst of this assembly the lacqueys conveyed Madame in her chair, and set her down within three paces of the General!
+
+Good heavens! Never shall I forget the spectacle which ensued! Just before our entry, the General had been holding forth to the company, with De Griers in support of him. I may also mention that, for the last two or three days, Mlle. Blanche and De Griers had been making a great deal of the young Prince, under the very nose of the poor General. In short, the company, though decorous and conventional, was in a gay, familiar mood. But no sooner did the Grandmother appear than the General stopped dead in the middle of a word, and, with jaw dropping, stared hard at the old lady—his eyes almost starting out of his head, and his expression as spellbound as though he had just seen a basilisk. In return, the Grandmother stared at him silently and without moving—though with a look of mingled challenge, triumph, and ridicule in her eyes. For ten seconds did the pair remain thus eyeing one another, amid the profound silence of the company; and even De Griers sat petrified—an extraordinary look of uneasiness dawning on his face. As for Mlle. Blanche, she too stared wildly at the Grandmother, with eyebrows raised and her lips parted—while the Prince and the German savant contemplated the tableau in profound amazement. Only Polina looked anything but perplexed or surprised. Presently, however, she too turned as white as a sheet, and then reddened to her temples. Truly the Grandmother’s arrival seemed to be a catastrophe for everybody! For my own part, I stood looking from the Grandmother to the company, and back again, while Mr Astley, as usual, remained in the background, and gazed calmly and decorously at the scene.
+
+“Well, here I am—and instead of a telegram, too!” the Grandmother at last ejaculated, to dissipate the silence. “What? You were not expecting me?”
+
+“Antonida Vassilievna! O my dearest mother! But how on earth did you, did you—?” The mutterings of the unhappy General died away.
+
+I verily believe that if the Grandmother had held her tongue a few seconds longer she would have had a stroke.
+
+“How on earth did Iwhat?” she exclaimed. “Why, I just got into the train and came here. What else is the railway meant for? But you thought that I had turned up my toes and left my property to the lot of you. Oh, I knowallabout the telegrams which you have been dispatching. They must have cost you a pretty sum, I should think, for telegrams are not sent from abroad for nothing. Well, I picked up my heels, and came here. Who is this Frenchman? Monsieur de Griers, I suppose?”
+
+“Oui, madame,” assented De Griers. “Et, croyez, je suis si enchanté! Votre santé—c’est un miracle vous voir ici. Une surprise charmante!”
+
+“Just so. ‘Charmante!’ I happen to know you as a mountebank, and therefore trust you no more thanthis.” She indicated her little finger. “And who isthat?” she went on, turning towards Mlle. Blanche. Evidently the Frenchwoman looked so becoming in her riding-habit, with her whip in her hand, that she had made an impression upon the old lady. “Who is that woman there?”
+
+“Mlle. de Cominges,” I said. “And this is her mother, Madame de Cominges. They also are staying in the hotel.”
+
+“Is the daughter married?” asked the old lady, without the least semblance of ceremony.
+
+“No,” I replied as respectfully as possible, but under my breath.
+
+“Is she good company?”
+
+I failed to understand the question.
+
+“I mean, is she or is she not a bore? Can she speak Russian? When this De Griers was in Moscow he soon learnt to make himself understood.”
+
+I explained to the old lady that Mlle. Blanche had never visited Russia.
+
+“Bonjour, then,” said Madame, with sudden brusquerie.
+
+“Bonjour, madame,” replied Mlle. Blanche with an elegant, ceremonious bow as, under cover of an unwonted modesty, she endeavoured to express, both in face and figure, her extreme surprise at such strange behaviour on the part of the Grandmother.
+
+“How the woman sticks out her eyes at me! How she mows and minces!” was the Grandmother’s comment. Then she turned suddenly to the General, and continued: “I have taken up my abode here, so am going to be your next-door neighbour. Are you glad to hear that, or are you not?”
+
+“My dear mother, believe me when I say that I am sincerely delighted,” returned the General, who had now, to a certain extent, recovered his senses; and inasmuch as, when occasion arose, he could speak with fluency, gravity, and a certain effect, he set himself to be expansive in his remarks, and went on: “We have been so dismayed and upset by the news of your indisposition! We had received such hopeless telegrams about you! Then suddenly—”
+
+“Fibs, fibs!” interrupted the Grandmother.
+
+“How on earth, too, did you come to decide upon the journey?” continued the General, with raised voice as he hurried to overlook the old lady’s last remark. “Surely, at your age, and in your present state of health, the thing is so unexpected that our surprise is at least intelligible. However, I am glad to see you (as indeed, are we all”—he said this with a dignified, yet conciliatory, smile), “and will use my best endeavours to render your stay here as pleasant as possible.”
+
+“Enough! All this is empty chatter. You are talking the usual nonsense. I shall know quite well how to spend my time. How did I come to undertake the journey, you ask? Well, is there anything so very surprising about it? It was done quite simply. What is every one going into ecstasies about?—How do you do, Prascovia? What areyoudoing here?”
+
+“And how areyou, Grandmother?” replied Polina, as she approached the old lady. “Were you long on the journey?”
+
+“The most sensible question that I have yet been asked! Well, you shall hear for yourself how it all happened. I lay and lay, and was doctored and doctored, until at last I drove the physicians from me, and called in an apothecary from Nicolai who had cured an old woman of a malady similar to my own—cured her merely with a little hayseed. Well, he did me a great deal of good, for on the third day I broke into a sweat, and was able to leave my bed. Then my German doctors held another consultation, put on their spectacles, and told me that if I would go abroad, and take a course of the waters, the indisposition would finally pass away. ‘Why should it not?’ I thought to myself. So I had got things ready, and on the following day, a Friday, set out for here. I occupied a special compartment in the train, and where ever I had to change I found at the station bearers who were ready to carry me for a few coppers. You have nice quarters here,” she went on as she glanced around the room. “But where on earth did you get the money for them, my good sir? I thought that everything of yours had been mortgaged? This Frenchman alone must be your creditor for a good deal. Oh, I know all about it, all about it.”
+
+“I-I am surprised at you, my dearest mother,” said the General in some confusion. “I-I am greatly surprised. But I do not need any extraneous control of my finances. Moreover, my expenses do not exceed my income, and we—”
+
+“They do not exceed it? Fie! Why, you are robbing your children of their last kopeck—you, their guardian!”
+
+“After this,” said the General, completely taken aback, “—after what you have just said, I do not know whether—”
+
+“You do not knowwhat?By heavens, are younevergoing to drop that roulette of yours? Are you going to whistle all your property away?”
+
+This made such an impression upon the General that he almost choked with fury.
+
+“Roulette, indeed?Iplay roulette? Really, in view of my position—Recollect what you are saying, my dearest mother. You must still be unwell.”
+
+“Rubbish, rubbish!” she retorted. “The truth is that youcannotbe got away from that roulette. You are simply telling lies. This very day I mean to go and see for myself what roulette is like. Prascovia, tell me what there is to be seen here; and do you, Alexis Ivanovitch, show me everything; and do you, Potapitch, make me a list of excursions. Whatisthere to be seen?” again she inquired of Polina.
+
+“There is a ruined castle, and the Shlangenberg.”
+
+“The Shlangenberg? What is it? A forest?”
+
+“No, a mountain on the summit of which there is a place fenced off. From it you can get a most beautiful view.”
+
+“Could a chair be carried up that mountain of yours?”
+
+“Doubtless we could find bearers for the purpose,” I interposed.
+
+At this moment Theodosia, the nursemaid, approached the old lady with the General’s children.
+
+“No, Idon’twant to see them,” said the Grandmother. “I hate kissing children, for their noses are always wet. How are you getting on, Theodosia?”
+
+“I am very well, thank you, Madame,” replied the nursemaid. “And how is your ladyship? We have been feeling so anxious about you!”
+
+“Yes, I know, you simple soul—But who are those other guests?” the old lady continued, turning again to Polina. “For instance, who is that old rascal in the spectacles?”
+
+“Prince Nilski, Grandmamma,” whispered Polina.
+
+“Oh, a Russian? Why, I had no idea that he could understand me! Surely he did not hear what I said? As for Mr Astley, I have seen him already, and I see that he is here again. How do you do?” she added to the gentleman in question.
+
+Mr Astley bowed in silence.
+
+“Have younothingto say to me?” the old lady went on. “Say something, for goodness’ sake! Translate to him, Polina.”
+
+Polina did so.
+
+“I have only to say,” replied Mr Astley gravely, but also with alacrity, “that I am indeed glad to see you in such good health.” This was interpreted to the Grandmother, and she seemed much gratified.
+
+“How well English people know how to answer one!” she remarked. “That is why I like them so much better than French. Come here,” she added to Mr Astley. “I will try not to bore you too much. Polina, translate to him that I am staying in rooms on a lower floor. Yes, on a lower floor,” she repeated to Astley, pointing downwards with her finger.
+
+Astley looked pleased at receiving the invitation.
+
+Next, the old lady scanned Polina, from head to foot with minute attention.
+
+“I could almost have liked you, Prascovia,” suddenly she remarked, “for you are a nice girl—the best of the lot. You have some character about you. I too have character. Turn round. Surely that is not false hair that you are wearing?”
+
+“No, Grandmamma. It is my own.”
+
+“Well, well. I do not like the stupid fashions of today. You are very good looking. I should have fallen in love with you if I had been a man. Why do you not get married? It is time now that I was going. I want to walk, yet I always have to ride. Are you still in a bad temper?” she added to the General.
+
+“No, indeed,” rejoined the now mollified General.
+
+“I quite understand that at your time of life—”
+
+“Cette vieille est tombée en enfance,” De Griers whispered to me.
+
+“But I want to look round a little,” the old lady added to the General. Will you lend me Alexis Ivanovitch for the purpose?
+
+“As much as you like. But I myself—yes, and Polina and Monsieur de Griers too—we all of us hope to have the pleasure of escorting you.”
+
+“Mais, madame, cela sera un plaisir,” De Griers commented with a bewitching smile.
+
+“‘Plaisir’ indeed! Why, I look upon you as a perfect fool, monsieur.” Then she remarked to the General: “I am not going to let you have any of my money. I must be off to my rooms now, to see what they are like. Afterwards we will look round a little. Lift me up.”
+
+Again the Grandmother was borne aloft and carried down the staircase amid a perfect bevy of followers—the General walking as though he had been hit over the head with a cudgel, and De Griers seeming to be plunged in thought. Endeavouring to be left behind, Mlle. Blanche next thought better of it, and followed the rest, with the Prince in her wake. Only the German savant and Madame de Cominges did not leave the General’s apartments.

@@ -1,0 +1,16 @@
+---
+layout: book
+title: "He Tells of a Valley Full of Lovers"
+chapter_order: 22
+book: "Collected Poems"
+author: "William Butler Yeats"
+---
+
+I dreamed that I stood in a valley, and amid sighs,
+For happy lovers passed two by two where I stood;
+And I dreamed my lost love came stealthily out of the wood
+With her cloud-pale eyelids falling on dream-dimmed eyes:
+I cried in my dream, *O women, bid the young men lay*
+*Their heads on your knees, and drown their eyes with your hair,*
+*Or remembering hers they will find no other face fair*
+*Till all the valleys of the world have been withered away.*

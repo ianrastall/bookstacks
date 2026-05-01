@@ -1,0 +1,103 @@
+---
+layout: book
+title: "VI"
+chapter_order: 6
+book: "The Gambler"
+author: "Fyodor Dostoevsky"
+---
+
+Two days have passed since that day of lunacy. What a noise and a fuss and a chattering and an uproar there was! And what a welter of unseemliness and disorder and stupidity and bad manners! AndIthe cause of it all! Yet part of the scene was also ridiculous—at all events to myself it was so. I am not quite sure what was the matter with me—whether I was merely stupefied or whether I purposely broke loose and ran amok. At times my mind seems all confused; while at other times I seem almost to be back in my childhood, at the school desk, and to have done the deed simply out of mischief.
+
+It all came of Polina—yes, of Polina. But for her, there might never have been a fracas. Or perhaps I did the deed in a fit of despair (though it may be foolish of me to think so)? What there is so attractive about her I cannot think. Yet thereissomething attractive about her—something passing fair, it would seem. Others besides myself she has driven to distraction. She is tall and straight, and very slim. Her body looks as though it could be tied into a knot, or bent double, like a cord. The imprint of her foot is long and narrow. It is, a maddening imprint—yes, simply a maddening one! And her hair has a reddish tint about it, and her eyes are like cat’s eyes—though able also to glance with proud, disdainful mien. On the evening of my first arrival, four months ago, I remember that she was sitting and holding an animated conversation with De Griers in the salon. And the way in which she looked at him was such that later, when I retired to my own room upstairs, I kept fancying that she had smitten him in the face—that she had smitten him right on the cheek, so peculiar had been her look as she stood confronting him. Ever since that evening I have loved her.
+
+But to my tale.
+
+I stepped from the path into the carriage-way, and took my stand in the middle of it. There I awaited the Baron and the Baroness. When they were but a few paces distant from me I took off my hat, and bowed.
+
+I remember that the Baroness was clad in a voluminous silk dress, pale grey in colour, and adorned with flounces and a crinoline and train. Also, she was short and inordinately stout, while her gross, flabby chin completely concealed her neck. Her face was purple, and the little eyes in it had an impudent, malicious expression. Yet she walked as though she were conferring a favour upon everybody by so doing. As for the Baron, he was tall, wizened, bony-faced after the German fashion, spectacled, and, apparently, about forty-five years of age. Also, he had legs which seemed to begin almost at his chest—or, rather, at his chin! Yet, for all his air of peacock-like conceit, his clothes sagged a little, and his face wore a sheepish air which might have passed for profundity.
+
+These details I noted within a space of a few seconds.
+
+At first my bow and the fact that I had my hat in my hand barely caught their attention. The Baron only scowled a little, and the Baroness swept straight on.
+
+“Madame la Baronne,” said I, loudly and distinctly—embroidering each word, as it were—“j’ai l’honneur d’être votre esclave.”
+
+Then I bowed again, put on my hat, and walked past the Baron with a rude smile on my face.
+
+Polina had ordered me merely to take off my hat: the bow and the general effrontery were of my own invention. God knows what instigated me to perpetrate the outrage! In my frenzy I felt as though I were walking on air.
+
+“Hein!” ejaculated—or, rather, growled—the Baron as he turned towards me in angry surprise.
+
+I too turned round, and stood waiting in pseudo-courteous expectation. Yet still I wore on my face an impudent smile as I gazed at him. He seemed to hesitate, and his brows contracted to their utmost limits. Every moment his visage was growing darker. The Baroness also turned in my direction, and gazed at me in wrathful perplexity, while some of the passers-by also began to stare at us, and others of them halted outright.
+
+“Hein!” the Baron vociferated again, with a redoubled growl and a note of growing wrath in his voice.
+
+“Ja wohl!” I replied, still looking him in the eyes.
+
+“Sind Sie rasend?” he exclaimed, brandishing his stick, and, apparently, beginning to feel nervous. Perhaps it was my costume which intimidated him, for I was well and fashionably dressed, after the manner of a man who belongs to indisputably good society.
+
+“Ja wo-o-ohl!” cried I again with all my might with a longdrawn rolling of the “ohl” sound after the fashion of the Berliners (who constantly use the phrase “Ja wohl!” in conversation, and more or less prolong the syllable “ohl” according as they desire to express different shades of meaning or of mood).
+
+At this the Baron and the Baroness faced sharply about, and almost fled in their alarm. Some of the bystanders gave vent to excited exclamations, and others remained staring at me in astonishment. But I do not remember the details very well.
+
+Wheeling quietly about, I returned in the direction of Polina Alexandrovna. But, when I had got within a hundred paces of her seat, I saw her rise and set out with the children towards the hotel.
+
+At the portico I caught up to her.
+
+“I have perpetrated the—the piece of idiocy,” I said as I came level with her.
+
+“Have you? Then you can take the consequences,” she replied without so much as looking at me. Then she moved towards the staircase.
+
+I spent the rest of the evening walking in the park. Thence I passed into the forest, and walked on until I found myself in a neighbouring principality. At a wayside restaurant I partook of an omelette and some wine, and was charged for the idyllic repast a thaler and a half.
+
+Not until eleven o’clock did I return home—to find a summons awaiting me from the General.
+
+Our party occupied two suites in the hotel; each of which contained two rooms. The first (the larger suite) comprised a salon and a smoking-room, with, adjoining the latter, the General’s study. It was here that he was awaiting me as he stood posed in a majestic attitude beside his writing-table. Lolling on a divan close by was De Griers.
+
+“My good sir,” the General began, “may I ask you what this is that you have gone and done?”
+
+“I should be glad,” I replied, “if we could come straight to the point. Probably you are referring to my encounter of today with a German?”
+
+“With a German? Why, the German was the Baron Burmergelm—a most important personage! I hear that you have been rude both to him and to the Baroness?”
+
+“No, I have not.”
+
+“But I understand that you simply terrified them, my good sir?” shouted the General.
+
+“Not in the least,” I replied. “You must know that when I was in Berlin I frequently used to hear the Berliners repeat, and repellently prolong, a certain phrase—namely, ‘Ja wohl!’; and, happening to meet this couple in the carriage-drive, I found, for some reason or another, that this phrase suddenly recurred to my memory, and exercised a rousing effect upon my spirits. Moreover, on the three previous occasions that I have met the Baroness she has walked towards me as though I were a worm which could easily be crushed with the foot. Not unnaturally, I too possess a measure of self-respect; wherefore, onthisoccasion I took off my hat, and said politely (yes, I assure you it was said politely): ‘Madame, j’ai l’honneur d’être votre esclave.’ Then the Baron turned round, and said ‘Hein!’; whereupon I felt moved to ejaculate in answer ‘Ja wohl!’ Twice I shouted it at him—the first time in an ordinary tone, and the second time with the greatest prolonging of the words of which I was capable. That is all.”
+
+I must confess that this puerile explanation gave me great pleasure. I felt a strong desire to overlay the incident with an even added measure of grossness; so, the further I proceeded, the more did the gusto of my proceeding increase.
+
+“You are only making fun of me!” vociferated the General as, turning to the Frenchman, he declared that my bringing about of the incident had been gratuitous. De Griers smiled contemptuously, and shrugged his shoulders.
+
+“Do not thinkthat,” I put in. “It was not so at all. I grant you that my behaviour was bad—I fully confess that it was so, and make no secret of the fact. I would even go so far as to grant you that my behaviour might well be called stupid and indecent tomfoolery; but,morethan that it was not. Also, let me tell you that I am very sorry for my conduct. Yet there is one circumstance which, in my eyes, almost absolves me from regret in the matter. Of late—that is to say, for the last two or three weeks—I have been feeling not at all well. That is to say, I have been in a sick, nervous, irritable, fanciful condition, so that I have periodically lost control over myself. For instance, on more than one occasion I have tried to pick a quarrel even with Monsieur le Marquise here; and, under the circumstances, he had no choice but to answer me. In short, I have recently been showing signs of ill-health. Whether the Baroness Burmergelm will take this circumstance into consideration when I come to beg her pardon (for Idointend to make her amends) I do not know; but I doubt if she will, and the less so since, so far as I know, the circumstance is one which, of late, has begun to be abused in the legal world, in that advocates in criminal cases have taken to justifying their clients on the ground that, at the moment of the crime, they (the clients) were unconscious of what they were doing—that, in short, they were out of health. ‘My client committed the murder—that is true; but he has no recollection of having committed it.’ And doctors actually support these advocates by affirming that there really is such a malady—that there reallycanarise temporary delusions which make a man remember nothing of a given deed, or only a half or a quarter of it! But the Baron and Baroness are members of an older generation, as well as Prussian Junkers and landowners. To them such a process in the medico-judicial world will be unknown, and therefore, they are the more unlikely to accept any such explanation. What isyouropinion about it, General?”
+
+“Enough, sir!” he thundered with barely restrained fury. “Enough, I say! Once and for all I must endeavour to rid myself of you and your impertinence. To justify yourself in the eyes of the Baron and Baroness will be impossible. Any intercourse with you, even though it be confined to a begging of their pardons, they would look upon as a degradation. I may tell you that, on learning that you formed part of my household, the Baron approached me in the Casino, and demanded of me additional satisfaction. Do you understand, then, what it is that you have entailed upon me—uponme, my good sir? You have entailed upon me the fact of my being forced to sue humbly to the Baron, and to give him my word of honour that this very day you shall cease to belong to my establishment!”
+
+“Excuse me, General,” I interrupted, “but did he make an express point of it that I should ‘cease to belong to your establishment,’ as you call it?”
+
+“No; I, of my own initiative, thought that I ought to afford him that satisfaction; and, with it he was satisfied. So we must part, good sir. It is my duty to hand over to you forty gülden, three florins, as per the accompanying statement. Here is the money, and here the account, which you are at liberty to verify. Farewell. From henceforth we are strangers. From you I have never had anything but trouble and unpleasantness. I am about to call the landlord, and explain to him that from tomorrow onwards I shall no longer be responsible for your hotel expenses. Also I have the honour to remain your obedient servant.”
+
+I took the money and the account (which was indicted in pencil), and, bowing low to the General, said to him very gravely:
+
+“The matter cannot end here. I regret very much that you should have been put to unpleasantness at the Baron’s hands; but, the fault (pardon me) is your own. How came you to answer for me to the Baron? And what did you mean by saying that I formed part of your household? I am merely your family tutor—not a son of yours, nor yet your ward, nor a person of any kind for whose acts you need be responsible. I am a judicially competent person, a man of twenty-five years of age, a university graduate, a gentleman, and, until I met yourself, a complete stranger to you. Only my boundless respect for your merits restrains me from demanding satisfaction at your hands, as well as a further explanation as to the reasons which have led you to take it upon yourself to answer for my conduct.”
+
+So struck was he with my words that, spreading out his hands, he turned to the Frenchman, and interpreted to him that I had challenged himself (the General) to a duel. The Frenchman laughed aloud.
+
+“Nor do I intend to let the Baron off,” I continued calmly, but with not a little discomfiture at De Griers’ merriment. “And since you, General, have today been so good as to listen to the Baron’s complaints, and to enter into his concerns—since you have made yourself a participator in the affair—I have the honour to inform you that, tomorrow morning at the latest, I shall, in my own name, demand of the said Baron a formal explanation as to the reasons which have led him to disregard the fact that the matter lies between him and myself alone, and to put a slight upon me by referring it to another person, as though I were unworthy to answer for my own conduct.”
+
+Then there happened what I had foreseen. The General on hearing of this further intended outrage, showed the white feather.
+
+“What?” he cried. “Do you intend to go on with this damned nonsense? Do you not realise the harm that it is doing me? I beg of you not to laugh at me, sir—not to laugh at me, for we have police authorities here who, out of respect for my rank, and for that of the Baron... In short, sir, I swear to you that I will have you arrested, and marched out of the place, to prevent any further brawling on your part. Do you understand what I say?” He was almost breathless with anger, as well as in a terrible fright.
+
+“General,” I replied with that calmness which he never could abide, “one cannot arrest a man for brawling until he has brawled. I have not so much as begun my explanations to the Baron, and you are altogether ignorant as to the form and time which my intended procedure is likely to assume. I wish but to disabuse the Baron of what is, to me, a shameful supposition—namely, that I am under the guardianship of a person who is qualified to exercise control over my free will. It is vain for you to disturb and alarm yourself.”
+
+“For God’s sake, Alexis Ivanovitch, do put an end to this senseless scheme of yours!” he muttered, but with a sudden change from a truculent tone to one of entreaty as he caught me by the hand. “Do you know what is likely to come of it? Merely further unpleasantness. You will agree with me, I am sure, that at present I ought to move with especial care—yes, with very especial care. You cannot be fully aware of how I am situated. When we leave this place I shall be ready to receive you back into my household; but, for the time being I— Well, I cannot tell you all my reasons.” With that he wound up in a despairing voice: “O Alexis Ivanovitch, Alexis Ivanovitch!”
+
+I moved towards the door—begging him to be calm, and promising that everything should be done decently and in order; whereafter I departed.
+
+Russians, when abroad, are over-apt to play the poltroon, to watch all their words, and to wonder what people are thinking of their conduct, or whether such and such a thing iscomme il faut. In short, they are over-apt to cosset themselves, and to lay claim to great importance. Always they prefer the form of behaviour which has once and for all become accepted and established. This they will follow slavishly whether in hotels, on promenades, at meetings, or when on a journey. But the General had avowed to me that, over and above such considerations as these, there were circumstances which compelled him to “move with especial care at present”, and that the fact had actually made him poor-spirited and a coward—it had made him altogether change his tone towards me. This fact I took into my calculations, and duly noted it, for, of course, hemightapply to the authorities tomorrow, and it behoved me to go carefully.
+
+Yet it was not the General but Polina that I wanted to anger. She had treated me with such cruelty, and had got me into such a hole, that I felt a longing to force her to beseech me to stop. Of course, my tomfoolery might compromise her; yet certain other feelings and desires had begun to form themselves in my brain. If I was never to rank in her eyes as anything but a nonentity, it would not greatly matter if I figured as a draggle-tailed cockerel, and the Baron were to give me a good thrashing; but, the fact was that I desired to have the laugh of them all, and to come out myself unscathed. Let people see what theywouldsee. Let Polina, for once, have a good fright, and be forced to whistle me to heel again. But, however much she might whistle, she should see that I was at least no draggle-tailed cockerel!
+
+I have just received a surprising piece of news. I have just met our chambermaid on the stairs, and been informed by her that Maria Philipovna departed today, by the night train, to stay with a cousin at Carlsbad. What can that mean? The maid declares that Madame packed her trunks early in the day. Yet how is it that no one else seems to have been aware of the circumstance? Or is it thatIhave been the only person to be unaware of it? Also, the maid has just told me that, three days ago, Maria Philipovna had some high words with the General. I understand, then! Probably the words were concerning Mlle. Blanche. Certainly something decisive is approaching.

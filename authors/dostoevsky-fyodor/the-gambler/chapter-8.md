@@ -1,0 +1,123 @@
+---
+layout: book
+title: "VIII"
+chapter_order: 8
+book: "The Gambler"
+author: "Fyodor Dostoevsky"
+---
+
+All at once, on the Promenade, as it was called—that is to say, in the Chestnut Avenue—I came face to face with my Englishman.
+
+“I was just coming to see you,” he said; “and you appear to be out on a similar errand. So you have parted with your employers?”
+
+“How do you know that?” I asked in astonishment. “Isevery oneaware of the fact?”
+
+“By no means. Not every one would consider such a fact to be of moment. Indeed, I have never heard any one speak of it.”
+
+“Then how come you to know it?”
+
+“Because I have had occasion to do so. Whither are you bound? I like you, and was therefore coming to pay you a visit.”
+
+“What a splendid fellow you are, Mr Astley!” I cried, though still wondering how he had come by his knowledge. “And since I have not yet had my coffee, and you have, in all probability, scarcely tasted yours, let us adjourn to the Casino Café, where we can sit and smoke and have a talk.”
+
+The café in question was only a hundred paces away; so, when coffee had been brought, we seated ourselves, and I lit a cigarette. Astley was no smoker, but, taking a seat by my side, he prepared himself to listen.
+
+“I do not intend to go away,” was my first remark. “I intend, on the contrary, to remain here.”
+
+“That I never doubted,” he answered good-humouredly.
+
+It is a curious fact that, on my way to see him, I had never even thought of telling him of my love for Polina. In fact, I had purposely meant to avoid any mention of the subject. Nor, during our stay in the place, had I ever made aught but the scantiest reference to it. You see, not only was Astley a man of great reserve, but also from the first I had perceived that Polina had made a great impression upon him, although he never spoke of her. But now, strangely enough, he had no sooner seated himself and bent his steely gaze upon me, than, for some reason or another, I felt moved to tell him everything—to speak to him of my love in all its phases. For an hour and a half did I discourse on the subject, and found it a pleasure to do so, even though this was the first occasion on which I had referred to the matter. Indeed, when, at certain moments, I perceived that my more ardent passages confused him, I purposely increased my ardour of narration. Yet one thing I regret: and that is that I made references to the Frenchman which were a little over-personal.
+
+Mr Astley sat without moving as he listened to me. Not a word nor a sound of any kind did he utter as he stared into my eyes. Suddenly, however, on my mentioning the Frenchman, he interrupted me, and inquired sternly whether I did right to speak of an extraneous matter (he had always been a strange man in his mode of propounding questions).
+
+“No, I fear not,” I replied.
+
+“And concerning this Marquis and Mlle. Polina you know nothing beyond surmise?”
+
+Again I was surprised that such a categorical question should come from such a reserved individual.
+
+“No, I know nothingfor certainabout them” was my reply. “No—nothing.”
+
+“Then you have done very wrong to speak of them to me, or even to imagine things about them.”
+
+“Quite so, quite so,” I interrupted in some astonishment. “I admit that. Yet that is not the question.” Whereupon I related to him in detail the incident of two days ago. I spoke of Polina’s outburst, of my encounter with the Baron, of my dismissal, of the General’s extraordinary pusillanimity, and of the call which De Griers had that morning paid me. In conclusion, I showed Astley the note which I had lately received.
+
+“What do you make of it?” I asked. “When I met you I was just coming to ask you your opinion. For myself, I could have killed this Frenchman, and am not sure that I shall not do so even yet.”
+
+“I feel the same about it,” said Mr Astley. “As for Mlle. Polina—well, you yourself know that, if necessity drives, one enters into relation with people whom one simply detests. Even between this couple there may be something which, though unknown to you, depends upon extraneous circumstances. For, my own part, I think that you may reassure yourself—or at all events partially. And as for Mlle. Polina’s proceedings of two days ago, they were, of course, strange; not because she can have meant to get rid of you, or to earn for you a thrashing from the Baron’s cudgel (which for some curious reason, he did not use, although he had it ready in his hands), but because such proceedings on the part of such—well, of such a refined lady as Mlle. Polina are, to say the least of it, unbecoming. But she cannot have guessed that you would carry out her absurd wish to the letter?”
+
+“Do you know what?” suddenly I cried as I fixed Mr Astley with my gaze. “I believe that you have already heard the story from some one—very possibly from Mlle. Polina herself?”
+
+In return he gave me an astonished stare.
+
+“Your eyes look very fiery,” he said with a return of his former calm, “and in them I can read suspicion. Now, you have no right whatever to be suspicious. It is not a right which I can for a moment recognise, and I absolutely refuse to answer your questions.”
+
+“Enough! You need say no more,” I cried with a strange emotion at my heart, yet not altogether understanding what had aroused that emotion in my breast. Indeed, when, where, and how could Polina have chosen Astley to be one of her confidants? Of late I had come rather to overlook him in this connection, even though Polina had always been a riddle to me—so much so that now, when I had just permitted myself to tell my friend of my infatuation in all its aspects, I had found myself struck, during the very telling, with the fact that in my relations with her I could specify nothing that was explicit, nothing that was positive. On the contrary, my relations had been purely fantastic, strange, and unreal; they had been unlike anything else that I could think of.
+
+“Very well, very well,” I replied with a warmth equal to Astley’s own. “Then I stand confounded, and have no further opinions to offer. But you are a good fellow, and I am glad to know what you think about it all, even though I do not need your advice.”
+
+Then, after a pause, I resumed:
+
+“For instance, what reason should you assign for the General taking fright in this way? Why should my stupid clowning have led the world to elevate it into a serious incident? Even De Griers has found it necessary to put in his oar (and he only interferes on the most important occasions), and to visit me, and to address to me the most earnest supplications. Yes,he, De Griers, has actually been playing the suppliant tome!And, mark you, although he came to me as early as nine o’clock, he had ready-prepared in his hand Mlle. Polina’s note. When, I would ask, was that note written? Mlle. Polina must have been aroused from sleep for the express purpose of writing it. At all events the circumstance shows that she is an absolute slave to the Frenchman, since she actually begs my pardon in the note—actually begs my pardon! Yet what is her personal concern in the matter? Why is she interested in it at all? Why, too, is the whole party so afraid of this precious Baron? And what sort of a business do you call it for the General to be going to marry Mlle. Blanche de Cominges? He told me last night that, because of the circumstance, he must ‘move with especial care at present.’ What is your opinion of it all? Your look convinces me that you know more about it than I do.”
+
+Mr Astley smiled and nodded.
+
+“Yes, I think Idoknow more about it than you do,” he assented. “The affair centres around this Mlle. Blanche. Of that I feel certain.”
+
+“And what of Mlle. Blanche?” I cried impatiently (for in me there had dawned a sudden hope that this would enable me to discover something about Polina).
+
+“Well, my belief is that at the present moment Mlle. Blanche has, in very truth, a special reason for wishing to avoid any trouble with the Baron and the Baroness. It might lead not only to some unpleasantness, but even to a scandal.”
+
+“Oh, oh!”
+
+“Also I may tell you that Mlle. Blanche has been in Roulettenberg before, for she was staying here three seasons ago. I myself was in the place at the time, and in those days Mlle. Blanche was not known as Mlle. de Cominges, nor was her mother, the Widow de Cominges, even in existence. In any case no one ever mentioned the latter. De Griers, too, had not materialised, and I am convinced that not only do the parties stand in no relation to one another, but also they have not long enjoyed one another’s acquaintance. Likewise, theMarquisatede Griers is of recent creation. Of that I have reason to be sure, owing to a certain circumstance. Even the name De Griers itself may be taken to be a new invention, seeing that I have a friend who once met the said ‘Marquis’ under a different name altogether.”
+
+“Yet he possesses a good circle of friends?”
+
+“Possibly. Mlle. Blanche also may possess that. Yet it is not three years since she received from the local police, at the instance of the Baroness, an invitation to leave the town. And she left it.”
+
+“But why?”
+
+“Well, I must tell you that she first appeared here in company with an Italian—a prince of some sort, a man who bore an historic name (Barberini or something of the kind). The fellow was simply a mass of rings and diamonds—real diamonds, too—and the couple used to drive out in a marvellous carriage. At first Mlle. Blanche played ‘trente et quarante’ with fair success, but, later, her luck took a marked change for the worse. I distinctly remember that in a single evening she lost an enormous sum. But worse was to ensue, for one fine morning her prince disappeared—horses, carriage, and all. Also, the hotel bill which he left unpaid was enormous. Upon this Mlle. Zelma (the name which she assumed after figuring as Madame Barberini) was in despair. She shrieked and howled all over the hotel, and even tore her clothes in her frenzy. In the hotel there was staying also a Polish count (you must know that ALL travelling Poles are counts!), and the spectacle of Mlle. Zelma tearing her clothes and, catlike, scratching her face with her beautiful, scented nails produced upon him a strong impression. So the pair had a talk together, and, by luncheon time, she was consoled. Indeed, that evening the couple entered the Casino arm-in-arm—Mlle. Zelma laughing loudly, according to her custom, and showing even more expansiveness in her manners than she had before shown. For instance, she thrust her way into the file of women roulette-players in the exact fashion of those ladies who, to clear a space for themselves at the tables, push their fellow-players roughly aside. Doubtless you have noticed them?”
+
+“Yes, certainly.”
+
+“Well, they are not worth noticing. To the annoyance of the decent public they are allowed to remain here—at all events such of them as daily change 4000 franc notes at the tables (though, as soon as ever these women cease to do so, they receive an invitation to depart). However, Mlle. Zelma continued to change notes of this kind, but her play grew more and more unsuccessful, despite the fact that such ladies’ luck is frequently good, for they have a surprising amount of cash at their disposal. Suddenly, the Count too disappeared, even as the Prince had done, and that same evening Mlle. Zelma was forced to appear in the Casino alone. On this occasion no one offered her a greeting. Two days later she had come to the end of her resources; whereupon, after staking and losing her last louis d’or she chanced to look around her, and saw standing by her side the Baron Burmergelm, who had been eyeing her with fixed disapproval. To his distaste, however, Mlle. paid no attention, but, turning to him with her well-known smile, requested him to stake, on her behalf, ten louis on the red. Later that evening a complaint from the Baroness led the authorities to request Mlle. not to re-enter the Casino. If you feel in any way surprised that I should know these petty and unedifying details, the reason is that I had them from a relative of mine who, later that evening, drove Mlle. Zelma in his carriage from Roulettenberg to Spa. Now, mark you, Mlle. wants to become Madame General, in order that, in future, she may be spared the receipt of such invitations from Casino authorities as she received three years ago. At present she is not playing; but that is only because, according to the signs, she is lending money to other players. Yes, that is a much more paying game. I even suspect that the unfortunate General is himself in her debt, as well as, perhaps, also De Griers. Or, it may be that the latter has entered into a partnership with her. Consequently you yourself will see that, until the marriage shall have been consummated, Mlle. would scarcely like to have the attention of the Baron and the Baroness drawn to herself. In short, to any one in her position, a scandal would be most detrimental. You form a member of the ménage of these people; wherefore, any act of yours might cause such a scandal—and the more so since daily she appears in public arm in arm with the General or with Mlle. Polina.Nowdo you understand?”
+
+“No, I do not!” I shouted as I banged my fist down upon the table—banged it with such violence that a frightened waiter came running towards us. “Tell me, Mr Astley, why, if you knew this history all along, and, consequently, always knew who this Mlle. Blanche is, you never warned either myself or the General, nor, most of all, Mlle. Polina” (who is accustomed to appear in the Casino—in public everywhere with Mlle. Blanche). “How could you do it?”
+
+“It would have done no good to warn you,” he replied quietly, “for the reason that you could have effected nothing. Against what was I to warn you? As likely as not, the General knows more about Mlle. Blanche even than I do; yet the unhappy man still walks about with her and Mlle. Polina. Only yesterday I saw this Frenchwoman riding, splendidly mounted, with De Griers, while the General was careering in their wake on a roan horse. He had said, that morning, that his legs were hurting him, yet his riding-seat was easy enough. As he passed I looked at him, and the thought occurred to me that he was a man lost for ever. However, it is no affair of mine, for I have only recently had the happiness to make Mlle. Polina’s acquaintance. Also”—he added this as an afterthought—“I have already told you that I do not recognise your right to ask me certain questions, however sincere be my liking for you.”
+
+“Enough,” I said, rising. “To me it is as clear as day that Mlle. Polina knows all about this Mlle. Blanche, but cannot bring herself to part with her Frenchman; wherefore, she consents also to be seen in public with Mlle. Blanche. You may be sure that nothing else would ever have induced her either to walk about with this Frenchwoman or to send me a note not to touch the Baron. Yes, it istherethat the influence lies before which everything in the world must bow! Yet she herself it was who launched me at the Baron! The devil take it, but I was left no choice in the matter.”
+
+“You forget, in the first place, that this Mlle. de Cominges is the General’s inamorata, and, in the second place, that Mlle. Polina, the General’s step-daughter, has a younger brother and sister who, though they are the General’s own children, are completely neglected by this madman, and robbed as well.”
+
+“Yes, yes; that is so. For me to go and desert the children now would mean their total abandonment; whereas, if I remain, I should be able to defend their interests, and, perhaps, to save a moiety of their property. Yes, yes; that is quite true. And yet, and yet—Oh, I can well understand why they are all so interested in the General’s mother!”
+
+“In whom?” asked Mr Astley.
+
+“In the old woman of Moscow who declines to die, yet concerning whom they are for ever expecting telegrams to notify the fact of her death.”
+
+“Ah, then of course their interests centre around her. It is a question of succession. Let that but be settled, and the General will marry, Mlle. Polina will be set free, and De Griers—”
+
+“Yes, and De Griers?”
+
+“Will be repaid his money, which is what he is now waiting for.”
+
+“What? You think that he is waiting forthat?”
+
+“I know of nothing else,” asserted Mr Astley doggedly.
+
+“But, I do, I do!” I shouted in my fury. “He is waiting also for the old woman’s will, for the reason that it awards Mlle. Polina a dowry. As soon as ever the money is received, she will throw herself upon the Frenchman’s neck. All women are like that. Even the proudest of them become abject slaves where marriage is concerned. What Polina is good for is to fall head over ears in love. That ismyopinion. Look at her—especially when she is sitting alone, and plunged in thought. All this was pre-ordained and foretold, and is accursed. Polina could perpetrate any mad act. She—she—But who called me by name?” I broke off. “Who is shouting for me? I heard some one calling in Russian, ‘Alexis Ivanovitch!’ It was a woman’s voice. Listen!”
+
+At the moment, we were approaching my hotel. We had left the café long ago, without even noticing that we had done so.
+
+“Yes, Ididhear a woman’s voice calling, but whose I do not know. The someone was calling you in Russian. Ah! NOW I can see whence the cries come. They come from that lady there—the one who is sitting on the settee, the one who has just been escorted to the verandah by a crowd of lacqueys. Behind her see that pile of luggage! She must have arrived by train.”
+
+“But why should she be callingme?Hear her calling again! See! She is beckoning to us!”
+
+“Yes, so she is,” assented Mr Astley.
+
+“Alexis Ivanovitch, Alexis Ivanovitch! Good heavens, what a stupid fellow!” came in a despairing wail from the verandah.
+
+We had almost reached the portico, and I was just setting foot upon the space before it, when my hands fell to my sides in limp astonishment, and my feet glued themselves to the pavement!

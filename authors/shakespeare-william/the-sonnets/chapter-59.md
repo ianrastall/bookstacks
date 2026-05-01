@@ -1,0 +1,22 @@
+---
+layout: book
+title: "59"
+chapter_order: 59
+book: "The Sonnets"
+author: "William Shakespeare"
+---
+
+If there be nothing new, but that which is,
+Hath been before, how are our brains beguiled,
+Which labouring for invention bear amiss
+The second burthen of a former child!
+O that record could with a backward look,
+Even of five hundred courses of the sun,
+Show me your image in some antique book,
+Since mind at first in character was done.
+That I might see what the old world could say,
+To this composed wonder of your frame,
+Whether we are mended, or whether better they,
+Or whether revolution be the same.
+O sure I am the wits of former days,
+To subjects worse have given admiring praise.

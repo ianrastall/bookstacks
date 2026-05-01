@@ -1,0 +1,27 @@
+---
+layout: default
+title: Home
+---
+<section class="tool-container">
+    <div class="tool-header">
+        <div class="tool-title">
+            <span class="material-icons">library_books</span>
+            <h2>Library</h2>
+        </div>
+    </div>
+    {% assign authors = site.pages | where: "layout", "author_index" | sort: "author_name" %}
+    {% assign books = site.pages | where: "layout", "book_index" %}
+    {% assign chapters = site.pages | where: "layout", "book" %}
+    <p class="tool-description">A curated index of public domain texts, with {{ authors.size }} authors, {{ books.size }} books, and {{ chapters.size }} chapters.</p>
+    
+    <div class="tool-grid">
+        {% for author in authors %}
+        <a class="tool-card" href="{{ author.url | relative_url }}">
+            <div class="tool-icon">
+                <span class="material-icons">person</span>
+            </div>
+            <h3>{{ author.author_name }}</h3>
+        </a>
+        {% endfor %}
+    </div>
+</section>

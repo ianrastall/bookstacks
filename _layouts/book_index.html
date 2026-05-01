@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<section class="tool-container">
+    <div class="tool-header">
+        <div class="tool-title">
+            <span class="material-icons">menu_book</span>
+            <h2>{{ page.book_title }}</h2>
+        </div>
+    </div>
+    <p class="tool-description">By {{ page.author }}</p>
+    
+    <div class="toc-tree">
+        <ol class="toc-list toc-depth-1">
+            {% assign chapters = site.pages | where_exp: "chapter", "chapter.layout == 'book' and chapter.url contains page.url" | sort: "chapter_order" %}
+            {% for chapter in chapters %}
+                <li class="toc-item">
+                    <a class="toc-link" href="{{ chapter.url | relative_url }}">
+                        <span class="toc-link-index">{{ chapter.chapter_order }}</span>
+                        <span class="toc-link-title">{{ chapter.title }}</span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ol>
+    </div>
+</section>

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+{% assign url_parts = page.url | split: '/' %}
+{% assign author_slug = url_parts[2] %}
+{% assign book_slug = url_parts[3] %}
+{% assign book_url = '/authors/' | append: author_slug | append: '/' | append: book_slug | append: '/' %}
+
+<section class="tool-container">
+    
+    <div class="tool-header chapter-header">
+        <nav class="chapter-breadcrumbs chapter-breadcrumbs-inline" aria-label="Breadcrumb">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <span aria-hidden="true">/</span>
+            <a href="{{ '/authors/' | append: author_slug | append: '/' | relative_url }}">{{ page.author }}</a>
+            <span aria-hidden="true">/</span>
+            <a href="{{ book_url | relative_url }}">{{ page.book }}</a>
+        </nav>
+    </div>
+
+    <article class="reader-content">
+        <h2 class="navchap">{{ page.title }}</h2>
+        {{ content }}
+    </article>
+
+    <nav class="chapter-navigation" style="margin-top: 40px; border-top: 1px solid var(--border-color); padding-top: 20px;">
+        <a class="btn btn-primary" href="{{ book_url | relative_url }}">
+            <span class="material-icons" style="vertical-align: middle; margin-right: 5px;">menu_book</span>
+            Table of Contents
+        </a>
+    </nav>
+
+</section>

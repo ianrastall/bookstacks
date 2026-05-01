@@ -1,0 +1,15 @@
+---
+layout: book
+title: "To My Heart, Bidding It Have No Fear"
+chapter_order: 18
+book: "Collected Poems"
+author: "William Butler Yeats"
+---
+
+Be you still, be you still, trembling heart;
+Remember the wisdom out of the old days:
+*Him who trembles before the flame and the flood,*
+*And the winds that blow through the starry ways,*
+*Let the starry winds and the flame and the flood*
+*Cover over and hide, for he has no part*
+*With the proud, majestical multitude*.

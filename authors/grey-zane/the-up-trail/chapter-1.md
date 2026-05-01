@@ -1,0 +1,9 @@
+---
+layout: book
+title: "Chapter 1"
+chapter_order: 1
+book: "The U. P. Trail"
+author: "Zane Grey"
+---
+
+In the early sixties a trail led from the broad Missouri, swirling yellow and turgid between its green-groved borders, for miles and miles out upon the grassy Nebraska plains, turning westward over the undulating prairie, with its swales and billows and long, winding lines of cottonwoods, to a slow, vast heave of rising ground—Wyoming—where the herds of buffalo grazed and the wolf was lord and the camp-fire of the trapper sent up its curling blue smoke from beside some lonely stream; on and on over the barren lands of eternal monotony, all so gray and wide and solemn and silent under the endless sky; on, ever on, up to the bleak, black hills and into the waterless gullies and through the rocky gorges where the deer browsed and the savage lurked; then slowly rising to the pass between the great bold peaks, and across the windy uplands into Utah, with its verdant valleys, green as emeralds, and its haze-filled cañons and wonderful wind-worn cliffs and walls, and its pale salt lakes, veiled in the shadows of stark and lofty rocks, dim, lilac-colored, austere, and isolated; ever onward across Nevada, and ever westward, up from desert to mountain, up into California, where the white streams rushed and roared and the stately pines towered, and seen from craggy heights, deep down, the little blue lakes gleamed like gems; finally sloping to the great descent, where the mountain world ceased and where, out beyond the golden land, asleep and peaceful, stretched the illimitable Pacific, vague and grand beneath the setting sun.

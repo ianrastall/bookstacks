@@ -1,0 +1,11 @@
+---
+layout: book
+title: "XXI"
+chapter_order: 21
+book: "Matka Indiaan"
+author: "E. M. Forster"
+---
+
+Hän tukahdutti katumuksensa, joka ei juuri ollenkaan sopinut yhteen sen kanssa, mitä hänen lähinnä piti tehdä ja lopetti päivän viimeisen osan ratsastamalla uusien liittolaistensa luo. Hän iloitsi siitä, että oli eronnut kerhosta, sillä siellä hän olisi vain kuullut kaikenlaisia juoruja, joita hän olisi sitten kertonut kaupungilla, ja hän oli iloinen, että se mahdollisuus oli nyt mennyttä. Hän tulisi kyllä kaipaamaan biljaardisalia, verkkopalloa ja laverteluaan McBryden kanssa, mutta siinä olikin kaikki, mistä hän kerhossa välitti. Basaarien kohdalla hänen hevosensa säikähti tiikeriä — poikavekkulia, joka oli naamioinut itsensä tiikeriksi maalamalla ruumiinsa ruskea- ja keltajuovaiseksi ja kiinnittämällä naamion kasvoilleen. Mohurram teki tuloaan. Kaupungilta kuului rumpujen pärinää, mutta se tuntui hyvänluontoiselta. Häntä pyydettiin katsomaan erästä pientä taziaa — haurasta ja rumaa rakennusta, joka pikemminkin oli vannehameen kuin Kerbelassa kaatuneen profeetan pojanpojan haudan näköinen. Ilakoivat lapset liimailivat kirjavia paperipalasia holveihin. Illan loppuosan hän vietti Nawab Bahadurin, Hamidullahin, Mahomet Alin ja muiden liiton jäsenten seurassa. Taistelu oli alkanut. Sähkösanoma oli lähetetty tuolle kuuluisalle Amritraolle ja hän oli vastannut myöntävästi. Aiottiin uudistaa pyyntö saada asettaa takuu. Sitä ei voitaisi nyt hevin hylätä, koska neiti Quested oli jo sivuuttanut vaaran. Neuvottelu oli vakava ja järkevä, mutta sitä häiritsivät muutamat itsepäiset soittajat, joiden sallittiin meluta pihalla. Näillä oli kaikilla suuri piikivillä täytetty saviruukku, jota kukin pudisteli ja heilutteli edestakaisin valittavan laulun säestykseksi. Fielding, jota melu häiritsi, ehdotti, että soittajat karkoitettaisiin pihalta, mutta Nawab Bahadur kielsi sanoen, että soittajat, jotka olivat kävelleet monta penikulmaa, voivat tuottaa heille onnea.
+
+Myöhään illalla Fielding sai halun kertoa Godbolelle siitä taktillisesta ja moraalisesta erehdyksestä, jonka hän oli tehnyt käyttäytymällä epäkohteliaasti herra Heaslopia kohtaan, kuullakseen, mitä hän sanoisi asiasta. Mutta vanhus oli jo mennyt nukkumaan ja katosi parin kolmen päivän kuluttua esteettömästi uudelle työmaalleen Hän osasi aina taitavasti kadota.

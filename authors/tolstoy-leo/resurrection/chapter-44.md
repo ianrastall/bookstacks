@@ -1,0 +1,23 @@
+---
+layout: book
+title: "CHAPTER XLIV. MASLOVA'S VIEW OF LIFE."
+chapter_order: 44
+book: "Resurrection"
+author: "Leo Tolstoy"
+---
+
+Before the first interview, Nekhludoff thought that when she saw him and knew of his intention to serve her, Katusha would be pleased and touched, and would be Katusha again; but, to his horror, he found that Katusha existed no more, and there was Maslova in her place. This astonished and horrified him.
+
+What astonished him most was that Katusha was not ashamed of her position—not the position of a prisoner (she was ashamed of that), but her position as a prostitute. She seemed satisfied, even proud of it. And, yet, how could it be otherwise? Everybody, in order to be able to act, has to consider his occupation important and good. Therefore, in whatever position a person is, he is certain to form such a view of the life of men in general which will make his occupation seem important and good.
+
+It is usually imagined that a thief, a murderer, a spy, a prostitute, acknowledging his or her profession as evil, is ashamed of it. But the contrary is true. People whom fate and their sin-mistakes have placed in a certain position, however false that position may be, form a view of life in general which makes their position seem good and admissible. In order to keep up their view of life, these people instinctively keep to the circle of those people who share their views of life and their own place in it. This surprises us, where the persons concerned are thieves, bragging about their dexterity, prostitutes vaunting their depravity, or murderers boasting of their cruelty. This surprises us only because the circle, the atmosphere in which these people live, is limited, and we are outside it. But can we not observe the same phenomenon when the rich boast of their wealth, i.e., robbery; the commanders in the army pride themselves on victories, i.e., murder; and those in high places vaunt their power, i.e., violence? We do not see the perversion in the views of life held by these people, only because the circle formed by them is more extensive, and we ourselves are moving inside of it.
+
+And in this manner Maslova had formed her views of life and of her own position. She was a prostitute condemned to Siberia, and yet she had a conception of life which made it possible for her to be satisfied with herself, and even to pride herself on her position before others.
+
+According to this conception, the highest good for all men without exception—old, young, schoolboys, generals, educated and uneducated, was connected with the relation of the sexes; therefore, all men, even when they pretended to be occupied with other things, in reality took this view. She was an attractive woman, and therefore she was an important and necessary person. The whole of her former and present life was a confirmation of the correctness of this conception.
+
+With such a view of life, she was by no means the lowest, but a very important person. And Maslova prized this view of life more than anything; she could not but prize it, for, if she lost the importance that such a view of life gave her among men, she would lose the meaning of her life. And, in order not to lose the meaning of her life, she instinctively clung to the set that looked at life in the same way as she did. Feeling that Nekhludoff wanted to lead her out into another world, she resisted him, foreseeing that she would have to lose her place in life, with the self-possession and self-respect it gave her. For this reason she drove from her the recollections of her early youth and her first relations with Nekhludoff. These recollections did not correspond with her present conception of the world, and were therefore quite rubbed out of her mind, or, rather, lay somewhere buried and untouched, closed up and plastered over so that they should not escape, as when bees, in order to protect the result of their labour, will sometimes plaster a nest of worms. Therefore, the present Nekhludoff was not the man she had once loved with a pure love, but only a rich gentleman whom she could, and must, make use of, and with whom she could only have the same relations as with men in general.
+
+“No, I could not tell her the chief thing,” thought Nekhludoff, moving towards the front doors with the rest of the people. “I did not tell her that I would marry her; I did not tell her so, but I will,” he thought.
+
+The two warders at the door let out the visitors, counting them again, and touching each one with their hands, so that no extra person should go out, and none remain within. The slap on his shoulder did not offend Nekhludoff this time; he did not even notice it.

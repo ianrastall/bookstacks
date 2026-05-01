@@ -1,0 +1,67 @@
+---
+layout: book
+title: "36. By the Sea"
+chapter_order: 36
+book: "The Mystery of the Blue Train"
+author: "Agatha Christie"
+---
+
+The mimosa was nearly over. The scent of it in the air was faintly unpleasant. There were pink geraniums twining along the balustrade of Lady Tamplin's villa, and masses of carnations below sent up a sweet, heavy perfume. The Mediterranean was at its bluest. Poirot sat on the terrace with Lenox Tamplin. He had just finished telling her the same story he had told to Van Aldin two days before. Lenox had listened to him with absorbed attention, her brows knitted and her eyes sombre.
+
+When he had finished she said simply:
+
+"And Derek?"
+
+"He was released yesterday."
+
+"And he has gone—where?"
+
+"He left Nice last night."
+
+"For St. Mary Mead?"
+
+"Yes, for St. Mary Mead."
+
+There was a pause.
+
+"I was wrong about Katherine," said Lenox. "I thought she did not care."
+
+"She is very reserved. She trusts no one."
+
+"She might have trusted me," said Lenox, with a shade of bitterness.
+
+"Yes," said Poirot gravely, "she might have trusted you. But Mademoiselle Katherine has spent a great deal of her life listening, and those who have listened do not find it easy to talk; they keep their sorrows and joys to themselves and tell no one."
+
+"I was a fool," said Lenox; "I thought she really cared for Knighton. I ought to have known better. I suppose I thought so because—well, I hoped so."
+
+Poirot took her hand and gave it a little friendly squeeze. "Courage, Mademoiselle," he said gently.
+
+Lenox looked very straight out across the sea, and her face, in its ugly rigidity, had for the moment a tragic beauty.
+
+"Oh, well," she said at last, "it would not have done. I am too young for Derek; he is like a kid that has never grown up. He wants the Madonna touch."
+
+There was a long silence, then Lenox turned to him quickly and impulsively. "But I *did* help, Monsieur Poirot—at any rate I did help."
+
+"Yes, Mademoiselle. It was you who gave me the first inkling of the truth when you said that the person who committed the crime need not have been on the train at all. Before that, I could not see how the thing had been done."
+
+Lenox drew a deep breath.
+
+"I am glad," she said; "at any rate—that is something."
+
+From far behind them there came a long-drawn-out scream of an engine's whistle.
+
+"That is that damned Blue Train," said Lenox. "Trains are relentless things, aren't they, Monsieur Poirot? People are murdered and die, but they go on just the same. I am talking nonsense, but you know what I mean."
+
+"Yes, yes, I know. Life is like a train, Mademoiselle. It goes on. And it is a good thing that that is so."
+
+"Why?"
+
+"Because the train gets to its journey's end at last, and there is a proverb about that in your language, Mademoiselle."
+
+"'Journeys end in lovers meeting.'" Lenox laughed. "That is not going to be true for me."
+
+"Yes—yes, it is true. You are young, younger than you yourself know. Trust the train, Mademoiselle, for it is *le bon Dieu* who drives it."
+
+The whistle of the engine came again.
+
+"Trust the train, Mademoiselle," murmured Poirot again. "And trust Hercule Poirot. He knows."

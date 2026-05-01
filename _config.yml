@@ -1,0 +1,11 @@
+title: Bookstacks
+description: A curated library of public domain literature.
+url: "https://bookstacks.org"
+enforce_ssl: true
+
+# This ensures folders are built cleanly
+permalink: /:categories/:title/
+
+exclude:
+  - seed_indexes.py
+  - .jekyll-cache

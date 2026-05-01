@@ -1,0 +1,22 @@
+---
+layout: book
+title: "The Heart of the Woman"
+chapter_order: 10
+book: "Collected Poems"
+author: "William Butler Yeats"
+---
+
+O what to me the little room
+That was brimmed up with prayer and rest;
+He bade me out into the gloom,
+And my breast lies upon his breast.
+
+O what to me my mother’s care,
+The house where I was safe and warm;
+The shadowy blossom of my hair
+Will hide us from the bitter storm.
+
+O hiding hair and dewy eyes,
+I am no more with life and death,
+My heart upon his warm heart lies,
+My breath is mixed into his breath.

@@ -1,0 +1,20 @@
+---
+layout: book
+title: "He Thinks of His Past Greatness When a Part of the Constellations of Heaven"
+chapter_order: 35
+book: "Collected Poems"
+author: "William Butler Yeats"
+---
+
+I have drunk ale from the Country of the Young
+And weep because I know all things now:
+I have been a hazel tree and they hung
+The Pilot Star and the Crooked Plough
+Among my leaves in times out of mind:
+I became a rush that horses tread:
+I became a man, a hater of the wind,
+Knowing one, out of all things, alone, that his head
+Would not lie on the breast or his lips on the hair
+Of the woman that he loves, until he dies;
+Although the rushes and the fowl of the air
+Cry of his love with their pitiful cries.

@@ -1,0 +1,89 @@
+---
+layout: book
+title: "VII"
+chapter_order: 7
+book: "The Gambler"
+author: "Fyodor Dostoevsky"
+---
+
+In the morning I sent for the maître d’hôtel, and explained to him that, in future, my bill was to be rendered to me personally. As a matter of fact, my expenses had never been so large as to alarm me, nor to lead me to quit the hotel; while, moreover, I still had 160 gülden left to me, and—in them—yes, in them, perhaps, riches awaited me. It was a curious fact, that, though I had not yet won anything at play, I nevertheless acted, thought, and felt as though I were sure, before long, to become wealthy—since I could not imagine myself otherwise.
+
+Next, I bethought me, despite the earliness of the hour, of going to see Mr Astley, who was staying at the Hôtel de l’Angleterre (a hostelry at no great distance from our own). But suddenly De Griers entered my room. This had never before happened, for of late that gentleman and I had stood on the most strained and distant of terms—he attempting no concealment of his contempt for me (he even made an express point of showing it), and I having no reason to desire his company. In short, I detested him. Consequently, his entry at the present moment the more astounded me. At once I divined that something out of the way was on the carpet.
+
+He entered with marked affability, and began by complimenting me on my room. Then, perceiving that I had my hat in my hands, he inquired whither I was going so early; and, no sooner did he hear that I was bound for Mr Astley’s than he stopped, looked grave, and seemed plunged in thought.
+
+He was a true Frenchman insofar as that, though he could be lively and engaging when it suited him, he became insufferably dull and wearisome as soon as ever the need for being lively and engaging had passed. Seldom is a Frenchmannaturallycivil: he is civil only as though to order and of set purpose. Also, if he thinks it incumbent upon him to be fanciful, original, and out of the way, his fancy always assumes a foolish, unnatural vein, for the reason that it is compounded of trite, hackneyed forms. In short, the natural Frenchman is a conglomeration of commonplace, petty, everyday positiveness, so that he is the most tedious person in the world. Indeed, I believe that none but greenhorns and excessively Russian people feel an attraction towards the French; for, to any man of sensibility, such a compendium of outworn forms—a compendium which is built up of drawing-room manners, expansiveness, and gaiety—becomes at once over-noticeable and unbearable.
+
+“I have come to see you on business,” De Griers began in a very off-hand, yet polite, tone; “nor will I seek to conceal from you the fact that I have come in the capacity of an emissary, of an intermediary, from the General. Having small knowledge of the Russian tongue, I lost most of what was said last night; but, the General has now explained matters, and I must confess that—”
+
+“See here, Monsieur de Griers,” I interrupted. “I understand that you have undertaken to act in this affair as an intermediary. Of course I am only ‘un utchitel,’ a tutor, and have never claimed to be an intimate of this household, nor to stand on at all familiar terms with it. Consequently, I do not know the whole of its circumstances. Yet pray explain to me this: have you yourself become one of its members, seeing that you are beginning to take such a part in everything, and are now present as an intermediary?”
+
+The Frenchman seemed not over-pleased at my question. It was one which was too outspoken for his taste—and he had no mind to be frank with me.
+
+“I am connected with the General,” he said drily, “partly through business affairs, and partly through special circumstances. My principal has sent me merely to ask you to forego your intentions of last evening. What you contemplate is, I have no doubt, very clever; yet he has charged me to represent to you that you have not the slightest chance of succeeding in your end, since not only will the Baron refuse to receive you, but also he (the Baron) has at his disposal every possible means for obviating further unpleasantness from you. Surely you can see that yourself? What, then, would be the good of going on with it all? On the other hand, the General promises that at the first favourable opportunity he will receive you back into his household, and, in the meantime, will credit you with your salary—with ‘vos appointements.’ Surely that will suit you, will it not?”
+
+Very quietly I replied that he (the Frenchman) was labouring under a delusion; that perhaps, after all, I should not be expelled from the Baron’s presence, but, on the contrary, be listened to; finally, that I should be glad if Monsieur de Griers would confess that he was now visiting me merely in order to see how far I intended to go in the affair.
+
+“Good heavens!” cried de Griers. “Seeing that the General takes such an interest in the matter, is there anything very unnatural in his desiring also to know your plans?”
+
+Again I began my explanations, but the Frenchman only fidgeted and rolled his head about as he listened with an expression of manifest and unconcealed irony on his face. In short, he adopted a supercilious attitude. For my own part, I endeavoured to pretend that I took the affair very seriously. I declared that, since the Baron had gone and complained of me to the General, as though I were a mere servant of the General’s, he had, in the first place, lost me my post, and, in the second place, treated me like a person to whom, as to one not qualified to answer for himself, it was not even worth while to speak. Naturally, I said, I felt insulted at this. Yet, comprehending as I did, differences of years, of social status, and so forth (here I could scarcely help smiling), I was not anxious to bring about further scenes by going personally to demand or to request satisfaction of the Baron. All that I felt was that I had a right to go in person and beg the Baron’s and the Baroness’s pardon—the more so since, of late, I had been feeling unwell and unstrung, and had been in a fanciful condition. And so forth, and so forth. Yet (I continued) the Baron’s offensive behaviour to me of yesterday (that is to say, the fact of his referring the matter to the General) as well as his insistence that the General should deprive me of my post, had placed me in such a position that I could not well express my regret to him (the Baron) and to his good lady, for the reason that in all probability both he and the Baroness, with the world at large, would imagine that I was doing so merely because I hoped, by my action, to recover my post. Hence, I found myself forced to request the Baron to express to mehis ownregrets, as well as to express them in the most unqualified manner—to say, in fact, that he had never had any wish to insult me. After the Baron had donethat, I should, for my part, at once feel free to express to him, whole-heartedly and without reserve, my own regrets. “In short,” I declared in conclusion, “my one desire is that the Baron may make it possible for me to adopt the latter course.”
+
+“Oh fie! What refinements and subtleties!” exclaimed De Griers. “Besides, what have you to express regret for? Confess, Monsieur, Monsieur—pardon me, but I have forgotten your name—confess, I say, that all this is merely a plan to annoy the General? Or perhaps, you have some other and special end in view? Eh?”
+
+“In return you must pardonme, mon cher Marquis, and tell me whatyouhave to do with it.”
+
+“The General—”
+
+“But what of the General? Last night he said that, for some reason or another, it behoved him to ‘move with especial care at present;’ wherefore, he was feeling nervous. But I did not understand the reference.”
+
+“Yes, theredoexist special reasons for his doing so,” assented De Griers in a conciliatory tone, yet with rising anger. “You are acquainted with Mlle. de Cominges, are you not?”
+
+“Mlle. Blanche, you mean?”
+
+“Yes, Mlle. Blanche de Cominges. Doubtless you know also that the General is in love with this young lady, and may even be about to marry her before he leaves here? Imagine, therefore, what any scene or scandal would entail upon him!”
+
+“I cannot see that the marriage scheme need, be affected by scenes or scandals.”
+
+“Mais le Baron est si irascible—un caractère prussien, vous savez! Enfin il fera une querelle d’Allemand.”
+
+“I do not care,” I replied, “seeing that I no longer belong to his household” (of set purpose I was trying to talk as senselessly as possible). “But is it quite settled that Mlle. is to marry the General? What are they waiting for? Why should they conceal such a matter—at all events from ourselves, the General’s own party?”
+
+“I cannot tell you. The marriage is not yet a settled affair, for they are awaiting news from Russia. The General has business transactions to arrange.”
+
+“Ah! Connected, doubtless, with madame his mother?”
+
+De Griers shot at me a glance of hatred.
+
+“To cut things short,” he interrupted, “I have complete confidence in your native politeness, as well as in your tact and good sense. I feel sure that you will do what I suggest, even if it is only for the sake of this family which has received you as a kinsman into its bosom and has always loved and respected you.”
+
+“Be so good as to observe,” I remarked, “that the same family has justexpelledme from its bosom. All that you are saying you are saying but for show; but, when people have just said to you, ‘Of course we do not wish to turn you out, yet, for the sake of appearance’s, you mustpermityourself to be turned out,’ nothing can matter very much.”
+
+“Very well, then,” he said, in a sterner and more arrogant tone. “Seeing that my solicitations have had no effect upon you, it is my duty to mention that other measures will be taken. There exist here police, you must remember, and this very day they shall send you packing. Que diable! To think of a blanc bec like yourself challenging a person like the Baron to a duel! Do you suppose that you will beallowedto do such things? Just try doing them, and see if any one will be afraid of you! The reason why I have asked you to desist is that I can see that your conduct is causing the General annoyance. Do you believe that the Baron could not tell his lacquey simply to put you out of doors?”
+
+“Nevertheless I should not GO out of doors,” I retorted with absolute calm. “You are labouring under a delusion, Monsieur de Griers. The thing will be done in far better trim than you imagine. I was just about to start for Mr Astley’s, to ask him to be my intermediary—in other words, my second. He has a strong liking for me, and I do not think that he will refuse. He will go and see the Baron on MY behalf, and the Baron will certainly not decline to receive him. Although I am only a tutor—a kind of subaltern, Mr Astley is known to all men as the nephew of a real English lord, the Lord Piebroch, as well as a lord in his own right. Yes, you may be pretty sure that the Baron will be civil to Mr Astley, and listen to him. Or, should he decline to do so, Mr Astley will take the refusal as a personal affront to himself (for you know how persistent the English are?) and thereupon introduce to the Baron a friend of his own (and he has many friends in a good position). That being so, picture to yourself the issue of the affair—an affair which will not quite end as you think it will.”
+
+This caused the Frenchman to bethink him of playing the coward. “Really things may be as this fellow says,” he evidently thought. “Really hemightbe able to engineer another scene.”
+
+“Once more I beg of you to let the matter drop,” he continued in a tone that was now entirely conciliatory. “One would think that it actuallypleasedyou to have scenes! Indeed, it is a brawl rather than genuine satisfaction that you are seeking. I have said that the affair may prove to be diverting, and even clever, and that possibly you may attain something by it; yet none the less I tell you” (he said this only because he saw me rise and reach for my hat) “that I have come hither also to hand you these few words from a certain person. Read them, please, for I must take her back an answer.”
+
+So saying, he took from his pocket a small, compact, wafer-sealed note, and handed it to me. In Polina’s handwriting I read:
+
+“I hear that you are thinking of going on with this affair. You have lost your temper now, and are beginning to play the fool! Certain circumstances, however, I may explain to you later. Pray cease from your folly, and put a check upon yourself. For folly it all is. I have need of you, and, moreover, you have promised to obey me. Remember the Shlangenberg. I ask you to be obedient. If necessary, I shall evenbidyou be obedient.—Your own
+
+POLINA.
+
+“P.S.—If so be that you still bear a grudge against me for what happened last night, pray forgive me.”
+
+Everything, to my eyes, seemed to change as I read these words. My lips grew pale, and I began to tremble. Meanwhile, the cursed Frenchman was eyeing me discreetly and askance, as though he wished to avoid witnessing my confusion. It would have been better if he had laughed outright.
+
+“Very well,” I said, “you can tell Mlle. not to disturb herself. But,” I added sharply, “I would also ask you why you have been so long in handing me this note? Instead of chattering about trifles, you ought to have delivered me the missive at once—if you have really come commissioned as you say.”
+
+“Well, pardon some natural haste on my part, for the situation is so strange. I wished first to gain some personal knowledge of your intentions; and, moreover, I did not know the contents of the note, and thought that it could be given you at any time.”
+
+“I understand,” I replied. “So you were ordered to hand me the note only in the last resort, and if you could not otherwise appease me? Is it not so? Speak out, Monsieur de Griers.”
+
+“Perhaps,” said he, assuming a look of great forbearance, but gazing at me in a meaning way.
+
+I reached for my hat; whereupon he nodded, and went out. Yet on his lips I fancied that I could see a mocking smile. How could it have been otherwise?
+
+“You and I are to have a reckoning later, Master Frenchman,” I muttered as I descended the stairs. “Yes, we will measure our strength together.” Yet my thoughts were all in confusion, for again something seemed to have struck me dizzy. Presently the air revived me a little, and, a couple of minutes later, my brain had sufficiently cleared to enable two ideas in particular to stand out in it. Firstly, I asked myself, which of the absurd, boyish, and extravagant threats which I had uttered at random last night had made everybody so alarmed? Secondly, what was the influence which this Frenchman appeared to exercise over Polina? He had but to give the word, and at once she did as he desired—at once she wrote me a note to beg of me to forbear! Of course, the relations between the pair had, from the first, been a riddle to me—they had been so ever since I had first made their acquaintance. But of late I had remarked in her a strong aversion for, even a contempt for—him, while, for his part, he had scarcely even looked at her, but had behaved towards her always in the most churlish fashion. Yes, I had noted that. Also, Polina herself had mentioned to me her dislike for him, and delivered herself of some remarkable confessions on the subject. Hence, he must have got her into his power somehow—somehow he must be holding her as in a vice.

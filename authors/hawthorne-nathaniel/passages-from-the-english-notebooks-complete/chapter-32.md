@@ -1,0 +1,21 @@
+---
+layout: book
+title: "DRYBURGH ABBEY,"
+chapter_order: 32
+book: "Passages From The English Notebooks Complete"
+author: "Nathaniel Hawthorne"
+---
+
+### DRYBURGH ABBEY,
+
+three miles distant. It was a cold though rather bright morning, with a most shrewd and bitter wind, which blew directly in my face as I sat beside the driver. An English wind is bad enough, but methinks a Scotch one, is rather worse; at any rate, I was half frozen, and wished Dryburgh Abbey in Tophet, where it would have been warmer work to go and see it. Some of the border hills were striking, especially the Cowden Knowe, which ascends into a prominent and lofty peak. Such villages as we passed did not greatly differ from English villages. By and by we came to the banks of the Tweed, at a point where there is a ferry. A carriage was on the river-bank, the driver waiting beside it; for the people who came in it had already been ferried across to see the Abbey.
+
+The ferryman here is a young girl; and, stepping into the boat, she shoved off, and so skilfully took advantage of the eddies of the stream, which is here deep and rapid, that we were soon on the other side. She was by no means an uncomely maiden, with pleasant Scotch features, and a quiet intelligence of aspect, gleaming into a smile when spoken to; much tanned with all kinds of weather, and, though slender, yet so agile and muscular that it was no shame for a man to let himself be rowed by her.
+
+From the ferry we had a walk of half a mile, more or less, to a cottage, where we found another young girl, whose business it is to show the Abbey. She was of another mould than the ferry-maiden,—a queer, shy, plaintive sort of a body,—and answered all our questions in a low, wailing tone. Passing through an apple-orchard, we were not long in reaching the Abbey, the ruins of which are much more extensive and more picturesque than those of Melrose, being overrun with bushes and shrubbery, and twined about with ivy, and all such vegetation as belongs, naturally, to old walls. There are the remains of the refectory, and other domestic parts of the Abbey, as well as the church, and all in delightful state of decay,—not so far gone but that we had bits of its former grandeur in the columns and broken arches, and in some portions of the edifice that still retain a roof.
+
+In the chapter-house we saw a marble statue of Newton, wofully maltreated by damps and weather; and though it had no sort of business there, it fitted into the ruins picturesquely enough. There is another statue, equally unauthorized; both having been placed here by a former Earl of Buchan, who seems to have been a little astray in his wits.
+
+On one side of the church, within an arched recess, are the monuments of Sir Walter Scott and his family,—three ponderous tombstones of Aberdeen granite, polished, but already dimmed and dulled by the weather. The whole floor of the recess is covered by these monuments, that of Sir Walter being the middle one, with Lady (or, as the inscription calls her, Dame) Scott beyond him, next to the church wall, and some one of his sons or daughters on the hither side. The effect of his being buried here is to make the whole of Dryburgh Abbey his monument. There is another arched recess, twin to the Scott burial-place, and contiguous to it, in which are buried a Pringle family; it being their ancient place of sepulture. The spectator almost inevitably feels as if they were intruders, although their rights here are of far older date than those of Scott.
+
+Dryburgh Abbey must be a most beautiful spot of a summer afternoon; and it was beautiful even on this not very genial morning, especially when the sun blinked out upon the ivy, and upon the shrubberied paths that wound about the ruins. I think I recollect the birds chirruping in this neighborhood of it. After viewing it sufficiently,—sufficiently for this one time,—we went back to the ferry, and, being set across by the same Undine, we drove back to Melrose. No longer riding against the wind, I found it not nearly so cold as before. I now noticed that the Eildon Hills, seen from this direction, rise from one base into three distinct summits, ranged in a line. According to "The Lay of the Last Minstrel," they were cleft into this shape by the magic of Michael Scott. Reaching Melrose . . . . without alighting, we set off for

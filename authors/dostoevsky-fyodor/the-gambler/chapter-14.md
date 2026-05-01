@@ -1,0 +1,119 @@
+---
+layout: book
+title: "XIV"
+chapter_order: 14
+book: "The Gambler"
+author: "Fyodor Dostoevsky"
+---
+
+The shock made me utter an exclamation.
+
+“What is the matter? What is the matter?” she asked in a strange voice. She was looking pale, and her eyes were dim.
+
+“What is the matter?” I re-echoed. “Why, the fact that you arehere!”
+
+“If I am here, I have come with all that I have to bring,” she said. “Such has always been my way, as you shall presently see. Please light a candle.”
+
+I did so; whereupon she rose, approached the table, and laid upon it an open letter.
+
+“Read it,” she added.
+
+“It is De Griers’ handwriting!” I cried as I seized the document. My hands were so tremulous that the lines on the pages danced before my eyes. Although, at this distance of time, I have forgotten the exact phraseology of the missive, I append, if not the precise words, at all events the general sense.
+
+“Mademoiselle,” the document ran, “certain untoward circumstances compel me to depart in haste. Of course, you have of yourself remarked that hitherto I have always refrained from having any final explanation with you, for the reason that I could not well state the whole circumstances; and now to my difficulties the advent of the aged Grandmother, coupled with her subsequent proceedings, has put the final touch. Also, the involved state of my affairs forbids me to write with any finality concerning those hopes of ultimate bliss upon which, for a long while past, I have permitted myself to feed. I regret the past, but at the same time hope that in my conduct you have never been able to detect anything that was unworthy of a gentleman and a man of honour. Having lost, however, almost the whole of my money in debts incurred by your stepfather, I find myself driven to the necessity of saving the remainder; wherefore, I have instructed certain friends of mine in St Petersburg to arrange for the sale of all the property which has been mortgaged to myself. At the same time, knowing that, in addition, your frivolous stepfather has squandered money which is exclusively yours, I have decided to absolve him from a certain moiety of the mortgages on his property, in order that you may be in a position to recover of him what you have lost, by suing him in legal fashion. I trust, therefore, that, as matters now stand, this action of mine may bring you some advantage. I trust also that this same action leaves me in the position of having fulfilled every obligation which is incumbent upon a man of honour and refinement. Rest assured that your memory will for ever remain graven in my heart.”
+
+“All this is clear enough,” I commented. “Surely you did not expect aught else from him?” Somehow I was feeling annoyed.
+
+“I expected nothing at all from him,” she replied—quietly enough, to all outward seeming, yet with a note of irritation in her tone. “Long ago I made up my mind on the subject, for I could read his thoughts, and knew what he was thinking. He thought that possibly I should sue him—that one day I might become a nuisance.” Here Polina halted for a moment, and stood biting her lips. “So of set purpose I redoubled my contemptuous treatment of him, and waited to see what he would do. If a telegram to say that we had become legatees had arrived from, St Petersburg, I should have flung at him a quittance for my foolish stepfather’s debts, and then dismissed him. For a long time I have hated him. Even in earlier days he was not a man; and now!—Oh, how gladly I could throw those fifty thousand roubles in his face, and spit in it, and then rub the spittle in!”
+
+“But the document returning the fifty-thousand rouble mortgage—has the General got it? If so, possess yourself of it, and send it to De Griers.”
+
+“No, no; the General has not got it.”
+
+“Just as I expected! Well, what is the General going to do?” Then an idea suddenly occurred to me. “What about the Grandmother?” I asked.
+
+Polina looked at me with impatience and bewilderment.
+
+“What makes you speak ofher?” was her irritable inquiry. “I cannot go and live with her. Nor,” she added hotly, “will I go down upon my knees toany one.”
+
+“Why should you?” I cried. “Yet to think that you should have loved De Griers! The villain, the villain! But I will kill him in a duel. Where is he now?”
+
+“In Frankfort, where he will be staying for the next three days.”
+
+“Well, bid me do so, and I will go to him by the first train tomorrow,” I exclaimed with enthusiasm.
+
+She smiled.
+
+“If you were to do that,” she said, “he would merely tell you to be so good as first to return him the fifty thousand francs. What, then, would be the use of having a quarrel with him? You talk sheer nonsense.”
+
+I ground my teeth.
+
+“The question,” I went on, “is how to raise the fifty thousand francs. We cannot expect to find them lying about on the floor. Listen. What of Mr Astley?” Even as I spoke a new and strange idea formed itself in my brain.
+
+Her eyes flashed fire.
+
+“What?you yourselfwish me to leave you for him?” she cried with a scornful look and a proud smile. Never before had she addressed me thus.
+
+Then her head must have turned dizzy with emotion, for suddenly she seated herself upon the sofa, as though she were powerless any longer to stand.
+
+A flash of lightning seemed to strike me as I stood there. I could scarcely believe my eyes or my ears. Shedidlove me, then! Itwasto me, and not to Mr Astley, that she had turned! Although she, an unprotected girl, had come to me in my room—in an hotel room—and had probably compromised herself thereby, I had not understood!
+
+Then a second mad idea flashed into my brain.
+
+“Polina,” I said, “give me but an hour. Wait here just one hour until I return. Yes, you MUST do so. Do you not see what I mean? Just stay here for that time.”
+
+And I rushed from the room without so much as answering her look of inquiry. She called something after me, but I did not return.
+
+Sometimes it happens that the most insane thought, the most impossible conception, will become so fixed in one’s head that at length one believes the thought or the conception to be reality. Moreover, if with the thought or the conception there is combined a strong, a passionate, desire, one will come to look upon the said thought or conception as something fated, inevitable, and foreordained—something bound to happen. Whether by this there is connoted something in the nature of a combination of presentiments, or a great effort of will, or a self-annulment of one’s true expectations, and so on, I do not know; but, at all events that night saw happen to me (a night which I shall never forget) something in the nature of the miraculous. Although the occurrence can easily be explained by arithmetic, I still believe it to have been a miracle. Yet why did this conviction take such a hold upon me at the time, and remain with me ever since? Previously, I had thought of the idea, not as an occurrence which was ever likely to come about, but as something whichnevercould come about.
+
+The time was a quarter past eleven o’clock when I entered the Casino in such a state of hope (though, at the same time, of agitation) as I had never before experienced. In the gaming-rooms there were still a large number of people, but not half as many as had been present in the morning.
+
+At eleven o’clock there usually remained behind only the real, the desperate gamblers—persons for whom, at spas, there existed nothing beyond roulette, and who went thither for that alone. These gamesters took little note of what was going on around them, and were interested in none of the appurtenances of the season, but played from morning till night, and would have been ready to play through the night until dawn had that been possible. As it was, they used to disperse unwillingly when, at midnight, roulette came to an end. Likewise, as soon as ever roulette was drawing to a close and the head croupier had called “Les trois derniers coups,” most of them were ready to stake on the last three rounds all that they had in their pockets—and, for the most part, lost it. For my own part I proceeded towards the table at which the Grandmother had lately sat; and, since the crowd around it was not very large, I soon obtained standing room among the ring of gamblers, while directly in front of me, on the green cloth, I saw marked the word “Passe.”
+
+“Passe” was a row of numbers from 19 to 36 inclusive; while a row of numbers from 1 to 18 inclusive was known as “Manque.” But what had that to do with me? I had not noticed—I had not so much as heard the numbers upon which the previous coup had fallen, and so took no bearings when I began to play, as, in my place, anysystematicgambler would have done. No, I merely extended my stock of twenty ten-gülden pieces, and threw them down upon the space “Passe” which happened to be confronting me.
+
+“Vingt-deux!” called the croupier.
+
+I had won! I staked upon the same again—both my original stake and my winnings.
+
+“Trente-et-un!” called the croupier.
+
+Again I had won, and was now in possession of eighty ten-gülden pieces. Next, I moved the whole eighty on to twelve middle numbers (a stake which, if successful, would bring me in a triple profit, but also involved a risk of two chances to one). The wheel revolved, and stopped at twenty-four. Upon this I was paid out notes and gold until I had by my side a total sum of two thousand gülden.
+
+It was as in a fever that I moved the pile, en bloc, on to the red. Then suddenly I came to myself (though that was the only time during the evening’s play when fear cast its cold spell over me, and showed itself in a trembling of the hands and knees). For with horror I had realised that Imustwin, and that upon that stake there depended all my life.
+
+“Rouge!” called the croupier. I drew a long breath, and hot shivers went coursing over my body. I was paid out my winnings in bank-notes—amounting, of course, to a total of four thousand florins, eight hundred gülden (I could still calculate the amounts).
+
+After that, I remember, I again staked two thousand florins upon twelve middle numbers, and lost. Again I staked the whole of my gold, with eight hundred gülden, in notes, and lost. Then madness seemed to come upon me, and seizing my last two thousand florins, I staked them upon twelve of the first numbers—wholly by chance, and at random, and without any sort of reckoning. Upon my doing so there followed a moment of suspense only comparable to that which Madame Blanchard must have experienced when, in Paris, she was descending earthwards from a balloon.
+
+“Quatre!” called the croupier.
+
+Once more, with the addition of my original stake, I was in possession of six thousand florins! Once more I looked around me like a conqueror—once more I feared nothing as I threw down four thousand of these florins upon the black. The croupiers glanced around them, and exchanged a few words; the bystanders murmured expectantly.
+
+The black turned up. After that I do not exactly remember either my calculations or the order of my stakings. I only remember that, as in a dream, I won in one round sixteen thousand florins; that in the three following rounds, I lost twelve thousand; that I moved the remainder (four thousand) on to “Passe” (though quite unconscious of what I was doing—I was merely waiting, as it were, mechanically, and without reflection, for something) and won; and that, finally, four times in succession I lost. Yes, I can remember raking in money by thousands—but most frequently on the twelve, middle numbers, to which I constantly adhered, and which kept appearing in a sort of regular order—first, three or four times running, and then, after an interval of a couple of rounds, in another break of three or four appearances. Sometimes, this astonishing regularity manifested itself in patches; a thing to upset all the calculations of note—taking gamblers who play with a pencil and a memorandum-book in their hands Fortune perpetrates some terrible jests at roulette!
+
+Since my entry not more than half an hour could have elapsed. Suddenly a croupier informed me that I had, won thirty thousand florins, as well as that, since the latter was the limit for which, at any one time, the bank could make itself responsible, roulette at that table must close for the night. Accordingly, I caught up my pile of gold, stuffed it into my pocket, and, grasping my sheaf of bank-notes, moved to the table in an adjoining salon where a second game of roulette was in progress. The crowd followed me in a body, and cleared a place for me at the table; after which, I proceeded to stake as before—that is to say, at random and without calculating. What saved me from ruin I do not know.
+
+Of course there were times when fragmentary reckoningsdidcome flashing into my brain. For instance, there were times when I attached myself for a while to certain figures and coups—though always leaving them, again before long, without knowing what I was doing.
+
+In fact, I cannot have been in possession of all my faculties, for I can remember the croupiers correcting my play more than once, owing to my having made mistakes of the gravest order. My brows were damp with sweat, and my hands were shaking. Also, Poles came around me to proffer their services, but I heeded none of them. Nor did my luck fail me now. Suddenly, there arose around me a loud din of talking and laughter. “Bravo, bravo!” was the general shout, and some people even clapped their hands. I had raked in thirty thousand florins, and again the bank had had to close for the night!
+
+“Go away now, go away now,” a voice whispered to me on my right. The person who had spoken to me was a certain Jew of Frankfurt—a man who had been standing beside me the whole while, and occasionally helping me in my play.
+
+“Yes, for God’s sake go,” whispered a second voice in my left ear. Glancing around, I perceived that the second voice had come from a modestly, plainly dressed lady of rather less than thirty—a woman whose face, though pale and sickly-looking, bore also very evident traces of former beauty. At the moment, I was stuffing the crumpled bank-notes into my pockets and collecting all the gold that was left on the table. Seizing up my last note for five hundred gülden, I contrived to insinuate it, unperceived, into the hand of the pale lady. An overpowering impulse had made me do so, and I remember how her thin little fingers pressed mine in token of her lively gratitude. The whole affair was the work of a moment.
+
+Then, collecting my belongings, I crossed to where trente et quarante was being played—a game which could boast of a more aristocratic public, and was played with cards instead of with a wheel. At this diversion the bank made itself responsible for a hundred thousand thalers as the limit, but the highest stake allowable was, as in roulette, four thousand florins. Although I knew nothing of the game—and I scarcely knew the stakes, except those on black and red—I joined the ring of players, while the rest of the crowd massed itself around me. At this distance of time I cannot remember whether I ever gave a thought to Polina; I seemed only to be conscious of a vague pleasure in seizing and raking in the bank-notes which kept massing themselves in a pile before me.
+
+But, as ever, fortune seemed to be at my back. As though of set purpose, there came to my aid a circumstance which not infrequently repeats itself in gaming. The circumstance is that not infrequently luck attaches itself to, say, the red, and does not leave it for a space of say, ten, or even fifteen, rounds in succession. Three days ago I had heard that, during the previous week there had been a run of twenty-two coups on the red—an occurrence never before known at roulette—so that men spoke of it with astonishment. Naturally enough, many deserted the red after a dozen rounds, and practically no one could now be found to stake upon it. Yet upon the black also—the antithesis of the red—no experienced gambler would stake anything, for the reason that every practised player knows the meaning of “capricious fortune.” That is to say, after the sixteenth (or so) success of the red, one would think that the seventeenth coup would inevitably fall upon the black; wherefore, novices would be apt to back the latter in the seventeenth round, and even to double or treble their stakes upon it—only, in the end, to lose.
+
+Yet some whim or other led me, on remarking that the red had come up consecutively for seven times, to attach myself to that colour. Probably this was mostly due to self-conceit, for I wanted to astonish the bystanders with the riskiness of my play. Also, I remember that—oh, strange sensation!—I suddenly, and without any challenge from my own presumption, became obsessed with adesireto take risks. If the spirit has passed through a great many sensations, possibly it can no longer be sated with them, but grows more excited, and demands more sensations, and stronger and stronger ones, until at length it falls exhausted. Certainly, if the rules of the game had permitted even of my staking fifty thousand florins at a time, I should have staked them. All of a sudden I heard exclamations arising that the whole thing was a marvel, since the red was turning up for the fourteenth time!
+
+“Monsieur a gagné cent mille florins,” a voice exclaimed beside me.
+
+I awoke to my senses. What? I had won a hundred thousand florins? If so, what more did I need to win? I grasped the banknotes, stuffed them into my pockets, raked in the gold without counting it, and started to leave the Casino. As I passed through the salons people smiled to see my bulging pockets and unsteady gait, for the weight which I was carrying must have amounted to half a pood! Several hands I saw stretched out in my direction, and as I passed I filled them with all the money that I could grasp in my own. At length two Jews stopped me near the exit.
+
+“You are a bold young fellow,” one said, “but mind you depart early tomorrow—as early as you can—for if you do not you will lose everything that you have won.”
+
+But I did not heed them. The Avenue was so dark that it was barely possible to distinguish one’s hand before one’s face, while the distance to the hotel was half a verst or so; but I feared neither pickpockets nor highwaymen. Indeed, never since my boyhood have I done that. Also, I cannot remember what I thought about on the way. I only felt a sort of fearful pleasure—the pleasure of success, of conquest, of power (how can I best express it?). Likewise, before me there flitted the image of Polina; and I kept remembering, and reminding myself, that it was toherI was going, that it was inherpresence I should soon be standing, that it wassheto whom I should soon be able to relate and show everything. Scarcely once did I recall what she had lately said to me, or the reason why I had left her, or all those varied sensations which I had been experiencing a bare hour and a half ago. No, those sensations seemed to be things of the past, to be things which had righted themselves and grown old, to be things concerning which we needed to trouble ourselves no longer, since, for us, life was about to begin anew. Yet I had just reached the end of the Avenue when theredidcome upon me a fear of being robbed or murdered. With each step the fear increased until, in my terror, I almost started to run. Suddenly, as I issued from the Avenue, there burst upon me the lights of the hotel, sparkling with a myriad lamps! Yes, thanks be to God, I had reached home!
+
+Running up to my room, I flung open the door of it. Polina was still on the sofa, with a lighted candle in front of her, and her hands clasped. As I entered she stared at me in astonishment (for, at the moment, I must have presented a strange spectacle). All I did, however, was to halt before her, and fling upon the table my burden of wealth.

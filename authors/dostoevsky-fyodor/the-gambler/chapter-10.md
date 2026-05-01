@@ -1,0 +1,221 @@
+---
+layout: book
+title: "X"
+chapter_order: 10
+book: "The Gambler"
+author: "Fyodor Dostoevsky"
+---
+
+At spas—and, probably, all over Europe—hotel landlords and managers are guided in their allotment of rooms to visitors, not so much by the wishes and requirements of those visitors, as by their personal estimate of the same. It may also be said that these landlords and managers seldom make a mistake. To the Grandmother, however, our landlord, for some reason or another, allotted such a sumptuous suite that he fairly overreached himself; for he assigned her a suite consisting of four magnificently appointed rooms, with bathroom, servants’ quarters, a separate room for her maid, and so on. In fact, during the previous week the suite had been occupied by no less a personage than a Grand Duchess: which circumstance was duly explained to the new occupant, as an excuse for raising the price of these apartments. The Grandmother had herself carried—or, rather, wheeled—through each room in turn, in order that she might subject the whole to a close and attentive scrutiny; while the landlord—an elderly, bald-headed man—walked respectfully by her side.
+
+What every one took the Grandmother to be I do not know, but it appeared, at least, that she was accounted a person not only of great importance, but also, and still more, of great wealth; and without delay they entered her in the hotel register as “Madame la générale, Princesse de Tarassevitcheva,” although she had never been a princess in her life. Her retinue, her reserved compartment in the train, her pile of unnecessary trunks, portmanteaux, and strong-boxes, all helped to increase her prestige; while her wheeled chair, her sharp tone and voice, her eccentric questions (put with an air of the most overbearing and unbridled imperiousness), her whole figure—upright, rugged, and commanding as it was—completed the general awe in which she was held. As she inspected her new abode she ordered her chair to be stopped at intervals in order that, with finger extended towards some article of furniture, she might ply the respectfully smiling, yet secretly apprehensive, landlord with unexpected questions. She addressed them to him in French, although her pronunciation of the language was so bad that sometimes I had to translate them. For the most part, the landlord’s answers were unsatisfactory, and failed to please her; nor were the questions themselves of a practical nature, but related, generally, to God knows what.
+
+For instance, on one occasion she halted before a picture which, a poor copy of a well-known original, had a mythological subject.
+
+“Of whom is this a portrait?” she inquired.
+
+The landlord explained that it was probably that of a countess.
+
+“But how know you that?” the old lady retorted.
+
+“You live here, yet you cannot say for certain! And why is the picture there at all? And why do its eyes look so crooked?”
+
+To all these questions the landlord could return no satisfactory reply, despite his floundering endeavours.
+
+“The blockhead!” exclaimed the Grandmother in Russian.
+
+Then she proceeded on her way—only to repeat the same story in front of a Saxon statuette which she had sighted from afar, and had commanded, for some reason or another, to be brought to her. Finally, she inquired of the landlord what was the value of the carpet in her bedroom, as well as where the said carpet had been manufactured; but, the landlord could do no more than promise to make inquiries.
+
+“What donkeys these people are!” she commented. Next, she turned her attention to the bed.
+
+“What a huge counterpane!” she exclaimed. “Turn it back, please.” The lacqueys did so.
+
+“Further yet, further yet,” the old lady cried. “Turn itrightback. Also, take off those pillows and bolsters, and lift up the feather bed.”
+
+The bed was opened for her inspection.
+
+“Mercifully it contains no bugs,” she remarked.
+
+“Pull off the whole thing, and then put on my own pillows and sheets. The place is too luxurious for an old woman like myself. It is too large for any one person. Alexis Ivanovitch, come and see me whenever you are not teaching your pupils.”
+
+“After tomorrow I shall no longer be in the General’s service,” I replied, “but merely living in the hotel on my own account.”
+
+“Why so?”
+
+“Because, the other day, there arrived from Berlin a German and his wife—persons of some importance; and, it chanced that, when taking a walk, I spoke to them in German without having properly compassed the Berlin accent.”
+
+“Indeed?”
+
+“Yes: and this action on my part the Baron held to be an insult, and complained about it to the General, who yesterday dismissed me from his employ.”
+
+“But I suppose you must have threatened that precious Baron, or something of the kind? However, even if you did so, it was a matter of no moment.”
+
+“No, I did not. The Baron was the aggressor by raising his stick at me.”
+
+Upon that the Grandmother turned sharply to the General.
+
+“What? You permitted yourself to treat your tutor thus, you nincompoop, and to dismiss him from his post? You are a blockhead—an utter blockhead! I can see that clearly.”
+
+“Do not alarm yourself, my dear mother,” the General replied with a lofty air—an air in which there was also a tinge of familiarity. “I am quite capable of managing my own affairs. Moreover, Alexis Ivanovitch has not given you a true account of the matter.”
+
+“What did you do next?” The old lady inquired of me.
+
+“I wanted to challenge the Baron to a duel,” I replied as modestly as possible; “but the General protested against my doing so.”
+
+“Andwhydid you so protest?” she inquired of the General. Then she turned to the landlord, and questioned him as to whetherhewould not have fought a duel, if challenged. “For,” she added, “I can see no difference between you and the Baron; nor can I bear that German visage of yours.” Upon this the landlord bowed and departed, though he could not have understood the Grandmother’s compliment.
+
+“Pardon me, Madame,” the General continued with a sneer, “but are duels really feasible?”
+
+“Why not? All men are crowing cocks, and that is why they quarrel.You, though, I perceive, are a blockhead—a man who does not even know how to carry his breeding. Lift me up. Potapitch, see to it that you always havetwobearers ready. Go and arrange for their hire. But we shall not require more than two, for I shall need only to be carried upstairs. On the level or in the street I can bewheeledalong. Go and tell them that, and pay them in advance, so that they may show me some respect. You too, Potapitch, are always to come with me, andyou, Alexis Ivanovitch, are to point out to me this Baron as we go along, in order that I may get a squint at the precious ‘Von.’ And where is that roulette played?”
+
+I explained to her that the game was carried on in the salons of the Casino; whereupon there ensued a string of questions as to whether there were many such salons, whether many people played in them, whether those people played a whole day at a time, and whether the game was managed according to fixed rules. At length, I thought it best to say that the most advisable course would be for her to go and see it for herself, since a mere description of it would be a difficult matter.
+
+“Then take me straight there,” she said, “and do you walk on in front of me, Alexis Ivanovitch.”
+
+“What, mother? Before you have so much as rested from your journey?” the General inquired with some solicitude. Also, for some reason which I could not divine, he seemed to be growing nervous; and, indeed, the whole party was evincing signs of confusion, and exchanging glances with one another. Probably they were thinking that it would be a ticklish—even an embarrassing—business to accompany the Grandmother to the Casino, where, very likely, she would perpetrate further eccentricities, and in public too! Yet on their own initiative they had offered to escort her!
+
+“Why should I rest?” she retorted. “I am not tired, for I have been sitting still these past five days. Let us see what your medicinal springs and waters are like, and where they are situated. What, too, about that, that—what did you call it, Prascovia?—oh, about that mountain top?”
+
+“Yes, we are going to see it, Grandmamma.”
+
+“Very well. Is there anything else for me to see here?”
+
+“Yes! Quite a number of things,” Polina forced herself to say.
+
+“Martha,youmust come with me as well,” went on the old lady to her maid.
+
+“No, no, mother!” ejaculated the General. “Really she cannot come. They would not admit even Potapitch to the Casino.”
+
+“Rubbish! Because she is my servant, is that a reason for turning her out? Why, she is only a human being like the rest of us; and as she has been travelling for a week she might like to look about her. With whom else could she go out but myself? She would never dare to show her nose in the street alone.”
+
+“But, mother—”
+
+“Are you ashamed to be seen with me? Stop at home, then, and you will be asked no questions. A pretty Generalyouare, to be sure! I am a general’s widow myself. But, after all, why should I drag the whole party with me? I will go and see the sights with only Alexis Ivanovitch as my escort.”
+
+De Griers strongly insisted thatevery oneought to accompany her. Indeed, he launched out into a perfect shower of charming phrases concerning the pleasure of acting as her cicerone, and so forth. Every one was touched with his words.
+
+“Mais elle est tombée en enfance,” he added aside to the General. “Seule, elle fera des bêtises.” More than this I could not overhear, but he seemed to have got some plan in his mind, or even to be feeling a slight return of his hopes.
+
+The distance to the Casino was about half a verst, and our route led us through the Chestnut Avenue until we reached the square directly fronting the building. The General, I could see, was a trifle reassured by the fact that, though our progress was distinctly eccentric in its nature, it was, at least, correct and orderly. As a matter of fact, the spectacle of a person who is unable to walk is not anything to excite surprise at a spa. Yet it was clear that the General had a great fear of the Casino itself: for why should a person who had lost the use of her limbs—more especially an old woman—be going to rooms which were set apart only for roulette? On either side of the wheeled chair walked Polina and Mlle. Blanche—the latter smiling, modestly jesting, and, in short, making herself so agreeable to the Grandmother that in the end the old lady relented towards her. On the other side of the chair Polina had to answer an endless flow of petty questions—such as “Who was it passed just now?” “Who is that coming along?” “Is the town a large one?” “Are the public gardens extensive?” “What sort of trees are those?” “What is the name of those hills?” “Do I see eagles flying yonder?” “What is that absurd-looking building?” and so forth. Meanwhile Astley whispered to me, as he walked by my side, that he looked for much to happen that morning. Behind the old lady’s chair marched Potapitch and Martha—Potapitch in his frockcoat and white waistcoat, with a cloak over all, and the forty-year-old and rosy, but slightly grey-headed, Martha in a mobcap, cotton dress, and squeaking shoes. Frequently the old lady would twist herself round to converse with these servants. As for De Griers, he spoke as though he had made up his mind to do something (though it is also possible that he spoke in this manner merely in order to hearten the General, with whom he appeared to have held a conference). But, alas, the Grandmother had uttered the fatal words, “I am not going to give you any of my money;” and though De Griers might regard these words lightly, the General knew his mother better. Also, I noticed that De Griers and Mlle. Blanche were still exchanging looks; while of the Prince and the German savant I lost sight at the end of the Avenue, where they had turned back and left us.
+
+Into the Casino we marched in triumph. At once, both in the person of the commissionaire and in the persons of the footmen, there sprang to life the same reverence as had arisen in the lacqueys of the hotel. Yet it was not without some curiosity that they eyed us.
+
+Without loss of time, the Grandmother gave orders that she should be wheeled through every room in the establishment; of which apartments she praised a few, while to others she remained indifferent. Concerning everything, however, she asked questions. Finally we reached the gaming-salons, where a lacquey who was, acting as guard over the doors, flung them open as though he were a man possessed.
+
+The Grandmother’s entry into the roulette-salon produced a profound impression upon the public. Around the tables, and at the further end of the room where the trente-et-quarante table was set out, there may have been gathered from 150 to 200 gamblers, ranged in several rows. Those who had succeeded in pushing their way to the tables were standing with their feet firmly planted, in order to avoid having to give up their places until they should have finished their game (since merely to stand looking on—thus occupying a gambler’s place for nothing—was not permitted). True, chairs were provided around the tables, but few players made use of them—more especially if there was a large attendance of the general public; since to stand allowed of a closer approach; and, therefore, of greater facilities for calculation and staking. Behind the foremost row were herded a second and a third row of people awaiting their turn; but sometimes their impatience led these people to stretch a hand through the first row, in order to deposit their stakes. Even third-row individuals would dart forward to stake; whence seldom did more than five or ten minutes pass without a scene over disputed money arising at one or another end of the table. On the other hand, the police of the Casino were an able body of men; and though to escape the crush was an impossibility, however much one might wish it, the eight croupiers apportioned to each table kept an eye upon the stakes, performed the necessary reckoning, and decided disputes as they arose.
+
+In the last resort they always called in the Casino police, and the disputes would immediately come to an end. Policemen were stationed about the Casino in ordinary costume, and mingled with the spectators so as to make it impossible to recognise them. In particular they kept a lookout for pickpockets and swindlers, who simply swanned in the roulette salons, and reaped a rich harvest. Indeed, in every direction money was being filched from pockets or purses—though, of course, if the attempt miscarried, a great uproar ensued. One had only to approach a roulette table, begin to play, and then openly grab some one else’s winnings, for a din to be raised, and the thief to start vociferating that the stake washis;and, if the coup had been carried out with sufficient skill, and the witnesses wavered at all in their testimony, the thief would as likely as not succeed in getting away with the money, provided that the sum was not a large one—not large enough to have attracted the attention of the croupiers or some fellow-player. Moreover, if it were a stake of insignificant size, its true owner would sometimes decline to continue the dispute, rather than become involved in a scandal. Conversely, if the thief was detected, he was ignominiously expelled the building.
+
+Upon all this the Grandmother gazed with open-eyed curiosity; and, on some thieves happening to be turned out of the place, she was delighted. Trente-et-quarante interested her but little; she preferred roulette, with its ever-revolving wheel. At length she expressed a wish to view the game closer; whereupon in some mysterious manner, the lacqueys and other officious agents (especially one or two ruined Poles of the kind who keep offering their services to successful gamblers and foreigners in general) at once found and cleared a space for the old lady among the crush, at the very centre of one of the tables, and next to the chief croupier; after which they wheeled her chair thither. Upon this a number of visitors who were not playing, but only looking on (particularly some Englishmen with their families), pressed closer forward towards the table, in order to watch the old lady from among the ranks of the gamblers. Many a lorgnette I saw turned in her direction, and the croupiers’ hopes rose high that such an eccentric player was about to provide them with something out of the common. An old lady of seventy-five years who, though unable to walk, desired to play was not an everyday phenomenon. I too pressed forward towards the table, and ranged myself by the Grandmother’s side; while Martha and Potapitch remained somewhere in the background among the crowd, and the General, Polina, and De Griers, with Mlle. Blanche, also remained hidden among the spectators.
+
+At first the old lady did no more than watch the gamblers, and ply me, in a half-whisper, with sharp-broken questions as to who was so-and-so. Especially did her favour light upon a very young man who was plunging heavily, and had won (so it was whispered) as much as 40,000 francs, which were lying before him on the table in a heap of gold and bank-notes. His eyes kept flashing, and his hands shaking; yet all the while he staked without any sort of calculation—just what came to his hand, as he kept winning and winning, and raking and raking in his gains. Around him lacqueys fussed—placing chairs just behind where he was standing—and clearing the spectators from his vicinity, so that he should have more room, and not be crowded—the whole done, of course, in expectation of a generous largesse. From time to time other gamblers would hand him part of their winnings—being glad to let him stake for them as much as his hand could grasp; while beside him stood a Pole in a state of violent, but respectful, agitation, who, also in expectation of a generous largesse, kept whispering to him at intervals (probably telling him what to stake, and advising and directing his play). Yet never once did the player throw him a glance as he staked and staked, and raked in his winnings. Evidently, the player in question was dead to all besides.
+
+For a few minutes the Grandmother watched him.
+
+“Go and tell him,” suddenly she exclaimed with a nudge at my elbow, “—go and tell him to stop, and to take his money with him, and go home. Presently he will be losing—yes, losing everything that he has now won.” She seemed almost breathless with excitement.
+
+“Where is Potapitch?” she continued. “Send Potapitch to speak to him. No,youmust tell him,youmust tell him,”—here she nudged me again—“for I have not the least notion where Potapitch is. Sortez, sortez,” she shouted to the young man, until I leant over in her direction and whispered in her ear that no shouting was allowed, nor even loud speaking, since to do so disturbed the calculations of the players, and might lead to our being ejected.
+
+“How provoking!” she retorted. “Then the young man is done for! I suppose hewishesto be ruined. Yet I could not bear to see him have to return it all. What a fool the fellow is!” and the old lady turned sharply away.
+
+On the left, among the players at the other half of the table, a young lady was playing, with, beside her, a dwarf. Who the dwarf may have been—whether a relative or a person whom she took with her to act as a foil—I do not know; but I had noticed her there on previous occasions, since, everyday, she entered the Casino at one o’clock precisely, and departed at two—thus playing for exactly one hour. Being well-known to the attendants, she always had a seat provided for her; and, taking some gold and a few thousand-franc notes out of her pocket—would begin quietly, coldly, and after much calculation, to stake, and mark down the figures in pencil on a paper, as though striving to work out a system according to which, at given moments, the odds might group themselves. Always she staked large coins, and either lost or won one, two, or three thousand francs a day, but not more; after which she would depart. The Grandmother took a long look at her.
+
+“Thatwoman is not losing,” she said. “To whom does she belong? Do you know her? Who is she?”
+
+“She is, I believe, a Frenchwoman,” I replied.
+
+“Ah! A bird of passage, evidently. Besides, I can see that she has her shoes polished. Now, explain to me the meaning of each round in the game, and the way in which one ought to stake.”
+
+Upon this I set myself to explain the meaning of all the combinations—of “rouge et noir,” of “pair et impair,” of “manque et passe,” with, lastly, the different values in the system of numbers. The Grandmother listened attentively, took notes, put questions in various forms, and laid the whole thing to heart. Indeed, since an example of each system of stakes kept constantly occurring, a great deal of information could be assimilated with ease and celerity. The Grandmother was vastly pleased.
+
+“But what is zero?” she inquired. “Just now I heard the flaxen-haired croupier call out ‘zero!’ And why does he keep raking in all the money that is on the table? To think that he should grab the whole pile for himself! What does zero mean?”
+
+“Zero is what the bank takes for itself. If the wheel stops at that figure, everything lying on the table becomes the absolute property of the bank. Also, whenever the wheel has begun to turn, the bank ceases to pay out anything.”
+
+“Then I should receive nothing if I were staking?”
+
+“No; unless by any chance you hadpurposelystaked on zero; in which case you would receive thirty-five times the value of your stake.”
+
+“Why thirty-five times, when zero so often turns up? And if so, why do not more of these fools stake upon it?”
+
+“Because the number of chances against its occurrence is thirty-six.”
+
+“Rubbish! Potapitch, Potapitch! Come here, and I will give you some money.” The old lady took out of her pocket a tightly-clasped purse, and extracted from its depths a ten-gülden piece. “Go at once, and stake that upon zero.”
+
+“But, Madame, zero has only this moment turned up,” I remonstrated; “wherefore, it may not do so again for ever so long. Wait a little, and you may then have a better chance.”
+
+“Rubbish! Stake, please.”
+
+“Pardon me, but zero might not turn up again until, say, tonight, even though you had staked thousands upon it. It often happens so.”
+
+“Rubbish, rubbish! Who fears the wolf should never enter the forest. What? We have lost? Then stake again.”
+
+A second ten-gülden piece did we lose, and then I put down a third. The Grandmother could scarcely remain seated in her chair, so intent was she upon the little ball as it leapt through the notches of the ever-revolving wheel. However, the third ten-gülden piece followed the first two. Upon this the Grandmother went perfectly crazy. She could no longer sit still, and actually struck the table with her fist when the croupier cried out, “Trente-six,” instead of the desiderated zero.
+
+“To listen to him!” fumed the old lady. “When will that accursed zero ever turn up? I cannot breathe until I see it. I believe that that infernal croupier ispurposelykeeping it from turning up. Alexis Ivanovitch, stake TWO golden pieces this time. The moment we cease to stake, that cursed zero will come turning up, and we shall get nothing.”
+
+“My good Madame—”
+
+“Stake, stake! It is notyourmoney.”
+
+Accordingly I staked two ten-gülden pieces. The ball went hopping round the wheel until it began to settle through the notches. Meanwhile the Grandmother sat as though petrified, with my hand convulsively clutched in hers.
+
+“Zero!” called the croupier.
+
+“There! You see, you see!” cried the old lady, as she turned and faced me, wreathed in smiles. “I told you so! It was the Lord God himself who suggested to me to stake those two coins. Now, how much ought I to receive? Why do they not pay it out to me? Potapitch! Martha! Where are they? What has become of our party? Potapitch, Potapitch!”
+
+“Presently, Madame,” I whispered. “Potapitch is outside, and they would decline to admit him to these rooms. See! You are being paid out your money. Pray take it.” The croupiers were making up a heavy packet of coins, sealed in blue paper, and containing fifty ten gülden pieces, together with an unsealed packet containing another twenty. I handed the whole to the old lady in a money-shovel.
+
+“Faites le jeu, messieurs! Faites le jeu, messieurs! Rien ne va plus,” proclaimed the croupier as once more he invited the company to stake, and prepared to turn the wheel.
+
+“We shall be too late! He is going to spin again! Stake, stake!” The Grandmother was in a perfect fever. “Do not hang back! Be quick!” She seemed almost beside herself, and nudged me as hard as she could.
+
+“Upon what shall I stake, Madame?”
+
+“Upon zero, upon zero! Again upon zero! Stake as much as ever you can. How much have we got? Seventy ten-gülden pieces? We shall not miss them, so stake twenty pieces at a time.”
+
+“Think a moment, Madame. Sometimes zero does not turn up for two hundred rounds in succession. I assure you that you may lose all your capital.”
+
+“You are wrong—utterly wrong. Stake, I tell you! What a chattering tongue you have! I know perfectly well what I am doing.” The old lady was shaking with excitement.
+
+“But the rules do not allow of more than 120 gülden being staked upon zero at a time.”
+
+“How ‘do not allow’? Surely you are wrong? Monsieur, monsieur—” here she nudged the croupier who was sitting on her left, and preparing to spin—“combien zero? Douze? Douze?”
+
+I hastened to translate.
+
+“Oui, Madame,” was the croupier’s polite reply. “No single stake must exceed four thousand florins. That is the regulation.”
+
+“Then there is nothing else for it. We must risk in gülden.”
+
+“Le jeu est fait!” the croupier called. The wheel revolved, and stopped at thirty. We had lost!
+
+“Again, again, again! Stake again!” shouted the old lady. Without attempting to oppose her further, but merely shrugging my shoulders, I placed twelve more ten-gülden pieces upon the table. The wheel whirled around and around, with the Grandmother simply quaking as she watched its revolutions.
+
+“Does she again think that zero is going to be the winning coup?” thought I, as I stared at her in astonishment. Yet an absolute assurance of winning was shining on her face; she looked perfectly convinced that zero was about to be called again. At length the ball dropped off into one of the notches.
+
+“Zero!” cried the croupier.
+
+“Ah!!!” screamed the old lady as she turned to me in a whirl of triumph.
+
+I myself was at heart a gambler. At that moment I became acutely conscious both of that fact and of the fact that my hands and knees were shaking, and that the blood was beating in my brain. Of course this was a rare occasion—an occasion on which zero had turned up no less than three times within a dozen rounds; yet in such an event there was nothing so very surprising, seeing that, only three days ago, I myself had been a witness to zero turning upthree times in succession, so that one of the players who was recording the coups on paper was moved to remark that for several days past zero had never turned up at all!
+
+With the Grandmother, as with any one who has won a very large sum, the management settled up with great attention and respect, since she was fortunate to have to receive no less than 4200 gülden. Of these gülden the odd 200 were paid her in gold, and the remainder in bank notes.
+
+This time the old lady did not call for Potapitch; for that she was too preoccupied. Though not outwardly shaken by the event (indeed, she seemed perfectly calm), she was trembling inwardly from head to foot. At length, completely absorbed in the game, she burst out:
+
+“Alexis Ivanovitch, did not the croupier just say that 4000 florins were the most that could be staked at any one time? Well, take these 4000, and stake them upon the red.”
+
+To oppose her was useless. Once more the wheel revolved.
+
+“Rouge!” proclaimed the croupier.
+
+Again 4000 florins—in all 8000!
+
+“Give me them,” commanded the Grandmother, “and stake the other 4000 upon the red again.”
+
+I did so.
+
+“Rouge!” proclaimed the croupier.
+
+“Twelve thousand!” cried the old lady. “Hand me the whole lot. Put the gold into this purse here, and count the bank notes. Enough! Let us go home. Wheel my chair away.”

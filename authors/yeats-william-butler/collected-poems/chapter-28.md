@@ -1,0 +1,16 @@
+---
+layout: book
+title: "Maid Quiet"
+chapter_order: 28
+book: "Collected Poems"
+author: "William Butler Yeats"
+---
+
+Where has Maid Quiet gone to,
+Nodding her russet hood?
+The winds that awakened the stars
+Are blowing through my blood.
+O how could I be so calm
+When she rose up to depart?
+Now words that called up the lightning
+Are hurtling through my heart.
