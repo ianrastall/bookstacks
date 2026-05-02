@@ -46,7 +46,11 @@
     {% endif %}
 
     {% assign normalized_heading = heading_text | downcase | strip %}
-    {% if heading_text != "" and normalized_heading != chapter_title and normalized_heading != chapter_toc_title and normalized_heading != chapter_section and normalized_heading != "contents" and normalized_heading != "footnotes" and normalized_heading != "footnote" and normalized_heading != "transcriber's note" and normalized_heading != "transcribers note" %}
+    {% assign skip_toc_heading = false %}
+    {% if normalized_heading == chapter_title or normalized_heading == chapter_toc_title or normalized_heading == chapter_section or normalized_heading == "contents" or normalized_heading == "footnotes" or normalized_heading == "footnote" or normalized_heading == "transcriber's note" or normalized_heading == "transcribers note" or normalized_heading contains "translated by" %}
+        {% assign skip_toc_heading = true %}
+    {% endif %}
+    {% if heading_text != "" and skip_toc_heading == false %}
         <li class="toc-subheading toc-subheading-depth-{{ heading_depth }}">{{ heading_text }}</li>
     {% endif %}
 {% endfor %}

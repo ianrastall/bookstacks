@@ -14,9 +14,57 @@ layout: default
         <ol class="toc-list toc-list-regular">
             {% assign book_pages = site.pages | where: "layout", "book" %}
             {% assign chapters = book_pages | where_exp: "chapter", "chapter.url contains page.url" | sort: "chapter_order" %}
+            {% assign has_chapter_restarts = false %}
+            {% for chapter in chapters %}
+                {% unless forloop.first %}
+                    {% assign title_probe = chapter.title | downcase | strip %}
+                    {% assign chapter_one_probe = title_probe | slice: 0, 9 %}
+                    {% assign chapter_one_next = title_probe | slice: 9, 1 %}
+                    {% if chapter_one_probe == "chapter 1" %}
+                        {% unless chapter_one_next == "0" or chapter_one_next == "1" or chapter_one_next == "2" or chapter_one_next == "3" or chapter_one_next == "4" or chapter_one_next == "5" or chapter_one_next == "6" or chapter_one_next == "7" or chapter_one_next == "8" or chapter_one_next == "9" %}
+                            {% assign has_chapter_restarts = true %}
+                            {% break %}
+                        {% endunless %}
+                    {% elsif chapter_one_probe == "chapter i" %}
+                        {% unless chapter_one_next == "i" or chapter_one_next == "v" or chapter_one_next == "x" or chapter_one_next == "l" or chapter_one_next == "c" or chapter_one_next == "d" or chapter_one_next == "m" %}
+                            {% assign has_chapter_restarts = true %}
+                            {% break %}
+                        {% endunless %}
+                    {% endif %}
+                {% endunless %}
+            {% endfor %}
             {% assign current_toc_section = "" %}
+            {% assign inferred_toc_section_number = 0 %}
+            {% assign inferred_toc_section_label = page.toc_section_label | default: "Section" %}
             {% for chapter in chapters %}
                 {% assign explicit_toc_section = chapter.toc_section | default: "" %}
+                {% assign mapped_toc_section = "" %}
+                {% assign chapter_order_number = chapter.chapter_order | plus: 0 %}
+                {% for mapped_section in page.toc_sections %}
+                    {% assign mapped_section_start = mapped_section.start | plus: 0 %}
+                    {% if mapped_section_start == chapter_order_number %}
+                        {% assign mapped_toc_section = mapped_section.title | default: "" %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+                {% assign is_chapter_restart = false %}
+                {% assign title_probe = chapter.title | downcase | strip %}
+                {% assign chapter_one_probe = title_probe | slice: 0, 9 %}
+                {% assign chapter_one_next = title_probe | slice: 9, 1 %}
+                {% if chapter_one_probe == "chapter 1" %}
+                    {% unless chapter_one_next == "0" or chapter_one_next == "1" or chapter_one_next == "2" or chapter_one_next == "3" or chapter_one_next == "4" or chapter_one_next == "5" or chapter_one_next == "6" or chapter_one_next == "7" or chapter_one_next == "8" or chapter_one_next == "9" %}
+                        {% assign is_chapter_restart = true %}
+                    {% endunless %}
+                {% elsif chapter_one_probe == "chapter i" %}
+                    {% unless chapter_one_next == "i" or chapter_one_next == "v" or chapter_one_next == "x" or chapter_one_next == "l" or chapter_one_next == "c" or chapter_one_next == "d" or chapter_one_next == "m" %}
+                        {% assign is_chapter_restart = true %}
+                    {% endunless %}
+                {% endif %}
+                {% assign inferred_toc_section = "" %}
+                {% if has_chapter_restarts and is_chapter_restart %}
+                    {% assign inferred_toc_section_number = inferred_toc_section_number | plus: 1 %}
+                    {% assign inferred_toc_section = inferred_toc_section_label | append: " " | append: inferred_toc_section_number %}
+                {% endif %}
                 {% assign auto_toc_section = "" %}
                 {% assign chapter_title_check = chapter.title | downcase | strip %}
                 {% assign chapter_toc_title_check = chapter.toc_title | default: "" | downcase | strip %}
@@ -58,14 +106,14 @@ layout: default
                     {% endif %}
 
                     {% assign normalized_heading = heading_text | downcase | strip %}
-                    {% if normalized_heading == chapter_title_check or normalized_heading == chapter_toc_title_check %}
+                    {% if normalized_heading == chapter_title_check or normalized_heading == chapter_toc_title_check or normalized_heading contains "translated by" %}
                         {% break %}
                     {% else %}
                         {% assign auto_toc_section = heading_text %}
                         {% break %}
                     {% endif %}
                 {% endfor %}
-                {% assign toc_section = explicit_toc_section | default: auto_toc_section %}
+                {% assign toc_section = explicit_toc_section | default: mapped_toc_section | default: auto_toc_section | default: inferred_toc_section %}
                 {% if toc_section != "" and toc_section != current_toc_section %}
                     <li class="toc-section-heading">{{ toc_section }}</li>
                     {% assign current_toc_section = toc_section %}
@@ -75,7 +123,7 @@ layout: default
                         <span class="toc-link-index">{{ chapter.chapter_order }}</span>
                         <span class="toc-link-title">{{ chapter.toc_title | default: chapter.title }}</span>
                     </a>
-                    {% include toc_subheadings.html content=chapter.content title=chapter.title toc_title=chapter.toc_title section=toc_section %}
+                    {% include toc_subheadings.html content=chapter.content title=chapter.title toc_title=chapter.toc_title section=current_toc_section %}
                 </li>
             {% endfor %}
         </ol>
