@@ -1,6 +1,7 @@
 {% assign chapter_title = include.title | default: "" | downcase | strip %}
 {% assign chapter_toc_title = include.toc_title | default: "" | downcase | strip %}
 {% assign chapter_section = include.section | default: "" | downcase | strip %}
+{% assign leading_heading = include.leading_heading | default: "" | downcase | strip %}
 {% assign content_lines = include.content | newline_to_br | split: "<br />" %}
 {% capture toc_subheadings %}
 {% for content_line in content_lines %}
@@ -47,7 +48,7 @@
 
     {% assign normalized_heading = heading_text | downcase | strip %}
     {% assign skip_toc_heading = false %}
-    {% if normalized_heading == chapter_title or normalized_heading == chapter_toc_title or normalized_heading == chapter_section or normalized_heading == "contents" or normalized_heading == "footnotes" or normalized_heading == "footnote" or normalized_heading == "transcriber's note" or normalized_heading == "transcribers note" or normalized_heading contains "translated by" %}
+    {% if normalized_heading == chapter_title or normalized_heading == chapter_toc_title or normalized_heading == chapter_section or normalized_heading == leading_heading or normalized_heading == "contents" or normalized_heading == "footnotes" or normalized_heading == "footnote" or normalized_heading == "transcriber's note" or normalized_heading == "transcribers note" %}
         {% assign skip_toc_heading = true %}
     {% endif %}
     {% if heading_text != "" and skip_toc_heading == false %}

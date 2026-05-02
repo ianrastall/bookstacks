@@ -588,59 +588,38 @@ input[type="checkbox"], input[type="radio"] {
     list-style: none;
     margin: 0;
     padding: 0;
-    border-top: 1px solid var(--border-color);
 }
 
 .toc-item {
-    margin: 0;
-    border-bottom: 1px solid var(--border-color);
+    margin: 0.35rem 0;
 }
 
 .toc-link {
-    display: grid;
-    grid-template-columns: 4rem minmax(0, 1fr);
-    gap: 1rem;
-    align-items: baseline;
+    display: inline;
     text-decoration: none;
-    color: inherit;
-    padding: 0.7rem 0;
-    border-radius: 4px;
+    color: var(--accent);
 }
 
 .toc-link:hover {
-    color: var(--accent);
-}
-
-.toc-link-index {
-    color: var(--accent);
-    font-size: 0.85rem;
-    font-variant-numeric: tabular-nums;
-    text-align: right;
+    text-decoration: underline;
 }
 
 .toc-link-title {
     min-width: 0;
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-}
-
-.toc-link:hover .toc-link-title {
-    color: inherit;
+    font-size: 1rem;
 }
 
 .toc-section-heading {
-    margin: 1.5rem 0 0;
-    padding: 0.85rem 0 0.35rem;
-    border-bottom: 1px solid var(--border-color);
+    margin: 1.25rem 0 0.45rem;
+    padding: 0;
     color: var(--text-primary);
     font-weight: 700;
 }
 
 .toc-sublist {
     list-style: none;
-    margin: -0.25rem 0 0.85rem 5rem;
-    padding: 0 0 0 1rem;
-    border-left: 1px solid var(--border-color);
+    margin: 0.2rem 0 0.85rem 1.25rem;
+    padding: 0;
 }
 
 .toc-subheading {

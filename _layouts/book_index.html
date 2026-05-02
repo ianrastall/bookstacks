@@ -33,7 +33,7 @@ layout: default
                     {% endif %}
                 {% endunless %}
             {% endfor %}
-            {% assign current_toc_section = "" %}
+            {% assign current_toc_heading = "" %}
             {% assign inferred_toc_section_number = 0 %}
             {% assign inferred_toc_section_label = page.toc_section_label | default: "Section" %}
             {% for chapter in chapters %}
@@ -60,12 +60,8 @@ layout: default
                         {% assign is_chapter_restart = true %}
                     {% endunless %}
                 {% endif %}
-                {% assign inferred_toc_section = "" %}
-                {% if has_chapter_restarts and is_chapter_restart %}
-                    {% assign inferred_toc_section_number = inferred_toc_section_number | plus: 1 %}
-                    {% assign inferred_toc_section = inferred_toc_section_label | append: " " | append: inferred_toc_section_number %}
-                {% endif %}
-                {% assign auto_toc_section = "" %}
+                {% assign leading_toc_heading = "" %}
+                {% assign leading_toc_depth = "" %}
                 {% assign chapter_title_check = chapter.title | downcase | strip %}
                 {% assign chapter_toc_title_check = chapter.toc_title | default: "" | downcase | strip %}
                 {% assign content_lines = chapter.content | newline_to_br | split: "<br />" %}
@@ -76,6 +72,7 @@ layout: default
                         {% continue %}
                     {% endif %}
                     {% assign heading_text = "" %}
+                    {% assign heading_depth = "" %}
                     {% assign prefix_6 = line | slice: 0, 7 %}
                     {% assign prefix_5 = line | slice: 0, 6 %}
                     {% assign prefix_4 = line | slice: 0, 5 %}
@@ -83,47 +80,68 @@ layout: default
                     {% assign prefix_2 = line | slice: 0, 3 %}
                     {% if prefix_6 == "###### " %}
                         {% assign heading_text = line | remove_first: "######" | strip %}
+                        {% assign heading_depth = "6" %}
                     {% elsif prefix_5 == "##### " %}
                         {% assign heading_text = line | remove_first: "#####" | strip %}
+                        {% assign heading_depth = "5" %}
                     {% elsif prefix_4 == "#### " %}
                         {% assign heading_text = line | remove_first: "####" | strip %}
+                        {% assign heading_depth = "4" %}
                     {% elsif prefix_3 == "### " %}
                         {% assign heading_text = line | remove_first: "###" | strip %}
+                        {% assign heading_depth = "3" %}
                     {% elsif prefix_2 == "## " %}
                         {% assign heading_text = line | remove_first: "##" | strip %}
+                        {% assign heading_depth = "2" %}
                     {% elsif line_downcase contains "<h6" and line_downcase contains "</h6>" %}
                         {% assign heading_text = line | strip_html | strip %}
+                        {% assign heading_depth = "6" %}
                     {% elsif line_downcase contains "<h5" and line_downcase contains "</h5>" %}
                         {% assign heading_text = line | strip_html | strip %}
+                        {% assign heading_depth = "5" %}
                     {% elsif line_downcase contains "<h4" and line_downcase contains "</h4>" %}
                         {% assign heading_text = line | strip_html | strip %}
+                        {% assign heading_depth = "4" %}
                     {% elsif line_downcase contains "<h3" and line_downcase contains "</h3>" %}
                         {% assign heading_text = line | strip_html | strip %}
+                        {% assign heading_depth = "3" %}
                     {% elsif line_downcase contains "<h2" and line_downcase contains "</h2>" %}
                         {% assign heading_text = line | strip_html | strip %}
+                        {% assign heading_depth = "2" %}
                     {% else %}
                         {% break %}
                     {% endif %}
 
                     {% assign normalized_heading = heading_text | downcase | strip %}
-                    {% if normalized_heading == chapter_title_check or normalized_heading == chapter_toc_title_check or normalized_heading contains "translated by" %}
+                    {% if normalized_heading == chapter_title_check or normalized_heading == chapter_toc_title_check %}
                         {% break %}
+                    {% elsif normalized_heading == "contents" or normalized_heading == "footnotes" or normalized_heading == "footnote" or normalized_heading == "transcriber's note" or normalized_heading == "transcribers note" %}
+                        {% continue %}
                     {% else %}
-                        {% assign auto_toc_section = heading_text %}
+                        {% assign leading_toc_heading = heading_text %}
+                        {% assign leading_toc_depth = heading_depth %}
                         {% break %}
                     {% endif %}
                 {% endfor %}
-                {% assign toc_section = explicit_toc_section | default: mapped_toc_section | default: auto_toc_section | default: inferred_toc_section %}
-                {% if toc_section != "" and toc_section != current_toc_section %}
+                {% assign inferred_toc_section = "" %}
+                {% if has_chapter_restarts and is_chapter_restart and explicit_toc_section == "" and mapped_toc_section == "" and leading_toc_heading == "" %}
+                    {% assign inferred_toc_section_number = inferred_toc_section_number | plus: 1 %}
+                    {% assign inferred_toc_section = inferred_toc_section_label | append: " " | append: inferred_toc_section_number %}
+                {% endif %}
+                {% assign toc_section = explicit_toc_section | default: mapped_toc_section | default: inferred_toc_section %}
+                {% if leading_toc_heading != "" and leading_toc_heading != current_toc_heading %}
+                    <li class="toc-section-heading toc-section-heading-depth-{{ leading_toc_depth }}">{{ leading_toc_heading }}</li>
+                    {% assign current_toc_heading = leading_toc_heading %}
+                {% endif %}
+                {% if toc_section != "" and toc_section != current_toc_heading %}
                     <li class="toc-section-heading">{{ toc_section }}</li>
-                    {% assign current_toc_section = toc_section %}
+                    {% assign current_toc_heading = toc_section %}
                 {% endif %}
                 <li class="toc-item">
                     <a class="toc-link" href="{{ chapter.url | relative_url }}">
-                        <span class="toc-link-index">{{ chapter.chapter_order }}</span>
                         <span class="toc-link-title">{{ chapter.toc_title | default: chapter.title }}</span>
                     </a>
-                    {% include toc_subheadings.html content=chapter.content title=chapter.title toc_title=chapter.toc_title section=current_toc_section %}
+                    {% include toc_subheadings.html content=chapter.content title=chapter.title toc_title=chapter.toc_title section=current_toc_heading leading_heading=leading_toc_heading %}
                 </li>
             {% endfor %}
         </ol>
