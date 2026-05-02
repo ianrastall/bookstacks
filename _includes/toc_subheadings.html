@@ -1,0 +1,59 @@
+{% assign chapter_title = include.title | default: "" | downcase | strip %}
+{% assign chapter_toc_title = include.toc_title | default: "" | downcase | strip %}
+{% assign chapter_section = include.section | default: "" | downcase | strip %}
+{% assign content_lines = include.content | newline_to_br | split: "<br />" %}
+{% capture toc_subheadings %}
+{% for content_line in content_lines %}
+    {% assign line = content_line | strip %}
+    {% assign line_downcase = line | downcase %}
+    {% assign heading_text = "" %}
+    {% assign heading_depth = "" %}
+    {% assign prefix_6 = line | slice: 0, 7 %}
+    {% assign prefix_5 = line | slice: 0, 6 %}
+    {% assign prefix_4 = line | slice: 0, 5 %}
+    {% assign prefix_3 = line | slice: 0, 4 %}
+    {% assign prefix_2 = line | slice: 0, 3 %}
+    {% if prefix_6 == "###### " %}
+        {% assign heading_text = line | remove_first: "######" | strip %}
+        {% assign heading_depth = "6" %}
+    {% elsif prefix_5 == "##### " %}
+        {% assign heading_text = line | remove_first: "#####" | strip %}
+        {% assign heading_depth = "5" %}
+    {% elsif prefix_4 == "#### " %}
+        {% assign heading_text = line | remove_first: "####" | strip %}
+        {% assign heading_depth = "4" %}
+    {% elsif prefix_3 == "### " %}
+        {% assign heading_text = line | remove_first: "###" | strip %}
+        {% assign heading_depth = "3" %}
+    {% elsif prefix_2 == "## " %}
+        {% assign heading_text = line | remove_first: "##" | strip %}
+        {% assign heading_depth = "2" %}
+    {% elsif line_downcase contains "<h6" and line_downcase contains "</h6>" %}
+        {% assign heading_text = line | strip_html | strip %}
+        {% assign heading_depth = "6" %}
+    {% elsif line_downcase contains "<h5" and line_downcase contains "</h5>" %}
+        {% assign heading_text = line | strip_html | strip %}
+        {% assign heading_depth = "5" %}
+    {% elsif line_downcase contains "<h4" and line_downcase contains "</h4>" %}
+        {% assign heading_text = line | strip_html | strip %}
+        {% assign heading_depth = "4" %}
+    {% elsif line_downcase contains "<h3" and line_downcase contains "</h3>" %}
+        {% assign heading_text = line | strip_html | strip %}
+        {% assign heading_depth = "3" %}
+    {% elsif line_downcase contains "<h2" and line_downcase contains "</h2>" %}
+        {% assign heading_text = line | strip_html | strip %}
+        {% assign heading_depth = "2" %}
+    {% endif %}
+
+    {% assign normalized_heading = heading_text | downcase | strip %}
+    {% if heading_text != "" and normalized_heading != chapter_title and normalized_heading != chapter_toc_title and normalized_heading != chapter_section and normalized_heading != "contents" and normalized_heading != "footnotes" and normalized_heading != "footnote" and normalized_heading != "transcriber's note" and normalized_heading != "transcribers note" %}
+        <li class="toc-subheading toc-subheading-depth-{{ heading_depth }}">{{ heading_text }}</li>
+    {% endif %}
+{% endfor %}
+{% endcapture %}
+{% assign toc_subheadings = toc_subheadings | strip %}
+{% if toc_subheadings != "" %}
+<ol class="toc-sublist">
+    {{ toc_subheadings }}
+</ol>
+{% endif %}

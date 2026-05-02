@@ -1,0 +1,337 @@
+---
+layout: book
+title: "CHAPTER X.: JOHN GORDON AGAIN GOES TO CROKER'S HALL."
+chapter_order: 10
+book: "An Old Man's Love"
+author: "Anthony Trollope"
+toc_section: "VOLUME I."
+---
+
+On the next morning, when John Gordon reached the corner of the road
+at which stood Croker's Hall, he met, outside on the roadway, close
+to the house, a most disreputable old man with a wooden leg and a red
+nose. This was Mr Baggett, or Sergeant Baggett as he was generally
+called, and was now known about all Alresford to be the husband of
+Mr Whittlestaff's housekeeper. For news had got abroad, and tidings
+were told that Mr Baggett was about to arrive in the neighbourhood
+to claim his wife. Everybody knew it before the inhabitants of
+Croker's Hall. And now, since yesterday afternoon, all Croker's Hall
+knew it, as well as the rest of the world. He was standing there
+close to the house, which stood a little back from the road, between
+nine and ten in the morning, as drunk as a lord. But I think his
+manner of drunkenness was perhaps in some respects different from
+that customary with lords. Though he had only one leg of the flesh,
+and one of wood, he did not tumble down, though he brandished in the
+air the stick with which he was accustomed to disport himself. A lord
+would, I think, have got himself taken to bed. But the Sergeant did
+not appear to have any such intention. He had come out on to the road
+from the yard into which the back-door of the house opened, and
+seemed to John Gordon as though, having been so far expelled, he was
+determined to be driven no further,—and he was accompanied, at a
+distance, by his wife. "Now, Timothy Baggett," began the unfortunate
+woman, "you may just take yourself away out of that, as fast as your
+legs can carry you, before the police comes to fetch you."
+
+"My legs! Whoever heared a fellow told of his legs when there was one
+of them wooden. And as for the perlice, I shall want the perlice to
+fetch my wife along with me. I ain't a-going to stir out of this
+place without Mrs B. I'm a hold man, and wants a woman to look arter
+me. Come along, Mrs B." Then he made a motion as though to run after
+her, still brandishing the stick in his hand. But she retreated, and
+he came down, seated on the pathway by the roadside, as though he had
+only accomplished an intended manœuvre. "Get me a drop o' summat,
+Mrs B., and I don't mind if I stay here half an hour longer." Then
+he laughed loudly, nodding his head merrily at the bystanders,—as no
+lord under such circumstances certainly would have done.
+
+All this happened just as John Gordon came up to the corner of the
+road, from whence, by a pathway, turned the main entrance into Mr
+Whittlestaff's garden. He could not but see the drunken red-nosed
+man, and the old woman, whom he recognised as Mr Whittlestaff's
+servant, and a crowd of persons around, idlers out of Alresford, who
+had followed Sergeant Baggett up to the scene of his present
+exploits. Croker's Hall was not above a mile from the town, just
+where the town was beginning to become country, and where the houses
+all had gardens belonging to them, and the larger houses a field or
+two. "Yes, sir, master is at home. If you'll please to ring the bell,
+one of the girls will come out." This was said by Mrs Baggett,
+advancing almost over the body of her prostrate husband. "Drunken
+brute!" she said, by way of a salute, as she passed him. He only
+laughed aloud, and looked around upon the bystanders with triumph.
+
+At this moment Mr Whittlestaff came down through the gate into the
+road. "Oh, Mr Gordon! good morning, sir. You find us rather in a
+disturbed condition this morning. I am sorry I did not think of
+asking you to come to breakfast. But perhaps, under all the
+circumstances it was better not. That dreadful man has put us sadly
+about. He is the unfortunate husband of my hardly less unfortunate
+housekeeper."
+
+"Yes, sir, he is my husband,—that's true," said Mrs Baggett.
+
+"I'm wery much attached to my wife, if you knew all about it, sir;
+and I wants her to come home with me. Service ain't no inheritance;
+nor yet ain't wages, when they never amounts to more than twenty
+pounds a-year."
+
+"It's thirty, you false ungrateful beast!" said Mrs Baggett. But in
+the meantime Mr Whittlestaff had led the way into the garden, and
+John Gordon had followed him. Before they reached the hall-door, Mary
+Lawrie had met them.
+
+"Oh, Mr Whittlestaff!" she said, "is it not annoying? that dreadful
+man with the wooden leg is here, and collecting a crowd round the
+place. Good morning, Mr Gordon. It is the poor woman's ne'er-do-well
+husband. She is herself so decent and respectable, that she will be
+greatly harassed. What can we do, Mr Whittlestaff? Can't we get a
+policeman?" In this way the conversation was led away to the affairs
+of Sergeant and Mrs Baggett, to the ineffable distress of John
+Gordon. When we remember the kind of speeches which Gordon intended
+to utter, the sort of eloquence which he desired to use, it must be
+admitted that the interruption was provoking. Even if Mary would
+leave them together, it would be difficult to fall back upon the
+subject which Gordon had at heart.
+
+It is matter of consideration whether, when important subjects are to
+be brought upon the *tapis*, the ultimate result will or will not
+depend much on the manner in which they are introduced. It ought not
+to be the case that they shall be so prejudiced. "By-the-by, my dear
+fellow, now I think of it, can you lend me a couple of thousand
+pounds for twelve months?" Would that generally be as efficacious as
+though the would-be borrower had introduced his request with the
+general paraphernalia of distressing solemnities? The borrower, at
+any rate, feels that it would not, and postpones the moment till the
+fitting solemnities can be produced. But John Gordon could not
+postpone his moment. He could not go on residing indefinitely at the
+Claimant's Arms till he could find a proper opportunity for assuring
+Mr Whittlestaff that it could not be his duty to marry Mary Lawrie.
+He must rush at his subject, let the result be what it might. Indeed
+he had no hopes as to a favourable result. He had slept upon it, as
+people say when they intend to signify that they have lain awake, and
+had convinced himself that all eloquence would be vain. Was it
+natural that a man should give up his intended wife, simply because
+he was asked? Gordon's present feeling was an anxious desire to be
+once more on board the ship that should take him again to the
+diamond-fields, so that he might be at peace, knowing then, as he
+would know, that he had left Mary Lawrie behind for ever. At this
+moment he almost repented that he had not left Alresford without any
+farther attempt. But there he was on Mr Whittlestaff's ground, and
+the attempt must be made, if only with the object of justifying his
+coming.
+
+"Miss Lawrie," he began, "if you would not mind leaving me and Mr
+Whittlestaff alone together for a few minutes, I will be obliged to
+you." This he said with quite sufficient solemnity, so that Mr
+Whittlestaff drew himself up, and looked hard and stiff, as though he
+were determined to forget Sergeant Baggett and all his peccadilloes
+for the moment.
+
+"Oh, yes; certainly; but—" Mr Whittlestaff looked sternly at her,
+as though to bid her go at once. "You must believe nothing as coming
+from me unless it comes out of my own mouth." Then she put her hand
+upon his arm, as though half embracing him.
+
+"You had better leave us, perhaps," said Mr Whittlestaff. And then
+she went.
+
+Now the moment had come, and John Gordon felt the difficulty. It had
+not been lessened by the assurance given by Mary herself that nothing
+was to be taken as having come from her unless it was known and heard
+to have so come. And yet he was thoroughly convinced that he was
+altogether loved by her, and that had he appeared on the scene but a
+day sooner, she would have accepted him with all her heart. "Mr
+Whittlestaff," he said, "I want to tell you what passed yesterday
+between me and Miss Lawrie."
+
+"Is it necessary?" he asked.
+
+"I think it is."
+
+"As far as I am concerned, I doubt the necessity. Miss Lawrie has
+said a word to me,—as much, I presume, as she feels to be
+necessary."
+
+"I do not think that her feeling in the matter should be a guide for
+you or for me. What we have both of us to do is to think what may be
+best for her, and to effect that as far as may be within our power."
+
+"Certainly," said Mr Whittlestaff. "But it may so probably be the
+case that you and I shall differ materially as to thinking what may
+be best for her. As far as I understand the matter, you wish that she
+should be your wife. I wish that she should be mine. I think that as
+my wife she would live a happier life than she could do as yours; and
+as she thinks also—" Here Mr Whittlestaff paused.
+
+"But does she think so?"
+
+"You heard what she said just now."
+
+"I heard nothing as to her thoughts of living," said John Gordon "Nor
+in the interview which I had with her yesterday did I hear a word
+fall from her as to herself. We have got to form our ideas as to that
+from circumstances which shall certainly not be made to appear by her
+own speech. When you speak against me—"
+
+"I have not said a word against you, sir."
+
+"Perhaps you imply," said Gordon, not stopping to notice Mr
+Whittlestaff's last angry tone,—"perhaps you imply that my life may
+be that of a rover, and as such would not conduce to Miss Lawrie's
+happiness."
+
+"I have implied nothing."
+
+"To suit her wishes I would remain altogether in England. I was very
+lucky, and am not a man greedy of great wealth. She can remain here,
+and I will satisfy you that there shall be enough for our joint
+maintenance."
+
+"What do I care for your maintenance, or what does she? Do you know,
+sir, that you are talking to me about a lady whom I intend to make my
+wife,—who is engaged to marry me? Goodness gracious me!"
+
+"I own, sir, that it is singular."
+
+"Very singular,—very singular indeed. I never heard of such a thing.
+It seems that you knew her at Norwich."
+
+"I did know her well."
+
+"And then you went away and deserted her."
+
+"I went away, Mr Whittlestaff, because I was poor. I was told by her
+step-mother that I was not wanted about the house, because I had no
+means. That was true, and as I loved her dearly, I started at once,
+almost in despair, but still with something of hope,—with a shade of
+hope,—that I might put myself in the way of enabling her to become
+my wife. I did not desert her."
+
+"Very well. Then you came back and found her engaged to be my wife.
+You had it from her own mouth. When a gentleman hears that, what has
+he to do but to go away?"
+
+"There are circumstances here."
+
+"What does she say herself? There are no circumstances to justify
+you. If you would come here as a friend, I offered to receive you. As
+you had been known to her, I did not turn my back upon you. But now
+your conduct is so peculiar that I cannot ask you to remain here any
+longer." They were walking up and down the long walk, and now Mr
+Whittlestaff stood still, as though to declare his intention that the
+interview should be considered as over.
+
+"I know that you wish me to go away," said Gordon.
+
+"Well, yes; unless you withdraw all idea of a claim to the young
+lady's hand."
+
+"But I think you should first hear what I have to say. You will not
+surely have done your duty by her unless you hear me."
+
+"You can speak if you wish to speak," said Mr Whittlestaff.
+
+"It was not till yesterday that you made your proposition to Miss
+Lawrie."
+
+"What has that to do with it?"
+
+"Had I come on the previous day, and had I been able then to tell her
+all that I can tell her now, would it have made no difference?"
+
+"Did she say so?" asked the fortunate lover, but in a very angry
+tone.
+
+"No; she did not say so. It was with difficulty that I forced from
+her an avowal that her engagement was so recent. But she did confess
+that it was so. And she confessed, not in words, but in her manner,
+that she had found it impossible to refuse to you the request that
+you had asked."
+
+"I never heard a man assert so impudently that he was the sole owner
+of a lady's favours. Upon my word, I think that you are the vainest
+man whom I ever met."
+
+"Let it be so. I do not care to defend myself, but only her. Whether
+I am vain or not, is it not true that which I say? I put it to you,
+as man to man, whether you do not know that it is true? If you marry
+this girl, will you not marry one whose heart belongs to me? Will you
+not marry one of whom you knew two days since that her heart was
+mine? Will you not marry one who, if she was free this moment, would
+give herself to me without a pang of remorse?"
+
+"I never heard anything like the man's vanity!"
+
+"But is it true? Whatever may be my vanity, or self-seeking, or
+unmanliness if you will, is not what I say God's truth? It is not
+about my weaknesses, or your weaknesses, that we should speak, but
+about her happiness."
+
+"Just so; I don't think she would be happy with you."
+
+"Then it is to save her from me that you are marrying her,—so that
+she may not sink into the abyss of my unworthiness."
+
+"Partly that."
+
+"But if I had come two days since, when she would have received me
+with open arms—"
+
+"You have no right to make such a statement."
+
+"I ask yourself whether it is not true? She would have received me
+with open arms, and would you then have dared, as her guardian, to
+bid her refuse the offer made to her, when you had learned, as you
+would have done, that she loved me; that I had loved her with all my
+heart before I left England; that I had left it with the view of
+enabling myself to marry her; that I had been wonderfully successful;
+that I had come back with no other hope in the world than that of
+giving it all to her; that I had been able to show you my whole life,
+so that no girl need be afraid to become my
+wife—"
+
+"What do I know about your life? You may have another wife living at
+this moment."
+
+"No doubt; I may be guilty of any amount of villainy, but then, as
+her friend, you should make inquiry. You would not break a girl's
+heart because the man to whom she is attached may possibly be a
+rogue. In this case you have no ground for the suspicion."
+
+"I never heard of a man who spoke of himself so grandiloquently!"
+
+"But there is ample reason why you should make inquiry. In truth, as
+I said before, it is her happiness and not mine nor your own that you
+should look to. If she has taken your offer because you had been good
+to her in her desolation,—because she had found herself unable to
+refuse aught to one who had treated her so well; if she had done all
+this, believing that I had disappeared from her knowledge, and
+doubting altogether my return; if it be so—and you know that it is
+so—then you should hesitate before you lead her to her doom."
+
+"You heard her say that I was not to believe any of these things
+unless I got them from her own mouth?"
+
+"I did; and her word should go for nothing either with you or with
+me. She has promised, and is willing to sacrifice herself to her
+promise. She will sacrifice me too because of your goodness,—and
+because she is utterly unable to put a fair value upon herself. To me
+she is all the world. From the first hour in which I saw her to the
+present, the idea of gaining her has been everything. Put aside the
+words which she just spoke, what is your belief of the state of her
+wishes?"
+
+"I can tell you my belief of the state of her welfare."
+
+"There your own prejudice creeps in, and I might retaliate by
+charging you with vanity as you have done me,—only that I think such
+vanity very natural. But it is her you should consult on such a
+matter. She is not to be treated like a child. Of whom does she wish
+to become the wife? I boldly say that I have won her love, and that
+if it be so, you should not desire to take her to yourself. You have
+not answered me, nor can I expect you to answer me; but look into
+yourself and answer it there. Think how it will be with you, when the
+girl who lies upon your shoulder shall be thinking ever of some other
+man from whom you have robbed her. Good-bye, Mr Whittlestaff. I do
+not doubt but that you will turn it all over in your thoughts." Then
+he escaped by a wicket-gate into the road at the far end of the long
+walk, and was no more heard of at Croker's Hall on that day.

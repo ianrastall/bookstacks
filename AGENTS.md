@@ -46,9 +46,20 @@ author: "Jane Austen"
 ---
 ```
 
+- Chapter pages may also use optional TOC display fields:
+
+```yaml
+toc_section: "Volume I"
+toc_title: "Chapter 1. A Beginning"
+```
+
 - Place chapters at `authors/<author-slug>/<book-slug>/chapter-N.md`.
 - Use lowercase hyphenated slugs. Existing author slugs generally use `surname-given`, for example `austen-jane`.
 - Keep `chapter_order` numeric and sequential within a book. The table of contents and chapter navigation sort by this value, not by filename order.
+- Book tables of contents are regular TOC trees: non-operative headings render as plain text, and operative chapter entries render as links.
+- `toc_section` creates or overrides a plain grouping heading above chapter links. If it is absent, `_layouts/book_index.html` can infer a grouping heading from the first leading Markdown/HTML heading inside the chapter body when that heading is not the linked chapter title.
+- `toc_title` overrides only the text shown for the chapter link in the book TOC.
+- Additional Markdown headings inside a chapter body render as plain nested TOC entries beneath that chapter link. Duplicate body headings matching the linked chapter title are suppressed.
 - Keep `book` and `author` values consistent across every chapter in the same book. `seed_indexes.py` uses the most common chapter values when creating a missing book index.
 - Use UTF-8 text. Existing content includes typographic punctuation; preserve the style already used by the surrounding text.
 - Prefer plain Markdown prose. Do not introduce raw HTML in chapter files unless the layout or existing nearby content requires it.
@@ -57,7 +68,7 @@ author: "Jane Austen"
 
 - `_layouts/default.html` wraps all pages, includes the header/footer, loads Material Icons, `assets/css/style.css`, and `assets/js/theme.js`.
 - `_layouts/author_index.html` lists pages with `layout: book_index` whose URLs fall under the current author page URL.
-- `_layouts/book_index.html` lists pages with `layout: book` whose URLs fall under the current book index URL, sorted by `chapter_order`.
+- `_layouts/book_index.html` lists pages with `layout: book` whose URLs fall under the current book index URL, sorted by `chapter_order`, and renders a regular TOC tree with plain non-operative headings plus linked operative chapter headings.
 - `_layouts/book.html` derives the author slug and book slug from `page.url`, builds breadcrumbs, renders chapter content, and computes previous/next chapter links from sorted `layout: book` pages in the same book.
 - Chapter reading styles are under `.reader-content` in `assets/css/style.css`.
 - Chapter page layout and sticky right-side chapter navigation use `.chapter-container`, `.chapter-layout`, `.chapter-sidebar`, `.chapter-navigation`, and `.chapter-nav-button`.

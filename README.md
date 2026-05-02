@@ -61,6 +61,17 @@ author: "Jane Austen"
 Chapter ordering is controlled by `chapter_order`, not filename sorting. Keep
 `book` and `author` consistent across every chapter in the same book.
 
+Optional TOC fields can refine book tables of contents:
+
+```yaml
+toc_section: "Volume I"
+toc_title: "Chapter 1. A Beginning"
+```
+
+Book TOCs render as regular trees. Plain headings come from `toc_section` or
+from leading Markdown/HTML headings inside chapter bodies; chapter entries are
+the operative links.
+
 ## Adding A Book
 
 1. Create `authors/<author-slug>/<book-slug>/`.

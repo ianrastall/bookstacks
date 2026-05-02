@@ -16,18 +16,66 @@ layout: default
             {% assign chapters = book_pages | where_exp: "chapter", "chapter.url contains page.url" | sort: "chapter_order" %}
             {% assign current_toc_section = "" %}
             {% for chapter in chapters %}
-                {% assign toc_section = chapter.toc_section | default: "" %}
+                {% assign explicit_toc_section = chapter.toc_section | default: "" %}
+                {% assign auto_toc_section = "" %}
+                {% assign chapter_title_check = chapter.title | downcase | strip %}
+                {% assign chapter_toc_title_check = chapter.toc_title | default: "" | downcase | strip %}
+                {% assign content_lines = chapter.content | newline_to_br | split: "<br />" %}
+                {% for content_line in content_lines %}
+                    {% assign line = content_line | strip %}
+                    {% assign line_downcase = line | downcase %}
+                    {% if line == "" %}
+                        {% continue %}
+                    {% endif %}
+                    {% assign heading_text = "" %}
+                    {% assign prefix_6 = line | slice: 0, 7 %}
+                    {% assign prefix_5 = line | slice: 0, 6 %}
+                    {% assign prefix_4 = line | slice: 0, 5 %}
+                    {% assign prefix_3 = line | slice: 0, 4 %}
+                    {% assign prefix_2 = line | slice: 0, 3 %}
+                    {% if prefix_6 == "###### " %}
+                        {% assign heading_text = line | remove_first: "######" | strip %}
+                    {% elsif prefix_5 == "##### " %}
+                        {% assign heading_text = line | remove_first: "#####" | strip %}
+                    {% elsif prefix_4 == "#### " %}
+                        {% assign heading_text = line | remove_first: "####" | strip %}
+                    {% elsif prefix_3 == "### " %}
+                        {% assign heading_text = line | remove_first: "###" | strip %}
+                    {% elsif prefix_2 == "## " %}
+                        {% assign heading_text = line | remove_first: "##" | strip %}
+                    {% elsif line_downcase contains "<h6" and line_downcase contains "</h6>" %}
+                        {% assign heading_text = line | strip_html | strip %}
+                    {% elsif line_downcase contains "<h5" and line_downcase contains "</h5>" %}
+                        {% assign heading_text = line | strip_html | strip %}
+                    {% elsif line_downcase contains "<h4" and line_downcase contains "</h4>" %}
+                        {% assign heading_text = line | strip_html | strip %}
+                    {% elsif line_downcase contains "<h3" and line_downcase contains "</h3>" %}
+                        {% assign heading_text = line | strip_html | strip %}
+                    {% elsif line_downcase contains "<h2" and line_downcase contains "</h2>" %}
+                        {% assign heading_text = line | strip_html | strip %}
+                    {% else %}
+                        {% break %}
+                    {% endif %}
+
+                    {% assign normalized_heading = heading_text | downcase | strip %}
+                    {% if normalized_heading == chapter_title_check or normalized_heading == chapter_toc_title_check %}
+                        {% break %}
+                    {% else %}
+                        {% assign auto_toc_section = heading_text %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+                {% assign toc_section = explicit_toc_section | default: auto_toc_section %}
                 {% if toc_section != "" and toc_section != current_toc_section %}
                     <li class="toc-section-heading">{{ toc_section }}</li>
                     {% assign current_toc_section = toc_section %}
-                {% elsif toc_section == "" %}
-                    {% assign current_toc_section = "" %}
                 {% endif %}
                 <li class="toc-item">
                     <a class="toc-link" href="{{ chapter.url | relative_url }}">
                         <span class="toc-link-index">{{ chapter.chapter_order }}</span>
                         <span class="toc-link-title">{{ chapter.toc_title | default: chapter.title }}</span>
                     </a>
+                    {% include toc_subheadings.html content=chapter.content title=chapter.title toc_title=chapter.toc_title section=toc_section %}
                 </li>
             {% endfor %}
         </ol>

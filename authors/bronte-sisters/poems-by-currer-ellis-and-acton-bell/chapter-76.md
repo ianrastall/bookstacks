@@ -1,0 +1,28 @@
+---
+layout: book
+title: "A PRAYER."
+chapter_order: 76
+book: "Poems by Currer, Ellis, and Acton Bell"
+author: "Bronte Sisters"
+toc_section: "SELECTIONS FROM POEMS BY ACTON BELL."
+---
+
+My God (oh, let me call Thee mine,  
+Weak, wretched sinner though I be),  
+My trembling soul would fain be Thine;  
+My feeble faith still clings to Thee.
+
+Not only for the Past I grieve,  
+The Future fills me with dismay;  
+Unless Thou hasten to relieve,  
+Thy suppliant is a castaway.
+
+I cannot say my faith is strong,  
+I dare not hope my love is great;  
+But strength and love to Thee belong;  
+Oh, do not leave me desolate!
+
+I know I owe my all to Thee;  
+Oh, TAKE the heart I cannot give!  
+Do Thou my strength—my Saviour be,  
+And MAKE me to Thy glory live.
