@@ -1,0 +1,178 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('authors');
+  return entries.map(entry => {
+    let slug = entry.id;
+    if (slug.endsWith('/index')) {
+      slug = slug.slice(0, -6);
+    }
+    return {
+      params: { slug },
+      props: { entry },
+    };
+  });
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const allEntries = await getCollection('authors');
+
+// Helper to construct relative URL
+function relativeUrl(path: string) {
+  return import.meta.env.BASE_URL + path.replace(/^\//, '');
+}
+
+const layout = entry.data.layout;
+
+let books = [];
+let chapters = [];
+let previousChapter = null;
+let nextChapter = null;
+let authorSlug = '';
+let bookSlug = '';
+
+if (layout === 'author_index') {
+  const currentAuthorSlug = entry.id.replace('/index', '');
+  books = allEntries
+    .filter(e => e.data.layout === 'book_index' && e.id.startsWith(currentAuthorSlug + '/'))
+    .sort((a, b) => (a.data.book_title || '').localeCompare(b.data.book_title || ''));
+} else if (layout === 'book_index' || layout === 'book') {
+  const parts = entry.id.split('/');
+  authorSlug = parts[0];
+  bookSlug = parts[1];
+  const currentBookPrefix = `${authorSlug}/${bookSlug}/`;
+  
+  chapters = allEntries
+    .filter(e => e.data.layout === 'book' && e.id.startsWith(currentBookPrefix))
+    .sort((a, b) => (a.data.chapter_order || 0) - (b.data.chapter_order || 0));
+
+  if (layout === 'book') {
+    const currentIndex = chapters.findIndex(c => c.id === entry.id);
+    if (currentIndex > 0) previousChapter = chapters[currentIndex - 1];
+    if (currentIndex < chapters.length - 1) nextChapter = chapters[currentIndex + 1];
+  }
+}
+---
+
+<BaseLayout title={entry.data.title || 'Bookstacks'}>
+  {layout === 'author_index' && (
+    <section class="tool-container shell">
+      <div class="tool-header">
+        <div class="tool-title">
+          <span class="material-icons">person</span>
+          <h2>{entry.data.author_name}</h2>
+        </div>
+        <div class="tool-actions">
+          <a class="btn btn-secondary btn-compact" href={relativeUrl('')}>
+            <span class="material-icons">home</span>
+            Home
+          </a>
+        </div>
+      </div>
+      <p class="tool-description">Books by {entry.data.author_name}</p>
+      
+      <div class="tool-grid">
+        {books.map(book => {
+          let bSlug = book.id;
+          if (bSlug.endsWith('/index')) bSlug = bSlug.slice(0, -6);
+          return (
+            <a class="tool-card" href={relativeUrl(`authors/${bSlug}/`)}>
+              <div class="tool-icon">
+                <span class="material-icons">menu_book</span>
+              </div>
+              <h3>{book.data.book_title}</h3>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  {layout === 'book_index' && (
+    <section class="tool-container shell">
+      <div class="tool-header">
+        <div class="tool-title">
+          <span class="material-icons">menu_book</span>
+          <h2>{entry.data.book_title}</h2>
+        </div>
+        <div class="tool-actions">
+          <a class="btn btn-secondary btn-compact" href={relativeUrl(`authors/${authorSlug}/`)}>
+            <span class="material-icons">person</span>
+            {entry.data.author}
+          </a>
+        </div>
+      </div>
+      <p class="tool-description">By {entry.data.author}</p>
+
+      <div class="toc-tree">
+        <ol class="toc-list">
+          {chapters.map(chapter => (
+            <li class="toc-item">
+              <a class="toc-link" href={relativeUrl(`authors/${chapter.id}/`)}>
+                <span class="toc-link-title">{chapter.data.toc_title || chapter.data.title}</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )}
+
+  {layout === 'book' && (
+    <section class="tool-container chapter-container shell">
+      <div class="tool-header chapter-header">
+        <nav class="chapter-breadcrumbs chapter-breadcrumbs-inline" aria-label="Breadcrumb">
+          <a href={relativeUrl('')}>Home</a>
+          <span aria-hidden="true">/</span>
+          <a href={relativeUrl(`authors/${authorSlug}/`)}>{entry.data.author}</a>
+          <span aria-hidden="true">/</span>
+          <a href={relativeUrl(`authors/${authorSlug}/${bookSlug}/`)}>{entry.data.book}</a>
+        </nav>
+      </div>
+
+      <div class="chapter-layout">
+        <article class="reader-content">
+          <h2 class="navchap">{entry.data.title}</h2>
+          <Content />
+        </article>
+
+        <aside class="chapter-sidebar">
+          <nav class="chapter-navigation" aria-label="Chapter navigation">
+            {previousChapter ? (
+              <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`authors/${previousChapter.id}/`)}>
+                <span class="material-icons" aria-hidden="true">arrow_back</span>
+                Previous
+              </a>
+            ) : (
+              <span class="btn btn-secondary chapter-nav-button is-disabled" aria-disabled="true">
+                <span class="material-icons" aria-hidden="true">arrow_back</span>
+                Previous
+              </span>
+            )}
+
+            <a class="btn btn-primary chapter-nav-button" href={relativeUrl(`authors/${authorSlug}/${bookSlug}/`)}>
+              <span class="material-icons" aria-hidden="true">menu_book</span>
+              Contents
+            </a>
+
+            {nextChapter ? (
+              <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`authors/${nextChapter.id}/`)}>
+                Next
+                <span class="material-icons" aria-hidden="true">arrow_forward</span>
+              </a>
+            ) : (
+              <span class="btn btn-secondary chapter-nav-button is-disabled" aria-disabled="true">
+                Next
+                <span class="material-icons" aria-hidden="true">arrow_forward</span>
+              </span>
+            )}
+          </nav>
+        </aside>
+      </div>
+    </section>
+  )}
+</BaseLayout>

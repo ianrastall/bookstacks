@@ -1,0 +1,42 @@
+{
+  "$ref": "#/definitions/authors",
+  "definitions": {
+    "authors": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "layout": {
+          "type": "string"
+        },
+        "author_name": {
+          "type": "string"
+        },
+        "book_title": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "book": {
+          "type": "string"
+        },
+        "chapter_order": {
+          "type": "number"
+        },
+        "toc_section": {
+          "type": "string"
+        },
+        "toc_title": {
+          "type": "string"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
