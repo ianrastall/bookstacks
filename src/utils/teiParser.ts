@@ -69,7 +69,7 @@ export function parseTeiBook(filePath: string) {
       }
 
       let html = '';
-      const versions: { id: string; lang: string; html: string }[] = [];
+      const versions: { id: string; lang: string; html: string; title: string }[] = [];
 
       if (versionNodes.length > 0) {
         for (const v of versionNodes) {
@@ -77,10 +77,12 @@ export function parseTeiBook(filePath: string) {
           for (let k = 0; k < v.childNodes.length; k++) {
             vhtml += convertNodeToHtml(v.childNodes[k], persons, places);
           }
+          const vhead = v.getElementsByTagName('head')[0]?.textContent?.trim() || '';
           versions.push({
             id: v.getAttribute('subtype') || v.getAttribute('xml:lang') || `v${versions.length + 1}`,
             lang: v.getAttribute('xml:lang') || '',
-            html: vhtml.trim()
+            html: vhtml.trim(),
+            title: vhead
           });
         }
         html = versions[0].html;
@@ -150,8 +152,14 @@ function convertNodeToHtml(node: any, persons: Record<string, any>, places: Reco
     if (tag === 'foreign') {
       const lang = node.getAttribute('xml:lang') || '';
       const name = LANG_NAMES[lang] || lang;
-      const title = name ? ` title="${name}"` : '';
-      return `<i class="tei-foreign" lang="${lang}"${title}>${innerHtml}</i>`;
+      const translation = node.getAttribute('n');
+      let titleAttr = '';
+      if (translation && name) {
+        titleAttr = ` title="${name}: [${escapeHtml(translation)}]"`;
+      } else if (name) {
+        titleAttr = ` title="${name}"`;
+      }
+      return `<i class="tei-foreign" lang="${lang}"${titleAttr}>${innerHtml}</i>`;
     }
     if (tag === 'note') return `<span class="tei-note"> [${innerHtml}]</span>`;
     if (tag === 'seg') {

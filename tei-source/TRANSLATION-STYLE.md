@@ -81,21 +81,17 @@ it, wrapped in `<foreign>`, immediately followed by Tolstoy's Russian gloss in a
 <foreign xml:lang="fr">— Eh bien, mon prince…</foreign><note>Ну, князь…</note> Ну, здравствуйте…
 ```
 
-**Translation (`xml:lang="en"`) panel** — render the French *into English* like
-the rest, but wrap that span in `<seg type="origfr">` so it is flagged:
+**Translation (`xml:lang="en"` and `xml:lang="es"`) panels** — leave the French text in French, but wrap that span in `<foreign xml:lang="fr">` and add the translation in the `n` attribute:
 
 ```xml
-— <seg type="origfr">Well, Prince, so Genoa and Lucca…</seg> Well, good evening…
+— <foreign xml:lang="fr" n="Well, Prince, so Genoa and Lucca…">Eh bien, mon prince…</foreign> Well, good evening…
 ```
 
-Rendering: both `<foreign xml:lang="fr">` and `<seg type="origfr">` show as a
-faint **dotted underline** with a `cursor: help` and a tooltip naming the
-language ("French"). No flag graphics. `<note>` shows as muted italic `[brackets]`.
+Rendering: `<foreign xml:lang="fr">` shows as a faint **dotted underline** with a `cursor: help` and a tooltip. If there is no `n` attribute (like in the original panel), the tooltip names the language ("French"). If there is an `n` attribute, it adds the translation ("French: [Well, Prince, so Genoa and Lucca…]").
 
-- `seg type` is `orig` + a language code (`origfr`, `origde`, …); the parser
-  reads the code for the tooltip.
-- Footnotes (`<note>`) appear **only in the original panel** — the translation
-  already conveys the meaning.
+- The `xml:lang` on `<foreign>` tells the parser which language name to use.
+- The `n` attribute holds the translated string for the tooltip.
+- Footnotes (`<note>`) appear **only in the original panel** — the translation tabs provide the gloss inside the tooltip.
 - Names that merely happen to be in Latin script (Pierre, Annette, Buonaparte)
   are **not** French passages — do not flag them.
 
@@ -127,7 +123,7 @@ bottom). The bracket contains the translation/gloss only.
 | `<emph>` | `<em>` |
 | `<title>` | `<cite>` |
 | `<foreign xml:lang="fr">` | dotted-underlined italic + language tooltip |
-| `<seg type="origfr">` | dotted-underlined + "French in the original" tooltip |
+| `<foreign xml:lang="fr" n="Trans">` | dotted-underlined italic + "French: [Trans]" tooltip |
 | `<note>` | inline `[bracketed]` gloss (muted italic) |
 | `<said who="#id">` | speech; adds quotes only if text has no leading dash/quote |
 | `<persName ref="#id">` / `<placeName>` / `<rs>` | registry tooltip (dotted) |
@@ -143,8 +139,7 @@ Unknown elements fall through to their inner content.
    AGENTS.md → "Translation pipeline").
 2. Ensure the Russian original version is in place (the converter does the bulk;
    then add `<foreign>` wrapping + `<note>` brackets where French occurs).
-3. Translate paragraph-for-paragraph into the `xml:lang="en"` version; flag
-   originally-French spans with `<seg type="origfr">`.
+3. Translate paragraph-for-paragraph into the `xml:lang="en"` version; for originally-French spans, leave them in French but wrap them in `<foreign xml:lang="fr" n="[Translation]">`.
 4. Add any new people/places to the registry first.
 5. `npm run build` and spot-check the chapter in the reader (toggle both ways).
 

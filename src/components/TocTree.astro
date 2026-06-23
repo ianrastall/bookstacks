@@ -1,0 +1,23 @@
+---
+import { relativeUrl } from '../utils/relativeUrl';
+
+interface Props {
+  nodes: any[];
+}
+
+const { nodes } = Astro.props;
+---
+<ol class="toc-list">
+  {nodes.map(node => (
+    <li class="toc-item">
+      {node.chapter ? (
+        <a class="toc-link" href={relativeUrl(`authors/${node.chapter.id}`)}>
+          <span class="toc-link-title">{Array.from(node.labels).join(' • ')}</span>
+        </a>
+      ) : (
+        <div class="toc-section-title">{Array.from(node.labels).join(' • ')}</div>
+      )}
+      {node.children && node.children.length > 0 && <Astro.self nodes={node.children} />}
+    </li>
+  ))}
+</ol>
