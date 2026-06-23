@@ -682,7 +682,7 @@ a.btn {
 }
 
 .chapter-container {
-    --reader-width: 44rem;
+    --reader-width: 54rem;
     --chapter-sidebar-width: 13rem;
     --chapter-layout-gap: clamp(2rem, 5vw, 4rem);
     --chapter-layout-width: calc(var(--reader-width) + var(--chapter-sidebar-width) + var(--chapter-layout-gap));
@@ -706,11 +706,16 @@ a.btn {
 }
 
 .reader-content {
-    font-size: 1.1rem;
-    line-height: 1.75;
-    max-width: var(--reader-width, 44rem);
+    font-size: 1.15rem;
+    line-height: 1.85;
+    max-width: var(--reader-width, 54rem);
     margin: 0;
     min-width: 0;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: clamp(2rem, 6vw, 4.5rem);
+    box-shadow: var(--shadow);
 }
 
 .reader-content > * + * {
