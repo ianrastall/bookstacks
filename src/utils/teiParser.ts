@@ -172,6 +172,7 @@ function convertNodeToHtml(node: any, persons: Record<string, any>, places: Reco
     if (tag === 'salute') return `<div class="tei-salute">${innerHtml}</div>`;
     if (tag === 'signed') return `<div class="tei-signed">${innerHtml}</div>`;
     if (tag === 'dateline') return `<div class="tei-dateline">${innerHtml}</div>`;
+    if (tag === 'note') return `<span class="tei-note">[${innerHtml}]</span>`;
     if (tag === 'body') {
       return innerHtml;
     }

@@ -936,28 +936,36 @@ a.btn {
 
 /* TEI Correspondence Styles */
 .tei-letter {
-    margin: 2rem 0;
-    padding: 1.5rem 2rem;
-    border-left: 4px solid var(--accent);
-    background: var(--panel-muted);
-    border-radius: 8px;
+    margin: 2rem 3rem;
+    padding: 0;
+    border: none;
+    background: transparent;
 }
 .tei-letter p {
-    text-indent: 1.5rem;
-    margin-bottom: 0.75rem;
-}
-.tei-letter p:first-of-type {
     text-indent: 0;
+    margin-bottom: 1rem;
 }
-.tei-opener, .tei-salute {
+.tei-letter p:last-child {
+    margin-bottom: 0;
+}
+.tei-opener, .tei-salute, .tei-dateline {
     text-align: left;
     margin-bottom: 1rem;
-    font-weight: bold;
+    font-weight: normal;
+    font-style: normal;
 }
-.tei-closer, .tei-signed, .tei-dateline {
+.tei-closer, .tei-signed {
     text-align: right;
+    margin-top: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+.tei-closer {
     margin-top: 1.5rem;
-    font-style: italic;
+}
+.tei-note {
+    color: var(--muted);
+    font-size: 0.9em;
 }
 
 .chapter-breadcrumbs-inline {
