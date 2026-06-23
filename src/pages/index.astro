@@ -31,7 +31,7 @@ function relativeUrl(path: string) {
           let slug = author.id;
           if (slug.endsWith('/index')) slug = slug.slice(0, -6);
           return (
-            <a class="tool-card author-card" href={relativeUrl(`authors/${slug}/`)}>
+            <a class="tool-card author-card" href={relativeUrl(`authors/${slug}`)}>
               <div class="tool-icon">
                 <span class="material-icons">person</span>
               </div>

@@ -80,7 +80,7 @@ if (layout === 'author_index') {
           let bSlug = book.id;
           if (bSlug.endsWith('/index')) bSlug = bSlug.slice(0, -6);
           return (
-            <a class="tool-card" href={relativeUrl(`authors/${bSlug}/`)}>
+            <a class="tool-card" href={relativeUrl(`authors/${bSlug}`)}>
               <div class="tool-icon">
                 <span class="material-icons">menu_book</span>
               </div>
@@ -100,7 +100,7 @@ if (layout === 'author_index') {
           <h2>{entry.data.book_title}</h2>
         </div>
         <div class="tool-actions">
-          <a class="btn btn-secondary btn-compact" href={relativeUrl(`authors/${authorSlug}/`)}>
+          <a class="btn btn-secondary btn-compact" href={relativeUrl(`authors/${authorSlug}`)}>
             <span class="material-icons">person</span>
             {entry.data.author}
           </a>
@@ -112,7 +112,7 @@ if (layout === 'author_index') {
         <ol class="toc-list">
           {chapters.map(chapter => (
             <li class="toc-item">
-              <a class="toc-link" href={relativeUrl(`authors/${chapter.id}/`)}>
+              <a class="toc-link" href={relativeUrl(`authors/${chapter.id}`)}>
                 <span class="toc-link-title">{chapter.data.toc_title || chapter.data.title}</span>
               </a>
             </li>
@@ -128,9 +128,9 @@ if (layout === 'author_index') {
         <nav class="chapter-breadcrumbs chapter-breadcrumbs-inline" aria-label="Breadcrumb">
           <a href={relativeUrl('')}>Home</a>
           <span aria-hidden="true">/</span>
-          <a href={relativeUrl(`authors/${authorSlug}/`)}>{entry.data.author}</a>
+          <a href={relativeUrl(`authors/${authorSlug}`)}>{entry.data.author}</a>
           <span aria-hidden="true">/</span>
-          <a href={relativeUrl(`authors/${authorSlug}/${bookSlug}/`)}>{entry.data.book}</a>
+          <a href={relativeUrl(`authors/${authorSlug}/${bookSlug}`)}>{entry.data.book}</a>
         </nav>
       </div>
 
@@ -143,7 +143,7 @@ if (layout === 'author_index') {
         <aside class="chapter-sidebar">
           <nav class="chapter-navigation" aria-label="Chapter navigation">
             {previousChapter ? (
-              <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`authors/${previousChapter.id}/`)}>
+              <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`authors/${previousChapter.id}`)}>
                 <span class="material-icons" aria-hidden="true">arrow_back</span>
                 Previous
               </a>
@@ -154,13 +154,13 @@ if (layout === 'author_index') {
               </span>
             )}
 
-            <a class="btn btn-primary chapter-nav-button" href={relativeUrl(`authors/${authorSlug}/${bookSlug}/`)}>
+            <a class="btn btn-primary chapter-nav-button" href={relativeUrl(`authors/${authorSlug}/${bookSlug}`)}>
               <span class="material-icons" aria-hidden="true">menu_book</span>
               Contents
             </a>
 
             {nextChapter ? (
-              <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`authors/${nextChapter.id}/`)}>
+              <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`authors/${nextChapter.id}`)}>
                 Next
                 <span class="material-icons" aria-hidden="true">arrow_forward</span>
               </a>
