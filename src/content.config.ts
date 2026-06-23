@@ -3,8 +3,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parseTeiBook, slugify, slugifyAuthor } from './utils/teiParser';
 
-const SOURCE_LANGS = ['en', 'es', 'ru'] as const;
-
 function hasFile(filesLower: Set<string>, fileName: string) {
   return filesLower.has(fileName.toLowerCase());
 }
