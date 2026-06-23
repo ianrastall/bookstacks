@@ -1,0 +1,107 @@
+---
+import { parseTeiBook } from '../../../utils/teiParser';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const books = [
+    { id: '1342', file: 'src/data/tei/1342-full.xml' }
+  ];
+
+  return books.map(book => {
+    const bookData = parseTeiBook(book.file);
+    return {
+      params: { bookId: book.id },
+      props: { bookData }
+    };
+  });
+}
+
+const { bookId } = Astro.params;
+const { bookData } = Astro.props;
+
+function relativeUrl(path: string) {
+  return import.meta.env.BASE_URL + path.replace(/^\//, '');
+}
+---
+
+<BaseLayout title={`${bookData.title} | Bookstacks`}>
+  <section class="tool-container shell">
+    <div class="tool-header">
+      <div class="tool-title">
+        <span class="material-icons">menu_book</span>
+        <h2>{bookData.title}</h2>
+      </div>
+      <div class="tool-actions">
+        <a class="btn btn-secondary btn-compact" href={relativeUrl('')}>
+          <span class="material-icons">home</span>
+          Home
+        </a>
+      </div>
+    </div>
+    <p class="tool-description">By {bookData.author}</p>
+
+    <!-- Character Registry -->
+    {Object.keys(bookData.persons).length > 0 && (
+      <details class="tei-registry">
+        <summary>Characters ({Object.keys(bookData.persons).length})</summary>
+        <ul>
+          {Object.entries(bookData.persons).map(([id, person]) => (
+            <li id={id}>
+              <strong>{person.name}</strong>
+              {person.note && <span> - {person.note}</span>}
+            </li>
+          ))}
+        </ul>
+      </details>
+    )}
+
+    <!-- Place Registry -->
+    {Object.keys(bookData.places).length > 0 && (
+      <details class="tei-registry">
+        <summary>Places ({Object.keys(bookData.places).length})</summary>
+        <ul>
+          {Object.entries(bookData.places).map(([id, place]) => (
+            <li id={id}>
+              <strong>{place.name}</strong>
+              {place.note && <span> - {place.note}</span>}
+            </li>
+          ))}
+        </ul>
+      </details>
+    )}
+
+    <div class="toc-tree" style="margin-top: 2rem;">
+      <ol class="toc-list">
+        {bookData.chapters.map(chapter => (
+          <li class="toc-item">
+            <a class="toc-link" href={relativeUrl(`tei/${bookId}/${chapter.n}/`)}>
+              <span class="toc-link-title">{chapter.title}</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+.tei-registry {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--surface-1);
+  border-radius: var(--radius-2);
+  border: 1px solid var(--border-color);
+}
+.tei-registry summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.tei-registry ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+.tei-registry li {
+  margin-bottom: 0.5rem;
+}
+</style>

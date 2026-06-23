@@ -31,6 +31,9 @@
         "toc_title": {
           "type": "string"
         },
+        "html": {
+          "type": "string"
+        },
         "$schema": {
           "type": "string"
         }

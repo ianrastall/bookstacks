@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
+// No longer using Astro's render() since we have raw HTML in the data
 
 const allEntries = await getCollection('authors');
 
@@ -137,7 +137,7 @@ if (layout === 'author_index') {
       <div class="chapter-layout">
         <article class="reader-content">
           <h2 class="navchap">{entry.data.title}</h2>
-          <Content />
+          <div set:html={entry.data.html} />
         </article>
 
         <aside class="chapter-sidebar">

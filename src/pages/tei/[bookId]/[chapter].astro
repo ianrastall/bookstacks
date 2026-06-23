@@ -1,0 +1,103 @@
+---
+import { parseTeiBook } from '../../../utils/teiParser';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const books = [
+    { id: '1342', file: 'src/data/tei/1342-full.xml' }
+  ];
+
+  const paths = [];
+
+  for (const book of books) {
+    const bookData = parseTeiBook(book.file);
+    for (let i = 0; i < bookData.chapters.length; i++) {
+      const chapter = bookData.chapters[i];
+      const prev = i > 0 ? bookData.chapters[i - 1].n : null;
+      const next = i < bookData.chapters.length - 1 ? bookData.chapters[i + 1].n : null;
+
+      paths.push({
+        params: { bookId: book.id, chapter: chapter.n },
+        props: { bookData, chapter, prev, next }
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { bookId } = Astro.params;
+const { bookData, chapter, prev, next } = Astro.props;
+
+function relativeUrl(path: string) {
+  return import.meta.env.BASE_URL + path.replace(/^\//, '');
+}
+---
+
+<BaseLayout title={`${bookData.title} - ${chapter.title} | Bookstacks`}>
+  <section class="tool-container chapter-container shell">
+    <div class="tool-header chapter-header">
+      <nav class="chapter-breadcrumbs chapter-breadcrumbs-inline" aria-label="Breadcrumb">
+        <a href={relativeUrl('')}>Home</a>
+        <span aria-hidden="true">/</span>
+        <a href={relativeUrl(`tei/${bookId}/`)}>{bookData.title}</a>
+      </nav>
+    </div>
+
+    <div class="chapter-layout">
+      <article class="reader-content tei-reader">
+        <h2 class="navchap">{chapter.title}</h2>
+        <div set:html={chapter.html}></div>
+      </article>
+
+      <aside class="chapter-sidebar">
+        <nav class="chapter-navigation" aria-label="Chapter navigation">
+          {prev ? (
+            <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`tei/${bookId}/${prev}/`)}>
+              <span class="material-icons" aria-hidden="true">arrow_back</span>
+              Previous
+            </a>
+          ) : (
+            <span class="btn btn-secondary chapter-nav-button is-disabled" aria-disabled="true">
+              <span class="material-icons" aria-hidden="true">arrow_back</span>
+              Previous
+            </span>
+          )}
+
+          <a class="btn btn-primary chapter-nav-button" href={relativeUrl(`tei/${bookId}/`)}>
+            <span class="material-icons" aria-hidden="true">menu_book</span>
+            Contents
+          </a>
+
+          {next ? (
+            <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`tei/${bookId}/${next}/`)}>
+              Next
+              <span class="material-icons" aria-hidden="true">arrow_forward</span>
+            </a>
+          ) : (
+            <span class="btn btn-secondary chapter-nav-button is-disabled" aria-disabled="true">
+              Next
+              <span class="material-icons" aria-hidden="true">arrow_forward</span>
+            </span>
+          )}
+        </nav>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>
+
+<style is:global>
+.tei-reader .tei-said {
+  /* Direct speech */
+}
+.tei-reader .tei-rs {
+  cursor: help;
+  text-decoration: underline dotted #646cff;
+}
+.tei-reader .tei-foreign {
+  font-style: italic;
+}
+.tei-reader cite {
+  font-style: italic;
+}
+</style>
