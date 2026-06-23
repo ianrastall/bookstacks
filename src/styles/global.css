@@ -273,6 +273,10 @@ textarea:focus-visible {
   display: block;
 }
 
+[data-theme='dark'] .author-portrait {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 .tool-card:hover,
 .tool-card:focus-within {
   border-color: var(--accent);
