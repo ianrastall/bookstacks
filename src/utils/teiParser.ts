@@ -580,22 +580,6 @@ function syntheticFullHeading(lang: TocLang, location: TocLocation | null, n: st
   return `Chapter ${n}`;
 }
 
-function makeTocLocation(kind: 'volume' | 'epilogue', volume: number | null, part: number, chapter: number): TocLocation | null {
-  const section = WAR_AND_PEACE_SECTIONS.find((candidate) => {
-    return candidate.kind === kind && candidate.volume === volume && candidate.part === part;
-  });
-
-  if (!section || chapter < 1 || chapter > section.count) return null;
-
-  return {
-    kind,
-    volume,
-    part,
-    chapter,
-    sortKey: section.start + chapter - 1
-  };
-}
-
 function locationFromSequentialIndex(index: number): TocLocation | null {
   const section = WAR_AND_PEACE_SECTIONS.find((candidate) => index >= candidate.start && index <= candidate.end);
   if (!section) return null;
