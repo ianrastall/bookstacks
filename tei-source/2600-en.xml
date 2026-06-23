@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>War and Peace</title>
+				<author>
+					<persName>Leo Tolstoy</persName>
+				</author>
+				<respStmt>
+					<resp>Translated from the Russian (with the French passages) by</resp>
+					<name type="ai">Claude Opus 4.8</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<name type="ai">Claude Opus 4.8</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<availability status="free">
+					<p>This work is in the public domain.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>English text is a new translation from the Russian, prepared for this edition. Russian source text: Lev Tolstoy, <title>Война и мир</title> (1869), via Lib.ru (<ref target="http://az.lib.ru/t/tolstoj_lew_nikolaewich/">az.lib.ru</ref>).</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This is a semantic encoding, not a transliteration of any source markup. Presentational markup is not retained: typographic italics are interpreted (emphasis as <gi>emph</gi>; work titles as <gi>title</gi>; foreign phrases as <gi>foreign</gi>). Direct speech is marked with <gi>said</gi> and attributed to a speaker via <att>who</att>; persons and places are tagged and resolved to the registers in <gi>particDesc</gi> and <gi>settingDesc</gi>. The encoding represents the work, not a particular edition. Each chapter is presented in two parallel versions — the Russian original (with Tolstoy's French passages) and a new English translation — aligned paragraph for paragraph. Passages that are French in the original are marked, and Tolstoy's own footnotes (his Russian renderings of the French) are given inline in square brackets.</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="ru">Russian</language>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person xml:id="anna-pavlovna" sex="F">
+						<persName>Anna Pávlovna Schérer</persName>
+						<persName type="hypocorism">Annette</persName>
+						<note>Maid of honor and favorite of the Dowager Empress; hostess of the fashionable Petersburg salon.</note>
+					</person>
+					<person xml:id="prince-vasili" sex="M">
+						<persName>Prince Vasíli Kurágin</persName>
+						<note>A high-ranking, self-interested courtier; father of Hélène, Hippolyte, and Anatole.</note>
+					</person>
+					<person xml:id="empress-marya" sex="F">
+						<persName>Márya Fëdorovna</persName>
+						<note>The Dowager Empress, whose favor the courtiers anxiously court.</note>
+					</person>
+					<person xml:id="helene" sex="F">
+						<persName>Hélène Kurágina</persName>
+						<note>Prince Vasíli's beautiful daughter and a celebrated society beauty.</note>
+					</person>
+					<person xml:id="hippolyte" sex="M">
+						<persName>Hippolyte Kurágin</persName>
+						<note>Prince Vasíli's elder son; in his father's words, "a quiet fool."</note>
+					</person>
+					<person xml:id="anatole" sex="M">
+						<persName>Anatole Kurágin</persName>
+						<note>Prince Vasíli's profligate younger son; "an active fool."</note>
+					</person>
+					<person xml:id="lise" sex="F">
+						<persName>Lise Bolkónskaya</persName>
+						<note>"The little princess"; young, pregnant wife of Prince Andrew, celebrated for her charm.</note>
+					</person>
+					<person xml:id="andrew" sex="M">
+						<persName>Prince Andrew Bolkónski</persName>
+						<note>Lise's husband and an aide-de-camp to General Kutúzov.</note>
+					</person>
+					<person xml:id="princess-mary" sex="F">
+						<persName>Princess Mary Bolkónskaya</persName>
+						<note>Prince Andrew's sister; rich, unhappy, and kept in the country by her exacting father.</note>
+					</person>
+					<person xml:id="old-bolkonski" sex="M">
+						<persName>Prince Bolkónski</persName>
+						<note>Mary's eccentric, miserly father; nicknamed "the King of Prussia."</note>
+					</person>
+					<person xml:id="pierre" sex="M">
+						<persName>Pierre</persName>
+						<note>Illegitimate son of Count Bezúkhov; recently returned from abroad, shy but observant and natural.</note>
+					</person>
+					<person xml:id="count-bezukhov" sex="M">
+						<persName>Count Bezúkhov</persName>
+						<note>A wealthy grandee of Catherine's time, now lying dying in Moscow; Pierre's father.</note>
+					</person>
+					<person xml:id="mortemart" sex="M">
+						<persName>Vicomte de Mortemart</persName>
+						<note>A French émigré guest, connected to the Montmorencys through the Rohans.</note>
+					</person>
+					<person xml:id="abbe-morio" sex="M">
+						<persName>Abbé Morio</persName>
+						<note>A thinker received by the Emperor, known for a scheme for perpetual peace.</note>
+					</person>
+					<person xml:id="kutuzov" sex="M">
+						<persName>Kutúzov</persName>
+						<note>The Russian general; Prince Andrew serves as his aide-de-camp.</note>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="st-petersburg">
+						<placeName>St. Petersburg</placeName>
+						<note>The imperial capital and seat of court society, where Anna Pávlovna's salon is held.</note>
+					</place>
+					<place xml:id="moscow">
+						<placeName>Moscow</placeName>
+						<note>Where the old Count Bezúkhov lies dying.</note>
+					</place>
+					<place xml:id="vienna">
+						<placeName>Vienna</placeName>
+						<note>The diplomatic post over which Prince Vasíli and the Dowager Empress contend.</note>
+					</place>
+				</listPlace>
+			</settingDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+		</body>
+	</text>
+</TEI>

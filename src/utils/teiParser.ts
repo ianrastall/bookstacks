@@ -15,6 +15,9 @@ export function parseTeiBook(filePath: string) {
   const xml = fs.readFileSync(path.resolve(filePath), 'utf-8');
   const doc = new DOMParser().parseFromString(xml, 'text/xml');
 
+  const teiNode = doc.getElementsByTagName('TEI')[0];
+  const fileLang = teiNode?.getAttribute('xml:lang') || 'en';
+
   // Metadata
   const titleNode = doc.getElementsByTagName('title')[0];
   const authorNode = doc.getElementsByTagName('author')[0]?.getElementsByTagName('persName')[0];
@@ -92,6 +95,12 @@ export function parseTeiBook(filePath: string) {
           html += convertNodeToHtml(node, persons, places);
         }
         html = html.trim();
+        versions.push({
+          id: fileLang,
+          lang: fileLang,
+          html: html,
+          title: head
+        });
       }
 
       chapters.push({
@@ -103,7 +112,7 @@ export function parseTeiBook(filePath: string) {
     }
   }
 
-  return { title, author, persons, places, chapters };
+  return { title, author, fileLang, persons, places, chapters };
 }
 
 export function slugify(text: string): string {

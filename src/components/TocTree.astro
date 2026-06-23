@@ -8,16 +8,28 @@ interface Props {
 const { nodes } = Astro.props;
 ---
 <ol class="toc-list">
-  {nodes.map(node => (
-    <li class="toc-item">
-      {node.chapter ? (
-        <a class="toc-link" href={relativeUrl(`authors/${node.chapter.id}`)}>
-          <span class="toc-link-title">{Array.from(node.labels).join(' • ')}</span>
-        </a>
-      ) : (
-        <div class="toc-section-title">{Array.from(node.labels).join(' • ')}</div>
-      )}
-      {node.children && node.children.length > 0 && <Astro.self nodes={node.children} />}
-    </li>
-  ))}
+  {nodes.map(node => {
+    // 1. Array.from ensures we have a standard array.
+    // 2. .filter(Boolean) removes any empty strings, null, or undefined values.
+    // 3. .join(' • ') applies the bullets only between the translations that actually exist.
+    const displayTitle = Array.from(node.labels || [])
+      .filter(Boolean)
+      .join(' • ');
+
+    return (
+      <li class="toc-item">
+        {node.chapter ? (
+          <a class="toc-link" href={relativeUrl(`authors/${node.chapter.id}`)}>
+            <span class="toc-link-title">{displayTitle}</span>
+          </a>
+        ) : (
+          <div class="toc-section-title">{displayTitle}</div>
+        )}
+        
+        {node.children && node.children.length > 0 && (
+          <Astro.self nodes={node.children} />
+        )}
+      </li>
+    );
+  })}
 </ol>
