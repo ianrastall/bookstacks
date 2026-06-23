@@ -3,6 +3,69 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parseTeiBook, slugify, slugifyAuthor } from './utils/teiParser';
 
+const SOURCE_LANGS = ['en', 'es', 'ru'] as const;
+
+function hasFile(filesLower: Set<string>, fileName: string) {
+  return filesLower.has(fileName.toLowerCase());
+}
+
+function getCanonicalTeiFiles(files: string[]) {
+  const xmlFiles = files
+    .filter((file) => file.toLowerCase().endsWith('.xml'))
+    .sort((a, b) => a.localeCompare(b));
+
+  const filesLower = new Set(xmlFiles.map((file) => file.toLowerCase()));
+
+  return xmlFiles.filter((file) => {
+    const fullMatch = file.match(/^(.*?)([-_.])full\.xml$/i);
+    if (fullMatch) {
+      const [, prefix, separator] = fullMatch;
+      return !hasFile(filesLower, `${prefix}${separator}ru.xml`);
+    }
+
+    const langMatch = file.match(/^(.*?)([-_.])(en|es|ru)\.xml$/i);
+    if (!langMatch) return true;
+
+    const [, prefix, separator, lang] = langMatch;
+    const normalizedLang = lang.toLowerCase();
+
+    // Russian is the complete base text for this project. The parser will
+    // auto-discover sibling 2600-en.xml and 2600-es.xml, so parsing those
+    // separately would duplicate and pollute chapter version metadata.
+    if (normalizedLang === 'ru') return true;
+
+    return !hasFile(filesLower, `${prefix}${separator}ru.xml`);
+  });
+}
+
+function cloneTocTreeForStore(nodes: any[]): any[] {
+  return (Array.isArray(nodes) ? nodes : []).map((node) => {
+    const labels = Array.isArray(node.labels)
+      ? node.labels.filter(Boolean)
+      : Array.from(node.labels || []).filter(Boolean);
+
+    const cloned: any = {
+      key: node.key,
+      labels,
+      labelByLang: node.labelByLang || {},
+      children: cloneTocTreeForStore(node.children || [])
+    };
+
+    if (node.chapter?.id) {
+      cloned.chapter = { id: node.chapter.id };
+    } else if (node.chapter?.href) {
+      cloned.chapter = { href: node.chapter.href };
+    }
+
+    return cloned;
+  });
+}
+
+function chapterSortValue(chapter: any, fallback: number) {
+  const parsed = Number.parseInt(chapter.n || '', 10);
+  return Number.isFinite(parsed) ? parsed : fallback + 1;
+}
+
 const teiLoader = () => {
   return {
     name: 'tei-loader',
@@ -14,20 +77,16 @@ const teiLoader = () => {
       const teiDir = path.resolve('./tei-source');
       if (!fs.existsSync(teiDir)) return;
 
-      const files = fs.readdirSync(teiDir).filter(f => f.endsWith('.xml'));
-      
-      const authorProcessed = new Set();
-      const booksBySlug = new Map<string, any>();
+      const files = getCanonicalTeiFiles(fs.readdirSync(teiDir));
+      const authorProcessed = new Set<string>();
 
-      // First pass: parse all files and group by book
       for (const file of files) {
         const filePath = path.join(teiDir, file);
         const bookData = parseTeiBook(filePath);
-        
+
         const authorSlug = slugifyAuthor(bookData.author);
         const bookSlug = slugify(bookData.title);
-        
-        // Add author index if not already added
+
         if (!authorProcessed.has(authorSlug)) {
           authorProcessed.add(authorSlug);
           store.set({
@@ -40,44 +99,15 @@ const teiLoader = () => {
           });
         }
 
-        if (!booksBySlug.has(bookSlug)) {
-          booksBySlug.set(bookSlug, {
-            authorSlug,
-            bookSlug,
-            bookData: {
-              ...bookData,
-              persons: { ...bookData.persons },
-              places: { ...bookData.places },
-              chaptersMap: new Map() // n -> chapter
-            }
-          });
+        const chapters = [...bookData.chapters]
+          .sort((a: any, b: any) => chapterSortValue(a, 0) - chapterSortValue(b, 0));
+
+        for (const chap of chapters) {
+          chap.id = `${authorSlug}/${bookSlug}/chapter-${chap.n}`;
         }
 
-        const aggregated = booksBySlug.get(bookSlug).bookData;
-        Object.assign(aggregated.persons, bookData.persons);
-        Object.assign(aggregated.places, bookData.places);
+        const tocTree = cloneTocTreeForStore(bookData.tocTree || []);
 
-        for (const chap of bookData.chapters) {
-          if (!aggregated.chaptersMap.has(chap.n)) {
-            aggregated.chaptersMap.set(chap.n, { ...chap, versions: [...chap.versions] });
-          } else {
-            const existingChap = aggregated.chaptersMap.get(chap.n);
-            // Append versions from this file
-            existingChap.versions.push(...chap.versions);
-            // If the current file is the 'en' translation or 'translation' subtype, 
-            // use its HTML as the default chapter HTML (optional, but good for base layout)
-            if (chap.versions.some((v: any) => v.lang === 'en' || v.id === 'translation')) {
-              existingChap.html = chap.html;
-            }
-          }
-        }
-      }
-
-      // Second pass: emit book indexes and chapters
-      for (const [bookSlug, bookGroup] of booksBySlug.entries()) {
-        const { authorSlug, bookData } = bookGroup;
-        
-        // Add book index
         store.set({
           id: `${authorSlug}/${bookSlug}/index`,
           data: {
@@ -86,30 +116,26 @@ const teiLoader = () => {
             book_title: bookData.title,
             author: bookData.author,
             persons: bookData.persons,
-            places: bookData.places
+            places: bookData.places,
+            tocTree
           }
         });
-        
-        // Add chapters
-        const chapters = Array.from(bookData.chaptersMap.values()) as any[];
-        // Sort chapters just in case (assuming n can be sorted numerically, though some are strings)
-        // chapter_order logic will handle the actual sorting in Astro pages.
+
         for (let i = 0; i < chapters.length; i++) {
           const chap = chapters[i];
-          // We set html to the first version's html if we have versions, to ensure there's a fallback.
+
           let chapterHtml = chap.html;
           if (chap.versions && chap.versions.length > 0) {
-              const enVersion = chap.versions.find((v: any) => v.lang === 'en' || v.id === 'translation');
-              if (enVersion) chapterHtml = enVersion.html;
-              else chapterHtml = chap.versions[0].html;
+            const enVersion = chap.versions.find((v: any) => v.lang === 'en' || v.id === 'translation');
+            chapterHtml = enVersion?.html || chap.versions[0].html;
           }
 
           store.set({
-            id: `${authorSlug}/${bookSlug}/chapter-${chap.n}`,
+            id: chap.id,
             data: {
               layout: 'book',
               title: chap.title,
-              chapter_order: parseInt(chap.n || '', 10) || (i + 1),
+              chapter_order: chapterSortValue(chap, i),
               book: bookData.title,
               author: bookData.author,
               html: chapterHtml,
@@ -134,6 +160,7 @@ const authors = defineCollection({
     chapter_order: z.number().optional(),
     toc_section: z.string().optional(),
     toc_title: z.string().optional(),
+    tocTree: z.array(z.any()).optional(),
     html: z.string().optional(),
     versions: z.array(z.any()).optional(),
     persons: z.record(z.any()).optional(),
