@@ -627,6 +627,10 @@ textarea {
     padding: 0;
 }
 
+.toc-list .toc-list {
+    margin-left: 1.5rem;
+}
+
 .toc-item {
     margin: 0.35rem 0;
 }
@@ -866,6 +870,7 @@ a.btn {
 
 /* TEI character / place registries on the book index */
 .tei-registry {
+    max-width: 52rem;
     margin: 1rem 0 0;
     padding: 1rem 1.25rem;
     background: var(--panel-muted);

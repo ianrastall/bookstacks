@@ -85,7 +85,7 @@ def main():
     ap.add_argument("--skip", type=int, default=0, help="skip this many leading chapters")
     args = ap.parse_args()
 
-    text = open(args.inp, encoding="utf-8").read()
+    text = open(args.inp, encoding="windows-1251").read()
     notes = parse_notes(text)
     body = text[:re.search(r"Примечания", text).start()] if "Примечания" in text else text
 
