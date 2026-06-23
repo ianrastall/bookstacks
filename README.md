@@ -3,150 +3,113 @@
 Bookstacks is an [Astro](https://astro.build) static site for reading public
 domain literature at <https://bookstacks.org>.
 
-The library is organized directly as Markdown source under `authors/`. A single
-Astro content collection loads those files, and the page templates build the
-author pages, book tables of contents, and individual chapter reading pages from
-their front matter.
+The library is built from **one TEI XML file per book**. A custom content-collection
+loader parses every file in `tei-source/` at build time and generates the author
+pages, book tables of contents (with character and place registries), and
+individual chapter reading pages.
 
 ## Project Structure
 
-- `src/content.config.ts`: defines the `authors` content collection. It globs
-  `authors/**/*.md` and validates front matter with a Zod schema.
-- `src/pages/index.astro`: the home page. Lists every author and reports the
-  author/book/chapter counts.
-- `src/pages/authors/[...slug].astro`: one dynamic route that renders every
-  author index, book index (table of contents), and chapter page. It branches on
-  the `layout` front matter value to decide which view to render.
+- `tei-source/<gutenberg-id>-full.xml`: one TEI file per book. This is the source
+  of truth for the entire library. One book = one file.
+- `src/utils/teiParser.ts`: parses a TEI file into `{ title, author, persons,
+  places, chapters }` and converts each chapter's TEI body to reading HTML.
+- `src/content.config.ts`: defines the `authors` content collection. A custom
+  loader reads every `tei-source/*.xml` and emits synthetic entries — one
+  `author_index`, one `book_index` (carrying the person/place registries), and
+  one `book` (chapter) entry per chapter.
+- `src/pages/index.astro`: the home page. Lists every author as a card and reports
+  author / book / chapter counts.
+- `src/pages/authors/[...slug].astro`: one dynamic route that renders every author
+  index, book index (table of contents + registries), and chapter reading page. It
+  branches on the `layout` value of the entry.
 - `src/layouts/BaseLayout.astro`: the shared page shell — header, site network,
   footer, Material Icons, and the inline theme / accent-color scripts.
-- `src/styles/global.css`: theme, index, table of contents, and reader styles.
-- `authors/<author-slug>/index.md`: author landing pages.
-- `authors/<author-slug>/<book-slug>/index.md`: book table of contents pages.
-- `authors/<author-slug>/<book-slug>/chapter-N.md`: chapter source files.
-- `img/`: image assets, generally grouped by author slug.
-- `public/`: files copied verbatim to the site root at build time (currently
-  `CNAME` for the custom domain).
-- `seed_indexes.py`: utility script for creating missing author and book index
-  files from existing chapter front matter.
+- `src/styles/global.css`: all theme, index, table-of-contents, registry, and
+  reader styles.
+- `public/`: files copied verbatim to the site root at build time, including
+  `CNAME` (custom domain) and `img/authors/<slug>.png` portraits.
 - `.github/workflows/deploy.yml`: builds the site and deploys it to GitHub Pages
   on every push to `main`.
 
 ## Content Model
 
-The Markdown front matter is the same model the site has always used; the
-`layout` value is now a view selector read by `src/pages/authors/[...slug].astro`
-rather than a Jekyll layout file.
+Each book is a single TEI document under `tei-source/`, named by its Project
+Gutenberg ebook id (e.g. `1342-full.xml` for *Pride and Prejudice*, `2600-full.xml`
+for *War and Peace*). A document has:
 
-Author index pages use:
+- A `teiHeader` with the `title`, `author` (`<persName>`), source credit
+  (`<sourceDesc>`), and the registries: `<particDesc><listPerson>` for characters
+  and `<settingDesc><listPlace>` for places. Each `<person>` / `<place>` has an
+  `xml:id`, a name, and a short `<note>`.
+- A `<text><body>` containing one `<div type="chapter" n="N">` per chapter, each
+  with a `<head>` (the chapter title) followed by the chapter content.
 
-```yaml
----
-layout: author_index
-title: "Jane Austen"
-author_name: "Jane Austen"
----
-```
+Slugs are derived automatically: the author slug is `surname-given`
+(`austen-jane`, `tolstoy-leo`); the book slug is the slugified title
+(`pride-and-prejudice`, `war-and-peace`). The chapter `n` attribute becomes the
+chapter order and **must be unique within a book**.
 
-Book index pages use:
+### Reading markup
 
-```yaml
----
-layout: book_index
-title: "Pride and Prejudice"
-book_title: "Pride and Prejudice"
-author: "Jane Austen"
----
-```
+The chapter body is semantically encoded, not a transliteration of any edition's
+presentational markup. The parser understands:
 
-Chapter pages use:
-
-```yaml
----
-layout: book
-title: "Chapter 1"
-chapter_order: 1
-book: "Pride and Prejudice"
-author: "Jane Austen"
----
-```
-
-Chapter ordering is controlled by `chapter_order`, not filename sorting. Keep
-`book` and `author` consistent across every chapter in the same book.
-
-`toc_title` overrides the link text shown for a chapter in the book table of
-contents. `toc_section` is accepted by the schema but the current book TOC
-renders a flat list of chapter links and does not group by section; treat it as
-reserved.
+- `<p>` paragraphs, `<emph>` emphasis, `<title>` work titles (rendered as `<cite>`),
+  `<foreign xml:lang="…">` foreign phrases.
+- `<said who="#id" direct="true">` direct speech, attributed to a person in the
+  registry.
+- `<persName ref="#id">`, `<placeName ref="#id">`, and `<rs ref="#id">` references,
+  which resolve to registry entries and render as hover-tooltips in the reader.
+- `<pb n="…"/>` page-break milestones; verse via `<lg>` / `<l>`; correspondence via
+  `<floatingText>`, `<opener>`, `<closer>`, `<salute>`, `<signed>`, `<dateline>`.
 
 ## Adding A Book
 
-1. Create `authors/<author-slug>/<book-slug>/`.
-2. Add one Markdown file per rendered chapter, usually `chapter-1.md`,
-   `chapter-2.md`, and so on.
-3. Add `layout: book`, `title`, `chapter_order`, `book`, and `author` front
-   matter to every chapter.
-4. Put only the chapter body after the front matter. The chapter view renders
-   the chapter title automatically.
-5. Add the book `index.md` and author `index.md`, or run:
+1. Create `tei-source/<gutenberg-id>-full.xml`.
+2. Write the `teiHeader` (title, author, source credit, and the person/place
+   registries).
+3. Add `<div type="chapter" n="N">` blocks under `<text><body>`, each with a
+   `<head>` and the chapter content, using the reading markup above.
+4. Optionally add a portrait at `public/img/authors/<author-slug>.png` (see below).
 
-```powershell
-python seed_indexes.py
+That's it — the loader and the dynamic route pick the book up automatically. There
+are no per-book index files to maintain.
+
+## Author Portraits
+
+Portraits are optional. If `public/img/authors/<author-slug>.png` exists, the home
+page and author page show it; otherwise a fallback icon is used.
+
+Portraits are **duotone tiles** (a colored ground plus dark ink) so they render
+correctly in both light and dark themes without inversion, and so each author can
+have a distinct color. To make one from a grayscale engraving:
+
+```bash
+magick <engraving>.png -resize 500x500 -colorspace Gray \
+  +level-colors "#333333","<author-color>" \
+  public/img/authors/<author-slug>.png
 ```
 
-`seed_indexes.py` only creates missing index files. It does not split books,
-rewrite chapters, or update existing indexes.
-
-## Raw Gutenberg Imports
-
-When importing raw Project Gutenberg HTML, first check whether the title already
-exists as a book or as a chapter within an existing book for that author.
-
-Converted works belong under `authors/<author-slug>/<book-slug>/` as a book
-`index.md` plus one Markdown file per rendered chapter or section. Strip
-Gutenberg boilerplate, generated contents, license text, and HTML navigation.
+`#333333` is the ink; the second color is that author's ground (e.g. coral for
+Austen).
 
 ## Local Development
 
-Requirements:
+Requires Node.js (18.20.8+, 20.3+, or 22+).
 
-- Node.js (18.20.8+, 20.3+, or 22+ — Astro 5's supported versions)
-- Python, only for `seed_indexes.py`
-
-Install dependencies:
-
-```powershell
-npm install
+```bash
+npm install      # install dependencies
+npm run dev      # start the dev server
+npm run build    # type-check (astro check) then build into dist/
+npm run preview  # preview the built output
 ```
-
-Start the dev server:
-
-```powershell
-npm run dev
-```
-
-Build the site (runs `astro check` for type checking, then `astro build` into
-`dist/`):
-
-```powershell
-npm run build
-```
-
-Preview the built output locally:
-
-```powershell
-npm run preview
-```
-
-The corpus is large (thousands of chapters), so full builds can take several
-minutes.
 
 ## Deployment
 
-Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the
-Astro site and publishes `dist/` to GitHub Pages. The repository's Pages source
-must be set to **GitHub Actions** (Settings → Pages → Build and deployment). The
-custom domain is preserved by `public/CNAME`, which Astro copies into every
-build.
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the site
+and publishes `dist/` to GitHub Pages. The repository's Pages source must be set to
+**GitHub Actions**. The custom domain is preserved by `public/CNAME`.
 
 ## Public Domain Notice
 

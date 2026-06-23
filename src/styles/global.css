@@ -258,23 +258,61 @@ textarea:focus-visible {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: var(--panel);
+  color: inherit;
+  text-decoration: none;
 }
 
+/* Author cards: framed portrait on top, name below, uniform height */
 .author-card {
-  /* removed max-width, auto-fill handles it */
+  padding: 0;
+  gap: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.author-card-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  /* The portrait is a self-contained duotone tile (colored ground + dark ink),
+     so it reads correctly in both themes. This background shows only behind the
+     fallback icon for authors without a portrait. */
+  background: var(--panel-muted);
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
 }
 
 .author-portrait {
   width: 100%;
-  max-width: 250px;
-  height: auto;
-  border-radius: 4px;
-  margin-bottom: 0.5rem;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
-[data-theme='dark'] .author-portrait {
-  filter: invert(1) hue-rotate(180deg);
+.author-card-icon {
+  font-size: 4rem;
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+.author-card-body {
+  padding: 0.85rem 1rem 1rem;
+}
+
+.author-name {
+  margin: 0;
+}
+
+/* Framed portrait on the author landing page */
+.author-hero {
+  width: 180px;
+  aspect-ratio: 1 / 1;
+  margin: 0 0 1.5rem;
+  background: var(--panel-muted);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .tool-card:hover,
@@ -817,6 +855,78 @@ a.btn {
 
 .chapter-breadcrumbs a:hover {
     color: var(--accent);
+}
+
+/* TEI character / place registries on the book index */
+.tei-registry {
+    margin: 1rem 0 0;
+    padding: 1rem 1.25rem;
+    background: var(--panel-muted);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+.tei-registry + .tei-registry {
+    margin-top: 0.75rem;
+}
+.tei-registry summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent);
+}
+.tei-registry ul {
+    margin: 1rem 0 0;
+    padding-left: 1.25rem;
+}
+.tei-registry li {
+    margin-bottom: 0.5rem;
+}
+.tei-registry li span {
+    color: var(--muted);
+}
+
+/* Chapter version toggle (original facing translation) */
+.version-toggle {
+    display: inline-flex;
+    margin: 0 0 1.75rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.version-tab {
+    border: 0;
+    background: var(--panel);
+    color: var(--muted);
+    padding: 0.45rem 1rem;
+    min-height: 2.35rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+.version-tab + .version-tab {
+    border-left: 1px solid var(--border);
+}
+.version-tab.active {
+    background: var(--accent);
+    color: #ffffff;
+}
+[data-theme='dark'] .version-tab.active {
+    color: #06201d;
+}
+.version-panel[lang="ru"] {
+    /* slightly looser leading helps the Cyrillic original read */
+    line-height: 1.7;
+}
+
+/* TEI inline reading markup (rendered inside .reader-content) */
+.reader-content .tei-rs {
+    cursor: help;
+    text-decoration: underline dotted var(--accent);
+    text-underline-offset: 0.15em;
+}
+.reader-content .tei-foreign {
+    font-style: italic;
+}
+.reader-content cite {
+    font-style: italic;
 }
 
 /* TEI Correspondence Styles */

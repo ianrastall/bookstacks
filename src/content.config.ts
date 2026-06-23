@@ -6,7 +6,7 @@ import { parseTeiBook, slugify, slugifyAuthor } from './utils/teiParser';
 const teiLoader = () => {
   return {
     name: 'tei-loader',
-    load: async ({ store, logger }: any) => {
+    load: async ({ store }: any) => {
       const teiDir = path.resolve('./tei-source');
       if (!fs.existsSync(teiDir)) return;
       
@@ -41,7 +41,9 @@ const teiLoader = () => {
             layout: 'book_index',
             title: bookData.title,
             book_title: bookData.title,
-            author: bookData.author
+            author: bookData.author,
+            persons: bookData.persons,
+            places: bookData.places
           }
         });
         
@@ -56,7 +58,8 @@ const teiLoader = () => {
               chapter_order: parseInt(chap.n || '', 10) || (i + 1),
               book: bookData.title,
               author: bookData.author,
-              html: chap.html
+              html: chap.html,
+              versions: chap.versions || []
             }
           });
         }
@@ -77,7 +80,10 @@ const authors = defineCollection({
     chapter_order: z.number().optional(),
     toc_section: z.string().optional(),
     toc_title: z.string().optional(),
-    html: z.string().optional()
+    html: z.string().optional(),
+    versions: z.array(z.any()).optional(),
+    persons: z.record(z.any()).optional(),
+    places: z.record(z.any()).optional()
   })
 });
 

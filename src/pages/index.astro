@@ -1,4 +1,5 @@
 ---
+import fs from 'node:fs';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
@@ -10,6 +11,12 @@ const chapters = allEntries.filter(e => e.data.layout === 'book');
 // Helper to construct relative URL
 function relativeUrl(path: string) {
   return import.meta.env.BASE_URL + path.replace(/^\//, '');
+}
+
+// An author has a portrait if public/img/authors/<slug>.png exists.
+function authorPortrait(slug: string) {
+  const rel = `img/authors/${slug}.png`;
+  return fs.existsSync(`public/${rel}`) ? relativeUrl(rel) : null;
 }
 ---
 
@@ -26,20 +33,30 @@ function relativeUrl(path: string) {
       
       <p class="tool-description">A curated index of public domain texts, with {authors.length} authors, {books.length} books, and {chapters.length} chapters.</p>
       
-      <div class="tool-grid">
+      <div class="tool-grid author-grid">
         {authors.map(author => {
           let slug = author.id;
           if (slug.endsWith('/index')) slug = slug.slice(0, -6);
+          const portrait = authorPortrait(slug);
           return (
             <a class="tool-card author-card" href={relativeUrl(`authors/${slug}`)}>
-              {slug === 'austen-jane' ? (
-                <img src={relativeUrl('img/authors/austen-jane.png')} alt="" class="author-portrait" />
-              ) : (
-                <div class="tool-icon">
-                  <span class="material-icons">person</span>
-                </div>
-              )}
-              <h3 class="author-name">{author.data.author_name}</h3>
+              <div class="author-card-media">
+                {portrait ? (
+                  <img
+                    src={portrait}
+                    alt={`Portrait of ${author.data.author_name}`}
+                    class="author-portrait"
+                    width="500"
+                    height="500"
+                    loading="lazy"
+                  />
+                ) : (
+                  <span class="material-icons author-card-icon" aria-hidden="true">person</span>
+                )}
+              </div>
+              <div class="author-card-body">
+                <h3 class="author-name">{author.data.author_name}</h3>
+              </div>
             </a>
           );
         })}

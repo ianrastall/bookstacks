@@ -1,4 +1,5 @@
 ---
+import fs from 'node:fs';
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
@@ -27,6 +28,25 @@ function relativeUrl(path: string) {
 }
 
 const layout = entry.data.layout;
+
+// Human labels for chapter version toggles (original / translation panels).
+const VERSION_LABELS: Record<string, string> = {
+  translation: 'English',
+  original: 'Русский',
+  maude: 'Maude (English)',
+  en: 'English',
+  ru: 'Русский',
+  fr: 'Français'
+};
+function versionLabel(v: { id: string; lang: string }) {
+  return VERSION_LABELS[v.id] || VERSION_LABELS[v.lang] || v.lang || 'Version';
+}
+
+// An author has a portrait if public/img/authors/<slug>.png exists.
+const authorSlugForPortrait = entry.id.replace('/index', '');
+const portrait = fs.existsSync(`public/img/authors/${authorSlugForPortrait}.png`)
+  ? relativeUrl(`img/authors/${authorSlugForPortrait}.png`)
+  : null;
 
 let books: any[] = [];
 let chapters: any[] = [];
@@ -75,8 +95,10 @@ if (layout === 'author_index') {
       </div>
       <p class="tool-description">Books by {entry.data.author_name}</p>
       
-      {entry.id.replace('/index', '') === 'austen-jane' && (
-        <img src={relativeUrl('img/authors/austen-jane.png')} alt={entry.data.author_name} class="author-portrait" style="margin-bottom: 1rem;" />
+      {portrait && (
+        <div class="author-hero">
+          <img src={portrait} alt={`Portrait of ${entry.data.author_name}`} class="author-portrait" width="500" height="500" />
+        </div>
       )}
       
       <div class="tool-grid">
@@ -112,6 +134,34 @@ if (layout === 'author_index') {
       </div>
       <p class="tool-description">By {entry.data.author}</p>
 
+      {entry.data.persons && Object.keys(entry.data.persons).length > 0 && (
+        <details class="tei-registry">
+          <summary>Characters ({Object.keys(entry.data.persons).length})</summary>
+          <ul>
+            {Object.entries(entry.data.persons).map(([id, person]: [string, any]) => (
+              <li id={id}>
+                <strong>{person.name}</strong>
+                {person.note && <span> — {person.note}</span>}
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+
+      {entry.data.places && Object.keys(entry.data.places).length > 0 && (
+        <details class="tei-registry">
+          <summary>Places ({Object.keys(entry.data.places).length})</summary>
+          <ul>
+            {Object.entries(entry.data.places).map(([id, place]: [string, any]) => (
+              <li id={id}>
+                <strong>{place.name}</strong>
+                {place.note && <span> — {place.note}</span>}
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+
       <div class="toc-tree">
         <ol class="toc-list">
           {chapters.map(chapter => (
@@ -141,7 +191,26 @@ if (layout === 'author_index') {
       <div class="chapter-layout">
         <article class="reader-content">
           <h2 class="navchap">{entry.data.title}</h2>
-          <div set:html={entry.data.html} />
+          {entry.data.versions && entry.data.versions.length > 1 ? (
+            <div class="version-reader">
+              <div class="version-toggle" role="tablist" aria-label="Text version">
+                {entry.data.versions.map((v: any, i: number) => (
+                  <button
+                    class:list={["version-tab", { active: i === 0 }]}
+                    type="button"
+                    role="tab"
+                    aria-selected={i === 0 ? 'true' : 'false'}
+                    data-version={v.id}
+                  >{versionLabel(v)}</button>
+                ))}
+              </div>
+              {entry.data.versions.map((v: any, i: number) => (
+                <div class="version-panel" data-version={v.id} lang={v.lang} hidden={i !== 0} set:html={v.html} />
+              ))}
+            </div>
+          ) : (
+            <div set:html={entry.data.html} />
+          )}
         </article>
 
         <aside class="chapter-sidebar">
@@ -179,4 +248,24 @@ if (layout === 'author_index') {
       </div>
     </section>
   )}
+
+  <script>
+    // Chapter version toggle: fully switch between text versions (e.g. original
+    // facing translation). Only one panel is shown at a time.
+    document.querySelectorAll('.version-reader').forEach((reader) => {
+      const tabs = reader.querySelectorAll<HTMLButtonElement>('.version-tab');
+      const panels = reader.querySelectorAll<HTMLElement>('.version-panel');
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const id = tab.dataset.version;
+          tabs.forEach((t) => {
+            const active = t === tab;
+            t.classList.toggle('active', active);
+            t.setAttribute('aria-selected', active ? 'true' : 'false');
+          });
+          panels.forEach((p) => { p.hidden = p.dataset.version !== id; });
+        });
+      });
+    });
+  </script>
 </BaseLayout>

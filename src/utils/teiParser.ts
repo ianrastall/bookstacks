@@ -47,21 +47,49 @@ export function parseTeiBook(filePath: string) {
     if (div.getAttribute('type') === 'chapter') {
       const n = div.getAttribute('n');
       const head = div.getElementsByTagName('head')[0]?.textContent || `Chapter ${n}`;
-      
-      // Convert TEI body to HTML
-      let html = '';
-      const childNodes = div.childNodes;
-      for (let j = 0; j < childNodes.length; j++) {
-        const node = childNodes[j];
-        if (node.nodeName !== 'head') {
-          html += convertNodeToHtml(node, persons, places);
+
+      // A chapter may hold one or more <div type="version"> blocks (e.g. an
+      // original-language text facing a translation). If present, each becomes a
+      // toggleable version; otherwise the chapter body is a single version.
+      const versionNodes: any[] = [];
+      for (let j = 0; j < div.childNodes.length; j++) {
+        const c = div.childNodes[j] as any;
+        if (c.nodeType === 1 && c.nodeName === 'div' && c.getAttribute('type') === 'version') {
+          versionNodes.push(c);
         }
+      }
+
+      let html = '';
+      const versions: { id: string; lang: string; html: string }[] = [];
+
+      if (versionNodes.length > 0) {
+        for (const v of versionNodes) {
+          let vhtml = '';
+          for (let k = 0; k < v.childNodes.length; k++) {
+            vhtml += convertNodeToHtml(v.childNodes[k], persons, places);
+          }
+          versions.push({
+            id: v.getAttribute('subtype') || v.getAttribute('xml:lang') || `v${versions.length + 1}`,
+            lang: v.getAttribute('xml:lang') || '',
+            html: vhtml.trim()
+          });
+        }
+        html = versions[0].html;
+      } else {
+        for (let j = 0; j < div.childNodes.length; j++) {
+          const node = div.childNodes[j];
+          if (node.nodeName !== 'head') {
+            html += convertNodeToHtml(node, persons, places);
+          }
+        }
+        html = html.trim();
       }
 
       chapters.push({
         n,
         title: head,
-        html: html.trim()
+        html,
+        versions
       });
     }
   }

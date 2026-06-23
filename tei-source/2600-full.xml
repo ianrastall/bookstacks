@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>War and Peace</title>
+				<author>
+					<persName>Leo Tolstoy</persName>
+				</author>
+				<respStmt>
+					<resp>Translated by</resp>
+					<name>Louise and Aylmer Maude</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<name type="ai">Claude Opus 4.8</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<availability status="free">
+					<p>This work is in the public domain.</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Digital source text from Project Gutenberg: <ref target="https://www.gutenberg.org/ebooks/2600">https://www.gutenberg.org/ebooks/2600</ref> (Louise and Aylmer Maude translation).</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This is a semantic encoding, not a transliteration of any source markup. Presentational markup is not retained: typographic italics are interpreted (emphasis as <gi>emph</gi>; work titles as <gi>title</gi>; foreign phrases as <gi>foreign</gi>). Direct speech is marked with <gi>said</gi> and attributed to a speaker via <att>who</att>; persons and places are tagged and resolved to the registers in <gi>particDesc</gi> and <gi>settingDesc</gi>. The encoding represents the work, not a particular edition. Translator footnotes are inlined as parenthetical glosses where they aid reading.</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+				<language ident="fr">French</language>
+			</langUsage>
+			<particDesc>
+				<listPerson>
+					<person xml:id="anna-pavlovna" sex="F">
+						<persName>Anna Pávlovna Schérer</persName>
+						<persName type="hypocorism">Annette</persName>
+						<note>Maid of honor and favorite of the Dowager Empress; hostess of the fashionable Petersburg salon.</note>
+					</person>
+					<person xml:id="prince-vasili" sex="M">
+						<persName>Prince Vasíli Kurágin</persName>
+						<note>A high-ranking, self-interested courtier; father of Hélène, Hippolyte, and Anatole.</note>
+					</person>
+					<person xml:id="empress-marya" sex="F">
+						<persName>Márya Fëdorovna</persName>
+						<note>The Dowager Empress, whose favor the courtiers anxiously court.</note>
+					</person>
+					<person xml:id="helene" sex="F">
+						<persName>Hélène Kurágina</persName>
+						<note>Prince Vasíli's beautiful daughter and a celebrated society beauty.</note>
+					</person>
+					<person xml:id="hippolyte" sex="M">
+						<persName>Hippolyte Kurágin</persName>
+						<note>Prince Vasíli's elder son; in his father's words, "a quiet fool."</note>
+					</person>
+					<person xml:id="anatole" sex="M">
+						<persName>Anatole Kurágin</persName>
+						<note>Prince Vasíli's profligate younger son; "an active fool."</note>
+					</person>
+					<person xml:id="lise" sex="F">
+						<persName>Lise Bolkónskaya</persName>
+						<note>"The little princess"; young, pregnant wife of Prince Andrew, celebrated for her charm.</note>
+					</person>
+					<person xml:id="andrew" sex="M">
+						<persName>Prince Andrew Bolkónski</persName>
+						<note>Lise's husband and an aide-de-camp to General Kutúzov.</note>
+					</person>
+					<person xml:id="princess-mary" sex="F">
+						<persName>Princess Mary Bolkónskaya</persName>
+						<note>Prince Andrew's sister; rich, unhappy, and kept in the country by her exacting father.</note>
+					</person>
+					<person xml:id="old-bolkonski" sex="M">
+						<persName>Prince Bolkónski</persName>
+						<note>Mary's eccentric, miserly father; nicknamed "the King of Prussia."</note>
+					</person>
+					<person xml:id="pierre" sex="M">
+						<persName>Pierre</persName>
+						<note>Illegitimate son of Count Bezúkhov; recently returned from abroad, shy but observant and natural.</note>
+					</person>
+					<person xml:id="count-bezukhov" sex="M">
+						<persName>Count Bezúkhov</persName>
+						<note>A wealthy grandee of Catherine's time, now lying dying in Moscow; Pierre's father.</note>
+					</person>
+					<person xml:id="mortemart" sex="M">
+						<persName>Vicomte de Mortemart</persName>
+						<note>A French émigré guest, connected to the Montmorencys through the Rohans.</note>
+					</person>
+					<person xml:id="abbe-morio" sex="M">
+						<persName>Abbé Morio</persName>
+						<note>A thinker received by the Emperor, known for a scheme for perpetual peace.</note>
+					</person>
+					<person xml:id="kutuzov" sex="M">
+						<persName>Kutúzov</persName>
+						<note>The Russian general; Prince Andrew serves as his aide-de-camp.</note>
+					</person>
+				</listPerson>
+			</particDesc>
+			<settingDesc>
+				<listPlace>
+					<place xml:id="st-petersburg">
+						<placeName>St. Petersburg</placeName>
+						<note>The imperial capital and seat of court society, where Anna Pávlovna's salon is held.</note>
+					</place>
+					<place xml:id="moscow">
+						<placeName>Moscow</placeName>
+						<note>Where the old Count Bezúkhov lies dying.</note>
+					</place>
+					<place xml:id="vienna">
+						<placeName>Vienna</placeName>
+						<note>The diplomatic post over which Prince Vasíli and the Dowager Empress contend.</note>
+					</place>
+				</listPlace>
+			</settingDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter" n="1">
+				<head>Book One, Chapter I</head>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— Well, Prince, so Genoa and Lucca are now nothing more than appanages, estates, of the Buonaparte family. No, I warn you: if you do not tell me that we are at war, if you still permit yourself to gloss over all the infamies, all the atrocities of this Antichrist (upon my word, I believe in him) — then I no longer know you, you are no longer my friend, you are no longer my faithful slave, as you call yourself. Well, good evening, good evening. I see that I am frightening you — sit down and tell me everything.</said>
+				</p>
+				<p>So spoke, in July 1805, the renowned <persName ref="#anna-pavlovna">Anna Pávlovna Schérer</persName>, maid of honor and confidante of the Empress <persName ref="#empress-marya">Márya Fëdorovna</persName>, as she greeted the important and high-ranking <persName ref="#prince-vasili">Prince Vasíli</persName>, the first to arrive at her soirée. <persName ref="#anna-pavlovna">Anna Pávlovna</persName> had been coughing for several days; she had the grippe, as she put it (<foreign xml:lang="fr">grippe</foreign> being then a new word, used only by a few). In the little notes sent round that morning by a footman in red livery there was written, without distinction, to one and all:</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">"If you have nothing better to do, Monsieur le Comte (or my Prince), and if the prospect of spending an evening with a poor invalid does not alarm you too greatly, I shall be charmed to see you at my house between 7 and 10 o'clock. Annette Schérer."</said>
+				</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— Heavens, what a virulent sally!</said> — replied <rs ref="#prince-vasili">the prince</rs>, not in the least disconcerted by such a reception, as he came in wearing his embroidered court uniform, in stockings and buckled shoes, with stars on his breast and a bright expression on his flat face.</p>
+				<p>He spoke in that refined French in which our grandfathers not only spoke but even thought, and with those quiet, patronizing intonations natural to a man of consequence grown old in society and at court. He went up to <persName ref="#anna-pavlovna">Anna Pávlovna</persName>, kissed her hand, presenting to her his perfumed and gleaming bald crown, and settled himself comfortably on the sofa.</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— Before all else, tell me how you are, dear friend. Set my mind at rest,</said> — he said, without altering his voice, in a tone through which, beneath the propriety and concern, there showed indifference and even mockery.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— How can one be well, when one suffers morally? Can anyone with feeling stay at peace in times like these?</said> — said <persName ref="#anna-pavlovna">Anna Pávlovna</persName>. — <said who="#anna-pavlovna" direct="true">You will stay the whole evening with me, I hope?</said>
+				</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— And the English ambassador's fête? Today is Wednesday. I must show my face there,</said> — said <rs ref="#prince-vasili">the prince</rs>. — <said who="#prince-vasili" direct="true">My daughter is calling for me to take me along.</said>
+				</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— I thought today's fête had been canceled. I confess that all these fêtes and fireworks are beginning to grow insipid.</said>
+				</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— Had they known you wished it, the fête would have been put off,</said> — said <rs ref="#prince-vasili">the prince</rs>, by habit, like a wound-up clock, saying things he did not even wish to be believed.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— Don't torment me. Well, what has been decided about Novosíltsev's dispatch? You know everything.</said>
+				</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— How shall I put it?</said> — said <rs ref="#prince-vasili">the prince</rs> in a cold, listless tone. — <said who="#prince-vasili" direct="true">What has been decided? It has been decided that Buonaparte has burned his boats, and I believe that we are about to burn ours.</said>
+				</p>
+				<p>
+					<persName ref="#prince-vasili">Prince Vasíli</persName> always spoke languidly, the way an actor speaks a part in some stale old play. <persName ref="#anna-pavlovna">Anna Pávlovna Schérer</persName>, by contrast, for all her forty years, was brimming with animation and impulse.</p>
+				<p>To be an enthusiast had become her station in society, and at times, even when she had no wish for it, she would turn enthusiast so as not to disappoint the expectations of those who knew her. The restrained smile that played perpetually about <persName ref="#anna-pavlovna">Anna Pávlovna</persName>'s lips, though it ill suited her faded features, expressed — as in spoiled children — a constant consciousness of her own dear failing, one she neither wished, nor was able, nor saw any need to correct.</p>
+				<p>In the middle of the conversation about political affairs, <persName ref="#anna-pavlovna">Anna Pávlovna</persName> grew heated.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— Ah, do not speak to me of Austria! Perhaps I understand nothing, but Austria has never wanted, and does not want, war. She is betraying us. Russia alone must be the savior of Europe. Our benefactor knows his lofty calling and will be true to it. That is the one thing I believe in. To our good and wonderful sovereign falls the greatest role in the world, and he is so virtuous and good that God will not forsake him, and he will fulfill his calling to crush the hydra of revolution, which is now more terrible than ever in the person of this murderer and villain. We alone must redeem the blood of the righteous. On whom are we to rely, I ask you?.. England, with her commercial spirit, will not and cannot understand the full loftiness of the Emperor Alexander's soul. She has refused to evacuate Malta. She wants to see, she looks for, some ulterior motive behind our actions. What did they say to Novosíltsev?.. Nothing. They did not understand, they cannot understand the self-denial of our Emperor, who wants nothing for himself and wants everything for the good of the world. And what did they promise? Nothing. And even what they promised will not come to pass! Prussia has already declared that Bonaparte is invincible and that all Europe can do nothing against him… And I do not believe a single word of Hardenberg or of Haugwitz. This famous Prussian neutrality is nothing but a snare. I believe in God alone and in the lofty destiny of our dear Emperor. He will save Europe!..</said> — She suddenly broke off with a smile of mockery at her own ardor.</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— I think,</said> — said <rs ref="#prince-vasili">the prince</rs>, smiling, — <said who="#prince-vasili" direct="true">that had they sent you in place of our dear Wintzingerode, you would have carried the Prussian king's consent by storm. You are so eloquent. Will you give me some tea?</said>
+				</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— In a moment. <foreign xml:lang="fr">À propos</foreign>,</said> — she added, growing calm again, — <said who="#anna-pavlovna" direct="true">tonight I have two very interesting men, the <persName ref="#mortemart">Vicomte de Mortemart</persName>, who is connected with the Montmorencys through the Rohans, one of the best families in France. He is one of the good émigrés, the genuine ones. And then the <persName ref="#abbe-morio">Abbé Morio</persName>: do you know that profound mind? He has been received by the sovereign. Had you heard?</said>
+				</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— Ah! I shall be very glad,</said> — said <rs ref="#prince-vasili">the prince</rs>. — <said who="#prince-vasili" direct="true">Tell me,</said> — he added, as though it had only just occurred to him, and with particular nonchalance, although the very thing he was about to ask was the chief object of his visit, — <said who="#prince-vasili" direct="true">is it true that the Dowager Empress wishes Baron Funke appointed first secretary in <placeName ref="#vienna">Vienna</placeName>? He is a poor specimen, this baron, by all accounts.</said> — <persName ref="#prince-vasili">Prince Vasíli</persName> wished to secure this post for his son, while others were trying, through the Empress <persName ref="#empress-marya">Márya Fëdorovna</persName>, to obtain it for the baron.</p>
+				<p>
+					<persName ref="#anna-pavlovna">Anna Pávlovna</persName> nearly closed her eyes, as a sign that neither she nor anyone else could presume to judge what was agreeable or pleasing to the Empress.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— Baron de Funke was recommended to the Dowager Empress by her sister,</said> — was all she said, in a sad, dry tone. At the moment when <persName ref="#anna-pavlovna">Anna Pávlovna</persName> named the Empress, her face suddenly took on a deep and sincere expression of devotion and respect mingled with sadness — as happened to her every time she mentioned in conversation her exalted patroness. She said that Her Majesty had deigned to show Baron Funke much esteem, and once more her gaze was overcast with sadness.</p>
+				<p>
+					<rs ref="#prince-vasili">The prince</rs> fell indifferently silent. <persName ref="#anna-pavlovna">Anna Pávlovna</persName>, with the courtierly and feminine adroitness and quickness of tact that were hers, wished both to give the prince a little rap for having dared to speak so of a person recommended to the Empress, and at the same time to console him.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— But <foreign xml:lang="fr">à propos</foreign> of your family,</said> — she said, — <said who="#anna-pavlovna" direct="true">do you know that your daughter, ever since she began going out, has been the delight of everyone? People find her as lovely as the day.</said>
+				</p>
+				<p>
+					<rs ref="#prince-vasili">The prince</rs> inclined his head in token of respect and gratitude.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— I often think,</said> — <persName ref="#anna-pavlovna">Anna Pávlovna</persName> went on after a moment's silence, drawing nearer to <rs ref="#prince-vasili">the prince</rs> and smiling at him fondly, as if to signal that the political and social talk was over and now the intimate part was beginning, — <said who="#anna-pavlovna" direct="true">I often think how unjustly the happiness of life is sometimes apportioned. Why has fate given you two such splendid children (excepting <persName ref="#anatole">Anatole</persName>, your youngest — I do not like him,</said> — she put in peremptorily, raising her eyebrows) — <said who="#anna-pavlovna" direct="true">two such charming children? And you, in truth, value them less than anyone, and so you do not deserve them.</said>
+				</p>
+				<p>And she smiled her rapturous smile.</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— What would you have? Lavater would have said that I lack the bump of paternity,</said> — said <rs ref="#prince-vasili">the prince</rs>.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— Stop joking. I meant to speak with you seriously. You know, I am displeased with your younger son. Between ourselves be it said</said> (her face assumed a mournful expression), <said who="#anna-pavlovna" direct="true">he was spoken of at Her Majesty's, and you are pitied…</said>
+				</p>
+				<p>
+					<rs ref="#prince-vasili">The prince</rs> did not answer, but she, gazing at him silently and meaningfully, awaited a reply. <persName ref="#prince-vasili">Prince Vasíli</persName> winced.</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— What would you have me do?</said> — he said at last. — <said who="#prince-vasili" direct="true">You know, I did for their upbringing everything a father can, and both have turned out imbeciles. <persName ref="#hippolyte">Hippolyte</persName>, at least, is a quiet fool, whereas <persName ref="#anatole">Anatole</persName> is a restless one. That is the one difference,</said> — he said, smiling more unnaturally and animatedly than usual, and in doing so revealing, in the creases that had set about his mouth, something unexpectedly coarse and unpleasant.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— And why are children born to men like you? Were you not a father, there would be nothing for which I could reproach you,</said> — said <persName ref="#anna-pavlovna">Anna Pávlovna</persName>, raising her eyes thoughtfully.</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— I am your faithful slave, and to you alone can I confess it. My children are the shackles of my existence. That is my cross. So I explain it to myself. What would you have?..</said> — He paused, expressing by a gesture his submission to cruel fate.</p>
+				<p>
+					<persName ref="#anna-pavlovna">Anna Pávlovna</persName> grew thoughtful.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— Have you never thought of marrying off your prodigal son <persName ref="#anatole">Anatole</persName>? They say,</said> — she said, — <said who="#anna-pavlovna" direct="true">that old maids have a mania for matchmaking. I do not yet feel that weakness in myself, but I have in mind a certain little person who is very unhappy with her father, a relation of ours, a princess — the <persName ref="#princess-mary">Princess Bolkónskaya</persName>.</said> — <persName ref="#prince-vasili">Prince Vasíli</persName> did not answer, though, with the quickness of reflection and memory peculiar to people of the world, he showed by a movement of his head that he had taken note of this intelligence.</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— No, do you know that this <persName ref="#anatole">Anatole</persName> costs me forty thousand a year?</said> — he said, evidently unable to restrain the mournful current of his thoughts. He paused.</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— What will it be in five years, if it goes on like this? There you have the advantage of being a father. Is she rich, your princess?</said>
+				</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— Her father is very rich and miserly. He lives in the country. You know him — that famous <persName ref="#old-bolkonski">Prince Bolkónski</persName>, retired as far back as the late Emperor's reign and nicknamed "the King of Prussia." He is a very clever man, but eccentric and trying. The poor little thing is wretched as the stones. She has a brother — the one who lately married <persName ref="#lise">Lise Meinen</persName> — an adjutant of <persName ref="#kutuzov">Kutúzov</persName>'s. He will be here this evening.</said>
+				</p>
+				<p>
+					<said who="#prince-vasili" direct="true">— Listen, dear Annette,</said> — said <rs ref="#prince-vasili">the prince</rs>, suddenly taking his companion by the hand and for some reason drawing it downward, — <said who="#prince-vasili" direct="true">arrange this affair for me, and I am your most faithful slave for ever and ever — "slafe," the way my village elder spells it in his dispatches. She is of good family and rich. That is all I need.</said>
+				</p>
+				<p>And with those free, familiar, graceful movements that set him apart, he took the maid of honor's hand, kissed it, and, having kissed it, waved it to and fro, lounging back in his armchair and looking off to one side.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">— <foreign xml:lang="fr">Attendez</foreign>,</said> — said <persName ref="#anna-pavlovna">Anna Pávlovna</persName>, considering. — <said who="#anna-pavlovna" direct="true">This very evening I shall have a word with <persName ref="#lise">Lise</persName> (the wife of young Bolkónski). And perhaps it can be arranged. It is in your family that I shall serve my apprenticeship as an old maid.</said>
+				</p>
+			</div>
+			<div type="chapter" n="2">
+				<head>Book One, Chapter II</head>
+				<p>
+					<persName ref="#anna-pavlovna">Anna Pávlovna</persName>'s drawing room was gradually filling. The highest Petersburg society was assembled there: people differing widely in age and character but alike in the social circle to which they belonged. <persName ref="#prince-vasili">Prince Vasíli</persName>'s daughter, the beautiful <persName ref="#helene">Hélène</persName>, came to take her father to the ambassador's entertainment; she wore a ball dress and her badge as maid of honor. The youthful little <persName ref="#lise">Princess Bolkónskaya</persName>, known as <foreign xml:lang="fr">la femme la plus séduisante de Pétersbourg</foreign> (the most fascinating woman in Petersburg), was also there. She had been married during the previous winter, and being pregnant did not go to any large gatherings, but only to small receptions. <persName ref="#prince-vasili">Prince Vasíli</persName>'s son, <persName ref="#hippolyte">Hippolyte</persName>, had come with <persName ref="#mortemart">Mortemart</persName>, whom he introduced. The <persName ref="#abbe-morio">Abbé Morio</persName> and many others had also come.</p>
+				<p>To each new arrival <persName ref="#anna-pavlovna">Anna Pávlovna</persName> said, <said who="#anna-pavlovna" direct="true">You have not yet seen my aunt,</said> or <said who="#anna-pavlovna" direct="true">You do not know my aunt?</said> and very gravely conducted him or her to a little old lady, wearing large bows of ribbon in her cap, who had come sailing in from another room as soon as the guests began to arrive; and slowly turning her eyes from the visitor to her aunt, Anna Pávlovna mentioned each one's name and then left them.</p>
+				<p>Each visitor performed the ceremony of greeting this old aunt whom not one of them knew, not one of them wanted to know, and not one of them cared about; Anna Pávlovna observed these greetings with mournful and solemn interest and silent approval. The aunt spoke to each of them in the same words, about their health and her own, and the health of Her Majesty, <said direct="true">who, thank God, was better today.</said> And each visitor, though politeness prevented his showing impatience, left the old woman with a sense of relief at having performed a vexatious duty and did not return to her the whole evening.</p>
+				<p>The young <persName ref="#lise">Princess Bolkónskaya</persName> had brought some work in a gold-embroidered velvet bag. Her pretty little upper lip, on which a delicate dark down was just perceptible, was too short for her teeth, but it lifted all the more sweetly, and was especially charming when she occasionally drew it down to meet the lower lip. As is always the case with a thoroughly attractive woman, her defect—the shortness of her upper lip and her half-open mouth—seemed to be her own special and peculiar form of beauty. Everyone brightened at the sight of this pretty young woman, so soon to become a mother, so full of life and health, and carrying her burden so lightly. Old men and dull dispirited young ones who looked at her, after being in her company and talking to her a little while, felt as if they too were becoming, like her, full of life and health. All who talked to her, and at each word saw her bright smile and the constant gleam of her white teeth, thought that they were in a specially amiable mood that day.</p>
+				<p>The little princess went round the table with quick, short, swaying steps, her workbag on her arm, and gaily spreading out her dress sat down on a sofa near the silver samovar, as if all she was doing was a pleasure to herself and to all around her. <said who="#lise" direct="true">I have brought my work,</said> said she in French, displaying her bag and addressing all present. <said who="#lise" direct="true">Mind, Annette, I hope you have not played a wicked trick on me,</said> she added, turning to her hostess. <said who="#lise" direct="true">You wrote that it was to be quite a small reception, and just see how badly I am dressed.</said> And she spread out her arms to show her short-waisted, lace-trimmed, dainty gray dress, girdled with a broad ribbon just below the breast.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true"><foreign xml:lang="fr">Soyez tranquille</foreign>, Lise, you will always be prettier than anyone else,</said> replied <persName ref="#anna-pavlovna">Anna Pávlovna</persName>.</p>
+				<p>
+					<said who="#lise" direct="true">You know,</said> said <rs ref="#lise">the princess</rs> in the same tone of voice and still in French, turning to a general, <said who="#lise" direct="true">my husband is deserting me? He is going to get himself killed. Tell me what this wretched war is for?</said> she added, addressing <persName ref="#prince-vasili">Prince Vasíli</persName>, and without waiting for an answer she turned to speak to his daughter, the beautiful <persName ref="#helene">Hélène</persName>.</p>
+				<p>
+					<said who="#prince-vasili" direct="true">What a delightful woman this little princess is!</said> said <persName ref="#prince-vasili">Prince Vasíli</persName> to <persName ref="#anna-pavlovna">Anna Pávlovna</persName>.</p>
+				<p>One of the next arrivals was a stout, heavily built young man with close-cropped hair, spectacles, the light-colored breeches fashionable at that time, a very high ruffle, and a brown dress coat. This stout young man was an illegitimate son of <persName ref="#count-bezukhov">Count Bezúkhov</persName>, a well-known grandee of Catherine's time who now lay dying in <placeName ref="#moscow">Moscow</placeName>. The young man had not yet entered either the military or civil service, as he had only just returned from abroad where he had been educated, and this was his first appearance in society. <persName ref="#anna-pavlovna">Anna Pávlovna</persName> greeted him with the nod she accorded to the lowest hierarchy in her drawing room. But in spite of this lowest-grade greeting, a look of anxiety and fear, as at the sight of something too large and unsuited to the place, came over her face when she saw <persName ref="#pierre">Pierre</persName> enter. Though he was certainly rather bigger than the other men in the room, her anxiety could only have reference to the clever though shy, but observant and natural, expression which distinguished him from everyone else in that drawing room.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">It is very good of you, Monsieur Pierre, to come and visit a poor invalid,</said> said <persName ref="#anna-pavlovna">Anna Pávlovna</persName>, exchanging an alarmed glance with her aunt as she conducted him to her.</p>
+				<p>
+					<persName ref="#pierre">Pierre</persName> murmured something unintelligible, and continued to look round as if in search of something. On his way to the aunt he bowed to the little princess with a pleased smile, as to an intimate acquaintance.</p>
+				<p>Anna Pávlovna's alarm was justified, for Pierre turned away from the aunt without waiting to hear her speech about Her Majesty's health. Anna Pávlovna in dismay detained him with the words: <said who="#anna-pavlovna" direct="true">Do you know the <persName ref="#abbe-morio">Abbé Morio</persName>? He is a most interesting man.</said>
+				</p>
+				<p>
+					<said who="#pierre" direct="true">Yes, I have heard of his scheme for perpetual peace, and it is very interesting but hardly feasible.</said>
+				</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">You think so?</said> rejoined <persName ref="#anna-pavlovna">Anna Pávlovna</persName> in order to say something and get away to attend to her duties as hostess. But <persName ref="#pierre">Pierre</persName> now committed a reverse act of impoliteness. First he had left a lady before she had finished speaking to him, and now he continued to speak to another who wished to get away. With his head bent, and his big feet spread apart, he began explaining his reasons for thinking the abbé's plan chimerical.</p>
+				<p>
+					<said who="#anna-pavlovna" direct="true">We will talk of it later,</said> said <persName ref="#anna-pavlovna">Anna Pávlovna</persName> with a smile.</p>
+				<p>And having got rid of this young man who did not know how to behave, she resumed her duties as hostess and continued to listen and watch, ready to help at any point where the conversation might happen to flag. As the foreman of a spinning mill, when he has set the hands to work, goes round and notices here a spindle that has stopped or there one that creaks or makes more noise than it should, and hastens to check the machine or set it in proper motion, so Anna Pávlovna moved about her drawing room, approaching now a silent, now a too-noisy group, and by a word or slight rearrangement kept the conversational machine in steady, proper, and regular motion. But amid these cares her anxiety about <persName ref="#pierre">Pierre</persName> was evident. She kept an anxious watch on him when he approached the group round <persName ref="#mortemart">Mortemart</persName> to listen to what was being said there, and again when he passed to another group whose center was the abbé.</p>
+				<p>
+					<persName ref="#pierre">Pierre</persName> had been educated abroad, and this reception at <persName ref="#anna-pavlovna">Anna Pávlovna</persName>'s was the first he had attended in Russia. He knew that all the intellectual lights of Petersburg were gathered there and, like a child in a toyshop, did not know which way to look, afraid of missing any clever conversation that was to be heard. Seeing the self-confident and refined expression on the faces of those present he was always expecting to hear something very profound. At last he came up to <persName ref="#abbe-morio">Morio</persName>. Here the conversation seemed interesting and he stood waiting for an opportunity to express his own views, as young people are fond of doing.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
