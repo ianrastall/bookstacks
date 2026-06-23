@@ -2,6 +2,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { DOMParser } from '@xmldom/xmldom';
 
+const LANG_NAMES: Record<string, string> = {
+  fr: 'French',
+  ru: 'Russian',
+  de: 'German',
+  it: 'Italian',
+  la: 'Latin',
+  en: 'English'
+};
+
 export function parseTeiBook(filePath: string) {
   const xml = fs.readFileSync(path.resolve(filePath), 'utf-8');
   const doc = new DOMParser().parseFromString(xml, 'text/xml');
@@ -78,9 +87,7 @@ export function parseTeiBook(filePath: string) {
       } else {
         for (let j = 0; j < div.childNodes.length; j++) {
           const node = div.childNodes[j];
-          if (node.nodeName !== 'head') {
-            html += convertNodeToHtml(node, persons, places);
-          }
+          html += convertNodeToHtml(node, persons, places);
         }
         html = html.trim();
       }
@@ -127,14 +134,35 @@ function convertNodeToHtml(node: any, persons: Record<string, any>, places: Reco
       innerHtml += convertNodeToHtml(node.childNodes[i], persons, places);
     }
 
+    if (tag === 'head') return `<h2 class="navchap">${innerHtml}</h2>`;
     if (tag === 'p') return `<p>${innerHtml}</p>`;
     if (tag === 'said') {
       const who = node.getAttribute('who') || '';
-      return `<span class="tei-said" data-who="${who}">&ldquo;${innerHtml}&rdquo;</span>`;
+      // Only supply quotation marks when the source text doesn't already carry
+      // its own dialogue punctuation (e.g. em-dash dialogue or a quoted note).
+      const lead = innerHtml.replace(/^\s+/, '');
+      const hasOwnPunctuation = /^[—–\-"“«]/.test(lead);
+      const body = hasOwnPunctuation ? innerHtml : `&ldquo;${innerHtml}&rdquo;`;
+      return `<span class="tei-said" data-who="${who}">${body}</span>`;
     }
     if (tag === 'emph') return `<em>${innerHtml}</em>`;
     if (tag === 'title') return `<cite>${innerHtml}</cite>`;
-    if (tag === 'foreign') return `<i class="tei-foreign" lang="${node.getAttribute('xml:lang') || ''}">${innerHtml}</i>`;
+    if (tag === 'foreign') {
+      const lang = node.getAttribute('xml:lang') || '';
+      const name = LANG_NAMES[lang] || lang;
+      const title = name ? ` title="${name}"` : '';
+      return `<i class="tei-foreign" lang="${lang}"${title}>${innerHtml}</i>`;
+    }
+    if (tag === 'note') return `<span class="tei-note"> [${innerHtml}]</span>`;
+    if (tag === 'seg') {
+      const type = node.getAttribute('type') || '';
+      if (type.startsWith('orig')) {
+        const lang = type.slice(4) || node.getAttribute('xml:lang') || '';
+        const name = LANG_NAMES[lang] || 'another language';
+        return `<span class="tei-was-fr" title="${name} in the original">${innerHtml}</span>`;
+      }
+      return innerHtml;
+    }
     if (tag === 'rs' || tag === 'persName' || tag === 'placeName') {
       const ref = node.getAttribute('ref') || '';
       const id = ref.replace('#', '');

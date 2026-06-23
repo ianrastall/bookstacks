@@ -11,6 +11,7 @@
   --danger: #be123c;
   --success: #15803d;
   --shadow: 0 18px 48px rgba(23, 32, 51, 0.12);
+  --lang-mark: #b8742a;
 }
 
 [data-theme='dark'] {
@@ -25,6 +26,7 @@
   --danger: #fb7185;
   --success: #4ade80;
   --shadow: 0 18px 48px rgba(0, 0, 0, 0.3);
+  --lang-mark: #e0a86a;
 }
 
 * {
@@ -921,6 +923,22 @@ a.btn {
     line-height: 1.7;
 }
 
+/* Inline footnote glosses, shown in square brackets after the referent */
+.tei-note {
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Mark text whose original was in another language (e.g. French in the original).
+   Underdotted with a tooltip naming the language. */
+.tei-was-fr {
+    text-decoration: underline dotted;
+    text-decoration-color: var(--lang-mark);
+    text-underline-offset: 0.2em;
+    cursor: help;
+}
+
 /* TEI inline reading markup (rendered inside .reader-content) */
 .reader-content .tei-rs {
     cursor: help;
@@ -929,6 +947,10 @@ a.btn {
 }
 .reader-content .tei-foreign {
     font-style: italic;
+    text-decoration: underline dotted;
+    text-decoration-color: var(--lang-mark);
+    text-underline-offset: 0.2em;
+    cursor: help;
 }
 .reader-content cite {
     font-style: italic;

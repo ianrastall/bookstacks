@@ -405,3 +405,9 @@ FodyWeavers.xsd
 dist/
 
 archive/
+
+# Raw source texts staged for TEI conversion (working material, not site assets)
+*-rus.html
+*-rus.txt
+*-eng.txt
+*-raw.html

@@ -69,6 +69,44 @@
 5. Optionally add a duotone portrait at `public/img/authors/<slug>.png` (see README).
 6. Build to verify (below).
 
+## Parallel-text translations (two-version chapters)
+
+Some books carry an original-language text facing one or more translations, shown
+as a **toggle** in the reader. The full conventions live in
+[`tei-source/TRANSLATION-STYLE.md`](tei-source/TRANSLATION-STYLE.md) — read it
+before translating or encoding such a chapter.
+
+In short: each chapter holds `<div type="version" xml:lang="…" subtype="…">`
+blocks (`subtype="original"` / `"translation"`); the reader defaults to the
+English/translation version and loops a tab over every version. The parser also
+handles `<note>` (inline `[bracket]` gloss), `<seg type="origfr">` (flag for
+text that was French in the original), and `<foreign xml:lang>` (dotted-underline
++ language tooltip). **Chapter I of `2600-full.xml` is the reference chapter.**
+
+### Translation pipeline (War and Peace)
+
+The Russian source comes from Lib.ru (az.lib.ru) HTML, one file per volume,
+staged as `*-rus.html` (git-ignored). Convert it with:
+
+```bash
+python tools/tei_from_libru.py --in tolstoy-wp-rus.html \
+  --volume I --skip 1 --start 2 >> /tmp/chapters.xml
+```
+
+The converter emits `<div type="chapter">` blocks (Russian-original version only,
+with Tolstoy's footnotes inlined as `<note>` brackets), numbered globally from
+`--start`; `--skip` omits already-hand-crafted leading chapters. Splice the
+output into `2600-full.xml` before `</body>`, then add English versions per the
+style guide. The bulk pass does **not** wrap French in `<foreign>`; add that
+(and the `<seg type="origfr">` flags in English) per chapter during translation.
+
+Phasing: (1) Russian original for the whole novel — Volume I is in; Volumes II–IV
++ epilogues need their source HTML run through the same converter. (2) English
+translations, chapter by chapter. (3) optionally a second translation.
+
+Note: the TEI loader calls `store.clear()` each build, so content removed from a
+source file is dropped (no stale entries lingering in `.astro`).
+
 ## Verification
 
 ```bash

@@ -7,9 +7,13 @@ const teiLoader = () => {
   return {
     name: 'tei-loader',
     load: async ({ store }: any) => {
+      // Clear the persisted store so content removed from the TEI sources
+      // (e.g. a dropped chapter) doesn't linger from a previous build.
+      store.clear();
+
       const teiDir = path.resolve('./tei-source');
       if (!fs.existsSync(teiDir)) return;
-      
+
       const files = fs.readdirSync(teiDir).filter(f => f.endsWith('.xml'));
       
       const authorProcessed = new Set();
