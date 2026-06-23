@@ -18,7 +18,7 @@ export function parseTeiBook(filePath: string) {
     // Updated DOMParser configuration using the new onError callback
     const doc = new DOMParser({
       onError: (level, msg) => {
-        if (level === 'warn' || level === 'warning') {
+        if (level === 'warning') {
           console.warn(`XML Warning in ${filePath}: ${msg}`);
         } else if (level === 'fatalError') {
           throw new Error(`Fatal XML parsing error in ${filePath}: ${msg}`);
