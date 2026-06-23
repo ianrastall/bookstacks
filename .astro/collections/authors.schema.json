@@ -31,6 +31,9 @@
         "toc_title": {
           "type": "string"
         },
+        "tocTree": {
+          "type": "array"
+        },
         "html": {
           "type": "string"
         },
