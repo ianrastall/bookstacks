@@ -12,107 +12,111 @@ const LANG_NAMES: Record<string, string> = {
 };
 
 export function parseTeiBook(filePath: string) {
-  const xml = fs.readFileSync(path.resolve(filePath), 'utf-8');
-  const doc = new DOMParser().parseFromString(xml, 'text/xml');
-
-  const teiNode = doc.getElementsByTagName('TEI')[0];
-  const fileLang = teiNode?.getAttribute('xml:lang') || 'en';
-
-  // Metadata
-  const titleNode = doc.getElementsByTagName('title')[0];
-  const authorNode = doc.getElementsByTagName('author')[0]?.getElementsByTagName('persName')[0];
-  const title = titleNode?.textContent || 'Unknown Title';
-  const author = authorNode?.textContent || 'Unknown Author';
-
-  // Registries
-  const persons: Record<string, any> = {};
-  const listPerson = doc.getElementsByTagName('listPerson')[0];
-  if (listPerson) {
-    const personNodes = listPerson.getElementsByTagName('person');
-    for (let i = 0; i < personNodes.length; i++) {
-      const p = personNodes[i];
-      const id = p.getAttribute('xml:id');
-      const name = p.getElementsByTagName('persName')[0]?.textContent;
-      const note = p.getElementsByTagName('note')[0]?.textContent;
-      if (id) persons[id] = { name, note };
-    }
-  }
-
-  const places: Record<string, any> = {};
-  const listPlace = doc.getElementsByTagName('listPlace')[0];
-  if (listPlace) {
-    const placeNodes = listPlace.getElementsByTagName('place');
-    for (let i = 0; i < placeNodes.length; i++) {
-      const p = placeNodes[i];
-      const id = p.getAttribute('xml:id');
-      const name = p.getElementsByTagName('placeName')[0]?.textContent;
-      const note = p.getElementsByTagName('note')[0]?.textContent;
-      if (id) places[id] = { name, note };
-    }
-  }
-
-  // Chapters
-  const chapters = [];
-  const divNodes = doc.getElementsByTagName('div');
-  for (let i = 0; i < divNodes.length; i++) {
-    const div = divNodes[i];
-    if (div.getAttribute('type') === 'chapter') {
-      const n = div.getAttribute('n');
-      const head = div.getElementsByTagName('head')[0]?.textContent || `Chapter ${n}`;
-
-      // A chapter may hold one or more <div type="version"> blocks (e.g. an
-      // original-language text facing a translation). If present, each becomes a
-      // toggleable version; otherwise the chapter body is a single version.
-      const versionNodes: any[] = [];
-      for (let j = 0; j < div.childNodes.length; j++) {
-        const c = div.childNodes[j] as any;
-        if (c.nodeType === 1 && c.nodeName === 'div' && c.getAttribute('type') === 'version') {
-          versionNodes.push(c);
+  try {
+    const xml = fs.readFileSync(path.resolve(filePath), 'utf-8');
+    const doc = new DOMParser({
+      errorHandler: {
+        warning: (msg) => console.warn(`XML Warning in ${filePath}: ${msg}`),
+        error: (msg) => console.error(`XML Error in ${filePath}: ${msg}`),
+        fatalError: (msg) => {
+          throw new Error(`Fatal XML parsing error in ${filePath}: ${msg}`);
         }
       }
+    }).parseFromString(xml, 'text/xml');
 
-      let html = '';
-      const versions: { id: string; lang: string; html: string; title: string }[] = [];
+    // Metadata
+    const titleNode = doc.getElementsByTagName('title')[0];
+    const authorNode = doc.getElementsByTagName('author')[0]?.getElementsByTagName('persName')[0];
+    const title = titleNode?.textContent || 'Unknown Title';
+    const author = authorNode?.textContent || 'Unknown Author';
 
-      if (versionNodes.length > 0) {
-        for (const v of versionNodes) {
-          let vhtml = '';
-          for (let k = 0; k < v.childNodes.length; k++) {
-            vhtml += convertNodeToHtml(v.childNodes[k], persons, places);
-          }
-          const vhead = v.getElementsByTagName('head')[0]?.textContent?.trim() || '';
-          versions.push({
-            id: v.getAttribute('subtype') || v.getAttribute('xml:lang') || `v${versions.length + 1}`,
-            lang: v.getAttribute('xml:lang') || '',
-            html: vhtml.trim(),
-            title: vhead
-          });
-        }
-        html = versions[0].html;
-      } else {
+    // Registries
+    const persons: Record<string, any> = {};
+    const listPerson = doc.getElementsByTagName('listPerson')[0];
+    if (listPerson) {
+      const personNodes = listPerson.getElementsByTagName('person');
+      for (let i = 0; i < personNodes.length; i++) {
+        const p = personNodes[i];
+        const id = p.getAttribute('xml:id');
+        const name = p.getElementsByTagName('persName')[0]?.textContent;
+        const note = p.getElementsByTagName('note')[0]?.textContent;
+        if (id) persons[id] = { name, note };
+      }
+    }
+
+    const places: Record<string, any> = {};
+    const listPlace = doc.getElementsByTagName('listPlace')[0];
+    if (listPlace) {
+      const placeNodes = listPlace.getElementsByTagName('place');
+      for (let i = 0; i < placeNodes.length; i++) {
+        const p = placeNodes[i];
+        const id = p.getAttribute('xml:id');
+        const name = p.getElementsByTagName('placeName')[0]?.textContent;
+        const note = p.getElementsByTagName('note')[0]?.textContent;
+        if (id) places[id] = { name, note };
+      }
+    }
+
+    // Chapters
+    const chapters = [];
+    const divNodes = doc.getElementsByTagName('div');
+    for (let i = 0; i < divNodes.length; i++) {
+      const div = divNodes[i];
+      if (div.getAttribute('type') === 'chapter') {
+        const n = div.getAttribute('n');
+        const head = div.getElementsByTagName('head')[0]?.textContent || `Chapter ${n}`;
+
+        // A chapter may hold one or more <div type="version"> blocks (e.g. an
+        // original-language text facing a translation). If present, each becomes a
+        // toggleable version; otherwise the chapter body is a single version.
+        const versionNodes: any[] = [];
         for (let j = 0; j < div.childNodes.length; j++) {
-          const node = div.childNodes[j];
-          html += convertNodeToHtml(node, persons, places);
+          const c = div.childNodes[j] as any;
+          if (c.nodeType === 1 && c.nodeName === 'div' && c.getAttribute('type') === 'version') {
+            versionNodes.push(c);
+          }
         }
-        html = html.trim();
-        versions.push({
-          id: fileLang,
-          lang: fileLang,
-          html: html,
-          title: head
+
+        let html = '';
+        const versions: { id: string; lang: string; html: string; title: string }[] = [];
+
+        if (versionNodes.length > 0) {
+          for (const v of versionNodes) {
+            let vhtml = '';
+            for (let k = 0; k < v.childNodes.length; k++) {
+              vhtml += convertNodeToHtml(v.childNodes[k], persons, places);
+            }
+            const vhead = v.getElementsByTagName('head')[0]?.textContent?.trim() || '';
+            versions.push({
+              id: v.getAttribute('subtype') || v.getAttribute('xml:lang') || `v${versions.length + 1}`,
+              lang: v.getAttribute('xml:lang') || '',
+              html: vhtml.trim(),
+              title: vhead
+            });
+          }
+          html = versions[0].html;
+        } else {
+          for (let j = 0; j < div.childNodes.length; j++) {
+            const node = div.childNodes[j];
+            html += convertNodeToHtml(node, persons, places);
+          }
+          html = html.trim();
+        }
+
+        chapters.push({
+          n,
+          title: head,
+          html,
+          versions
         });
       }
-
-      chapters.push({
-        n,
-        title: head,
-        html,
-        versions
-      });
     }
-  }
 
-  return { title, author, fileLang, persons, places, chapters };
+    return { title, author, persons, places, chapters };
+  } catch (error) {
+    console.error(`Failed to parse TEI file at ${filePath}:`, error);
+    throw error;
+  }
 }
 
 export function slugify(text: string): string {
