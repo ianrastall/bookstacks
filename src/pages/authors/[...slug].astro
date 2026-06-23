@@ -75,6 +75,10 @@ if (layout === 'author_index') {
       </div>
       <p class="tool-description">Books by {entry.data.author_name}</p>
       
+      {entry.id.replace('/index', '') === 'austen-jane' && (
+        <img src={relativeUrl('img/authors/austen-jane.png')} alt={entry.data.author_name} class="author-portrait" style="margin-bottom: 1rem;" />
+      )}
+      
       <div class="tool-grid">
         {books.map(book => {
           let bSlug = book.id;

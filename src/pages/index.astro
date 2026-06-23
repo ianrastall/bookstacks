@@ -32,9 +32,13 @@ function relativeUrl(path: string) {
           if (slug.endsWith('/index')) slug = slug.slice(0, -6);
           return (
             <a class="tool-card author-card" href={relativeUrl(`authors/${slug}`)}>
-              <div class="tool-icon">
-                <span class="material-icons">person</span>
-              </div>
+              {slug === 'austen-jane' ? (
+                <img src={relativeUrl('img/authors/austen-jane.png')} alt={author.data.author_name} class="author-portrait" />
+              ) : (
+                <div class="tool-icon">
+                  <span class="material-icons">person</span>
+                </div>
+              )}
               <h3 class="author-name">{author.data.author_name}</h3>
             </a>
           );

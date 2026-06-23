@@ -137,8 +137,13 @@ function convertNodeToHtml(node: any, persons: Record<string, any>, places: Reco
       return `<div class="tei-l">${innerHtml}</div>`;
     }
     if (tag === 'floatingText') {
-      return `<div class="tei-floating-text">${innerHtml}</div>`;
+      return `<blockquote class="tei-letter">${innerHtml}</blockquote>`;
     }
+    if (tag === 'opener') return `<div class="tei-opener">${innerHtml}</div>`;
+    if (tag === 'closer') return `<div class="tei-closer">${innerHtml}</div>`;
+    if (tag === 'salute') return `<div class="tei-salute">${innerHtml}</div>`;
+    if (tag === 'signed') return `<div class="tei-signed">${innerHtml}</div>`;
+    if (tag === 'dateline') return `<div class="tei-dateline">${innerHtml}</div>`;
     if (tag === 'body') {
       return innerHtml;
     }

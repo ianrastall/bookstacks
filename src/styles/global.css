@@ -260,6 +260,19 @@ textarea:focus-visible {
   background: var(--panel);
 }
 
+.author-card {
+  max-width: 33%;
+}
+
+.author-portrait {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
 .tool-card:hover,
 .tool-card:focus-within {
   border-color: var(--accent);
@@ -534,6 +547,10 @@ textarea {
 
 .toc-tree {
     max-width: 52rem;
+    background: var(--panel-muted);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
 }
 
 .toc-section {
@@ -796,6 +813,32 @@ a.btn {
 
 .chapter-breadcrumbs a:hover {
     color: var(--accent);
+}
+
+/* TEI Correspondence Styles */
+.tei-letter {
+    margin: 2rem 0;
+    padding: 1.5rem 2rem;
+    border-left: 4px solid var(--accent);
+    background: var(--panel-muted);
+    border-radius: 8px;
+}
+.tei-letter p {
+    text-indent: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+.tei-letter p:first-of-type {
+    text-indent: 0;
+}
+.tei-opener, .tei-salute {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.tei-closer, .tei-signed, .tei-dateline {
+    text-align: right;
+    margin-top: 1.5rem;
+    font-style: italic;
 }
 
 .chapter-breadcrumbs-inline {
