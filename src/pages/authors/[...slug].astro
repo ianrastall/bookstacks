@@ -84,93 +84,13 @@ if (layout === 'author_index') {
   }
 }
 
-// Build Hierarchical TOC
-//
-// TocTree.astro expects labels to be plain string arrays. Do not pass Set
-// objects across the component boundary; Astro's type checker rejects that.
-interface TreeNode {
-  labels: string[];
-  children: TreeNode[];
-  chapter: any | null;
-}
-
-function addLabel(node: TreeNode, label: string | undefined) {
-  const normalized = label?.trim();
-  if (normalized && !node.labels.includes(normalized)) {
-    node.labels.push(normalized);
-  }
-}
-
-function hasLabel(node: TreeNode, label: string | undefined) {
-  const normalized = label?.trim();
-  return Boolean(normalized && node.labels.includes(normalized));
-}
-
-const tocRoots: TreeNode[] = [];
-let currentPath: TreeNode[] = [];
-
-for (const chapter of chapters) {
-  let maxParts: string[] = [];
-  let allVersionParts: string[][] = [];
-
-  if (chapter.data.versions && chapter.data.versions.length > 0) {
-    for (const v of chapter.data.versions) {
-      if (v.title) {
-        const pts = v.title.split(',').map((s: string) => s.trim()).filter(Boolean);
-        allVersionParts.push(pts);
-        if (pts.length > maxParts.length) maxParts = pts;
-      }
-    }
-  }
-
-  if (maxParts.length === 0 && chapter.data.title) maxParts = [chapter.data.title];
-  if (allVersionParts.length === 0 && chapter.data.title) allVersionParts = [[chapter.data.title]];
-
-  let commonDepth = 0;
-  for (let i = 0; i < Math.min(maxParts.length - 1, currentPath.length); i++) {
-    let matched = false;
-    for (const pts of allVersionParts) {
-      if (hasLabel(currentPath[i], pts[i])) {
-        matched = true;
-        break;
-      }
-    }
-    if (matched) {
-      commonDepth++;
-    } else {
-      break;
-    }
-  }
-
-  currentPath = currentPath.slice(0, commonDepth);
-
-  for (let i = commonDepth; i < maxParts.length - 1; i++) {
-    const newNode: TreeNode = { labels: [], children: [], chapter: null };
-    for (const pts of allVersionParts) {
-      addLabel(newNode, pts[i]);
-    }
-    if (currentPath.length > 0) {
-      currentPath[currentPath.length - 1].children.push(newNode);
-    } else {
-      tocRoots.push(newNode);
-    }
-    currentPath.push(newNode);
-  }
-
-  const leafNode: TreeNode = { labels: [], children: [], chapter };
-  for (const pts of allVersionParts) {
-    addLabel(leafNode, pts[pts.length - 1]);
-  }
-  if (leafNode.labels.length === 0 && chapter.data.title) {
-    addLabel(leafNode, chapter.data.title);
-  }
-
-  if (currentPath.length > 0) {
-    currentPath[currentPath.length - 1].children.push(leafNode);
-  } else {
-    tocRoots.push(leafNode);
-  }
-}
+const tocRoots = Array.isArray(entry.data.tocTree)
+  ? entry.data.tocTree
+  : chapters.map((chapter) => ({
+      labels: [chapter.data.title || chapter.id],
+      children: [],
+      chapter: { id: chapter.id }
+    }));
 ---
 
 <BaseLayout title={entry.data.title || 'Bookstacks'}>
