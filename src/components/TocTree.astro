@@ -1,31 +1,56 @@
 ---
 import { relativeUrl } from '../utils/relativeUrl';
 
+interface TocNode {
+  labels?: string[];
+  labelByLang?: Record<string, string>;
+  chapter?: {
+    id?: string;
+    href?: string;
+  };
+  children?: TocNode[];
+}
+
 interface Props {
-  nodes: any[];
+  nodes: TocNode[];
 }
 
 const { nodes } = Astro.props;
+
+function displayTitle(node: TocNode): string {
+  return Array.from(node.labels || [])
+    .filter(Boolean)
+    .join(' • ');
+}
+
+function chapterHref(node: TocNode): string | null {
+  if (!node.chapter) return null;
+  if (node.chapter.href) return node.chapter.href;
+  if (node.chapter.id) return relativeUrl(`authors/${node.chapter.id}`);
+  return null;
+}
 ---
 <ol class="toc-list">
-  {nodes.map(node => {
-    // 1. Array.from ensures we have a standard array.
-    // 2. .filter(Boolean) removes any empty strings, null, or undefined values.
-    // 3. .join(' • ') applies the bullets only between the translations that actually exist.
-    const displayTitle = Array.from(node.labels || [])
-      .filter(Boolean)
-      .join(' • ');
+  {nodes.map((node) => {
+    const title = displayTitle(node);
+    const href = chapterHref(node);
 
     return (
       <li class="toc-item">
         {node.chapter ? (
-          <a class="toc-link" href={relativeUrl(`authors/${node.chapter.id}`)}>
-            <span class="toc-link-title">{displayTitle}</span>
-          </a>
+          href ? (
+            <a class="toc-link" href={href}>
+              <span class="toc-link-title">{title}</span>
+            </a>
+          ) : (
+            <span class="toc-link toc-link-disabled">
+              <span class="toc-link-title">{title}</span>
+            </span>
+          )
         ) : (
-          <div class="toc-section-title">{displayTitle}</div>
+          <div class="toc-section-title">{title}</div>
         )}
-        
+
         {node.children && node.children.length > 0 && (
           <Astro.self nodes={node.children} />
         )}
