@@ -14,12 +14,16 @@ const LANG_NAMES: Record<string, string> = {
 export function parseTeiBook(filePath: string) {
   try {
     const xml = fs.readFileSync(path.resolve(filePath), 'utf-8');
+    
+    // Updated DOMParser configuration using the new onError callback
     const doc = new DOMParser({
-      errorHandler: {
-        warning: (msg) => console.warn(`XML Warning in ${filePath}: ${msg}`),
-        error: (msg) => console.error(`XML Error in ${filePath}: ${msg}`),
-        fatalError: (msg) => {
+      onError: (level, msg) => {
+        if (level === 'warn' || level === 'warning') {
+          console.warn(`XML Warning in ${filePath}: ${msg}`);
+        } else if (level === 'fatalError') {
           throw new Error(`Fatal XML parsing error in ${filePath}: ${msg}`);
+        } else {
+          console.error(`XML Error in ${filePath}: ${msg}`);
         }
       }
     }).parseFromString(xml, 'text/xml');
