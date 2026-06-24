@@ -13,21 +13,24 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment; let in-progress runs finish.
+# Allow only the latest Pages deployment to proceed.
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - name: Build Astro site
-        uses: withastro/action@v3
-        # Builds with `npm run build` and uploads ./dist as the Pages artifact.
-      - name: Verify build artifact
+        uses: actions/checkout@v6
+
+      - name: Build and upload Astro site
+        uses: withastro/action@v6
+        with:
+          node-version: 24
+
+      - name: Verify build output
         run: ls -la dist/
 
   deploy:
@@ -40,5 +43,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          timeout: 600000
