@@ -155,7 +155,8 @@ export function parseTeiBook(filePath: string, options: ParseTeiBookOptions = {}
     const places = mergeRegistries(parsedBooks.map((book) => book.places));
     const preferredLang = options.preferredLang || primaryBook.lang || primaryLang || 'ru';
     const chapters = mergeLanguageChapters(parsedBooks, preferredLang);
-    const tocTree = buildTocTree(chapters);
+    const isWarAndPeace = path.basename(absolutePath).startsWith('2600');
+    const tocTree = buildTocTree(chapters, isWarAndPeace);
 
     return { title, author, persons, places, chapters, tocTree };
   } catch (error) {
@@ -219,7 +220,8 @@ function parseSingleLanguageBook(doc: any, filePath: string, fallbackLang: TocLa
   const author = authorNode?.textContent?.trim() || 'Unknown Author';
   const persons = parsePersonRegistry(doc);
   const places = parsePlaceRegistry(doc);
-  const chapters = parseChapters(doc, persons, places, lang);
+  const isWarAndPeace = path.basename(filePath).startsWith('2600');
+  const chapters = parseChapters(doc, persons, places, lang, isWarAndPeace);
 
   return { filePath: path.resolve(filePath), lang, title, author, persons, places, chapters };
 }
@@ -325,7 +327,7 @@ function mergeRegistries(registries: Array<Record<string, any>>): Record<string,
   return merged;
 }
 
-function parseChapters(doc: any, persons: Record<string, any>, places: Record<string, any>, sourceLang: TocLang): Chapter[] {
+function parseChapters(doc: any, persons: Record<string, any>, places: Record<string, any>, sourceLang: TocLang, isWarAndPeace: boolean): Chapter[] {
   const divNodes = doc.getElementsByTagName('div');
   const byN = new Map<string, Chapter>();
 
@@ -333,7 +335,7 @@ function parseChapters(doc: any, persons: Record<string, any>, places: Record<st
     const div = divNodes[i];
     if (div.getAttribute('type') !== 'chapter') continue;
 
-    const parsed = parseChapter(div, persons, places, sourceLang, i + 1);
+    const parsed = parseChapter(div, persons, places, sourceLang, i + 1, isWarAndPeace);
     if (!parsed.n) continue;
 
     const existing = byN.get(parsed.n);
@@ -344,10 +346,10 @@ function parseChapters(doc: any, persons: Record<string, any>, places: Record<st
   return Array.from(byN.values()).sort(compareChaptersForReadingOrder);
 }
 
-function parseChapter(div: any, persons: Record<string, any>, places: Record<string, any>, sourceLang: TocLang, fallbackIndex: number): Chapter {
+function parseChapter(div: any, persons: Record<string, any>, places: Record<string, any>, sourceLang: TocLang, fallbackIndex: number, isWarAndPeace: boolean): Chapter {
   const n = div.getAttribute('n') || String(fallbackIndex);
   const globalNumber = Number.parseInt(n, 10);
-  const toc = Number.isFinite(globalNumber) ? locationFromSequentialIndex(globalNumber) : null;
+  const toc = (isWarAndPeace && Number.isFinite(globalNumber)) ? locationFromSequentialIndex(globalNumber) : null;
   const versionNodes = directChildElements(div).filter((c: any) => {
     return c.nodeName === 'div' && c.getAttribute('type') === 'version';
   });
@@ -464,7 +466,25 @@ function choosePreferredVersion(versions: Version[], preferredLang: TocLang): Ve
     || versions[0];
 }
 
-export function buildTocTree(chapters: Chapter[]): TocNode[] {
+export function buildTocTree(chapters: Chapter[], isWarAndPeace: boolean = false): TocNode[] {
+  if (!isWarAndPeace) {
+    return chapters.map((chapter) => {
+      const langs = availableTocLangs(chapter);
+      const labelByLang: Partial<Record<TocLang, string>> = {};
+      for (const lang of langs) {
+        const version = chapter.versions.find((v) => v.lang === lang);
+        if (version && version.title) labelByLang[lang] = version.title;
+      }
+      return {
+        key: `chapter-${chapter.n}`,
+        labels: langs.map((lang) => labelByLang[lang] || chapter.title),
+        labelByLang,
+        children: [],
+        chapter
+      };
+    });
+  }
+
   const volumeNodes = new Map<string, TocNode>();
   const partNodes = new Map<string, TocNode>();
   const tocNodes: TocNode[] = [];
