@@ -4,10 +4,9 @@
 
 - An [Astro](https://astro.build) static site for public domain texts at
   bookstacks.org.
-- **TEI XML files** live in `tei-source/`. Most books are a single
-  `<gutenberg-id>-full.xml` file. For parallel-text works, the source is split by
-  language (e.g., `2600-ru.xml`, `2600-en.xml`, `2600-es.xml`) and the parser
-  auto-discovers and merges them dynamically.
+- **TEI XML files** live in `tei-source/`. Each book uses one XML file per language (e.g.,
+  `1342-en.xml`, `2600-ru.xml`, `2600-en.xml`), and the parser auto-discovers
+  and merges them dynamically.
 - A single content collection (`src/content.config.ts`) parses every
   `tei-source/*.xml` with a custom loader and emits the author / book / chapter
   entries the pages consume. There is no Markdown content tree and no per-book
@@ -62,7 +61,7 @@
 ## Adding Or Converting A Book
 
 1. Identify the author and title; reuse the existing author slug if present.
-2. Create `tei-source/<gutenberg-id>-full.xml` (or split by language for parallel texts).
+2. Create `tei-source/<gutenberg-id>-<lang>.xml` (one per language).
 3. Write the `teiHeader` with the registries, then the `text/body` chapter divs
    using the conventions above.
 4. Strip Project Gutenberg boilerplate, license text, generated contents, and
