@@ -292,6 +292,10 @@ textarea:focus-visible {
   display: block;
 }
 
+[data-theme='dark'] .author-portrait {
+  filter: invert(1);
+}
+
 .author-card-icon {
   font-size: 4rem;
   color: var(--accent);
