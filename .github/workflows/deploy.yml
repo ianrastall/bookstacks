@@ -27,6 +27,8 @@ jobs:
       - name: Build Astro site
         uses: withastro/action@v3
         # Builds with `npm run build` and uploads ./dist as the Pages artifact.
+      - name: Verify build artifact
+        run: ls -la dist/
 
   deploy:
     needs: build
@@ -38,3 +40,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
