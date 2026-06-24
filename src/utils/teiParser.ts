@@ -12,7 +12,7 @@ const LANG_NAMES: Record<string, string> = {
   es: 'Spanish'
 };
 
-const TOC_LANG_ORDER = ['en', 'es', 'ru'] as const;
+const TOC_LANG_ORDER = ['en', 'es', 'fr', 'pt', 'ru', 'de'] as const;
 type TocLang = typeof TOC_LANG_ORDER[number];
 
 type Version = {
@@ -251,7 +251,7 @@ function collectLanguageFilePaths(absolutePath: string, primaryLang: TocLang | n
 function discoverSiblingXmlLanguageFiles(absolutePath: string): LanguageFileMap {
   const dir = path.dirname(absolutePath);
   const base = path.basename(absolutePath);
-  const match = base.match(/^(.*?)(?:[-_.](en|es|ru))?\.xml$/i);
+  const match = base.match(/^(.*?)(?:[-_.](en|es|fr|pt|ru|de|it|la))?\.xml$/i);
   const prefix = match?.[1] || base.replace(/\.xml$/i, '');
   const result: LanguageFileMap = {};
 
@@ -671,7 +671,7 @@ function isTocLang(lang: string): lang is TocLang {
 
 function detectLangFromFileName(filePath: string): TocLang | null {
   const base = path.basename(filePath).toLowerCase();
-  const match = base.match(/(?:^|[-_.])(en|es|ru)(?:[-_.]|$)/);
+  const match = base.match(/(?:^|[-_.])(en|es|fr|pt|ru|de|it|la)(?:[-_.]|$)/);
   return match && isTocLang(match[1]) ? match[1] : null;
 }
 

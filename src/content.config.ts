@@ -21,18 +21,21 @@ function getCanonicalTeiFiles(files: string[]) {
       return !hasFile(filesLower, `${prefix}${separator}ru.xml`);
     }
 
-    const langMatch = file.match(/^(.*?)([-_.])(en|es|ru)\.xml$/i);
+    const langMatch = file.match(/^(.*?)([-_.])(en|es|fr|pt|ru|de|it|la)\.xml$/i);
     if (!langMatch) return true;
 
     const [, prefix, separator, lang] = langMatch;
     const normalizedLang = lang.toLowerCase();
 
-    // Russian is the complete base text for this project. The parser will
-    // auto-discover sibling 2600-en.xml and 2600-es.xml, so parsing those
-    // separately would duplicate and pollute chapter version metadata.
-    if (normalizedLang === 'ru') return true;
+    // Dynamically determine the base text by checking for the most canonical language file
+    const possibleBases = ['ru', 'de', 'fr', 'en', 'es', 'pt', 'it', 'la'];
+    for (const base of possibleBases) {
+      if (hasFile(filesLower, `${prefix}${separator}${base}.xml`)) {
+        return normalizedLang === base;
+      }
+    }
 
-    return !hasFile(filesLower, `${prefix}${separator}ru.xml`);
+    return true;
   });
 }
 
