@@ -412,3 +412,10 @@ archive/
 *-rus.txt
 *-eng.txt
 *-raw.html
+
+# Local author-portrait staging — canonical copies live in public/img/authors/
+/*.png
+
+# Ad-hoc / local helper scripts (not part of the build)
+/thing.ps1
+/wire-author-portraits.ps1
