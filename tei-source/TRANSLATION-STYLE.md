@@ -57,17 +57,33 @@ authority** for how every name is spelled, including stress accents
 
 ## 4. Dialogue
 
-Use **em-dash Continental style**, mirroring the Russian original — an em-dash
-opens a line of speech; attributions follow after an em-dash:
+Dialogue punctuation differs by language — use the standard native to each:
+
+**Russian (`xml:lang="ru"`)** — em-dash Continental style. An em-dash opens
+speech; a second em-dash separates the attribution; a third resumes speech:
 
 ```
-— What would you have me do? — he said at last. — You know, I did all a father can…
+— Что вам угодно? — спросил он наконец. — Вы знаете, я сделал всё…
 ```
 
-Do **not** wrap dialogue in English quotation marks. (The parser only adds
-quotation marks to `<said>` whose text doesn't already begin with a dash or
-quote, so plain em-dash paragraphs render as-is.) Plain `<p>` is fine; `<said>`
-is optional and currently not used in the W&P version panels.
+**Spanish (`xml:lang="es"`)** — also em-dash style (this is the standard in
+Spain and Latin America):
+
+```
+— ¿Qué quería usted? — preguntó por fin. — Ya sabe que hice todo lo que pude…
+```
+
+**English (`xml:lang="en"`)** — American double-quote style. Opening speech
+gets a straight `"`, the attribution follows with a comma inside the closing
+`"`, and resumed speech opens a new `"`:
+
+```
+"What would you have me do?" he said at last. "You know, I did all a father can…"
+```
+
+Use **straight** double quotes `"..."`, not curly/smart quotes `"..."`.
+Curly quotes indicate unreviewed automated output and are treated as a quality
+flag. Plain `<p>` is fine; `<said>` is optional and not currently used.
 
 ## 5. French in the original (this is the special case)
 

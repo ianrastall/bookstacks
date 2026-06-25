@@ -18,16 +18,18 @@ def get_chapter_stats(root):
         if not chap_n:
             continue
         
-        foreign_tags = chapter.findall('.//tei:foreign[@xml:lang="fr"]', NS)
-        foreign_tags += chapter.findall('.//tei:foreign[@{http://www.w3.org/XML/1998/namespace}lang="fr"]', NS)
-        
-        text_content = "".join(chapter.itertext())
-        has_quotes = '"' in text_content or '“' in text_content or '”' in text_content
+        foreign_tags = chapter.findall('.//tei:foreign[@xml:lang=”fr”]', NS)
+        foreign_tags += chapter.findall('.//tei:foreign[@{http://www.w3.org/XML/1998/namespace}lang=”fr”]', NS)
+
+        text_content = “”.join(chapter.itertext())
+        has_curly_quotes = '”' in text_content or '”' in text_content
+        has_straight_quotes = '”' in text_content
         p_count = len(chapter.findall('.//tei:p', NS))
-        
+
         stats[chap_n] = {
             'foreign_fr_count': len(foreign_tags),
-            'has_quotes': has_quotes,
+            'has_curly_quotes': has_curly_quotes,
+            'has_straight_quotes': has_straight_quotes,
             'p_count': p_count
         }
     return stats
@@ -51,19 +53,24 @@ def main():
         body = root.find('.//tei:body', NS)
         chapters = list(body.findall('tei:div[@type="chapter"]', NS))
         
+        lang = os.path.basename(lang_file).rsplit('_', 1)[-1].replace('.xml', '')
         removed_count = 0
         for chapter in chapters:
             chap_n = chapter.get('n')
             if chap_n not in ru_stats:
                 continue
-                
+
             ru_data = ru_stats[chap_n]
             data = stats[chap_n]
-            
+
             is_shoddy = False
             if ru_data['foreign_fr_count'] > 0 and data['foreign_fr_count'] < ru_data['foreign_fr_count']:
                 is_shoddy = True
-            if data['has_quotes']:
+            # Curly quotes are a quality flag for all languages
+            if data['has_curly_quotes']:
+                is_shoddy = True
+            # Straight double quotes are wrong for ES dialogue (should be em-dash)
+            if lang == 'es' and data['has_straight_quotes']:
                 is_shoddy = True
             if abs(ru_data['p_count'] - data['p_count']) > max(2, ru_data['p_count'] * 0.1):
                 is_shoddy = True
