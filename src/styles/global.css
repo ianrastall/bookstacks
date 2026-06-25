@@ -277,9 +277,10 @@ textarea:focus-visible {
   align-items: center;
   justify-content: center;
   aspect-ratio: 1 / 1;
-  /* Transparent ink-only portraits sit on the card surface. Black source
-     linework remains black in light mode and is inverted to white in dark mode. */
-  background: var(--panel-muted);
+  /* Transparent black-line portraits sit on the same light coral ground in
+     both themes. Do not invert the portrait in dark mode; the image itself
+     stays the normal black-on-transparent asset. */
+  background: var(--author-portrait-bg, #f4b3ad);
   border-bottom: 1px solid var(--border);
   overflow: hidden;
 }
@@ -289,10 +290,7 @@ textarea:focus-visible {
   height: 100%;
   object-fit: contain;
   display: block;
-}
-
-[data-theme='dark'] .author-portrait {
-  filter: invert(1);
+  filter: none;
 }
 
 .author-card-icon {
@@ -314,7 +312,7 @@ textarea:focus-visible {
   width: 180px;
   aspect-ratio: 1 / 1;
   margin: 0 0 1.5rem;
-  background: var(--panel-muted);
+  background: var(--author-portrait-bg, #f4b3ad);
   border: 1px solid var(--border);
   border-radius: 8px;
   overflow: hidden;
