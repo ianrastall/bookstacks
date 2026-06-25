@@ -9,15 +9,17 @@ const LANG_NAMES: Record<string, string> = {
   it: 'Italian',
   la: 'Latin',
   en: 'English',
-  es: 'Spanish'
+  es: 'Spanish',
+  pt: 'Portuguese'
 };
 
-const TOC_LANG_ORDER = ['en', 'es', 'fr', 'pt', 'ru', 'de'] as const;
+const TOC_LANG_ORDER = ['en', 'es', 'fr', 'pt', 'it', 'la', 'ru', 'de'] as const;
 type TocLang = typeof TOC_LANG_ORDER[number];
 
 type Version = {
   id: string;
   lang: string;
+  subtype?: string;
   html: string;
   title: string;
 };
@@ -364,6 +366,8 @@ function parseChapter(div: any, persons: Record<string, any>, places: Record<str
   if (versionNodes.length > 0) {
     for (const v of versionNodes) {
       const lang = normalizedVersionLang(v, sourceLang);
+      const subtype = normalizedVersionSubtype(v);
+      const id = uniqueVersionId(versionBaseId(v, lang, subtype, versions.length), versions);
       const vhead = directChildText(v, 'head') || titleForLang(lang, toc, title);
       let vhtml = '';
 
@@ -376,8 +380,9 @@ function parseChapter(div: any, persons: Record<string, any>, places: Record<str
       }
 
       versions.push({
-        id: v.getAttribute('subtype') || lang || `v${versions.length + 1}`,
+        id,
         lang,
+        subtype: subtype || undefined,
         html: vhtml.trim(),
         title: vhead
       });
@@ -447,17 +452,17 @@ function mergeLanguageChapters(parsedBooks: ParsedBook[], preferredLang: TocLang
 }
 
 function mergeVersions(...versionLists: Version[][]): Version[] {
-  const versionByLang = new Map<string, Version>();
+  const versionByKey = new Map<string, Version>();
 
   for (const version of versionLists.flat()) {
-    const key = version.lang || version.id;
-    const existing = versionByLang.get(key);
+    const key = version.id || version.lang;
+    const existing = versionByKey.get(key);
     if (!existing || scoreVersion(version) > scoreVersion(existing)) {
-      versionByLang.set(key, version);
+      versionByKey.set(key, version);
     }
   }
 
-  return sortVersions(Array.from(versionByLang.values()));
+  return sortVersions(Array.from(versionByKey.values()));
 }
 
 function choosePreferredVersion(versions: Version[], preferredLang: TocLang): Version | undefined {
@@ -656,7 +661,8 @@ function sortVersions(versions: Version[]): Version[] {
     const bIndex = TOC_LANG_ORDER.indexOf(b.lang as TocLang);
     const normalizedA = aIndex === -1 ? Number.MAX_SAFE_INTEGER : aIndex;
     const normalizedB = bIndex === -1 ? Number.MAX_SAFE_INTEGER : bIndex;
-    return normalizedA - normalizedB;
+    if (normalizedA !== normalizedB) return normalizedA - normalizedB;
+    return (a.id || '').localeCompare(b.id || '');
   });
 }
 
@@ -678,6 +684,38 @@ function detectLangFromFileName(filePath: string): TocLang | null {
 function normalizedVersionLang(node: any, sourceLang: TocLang): string {
   const lang = node.getAttribute('xml:lang') || node.getAttribute('lang') || sourceLang;
   return lang || sourceLang;
+}
+
+function normalizedVersionSubtype(node: any): string {
+  return (node.getAttribute('subtype') || '').trim();
+}
+
+function versionBaseId(node: any, lang: string, subtype: string, fallbackIndex: number): string {
+  const explicit = (node.getAttribute('xml:id') || node.getAttribute('id') || '').trim();
+  if (explicit) return slugify(explicit) || explicit;
+
+  const safeLang = slugify(lang || 'version');
+  const safeSubtype = slugify(subtype || '');
+
+  if (safeLang && safeSubtype) return `${safeLang}-${safeSubtype}`;
+  if (safeLang) return safeLang;
+  return `version-${fallbackIndex + 1}`;
+}
+
+function uniqueVersionId(baseId: string, existingVersions: Version[]): string {
+  const fallback = `version-${existingVersions.length + 1}`;
+  const base = baseId || fallback;
+  const taken = new Set(existingVersions.map((version) => version.id));
+
+  if (!taken.has(base)) return base;
+
+  let counter = 2;
+  let candidate = `${base}-${counter}`;
+  while (taken.has(candidate)) {
+    counter += 1;
+    candidate = `${base}-${counter}`;
+  }
+  return candidate;
 }
 
 function directChildElements(node: any): any[] {
