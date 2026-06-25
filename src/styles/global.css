@@ -277,9 +277,8 @@ textarea:focus-visible {
   align-items: center;
   justify-content: center;
   aspect-ratio: 1 / 1;
-  /* The portrait is a self-contained duotone tile (colored ground + dark ink),
-     so it reads correctly in both themes. This background shows only behind the
-     fallback icon for authors without a portrait. */
+  /* Transparent ink-only portraits sit on the card surface. Black source
+     linework remains black in light mode and is inverted to white in dark mode. */
   background: var(--panel-muted);
   border-bottom: 1px solid var(--border);
   overflow: hidden;
@@ -288,7 +287,7 @@ textarea:focus-visible {
 .author-portrait {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 

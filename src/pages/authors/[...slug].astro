@@ -51,8 +51,10 @@ const versions: any[] = Array.isArray(entry.data.versions) ? entry.data.versions
 let versionDefault = versions.findIndex((v: any) => v.id === 'translation' || v.lang === 'en');
 if (versionDefault < 0) versionDefault = 0;
 
-// An author has a portrait if public/img/authors/<slug>.png exists.
-const authorSlugForPortrait = entry.id.replace('/index', '');
+// An author has a portrait if public/img/authors/<author-slug>.png exists.
+// Use the first URL segment so author portraits resolve correctly from author,
+// book-index, and chapter entries alike.
+const authorSlugForPortrait = entry.id.split('/')[0];
 const portrait = fs.existsSync(`public/img/authors/${authorSlugForPortrait}.png`)
   ? relativeUrl(`img/authors/${authorSlugForPortrait}.png`)
   : null;
