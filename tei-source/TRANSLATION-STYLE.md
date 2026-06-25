@@ -2,11 +2,11 @@
 
 This is the single source of truth for producing **parallel-text** chapters (an
 original-language text facing one or more translations). It was written for
-*War and Peace* (which uses split language files like `2600-ru.xml`, `2600-en.xml`)
+*War and Peace* (which uses split language files like `tolstoy-leo_war-and-peace_ru.xml`, `tolstoy-leo_war-and-peace_en.xml`)
 but applies to any multi-version book.
 
 Read this before translating or encoding any chapter, and keep choices
-consistent with **Chapter I of the `2600-*.xml` files, which are the reference chapters** —
+consistent with **Chapter I of the `tolstoy-leo_war-and-peace_*.xml` files, which are the reference chapters** —
 when in doubt, open them and copy their patterns.
 
 ---

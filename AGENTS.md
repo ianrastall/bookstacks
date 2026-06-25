@@ -4,9 +4,11 @@
 
 - An [Astro](https://astro.build) static site for public domain texts at
   bookstacks.org.
-- **TEI XML files** live in `tei-source/`. Each book uses one XML file per language (e.g.,
-  `1342-en.xml`, `2600-ru.xml`, `2600-en.xml`), and the parser auto-discovers
-  and merges them dynamically.
+- **TEI XML files** live in `tei-source/`, named `<author-slug>_<title-slug>_<lang>.xml`
+  (e.g., `austen-jane_pride-and-prejudice_en.xml`, `tolstoy-leo_war-and-peace_ru.xml`,
+  `tolstoy-leo_war-and-peace_en.xml`). Each book uses one XML file per language; the
+  parser auto-discovers and merges files sharing the same `<author-slug>_<title-slug>`
+  prefix dynamically.
 - A single content collection (`src/content.config.ts`) parses every
   `tei-source/*.xml` with a custom loader and emits the author / book / chapter
   entries the pages consume. There is no Markdown content tree and no per-book
@@ -17,7 +19,7 @@
 
 ## Source Layout
 
-- `tei-source/<id>-*.xml` — the TEI book files.
+- `tei-source/<author-slug>_<title-slug>_<lang>.xml` — the TEI book files.
 - `src/utils/teiParser.ts` — `parseTeiBook(file)` returns
   `{ title, author, persons, places, chapters }`. `chapters` is built from
   `<div type="chapter">` elements; `convertNodeToHtml` maps the TEI body to
@@ -61,7 +63,8 @@
 ## Adding Or Converting A Book
 
 1. Identify the author and title; reuse the existing author slug if present.
-2. Create `tei-source/<gutenberg-id>-<lang>.xml` (one per language).
+2. Create `tei-source/<author-slug>_<title-slug>_<lang>.xml` (one per language; all
+   language files for a book share the same `<author-slug>_<title-slug>` prefix).
 3. Write the `teiHeader` with the registries, then the `text/body` chapter divs
    using the conventions above.
 4. Strip Project Gutenberg boilerplate, license text, generated contents, and
@@ -81,7 +84,8 @@ blocks (`subtype="original"` / `"translation"`); the reader defaults to the
 English/translation version and loops a tab over every version. The parser also
 handles `<note>` (inline `[bracket]` gloss), `<seg type="origfr">` (flag for
 text that was French in the original), and `<foreign xml:lang>` (dotted-underline
-+ language tooltip). **Chapter I of the `2600-*.xml` files is the reference chapter.**
++ language tooltip). **Chapter I of the `tolstoy-leo_war-and-peace_*.xml` files is the
+reference chapter.**
 
 ### Translation pipeline (War and Peace)
 
@@ -96,8 +100,9 @@ python tools/tei_from_libru.py --in tolstoy-wp-rus.html \
 The converter emits `<div type="chapter">` blocks (Russian-original version only,
 with Tolstoy's footnotes inlined as `<note>` brackets), numbered globally from
 `--start`; `--skip` omits already-hand-crafted leading chapters. Splice the
-output into `2600-ru.xml` before `</body>`, then create the English versions in
-`2600-en.xml` per the style guide. The bulk pass does **not** wrap French in
+output into `tolstoy-leo_war-and-peace_ru.xml` before `</body>`, then create the English
+versions in `tolstoy-leo_war-and-peace_en.xml` per the style guide. The bulk pass does
+**not** wrap French in
 `<foreign>`; add that (and the `<seg type="origfr">` flags in English) per chapter
 during translation.
 

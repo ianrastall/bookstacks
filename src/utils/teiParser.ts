@@ -66,7 +66,8 @@ type LanguageFileMap = Partial<Record<TocLang, string>>;
 type ParseTeiBookOptions = {
   /**
    * Optional explicit language-file map. Use this when the files are not named
-   * like 2600-ru.xml, 2600-en.xml, and 2600-es.xml in the same directory.
+   * like tolstoy-leo_war-and-peace_ru.xml, tolstoy-leo_war-and-peace_en.xml,
+   * and tolstoy-leo_war-and-peace_es.xml in the same directory.
    */
   languageFilePaths?: LanguageFileMap;
 
@@ -82,6 +83,15 @@ type ParseTeiBookOptions = {
    */
   preferredLang?: TocLang;
 };
+
+// War and Peace gets a bespoke volume/part/chapter table of contents. Its source
+// files are named tolstoy-leo_war-and-peace_<lang>.xml, so detect the work by that
+// filename prefix.
+const WAR_AND_PEACE_FILE_PREFIX = 'tolstoy-leo_war-and-peace';
+
+function isWarAndPeaceFile(filePath: string): boolean {
+  return path.basename(filePath).startsWith(WAR_AND_PEACE_FILE_PREFIX);
+}
 
 const EN_PART_WORDS = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five'];
 const ES_PART_WORDS = ['Cero', 'Primera', 'Segunda', 'Tercera', 'Cuarta', 'Quinta'];
@@ -127,8 +137,8 @@ const WAR_AND_PEACE_SECTIONS: TocSection[] = (() => {
 
 /**
  * Parse one canonical TEI language file, automatically merging sibling
- * 2600-*.xml files when present. The three XML files are the source of truth;
- * .shtml files are intentionally ignored here.
+ * language files when present (e.g. tolstoy-leo_war-and-peace_*.xml). The XML
+ * files are the source of truth; .shtml files are intentionally ignored here.
  */
 export function parseTeiBook(filePath: string, options: ParseTeiBookOptions = {}) {
   try {
@@ -157,7 +167,7 @@ export function parseTeiBook(filePath: string, options: ParseTeiBookOptions = {}
     const places = mergeRegistries(parsedBooks.map((book) => book.places));
     const preferredLang = options.preferredLang || primaryBook.lang || primaryLang || 'ru';
     const chapters = mergeLanguageChapters(parsedBooks, preferredLang);
-    const isWarAndPeace = path.basename(absolutePath).startsWith('2600');
+    const isWarAndPeace = isWarAndPeaceFile(absolutePath);
     const tocTree = buildTocTree(chapters, isWarAndPeace);
 
     return { title, author, persons, places, chapters, tocTree };
@@ -222,7 +232,7 @@ function parseSingleLanguageBook(doc: any, filePath: string, fallbackLang: TocLa
   const author = authorNode?.textContent?.trim() || 'Unknown Author';
   const persons = parsePersonRegistry(doc);
   const places = parsePlaceRegistry(doc);
-  const isWarAndPeace = path.basename(filePath).startsWith('2600');
+  const isWarAndPeace = isWarAndPeaceFile(filePath);
   const chapters = parseChapters(doc, persons, places, lang, isWarAndPeace);
 
   return { filePath: path.resolve(filePath), lang, title, author, persons, places, chapters };

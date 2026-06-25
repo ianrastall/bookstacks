@@ -3,7 +3,7 @@ import re
 
 def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    ru_file = os.path.join(repo_root, 'tei-source', '2600-ru.xml')
+    ru_file = os.path.join(repo_root, 'tei-source', 'tolstoy-leo_war-and-peace_ru.xml')
     
     with open(ru_file, 'r', encoding='utf-8') as f:
         content = f.read()

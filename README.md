@@ -10,7 +10,7 @@ individual chapter reading pages.
 
 ## Project Structure
 
-- `tei-source/<gutenberg-id>-<lang>.xml`: the TEI source for a book (one per language, e.g. `1342-en.xml`). For parallel-text works, the source is split by language (e.g., `2600-ru.xml`, `2600-en.xml`); the parser will auto-discover and merge them at build time.
+- `tei-source/<author-slug>_<title-slug>_<lang>.xml`: the TEI source for a book (one per language, e.g. `austen-jane_pride-and-prejudice_en.xml`). For parallel-text works, the source is split by language (e.g., `tolstoy-leo_war-and-peace_ru.xml`, `tolstoy-leo_war-and-peace_en.xml`); the parser will auto-discover and merge files that share the same `<author-slug>_<title-slug>` prefix at build time.
 - `src/utils/teiParser.ts`: parses a TEI file into `{ title, author, persons,
   places, chapters }` and converts each chapter's TEI body to reading HTML.
 - `src/content.config.ts`: defines the `authors` content collection. A custom
@@ -33,10 +33,12 @@ individual chapter reading pages.
 
 ## Content Model
 
-Most books are stored as TEI documents under `tei-source/`, named by their Project
-Gutenberg ebook id and language (e.g. `1342-en.xml` for *Pride and Prejudice*). Books with
-multiple parallel translations are split into multiple language-specific files (e.g.
-`2600-ru.xml`, `2600-en.xml`, `2600-es.xml` for *War and Peace*). A document has:
+Most books are stored as TEI documents under `tei-source/`, named by their author
+slug, title slug, and language (e.g. `austen-jane_pride-and-prejudice_en.xml` for *Pride
+and Prejudice*). Books with multiple parallel translations are split into multiple
+language-specific files that share the same `<author-slug>_<title-slug>` prefix (e.g.
+`tolstoy-leo_war-and-peace_ru.xml`, `tolstoy-leo_war-and-peace_en.xml`,
+`tolstoy-leo_war-and-peace_es.xml` for *War and Peace*). A document has:
 
 - A `teiHeader` with the `title`, `author` (`<persName>`), source credit
   (`<sourceDesc>`), and the registries: `<particDesc><listPerson>` for characters
@@ -66,7 +68,8 @@ presentational markup. The parser understands:
 
 ## Adding A Book
 
-1. Create `tei-source/<gutenberg-id>-<lang>.xml` (one per language).
+1. Create `tei-source/<author-slug>_<title-slug>_<lang>.xml` (one per language; all
+   language files for a book share the same `<author-slug>_<title-slug>` prefix).
 2. Write the `teiHeader` (title, author, source credit, and the person/place
    registries).
 3. Add `<div type="chapter" n="N">` blocks under `<text><body>`, each with a

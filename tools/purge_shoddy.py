@@ -34,9 +34,9 @@ def get_chapter_stats(root):
 
 def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    ru_file = os.path.join(repo_root, 'tei-source', '2600-ru.xml')
-    en_file = os.path.join(repo_root, 'tei-source', '2600-en.xml')
-    es_file = os.path.join(repo_root, 'tei-source', '2600-es.xml')
+    ru_file = os.path.join(repo_root, 'tei-source', 'tolstoy-leo_war-and-peace_ru.xml')
+    en_file = os.path.join(repo_root, 'tei-source', 'tolstoy-leo_war-and-peace_en.xml')
+    es_file = os.path.join(repo_root, 'tei-source', 'tolstoy-leo_war-and-peace_es.xml')
     
     register_all_namespaces(ru_file)
     ru_tree = ET.parse(ru_file)

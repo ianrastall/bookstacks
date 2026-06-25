@@ -12,7 +12,7 @@ def register_all_namespaces():
 
 def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    es_file = os.path.join(repo_root, 'tei-source', '2600-es.xml')
+    es_file = os.path.join(repo_root, 'tei-source', 'tolstoy-leo_war-and-peace_es.xml')
     
     register_all_namespaces()
     tree = ET.parse(es_file)

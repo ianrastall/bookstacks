@@ -42,15 +42,15 @@ def get_chapter_stats(filepath):
 
 def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    ru_file = os.path.join(repo_root, 'tei-source', '2600-ru.xml')
-    en_file = os.path.join(repo_root, 'tei-source', '2600-en.xml')
-    es_file = os.path.join(repo_root, 'tei-source', '2600-es.xml')
+    ru_file = os.path.join(repo_root, 'tei-source', 'tolstoy-leo_war-and-peace_ru.xml')
+    en_file = os.path.join(repo_root, 'tei-source', 'tolstoy-leo_war-and-peace_en.xml')
+    es_file = os.path.join(repo_root, 'tei-source', 'tolstoy-leo_war-and-peace_es.xml')
     
     print("Loading Russian Original Stats...")
     ru_stats = get_chapter_stats(ru_file)
     
     for lang_file in [en_file, es_file]:
-        lang = os.path.basename(lang_file).replace('2600-', '').replace('.xml', '')
+        lang = os.path.basename(lang_file).rsplit('_', 1)[-1].replace('.xml', '')
         print(f"\n--- Auditing {lang.upper()} Translations ---")
         stats = get_chapter_stats(lang_file)
         
