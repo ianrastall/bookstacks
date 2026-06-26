@@ -21,9 +21,10 @@ def get_chapter_stats(filepath):
         if not chap_n:
             continue
 
-        foreign_tags = chapter.findall('.//tei:foreign[@xml:lang="fr"]', NS)
-        foreign_tags += chapter.findall(
-            './/tei:foreign[@{http://www.w3.org/XML/1998/namespace}lang="fr"]', NS)
+        foreign_tags = [
+            t for t in chapter.findall('.//tei:foreign', NS)
+            if t.get('{http://www.w3.org/XML/1998/namespace}lang') == 'fr'
+        ]
 
         text_content = ''.join(chapter.itertext())
         # Curly/smart quotes: quality flag for all languages (automated translation marker)
