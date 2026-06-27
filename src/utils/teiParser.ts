@@ -32,6 +32,11 @@ type Chapter = {
   toc?: TocLocation;
   id?: string;
   href?: string;
+  slugPath?: string;
+  sortKey?: number;
+  chapterN?: string;
+  chapterTitle?: string;
+  chapterTitleByLang?: Partial<Record<TocLang, string>>;
   [key: string]: any;
 };
 
@@ -347,15 +352,33 @@ function parseChapters(doc: any, persons: Record<string, any>, places: Record<st
     const div = divNodes[i];
     if (div.getAttribute('type') !== 'chapter') continue;
 
-    const parsed = parseChapter(div, persons, places, sourceLang, i + 1, isWarAndPeace);
-    if (!parsed.n) continue;
+    for (const parsed of parseChapterUnits(div, persons, places, sourceLang, i + 1, isWarAndPeace)) {
+      if (!parsed.n) continue;
 
-    const existing = byN.get(parsed.n);
-    if (!existing) byN.set(parsed.n, parsed);
-    else byN.set(parsed.n, mergeDuplicateSameLanguageChapter(existing, parsed, sourceLang));
+      const existing = byN.get(parsed.n);
+      if (!existing) byN.set(parsed.n, parsed);
+      else byN.set(parsed.n, mergeDuplicateSameLanguageChapter(existing, parsed, sourceLang));
+    }
   }
 
   return Array.from(byN.values()).sort(compareChaptersForReadingOrder);
+}
+
+function parseChapterUnits(div: any, persons: Record<string, any>, places: Record<string, any>, sourceLang: TocLang, fallbackIndex: number, isWarAndPeace: boolean): Chapter[] {
+  const versionNodes = directChildElements(div).filter((c: any) => {
+    return c.nodeName === 'div' && c.getAttribute('type') === 'version';
+  });
+  const sectionNodes = directChildElements(div).filter((c: any) => {
+    return c.nodeName === 'div' && c.getAttribute('type') === 'section';
+  });
+
+  if (!isWarAndPeace && versionNodes.length === 0 && sectionNodes.length > 0) {
+    return sectionNodes.map((section: any, index: number) => {
+      return parseChapterSection(div, section, persons, places, sourceLang, fallbackIndex, index + 1);
+    });
+  }
+
+  return [parseChapter(div, persons, places, sourceLang, fallbackIndex, isWarAndPeace)];
 }
 
 function parseChapter(div: any, persons: Record<string, any>, places: Record<string, any>, sourceLang: TocLang, fallbackIndex: number, isWarAndPeace: boolean): Chapter {
@@ -418,20 +441,65 @@ function parseChapter(div: any, persons: Record<string, any>, places: Record<str
     title: titleForLang(sourceLang, toc, title),
     html: preferred?.html || '',
     versions: sortedVersions,
-    toc: toc || undefined
+    toc: toc || undefined,
+    slugPath: `chapter-${slugify(n)}`,
+    sortKey: toc?.sortKey ?? numericSortKey(n, fallbackIndex)
+  };
+}
+
+function parseChapterSection(
+  chapterDiv: any,
+  sectionDiv: any,
+  persons: Record<string, any>,
+  places: Record<string, any>,
+  sourceLang: TocLang,
+  fallbackIndex: number,
+  sectionIndex: number
+): Chapter {
+  const chapterN = chapterDiv.getAttribute('n') || String(fallbackIndex);
+  const chapterTitle = directChildText(chapterDiv, 'head') || syntheticFullHeading(sourceLang, null, chapterN);
+  const title = directChildText(sectionDiv, 'head') || `${chapterTitle}, Section ${sectionIndex}`;
+  const n = `${chapterN}.${sectionIndex}`;
+
+  let html = '';
+  for (let j = 0; j < sectionDiv.childNodes.length; j++) {
+    html += convertNodeToHtml(sectionDiv.childNodes[j], persons, places);
+  }
+
+  return {
+    n,
+    title,
+    html: html.trim(),
+    versions: [{
+      id: sourceLang,
+      lang: sourceLang,
+      html: html.trim(),
+      title
+    }],
+    slugPath: `chapter-${slugify(chapterN)}/${slugify(title) || `section-${sectionIndex}`}`,
+    sortKey: numericSortKey(chapterN, fallbackIndex) * 1000 + sectionIndex,
+    chapterN,
+    chapterTitle,
+    chapterTitleByLang: { [sourceLang]: chapterTitle }
   };
 }
 
 function mergeDuplicateSameLanguageChapter(a: Chapter, b: Chapter, preferredLang: TocLang): Chapter {
   const versions = mergeVersions(a.versions, b.versions);
   const preferred = choosePreferredVersion(versions, preferredLang);
+  const chapterTitleByLang = mergeLangLabels(a.chapterTitleByLang, b.chapterTitleByLang);
 
   return {
     ...a,
     title: chooseBetterTitle(a.title, b.title),
     html: preferred?.html || a.html || b.html,
     versions,
-    toc: a.toc || b.toc
+    toc: a.toc || b.toc,
+    slugPath: chooseBetterSlugPath(a, b, preferred),
+    sortKey: Math.min(a.sortKey ?? Number.MAX_SAFE_INTEGER, b.sortKey ?? Number.MAX_SAFE_INTEGER),
+    chapterN: a.chapterN || b.chapterN,
+    chapterTitle: chapterTitleByLang?.[preferredLang] || a.chapterTitle || b.chapterTitle,
+    chapterTitleByLang
   };
 }
 
@@ -448,12 +516,18 @@ function mergeLanguageChapters(parsedBooks: ParsedBook[], preferredLang: TocLang
 
       const versions = mergeVersions(existing.versions, chapter.versions);
       const preferred = choosePreferredVersion(versions, preferredLang);
+      const chapterTitleByLang = mergeLangLabels(existing.chapterTitleByLang, chapter.chapterTitleByLang);
       byN.set(chapter.n, {
         ...existing,
         title: preferred?.title || chooseBetterTitle(existing.title, chapter.title),
         html: preferred?.html || existing.html || chapter.html,
         versions,
-        toc: existing.toc || chapter.toc
+        toc: existing.toc || chapter.toc,
+        slugPath: chooseBetterSlugPath(existing, chapter, preferred),
+        sortKey: Math.min(existing.sortKey ?? Number.MAX_SAFE_INTEGER, chapter.sortKey ?? Number.MAX_SAFE_INTEGER),
+        chapterN: existing.chapterN || chapter.chapterN,
+        chapterTitle: chapterTitleByLang?.[preferredLang] || existing.chapterTitle || chapter.chapterTitle,
+        chapterTitleByLang
       });
     }
   }
@@ -475,6 +549,30 @@ function mergeVersions(...versionLists: Version[][]): Version[] {
   return sortVersions(Array.from(versionByKey.values()));
 }
 
+function chooseBetterSlugPath(a: Chapter, b: Chapter, preferred?: Version): string | undefined {
+  if (preferred?.lang) {
+    const preferredTitle = preferred.title || '';
+    if (preferredTitle && b.title === preferredTitle && b.slugPath) return b.slugPath;
+    if (preferredTitle && a.title === preferredTitle && a.slugPath) return a.slugPath;
+    if (preferred.lang === firstVersionLang(b) && b.slugPath) return b.slugPath;
+    if (preferred.lang === firstVersionLang(a) && a.slugPath) return a.slugPath;
+  }
+
+  return a.slugPath || b.slugPath;
+}
+
+function firstVersionLang(chapter: Chapter): string {
+  return chapter.versions?.[0]?.lang || '';
+}
+
+function mergeLangLabels(
+  a?: Partial<Record<TocLang, string>>,
+  b?: Partial<Record<TocLang, string>>
+): Partial<Record<TocLang, string>> | undefined {
+  const merged = { ...(a || {}), ...(b || {}) };
+  return Object.keys(merged).length > 0 ? merged : undefined;
+}
+
 function choosePreferredVersion(versions: Version[], preferredLang: TocLang): Version | undefined {
   return versions.find((version) => version.lang === preferredLang)
     || versions.find((version) => version.lang === 'ru')
@@ -483,6 +581,9 @@ function choosePreferredVersion(versions: Version[], preferredLang: TocLang): Ve
 
 export function buildTocTree(chapters: Chapter[], isWarAndPeace: boolean = false): TocNode[] {
   if (!isWarAndPeace) {
+    const hasSectionedChapters = chapters.some((chapter) => chapter.chapterN);
+    if (hasSectionedChapters) return buildSectionedTocTree(chapters);
+
     return chapters.map((chapter) => {
       const langs = availableTocLangs(chapter);
       const labelByLang: Partial<Record<TocLang, string>> = {};
@@ -538,6 +639,46 @@ export function buildTocTree(chapters: Chapter[], isWarAndPeace: boolean = false
       key: `${tocLocationKey(location)}-chapter`,
       labels: langs.map((lang) => chapterLabel(lang, location.chapter)),
       labelByLang: Object.fromEntries(langs.map((lang) => [lang, chapterLabel(lang, location.chapter)])) as Partial<Record<TocLang, string>>,
+      children: [],
+      chapter
+    });
+  }
+
+  return tocNodes;
+}
+
+function buildSectionedTocTree(chapters: Chapter[]): TocNode[] {
+  const tocNodes: TocNode[] = [];
+  const chapterNodes = new Map<string, TocNode>();
+
+  for (const chapter of chapters) {
+    const chapterKey = chapter.chapterN || chapter.n;
+    let chapterNode = chapterNodes.get(chapterKey);
+
+    if (!chapterNode) {
+      const labelByLang = chapter.chapterTitleByLang || {};
+      const labels = TOC_LANG_ORDER.map((lang) => labelByLang[lang]).filter(Boolean) as string[];
+      chapterNode = {
+        key: `chapter-${chapterKey}`,
+        labels: labels.length > 0 ? labels : [chapter.chapterTitle || `Chapter ${chapterKey}`],
+        labelByLang,
+        children: []
+      };
+      chapterNodes.set(chapterKey, chapterNode);
+      tocNodes.push(chapterNode);
+    }
+
+    const langs = availableTocLangs(chapter);
+    const labelByLang: Partial<Record<TocLang, string>> = {};
+    for (const lang of langs) {
+      const version = chapter.versions.find((v) => v.lang === lang);
+      if (version && version.title) labelByLang[lang] = version.title;
+    }
+
+    chapterNode.children.push({
+      key: `section-${chapter.n}`,
+      labels: langs.map((lang) => labelByLang[lang] || chapter.title),
+      labelByLang,
       children: [],
       chapter
     });
@@ -635,13 +776,22 @@ function tocLocationKey(location: TocLocation): string {
 }
 
 function compareChaptersForReadingOrder(a: Chapter, b: Chapter): number {
+  const aSortKey = a.sortKey ?? Number.MAX_SAFE_INTEGER;
+  const bSortKey = b.sortKey ?? Number.MAX_SAFE_INTEGER;
+  if (aSortKey !== bSortKey) return aSortKey - bSortKey;
+
   const aKey = a.toc?.sortKey ?? Number.MAX_SAFE_INTEGER;
   const bKey = b.toc?.sortKey ?? Number.MAX_SAFE_INTEGER;
   if (aKey !== bKey) return aKey - bKey;
 
-  const aN = Number.parseInt(a.n || '0', 10);
-  const bN = Number.parseInt(b.n || '0', 10);
+  const aN = Number.parseFloat(a.n || '0');
+  const bN = Number.parseFloat(b.n || '0');
   return aN - bN;
+}
+
+function numericSortKey(n: string, fallback: number): number {
+  const parsed = Number.parseFloat(n || '');
+  return Number.isFinite(parsed) ? parsed : fallback;
 }
 
 function chooseBetterTitle(a: string, b: string): string {
@@ -753,6 +903,12 @@ function firstNonEmpty(values: string[]): string {
 
 export function slugify(text: string): string {
   return text.toString().toLowerCase()
+    .replace(/ä/g, 'ae')
+    .replace(/ö/g, 'oe')
+    .replace(/ü/g, 'ue')
+    .replace(/ß/g, 'ss')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
     .replace(/\s+/g, '-')
     .replace(/[^\w\-]+/g, '')
     .replace(/\-\-+/g, '-')

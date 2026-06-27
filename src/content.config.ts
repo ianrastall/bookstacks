@@ -63,7 +63,8 @@ function cloneTocTreeForStore(nodes: any[]): any[] {
 }
 
 function chapterSortValue(chapter: any, fallback: number) {
-  const parsed = Number.parseInt(chapter.n || '', 10);
+  if (Number.isFinite(chapter.sortKey)) return chapter.sortKey;
+  const parsed = Number.parseFloat(chapter.n || '');
   return Number.isFinite(parsed) ? parsed : fallback + 1;
 }
 
@@ -104,7 +105,7 @@ const teiLoader = () => {
           .sort((a: any, b: any) => chapterSortValue(a, 0) - chapterSortValue(b, 0));
 
         for (const chap of chapters) {
-          chap.id = `${authorSlug}/${bookSlug}/chapter-${chap.n}`;
+          chap.id = `${authorSlug}/${bookSlug}/${chap.slugPath || `chapter-${chap.n}`}`;
         }
 
         const tocTree = cloneTocTreeForStore(bookData.tocTree || []);
