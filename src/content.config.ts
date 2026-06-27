@@ -28,7 +28,7 @@ function getCanonicalTeiFiles(files: string[]) {
     const normalizedLang = lang.toLowerCase();
 
     // Dynamically determine the base text by checking for the most canonical language file
-    const possibleBases = ['ru', 'de', 'fr', 'en', 'es', 'pt', 'it', 'la'];
+    const possibleBases = ['en', 'ru', 'de', 'fr', 'es', 'pt', 'it', 'la'];
     for (const base of possibleBases) {
       if (hasFile(filesLower, `${prefix}${separator}${base}.xml`)) {
         return normalizedLang === base;
