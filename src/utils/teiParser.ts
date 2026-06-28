@@ -168,6 +168,11 @@ export function parseTeiBook(filePath: string, options: ParseTeiBookOptions = {}
     const primaryBook = parsedBooks.find((book) => book.filePath === absolutePath) || parsedBooks[0];
     const title = primaryBook.title || 'Unknown Title';
     const author = primaryBook.author || 'Unknown Author';
+    // Author life-dates may only be recorded in one language file (e.g. the
+    // German source for Mann); fall back to any sibling that has them.
+    const authorDates = primaryBook.authorDates
+      || parsedBooks.find((book) => book.authorDates)?.authorDates
+      || '';
     const persons = mergeRegistries(parsedBooks.map((book) => book.persons));
     const places = mergeRegistries(parsedBooks.map((book) => book.places));
     const preferredLang = options.preferredLang || primaryBook.lang || primaryLang || 'ru';
@@ -175,7 +180,7 @@ export function parseTeiBook(filePath: string, options: ParseTeiBookOptions = {}
     const isWarAndPeace = isWarAndPeaceFile(absolutePath);
     const tocTree = buildTocTree(chapters, isWarAndPeace);
 
-    return { title, author, persons, places, chapters, tocTree };
+    return { title, author, authorDates, persons, places, chapters, tocTree };
   } catch (error) {
     console.error(`Failed to parse TEI file at ${filePath}:`, error);
     throw error;
@@ -209,6 +214,7 @@ type ParsedBook = {
   lang: TocLang;
   title: string;
   author: string;
+  authorDates: string;
   persons: Record<string, any>;
   places: Record<string, any>;
   chapters: Chapter[];
@@ -229,18 +235,35 @@ function parseXmlFile(filePath: string): any {
   }).parseFromString(xml, 'text/xml');
 }
 
+// Extract author life-dates from <author><note type="dates">…</note></author>,
+// e.g. "1875-1955". Returns '' when no such note is present.
+function findAuthorDates(authorEl: any): string {
+  if (!authorEl) return '';
+  const notes = authorEl.getElementsByTagName('note');
+  for (let i = 0; i < notes.length; i++) {
+    const note = notes[i];
+    if (note.getAttribute?.('type') === 'dates') {
+      const text = note.textContent?.trim();
+      if (text) return text;
+    }
+  }
+  return '';
+}
+
 function parseSingleLanguageBook(doc: any, filePath: string, fallbackLang: TocLang): ParsedBook {
   const lang = getDocumentLang(doc, filePath) || fallbackLang;
   const titleNode = doc.getElementsByTagName('title')[0];
-  const authorNode = doc.getElementsByTagName('author')[0]?.getElementsByTagName('persName')[0];
+  const authorEl = doc.getElementsByTagName('author')[0];
+  const authorNode = authorEl?.getElementsByTagName('persName')[0];
   const title = titleNode?.textContent?.trim() || 'Unknown Title';
   const author = authorNode?.textContent?.trim() || 'Unknown Author';
+  const authorDates = findAuthorDates(authorEl);
   const persons = parsePersonRegistry(doc);
   const places = parsePlaceRegistry(doc);
   const isWarAndPeace = isWarAndPeaceFile(filePath);
   const chapters = parseChapters(doc, persons, places, lang, isWarAndPeace);
 
-  return { filePath: path.resolve(filePath), lang, title, author, persons, places, chapters };
+  return { filePath: path.resolve(filePath), lang, title, author, authorDates, persons, places, chapters };
 }
 
 function collectLanguageFilePaths(absolutePath: string, primaryLang: TocLang | null, options: ParseTeiBookOptions): LanguageFileMap {

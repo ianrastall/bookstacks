@@ -56,6 +56,9 @@ function authorPortrait(slug: string) {
               </div>
               <div class="author-card-body">
                 <h3 class="author-name">{author.data.author_name}</h3>
+                {author.data.author_dates && (
+                  <p class="author-dates">{author.data.author_dates.replace(/-/g, '–')}</p>
+                )}
               </div>
             </a>
           );

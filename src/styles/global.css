@@ -307,6 +307,12 @@ textarea:focus-visible {
   margin: 0;
 }
 
+.author-dates {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 /* Framed portrait on the author landing page */
 .author-hero {
   width: 180px;

@@ -13,6 +13,9 @@
         "author_name": {
           "type": "string"
         },
+        "author_dates": {
+          "type": "string"
+        },
         "book_title": {
           "type": "string"
         },

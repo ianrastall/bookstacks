@@ -96,7 +96,8 @@ const teiLoader = () => {
             data: {
               layout: 'author_index',
               title: bookData.author,
-              author_name: bookData.author
+              author_name: bookData.author,
+              author_dates: bookData.authorDates || ''
             }
           });
         }
@@ -156,6 +157,7 @@ const authors = defineCollection({
     title: z.string().optional(),
     layout: z.string().optional(),
     author_name: z.string().optional(),
+    author_dates: z.string().optional(),
     book_title: z.string().optional(),
     author: z.string().optional(),
     book: z.string().optional(),
