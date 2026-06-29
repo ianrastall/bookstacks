@@ -968,6 +968,77 @@ a.btn {
     font-style: italic;
 }
 
+/* TEI drama markup (plays: sp / speaker / stage / castList) */
+.reader-content .tei-sp {
+    margin: 0 0 1.1rem;
+}
+.reader-content .tei-speaker {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+.reader-content .tei-speaker::after {
+    content: ".";
+}
+.reader-content .tei-sp p {
+    margin: 0.1rem 0 0;
+    text-indent: 0;
+}
+.reader-content .tei-stage {
+    font-style: italic;
+    color: var(--muted);
+    margin: 1rem 0;
+}
+.reader-content .tei-stage-enter {
+    text-align: center;
+}
+.reader-content .tei-stage-exit {
+    text-align: right;
+}
+.reader-content .tei-stage-inline {
+    display: inline;
+    margin: 0;
+}
+/* Character names stay upright and capitalised, even inside an italic stage direction. */
+.reader-content .tei-name {
+    font-style: normal;
+}
+.reader-content .tei-stage .tei-name {
+    text-transform: uppercase;
+}
+.reader-content .tei-act-head {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+.reader-content .tei-castlist {
+    margin: 1rem 0 1.4rem;
+}
+.reader-content .tei-castitem {
+    margin: 0.15rem 0;
+    padding-left: 1.4rem;
+    text-indent: -1.4rem;
+}
+.reader-content .tei-role {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+.reader-content .tei-setting {
+    font-style: italic;
+    color: var(--muted);
+    margin: 0.5rem 0 1.4rem;
+}
+/* Verse: one line per <l>, stanzas (<lg>) separated by a little space. */
+.reader-content .tei-sp .tei-lg {
+    margin: 0 0 0.6rem;
+}
+.reader-content .tei-l {
+    padding-left: 1.6rem;
+    text-indent: -1.6rem;
+}
+
 /* TEI Correspondence Styles */
 .tei-letter {
     margin: 2rem 3rem;

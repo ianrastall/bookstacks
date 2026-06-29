@@ -250,18 +250,33 @@ function findAuthorDates(authorEl: any): string {
   return '';
 }
 
+// The author display name is the persName's own text only. Some converted files
+// nest <note type="dates"> inside <persName>; textContent would otherwise glue the
+// life-dates onto the name (e.g. "Shakespeare, William1564-1616").
+function personNameText(persNameEl: any): string {
+  if (!persNameEl) return '';
+  let text = '';
+  for (let i = 0; i < persNameEl.childNodes.length; i++) {
+    const child = persNameEl.childNodes[i];
+    if (child.nodeType === 3) text += child.nodeValue || '';
+  }
+  return text.trim();
+}
+
 function parseSingleLanguageBook(doc: any, filePath: string, fallbackLang: TocLang): ParsedBook {
   const lang = getDocumentLang(doc, filePath) || fallbackLang;
   const titleNode = doc.getElementsByTagName('title')[0];
   const authorEl = doc.getElementsByTagName('author')[0];
   const authorNode = authorEl?.getElementsByTagName('persName')[0];
   const title = titleNode?.textContent?.trim() || 'Unknown Title';
-  const author = authorNode?.textContent?.trim() || 'Unknown Author';
+  const author = personNameText(authorNode) || authorNode?.textContent?.trim() || 'Unknown Author';
   const authorDates = findAuthorDates(authorEl);
   const persons = parsePersonRegistry(doc);
   const places = parsePlaceRegistry(doc);
   const isWarAndPeace = isWarAndPeaceFile(filePath);
-  const chapters = parseChapters(doc, persons, places, lang, isWarAndPeace);
+  const chapters = isDramaDoc(doc)
+    ? parseDramaChapters(doc, persons, places, lang)
+    : parseChapters(doc, persons, places, lang, isWarAndPeace);
 
   return { filePath: path.resolve(filePath), lang, title, author, authorDates, persons, places, chapters };
 }
@@ -365,6 +380,106 @@ function mergeRegistries(registries: Array<Record<string, any>>): Record<string,
     }
   }
   return merged;
+}
+
+// A play encodes speeches as <sp>; prose works never do. When present we treat
+// acts as the table-of-contents grouping and scenes as the reading unit, reusing
+// the same "sectioned chapter" machinery War and Peace uses for volume/part.
+function isDramaDoc(doc: any): boolean {
+  return doc.getElementsByTagName('sp').length > 0;
+}
+
+type DramaChapterInput = {
+  chapterKey: string;
+  chapterTitle: string;
+  title: string;
+  slugPath: string;
+  sortKey: number;
+  headHtml: string;
+  contentNode: any;
+  sourceLang: TocLang;
+  persons: Record<string, any>;
+  places: Record<string, any>;
+};
+
+function makeDramaChapter(input: DramaChapterInput): Chapter {
+  const html = (input.headHtml + renderChildren(input.contentNode, input.persons, input.places)).trim();
+  const n = input.slugPath.replace(/^chapter-/, '').replace(/\//g, '.');
+  return {
+    n,
+    title: input.title,
+    html,
+    versions: [{ id: input.sourceLang, lang: input.sourceLang, html, title: input.title }],
+    slugPath: input.slugPath,
+    sortKey: input.sortKey,
+    chapterN: input.chapterKey,
+    chapterTitle: input.chapterTitle,
+    chapterTitleByLang: { [input.sourceLang]: input.chapterTitle }
+  };
+}
+
+function parseDramaChapters(doc: any, persons: Record<string, any>, places: Record<string, any>, sourceLang: TocLang): Chapter[] {
+  const body = doc.getElementsByTagName('body')[0];
+  if (!body) return [];
+
+  const chapters: Chapter[] = [];
+  let order = 0;
+  let actSeq = 0;
+  let standaloneSeq = 0;
+
+  for (const div of directChildElements(body)) {
+    if (div.nodeName !== 'div') continue;
+    const type = div.getAttribute('type') || '';
+
+    if (type === 'act') {
+      actSeq += 1;
+      const actN = div.getAttribute('n') || String(actSeq);
+      const actKey = slugify(actN) || String(actSeq);
+      const actHead = directChildText(div, 'head') || `Act ${actN}`;
+      const scenes = directChildElements(div).filter(
+        (c: any) => c.nodeName === 'div' && c.getAttribute('type') === 'scene'
+      );
+
+      if (scenes.length === 0) {
+        chapters.push(makeDramaChapter({
+          chapterKey: actKey, chapterTitle: actHead, title: actHead,
+          slugPath: `chapter-${actKey}`, sortKey: (order += 1),
+          headHtml: '', contentNode: div, sourceLang, persons, places
+        }));
+        continue;
+      }
+
+      scenes.forEach((scene: any, idx: number) => {
+        const sceneHead = directChildText(scene, 'head') || `Scene ${idx + 1}`;
+        chapters.push(makeDramaChapter({
+          chapterKey: actKey, chapterTitle: actHead, title: sceneHead,
+          slugPath: `chapter-${actKey}/${slugify(sceneHead) || `scene-${idx + 1}`}`,
+          sortKey: (order += 1),
+          headHtml: `<h2 class="navchap tei-act-head">${escapeHtml(actHead)}</h2>`,
+          contentNode: scene, sourceLang, persons, places
+        }));
+      });
+      continue;
+    }
+
+    // Front/back matter or a scene without an enclosing act (prologue, epilogue,
+    // dramatis personae, induction, …). Each is its own single-item section.
+    standaloneSeq += 1;
+    const head = directChildText(div, 'head') || titleCaseWord(type) || `Section ${standaloneSeq}`;
+    const key = slugify(head) || slugify(type) || `section-${standaloneSeq}`;
+    chapters.push(makeDramaChapter({
+      chapterKey: key, chapterTitle: head, title: head,
+      slugPath: `chapter-${key}`, sortKey: (order += 1),
+      headHtml: '', contentNode: div, sourceLang, persons, places
+    }));
+  }
+
+  return chapters.sort(compareChaptersForReadingOrder);
+}
+
+function titleCaseWord(word: string): string {
+  if (!word) return '';
+  return word.charAt(0).toUpperCase() + word.slice(1);
 }
 
 function parseChapters(doc: any, persons: Record<string, any>, places: Record<string, any>, sourceLang: TocLang, isWarAndPeace: boolean): Chapter[] {
@@ -901,6 +1016,14 @@ function uniqueVersionId(baseId: string, existingVersions: Version[]): string {
   return candidate;
 }
 
+function renderChildren(node: any, persons: Record<string, any>, places: Record<string, any>): string {
+  let html = '';
+  for (let i = 0; i < node.childNodes.length; i++) {
+    html += convertNodeToHtml(node.childNodes[i], persons, places);
+  }
+  return html;
+}
+
 function directChildElements(node: any): any[] {
   const result: any[] = [];
   for (let i = 0; i < node.childNodes.length; i++) {
@@ -961,7 +1084,17 @@ function convertNodeToHtml(node: any, persons: Record<string, any>, places: Reco
     }
 
     if (tag === 'head') return `<h2 class="navchap">${innerHtml}</h2>`;
-    if (tag === 'p') return `<p>${innerHtml}</p>`;
+    if (tag === 'p') {
+      // A paragraph that is wholly wrapped in [ ] is a stage direction the
+      // converter left inline (entrances became <stage>, but exits/movements
+      // stayed as bracketed <p>). Promote it so exits align right like the rest.
+      const text = (node.textContent || '').trim();
+      if (text.startsWith('[') && text.endsWith(']')) {
+        const isExit = /\b(Exit|Exeunt)\b/i.test(text);
+        return `<div class="tei-stage ${isExit ? 'tei-stage-exit' : 'tei-stage-enter'}">${innerHtml.trim()}</div>`;
+      }
+      return `<p>${innerHtml}</p>`;
+    }
     if (tag === 'said') {
       const who = node.getAttribute('who') || '';
       const lead = innerHtml.replace(/^\s+/, '');
@@ -1009,9 +1142,67 @@ function convertNodeToHtml(node: any, persons: Record<string, any>, places: Reco
     }
     if (tag === 'q') return `<q>${innerHtml}</q>`;
     if (tag === 'quote') return `<blockquote>${innerHtml}</blockquote>`;
-    if (tag === 'hi') return `<span>${innerHtml}</span>`;
+    if (tag === 'hi') {
+      const rend = node.getAttribute('rend') || '';
+      if (rend === 'italic') return `<i>${innerHtml}</i>`;
+      if (rend === 'bold') return `<strong>${innerHtml}</strong>`;
+      return `<span>${innerHtml}</span>`;
+    }
     if (tag === 'lg') return `<div class="tei-lg">${innerHtml}</div>`;
     if (tag === 'l') return `<div class="tei-l">${innerHtml}</div>`;
+    // Drama markup (Shakespeare et al.): sp / speaker / stage / castList.
+    if (tag === 'sp') return `<div class="tei-sp">${innerHtml}</div>`;
+    if (tag === 'speaker') return `<span class="tei-speaker">${innerHtml.trim()}</span>`;
+    if (tag === 'name') return `<span class="tei-name">${innerHtml}</span>`;
+    if (tag === 'stage') {
+      // Inside the brackets: character <name>s stay roman/caps (handled in CSS);
+      // every other word is italicised. Entrances centre, exits go right; a stage
+      // direction sitting inside a speech renders inline.
+      let stageInner = '';
+      for (let i = 0; i < node.childNodes.length; i++) {
+        const c = node.childNodes[i];
+        if (c.nodeType === 3) {
+          const text = escapeHtml(c.nodeValue || '');
+          stageInner += text.trim() ? `<i>${text}</i>` : text;
+        } else {
+          stageInner += convertNodeToHtml(c, persons, places);
+        }
+      }
+      stageInner = stageInner.trim();
+      // Faithful to the source: scenedesc -> entrance (centered), p.right -> exit
+      // (right). A scene-setting blurb gets its own un-bracketed line. Anything
+      // else (a direction inside a speech) renders inline.
+      const stype = node.getAttribute('type') || '';
+      if (stype === 'setting') return `<div class="tei-setting">${stageInner}</div>`;
+      if (stype === 'exit') return `<div class="tei-stage tei-stage-exit">[${stageInner}]</div>`;
+      if (stype === 'entrance') return `<div class="tei-stage tei-stage-enter">[${stageInner}]</div>`;
+      if (!stype && node.parentNode?.nodeName === 'div') {
+        // Untyped block-level direction (older files): fall back to keyword.
+        const isExit = /^(Exit|Exeunt)\b/i.test((node.textContent || '').trim());
+        return `<div class="tei-stage ${isExit ? 'tei-stage-exit' : 'tei-stage-enter'}">[${stageInner}]</div>`;
+      }
+      return `<span class="tei-stage tei-stage-inline">[${stageInner}]</span>`;
+    }
+    if (tag === 'role') return `<span class="tei-role">${innerHtml}</span>`;
+    if (tag === 'castList') {
+      // The Gutenberg→TEI pass sometimes mis-encoded a speech as a castList
+      // (an ALL-CAPS speaker castItem followed by the spoken lines). Render that
+      // as a speech; otherwise fall back to a plain cast list.
+      const items = directChildElements(node).filter((c: any) => c.nodeName === 'castItem');
+      const firstText = items[0]?.textContent?.trim() || '';
+      const looksLikeSpeech = items.length >= 2
+        && /[A-Za-z]/.test(firstText)
+        && firstText === firstText.toUpperCase();
+      if (looksLikeSpeech) {
+        const speaker = `<span class="tei-speaker">${escapeHtml(firstText)}</span>`;
+        const lines = items.slice(1)
+          .map((item: any) => `<p>${renderChildren(item, persons, places)}</p>`)
+          .join('');
+        return `<div class="tei-sp">${speaker}${lines}</div>`;
+      }
+      return `<div class="tei-castlist">${innerHtml}</div>`;
+    }
+    if (tag === 'castItem') return `<div class="tei-castitem">${innerHtml}</div>`;
     if (tag === 'floatingText') return `<blockquote class="tei-letter">${innerHtml}</blockquote>`;
     if (tag === 'opener') return `<div class="tei-opener">${innerHtml}</div>`;
     if (tag === 'closer') return `<div class="tei-closer">${innerHtml}</div>`;
