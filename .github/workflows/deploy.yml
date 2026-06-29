@@ -24,14 +24,44 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          # generate-sitemap reads git history for accurate <lastmod> dates.
+          fetch-depth: 0
 
-      - name: Build and upload Astro site
-        uses: withastro/action@v6
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Astro site
+        run: npm run build
+
+      # Generate sitemap.xml into dist/ *before* the artifact is uploaded so it
+      # ships with the site and is regenerated on every build.
+      - name: Generate sitemap
+        id: sitemap
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://bookstacks.org/
+          path-to-root: dist
+
+      - name: Sitemap stats
+        run: |
+          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
+          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
+          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
 
       - name: Verify build output
         run: ls -la dist/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
   deploy:
     needs: build
