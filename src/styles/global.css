@@ -951,6 +951,15 @@ a.btn {
     cursor: help;
 }
 
+/* Volume/Book context kicker above a chapter head in grouped books. */
+.reader-content .chapter-context {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin: 0 0 0.4rem;
+}
+
 /* TEI inline reading markup (rendered inside .reader-content) */
 .reader-content .tei-rs {
     cursor: help;

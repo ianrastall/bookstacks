@@ -37,6 +37,7 @@ type Chapter = {
   chapterN?: string;
   chapterTitle?: string;
   chapterTitleByLang?: Partial<Record<TocLang, string>>;
+  groupPath?: Array<{ key: string; label: string }>;
   [key: string]: any;
 };
 
@@ -276,6 +277,8 @@ function parseSingleLanguageBook(doc: any, filePath: string, fallbackLang: TocLa
   const isWarAndPeace = isWarAndPeaceFile(filePath);
   const chapters = isDramaDoc(doc)
     ? parseDramaChapters(doc, persons, places, lang)
+    : isVolumeGroupedDoc(doc)
+    ? parseVolumeGroupedChapters(doc, persons, places, lang)
     : parseChapters(doc, persons, places, lang, isWarAndPeace);
 
   return { filePath: path.resolve(filePath), lang, title, author, authorDates, persons, places, chapters };
@@ -387,6 +390,79 @@ function mergeRegistries(registries: Array<Record<string, any>>): Record<string,
 // the same "sectioned chapter" machinery War and Peace uses for volume/part.
 function isDramaDoc(doc: any): boolean {
   return doc.getElementsByTagName('sp').length > 0;
+}
+
+// A book whose reading chapters are nested inside <div type="volume"> (and
+// optionally <div type="book">) gets a nested Volume → Book → Chapter table of
+// contents. Magic Mountain also uses <div type="volume">, but its reading units
+// are <div type="section"> inside chapter divs; the no-section guard keeps the
+// generic grouped path off it (and off any future section-based book).
+function isVolumeGroupedDoc(doc: any): boolean {
+  const divs = doc.getElementsByTagName('div');
+  let hasVolume = false;
+  let hasSection = false;
+  for (let i = 0; i < divs.length; i++) {
+    const type = divs[i].getAttribute('type');
+    if (type === 'volume') hasVolume = true;
+    else if (type === 'section') hasSection = true;
+  }
+  return hasVolume && !hasSection;
+}
+
+const GROUPING_DIV_TYPES = new Set(['volume', 'book', 'part']);
+
+// Walk the division hierarchy, emitting one flat reading-unit Chapter per leaf
+// <div type="chapter"> and recording its ancestor volume/book labels as
+// `groupPath` (used by buildGroupedTocTree to nest the table of contents). Front
+// matter (a chapter div that is not under any grouping div) gets an empty
+// groupPath and renders as a top-level entry.
+function parseVolumeGroupedChapters(doc: any, persons: Record<string, any>, places: Record<string, any>, sourceLang: TocLang): Chapter[] {
+  const body = doc.getElementsByTagName('body')[0];
+  if (!body) return [];
+
+  const chapters: Chapter[] = [];
+  let seq = 0;
+
+  const walk = (node: any, groupPath: Array<{ key: string; label: string }>) => {
+    for (const child of directChildElements(node)) {
+      if (child.nodeName !== 'div') continue;
+      const type = child.getAttribute('type') || '';
+
+      if (type === 'chapter') {
+        seq += 1;
+        const n = String(seq);
+        const title = directChildText(child, 'head') || syntheticFullHeading(sourceLang, null, n);
+        const kicker = groupPath.length > 0
+          ? `<p class="chapter-context">${groupPath.map((g) => escapeHtml(g.label)).join(' · ')}</p>`
+          : '';
+        const html = (kicker + renderChildren(child, persons, places)).trim();
+        chapters.push({
+          n,
+          title,
+          html,
+          versions: [{ id: sourceLang, lang: sourceLang, html, title }],
+          slugPath: `chapter-${n}`,
+          sortKey: seq,
+          groupPath: groupPath.slice()
+        });
+        continue;
+      }
+
+      if (GROUPING_DIV_TYPES.has(type)) {
+        const label = directChildText(child, 'head') || titleCaseWord(type);
+        const key = slugify(label) || `${type}-${groupPath.length + 1}`;
+        walk(child, [...groupPath, { key, label }]);
+        continue;
+      }
+
+      // Unknown wrapper (e.g. a plain <div> grouping title-page matter): recurse
+      // without contributing a grouping level.
+      walk(child, groupPath);
+    }
+  };
+
+  walk(body, []);
+  return chapters;
 }
 
 type DramaChapterInput = {
@@ -719,6 +795,11 @@ function choosePreferredVersion(versions: Version[], preferredLang: TocLang): Ve
 
 export function buildTocTree(chapters: Chapter[], isWarAndPeace: boolean = false): TocNode[] {
   if (!isWarAndPeace) {
+    const hasGroupedChapters = chapters.some(
+      (chapter) => Array.isArray(chapter.groupPath) && chapter.groupPath.length > 0
+    );
+    if (hasGroupedChapters) return buildGroupedTocTree(chapters);
+
     const hasSectionedChapters = chapters.some((chapter) => chapter.chapterN);
     if (hasSectionedChapters) return buildSectionedTocTree(chapters);
 
@@ -783,6 +864,40 @@ export function buildTocTree(chapters: Chapter[], isWarAndPeace: boolean = false
   }
 
   return tocNodes;
+}
+
+// Nest a flat reading list into Volume → Book → Chapter (any depth) using each
+// chapter's groupPath. Grouping nodes carry no chapter; leaf nodes reference the
+// shared Chapter object (so content.config's later id assignment links them).
+function buildGroupedTocTree(chapters: Chapter[]): TocNode[] {
+  const roots: TocNode[] = [];
+  const nodeByPath = new Map<string, TocNode>();
+
+  for (const chapter of chapters) {
+    let siblings = roots;
+    let cumulativeKey = '';
+
+    for (const group of chapter.groupPath || []) {
+      cumulativeKey += `/${group.key}`;
+      let node = nodeByPath.get(cumulativeKey);
+      if (!node) {
+        node = { key: cumulativeKey, labels: [group.label], labelByLang: {}, children: [] };
+        nodeByPath.set(cumulativeKey, node);
+        siblings.push(node);
+      }
+      siblings = node.children;
+    }
+
+    siblings.push({
+      key: `chapter-${chapter.n}`,
+      labels: [chapter.title],
+      labelByLang: {},
+      children: [],
+      chapter
+    });
+  }
+
+  return roots;
 }
 
 function buildSectionedTocTree(chapters: Chapter[]): TocNode[] {
