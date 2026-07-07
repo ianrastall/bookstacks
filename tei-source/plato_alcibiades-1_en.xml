@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alcibiades 1</title>
+        <author>
+          <persName>Plato<note type="dates">427 BCE-347 BCE</note></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Bookstacks</publisher>
+        <availability status="free">
+          <p>AI-made English translation for Bookstacks from the Ancient Greek source text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>English translation aligned to plato_alcibiades-1_grc.xml, derived from the PerseusDL canonical-greekLit Greek edition of Alcibiades 1.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" n="1">
+        <head>Section 103</head>
+        <p><pb n="103"/>Socrates. Son of Clinias, I think you are wondering why I, who became your first lover, am the only one who has not gone away now that the others have stopped; and why the others made themselves troublesome to you by talking with you, while I, for so many years, have not even addressed you. The cause of this has not been human, but a certain divine opposition, whose power you will learn later. But now, since it no longer opposes me, I have approached you in this way; and I am hopeful that hereafter it will not oppose me either. During this time, then, I have quite closely observed, as I watched, how you behaved toward your lovers. For though many of them came, and high-spirited men too, there was not one who did not flee after being overpowered by your pride.</p>
+      </div>
+      <div type="chapter" n="2">
+        <head>Section 104</head>
+        <p><pb n="104"/>Socrates. I want to go through the reason by which you have come to think so highly of yourself. You say that you are in need of no human being for anything; for what belongs to you is so great that you need no one, beginning with your body and ending with your soul. You think, first, that you are the fairest and tallest, and indeed it is clear for anyone to see that in this you are not lying; next, that you are of one of the most distinguished families in your city here; that on your father's side you have very many and excellent friends and kinsmen, who would serve you if you needed anything, and that those on your mother's side are no worse or fewer. But greater than all the things I have mentioned, you think, is the power you possess in Pericles son of Xanthippus, whom your father left as guardian over you and your brother. He is able to do whatever he wishes not only in this city, but in all Greece, and among many great peoples of the barbarians. I will add, too, that you are among the rich; but you seem to me to pride yourself least on that. Boasting of all these things, you have prevailed over your lovers, and they, being inferior, were overcome; and this has not escaped you. From this I know well that you wonder what I can possibly be thinking, that I do not depart from my love, and what hope I have that makes me remain when the others have fled.</p>
+        <p>Alcibiades. And perhaps, Socrates, you do not know that you only just forestalled me. For I had it in mind to come to you first and ask you these very things: what you want, and looking toward what hope you bother me, always most carefully present wherever I may be. For in truth I wonder what this business of yours is, and I would very gladly learn it.</p>
+        <p>Socrates. Then you will listen to me eagerly, as is likely, if indeed, as you say, you desire to know what I have in mind; and I speak as to someone who will listen and wait.</p>
+        <p>Alcibiades. Certainly; but speak.</p>
+        <p>Socrates. Look then; for it would not be surprising if, just as I began with difficulty, so I should also stop with difficulty.</p>
+        <p>Alcibiades. My good man, speak; for I shall listen.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
