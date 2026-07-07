@@ -22,14 +22,14 @@ function getCanonicalTeiFiles(files: string[]) {
       return !hasFile(filesLower, `${prefix}${separator}ru.xml`);
     }
 
-    const langMatch = file.match(/^(.*?)([-_.])(en|es|fr|pt|ru|de|it|la)\.xml$/i);
+    const langMatch = file.match(/^(.*?)([-_.])(grc|en|es|fr|pt|ru|de|it|la)\.xml$/i);
     if (!langMatch) return true;
 
     const [, prefix, separator, lang] = langMatch;
     const normalizedLang = lang.toLowerCase();
 
     // Dynamically determine the base text by checking for the most canonical language file
-    const possibleBases = ['en', 'ru', 'de', 'fr', 'es', 'pt', 'it', 'la'];
+    const possibleBases = ['grc', 'en', 'ru', 'de', 'fr', 'es', 'pt', 'it', 'la'];
     for (const base of possibleBases) {
       if (hasFile(filesLower, `${prefix}${separator}${base}.xml`)) {
         return normalizedLang === base;

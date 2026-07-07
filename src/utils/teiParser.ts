@@ -3,6 +3,7 @@ import path from 'node:path';
 import { DOMParser } from '@xmldom/xmldom';
 
 const LANG_NAMES: Record<string, string> = {
+  grc: 'Ancient Greek',
   fr: 'French',
   ru: 'Russian',
   de: 'German',
@@ -13,7 +14,7 @@ const LANG_NAMES: Record<string, string> = {
   pt: 'Portuguese'
 };
 
-const TOC_LANG_ORDER = ['en', 'es', 'fr', 'pt', 'it', 'la', 'ru', 'de'] as const;
+const TOC_LANG_ORDER = ['grc', 'en', 'es', 'fr', 'pt', 'it', 'la', 'ru', 'de'] as const;
 type TocLang = typeof TOC_LANG_ORDER[number];
 
 type Version = {
