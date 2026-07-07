@@ -26,6 +26,23 @@ to never introduce dangling ones.
 
 ---
 
+## 0a. Site status labels
+
+Book status is intentionally coarse and manually assigned in
+`src/utils/bookStatus.ts`; do not infer it from non-empty registries alone.
+
+- **Unfinished** means the reader text is still being completed, translated, or
+  structurally ingested.
+- **Finished** means the reader text is complete and structurally encoded, but
+  inline person/place tagging is absent, partial, or not audited across the full
+  work.
+- **Fully tagged** means the book is finished and has been audited end to end
+  against this spec: in-scope recurring people and places under §5 have registry
+  entries and body refs, every ref resolves, and uncertain or incidental mentions
+  intentionally left plain still count as complete.
+
+---
+
 ## 1. The three inline tags
 
 | Tag | Use for | Example |

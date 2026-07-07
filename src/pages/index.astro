@@ -18,6 +18,14 @@ function authorPortrait(slug: string) {
   const rel = `img/authors/${slug}.png`;
   return fs.existsSync(`public/${rel}`) ? relativeUrl(rel) : null;
 }
+
+function pluralize(count: number, singular: string, plural = `${singular}s`) {
+  return `${count} ${count === 1 ? singular : plural}`;
+}
+
+function bookCountForAuthor(slug: string) {
+  return books.filter(book => book.id.startsWith(`${slug}/`)).length;
+}
 ---
 
 <BaseLayout title="Home">
@@ -38,6 +46,7 @@ function authorPortrait(slug: string) {
           let slug = author.id;
           if (slug.endsWith('/index')) slug = slug.slice(0, -6);
           const portrait = authorPortrait(slug);
+          const bookCount = bookCountForAuthor(slug);
           return (
             <a class="tool-card author-card" href={relativeUrl(`authors/${slug}`)}>
               <div class="author-card-media">
@@ -59,6 +68,7 @@ function authorPortrait(slug: string) {
                 {author.data.author_dates && (
                   <p class="author-dates">{author.data.author_dates.replace(/-/g, '–')}</p>
                 )}
+                <p class="author-book-count">{pluralize(bookCount, 'book')}</p>
               </div>
             </a>
           );

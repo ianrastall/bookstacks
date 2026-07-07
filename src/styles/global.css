@@ -313,6 +313,13 @@ textarea:focus-visible {
   color: var(--muted);
 }
 
+.author-card .author-book-count {
+  margin: 0.55rem 0 0;
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
 /* Framed portrait on the author landing page */
 .author-hero {
   width: 180px;
@@ -378,6 +385,39 @@ textarea:focus-visible {
 .tag-link:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.book-card {
+  min-height: 160px;
+}
+
+.book-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  width: fit-content;
+  margin-top: auto;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--panel-muted);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+}
+
+.book-status .material-icons {
+  font-size: 1rem;
+}
+
+.book-status-unfinished {
+  border-color: color-mix(in srgb, var(--danger) 45%, var(--border));
+  color: var(--danger);
+}
+
+.book-status-fully-tagged {
+  border-color: color-mix(in srgb, var(--success) 45%, var(--border));
+  color: var(--success);
 }
 
 .category-header {

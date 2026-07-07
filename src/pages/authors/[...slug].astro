@@ -150,12 +150,24 @@ const tocRoots = Array.isArray(entry.data.tocTree)
         {books.map(book => {
           let bSlug = book.id;
           if (bSlug.endsWith('/index')) bSlug = bSlug.slice(0, -6);
+          const status = book.data.book_status || 'finished';
+          const statusLabel = book.data.book_status_label || 'Finished';
+          const statusDescription = book.data.book_status_description || '';
+          const statusIcon = book.data.book_status_icon || 'check_circle';
           return (
-            <a class="tool-card" href={relativeUrl(`authors/${bSlug}`)}>
+            <a class="tool-card book-card" href={relativeUrl(`authors/${bSlug}`)}>
               <div class="tool-icon">
                 <span class="material-icons">menu_book</span>
               </div>
               <h3>{book.data.book_title}</h3>
+              <span
+                class:list={['book-status', `book-status-${status}`]}
+                title={statusDescription}
+                aria-label={`Book status: ${statusLabel}. ${statusDescription}`}
+              >
+                <span class="material-icons" aria-hidden="true">{statusIcon}</span>
+                {statusLabel}
+              </span>
             </a>
           );
         })}

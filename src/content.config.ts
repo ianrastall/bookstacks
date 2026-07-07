@@ -1,6 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
+import { bookStatusForSlugs } from './utils/bookStatus';
 import { parseTeiBook, slugify, slugifyAuthor } from './utils/teiParser';
 
 function hasFile(filesLower: Set<string>, fileName: string) {
@@ -110,6 +111,7 @@ const teiLoader = () => {
         }
 
         const tocTree = cloneTocTreeForStore(bookData.tocTree || []);
+        const bookStatus = bookStatusForSlugs(authorSlug, bookSlug);
 
         store.set({
           id: `${authorSlug}/${bookSlug}/index`,
@@ -118,6 +120,10 @@ const teiLoader = () => {
             title: bookData.title,
             book_title: bookData.title,
             author: bookData.author,
+            book_status: bookStatus.state,
+            book_status_label: bookStatus.label,
+            book_status_description: bookStatus.description,
+            book_status_icon: bookStatus.icon,
             persons: bookData.persons,
             places: bookData.places,
             tocTree
@@ -161,6 +167,10 @@ const authors = defineCollection({
     book_title: z.string().optional(),
     author: z.string().optional(),
     book: z.string().optional(),
+    book_status: z.enum(['unfinished', 'finished', 'fully-tagged']).optional(),
+    book_status_label: z.string().optional(),
+    book_status_description: z.string().optional(),
+    book_status_icon: z.string().optional(),
     chapter_order: z.number().optional(),
     toc_section: z.string().optional(),
     toc_title: z.string().optional(),
