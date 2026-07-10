@@ -111,7 +111,30 @@ const teiLoader = () => {
         }
 
         const tocTree = cloneTocTreeForStore(bookData.tocTree || []);
-        const bookStatus = bookStatusForSlugs(authorSlug, bookSlug);
+        let bookStatus = bookStatusForSlugs(authorSlug, bookSlug);
+
+        const allLangs = new Set<string>();
+        for (const chap of chapters) {
+          for (const v of chap.versions || []) {
+            if (v.lang) allLangs.add(v.lang);
+          }
+        }
+        
+        const has_original = Array.from(allLangs).some(lang => lang !== 'en');
+        
+        const isFullyEnglish = chapters.length > 0 && chapters.every(chap => 
+          chap.versions && chap.versions.some((v: any) => v.lang === 'en' || v.id === 'translation')
+        );
+
+        if (!isFullyEnglish) {
+          bookStatus = {
+            ...bookStatus,
+            state: 'unfinished',
+            label: 'Unfinished',
+            description: 'The English translation is still being completed.',
+            icon: 'hourglass_empty'
+          };
+        }
 
         store.set({
           id: `${authorSlug}/${bookSlug}/index`,
@@ -124,6 +147,7 @@ const teiLoader = () => {
             book_status_label: bookStatus.label,
             book_status_description: bookStatus.description,
             book_status_icon: bookStatus.icon,
+            has_original,
             persons: bookData.persons,
             places: bookData.places,
             tocTree
@@ -171,6 +195,7 @@ const authors = defineCollection({
     book_status_label: z.string().optional(),
     book_status_description: z.string().optional(),
     book_status_icon: z.string().optional(),
+    has_original: z.boolean().optional(),
     chapter_order: z.number().optional(),
     toc_section: z.string().optional(),
     toc_title: z.string().optional(),

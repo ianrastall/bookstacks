@@ -169,6 +169,12 @@ const tocRoots = Array.isArray(entry.data.tocTree)
                 <span class="material-icons" aria-hidden="true">{statusIcon}</span>
                 {statusLabel}
               </span>
+              {book.data.has_original && (
+                <span class="book-status book-status-original" title="This book includes the original text" aria-label="Book status: Original Text">
+                  <span class="material-icons" aria-hidden="true">translate</span>
+                  Original Text
+                </span>
+              )}
             </a>
           );
         })}
@@ -191,6 +197,23 @@ const tocRoots = Array.isArray(entry.data.tocTree)
         </div>
       </div>
       <p class="tool-description">By {entry.data.author}</p>
+      
+      <div class="book-index-status" style="display: flex; gap: 8px; margin-bottom: 24px;">
+        <span
+          class:list={['book-status', `book-status-${entry.data.book_status || 'finished'}`]}
+          title={entry.data.book_status_description || ''}
+          aria-label={`Book status: ${entry.data.book_status_label || 'Finished'}`}
+        >
+          <span class="material-icons" aria-hidden="true">{entry.data.book_status_icon || 'check_circle'}</span>
+          {entry.data.book_status_label || 'Finished'}
+        </span>
+        {entry.data.has_original && (
+          <span class="book-status book-status-original" title="This book includes the original text" aria-label="Book status: Original Text">
+            <span class="material-icons" aria-hidden="true">translate</span>
+            Original Text
+          </span>
+        )}
+      </div>
 
       {entry.data.persons && Object.keys(entry.data.persons).length > 0 && (
         <details class="tei-registry">

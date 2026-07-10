@@ -25,6 +25,26 @@
         "book": {
           "type": "string"
         },
+        "book_status": {
+          "type": "string",
+          "enum": [
+            "unfinished",
+            "finished",
+            "fully-tagged"
+          ]
+        },
+        "book_status_label": {
+          "type": "string"
+        },
+        "book_status_description": {
+          "type": "string"
+        },
+        "book_status_icon": {
+          "type": "string"
+        },
+        "has_original": {
+          "type": "boolean"
+        },
         "chapter_order": {
           "type": "number"
         },

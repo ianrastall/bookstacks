@@ -14,7 +14,7 @@ const LANG_NAMES: Record<string, string> = {
   pt: 'Portuguese'
 };
 
-const TOC_LANG_ORDER = ['grc', 'en', 'es', 'fr', 'pt', 'it', 'la', 'ru', 'de'] as const;
+const TOC_LANG_ORDER = ['en', 'grc', 'es', 'fr', 'pt', 'it', 'la', 'ru', 'de'] as const;
 type TocLang = typeof TOC_LANG_ORDER[number];
 
 type Version = {

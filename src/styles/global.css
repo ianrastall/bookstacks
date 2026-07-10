@@ -420,6 +420,11 @@ textarea:focus-visible {
   color: var(--success);
 }
 
+.book-status-original {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  color: var(--accent);
+}
+
 .category-header {
   display: flex;
   justify-content: space-between;
