@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lovers</title>
+        <author>
+          <persName>Plato<note type="dates">427 BCE-347 BCE</note></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Bookstacks</publisher>
+        <availability status="free">
+          <p>AI-made English translation for Bookstacks from the Ancient Greek source text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>English translation aligned to plato_lovers_grc.xml, preserving Stephanus section numbering.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" n="1">
+        <head>Section 132</head>
+        <p><pb n="132"/>SOCRATES. I went into the grammar school of Dionysius, and there I saw the most beautiful of the young men, in their appearance and noble birth, and their lovers as well. Two of the youths happened to be arguing, but about what exactly I could not clearly hear. It appeared, however, that they were disputing either about Anaxagoras or Oenopides, for they were drawing circles and demonstrating certain inclinations with their hands, bending forward with great earnestness. 
+I sat down beside the lover of one of the boys and nudged him, asking what the youths were so focused on, and whether it was something so great and beautiful that they were giving it such intense attention. 
+"Great and beautiful?" he replied. "They are just babbling about astronomical matters and philosophizing." 
+I was surprised by his answer and said: "My young friend, do you think philosophizing is a bad thing? Why do you speak so harshly?" 
+Another person sitting near him, who was a rival lover of the same boy, heard my question and said: "Socrates, you are not doing yourself a favor by asking him whether he thinks philosophy is a bad thing. Do you not know that he has spent his whole life practicing wrestling, gorging himself, and sleeping? Why would you expect any other answer from him than that philosophy is bad?"</p>
+      </div>
+      <div type="chapter" n="2">
+        <head>Section 133</head>
+        <p><pb n="133"/>SOCRATES. This second man had spent his time focusing on intellectual pursuits, rather than physical training. So I decided it was best to leave the one who had spoken ill of philosophy alone, since he did not even claim to be knowledgeable in words, but only in physical deeds, and instead to question the one who claimed to be wiser, to see if I could learn anything from him. 
+"The question I asked," I said, "was addressed in common. But since you seem to pride yourself on giving a better answer, I ask you the same question: do you consider philosophy to be a noble and honorable pursuit?"
+At this point, the two youths overheard our conversation, stopped their dispute, and turned to listen to us. What their lovers felt, I do not know, but I was quite struck with awe—as I always am when confronted with the young and beautiful. The intellectual lover seemed to share my feelings, but answered proudly. "Socrates," he said, "if I ever consider philosophy to be a bad thing, I would no longer consider myself a human being, nor would I consider anyone else who felt that way to be one"—pointing at his rival.
+"So philosophy seems to you to be a beautiful thing?" I asked.
+"Indeed," he replied.
+"Well," said I, "is it possible to know whether a thing is beautiful or ugly if one does not even know what the thing itself is?"
+"No," he said.
+"Then do you know what philosophy is?" I asked.
+"Certainly I do," he said.
+"What is it, then?"
+"Exactly what Solon said it was. Solon said: 'As I grow old, I constantly learn many things.' And I believe a man who intends to philosophize should always be learning something, whether he is young or old, so that he may learn as many things as possible in his life."
+At first I thought he had spoken well, but after considering it, I asked him: "Do you believe that philosophy is simply a matter of learning a great deal?"
+"Yes, absolutely," he said.
+"And do you believe philosophy is merely an honorable thing, or is it also a good thing?"
+"A very good thing indeed," he replied.
+"Is this characteristic unique to philosophy, or do you find it in other pursuits as well? For example, do you consider the love of gymnastics to be a good thing, as well as an honorable one?"</p>
+      </div>
+      <div type="chapter" n="3">
+        <head>Section 134</head>
+        <p><pb n="134"/>SOCRATES. "I say very jokingly," he replied, turning to his rival, "that to this man here, it is neither good nor honorable, but to you, Socrates, I say it is both good and honorable."
+"Then do you consider the love of gymnastics to mean loving a great deal of exercise?" I asked.
+At this, the athletic lover spoke up. "By Zeus, Socrates," he said, "you hit the nail on the head! As the proverb goes, 'a pig might know as much!' Any pig would know that loving a great deal of exercise is not what makes gymnastics good."
+"Well," I said to the intellectual, "since this man disagrees, what do you say? Should we have a moderate amount of exercise, or a great deal?"
+"I think a moderate amount," the intellectual conceded.
+"And what about food? Should we eat a great deal, or a moderate amount?"
+"A moderate amount," he agreed.
+"And is this true of all other physical things—that the moderate amount benefits the body, whereas the great or small amount harms it?"
+"Yes," he agreed, "the moderate amount is best."
+"Then what about the soul?" I asked. "Do you think a great deal of learning benefits the soul, or a moderate amount?"
+"A moderate amount," he said.
+"Then if a moderate amount of learning is what is beneficial, who is the right person to tell us what this moderate amount is? In the case of the body, we go to the trainer or doctor."
+"Yes, the doctor or trainer," he agreed.
+"And in the case of sowing seeds, who knows the moderate amount?"
+"The farmer."
+"And who knows the moderate amount of learning that benefits the soul?"</p>
+      </div>
+      <div type="chapter" n="4">
+        <head>Section 135</head>
+        <p><pb n="135"/>SOCRATES. At this point, both of them were stumped. So I, wishing to help them out, said: "Since we cannot find the answer, let us look at it this way. What kinds of things should the philosopher learn, since he cannot learn everything?"
+The intellectual replied, "He should learn the most beautiful and fitting disciplines, those from which he will gain the greatest reputation for philosophy. And he will gain the greatest reputation if he appears to be experienced in all the arts, or at least the most respectable ones. Therefore, he should learn what is appropriate for a free man to know, which means understanding the theories of the arts, though not necessarily the practical execution."
+"I see," I said. "You mean that he should be like the pentathlete in the games. A pentathlete is second-best in each individual event—like running or wrestling—compared to the specialist, but he is better than all the other athletes in the combined events. Is this the sort of thing you mean by philosophy?"
+"Exactly," he said. "You have grasped my meaning perfectly. The philosopher is someone who understands the theories of the arts but is second to the experts in practical matters."
+"Let us see if you are right about this," I said. "Do you consider good men to be useful or useless?"
+"Useful, certainly," he replied.
+"And if the good are useful, are the bad useless?"
+"Yes."
+"And do you consider philosophers to be useful men?"
+"I consider them the most useful of all."
+"But let us see if what you say is true. How can they be useful to us if they are second-best in everything? If you were sick, would you call for a philosopher, who is second-best in medicine, or a doctor?"
+"I would call a doctor," he admitted.</p>
+      </div>
+      <div type="chapter" n="5">
+        <head>Section 136</head>
+        <p><pb n="136"/>SOCRATES. "And if you were on a ship in a storm, would you trust the philosopher or the pilot?"
+"The pilot," he said.
+"And if you were building a house, would you hire the philosopher or the builder?"
+"The builder."
+"And isn't it the same in all other matters? As long as there is an expert, the philosopher is useless, because he is only second-best."
+"It appears so," he agreed.
+"Then the philosopher seems to be a useless person, my friend. For there are always experts available in the various arts, and we agreed that the good men are useful, and the bad are useless."
+The intellectual lover was compelled to agree to this, though reluctantly.
+"But let me ask you this," I continued. "Is it the same art that knows how to punish dogs and horses correctly, and also how to make them better?"
+"Yes, it is the same."
+"And is this the same art that knows how to distinguish the good from the bad?"
+"Yes."
+"And does this apply to humans as well? Is the art that makes humans better the same one that knows how to punish them properly and distinguish the good from the bad?"
+"It is," he said.
+"And the art that applies to one human, does it also apply to many? And the one that applies to many, does it apply to one?"
+"Yes."
+"And the same is true for horses and everything else?"
+"Yes."</p>
+      </div>
+      <div type="chapter" n="6">
+        <head>Section 137</head>
+        <p><pb n="137"/>SOCRATES. "Now, what do we call the art by which people correctly punish the lawless and wicked in cities? Isn't it the art of judging, or justice?"
+"Yes, it is justice."
+"And is the art by which we distinguish the good from the bad anything other than justice?"
+"No, it is the same."
+"And we agreed that the same art that applies to one applies to many. So the art by which a man manages a city well—which we call the art of a statesman or a king—is the same art by which a man manages his own household well, which we call the art of a household manager or master."
+"It seems so."
+"Then the art of a king, a statesman, a master, a household manager, and a judge are all the same art?"
+"Yes."
+"So is it fitting for the philosopher to be second-rate in these matters? If a judge is passing a sentence, should the philosopher stand by and offer only second-best advice, or should he be the one to give the best advice?"
+"He should give the best advice."
+"And what if a king or a statesman is deliberating on matters of state? Is it appropriate for the philosopher to be second-best in these matters, or should he be the expert?"
+"He should be the expert, Socrates."
+"Therefore, my friend, philosophy is far from being a matter of knowing a little about everything or being a pentathlete who is second-best. In the most important matters—those concerning justice and the management of cities and households—the philosopher must not be second to anyone. He must be the true expert, the one who possesses the supreme art."</p>
+      </div>
+      <div type="chapter" n="7">
+        <head>Section 138</head>
+        <p><pb n="138"/>SOCRATES. "And what do we say about self-control? Is self-control the knowledge by which a person knows himself, or is it something else?"
+"It is the knowledge by which a person knows himself," he answered.
+"And is knowing oneself the same as knowing what one knows and what one does not know?"
+"Yes."
+"And isn't this what we just agreed upon? The person who knows how to punish others must first know himself, and he must be able to distinguish the good from the bad. And this requires the very same art."
+"It does," he agreed.
+"So justice, self-control, the art of a statesman, the art of a king, and the art of a household manager are all one and the same art. And this is the most beautiful and most important of all arts."
+"I agree."
+"Then if a philosopher is to be truly useful, he cannot be a mere spectator or a second-rate amateur in this art. He must be the master of it."
+"That seems to be the logical conclusion," he said.
+"So if someone claims that philosophy consists of learning many arts and being second-best in them, he is entirely wrong. True philosophy is not about dabbling in many things, but about mastering the single most important art—the art of justice and self-control, which allows a man to manage himself, his household, and his city."</p>
+      </div>
+      <div type="chapter" n="8">
+        <head>Section 139</head>
+        <p><pb n="139"/>SOCRATES. When I had said these things, the intellectual lover, who had previously claimed that the philosopher must learn many things and be a pentathlete, was put to shame and remained silent. He realized that his definition of philosophy had been thoroughly refuted.
+But the other lover, the athletic one who had spoken ill of philosophy, now rejoiced and praised my words. And the other people present also expressed their approval of the argument. Thus, the intellectual lover was silenced, and the athletic one felt vindicated, though perhaps neither fully understood the true depths of the philosophy we had just discussed.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
