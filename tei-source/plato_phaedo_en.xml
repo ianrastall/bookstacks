@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Phaedo</title>
+        <author>
+          <persName>Plato<note type="dates">427 BCE-347 BCE</note></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Bookstacks</publisher>
+        <availability status="free">
+          <p>AI-made English translation for Bookstacks from the Ancient Greek source text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>English translation aligned to plato_phaedo_grc.xml, preserving Stephanus section numbering.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" n="1">
+        <head>Section 57</head>
+        <p><pb n="57"/>ECHECRATES. Were you there yourself, Phaedo, with Socrates on that day when he drank the poison in the prison, or did you hear about it from someone else?</p>
+        <p>PHAEDO. I was there myself, Echecrates.</p>
+        <p>ECHECRATES. What were the things the man said before his death? And how did he meet his end? I would gladly hear it. For these days, hardly any citizen of Phlius visits Athens, nor has any stranger arrived from there in a long time who could give us a clear account of the events, other than the mere fact that he drank the poison and died. They had nothing further to tell us.</p>
+        <p>PHAEDO. Did you not even hear the circumstances of his trial?</p>
+        <p>ECHECRATES. Yes, someone reported that to us. And we wondered why, since the trial had already taken place, he appears to have died a long time afterward. What was the reason for this, Phaedo?</p>
+        <p>PHAEDO. It was due to a stroke of fortune, Echecrates. For it happened that the stern of the ship the Athenians send to Delos was crowned on the day before his trial.</p>
+        <p>ECHECRATES. What ship is that?</p>
+        <p>PHAEDO. The Athenians say this is the very ship in which Theseus once set sail for Crete with the "twice seven" youths, saving both them and himself. It is said that they vowed to Apollo back then that if they were saved, they would send an annual sacred mission to Delos. They have sent this mission to the god every year since, right up to the present day. 
+Whenever this mission begins, it is their law to keep the city pure during the entire period and to execute no one publicly until the ship reaches Delos and returns here. Sometimes this takes a long time, if the winds delay them. The mission begins when the priest of Apollo crowns the stern of the ship. As I said, this happened the day before the trial. Because of this, Socrates spent a long time in prison between his trial and his death.</p>
+      </div>
+      <div type="chapter" n="2">
+        <head>Section 58</head>
+        <p><pb n="58"/>ECHECRATES. But what about the circumstances of his death itself, Phaedo? What was said and done, and who among his friends were with him? Or did the magistrates forbid them to be present, so that he died entirely without friends?</p>
+        <p>PHAEDO. Not at all. Some were present, and quite a few of them, in fact.</p>
+        <p>ECHECRATES. Please be eager to tell us everything as clearly as possible, unless you happen to have some pressing business.</p>
+        <p>PHAEDO. I have time, and I will try to narrate it to you. For recalling Socrates to mind, whether speaking myself or listening to another, is always the most pleasant thing for me.</p>
+        <p>ECHECRATES. Well, Phaedo, you will have listeners who feel the same way. So try to speak as precisely as you can about everything.</p>
+        <p>PHAEDO. Let me tell you, I experienced strange emotions being present there. I felt no pity, as one might expect for someone present at the death of an intimate friend. For the man appeared truly happy to me, Echecrates, both in his manner and his words, so fearlessly and nobly did he meet his end. It seemed to me that even in departing for Hades, he was not going without divine providence, and that once he arrived there, he would fare well, if anyone ever did. That is why no feeling of pity entered me, as might seem natural for one present at a tragedy.
+Nor, on the other hand, did I feel the usual pleasure of being occupied with philosophy—for our discussions were indeed of that kind. Instead, an entirely unusual mixture of feelings possessed me, a strange blend of both pleasure and pain simultaneously, reflecting that he would soon be dead. And all of us present were affected in much the same way, sometimes laughing, sometimes weeping; but especially one of us, Apollodorus—you know the man and his nature, I am sure.</p>
+        <p>ECHECRATES. How could I not?</p>
+        <p>PHAEDO. He was completely overcome by these emotions, and I myself and the others were also deeply unsettled.</p>
+        <p>ECHECRATES. Who exactly were present, Phaedo?</p>
+        <p>PHAEDO. Of the local Athenians, this Apollodorus was there, and Critobulus and his father Crito. Also Hermogenes, Epigenes, Aeschines, and Antisthenes. Ctesippus the Paeanian was there, as well as Menexenus and some other local men. But Plato, I believe, was sick.</p>
+        <p>ECHECRATES. Were there any foreigners present?</p>
+        <p>PHAEDO. Yes, Simmias the Theban, and Cebes, and Phaedondes. Also Euclides and Terpsion from Megara.</p>
+        <p>ECHECRATES. What about Aristippus and Cleombrotus? Were they there?</p>
+        <p>PHAEDO. No, they were not. They were said to be in Aegina.</p>
+        <p>ECHECRATES. Was anyone else present?</p>
+        <p>PHAEDO. I think these are just about the men who were there.</p>
+        <p>ECHECRATES. Well then. What do you say the discussions were about?</p>
+      </div>
+      <div type="chapter" n="3">
+        <head>Section 59</head>
+        <p><pb n="59"/>PHAEDO. I will try to narrate the whole story to you from the beginning. We were all constantly in the habit, even on the previous days, of visiting Socrates. We would gather at dawn in the court where the trial took place, for it was near the prison. We would wait around each morning conversing until the prison was opened, for it was never opened very early. When it did open, we would go in to Socrates and spend most of the day with him.
+On that particular day, we gathered even earlier. For the day before, as we were leaving the prison in the evening, we learned that the ship from Delos had arrived. So we instructed each other to arrive at the usual place as early as possible. When we got there, the porter who usually answered the door came out and told us to wait and not go in until he called us. "For the Eleven," he said, "are unbinding Socrates and giving orders that he must die today."
+Not long after, he returned and told us to enter. Going in, we found Socrates newly unbound, and Xanthippe—you know her—sitting beside him, holding his little child. When Xanthippe saw us, she cried out aloud and said the sort of things women usually say: "O Socrates, this is the last time your friends will speak to you, and you to them!"
+Socrates looked at Crito and said, "Crito, let someone take her home." So some of Crito's servants led her away crying and beating her breast.</p>
+      </div>
+      <div type="chapter" n="4">
+        <head>Section 60</head>
+        <p><pb n="60"/>Socrates sat up on the bed, bent his leg, rubbed it with his hand, and while rubbing it said: "What a strange thing this seems to be, gentlemen, this thing men call pleasure! How remarkably it is related to what seems its opposite, pain! The two are never willing to be present in a human being at the same time, yet if someone pursues one of them and catches it, he is almost always compelled to catch the other as well, as if the two were joined together at one head. 
+I think," he said, "that if Aesop had noticed them, he would have composed a fable about how the god, wishing to settle their quarrel and being unable to do so, fastened their heads together. And so, wherever one goes, the other follows. That is exactly what seems to have happened to me just now. The pain in my leg from the fetter has departed, and the pleasure has apparently followed right behind it."
+Cebes interrupted and said, "By Zeus, Socrates, it was good you reminded me. Several people have been asking me about the poems you recently composed—turning Aesop's fables into verse and composing the prelude to Apollo. Evenus asked me just the other day what your intention was in composing them now that you are here in prison, when you had never composed poetry before. So if you care that I have an answer for Evenus when he asks me again—and I know he will—tell me what I should say."
+"Tell him the truth, Cebes," said Socrates. "I did not compose them because I wanted to rival him or his poems, for I knew that would not be easy. Rather, I was trying to discover the meaning of certain dreams, and fulfilling a sacred duty in case these dreams were commanding me to make this kind of music. The dreams were like this: often in my past life the same dream visited me, appearing in different forms but always saying the same thing: 'Socrates, make music and work at it.' 
+Previously, I assumed that the dream was simply encouraging and urging me on in what I was already doing—just as people cheer on runners in a race. I thought it was urging me to continue making music, believing that philosophy is the greatest music and that this was what I was practicing. 
+But now, after the trial occurred and the festival of the god delayed my death, I thought that if perhaps the dream was ordering me to make popular music, I must not disobey, but compose. For it seemed safer not to depart before I had absolved myself and purified my conscience by composing poems in obedience to the dream."</p>
+      </div>
+      <div type="chapter" n="5">
+        <head>Section 61</head>
+        <p><pb n="61"/>"So first I composed a poem to the god whose festival it was. And after the god, realizing that a poet, if he is to be a poet, must compose stories and not arguments, and since I was not a maker of stories myself, I took the stories of Aesop that I had at hand and knew, and I set the first ones I came across to verse.
+So tell Evenus this, Cebes, and bid him farewell, and tell him to follow me as quickly as he can, if he is sensible. I am departing today, it seems; for so the Athenians command."
+Simmias said, "What an advice you are giving Evenus, Socrates! I have met the man many times, and from what I have seen of him, he will certainly not be very willing to follow your advice."
+"Why?" said Socrates. "Is not Evenus a philosopher?"
+"I believe so," said Simmias.
+"Then Evenus will be willing, and so will everyone who engages in this matter worthily. However, he will perhaps not do violence to himself, for they say that is not lawful." While speaking, he lowered his feet to the ground, and sitting thus, he conducted the rest of the discussion.
+Cebes asked him, "How can you say this, Socrates? How can it not be lawful to do violence to oneself, and yet you say that the philosopher should be willing to follow the dying?"
+"What, Cebes? Have you and Simmias not heard about these things from your associate Philolaus?"
+"Nothing clear, Socrates."
+"Well, I myself only speak of them from hearsay. Still, I do not begrudge telling you what I happen to have heard. Besides, it seems most fitting for one who is about to make the journey there to investigate and tell stories about that journey, and what sort of journey we think it is. What else could one do in the time until sunset?"
+"Why exactly do they say it is not lawful to kill oneself, Socrates? As you just asked, I too have heard Philolaus say this when he was living among us, and I have heard others say it too: that one must not do this. But I have never heard anything clear about it from anyone."</p>
+      </div>
+      <div type="chapter" n="6">
+        <head>Section 62</head>
+        <p><pb n="62"/>"You must be eager," said Socrates, "and perhaps you will hear. Now it might seem wondrous to you if this alone among all things is absolute—that it is never better for a man to die than to live, as it sometimes is in other matters. And if for those for whom it is better to die, it seems wondrous to you that it is impious for them to do this good to themselves, but they must wait for another benefactor."
+Cebes smiled gently and said in his own dialect, "Zeus knows!"
+"Indeed," said Socrates, "put that way, it does seem unreasonable. But perhaps there is some reason in it. The teaching spoken in secret about this matter—that we human beings are in a kind of prison, and one must not free oneself or run away—seems to me a great saying and difficult to see through. But this much, Cebes, seems to me well said: that the gods are our caretakers, and we human beings are one of the gods' possessions. Does it not seem so to you?"
+"It does," said Cebes.
+"Therefore," said Socrates, "if one of your possessions were to kill itself without you indicating that you wished it to die, would you not be angry with it and punish it, if you had a punishment to inflict?"
+"Certainly," he said.
+"Then perhaps it is reasonable to say that a man must not kill himself before the god lays some necessity upon him, like the one present before us now."
+"Yes," said Cebes, "that seems reasonable. But what you said just now, Socrates—that philosophers ought to be willing and eager to die—that seems strange, if what we just agreed upon is true, that the god is our caretaker and we are his possessions. For it is unreasonable that the wisest men should not be aggrieved at leaving this service in which the best overseers of all, the gods, are watching over them. Surely they do not think they will care for themselves better when they are free. A foolish man might perhaps think he should run away from a master, not reflecting that one should never run away from a good master but stay as long as possible. But the sensible man would desire always to be beside one who is better than himself. Thus, Socrates, the opposite of what was just said seems probable: the wise should be grieved at dying, while the foolish should rejoice."</p>
+      </div>
+      <div type="chapter" n="7">
+        <head>Section 63</head>
+        <p><pb n="63"/>When Socrates heard this, he seemed to me to be pleased by Cebes's earnestness. He looked at us and said, "Cebes is always tracking down some argument, and is not easily persuaded at once by whatever anyone says."
+Simmias added, "But this time, Socrates, it seems to me too that Cebes has a point. Why would truly wise men wish to run away from masters better than themselves and gladly rid themselves of them? And I think Cebes is aiming his argument at you, because you endure leaving us so easily, as well as leaving the gods, whom you yourself agree are good rulers."
+"You speak justly," said Socrates. "I think you mean that I must defend myself against this charge as if in a law court."
+"Exactly," said Simmias.
+"Come then," said Socrates, "let me try to defend myself more persuasively before you than I did before the judges. For if I did not expect, Simmias and Cebes, first of all to go to other gods who are both wise and good, and secondly, to men who have died and are better than the men here, I would be wrong not to be aggrieved at dying. But as it is, know well that I expect to join the company of good men—though this I would not affirm with absolute certainty—but that I shall go to gods who are absolutely good masters, know well that I would affirm this as surely as any such thing. So because of this, I am not as aggrieved, but I have good hope that there is something in store for those who die, and, as was said long ago, something much better for the good than for the bad."
+"Well then, Socrates," said Simmias, "do you intend to keep this thought to yourself as you depart, or will you share it with us? For it seems to me that this is a good common to us all. And at the same time, it will be your defense if you persuade us of what you say."
+"I will try," he said. "But first let us look at Crito here, who seems to have been wanting to say something for a while. What is it, Crito?"
+"What else, Socrates," said Crito, "except that the man who is to give you the poison has been telling me for some time to advise you to converse as little as possible. He says that people get heated by talking too much, and one must not bring anything like that to the poison. Otherwise, those who do such things sometimes have to drink it two or even three times."
+Socrates replied, "Let him be. Let him just prepare his own business and be ready to give it twice, or even three times if necessary."
+"I knew it," said Crito, "but he has been bothering me for a while."
+"Let him be," Socrates said. "Now I wish to render an account to you, my judges, to show why it seems reasonable to me that a man who has genuinely spent his life in philosophy should be confident when about to die, and hopeful that he will win the greatest goods there after he has died. How this could be so, Simmias and Cebes, I will try to explain.</p>
+      </div>
+      <div type="chapter" n="8">
+        <head>Section 64</head>
+        <p><pb n="64"/>"Those who practice philosophy rightly are secretly practicing nothing else but dying and being dead. But if this is true, it would be strange if they spent their whole lives eagerly anticipating this one thing, yet when it came, they were aggrieved at what they had so long anticipated and practiced."
+Simmias laughed and said, "By Zeus, Socrates, you have made me laugh, though I was not much in the mood for laughing just now. I think the multitude, if they heard what you just said about philosophers, would agree with you completely, and our people back home would say, 'Very true! Philosophers are indeed half-dead, and we are well aware that they deserve to be completely dead!'"
+"And they would be speaking the truth, Simmias—except they are not 'well aware.' For they do not know in what sense true philosophers are half-dead, or in what sense they deserve death, or what kind of death. But let us bid farewell to them and converse among ourselves. Do we believe death is a real thing?"
+"Certainly," said Simmias.
+"Is it anything else than the separation of the soul from the body? And being dead is this: the body having come to be by itself, apart from the soul, and the soul having come to be by itself, apart from the body. Is death anything else but this?"
+"No, it is exactly that," he said.
+"Consider then, my good friend, if you share my opinion on this; for from this I think we will gain a better understanding of our investigation. Does it seem to you characteristic of a philosopher to be earnest about the so-called pleasures—for instance, the pleasures of food and drink?"
+"Least of all, Socrates," said Simmias.
+"What about the pleasures of sex?"
+"Not at all."
+"What about the other cares of the body? Do you think such a man values them highly? For example, the acquisition of distinguished clothes and shoes and other bodily adornments—does he value them, or does he despise them, except insofar as there is a great necessity to use them?"
+"I think the true philosopher despises them," he said.
+"So does it not seem to you that the entire concern of such a man is not with the body, but rather, as far as he can, he frees himself from it and turns his attention toward the soul?"
+"It does."
+"Therefore, is it not clear in these very matters that the philosopher above all other men strives to release the soul from its communion with the body?"
+"Clearly."
+"Yet it seems to the majority of mankind, Simmias, that whoever finds no pleasure in such things and takes no part in them is not worthy to live; but that a man who cares nothing for the pleasures that come through the body is leaning closely toward death."
+"You speak the exact truth."</p>
+      </div>
+      <div type="chapter" n="9">
+        <head>Section 65</head>
+        <p><pb n="65"/>"Now, what about the acquisition of wisdom? Is the body a hindrance or not, if one takes it along as a companion in the investigation? I mean something like this: do sight and hearing provide any truth to human beings? Or are not the poets forever harping on this theme, that we hear and see nothing accurately? And if these bodily senses are not accurate or clear, the others will hardly be, for they are all inferior to these. Do you not think so?"
+"Very much so," he said.
+"When, then, does the soul grasp the truth? For whenever it attempts to examine anything along with the body, it is clearly deceived by it."
+"True."
+"Is it not in reasoning, if anywhere, that any of the realities become manifest to the soul?"
+"Yes."
+"And the soul reasons best when none of these things trouble it—neither hearing, nor sight, nor pain, nor any pleasure—but when it comes to be as much as possible by itself, bidding farewell to the body, and, with as little communion or contact with the body as possible, reaches out for reality."
+"That is so."
+"Therefore, does not the soul of the philosopher completely despise the body and flee from it, seeking to come to be by itself?"
+"It appears so."
+"What about these things, Simmias? Do we say there is such a thing as the Just itself, or not?"
+"We most certainly say so, by Zeus."
+"And the Beautiful, and the Good?"
+"Of course."
+"Have you ever seen any of these with your eyes?"
+"Never," he said.
+"Have you grasped them with any other bodily sense? I am speaking of all such things, like magnitude, health, strength, and in a word, the essence of everything—what each thing actually is. Is the truest nature of these things contemplated through the body? Or is it rather this way: whoever among us prepares himself to think most fully and precisely about each object of his inquiry will come closest to knowing it?"
+"Certainly."
+"And he would do this most purely who approaches each object as much as possible with thought alone, neither dragging sight into his thought, nor dragging any other sense along with his reasoning. But using pure thought alone by itself, he attempts to hunt down each pure reality by itself, having freed himself as much as possible from eyes and ears, and in a word, from the entire body, because the body confuses the soul and does not allow it to acquire truth and wisdom when associated with it. Is this not the man, Simmias, if anyone, who will hit upon reality?"
+"You speak extraordinarily truly, Socrates," said Simmias.</p>
+      </div>
+      <div type="chapter" n="10">
+        <head>Section 66</head>
+        <p><pb n="66"/>"Because of all this," said Socrates, "must not a certain opinion occur to genuine philosophers, so that they speak to one another somewhat like this: 'It seems a narrow path has been found to lead us out. For as long as we have the body, and our soul is kneaded together with this evil, we will never adequately acquire what we desire, which we say is the truth. For the body provides us with countless distractions because of its necessary nourishment. Moreover, if any diseases fall upon it, they impede our hunt for reality. It fills us with loves, desires, fears, all kinds of illusions, and endless nonsense, so that, as the saying goes, because of the body we can scarcely ever think of anything at all.
+'For whence do wars, factions, and battles arise, if not from the body and its desires? All wars are undertaken for the acquisition of wealth, and we are forced to acquire wealth because of the body, being slaves to its service. As a result, we have no leisure for philosophy because of all these things. And the worst of all is that if we do get some leisure from it and turn to some investigation, it interrupts us everywhere in our inquiries, creating noise and confusion, and amazing us so that we are unable to see the truth because of it.
+'But it has been genuinely shown to us that if we are ever going to know anything purely, we must be separated from the body and view things themselves with the soul itself. Then, it seems, we shall attain what we desire and what we say we are lovers of—namely, wisdom—not while we live, but only after we are dead, as the argument indicates. For if it is impossible to know anything purely while associated with the body, one of two things follows: either knowledge is nowhere to be acquired, or it is to be acquired only after death. For then the soul will be by itself, apart from the body, but not before.
+'And while we live, it seems we shall be closest to knowledge if we have the least possible communion and contact with the body, except what is strictly necessary, and do not infect ourselves with its nature, but keep ourselves pure from it until the god himself releases us. In this way, being pure and rid of the body's foolishness, we shall likely be with others of the same sort, and shall know through ourselves all that is unsullied—which is, presumably, the truth. For it is not permitted for the impure to grasp the pure.'
+I think, Simmias, that all true lovers of learning must say such things to one another and hold these beliefs. Does it not seem so to you?"</p>
+      </div>
+      <div type="chapter" n="11">
+        <head>Section 67</head>
+        <p><pb n="67"/>"Completely, Socrates."
+"Then if this is true, my friend, there is great hope for anyone who arrives where I am going, that there, if anywhere, he will adequately acquire that for which we have made such great effort in our past life. So the journey now commanded of me is undertaken with good hope, as it would be by any man who believes his mind has been prepared by being purified."
+"Certainly," said Simmias.
+"And does not purification consist exactly in what was mentioned in the old argument—in separating the soul from the body as much as possible, and accustoming it to gather and collect itself from all parts of the body, and to dwell as far as possible, both in the present and in the future, alone by itself, freed from the body as if from bonds?"
+"Exactly," he said.
+"And is this very thing not called death—the release and separation of the soul from the body?"
+"Entirely so," he said.
+"And as we assert, the true philosophers are those who are most eager to release it, and this very thing—the release and separation of the soul from the body—is the practice of philosophers. Is that not so?"
+"It appears so."
+"Would it not be ridiculous, then, as I said at the beginning, for a man to train himself his whole life to live as close to death as possible, and then be aggrieved when death comes to him?"
+"Ridiculous, of course."
+"In truth, then, Simmias," he said, "those who practice philosophy rightly are practicing dying, and to them least of all men is being dead terrible. Consider it this way: if they are everywhere at odds with their body and desire to have their soul by itself, would it not be great unreasonableness if, when this finally happens, they should fear and be aggrieved, instead of going gladly to a place where they have hope of attaining what they loved throughout their life—which is wisdom—and of being rid of the association with the thing they despised? 
+Many men, when their human loves—boyfriends, wives, or sons—have died, have been willing to descend voluntarily to Hades, drawn by the hope of seeing there those they desired, and being with them. Will a true lover of wisdom, who has firmly grasped this same hope that he will never find wisdom purely anywhere else but in Hades, be aggrieved at dying, and not go there gladly? We must believe he goes gladly, my comrade, if he is truly a philosopher. For he will firmly believe that nowhere else will he attain pure wisdom but there. And if this is so, as I just said, would it not be great unreasonableness if such a man feared death?"
+"Great indeed, by Zeus," he said.</p>
+      </div>
+      <div type="chapter" n="12">
+        <head>Section 68</head>
+        <p><pb n="68"/>"Is this not sufficient proof for you," Socrates said, "that if you see a man aggrieved when he is about to die, he was not a lover of wisdom, but a lover of the body? And this same man is probably also a lover of money, or a lover of honor, or both."
+"It is exactly as you say," he replied.
+"Now, Simmias," he said, "does not the virtue called courage belong especially to men of this philosophic disposition?"
+"Absolutely," he said.
+"And moderation—what the multitude calls moderation, the ability not to be swept away by desires, but to treat them lightly and properly—does this not belong only to those who most despise the body and live in philosophy?"
+"Necessarily," he said.
+"If you care to consider the courage and moderation of all other men, you will find it absurd."
+"How so, Socrates?"
+"You know that everyone else considers death one of the great evils?"
+"Indeed they do," he said.
+"Then when the brave among them endure death, they endure it out of fear of greater evils."
+"True."
+"Therefore, everyone except philosophers is brave through fear and dread. But it is surely absurd for a man to be brave through fear and cowardice."
+"Certainly."
+"What about their moderate men? Do they not suffer the same thing? Are they not moderate through a kind of self-indulgence? Though we say this is impossible, their foolish moderation still suffers from exactly this condition. Because they fear being deprived of certain pleasures, and desire them strongly, they abstain from some pleasures because they are mastered by others. They call being ruled by pleasures self-indulgence; yet they conquer certain pleasures only by being conquered by others. This is just what was said right now: they are somehow made moderate by self-indulgence."
+"So it seems."
+"My blessed Simmias, this may not be the correct exchange for virtue: exchanging pleasures for pleasures, pains for pains, fears for fears, greater for smaller, like coins. But there is only one valid coin for which all these things must be exchanged: wisdom. And all things bought and sold for this, and with this, are in truth courage, moderation, justice, and in short, true virtue—whether pleasures and fears and all such things are added to or taken away from it. 
+But if these are separated from wisdom and exchanged for one another, such virtue is a shadow-painting, truly slave-like, with nothing sound or true in it. But the truth is in reality a purification from all such things, and moderation, justice, courage, and wisdom itself are a kind of purification ritual. And perhaps those who established the mysteries for us were not insignificant men, but were long ago speaking in riddles when they said that whoever arrives in Hades uninitiated and unpurified will lie in mud, but the one who arrives purified and initiated will dwell with the gods."</p>
+      </div>
+      <div type="chapter" n="13">
+        <head>Section 69</head>
+        <p><pb n="69"/>"For, as those concerning the mysteries say, 'the thyrsus-bearers are many, but the Bacchants are few.' And these, in my opinion, are none other than those who have practiced philosophy rightly. I have left nothing undone in my life, but have eagerly striven in every way to become one of them. Whether I strove correctly and achieved anything, we shall know clearly when we arrive there, if god wills it, a little while from now.
+This is my defense, Simmias and Cebes, as to why it is reasonable for me to leave you and my masters here without being aggrieved or distressed, since I believe I will find good masters and friends there no less than here. The multitude is unpersuaded of this; but if I am any more persuasive to you in my defense than I was to the Athenian judges, it would be well."
+When Socrates had said this, Cebes took up the word and said: "Socrates, the rest of what you said seems beautifully spoken to me. But the things concerning the soul cause men much disbelief. They fear that when it is released from the body, it may no longer exist anywhere, but that on the very day the human being dies, the soul is destroyed and perishes. They fear that immediately upon leaving the body, it disperses like breath or smoke, flying away, and is nothing anywhere anymore. 
+If it could truly gather itself together by itself, freed from those evils you just described, there would be great and beautiful hope, Socrates, that what you say is true. But this perhaps requires no small amount of reassurance and faith: that the soul exists after the person has died, and that it possesses some power and wisdom."
+"You speak the truth, Cebes," said Socrates. "But what shall we do? Do you wish us to converse about these very things, to see whether it is likely to be so or not?"
+"I certainly would gladly hear what opinion you hold about them," said Cebes.
+Socrates replied, "I do not think anyone hearing us now, not even a comic poet, could say I am babbling or conversing about things that do not concern me. So if you wish, we must examine this thoroughly. Let us examine it in this way: whether the souls of the dead exist in Hades or not."</p>
+      </div>
+      <div type="chapter" n="14">
+        <head>Section 70</head>
+        <p><pb n="70"/>"We can recall an ancient story that says souls arrive there from here, and then come back here again and are born from the dead. If this is so—that the living are born from the dead—must not our souls exist there? For they could not be born again if they did not exist. This would be a sufficient proof that these things are so, if it became truly manifest that the living are born from nothing else but the dead. But if this is not the case, we will need another argument."
+"Certainly," said Cebes.
+"To understand this more easily," said Socrates, "do not consider it only in human beings, but in all animals and plants. In everything that comes into being, let us see if all things that have opposites come into being from nowhere else but from their opposites. For example, the noble is opposite to the shameful, the just to the unjust, and there are countless others. Let us see whether it is necessary that whatever has an opposite comes to be from nothing else but from its opposite.
+When something becomes larger, must it not have previously been smaller, and then become larger from being smaller?"
+"Yes."
+"And if it becomes smaller, it must have previously been larger, and become smaller afterward?"
+"It is so," he said.
+"And the weaker from the stronger, and the swifter from the slower?"
+"Certainly."
+"And if something becomes worse, does it not come from being better? And if more just, from more unjust?"
+"How could it not?"
+"Then we have adequately established this: all things come to be in this way, opposites from opposites."
+"Entirely."
+"What about the processes between them? Between every pair of opposites, since they are two, are there not two processes of coming to be, from one to the other, and back from the second to the first? Between a larger thing and a smaller thing, there is increasing and decreasing, and so we call one process increasing and the other decreasing."
+"Yes," he said.
+"And being separated and being combined, cooling and heating, and all such things—even if we do not always have names for them, must it not necessarily be so in fact? That they come into being from each other, and there is a coming-to-be involving both of them?"
+"Certainly," he said.</p>
+      </div>
+      <div type="chapter" n="15">
+        <head>Section 71</head>
+        <p><pb n="71"/>"Well then," he said, "is there an opposite to living, just as sleeping is the opposite to being awake?"
+"Certainly," he said.
+"What is it?"
+"Being dead," he said.
+"Do these come from each other, since they are opposites, and are there two processes of coming to be between them, since they are two?"
+"Of course."
+"I will tell you one of the pairs of opposites I just mentioned," said Socrates, "and its processes. You tell me the other. I say there is sleeping and being awake, and from sleeping comes being awake, and from being awake comes sleeping. The processes between them are falling asleep and waking up. Is this clear to you or not?"
+"Very clear."
+"Now you tell me similarly about life and death. Do you not say that being dead is the opposite to living?"
+"I do."
+"And that they come from each other?"
+"Yes."
+"From the living, what comes to be?"
+"The dead," he said.
+"And from the dead?"
+"I must agree that the living come to be."
+"So from the dead, Cebes, living things and living people come to be?"
+"It appears so," he said.
+"Then our souls exist in Hades," said Socrates.
+"It seems likely."
+"Regarding the two processes between them, is not one of them perfectly clear? For dying is certainly clear, is it not?"
+"Certainly," he said.
+"What shall we do then? Shall we not assign an opposing process to balance it? Or is nature lame in this regard? Must we not assign some process opposite to dying?"
+"We must."
+"What is it?"
+"Coming back to life."
+"Then if there is a coming back to life, it would be a coming-to-be from the dead into the living?"
+"Yes."
+"So we are agreed on this as well: the living have come from the dead no less than the dead have come from the living. And since this is so, it seemed to me a sufficient proof that the souls of the dead must exist somewhere, from whence they are born again."
+"It seems to me, Socrates," he said, "that this necessarily follows from what we have agreed."
+"Consider this too, Cebes, that we have not agreed unjustly, as it seems to me. If opposing things did not always balance each other in coming into being, as if moving in a circle, but coming into being went in a straight line from one thing to its opposite, without bending back to the first thing or making a turn—you understand that eventually all things would take on the same shape, suffer the same state, and cease coming into being?"</p>
+      </div>
+      <div type="chapter" n="16">
+        <head>Section 72</head>
+        <p><pb n="72"/>"What do you mean?" he asked.
+"It is not difficult to understand. If there were falling asleep, but no waking up to balance it, you know that in the end all things would make the story of Endymion seem like a joke, and he would be nowhere to be seen, because everything else would have suffered the same fate as him: sleeping. And if all things were combined, but never separated, the saying of Anaxagoras would quickly come to pass: 'All things together.' 
+In the same way, my dear Cebes, if all things that partake of life were to die, and having died, the dead remained in that form and did not come back to life, is there any strong necessity that all things would eventually be dead and nothing would be living? For if living things came from something else, and then those living things died, what could prevent all things from being spent in death?"
+"Nothing at all, Socrates, it seems to me. What you say seems to be completely true."
+"Yes, Cebes," he said, "it seems to me beyond any doubt, and we are not deceiving ourselves in agreeing to this. But it is truly the case: there is a coming back to life, the living are born from the dead, and the souls of the dead exist, and the good souls fare better, while the bad souls fare worse."
+Cebes added, "Yes, and according to that other argument you are often accustomed to speak of, Socrates—if it is true—that our learning is actually nothing other than recollection. According to this, we must have learned at some previous time what we now recollect. This would be impossible unless our soul existed somewhere before it was born in this human form. So from this argument too, the soul appears to be something immortal."
+"But Cebes," interrupted Simmias, "what are the proofs of this? Remind me, for I do not remember very well right now."
+"It relies on one excellent argument," said Cebes. "When people are questioned, if someone asks them properly, they say everything just as it is. If they did not have knowledge and correct reason within them, they could not do this. And if one takes them to geometric diagrams or something similar, it becomes clearest of all that this is so."</p>
+      </div>
+      <div type="chapter" n="17">
+        <head>Section 73</head>
+        <p><pb n="73"/>"If you are not persuaded by that, Simmias," said Socrates, "see if you agree when examining it this way. You are skeptical about how what is called learning is recollection?"
+"I am not so much skeptical," said Simmias, "but I need to experience the very thing the argument is about: to recollect. Thanks to Cebes's undertaking, I almost remember and am persuaded already. Nevertheless, I would gladly hear how you would attempt to speak of it."
+"In this way," he said. "We agree, surely, that if someone is going to recollect something, he must have known it at some previous time."
+"Certainly," he said.
+"Do we also agree on this: that whenever knowledge comes in a certain way, it is recollection? What way do I mean? Suppose someone, upon seeing, hearing, or receiving some other perception of a thing, not only knows that thing but also thinks of another thing, the knowledge of which is different. Would we not justly say that he recollected the thing he thought of?"
+"How do you mean?"
+"For example: knowledge of a man and knowledge of a lyre are different."
+"Of course."
+"You know what happens to lovers when they see a lyre, a cloak, or anything else their beloved is accustomed to use: they recognize the lyre, and simultaneously in their minds they grasp the form of the boy to whom the lyre belongs. This is recollection. Similarly, someone seeing Simmias often recollects Cebes, and there would be countless other examples."
+"Countless indeed, by Zeus," said Simmias.
+"Is this sort of thing not a kind of recollection? Especially when it happens concerning things that time and inattention have made one forget?"
+"Absolutely," he said.
+"What about this: is it possible, upon seeing a painted horse or a painted lyre, to recollect a man? Or upon seeing a painting of Simmias, to recollect Cebes?"
+"Yes, definitely."
+"And upon seeing a painting of Simmias, to recollect Simmias himself?"
+"It is possible," he said.</p>
+      </div>
+      <div type="chapter" n="18">
+        <head>Section 74</head>
+        <p><pb n="74"/>"Does it not follow from all this that recollection is sometimes caused by similar things, and sometimes by dissimilar things?"
+"It does."
+"But whenever one recollects something from similar things, must he not necessarily experience something further: must he not consider whether the similarity falls short in any way of the thing recollected, or not?"
+"Necessarily," he said.
+"Consider then," he said, "if this is so. We say there is something equal. I do not mean a stick equal to a stick, or a stone to a stone, or anything like that, but something else entirely beyond all these: the Equal itself. Shall we say it exists or not?"
+"We shall most certainly say it exists, by Zeus," said Simmias.
+"Do we know what it is?"
+"Certainly," he said.
+"From where did we get the knowledge of it? Was it not from the things we just mentioned: by seeing sticks or stones or other things that are equal, we thought of that Equal itself, which is different from them? Or does it not seem different to you? Look at it this way: do not equal stones and sticks, though they remain the same, sometimes appear equal to one person, but not to another?"
+"Certainly."
+"But what about Equals themselves? Have they ever appeared unequal to you? Has Equality ever appeared to be Inequality?"
+"Never, Socrates."
+"Then these equal things and the Equal itself are not the same."
+"Not at all, Socrates, it seems to me."
+"Yet it is from these equal things, which are different from that Equal, that you grasped and acquired the knowledge of it?"
+"You speak the exact truth," he said.
+"And it is either similar to them, or dissimilar?"
+"Certainly."
+"It makes no difference," he said. "As long as, upon seeing one thing, you think of another from that sight—whether similar or dissimilar—it is necessary that this was recollection."
+"Absolutely."
+"Now," he said, "what about our experience with equal pieces of wood and the equal things we mentioned just now? Do they appear to us to be equal in the same way the Equal itself is? Do they fall short of being like the Equal itself, or not?"
+"They fall very much short," he said.
+"Do we agree, then, that whenever someone seeing a thing considers, 'This thing I am looking at wishes to be like some other reality, but it falls short and cannot be like it, but is inferior'—must not the one considering this necessarily have previous knowledge of the thing he says it resembles but falls short of?"
+"Necessarily."
+"And is this what has happened to us concerning equal things and the Equal itself?"
+"Absolutely."
+"Therefore, we must necessarily have known the Equal itself before that time when we first saw equal things and considered that they all desired to be like the Equal, but fell short."
+"It is so."</p>
+      </div>
+      <div type="chapter" n="19">
+        <head>Section 75</head>
+        <p><pb n="75"/>"We also agree on this: we did not perceive this, nor could we have perceived it, from anything else but sight, touch, or some other sense—I am considering all the senses the same."
+"They are the same, Socrates, for the purposes of the argument."
+"But surely from our senses we must perceive that all sensibly equal things strive after that Equal itself, but fall short of it. Or how else shall we say it?"
+"Just so."
+"So before we began to see, hear, and use our other senses, we must have acquired the knowledge of the Equal itself—what it is—if we were going to refer the equal things from our senses to it, realizing that they all strive to be like it, but are inferior."
+"This is necessary from what has been said, Socrates."
+"Did we not begin seeing, hearing, and having our other senses immediately upon being born?"
+"Certainly."
+"But we had to acquire knowledge of the Equal before these, we say?"
+"Yes."
+"Therefore, it seems we must have acquired it before we were born."
+"It seems so."
+"If, then, we acquired it before being born, and were born possessing it, did we know, both before birth and immediately upon being born, not only the Equal, the Greater, and the Smaller, but all such things? For our argument now is no more about the Equal than about the Beautiful itself, the Good itself, the Just, the Holy, and, as I say, everything upon which we stamp the seal of 'what it itself is' in our questioning and answering. So we must necessarily have acquired knowledge of all these things before we were born."
+"That is so."
+"And if, having acquired it, we did not forget it, we would always be born knowing, and would know throughout life. For knowing is this: acquiring knowledge of something and not losing it. Is not losing knowledge what we call forgetting, Simmias?"
+"Most certainly, Socrates," he said.
+"But if, having acquired it before birth, we lost it upon being born, and later, by using our senses regarding these things, we recovered the knowledge we once previously had—would not what we call learning be the recovery of our own knowledge? And would we not be correct to call this recollection?"
+"Certainly."</p>
+      </div>
+      <div type="chapter" n="20">
+        <head>Section 76</head>
+        <p><pb n="76"/>"Because this appeared to be possible: upon perceiving something by sight or hearing or some other sense, one thinks of some other thing which he had forgotten, to which the perceived thing was related, whether dissimilar or similar. So, as I say, one of two things must be true: either we were all born knowing these things, and we all know them throughout life; or those who we say are learning later are simply recollecting, and learning would be recollection."
+"It is exactly so, Socrates."
+"Which do you choose, Simmias? Are we born knowing, or do we recollect later what we had acquired knowledge of earlier?"
+"I do not know what to choose at the moment, Socrates."
+"Well, what do you think about this? A man who knows should be able to give an account of what he knows, should he not?"
+"With great necessity, Socrates."
+"Do you think all men can give an account of these things we were just discussing?"
+"I wish they could," said Simmias. "But I fear much more that by this time tomorrow there will be no human being capable of doing so adequately."
+"So you do not think all men know these things, Simmias?"
+"By no means."
+"Then are they recollecting what they once learned?"
+"Necessarily."
+"When did our souls acquire the knowledge of these things? It cannot be since we were born as human beings."
+"No, indeed."
+"Then it was earlier."
+"Yes."
+"Therefore, Simmias, our souls existed even before they were in a human form, apart from bodies, and they possessed intelligence."
+"Unless we receive this knowledge at the very moment of birth, Socrates. That time still remains."
+"Very well, my comrade. But at what other time do we lose it? For we are not born possessing it, as we just agreed. Do we lose it at the exact same moment we receive it? Or can you mention some other time?"
+"No, Socrates, I did not realize I was talking nonsense."
+"Then this is how our situation stands, Simmias," he said. "If the things we are constantly talking about exist—a Beautiful, a Good, and every such reality itself—and if we refer all our sensory perceptions to this, discovering that it existed previously as ours, and we liken these sensory things to it, then just as surely as these things exist, so also must our soul have existed before we were born. But if these things do not exist, this argument would have been spoken in vain. Is this not so? Is there not an equal necessity that these things exist and that our souls existed before we were born, and if the one does not exist, neither does the other?"
+"It seems entirely clear to me, Socrates," said Simmias, "that the necessity is equal. The argument has taken refuge in the excellent position that our soul's existence before birth is tied to the existence of that reality you mention. For I find nothing so clearly true as this: that all such things—the Beautiful, the Good, and the others you just mentioned—most certainly exist. As far as I am concerned, the proof is adequate."
+"But what about Cebes?" said Socrates. "We must persuade Cebes as well."</p>
+      </div>
+      <div type="chapter" n="21">
+        <head>Section 77</head>
+        <p><pb n="77"/>"I think it is adequate for him too," said Simmias, "even though he is the most persistent of men in distrusting arguments. I think he has been sufficiently persuaded that our soul existed before we were born. But whether the soul will still exist after we die does not seem to me to have been proven, Socrates. The fear of the multitude that Cebes mentioned still remains: that when the human being dies, the soul is scattered and this is the end of its existence. For what prevents it from being born and constituted from somewhere else, and existing before it entered a human body, but once it enters and then leaves it, ending its existence and being destroyed itself?"
+"Well said, Simmias," said Cebes. "It seems we have proven only half of what is necessary—that our soul existed before birth. We must also prove that it will exist after we die no less than before we were born, if the proof is to be brought to completion."
+"It has already been proven, Simmias and Cebes," said Socrates, "if you are willing to combine this argument with the one we agreed upon earlier: that every living thing comes from the dead. For if the soul exists before birth, and if when it enters into life and being born it must necessarily come from death and from being dead, how is it not necessary that it must also exist after it dies, since it must be born again? The proof you ask for has already been provided.
+Nevertheless, I think you and Simmias would gladly press this argument further, because you have a childish fear that the wind might literally blow the soul apart and scatter it when it leaves the body, especially if one does not die in calm weather, but in some great storm."
+Cebes laughed and said, "Assume we are afraid, Socrates, and try to reassure us. Or rather, assume it is not us, but that there is perhaps a child within us who fears such things. Let us try to persuade him not to fear death as if it were a bogeyman."
+"You must sing charms to him every day," said Socrates, "until you have charmed it out of him."
+"Where shall we find a good charmer for such fears, Socrates," he asked, "since you are leaving us?"
+"Greece is large, Cebes," he said, "and there are good men in it. The barbarian races are also numerous. You must search through all of them for such a charmer, sparing neither money nor effort, for there is nothing on which you could spend your money more necessarily. You must also search among yourselves for one another; for perhaps you will not easily find anyone more capable of doing this than yourselves."
+"That shall certainly be done," said Cebes. "But let us return to where we left off, if it pleases you."
+"It pleases me greatly. How could it not?"
+"Finely spoken," he said.</p>
+      </div>
+      <div type="chapter" n="22">
+        <head>Section 78</head>
+        <p><pb n="78"/>"We must then ask ourselves something like this," said Socrates. "What kind of thing is likely to undergo scattering, and for what kind of thing should we fear this? And what kind of thing is not likely to suffer this? After that, we must consider which of the two the soul is, and from that, we should either be confident or fearful for our own soul."
+"True," he said.
+"Is it not true that whatever has been composed or is naturally composite is likely to be split apart in the same way it was composed? While if there is anything uncompounded, it is to this alone, if to anything, that splitting apart is unlikely to happen?"
+"It seems so to me," said Cebes.
+"Therefore, things that are always the same and in the same state are most likely uncompounded, while things that are sometimes one way, sometimes another, and never the same, are composite?"
+"I think so."
+"Let us turn to the very things we discussed in our previous argument. That reality itself—whose essence we give an account of in questioning and answering—is it always the same and in the same state, or does it vary? Does the Equal itself, the Beautiful itself, or each thing in itself that is reality, ever admit any change whatsoever? Or does each of them, being uniform by itself, remain always the same and in the same state, never admitting any alteration in any way or manner?"
+"Necessarily, Socrates," said Cebes, "they remain the same and in the same state."
+"But what about the many beautiful things—such as men, horses, garments, or anything else of the kind? Or equal things, or all things sharing the same names as those realities? Do they remain the same, or in complete contrast to those realities, are they virtually never the same as themselves or each other?"
+"That is the case," said Cebes. "They are never the same."
+"These things you could touch, or see, or perceive with your other senses. But those things that remain the same—is there any other way to grasp them except by the reasoning of thought? Are not such things invisible and not able to be seen?"
+"You speak entirely truly," he said.
+"Shall we then assume two kinds of beings: the visible and the invisible?"
+"Let us assume them," he said.
+"And the invisible always remains the same, while the visible never does?"
+"Let us assume this as well," he said.</p>
+      </div>
+      <div type="chapter" n="23">
+        <head>Section 79</head>
+        <p><pb n="79"/>"Now," said Socrates, "is it not true that we ourselves are part body and part soul?"
+"Nothing else," he said.
+"To which kind does the body seem to be more similar and more akin?"
+"To the visible, clearly to everyone," he said.
+"And the soul? Is it visible or invisible?"
+"Invisible to human beings at least, Socrates," he said.
+"But we were speaking of what is visible and invisible to human nature, surely. Or do you think it is to some other nature?"
+"To human nature."
+"What then do we say about the soul? Is it visible or unseen?"
+"Unseen."
+"So it is invisible."
+"Yes."
+"Therefore, the soul is more similar to the invisible than the body is, and the body more similar to the visible."
+"Entirely necessary, Socrates."
+"Were we not also saying a while ago that whenever the soul uses the body to investigate something—whether by sight, hearing, or some other sense (for investigating through the body means investigating through the senses)—it is dragged by the body toward things that are never the same. The soul wanders, is confused, and becomes dizzy like a drunkard from contact with such things?"
+"Certainly."
+"But whenever the soul investigates by itself, it departs to what is pure, always existing, immortal, and always the same. And because it is akin to it, the soul always remains with it, whenever the soul is by itself and is able to do so. It ceases its wandering and, being in contact with such things, remains always the same and in the same state. This condition of the soul is called wisdom."
+"Beautifully and truly spoken, Socrates."
+"To which of the two kinds does the soul seem to you to be more similar and more akin, based on both the previous arguments and this one?"
+"Everyone, even the most foolish, would agree from this method of inquiry that the soul is entirely and in every way more similar to what always remains the same than to what does not."
+"And the body?"
+"To the other."</p>
+      </div>
+      <div type="chapter" n="24">
+        <head>Section 80</head>
+        <p><pb n="80"/>"Look at it this way too: when soul and body are together, nature commands the latter to serve and be ruled, and the former to rule and be master. According to this, which seems to you similar to the divine, and which to the mortal? Do you not think the divine is naturally suited to rule and lead, while the mortal is suited to be ruled and serve?"
+"I do."
+"To which is the soul similar?"
+"Clearly, Socrates, the soul is similar to the divine, and the body to the mortal."
+"Consider then, Cebes, whether these are the conclusions from all that has been said: the soul is most similar to the divine, immortal, intelligible, uniform, indissoluble, and what always remains the same in the same state. The body, on the other hand, is most similar to the human, mortal, multiform, unintelligible, dissoluble, and what never remains the same in the same state. Can we say anything against this, my dear Cebes, to show it is not so?"
+"We cannot."
+"Well then, since these things are so, is it not proper for the body to be quickly dissolved, and for the soul to be completely indissoluble, or something close to it?"
+"How could it be otherwise?"
+"You notice," he said, "that after a man dies, the visible part of him—the body lying in the visible realm, which we call the corpse, whose nature is to dissolve, fall apart, and scatter—does not suffer any of these things immediately, but remains for a remarkably long time, especially if a man dies in a fine condition and in a fine season. When the body is shrunk and embalmed, like the mummies in Egypt, it remains almost entire for an incredibly long time. And even when the body rots, some parts—like bones, sinews, and such—are virtually immortal. Is that not so?"
+"Yes."
+"But the soul, the invisible part, which goes to another place that is noble, pure, and invisible like itself—to the true Hades, to the good and wise god, where, if the god wills, my own soul must soon go—could this soul, possessing such a nature, be blown apart and destroyed the moment it leaves the body, as the multitude of men say? Far from it, my dear Cebes and Simmias."</p>
+      </div>
+      <div type="chapter" n="25">
+        <head>Section 81</head>
+        <p><pb n="81"/>"The reality is much more like this: if the soul departs pure, dragging nothing of the body with it—because it had no willing association with the body in life, but fled from it and gathered itself into itself, always practicing this (which is nothing but practicing philosophy rightly and truly practicing dying readily; or would you not call this practicing death?)"
+"Most certainly."
+"If it is in this state, does it not depart to what is similar to it, the invisible, the divine, immortal, and wise? Arriving there, it has the fortune to be happy, freed from wandering, ignorance, fears, wild desires, and all other human evils. And as is said of the initiated, it truly spends the rest of time with the gods. Shall we say this, Cebes, or something else?"
+"This, by Zeus," said Cebes.
+"But if, I think, it departs from the body polluted and impure, because it always associated with the body, served it, loved it, and was bewitched by it and its desires and pleasures—so that it thought nothing else was true but the corporeal, which one can touch, see, drink, eat, and use for sexual pleasure, while it hated, feared, and fled from what is dark and invisible to the eyes, but intelligible and grasped by philosophy—do you think a soul in that state will depart pure and by itself?"
+"Not in the least," he said.
+"Instead, it is interspersed with the corporeal, which the constant association and communion with the body has ingrained in it through practice."
+"Certainly."
+"We must believe, my friend, that this corporeal element is burdensome, heavy, earthy, and visible. Such a soul is weighed down by it and dragged back into the visible region, out of fear of the invisible and Hades, as they say, roaming among the tombs and graves. Indeed, shadowy phantoms of souls have been seen around such places—the images provided by souls that have not departed purely, but still share in the visible, which is why they are seen."
+"It seems likely, Socrates."
+"Very likely, Cebes. And these are surely not the souls of the good, but of the inferior, who are compelled to wander around such places paying the penalty for their previous bad upbringing. And they wander until the desire of the corporeal element accompanying them bounds them again in a body."</p>
+      </div>
+      <div type="chapter" n="26">
+        <head>Section 82</head>
+        <p><pb n="82"/>"They are naturally bound to the very same kinds of character traits they practiced in life."
+"What kinds do you mean, Socrates?"
+"For example, those who practiced gluttony, insolence, and drunkenness, and did not take care to avoid them, naturally enter into the bodies of asses and similar beasts. Don't you think?"
+"That is very likely."
+"And those who valued injustice, tyranny, and robbery enter into wolves, hawks, and kites. Where else could we say such souls go?"
+"Undoubtedly into such creatures," said Cebes.
+"And the others follow the same rule, each according to the similarities of their practice?"
+"Clearly," he said. "How could they not?"
+"Are not the happiest among these, going to the best place, those who practiced the popular and political virtue they call moderation and justice, achieved through habit and practice without philosophy and reason?"
+"Why are they the happiest?"
+"Because it is likely they pass back into some social and gentle race, like bees, wasps, or ants, or even back into the human race, becoming moderate men again."
+"That is likely."
+"But to reach the company of the gods is permitted to no one who has not practiced philosophy and departed completely pure—no one but the lover of learning. Because of this, my comrades Simmias and Cebes, the true philosophers abstain from all bodily desires, remain firm, and do not surrender themselves to them. They do not fear poverty or ruin of their estate, like the money-loving multitude; nor do they fear the dishonor or infamy of a poor reputation, like the lovers of power and honor; that is why they abstain from them."
+"It would not be fitting if they did not, Socrates," said Cebes.
+"By Zeus, no," he said. "That is why those who care for their own soul, and do not live merely modeling their body, bid farewell to all these people. They do not walk the same path as them, for those people do not know where they are going. Believing that they must not act contrary to philosophy and its releasing and purifying power, they turn and follow it wherever it leads."</p>
+      </div>
+      <div type="chapter" n="27">
+        <head>Section 83</head>
+        <p><pb n="83"/>"How, Socrates?"
+"I will tell you. The lovers of learning know that when philosophy took possession of their soul, it was bound firmly within the body, glued to it, compelled to examine the realities through the body as through a prison cage, rather than by itself. It was wallowing in utter ignorance. Philosophy saw the terrible nature of the prison—that it is caused by desire, so that the prisoner himself is the chief accomplice in his own imprisonment. 
+As I say, lovers of learning know that philosophy, taking hold of their soul in this state, gently encourages it and tries to release it. It shows that investigation through the eyes is full of deceit, as is investigation through the ears and the other senses. It persuades the soul to withdraw from these, except insofar as it is necessary to use them, and advises the soul to collect and gather itself into itself, trusting nothing but itself and the reality it grasps by itself. Whatever it investigates through other things that varies in other things, it considers untrue; such things are sensible and visible, but what the soul sees itself is intelligible and invisible.
+Because the soul of the true philosopher believes it must not oppose this release, it abstains from pleasures, desires, pains, and fears as much as possible. It reasons that when someone is violently pleased, pained, fearful, or desirous, he does not merely suffer a small evil from them—such as getting sick or wasting money on desires—but suffers the greatest and most extreme of all evils, and doesn't even realize it."
+"What is that evil, Socrates?" said Cebes.
+"That the soul of every human being, when violently pleased or pained by something, is compelled to believe that what most causes this feeling is most real and true, when in fact it is not. These are especially the visible things, are they not?"
+"Certainly."
+"And is it not in this state that the soul is most firmly bound by the body?"
+"How so?"
+"Because every pleasure and pain, like a nail, nails and rivets the soul to the body. It makes the soul corporeal, causing it to believe that whatever the body says is true. From agreeing with the body and delighting in the same things, it is forced to become like the body in character and nurture, so that it can never arrive purely in Hades. Instead, it always departs infected by the body, quickly falling back into another body and growing there like a sown seed, deprived of all share in communion with the divine, pure, and uniform."</p>
+      </div>
+      <div type="chapter" n="28">
+        <head>Section 84</head>
+        <p><pb n="84"/>"You speak most truly, Socrates," said Cebes.
+"It is for these reasons, Cebes, that the true lovers of learning are moderate and brave, not for the reasons the multitude thinks. Or do you think otherwise?"
+"I certainly do not."
+"No, the soul of a philosopher would reason as we have described. It would not think it right for philosophy to release it, only to hand itself back over to pleasures and pains, to be bound up again, performing the endless labor of Penelope unraveling her web. Rather, procuring a calm from these emotions, following reason and always dwelling in it, contemplating the true, divine, and un-opinable, and being nourished by it—it believes it must live this way as long as it lives, and when it dies, it will pass to what is akin and of the same nature, freed from human evils. 
+Nurtured in this way, Simmias and Cebes, there is no fear at all that upon being separated from the body, it will be torn apart, scattered by the winds, flying away, and be nowhere anymore."
+A long silence followed these words from Socrates. Socrates himself was absorbed in the previous argument, as he appeared, and so were most of us. Cebes and Simmias were talking softly to each other. Socrates noticed them and asked, "What is it? Do you think something was left unsaid? For there are still many doubts and objections, if one is to examine the matter adequately. If you are examining something else, I have nothing to say. But if you are in doubt about these matters, do not hesitate to speak and explain if you think it could be stated better, and take me along with you if you think you will have more success with my help."
+Simmias replied, "I will tell you the truth, Socrates. For some time now, each of us has been in doubt, pushing and urging the other to ask, because we desire to hear, but we hesitate to cause you trouble, for fear it might be unpleasant for you in your present misfortune."
+When he heard this, Socrates laughed softly and said, "Oh, Simmias! It would be hard for me to persuade other men that I do not consider my present circumstance a misfortune, when I cannot even persuade you! You fear that I am more ill-tempered now than in my past life. It seems you think I am inferior in prophecy to the swans, who, when they perceive they must die, sing more and more beautifully than ever, rejoicing that they are about to depart to the god whose servants they are. 
+But men, because of their own fear of death, speak falsely of the swans. They say the swans sing a dirge of sorrow for their death, not reflecting that no bird sings when it is hungry, cold, or suffering any other pain—not even the nightingale, swallow, or hoopoe, whose songs they claim are laments of grief. It seems to me they do not sing out of grief, nor do the swans. As they belong to Apollo, I believe they have prophetic power, and foreseeing the good things in Hades, they sing and rejoice on that day more than ever before.
+I consider myself a fellow servant with the swans, sacred to the same god, possessing prophecy from my master no worse than theirs, and departing life no more dispirited than they. Therefore, as far as this is concerned, you should speak and ask whatever you wish, as long as the Eleven of Athens permit."</p>
+      </div>
+      <div type="chapter" n="29">
+        <head>Section 85</head>
+        <p><pb n="85"/>"Fine," said Simmias. "I will tell you my difficulty, and then Cebes will tell you what he does not accept in what was said. For it seems to me, Socrates, as it perhaps does to you, that to know clear truth about such things in this present life is either impossible or extremely difficult. But to fail to test what is said about them in every way, and to give up before exhausting oneself examining them from every side, is the mark of a very weak man. 
+One must achieve one of two things in these matters: either learn or discover the truth; or, if that is impossible, take the best and most irrefutable of human doctrines and ride upon it like a raft, to sail through life—unless one could make the journey more safely and less perilously upon a stronger vessel, some divine revelation. So now I will not be ashamed to ask, since you say this, nor will I blame myself later for not speaking what I think now. Examining what has been said, both by myself and with Cebes, it does not seem entirely adequate."
+Socrates said, "Perhaps you are right, my comrade. But tell me, in what way is it inadequate?"
+"In this way," he said. "One could use the exact same argument about harmony, a lyre, and its strings. One could say that the harmony is something unseen, incorporeal, very beautiful and divine in the tuned lyre, while the lyre itself and its strings are bodily, composite, earthy, and akin to the mortal. Now, if someone were to smash the lyre or cut its strings, and another person insisted—using your argument—that the harmony must still exist and cannot have perished; for it would be impossible for the mortal lyre and its strings to still exist, while the harmony, which is akin to the divine and immortal, had perished before the mortal. He would claim the harmony itself must still exist somewhere, and that the wood and strings must rot before the harmony suffers anything.
+For I think, Socrates, you have noticed yourself that we consider the soul to be something very much like this. Our body is stretched and held together by hot, cold, dry, and wet things, and our soul is a mixture and harmony of these very things, when they are mixed properly and proportionally with one another. 
+If the soul is indeed a harmony, it is clear that when our body is overly relaxed or stretched by diseases or other evils, the soul must immediately perish—even though it is most divine—just like other harmonies in music or in the works of craftsmen, while the remains of the body last a long time before rotting or burning. See what we should say to this argument, if someone claims that the soul is a mixture of bodily elements, and that it perishes first in what is called death."</p>
+      </div>
+      <div type="chapter" n="30">
+        <head>Section 86</head>
+        <p><pb n="86"/>Socrates looked at us keenly, as he often did, smiled, and said, "Simmias speaks justly. If any of you is more resourceful than I am, why not answer him? He seems to have handled the argument nobly. But before answering, I think we should also hear from Cebes what his objection is, so we may take time to deliberate what we will say. After hearing them both, we can either agree with them if they strike a right note, or if not, then defend our argument. Come, Cebes, what was troubling you?"
+"I will tell you," said Cebes. "It seems to me the argument is still in the same place and subject to the same criticism I made before. That the soul existed before entering this form, I do not retract my admission; it was proven very elegantly and, if I may say so, very sufficiently. But that it will still exist somewhere after we die does not seem proven to me.
+I do not concede Simmias's point that the soul is not stronger and longer-lasting than the body, for I think it surpasses it vastly in all these respects. 'Why then,' the argument might ask me, 'do you still disbelieve, since you see that when the man dies, the weaker part still exists? Do you not think the longer-lasting part must be preserved during this time?'
+Look and see if I have a point in my reply. I think I too need an image, like Simmias. It seems to me one could say exactly this concerning an old weaver who has died. A man might say this same argument: 'The weaver has not perished but exists somewhere safe. The proof is that the cloak he wore, which he wove himself, is still intact and has not perished.' If someone disbelieved him, he would ask whether a man is more durable than a cloak that is used and worn. When the answer is 'the man,' he would think it proven that the man is certainly safe, since the less durable thing has not perished.
+But I think this is not so, Simmias—pay attention too. Anyone would realize the speaker was being foolish. For that weaver had woven and worn out many such cloaks, and he died after those many cloaks, but before the last one. Yet a man is not therefore inferior to or weaker than a cloak.</p>
+      </div>
+      <div type="chapter" n="31">
+        <head>Section 87</head>
+        <p><pb n="87"/>"The same image applies to the soul and the body. A man could reasonably say that the soul is long-lasting, while the body is weaker and short-lived. He might say each soul wears out many bodies, especially if the man lives many years. If the body flows away and perishes while the man still lives, the soul constantly weaves a new one to replace the old. But when the soul itself perishes, it must happen while wearing its last garment, and it perishes before this last one. And when the soul has perished, the body finally reveals its weak nature and rapidly rots away.
+So we cannot yet place any trust in this argument and be confident that after we die our soul still exists somewhere. If someone went further and conceded that the soul not only existed before birth, but might also continue to exist after death and be born multiple times—for its nature might be so strong as to endure multiple births—even granting all this, one might still concede that in those many births it is worn down, and in one of those deaths it finally perishes completely. He might say no one knows which death or dissolution of the body brings destruction to the soul, for it is impossible for any of us to perceive it.
+And if this is so, anyone who is confident about death is confident with a foolish confidence, unless he can prove that the soul is completely immortal and imperishable. Otherwise, the dying man must always fear for his soul, lest in this particular separation from the body it perishes completely."</p>
+      </div>
+      <div type="chapter" n="32">
+        <head>Section 88</head>
+        <p><pb n="88"/>When we heard them say this, all of us felt very unpleasant, as we later confessed to one another. We had been powerfully persuaded by the previous argument, but now they seemed to upset us and cast us back into doubt—not only about the previous arguments, but also about what was to follow. We feared either that we were poor judges of arguments, or that the subject itself admitted no trust.</p>
+        <p>ECHECRATES. By the gods, Phaedo, I sympathize with you. Listening to you now, I find myself thinking something similar: "What argument shall we trust now? The argument Socrates presented was very persuasive, but now it has fallen into discredit." The theory that the soul is a harmony has always had a wondrous hold on me, and hearing it now reminds me that I myself have long believed it. So I desperately need, as if starting from the beginning, some other argument to persuade me that the soul does not die along with the man. Tell me, by Zeus, how did Socrates pursue the argument? Was he visibly dismayed, as you were, or did he calmly come to the argument's defense? And did he defend it adequately or poorly? Tell us everything as precisely as possible.</p>
+        <p>PHAEDO. I assure you, Echecrates, I have often wondered at Socrates, but never more so than being with him then. That he had a reply to make was perhaps not unusual for him. But what amazed me most was, first, how pleasantly, kindly, and admiringly he received the young men's argument; second, how sharply he perceived our dismay at what they had said; and finally, how well he cured us, recalling us as if we were fleeing, defeated troops, and turning us back to follow him and examine the argument.</p>
+        <p>ECHECRATES. How did he do that?</p>
+        <p>PHAEDO. I will tell you. I was sitting on his right by the bed, on a low stool, and he was sitting much higher than I was. He stroked my head and gathered the hair on the back of my neck—he often used to play with my hair—and said, "Tomorrow, Phaedo, I suppose you will cut these beautiful locks."
+"It seems so, Socrates," I said.
+"Not if you listen to me."
+"Why not?" I asked.
+"Today," he said, "both I and you should cut our hair, if our argument has died and we cannot bring it back to life. If I were you, and the argument escaped me, I would swear an oath like the Argives never to let my hair grow long until I had fought and defeated the argument of Simmias and Cebes."
+"But," I said, "as the proverb goes, even Heracles cannot fight against two."
+"Then call me, your Iolaus, to help," he said, "while there is still daylight."
+"I call on you," I said, "not as Heracles calling Iolaus, but as Iolaus calling Heracles."
+"It will make no difference," he said. "But first let us be careful not to suffer a certain misfortune."
+"What misfortune?" I asked.</p>
+      </div>
+      <div type="chapter" n="33">
+        <head>Section 89</head>
+        <p><pb n="89"/>"Becoming misologues (haters of arguments)," he said, "just as some people become misanthropes (haters of men). For no greater evil can happen to a man than to hate arguments. Misology and misanthropy arise in the same way. Misanthropy comes from trusting someone implicitly without any skill, believing the man to be entirely true, sound, and trustworthy, and then later finding him to be wicked and untrustworthy. When this happens repeatedly, especially with those one considered closest friends, a man eventually hates everyone and believes there is no soundness in anyone. Have you not noticed this happening?"
+"Certainly," I said.
+"Is it not shameful?" he asked. "Is it not clear that such a man attempts to deal with human beings without the skill of human affairs? For if he had that skill, he would know the truth: that the very good and the very wicked are few in number, while the vast majority are somewhere in the middle."
+"How do you mean?" I asked.
+"Just as with very large and very small things," he said. "Do you think anything is rarer than finding a very large or very small man, or dog, or anything else? Or something very swift or slow, ugly or beautiful, white or black? Do you not perceive that in all these things the extremes are rare and few, while the middle states are abundant and many?"
+"Certainly," I said.
+"If a contest for wickedness were held, don't you think the first prizes would go to a very few?"
+"Likely," I said.
+"Very likely," he said. "But arguments are not like humans in that respect—I was just following your lead. The similarity lies here: when a man without skill in arguments trusts an argument to be true, and soon after thinks it is false (whether it is or not), and then does this with another and another—you know that especially those who spend their time in contradicting arguments end up thinking they are the wisest of men, having alone recognized that there is nothing sound or stable in any fact or in any argument. They think everything simply flips up and down like the currents in the Euripus, never staying still for any time."
+"You speak the exact truth," I said.</p>
+      </div>
+      <div type="chapter" n="34">
+        <head>Section 90</head>
+        <p><pb n="90"/>"It would be a pitiable state of affairs, Phaedo," he said, "if a true, secure argument exists that is capable of being understood, yet a man, because he encounters arguments that seem true at one time and false at another, does not blame himself or his own lack of skill, but because of his distress happily shifts the blame from himself to the arguments, and spends the rest of his life hating and reviling arguments, thus depriving himself of truth and knowledge of reality."
+"By Zeus," I said, "that would be pitiable indeed."
+"First of all, then," he said, "let us guard against this, and not let the thought enter our soul that there is perhaps nothing sound in arguments. Let us rather think that we ourselves are not yet sound, but must act like men and strive eagerly to become sound—you and the others for the sake of the rest of your lives, and I for the sake of death itself. 
+For in my present situation, I run the risk of acting not like a philosopher regarding this matter, but like a contentious debater, exactly like those who lack all education. When they debate a point, they do not care how the facts actually stand; they only eagerly seek to persuade their audience to accept whatever they have proposed. In my present situation, I differ from them only in this: I will not eagerly seek to persuade the audience that what I say is true—except as a secondary effect—but I will eagerly seek to persuade myself above all else that it is true.
+I calculate it this way, my dear comrade—see how selfish I am: If what I say is actually true, it is an excellent thing to be persuaded of it. If there is nothing after death, I will at least avoid distressing those present with my lamentations during the time before my death. And my ignorance will not persist with me—that would be an evil—but will soon perish.
+Prepared like this, Simmias and Cebes, I approach the argument. You, if you listen to me, will give little thought to Socrates, and much more to the truth. If I seem to say anything true, agree with me; if not, oppose me with every argument, taking care that in my eagerness I do not deceive both myself and you, departing like a bee leaving its stinger behind."</p>
+      </div>
+      <div type="chapter" n="35">
+        <head>Section 91</head>
+        <p><pb n="91"/>"Let us begin," he said. "First remind me of what you said, if I do not seem to remember. Simmias, I believe, is in doubt and fears that the soul, although more divine and beautiful than the body, perishes before it, being a kind of harmony. Cebes seemed to grant me this: that the soul is more durable than the body. But he argued that no one knows whether the soul, having worn out many bodies, perishes itself when it leaves its last body; and that death might be exactly this—the destruction of the soul, since the body never stops perishing continuously. Are these the things, Simmias and Cebes, that we must examine?"
+They both agreed that they were.
+"Now," he asked, "do you reject all the previous arguments, or only some of them?"
+They said they rejected some, but not others.
+"What do you say about the argument in which we said learning is recollection, and that since this is so, our soul must necessarily have existed somewhere before being bound in the body?"
+"I was wondrously persuaded by it then," said Cebes, "and I still hold to it more firmly than any other."
+"And I hold the same," said Simmias. "I would be very surprised if I ever thought differently about it."
+Socrates replied, "But you must think differently about it, my Theban friend, if you maintain your opinion that a harmony is something composite, and that the soul is a harmony composed of the elements tensioned in the body. For you surely will not accept your own statement that a harmony was composed and existed before the things from which it was to be composed existed. Or will you accept that?"
+"Never, Socrates," he said.
+"Do you perceive," he said, "that this is exactly what happens to your argument when you say the soul exists before entering human form and body, and yet is composed of things that do not yet exist? A harmony is not what you are likening it to. The lyre, the strings, and the unharmonized sounds come first; the harmony is composed last of all, and perishes first. How will this argument harmonize with the other?"
+"Not at all," said Simmias.</p>
+      </div>
+      <div type="chapter" n="36">
+        <head>Section 92</head>
+        <p><pb n="92"/>"And yet," he said, "if an argument about harmony should harmonize with anything, it should be with this one."
+"It should," said Simmias.
+"But this one does not harmonize with your view," he said. "Consider: which argument do you choose? That learning is recollection, or that the soul is a harmony?"
+"The former, much preferred, Socrates," he said. "The latter came to me without proof, from a certain probability and plausibility, which is why most people find it appealing. I know that arguments making their proofs through probabilities are impostors, and if one is not careful, they deceive greatly in geometry and everything else. But the argument about recollection and learning was delivered through an assumption worthy of acceptance. It was said that our soul existed before entering the body exactly as that reality which bears the name 'what it is.' I have accepted this reality sufficiently and rightly, as I am persuaded. Therefore, it is necessary for me, it seems, to accept neither from myself nor from anyone else the assertion that the soul is a harmony."
+"Consider this as well, Simmias," he said. "Do you think a harmony, or any other composite thing, should be in a state different from the elements from which it is composed?"
+"By no means."
+"Nor can it do or suffer anything other than what they do or suffer?"
+He agreed.
+"Therefore, a harmony is not naturally suited to lead the things that compose it, but to follow them."
+He agreed.
+"It is far from possible for a harmony to move, sound, or do anything contrary to its parts."
+"Far from it," he said.
+"Is not every harmony naturally a harmony according to the way it is harmonized?"
+"I don't understand," he said.
+"If it is harmonized more, and more fully—if such a thing is possible—would it not be more of a harmony and a fuller one? And if less, and less fully, less of a harmony and a lesser one?"
+"Certainly."
+"Is this true of the soul? Is one soul even in the slightest degree more, and more fully, or less, and less fully, a soul than another?"
+"Not in the least," he said.</p>
+      </div>
+      <div type="chapter" n="37">
+        <head>Section 93</head>
+        <p><pb n="93"/>"Come then, by Zeus," he said. "It is said that one soul possesses intelligence and virtue and is good, while another possesses folly and wickedness and is bad. Are these things said truly?"
+"Truly indeed."
+"For those who posit that the soul is a harmony, what will they say these things in the soul—virtue and wickedness—are? Will they say they are another harmony and discord? That the good soul is harmonized, and being a harmony, has another harmony within it, while the bad soul is discordant and has no other harmony within it?"
+"I cannot say," said Simmias, "but clearly someone adopting that hypothesis would say something like that."
+"But we have already agreed," he said, "that one soul is not more or less a soul than another. And this is an admission that one harmony is not more or less, nor more fully or less fully, a harmony than another. Is that so?"
+"Certainly."
+"And what is neither more nor less a harmony is neither more nor less harmonized. Is that true?"
+"It is."
+"Does that which is neither more nor less harmonized have a greater or lesser share of harmony, or an equal share?"
+"An equal share."
+"Then since no soul is more or less a soul than any other, it is neither more nor less harmonized."
+"That is so."
+"Being in this condition, it could not have a greater share of discord or harmony."
+"No."
+"Consequently, could one soul share in wickedness or virtue more than another, if wickedness is discord and virtue is harmony?"
+"It could not."
+"Or rather, Simmias, by right reasoning, no soul will have any share of wickedness, if it is a harmony. For a harmony, being entirely a harmony, could never share in discord."
+"Certainly not."
+"Nor, surely, could a soul, being entirely a soul, share in wickedness."
+"How could it, from what has been agreed?"
+"From this reasoning, then, the souls of all living creatures will be equally good, if indeed souls are naturally equally souls."
+"It seems so to me, Socrates," he said.
+"Does it seem to you," he asked, "that this is well argued, and that this would happen to our argument if the hypothesis that the soul is a harmony were correct?"
+"Not in the least," he said.</p>
+      </div>
+      <div type="chapter" n="38">
+        <head>Section 94</head>
+        <p><pb n="94"/>"What about all the things within a human being?" he said. "Do you say anything else rules besides the soul, especially an intelligent one?"
+"I do not."
+"Does it rule by yielding to the affections of the body, or by opposing them? I mean, for example, when the body has a fever and is thirsty, the soul draws it opposite, toward not drinking. When it is hungry, toward not eating. And in countless other ways, we see the soul opposing the elements of the body. Do we not?"
+"Certainly."
+"Did we not also agree earlier that if it were a harmony, it could never sound contrary to the tensions, relaxations, pluckings, and other affections of the elements composing it, but would always follow them and never lead them?"
+"We did agree," he said. "How could we not?"
+"But now it appears to be doing the exact opposite. It leads all the things it is supposedly composed of, opposing them in almost everything throughout life, acting as master in every way. It chastises some harshly with pain (as in gymnastics and medicine), and handles others more gently. It threatens some and advises others, conversing with desires, angers, and fears as though it were distinct from them. Just as Homer portrays in the Odyssey, when Odysseus 'struck his chest and rebuked his heart, saying: Bear up, my heart; you endured even worse than this.' 
+Do you think he composed this while believing the soul was a harmony, capable of being led by the body's affections? Rather, he knew it was able to lead and master them, being something far more divine than a harmony."
+"By Zeus, Socrates, it seems so to me."
+"Therefore, my excellent friend, it is by no means right for us to say the soul is a harmony. We would apparently be disagreeing both with the divine poet Homer and with ourselves."
+"That is so," he said.</p>
+      </div>
+      <div type="chapter" n="39">
+        <head>Section 95</head>
+        <p><pb n="95"/>"Well then," said Socrates. "The Theban Harmonia seems to have been sufficiently propitiated. But what about Cadmus, Cebes? How shall we appease him, and with what argument?"
+"I think you will find a way," said Cebes. "This argument against harmony you made so wonderfully it exceeded all my expectations. When Simmias was stating his difficulty, I wondered greatly if anyone could handle his argument. Yet right from your first attack, it could not withstand you. I would not be surprised if the argument of Cadmus met the same fate."
+"My good man," said Socrates, "do not speak proudly, lest some ill-will overturn the argument about to be spoken. Let that be a concern for the god, but let us come to close quarters in the Homeric manner and test if you say anything worthwhile.
+The sum of what you are seeking is this: you require it to be proven that our soul is imperishable and immortal, so that a philosopher, about to die and confident that he will fare better there than if he had lived another life, will not be confident with a foolish and vain confidence. Your point is that demonstrating that the soul is strong, god-like, and existed before we were born into human form does not prove immortality. It only proves the soul is long-lasting and existed somewhere an unimaginably long time before, knowing and doing many things. But it was no more immortal for all that. In fact, its very entrance into a human body was the beginning of its destruction, like a disease. It lives this life in distress and finally perishes in what is called death. 
+You say it makes no difference whether it enters a body once or many times, as far as the fear each of us has. For anyone but a fool must fear, if he does not know and cannot prove that it is immortal.
+I believe this is exactly what you are saying, Cebes. I am repeating it carefully so nothing escapes us, and so you can add or subtract anything if you wish."
+Cebes replied, "I don't need to add or subtract anything right now. That is exactly what I say."</p>
+      </div>
+      <div type="chapter" n="40">
+        <head>Section 96</head>
+        <p><pb n="96"/>Socrates paused for a long time, examining something within himself. Finally, he said, "You seek no small thing, Cebes. For this requires a thorough investigation into the whole cause of coming-to-be and perishing. I will tell you my own experiences concerning these matters, if you wish. Then, if anything I say seems useful to you, you can use it for persuasion regarding what you say."
+"I certainly wish to hear it," said Cebes.
+"Listen then, and I will tell you. When I was young, Cebes, I was wonderfully eager for the kind of wisdom they call investigating nature. It seemed an outstanding thing to me to know the causes of everything—why each thing comes to be, why it perishes, and why it exists. I frequently tossed myself up and down, examining first questions like these: Is it when heat and cold undergo a certain putrefaction, as some say, that animals are formed? Is it blood with which we think, or air, or fire? Or none of these, but rather the brain that provides the senses of hearing, sight, and smell, from which memory and opinion arise, and from memory and opinion, once they reach a state of rest, comes knowledge?
+Investigating further into their perishing, and into the things of the heavens and earth, I ended up thinking I was so completely unsuited for this investigation that nothing could be more so. Let me give you an adequate proof. Things I previously knew clearly—at least as it seemed to me and everyone else—I was so blinded by this investigation that I unlearned even what I thought I knew before! For instance, why a human being grows. I used to think it was clear to everyone that it was because of eating and drinking. When, through food, flesh added itself to flesh, bone to bone, and everything else found its proper addition, then the small mass became large, and the small man became large. That is what I used to think. Does it seem reasonable to you?"
+"It does," said Cebes.
+"Consider this further. I used to think my opinion was sufficient when a large man stood next to a small one, that he was taller precisely by a head. And a horse next to a horse. And even more clearly: ten seemed more than eight because two had been added, and the two-cubit length seemed greater than the one-cubit length because it exceeded it by half."
+"And what is your opinion of them now?" asked Cebes.
+"By Zeus," he said, "I am far from thinking I know the cause of any of these things. I do not even dare to accept that when one is added to one, either the one to which the addition was made became two, or the added one and the one it was added to became two because of the addition. I marvel that when each of them was separate, each was one and they were not two, but when they came near each other, this became the cause of their becoming two: the meeting of being placed close to each other! Nor can I persuade myself that if someone splits one thing in half, this splitting becomes the cause of its becoming two. That would be the exact opposite cause from before. Before, it was bringing them close together; now, it is moving them apart! Nor can I even persuade myself that I know why 'one' comes to be, or why anything else comes to be, perishes, or exists, following this method of inquiry. So I mix up a different method of my own, and I do not admit this one at all."</p>
+      </div>
+      <div type="chapter" n="41">
+        <head>Section 97</head>
+        <p><pb n="97"/>"But hearing someone reading from a book by Anaxagoras—as he said—saying that Mind is what orders and is the cause of all things, I rejoiced in this cause. I thought it was somehow correct that Mind is the cause of all. If this is so, I thought, then the ordering Mind orders everything and places each thing in the way that is best. Therefore, if anyone wishes to find the cause of how each thing comes to be, perishes, or exists, he must find out how it is best for that thing to exist, act, or be acted upon. According to this reasoning, a human being need examine nothing else, concerning himself or others, but what is best and most excellent. And he would automatically know the worse as well, since the knowledge of both is the same.
+Reasoning this way, I was delighted to think I had found a teacher in the cause of reality according to my own mind: Anaxagoras. I expected he would first tell me whether the earth is flat or round, and having told me, he would add the cause and the necessity, explaining what is best, and why it is better for it to be that way. And if he said it was in the center, he would explain why it is better for it to be in the center. If he could demonstrate this to me, I was prepared to stop longing for any other kind of cause. 
+I was also prepared to learn the same about the sun, the moon, and the other stars, regarding their relative speeds, their turnings, and all their other experiences—how it is best for each of them to act and be acted upon. I never supposed that, having said they were ordered by Mind, he would introduce any other cause for them than that it is best for them to be as they are. I assumed that by giving the cause for each thing and for everything in common, he would explain what is best for each, and the common good for all. I would not have sold my hopes for a great sum of money. I seized the books with great eagerness and read them as quickly as I could, so that I might know the best and the worse as soon as possible."</p>
+      </div>
+      <div type="chapter" n="42">
+        <head>Section 98</head>
+        <p><pb n="98"/>"But from this wondrous hope, my comrade, I was suddenly dashed away. For as I proceeded and read further, I saw a man making no use of Mind whatsoever, nor assigning any real causes for the ordering of reality, but giving causes like air, aether, water, and many other absurdities!
+It seemed to me exactly as if someone said, 'Socrates does everything he does by Mind,' and then, trying to state the causes of each thing I do, he said that the reason I am sitting here now is because my body is composed of bones and sinews; the bones are solid and have joints separating them, while the sinews can be contracted and relaxed, covering the bones along with the flesh and skin holding them together. So, as the bones pivot in their sockets, the relaxation and contraction of the sinews make me able to bend my limbs right now, and that is the cause of my sitting here bent like this!
+Or again, assigning similar causes for my conversing with you: assigning sounds, air currents, hearings, and countless other such things, neglecting to mention the true causes! Namely, that since the Athenians thought it best to condemn me, I in turn thought it best to sit here, and more just to remain and submit to whatever penalty they command. For, by the dog, I suspect these sinews and bones would have been in Megara or Boeotia long ago, carried there by their opinion of what is 'best,' if I had not thought it more just and noble to endure whatever penalty the city orders, rather than fleeing and running away.
+To call such things causes is extremely absurd. If someone said that without having bones, sinews, and such things, I could not do what I think is right, he would be speaking the truth. But to say that I do what I do because of them, and not from the choice of what is best—and that this is how Mind acts—is an exceedingly careless way of speaking. It shows a failure to distinguish between the real cause and that without which the cause could never be a cause."</p>
+      </div>
+      <div type="chapter" n="43">
+        <head>Section 99</head>
+        <p><pb n="99"/>"This is precisely what the majority of people seem to do, groping in the dark, calling the prerequisite a 'cause,' giving it a name that does not belong to it. Because of this, one man surrounds the earth with a vortex, claiming this keeps it in place under the heavens; another sets the air as a support underneath it, like a broad kneading trough. But the power that places them exactly where it is best for them to be—this they neither seek, nor do they think it has any divine strength. They believe they will someday find a stronger and more immortal Atlas to hold everything together. They do not think the genuinely Good and Binding truly binds and holds anything together. I would most gladly have become anyone's pupil to learn about such a cause and how it works! But since I was deprived of it, unable to find it myself or learn it from another, would you like me to show you, Cebes, how I busied myself with the second-best voyage in search of the cause?"
+"I would like that immensely," he said.
+"It seemed to me after this," he said, "when I had grown weary of investigating realities, that I must be careful not to suffer what happens to people looking at the sun during an eclipse. Some of them destroy their eyes if they do not look at the sun's reflection in water or some similar medium. I thought of this, and feared that I might completely blind my soul by looking at things with my eyes and trying to grasp them with my senses.
+So it seemed to me I must take refuge in accounts (logoi) and examine the truth of realities in them. Perhaps my image is slightly flawed in one respect: I do not entirely admit that one who examines realities in accounts is looking at them in images any more than one who examines them in deeds. But this was the path I started on. 
+Laying down in each case the account I judge to be strongest, whatever seems to harmonize with it I set down as true—both regarding cause and everything else—and whatever does not, I set down as untrue. I wish to make what I mean clearer, because I think you do not yet understand."
+"Not entirely, by Zeus," said Cebes.</p>
+      </div>
+      <div type="chapter" n="44">
+        <head>Section 100</head>
+        <p><pb n="100"/>"But what I am saying is nothing new," he said. "It is what I have never stopped saying, both in past times and in our recent argument. I am going to try to show you the form of cause I have busied myself with, and I return to those much-discussed things, beginning from them. I hypothesize that there is a Beautiful itself by itself, and a Good, and a Great, and all the rest. If you grant me these and agree they exist, I hope to display the cause from them, and discover that the soul is immortal."
+"Grant that I give them to you," said Cebes, "and hurry to the conclusion."
+"Consider the next step," he said, "and see if you agree. It appears to me that if anything else is beautiful besides the Beautiful itself, it is beautiful for no other reason than because it partakes of that Beautiful. And I say the same for everything. Do you agree with this kind of cause?"
+"I agree," he said.
+"Then I no longer understand those other sophisticated causes. If someone tells me why a thing is beautiful, saying it has a vibrant color, or a specific shape, or something like that, I bid farewell to all of them—for they all confuse me. I hold simply, plainly, and perhaps foolishly to this: nothing else makes it beautiful except the presence of, or communion with, or somehow the sharing in, that Beautiful itself. I do not insist on how it happens, but only that all beautiful things are beautiful by the Beautiful. This seems to me the safest answer to give myself and others. Clinging to this, I think I shall never fall: it is safe to answer that beautiful things are beautiful by the Beautiful. Doesn't it seem so to you?"
+"It does."
+"And large things are large by Largeness, and larger things are larger by Largeness, and smaller things are smaller by Smallness?"
+"Yes."
+"So you would not accept it if someone said that one man is larger than another by a head, and the smaller is smaller by the very same thing (a head). You would insist you simply mean that everything larger than another is larger by nothing else than Largeness, and the smaller is smaller by nothing else than Smallness. I think you would be afraid of encountering a contrary argument if you said someone is larger by a head: first, that the larger is larger and the smaller is smaller by the exact same thing (a head); and second, that the larger man is larger by a head, which is a small thing—and it is surely monstrous that someone should be large by something small. Would you not fear this?"
+Cebes laughed and said, "I certainly would."</p>
+      </div>
+      <div type="chapter" n="45">
+        <head>Section 101</head>
+        <p><pb n="101"/>"Would you not be afraid to say that ten is more than eight by two, and that this is the cause of its excess, rather than saying it is more by Multitude and because of Multitude? Or that the two-cubit measure is greater than the one-cubit by half, rather than by Largeness? For the fear is the same."
+"Absolutely," he said.
+"And further, if one is added to one, would you not beware of saying the addition is the cause of their becoming two, or the splitting if one is divided? Would you not shout loudly that you know no other way each thing comes to be except by partaking of the specific essence of each thing it partakes of? So in these cases, you admit no other cause of becoming two than partaking in Duality. Whatever is to be two must partake in it, and whatever is to be one must partake in Oneness.
+You would bid farewell to these splittings, additions, and all other such subtleties, leaving them for those wiser than you to answer. Afraid, as the saying goes, of your own shadow and inexperience, you would cling to the safety of the hypothesis and answer accordingly.
+But if anyone attacked the hypothesis itself, you would let him be and not answer until you had examined whether its consequences agreed or disagreed with one another. And when you had to give an account of the hypothesis itself, you would give it in the same way, hypothesizing another higher hypothesis, whichever seemed best, until you reached something sufficient. You would not mix things up like the contentious debaters, discussing the starting principle and its consequences at the same time, if you wished to discover any of the realities. 
+For those people perhaps care not a whit about this. Their wisdom allows them to mix everything together and still be pleased with themselves. But if you are a philosopher, I think you will do as I say."
+"You speak perfectly truly," said Simmias and Cebes together.</p>
+        <p>ECHECRATES. By Zeus, Phaedo, justly so! He seems to me to have explained this with wondrous clarity, even to someone of small intelligence.</p>
+        <p>PHAEDO. That is exactly what everyone present thought, Echecrates.</p>
+        <p>ECHECRATES. Even we who were absent and are hearing it now think so. What was said next?</p>
+      </div>
+      <div type="chapter" n="46">
+        <head>Section 102</head>
+        <p><pb n="102"/>PHAEDO. I think after these things were granted to him, and it was agreed that each of the Forms exists, and the other things partaking of them take their names from them, he next asked: "If you speak this way, then when you say Simmias is larger than Socrates but smaller than Phaedo, you say both things are in Simmias: Largeness and Smallness?"
+"I do."
+"But you agree that the statement 'Simmias surpasses Socrates' is not literally true exactly as spoken? For Simmias does not surpass Socrates because he is Simmias, but because of the largeness he happens to possess. Nor does he surpass Socrates because Socrates is Socrates, but because Socrates has smallness relative to Simmias's largeness."
+"True."
+"And he is surpassed by Phaedo, not because Phaedo is Phaedo, but because Phaedo possesses largeness relative to Simmias's smallness."
+"That is so."
+"Thus Simmias is called both small and large, being between the two. Yielding his smallness to the largeness of the one to be surpassed, and presenting his largeness to surpass the smallness of the other." He smiled and said, "It seems I am going to speak like a legal document, but it stands as I say."
+Simmias agreed.
+"I say this because I want you to share my opinion. It seems to me that Largeness itself never wills to be simultaneously large and small. And not only that, but the largeness within us never admits the small or wills to be surpassed. One of two things happens: either it flees and retreats when its opposite, the small, approaches, or it perishes when the small arrives. It is not willing to endure and receive smallness, and thereby become something different than what it was. 
+I can receive and endure smallness and still remain exactly who I am, this short man here. But Largeness, being large, never dares to be small. Likewise, the small within us never wills to become or be large, nor does any other opposite, while remaining what it was, will to become and be its opposite. It either goes away or perishes in this affection."</p>
+      </div>
+      <div type="chapter" n="47">
+        <head>Section 103</head>
+        <p><pb n="103"/>"It appears so to me entirely," said Cebes.
+Then someone among those present (I do not clearly remember who it was) said: "By the gods, wasn't the exact opposite of this agreed upon in our earlier arguments? That the larger comes from the smaller, and the smaller from the larger, and that this is exactly how opposites come to be—from opposites? Now it seems to be saying this could never happen."
+Socrates turned his head, listened, and said, "You recalled that nobly. But you did not perceive the difference between what was said then and what is said now. Then, we were saying that an opposing thing comes to be from an opposing thing. Now, we are saying that the opposite itself could never become opposite to itself—neither the one in us nor the one in nature. Then we spoke of things that possess opposites, calling them by the names of those opposites; but now we speak of the opposites themselves, whose presence gives the things their names. We say those opposites themselves would never consent to come from one another."
+He looked at Cebes and asked, "Did anything that man said disturb you too, Cebes?"
+"No," said Cebes, "not this time. Though I admit that many things do trouble me."
+"Then we agree unconditionally on this: an opposite will never be opposite to itself."
+"Completely," he said.
+"Examine this as well, and see if you agree. Is there something you call hot and cold?"
+"There is."
+"Are they the same as snow and fire?"
+"No, certainly not."
+"Hot is something different from fire, and cold is different from snow."
+"Yes."
+"But you think this much: snow, being snow, will never admit the hot, as we said before, and still remain what it was—both snow and hot. But as the hot approaches, it will either retreat before it or perish."
+"Certainly."
+"And fire, as the cold approaches, will either retreat or perish; it will never endure receiving the cold and still remain fire and cold."
+"True," he said.
+"So the situation with some of these things is this: not only does the Form itself merit its own name for all time, but there is also something else, which is not the Form, but which always possesses its shape whenever it exists. It will be clearer to you from this example. The Odd must always possess this name by which we call it, must it not?"
+"Certainly."
+"Is it the only existing thing, or is there something else, which is not the Odd, but which must always be called by the name of the Odd, as well as its own name, because its nature is such that it never abandons the Odd? I mean, for instance, the number three and many others. Consider the number three. Do you not think it must always be called both by its own name and by the name of the Odd, even though the Odd is not the same as three? Such is the nature of three, five, and half of all numbers, that each of them is always odd, though it is not the Odd itself. And two, four, and the other series are always even, though not the Even itself. Do you agree?"
+"How could I not?" he said.</p>
+      </div>
+      <div type="chapter" n="48">
+        <head>Section 104</head>
+        <p><pb n="104"/>"Look closely at what I want to show. It is this: apparently not only do opposites not admit each other, but also things that are not opposite to each other, yet always contain opposites within them—these things do not seem to admit the opposite of what is contained in them. When it approaches, they either perish or retreat. Will we not say that three will sooner perish and suffer anything whatsoever than endure becoming even, while still remaining three?"
+"We certainly will," said Cebes.
+"Yet two is not the opposite of three."
+"No."
+"Therefore, not only do opposite Forms not endure each other's approach, but certain other things do not endure the approach of opposites."
+"You speak very truly," he said.
+"Do you want us to define what sort of things these are, if we can?" he asked.
+"Certainly."
+"Would it be these things, Cebes: whatever forces the thing it occupies not only to have its own idea, but also the idea of some opposite?"
+"How do you mean?"
+"As we said just now. You surely know that whatever the idea of three occupies must necessarily be not only three, but also odd."
+"Certainly."
+"And I say that the idea opposite to the form that accomplishes this can never come into that thing."
+"It cannot."
+"And what accomplished this? Was it not the idea of the Odd?"
+"Yes."
+"And opposite to this is the idea of the Even?"
+"Yes."
+"Therefore, the idea of the Even will never come to three."
+"Never."
+"So three has no share in the Even."
+"It has no share."
+"So three is uneven."
+"Yes."
+"This is what I meant when defining the kind of things that, though not opposite to a certain thing, do not admit that opposite. Just as the three, not being opposite to the Even, nonetheless does not admit it, because it always brings the opposite along with it. And two brings the opposite to the Odd, and fire brings the opposite to the Cold, and so on. See if you would define it this way: not only does an opposite not admit an opposite, but also, whatever brings an opposite into whatever it approaches will never admit the oppositeness to the thing brought.
+Recollect it again, for there is no harm in hearing it often. Five will not admit the idea of the Even, nor will ten, its double, admit the idea of the Odd. The double is opposite to something else, yet it will not admit the idea of the Odd. Nor will one-and-a-half or other such fractions admit the idea of the Whole, nor will a third, and so on. If you follow and agree."
+"I agree most vehemently and I follow," he said.</p>
+      </div>
+      <div type="chapter" n="49">
+        <head>Section 105</head>
+        <p><pb n="105"/>"Tell me again from the beginning," he said. "And do not answer exactly what I ask, but imitate me. I see a different safe answer beyond the first one I mentioned, derived from what has just been said. If you were to ask me, 'What must come into a body for it to be hot?' I will not give you the safe, ignorant answer, 'Heat,' but a more sophisticated one from our current discussion: 'Fire.' And if you ask, 'What must come into a body to make it sick?' I will not say 'Disease,' but 'Fever.' If you ask what makes a number odd, I will not say 'Oddness,' but 'Oneness.' Do you understand sufficiently what I mean?"
+"Sufficiently," he said.
+"Answer me then," he said, "what must come into a body for it to be living?"
+"Soul," he said.
+"Is this always so?"
+"How could it not be?" he said.
+"Therefore, soul always brings life to whatever it occupies?"
+"It does indeed," he said.
+"Is there an opposite to life, or not?"
+"There is," he said.
+"What is it?"
+"Death."
+"Then soul will absolutely never admit the opposite of what it always brings with it, as we agreed from our previous arguments?"
+"Most emphatically," said Cebes.
+"What then? What did we just call the thing that does not admit the idea of the Even?"
+"Uneven," he said.
+"And the thing that does not admit the Just, or the Musical?"
+"Unmusical, and Unjust."
+"Well then. What do we call that which does not admit death?"
+"Immortal," he said.
+"Does the soul not admit death?"
+"No."
+"Therefore, the soul is immortal."
+"It is immortal."
+"Very well," he said. "Can we say this has been proven? What do you think?"
+"Very adequately, Socrates."</p>
+      </div>
+      <div type="chapter" n="50">
+        <head>Section 106</head>
+        <p><pb n="106"/>"What about this, Cebes? If the Uneven were necessarily imperishable, would not three be imperishable?"
+"How could it not be?"
+"And if the Un-hot were necessarily imperishable, whenever anyone brought heat to snow, the snow would retreat intact and unmelted? For it could not perish, nor could it stay and admit the heat."
+"True," he said.
+"In the same way, I suppose, if the Un-coolable were imperishable, when something cold approached fire, the fire would never go out or perish, but would retreat safe."
+"Necessarily."
+"Must we not say the same about the Immortal? If the Immortal is also imperishable, it is impossible for the soul to perish when death approaches it. From what has been said, it will not admit death, nor will it be dead, just as three will not be even, nor will the Odd itself; nor will fire be cold, nor the heat in the fire.
+'But what prevents the Odd from perishing when the Even approaches,' someone might say, 'and becoming Even instead?' To him we could not argue that it does not perish, for the Uneven is not imperishable. If we had agreed it was imperishable, we could easily argue that when the Even approaches, the Odd and the three depart and flee. And we could argue the same about fire, heat, and the rest. Right?"
+"Certainly."
+"So now, concerning the Immortal: if we agree that it is imperishable, then the soul would be imperishable as well as immortal. If not, we need another argument."
+"But there is no need of another on that account," he said. "For what else could escape destruction if the Immortal, being everlasting, admits destruction?"</p>
+      </div>
+      <div type="chapter" n="51">
+        <head>Section 107</head>
+        <p><pb n="107"/>"I think everyone would agree," said Socrates, "that the god, the Form of Life itself, and whatever else is immortal, never perishes."
+"Everyone, by Zeus," he said, "all men and even more so, the gods."
+"Since the immortal is also indestructible, must not the soul, if it is immortal, also be imperishable?"
+"With great necessity."
+"Therefore, when death approaches a human being, the mortal part of him dies, it seems, but the immortal part retreats safely, uncorrupted, making way for death."
+"It appears so."
+"Then beyond all doubt, Cebes, the soul is immortal and imperishable, and our souls will truly exist in Hades."
+"For my part, Socrates," said Cebes, "I have nothing to say against this, nor any reason to doubt your arguments. But if Simmias or anyone else has anything to say, it is better they do not stay silent. For I do not know to what other time they could defer the matter if they wish to speak or hear about these things."
+"Nor do I," said Simmias, "have any further doubts based on what has been said. Yet, considering the magnitude of the subject we are discussing, and mindful of human weakness, I am forced to retain some lingering doubt in myself about what we have said."
+"Not only that, Simmias," said Socrates, "you speak well; even our first hypotheses, however trustworthy they seem, should be examined more clearly. If you analyze them adequately, I think you will follow the argument as far as it is possible for a human being to follow. And if this itself becomes clear, you will seek no further."
+"What you say is true," he said.
+"But it is right to think about this, gentlemen: if the soul is immortal, it demands our care not only for this time we call life, but for all time. The danger now appears terrible if one neglects it. If death were an escape from everything, it would be a godsend for the wicked to die and be rid of their body, and their soul, and their wickedness all at once. But as it is, since the soul appears immortal, there is no other escape or salvation from evils for it except to become as good and wise as possible.
+For the soul goes to Hades carrying nothing else with it but its education and upbringing, which are said to bring the greatest benefit or harm to the deceased right from the very beginning of the journey there."</p>
+      </div>
+      <div type="chapter" n="52">
+        <head>Section 108</head>
+        <p><pb n="108"/>"It is said that when a person dies, the guiding spirit (daimon) assigned to him in life leads him to a certain place where the dead must gather to be judged before traveling to Hades, guided by the one appointed to bring them from here to there. Once they have received what they must and spent the required time, another guide brings them back here over many long cycles of time.
+The journey is not as Aeschylus's Telephus describes it. He says the path to Hades is simple, but to me it seems neither simple nor single. If it were, there would be no need of guides, for no one could lose the way on a single path. In truth, it has many forks and crossways—I say this based on the sacrifices and customs observed here.
+The orderly and wise soul follows its guide and is not ignorant of its present state. But the soul that eagerly desires the body, as I said before, flutters about the body and the visible place for a long time. Only after much resistance and suffering is it forcibly dragged away by its appointed spirit. When it arrives where the others are, if it is impure and has committed some wrong—either participating in unjust murders or similar deeds kin to these—all the other souls flee from it and turn away. They refuse to be its fellow traveler or guide, and it wanders alone in complete perplexity until a certain timespan has passed. When that time is over, it is carried by necessity into its fitting habitation.
+But the soul that has passed through life purely and moderately finds gods as fellow travelers and guides, and each dwells in the place fitting for it. There are many wondrous places on the earth, and the earth itself is neither of the nature nor the size supposed by those who usually discourse about it. This I have been persuaded of by a certain person."
+Simmias said, "What do you mean, Socrates? I have heard many things about the earth myself, but not these things you are persuaded of. I would gladly hear them."
+"Well, Simmias, I do not think it requires the art of Glaucus to narrate what these things are. But to prove they are true seems too hard for the art of Glaucus. I might not be able to do it, and even if I knew how, the time remaining in my life does not seem sufficient for such a long account. Nevertheless, nothing prevents me from describing the shape of the earth as I am persuaded it is, and its regions."
+"That is sufficient," said Simmias.</p>
+      </div>
+      <div type="chapter" n="53">
+        <head>Section 109</head>
+        <p><pb n="109"/>"First," he said, "I am persuaded that if the earth is spherical and in the middle of the heavens, it needs neither air nor any other such necessity to keep from falling. The uniformity of the heavens themselves in every direction, and the equilibrium of the earth itself, are sufficient to hold it. A thing in equilibrium situated in the middle of a uniform medium will have no reason to incline more or less in any direction; being uniform, it will remain without inclining. This is the first thing I am persuaded of."
+"And rightly so," said Simmias.
+"Further," he said, "I believe it is very large, and that we who live between the Pillars of Heracles and the Phasis river dwell in only a small part of it, living around the sea like ants or frogs around a pond. Many other people live in many other such regions. For there are many hollows all over the earth, of various shapes and sizes, into which water, mist, and air have flowed together.
+But the earth itself is pure and lies in the pure heavens, where the stars are, which those who discuss such things call the aether. What flows together into the hollows of the earth is merely the sediment of the aether. We are unaware that we are living in the hollows of the earth and think we live on its upper surface. It is as if someone living at the bottom of the sea thought he was living on the surface, and seeing the sun and stars through the water, thought the sea was the sky. Because he is sluggish and weak, he has never reached the top of the sea, nor lifted his head above the water to see how much purer and more beautiful our region is than his, nor has he heard it from anyone who has seen it.
+This is exactly what has happened to us. We live in a hollow of the earth, yet assume we live on the top of it. We call the air 'heaven', as though it were the heaven through which the stars run. The truth is the same: because of our weakness and sluggishness, we cannot travel to the upper limit of the air. If someone could reach the top, or grow wings and fly up, he would peek over—just as fish popping their heads out of the sea look upon our world—and he would look upon the world there. If his nature could endure the sight, he would know that it is the true heaven, the true light, and the true earth.
+For this earth of ours, its stones, and the entire region here are corrupted and eaten away, just as things in the sea are by the salt water. Nothing worth mentioning grows in the sea, nor is there anything perfect; there are only caves, sand, immeasurable mud, and mire wherever there is earth—none of it worthy of comparison with our beautiful things. But the things there would appear to far surpass the things we have here. If it is right to tell a story, Simmias, it is worth hearing what the things on the true earth beneath the heavens are really like."
+"Indeed, Socrates," said Simmias, "we would gladly hear this story."</p>
+      </div>
+      <div type="chapter" n="54">
+        <head>Section 110</head>
+        <p><pb n="110"/>"Well then, my comrade, it is said first of all that this true earth, if viewed from above, looks like one of those twelve-piece leather balls, variegated, distinguished by colors. The colors used by our painters here are like faint samples of them. There, the entire earth is made of such colors, but much brighter and purer than ours. Part of it is purple of wondrous beauty, part golden, and part entirely white—whiter than chalk or snow. And it is composed of all the other colors as well, more numerous and beautiful than any we have ever seen.
+Even the hollows of the earth, filled with water and air, present a certain color that gleams amid the variety of the other colors, so that the whole appears as one continuous, multicolored vision. Growing on this earth are trees, flowers, and fruits in proportion to its beauty. The mountains and stones are smoother, more transparent, and of more beautiful colors. Our precious stones here—sardian, jasper, emeralds, and all such—are merely fragments of those stones. There, every single stone is like that, and even more beautiful.
+The reason is that those stones are pure; they are not eaten away or corrupted, as ours are, by the rot and brine of the sediment gathered here, which brings ugliness and disease to stones, earth, animals, and plants. The true earth is adorned with all these stones, as well as with gold, silver, and other such things. They are exposed on the surface, numerous, massive, and scattered everywhere, so that seeing the earth is a sight for blessed spectators.
+There are many living creatures on it, including human beings. Some dwell inland, some dwell along the shores of the air—just as we live by the sea—and some live on islands surrounded by air, situated near the mainland. In a word, what water and sea are for our needs, air is for them; and what air is to us, aether is to them. 
+Their seasons are so well-tempered that they are free from disease and live much longer than we do. In sight, hearing, intelligence, and all such faculties, they surpass us by the same margin that air is purer than water, and aether purer than air. They have sacred groves and temples of the gods, in which the gods truly dwell. They hear the voices and prophecies of the gods, and have direct contact and communion with them. They see the sun, moon, and stars exactly as they are, and their happiness in all other respects follows this."</p>
+      </div>
+      <div type="chapter" n="55">
+        <head>Section 111</head>
+        <p><pb n="111"/>"Such is the nature of the whole earth and the things around it. In the earth itself, around its hollows, there are many regions. Some are deeper and more open than the one we dwell in; others are deeper with a narrower opening; and still others are shallower than ours and broader. All these are connected underground in many places by passages, some narrower, some wider, so that large quantities of water flow from one to another, as if into mixing bowls. And there are huge, unceasing underground rivers of hot and cold waters, and fire, and great rivers of liquid mud, some clearer, some thicker, like the rivers of mud that flow in Sicily before the lava, and the lava itself.
+These regions are filled by whichever river happens to flow into them at the time. A kind of oscillation within the earth moves all these up and down. The nature of this oscillation is something like this:
+One of the chasms in the earth happens to be especially large and goes straight through the entire earth. This is the one Homer spoke of: 'Far away, where the deepest abyss lies beneath the earth.' This he and many other poets have called Tartarus. Into this chasm all rivers flow together, and from it they flow out again. Each river takes on the nature of the earth through which it flows. The reason they all flow out and into here is that this liquid has no bottom or resting place. So it oscillates and surges up and down, and the air and wind around it do the same. They follow it when it rushes to the far side of the earth, and when it rushes back here. Just as the breath flows in and out during respiration, so the wind oscillating with the liquid causes terrible and unimaginable blasts coming in and out.
+When the water retreats into the region we call 'below,' it flows into the rivers of that region and fills them like an irrigation ditch. When it leaves there and rushes 'here,' it fills our rivers again. Once filled, they flow through channels and through the earth, arriving at those places to which each makes its way, creating seas, lakes, rivers, and springs. From there they sink back into the earth, some taking longer, winding paths, some shorter, and empty back into Tartarus—some much lower than where they were pumped out, others only slightly. But all pour in below their point of outflow. Some flow in on the opposite side from where they came out, others on the same side. There are even those that make a complete circle, coiling once or even several times around the earth like serpents, before descending as low as possible to pour back in. It is possible to descend as far as the center from either side, but no further, for the opposite side is an uphill climb for streams from either direction."</p>
+      </div>
+      <div type="chapter" n="56">
+        <head>Section 112</head>
+        <p><pb n="112"/>"There are many large and diverse rivers, but among this multitude four stand out. The largest of these, flowing the outermost circle, is the one called Oceanus. Opposite to it, flowing in the contrary direction, is Acheron. It flows through desert places and, sinking beneath the earth, arrives at the Acherusian Lake. This is where the souls of most of the dead arrive, and after staying their destined time—some longer, some shorter—they are sent back to be born as living creatures.
+Between these two a third river issues forth. Near its source, it pours into a huge region burning with much fire and creates a lake larger than our sea, boiling with water and mud. From there it moves in a circle, muddy and murky, coiling around within the earth until it reaches the edge of the Acherusian Lake, though mingling with its waters. After coiling multiple times underground, it pours into a lower part of Tartarus. This river is called Pyriphlegethon, and its fiery streams throw off fragments wherever they reach the surface of the earth.
+Opposite this, the fourth river falls first into a terrible, wild region which is entirely of an indigo hue, called the Stygian region, and the lake it forms is called the Styx. Plunging into this lake and acquiring terrible powers in its water, the river dips beneath the earth, spiraling opposite to Pyriphlegethon and meeting it at the Acherusian Lake from the contrary side. Its water never mixes with any other, but after circling around, it pours into Tartarus opposite Pyriphlegethon. The name of this river, the poets say, is Cocytus."</p>
+      </div>
+      <div type="chapter" n="57">
+        <head>Section 113</head>
+        <p><pb n="113"/>"Since this is how nature arranged these things, when the dead arrive at the place where the guiding spirit leads each one, first they are judged—both those who have lived noble, holy lives and those who have not.
+Those whose lives are judged to have been moderate proceed to Acheron, embark on the vessels prepared for them, and arrive at the lake. There they dwell, undergoing purification. By paying the penalty for their wrongdoings, they are absolved of any injustice they committed, and receive rewards for their good deeds, each according to his merit.
+But those judged incurable because of the magnitude of their sins—having committed many great sacrileges, many unjust and illegal murders, or such things—these the fitting destiny hurls into Tartarus, from which they never emerge.
+Those judged to have committed curable but great sins—for example, doing violence to a father or mother out of anger, but repenting for the rest of their lives, or committing murder in a similar way—must also fall into Tartarus. However, after they have fallen in and stayed there for a year, the surge casts them out: the murderers along Cocytus, and the strikers of parents along Pyriphlegethon. When they are carried along and arrive at the Acherusian Lake, they cry out and call to those they murdered or outraged. They beg and entreat them to allow them to enter the lake and receive them. If they persuade them, they enter and their troubles cease. If not, they are swept back into Tartarus, and from there back into the rivers, and they do not stop suffering until they have persuaded those they wronged. For this was the penalty imposed on them by the judges.
+But those judged to have lived exceptionally holy lives are the ones freed and released from these regions in the earth, as if from prisons. They ascend to the pure dwelling place above and live upon the earth. And among these, those who have sufficiently purified themselves by philosophy live entirely without bodies for the rest of time, arriving at dwelling places even more beautiful than these, which are not easy to describe, nor is there sufficient time now."</p>
+      </div>
+      <div type="chapter" n="58">
+        <head>Section 114</head>
+        <p><pb n="114"/>"But for the sake of these very things we have described, Simmias, one must do everything to partake of virtue and wisdom in life. For the prize is noble, and the hope is great.
+To confidently assert that these things are exactly as I have described is not fitting for a sensible man. But that this, or something like it, is true concerning our souls and their dwelling places—since the soul is clearly immortal—seems to me fitting and worth taking a risk on for someone who believes it. For the risk is a noble one, and one must sing such charms to oneself. That is why I have prolonged this story for so long.
+Because of these things, a man should have confidence regarding his own soul if, during his life, he bade farewell to the pleasures and adornments of the body—considering them alien and thinking they do more harm than good—and earnestly pursued the pleasures of learning. By adorning his soul not with alien ornaments, but with its own—moderation, justice, courage, freedom, and truth—he awaits his journey to Hades, ready to go whenever destiny calls.
+You, Simmias, Cebes, and the rest of you, will each make this journey at your appointed time in the future. But for me, as a tragic character might say, destiny calls right now. It is just about time for me to go to the bath. For it seems better to drink the poison after bathing, and save the women the trouble of washing a corpse."</p>
+      </div>
+      <div type="chapter" n="59">
+        <head>Section 115</head>
+        <p><pb n="115"/>When he said this, Crito asked, "Very well, Socrates. What instructions do you leave for these men or for me about your children or anything else? What could we do that would be most pleasing to you?"
+"What I am always saying, Crito," he said. "Nothing new. If you take care of yourselves, whatever you do will be pleasing to me, to mine, and to yourselves, even if you do not promise it now. But if you neglect yourselves and refuse to walk in the footsteps of what has been said today and in the past, no matter how many solemn promises you make now, you will accomplish nothing."
+"We will eagerly strive to do as you say," said Crito. "But how shall we bury you?"
+"However you wish," he said, "provided you can catch me and I do not escape you." He laughed softly, looked at us, and said, "I cannot persuade Crito, gentlemen, that I am this Socrates here who is conversing and ordering each part of the argument. He thinks I am the one he will soon see as a corpse, and asks how to bury me! As for the long argument I just made—that when I drink the poison, I will no longer remain with you, but will depart to the joys of the blessed—I seem to be saying this in vain to comfort both you and myself.
+Please stand as guarantors for me to Crito, in the opposite way he stood guarantor for me before the judges. He guaranteed I would stay. You must guarantee that I will not stay after I die, but will depart. Thus Crito will bear it more easily, and when he sees my body being burned or buried, he will not grieve for me as though I were suffering terrible things. Nor will he say at the funeral that he is laying out Socrates, or carrying out Socrates, or burying Socrates. 
+For know well, excellent Crito, that to speak improperly is not only an error in itself, but it plants a kind of evil in the soul. You must be confident, and say that you are burying my body. Bury it however pleases you and however you think is most customary."</p>
+      </div>
+      <div type="chapter" n="60">
+        <head>Section 116</head>
+        <p><pb n="116"/>After saying this, he stood up and went into a room to bathe, and Crito followed him, telling us to wait. We waited, discussing the argument among ourselves and reflecting on it, and then talking about the greatness of the misfortune that had befallen us, truly feeling that we were losing a father and would live the rest of our lives as orphans. 
+When he had bathed, his children were brought to him—he had two little sons and one older—and the women of his household came. He spoke with them in Crito's presence, gave his final instructions, and then told the women and children to leave, and returned to us.
+It was already near sunset, for he had spent a long time inside. He came and sat down, fresh from the bath, and did not say much after that. The officer of the Eleven came and stood before him. "Socrates," he said, "I will not blame you as I blame others, who get angry and curse me when I order them to drink the poison under the magistrates' compulsion. During this time I have found you the noblest, gentlest, and best man who has ever come here. I know well that you are not angry with me now, but with them, for you know who is responsible. You know what I have come to say. Farewell, and try to bear what is necessary as easily as possible." He burst into tears, turned around, and went out.
+Socrates looked up at him and said, "Farewell to you too. We will do as you say." To us he added, "How courteous the man is! All the time I have been here he would come to see me and talk with me occasionally, the best of men. And now how genuinely he weeps for me! Come, Crito, let us obey him. Let someone bring the poison, if it is ground. If not, let the man grind it."
+Crito said, "But Socrates, I think the sun is still on the mountains and has not yet set. Besides, I know others have taken it very late, long after the order was given, dining and drinking well, and even enjoying the company of those they desired. Do not hurry; there is still time."
+Socrates replied, "It is reasonable for those men to do as you say, Crito, for they think they gain something by doing it. And it is equally reasonable for me not to do it. I think I gain nothing by drinking it a little later, except becoming ridiculous in my own eyes by clinging to life and sparing it when nothing is left. Go on," he said, "obey me and do not refuse."</p>
+      </div>
+      <div type="chapter" n="61">
+        <head>Section 117</head>
+        <p><pb n="117"/>Hearing this, Crito nodded to the slave standing nearby. The slave went out, was gone for some time, and returned bringing the man who was to administer the poison, carrying it ground in a cup. Seeing the man, Socrates said, "Well, my good man, you know about these things; what must I do?"
+"Nothing else," he said, "but drink it and walk around until your legs feel heavy. Then lie down, and it will act on its own." At the same time he handed the cup to Socrates.
+Socrates took it very cheerfully, Echecrates, without a tremor, without changing color or his expression. Looking at the man keenly under his brows, as he usually did, he asked, "What do you say about pouring a libation to a deity from this drink? Is it permitted or not?"
+"We grind just the amount we think is the right measure to drink, Socrates," he said.
+"I understand," he said. "But surely it is permitted and necessary to pray to the gods that my journey from here to there may be fortunate. That is my prayer, and may it be so." With these words, he raised the cup and drank it off quite easily and calmly.
+Until then, most of us had been able to restrain our weeping reasonably well. But when we saw him drinking, and that he had finished drinking, we could hold back no longer. My own tears came flowing in a flood against my will, so I covered my face and wept for myself—certainly not for him, but for my own misfortune in being deprived of such a comrade. Crito had gotten up and moved away even before I did, unable to restrain his tears. Apollodorus, who had not stopped weeping at all previously, now roared aloud, crying and grieving so much that he broke the heart of everyone present, except Socrates himself.
+"What are you doing, you strange men!" he said. "It was mainly for this reason that I sent the women away, so they would not create such a disturbance. I have heard that one must die in auspicious silence. Be quiet and bear up."</p>
+      </div>
+      <div type="chapter" n="62">
+        <head>Section 118</head>
+        <p><pb n="118"/>When we heard this, we were ashamed and checked our tears. He walked around, and when he said his legs were heavy, he lay down on his back, just as the man had instructed. The man who gave him the poison touched him, and after a while examined his feet and legs. He pinched his foot hard and asked if he felt it. Socrates said no. After that, he pressed his shins, and moving upwards like this, showed us that he was growing cold and stiff. Socrates himself touched his body and said that when it reached his heart, he would be gone.
+Already the cold was reaching his abdomen. He uncovered his face—for he had covered it—and spoke his last words: "Crito," he said, "we owe a rooster to Asclepius. Pay the debt and do not neglect it."
+"It shall be done," said Crito. "Is there anything else you want to say?"
+To this question he made no reply. After a short time, there was a movement. The man uncovered him; his eyes were fixed. Seeing this, Crito closed his mouth and his eyes.
+Such was the end of our comrade, Echecrates. A man of whom we may say that, of all those of his time whom we experienced, he was the best, the wisest, and the most just.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
