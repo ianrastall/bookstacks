@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Theages</title>
+        <author>
+          <persName>Plato<note type="dates">427 BCE-347 BCE</note></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Bookstacks</publisher>
+        <availability status="free">
+          <p>AI-made English translation for Bookstacks from the Ancient Greek source text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>English translation aligned to plato_theages_grc.xml, preserving Stephanus section numbering.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" n="1">
+        <head>Section 121</head>
+        <p><pb n="121"/>DEMODOCUS. Socrates, I have been wanting to speak with you privately about a certain matter, if you have the time; and even if you are somewhat busy, I beg you to make time for me, unless your business is of the utmost importance.</p>
+        <p>SOCRATES. I happen to be quite at leisure, and for your sake, Demodocus, I am especially available. You may say whatever you wish.</p>
+        <p>DEMODOCUS. Will you come aside with me then, out of the way, into the portico of Zeus the Liberator?</p>
+        <p>SOCRATES. As you please.</p>
+        <p>DEMODOCUS. Socrates, all things concerning plants, both in the earth and in the case of animals—and humans are animals too—seem to follow a similar pattern. For those of us who cultivate the earth, it is the easiest thing in the world to prepare the soil to receive the plant, and to do the planting itself. But once what is planted takes root and begins to grow, the care of it becomes very difficult and burdensome. 
+The same seems to be true concerning human beings, and I infer this from my own experience with my son here. The begetting of him, whatever one ought to call it, was the easiest part; but his upbringing has been a difficult task, filled with constant fear and anxiety about him. There is much I could mention, but the desire that currently holds him is frightening me greatly. It is not exactly a bad desire, but a dangerous one, Socrates. For you see, this boy has conceived a sudden desire to become wise.</p>
+      </div>
+      <div type="chapter" n="2">
+        <head>Section 122</head>
+        <p><pb n="122"/>DEMODOCUS. I imagine that certain of his peers and fellow townsmen have been telling him about some conversations they heard in the city, which have disturbed his mind. He has been bothering me constantly, begging me to spend money to associate him with one of these sophists who profess to make men wise. Now, the money itself is the least of my concerns, but I believe he is steering towards great danger.
+Up until now, I have managed to hold him off by using comforting words. But since I can no longer dissuade him, I think my best course is to humor him, so that he does not associate with someone secretly and get corrupted without my knowledge. That is why I have come here today: I intend to find one of these people who are reputed to be sophists and place my son in his care. Therefore, Socrates, since you happen to be here, I consider it a great stroke of luck, because you are precisely the man I most wanted to consult on this matter.</p>
+        <p>SOCRATES. Indeed, Demodocus, advice is said to be a sacred thing. And if there is any advice that is sacred, it is surely advice concerning the matter you are now considering. For a man can deliberate about nothing more divine than the education of himself and his own children. First, let us agree on what exactly we are talking about. You say he desires to become "wise," and you seek to find someone who professes to make men "wise."</p>
+        <p>DEMODOCUS. I do.</p>
+        <p>SOCRATES. By "wise," do we mean those who know something, or those who do not?</p>
+        <p>DEMODOCUS. Surely those who know something.</p>
+        <p>SOCRATES. Then tell me, Theages—is it true what your father says, that you desire to become wise, and you are asking him to find a man who can make you wise?</p>
+        <p>THEAGES. Yes.</p>
+        <p>SOCRATES. And you consider wise men to be those who possess knowledge concerning the subject they are wise in?</p>
+        <p>THEAGES. I do.</p>
+        <p>SOCRATES. Did your father not have you taught and educated in all the subjects the sons of other honorable citizens are taught, such as letters, playing the lyre, and wrestling?</p>
+        <p>THEAGES. He did.</p>
+        <p>SOCRATES. And do you think there is still some knowledge lacking, for which your father must now find a teacher for you?</p>
+        <p>THEAGES. Yes, I do.</p>
+        <p>SOCRATES. What is this knowledge? Tell us, so we may oblige you.</p>
+      </div>
+      <div type="chapter" n="3">
+        <head>Section 123</head>
+        <p><pb n="123"/>THEAGES. My father knows perfectly well, Socrates, but he is pretending to you that he does not know what I want. For I have told him often enough.</p>
+        <p>SOCRATES. But earlier you were speaking to him without a witness. Now make me your witness, and declare in front of me what this wisdom is that you desire. If, for instance, you desired the wisdom by which men steer ships, and I asked you, "What wisdom do you lack, Theages?", what would you answer? Would you not say the wisdom of a pilot?</p>
+        <p>THEAGES. Yes.</p>
+        <p>SOCRATES. And if you desired the wisdom by which they drive chariots, you would say the wisdom of a charioteer?</p>
+        <p>THEAGES. Yes.</p>
+        <p>SOCRATES. The wisdom you now desire—is it a wisdom that has a name, or does it lack a name?</p>
+        <p>THEAGES. It has a name.</p>
+        <p>SOCRATES. Do you know it, then, but not its name? Or do you know its name as well?</p>
+        <p>THEAGES. I know its name.</p>
+        <p>SOCRATES. Tell me what it is.</p>
+        <p>THEAGES. What else could its name be, Socrates, but simply "wisdom"?</p>
+        <p>SOCRATES. Is not chariot-driving also a wisdom? Or do you think it is ignorance?</p>
+        <p>THEAGES. No, it is a wisdom.</p>
+        <p>SOCRATES. The wisdom by which we know how to manage horses?</p>
+        <p>THEAGES. Yes.</p>
+        <p>SOCRATES. And the wisdom of piloting is the wisdom by which we know how to steer ships?</p>
+        <p>THEAGES. Yes.</p>
+        <p>SOCRATES. Then what is the wisdom you desire? What does it know how to manage?</p>
+        <p>THEAGES. It seems to me, Socrates, that it is the wisdom by which one knows how to govern men.</p>
+        <p>SOCRATES. Does it govern sick men? For that would be the medical art.</p>
+        <p>THEAGES. No.</p>
+        <p>SOCRATES. Does it govern singers in a chorus? For that would be the art of a chorus master.</p>
+        <p>THEAGES. No.</p>
+        <p>SOCRATES. Does it govern those engaged in physical exercise? For that is the art of gymnastics.</p>
+        <p>THEAGES. Not that either.</p>
+        <p>SOCRATES. Then what sort of men does it govern? Tell me.</p>
+        <p>THEAGES. The men in the city.</p>
+      </div>
+      <div type="chapter" n="4">
+        <head>Section 124</head>
+        <p><pb n="124"/>SOCRATES. Are there not sick men in the city?</p>
+        <p>THEAGES. Yes, but I do not mean just governing the sick, I mean governing all the citizens.</p>
+        <p>SOCRATES. Let me see if I understand the art you mean. Do you mean the art by which a man knows how to manage those who harvest the crops, those who weave, those who build houses, and all the rest? The art that manages everyone?</p>
+        <p>THEAGES. Not exactly all those arts individually, Socrates.</p>
+        <p>SOCRATES. Then do you mean the art by which a man governs everyone simultaneously—men and women, both free people and slaves?</p>
+        <p>THEAGES. Yes, that is the wisdom I mean.</p>
+        <p>SOCRATES. Like the art by which Aegisthus governed Argos, or Agamemnon governed the Greeks?</p>
+        <p>THEAGES. Yes.</p>
+        <p>SOCRATES. This is the art of a king, is it not?</p>
+        <p>THEAGES. It is.</p>
+        <p>SOCRATES. Are you saying, then, that you desire to become a tyrant over us, and you are blaming your father because he is not willing to send you to some tyrant-maker to be instructed?</p>
+        <p>THEAGES. I would certainly be glad to become a tyrant over all mankind, Socrates, and if not over all, then over as many as possible. And I imagine you would be glad as well, as would everyone else. But I did not say I desired that right now.</p>
+        <p>SOCRATES. Then what do you desire?</p>
+        <p>THEAGES. To govern willing subjects, just as the honorable men in the city do.</p>
+        <p>SOCRATES. You mean like Pericles, Cimon, and Themistocles?</p>
+        <p>THEAGES. Yes, men like that.</p>
+        <p>SOCRATES. Well, if you wanted to become wise in horsemanship, you would not go to those who manage chariots, but to those who are masters of horsemanship. If you want to become wise in the sort of wisdom those statesmen possessed, to whom should your father send you?</p>
+      </div>
+      <div type="chapter" n="5">
+        <head>Section 125</head>
+        <p><pb n="125"/>THEAGES. My father could answer that perfectly well himself, Socrates, if he wanted to. For he associates with the very men who know these things, the politicians.</p>
+        <p>DEMODOCUS. He speaks truly, Socrates. And what he says is correct.</p>
+        <p>SOCRATES. Then why, Demodocus, do you hesitate? Why not send him to one of our statesmen, since they are the ones who possess the knowledge he seeks? They could teach him for free, and he would acquire the highest reputation in the city.</p>
+        <p>DEMODOCUS. Socrates, I have often considered doing just that. But I also observe that many sons of those great statesmen turn out to be no better than the sons of cobblers. The statesmen cannot even teach their own children their art. So how can I expect them to teach my son?</p>
+        <p>SOCRATES. That is a fair point, Demodocus. But then, to whom should we send him? Theages, what do you think? Who professes to teach this art?</p>
+        <p>THEAGES. You know very well, Socrates. I hear that there are men called sophists who profess to teach exactly this.</p>
+        <p>SOCRATES. You mean Prodicus, Gorgias, and Polus?</p>
+        <p>THEAGES. Yes, those are the ones.</p>
+        <p>SOCRATES. Do you know, my fine friend, what sort of men these sophists actually are?</p>
+        <p>THEAGES. I know that they claim to make men capable of speaking and acting in political affairs.</p>
+        <p>SOCRATES. You know, Demodocus, we should not laugh at his ambition. He desires something great. But tell me, Theages, do you really believe that if a man spends his money on these sophists, he will become wise in the art of the statesman?</p>
+        <p>THEAGES. Yes, Socrates, I do.</p>
+        <p>SOCRATES. If you truly believe that, why not beg your father to send you to them, instead of complaining to him?</p>
+        <p>THEAGES. I have begged him, Socrates. But he just laughs and tells me I should ask you.</p>
+      </div>
+      <div type="chapter" n="6">
+        <head>Section 126</head>
+        <p><pb n="126"/>SOCRATES. Well, Demodocus, since he has referred the matter to me, let us examine it. Are we to send him to one of the sophists who claim to teach political virtue, charging a fee for their instruction? Or should we seek out someone else?</p>
+        <p>DEMODOCUS. I think, Socrates, we should examine whether it is safe to trust these men. I hear many strange things about them.</p>
+        <p>SOCRATES. What sort of things?</p>
+        <p>DEMODOCUS. That they are corrupters of the youth. That they teach them to despise the laws and customs of their fathers, and make them arrogant and disobedient.</p>
+        <p>SOCRATES. If that is true, then they would not be teachers of political virtue, but of political vice. What do you say to this, Theages? Do you still want to go to them?</p>
+        <p>THEAGES. I do not care what people say about them, Socrates. I know that many young men go to them and become very clever and capable speakers. That is what I want.</p>
+        <p>SOCRATES. But clever speaking is not the same as governing well. Do you want to be a clever speaker, or a good ruler?</p>
+        <p>THEAGES. A good ruler.</p>
+        <p>SOCRATES. Then the sophists may not be the right teachers for you, if they only teach how to speak. But let me ask you this, Demodocus. Why did you not send him to me, if you thought I could help?</p>
+        <p>DEMODOCUS. I would gladly send him to you, Socrates, if you are willing to take him. That is the very reason I brought him here today.</p>
+        <p>SOCRATES. But I do not profess to know anything, Demodocus, except perhaps one small subject—the subject of love. And I certainly do not profess to teach political virtue or the art of the statesman.</p>
+        <p>THEAGES. He is just making excuses, father. He does not want to take me as a pupil.</p>
+        <p>SOCRATES. Why do you say that, Theages?</p>
+        <p>THEAGES. Because I know many people of my age, and slightly older, who were completely worthless before they associated with you, but after they began spending time with you, they suddenly became superior to everyone. I want that to happen to me.</p>
+      </div>
+      <div type="chapter" n="7">
+        <head>Section 127</head>
+        <p><pb n="127"/>SOCRATES. And you think I taught them something to make them so?</p>
+        <p>THEAGES. Yes, Socrates.</p>
+        <p>SOCRATES. My dear Theages, you are mistaken about how this happens. Let me explain to you what it really is. There is a certain divine and spiritual sign that has accompanied me since childhood. It is a voice which, whenever it comes, always turns me away from what I am about to do, but it never urges me forward. Moreover, if any of my friends consults me, and the voice occurs, it turns them away as well, warning them not to proceed. 
+I can give you many examples of this, if you will listen. You can ask the people themselves. You know Charmides, the son of Glaucon, do you not?</p>
+        <p>THEAGES. Yes.</p>
+        <p>SOCRATES. Once he happened to be consulting me, telling me he intended to compete in the Nemean games. While he was speaking, the voice came to me. I tried to stop him, telling him, "As you were speaking, the divine voice came to me; I advise you not to compete." But he replied, "Perhaps it opposed me because it knew I wouldn't win. But even if I don't win, I will gain experience from competing." So he went ahead and competed. You can ask him yourself what happened to him as a result.</p>
+      </div>
+      <div type="chapter" n="8">
+        <head>Section 128</head>
+        <p><pb n="128"/>SOCRATES. And if you wish, ask Timarchus, the brother of Clitomachus, what happened when the voice came to me concerning his affairs. He and Philemon the son of Philemon had plotted to assassinate Nicias the son of Heroscoramander. Only the two of them knew of the plot. Timarchus came to me and said, "Socrates, you drink, while I must get up and go somewhere. I will return shortly, if things go well." 
+Then the voice came to me. I said, "By no means, Timarchus! Do not get up, for my customary sign has just come to me." So he stayed. A little later, he again rose to leave, saying, "I am going now, Socrates." Again the voice came, and again I compelled him to sit down. The third time, wishing to escape my notice, he waited until my attention was turned elsewhere, slipped away, and committed the deed for which he was later sent into exile. When he was about to die, he told his brother, "Socrates forewarned me, but I did not listen, and now I am suffering the consequences."
+You can ask many others who will testify to the truth of this divine sign. It is not my own knowledge or teaching that benefits my companions, but whether this divine sign allows our association or not.</p>
+      </div>
+      <div type="chapter" n="9">
+        <head>Section 129</head>
+        <p><pb n="129"/>SOCRATES. You see, Theages, the divine sign has absolute authority over those who associate with me. In many cases, it opposes their association right from the start, and it is impossible for me to converse with them; they gain no benefit from me whatsoever. With others, the sign permits us to associate, but they derive no profit from it. But those whom the spiritual power assists in their association with me are the ones you have noticed; they make swift progress.
+Even among those who do make progress, there is a difference. Some maintain their improvement firmly and permanently. But many others make incredible progress as long as they are with me, yet as soon as they leave my company, they revert to being no different from anyone else.
+Let me tell you about Aristides, the son of Lysimachus. He associated with me and made very rapid progress in a short time. But then an expedition occurred, and he sailed away. When he returned, he found that another man, Thucydides the son of Melesias, was associating with me in his place. Thucydides had quarreled with me the day before about some matter of argument. 
+Aristides came to me and greeted me, and after some conversation, he said, "Socrates, I hear that Thucydides is behaving arrogantly toward you, and thinks himself a very great man." 
+"It is true," I replied. 
+"Does he not know," said Aristides, "what a miserable creature he was before he associated with you?" 
+"Apparently not," I answered.</p>
+      </div>
+      <div type="chapter" n="10">
+        <head>Section 130</head>
+        <p><pb n="130"/>SOCRATES. Then Aristides said, "But my own condition is absurd too, Socrates."
+"What do you mean?" I asked.
+"Because, before I sailed away, I was able to discuss matters with anyone and hold my own in an argument. I felt I was no worse than my peers. But now, I am completely useless. Even the most ordinary people defeat me in arguments. And it is entirely because I have lost the ability I gained from being with you."
+"How did this ability leave you?" I asked. "Gradually, or all at once?"
+"I will tell you the truth, Socrates," he said. "By the gods, I never learned anything from you, as you well know. But I always made progress whenever I was simply in the same house as you, even if not in the same room. I made even more progress when I was in the same room. I progressed still more when I looked at you while you were speaking, rather than looking elsewhere. But my greatest and most significant improvement happened when I sat right beside you and touched you. Now," he concluded, "that disposition has completely vanished."
+Such is the nature of associating with me, Theages. If it pleases the god, you will make very great and rapid progress; but if not, you will not. Consider, then, whether it would not be safer for you to go to one of those sophists who control their own teaching, rather than risking association with me, where the outcome is entirely dependent on this divine sign.</p>
+      </div>
+      <div type="chapter" n="11">
+        <head>Section 131</head>
+        <p><pb n="131"/>THEAGES. My opinion on the matter, Socrates, is this: let us test this divine sign of yours by associating with one another. If it permits us, then that will be excellent. If it does not, we can consider what to do then. Perhaps I will then go to someone else, or perhaps we will try to appease the divine sign that attends you with prayers and sacrifices, and whatever else the seers advise.</p>
+        <p>DEMODOCUS. The boy speaks well, Socrates. Let us do as he says. Do not refuse to make trial of this association with him.</p>
+        <p>SOCRATES. If that is what you both believe is best, then let us do so.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

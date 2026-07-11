@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Euthyphro</title>
+        <author>
+          <persName>Plato<note type="dates">427 BCE-347 BCE</note></persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Bookstacks</publisher>
+        <availability status="free">
+          <p>AI-made English translation for Bookstacks from the Ancient Greek source text.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>English translation aligned to plato_euthyphro_grc.xml, preserving Stephanus section numbering.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" n="1">
+        <head>Section 2</head>
+        <p><pb n="2"/>EUTHYPHRO. What is new, Socrates, that you have left your usual haunts in the Lyceum and are now spending your time here by the King Archon's porch? Surely you don't have a lawsuit before the King, as I do.</p>
+        <p>SOCRATES. The Athenians don't call it a lawsuit, Euthyphro, but an indictment.</p>
+        <p>EUTHYPHRO. What? Has someone indicted you? I certainly won't believe that you have indicted someone else.</p>
+        <p>SOCRATES. No, I have not.</p>
+        <p>EUTHYPHRO. But someone else has indicted you?</p>
+        <p>SOCRATES. Exactly.</p>
+        <p>EUTHYPHRO. Who is it?</p>
+        <p>SOCRATES. I don't even know the man very well myself, Euthyphro. He seems to be a young and unknown person. I believe his name is Meletus, of the deme of Pitthus. Perhaps you can picture him: a man with long straight hair, not much of a beard, and a rather hooked nose.</p>
+        <p>EUTHYPHRO. I don't recall him, Socrates. But what is the indictment he has brought against you?</p>
+        <p>SOCRATES. What is it? No small one, it seems to me. It is no small thing for a young man to have recognized such an important matter. He says he knows how the youth are corrupted, and who their corrupters are. I expect he is some wise man, and seeing my ignorance, he is coming to accuse me to the city, as if to a mother, for corrupting his peers. In fact, he seems to me the only one of our politicians who starts out the right way. It is right to take care of the young first, to make them as good as possible, just as a good farmer cares for the young plants first, and then for the rest. So Meletus is perhaps first clearing us away, the ones who corrupt the young shoots, as he says. After this, clearly he will take care of the older ones and become the cause of the greatest blessings to the city. That is the natural outcome of such a beginning.</p>
+      </div>
+      <div type="chapter" n="2">
+        <head>Section 3</head>
+        <p><pb n="3"/>EUTHYPHRO. I hope it may happen, Socrates, but I am very much afraid the opposite will result. By attempting to wrong you, he seems to me to be beginning by striking at the very hearth of the city. But tell me, what does he say you do to corrupt the young?</p>
+        <p>SOCRATES. Things that sound very strange when first heard, my friend. He says I am a maker of gods, and on this ground—that I create new gods and do not believe in the old ones—he has indicted me for their sake, as he says.</p>
+        <p>EUTHYPHRO. I understand, Socrates. It is because you say the divine sign comes to you. So he has written this indictment claiming you are innovating in religious matters, and he goes to court to slander you, knowing that such matters are easily misrepresented to the multitude. Why, they even laugh at me as if I were crazy when I speak in the assembly concerning divine things and predict the future for them! And yet, not one of the things I have foretold has been false. But they envy all of us who are like this. We must not worry about them, but face them boldly.</p>
+        <p>SOCRATES. My dear Euthyphro, being laughed at is perhaps a small matter. The Athenians, it seems to me, do not care much if they think someone is clever, as long as he does not teach his wisdom to others. But if they think someone is making others like himself, they get angry—whether out of envy, as you say, or for some other reason.</p>
+        <p>EUTHYPHRO. I have no great desire to test their disposition toward me on that point.</p>
+        <p>SOCRATES. Perhaps they think you offer yourself rarely and are unwilling to teach your wisdom. But I fear that because of my love of humanity, they think I pour out whatever I have to everyone indiscriminately, not only without pay, but even glad to pay if anyone will listen to me. So, as I just said, if they were only going to laugh at me, as you say they do at you, it would not be unpleasant to spend the time in court joking and laughing. But if they are going to be serious, the outcome is uncertain to everyone except you prophets.</p>
+        <p>EUTHYPHRO. Perhaps it will come to nothing, Socrates, and you will conduct your case satisfactorily, as I think I shall conduct mine.</p>
+      </div>
+      <div type="chapter" n="3">
+        <head>Section 4</head>
+        <p><pb n="4"/>SOCRATES. But what is your case, Euthyphro? Are you defending or prosecuting?</p>
+        <p>EUTHYPHRO. Prosecuting.</p>
+        <p>SOCRATES. Whom?</p>
+        <p>EUTHYPHRO. Someone whom, again, people think I am crazy to prosecute.</p>
+        <p>SOCRATES. Why? Are you prosecuting someone who has wings to fly away?</p>
+        <p>EUTHYPHRO. He is far from flying; he happens to be very old.</p>
+        <p>SOCRATES. Who is it?</p>
+        <p>EUTHYPHRO. My father.</p>
+        <p>SOCRATES. Your own father, my good man?</p>
+        <p>EUTHYPHRO. Yes, indeed.</p>
+        <p>SOCRATES. What is the charge, and what is the lawsuit about?</p>
+        <p>EUTHYPHRO. Murder, Socrates.</p>
+        <p>SOCRATES. By Heracles! Surely, Euthyphro, the multitude is ignorant of what the right course is. For I do not think that just anyone could undertake such an action rightly, but only someone who is already very far advanced in wisdom.</p>
+        <p>EUTHYPHRO. Very far advanced indeed, Socrates, by Zeus.</p>
+        <p>SOCRATES. Is the man your father killed one of your relatives? Of course he must be. You wouldn't prosecute him for murder on behalf of a stranger.</p>
+        <p>EUTHYPHRO. It is ridiculous, Socrates, that you think it makes a difference whether the dead man is a stranger or a relative. The only thing to consider is whether the killer killed justly or not. If justly, one should let it go; if unjustly, one must prosecute him, even if the killer shares your hearth and table. The pollution is the same if you associate knowingly with such a man and do not purify yourself and him by bringing him to justice. 
+As it happens, the victim was a day-laborer of mine. While we were farming on Naxos, he was working for us there for hire. One day he got drunk, became enraged at one of our household slaves, and slaughtered him. So my father bound him hand and foot, threw him into a ditch, and sent a man here to Athens to ask the religious adviser what should be done. During that time, my father neglected the bound man, thinking him a murderer and assuming it would not matter if he died. And that is exactly what happened. Due to hunger, cold, and his bonds, he died before the messenger returned from the adviser. 
+Now my father and my other relatives are angry with me because I am prosecuting my father for murder on behalf of a murderer. They say my father did not even kill him, and even if he did, since the dead man was a murderer, I should not concern myself with someone like that. They claim it is impious for a son to prosecute his father for murder. They know poorly, Socrates, how the divine law stands regarding piety and impiety.</p>
+      </div>
+      <div type="chapter" n="4">
+        <head>Section 5</head>
+        <p><pb n="5"/>SOCRATES. But by Zeus, Euthyphro, do you think you possess such precise knowledge concerning the gods, and about what is pious and impious, that under these circumstances you are not afraid that by bringing your father to trial you might be committing an impious act yourself?</p>
+        <p>EUTHYPHRO. I would be of no use, Socrates, and Euthyphro would be no different from the majority of men, if I did not have precise knowledge of all these things.</p>
+        <p>SOCRATES. Then, my admirable Euthyphro, the best thing for me is to become your pupil! Before the trial against Meletus begins, I should challenge him on this very point. I should tell him that in the past I always considered knowledge of divine things to be of the utmost importance, and now, since he claims I am offending by improvising and innovating concerning the gods, I have become your pupil. "Meletus," I would say, "if you acknowledge that Euthyphro is wise in these matters, you must also believe that I hold the correct beliefs, and you should drop the case. If you do not, you should indict my teacher, not me, for corrupting the elderly—both me and his own father, by teaching me and by correcting and punishing him." And if he refuses to drop the case or indict you instead of me, I will say the exact same thing in court that I challenged him with.</p>
+        <p>EUTHYPHRO. By Zeus, Socrates, if he tried to indict me, I think I would find his weak spot, and the discussion in court would be much more about him than about me.</p>
+        <p>SOCRATES. Knowing this, my dear friend, I am eager to become your pupil. I know that neither Meletus nor anyone else seems to even notice you, but he has seen through me so sharply and easily that he has indicted me for impiety. So tell me now, by Zeus, what you just maintained you know so clearly: what do you say the pious and the impious are, in relation to murder and everything else? Is not piety always the same as itself in every action? And conversely, is not impiety entirely the opposite of piety, always the same as itself, so that everything that is to be impious possesses one specific characteristic regarding its impiety?</p>
+        <p>EUTHYPHRO. Absolutely, Socrates.</p>
+      </div>
+      <div type="chapter" n="5">
+        <head>Section 6</head>
+        <p><pb n="6"/>SOCRATES. Tell me then, what do you say is the pious and what is the impious?</p>
+        <p>EUTHYPHRO. I say that the pious is exactly what I am doing now: prosecuting the wrongdoer for murder, temple robbery, or any other such crime, whether the wrongdoer happens to be your father, your mother, or anyone else. And not prosecuting them is impious. 
+Consider, Socrates, the great proof I have that the law demands this—a proof I have already given to others to show that it is right not to tolerate the impious person, regardless of who he is. Men believe that Zeus is the best and most just of the gods, and they agree that he bound his own father, Cronos, because he unjustly devoured his children, and that Cronos in turn castrated his own father for similar reasons. Yet these same people are angry with me because I am prosecuting my father for his wrongdoing! They contradict themselves in what they say about the gods and what they say about me.</p>
+        <p>SOCRATES. Could this be the reason I am facing indictment, Euthyphro? Whenever someone tells such stories about the gods, I find them very difficult to accept. Because of this, it seems, people will say I am doing wrong. But now, if you, who know so much about these matters, also share these beliefs, it seems I must concede. For what else can I say, when I myself admit that I know nothing about them? But tell me, by the god of friendship, do you truly believe that these things happened exactly like that?</p>
+        <p>EUTHYPHRO. Yes, and even more marvelous things than these, Socrates, which the multitude does not know.</p>
+        <p>SOCRATES. And do you also believe there is truly war among the gods, and terrible hostilities and battles, and many other such things, which are told by the poets and woven into the sacred robes by good craftsmen, such as the robe carried up to the Acropolis at the Great Panathenaea? Are we to say that all these things are true, Euthyphro?</p>
+        <p>EUTHYPHRO. Not only those, Socrates, but as I said just now, I could explain many other things about the gods to you if you wish, which I am sure would astound you to hear.</p>
+      </div>
+      <div type="chapter" n="6">
+        <head>Section 7</head>
+        <p><pb n="7"/>SOCRATES. I would not be surprised. You shall explain them to me at your leisure on another occasion. But for now, try to answer more clearly the question I asked you earlier. For you did not adequately teach me when I asked what the pious is. You just told me that what you are doing now—prosecuting your father for murder—happens to be a pious act.</p>
+        <p>EUTHYPHRO. And I spoke the truth, Socrates.</p>
+        <p>SOCRATES. Perhaps. But surely, Euthyphro, you would say that there are many other pious acts as well.</p>
+        <p>EUTHYPHRO. Indeed there are.</p>
+        <p>SOCRATES. Remember, I did not ask you to teach me one or two of the many pious acts, but rather the very form itself by which all pious things are pious. For you agreed that it is by one specific character that impious things are impious, and pious things are pious. Do you not remember?</p>
+        <p>EUTHYPHRO. I remember.</p>
+        <p>SOCRATES. Teach me, then, what this very form is, so that I may look upon it and use it as a standard. Then, if what you or anyone else does is of that kind, I may say it is pious; and if it is not, I may say it is not.</p>
+        <p>EUTHYPHRO. If that is what you want, Socrates, that is what I will tell you.</p>
+        <p>SOCRATES. That is exactly what I want.</p>
+        <p>EUTHYPHRO. Then what is dear to the gods is pious, and what is not dear to them is impious.</p>
+        <p>SOCRATES. Excellent, Euthyphro! Now you have given the sort of answer I was looking for. Whether it is true or not, I do not yet know, but clearly you will now go on to prove that what you say is true.</p>
+        <p>EUTHYPHRO. Certainly.</p>
+        <p>SOCRATES. Come then, let us examine what we are saying. An action or a person dear to the gods is pious, and an action or person hated by the gods is impious. And they are not the same, but the pious is the exact opposite of the impious. Is that not what was said?</p>
+        <p>EUTHYPHRO. It was.</p>
+        <p>SOCRATES. And does it seem to be well said?</p>
+        <p>EUTHYPHRO. I think so, Socrates.</p>
+        <p>SOCRATES. Did we not also say that the gods quarrel, disagree, and feel enmity toward one another, Euthyphro?</p>
+        <p>EUTHYPHRO. We did.</p>
+        <p>SOCRATES. Now, my good friend, what sort of disagreements produce enmity and anger? Consider this: if you and I disagreed about which of two numbers is greater, would this disagreement make us angry and hostile toward each other? Or would we simply resort to counting and quickly settle our dispute?</p>
+        <p>EUTHYPHRO. We would settle it.</p>
+        <p>SOCRATES. And if we disagreed about the larger and smaller, we would turn to measurement and quickly stop our quarrel?</p>
+        <p>EUTHYPHRO. That is right.</p>
+        <p>SOCRATES. And if we disagreed about heavier and lighter, we would turn to weighing and be reconciled?</p>
+        <p>EUTHYPHRO. Of course.</p>
+      </div>
+      <div type="chapter" n="7">
+        <head>Section 8</head>
+        <p><pb n="8"/>SOCRATES. Then what subject of disagreement is it that we are unable to resolve with a standard, which causes us to become enemies and grow angry with one another? Perhaps you don't have an answer ready. But while I speak, consider whether these subjects are the just and the unjust, the beautiful and the ugly, the good and the bad. Are these not the subjects about which, when we disagree and are unable to reach a satisfactory decision, we fall into enmity with one another—both you and I and all other men?</p>
+        <p>EUTHYPHRO. Yes, Socrates, that is the disagreement and those are the subjects.</p>
+        <p>SOCRATES. And what about the gods, Euthyphro? If they disagree, must they not disagree about these very same things?</p>
+        <p>EUTHYPHRO. Necessarily.</p>
+        <p>SOCRATES. Then according to your argument, noble Euthyphro, different gods consider different things to be just, beautiful, ugly, good, and bad. For they would not be quarreling with one another unless they disagreed about these things, would they?</p>
+        <p>EUTHYPHRO. You are right.</p>
+        <p>SOCRATES. And whatever each of them considers beautiful, good, and just, they also love, and they hate the opposites?</p>
+        <p>EUTHYPHRO. Certainly.</p>
+        <p>SOCRATES. But the very same things, you say, are considered just by some gods and unjust by others, and as they dispute about them, they quarrel and make war. Is this not so?</p>
+        <p>EUTHYPHRO. It is.</p>
+        <p>SOCRATES. Therefore, the same things are both loved by the gods and hated by the gods, and so they would be both god-loved and god-hated.</p>
+        <p>EUTHYPHRO. It seems so.</p>
+        <p>SOCRATES. And so the same things would be both pious and impious, Euthyphro, according to this argument.</p>
+        <p>EUTHYPHRO. I suppose so.</p>
+        <p>SOCRATES. Then you did not answer my question, admirable friend. For I did not ask you for something that happens to be both pious and impious at the same time. But what is dear to the gods is also hated by the gods, it seems. Therefore, Euthyphro, what you are doing now by punishing your father may be pleasing to Zeus, but hateful to Cronos and Uranus; dear to Hephaestus, but hateful to Hera; and similarly for any other gods who disagree with each other on the matter.</p>
+      </div>
+      <div type="chapter" n="8">
+        <head>Section 9</head>
+        <p><pb n="9"/>EUTHYPHRO. But I think, Socrates, that regarding this point, none of the gods would disagree: they all believe that anyone who kills a man unjustly ought to be punished.</p>
+        <p>SOCRATES. Is that so? Have you ever heard any human being arguing that a man who has killed unjustly, or done any other unjust act, ought not to be punished?</p>
+        <p>EUTHYPHRO. They never stop arguing about these things, especially in the law courts. People commit all sorts of wrongs, and then do and say everything they can to escape punishment.</p>
+        <p>SOCRATES. Do they admit they have done wrong, Euthyphro, and despite admitting it, still say they should not be punished?</p>
+        <p>EUTHYPHRO. No, they certainly do not say that.</p>
+        <p>SOCRATES. Then they do not do and say everything. For I think they do not dare to argue that if they acted unjustly they should not pay the penalty. Instead, they deny they acted unjustly, do they not?</p>
+        <p>EUTHYPHRO. True.</p>
+        <p>SOCRATES. Therefore, they do not argue that the unjust man ought not to be punished. Instead, they argue about who is the unjust man, what he did, and when.</p>
+        <p>EUTHYPHRO. That is true.</p>
+        <p>SOCRATES. Does the same thing not apply to the gods, if indeed they quarrel about justice and injustice as your argument claims? Some say that others have done wrong, while the others deny it. But surely, my wondrous friend, no one, either god or man, dares to say that the one who acts unjustly ought not to be punished.</p>
+        <p>EUTHYPHRO. Yes, Socrates, what you say is largely true.</p>
+        <p>SOCRATES. Rather, it is about specific actions that the disputants dispute, both men and gods, if the gods do dispute. They disagree about a particular action: some say it was done justly, others unjustly. Is this not so?</p>
+        <p>EUTHYPHRO. Certainly.</p>
+        <p>SOCRATES. Come now, my dear Euthyphro, teach me, so that I may become wiser. What proof do you have that all the gods think this day-laborer was killed unjustly—the man who killed a slave, was bound by the master of the dead slave, and died because of his bonds before the master learned from the religious adviser what to do? What proof do you have that it is right for a son to prosecute and denounce his father for murder in such a case? Come, try to show me a clear proof that all the gods unquestionably believe this action is right. If you can show me adequately, I will never stop praising your wisdom.</p>
+      </div>
+      <div type="chapter" n="9">
+        <head>Section 10</head>
+        <p><pb n="10"/>EUTHYPHRO. Well, it is perhaps no small task, Socrates, although I could prove it to you very clearly.</p>
+        <p>SOCRATES. I understand. You think I am a slower learner than the jurors, because you will certainly prove to them that those acts were unjust and that all the gods hate them.</p>
+        <p>EUTHYPHRO. Very clearly, Socrates, provided they listen to me.</p>
+        <p>SOCRATES. They will listen, if they think you speak well. But here is a thought that occurred to me while you were speaking: Suppose Euthyphro were to teach me perfectly that all the gods think such a death is unjust. What more have I learned from Euthyphro about what the pious and the impious actually are? The action in question might be hateful to the gods, but we just saw that the pious and the impious are not defined by this, since we found that what is hateful to the gods is also dear to the gods. So I will let you off the hook on this point, Euthyphro. If you wish, let us suppose that all the gods consider it unjust and all of them hate it. 
+Is this the correction we are now making in the definition: that what all the gods hate is impious, and what all the gods love is pious, and what some love and others hate is neither, or both? Is this how you would now have us define the pious and the impious?</p>
+        <p>EUTHYPHRO. What prevents it, Socrates?</p>
+        <p>SOCRATES. Nothing prevents me, Euthyphro. But you must consider for yourself whether, using this hypothesis, you will easily teach me what you promised.</p>
+        <p>EUTHYPHRO. I would certainly say that the pious is what all the gods love, and the opposite, what all the gods hate, is impious.</p>
+        <p>SOCRATES. Shall we examine this to see if it is soundly spoken, Euthyphro? Or should we let it go and simply accept our own statements and those of others, conceding that something is true merely because someone says it is? Or must we examine what the speaker is saying?</p>
+        <p>EUTHYPHRO. We must examine it. However, I believe that what we have just said is soundly spoken.</p>
+        <p>SOCRATES. We shall soon know better, my good friend. Consider this: is the pious loved by the gods because it is pious, or is it pious because it is loved by the gods?</p>
+        <p>EUTHYPHRO. I do not know what you mean, Socrates.</p>
+        <p>SOCRATES. I will try to speak more clearly. We speak of something carried and something carrying, something led and something leading, something seen and something seeing. Do you understand that all these things are different from one another, and in what way they differ?</p>
+        <p>EUTHYPHRO. I think I understand.</p>
+        <p>SOCRATES. Is there not also a thing loved, and something different from it which is loving?</p>
+        <p>EUTHYPHRO. Of course.</p>
+        <p>SOCRATES. Tell me, then: is the thing carried a carried thing because someone carries it, or for some other reason?</p>
+        <p>EUTHYPHRO. No, for that reason.</p>
+        <p>SOCRATES. And the thing led is led because someone leads it, and the thing seen is seen because someone sees it?</p>
+        <p>EUTHYPHRO. Absolutely.</p>
+        <p>SOCRATES. So it is not because it is a seen thing that someone sees it, but the opposite: because someone sees it, it is a seen thing. It is not because it is a led thing that someone leads it, but because someone leads it, it is a led thing. And not because it is a carried thing does someone carry it, but because someone carries it, it is a carried thing. Is my meaning clear, Euthyphro? I mean this: if something becomes or undergoes something, it does not become because it is in a state of becoming, but it is in a state of becoming because it becomes. It does not undergo because it is an undergone thing, but it is an undergone thing because it undergoes. Do you agree with this?</p>
+        <p>EUTHYPHRO. I do.</p>
+      </div>
+      <div type="chapter" n="10">
+        <head>Section 11</head>
+        <p><pb n="11"/>SOCRATES. Now, is not the thing loved either a thing becoming or a thing undergoing something by someone?</p>
+        <p>EUTHYPHRO. Certainly.</p>
+        <p>SOCRATES. Then it is the same as with the previous examples: it is not because it is a loved thing that those who love it love it; rather, it is a loved thing because they love it.</p>
+        <p>EUTHYPHRO. Necessarily.</p>
+        <p>SOCRATES. Now, what are we saying about the pious, Euthyphro? Is it loved by all the gods, as your argument claims?</p>
+        <p>EUTHYPHRO. Yes.</p>
+        <p>SOCRATES. Because it is pious, or for some other reason?</p>
+        <p>EUTHYPHRO. No, because it is pious.</p>
+        <p>SOCRATES. So it is loved because it is pious, but it is not pious because it is loved?</p>
+        <p>EUTHYPHRO. It seems so.</p>
+        <p>SOCRATES. On the other hand, the god-loved is god-loved because it is loved by the gods?</p>
+        <p>EUTHYPHRO. Of course.</p>
+        <p>SOCRATES. Then the god-loved is not the pious, Euthyphro, nor is the pious the god-loved, as you claim. They are two different things.</p>
+        <p>EUTHYPHRO. How so, Socrates?</p>
+        <p>SOCRATES. Because we agreed that the pious is loved because it is pious, but it is not pious because it is loved. Is that right?</p>
+        <p>EUTHYPHRO. Yes.</p>
+        <p>SOCRATES. But the god-loved, because it is loved by the gods, is god-loved by the very act of being loved. It is not loved because it is god-loved.</p>
+        <p>EUTHYPHRO. True.</p>
+        <p>SOCRATES. But if the god-loved and the pious were the same thing, my dear Euthyphro, then if the pious were loved because it is pious, the god-loved would also be loved because it is god-loved. And if the god-loved were god-loved because it is loved by the gods, then the pious would also be pious because it is loved by the gods. But as it is, you see that the two are completely opposite and entirely different from each other. For the one is of a nature to be loved because it is loved, while the other is loved because it is of a nature to be loved. 
+It seems, Euthyphro, that when you were asked what the pious is, you did not wish to make its essence clear to me, but you merely stated an attribute belonging to it: that the pious has the attribute of being loved by all the gods. But you have not yet told me what it actually is. So, if you please, do not hide it from me. Start from the beginning and tell me what the pious is, whether it is loved by the gods or has any other attribute—for we shall not quarrel about that. Speak up and tell me: what are the pious and the impious?</p>
+        <p>EUTHYPHRO. But Socrates, I have no way of telling you what I have in mind. Whatever we put forward keeps moving around and refuses to stay where we set it down.</p>
+        <p>SOCRATES. Your statements, Euthyphro, seem to be the work of my ancestor, Daedalus. If I had made them and set them down, perhaps you would joke that my kinship with him is the reason my verbal creations run away and refuse to stay put. But since the hypotheses are yours, we need a different joke. For they refuse to remain stationary for you, as you yourself see.</p>
+      </div>
+      <div type="chapter" n="11">
+        <head>Section 12</head>
+        <p><pb n="12"/>EUTHYPHRO. I think the joke fits the situation quite well, Socrates. I am not the one putting this motion into our statements to make them wander around. You seem to be the Daedalus here; if it were up to me, they would stay right where they are.</p>
+        <p>SOCRATES. I must be much more clever in the art than he was, my friend, because he only made his own creations move, while I can apparently make other people's creations move as well! The most remarkable thing about my art is that I am wise against my will. I would prefer my arguments to remain fast and immovable rather than possess the wisdom of Daedalus and the wealth of Tantalus combined. But enough of this. Since you seem to be getting lazy, I will eagerly help you show me how to teach me about the pious. Do not give up yet. See if you don't think it necessary that all the pious must be just.</p>
+        <p>EUTHYPHRO. I do.</p>
+        <p>SOCRATES. Is all the just also pious? Or is all the pious just, but not all the just pious—some of it being pious and some of it being something else?</p>
+        <p>EUTHYPHRO. I cannot follow what you are saying, Socrates.</p>
+        <p>SOCRATES. And yet you are younger than me by as much as you are wiser! But as I say, you have grown lazy from the wealth of your wisdom. Pull yourself together, my good man! What I am saying is not hard to understand. I am saying the exact opposite of what the poet meant when he wrote:
+"Of Zeus, who acts and brought all this to be,
+He will not speak. For where there is fear, there is also reverence."
+I disagree with the poet on this. Shall I tell you why?</p>
+        <p>EUTHYPHRO. By all means.</p>
+        <p>SOCRATES. It does not seem to me that "where there is fear, there is also reverence." Many people fear diseases, poverty, and other such things, but they do not reverence the things they fear. Do you agree?</p>
+        <p>EUTHYPHRO. Certainly.</p>
+        <p>SOCRATES. But where there is reverence, there is fear. Is there anyone who reverences and feels ashamed of a certain action who does not simultaneously fear and dread a bad reputation?</p>
+        <p>EUTHYPHRO. He surely fears it.</p>
+        <p>SOCRATES. So it is not right to say "where there is fear, there is also reverence." For fear is broader than reverence. Reverence is a part of fear, just as odd is a part of number. Where there is number, there is not necessarily odd, but where there is odd, there is number. You follow me now, I assume?</p>
+        <p>EUTHYPHRO. Yes, entirely.</p>
+        <p>SOCRATES. This is the sort of thing I was asking about earlier. Where there is justice, is there also piety? Or rather, where there is piety, there is justice; but where there is justice, there is not everywhere piety, for piety is a part of justice. Shall we say this, or do you think otherwise?</p>
+        <p>EUTHYPHRO. No, let us say that. It seems to me you are speaking correctly.</p>
+      </div>
+      <div type="chapter" n="12">
+        <head>Section 13</head>
+        <p><pb n="13"/>SOCRATES. Look at what follows. If the pious is a part of the just, we must discover what part of the just it is. Now, if you had asked me about the example I just used—what part of number is the even, and what kind of number is it?—I would have said it is any number that is not scalene, but isosceles (divisible into two equal parts). Don't you agree?</p>
+        <p>EUTHYPHRO. I do.</p>
+        <p>SOCRATES. Then try to teach me in the same way what part of the just the pious is. Then we can tell Meletus to stop doing me wrong and indicting me for impiety, since I will have sufficiently learned from you what is godly and pious, and what is not.</p>
+        <p>EUTHYPHRO. It seems to me, Socrates, that the godly and pious is the part of the just that concerns the care of the gods. The remaining part of justice is the part that concerns the care of men.</p>
+        <p>SOCRATES. You seem to speak very well, Euthyphro. But I still need one small piece of information. I do not yet understand what you mean by "care." You surely do not mean the care of the gods in the same way we use the word for other things. For we say, for example, that not everyone knows how to care for horses, but only the horse-trainer. Is that right?</p>
+        <p>EUTHYPHRO. Yes.</p>
+        <p>SOCRATES. Because horse-training is the care of horses.</p>
+        <p>EUTHYPHRO. Yes.</p>
+        <p>SOCRATES. Nor does everyone know how to care for dogs, but only the huntsman.</p>
+        <p>EUTHYPHRO. Yes.</p>
+        <p>SOCRATES. And the herdsman's art is the care of cattle.</p>
+        <p>EUTHYPHRO. Exactly.</p>
+        <p>SOCRATES. And piety and godliness is the care of the gods, Euthyphro? Is that what you say?</p>
+        <p>EUTHYPHRO. That is what I say.</p>
+        <p>SOCRATES. Now, does not all care produce the same result? I mean something like this: it aims at the good and benefit of the thing being cared for. You see that horses cared for by the horse-trainer are benefited and made better. Do you not think so?</p>
+        <p>EUTHYPHRO. I do.</p>
+        <p>SOCRATES. And dogs are made better by the huntsman's art, and cattle by the herdsman's art, and so on. Or do you think that care aims at harming the thing cared for?</p>
+        <p>EUTHYPHRO. By Zeus, no!</p>
+        <p>SOCRATES. It aims at benefiting it?</p>
+        <p>EUTHYPHRO. Of course.</p>
+        <p>SOCRATES. Then does piety, which is the care of the gods, benefit the gods and make the gods better? Would you concede that whenever you do something pious, you make some god better?</p>
+        <p>EUTHYPHRO. By Zeus, no!</p>
+        <p>SOCRATES. Nor do I think you meant that, Euthyphro. I am far from thinking so. That is why I asked what you meant by the "care" of the gods, because I assumed you did not mean that kind of care.</p>
+        <p>EUTHYPHRO. You were right to assume so, Socrates. I do not mean that kind.</p>
+        <p>SOCRATES. Very well. Then what kind of care for the gods would piety be?</p>
+        <p>EUTHYPHRO. The kind of care, Socrates, that slaves provide for their masters.</p>
+        <p>SOCRATES. I understand. It would be a kind of service to the gods, it seems.</p>
+        <p>EUTHYPHRO. Exactly.</p>
+      </div>
+      <div type="chapter" n="13">
+        <head>Section 14</head>
+        <p><pb n="14"/>SOCRATES. Could you tell me what the service to doctors aims to accomplish? Is it not for the accomplishment of health?</p>
+        <p>EUTHYPHRO. Yes.</p>
+        <p>SOCRATES. And the service to shipbuilders? What result does it help achieve?</p>
+        <p>EUTHYPHRO. Clearly, Socrates, it helps build ships.</p>
+        <p>SOCRATES. And service to housebuilders helps build houses?</p>
+        <p>EUTHYPHRO. Yes.</p>
+        <p>SOCRATES. Tell me then, excellent friend: the service to the gods—what result does it help accomplish? You must know, since you say you know divine matters better than any man.</p>
+        <p>EUTHYPHRO. And I speak the truth, Socrates.</p>
+        <p>SOCRATES. Then tell me, by Zeus, what is that utterly beautiful work which the gods accomplish using us as their servants?</p>
+        <p>EUTHYPHRO. They accomplish many beautiful things, Socrates.</p>
+        <p>SOCRATES. So do generals, my friend. But you could easily tell me their chief result, which is achieving victory in war. Is that not so?</p>
+        <p>EUTHYPHRO. Of course.</p>
+        <p>SOCRATES. Farmers also accomplish many beautiful things, but their chief result is producing food from the earth.</p>
+        <p>EUTHYPHRO. Exactly.</p>
+        <p>SOCRATES. Now what about the many beautiful things the gods accomplish? What is the chief result of their work?</p>
+        <p>EUTHYPHRO. I told you a moment ago, Socrates, that it is a great task to learn exactly how all these things stand. But I can tell you simply this: if a man knows how to say and do things that are gratifying to the gods in prayer and sacrifice, those are the pious things. Such actions preserve private households and the common affairs of the city. The opposites of what is gratifying are impious, and these overturn and destroy everything.</p>
+        <p>SOCRATES. You could have answered my question much more briefly, Euthyphro, if you had wanted to. But you are not eager to teach me—that much is clear. Even now, just as you were on the verge of the answer, you turned away. If you had answered, I would have fully learned what piety is from you by now. But as it is, the questioner must follow the questioned wherever he leads. What do you say the pious and piety are once again? A knowledge of how to sacrifice and pray?</p>
+        <p>EUTHYPHRO. I do.</p>
+        <p>SOCRATES. And sacrificing is offering gifts to the gods, and praying is asking for things from the gods?</p>
+        <p>EUTHYPHRO. Very much so, Socrates.</p>
+        <p>SOCRATES. Based on this statement, piety would be the knowledge of asking from and giving to the gods.</p>
+        <p>EUTHYPHRO. You have grasped my meaning perfectly, Socrates.</p>
+      </div>
+      <div type="chapter" n="14">
+        <head>Section 15</head>
+        <p><pb n="15"/>SOCRATES. Yes, my friend, because I am greedy for your wisdom and apply my mind to it, so that nothing you say falls to the ground. But tell me, what is this service to the gods? You say it is asking for things and giving things to them?</p>
+        <p>EUTHYPHRO. I do.</p>
+        <p>SOCRATES. Is the right way to ask to ask for what we need from them?</p>
+        <p>EUTHYPHRO. What else?</p>
+        <p>SOCRATES. And the right way to give is to offer them what they happen to need from us? For it would be an unskilled sort of giving to offer someone things they do not need.</p>
+        <p>EUTHYPHRO. True, Socrates.</p>
+        <p>SOCRATES. So piety, Euthyphro, would be a kind of trading skill between gods and men.</p>
+        <p>EUTHYPHRO. Trading skill, yes, if you prefer to call it that.</p>
+        <p>SOCRATES. I don't prefer it unless it happens to be true. Tell me, what benefit do the gods receive from the gifts they get from us? What they give us is obvious to everyone, for we possess nothing good that they did not give us. But how are they benefited by what they receive from us? Or do we get so much the better of them in this trade that we receive all good things from them, while they receive nothing from us?</p>
+        <p>EUTHYPHRO. But Socrates, do you really think the gods receive any benefit from the things they get from us?</p>
+        <p>SOCRATES. Then what in the world are these gifts of ours to the gods, Euthyphro?</p>
+        <p>EUTHYPHRO. What else could they be but honor, reverence, and—as I said just now—gratification?</p>
+        <p>SOCRATES. So the pious is gratifying to the gods, Euthyphro, but not beneficial or dear to them?</p>
+        <p>EUTHYPHRO. I think it is the dearest of all things to them.</p>
+        <p>SOCRATES. So once again, it seems, the pious is what is dear to the gods.</p>
+        <p>EUTHYPHRO. Absolutely.</p>
+        <p>SOCRATES. Saying this, can you wonder if your arguments appear to walk around and not remain stationary? Will you accuse me of being the Daedalus who makes them walk, when you yourself are far more skilled than Daedalus and make them go in circles? Do you not see that our argument has gone in a circle and returned to the very same place? You surely remember that earlier we found that the pious and the god-loved were not the same, but different. Do you remember?</p>
+        <p>EUTHYPHRO. I remember.</p>
+      </div>
+      <div type="chapter" n="15">
+        <head>Section 16</head>
+        <p><pb n="16"/>SOCRATES. And now, do you not realize that you are saying the pious is what is dear to the gods? And is "what is dear to the gods" anything other than the god-loved?</p>
+        <p>EUTHYPHRO. No.</p>
+        <p>SOCRATES. So either we were wrong to agree earlier, or, if we were right then, our present statement is wrong.</p>
+        <p>EUTHYPHRO. It seems so.</p>
+        <p>SOCRATES. Then we must examine from the beginning what the pious is. I shall not willingly give up until I learn it. Do not despise me, but apply your mind in every way with the utmost effort and tell me the truth now. For if any man knows it, you do; and like Proteus, you must not be let go until you tell me. 
+If you did not know clearly what the pious and the impious are, you would never have ventured to prosecute your elderly father for murder on behalf of a day-laborer. You would have feared the gods, lest you were doing it wrongly, and you would have been ashamed before men. But as it is, I am certain you think you know clearly what is pious and what is not. So speak, excellent Euthyphro, and do not hide what you believe it to be.</p>
+        <p>EUTHYPHRO. Some other time, Socrates. I am in a hurry somewhere right now, and it is time for me to go.</p>
+        <p>SOCRATES. What a thing to do, my friend! You are leaving me, casting me down from the great hope I had that I would learn from you the things pious and the things not, and thus escape Meletus's indictment. I would have shown him that I had now become wise in divine matters thanks to Euthyphro, and that I no longer act ignorantly or innovate regarding them; and furthermore, that I would live a better life for the rest of my days.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
