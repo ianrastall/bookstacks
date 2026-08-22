@@ -525,9 +525,13 @@ button, input { font: inherit; }
 
 .tei-division + .tei-division { margin-top: 2rem; }
 .tei-entity { border-bottom: 1px dotted var(--accent); }
-.tei-note { color: var(--accent-strong); font-size: 0.9em; }
-.tei-note:not(.tei-note-bracketed)::before { content: "["; }
-.tei-note:not(.tei-note-bracketed)::after { content: "]"; }
+.tei-note {
+  margin-inline-start: 0.18em;
+  color: var(--accent);
+  font-size: 0.75em;
+  line-height: 1;
+  vertical-align: super;
+}
 .tei-line-group { margin: 1.4rem 0 1.4rem 2rem; }
 .tei-line { display: block; }
 .tei-smallcaps { font-variant: small-caps; }

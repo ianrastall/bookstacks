@@ -652,15 +652,20 @@ function isFirstParagraph(node: any): boolean {
 }
 
 function renderInlineNote(note: any, entities: EntityMaps, headingLevel: number): string {
-  const content = directChildNodes(note).map((child) => {
+  let content = directChildNodes(note).map((child) => {
     if (child.nodeType === 1 && child.localName === 'p') {
       return directChildNodes(child).map((part) => renderNode(part, entities, headingLevel)).join('');
     }
     return renderNode(child, entities, headingLevel);
-  }).join('');
-  const alreadyBracketed = /^\s*\[.*\]\s*$/s.test(cleanText(note.textContent));
+  }).join('').trim();
+  const noteText = cleanText(note.textContent);
+  if (/^\[.*\]$/s.test(noteText)) {
+    content = content.replace(/^\s*\[/, '').replace(/\]\s*$/, '');
+  } else {
+    content = content.replace(/^\s*\[([^\]]{1,8})\]\s*/, '$1 ');
+  }
   return content.trim()
-    ? `<span class="tei-note${alreadyBracketed ? ' tei-note-bracketed' : ''}" role="note" title="Note">${content}</span>`
+    ? ` <sup class="tei-note" role="note" title="Footnote">${content.trim()}</sup>`
     : '';
 }
 
