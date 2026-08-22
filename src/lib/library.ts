@@ -18,6 +18,8 @@ const WRAPPER_KINDS = new Set(['edition', 'translation']);
 
 export const PUBLISHED_AUTHOR_SLUGS = new Set([
   'aristotle',
+  'austen',
+  'dickens',
   'dostoevsky',
   'plato',
   'tolstoy',

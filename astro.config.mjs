@@ -5,6 +5,8 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'never',
   redirects: {
+    '/authors/austen-jane': '/authors/austen',
+    '/authors/dickens-charles': '/authors/dickens',
     '/authors/dostoevsky-fyodor': '/authors/dostoevsky',
     '/authors/tolstoy-leo': '/authors/tolstoy',
   },
