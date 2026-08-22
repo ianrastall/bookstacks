@@ -72,8 +72,9 @@ python ./validate_tei.py
   Demons*, Constance Garnett). Their translator or authorial front matter,
   part/book/epilogue hierarchy, chapters, subchapter sections, paragraphs,
   letters, poetry, inline typography, and notes are retained; standalone end
-  labels and the collected *Brothers Karamazov* notes are encoded as trailer
-  and back matter rather than flattened into the last paragraph or chapter.
+  labels are encoded as trailers, while referenced notes replace their source
+  markers inline and unreferenced editorial codas attach to the preceding
+  paragraph rather than being flattened at the end of a division.
 - Source-specific HTML constructs are converted to TEI equivalents, and
   divisions that mix blocks with subdivisions are grouped into ordered
   section divisions.

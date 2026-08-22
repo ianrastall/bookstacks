@@ -659,13 +659,15 @@ function renderInlineNote(note: any, entities: EntityMaps, headingLevel: number)
     return renderNode(child, entities, headingLevel);
   }).join('').trim();
   const noteText = cleanText(note.textContent);
-  if (/^\[.*\]$/s.test(noteText)) {
+  if (/^\[(?:\*|\d+)\]\s*/.test(noteText)) {
+    content = content.replace(/^\s*\[(?:\*|\d+)\]\s*/, '');
+  } else if (/^\*\s+/.test(noteText)) {
+    content = content.replace(/^\s*\*\s+/, '');
+  } else if (/^\[.*\]$/s.test(noteText)) {
     content = content.replace(/^\s*\[/, '').replace(/\]\s*$/, '');
-  } else {
-    content = content.replace(/^\s*\[([^\]]{1,8})\]\s*/, '$1 ');
   }
   return content.trim()
-    ? ` <sup class="tei-note" role="note" title="Footnote">${content.trim()}</sup>`
+    ? ` <sup class="tei-note" role="note" title="Footnote">${content.trim()}</sup> `
     : '';
 }
 

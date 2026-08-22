@@ -248,7 +248,7 @@ def convert_block(
             place="foot",
             xml_id=f"eng-note-{note_number:04d}",
         )
-        note.text = re.sub(r"^\*\s*", "", text)
+        note.text = text
         return note, paragraph_number, note_number
 
     if local == "p" and "poem" in css_class.split():
@@ -532,6 +532,117 @@ def iter_reading_blocks(xhtml: etree._Element) -> list[etree._Element]:
         if not nested:
             blocks.append(element)
     return blocks
+
+
+def insert_note_at_marker(
+    text_node: etree._ElementUnicodeResult,
+    marker: str,
+    note: etree._Element,
+) -> None:
+    value = str(text_node)
+    before, after = value.rsplit(marker, 1)
+    owner = text_node.getparent()
+    if (
+        owner.tag == f"{{{TEI}}}hi"
+        and "sup" in owner.get("rend", "").split()
+        and normalized_text(owner) == marker
+    ):
+        parent = owner.getparent()
+        note.tail = owner.tail
+        parent.replace(owner, note)
+        return
+    if text_node.is_text:
+        owner.text = before
+        owner.insert(0, note)
+    else:
+        parent = owner.getparent()
+        owner.tail = before
+        parent.insert(parent.index(owner) + 1, note)
+    note.tail = after
+
+
+def relocate_inline_notes(root: etree._Element) -> None:
+    """Replace source note markers with their full TEI notes."""
+    text = root.find(f"{{{TEI}}}text")
+    if text is None:
+        return
+    notes = list(text.xpath(".//tei:note", namespaces={"tei": TEI}))
+    element_order = {element: index for index, element in enumerate(text.iter())}
+    original_note_order = {note: element_order[note] for note in notes}
+
+    for note in notes:
+        note_text = normalized_text(note)
+        label_match = re.match(r"^(?:\[([*]|\d+)\]|([*]))\s*", note_text)
+        label = next((value for value in label_match.groups() if value), None) if label_match else None
+        if label is None:
+            unmatched_stars = [
+                node
+                for node in text.xpath(
+                    ".//text()[not(ancestor::tei:note)]",
+                    namespaces={"tei": TEI},
+                )
+                if "[*]" in str(node)
+                and element_order.get(node.getparent(), -1) < original_note_order[note]
+            ]
+            if unmatched_stars:
+                label = "*"
+        if label:
+            marker = f"[{label}]"
+            candidates = [
+                node
+                for node in text.xpath(
+                    ".//text()[not(ancestor::tei:note)]",
+                    namespaces={"tei": TEI},
+                )
+                if marker in str(node)
+                and element_order.get(node.getparent(), -1) < original_note_order[note]
+            ]
+            if candidates:
+                target = max(candidates, key=lambda node: element_order[node.getparent()])
+                if note.text:
+                    note.text = re.sub(
+                        r"^\s*(?:\[(?:[*]|\d+)\]|[*])\s*",
+                        "",
+                        note.text,
+                        count=1,
+                    )
+                insert_note_at_marker(target, marker, note)
+                continue
+
+        parent = note.getparent()
+        previous = note.getprevious()
+        target_paragraph: etree._Element | None = None
+        while previous is not None and target_paragraph is None:
+            if previous.tag == f"{{{TEI}}}p":
+                target_paragraph = previous
+            else:
+                paragraphs = previous.xpath(".//tei:p", namespaces={"tei": TEI})
+                target_paragraph = paragraphs[-1] if paragraphs else None
+            previous = previous.getprevious()
+        if target_paragraph is not None and parent is not target_paragraph:
+            target_paragraph.append(note)
+            note.tail = None
+
+    for notes_div in text.xpath(
+        ".//tei:div[@type='notes'][not(.//tei:note)]",
+        namespaces={"tei": TEI},
+    ):
+        notes_div.getparent().remove(notes_div)
+    for back in text.xpath("./tei:back[not(*)]", namespaces={"tei": TEI}):
+        text.remove(back)
+    for note in notes:
+        wrapper = note.getparent()
+        if (
+            wrapper is not None
+            and wrapper.tag == f"{{{TEI}}}hi"
+            and "sup" in wrapper.get("rend", "").split()
+            and len(wrapper) == 1
+            and not (wrapper.text or "").strip()
+            and not (note.tail or "").strip()
+        ):
+            parent = wrapper.getparent()
+            note.tail = wrapper.tail
+            parent.replace(wrapper, note)
 
 
 def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
@@ -835,6 +946,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
             f"expected groups={expected_groups}, chapters={expected_chapters}, "
             f"sections={expected_sections}, fronts={expected_fronts}, backs={expected_backs}"
         )
+    relocate_inline_notes(root)
     return etree.ElementTree(root)
 
 
