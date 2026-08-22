@@ -704,5 +704,14 @@
     "sources": [
       { "lang": "rus", "xml_lang": "ru", "path": "../assets/dostoevsky-tei/texts/zapiski_iz_podpolia/zapiski_iz_podpolia.xml" }
     ]
+  },
+  {
+    "author": "Eliot",
+    "title": "Middlemarch",
+    "id": "middlemarch",
+    "source_format": "middlemarch_annotated_fragments",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../../corpus-eliot-middlemarch-tei" }
+    ]
   }
 ]

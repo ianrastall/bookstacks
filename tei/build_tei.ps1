@@ -817,6 +817,18 @@ foreach ($item in $config) {
     $authorSlug = $item.author.ToLowerInvariant()
     $baseName = $authorSlug + '_' + $item.id
     Write-Output "Processing $($item.title) by $($item.author)..."
+    if ($item.source_format -eq 'middlemarch_annotated_fragments') {
+        if ($item.sources.Count -ne 1) { throw "Middlemarch must have exactly one source repository directory." }
+        $src = $item.sources[0]
+        $srcPath = Join-Path $PSScriptRoot $src.path
+        $outPath = Join-Path $PSScriptRoot (Join-Path $authorSlug "${baseName}_$($src.lang).xml")
+        & python (Join-Path $PSScriptRoot 'build_middlemarch.py') `
+            --source-dir $srcPath `
+            --output $outPath `
+            --schema (Join-Path $PSScriptRoot 'tei_all.rng')
+        if ($LASTEXITCODE -ne 0) { throw "Failed to convert the annotated Middlemarch source corpus." }
+        continue
+    }
     if ($item.source_format -eq 'gutenberg_epub') {
         if ($item.sources.Count -ne 1) { throw "Gutenberg EPUB work $($item.title) must have exactly one source." }
         $src = $item.sources[0]

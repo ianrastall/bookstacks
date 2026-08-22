@@ -40,6 +40,12 @@ python ./validate_tei.py
 - The six Jane Austen novels are generated from `assets/tei/aus.001.xml`
   through `aus.006.xml`. Their chapter hierarchy, participant lists, and
   encoded prose-speaker attributions are retained and normalized.
+- George Eliot's *Middlemarch* is generated from the sibling
+  `corpus-eliot-middlemarch-tei` repository. Its eight HTML-like source
+  fragments are repaired and consolidated into one TEI book containing the
+  Prelude, Books I-VIII, Chapters I-LXXXVI, and Finale. Source dialogue,
+  represented thought, free indirect discourse, and narratorial person
+  annotations are retained with resolvable participant references.
 - `assets/tei/hta.*` contains works by Henry Thomas Austen, not Jane Austen,
   and is intentionally excluded from the generated corpus.
 - The Maude *War and Peace* and Garnett *Anna Karenina* translations are

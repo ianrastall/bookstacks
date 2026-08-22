@@ -24,6 +24,7 @@ export const PUBLISHED_AUTHOR_SLUGS = new Set([
   'austen',
   'dickens',
   'dostoevsky',
+  'eliot',
   'plato',
   'tolstoy',
 ]);
@@ -33,6 +34,7 @@ const AUTHOR_PROFILES: Record<string, Omit<Author, 'works'>> = {
   austen: { slug: 'austen', name: 'Jane Austen', dates: '1775–1817', portrait: 'austen-jane.png' },
   dickens: { slug: 'dickens', name: 'Charles Dickens', dates: '1812–1870', portrait: 'dickens-charles.png' },
   dostoevsky: { slug: 'dostoevsky', name: 'Fyodor Dostoevsky', dates: '1821–1881', portrait: 'dostoevsky-fyodor.png' },
+  eliot: { slug: 'eliot', name: 'George Eliot', dates: '1819–1880', portrait: 'eliot-george.png' },
   plato: { slug: 'plato', name: 'Plato', dates: 'c. 428–348 BCE', portrait: 'plato.png' },
   tolstoy: { slug: 'tolstoy', name: 'Leo Tolstoy', dates: '1828–1910', portrait: 'tolstoy-leo.png' },
 };
@@ -81,6 +83,7 @@ const WORK_TITLES: Record<string, string> = {
   'gorgias': 'Gorgias',
   'mansfield-park': 'Mansfield Park',
   'martin-chuzzlewit': 'Martin Chuzzlewit',
+  'middlemarch': 'Middlemarch',
   'meno': 'Meno',
   'metaphysics': 'Metaphysics',
   'nicholas-nickleby': 'Nicholas Nickleby',
