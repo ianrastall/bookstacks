@@ -17,19 +17,14 @@ type Page =
   | { kind: 'work'; author: Author; work: Work }
   | { kind: 'reader'; author: Author; work: Work; edition: Edition; unit: ReadingUnit };
 
-interface Props {
-  page: Page;
-}
+interface Props { page: Page }
 
 export function getStaticPaths() {
   const paths: Array<{ params: { slug: string }; props: Props }> = [];
   for (const author of getLibrary().authors) {
     paths.push({ params: { slug: author.slug }, props: { page: { kind: 'author', author } } });
     for (const work of author.works) {
-      paths.push({
-        params: { slug: `${author.slug}/${work.slug}` },
-        props: { page: { kind: 'work', author, work } },
-      });
+      paths.push({ params: { slug: `${author.slug}/${work.slug}` }, props: { page: { kind: 'work', author, work } } });
       for (const edition of work.editions) {
         for (const unit of edition.units) {
           paths.push({
@@ -58,133 +53,124 @@ const description = page.kind === 'author'
 
 <BaseLayout title={title} description={description} wide={page.kind === 'reader'}>
   {page.kind === 'author' && (
-    <>
-      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Library</a><span>/</span><span aria-current="page">{page.author.name}</span></nav>
-      <header class="author-hero">
-        <div class="author-hero-copy">
-          <p class="eyebrow">Author shelf</p>
-          <h1>{page.author.name}</h1>
-          <p class="author-life">{page.author.dates}</p>
-          <p>{page.author.works.length} complete {page.author.works.length === 1 ? 'work' : 'works'} in {page.author.works.reduce((sum, work) => sum + work.editions.length, 0)} prepared editions.</p>
+    <section class="tool-container shell">
+      <div class="tool-header">
+        <div class="tool-title">
+          <span class="material-icons" aria-hidden="true">person</span>
+          <div>
+            <h2>{page.author.name}</h2>
+            <p class="author-dates">{page.author.dates}</p>
+          </div>
         </div>
-        <div class="author-hero-portrait portrait-frame">
-          <img src={`/img/authors/${page.author.portrait}`} alt={`Engraved portrait of ${page.author.name}`} width="500" height="500" />
+        <div class="tool-actions">
+          <a class="btn btn-secondary btn-compact" href="/">
+            <span class="material-icons" aria-hidden="true">home</span> Home
+          </a>
         </div>
-      </header>
-      <section class="works-section" aria-labelledby="works-heading">
-        <div class="section-heading compact">
-          <div><p class="eyebrow">On this shelf</p><h2 id="works-heading">Works</h2></div>
-        </div>
-        <div class="work-grid">
-          {page.author.works.map((work, index) => (
-            <a class="work-card" href={workHref(work)}>
-              <p class="work-number">{String(index + 1).padStart(2, '0')}</p>
-              <h3>{work.title}</h3>
-              <div class="language-list" aria-label="Available languages">
-                {work.editions.map((edition) => <span>{edition.languageName}</span>)}
-              </div>
-              <p class="card-meta">{work.editions.reduce((sum, edition) => sum + edition.units.length, 0)} reading units</p>
-              <span class="card-action">Open work <span aria-hidden="true">→</span></span>
-            </a>
-          ))}
-        </div>
-      </section>
-    </>
+      </div>
+      <p class="tool-description">Books by {page.author.name}</p>
+      <div class="author-hero">
+        <img src={`/img/authors/${page.author.portrait}`} alt={`Portrait of ${page.author.name}`} class="author-portrait" width="500" height="500" />
+      </div>
+      <div class="tool-grid">
+        {page.author.works.map((work) => (
+          <a class="tool-card book-card" href={workHref(work)}>
+            <div class="tool-icon"><span class="material-icons" aria-hidden="true">menu_book</span></div>
+            <h3>{work.title}</h3>
+            <div class="book-badges">
+              {work.editions.map((edition) => (
+                <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{edition.languageName}</span>
+              ))}
+            </div>
+            <p class="card-meta">{work.editions.length} {work.editions.length === 1 ? 'TEI edition' : 'TEI editions'}</p>
+          </a>
+        ))}
+      </div>
+    </section>
   )}
 
   {page.kind === 'work' && (
-    <>
-      <nav class="breadcrumbs" aria-label="Breadcrumb">
-        <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><span aria-current="page">{page.work.title}</span>
-      </nav>
-      <header class="work-hero">
-        <p class="eyebrow">Complete work</p>
-        <h1>{page.work.title}</h1>
-        <p class="byline">by <a href={authorHref(page.author)}>{page.author.name}</a></p>
-        <p class="work-intro">
-          Each language below is a complete standalone TEI edition. Its own hierarchy is preserved;
-          editions are not forced into artificial chapter-by-chapter alignment.
-        </p>
-        <nav class="edition-jump" aria-label="Available editions">
-          {page.work.editions.map((edition) => <a href={`#edition-${edition.code}`}>{edition.languageName}</a>)}
-        </nav>
-      </header>
+    <section class="tool-container shell">
+      <div class="tool-header">
+        <div class="tool-title">
+          <span class="material-icons" aria-hidden="true">menu_book</span>
+          <h2>{page.work.title}</h2>
+        </div>
+        <div class="tool-actions">
+          <a class="btn btn-secondary btn-compact" href={authorHref(page.author)}>
+            <span class="material-icons" aria-hidden="true">person</span>{page.author.name}
+          </a>
+        </div>
+      </div>
+      <p class="tool-description">By {page.author.name}</p>
+      <p class="edition-note">
+        Each language below is a complete, standalone TEI edition. Its own hierarchy is preserved;
+        editions are not forced into artificial chapter-by-chapter alignment.
+      </p>
       <div class="edition-stack">
         {page.work.editions.map((edition) => (
           <article class="edition-panel" id={`edition-${edition.code}`}>
             <header class="edition-header">
               <div>
-                <p class="eyebrow">{edition.kind === 'translation' ? 'Translation' : 'Edition'}</p>
-                <h2>{edition.languageName}</h2>
-                {edition.sourceTitle !== page.work.title && <p class="source-title" lang={edition.code}>{edition.sourceTitle}</p>}
+                <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{edition.languageName}</span>
+                <h3>{edition.sourceTitle}</h3>
+                <p>{edition.units.length} reading units · organized by {edition.unitKind.replaceAll('_', ' ')}</p>
               </div>
               <div class="edition-actions">
-                {edition.units[0] && <a class="button" href={unitHref(page.work, edition, edition.units[0])}>Start reading</a>}
-                <a class="text-link" href={`/tei/${page.author.slug}/${edition.sourceFile}`} download>Download TEI</a>
+                {edition.units[0] && <a class="btn btn-primary btn-compact" href={unitHref(page.work, edition, edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span>Start reading</a>}
+                <a class="btn btn-secondary btn-compact" href={`/tei/${page.author.slug}/${edition.sourceFile}`} download><span class="material-icons" aria-hidden="true">download</span>TEI</a>
               </div>
             </header>
-            <div class="edition-meta">
-              <span>{edition.units.length} reading units</span>
-              <span>Organized by {edition.unitKind.replaceAll('_', ' ')}</span>
-              <span>{edition.sourceFile}</span>
-            </div>
-            <section class="toc-panel" aria-labelledby={`toc-${edition.code}`}>
-              <h3 id={`toc-${edition.code}`}>Contents</h3>
+            <div class="toc-tree">
+              <h4>Contents</h4>
               <TocTree nodes={edition.toc} />
-            </section>
+            </div>
             {(edition.persons.length > 0 || edition.places.length > 0) && (
-              <details class="registry-panel">
-                <summary>TEI registries <span>{edition.persons.length} people · {edition.places.length} places</span></summary>
+              <details class="tei-registry">
+                <summary>TEI registries ({edition.persons.length} people, {edition.places.length} places)</summary>
                 <div class="registry-columns">
-                  {edition.persons.length > 0 && (
-                    <section><h3>People</h3><dl>{edition.persons.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>
-                  )}
-                  {edition.places.length > 0 && (
-                    <section><h3>Places</h3><dl>{edition.places.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>
-                  )}
+                  {edition.persons.length > 0 && <section><h4>People</h4><dl>{edition.persons.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
+                  {edition.places.length > 0 && <section><h4>Places</h4><dl>{edition.places.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
                 </div>
               </details>
             )}
           </article>
         ))}
       </div>
-    </>
+    </section>
   )}
 
   {page.kind === 'reader' && (
-    <>
-      <nav class="breadcrumbs reader-breadcrumbs" aria-label="Breadcrumb">
-        <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><a href={workHref(page.work)}>{page.work.title}</a><span>/</span><span aria-current="page">{page.edition.languageName}</span>
-      </nav>
-      <div class="reader-toolbar" aria-label="Reading controls">
-        <div class="reader-edition">
-          <span class="language-badge">{page.edition.languageName}</span>
-          {page.work.editions.length > 1 && <a href={`${workHref(page.work)}#edition-${page.edition.code}`}>Other editions</a>}
-        </div>
-        <div class="reader-display">
-          <button type="button" data-reader-action="narrow" aria-label="Narrow text column">−</button>
-          <span>Width</span>
-          <button type="button" data-reader-action="wide" aria-label="Widen text column">+</button>
-          <button type="button" data-reader-action="smaller" aria-label="Decrease text size">A−</button>
-          <button type="button" data-reader-action="larger" aria-label="Increase text size">A+</button>
-        </div>
+    <section class="chapter-container shell">
+      <header class="chapter-header">
+        <nav class="chapter-breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><a href={workHref(page.work)}>{page.work.title}</a>
+        </nav>
+        <p class="reader-context">{[page.edition.languageName, ...page.unit.context].join(' · ')}</p>
+        <h1>{page.unit.title}</h1>
+      </header>
+      <div class="chapter-layout">
+        <article class="reader-content" lang={page.edition.code} set:html={page.unit.html} />
+        <aside class="chapter-sidebar" aria-label="Reading controls and navigation">
+          <div class="reader-controls panel">
+            <strong>{page.edition.languageName} edition</strong>
+            {page.work.editions.length > 1 && <a href={`${workHref(page.work)}#edition-${page.edition.code}`}>Other editions</a>}
+            <div class="reader-display">
+              <span>Text width</span>
+              <button type="button" data-reader-action="narrow" aria-label="Narrow text column">−</button>
+              <button type="button" data-reader-action="wide" aria-label="Widen text column">+</button>
+              <span>Text size</span>
+              <button type="button" data-reader-action="smaller" aria-label="Decrease text size">A−</button>
+              <button type="button" data-reader-action="larger" aria-label="Increase text size">A+</button>
+            </div>
+          </div>
+          <nav class="chapter-navigation" aria-label="Reading order">
+            {page.unit.previousPath ? <a class="btn btn-secondary chapter-nav-button" rel="prev" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.previousPath}`}><span class="material-icons" aria-hidden="true">arrow_back</span>Previous</a> : <span class="btn btn-secondary chapter-nav-button is-disabled">Previous</span>}
+            <a class="btn btn-secondary chapter-nav-button" href={`${workHref(page.work)}#edition-${page.edition.code}`}><span class="material-icons" aria-hidden="true">list</span>Contents</a>
+            {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.nextPath}`}>Next<span class="material-icons" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled">Next</span>}
+          </nav>
+        </aside>
       </div>
-      <article class="reader" lang={page.edition.code}>
-        <header class="reader-header">
-          {page.unit.context.length > 0 && <p class="reader-context">{page.unit.context.join(' · ')}</p>}
-          <h1>{page.unit.title}</h1>
-          <p><a href={workHref(page.work)}>{page.work.title}</a> · {page.author.name}</p>
-        </header>
-        <div class="reader-content" set:html={page.unit.html} />
-      </article>
-      <nav class="reader-pagination" aria-label="Reading order">
-        {page.unit.previousPath ? (
-          <a rel="prev" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.previousPath}`}><span>← Previous</span><strong>Earlier in this edition</strong></a>
-        ) : <span></span>}
-        {page.unit.nextPath && (
-          <a rel="next" class="next" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.nextPath}`}><span>Next →</span><strong>Continue reading</strong></a>
-        )}
-      </nav>
       <script>
         const readerRoot = document.documentElement;
         let width = Number(localStorage.getItem('bookstacks-reader-width') || 44);
@@ -207,6 +193,6 @@ const description = page.kind === 'author'
           });
         });
       </script>
-    </>
+    </section>
   )}
 </BaseLayout>
