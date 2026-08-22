@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="plato_alcibiades-2" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+
+        <fileDesc>
+
+            
+
+                     
+          
+            
+            
+
+
+        <titleStmt>
+                <title xml:lang="grc">Ἀλκιβιάδης βʹ</title>
+                <author>Plato</author>  
+                <editor>John Burnet</editor>
+            <respStmt>
+                    <resp>Prepared under the supervision of</resp>
+                    <name>Lisa Cerrato</name>
+                    <name>William Merrill</name>
+                    <name>Elli Mylonas</name>
+                    <name>David Smith</name>
+                </respStmt>
+                <funder n="org:AnnCPB">The Annenberg CPB/Project</funder> 
+         <respStmt xml:id="bookstacks-encoding"><resp>TEI P5 normalization, structural identifiers, and speaker-reference integrity</resp><name>Bookstacks project</name></respStmt></titleStmt><editionStmt><edition n="1.0">Bookstacks TEI edition, based on the source electronic edition</edition></editionStmt><publicationStmt><publisher>Bookstacks project</publisher><pubPlace>United States</pubPlace><date when="2026-08-21">21 August 2026</date><idno type="local">plato_alcibiades-2</idno><availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; source rights remain as recorded in sourceDesc.</licence></availability></publicationStmt><notesStmt>
+                <note anchored="true">Text was scanned at St. Olaf Spring, 1992.</note>
+                <note>Perseus 2.0</note>
+            </notesStmt><sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Plato</author>
+                        <title xml:lang="lat">Platonis Opera</title>
+                        <editor>John Burnet</editor>                       
+                        <imprint>
+                            <pubPlace>Oxford</pubPlace>
+                            <publisher>Clarendon Press</publisher>
+                            <date>1910</date>
+                        </imprint>
+                        <biblScope unit="volume">2</biblScope>
+                    </monogr> 
+                    <ref target="https://archive.org/details/operarecognovitb02platuoft/page/356/mode/1up">Internet Archive</ref>
+                </biblStruct>
+            </sourceDesc></fileDesc>
+
+        <encodingDesc>
+                <refsDecl n="CTS">
+                    <cRefPattern n="section" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">           
+                                <p>This pointer pattern extracts section</p>
+                        </cRefPattern>
+                </refsDecl>
+
+           <!-- <refsDecl doctype="TEI.2">
+                <state unit="text"/>
+                <state unit="section"/>
+            </refsDecl>
+            <refsDecl doctype="TEI.2">
+                <state unit="text"/>
+                <state unit="page"/>
+            </refsDecl>-->
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Greek</language>
+                <language ident="en">English</language>
+            </langUsage>
+                <particDesc>
+                        
+                        
+                <listPerson><person xml:id="Σωκράτης"><persName>Σωκράτης</persName></person><person xml:id="Ἀλκιβιάδης"><persName>Ἀλκιβιάδης</persName></person></listPerson></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2026-08-21" who="#bookstacks-encoding">Normalized to standalone TEI P5; added granular structural identifiers and resolvable speaker references.</change>
+                <change when="2017-05-12" who="Lisa Cerrato">EpiDoc and CTS conversion.</change>
+                <change when="2014-05-01" who="Bridget Almas">Converted speaker to said and section milestones to divs.</change>
+                <change when="1992-07-01" who="WPM">Tagged in conformance with Prose.e dtd.</change>
+            </revisionDesc>
+
+    </teiHeader>
+  <text xml:lang="grc">
+    <body>
+          <div type="edition" n="urn:cts:greekLit:tlg0059.tlg014.perseus-grc2" xml:lang="grc" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2"><head>Ἀλκιβιάδης β</head>
+          
+              
+ <div type="textpart" subtype="section" n="138" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-138">             
+
+     <p xml:id="grc-p-000001"><said who="#Σωκράτης" xml:id="grc-utterance-000001"><milestone n="138" unit="page" /><milestone unit="section" resp="Stephanus" n="138a" xml:id="grc-stephanus-section-138a" /><label>ΣΩ.</label> ὦ Ἀλκιβιάδη, ἆρά γε πρὸς τὸν θεὸν προσευξόμενος πορεύῃ;</said></p> 
+<p xml:id="grc-p-000002"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000002"><label>ΑΛ.</label> πάνυ μὲν οὖν, ὦ Σώκρατες.</said></p> 
+<p xml:id="grc-p-000003"><said who="#Σωκράτης" xml:id="grc-utterance-000003"><label>ΣΩ.</label> φαίνῃ γέ τοι ἐσκυθρωπακέναι τε καὶ εἰς γῆν βλέπειν, ὥς τι συννοούμενος.</said></p> 
+<p xml:id="grc-p-000004"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000004"><label>ΑΛ.</label> καὶ τί ἄν τις συννοοῖτο, ὦ Σώκρατες;</said></p> 
+<p xml:id="grc-p-000005"><said who="#Σωκράτης" xml:id="grc-utterance-000005"><label>ΣΩ.</label> τὴν μεγίστην, ὦ Ἀλκιβιάδη, σύννοιαν, ὥς γʼ ἐμοὶ  <milestone unit="section" resp="Stephanus" n="138b" xml:id="grc-stephanus-section-138b" /> δοκεῖ. ἐπεὶ φέρε πρὸς Διός, οὐκ οἴει τοὺς θεούς, ἃ τυγχάνομεν εὐχόμενοι καὶ ἰδίᾳ καὶ δημοσίᾳ, ἐνίοτε τούτων τὰ μὲν διδόναι, τὰ δʼ οὔ, καὶ ἔστιν οἷς μὲν αὐτῶν, ἔστι δʼ οἷς οὔ;</said></p> 
+<p xml:id="grc-p-000006"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000006"><label>ΑΛ.</label> πάνυ μὲν οὖν.</said></p> 
+<p xml:id="grc-p-000007"><said who="#Σωκράτης" xml:id="grc-utterance-000007"><label>ΣΩ.</label> οὐκοῦν δοκεῖ σοι πολλῆς προμηθείας γε προσδεῖσθαι, ὅπως μὴ λήσεται αὑτὸν εὐχόμενος μεγάλα κακά, δοκῶν δʼ ἀγαθά, οἱ δὲ θεοὶ τύχωσιν ἐν ταύτῃ ὄντες τῇ ἕξει, ἐν ᾗ διδόασιν αὐτοὶ ἅ τις εὐχόμενος τυγχάνει; ὥσπερ τὸν Οἰδίπουν <milestone unit="section" resp="Stephanus" n="138c" xml:id="grc-stephanus-section-138c" /> αὐτίκα φασὶν εὔξασθαι χαλκῷ διελέσθαι τὰ πατρῷα τοὺς ὑεῖς· ἐξὸν αὐτῷ τῶν παρόντων αὐτῷ κακῶν ἀποτροπήν τινα εὔξασθαι, ἕτερα πρὸς τοῖς ὑπάρχουσιν κατηρᾶτο· τοιγαροῦν ταῦτά τε ἐξετελέσθη, καὶ ἐκ τούτων ἄλλα πολλὰ καὶ δεινά, ἃ τί δεῖ καθʼ ἕκαστα λέγειν;</said></p> 
+<p xml:id="grc-p-000008"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000008"><label>ΑΛ.</label> ἀλλὰ σὺ μέν, ὦ Σώκρατες, μαινόμενον ἄνθρωπον εἴρηκας· ἐπεὶ τίς ἄν σοι δοκεῖ τολμῆσαι ὑγιαίνων τοιαῦτʼ εὔξασθαι;</said></p> 
+<p xml:id="grc-p-000009"><said who="#Σωκράτης" xml:id="grc-utterance-000009"><label>ΣΩ.</label> τὸ μαίνεσθαι ἆρά γε ὑπεναντίον σοι δοκεῖ τῷ φρονεῖν;</said></p> 
+<p xml:id="grc-p-000010"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000010"><label>ΑΛ.</label> πάνυ μὲν οὖν. </said></p> 
+<p xml:id="grc-p-000011"><said who="#Σωκράτης" xml:id="grc-utterance-000011"><milestone unit="section" resp="Stephanus" n="138d" xml:id="grc-stephanus-section-138d" /><label>ΣΩ.</label> ἄφρονες δὲ καὶ φρόνιμοι δοκοῦσιν ἄνθρωποι εἶναι τινές σοι;</said></p> 
+<p xml:id="grc-p-000012"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000012"><label>ΑΛ.</label> εἶναι μέντοι.</said></p> 
+<p xml:id="grc-p-000013"><said who="#Σωκράτης" xml:id="grc-utterance-000013"><label>ΣΩ.</label> φέρε δή, ἐπισκεψώμεθα τίνες ποτʼ εἰσὶν οὗτοι. ὅτι μὲν γάρ εἰσί τινες, ὡμολόγηται, ἄφρονές τε καὶ φρόνιμοι, καὶ μαινόμενοι ἕτεροι.</said></p> 
+<p xml:id="grc-p-000014"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000014"><label>ΑΛ.</label> ὡμολόγηται γάρ.</said></p> 
+<p xml:id="grc-p-000015"><said who="#Σωκράτης" xml:id="grc-utterance-000015"><label>ΣΩ.</label> ἔτι δὲ ὑγιαίνοντές εἰσί τινες;</said></p> 
+<p xml:id="grc-p-000016"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000016"><label>ΑΛ.</label> εἰσίν.</said></p> 
+<p xml:id="grc-p-000017"><said who="#Σωκράτης" xml:id="grc-utterance-000017"><label>ΣΩ.</label> οὐκοῦν καὶ ἀσθενοῦντες ἕτεροι;</said></p></div>
+              
+<div type="textpart" subtype="section" n="139" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-139"> 
+<p xml:id="grc-p-000018"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000018"><milestone n="139" unit="page" /><milestone unit="section" resp="Stephanus" n="139a" xml:id="grc-stephanus-section-139a" /><label>ΑΛ.</label> πάνυ γε.</said></p> 
+<p xml:id="grc-p-000019"><said who="#Σωκράτης" xml:id="grc-utterance-000019"><label>ΣΩ.</label> οὐκοῦν οὐχ οἱ αὐτοί;</said></p> 
+<p xml:id="grc-p-000020"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000020"><label>ΑΛ.</label> οὐ γάρ.</said></p> 
+<p xml:id="grc-p-000021"><said who="#Σωκράτης" xml:id="grc-utterance-000021"><label>ΣΩ.</label> ἆρʼ οὖν καὶ ἕτεροί τινές εἰσιν, οἳ μηδέτερα τούτων πεπόνθασιν;</said></p> 
+<p xml:id="grc-p-000022"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000022"><label>ΑΛ.</label> οὐ δῆτα.</said></p> 
+<p xml:id="grc-p-000023"><said who="#Σωκράτης" xml:id="grc-utterance-000023"><label>ΣΩ.</label> ἀνάγκη γάρ ἐστιν ἄνθρωπον ὄντα ἢ νοσεῖν ἢ μὴ νοσεῖν.</said></p> 
+<p xml:id="grc-p-000024"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000024"><label>ΑΛ.</label> ἔμοιγε δοκεῖ.</said></p> 
+<p xml:id="grc-p-000025"><said who="#Σωκράτης" xml:id="grc-utterance-000025"><label>ΣΩ.</label> τί δέ; περὶ φρονήσεως καὶ ἀφροσύνης ἆρά γε τὴν αὐτὴν ἔχεις σὺ γνώμην;</said></p> 
+<p xml:id="grc-p-000026"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000026"><label>ΑΛ.</label> πῶς λέγεις;</said></p> 
+<p xml:id="grc-p-000027"><said who="#Σωκράτης" xml:id="grc-utterance-000027"><label>ΣΩ.</label> εἰ δοκεῖ σοι οἷόν τε εἶναι ἢ φρόνιμον ἢ ἄφρονα, ἢ ἔστι τι διὰ μέσου τρίτον πάθος, ὃ ποιεῖ τὸν ἄνθρωπον μήτε <milestone unit="section" resp="Stephanus" n="139b" xml:id="grc-stephanus-section-139b" /> φρόνιμον μήτε ἄφρονα;</said></p> 
+<p xml:id="grc-p-000028"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000028"><label>ΑΛ.</label> οὐ δῆτα.</said></p> 
+<p xml:id="grc-p-000029"><said who="#Σωκράτης" xml:id="grc-utterance-000029"><label>ΣΩ.</label> ἀνάγκη ἄρʼ ἐστὶ τὸ ἕτερον τούτων πεπονθέναι.</said></p> 
+<p xml:id="grc-p-000030"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000030"><label>ΑΛ.</label> ἔμοιγε δοκεῖ.</said></p> 
+<p xml:id="grc-p-000031"><said who="#Σωκράτης" xml:id="grc-utterance-000031"><label>ΣΩ.</label> οὐκοῦν μέμνησαι ὁμολογήσας ὑπεναντίον εἶναι μανίαν φρονήσει;</said></p> 
+<p xml:id="grc-p-000032"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000032"><label>ΑΛ.</label> ἔγωγε.</said></p> 
+<p xml:id="grc-p-000033"><said who="#Σωκράτης" xml:id="grc-utterance-000033"><label>ΣΩ.</label> οὐκοῦν καὶ μηδὲν εἶναι διὰ μέσου τρίτον πάθος, ὃ ποιεῖ τὸν ἄνθρωπον μήτε φρόνιμον μήτε ἄφρονα εἶναι;</said></p> 
+<p xml:id="grc-p-000034"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000034"><label>ΑΛ.</label> ὡμολόγησα γάρ.</said></p> 
+<p xml:id="grc-p-000035"><said who="#Σωκράτης" xml:id="grc-utterance-000035"><label>ΣΩ.</label> καὶ μὴν δύο γε ὑπεναντία ἑνὶ πράγματι πῶς ἂν εἴη;</said></p> 
+<p xml:id="grc-p-000036"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000036"><label>ΑΛ.</label> οὐδαμῶς. </said></p> 
+<p xml:id="grc-p-000037"><said who="#Σωκράτης" xml:id="grc-utterance-000037"><milestone unit="section" resp="Stephanus" n="139c" xml:id="grc-stephanus-section-139c" /><label>ΣΩ.</label> ἀφροσύνη ἄρα καὶ μανία κινδυνεύει ταὐτὸν εἶναι.</said></p> 
+<p xml:id="grc-p-000038"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000038"><label>ΑΛ.</label> φαίνεται.</said></p> 
+<p xml:id="grc-p-000039"><said who="#Σωκράτης" xml:id="grc-utterance-000039"><label>ΣΩ.</label> πάντας οὖν ἂν φάντες, ὦ Ἀλκιβιάδη, τοὺς ἄφρονας μαίνεσθαι ὀρθῶς ἂν φαίημεν· αὐτίκα τῶν σῶν ἡλικιωτῶν εἴ τινες τυγχάνουσιν ἄφρονες ὄντες, ὥσπερ εἰσί, καὶ τῶν ἔτι πρεσβυτέρων. ἐπεὶ φέρε πρὸς Διός, οὐκ οἴει τῶν ἐν τῇ πόλει ὀλίγους μὲν εἶναι τοὺς φρονίμους, ἄφρονας δὲ δὴ τοὺς πολλούς, οὓς δὴ σὺ μαινομένους καλεῖς;</said></p> 
+<p xml:id="grc-p-000040"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000040"><label>ΑΛ.</label> ἔγωγε.</said></p> 
+<p xml:id="grc-p-000041"><said who="#Σωκράτης" xml:id="grc-utterance-000041"><label>ΣΩ.</label> οἴει ἂν οὖν χαίροντας ἡμᾶς εἶναι μετὰ τοσούτων <milestone unit="section" resp="Stephanus" n="139d" xml:id="grc-stephanus-section-139d" />  μαινομένων πολιτευομένους, καὶ οὐκ ἂν παιομένους καὶ βαλλομένους, καὶ ἅπερ εἰώθασιν οἱ μαινόμενοι διαπράττεσθαι, πάλαι δὴ δίκην δεδωκέναι; ἀλλὰ ὅρα, ὦ μακάριε, μὴ οὐχ οὕτως ταῦτʼ ἔχει.</said></p> 
+<p xml:id="grc-p-000042"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000042"><label>ΑΛ.</label> πῶς ἂν οὖν ποτʼ ἔχοι, ὦ Σώκρατες; κινδυνεύει γὰρ οὐχ οὕτως ἔχειν ὥσπερ ᾠήθην.</said></p> 
+<p xml:id="grc-p-000043"><said who="#Σωκράτης" xml:id="grc-utterance-000043"><label>ΣΩ.</label> οὐδʼ ἐμοὶ δοκεῖ. ἀλλὰ τῇδέ πῃ ἀθρητέον.</said></p> 
+<p xml:id="grc-p-000044"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000044"><label>ΑΛ.</label> πῇ ποτε λέγεις;</said></p> 
+<p xml:id="grc-p-000045"><said who="#Σωκράτης" xml:id="grc-utterance-000045"><label>ΣΩ.</label> ἐγὼ δή σοί γε ἐρῶ. ὑπολαμβάνομέν γέ τινας εἶναι νοσοῦντας· ἢ οὔ;</said></p> 
+<p xml:id="grc-p-000046"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000046"><label>ΑΛ.</label> πάνυ μὲν οὖν. </said></p> 
+<p xml:id="grc-p-000047"><said who="#Σωκράτης" xml:id="grc-utterance-000047"><milestone unit="section" resp="Stephanus" n="139e" xml:id="grc-stephanus-section-139e" /><label>ΣΩ.</label> ἆρʼ οὖν δοκεῖ σοι ἀναγκαῖον εἶναι τὸν νοσοῦντα ποδαγρᾶν ἢ πυρέττειν ἢ ὀφθαλμιᾶν, ἢ οὐκ ἂν δοκεῖ σοι καὶ μηδὲν τούτων πεπονθὼς ἑτέραν νόσον νοσεῖν; πολλαὶ γὰρ δήπου γέ εἰσι, καὶ οὐχ αὗται μόναι.</said></p> 
+<p xml:id="grc-p-000048"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000048"><label>ΑΛ.</label> ἔμοιγε δοκοῦσιν.</said></p> 
+<p xml:id="grc-p-000049"><said who="#Σωκράτης" xml:id="grc-utterance-000049"><label>ΣΩ.</label> ὀφθαλμία σοι οὖν δοκεῖ πᾶσα νόσος εἶναι;</said></p> 
+<p xml:id="grc-p-000050"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000050"><label>ΑΛ.</label> ναί.</said></p> 
+<p xml:id="grc-p-000051"><said who="#Σωκράτης" xml:id="grc-utterance-000051"><label>ΣΩ.</label> ἆρʼ οὖν καὶ πᾶσα νόσος ὀφθαλμία;</said></p> 
+<p xml:id="grc-p-000052"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000052"><label>ΑΛ.</label> οὐ δῆτα ἔμοιγε· ἀπορῶ μέντοι γε πῶς λέγω.</said></p></div>
+                  
+                  <div type="textpart" subtype="section" n="140" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-140"> 
+                   <p xml:id="grc-p-000053"><said who="#Σωκράτης" xml:id="grc-utterance-000053"><milestone n="140" unit="page" /><milestone unit="section" resp="Stephanus" n="140a" xml:id="grc-stephanus-section-140a" /><label>ΣΩ.</label> ἀλλʼ ἐὰν ἔμοιγε προσέχῃς τὸν νοῦν, σύν τε δύο σκεπτομένω τυχὸν εὑρήσομεν.</said></p> 
+<p xml:id="grc-p-000054"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000054"><label>ΑΛ.</label> ἀλλὰ προσέχω, ὦ Σώκρατες, εἰς δύναμιν τὴν ἐμήν.</said></p> 
+<p xml:id="grc-p-000055"><said who="#Σωκράτης" xml:id="grc-utterance-000055"><label>ΣΩ.</label> οὐκοῦν ὡμολογήθη ἡμῖν ὀφθαλμία μὲν πᾶσα νόσος εἶναι, νόσος μέντοι οὐκ εἶναι πᾶσα ὀφθαλμία;</said></p> 
+<p xml:id="grc-p-000056"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000056"><label>ΑΛ.</label> ὡμολογήθη.</said></p> 
+<p xml:id="grc-p-000057"><said who="#Σωκράτης" xml:id="grc-utterance-000057"><label>ΣΩ.</label> καὶ ὀρθῶς γέ μοι δοκεῖ ὁμολογηθῆναι. καὶ γὰρ οἱ πυρέττοντες πάντες νοσοῦσιν, οὐ μέντοι οἱ νοσοῦντες πάντες πυρέττουσιν οὐδὲ ποδαγρῶσιν οὐδέ γε ὀφθαλμιῶσιν, <milestone unit="section" resp="Stephanus" n="140b" xml:id="grc-stephanus-section-140b" />  οἶμαι· ἀλλὰ νόσος μὲν πᾶν τὸ τοιοῦτόν ἐστι, διαφέρειν δέ φασιν οὓς δὴ καλοῦμεν ἰατροὺς τὴν ἀπεργασίαν αὐτῶν. οὐ γὰρ πᾶσιν οὔτε ὅμοιαι οὔτε ὁμοίως διαπράττονται, ἀλλὰ κατὰ τὴν αὑτῆς δύναμιν ἑκάστη· νόσοι μέντοι πᾶσαί εἰσιν. ὥσπερ δημιουργούς τινας ὑπολαμβάνομεν· ἢ οὔ;</said></p> 
+<p xml:id="grc-p-000058"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000058"><label>ΑΛ.</label> πάνυ μὲν οὖν.</said></p> 
+<p xml:id="grc-p-000059"><said who="#Σωκράτης" xml:id="grc-utterance-000059"><label>ΣΩ.</label> οὐκοῦν τοὺς σκυτοτόμους καὶ τέκτονας καὶ ἀνδριαντοποιοὺς καὶ ἑτέρους παμπληθεῖς, οὓς τί δεῖ καθʼ ἕκαστα λέγειν; ἔχουσι δʼ οὖν διειληφότες δημιουργίας μέρη, καὶ  <milestone unit="section" resp="Stephanus" n="140c" xml:id="grc-stephanus-section-140c" /> πάντες οὗτοί εἰσι δημιουργοί, οὐ μέντοι εἰσὶ τέκτονές γε οὐδὲ σκυτοτόμοι οὐδʼ ἀνδριαντοποιοί, οἳ σύμπαντές εἰσι δημιουργοί.</said></p> 
+<p xml:id="grc-p-000060"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000060"><label>ΑΛ.</label> οὐ δῆτα.</said></p> 
+<p xml:id="grc-p-000061"><said who="#Σωκράτης" xml:id="grc-utterance-000061"><label>ΣΩ.</label> οὕτως μὲν τοίνυν καὶ τὴν ἀφροσύνην διειληφότες εἰσί, καὶ τοὺς μὲν πλεῖστον αὐτῆς μέρος ἔχοντας μαινομένους καλοῦμεν, τοὺς δʼ ὀλίγον ἔλαττον ἠλιθίους τε καὶ ἐμβροντήτους· οἱ δὲ ἐν εὐφημοτάτοις ὀνόμασι βουλόμενοι κατονομάζειν οἱ μὲν μεγαλοψύχους, οἱ δὲ εὐήθεις, ἕτεροι δὲ <milestone unit="section" resp="Stephanus" n="140d" xml:id="grc-stephanus-section-140d" />  ἀκάκους καὶ ἀπείρους καὶ ἐνεούς· εὑρήσεις δὲ καὶ ἕτερα πολλὰ ἀναζητῶν ὀνόματα. πάντα δὲ ταῦτα ἀφροσύνη ἐστίν, διαφέρει δέ, ὥσπερ τέχνη τέχνης ἡμῖν κατεφαίνετο καὶ νόσος νόσου· ἢ πῶς σοι δοκεῖ;</said></p> 
+<p xml:id="grc-p-000062"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000062"><label>ΑΛ.</label> ἐμοὶ μὲν οὕτως.</said></p> 
+<p xml:id="grc-p-000063"><said who="#Σωκράτης" xml:id="grc-utterance-000063"><label>ΣΩ.</label> οὐκοῦν ἀπʼ ἐκείνου πάλιν ἐπανέλθωμεν. ἦν γὰρ δήπου καὶ ἐν ἀρχῇ τοῦ λόγου, σκεπτέον εἶναι τοὺς ἄφρονάς τε καὶ φρονίμους, τίνες ποτʼ εἰσίν. ὡμολόγητο γὰρ εἶναί τινας· ἦ γὰρ οὔ;</said></p> 
+<p xml:id="grc-p-000064"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000064"><label>ΑΛ.</label> ναί, ὡμολόγηται. </said></p> 
+                      <p xml:id="grc-p-000065"><said who="#Σωκράτης" xml:id="grc-utterance-000065"><milestone unit="section" resp="Stephanus" n="140e" xml:id="grc-stephanus-section-140e" /><label>ΣΩ.</label> ἆρʼ οὖν τούτους φρονίμους ὑπολαμβάνεις, οἳ ἂν εἰδῶσιν ἅττα δεῖ πράττειν καὶ λέγειν;</said></p> 
+<p xml:id="grc-p-000066"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000066"><label>ΑΛ.</label> ἔγωγε.</said></p> 
+<p xml:id="grc-p-000067"><said who="#Σωκράτης" xml:id="grc-utterance-000067"><label>ΣΩ.</label> ἄφρονας δὲ ποτέρους; ἆρά γε τοὺς μηδέτερα τούτων εἰδότας;</said></p> 
+<p xml:id="grc-p-000068"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000068"><label>ΑΛ.</label> τούτους.</said></p> 
+<p xml:id="grc-p-000069"><said who="#Σωκράτης" xml:id="grc-utterance-000069"><label>ΣΩ.</label> οὐκοῦν οἵ γε μὴ εἰδότες μηδέτερα τούτων λήσουσιν αὑτοὺς καὶ λέγοντες καὶ πράττοντες ἅττα μὴ δεῖ;</said></p> 
+<p xml:id="grc-p-000070"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000070"><label>ΑΛ.</label> φαίνεται.</said></p></div>
+              
+<div type="textpart" subtype="section" n="141" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-141">              
+<p xml:id="grc-p-000071"><said who="#Σωκράτης" xml:id="grc-utterance-000071"><label>ΣΩ.</label> τούτων μέντοι ἔλεγον, ὦ Ἀλκιβιάδη, καὶ τὸν 
+<milestone n="141" unit="page" /><milestone unit="section" resp="Stephanus" n="141a" xml:id="grc-stephanus-section-141a" /> Οἰδίπουν εἶναι τῶν ἀνθρώπων· εὑρήσεις δʼ ἔτι καὶ τῶν νῦν πολλοὺς οὐκ ὀργῇ κεχρημένους, ὥσπερ ἐκεῖνον, οὐδʼ οἰομένους κακά σφισιν εὔχεσθαι, ἀλλʼ ἀγαθά. ἐκεῖνος μὲν ὥσπερ οὐδʼ ηὔχετο, οὐδʼ ᾤετο· ἕτεροι δέ τινές εἰσιν οἳ τἀναντία τούτων πεπόνθασιν. ἐγὼ μὲν γὰρ οἶμαί σε πρῶτον, εἴ σοι ἐμφανὴς γενόμενος ὁ θεὸς πρὸς ὃν τυγχάνεις πορευόμενος, ἐρωτήσειεν, πρὶν ὁτιοῦν εὔξασθαί σε, εἰ ἐξαρκέσει σοι τύραννον γενέσθαι τῆς Ἀθηναίων πόλεως· εἰ δὲ τοῦτο φαῦλον ἡγήσαιο καὶ μὴ μέγα τι, προσθείη καὶ <milestone unit="section" resp="Stephanus" n="141b" xml:id="grc-stephanus-section-141b" /> πάντων τῶν Ἑλλήνων· εἰ δέ σε ὁρῴη ἔτι ἔλαττον δοκοῦντα ἔχειν, εἰ μὴ καὶ πάσης Εὐρώπης, ὑποσταίη σοι καὶ τοῦτο, <add>καὶ τοῦτο</add> μὴ μόνον ὑποσταίη, <add>ἀλλʼ</add> αὐθημερόν σου βουλομένου ὡς πάντας αἰσθήσεσθαι ὅτι Ἀλκιβιάδης ὁ Κλεινίου τύραννός ἐστιν· αὐτὸν οἶμαι ἄν σε ἀπιέναι περιχαρῆ γενόμενον, ὡς τῶν μεγίστων ἀγαθῶν κεκυρηκότα.</said></p> 
+<p xml:id="grc-p-000072"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000072"><label>ΑΛ.</label> ἐγὼ μὲν οἶμαι, ὦ Σώκρατες, κἂν ἄλλον ὁντινοῦν, εἴπερ τοιαῦτα συμβαίη αὐτῷ. </said></p> 
+<p xml:id="grc-p-000073"><said who="#Σωκράτης" xml:id="grc-utterance-000073"><milestone unit="section" resp="Stephanus" n="141c" xml:id="grc-stephanus-section-141c" /><label>ΣΩ.</label> ἀλλὰ μέντοι ἀντί γε τῆς σῆς ψυχῆς οὐδʼ ἂν τὴν πάντων Ἑλλήνων τε καὶ βαρβάρων χώραν τε καὶ τυραννίδα βουληθείης σοι γενέσθαι.</said></p> 
+<p xml:id="grc-p-000074"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000074"><label>ΑΛ.</label> οὐκ οἶμαι ἔγωγε. πῶς γὰρ ἄν, μηθέν γέ τι μέλλων αὐτοῖς χρήσεσθαι;</said></p> 
+<p xml:id="grc-p-000075"><said who="#Σωκράτης" xml:id="grc-utterance-000075"><label>ΣΩ.</label> τί δʼ εἰ μέλλοις κακῶς τε καὶ βλαβερῶς χρῆσθαι; οὐδʼ ἂν οὕτως;</said></p> 
+<p xml:id="grc-p-000076"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000076"><label>ΑΛ.</label> οὐ δῆτα.</said></p> 
+<p xml:id="grc-p-000077"><said who="#Σωκράτης" xml:id="grc-utterance-000077"><label>ΣΩ.</label> ὁρᾷς οὖν ὡς οὐκ ἀσφαλὲς οὔτε τὰ διδόμενα εἰκῇ δέχεσθαί τε οὔτε αὐτὸν εὔχεσθαι γενέσθαι, εἴ γέ τις  <milestone unit="section" resp="Stephanus" n="141d" xml:id="grc-stephanus-section-141d" /> βλάπτεσθαι μέλλοι διὰ ταῦτα ἢ τὸ παράπαν τοῦ βίου ἀπαλλαγῆναι. πολλοὺς δʼ ἂν ἔχοιμεν εἰπεῖν, ὅσοι τυραννίδος ἐπιθυμήσαντες ἤδη καὶ σπουδάσαντες τοῦτʼ αὐτοῖς παραγενέσθαι, ὡς ἀγαθόν τι πράξαντες, διὰ τὴν τυραννίδα ἐπιβουλευθέντες τὸν βίον ἀφῃρέθησαν. οἶμαι δέ σε οὐκ ἀνήκοον εἶναι ἔνιά γε <quote>χθιζά τε καὶ πρωιζὰ</quote> <bibl n="Hom. Il. 2.303">Hom. Il. 2.303</bibl> γεγενημένα, ὅτε Ἀρχέλαον τὸν Μακεδόνων τύραννον τὰ παιδικά, ἐρασθέντα τῆς τυραννίδος οὐθὲν ἧττον ἤπερ ἐκεῖνος τῶν παιδικῶν, ἀπέκτεινε τὸν ἐραστὴν ὡς τύραννός τε καὶ εὐδαίμων   <milestone unit="section" resp="Stephanus" n="141e" xml:id="grc-stephanus-section-141e" /> ἀνὴρ ἐσόμενος· κατασχὼν δὲ τρεῖς ἢ τέτταρας ἡμέρας τὴν τυραννίδα πάλιν αὐτὸς ἐπιβουλευθεὶς ὑφʼ ἑτέρων τινῶν ἐτελεύτησεν.</said></p></div>
+              
+<div type="textpart" subtype="section" n="142" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-142">
+<p xml:id="grc-p-000078"><said who="#Σωκράτης" rend="merge" xml:id="grc-utterance-000078"><label>ΣΩ.</label>    
+              ὁρᾷς δὴ καὶ τῶν ἡμετέρων πολιτῶν—ταῦτα γὰρ οὐκ ἄλλων ἀκηκόαμεν, ἀλλʼ αὐτοὶ παρόντες οἴδαμεν— 
+<milestone n="142" unit="page" /><milestone unit="section" resp="Stephanus" n="142a" xml:id="grc-stephanus-section-142a" />
+ ὅσοι στρατηγίας ἐπιθυμήσαντες ἤδη καὶ τυχόντες αὐτῆς οἱ μὲν ἔτι καὶ νῦν φυγάδες τῆσδε τῆς πόλεώς εἰσιν, οἱ δὲ τὸν βίον ἐτελεύτησαν· οἱ δὲ ἄριστα δοκοῦντες αὐτῶν πράττειν διὰ πολλῶν κινδύνων ἐλθόντες καὶ φόβων οὐ μόνον ἐν ταύτῃ τῇ στρατηγίᾳ, ἀλλʼ ἐπεὶ εἰς τὴν ἑαυτῶν κατῆλθον, ὑπὸ τῶν συκοφαντῶν πολιορκούμενοι πολιορκίαν οὐδὲν ἐλάττω τῆς ὑπὸ τῶν πολεμίων διετέλεσαν, ὥστε ἐνίους αὐτῶν εὔχεσθαι ἀστρατηγήτους εἶναι μᾶλλον ἢ ἐστρατηγηκέναι. <milestone unit="section" resp="Stephanus" n="142b" xml:id="grc-stephanus-section-142b" />  εἰ μὲν οὖν ἦσαν οἱ κίνδυνοί τε καὶ πόνοι φέροντες εἰς ὠφέλειαν, εἶχεν ἄν τινα λόγον· νῦν δὲ καὶ πολὺ τοὐναντίον. εὑρήσεις δὲ καὶ περὶ τέκνων τὸν αὐτὸν τρόπον, εὐξαμένους τινὰς ἤδη γενέσθαι καὶ γενομένων εἰς συμφοράς τε καὶ λύπας τὰς μεγίστας καταστάντας. οἱ μὲν γὰρ μοχθηρῶν διὰ τέλους ὄντων τῶν τέκνων ὅλον τὸν βίον λυπούμενοι διήγαγον· τοὺς δὲ χρηστῶν μὲν γενομένων, <milestone unit="section" resp="Stephanus" n="142c" xml:id="grc-stephanus-section-142c" /> συμφοραῖς δὲ χρησαμένων ὥστε στερηθῆναι, καὶ τούτους οὐδὲν εἰς ἐλάττονας δυστυχίας καθεστηκότας ἤπερ ἐκείνους καὶ βουλομένους ἂν ἀγένητα μᾶλλον εἶναι ἢ γενέσθαι. ἀλλʼ ὅμως τούτων τε καὶ ἑτέρων πολλῶν ὁμοιοτρόπων τούτοις οὕτω σφόδρα καταδήλων ὄντων, σπάνιον εὑρεῖν ὅστις ἂν ἢ διδομένων ἀπόσχοιτο ἢ μέλλων διʼ εὐχῆς τεύξεσθαι παύσαιτο ἂν εὐχόμενος· οἱ δὲ πολλοὶ οὔτε ἂν τυραννίδος διδομένης ἀπόσχοιντο ἂν οὔτε στρατηγίας οὐδʼ ἑτέρων <milestone unit="section" resp="Stephanus" n="142d" xml:id="grc-stephanus-section-142d" /> πολλῶν, ἃ παρόντα βλάπτει μᾶλλον ἢ ὠφελεῖ, ἀλλὰ κἂν εὔξαιντο ἂν γενέσθαι, εἴ τῳ μὴ παρόντα τυγχάνει· ὀλίγον δὲ ἐπισχόντες ἐνίοτε παλινῳδοῦσιν, ἀνευχόμενοι ἅττʼ ἂν τὸ πρῶτον εὔξωνται. ἐγὼ μὲν οὖν ἀπορῶ μὴ ὡς ἀληθῶς μάτην θεοὺς ἄνθρωποι <term>αἰτιῶνται</term>, ἐξ ἐκείνων φάμενοι <term>κακά</term> σφισιν εἶναι· <quote>οἱ δὲ καὶ αὐτοὶ σφῇσιν</quote> <bibl n="Hom. Od. 1.32">Hom. Od. 1.32</bibl> εἴτε <quote>ἀτασθαλίαισιν</quote> <bibl n="Hom. Od. 1.32">Hom. Od. 1.32</bibl> εἴτε ἀφροσύναις χρὴ εἰπεῖν, <quote>ὑπὲρ μόρον</quote> <bibl n="Hom. Od. 1.32">Hom. Od. 1.32</bibl>  <milestone unit="section" resp="Stephanus" n="142e" xml:id="grc-stephanus-section-142e" /> <quote rend="merge">ἄλγεʼ ἔχουσι</quote>. κινδυνεύει γοῦν, ὦ Ἀλκιβιάδη, φρόνιμός τις εἶναι ἐκεῖνος ὁ ποιητής, ὃς δοκεῖ μοι φίλοις ἀνοήτοις τισὶ χρησάμενος, ὁρῶν αὐτοὺς καὶ πράττοντας καὶ εὐχομένους ἅπερ οὐ βέλτιον ἦν, ἐκείνοις δὲ ἐδόκει, κοινῇ ὑπὲρ ἁπάντων αὐτῶν εὐχὴν ποιήσασθαι· λέγει δέ πως ὡδί— <milestone n="143" unit="page" /> <milestone unit="section" resp="Stephanus" n="143a" xml:id="grc-stephanus-section-143a" />
+<cit> <quote type="verse"> <l met="u">Ζεῦ βασιλεῦ, τὰ μὲν ἐσθλά, φησί, καὶ εὐχομένοις</l> <l>καὶ ἀνεύκτοις</l> <l>ἄμμι δίδου, τὰ δὲ δειλὰ καὶ εὐχομένοις ἀπαλέξειν</l> </quote> <bibl>Anth. Pal. 10.108</bibl></cit>  κελεύει.</said></p></div>
+
+ <div type="textpart" subtype="section" n="143" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-143">
+     <p xml:id="grc-p-000079"><said who="#Σωκράτης" rend="merge" xml:id="grc-utterance-000079"><label>ΣΩ.</label> 
+ἐμοὶ μὲν οὖν καλῶς δοκεῖ καὶ ἀσφαλῶς λέγειν ὁ ποιητής· σὺ δʼ εἴ τι ἐν νῷ ἔχεις πρὸς ταῦτα, μὴ σιώπα.</said></p> 
+<p xml:id="grc-p-000080"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000080"><label>ΑΛ.</label> χαλεπόν, ὦ Σώκρατες, ἐστὶν ἀντιλέγειν πρὸς τὰ καλῶς εἰρημένα· ἐκεῖνο δʼ οὖν ἐννοῶ, ὅσων κακῶν αἰτία ἡ ἄγνοια τοῖς ἀνθρώποις, ὁπότε, ὡς ἔοικε, λελήθαμεν ἡμᾶς  <milestone unit="section" resp="Stephanus" n="143b" xml:id="grc-stephanus-section-143b" /> αὐτοὺς διὰ ταύτην καὶ πράττοντες καὶ τό γε ἔσχατον εὐχόμενοι ἡμῖν αὐτοῖς τὰ κάκιστα. ὅπερ οὖν οὐδεὶς ἂν οἰηθείη, ἀλλὰ τοῦτό γε πᾶς ἂν οἴοιτο ἱκανὸς εἶναι, αὐτὸς αὑτῷ τὰ βέλτιστα εὔξασθαι, ἀλλʼ οὐ τὰ κάκιστα. τοῦτο μὲν γὰρ ὡς ἀληθῶς κατάρᾳ τινὶ ἀλλʼ οὐκ εὐχῇ ὅμοιον ἂν εἴη.</said></p> 
+<p xml:id="grc-p-000081"><said who="#Σωκράτης" xml:id="grc-utterance-000081"><label>ΣΩ.</label> ἀλλʼ ἴσως, ὦ βέλτιστε, φαίη ἄν τις ἀνήρ, ὃς ἐμοῦ τε καὶ σοῦ σοφώτερος ὢν τυγχάνοι, οὐκ ὀρθῶς ἡμᾶς <milestone unit="section" resp="Stephanus" n="143c" xml:id="grc-stephanus-section-143c" /> λέγειν, οὕτως εἰκῇ ψέγοντας ἄγνοιαν, εἴ γε μὴ προσθείημεν τὴν ἔστιν ὧν τε ἄγνοιαν καὶ ἔστιν οἷς καὶ ἔχουσί πως ἀγαθόν, ὥσπερ ἐκείνοις κακόν.</said></p> 
+<p xml:id="grc-p-000082"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000082"><label>ΑΛ.</label> πῶς λέγεις; ἔστι γὰρ ὁτιοῦν πρᾶγμα ὅτῳ δὴ ὁπωσοῦν ἔχοντι ἄμεινον ἀγνοεῖν ἢ γιγνώσκειν;</said></p> 
+<p xml:id="grc-p-000083"><said who="#Σωκράτης" xml:id="grc-utterance-000083"><label>ΣΩ.</label> ἔμοιγε δοκεῖ· σοὶ δʼ οὔ;</said></p> 
+<p xml:id="grc-p-000084"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000084"><label>ΑΛ.</label> οὐ μέντοι μὰ Δία.</said></p> 
+<p xml:id="grc-p-000085"><said who="#Σωκράτης" xml:id="grc-utterance-000085"><label>ΣΩ.</label> ἀλλὰ μὴν οὐδὲ ἐκεῖνό σου καταγνώσομαι, ἐθέλειν ἄν σε πρὸς τὴν ἑαυτοῦ μητέρα διαπεπρᾶχθαι ἅπερ Ὀρέστην φασὶ καὶ τὸν Ἀλκμέωνα καὶ εἰ δή τινες ἄλλοι ἐκείνοις <milestone unit="section" resp="Stephanus" n="143d" xml:id="grc-stephanus-section-143d" /> τυγχάνουσι ταὐτὰ διαπεπραγμένοι.</said></p> 
+<p xml:id="grc-p-000086"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000086"><label>ΑΛ.</label> εὐφήμει πρὸς Διός, ὦ Σώκρατες.</said></p> 
+<p xml:id="grc-p-000087"><said who="#Σωκράτης" xml:id="grc-utterance-000087"><label>ΣΩ.</label> οὔτοι τὸν λέγοντα, ὦ Ἀλκιβιάδη, ὡς οὐκ ἂν ἐθέλοις σοι ταῦτα πεπρᾶχθαι, εὐφημεῖν δεῖ σε κελεύειν, ἀλλὰ μᾶλλον πολύ, εἴ τις τὰ ἐναντία λέγοι, ἐπειδὴ οὕτω σοι δοκεῖ σφόδρα δεινὸν εἶναι τὸ πρᾶγμα, ὥστʼ οὐδὲ ῥητέον εἶναι οὕτως εἰκῇ. δοκεῖς δʼ ἂν τὸν Ὀρέστην, εἰ ἐτύγχανε φρόνιμος ὢν καὶ εἰδὼς ὅτι βέλτιστον ἦν αὐτῷ πράττειν, τολμῆσαι ἄν τι τούτων διαπράξασθαι;</said></p> 
+<p xml:id="grc-p-000088"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000088"><label>ΑΛ.</label> οὐ δῆτα. </said></p> 
+<p xml:id="grc-p-000089"><said who="#Σωκράτης" xml:id="grc-utterance-000089"><milestone unit="section" resp="Stephanus" n="143e" xml:id="grc-stephanus-section-143e" /><label>ΣΩ.</label> οὐδέ γε ἄλλον οἶμαι οὐδένα.</said></p> 
+<p xml:id="grc-p-000090"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000090"><label>ΑΛ.</label> οὐ μέντοι.</said></p> 
+<p xml:id="grc-p-000091"><said who="#Σωκράτης" xml:id="grc-utterance-000091"><label>ΣΩ.</label> κακὸν ἄρα, ὡς ἔοικεν, ἐστὶν ἡ τοῦ βελτίστου ἄγνοια καὶ τὸ ἀγνοεῖν τὸ βέλτιστον.</said></p> 
+<p xml:id="grc-p-000092"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000092"><label>ΑΛ.</label> ἔμοιγε δοκεῖ.</said></p> 
+<p xml:id="grc-p-000093"><said who="#Σωκράτης" xml:id="grc-utterance-000093"><label>ΣΩ.</label> οὐκοῦν καὶ ἐκείνῳ καὶ τοῖς ἄλλοις ἅπασιν;</said></p> 
+<p xml:id="grc-p-000094"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000094"><label>ΑΛ.</label> φημί.</said></p></div>
+              
+<div type="textpart" subtype="section" n="144" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-144">
+<p xml:id="grc-p-000095"><said who="#Σωκράτης" xml:id="grc-utterance-000095"><label>ΣΩ.</label> ἔτι τοίνυν καὶ τόδε ἐπισκεψώμεθα· εἴ σοι αὐτίκα μάλα παρεσταίη, οἰηθέντι βέλτιον εἶναι, Περικλέα τὸν σεαυτοῦ ἐπίτροπόν τε καὶ φίλον, ἐγχειρίδιον λαβόντα, 
+<milestone n="144" unit="page" /><milestone unit="section" resp="Stephanus" n="144a" xml:id="grc-stephanus-section-144a" /> ἐλθόντα ἐπὶ τὰς θύρας, εἰπεῖν εἰ ἔνδον ἐστί, βουλόμενον ἀποκτεῖναι αὐτὸν ἐκεῖνον, ἄλλον δὲ μηδένα· οἱ δὲ φαῖεν ἔνδον εἶναι—καὶ οὐ λέγω ἐθέλειν ἄν σε τούτων τι πράττειν· ἀλλʼ εἰ, οἶμαι, δόξει σοι, ὅπερ οὐθὲν κωλύει δήπου τῷ γε ἀγνοοῦντι τὸ βέλτιστον παραστῆναί ποτε δόξαν, ὥστε οἰηθῆναι καὶ τὸ κάκιστόν ποτε βέλτιστον εἶναι· ἢ οὐκ ἂν δοκεῖ σοι;</said></p> 
+<p xml:id="grc-p-000096"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000096"><label>ΑΛ.</label> πάνυ μὲν οὖν.</said></p> 
+<p xml:id="grc-p-000097"><said who="#Σωκράτης" xml:id="grc-utterance-000097"><label>ΣΩ.</label> εἰ οὖν παρελθὼν εἴσω καὶ ἰδὼν αὐτὸν ἐκεῖνον <milestone unit="section" resp="Stephanus" n="144b" xml:id="grc-stephanus-section-144b" />  ἀγνοήσαις τε καὶ οἰηθείης ἂν ἄλλον εἶναί τινα, ἆρʼ ἔτι ἂν αὐτὸν τολμήσαις ἀποκτεῖναι;</said></p> 
+<p xml:id="grc-p-000098"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000098"><label>ΑΛ.</label> οὐ μὰ τὸν Δία, οὐκ ἄν μοι δοκῶ.</said></p> 
+<p xml:id="grc-p-000099"><said who="#Σωκράτης" xml:id="grc-utterance-000099"><label>ΣΩ.</label> οὐ γὰρ δήπου τὸν ἐντυχόντα, ἀλλʼ αὐτὸν ἐκεῖνον ὃν ἠβούλου. ἦ γάρ;</said></p> 
+<p xml:id="grc-p-000100"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000100"><label>ΑΛ.</label> ναί.</said></p> 
+<p xml:id="grc-p-000101"><said who="#Σωκράτης" xml:id="grc-utterance-000101"><label>ΣΩ.</label> οὐκοῦν καὶ εἰ πολλάκις ἐγχειροῖς, αἰεὶ δὲ ἀγνοοῖς τὸν Περικλέα, ὁπότε μέλλοις τοῦτο πράττειν, οὔποτε ἂν ἐπίθοιο αὐτῷ.</said></p> 
+<p xml:id="grc-p-000102"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000102"><label>ΑΛ.</label> οὐ δῆτα.</said></p> 
+<p xml:id="grc-p-000103"><said who="#Σωκράτης" xml:id="grc-utterance-000103"><label>ΣΩ.</label> τί δέ; τὸν Ὀρέστην δοκεῖς ἄν ποτε τῇ μητρὶ ἐπιθέσθαι, εἴ γε ὡσαύτως ἠγνόησεν; </said></p> 
+<p xml:id="grc-p-000104"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000104"><milestone unit="section" resp="Stephanus" n="144c" xml:id="grc-stephanus-section-144c" /><label>ΑΛ.</label> οὐκ οἶμαι ἔγωγε.</said></p> 
+<p xml:id="grc-p-000105"><said who="#Σωκράτης" xml:id="grc-utterance-000105"><label>ΣΩ.</label> οὐ γὰρ δήπου οὐδʼ ἐκεῖνος τὴν προστυχοῦσαν γυναῖκα οὐδὲ τὴν ὁτουοῦν μητέρα διενοεῖτο ἀποκτεῖναι, ἀλλὰ τὴν αὐτὸς αὑτοῦ.</said></p> 
+<p xml:id="grc-p-000106"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000106"><label>ΑΛ.</label> ἔστι ταῦτα.</said></p> 
+<p xml:id="grc-p-000107"><said who="#Σωκράτης" xml:id="grc-utterance-000107"><label>ΣΩ.</label> ἀγνοεῖν ἄρα τά γε τοιαῦτα βέλτιον τοῖς οὕτω διακειμένοις καὶ τοιαύτας δόξας ἔχουσιν.</said></p> 
+<p xml:id="grc-p-000108"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000108"><label>ΑΛ.</label> φαίνεται.</said></p> 
+<p xml:id="grc-p-000109"><said who="#Σωκράτης" xml:id="grc-utterance-000109"><label>ΣΩ.</label> ὁρᾷς οὖν ὅτι ἡ ἔστιν ὧν τε ἄγνοια καὶ ἔστιν οἷς καὶ ἔχουσί πως ἀγαθόν, ἀλλʼ οὐ κακόν, ὥσπερ ἄρτι σοι ἐδόκει;</said></p> 
+<p xml:id="grc-p-000110"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000110"><label>ΑΛ.</label> ἔοικεν. </said></p> 
+<p xml:id="grc-p-000111"><said who="#Σωκράτης" xml:id="grc-utterance-000111"><milestone unit="section" resp="Stephanus" n="144d" xml:id="grc-stephanus-section-144d" /><label>ΣΩ.</label> ἔτι τοίνυν εἰ βούλει τὸ μετὰ τοῦτο ἐπισκοπεῖν, ἄτοπον ἂν ἴσως ἄν σοι δόξειεν εἶναι.</said></p> 
+<p xml:id="grc-p-000112"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000112"><label>ΑΛ.</label> τί μάλιστα, ὦ Σώκρατες;</said></p> 
+<p xml:id="grc-p-000113"><said who="#Σωκράτης" xml:id="grc-utterance-000113"><label>ΣΩ.</label> ὅτι, ὡς ἔπος εἰπεῖν, κινδυνεύει τό γε τῶν ἄλλων ἐπιστημῶν κτῆμα, ἐάν τις ἄνευ τοῦ βελτίστου κεκτημένος ᾖ, ὀλιγάκις μὲν ὠφελεῖν, βλάπτειν δὲ τὰ πλείω τὸν ἔχοντα αὐτό. σκόπει δὲ ὧδε. ἆρʼ οὐκ ἀναγκαῖόν σοι δοκεῖ εἶναι, ὅταν τι μέλλωμεν ἤτοι πράττειν ἢ λέγειν, οἰηθῆναι δεῖν πρῶτον ἡμᾶς εἰδέναι ἢ τῷ ὄντι εἰδέναι τοῦθʼ ὃ ἂν προχειροτέρως <milestone unit="section" resp="Stephanus" n="144e" xml:id="grc-stephanus-section-144e" />
+μέλλωμεν ἢ λέγειν ἢ πράττειν;</said></p> 
+<p xml:id="grc-p-000114"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000114"><label>ΑΛ.</label> ἔμοιγε δοκεῖ.</said></p></div>
+              
+<div type="textpart" subtype="section" n="145" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-145">
+<p xml:id="grc-p-000115"><said who="#Σωκράτης" xml:id="grc-utterance-000115"><label>ΣΩ.</label> οὐκοῦν οἱ ῥήτορες αὐτίκα ἤτοι εἰδότες συμβουλεύειν ἢ οἰηθέντες εἰδέναι συμβουλεύουσιν ἡμῖν ἑκάστοτε, οἱ μὲν περὶ πολέμου τε καὶ εἰρήνης, οἱ δὲ περὶ τειχῶν οἰκοδομίας ἢ καὶ λιμένων κατασκευῆς· ἑνὶ δὲ λόγῳ, ὅσα δή ποτε ἡ 
+<milestone n="145" unit="page" /><milestone unit="section" resp="Stephanus" n="145a" xml:id="grc-stephanus-section-145a" /> πόλις πράττει πρὸς ἄλλην πόλιν ἢ αὐτὴ καθʼ αὑτήν, ἀπὸ τῆς τῶν ῥητόρων συμβουλῆς πάντα γίγνεται.</said></p> 
+<p xml:id="grc-p-000116"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000116"><label>ΑΛ.</label> ἀληθῆ λέγεις.</said></p> 
+<p xml:id="grc-p-000117"><said who="#Σωκράτης" xml:id="grc-utterance-000117"><label>ΣΩ.</label> ὅρα τοίνυν καὶ τὰ ἐπὶ τούτοις.</said></p> 
+<p xml:id="grc-p-000118"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000118"><label>ΑΛ.</label> ἂν δυνηθῶ.</said></p> 
+<p xml:id="grc-p-000119"><said who="#Σωκράτης" xml:id="grc-utterance-000119"><label>ΣΩ.</label> καλεῖς γὰρ δήπου φρονίμους τε καὶ ἄφρονας;</said></p> 
+<p xml:id="grc-p-000120"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000120"><label>ΑΛ.</label> ἔγωγε.</said></p> 
+<p xml:id="grc-p-000121"><said who="#Σωκράτης" xml:id="grc-utterance-000121"><label>ΣΩ.</label> οὐκοῦν τοὺς μὲν πολλοὺς ἄφρονας, τοὺς δʼ ὀλίγους φρονίμους;</said></p> 
+<p xml:id="grc-p-000122"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000122"><label>ΑΛ.</label> οὕτως.</said></p> 
+<p xml:id="grc-p-000123"><said who="#Σωκράτης" xml:id="grc-utterance-000123"><label>ΣΩ.</label> οὐκοῦν πρός τι ἀποβλέπων ἀμφοτέρους;</said></p> 
+<p xml:id="grc-p-000124"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000124"><label>ΑΛ.</label> ναί. </said></p> 
+<p xml:id="grc-p-000125"><said who="#Σωκράτης" xml:id="grc-utterance-000125"><milestone unit="section" resp="Stephanus" n="145b" xml:id="grc-stephanus-section-145b" /><label>ΣΩ.</label> ἆρʼ οὖν τὸν τοιοῦτον συμβουλεύειν εἰδότα, χωρὶς τοῦ πότερον βέλτιον καὶ ὅτε βέλτιον, φρόνιμον καλεῖς;</said></p> 
+<p xml:id="grc-p-000126"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000126"><label>ΑΛ.</label> οὐ δῆτα.</said></p> 
+<p xml:id="grc-p-000127"><said who="#Σωκράτης" xml:id="grc-utterance-000127"><label>ΣΩ.</label> οὐδέ γε οἶμαι ὅστις τὸ πολεμεῖν αὐτὸ οἶδε χωρὶς τοῦ ὁπότε βέλτιον καὶ τοσοῦτον χρόνον ὅσον βέλτιον. ἦ γάρ;</said></p> 
+<p xml:id="grc-p-000128"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000128"><label>ΑΛ.</label> ναί.</said></p> 
+<p xml:id="grc-p-000129"><said who="#Σωκράτης" xml:id="grc-utterance-000129"><label>ΣΩ.</label> οὐκοῦν οὐδὲ εἴ τίς τινα ἀποκτεινύναι οἶδεν οὐδὲ χρήματα ἀφαιρεῖσθαι καὶ φυγάδα ποιεῖν τῆς πατρίδος, χωρὶς τοῦ ὁπότε βέλτιον καὶ ὅντινα βέλτιον;</said></p> 
+<p xml:id="grc-p-000130"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000130"><label>ΑΛ.</label> οὐ μέντοι. </said></p>
+<p xml:id="grc-p-000131"><said who="#Σωκράτης" xml:id="grc-utterance-000131"> <milestone unit="section" resp="Stephanus" n="145c" xml:id="grc-stephanus-section-145c" /><label>ΣΩ.</label> ὅστις ἄρα τι τῶν τοιούτων οἶδεν, ἐὰν μὲν παρέπηται αὐτῷ ἡ τοῦ βελτίστου ἐπιστήμη—αὕτη δʼ ἦν ἡ αὐτὴ δήπου ἥπερ καὶ ἡ τοῦ ὠφελίμου· ἦ γάρ; —</said></p> 
+<p xml:id="grc-p-000132"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000132"><label>ΑΛ.</label> ναί.</said></p> 
+<p xml:id="grc-p-000133"><said who="#Σωκράτης" xml:id="grc-utterance-000133"><label>ΣΩ.</label> φρόνιμον δέ γε αὐτὸν φήσομεν καὶ ἀποχρῶντα σύμβουλον καὶ τῇ πόλει καὶ αὐτὸν αὑτῷ· τὸν δὲ μὴ τοιοῦτον τἀναντία τούτων. ἢ πῶς δοκεῖ;</said></p> 
+<p xml:id="grc-p-000134"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000134"><label>ΑΛ.</label> ἐμοὶ μὲν οὕτως.</said></p> 
+<p xml:id="grc-p-000135"><said who="#Σωκράτης" xml:id="grc-utterance-000135"><label>ΣΩ.</label> τί δʼ εἴ τις ἱππεύειν ἢ τοξεύειν οἶδεν, ἢ αὖ πυκτεύειν ἢ παλαίειν ἤ τι τῆς ἄλλης ἀγωνίας ἢ καὶ ἄλλο τι <milestone unit="section" resp="Stephanus" n="145d" xml:id="grc-stephanus-section-145d" /> τῶν τοιούτων ὅσα τέχνῃ οἴδαμεν, τί καλεῖς ὃς ἂν εἰδῇ τὸ κατὰ ταύτην τὴν τέχνην βέλτιον γιγνόμενον; ἆρʼ οὐ τὸν κατὰ τὴν ἱππικὴν ἱππικόν;</said></p> 
+<p xml:id="grc-p-000136"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000136"><label>ΑΛ.</label> ἔγωγε.</said></p> 
+<p xml:id="grc-p-000137"><said who="#Σωκράτης" xml:id="grc-utterance-000137"><label>ΣΩ.</label> τὸν δέ γε οἶμαι κατὰ τὴν πυκτικὴν πυκτικόν, τὸν δὲ κατʼ αὐλητικὴν αὐλητικόν, καὶ τἆλλα δήπου ἀνὰ λόγον τούτοις· ἢ ἄλλως πως;</said></p> 
+<p xml:id="grc-p-000138"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000138"><label>ΑΛ.</label> οὔκ, ἀλλʼ οὕτως.</said></p> 
+<p xml:id="grc-p-000139"><said who="#Σωκράτης" xml:id="grc-utterance-000139"><label>ΣΩ.</label> δοκεῖ οὖν σοι ἀναγκαῖον εἶναι τὸν περὶ τούτων τι ἐπιστήμονα ὄντα ἄρα καὶ ἄνδρα φρόνιμον εἶναι, ἢ πολλοῦ <milestone unit="section" resp="Stephanus" n="145e" xml:id="grc-stephanus-section-145e" /> φήσομεν ἐνδεῖν;</said></p> 
+<p xml:id="grc-p-000140"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000140"><label>ΑΛ.</label> πολλοῦ μέντοι νὴ Δία.</said></p> 
+<p xml:id="grc-p-000141"><said who="#Σωκράτης" xml:id="grc-utterance-000141"><label>ΣΩ.</label> ποίαν οὖν οἴει πολιτείαν εἶναι τοξοτῶν τε ἀγαθῶν καὶ αὐλητῶν, ἔτι δὲ καὶ ἀθλητῶν τε καὶ τῶν ἄλλων τεχνιτῶν, ἀναμεμειγμένων δʼ ἐν τούτοις οὓς ἄρτι εἰρήκαμεν τῶν τε αὐτὸ τὸ πολεμεῖν εἰδότων καὶ αὐτὸ τὸ ἀποκτεινύναι, πρὸς δὲ καὶ ἀνδρῶν ῥητορικῶν πολιτικὸν φύσημα φυσώντων, ἁπάντων δὲ τούτων ὄντων ἄνευ τῆς τοῦ βελτίστου ἐπιστήμης καὶ τοῦ εἰδότος, ὁπότε βέλτιον ἑνὶ ἑκάστῳ τούτων 
+<milestone n="146" unit="page" /><milestone unit="section" resp="Stephanus" n="146a" xml:id="grc-stephanus-section-146a" /> χρῆσθαι καὶ πρὸς τίνα;</said></p></div>
+              
+              <div type="textpart" subtype="section" n="146" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-146">
+<p xml:id="grc-p-000142"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000142"><label>ΑΛ.</label> φαύλην τινὰ ἔγωγε, ὦ Σώκρατες.</said></p> 
+<p xml:id="grc-p-000143"><said who="#Σωκράτης" xml:id="grc-utterance-000143"><label>ΣΩ.</label> φαίης γε ἂν οἶμαι ὁπόταν ὁρῴης ἕνα ἕκαστον αὐτῶν φιλοτιμούμενόν τε καὶ νέμοντα τὸ πλεῖστον τῆς πολιτείας<quote type="verse"> <l met="iambic">. . . τούτῳ μέρος,</l> <l>ἵνʼ αὐτὸς αὑτοῦ τυγχάνει κράτιστος ὤν·</l></quote> <bibl>Eur. Antiope</bibl> λέγω δὲ τὸ κατʼ αὐτὴν τὴν τέχνην βέλτιστον γιγνόμενον· τοῦ δὲ τῇ πόλει τε καὶ αὐτὸν αὑτῷ βελτίστου ὄντος τὰ πολλὰ διημαρτηκότα, ἅτε οἶμαι ἄνευ νοῦ δόξῃ πεπιστευκότα. <milestone unit="section" resp="Stephanus" n="146b" xml:id="grc-stephanus-section-146b" /> οὕτως δὲ τούτων ἐχόντων, ἆρα οὐκ ἂν ὀρθῶς λέγοιμεν φάντες πολλῆς ταραχῆς τε καὶ ἀνομίας μεστὴν εἶναι τὴν τοιαύτην πολιτείαν;</said></p> 
+<p xml:id="grc-p-000144"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000144"><label>ΑΛ.</label> ὀρθῶς μέντοι νὴ Δία.</said></p> 
+<p xml:id="grc-p-000145"><said who="#Σωκράτης" xml:id="grc-utterance-000145"><label>ΣΩ.</label> οὐκοῦν ἀναγκαῖον ἡμῖν ἐδόκει οἰηθῆναι δεῖν πρῶτον ἡμᾶς εἰδέναι ἢ τῷ ὄντι εἰδέναι τοῦτο ὃ ἂν προχείρως μέλλωμεν ἢ πράττειν ἢ λέγειν;</said></p> 
+<p xml:id="grc-p-000146"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000146"><label>ΑΛ.</label> ἐδόκει.</said></p> 
+<p xml:id="grc-p-000147"><said who="#Σωκράτης" xml:id="grc-utterance-000147"><label>ΣΩ.</label> οὐκοῦν κἂν μὲν πράττῃ ἅ τις οἶδεν ἢ δοκεῖ εἰδέναι, παρέπηται δὲ τὸ ὠφελίμως, καὶ λυσιτελούντως ἡμᾶς ἕξειν <milestone unit="section" resp="Stephanus" n="146c" xml:id="grc-stephanus-section-146c" /> καὶ τῇ πόλει καὶ αὐτὸν αὑτῷ;</said></p> 
+<p xml:id="grc-p-000148"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000148"><label>ΑΛ.</label> πῶς γὰρ οὔ;</said></p> 
+<p xml:id="grc-p-000149"><said who="#Σωκράτης" xml:id="grc-utterance-000149"><label>ΣΩ.</label> ἐὰν δέ γʼ οἶμαι τἀναντία τούτων, οὔτε τῇ πόλει οὔτʼ αὐτὸν αὑτῷ;</said></p> 
+<p xml:id="grc-p-000150"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000150"><label>ΑΛ.</label> οὐ δῆτα.</said></p> 
+<p xml:id="grc-p-000151"><said who="#Σωκράτης" xml:id="grc-utterance-000151"><label>ΣΩ.</label> τί δέ; καὶ νῦν ἔτι ὡσαύτως σοι δοκεῖ ἢ ἄλλως πως;</said></p> 
+<p xml:id="grc-p-000152"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000152"><label>ΑΛ.</label> οὔκ, ἀλλʼ οὕτως.</said></p> 
+<p xml:id="grc-p-000153"><said who="#Σωκράτης" xml:id="grc-utterance-000153"><label>ΣΩ.</label> ἆρʼ οὖν ἔφησθα καλεῖν τοὺς μὲν πολλοὺς ἄφρονας, τοὺς δʼ ὀλίγους φρονίμους;</said></p> 
+<p xml:id="grc-p-000154"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000154"><label>ΑΛ.</label> ἔγωγε.</said></p> 
+<p xml:id="grc-p-000155"><said who="#Σωκράτης" xml:id="grc-utterance-000155"><label>ΣΩ.</label> οὐκοῦν φαμεν πάλιν τοὺς πολλοὺς διημαρτηκέναι τοῦ βελτίστου, ὡς τὰ πολλά γε οἶμαι ἄνευ νοῦ δόξῃ πεπιστευκότας. </said></p> 
+<p xml:id="grc-p-000156"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000156"><milestone unit="section" resp="Stephanus" n="146d" xml:id="grc-stephanus-section-146d" /><label>ΑΛ.</label> φαμὲν γάρ.</said></p> 
+<p xml:id="grc-p-000157"><said who="#Σωκράτης" xml:id="grc-utterance-000157"><label>ΣΩ.</label> Λυσιτελεῖ ἄρα τοῖς πολλοῖς μήτʼ εἰδέναι μηδὲν μήτʼ οἴεσθαι εἰδέναι, εἴπερ γε μᾶλλον προθυμήσονται πράττειν μὲν ταῦτα ἅττʼ ἂν εἰδῶσιν ἢ οἰηθῶσιν εἰδέναι, πράττοντες δὲ βλάπτεσθαι τὰ πλείω μᾶλλον ἢ ὠφελεῖσθαι.</said></p> 
+<p xml:id="grc-p-000158"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000158"><label>ΑΛ.</label> ἀληθέστατα λέγεις.</said></p> 
+<p xml:id="grc-p-000159"><said who="#Σωκράτης" xml:id="grc-utterance-000159"><label>ΣΩ.</label> ὁρᾷς οὖν, ὅτε γʼ ἔφην κινδυνεύειν τό γε τῶν ἄλλων  <milestone unit="section" resp="Stephanus" n="146e" xml:id="grc-stephanus-section-146e" /> ἐπιστημῶν κτῆμα, ἐάν τις ἄνευ τῆς τοῦ βελτίστου ἐπιστήμης κεκτημένος ᾖ, ὀλιγάκις μὲν ὠφελεῖν, βλάπτειν δὲ τὰ πλείω τὸν ἔχοντα αὐτό, ἆρʼ οὐχὶ τῷ ὄντι ὀρθῶς ἐφαινόμην λέγων;</said></p> 
+<p xml:id="grc-p-000160"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000160"><label>ΑΛ.</label> καὶ εἰ μὴ τότε, ἀλλὰ νῦν μοι δοκεῖ, ὦ Σώκρατες.</said></p></div>
+              
+              <div type="textpart" subtype="section" n="147" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-147">
+<p xml:id="grc-p-000161"><said who="#Σωκράτης" xml:id="grc-utterance-000161"><label>ΣΩ.</label> δεῖ ἄρα καὶ πόλιν καὶ ψυχὴν τὴν μέλλουσαν ὀρθῶς βιώσεσθαι ταύτης τῆς ἐπιστήμης ἀντέχεσθαι, ἀτεχνῶς ὥσπερ ἀσθενοῦντα ἰατροῦ ἤ τινος κυβερνήτου τὸν ἀσφαλῶς 
+    <milestone n="147" unit="page" /><milestone unit="section" resp="Stephanus" n="147a" xml:id="grc-stephanus-section-147a" /> μέλλοντα πλεῖν. ἄνευ γὰρ ταύτης, ὅσῳπερ ἂν λαμπρότερον ἐπουρίσῃ τὸ τῆς τύχης ἢ περὶ χρημάτων κτῆσιν ἢ σώματος ῥώμην ἢ καὶ ἄλλο τι τῶν τοιούτων, τοσούτῳ μείζω ἁμαρτήματα ἀπʼ αὐτῶν ἀναγκαῖόν ἐστιν, ὡς ἔοικε, γίγνεσθαι. ὁ δὲ δὴ τὴν καλουμένην πολυμαθίαν τε καὶ πολυτεχνίαν κεκτημένος, ὀρφανὸς δὲ ὢν ταύτης τῆς ἐπιστήμης, ἀγόμενος δὲ ὑπὸ μιᾶς ἑκάστης τῶν ἄλλων, ἆρʼ οὐχὶ τῷ ὄντι δικαίως πολλῷ χειμῶνι χρήσεται, ἅτε οἶμαι ἄνευ κυβερνήτου <milestone unit="section" resp="Stephanus" n="147b" xml:id="grc-stephanus-section-147b" /> διατελῶν ἐν πελάγει, χρόνον οὐ μακρὸν βίου θέων; ὥστε συμβαίνειν μοι δοκεῖ καὶ ἐνταῦθα τὸ τοῦ ποιητοῦ, ὃ λέγει κατηγορῶν πού τινος, ὡς ἄρα <quote>πολλὰ</quote> <bibl>Margites</bibl> <quote rend="merge">μὲν ἠπίστατο ἔργα, κακῶς δέ</quote>, φησίν, <quote>ἠπίστατο πάντα</quote>.</said></p> 
+<p xml:id="grc-p-000162"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000162"><label>ΑΛ.</label> καὶ τί δή ποτε συμβαίνει τὸ τοῦ ποιητοῦ, ὦ Σώκρατες; ἐμοὶ μὲν γὰρ οὐδʼ ὁτιοῦν δοκεῖ πρὸς λόγον εἰρηκέναι.</said></p> 
+<p xml:id="grc-p-000163"><said who="#Σωκράτης" xml:id="grc-utterance-000163"><label>ΣΩ.</label> καὶ μάλα γε πρὸς λόγον· ἀλλʼ αἰνίττεται, ὦ βέλτιστε, καὶ οὗτος καὶ ἇλλοι δὲ ποιηταὶ σχεδόν τι πάντες. ἔστιν τε γὰρ φύσει ποιητικὴ ἡ σύμπασα αἰνιγματώδης καὶ  <milestone unit="section" resp="Stephanus" n="147c" xml:id="grc-stephanus-section-147c" /> οὐ τοῦ προστυχόντος ἀνδρὸς γνωρίσαι· ἔτι τε πρὸς τῷ φύσει τοιαύτη εἶναι, ὅταν λάβηται ἀνδρὸς φθονεροῦ τε καὶ μὴ βουλομένου ἡμῖν ἐνδείκνυσθαι ἀλλʼ ἀποκρύπτεσθαι ὅτι μάλιστα τὴν αὑτοῦ σοφίαν, ὑπερφυῶς δὴ τὸ χρῆμα ὡς δύσγνωστον φαίνεται, ὅτι ποτὲ νοοῦσιν ἕκαστος αὐτῶν. οὐ γὰρ δήπου Ὅμηρόν γε τὸν θειότατόν τε καὶ σοφώτατον ποιητὴν ἀγνοεῖν δοκεῖς ὡς οὐχ οἷόν τε ἦν ἐπίστασθαι κακῶς—ἐκεῖνος γάρ ἐστιν ὁ λέγων τὸν Μαργίτην πολλὰ <milestone unit="section" resp="Stephanus" n="147d" xml:id="grc-stephanus-section-147d" /> μὲν ἐπίστασθαι, κακῶς δέ, φησί, πάντα ἠπίστατο—ἀλλʼ αἰνίττεται οἶμαι παράγων τὸ κακῶς μὲν ἀντὶ τοῦ κακοῦ, τὸ δὲ ἠπίστατο ἀντὶ τοῦ ἐπίστασθαι· γίγνεται οὖν συντεθὲν ἔξω μὲν τοῦ μέτρου, ἔστι δʼ ὅ γε βούλεται, ὡς πολλὰ μὲν ἠπίστατο ἔργα, κακὸν δʼ ἦν ἐπίστασθαι αὐτῷ πάντα ταῦτα. δῆλον οὖν ὅτι εἴπερ ἦν αὐτῷ κακὸν τὸ πολλὰ εἰδέναι, φαῦλός τις ὢν ἐτύγχανεν, εἴπερ γε πιστεύειν δεῖ τοῖς προειρημένοις λόγοις. </said></p> 
+<p xml:id="grc-p-000164"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000164"><milestone unit="section" resp="Stephanus" n="147e" xml:id="grc-stephanus-section-147e" /><label>ΑΛ.</label> ἀλλʼ ἐμοὶ μὲν δοκεῖ, ὦ Σώκρατες· ἦ χαλεπῶς γʼ ἂν ἄλλοις τισὶ πιστεύσαιμι λόγοις, εἴπερ μηδὲ τούτοις.</said></p> 
+<p xml:id="grc-p-000165"><said who="#Σωκράτης" xml:id="grc-utterance-000165"><label>ΣΩ.</label> καὶ ὀρθῶς γέ σοι δοκεῖ.</said></p> 
+<p xml:id="grc-p-000166"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000166"><label>ΑΛ.</label> πάλιν αὖ μοι δοκεῖ.</said></p></div>
+              
+              <div type="textpart" subtype="section" n="148" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-148">
+<p xml:id="grc-p-000167"><said who="#Σωκράτης" xml:id="grc-utterance-000167"><label>ΣΩ.</label> ἀλλὰ φέρε πρὸς Διός—ὁρᾷς γὰρ δήπου τὴν ἀπορίαν ὅση τε καὶ οἵα, ταύτης δὲ καὶ σύ μοι δοκεῖς κεκοινωνηκέναι· μεταβαλλόμενός γέ τοι ἄνω καὶ κάτω οὐδʼ ὁτιοῦν παύῃ, ἀλλʼ ὅτι ἂν μάλιστά σοι δόξῃ, τοῦτο καὶ ἐκδεδυκέναι αὖ 
+ <milestone n="148" unit="page" /><milestone unit="section" resp="Stephanus" n="148a" xml:id="grc-stephanus-section-148a" /> καὶ οὐκέτι ὡσαύτως δοκεῖν—εἰ οὖν σοί γʼ ἔτι καὶ νῦν ἐμφανὴς γενόμενος ὁ θεὸς πρὸς ὃν τυγχάνεις πορευόμενος ἐρωτήσειε, πρὶν ὁτιοῦν εὔξασθαί σε, εἰ ἐξαρκέσει σοι ἐκείνων τι γενέσθαι ὧνπερ καὶ ἐν ἀρχῇ ἐλέγετο, εἴτε καὶ αὐτῷ σοι ἐπιτρέψειεν εὔξασθαι, τί ποτʼ ἂν οἴει ἢ τῶν παρʼ ἐκείνου διδομένων λαμβάνων ἢ αὐτὸς εὐξάμενος γενέσθαι τοῦ καιροῦ τυχεῖν;</said></p> 
+<p xml:id="grc-p-000168"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000168"><label>ΑΛ.</label> ἀλλὰ μὰ τοὺς θεούς, ἐγὼ μὲν οὐθὲν ἂν ἔχοιμί σοι εἰπεῖν, ὦ Σώκρατες, οὕτως· ἀλλὰ μάργον τί μοι δοκεῖ εἶναι, <milestone unit="section" resp="Stephanus" n="148b" xml:id="grc-stephanus-section-148b" /> καὶ ὡς ἀληθῶς πολλῆς φυλακῆς, ὅπως μὴ λήσει τις αὑτὸν εὐχόμενος μὲν κακά, δοκῶν δὲ τἀγαθά, ἔπειτʼ ὀλίγον ἐπισχών, ὅπερ καὶ σὺ ἔλεγες, παλινῳδῇ, ἀνευχόμενος ἅττʼ ἂν τὸ πρῶτον εὔξηται.</said></p> 
+<p xml:id="grc-p-000169"><said who="#Σωκράτης" xml:id="grc-utterance-000169"><label>ΣΩ.</label> ἆρʼ οὖν οὐχὶ εἰδώς τι πλέον ἡμῶν ὁ ποιητής, οὗ καὶ ἐν ἀρχῇ τοῦ λόγου ἐπεμνήσθην, τὰ δειλὰ καὶ εὐχομένοις ἀπαλέξειν ἐκέλευεν;</said></p> 
+<p xml:id="grc-p-000170"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000170"><label>ΑΛ.</label> ἔμοιγε δοκεῖ.</said></p> 
+                  <p xml:id="grc-p-000171"><said who="#Σωκράτης" xml:id="grc-utterance-000171"><label>ΣΩ.</label> τοῦτον μὲν τοίνυν, ὦ Ἀλκιβιάδη, καὶ Λακεδαιμόνιοι  <milestone unit="section" resp="Stephanus" n="148c" xml:id="grc-stephanus-section-148c" /> τὸν ποιητὴν ἐζηλωκότες, εἴτε καὶ αὐτοὶ οὕτως ἐπεσκεμμένοι, καὶ ἰδίᾳ καὶ δημοσίᾳ ἑκάστοτε παραπλησίαν εὐχὴν εὔχονται, τὰ καλὰ ἐπὶ τοῖς ἀγαθοῖς τοὺς θεοὺς διδόναι κελεύοντες αὖ σφίσιν αὐτοῖς· πλείω δʼ οὐδεὶς ἂν ἐκείνων εὐξαμένων ἀκούσειεν. τοιγαροῦν εἰς τὸ παρῆκον τοῦ χρόνου οὐδένων ἧττον εὐτυχεῖς εἰσιν ἄνθρωποι· εἰ δʼ ἄρα καὶ συμβέβηκεν αὐτοῖς ὥστε μὴ πάντα εὐτυχεῖν, ἀλλʼ οὖν <add>οὐ</add> διὰ <milestone unit="section" resp="Stephanus" n="148d" xml:id="grc-stephanus-section-148d" /> τὴν ἐκείνων εὐχήν, ἐπὶ τοῖς θεοῖς δʼ ἐστὶν ὥστε οἶμαι καὶ διδόναι ἅττʼ ἄν τις εὐχόμενος τυγχάνῃ καὶ τἀναντία τούτων. βούλομαι δέ σοι καὶ ἕτερόν τι διηγήσασθαι, ὅ ποτε ἤκουσα <del>τῶν πρεσβυτέρων</del> τινῶν, ὡς Ἀθηναίοις καὶ Λακεδαιμονίοις διαφορᾶς γενομένης συνέβαινεν ἀεὶ τῇ πόλει ἡμῶν ὥστε καὶ κατὰ γῆν καὶ κατὰ θάλατταν ὁπότε μάχη γένοιτο δυστυχεῖν καὶ μηδέποτε δύνασθαι κρατῆσαι· τοὺς οὖν Ἀθηναίους ἀγανακτοῦντας τῷ πράγματι καὶ ἀπορουμένους τίνι<milestone unit="section" resp="Stephanus" n="148e" xml:id="grc-stephanus-section-148e" /> χρὴ μηχανῇ τῶν παρόντων κακῶν ἀποτροπὴν εὑρεῖν, βουλευομένοις αὐτοῖς δοκεῖν κράτιστον εἶναι πέμψαντας πρὸς Ἄμμωνα ἐκεῖνον ἐπερωτᾶν· ἔτι δὲ πρὸς τούτοις τάδε, <del>καὶ</del> ἀνθʼ ὅτου ποτὲ Λακεδαιμονίοις οἱ θεοὶ μᾶλλον νίκην διδόασιν ἢ σφίσιν αὐτοῖς, οἳ πλείστας, φάναι, μὲν θυσίας καὶ καλλίστας τῶν Ἑλλήνων ἄγομεν, ἀναθήμασί τε κεκοσμήκαμεν τὰ ἱερὰ αὐτῶν ὡς οὐδένες ἄλλοι, πομπάς τε πολυτελεστάτας καὶ σεμνοτάτας ἐδωρούμεθα τοῖς θεοῖς ἀνʼ ἕκαστον ἔτος, καὶ <milestone n="149" unit="page" /><milestone unit="section" resp="Stephanus" n="149a" xml:id="grc-stephanus-section-149a" /> ἐτελοῦμεν χρήματα ὅσα οὐδʼ ἇλλοι σύμπαντες Ἕλληνες· </said></p></div>
+              
+<div type="textpart" subtype="section" n="149" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-149">
+<p xml:id="grc-p-000172"><said who="#Σωκράτης" rend="merge" xml:id="grc-utterance-000172"><label>ΣΩ.</label>  Λακεδαιμονίοις δέ, φάναι, οὐδεπώποτʼ ἐμέλησεν οὐδὲν τούτων, ἀλλʼ οὕτως ὀλιγώρως διάκεινται πρὸς τοὺς θεούς, ὥστε καὶ ἀνάπηρα θύουσιν ἑκάστοτε καὶ τἆλλα πάντα οὐκ ὀλίγῳ ἐνδεεστέρως τιμῶσιν ἤπερ ἡμεῖς, χρήματα οὐδὲν ἐλάττω κεκτημένοι τῆς ἡμετέρας πόλεως. ἐπεὶ δὴ εἰρηκέναι ταῦτα καὶ ἐπερωτῆσαι τί χρὴ πράττοντας αὐτοὺς τῶν παρόντων κακῶν ἀπαλλαγὴν εὑρεῖν, ἄλλο μὲν οὐθὲν ἀποκριθῆναι τὸν <milestone unit="section" resp="Stephanus" n="149b" xml:id="grc-stephanus-section-149b" /> προφήτην—τὸν γὰρ θεὸν οὐκ ἐᾶν δῆλον ὅτι—καλέσαντα δὲ αὐτόν, Ἀθηναίοις, φάναι, τάδε λέγει Ἄμμων· φησὶν ἂν βούλεσθαι αὑτῷ τὴν Λακεδαιμονίων εὐφημίαν εἶναι μᾶλλον ἢ τὰ σύμπαντα τῶν Ἑλλήνων ἱερά. τοσαῦτα εἰπεῖν, οὐκέτι περαιτέρω. τήν γʼ οὖν εὐφημίαν οὐκ ἄλλην τινά μοι δοκεῖ λέγειν ὁ θεὸς ἢ τὴν εὐχὴν αὐτῶν· ἔστι γὰρ τῷ ὄντι πολὺ <milestone unit="section" resp="Stephanus" n="149c" xml:id="grc-stephanus-section-149c" /> διαφέρουσα τῶν ἄλλων. οἱ μὲν γὰρ ἄλλοι Ἕλληνες οἱ μὲν χρυσόκερως βοῦς παραστησάμενοι, ἕτεροι δʼ ἀναθήμασι δωρούμενοι τοὺς θεούς, εὔχονται ἅττʼ ἂν τύχῃ ταῦτα, ἄντε ἀγαθὰ ἄντε κακά· βλασφημούντων οὖν αὐτῶν ἀκούοντες οἱ θεοὶ οὐκ ἀποδέχονται τὰς πολυτελεῖς ταυτασὶ πομπάς τε καὶ θυσίας. ἀλλὰ δοκεῖ μοι πολλῆς φυλακῆς δεῖσθαι καὶ σκέψεως ὅτι ποτὲ ῥητέον ἐστὶ καὶ μή.<milestone unit="para" ed="P" />εὑρήσεις δὲ καὶ παρʼ Ὁμήρῳ ἕτερα παραπλήσια τούτοις <milestone unit="section" resp="Stephanus" n="149d" xml:id="grc-stephanus-section-149d" />εἰρημένα. φησὶν γὰρ τοὺς Τρῶας ἔπαυλιν ποιουμένους<quote type="verse"> <l met="dactylic">ἔρδειν ἀθανάτοισι τεληέσσας ἑκατόμβας·</l> </quote> <bibl n="Hom. Il. 8.548">Hom. Il. 8.548</bibl> τὴν δὲ κνῖσαν ἐκ τοῦ πεδίου τοὺς ἀνέμους φέρειν οὐρανὸν εἴσω<quote type="verse"> <l met="dactylic">ἡδεῖαν· τῆς δʼ οὔ τι θεοὺς μάκαρας δατέεσθαι,</l> <l>οὐδʼ ἐθέλειν· μάλα γάρ σφιν ἀπήχθετο Ἴλιος ἱρὴ</l> </quote> <milestone unit="section" resp="Stephanus" n="149e" xml:id="grc-stephanus-section-149e" /> <cit> <quote type="verse"> <l met="c">καὶ Πρίαμος καὶ λαὸς ἐυμμελίω Πριάμοιο·</l> </quote> <bibl n="Hom. Il. 8.550">Hom. Il. 8.550-2</bibl> </cit>ὥστε οὐδὲν αὐτοῖς ἦν προύργου θύειν τε καὶ δῶρα τελεῖν μάτην, θεοῖς ἀπηχθημένους. οὐ γὰρ οἶμαι τοιοῦτόν ἐστι τὸ τῶν θεῶν ὥστε ὑπὸ δώρων παράγεσθαι οἷον κακὸν τοκιστήν· ἀλλὰ καὶ ἡμεῖς εὐήθη λόγον λέγομεν, ἀξιοῦντες Λακεδαιμονίων ταύτῃ περιεῖναι. καὶ γὰρ ἂν δεινὸν εἴη εἰ πρὸς τὰ δῶρα καὶ τὰς θυσίας ἀποβλέπουσιν ἡμῶν οἱ θεοὶ ἀλλὰ μὴ πρὸς τὴν ψυχήν, ἄν τις ὅσιος καὶ δίκαιος ὢν <milestone n="150" unit="page" /><milestone unit="section" resp="Stephanus" n="150a" xml:id="grc-stephanus-section-150a" /> τυγχάνῃ.</said></p></div>
+                
+<div type="textpart" subtype="section" n="150" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-150">
+<p xml:id="grc-p-000173"><said who="#Σωκράτης" rend="merge" xml:id="grc-utterance-000173"><label>ΣΩ.</label> 
+ πολλῷ γε μᾶλλον οἶμαι ἢ πρὸς τὰς πολυτελεῖς ταύτας πομπάς τε καὶ θυσίας, ἃς οὐδὲν κωλύει πολλὰ μὲν εἰς θεούς, πολλὰ δʼ εἰς ἀνθρώπους ἡμαρτηκότας καὶ ἰδιώτην καὶ πόλιν ἔχειν ἀνʼ ἕκαστον ἔτος τελεῖν· οἱ δέ, ἅτε οὐ δωροδόκοι ὄντες, καταφρονοῦσιν ἁπάντων τούτων, ὥς φησιν ὁ θεὸς καὶ θεῶν προφήτης. κινδυνεύει γοῦν καὶ παρὰ θεοῖς καὶ παρʼ ἀνθρώποις τοῖς νοῦν ἔχουσι δικαιοσύνη τε <milestone unit="section" resp="Stephanus" n="150b" xml:id="grc-stephanus-section-150b" /> καὶ φρόνησις διαφερόντως τετιμῆσθαι· φρόνιμοι δὲ καὶ δίκαιοι οὐκ ἄλλοι τινές εἰσιν <del>ἢ</del> τῶν εἰδότων ἃ δεῖ πράττειν καὶ λέγειν καὶ πρὸς θεοὺς καὶ πρὸς ἀνθρώπους. βουλοίμην δʼ ἂν καὶ σοῦ πυθέσθαι ὅτι ποτʼ ἐν νῷ ἔχεις πρὸς ταῦτα.</said></p> 
+<p xml:id="grc-p-000174"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000174"><label>ΑΛ.</label> ἀλλʼ ἐμοὶ μέν, ὦ Σώκρατες, οὐκ ἄλλῃ πῃ δοκεῖ ἢ ᾗπερ σοί τε καὶ τῷ θεῷ· οὐδὲ γὰρ ἂν εἰκὸς εἴη ἀντίψηφον ἐμὲ τῷ θεῷ γενέσθαι.</said></p> 
+<p xml:id="grc-p-000175"><said who="#Σωκράτης" xml:id="grc-utterance-000175"><label>ΣΩ.</label> οὐκοῦν μέμνησαι ἐν πολλῇ ἀπορίᾳ φάσκων εἶναι, <milestone unit="section" resp="Stephanus" n="150c" xml:id="grc-stephanus-section-150c" /> ὅπως μὴ λάθῃς σεαυτὸν εὐχόμενος κακά, δοκῶν δὲ ἀγαθά;</said></p> 
+<p xml:id="grc-p-000176"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000176"><label>ΑΛ.</label> ἔγωγε.</said></p> 
+<p xml:id="grc-p-000177"><said who="#Σωκράτης" xml:id="grc-utterance-000177"><label>ΣΩ.</label> ὁρᾷς οὖν ὡς οὐκ ἀσφαλές σοί ἐστιν ἐλθεῖν πρὸς τὸν θεὸν εὐξομένῳ, ἵνα μηδʼ ἂν οὕτω τύχῃ, βλασφημοῦντός σου ἀκούων οὐθὲν ἀποδέξηται τῆς θυσίας ταύτης, τυχὸν δὲ καὶ ἕτερόν τι προσαπολαύσῃς. ἐμοὶ μὲν οὖν δοκεῖ βέλτιστον εἶναι ἡσυχίαν ἔχειν· τῇ μὲν γὰρ Λακεδαιμονίων εὐχῇ διὰ τὴν μεγαλοψυχίαν—τοῦτο γὰρ κάλλιστον τῶν ἐν ἀφροσύνῃ γε ὀνομάτων—οὐκ ἂν οἶμαί σε ἐθέλειν χρῆσθαι.  <milestone unit="section" resp="Stephanus" n="150d" xml:id="grc-stephanus-section-150d" /> ἀναγκαῖον οὖν ἐστι περιμένειν ἕως ἄν τις μάθῃ ὡς δεῖ πρὸς θεοὺς καὶ πρὸς ἀνθρώπους διακεῖσθαι.</said></p> 
+<p xml:id="grc-p-000178"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000178"><label>ΑΛ.</label> πότε οὖν παρέσται ὁ χρόνος οὗτος, ὦ Σώκρατες, καὶ τίς ὁ παιδεύσων; ἥδιστα γὰρ ἄν μοι δοκῶ ἰδεῖν τοῦτον τὸν ἄνθρωπον τίς ἐστιν.</said></p> 
+<p xml:id="grc-p-000179"><said who="#Σωκράτης" xml:id="grc-utterance-000179"><label>ΣΩ.</label> οὗτος ᾧ μέλει περὶ σοῦ. ἀλλὰ δοκεῖ μοι, ὥσπερ τῷ Διομήδει φησὶν τὴν Ἀθηνᾶν Ὅμηρος ἀπὸ τῶν ὀφθαλμῶν ἀφελεῖν τὴν ἀχλύν,<quote type="verse"> <l met="dactylic">ὄφρʼ εὖ γιγνώσκοι ἠμὲν θεὸν ἠδὲ καὶ ἄνδρα,</l> </quote> <bibl n="Hom. Il. 5.127">Hom. Il. 5.127</bibl> <milestone unit="section" resp="Stephanus" n="150e" xml:id="grc-stephanus-section-150e" /> οὕτω καὶ σοὶ δεῖν ἀπὸ τῆς ψυχῆς πρῶτον τὴν ἀχλὺν ἀφελόντα, ἣ νῦν παροῦσα τυγχάνει, τὸ τηνικαῦτʼ ἤδη προσφέρειν διʼ ὧν μέλλεις γνώσεσθαι ἠμὲν κακὸν ἠδὲ καὶ ἐσθλόν. νῦν μὲν γὰρ οὐκ ἄν μοι δοκεῖς δυνηθῆναι.</said></p> 
+<p xml:id="grc-p-000180"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000180"><label>ΑΛ.</label> ἀφαιρείτω, εἴτε βούλεται τὴν ἀχλὺν εἴτε ἄλλο τι· ὡς ἐγὼ παρεσκεύασμαι μηθὲν ἂν φυγεῖν τῶν ὑπʼ ἐκείνου προσταττομένων, ὅστις ποτʼ ἐστὶν ἅνθρωπος, εἴ γε μέλλοιμι βελτίων γενέσθαι.</said></p></div>
+              
+              <div type="textpart" subtype="section" n="151" resp="perseus" xml:id="plato_alcibiades-2-grc-edition-urn-cts-greekLit-tlg0059.tlg014.perseus-grc2-section-151">
+               <p xml:id="grc-p-000181"><said who="#Σωκράτης" xml:id="grc-utterance-000181"><milestone n="151" unit="page" /><milestone unit="section" resp="Stephanus" n="151a" xml:id="grc-stephanus-section-151a" /><label>ΣΩ.</label> ἀλλὰ μὴν κἀκεῖνος θαυμαστὴν ὅσην περὶ σὲ προθυμίαν ἔχει.</said></p> 
+<p xml:id="grc-p-000182"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000182"><label>ΑΛ.</label> εἰς τότε τοίνυν καὶ τὴν θυσίαν ἀναβάλλεσθαι κράτιστον εἶναί μοι δοκεῖ.</said></p> 
+<p xml:id="grc-p-000183"><said who="#Σωκράτης" xml:id="grc-utterance-000183"><label>ΣΩ.</label> καὶ ὀρθῶς γέ σοι δοκεῖ· ἀσφαλέστερον γάρ ἐστιν ἢ παρακινδυνεύειν τοσοῦτον κίνδυνον.</said></p> 
+<p xml:id="grc-p-000184"><said who="#Ἀλκιβιάδης" xml:id="grc-utterance-000184"><label>ΑΛ.</label> ἀλλὰ πῶς, ὦ Σώκρατες; καὶ μὴν τουτονὶ τὸν στέφανον, ἐπειδή μοι δοκεῖς καλῶς συμβεβουλευκέναι, σοὶ <milestone unit="section" resp="Stephanus" n="151b" xml:id="grc-stephanus-section-151b" /> περιθήσω· τοῖς θεοῖς δὲ καὶ στεφάνους καὶ τἆλλα πάντα τὰ νομιζόμενα τότε δώσομεν, ὅταν ἐκείνην τὴν ἡμέραν ἐλθοῦσαν ἴδω. ἥξει δʼ οὐ διὰ μακροῦ τούτων θελόντων.</said></p> 
+<p xml:id="grc-p-000185"><said who="#Σωκράτης" xml:id="grc-utterance-000185"><label>ΣΩ.</label> ἀλλὰ δέχομαι καὶ τοῦτο, καὶ ἄλλο δὲ ἄν τι τῶν παρὰ σοῦ δοθέντων ἡδέως ἴδοιμι δεξάμενον ἐμαυτόν. ὥσπερ δὲ καὶ ὁ Κρέων Εὐριπίδῃ πεποίηται τὸν Τειρεσίαν ἰδὼν ἔχοντα τὰ στέφη καὶ ἀκούσας ἀπὸ τῶν πολεμίων ἀπαρχὰς αὐτὸν εἰληφέναι διὰ τὴν τέχνην,<quote type="verse"> <l met="iambic">οἰωνὸν ἐθέμην, φησί, καλλίνικα <add>σὰ</add> στέφη·</l> <l>ἐν γὰρ κλύδωνι κείμεθʼ, ὥσπερ οἶσθα σύ·</l> </quote> <bibl n="Eur. Phoen. 858">Eur. Phoen. 858-9</bibl> οὕτω δὲ κἀγὼ παρὰ σοῦ τὴν δόξαν ταύτην οἰωνὸν τίθεμαι. <milestone unit="section" resp="Stephanus" n="151c" xml:id="grc-stephanus-section-151c" /> δοκῶ δέ μοι οὐκ ἐν ἐλάττονι κλύδωνι τοῦ Κρέοντος εἶναι, καὶ βουλοίμην ἂν καλλίνικος γενέσθαι τῶν σῶν ἐραστῶν.</said></p> 
+           </div>
+          </div>
+        </body>
+  </text>
+</TEI>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="plato_minos" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+
+<fileDesc>
+
+
+
+     
+    
+
+
+
+<titleStmt>
+    <title xml:lang="grc">Μίνως</title>
+<author>Plato</author>
+    <editor>John Burnet</editor>
+<sponsor>Perseus Project, Tufts University</sponsor>
+<principal>Gregory Crane</principal>
+<respStmt>
+<resp>Prepared under the supervision of</resp>
+<name>Lisa Cerrato</name>
+<name>William Merrill</name>
+<name>Elli Mylonas</name>
+<name>David Smith</name>
+</respStmt>
+<funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+
+<respStmt xml:id="bookstacks-encoding"><resp>TEI P5 normalization, structural identifiers, and speaker-reference integrity</resp><name>Bookstacks project</name></respStmt></titleStmt><editionStmt><edition n="1.0">Bookstacks TEI edition, based on the source electronic edition</edition></editionStmt><publicationStmt><publisher>Bookstacks project</publisher><pubPlace>United States</pubPlace><date when="2026-08-21">21 August 2026</date><idno type="local">plato_minos</idno><availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; source rights remain as recorded in sourceDesc.</licence></availability></publicationStmt><notesStmt>
+        <note anchored="true">Text was scanned at St. Olaf Spring, 1992.</note>
+        <note>Perseus 2.0</note>
+    </notesStmt><sourceDesc>
+
+    <biblStruct>
+        <monogr>
+            <author>Plato</author>
+            <title xml:lang="lat">Platonis Opera</title>
+            <editor>John Burnet</editor>                       
+            <imprint>
+                <pubPlace>Oxford</pubPlace>
+                <publisher>Clarendon Press</publisher>
+                <date>1915</date>
+            </imprint>
+            <biblScope unit="volume">5.1</biblScope>
+        </monogr> 
+        <ref target="https://archive.org/details/p1platonisopera05platuoft/page/312/mode/1up">Internet Archive</ref>
+    </biblStruct>
+</sourceDesc></fileDesc>
+
+<encodingDesc>
+    <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">           
+            <p>This pointer pattern extracts section</p>
+        </cRefPattern>
+    </refsDecl>
+
+<!--<refsDecl doctype="TEI.2">
+<state unit="text"/>
+<state unit="section"/>
+</refsDecl>
+<refsDecl doctype="TEI.2">
+<state unit="text"/>
+<state unit="page"/>
+</refsDecl>-->
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<language ident="grc">Greek</language>
+<language ident="en">English</language>
+</langUsage>
+    <particDesc>
+        
+        
+    <listPerson><person xml:id="Σωκράτης"><persName>Σωκράτης</persName></person><person xml:id="Ἑταῖρος"><persName>Ἑταῖρος</persName></person></listPerson></particDesc>
+</profileDesc>
+<revisionDesc><change when="2026-08-21" who="#bookstacks-encoding">Normalized to standalone TEI P5; added granular structural identifiers and resolvable speaker references.</change>
+<change when="2017-08-23" who="Lisa Cerrato">EpiDoc and CTS conversion.</change>    
+<change when="2014-07-01" who="Stella Dee">split composite text and converted to unicode</change>
+<change when="1992-07-01" who="WPM">Tagged in conformance with Prose.e dtd.</change>
+ </revisionDesc>
+
+</teiHeader>
+  <text xml:lang="grc">
+    <body>
+            <div type="edition" n="urn:cts:greekLit:tlg0059.tlg033.perseus-grc2" xml:lang="grc" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2">
+
+<div type="textpart" subtype="section" resp="perseus" n="313" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2-section-313">
+<p xml:id="grc-p-000001"><said who="#Σωκράτης" xml:id="grc-utterance-000001"><milestone n="313" unit="page" /><milestone unit="section" resp="Stephanus" n="313a" xml:id="grc-stephanus-section-313a" /><label>ΣΩ.</label> ὁ νόμος ἡμῖν τί ἐστιν;</said></p>
+
+<p xml:id="grc-p-000002"><said who="#Ἑταῖρος" xml:id="grc-utterance-000002"><label>ΕΤ.</label> ὁποῖον καὶ ἐρωτᾷς τῶν νόμων;</said></p>
+
+<p xml:id="grc-p-000003"><said who="#Σωκράτης" xml:id="grc-utterance-000003"><label>ΣΩ.</label> τί δʼ; ἔστιν ὅτι διαφέρει νόμος νόμου κατʼ αὐτὸ τοῦτο, κατὰ τὸ νόμος εἶναι; σκόπει γὰρ δὴ ὃ τυγχάνω ἐρωτῶν σε. ἐρωτῶ γάρ, ὥσπερ εἰ ἀνηρόμην τί ἐστιν χρυσός, εἴ με ὡσαύτως ἀνήρου ὁποῖον καὶ λέγω χρυσόν, οἴομαί σε οὐκ ἂν ὀρθῶς ἐρέσθαι. οὐδὲν γάρ που διαφέρει οὔτε χρυσὸς <milestone unit="section" resp="Stephanus" n="313b" xml:id="grc-stephanus-section-313b" /> χρυσοῦ οὔτε λίθος λίθου κατά γε τὸ λίθος εἶναι καὶ κατὰ τὸ χρυσός· οὕτω δὲ οὐδὲ νόμος που νόμου οὐδὲν διαφέρει, ἀλλὰ πάντες εἰσὶν ταὐτόν. νόμος γὰρ ἕκαστος αὐτῶν ἐστιν ὁμοίως, οὐχ ὁ μὲν μᾶλλον, ὁ δʼ ἧττον· τοῦτο δὴ αὐτὸ ἐρωτῶ, τὸ πᾶν τί ἐστιν νόμος. εἰ οὖν σοι πρόχειρον, εἰπέ.</said></p>
+
+<p xml:id="grc-p-000004"><said who="#Ἑταῖρος" xml:id="grc-utterance-000004"><label>ΕΤ.</label> τί οὖν ἄλλο νόμος εἴη ἄν, ὦ Σώκρατες, ἀλλʼ ἢ τὰ νομιζόμενα;</said></p>
+
+<p xml:id="grc-p-000005"><said who="#Σωκράτης" xml:id="grc-utterance-000005"><label>ΣΩ.</label> ἦ καὶ λόγος σοι δοκεῖ εἶναι τὰ λεγόμενα, ἢ ὄψις τὰ ὁρώμενα, ἢ ἀκοὴ τὰ ἀκουόμενα; ἢ ἄλλο μὲν λόγος, ἄλλο <milestone unit="section" resp="Stephanus" n="313c" xml:id="grc-stephanus-section-313c" /> δὲ τὰ λεγόμενα· καὶ ἄλλο μὲν ὄψις, ἄλλο δὲ τὰ ὁρώμενα· καὶ ἄλλο μὲν ἀκοή, ἄλλο δὲ τὰ ἀκουόμενα, καὶ ἄλλο δὴ νόμος, ἄλλο δὲ τὰ νομιζόμενα; οὕτως ἢ πῶς σοι δοκεῖ;</said></p>
+
+<p xml:id="grc-p-000006"><said who="#Ἑταῖρος" xml:id="grc-utterance-000006"><label>ΕΤ.</label> ἄλλο μοι νῦν ἐφάνη.</said></p>
+
+<p xml:id="grc-p-000007"><said who="#Σωκράτης" xml:id="grc-utterance-000007"><label>ΣΩ.</label> οὐκ ἄρα νόμος ἐστὶν τὰ νομιζόμενα.</said></p>
+
+<p xml:id="grc-p-000008"><said who="#Ἑταῖρος" xml:id="grc-utterance-000008"><label>ΕΤ.</label> οὔ μοι δοκεῖ.</said></p></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="314" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2-section-314">
+    <p xml:id="grc-p-000009"><said who="#Σωκράτης" xml:id="grc-utterance-000009"><label>ΣΩ.</label> τί δῆτʼ ἂν εἴη νόμος; ἐπισκεψώμεθʼ αὐτὸ ὧδε. εἴ τις ἡμᾶς τὰ νυνδὴ λεγόμενα ἀνήρετο, <q>ἐπειδὴ ὄψει φατὲ <milestone n="314" unit="page" /><milestone unit="section" resp="Stephanus" n="314a" xml:id="grc-stephanus-section-314a" /> τὰ ὁρώμενα ὁρᾶσθαι, τίνι ὄντι τῇ ὄψει ὁρᾶται;</q> ἀπεκρινάμεθʼ ἂν αὐτῷ ὅτι αἰσθήσει ταύτῃ τῇ διὰ τῶν ὀφθαλμῶν δηλούσῃ τὰ πράγματα· εἰ δʼ αὖ ἤρετο ἡμᾶς, <q>τί δέ; ἐπειδὴ ἀκοῇ τὰ ἀκουόμενα ἀκούεται, τίνι ὄντι τῇ ἀκοῇ;</q> ἀπεκρινάμεθʼ ἂν αὐτῷ ὅτι αἰσθήσει ταύτῃ τῇ διὰ τῶν ὤτων δηλούσῃ ἡμῖν τὰς φωνάς. οὕτω τοίνυν καὶ εἰ ἀνέροιτο ἡμᾶς, <q>ἐπειδὴ νόμῳ τὰ νομιζόμενα νομίζεται, τίνι ὄντι τῷ νόμῳ νομίζεται; <milestone unit="section" resp="Stephanus" n="314b" xml:id="grc-stephanus-section-314b" /> πότερον αἰσθήσει τινὶ ἢ δηλώσει, ὥσπερ τὰ μανθανόμενα μανθάνεται δηλούσῃ τῇ ἐπιστήμῃ, ἢ εὑρέσει τινί, ὥσπερ τὰ εὑρισκόμενα εὑρίσκεται, οἷον τὰ μὲν ὑγιεινὰ καὶ νοσώδη ἰατρικῇ, ἃ δὲ οἱ θεοὶ διανοοῦνται, ὥς φασιν οἱ μάντεις, μαντικῇ; ἡ γάρ που τέχνη ἡμῖν εὕρεσίς ἐστιν τῶν πραγμάτων· ἦ γάρ;</q></said></p>
+
+<p xml:id="grc-p-000010"><said who="#Ἑταῖρος" xml:id="grc-utterance-000010"><label>ΕΤ.</label> πάνυ γε.</said></p>
+
+<p xml:id="grc-p-000011"><said who="#Σωκράτης" xml:id="grc-utterance-000011"><label>ΣΩ.</label> τί οὖν ἂν τούτων ὑπολάβοιμεν μάλιστα τὸν νόμον εἶναι;</said></p>
+
+<p xml:id="grc-p-000012"><said who="#Ἑταῖρος" xml:id="grc-utterance-000012"><label>ΕΤ.</label> τὰ δόγματα ταῦτα καὶ ψηφίσματα, ἔμοιγε δοκεῖ. τί γὰρ ἂν ἄλλο τις φαίη νόμον εἶναι; ὥστε κινδυνεύει, ὃ <milestone unit="section" resp="Stephanus" n="314c" xml:id="grc-stephanus-section-314c" /> σὺ ἐρωτᾷς, τὸ ὅλον τοῦτο, νόμος, δόγμα πόλεως εἶναι.</said></p>
+
+<p xml:id="grc-p-000013"><said who="#Σωκράτης" xml:id="grc-utterance-000013"><label>ΣΩ.</label> δόξαν, ὡς ἔοικε, λέγεις πολιτικὴν τὸν νόμον.</said></p>
+
+<p xml:id="grc-p-000014"><said who="#Ἑταῖρος" xml:id="grc-utterance-000014"><label>ΕΤ.</label> ἔγωγε.</said></p>
+
+<p xml:id="grc-p-000015"><said who="#Σωκράτης" xml:id="grc-utterance-000015"><label>ΣΩ.</label> καὶ ἴσως καλῶς λέγεις· τάχα δὲ ὧδε ἄμεινον εἰσόμεθα. λέγεις τινὰς σοφούς;</said></p>
+
+<p xml:id="grc-p-000016"><said who="#Ἑταῖρος" xml:id="grc-utterance-000016"><label>ΕΤ.</label> ἔγωγε.</said></p>
+
+<p xml:id="grc-p-000017"><said who="#Σωκράτης" xml:id="grc-utterance-000017"><label>ΣΩ.</label> οὐκοῦν οἱ σοφοί εἰσιν σοφίᾳ σοφοί;</said></p>
+
+<p xml:id="grc-p-000018"><said who="#Ἑταῖρος" xml:id="grc-utterance-000018"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000019"><said who="#Σωκράτης" xml:id="grc-utterance-000019"><label>ΣΩ.</label> τί δέ; οἱ δίκαιοι δικαιοσύνῃ δίκαιοι;</said></p>
+
+<p xml:id="grc-p-000020"><said who="#Ἑταῖρος" xml:id="grc-utterance-000020"><label>ΕΤ.</label> πάνυ γε.</said></p>
+
+<p xml:id="grc-p-000021"><said who="#Σωκράτης" xml:id="grc-utterance-000021"><label>ΣΩ.</label> οὐκοῦν καὶ οἱ νόμιμοι νόμῳ νόμιμοι;</said></p>
+
+<p xml:id="grc-p-000022"><said who="#Ἑταῖρος" xml:id="grc-utterance-000022"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000023"><said who="#Σωκράτης" xml:id="grc-utterance-000023"><label>ΣΩ.</label> οἱ δὲ <milestone unit="section" resp="Stephanus" n="314d" xml:id="grc-stephanus-section-314d" /> ἄνομοι ἀνομίᾳ ἄνομοι;</said></p>
+
+<p xml:id="grc-p-000024"><said who="#Ἑταῖρος" xml:id="grc-utterance-000024"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000025"><said who="#Σωκράτης" xml:id="grc-utterance-000025"><label>ΣΩ.</label> οἱ δὲ νόμιμοι δίκαιοι;</said></p>
+
+<p xml:id="grc-p-000026"><said who="#Ἑταῖρος" xml:id="grc-utterance-000026"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000027"><said who="#Σωκράτης" xml:id="grc-utterance-000027"><label>ΣΩ.</label> οἱ δὲ ἄνομοι ἄδικοι;</said></p>
+
+<p xml:id="grc-p-000028"><said who="#Ἑταῖρος" xml:id="grc-utterance-000028"><label>ΕΤ.</label> ἄδικοι.</said></p>
+
+<p xml:id="grc-p-000029"><said who="#Σωκράτης" xml:id="grc-utterance-000029"><label>ΣΩ.</label> οὐκοῦν κάλλιστον ἡ δικαιοσύνη τε καὶ ὁ νόμος;</said></p>
+
+<p xml:id="grc-p-000030"><said who="#Ἑταῖρος" xml:id="grc-utterance-000030"><label>ΕΤ.</label> οὕτως.</said></p>
+
+<p xml:id="grc-p-000031"><said who="#Σωκράτης" xml:id="grc-utterance-000031"><label>ΣΩ.</label> αἴσχιστον δὲ ἡ ἀδικία τε καὶ ἡ ἀνομία;</said></p>
+
+<p xml:id="grc-p-000032"><said who="#Ἑταῖρος" xml:id="grc-utterance-000032"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000033"><said who="#Σωκράτης" xml:id="grc-utterance-000033"><label>ΣΩ.</label> καὶ τὸ μὲν σῴζει τὰς πόλεις καὶ τἆλλα πάντα, τὸ δὲ ἀπόλλυσι καὶ ἀνατρέπει;</said></p>
+
+<p xml:id="grc-p-000034"><said who="#Ἑταῖρος" xml:id="grc-utterance-000034"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000035"><said who="#Σωκράτης" xml:id="grc-utterance-000035"><label>ΣΩ.</label> ὡς περὶ καλοῦ ἄρα τινὸς ὄντος δεῖ τοῦ νόμου διανοεῖσθαι, καὶ ὡς ἀγαθὸν αὐτὸ ζητεῖν.</said></p>
+
+<p xml:id="grc-p-000036"><said who="#Ἑταῖρος" xml:id="grc-utterance-000036"><label>ΕΤ.</label> πῶς δʼ οὔ;</said></p>
+
+<p xml:id="grc-p-000037"><said who="#Σωκράτης" xml:id="grc-utterance-000037"><label>ΣΩ.</label> οὐκοῦν δόγμα ἔφαμεν εἶναι πόλεως τὸν νόμον; <milestone unit="section" resp="Stephanus" n="314e" xml:id="grc-stephanus-section-314e" /></said></p>
+
+<p xml:id="grc-p-000038"><said who="#Ἑταῖρος" xml:id="grc-utterance-000038"><label>ΕΤ.</label> ἔφαμεν γάρ.</said></p>
+
+<p xml:id="grc-p-000039"><said who="#Σωκράτης" xml:id="grc-utterance-000039"><label>ΣΩ.</label> τί οὖν; οὐκ ἔστιν τὰ μὲν χρηστὰ δόγματα, τὰ δὲ πονηρά;</said></p>
+
+<p xml:id="grc-p-000040"><said who="#Ἑταῖρος" xml:id="grc-utterance-000040"><label>ΕΤ.</label> ἔστιν μὲν οὖν.</said></p>
+
+<p xml:id="grc-p-000041"><said who="#Σωκράτης" xml:id="grc-utterance-000041"><label>ΣΩ.</label> καὶ μὴν νόμος γε οὐκ ἦν πονηρός.</said></p>
+
+<p xml:id="grc-p-000042"><said who="#Ἑταῖρος" xml:id="grc-utterance-000042"><label>ΕΤ.</label> οὐ γάρ.</said></p>
+
+<p xml:id="grc-p-000043"><said who="#Σωκράτης" xml:id="grc-utterance-000043"><label>ΣΩ.</label> οὐκ ἄρα ὀρθῶς ἔχει ἀποκρίνεσθαι οὕτως ἁπλῶς ὅτι νόμος ἐστὶ δόγμα πόλεως.</said></p>
+
+<p xml:id="grc-p-000044"><said who="#Ἑταῖρος" xml:id="grc-utterance-000044"><label>ΕΤ.</label> οὐκ ἔμοιγε δοκεῖ.</said></p>
+
+<p xml:id="grc-p-000045"><said who="#Σωκράτης" xml:id="grc-utterance-000045"><label>ΣΩ.</label> οὐκ ἄρα ἁρμόττοι ἂν τὸ πονηρὸν δόγμα νόμος εἶναι.</said></p>
+
+<p xml:id="grc-p-000046"><said who="#Ἑταῖρος" xml:id="grc-utterance-000046"><label>ΕΤ.</label> οὐ δῆτα.</said></p>
+
+<p xml:id="grc-p-000047"><said who="#Σωκράτης" xml:id="grc-utterance-000047"><label>ΣΩ.</label> ἀλλὰ μὴν δόξα γέ τις καὶ αὐτῷ μοι καταφαίνεται ὁ νόμος εἶναι· ἐπειδὴ δὲ οὐχ ἡ πονηρὰ δόξα, ἆρα οὐκ ἤδη τοῦτο κατάδηλον, ὡς ἡ χρηστή, εἴπερ δόξα νόμος ἐστί;</said></p>
+
+<p xml:id="grc-p-000048"><said who="#Ἑταῖρος" xml:id="grc-utterance-000048"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000049"><said who="#Σωκράτης" xml:id="grc-utterance-000049"><label>ΣΩ.</label> δόξα δὲ χρηστὴ τίς ἐστιν; οὐχ ἡ ἀληθής;</said></p></div>
+                
+<div type="textpart" subtype="section" resp="perseus" n="315" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2-section-315">
+ <p xml:id="grc-p-000050"><said who="#Ἑταῖρος" xml:id="grc-utterance-000050"><milestone n="315" unit="page" /><milestone unit="section" resp="Stephanus" n="315a" xml:id="grc-stephanus-section-315a" /><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000051"><said who="#Σωκράτης" xml:id="grc-utterance-000051"><label>ΣΩ.</label> οὐκοῦν ἡ ἀληθὴς δόξα τοῦ ὄντος ἐστὶν ἐξεύρεσις;</said></p>
+
+<p xml:id="grc-p-000052"><said who="#Ἑταῖρος" xml:id="grc-utterance-000052"><label>ΕΤ.</label> ἔστιν γάρ.</said></p>
+
+<p xml:id="grc-p-000053"><said who="#Σωκράτης" xml:id="grc-utterance-000053"><label>ΣΩ.</label> ὁ νόμος ἄρα βούλεται τοῦ ὄντος εἶναι ἐξεύρεσις.</said></p>
+
+<p xml:id="grc-p-000054"><said who="#Ἑταῖρος" xml:id="grc-utterance-000054"><label>ΕΤ.</label> πῶς οὖν, ὦ Σώκρατες, εἰ ὁ νόμος ἐστὶν τοῦ ὄντος ἐξεύρεσις, οὐκ ἀεὶ τοῖς αὐτοῖς νόμοις χρώμεθα περὶ τῶν αὐτῶν, εἰ τὰ ὄντα γε ἡμῖν ἐξηύρηται;</said></p>
+
+<p xml:id="grc-p-000055"><said who="#Σωκράτης" xml:id="grc-utterance-000055"><label>ΣΩ.</label> βούλεται μὲν οὐδὲν ἧττον ὁ νόμος εἶναι τοῦ ὄντος ἐξεύρεσις· οἱ δʼ ἄρα μὴ τοῖς αὐτοῖς ἀεὶ νόμοις χρώμενοι <milestone unit="section" resp="Stephanus" n="315b" xml:id="grc-stephanus-section-315b" /> ἄνθρωποι, ὡς δοκοῦμεν, οὐκ ἀεὶ δύνανται ἐξευρίσκειν ὃ βούλεται ὁ νόμος, τὸ ὄν. ἐπεὶ φέρε ἴδωμεν ἐὰν ἄρα ἡμῖν ἐνθένδε κατάδηλον γένηται εἴτε τοῖς αὐτοῖς ἀεὶ νόμοις χρώμεθα ἢ ἄλλοτε ἄλλοις, καὶ εἰ ἅπαντες τοῖς αὐτοῖς ἢ ἄλλοι ἄλλοις.</said></p>
+
+<p xml:id="grc-p-000056"><said who="#Ἑταῖρος" xml:id="grc-utterance-000056"><label>ΕΤ.</label> ἀλλὰ τοῦτό γε, ὦ Σώκρατες, οὐ χαλεπὸν γνῶναι, ὅτι οὔτε οἱ αὐτοὶ ἀεὶ τοῖς αὐτοῖς νόμοις χρῶνται ἄλλοι τε ἄλλοις. ἐπεὶ αὐτίκα ἡμῖν μὲν οὐ νόμος ἐστὶν ἀνθρώπους θύειν ἀλλʼ ἀνόσιον, Καρχηδόνιοι δὲ θύουσιν ὡς ὅσιον ὂν <milestone unit="section" resp="Stephanus" n="315c" xml:id="grc-stephanus-section-315c" /> καὶ νόμιμον αὐτοῖς, καὶ ταῦτα ἔνιοι αὐτῶν καὶ τοὺς αὑτῶν ὑεῖς τῷ Κρόνῳ, ὡς ἴσως καὶ σὺ ἀκήκοας. καὶ μὴ ὅτι βάρβαροι ἄνθρωποι ἡμῶν ἄλλοις νόμοις χρῶνται, ἀλλὰ καὶ οἱ ἐν τῇ Λυκαίᾳ οὗτοι καὶ οἱ τοῦ Ἀθάμαντος ἔκγονοι οἵας θυσίας θύουσιν Ἕλληνες ὄντες. ὥσπερ καὶ ἡμᾶς αὐτοὺς οἶσθά που καὶ αὐτὸς ἀκούων οἵοις νόμοις ἐχρώμεθα πρὸ τοῦ περὶ τοὺς ἀποθανόντας, ἱερεῖά τε προσφάττοντες πρὸ τῆς ἐκφορᾶς τοῦ νεκροῦ καὶ ἐγχυτιστρίας μεταπεμπόμενοι· οἱ <milestone unit="section" resp="Stephanus" n="315d" xml:id="grc-stephanus-section-315d" /> δʼ αὖ ἐκείνων ἔτι πρότεροι αὐτοῦ καὶ ἔθαπτον ἐν τῇ οἰκίᾳ τοὺς ἀποθανόντας· ἡμεῖς δὲ τούτων οὐδὲν ποιοῦμεν. μυρία δʼ ἄν τις ἔχοι τοιαῦτα εἰπεῖν· πολλὴ γὰρ εὐρυχωρία τῆς ἀποδείξεως ὡς οὔτε ἡμεῖς ἡμῖν αὐτοῖς ἀεὶ κατὰ ταὐτὰ νομίζομεν οὔτε ἀλλήλοις οἱ ἄνθρωποι.</said></p>
+
+<p xml:id="grc-p-000057"><said who="#Σωκράτης" xml:id="grc-utterance-000057"><label>ΣΩ.</label> οὐδέν τοι θαυμαστόν ἐστιν, ὦ βέλτιστε, εἰ σὺ μὲν ὀρθῶς λέγεις, ἐμὲ δὲ τοῦτο λέληθεν. ἀλλʼ ἕως ἂν σύ τε κατὰ σαυτὸν λέγῃς ἅ σοι δοκεῖ μακρῷ λόγῳ καὶ πάλιν ἐγώ, <milestone unit="section" resp="Stephanus" n="315e" xml:id="grc-stephanus-section-315e" /> οὐδὲν μή ποτε συμβῶμεν, ὡς ἐγὼ οἶμαι· ἐὰν δὲ κοινὸν τεθῇ τὸ σκέμμα, τάχʼ ἂν ὁμολογήσαιμεν. εἰ μὲν οὖν βούλει, πυνθανόμενός τι παρʼ ἐμοῦ κοινῇ μετʼ ἐμοῦ σκόπει· εἰ δʼ αὖ βούλει, ἀποκρινόμενος.</said></p>
+
+<p xml:id="grc-p-000058"><said who="#Ἑταῖρος" xml:id="grc-utterance-000058"><label>ΕΤ.</label> ἀλλʼ ἐθέλω, ὦ Σώκρατες, ἀποκρίνεσθαι ὅτι ἂν βούλῃ.</said></p>
+
+<p xml:id="grc-p-000059"><said who="#Σωκράτης" xml:id="grc-utterance-000059"><label>ΣΩ.</label> φέρε δὴ σύ, πότερα νομίζεις τὰ δίκαια ἄδικα εἶναι καὶ τὰ ἄδικα δίκαια, ἢ τὰ μὲν δίκαια δίκαια, τὰ δὲ ἄδικα ἄδικα;</said></p></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="316" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2-section-316">
+<p xml:id="grc-p-000060"><said who="#Ἑταῖρος" xml:id="grc-utterance-000060"><label>ΕΤ.</label> ἐγὼ μὲν τά τε δίκαια δίκαια καὶ τὰ ἄδικα <milestone n="316" unit="page" /><milestone unit="section" resp="Stephanus" n="316a" xml:id="grc-stephanus-section-316a" /> ἄδικα.</said></p>
+
+<p xml:id="grc-p-000061"><said who="#Σωκράτης" xml:id="grc-utterance-000061"><label>ΣΩ.</label> οὐκοῦν καὶ παρὰ πᾶσιν οὕτως ὡς ἐνθάδε νομίζεται;</said></p>
+
+<p xml:id="grc-p-000062"><said who="#Ἑταῖρος" xml:id="grc-utterance-000062"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000063"><said who="#Σωκράτης" xml:id="grc-utterance-000063"><label>ΣΩ.</label> οὐκοῦν καὶ ἐν Πέρσαις;</said></p>
+
+<p xml:id="grc-p-000064"><said who="#Ἑταῖρος" xml:id="grc-utterance-000064"><label>ΕΤ.</label> <add>καὶ ἐν Πέρσαις</add>.</said></p>
+
+<p xml:id="grc-p-000065"><said who="#Σωκράτης" xml:id="grc-utterance-000065"><label>ΣΩ.</label> ἀλλὰ ἀεὶ δήπου;</said></p>
+
+<p xml:id="grc-p-000066"><said who="#Ἑταῖρος" xml:id="grc-utterance-000066"><label>ΕΤ.</label> ἀεί.</said></p>
+
+<p xml:id="grc-p-000067"><said who="#Σωκράτης" xml:id="grc-utterance-000067"><label>ΣΩ.</label> πότερον δὲ τὰ πλεῖον ἕλκοντα βαρύτερα νομίζεται ἐνθάδε, τὰ δὲ ἔλαττον κουφότερα, ἢ τοὐναντίον;</said></p>
+
+<p xml:id="grc-p-000068"><said who="#Ἑταῖρος" xml:id="grc-utterance-000068"><label>ΕΤ.</label> οὔκ, ἀλλὰ τὰ πλεῖον ἕλκοντα βαρύτερα, τὰ δὲ ἔλαττον κουφότερα.</said></p>
+
+<p xml:id="grc-p-000069"><said who="#Σωκράτης" xml:id="grc-utterance-000069"><label>ΣΩ.</label> οὐκοῦν καὶ ἐν Καρχηδόνι καὶ ἐν Λυκαίᾳ;</said></p>
+
+<p xml:id="grc-p-000070"><said who="#Ἑταῖρος" xml:id="grc-utterance-000070"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000071"><said who="#Σωκράτης" xml:id="grc-utterance-000071"><label>ΣΩ.</label> τὰ μὲν καλά, ὡς ἔοικε, πανταχοῦ νομίζεται <milestone unit="section" resp="Stephanus" n="316b" xml:id="grc-stephanus-section-316b" /> καλὰ καὶ τὰ αἰσχρὰ αἰσχρά, ἀλλʼ οὐ τὰ αἰσχρὰ καλὰ οὐδὲ τὰ καλὰ αἰσχρά.</said></p>
+
+<p xml:id="grc-p-000072"><said who="#Ἑταῖρος" xml:id="grc-utterance-000072"><label>ΕΤ.</label> οὕτως.</said></p>
+
+<p xml:id="grc-p-000073"><said who="#Σωκράτης" xml:id="grc-utterance-000073"><label>ΣΩ.</label> οὐκοῦν, ὡς κατὰ πάντων εἰπεῖν, τὰ ὄντα νομίζεται εἶναι, οὐ τὰ μὴ ὄντα, καὶ παρʼ ἡμῖν καὶ παρὰ τοῖς ἄλλοις ἅπασιν.</said></p>
+
+<p xml:id="grc-p-000074"><said who="#Ἑταῖρος" xml:id="grc-utterance-000074"><label>ΕΤ.</label> ἔμοιγε δοκεῖ.</said></p>
+
+<p xml:id="grc-p-000075"><said who="#Σωκράτης" xml:id="grc-utterance-000075"><label>ΣΩ.</label> ὃς ἂν ἄρα τοῦ ὄντος ἁμαρτάνῃ, τοῦ νομίμου ἁμαρτάνει.</said></p>
+
+<p xml:id="grc-p-000076"><said who="#Ἑταῖρος" xml:id="grc-utterance-000076"><label>ΕΤ.</label> οὕτω μέν, ὦ Σώκρατες, ὡς σὺ λέγεις, καὶ φαίνεται ταῦτα νόμιμα καὶ ἡμῖν ἀεὶ καὶ τοῖς ἄλλοις· ἐπειδὰν δʼ ἐννοήσω <milestone unit="section" resp="Stephanus" n="316c" xml:id="grc-stephanus-section-316c" /> ὅτι οὐδὲν παυόμεθα ἄνω κάτω μετατιθέμενοι τοὺς νόμους, οὐ δύναμαι πεισθῆναι.</said></p>
+
+<p xml:id="grc-p-000077"><said who="#Σωκράτης" xml:id="grc-utterance-000077"><label>ΣΩ.</label> ἴσως γὰρ οὐκ ἐννοεῖς ταῦτα μεταπεττευόμενα ὅτι ταὐτά ἐστιν. ἀλλʼ ὧδε μετʼ ἐμοῦ αὐτὰ ἄθρει. ἤδη ποτὲ ἐνέτυχες συγγράμματι περὶ ὑγιείας τῶν καμνόντων;</said></p>
+
+<p xml:id="grc-p-000078"><said who="#Ἑταῖρος" xml:id="grc-utterance-000078"><label>ΕΤ.</label> ἔγωγε.</said></p>
+
+<p xml:id="grc-p-000079"><said who="#Σωκράτης" xml:id="grc-utterance-000079"><label>ΣΩ.</label> οἶσθα οὖν τίνος τέχνης τοῦτʼ ἐστὶ τὸ σύγγραμμα;</said></p>
+
+<p xml:id="grc-p-000080"><said who="#Ἑταῖρος" xml:id="grc-utterance-000080"><label>ΕΤ.</label> οἶδα, ὅτι ἰατρικῆς.</said></p>
+
+<p xml:id="grc-p-000081"><said who="#Σωκράτης" xml:id="grc-utterance-000081"><label>ΣΩ.</label> οὐκοῦν ἰατροὺς καλεῖς τοὺς ἐπιστήμονας περὶ τούτων;</said></p>
+
+<p xml:id="grc-p-000082"><said who="#Ἑταῖρος" xml:id="grc-utterance-000082"><label>ΕΤ.</label> φημί.</said></p>
+
+<p xml:id="grc-p-000083"><said who="#Σωκράτης" xml:id="grc-utterance-000083"><milestone unit="section" resp="Stephanus" n="316d" xml:id="grc-stephanus-section-316d" /><label>ΣΩ.</label> πότερον οὖν οἱ ἐπιστήμονες ταὐτὰ περὶ τῶν αὐτῶν νομίζουσιν ἢ ἄλλοι ἄλλα;</said></p>
+
+<p xml:id="grc-p-000084"><said who="#Ἑταῖρος" xml:id="grc-utterance-000084"><label>ΕΤ.</label> ταὐτὰ ἔμοιγε δοκοῦσι.</said></p>
+
+<p xml:id="grc-p-000085"><said who="#Σωκράτης" xml:id="grc-utterance-000085"><label>ΣΩ.</label> πότερον οἱ Ἕλληνες μόνοι τοῖς Ἕλλησιν ἢ καὶ οἱ βάρβαροι αὑτοῖς τε καὶ τοῖς Ἕλλησι, περὶ ὧν ἂν εἰδῶσι, ταὐτὰ νομίζουσι;</said></p>
+
+<p xml:id="grc-p-000086"><said who="#Ἑταῖρος" xml:id="grc-utterance-000086"><label>ΕΤ.</label> ταὐτὰ δήπου πολλὴ ἀνάγκη ἐστὶν τοὺς εἰδότας αὐτοὺς αὑτοῖς συννομίζειν καὶ Ἕλληνας καὶ βαρβάρους.</said></p>
+
+<p xml:id="grc-p-000087"><said who="#Σωκράτης" xml:id="grc-utterance-000087"><label>ΣΩ.</label> καλῶς γε ἀπεκρίνω. οὐκοῦν καὶ ἀεί;</said></p>
+
+<p xml:id="grc-p-000088"><said who="#Ἑταῖρος" xml:id="grc-utterance-000088"><label>ΕΤ.</label> ναί, καὶ ἀεί.</said></p>
+
+<p xml:id="grc-p-000089"><said who="#Σωκράτης" xml:id="grc-utterance-000089"><label>ΣΩ.</label> οὐκοῦν καὶ οἱ ἰατροὶ συγγράφουσι περὶ ὑγιείας ἅπερ <milestone unit="section" resp="Stephanus" n="316e" xml:id="grc-stephanus-section-316e" /> καὶ νομίζουσιν εἶναι;</said></p>
+
+<p xml:id="grc-p-000090"><said who="#Ἑταῖρος" xml:id="grc-utterance-000090"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000091"><said who="#Σωκράτης" xml:id="grc-utterance-000091"><label>ΣΩ.</label> ἰατρικὰ ἄρα καὶ ἰατρικοὶ νόμοι ταῦτα τὰ συγγράμματα ἐστὶν τὰ τῶν ἰατρῶν.</said></p>
+
+<p xml:id="grc-p-000092"><said who="#Ἑταῖρος" xml:id="grc-utterance-000092"><label>ΕΤ.</label> ἰατρικὰ μέντοι.</said></p>
+
+<p xml:id="grc-p-000093"><said who="#Σωκράτης" xml:id="grc-utterance-000093"><label>ΣΩ.</label> ἆρʼ οὖν καὶ τὰ γεωργικὰ συγγράμματα γεωργικοὶ νόμοι εἰσίν;</said></p>
+
+<p xml:id="grc-p-000094"><said who="#Ἑταῖρος" xml:id="grc-utterance-000094"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000095"><said who="#Σωκράτης" xml:id="grc-utterance-000095"><label>ΣΩ.</label> τίνων οὖν ἐστιν τὰ περὶ κήπων ἐργασίας συγγράμματα καὶ νόμιμα;</said></p>
+
+<p xml:id="grc-p-000096"><said who="#Ἑταῖρος" xml:id="grc-utterance-000096"><label>ΕΤ.</label> κηπουρῶν.</said></p>
+
+<p xml:id="grc-p-000097"><said who="#Σωκράτης" xml:id="grc-utterance-000097"><label>ΣΩ.</label> κηπουρικοὶ ἄρα νόμοι ἡμῖν εἰσιν οὗτοι.</said></p>
+
+<p xml:id="grc-p-000098"><said who="#Ἑταῖρος" xml:id="grc-utterance-000098"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000099"><said who="#Σωκράτης" xml:id="grc-utterance-000099"><label>ΣΩ.</label> τῶν ἐπισταμένων κήπων ἄρχειν;</said></p>
+
+<p xml:id="grc-p-000100"><said who="#Ἑταῖρος" xml:id="grc-utterance-000100"><label>ΕΤ.</label> πῶς δʼ οὔ;</said></p>
+
+<p xml:id="grc-p-000101"><said who="#Σωκράτης" xml:id="grc-utterance-000101"><label>ΣΩ.</label> ἐπίστανται δʼ οἱ κηπουροί.</said></p>
+
+<p xml:id="grc-p-000102"><said who="#Ἑταῖρος" xml:id="grc-utterance-000102"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000103"><said who="#Σωκράτης" xml:id="grc-utterance-000103"><label>ΣΩ.</label> τίνων δὲ τὰ περὶ ὄψου σκευασίας συγγράμματά τε καὶ νόμιμα;</said></p>
+
+<p xml:id="grc-p-000104"><said who="#Ἑταῖρος" xml:id="grc-utterance-000104"><label>ΕΤ.</label> μαγείρων.</said></p>
+
+<p xml:id="grc-p-000105"><said who="#Σωκράτης" xml:id="grc-utterance-000105"><label>ΣΩ.</label> μαγειρικοὶ ἄρα οὗτοι νόμοι εἰσί;</said></p>
+
+<p xml:id="grc-p-000106"><said who="#Ἑταῖρος" xml:id="grc-utterance-000106"><label>ΕΤ.</label> μαγειρικοί.</said></p></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="317" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2-section-317">
+    <p xml:id="grc-p-000107"><said who="#Σωκράτης" xml:id="grc-utterance-000107"><label>ΣΩ.</label> τῶν ἐπισταμένων, ὡς <milestone n="317" unit="page" /><milestone unit="section" resp="Stephanus" n="317a" xml:id="grc-stephanus-section-317a" /> ἔοικεν, ὄψου σκευασίας ἄρχειν;</said></p>
+
+<p xml:id="grc-p-000108"><said who="#Ἑταῖρος" xml:id="grc-utterance-000108"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000109"><said who="#Σωκράτης" xml:id="grc-utterance-000109"><label>ΣΩ.</label> ἐπίστανται δέ, ὥς φασιν, οἱ μάγειροι;</said></p>
+
+<p xml:id="grc-p-000110"><said who="#Ἑταῖρος" xml:id="grc-utterance-000110"><label>ΕΤ.</label> ἐπίστανται γάρ.</said></p>
+
+<p xml:id="grc-p-000111"><said who="#Σωκράτης" xml:id="grc-utterance-000111"><label>ΣΩ.</label> εἶεν· τίνων δὲ δὴ τὰ περὶ πόλεως διοικήσεως συγγράμματά τε καὶ νόμιμά ἐστιν; ἆρʼ οὐ τῶν ἐπισταμένων πόλεων ἄρχειν;</said></p>
+
+<p xml:id="grc-p-000112"><said who="#Ἑταῖρος" xml:id="grc-utterance-000112"><label>ΕΤ.</label> ἔμοιγε δοκεῖ.</said></p>
+
+<p xml:id="grc-p-000113"><said who="#Σωκράτης" xml:id="grc-utterance-000113"><label>ΣΩ.</label> ἐπίστανται δὲ ἄλλοι τινὲς ἢ οἱ πολιτικοί τε καὶ οἱ βασιλικοί;</said></p>
+
+<p xml:id="grc-p-000114"><said who="#Ἑταῖρος" xml:id="grc-utterance-000114"><label>ΕΤ.</label> οὗτοι μὲν οὖν.</said></p>
+
+<p xml:id="grc-p-000115"><said who="#Σωκράτης" xml:id="grc-utterance-000115"><label>ΣΩ.</label> πολιτικὰ ἄρα ταῦτα συγγράμματά ἐστιν, οὓς οἱ ἄνθρωποι νόμους καλοῦσι, βασιλέων τε καὶ ἀνδρῶν <milestone unit="section" resp="Stephanus" n="317b" xml:id="grc-stephanus-section-317b" /> ἀγαθῶν συγγράμματα.</said></p>
+
+<p xml:id="grc-p-000116"><said who="#Ἑταῖρος" xml:id="grc-utterance-000116"><label>ΕΤ.</label> ἀληθῆ λέγεις.</said></p>
+
+<p xml:id="grc-p-000117"><said who="#Σωκράτης" xml:id="grc-utterance-000117"><label>ΣΩ.</label> ἄλλο τι οὖν οἵ γε ἐπιστάμενοι οὐκ ἄλλοτε ἄλλα συγγράψουσι περὶ τῶν αὐτῶν;</said></p>
+
+<p xml:id="grc-p-000118"><said who="#Ἑταῖρος" xml:id="grc-utterance-000118"><label>ΕΤ.</label> οὔ.</said></p>
+
+<p xml:id="grc-p-000119"><said who="#Σωκράτης" xml:id="grc-utterance-000119"><label>ΣΩ.</label> οὐδὲ μεταθήσονταί ποτε περὶ τῶν αὐτῶν ἕτερα καὶ ἕτερα νόμιμα;</said></p>
+
+<p xml:id="grc-p-000120"><said who="#Ἑταῖρος" xml:id="grc-utterance-000120"><label>ΕΤ.</label> οὐ δῆτα.</said></p>
+
+<p xml:id="grc-p-000121"><said who="#Σωκράτης" xml:id="grc-utterance-000121"><label>ΣΩ.</label> ἐὰν οὖν ὁρῶμέν τινας ὁπουοῦν τοῦτο ποιοῦντας, πότερα φήσομεν ἐπιστήμονας εἶναι ἢ ἀνεπιστήμονας τοὺς τοῦτο ποιοῦντας;</said></p>
+
+<p xml:id="grc-p-000122"><said who="#Ἑταῖρος" xml:id="grc-utterance-000122"><label>ΕΤ.</label> ἀνεπιστήμονας.</said></p>
+
+<p xml:id="grc-p-000123"><said who="#Σωκράτης" xml:id="grc-utterance-000123"><label>ΣΩ.</label> οὐκοῦν καὶ ὃ μὲν ἂν ὀρθὸν ᾖ, νόμιμον αὐτὸ φήσομεν ἑκάστῳ εἶναι, ἢ τὸ ἰατρικὸν ἢ τὸ μαγειρικὸν ἢ τὸ κηπουρικόν;</said></p>
+                
+<p xml:id="grc-p-000124"><said who="#Ἑταῖρος" xml:id="grc-utterance-000124"><milestone unit="section" resp="Stephanus" n="317c" xml:id="grc-stephanus-section-317c" /><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000125"><said who="#Σωκράτης" xml:id="grc-utterance-000125"><label>ΣΩ.</label> ὃ δʼ ἂν μὴ ὀρθὸν ᾖ, οὐκέτι φήσομεν τοῦτο νόμιμον εἶναι;</said></p>
+
+<p xml:id="grc-p-000126"><said who="#Ἑταῖρος" xml:id="grc-utterance-000126"><label>ΕΤ.</label> οὐκέτι.</said></p>
+
+<p xml:id="grc-p-000127"><said who="#Σωκράτης" xml:id="grc-utterance-000127"><label>ΣΩ.</label> ἄνομον ἄρα γίγνεται.</said></p>
+
+<p xml:id="grc-p-000128"><said who="#Ἑταῖρος" xml:id="grc-utterance-000128"><label>ΕΤ.</label> ἀνάγκη.</said></p>
+
+<p xml:id="grc-p-000129"><said who="#Σωκράτης" xml:id="grc-utterance-000129"><label>ΣΩ.</label> οὐκοῦν καὶ ἐν τοῖς συγγράμμασι τοῖς περὶ τῶν δικαίων καὶ ἀδίκων καὶ ὅλως περὶ πόλεως διακοσμήσεώς τε καὶ περὶ τοῦ ὡς χρὴ πόλιν διοικεῖν, τὸ μὲν ὀρθὸν νόμος ἐστὶ βασιλικός, τὸ δὲ μὴ ὀρθὸν οὔ, ὃ δοκεῖ νόμος εἶναι τοῖς μὴ εἰδόσιν· ἔστιν γὰρ ἄνομον.</said></p>
+
+<p xml:id="grc-p-000130"><said who="#Ἑταῖρος" xml:id="grc-utterance-000130"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000131"><said who="#Σωκράτης" xml:id="grc-utterance-000131"><milestone unit="section" resp="Stephanus" n="317d" xml:id="grc-stephanus-section-317d" /><label>ΣΩ.</label> ὀρθῶς ἄρα ὡμολογήσαμεν νόμον εἶναι τοῦ ὄντος εὕρεσιν.</said></p>
+
+<p xml:id="grc-p-000132"><said who="#Ἑταῖρος" xml:id="grc-utterance-000132"><label>ΕΤ.</label> φαίνεται.</said></p>
+
+<p xml:id="grc-p-000133"><said who="#Σωκράτης" xml:id="grc-utterance-000133"><label>ΣΩ.</label> ἔτι δὲ καὶ τόδε ἐν αὐτῷ διαθεώμεθα. τίς ἐπιστήμων διανεῖμαι ἐπὶ γῇ τὰ σπέρματα;</said></p>
+
+<p xml:id="grc-p-000134"><said who="#Ἑταῖρος" xml:id="grc-utterance-000134"><label>ΕΤ.</label> γεωργός.</said></p>
+
+<p xml:id="grc-p-000135"><said who="#Σωκράτης" xml:id="grc-utterance-000135"><label>ΣΩ.</label> οὗτος δὲ τὰ ἄξια σπέρματα ἑκάστῃ γῇ διανέμει;</said></p>
+
+<p xml:id="grc-p-000136"><said who="#Ἑταῖρος" xml:id="grc-utterance-000136"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000137"><said who="#Σωκράτης" xml:id="grc-utterance-000137"><label>ΣΩ.</label> ὁ γεωργὸς ἄρα νομεὺς ἀγαθὸς τούτων, καὶ οἱ τούτου νόμοι καὶ διανομαὶ ἐπὶ ταῦτα ὀρθαί εἰσιν;</said></p>
+
+<p xml:id="grc-p-000138"><said who="#Ἑταῖρος" xml:id="grc-utterance-000138"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000139"><said who="#Σωκράτης" xml:id="grc-utterance-000139"><label>ΣΩ.</label> τίς δὲ κρουμάτων ἐπὶ τὰ μέλη ἀγαθὸς νομεύς, καὶ τὰ ἄξια νεῖμαι; καὶ οἱ τίνος νόμοι ὀρθοί εἰσιν;</said></p>
+
+<p xml:id="grc-p-000140"><said who="#Ἑταῖρος" xml:id="grc-utterance-000140"><label>ΕΤ.</label> οἱ τοῦ <milestone unit="section" resp="Stephanus" n="317e" xml:id="grc-stephanus-section-317e" /> αὐλητοῦ καὶ τοῦ κιθαριστοῦ.</said></p>
+
+<p xml:id="grc-p-000141"><said who="#Σωκράτης" xml:id="grc-utterance-000141"><label>ΣΩ.</label> ὁ νομικώτατος ἄρα ἐν τούτοις, οὗτος αὐλητικώτατος.</said></p>
+
+<p xml:id="grc-p-000142"><said who="#Ἑταῖρος" xml:id="grc-utterance-000142"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000143"><said who="#Σωκράτης" xml:id="grc-utterance-000143"><label>ΣΩ.</label> τίς δὲ τὴν τροφὴν ἐπὶ τὰ τῶν ἀνθρώπων σώματα διανεῖμαι ἄριστος; οὐχ ὅσπερ τὴν ἀξίαν;</said></p>
+
+<p xml:id="grc-p-000144"><said who="#Ἑταῖρος" xml:id="grc-utterance-000144"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000145"><said who="#Σωκράτης" xml:id="grc-utterance-000145"><label>ΣΩ.</label> αἱ τούτου ἄρα διανομαὶ καὶ οἱ νόμοι βέλτιστοι, καὶ ὅστις περὶ ταῦτα νομικώτατος, καὶ νομεὺς ἄριστος.</said></p>
+
+<p xml:id="grc-p-000146"><said who="#Ἑταῖρος" xml:id="grc-utterance-000146"><label>ΕΤ.</label> πάνυ γε.</said></p>
+
+<p xml:id="grc-p-000147"><said who="#Σωκράτης" xml:id="grc-utterance-000147"><label>ΣΩ.</label> τίς οὗτος;</said></p></div>
+                
+<div type="textpart" subtype="section" resp="perseus" n="318" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2-section-318">
+<p xml:id="grc-p-000148"><said who="#Ἑταῖρος" xml:id="grc-utterance-000148"><milestone n="318" unit="page" /><milestone unit="section" resp="Stephanus" n="318a" xml:id="grc-stephanus-section-318a" /><label>ΕΤ.</label> παιδοτρίβης.</said></p>
+
+<p xml:id="grc-p-000149"><said who="#Σωκράτης" xml:id="grc-utterance-000149"><label>ΣΩ.</label> οὗτος τὴν ἀνθρωπείαν ἀγέλην τοῦ σώματος νέμειν κράτιστος;</said></p>
+
+<p xml:id="grc-p-000150"><said who="#Ἑταῖρος" xml:id="grc-utterance-000150"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000151"><said who="#Σωκράτης" xml:id="grc-utterance-000151"><label>ΣΩ.</label> τίς δὲ τὴν τῶν προβάτων ἀγέλην κράτιστος νέμειν; τί ὄνομα αὐτῷ;</said></p>
+
+<p xml:id="grc-p-000152"><said who="#Ἑταῖρος" xml:id="grc-utterance-000152"><label>ΕΤ.</label> ποιμήν.</said></p>
+
+<p xml:id="grc-p-000153"><said who="#Σωκράτης" xml:id="grc-utterance-000153"><label>ΣΩ.</label> οἱ τοῦ ποιμένος ἄρα νόμοι ἄριστοι τοῖς προβάτοις.</said></p>
+
+<p xml:id="grc-p-000154"><said who="#Ἑταῖρος" xml:id="grc-utterance-000154"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000155"><said who="#Σωκράτης" xml:id="grc-utterance-000155"><label>ΣΩ.</label> οἱ δὲ τοῦ βουκόλου τοῖς βουσί.</said></p>
+
+<p xml:id="grc-p-000156"><said who="#Ἑταῖρος" xml:id="grc-utterance-000156"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000157"><said who="#Σωκράτης" xml:id="grc-utterance-000157"><label>ΣΩ.</label> οἱ δὲ τοῦ τίνος νόμοι ἄριστοι ταῖς ψυχαῖς τῶν ἀνθρώπων; οὐχ οἱ τοῦ βασιλέως; φάθι.</said></p>
+
+<p xml:id="grc-p-000158"><said who="#Ἑταῖρος" xml:id="grc-utterance-000158"><label>ΕΤ.</label> φημὶ δή.</said></p>
+
+<p xml:id="grc-p-000159"><said who="#Σωκράτης" xml:id="grc-utterance-000159"><milestone unit="section" resp="Stephanus" n="318b" xml:id="grc-stephanus-section-318b" /><label>ΣΩ.</label> καλῶς τοίνυν λέγεις. ἔχοις ἂν οὖν εἰπεῖν τίς τῶν παλαιῶν ἀγαθὸς γέγονεν ἐν τοῖς αὐλητικοῖς νόμοις νομοθέτης; ἴσως οὐκ ἐννοεῖς, ἀλλʼ ἐγὼ βούλει σε ὑπομνήσω;</said></p>
+
+<p xml:id="grc-p-000160"><said who="#Ἑταῖρος" xml:id="grc-utterance-000160"><label>ΕΤ.</label> πάνυ μὲν οὖν.</said></p>
+
+<p xml:id="grc-p-000161"><said who="#Σωκράτης" xml:id="grc-utterance-000161"><label>ΣΩ.</label> ἆρʼ οὖν ὁ Μαρσύας λέγεται καὶ τὰ παιδικὰ αὐτοῦ Ὄλυμπος ὁ Φρύξ;</said></p>
+
+<p xml:id="grc-p-000162"><said who="#Ἑταῖρος" xml:id="grc-utterance-000162"><label>ΕΤ.</label> ἀληθῆ λέγεις.</said></p>
+
+<p xml:id="grc-p-000163"><said who="#Σωκράτης" xml:id="grc-utterance-000163"><label>ΣΩ.</label> τούτων δὴ καὶ τὰ αὐλήματα θειότατά ἐστι, καὶ μόνα κινεῖ καὶ ἐκφαίνει τοὺς τῶν θεῶν ἐν χρείᾳ ὄντας· καὶ ἔτι καὶ <milestone unit="section" resp="Stephanus" n="318c" xml:id="grc-stephanus-section-318c" /> νῦν μόνα λοιπά, ὡς θεῖα ὄντα.</said></p>
+
+<p xml:id="grc-p-000164"><said who="#Ἑταῖρος" xml:id="grc-utterance-000164"><label>ΕΤ.</label> ἔστι ταῦτα.</said></p>
+
+<p xml:id="grc-p-000165"><said who="#Σωκράτης" xml:id="grc-utterance-000165"><label>ΣΩ.</label> τίς δὲ λέγεται τῶν παλαιῶν βασιλέων ἀγαθὸς νομοθέτης γεγονέναι, οὗ ἔτι καὶ νῦν τὰ νόμιμα μένει ὡς θεῖα ὄντα;</said></p>
+
+<p xml:id="grc-p-000166"><said who="#Ἑταῖρος" xml:id="grc-utterance-000166"><label>ΕΤ.</label> οὐκ ἐννοῶ.</said></p>
+
+<p xml:id="grc-p-000167"><said who="#Σωκράτης" xml:id="grc-utterance-000167"><label>ΣΩ.</label> οὐκ οἶσθα τίνες παλαιοτάτοις νόμοις χρῶνται τῶν Ἑλλήνων;</said></p>
+
+<p xml:id="grc-p-000168"><said who="#Ἑταῖρος" xml:id="grc-utterance-000168"><label>ΕΤ.</label> ἆρα Λακεδαιμονίους λέγεις καὶ Λυκοῦργον τὸν νομοθέτην;</said></p>
+
+<p xml:id="grc-p-000169"><said who="#Σωκράτης" xml:id="grc-utterance-000169"><label>ΣΩ.</label> ἀλλὰ ταῦτά γε οὐδέπω ἴσως ἔτη τριακόσια ἢ ὀλίγῳ τούτων πλείω. ἀλλὰ τούτων τῶν νομίμων τὰ βέλτιστα πόθεν <milestone unit="section" resp="Stephanus" n="318d" xml:id="grc-stephanus-section-318d" /> ἥκει; οἶσθα;</said></p>
+
+<p xml:id="grc-p-000170"><said who="#Ἑταῖρος" xml:id="grc-utterance-000170"><label>ΕΤ.</label> φασί γε ἐκ Κρήτης.</said></p>
+
+<p xml:id="grc-p-000171"><said who="#Σωκράτης" xml:id="grc-utterance-000171"><label>ΣΩ.</label> οὐκοῦν οὗτοι παλαιοτάτοις νόμοις χρῶνται τῶν Ἑλλήνων;</said></p>
+
+<p xml:id="grc-p-000172"><said who="#Ἑταῖρος" xml:id="grc-utterance-000172"><label>ΕΤ.</label> ναί.</said></p>
+
+<p xml:id="grc-p-000173"><said who="#Σωκράτης" xml:id="grc-utterance-000173"><label>ΣΩ.</label> οἶσθα οὖν τίνες τούτων ἀγαθοὶ βασιλῆς ἦσαν; Μίνως καὶ Ῥαδάμανθυς, οἱ Διὸς καὶ Εὐρώπης παῖδες, ὧν οἵδε εἰσὶν οἱ νόμοι.</said></p>
+
+<p xml:id="grc-p-000174"><said who="#Ἑταῖρος" xml:id="grc-utterance-000174"><label>ΕΤ.</label> Ῥαδάμανθύν γέ φασιν, ὦ Σώκρατες, δίκαιον ἄνδρα, τὸν δὲ Μίνων ἄγριόν τινα καὶ χαλεπὸν καὶ ἄδικον.</said></p>
+
+<p xml:id="grc-p-000175"><said who="#Σωκράτης" xml:id="grc-utterance-000175"><label>ΣΩ.</label> Ἀττικόν, ὦ βέλτιστε, λέγεις μῦθον καὶ τραγικόν.</said></p>
+
+<p xml:id="grc-p-000176"><said who="#Ἑταῖρος" xml:id="grc-utterance-000176"><milestone unit="section" resp="Stephanus" n="318e" xml:id="grc-stephanus-section-318e" /><label>ΕΤ.</label> τί δέ; οὐ ταῦτα λέγεται περὶ Μίνω;</said></p>
+
+<p xml:id="grc-p-000177"><said who="#Σωκράτης" xml:id="grc-utterance-000177"><label>ΣΩ.</label> οὔκουν ὑπό γε Ὁμήρου καὶ Ἡσιόδου· καίτοι γε πιθανώτεροί εἰσιν ἢ σύμπαντες οἱ τραγῳδοποιοί, ὧν σὺ ἀκούων ταῦτα λέγεις.</said></p>
+
+<p xml:id="grc-p-000178"><said who="#Ἑταῖρος" xml:id="grc-utterance-000178"><label>ΕΤ.</label> ἀλλὰ τί μὴν οὗτοι περὶ Μίνω λέγουσιν;</said></p></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="319" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2-section-319">
+<p xml:id="grc-p-000179"><said who="#Σωκράτης" xml:id="grc-utterance-000179"><label>ΣΩ.</label> ἐγὼ δή σοι ἐρῶ, ἵνα μὴ καὶ σὺ ὥσπερ οἱ πολλοὶ ἀσεβῇς. οὐ γὰρ ἔσθʼ ὅτι τούτου ἀσεβέστερόν ἐστιν οὐδʼ ὅτι χρὴ μᾶλλον εὐλαβεῖσθαι, πλὴν εἰς θεοὺς καὶ λόγῳ καὶ ἔργῳ ἐξαμαρτάνειν, δεύτερον δὲ εἰς τοὺς θείους ἀνθρώπους· ἀλλὰ πάνυ πολλὴν χρὴ προμήθειαν ποιεῖσθαι ἀεί, ὅταν μέλλῃς <milestone n="319" unit="page" /><milestone unit="section" resp="Stephanus" n="319a" xml:id="grc-stephanus-section-319a" /> ἄνδρα ψέξειν ἢ ἐπαινέσεσθαι, μὴ οὐκ ὀρθῶς εἴπῃς. τούτου καὶ ἕνεκα χρὴ μανθάνειν διαγιγνώσκειν χρηστοὺς καὶ πονηροὺς ἄνδρας. νεμεσᾷ γὰρ ὁ θεός, ὅταν τις ψέγῃ τὸν ἑαυτῷ ὅμοιον ἢ ἐπαινῇ τὸν ἑαυτῷ ἐναντίως ἔχοντα· ἔστι δʼ οὗτος ὁ ἀγαθός. μὴ γάρ τι οἴου λίθους μὲν εἶναι ἱεροὺς καὶ ξύλα καὶ ὄρνεα καὶ ὄφεις, ἀνθρώπους δὲ μή· ἀλλὰ πάντων τούτων ἱερώτατόν ἐστιν ἄνθρωπος ὁ ἀγαθός, καὶ μιαρώτατον ὁ πονηρός.
+    
+<milestone ed="P" unit="para" />ἤδη οὖν καὶ περὶ Μίνω, ὡς αὐτὸν Ὅμηρός τε καὶ Ἡσίοδος <milestone unit="section" resp="Stephanus" n="319b" xml:id="grc-stephanus-section-319b" /> ἐγκωμιάζουσι, τούτου ἕνεκα φράσω, ἵνα μὴ ἄνθρωπος ὢν ἀνθρώπου εἰς ἥρω Διὸς ὑὸν λόγῳ ἐξαμαρτάνῃς. Ὅμηρος γὰρ περὶ Κρήτης λέγων ὅτι πολλοὶ ἄνθρωποι ἐν αὐτῇ εἰσιν καὶ ἐνενήκοντα πόληες, τῇσι δέ, φησίν—<quote type="verse"><l met="dactylic">ἔνι Κνωσὸς μεγάλη πόλις, ἔνθα τε Μίνως</l><l>ἐννέωρος βασίλευε Διὸς μεγάλου ὀαριστής.</l></quote> <bibl n="Hom. Od. 19.179">Hom. Od. 19.179</bibl> <milestone unit="section" resp="Stephanus" n="319c" xml:id="grc-stephanus-section-319c" /> ἔστιν οὖν τοῦτο Ὁμήρου ἐγκώμιον εἰς Μίνων διὰ βραχέων εἰρημένον, οἷον οὐδʼ εἰς ἕνα τῶν ἡρώων ἐποίησεν Ὅμηρος. ὅτι μὲν γὰρ ὁ Ζεὺς σοφιστής ἐστιν καὶ ἡ τέχνη αὕτη παγκάλη ἐστί, πολλαχοῦ καὶ ἄλλοθι δηλοῖ, ἀτὰρ καὶ ἐνταῦθα. λέγει γὰρ τὸν Μίνων συγγίγνεσθαι ἐνάτῳ ἔτει τῷ Διὶ ἐν λόγοις καὶ φοιτᾶν παιδευθησόμενον ὡς ὑπὸ σοφιστοῦ ὄντος τοῦ Διός. ὅτι οὖν τοῦτο τὸ γέρας οὐκ ἔστιν ὅτῳ ἀπένειμεν Ὅμηρος τῶν ἡρώων, ὑπὸ Διὸς πεπαιδεῦσθαι, ἄλλῳ ἢ Μίνῳ, <milestone unit="section" resp="Stephanus" n="319d" xml:id="grc-stephanus-section-319d" /> τοῦτʼ ἔστιν ἔπαινος θαυμαστός. καὶ Ὀδυσσείας ἐν Νεκυίᾳ δικάζοντα χρυσοῦν σκῆπτρον ἔχοντα πεποίηκε τὸν Μίνων, οὐ τὸν Ῥαδάμανθυν· Ῥαδάμανθυν δὲ οὔτʼ ἐνταῦθα δικάζοντα πεποίηκεν οὔτε συγγιγνόμενον τῷ Διὶ οὐδαμοῦ. διὰ ταῦτά φημʼ ἐγὼ Μίνων ἁπάντων μάλιστα ὑπὸ Ὁμήρου ἐγκεκωμιάσθαι. τὸ γὰρ Διὸς ὄντα παῖδα μόνον ὑπὸ Διὸς πεπαιδεῦσθαι οὐκ ἔχει ὑπερβολὴν ἐπαίνου—τοῦτο γὰρ σημαίνει τὸ ἔπος τὸ—<quote type="verse"><l met="dactylic">ἐννέωρος βασίλευε Διὸς μεγάλου ὀαριστής,</l></quote> <bibl n="Hom. Od. 11.569">Hom. Od. 11.569</bibl> <milestone unit="section" resp="Stephanus" n="319e" xml:id="grc-stephanus-section-319e" /> συνουσιαστὴν τοῦ Διὸς εἶναι τὸν Μίνων. οἱ γὰρ ὄαροι λόγοι εἰσίν, καὶ ὀαριστὴς συνουσιαστής ἐστιν ἐν λόγοις—ἐφοίτα οὖν διʼ ἐνάτου ἔτους εἰς τὸ τοῦ Διὸς ἄντρον ὁ Μίνως, τὰ μὲν μαθησόμενος, τὰ δὲ ἀποδειξόμενος ἃ τῇ προτέρᾳ ἐννεετηρίδι ἐμεμαθήκει παρὰ τοῦ Διός.</said></p></div> 
+                
+<div type="textpart" subtype="section" resp="perseus" n="320" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2-section-320">
+    <p xml:id="grc-p-000180"><said who="#Σωκράτης" rend="merge" xml:id="grc-utterance-000180"><label>ΣΩ.</label> εἰσὶν δὲ οἳ ὑπολαμβάνουσι τὸν ὀαριστὴν συμπότην καὶ συμπαιστὴν εἶναι τοῦ Διός, ἀλλὰ τῷδε ἄν τις τεκμηρίῳ χρῷτο ὅτι οὐδὲν λέγουσιν οἱ οὕτως <milestone n="320" unit="page" /><milestone unit="section" resp="Stephanus" n="320a" xml:id="grc-stephanus-section-320a" /> ὑπολαμβάνοντες· πολλῶν γὰρ ὄντων ἀνθρώπων καὶ Ἑλλήνων καὶ βαρβάρων, οὐκ ἔστιν οἵτινες ἀπέχονται συμποσίων καὶ ταύτης τῆς παιδιᾶς, οὗ ἔστιν οἶνος, ἄλλοι ἢ Κρῆτες καὶ Λακεδαιμόνιοι δεύτεροι, μαθόντες παρὰ Κρητῶν. ἐν Κρήτῃ δὲ εἷς οὗτός ἐστι τῶν ἄλλων νόμων οὓς Μίνως ἔθηκε, μὴ συμπίνειν ἀλλήλοις εἰς μέθην. καίτοι δῆλον ὅτι ἃ ἐνόμιζεν καλὰ εἶναι, ταῦτα νόμιμα ἔθηκεν καὶ τοῖς αὑτοῦ πολίταις. <milestone unit="section" resp="Stephanus" n="320b" xml:id="grc-stephanus-section-320b" /> οὐ γάρ που, ὥσπερ γε φαῦλος ἄνθρωπος, ὁ Μίνως ἐνόμιζεν μὲν ἕτερα, ἐποίει δὲ ἄλλα παρʼ ἃ ἐνόμιζεν· ἀλλὰ ἦν αὕτη ἡ συνουσία ὥσπερ ἐγὼ λέγω, διὰ λόγων ἐπὶ παιδείᾳ εἰς ἀρετήν. ὅθεν δὴ καὶ τοὺς νόμους τούτους ἔθηκε τοῖς αὑτοῦ πολίταις, διʼ οὓς ἥ τε Κρήτη τὸν πάντα χρόνον εὐδαιμονεῖ καὶ Λακεδαίμων, ἀφʼ οὗ ἤρξατο τούτοις χρῆσθαι, ἅτε θείοις οὖσιν.
+
+<milestone ed="P" unit="para" />Ῥαδάμανθυς δὲ ἀγαθὸς μὲν ἦν ἀνήρ· ἐπεπαίδευτο γὰρ <milestone unit="section" resp="Stephanus" n="320c" xml:id="grc-stephanus-section-320c" /> ὑπὸ τοῦ Μίνω. ἐπεπαίδευτο μέντοι οὐχ ὅλην τὴν βασιλικὴν τέχνην, ἀλλʼ ὑπηρεσίαν τῇ βασιλικῇ, ὅσον ἐπιστατεῖν ἐν τοῖς δικαστηρίοις· ὅθεν καὶ δικαστὴς ἀγαθὸς ἐλέχθη εἶναι. νομοφύλακι γὰρ αὐτῷ ἐχρῆτο ὁ Μίνως κατὰ τὸ ἄστυ, τὰ δὲ κατὰ τὴν ἄλλην Κρήτην τῷ Τάλῳ. ὁ γὰρ Τάλως τρὶς περιῄει τοῦ ἐνιαυτοῦ κατὰ τὰς κώμας, φυλάττων τοὺς νόμους ἐν αὐταῖς, ἐν χαλκοῖς γραμματείοις ἔχων γεγραμμένους τοὺς νόμους, ὅθεν χαλκοῦς ἐκλήθη. εἴρηκε δὲ καὶ Ἡσίοδος ἀδελφὰ <milestone unit="section" resp="Stephanus" n="320d" xml:id="grc-stephanus-section-320d" /> τούτων εἰς τὸν Μίνων. μνησθεὶς γὰρ αὐτοῦ τοῦ ὀνόματος φησίν—<quote type="verse"><l met="dactylic">ὃς βασιλεύτατος γένετο θνητῶν βασιλήων,</l><l>καὶ πλείστων ἤνασσε περικτιόνων ἀνθρώπων,</l><l>Ζηνὸς ἔχων σκῆπτρον· τῷ καὶ πολέων βασίλευεν.</l></quote> <bibl n="Hes. Fr. 144">Hes. fr. 144</bibl> καὶ οὗτος λέγει τὸ τοῦ Διὸς σκῆπτρον οὐδὲν ἄλλο ἢ τὴν παιδείαν τὴν τοῦ Διός, ᾗ εὔθυνε τὴν Κρήτην.</said></p>
+
+<p xml:id="grc-p-000181"><said who="#Ἑταῖρος" xml:id="grc-utterance-000181"><label>ΕΤ.</label> διὰ τί οὖν ποτε, ὦ Σώκρατες, αὕτη ἡ φήμη κατεσκέδασται <milestone unit="section" resp="Stephanus" n="320e" xml:id="grc-stephanus-section-320e" /> τοῦ Μίνω ὡς ἀπαιδεύτου τινὸς καὶ χαλεποῦ ὄντος;</said></p></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="321" xml:id="plato_minos-grc-edition-urn-cts-greekLit-tlg0059.tlg033.perseus-grc2-section-321">
+ <p xml:id="grc-p-000182"><said who="#Σωκράτης" xml:id="grc-utterance-000182"><label>ΣΩ.</label> διʼ ὃ καὶ σύ, ὦ βέλτιστε, ἐὰν σωφρονῇς, εὐλαβήσῃ, καὶ ἄλλος πᾶς ἀνὴρ ὅτῳ μέλει τοῦ εὐδόκιμον εἶναι, μηδέποτε ἀπεχθάνεσθαι ἀνδρὶ ποιητικῷ μηδενί. οἱ γὰρ ποιηταὶ μέγα δύνανται εἰς δόξαν, ἐφʼ ὁπότερα ἂν ποιῶσιν εἰς τοὺς ἀνθρώπους, ἢ εὐλογοῦντες ἢ κακηγοροῦντες. ὃ δὴ καὶ ἐξήμαρτεν ὁ Μίνως, πολεμήσας τῇδε τῇ πόλει, ἐν ᾗ ἄλλη τε πολλὴ σοφία ἐστὶ καὶ ποιηταὶ παντοδαποὶ τῆς τε ἄλλης ποιήσεως <milestone n="321" unit="page" /><milestone unit="section" resp="Stephanus" n="321a" xml:id="grc-stephanus-section-321a" /> καὶ τραγῳδίας. ἡ δὲ τραγῳδία ἐστὶν παλαιὸν ἐνθάδε, οὐχ ὡς οἴονται ἀπὸ Θέσπιδος ἀρξαμένη οὐδʼ ἀπὸ Φρυνίχου, ἀλλʼ εἰ θέλεις ἐννοῆσαι, πάνυ παλαιὸν αὐτὸ εὑρήσεις ὂν τῆσδε τῆς πόλεως εὕρημα. ἔστιν δὲ τῆς ποιήσεως δημοτερπέστατόν τε καὶ ψυχαγωγικώτατον ἡ τραγῳδία· ἐν ᾗ δὴ καὶ ἐντείνοντες ἡμεῖς τὸν Μίνων τιμωρούμεθα ἀνθʼ ὧν ἡμᾶς ἠνάγκασε τοὺς δασμοὺς τελεῖν ἐκείνους. τοῦτο οὖν ἐξήμαρτεν ὁ Μίνως, ἀπεχθόμενος ἡμῖν, ὅθεν δή, ὃ σὺ ἐρωτᾷς, κακοδοξότερος <milestone unit="section" resp="Stephanus" n="321b" xml:id="grc-stephanus-section-321b" /> γέγονεν. ἐπεὶ ὅτι γε ἀγαθὸς ἦν καὶ νόμιμος, ὅπερ καὶ ἐν τοῖς πρόσθεν ἐλέγομεν, νομεὺς ἀγαθός, τοῦτο μέγιστον σημεῖον, ὅτι ἀκίνητοι αὐτοῦ οἱ νόμοι εἰσίν, ἅτε τοῦ ὄντος περὶ πόλεως οἰκήσεως ἐξευρόντος εὖ τὴν ἀλήθειαν.</said></p>
+
+<p xml:id="grc-p-000183"><said who="#Ἑταῖρος" xml:id="grc-utterance-000183"><label>ΕΤ.</label> δοκεῖς μοι, ὦ Σώκρατες, εἰκότα τὸν λόγον εἰρηκέναι.</said></p>
+
+<p xml:id="grc-p-000184"><said who="#Σωκράτης" xml:id="grc-utterance-000184"><label>ΣΩ.</label> οὐκοῦν εἰ ἐγὼ ἀληθῆ λέγω, δοκοῦσί σοι παλαιοτάτοις Κρῆτες οἱ Μίνω καὶ Ῥαδαμάνθυος πολῖται νόμοις χρῆσθαι;</said></p>
+
+<p xml:id="grc-p-000185"><said who="#Ἑταῖρος" xml:id="grc-utterance-000185"><label>ΕΤ.</label> φαίνονται.</said></p>
+
+<p xml:id="grc-p-000186"><said who="#Σωκράτης" xml:id="grc-utterance-000186"><label>ΣΩ.</label> οὗτοι ἄρα τῶν παλαιῶν ἄριστοι νομοθέται γεγόνασιν, <milestone unit="section" resp="Stephanus" n="321c" xml:id="grc-stephanus-section-321c" /> νομῆς τε καὶ ποιμένες ἀνδρῶν, ὥσπερ καὶ Ὅμηρος ἔφη <term>ποιμένα λαῶν</term> εἶναι τὸν ἀγαθὸν στρατηγόν.</said></p>
+
+<p xml:id="grc-p-000187"><said who="#Ἑταῖρος" xml:id="grc-utterance-000187"><label>ΕΤ.</label> πάνυ μὲν οὖν.</said></p>
+
+<p xml:id="grc-p-000188"><said who="#Σωκράτης" xml:id="grc-utterance-000188"><label>ΣΩ.</label> φέρε δὴ πρὸς Διὸς φιλίου· εἴ τις ἡμᾶς ἔροιτο, ὁ τῷ σώματι ἀγαθὸς νομοθέτης τε καὶ νομεὺς τί ἐστιν ταῦτα ἃ διανέμων ἐπὶ τὸ σῶμα βέλτιον αὐτὸ ποιεῖ, εἴποιμεν ἂν καλῶς τε καὶ διὰ βραχέων ἀποκρινόμενοι, ὅτι τροφήν τε καὶ πόνους, τῇ μὲν αὔξων, τοῖς δὲ γυμνάζων καὶ συνιστὰς τὸ σῶμα αὐτό.</said></p>
+
+<p xml:id="grc-p-000189"><said who="#Ἑταῖρος" xml:id="grc-utterance-000189"><label>ΕΤ.</label> ὀρθῶς γε.</said></p>
+
+<p xml:id="grc-p-000190"><said who="#Σωκράτης" xml:id="grc-utterance-000190"><milestone unit="section" resp="Stephanus" n="321d" xml:id="grc-stephanus-section-321d" /><label>ΣΩ.</label> εἰ οὖν δὴ μετὰ τοῦτο ἔροιτο ἡμᾶς, <q>τί δὲ δή ποτε ἐκεῖνά ἐστιν, <add>ἃ</add> ὁ ἀγαθὸς νομοθέτης τε καὶ νομεὺς διανέμων ἐπὶ τὴν ψυχὴν βελτίω αὐτὴν ποιεῖ;</q> τί ἂν ἀποκρινάμενοι οὐκ ἂν αἰσχυνθεῖμεν καὶ ὑπὲρ ἡμῶν αὐτῶν καὶ τῆς ἡλικίας αὑτῶν;</said></p>
+
+<p xml:id="grc-p-000191"><said who="#Ἑταῖρος" xml:id="grc-utterance-000191"><label>ΕΤ.</label> οὐκέτι τοῦτʼ ἔχω εἰπεῖν.</said></p>
+
+<p xml:id="grc-p-000192"><said who="#Σωκράτης" xml:id="grc-utterance-000192"><label>ΣΩ.</label> ἀλλὰ μέντοι αἰσχρόν γε τῇ ψυχῇ ἡμῶν ἐστιν ἑκατέρου, τὰ μὲν ἐν αὐταῖς φαίνεσθαι μὴ εἰδυίας, ἐν οἷς αὐταῖς ἔνεστι καὶ τὸ ἀγαθὸν καὶ τὸ φλαῦρον, τὰ δὲ τοῦ σώματος καὶ τὰ τῶν ἄλλων ἐσκέφθαι.</said></p></div>
+            </div>
+        </body>
+  </text>
+</TEI>

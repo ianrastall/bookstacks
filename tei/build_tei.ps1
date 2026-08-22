@@ -411,10 +411,15 @@ function Add-MilestoneIds {
 
     $namespaces = Get-TeiNamespaceManager $Document
     if ($MilestoneType -eq 'stephanus') {
+        $seen = @{}
         foreach ($milestone in @($Body.SelectNodes('.//tei:milestone[translate(@resp,"STEPHANUS","stephanus")="stephanus"]', $namespaces))) {
             $unit = ConvertTo-IdComponent $milestone.GetAttribute('unit')
             $number = ConvertTo-IdComponent $milestone.GetAttribute('n')
-            Set-XmlId $milestone "$Lang-stephanus-$unit-$number"
+            $baseId = "$Lang-stephanus-$unit-$number"
+            if (-not $seen.ContainsKey($baseId)) { $seen[$baseId] = 0 }
+            $seen[$baseId]++
+            $id = if ($seen[$baseId] -eq 1) { $baseId } else { "$baseId-$($seen[$baseId])" }
+            Set-XmlId $milestone $id
         }
     } elseif ($MilestoneType -eq 'bekker') {
         $currentPage = 'unknown-page'
@@ -860,6 +865,10 @@ foreach ($item in $config) {
         $licenceText = if ($item.licence_text) { $item.licence_text } else { 'This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; source rights remain as recorded in sourceDesc.' }
         Build-TeiFile -SourcePath @($srcPath) -OutputPath $outPath -Lang $lang -XmlLang $xmlLang -TextId $baseName -MilestoneType $item.milestone_type -LicenceTarget $licenceTarget -LicenceText $licenceText
     }
+}
+
+if (-not $Author -or $Author -eq 'Plato') {
+    & (Join-Path $PSScriptRoot 'build_plato_republic.ps1')
 }
 
 Write-Output 'Done building all TEI files.'

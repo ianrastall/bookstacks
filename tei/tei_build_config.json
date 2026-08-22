@@ -50,6 +50,306 @@
     ]
   },
   {
+    "author": "Plato",
+    "title": "Alcibiades I",
+    "id": "alcibiades-1",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_alcibiades-1_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_alcibiades-1_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Alcibiades II",
+    "id": "alcibiades-2",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_alcibiades-2_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_alcibiades-2_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Apology",
+    "id": "apology",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_apology_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_apology_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Charmides",
+    "id": "charmides",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_charmides_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_charmides_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Cleitophon",
+    "id": "cleitophon",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_cleitophon_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_cleitophon_eng_bury.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Cratylus",
+    "id": "cratylus",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_cratylus_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_cratylus_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Critias",
+    "id": "critias",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_critias_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_critias_eng_bury.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Crito",
+    "id": "crito",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_crito_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_crito_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Epinomis",
+    "id": "epinomis",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_epinomis_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_epinomis_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Euthydemus",
+    "id": "euthydemus",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_euthydemus_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_euthydemus_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Euthyphro",
+    "id": "euthyphro",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_euthyphro_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_euthyphro_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Greater Hippias",
+    "id": "greater-hippias",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_greater-hippias_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_greater-hippias_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Hipparchus",
+    "id": "hipparchus",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_hipparchus_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_hipparchus_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Ion",
+    "id": "ion",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_ion_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_ion_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Laches",
+    "id": "laches",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_laches_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_laches_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Laws",
+    "id": "laws",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_laws_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_laws_eng_bury.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Lesser Hippias",
+    "id": "lesser-hippias",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_lesser-hippias_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_lesser-hippias_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Letters",
+    "id": "letters",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_letters_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_letters_eng_bury.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Lovers",
+    "id": "lovers",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_lovers_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_lovers_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Lysis",
+    "id": "lysis",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_lysis_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_lysis_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Menexenus",
+    "id": "menexenus",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_menexenus_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_menexenus_eng_bury.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Minos",
+    "id": "minos",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_minos_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_minos_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Parmenides",
+    "id": "parmenides",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_parmenides_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_parmenides_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Phaedo",
+    "id": "phaedo",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_phaedo_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_phaedo_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Philebus",
+    "id": "philebus",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_philebus_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_philebus_eng_fowler.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Protagoras",
+    "id": "protagoras",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_protagoras_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_protagoras_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Sophist",
+    "id": "sophist",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_sophist_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_sophist_eng_fowler.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Statesman",
+    "id": "statesman",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_statesman_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_statesman_eng_fowler.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Theaetetus",
+    "id": "theaetetus",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_theaetetus_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_theaetetus_eng_fowler.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Theages",
+    "id": "theages",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_theages_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_theages_eng_lamb.xml" }
+    ]
+  },
+  {
     "author": "Aristotle",
     "title": "Nicomachean Ethics",
     "id": "nicomachean-ethics",

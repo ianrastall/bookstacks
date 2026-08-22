@@ -68,6 +68,10 @@ python ./validate_tei.py
 - Source-specific HTML constructs are converted to TEI equivalents, and
   divisions that mix blocks with subdivisions are grouped into ordered
   section divisions.
+- Plato's full 36-work shelf is generated in independent Ancient Greek and
+  English TEI editions. *The Republic* uses its dedicated converter to retain
+  all ten books and Stephanus divisions, and is included automatically when
+  rebuilding Plato or the complete corpus.
 
 The validator enforces Relax NG validity, unique XML IDs, granular utterance
 IDs, qualified ID attributes, and resolvable speaker and addressee pointers

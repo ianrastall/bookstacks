@@ -1,8 +1,8 @@
 param(
     [string]$SourceGrcPath = (Join-Path $PSScriptRoot '..\assets\canonical-greekLit-renamed\xml\plato_republic_grc_burnet.xml'),
     [string]$SourceEngPath = (Join-Path $PSScriptRoot '..\assets\canonical-greekLit-renamed\xml\plato_republic_eng_shorey.xml'),
-    [string]$OutputGrcPath = (Join-Path $PSScriptRoot 'plato_the-republic_grc_orig.xml'),
-    [string]$OutputEngPath = (Join-Path $PSScriptRoot 'plato_the-republic_eng_shorey.xml')
+    [string]$OutputGrcPath = (Join-Path $PSScriptRoot 'plato\plato_republic_grc.xml'),
+    [string]$OutputEngPath = (Join-Path $PSScriptRoot 'plato\plato_republic_eng.xml')
 )
 
 $ErrorActionPreference = 'Stop'
@@ -90,6 +90,22 @@ function Build-TeiFile {
     $sectionMilestones = $body.SelectNodes('.//tei:milestone[@unit="section" and @resp="Stephanus"]', $bodyNamespaces)
     foreach ($milestone in $sectionMilestones) {
         Set-XmlId -Element $milestone -Value ("$Lang-stephanus-" + $milestone.GetAttribute('n'))
+    }
+
+    $paragraphNumber = 0
+    foreach ($paragraph in @($body.SelectNodes('.//tei:p', $bodyNamespaces))) {
+        $paragraphNumber++
+        if (-not $paragraph.GetAttribute('id', $xmlNamespace)) {
+            Set-XmlId -Element $paragraph -Value ("$Lang-p-" + $paragraphNumber.ToString('000000'))
+        }
+    }
+
+    $utteranceNumber = 0
+    foreach ($utterance in @($body.SelectNodes('.//tei:said | .//tei:q[@type="spoken" or @who or @toWhom]', $bodyNamespaces))) {
+        $utteranceNumber++
+        if (-not $utterance.GetAttribute('id', $xmlNamespace)) {
+            Set-XmlId -Element $utterance -Value ("$Lang-utterance-" + $utteranceNumber.ToString('000000'))
+        }
     }
 
     [void]$outerText.AppendChild($body)

@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="plato_parmenides" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+
+<fileDesc>
+
+
+
+
+
+	 
+	
+
+
+
+<titleStmt>
+	<title xml:lang="grc">Παρμενίδης</title>
+<author>Plato</author>
+	<editor>John Burnet</editor>
+<sponsor>Perseus Project, Tufts University</sponsor>
+<principal>Gregory Crane</principal>
+<respStmt>
+<resp>Prepared under the supervision of</resp>
+<name>Lisa Cerrato</name>
+<name>William Merrill</name>
+<name>Elli Mylonas</name>
+<name>David Smith</name>
+</respStmt>
+<funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+
+<respStmt xml:id="bookstacks-encoding"><resp>TEI P5 normalization, structural identifiers, and speaker-reference integrity</resp><name>Bookstacks project</name></respStmt></titleStmt><editionStmt><edition n="1.0">Bookstacks TEI edition, based on the source electronic edition</edition></editionStmt><publicationStmt><publisher>Bookstacks project</publisher><pubPlace>United States</pubPlace><date when="2026-08-21">21 August 2026</date><idno type="local">plato_parmenides</idno><availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; source rights remain as recorded in sourceDesc.</licence></availability></publicationStmt><notesStmt>
+		<note anchored="true">Text was scanned at St. Olaf Spring, 1992.</note>
+		<note>Perseus 2.0</note>
+	</notesStmt><sourceDesc>
+		<biblStruct>
+		<monogr>
+			<author>Plato</author>
+			<title xml:lang="lat">Platonis Opera</title>
+			<editor>John Burnet</editor>                       
+			<imprint>
+				<pubPlace>Oxford</pubPlace>
+				<publisher>Clarendon Press</publisher>
+				<date>1910</date>
+			</imprint>
+			<biblScope unit="volume">2</biblScope>
+		</monogr> 
+		<ref target="https://archive.org/details/operarecognovitb02platuoft/page/n16/mode/1up">Internet Archive</ref>
+	</biblStruct>
+</sourceDesc></fileDesc>
+
+<encodingDesc>
+	<refsDecl n="CTS">
+		<cRefPattern n="section" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">           
+			<p>This pointer pattern extracts section</p>
+		</cRefPattern>
+	</refsDecl>
+
+<!--<refsDecl doctype="TEI.2">
+<state unit="text"/>
+<state unit="section"/>
+</refsDecl>
+<refsDecl doctype="TEI.2">
+<state unit="text"/>
+<state unit="page"/>
+</refsDecl>-->
+</encodingDesc>
+	
+<profileDesc>
+<langUsage>
+<language ident="grc">Greek</language>
+<language ident="en">English</language>
+</langUsage>
+	<particDesc>
+		
+	<listPerson><person xml:id="Κέφαλος"><persName>Κέφαλος</persName></person></listPerson></particDesc>
+</profileDesc>
+
+<revisionDesc><change when="2026-08-21" who="#bookstacks-encoding">Normalized to standalone TEI P5; added granular structural identifiers and resolvable speaker references.</change>
+<change when="2017-04-13" who="Lisa Cerrato">EpiDoc and CTS conversion; speaker to said tags, quotes and language conversion</change>	
+<change when="2014-07-01" who="Stella Dee">split composite text and converted to unicode</change>
+<change when="1992-07-01" who="DAS">Tagged in conformance with Prose.e dtd.</change>
+</revisionDesc>
+
+</teiHeader>
+  <text xml:lang="grc">
+    <body>
+			<div type="edition" n="urn:cts:greekLit:tlg0059.tlg009.perseus-grc2" xml:lang="grc" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2">
+	
+<div type="textpart" subtype="section" resp="perseus" n="126" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-126">				
+<p xml:id="grc-p-000001"><said who="#Κέφαλος" xml:id="grc-utterance-000001"><milestone n="126" unit="page" />
+		<milestone unit="section" resp="Stephanus" n="126a" xml:id="grc-stephanus-section-126a" />
+		<milestone unit="para" ed="P" />ἐπειδὴ Ἀθήναζε οἴκοθεν ἐκ Κλαζομενῶν ἀφικόμεθα, κατʼ ἀγορὰν ἐνετύχομεν Ἀδειμάντῳ τε καὶ Γλαύκωνι· καί μου λαβόμενος τῆς χειρὸς ὁ Ἀδείμαντος, Χαῖρʼ, ἔφη, ὦ Κέφαλε, καὶ εἴ του δέῃ τῶν τῇδε ὧν ἡμεῖς δυνατοί, φράζε.<milestone unit="para" ed="P" />ἀλλὰ μὲν δή, εἶπον ἐγώ, πάρειμί γε ἐπʼ αὐτὸ τοῦτο, δεησόμενος ὑμῶν.<milestone unit="para" ed="P" />λέγοις ἄν, ἔφη, τὴν δέησιν.
+<milestone unit="section" resp="Stephanus" n="126b" xml:id="grc-stephanus-section-126b" /><milestone unit="para" ed="P" />καὶ ἐγὼ εἶπον· τῷ ἀδελφῷ ὑμῶν τῷ ὁμομητρίῳ τί ἦν ὄνομα; οὐ γὰρ μέμνημαι. παῖς δέ που ἦν, ὅτε τὸ πρότερον ἐπεδήμησα δεῦρο ἐκ Κλαζομενῶν· πολὺς δὲ ἤδη χρόνος ἐξ ἐκείνου. τῷ μὲν γὰρ πατρί, δοκῶ, Πυριλάμπης ὄνομα.<milestone unit="para" ed="P" />πάνυ γε, ἔφη.<milestone unit="para" ed="P" />αὐτῷ δέ γε;<milestone unit="para" ed="P" />Ἀντιφῶν. ἀλλὰ τί μάλιστα πυνθάνῃ;<milestone unit="para" ed="P" />οἵδε, εἶπον ἐγώ, πολῖταί τʼ ἐμοί εἰσι, μάλα φιλόσοφοι, ἀκηκόασί τε ὅτι οὗτος ὁ Ἀντιφῶν Πυθοδώρῳ τινὶ Ζήνωνος
+<milestone unit="section" resp="Stephanus" n="126c" xml:id="grc-stephanus-section-126c" />ἑταίρῳ πολλὰ ἐντετύχηκε, καὶ τοὺς λόγους, οὕς ποτε Σωκράτης καὶ Ζήνων καὶ Παρμενίδης διελέχθησαν, πολλάκις ἀκούσας τοῦ Πυθοδώρου ἀπομνημονεύει.<milestone unit="para" ed="P" />ἀληθῆ, ἔφη, λέγεις.<milestone unit="para" ed="P" />τούτων τοίνυν, εἶπον, δεόμεθα διακοῦσαι.<milestone unit="para" ed="P" />ἀλλʼ οὐ χαλεπόν, ἔφη· μειράκιον γὰρ ὢν αὐτοὺς εὖ μάλα διεμελέτησεν, ἐπεὶ νῦν γε κατὰ τὸν πάππον τε καὶ ὁμώνυμον πρὸς ἱππικῇ τὰ πολλὰ διατρίβει. ἀλλʼ εἰ δεῖ, ἴωμεν παρʼ αὐτόν· ἄρτι γὰρ ἐνθένδε οἴκαδε οἴχεται, οἰκεῖ δὲ ἐγγὺς ἐν Μελίτῃ.</said></p></div>
+
+				<div type="textpart" subtype="section" resp="perseus" n="127" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-127">				
+				
+					<p xml:id="grc-p-000002"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000002"><milestone n="127" unit="page" />
+						<milestone unit="section" resp="Stephanus" n="127a" xml:id="grc-stephanus-section-127a" />
+						<milestone unit="para" ed="P" />ταῦτα εἰπόντες ἐβαδίζομεν, καὶ κατελάβομεν τὸν Ἀντιφῶντα οἴκοι, χαλινόν τινα χαλκεῖ ἐκδιδόντα σκευάσαι· ἐπειδὴ δὲ ἐκείνου ἀπηλλάγη οἵ τε ἀδελφοὶ ἔλεγον αὐτῷ ὧν ἕνεκα παρεῖμεν, ἀνεγνώρισέν τέ με ἐκ τῆς προτέρας ἐπιδημίας καί με ἠσπάζετο, καὶ δεομένων ἡμῶν διελθεῖν τοὺς λόγους, τὸ μὲν πρῶτον ὤκνει—πολὺ γὰρ ἔφη ἔργον εἶναι— ἔπειτα μέντοι διηγεῖτο. ἔφη δὲ δὴ ὁ Ἀντιφῶν λέγειν τὸν Πυθόδωρον ὅτι ἀφίκοιντό ποτε εἰς Παναθήναια τὰ μεγάλα
+<milestone unit="section" resp="Stephanus" n="127b" xml:id="grc-stephanus-section-127b" />Ζήνων τε καὶ Παρμενίδης. τὸν μὲν οὖν Παρμενίδην εὖ μάλα ἤδη πρεσβύτην εἶναι, σφόδρα πολιόν, καλὸν δὲ κἀγαθὸν τὴν ὄψιν, περὶ ἔτη μάλιστα πέντε καὶ ἑξήκοντα· Ζήνωνα δὲ ἐγγὺς τῶν τετταράκοντα τότε εἶναι, εὐμήκη δὲ καὶ χαρίεντα ἰδεῖν, καὶ λέγεσθαι αὐτὸν παιδικὰ τοῦ Παρμενίδου γεγονέναι. καταλύειν δὲ αὐτοὺς ἔφη παρὰ τῷ
+<milestone unit="section" resp="Stephanus" n="127c" xml:id="grc-stephanus-section-127c" />Πυθοδώρῳ ἐκτὸς τείχους ἐν Κεραμεικῷ· οἷ δὴ καὶ ἀφικέσθαι τόν τε Σωκράτη καὶ ἄλλους τινὰς μετʼ αὐτοῦ πολλούς, ἐπιθυμοῦντας ἀκοῦσαι τῶν τοῦ Ζήνωνος γραμμάτων—τότε γὰρ αὐτὰ πρῶτον ὑπʼ ἐκείνων κομισθῆναι—Σωκράτη δὲ εἶναι τότε σφόδρα νέον. ἀναγιγνώσκειν οὖν αὐτοῖς τὸν Ζήνωνα αὐτόν, τὸν δὲ Παρμενίδην τυχεῖν ἔξω ὄντα· καὶ εἶναι πάνυ βραχὺ ἔτι λοιπὸν τῶν λόγων ἀναγιγνωσκομένων, ἡνίκα
+<milestone unit="section" resp="Stephanus" n="127d" xml:id="grc-stephanus-section-127d" />αὐτός τε ἐπεισελθεῖν ἔφη ὁ Πυθόδωρος ἔξωθεν καὶ τὸν Παρμενίδην μετʼ αὐτοῦ καὶ Ἀριστοτέλη τὸν τῶν τριάκοντα γενόμενον, καὶ σμίκρʼ ἄττα ἔτι ἐπακοῦσαι τῶν γραμμάτων· οὐ μὴν αὐτός γε, ἀλλὰ καὶ πρότερον ἀκηκοέναι τοῦ Ζήνωνος.<milestone unit="para" ed="P" />τὸν οὖν Σωκράτη ἀκούσαντα πάλιν τε κελεῦσαι τὴν πρώτην ὑπόθεσιν τοῦ πρώτου λόγου ἀναγνῶναι, καὶ ἀναγνωσθείσης,
+<milestone unit="section" resp="Stephanus" n="127e" xml:id="grc-stephanus-section-127e" />πῶς, φάναι, ὦ Ζήνων, τοῦτο λέγεις; εἰ πολλά ἐστι τὰ ὄντα, ὡς ἄρα δεῖ αὐτὰ ὅμοιά τε εἶναι καὶ ἀνόμοια, τοῦτο δὲ δὴ ἀδύνατον· οὔτε γὰρ τὰ ἀνόμοια ὅμοια οὔτε τὰ ὅμοια ἀνόμοια οἷόν τε εἶναι; οὐχ οὕτω λέγεις;<milestone unit="para" ed="P" />οὕτω, φάναι τὸν Ζήνωνα.<milestone unit="para" ed="P" />οὐκοῦν εἰ ἀδύνατον τά τε ἀνόμοια ὅμοια εἶναι καὶ τὰ ὅμοια ἀνόμοια, ἀδύνατον δὴ καὶ πολλὰ εἶναι; εἰ γὰρ πολλὰ εἴη, πάσχοι ἂν τὰ ἀδύνατα. ἆρα τοῦτό ἐστιν ὃ βούλονταί σου οἱ λόγοι, οὐκ ἄλλο τι ἢ διαμάχεσθαι παρὰ πάντα τὰ λεγόμενα ὡς οὐ πολλά ἐστι; καὶ τούτου αὐτοῦ οἴει σοι τεκμήριον εἶναι ἕκαστον τῶν λόγων, ὥστε καὶ ἡγῇ τοσαῦτα τεκμήρια παρέχεσθαι, ὅσουσπερ λόγους γέγραφας, ὡς οὐκ <milestone n="128" unit="page" /><milestone unit="section" resp="Stephanus" n="128a" xml:id="grc-stephanus-section-128a" /> ἔστι πολλά; οὕτω λέγεις, ἢ ἐγὼ οὐκ ὀρθῶς καταμανθάνω;</said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="128" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-128">
+				 <p xml:id="grc-p-000003"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000003"><milestone unit="para" ed="P" />οὔκ, ἀλλά, φάναι τὸν Ζήνωνα, καλῶς συνῆκας ὅλον τὸ γράμμα ὃ βούλεται.<milestone unit="para" ed="P" />μανθάνω, εἰπεῖν τὸν Σωκράτη, ὦ Παρμενίδη, ὅτι Ζήνων ὅδε οὐ μόνον τῇ ἄλλῃ σου φιλίᾳ βούλεται ᾠκειῶσθαι, ἀλλὰ καὶ τῷ συγγράμματι. ταὐτὸν γὰρ γέγραφε τρόπον τινὰ ὅπερ σύ, μεταβάλλων δὲ ἡμᾶς πειρᾶται ἐξαπατᾶν ὡς ἕτερόν τι λέγων. σὺ μὲν γὰρ ἐν τοῖς ποιήμασιν ἓν φῂς εἶναι τὸ
+<milestone unit="section" resp="Stephanus" n="128b" xml:id="grc-stephanus-section-128b" />πᾶν, καὶ τούτων τεκμήρια παρέχῃ καλῶς τε καὶ εὖ· ὅδε δὲ αὖ οὐ πολλά φησιν εἶναι, τεκμήρια δὲ καὶ αὐτὸς πάμπολλα καὶ παμμεγέθη παρέχεται. τὸ οὖν τὸν μὲν ἓν φάναι, τὸν δὲ μὴ πολλά, καὶ οὕτως ἑκάτερον λέγειν ὥστε μηδὲν τῶν αὐτῶν εἰρηκέναι δοκεῖν σχεδόν τι λέγοντας ταὐτά, ὑπὲρ ἡμᾶς τοὺς ἄλλους φαίνεται ὑμῖν τὰ εἰρημένα εἰρῆσθαι.<milestone unit="para" ed="P" />ναί, φάναι τὸν Ζήνωνα, ὦ Σώκρατες. σὺ δʼ οὖν τὴν ἀλήθειαν τοῦ γράμματος οὐ πανταχοῦ ᾔσθησαι. καίτοι
+<milestone unit="section" resp="Stephanus" n="128c" xml:id="grc-stephanus-section-128c" />ὥσπερ γε αἱ Λάκαιναι σκύλακες εὖ μεταθεῖς τε καὶ ἰχνεύεις τὰ λεχθέντα· ἀλλὰ πρῶτον μέν σε τοῦτο λανθάνει, ὅτι οὐ παντάπασιν οὕτω σεμνύνεται τὸ γράμμα, ὥστε ἅπερ σὺ λέγεις διανοηθὲν γραφῆναι, τοὺς ἀνθρώπους δὲ ἐπικρυπτόμενον ὥς τι μέγα διαπραττόμενον· ἀλλὰ σὺ μὲν εἶπες τῶν συμβεβηκότων τι, ἔστι δὲ τό γε ἀληθὲς βοήθειά τις ταῦτα <del>τὰ γράμματα</del> τῷ Παρμενίδου λόγῳ πρὸς τοὺς ἐπιχειροῦντας
+<milestone unit="section" resp="Stephanus" n="128d" xml:id="grc-stephanus-section-128d" />αὐτὸν κωμῳδεῖν ὡς εἰ ἕν ἐστι, πολλὰ καὶ γελοῖα συμβαίνει πάσχειν τῷ λόγῳ καὶ ἐναντία αὑτῷ. ἀντιλέγει δὴ οὖν τοῦτο τὸ γράμμα πρὸς τοὺς τὰ πολλὰ λέγοντας, καὶ ἀνταποδίδωσι ταὐτὰ καὶ πλείω, τοῦτο βουλόμενον δηλοῦν, ὡς ἔτι γελοιότερα πάσχοι ἂν αὐτῶν ἡ ὑπόθεσις, εἰ πολλά ἐστιν, ἢ ἡ τοῦ ἓν εἶναι, εἴ τις ἱκανῶς ἐπεξίοι. διὰ τοιαύτην δὴ φιλονικίαν ὑπὸ νέου ὄντος ἐμοῦ ἐγράφη, καί τις αὐτὸ ἔκλεψε γραφέν, ὥστε οὐδὲ βουλεύσασθαι ἐξεγένετο εἴτʼ
+<milestone unit="section" resp="Stephanus" n="128e" xml:id="grc-stephanus-section-128e" />ἐξοιστέον αὐτὸ εἰς τὸ φῶς εἴτε μή. ταύτῃ οὖν σε λανθάνει, ὦ Σώκρατες, ὅτι οὐχ ὑπὸ νέου φιλονικίας οἴει αὐτὸ γεγράφθαι, ἀλλʼ ὑπὸ πρεσβυτέρου φιλοτιμίας· ἐπεί, ὅπερ γʼ εἶπον, οὐ κακῶς ἀπῄκασας.</said></p></div>
+				
+				
+				<div type="textpart" subtype="section" resp="perseus" n="129" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-129">
+									
+					<p xml:id="grc-p-000004"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000004"><milestone unit="para" ed="P" />ἀλλʼ ἀποδέχομαι, φάναι τὸν Σωκράτη, καὶ ἡγοῦμαι ὡς λέγεις ἔχειν. τόδε δέ μοι εἰπέ· οὐ νομίζεις εἶναι αὐτὸ καθʼ <milestone n="129" unit="page" /><milestone unit="section" resp="Stephanus" n="129a" xml:id="grc-stephanus-section-129a" /> αὑτὸ εἶδός τι ὁμοιότητος, καὶ τῷ τοιούτῳ αὖ ἄλλο τι ἐναντίον, ὃ ἔστιν ἀνόμοιον· τούτοιν δὲ δυοῖν ὄντοιν καὶ ἐμὲ καὶ σὲ καὶ τἆλλα ἃ δὴ πολλὰ καλοῦμεν μεταλαμβάνειν; καὶ τὰ μὲν τῆς ὁμοιότητος μεταλαμβάνοντα ὅμοια γίγνεσθαι ταύτῃ τε καὶ κατὰ τοσοῦτον ὅσον ἂν μεταλαμβάνῃ, τὰ δὲ τῆς ἀνομοιότητος ἀνόμοια, τὰ δὲ ἀμφοτέρων ἀμφότερα; εἰ δὲ καὶ πάντα ἐναντίων ὄντων ἀμφοτέρων μεταλαμβάνει, καὶ ἔστι τῷ μετέχειν ἀμφοῖν ὅμοιά τε καὶ ἀνόμοια αὐτὰ
+<milestone unit="section" resp="Stephanus" n="129b" xml:id="grc-stephanus-section-129b" />αὑτοῖς, τί θαυμαστόν; εἰ μὲν γὰρ αὐτὰ τὰ ὅμοιά τις ἀπέφαινεν ἀνόμοια γιγνόμενα ἢ τὰ ἀνόμοια ὅμοια, τέρας ἂν οἶμαι ἦν· εἰ δὲ τὰ τούτων μετέχοντα ἀμφοτέρων ἀμφότερα ἀποφαίνει πεπονθότα, οὐδὲν ἔμοιγε, ὦ Ζήνων, ἄτοπον δοκεῖ, οὐδέ γε εἰ ἓν ἅπαντα ἀποφαίνει τις τῷ μετέχειν τοῦ ἑνὸς καὶ ταὐτὰ ταῦτα πολλὰ τῷ πλήθους αὖ μετέχειν. ἀλλʼ εἰ ὃ ἔστιν ἕν, αὐτὸ τοῦτο πολλὰ ἀποδείξει καὶ αὖ τὰ πολλὰ δὴ
+<milestone unit="section" resp="Stephanus" n="129c" xml:id="grc-stephanus-section-129c" />ἕν, τοῦτο ἤδη θαυμάσομαι. καὶ περὶ τῶν ἄλλων ἁπάντων ὡσαύτως· εἰ μὲν αὐτὰ τὰ γένη τε καὶ εἴδη ἐν αὑτοῖς ἀποφαίνοι τἀναντία ταῦτα πάθη πάσχοντα, ἄξιον θαυμάζειν· εἰ δʼ ἐμὲ ἕν τις ἀποδείξει ὄντα καὶ πολλά, τί θαυμαστόν, λέγων, ὅταν μὲν βούληται πολλὰ ἀποφῆναι, ὡς ἕτερα μὲν τὰ ἐπὶ δεξιά μού ἐστιν, ἕτερα δὲ τὰ ἐπʼ ἀριστερά, καὶ ἕτερα μὲν τὰ πρόσθεν, ἕτερα δὲ τὰ ὄπισθεν, καὶ ἄνω καὶ κάτω ὡσαύτως—πλήθους γὰρ οἶμαι μετέχω—ὅταν δὲ ἕν, ἐρεῖ ὡς
+<milestone unit="section" resp="Stephanus" n="129d" xml:id="grc-stephanus-section-129d" />ἑπτὰ ἡμῶν ὄντων εἷς ἐγώ εἰμι ἄνθρωπος μετέχων καὶ τοῦ ἑνός· ὥστε ἀληθῆ ἀποφαίνει ἀμφότερα. ἐὰν οὖν τις τοιαῦτα ἐπιχειρῇ πολλὰ καὶ ἓν ταὐτὸν ἀποφαίνειν, λίθους καὶ ξύλα καὶ τὰ τοιαῦτα, τὶ φήσομεν αὐτὸν πολλὰ καὶ ἓν ἀποδεικνύναι, οὐ τὸ ἓν πολλὰ οὐδὲ τὰ πολλὰ ἕν, οὐδέ τι θαυμαστὸν λέγειν, ἀλλʼ ἅπερ ἂν πάντες ὁμολογοῖμεν· ἐὰν δέ τις ὧν νυνδὴ ἐγὼ ἔλεγον πρῶτον μὲν διαιρῆται χωρὶς αὐτὰ καθʼ αὑτὰ τὰ εἴδη, οἷον ὁμοιότητά τε καὶ ἀνομοιότητα καὶ πλῆθος
+<milestone unit="section" resp="Stephanus" n="129e" xml:id="grc-stephanus-section-129e" />καὶ τὸ ἓν καὶ στάσιν καὶ κίνησιν καὶ πάντα τὰ τοιαῦτα, εἶτα ἐν ἑαυτοῖς ταῦτα δυνάμενα συγκεράννυσθαι καὶ διακρίνεσθαι ἀποφαίνῃ, ἀγαίμην ἂν ἔγωγʼ, ἔφη, θαυμαστῶς, ὦ Ζήνων.</said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="130" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-130">				
+					<p xml:id="grc-p-000005"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000005">ταῦτα δὲ ἀνδρείως μὲν πάνυ ἡγοῦμαι πεπραγματεῦσθαι· πολὺ μεντἂν ὧδε μᾶλλον, ὡς λέγω, ἀγασθείην εἴ τις ἔχοι τὴν αὐτὴν ταύτην ἀπορίαν ἐν αὐτοῖς τοῖς εἴδεσι
+<milestone n="130" unit="page" /><milestone unit="section" resp="Stephanus" n="130a" xml:id="grc-stephanus-section-130a" />παντοδαπῶς πλεκομένην, ὥσπερ ἐν τοῖς ὁρωμένοις διήλθετε, οὕτως καὶ ἐν τοῖς λογισμῷ λαμβανομένοις ἐπιδεῖξαι.<milestone unit="para" ed="P" />λέγοντος δή, ἔφη ὁ Πυθόδωρος, τοῦ Σωκράτους ταῦτα αὐτὸς μὲν <add>ἂν</add> οἴεσθαι ἐφʼ ἑκάστου ἄχθεσθαι τόν τε Παρμενίδην καὶ τὸν Ζήνωνα, τοὺς δὲ πάνυ τε αὐτῷ προσέχειν τὸν νοῦν καὶ θαμὰ εἰς ἀλλήλους βλέποντας μειδιᾶν ὡς ἀγαμένους τὸν Σωκράτη. ὅπερ οὖν καὶ παυσαμένου αὐτοῦ εἰπεῖν τὸν Παρμενίδην· ὦ Σώκρατες, φάναι, ὡς ἄξιος εἶ
+<milestone unit="section" resp="Stephanus" n="130b" xml:id="grc-stephanus-section-130b" />ἄγασθαι τῆς ὁρμῆς τῆς ἐπὶ τοὺς λόγους. καί μοι εἰπέ, αὐτὸς σὺ οὕτω διῄρησαι ὡς λέγεις, χωρὶς μὲν εἴδη αὐτὰ ἄττα, χωρὶς δὲ τὰ τούτων αὖ μετέχοντα; καί τί σοι δοκεῖ εἶναι αὐτὴ ὁμοιότης χωρὶς ἧς ἡμεῖς ὁμοιότητος ἔχομεν, καὶ ἓν δὴ καὶ πολλὰ καὶ πάντα ὅσα νυνδὴ Ζήνωνος ἤκουες;<milestone unit="para" ed="P" />ἔμοιγε, φάναι τὸν Σωκράτη.<milestone unit="para" ed="P" />ἦ καὶ τὰ τοιαῦτα, εἰπεῖν τὸν Παρμενίδην, οἷον δικαίου τι εἶδος αὐτὸ καθʼ αὑτὸ καὶ καλοῦ καὶ ἀγαθοῦ καὶ πάντων αὖ τῶν τοιούτων;<milestone unit="para" ed="P" />ναί, φάναι.
+<milestone unit="section" resp="Stephanus" n="130c" xml:id="grc-stephanus-section-130c" /><milestone unit="para" ed="P" />τί δʼ, ἀνθρώπου εἶδος χωρὶς ἡμῶν καὶ τῶν οἷοι ἡμεῖς ἐσμεν πάντων, αὐτό τι εἶδος ἀνθρώπου ἢ πυρὸς ἢ καὶ ὕδατος;<milestone unit="para" ed="P" />ἐν ἀπορίᾳ, φάναι, πολλάκις δή, ὦ Παρμενίδη, περὶ αὐτῶν γέγονα, πότερα χρὴ φάναι ὥσπερ περὶ ἐκείνων ἢ ἄλλως.<milestone unit="para" ed="P" />ἦ καὶ περὶ τῶνδε, ὦ Σώκρατες, ἃ καὶ γελοῖα δόξειεν ἂν εἶναι, οἷον θρὶξ καὶ πηλὸς καὶ ῥύπος ἢ ἄλλο τι ἀτιμότατόν τε καὶ φαυλότατον, ἀπορεῖς εἴτε χρὴ φάναι καὶ τούτων
+<milestone unit="section" resp="Stephanus" n="130d" xml:id="grc-stephanus-section-130d" />ἑκάστου εἶδος εἶναι χωρίς, ὂν ἄλλο αὖ ἢ ὧν <add>τι</add> ἡμεῖς μεταχειριζόμεθα, εἴτε καὶ μή;<milestone unit="para" ed="P" />οὐδαμῶς, φάναι τὸν Σωκράτη, ἀλλὰ ταῦτα μέν γε ἅπερ ὁρῶμεν, ταῦτα καὶ εἶναι· εἶδος δέ τι αὐτῶν οἰηθῆναι εἶναι μὴ λίαν ᾖ ἄτοπον. ἤδη μέντοι ποτέ με καὶ ἔθραξε μή τι ᾖ περὶ πάντων ταὐτόν· ἔπειτα ὅταν ταύτῃ στῶ, φεύγων οἴχομαι, δείσας μή ποτε εἴς τινα βυθὸν φλυαρίας ἐμπεσὼν διαφθαρῶ· ἐκεῖσε δʼ οὖν ἀφικόμενος, εἰς ἃ νυνδὴ ἐλέγομεν εἴδη ἔχειν, περὶ ἐκεῖνα πραγματευόμενος διατρίβω.
+<milestone unit="section" resp="Stephanus" n="130e" xml:id="grc-stephanus-section-130e" /><milestone unit="para" ed="P" />νέος γὰρ εἶ ἔτι, φάναι τὸν Παρμενίδην, ὦ Σώκρατες, καὶ οὔπω σου ἀντείληπται φιλοσοφία ὡς ἔτι ἀντιλήψεται κατʼ ἐμὴν δόξαν, ὅτε οὐδὲν αὐτῶν ἀτιμάσεις· νῦν δὲ ἔτι πρὸς ἀνθρώπων ἀποβλέπεις δόξας διὰ τὴν ἡλικίαν. τόδε δʼ οὖν μοι εἰπέ. δοκεῖ σοι, ὡς φῄς, εἶναι εἴδη ἄττα, ὧν τάδε τὰ ἄλλα μεταλαμβάνοντα τὰς ἐπωνυμίας αὐτῶν ἴσχειν, οἷον
+
+<milestone n="131" unit="page" /><milestone unit="section" resp="Stephanus" n="131a" xml:id="grc-stephanus-section-131a" />ὁμοιότητος μὲν μεταλαβόντα ὅμοια, μεγέθους δὲ μεγάλα, κάλλους δὲ καὶ δικαιοσύνης δίκαιά τε καὶ καλὰ γίγνεσθαι;</said></p></div>
+						
+						
+				<div type="textpart" subtype="section" resp="perseus" n="131" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-131">
+					 				
+					<p xml:id="grc-p-000006"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000006"><milestone unit="para" ed="P" />πάνυ γε, φάναι τὸν Σωκράτη.<milestone unit="para" ed="P" />οὐκοῦν ἤτοι ὅλου τοῦ εἴδους ἢ μέρους ἕκαστον τὸ μεταλαμβάνον μεταλαμβάνει; ἢ ἄλλη τις ἂν μετάληψις χωρὶς τούτων γένοιτο;<milestone unit="para" ed="P" />καὶ πῶς ἄν; εἶπεν.<milestone unit="para" ed="P" />πότερον οὖν δοκεῖ σοι ὅλον τὸ εἶδος ἐν ἑκάστῳ εἶναι τῶν πολλῶν ἓν ὄν, ἢ πῶς;<milestone unit="para" ed="P" />τί γὰρ κωλύει, φάναι τὸν Σωκράτη, ὦ Παρμενίδη, <del>ἓν εἶναι</del>;
+<milestone unit="section" resp="Stephanus" n="131b" xml:id="grc-stephanus-section-131b" /><milestone unit="para" ed="P" />ἓν ἄρα ὂν καὶ ταὐτὸν ἐν πολλοῖς καὶ χωρὶς οὖσιν ὅλον ἅμα ἐνέσται, καὶ οὕτως αὐτὸ αὑτοῦ χωρὶς ἂν εἴη.<milestone unit="para" ed="P" />οὐκ ἄν, εἴ γε, φάναι, οἷον <del>εἰ</del> ἡμέρα <del>εἴη</del> μία καὶ ἡ αὐτὴ οὖσα πολλαχοῦ ἅμα ἐστὶ καὶ οὐδέν τι μᾶλλον αὐτὴ αὑτῆς χωρίς ἐστιν, εἰ οὕτω καὶ ἕκαστον τῶν εἰδῶν ἓν ἐν πᾶσιν ἅμα ταὐτὸν εἴη.<milestone unit="para" ed="P" />ἡδέως γε, φάναι, ὦ Σώκρατες, ἓν ταὐτὸν ἅμα πολλαχοῦ ποιεῖς, οἷον εἰ ἱστίῳ καταπετάσας πολλοὺς ἀνθρώπους φαίης ἓν ἐπὶ πολλοῖς εἶναι ὅλον· ἢ οὐ τὸ τοιοῦτον ἡγῇ λέγειν;
+<milestone unit="section" resp="Stephanus" n="131c" xml:id="grc-stephanus-section-131c" /><milestone unit="para" ed="P" />ἴσως, φάναι.<milestone unit="para" ed="P" />ἦ οὖν ὅλον ἐφʼ ἑκάστῳ τὸ ἱστίον εἴη ἄν, ἢ μέρος αὐτοῦ ἄλλο ἐπʼ ἄλλῳ;<milestone unit="para" ed="P" />μέρος.<milestone unit="para" ed="P" />μεριστὰ ἄρα, φάναι, ὦ Σώκρατες, ἔστιν αὐτὰ τὰ εἴδη, καὶ τὰ μετέχοντα αὐτῶν μέρους ἂν μετέχοι, καὶ οὐκέτι ἐν ἑκάστῳ ὅλον, ἀλλὰ μέρος ἑκάστου ἂν εἴη.<milestone unit="para" ed="P" />φαίνεται οὕτω γε.<milestone unit="para" ed="P" />ἦ οὖν ἐθελήσεις, ὦ Σώκρατες, φάναι τὸ ἓν εἶδος ἡμῖν τῇ ἀληθείᾳ μερίζεσθαι, καὶ ἔτι ἓν ἔσται;<milestone unit="para" ed="P" />οὐδαμῶς, εἰπεῖν.<milestone unit="para" ed="P" />ὅρα γάρ, φάναι· εἰ αὐτὸ τὸ μέγεθος μεριεῖς καὶ ἕκαστον
+<milestone unit="section" resp="Stephanus" n="131d" xml:id="grc-stephanus-section-131d" />τῶν πολλῶν μεγάλων μεγέθους μέρει σμικροτέρῳ αὐτοῦ τοῦ μεγέθους μέγα ἔσται, ἆρα οὐκ ἄλογον φανεῖται;<milestone unit="para" ed="P" />πάνυ γʼ, ἔφη.<milestone unit="para" ed="P" />τί δέ; τοῦ ἴσου μέρος ἕκαστον σμικρὸν ἀπολαβόν τι ἕξει ᾧ ἐλάττονι ὄντι αὐτοῦ τοῦ ἴσου τὸ ἔχον ἴσον τῳ ἔσται;<milestone unit="para" ed="P" />ἀδύνατον.<milestone unit="para" ed="P" />ἀλλὰ τοῦ σμικροῦ μέρος τις ἡμῶν ἕξει, τούτου δὲ αὐτοῦ τὸ σμικρὸν μεῖζον ἔσται ἅτε μέρους ἑαυτοῦ ὄντος, καὶ οὕτω δὴ αὐτὸ τὸ σμικρὸν μεῖζον ἔσται· ᾧ δʼ ἂν προστεθῇ τὸ
+<milestone unit="section" resp="Stephanus" n="131e" xml:id="grc-stephanus-section-131e" />ἀφαιρεθέν, τοῦτο σμικρότερον ἔσται ἀλλʼ οὐ μεῖζον ἢ πρίν.<milestone unit="para" ed="P" />οὐκ ἂν γένοιτο, φάναι, τοῦτό γε.<milestone unit="para" ed="P" />τίνα οὖν τρόπον, εἰπεῖν, ὦ Σώκρατες, τῶν εἰδῶν σοι τὰ ἄλλα μεταλήψεται, μήτε κατὰ μέρη μήτε κατὰ ὅλα μεταλαμβάνειν δυνάμενα;<milestone unit="para" ed="P" />οὐ μὰ τὸν Δία, φάναι, οὔ μοι δοκεῖ εὔκολον εἶναι τὸ τοιοῦτον οὐδαμῶς διορίσασθαι.<milestone unit="para" ed="P" />τί δὲ δή; πρὸς τόδε πῶς ἔχεις;<milestone unit="para" ed="P" />τὸ ποῖον;</said></p></div>
+
+				<div type="textpart" subtype="section" resp="perseus" n="132" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-132">
+				 <p xml:id="grc-p-000007"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000007"><milestone n="132" unit="page" /><milestone unit="section" resp="Stephanus" n="132a" xml:id="grc-stephanus-section-132a" /><milestone unit="para" ed="P" />οἶμαί σε ἐκ τοῦ τοιοῦδε ἓν ἕκαστον εἶδος οἴεσθαι εἶναι· ὅταν πόλλʼ ἄττα μεγάλα σοι δόξῃ εἶναι, μία τις ἴσως δοκεῖ ἰδέα ἡ αὐτὴ εἶναι ἐπὶ πάντα ἰδόντι, ὅθεν ἓν τὸ μέγα ἡγῇ εἶναι.<milestone unit="para" ed="P" />ἀληθῆ λέγεις, φάναι.<milestone unit="para" ed="P" />τί δʼ αὐτὸ τὸ μέγα καὶ τἆλλα τὰ μεγάλα, ἐὰν ὡσαύτως τῇ ψυχῇ ἐπὶ πάντα ἴδῃς, οὐχὶ ἕν τι αὖ μέγα φανεῖται, ᾧ ταῦτα πάντα μεγάλα φαίνεσθαι;<milestone unit="para" ed="P" />ἔοικεν.<milestone unit="para" ed="P" />ἄλλο ἄρα εἶδος μεγέθους ἀναφανήσεται, παρʼ αὐτό τε τὸ μέγεθος γεγονὸς καὶ τὰ μετέχοντα αὐτοῦ· καὶ ἐπὶ τούτοις αὖ
+<milestone unit="section" resp="Stephanus" n="132b" xml:id="grc-stephanus-section-132b" />πᾶσιν ἕτερον, ᾧ ταῦτα πάντα μεγάλα ἔσται· καὶ οὐκέτι δὴ ἓν ἕκαστόν σοι τῶν εἰδῶν ἔσται, ἀλλὰ ἄπειρα τὸ πλῆθος.<milestone unit="para" ed="P" />ἀλλά, φάναι, ὦ Παρμενίδη, τὸν Σωκράτη, μὴ τῶν εἰδῶν ἕκαστον ᾖ τούτων νόημα, καὶ οὐδαμοῦ αὐτῷ προσήκῃ ἐγγίγνεσθαι ἄλλοθι ἢ ἐν ψυχαῖς· οὕτω γὰρ ἂν ἕν γε ἕκαστον εἴη καὶ οὐκ ἂν ἔτι πάσχοι ἃ νυνδὴ ἐλέγετο.<milestone unit="para" ed="P" />τί οὖν; φάναι, ἓν ἕκαστόν ἐστι τῶν νοημάτων, νόημα δὲ οὐδενός;<milestone unit="para" ed="P" />ἀλλʼ ἀδύνατον, εἰπεῖν.<milestone unit="para" ed="P" />ἀλλὰ τινός;<milestone unit="para" ed="P" />ναί.
+<milestone unit="section" resp="Stephanus" n="132c" xml:id="grc-stephanus-section-132c" /><milestone unit="para" ed="P" />ὄντος ἢ οὐκ ὄντος;<milestone unit="para" ed="P" />ὄντος.<milestone unit="para" ed="P" />οὐχ ἑνός τινος, ὃ ἐπὶ πᾶσιν ἐκεῖνο τὸ νόημα ἐπὸν νοεῖ, μίαν τινὰ οὖσαν ἰδέαν;<milestone unit="para" ed="P" />ναί.<milestone unit="para" ed="P" />εἶτα οὐκ εἶδος ἔσται τοῦτο τὸ νοούμενον ἓν εἶναι, ἀεὶ ὂν τὸ αὐτὸ ἐπὶ πᾶσιν;<milestone unit="para" ed="P" />ἀνάγκη αὖ φαίνεται.<milestone unit="para" ed="P" />τί δὲ δή; εἰπεῖν τὸν Παρμενίδην, οὐκ ἀνάγκῃ ᾗ τἆλλα φῂς τῶν εἰδῶν μετέχειν ἢ δοκεῖ σοι ἐκ νοημάτων ἕκαστον εἶναι καὶ πάντα νοεῖν, ἢ νοήματα ὄντα ἀνόητα εἶναι;<milestone unit="para" ed="P" />ἀλλʼ οὐδὲ τοῦτο, φάναι, ἔχει λόγον, ἀλλʼ, ὦ Παρμενίδη,
+<milestone unit="section" resp="Stephanus" n="132d" xml:id="grc-stephanus-section-132d" />μάλιστα ἔμοιγε καταφαίνεται ὧδε ἔχειν· τὰ μὲν εἴδη ταῦτα ὥσπερ παραδείγματα ἑστάναι ἐν τῇ φύσει, τὰ δὲ ἄλλα τούτοις ἐοικέναι καὶ εἶναι ὁμοιώματα, καὶ ἡ μέθεξις αὕτη τοῖς ἄλλοις γίγνεσθαι τῶν εἰδῶν οὐκ ἄλλη τις ἢ εἰκασθῆναι αὐτοῖς.<milestone unit="para" ed="P" />εἰ οὖν τι, ἔφη, ἔοικεν τῷ εἴδει, οἷόν τε ἐκεῖνο τὸ εἶδος μὴ ὅμοιον εἶναι τῷ εἰκασθέντι, καθʼ ὅσον αὐτῷ ἀφωμοιώθη; ἢ ἔστι τις μηχανὴ τὸ ὅμοιον μὴ ὁμοίῳ ὅμοιον εἶναι;<milestone unit="para" ed="P" />οὐκ ἔστι.<milestone unit="para" ed="P" />τὸ δὲ ὅμοιον τῷ ὁμοίῳ ἆρʼ οὐ μεγάλη ἀνάγκη ἑνὸς τοῦ
+<milestone unit="section" resp="Stephanus" n="132e" xml:id="grc-stephanus-section-132e" />αὐτοῦ <del>εἴδους</del> μετέχειν;<milestone unit="para" ed="P" />ἀνάγκη.<milestone unit="para" ed="P" />οὗ δʼ ἂν τὰ ὅμοια μετέχοντα ὅμοια ᾖ, οὐκ ἐκεῖνο ἔσται αὐτὸ τὸ εἶδος;<milestone unit="para" ed="P" />παντάπασι μὲν οὖν.</said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="133" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-133">
+					<p xml:id="grc-p-000008"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000008"><milestone unit="para" ed="P" /> 
+						οὐκ ἄρα οἷόν τέ τι τῷ εἴδει ὅμοιον εἶναι, οὐδὲ τὸ εἶδος ἄλλῳ· εἰ δὲ μή, παρὰ τὸ εἶδος ἀεὶ ἄλλο ἀναφανήσεται εἶδος,
+
+<milestone n="133" unit="page" /><milestone unit="section" resp="Stephanus" n="133a" xml:id="grc-stephanus-section-133a" />καὶ ἂν ἐκεῖνό τῳ ὅμοιον ᾖ, ἕτερον αὖ, καὶ οὐδέποτε παύσεται ἀεὶ καινὸν εἶδος γιγνόμενον, ἐὰν τὸ εἶδος τῷ ἑαυτοῦ μετέχοντι ὅμοιον γίγνηται.<milestone unit="para" ed="P" />ἀληθέστατα λέγεις.<milestone unit="para" ed="P" />οὐκ ἄρα ὁμοιότητι τἆλλα τῶν εἰδῶν μεταλαμβάνει, ἀλλά τι ἄλλο δεῖ ζητεῖν ᾧ μεταλαμβάνει.<milestone unit="para" ed="P" />ἔοικεν.<milestone unit="para" ed="P" />ὁρᾷς οὖν, φάναι, ὦ Σώκρατες, ὅση ἡ ἀπορία ἐάν τις ὡς εἴδη ὄντα αὐτὰ καθʼ αὑτὰ διορίζηται;<milestone unit="para" ed="P" />καὶ μάλα.<milestone unit="para" ed="P" />εὖ τοίνυν ἴσθι, φάναι, ὅτι ὡς ἔπος εἰπεῖν οὐδέπω ἅπτῃ
+<milestone unit="section" resp="Stephanus" n="133b" xml:id="grc-stephanus-section-133b" />αὐτῆς ὅση ἐστὶν ἡ ἀπορία, εἰ ἓν εἶδος ἕκαστον τῶν ὄντων ἀεί τι ἀφοριζόμενος θήσεις.<milestone unit="para" ed="P" />πῶς δή; εἰπεῖν.<milestone unit="para" ed="P" />πολλὰ μὲν καὶ ἄλλα, φάναι, μέγιστον δὲ τόδε. εἴ τις φαίη μηδὲ προσήκειν αὐτὰ γιγνώσκεσθαι ὄντα τοιαῦτα οἷά φαμεν δεῖν εἶναι τὰ εἴδη, τῷ ταῦτα λέγοντι οὐκ ἂν ἔχοι τις ἐνδείξασθαι ὅτι ψεύδεται, εἰ μὴ πολλῶν μὲν τύχοι ἔμπειρος ὢν ὁ ἀμφισβητῶν καὶ μὴ ἀφυής, ἐθέλοι δὲ πάνυ πολλὰ καὶ πόρρωθεν πραγματευομένου τοῦ ἐνδεικνυμένου ἕπεσθαι, ἀλλʼ
+<milestone unit="section" resp="Stephanus" n="133c" xml:id="grc-stephanus-section-133c" />ἀπίθανος εἴη ὁ ἄγνωστα ἀναγκάζων αὐτὰ εἶναι.<milestone unit="para" ed="P" />πῇ δή, ὦ Παρμενίδη; φάναι τὸν Σωκράτη.<milestone unit="para" ed="P" />ὅτι, ὦ Σώκρατες, οἶμαι ἂν καὶ σὲ καὶ ἄλλον, ὅστις αὐτήν τινα καθʼ αὑτὴν ἑκάστου οὐσίαν τίθεται εἶναι, ὁμολογῆσαι ἂν πρῶτον μὲν μηδεμίαν αὐτῶν εἶναι ἐν ἡμῖν.<milestone unit="para" ed="P" />πῶς γὰρ ἂν αὐτὴ καθʼ αὑτὴν ἔτι εἴη; φάναι τὸν Σωκράτη.<milestone unit="para" ed="P" />καλῶς λέγεις, εἰπεῖν.<milestone unit="para" ed="P" />οὐκοῦν καὶ ὅσαι τῶν ἰδεῶν πρὸς ἀλλήλας εἰσὶν αἵ εἰσιν, αὐταὶ πρὸς αὑτὰς τὴν οὐσίαν ἔχουσιν, ἀλλʼ οὐ πρὸς τὰ παρʼ
+<milestone unit="section" resp="Stephanus" n="133d" xml:id="grc-stephanus-section-133d" />ἡμῖν εἴτε ὁμοιώματα εἴτε ὅπῃ δή τις αὐτὰ τίθεται, ὧν ἡμεῖς μετέχοντες εἶναι ἕκαστα ἐπονομαζόμεθα· τὰ δὲ παρʼ ἡμῖν ταῦτα ὁμώνυμα ὄντα ἐκείνοις αὐτὰ αὖ πρὸς αὑτά ἐστιν ἀλλʼ οὐ πρὸς τὰ εἴδη, καὶ ἑαυτῶν ἀλλʼ οὐκ ἐκείνων ὅσα αὖ ὀνομάζεται οὕτως.<milestone unit="para" ed="P" />πῶς λέγεις; φάναι τὸν Σωκράτη.<milestone unit="para" ed="P" />οἷον, φάναι τὸν Παρμενίδην, εἴ τις ἡμῶν του δεσπότης ἢ δοῦλός ἐστιν, οὐκ αὐτοῦ δεσπότου δήπου, ὃ ἔστι δεσπότης,
+<milestone unit="section" resp="Stephanus" n="133e" xml:id="grc-stephanus-section-133e" />ἐκείνου δοῦλός ἐστιν, οὐδὲ αὐτοῦ δούλου, ὃ ἔστι δοῦλος, δεσπότης ὁ δεσπότης, ἀλλʼ ἄνθρωπος ὢν ἀνθρώπου ἀμφότερα ταῦτʼ ἐστίν· αὐτὴ δὲ δεσποτεία αὐτῆς δουλείας ἐστὶν ὅ ἐστι, καὶ δουλεία ὡσαύτως αὐτὴ δουλεία αὐτῆς δεσποτείας, ἀλλʼ οὐ τὰ ἐν ἡμῖν πρὸς ἐκεῖνα τὴν δύναμιν ἔχει οὐδὲ ἐκεῖνα πρὸς ἡμᾶς, ἀλλʼ, ὃ λέγω, αὐτὰ αὑτῶν καὶ πρὸς αὑτὰ ἐκεῖνά τέ ἐστι, καὶ
+
+<milestone n="134" unit="page" /><milestone unit="section" resp="Stephanus" n="134a" xml:id="grc-stephanus-section-134a" />τὰ παρʼ ἡμῖν ὡσαύτως πρὸς αὑτά.</said></p></div>
+				
+				
+				<div type="textpart" subtype="section" resp="perseus" n="134" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-134">
+				 				
+					<p xml:id="grc-p-000009"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000009">ἢ οὐ μανθάνεις ὃ λέγω;<milestone unit="para" ed="P" />πάνυ γʼ, εἰπεῖν τὸν Σωκράτη, μανθάνω.<milestone unit="para" ed="P" />οὐκοῦν καὶ ἐπιστήμη, φάναι, αὐτὴ μὲν ὃ ἔστι ἐπιστήμη τῆς ὃ ἔστιν ἀλήθεια αὐτῆς ἂν ἐκείνης εἴη ἐπιστήμη;<milestone unit="para" ed="P" />πάνυ γε.<milestone unit="para" ed="P" />ἑκάστη δὲ αὖ τῶν ἐπιστημῶν, ἣ ἔστιν, ἑκάστου τῶν ὄντων, ὃ ἔστιν, εἴη ἂν ἐπιστήμη· ἢ οὔ;<milestone unit="para" ed="P" />ναί.<milestone unit="para" ed="P" />ἡ δὲ παρʼ ἡμῖν ἐπιστήμη οὐ τῆς παρʼ ἡμῖν ἂν ἀληθείας εἴη, καὶ αὖ ἑκάστη ἡ παρʼ ἡμῖν ἐπιστήμη τῶν παρʼ ἡμῖν
+<milestone unit="section" resp="Stephanus" n="134b" xml:id="grc-stephanus-section-134b" />ὄντων ἑκάστου ἂν ἐπιστήμη συμβαίνοι εἶναι;<milestone unit="para" ed="P" />ἀνάγκη.<milestone unit="para" ed="P" />ἀλλὰ μὴν αὐτά γε τὰ εἴδη, ὡς ὁμολογεῖς, οὔτε ἔχομεν οὔτε παρʼ ἡμῖν οἷόν τε εἶναι.<milestone unit="para" ed="P" />οὐ γὰρ οὖν.<milestone unit="para" ed="P" />γιγνώσκεται δέ γέ που ὑπʼ αὐτοῦ τοῦ εἴδους τοῦ τῆς ἐπιστήμης αὐτὰ τὰ γένη ἃ ἔστιν ἕκαστα;<milestone unit="para" ed="P" />ναί.<milestone unit="para" ed="P" />ὅ γε ἡμεῖς οὐκ ἔχομεν.<milestone unit="para" ed="P" />οὐ γάρ.<milestone unit="para" ed="P" />οὐκ ἄρα ὑπό γε ἡμῶν γιγνώσκεται τῶν εἰδῶν οὐδέν, ἐπειδὴ αὐτῆς ἐπιστήμης οὐ μετέχομεν.<milestone unit="para" ed="P" />οὐκ ἔοικεν.<milestone unit="para" ed="P" />ἄγνωστον ἄρα ἡμῖν καὶ αὐτὸ τὸ καλὸν ὃ ἔστι καὶ
+<milestone unit="section" resp="Stephanus" n="134c" xml:id="grc-stephanus-section-134c" />τὸ ἀγαθὸν καὶ πάντα ἃ δὴ ὡς ἰδέας αὐτὰς οὔσας ὑπολαμβάνομεν.<milestone unit="para" ed="P" />κινδυνεύει.<milestone unit="para" ed="P" />ὅρα δὴ ἔτι τούτου δεινότερον τόδε.<milestone unit="para" ed="P" />τὸ ποῖον;<milestone unit="para" ed="P" />φαίης ἄν που, εἴπερ ἔστιν αὐτό τι γένος ἐπιστήμης, πολὺ αὐτὸ ἀκριβέστερον εἶναι ἢ τὴν παρʼ ἡμῖν ἐπιστήμην, καὶ κάλλος καὶ τἆλλα πάντα οὕτω.<milestone unit="para" ed="P" />ναί.<milestone unit="para" ed="P" />οὐκοῦν εἴπερ τι ἄλλο αὐτῆς ἐπιστήμης μετέχει, οὐκ ἄν τινα μᾶλλον ἢ θεὸν φαίης ἔχειν τὴν ἀκριβεστάτην ἐπιστήμην;<milestone unit="para" ed="P" />ἀνάγκη.
+<milestone unit="section" resp="Stephanus" n="134d" xml:id="grc-stephanus-section-134d" /><milestone unit="para" ed="P" />ἆρʼ οὖν οἷός τε αὖ ἔσται ὁ θεὸς τὰ παρʼ ἡμῖν γιγνώσκειν αὐτὴν ἐπιστήμην ἔχων;<milestone unit="para" ed="P" />τί γὰρ οὔ;<milestone unit="para" ed="P" />ὅτι, ἔφη ὁ Παρμενίδης, ὡμολόγηται ἡμῖν, ὦ Σώκρατες, μήτε ἐκεῖνα τὰ εἴδη πρὸς τὰ παρʼ ἡμῖν τὴν δύναμιν ἔχειν ἣν ἔχει, μήτε τὰ παρʼ ἡμῖν πρὸς ἐκεῖνα, ἀλλʼ αὐτὰ πρὸς αὑτὰ ἑκάτερα.<milestone unit="para" ed="P" />ὡμολόγηται γάρ.<milestone unit="para" ed="P" />οὐκοῦν εἰ παρὰ τῷ θεῷ αὕτη ἐστὶν ἡ ἀκριβεστάτη δεσποτεία καὶ αὕτη ἡ ἀκριβεστάτη ἐπιστήμη, οὔτʼ ἂν ἡ δεσποτεία ἡ ἐκείνων ἡμῶν ποτὲ ἂν δεσπόσειεν, οὔτʼ ἂν
+<milestone unit="section" resp="Stephanus" n="134e" xml:id="grc-stephanus-section-134e" />ἐπιστήμη ἡμᾶς γνοίη οὐδέ τι ἄλλο τῶν παρʼ ἡμῖν, ἀλλὰ ὁμοίως ἡμεῖς τε ἐκείνων οὐκ ἄρχομεν τῇ παρʼ ἡμῖν ἀρχῇ οὐδὲ γιγνώσκομεν τοῦ θείου οὐδὲν τῇ ἡμετέρᾳ ἐπιστήμῃ, ἐκεῖνοί τε αὖ κατὰ τὸν αὐτὸν λόγον οὔτε δεσπόται ἡμῶν εἰσὶν οὔτε γιγνώσκουσι τὰ ἀνθρώπεια πράγματα θεοὶ ὄντες.<milestone unit="para" ed="P" />ἀλλὰ μὴ λίαν, ἔφη, <add>ᾖ</add> θαυμαστὸς ὁ λόγος, εἴ τις τὸν θεὸν ἀποστερήσει τοῦ εἰδέναι.</said></p></div>
+						
+<div type="textpart" subtype="section" resp="perseus" n="135" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-135">
+<p xml:id="grc-p-000010"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000010"><milestone unit="para" ed="P" />ταῦτα μέντοι, ὦ Σώκρατες, ἔφη ὁ Παρμενίδης, καὶ ἔτι
+
+<milestone n="135" unit="page" /><milestone unit="section" resp="Stephanus" n="135a" xml:id="grc-stephanus-section-135a" />ἄλλα πρὸς τούτοις πάνυ πολλὰ ἀναγκαῖον ἔχειν τὰ εἴδη, εἰ εἰσὶν αὗται αἱ ἰδέαι τῶν ὄντων καὶ ὁριεῖταί τις αὐτό τι ἕκαστον εἶδος· ὥστε ἀπορεῖν τε τὸν ἀκούοντα καὶ ἀμφισβητεῖν ὡς οὔτε ἔστι ταῦτα, εἴ τε ὅτι μάλιστα εἴη, πολλὴ ἀνάγκη αὐτὰ εἶναι τῇ ἀνθρωπίνῃ φύσει ἄγνωστα, καὶ ταῦτα λέγοντα δοκεῖν τε τὶ λέγειν καί, ὃ ἄρτι ἐλέγομεν, θαυμαστῶς ὡς δυσανάπειστον εἶναι. καὶ ἀνδρὸς πάνυ μὲν εὐφυοῦς τοῦ δυνησομένου μαθεῖν ὡς ἔστι γένος τι ἑκάστου καὶ οὐσία αὐτὴ
+<milestone unit="section" resp="Stephanus" n="135b" xml:id="grc-stephanus-section-135b" />καθʼ αὑτήν, ἔτι δὲ θαυμαστοτέρου τοῦ εὑρήσοντος καὶ ἄλλον δυνησομένου διδάξαι ταῦτα πάντα ἱκανῶς διευκρινησάμενον.<milestone unit="para" ed="P" />συγχωρῶ σοι, ἔφη, ὦ Παρμενίδη, ὁ Σωκράτης· πάνυ γάρ μοι κατὰ νοῦν λέγεις.<milestone unit="para" ed="P" />ἀλλὰ μέντοι, εἶπεν ὁ Παρμενίδης, εἴ γέ τις δή, ὦ Σώκρατες, αὖ μὴ ἐάσει εἴδη τῶν ὄντων εἶναι, εἰς πάντα τὰ νυνδὴ καὶ ἄλλα τοιαῦτα ἀποβλέψας, μηδέ τι ὁριεῖται εἶδος ἑνὸς ἑκάστου, οὐδὲ ὅποι τρέψει τὴν διάνοιαν ἕξει, μὴ ἐῶν
+<milestone unit="section" resp="Stephanus" n="135c" xml:id="grc-stephanus-section-135c" />ἰδέαν τῶν ὄντων ἑκάστου τὴν αὐτὴν ἀεὶ εἶναι, καὶ οὕτως τὴν τοῦ διαλέγεσθαι δύναμιν παντάπασι διαφθερεῖ. τοῦ τοιούτου μὲν οὖν μοι δοκεῖς καὶ μᾶλλον ᾐσθῆσθαι.<milestone unit="para" ed="P" />ἀληθῆ λέγεις, φάναι.<milestone unit="para" ed="P" />τί οὖν ποιήσεις φιλοσοφίας πέρι; πῇ τρέψῃ ἀγνοουμένων τούτων;<milestone unit="para" ed="P" />οὐ πάνυ μοι δοκῶ καθορᾶν ἔν γε τῷ παρόντι.<milestone unit="para" ed="P" />πρῲ γάρ, εἰπεῖν, πρὶν γυμνασθῆναι, ὦ Σώκρατες, ὁρίζεσθαι ἐπιχειρεῖς καλόν τέ τι καὶ δίκαιον καὶ ἀγαθὸν καὶ ἓν
+<milestone unit="section" resp="Stephanus" n="135d" xml:id="grc-stephanus-section-135d" />ἕκαστον τῶν εἰδῶν. ἐνενόησα γὰρ καὶ πρῴην σου ἀκούων διαλεγομένου ἐνθάδε Ἀριστοτέλει τῷδε. καλὴ μὲν οὖν καὶ θεία, εὖ ἴσθι, ἡ ὁρμὴ ἣν ὁρμᾷς ἐπὶ τοὺς λόγους· ἕλκυσον δὲ σαυτὸν καὶ γύμνασαι μᾶλλον διὰ τῆς δοκούσης ἀχρήστου εἶναι καὶ καλουμένης ὑπὸ τῶν πολλῶν ἀδολεσχίας, ἕως ἔτι νέος εἶ· εἰ δὲ μή, σὲ διαφεύξεται ἡ ἀλήθεια.<milestone unit="para" ed="P" />τίς οὖν ὁ τρόπος, φάναι, ὦ Παρμενίδη, τῆς γυμνασίας;<milestone unit="para" ed="P" />οὗτος, εἶπεν, ὅνπερ ἤκουσας Ζήνωνος. πλὴν τοῦτό γέ
+<milestone unit="section" resp="Stephanus" n="135e" xml:id="grc-stephanus-section-135e" />σου καὶ πρὸς τοῦτον ἠγάσθην εἰπόντος, ὅτι οὐκ εἴας ἐν τοῖς ὁρωμένοις οὐδὲ περὶ ταῦτα τὴν πλάνην ἐπισκοπεῖν, ἀλλὰ περὶ ἐκεῖνα ἃ μάλιστά τις ἂν λόγῳ λάβοι καὶ εἴδη ἂν ἡγήσαιτο εἶναι.<milestone unit="para" ed="P" />δοκεῖ γάρ μοι, ἔφη, ταύτῃ γε οὐδὲν χαλεπὸν εἶναι καὶ ὅμοια καὶ ἀνόμοια καὶ ἄλλο ὁτιοῦν τὰ ὄντα πάσχοντα ἀποφαίνειν.</said></p></div>
+				
+				
+				<div type="textpart" subtype="section" resp="perseus" n="136" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-136">
+				<p xml:id="grc-p-000011"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000011"><milestone unit="para" ed="P" />καὶ καλῶς γʼ, ἔφη. χρὴ δὲ καὶ τόδε ἔτι πρὸς τούτῳ ποιεῖν, μὴ μόνον εἰ ἔστιν ἕκαστον ὑποτιθέμενον σκοπεῖν τὰ
+
+<milestone n="136" unit="page" /><milestone unit="section" resp="Stephanus" n="136a" xml:id="grc-stephanus-section-136a" />συμβαίνοντα ἐκ τῆς ὑποθέσεως, ἀλλὰ καὶ εἰ μὴ ἔστι τὸ αὐτὸ τοῦτο ὑποτίθεσθαι, εἰ βούλει μᾶλλον γυμνασθῆναι.<milestone unit="para" ed="P" />πῶς λέγεις; φάναι.<milestone unit="para" ed="P" />οἷον, ἔφη, εἰ βούλει, περὶ ταύτης τῆς ὑποθέσεως ἣν Ζήνων ὑπέθετο, εἰ πολλά ἐστι, τί χρὴ συμβαίνειν καὶ αὐτοῖς τοῖς πολλοῖς πρὸς αὑτὰ καὶ πρὸς τὸ ἓν καὶ τῷ ἑνὶ πρός τε αὑτὸ καὶ πρὸς τὰ πολλά· καὶ αὖ εἰ μή ἐστι πολλά, πάλιν σκοπεῖν τί συμβήσεται καὶ τῷ ἑνὶ καὶ τοῖς πολλοῖς καὶ πρὸς
+<milestone unit="section" resp="Stephanus" n="136b" xml:id="grc-stephanus-section-136b" />αὑτὰ καὶ πρὸς ἄλληλα· καὶ αὖθις αὖ ἐὰν ὑποθῇ εἰ ἔστιν ὁμοιότης ἢ εἰ μὴ ἔστιν, τί ἐφʼ ἑκατέρας τῆς ὑποθέσεως συμβήσεται καὶ αὐτοῖς τοῖς ὑποτεθεῖσιν καὶ τοῖς ἄλλοις καὶ πρὸς αὑτὰ καὶ πρὸς ἄλληλα. καὶ περὶ ἀνομοίου ὁ αὐτὸς λόγος καὶ περὶ κινήσεως καὶ περὶ στάσεως καὶ περὶ γενέσεως καὶ φθορᾶς καὶ περὶ αὐτοῦ τοῦ εἶναι καὶ τοῦ μὴ εἶναι· καὶ ἑνὶ λόγῳ, περὶ ὅτου ἂν ἀεὶ ὑποθῇ ὡς ὄντος καὶ ὡς οὐκ ὄντος καὶ ὁτιοῦν ἄλλο πάθος πάσχοντος, δεῖ σκοπεῖν τὰ συμβαίνοντα
+<milestone unit="section" resp="Stephanus" n="136c" xml:id="grc-stephanus-section-136c" />πρὸς αὑτὸ καὶ πρὸς ἓν ἕκαστον τῶν ἄλλων, ὅτι ἂν προέλῃ, καὶ πρὸς πλείω καὶ πρὸς σύμπαντα ὡσαύτως· καὶ τἆλλα αὖ πρὸς αὑτά τε καὶ πρὸς ἄλλο ὅτι ἂν προαιρῇ ἀεί, ἐάντε ὡς ὂν ὑποθῇ ὃ ὑπετίθεσο, ἄντε ὡς μὴ ὄν, εἰ μέλλεις τελέως γυμνασάμενος κυρίως διόψεσθαι τὸ ἀληθές.<milestone unit="para" ed="P" />ἀμήχανόν γʼ ἔφη, λέγεις, ὦ Παρμενίδη, πραγματείαν, καὶ οὐ σφόδρα μανθάνω. ἀλλά μοι τί οὐ διῆλθες αὐτὸς ὑποθέμενός τι, ἵνα μᾶλλον καταμάθω;
+<milestone unit="section" resp="Stephanus" n="136d" xml:id="grc-stephanus-section-136d" /><milestone unit="para" ed="P" />πολὺ ἔργον, φάναι, ὦ Σώκρατες, προστάττεις ὡς τηλικῷδε.<milestone unit="para" ed="P" />ἀλλὰ σύ, εἰπεῖν τὸν Σωκράτη, Ζήνων, τί οὐ διῆλθες ἡμῖν;<milestone unit="para" ed="P" />καὶ τὸν Ζήνωνα ἔφη γελάσαντα φάναι· αὐτοῦ, ὦ Σώκρατες, δεώμεθα Παρμενίδου· μὴ γὰρ οὐ φαῦλον ᾖ ὃ λέγει. ἢ οὐχ ὁρᾷς ὅσον ἔργον προστάττεις; εἰ μὲν οὖν πλείους ἦμεν, οὐκ ἂν ἄξιον ἦν δεῖσθαι· ἀπρεπῆ γὰρ τὰ τοιαῦτα πολλῶν ἐναντίον λέγειν ἄλλως τε καὶ τηλικούτῳ·
+<milestone unit="section" resp="Stephanus" n="136e" xml:id="grc-stephanus-section-136e" />ἀγνοοῦσιν γὰρ οἱ πολλοὶ ὅτι ἄνευ ταύτης τῆς διὰ πάντων διεξόδου τε καὶ πλάνης ἀδύνατον ἐντυχόντα τῷ ἀληθεῖ νοῦν σχεῖν. ἐγὼ μὲν οὖν, ὦ Παρμενίδη, Σωκράτει συνδέομαι, ἵνα καὶ αὐτὸς διακούσω διὰ χρόνου.<milestone unit="para" ed="P" />ταῦτα δὴ εἰπόντος τοῦ Ζήνωνος, ἔφη ὁ Ἀντιφῶν φάναι τὸν Πυθόδωρον, αὐτόν τε δεῖσθαι τοῦ Παρμενίδου καὶ τὸν Ἀριστοτέλη καὶ τοὺς ἄλλους, ἐνδείξασθαι ὃ λέγοι καὶ μὴ ἄλλως ποιεῖν. τὸν οὖν Παρμενίδην· ἀνάγκη, φάναι, πείθεσθαι.</said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="137" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-137">
+					
+					<p xml:id="grc-p-000012"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000012">καίτοι δοκῶ μοι τὸ τοῦ Ἰβυκείου ἵππου πεπονθέναι,
+
+<milestone n="137" unit="page" /><milestone unit="section" resp="Stephanus" n="137a" xml:id="grc-stephanus-section-137a" />ᾧ ἐκεῖνος ἀθλητῇ ὄντι καὶ πρεσβυτέρῳ, ὑφʼ ἅρματι μέλλοντι ἀγωνιεῖσθαι καὶ διʼ ἐμπειρίαν τρέμοντι τὸ μέλλον, ἑαυτὸν ἀπεικάζων ἄκων ἔφη καὶ αὐτὸς οὕτω πρεσβύτης ὢν εἰς τὸν ἔρωτα ἀναγκάζεσθαι ἰέναι· κἀγώ μοι δοκῶ μεμνημένος μάλα φοβεῖσθαι πῶς χρὴ τηλικόνδε ὄντα διανεῦσαι τοιοῦτόν τε καὶ τοσοῦτον πέλαγος λόγων· ὅμως δὲ δεῖ γὰρ χαρίζεσθαι, ἐπειδὴ καί, ὃ Ζήνων λέγει, αὐτοί ἐσμεν. πόθεν οὖν δὴ
+<milestone unit="section" resp="Stephanus" n="137b" xml:id="grc-stephanus-section-137b" />ἀρξόμεθα καὶ τί πρῶτον ὑποθησόμεθα; ἢ βούλεσθε, ἐπειδήπερ δοκεῖ πραγματειώδη παιδιὰν παίζειν, ἀπʼ ἐμαυτοῦ ἄρξωμαι καὶ τῆς ἐμαυτοῦ ὑποθέσεως, περὶ τοῦ ἑνὸς αὐτοῦ ὑποθέμενος, εἴτε ἕν ἐστιν εἴτε μὴ ἕν, τί χρὴ συμβαίνειν;<milestone unit="para" ed="P" />πάνυ μὲν οὖν, φάναι τὸν Ζήνωνα.<milestone unit="para" ed="P" />τίς οὖν, εἰπεῖν, μοὶ ἀποκρινεῖται; ἢ ὁ νεώτατος; ἥκιστα γὰρ ἂν πολυπραγμονοῖ, καὶ ἃ οἴεται μάλιστα ἂν ἀποκρίνοιτο· καὶ ἅμα ἐμοὶ ἀνάπαυλα ἂν εἴη ἡ ἐκείνου ἀπόκρισις.
+<milestone unit="section" resp="Stephanus" n="137c" xml:id="grc-stephanus-section-137c" /><milestone unit="para" ed="P" />ἕτοιμός σοι, ὦ Παρμενίδη, φάναι, τοῦτο, τὸν Ἀριστοτέλη· ἐμὲ γὰρ λέγεις τὸν νεώτατον λέγων. ἀλλὰ ἐρώτα ὡς ἀποκρινουμένου.
+
+<milestone unit="para" ed="P" /><said xml:id="grc-utterance-000013">εἶεν δή</said>, φάναι· <said xml:id="grc-utterance-000014">εἰ ἕν ἐστιν, ἄλλο τι οὐκ ἂν εἴη πολλὰ τὸ ἕν;</said>
+<said xml:id="grc-utterance-000015">πῶς γὰρ ἄν;</said>
+<said xml:id="grc-utterance-000016">οὔτε ἄρα μέρος αὐτοῦ οὔτε ὅλον αὐτὸ δεῖ εἶναι.</said>
+<said xml:id="grc-utterance-000017">τί δή;</said>
+<said xml:id="grc-utterance-000018">τὸ μέρος που ὅλου μέρος ἐστίν.</said>
+<said xml:id="grc-utterance-000019">ναί.</said>
+<said xml:id="grc-utterance-000020">τί δὲ τὸ ὅλον; οὐχὶ οὗ ἂν μέρος μηδὲν ἀπῇ ὅλον ἂν εἴη;</said>
+<said xml:id="grc-utterance-000021">πάνυ γε.</said>
+<said xml:id="grc-utterance-000022">ἀμφοτέρως ἄρα τὸ ἓν ἐκ μερῶν ἂν εἴη, ὅλον τε ὂν καὶ μέρη ἔχον.</said>
+<said xml:id="grc-utterance-000023">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000024">ἀμφοτέρως ἂν ἄρα
+<milestone unit="section" resp="Stephanus" n="137d" xml:id="grc-stephanus-section-137d" />οὕτως τὸ ἓν πολλὰ εἴη ἀλλʼ οὐχ ἕν.</said>
+<said xml:id="grc-utterance-000025">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000026">δεῖ δέ γε μὴ πολλὰ ἀλλʼ ἓν αὐτὸ εἶναι.</said>
+<said xml:id="grc-utterance-000027">δεῖ.</said>
+<said xml:id="grc-utterance-000028">οὔτʼ ἄρα ὅλον ἔσται οὔτε μέρη ἕξει, εἰ ἓν ἔσται τὸ ἕν.</said>
+<said xml:id="grc-utterance-000029">οὐ γάρ.<milestone unit="para" ed="P" />οὐκοῦν εἰ μηδὲν ἔχει μέρος, οὔτʼ ἂν ἀρχὴν οὔτε τελευτὴν οὔτε μέσον ἔχοι· μέρη γὰρ ἂν ἤδη αὐτοῦ τὰ τοιαῦτα εἴη.</said>
+<said xml:id="grc-utterance-000030">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000031">καὶ μὴν τελευτή γε καὶ ἀρχὴ πέρας ἑκάστου.</said>
+<said xml:id="grc-utterance-000032">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000033">ἄπειρον ἄρα τὸ ἕν, εἰ μήτε ἀρχὴν μήτε τελευτὴν ἔχει.</said>
+<said xml:id="grc-utterance-000034">ἄπειρον.</said>
+<said xml:id="grc-utterance-000035">καὶ ἄνευ σχήματος ἄρα· οὔτε γὰρ
+<milestone unit="section" resp="Stephanus" n="137e" xml:id="grc-stephanus-section-137e" />στρογγύλου οὔτε εὐθέος μετέχει.</said>
+<said xml:id="grc-utterance-000036">πῶς;</said>
+<said xml:id="grc-utterance-000037">στρογγύλον γέ πού ἐστι τοῦτο οὗ ἂν τὰ ἔσχατα πανταχῇ ἀπὸ τοῦ μέσου ἴσον ἀπέχῃ.</said>
+<said xml:id="grc-utterance-000038">ναί.</said>
+<said xml:id="grc-utterance-000039">καὶ μὴν εὐθύ γε, οὗ ἂν τὸ μέσον ἀμφοῖν τοῖν ἐσχάτοιν ἐπίπροσθεν ᾖ.</said>
+<said xml:id="grc-utterance-000040">οὕτως.</said>
+<said xml:id="grc-utterance-000041">οὐκοῦν μέρη ἂν ἔχοι τὸ ἓν καὶ πολλὰ ἂν εἴη, εἴτε εὐθέος σχήματος εἴτε περιφεροῦς μετέχοι.</said>
+<said xml:id="grc-utterance-000042">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000043">οὔτε ἄρα εὐθὺ οὔτε
+<milestone n="138" unit="page" /><milestone unit="section" resp="Stephanus" n="138a" xml:id="grc-stephanus-section-138a" />περιφερές ἐστιν, ἐπείπερ οὐδὲ μέρη ἔχει.</said>
+<said xml:id="grc-utterance-000044">ὀρθῶς.</said></said></p></div>
+
+				<div type="textpart" subtype="section" resp="perseus" n="138" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-138">
+				<p xml:id="grc-p-000013"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000045"><milestone unit="para" ed="P" />
+<said xml:id="grc-utterance-000046">καὶ μὴν τοιοῦτόν γε ὂν οὐδαμοῦ ἂν εἴη· οὔτε γὰρ ἐν ἄλλῳ οὔτε ἐν ἑαυτῷ εἴη.</said>
+<said xml:id="grc-utterance-000047">πῶς δή;</said>
+<said xml:id="grc-utterance-000048">ἐν ἄλλῳ μὲν ὂν κύκλῳ που ἂν περιέχοιτο ὑπʼ ἐκείνου ἐν ᾧ ἐνείη, καὶ πολλαχοῦ ἂν αὐτοῦ ἅπτοιτο πολλοῖς· τοῦ δὲ ἑνός τε καὶ ἀμεροῦς καὶ κύκλου μὴ μετέχοντος ἀδύνατον πολλαχῇ κύκλῳ ἅπτεσθαι.</said>
+<said xml:id="grc-utterance-000049">ἀδύνατον.</said>
+<said xml:id="grc-utterance-000050">ἀλλὰ μὴν αὐτό γε ἐν ἑαυτῷ ὂν κἂν ἑαυτῷ εἴη περιέχον οὐκ ἄλλο ἢ αὑτό, εἴπερ καὶ ἐν
+<milestone unit="section" resp="Stephanus" n="138b" xml:id="grc-stephanus-section-138b" />ἑαυτῷ εἴη· ἔν τῳ γάρ τι εἶναι μὴ περιέχοντι ἀδύνατον.</said>
+<said xml:id="grc-utterance-000051">ἀδύνατον γάρ.</said>
+<said xml:id="grc-utterance-000052">οὐκοῦν ἕτερον μὲν ἄν τι εἴη αὐτὸ τὸ περιέχον, ἕτερον δὲ τὸ περιεχόμενον· οὐ γὰρ ὅλον γε ἄμφω ταὐτὸν ἅμα πείσεται καὶ ποιήσει· καὶ οὕτω τὸ ἓν οὐκ ἂν εἴη ἔτι ἓν ἀλλὰ δύο.</said>
+<said xml:id="grc-utterance-000053">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000054">οὐκ ἄρα ἐστίν που τὸ ἕν, μήτε ἐν αὑτῷ μήτε ἐν ἄλλῳ ἐνόν.</said>
+<said xml:id="grc-utterance-000055">οὐκ ἔστιν.<milestone unit="para" ed="P" />ὅρα δή, οὕτως ἔχον εἰ οἷόν τέ ἐστιν ἑστάναι ἢ κινεῖσθαι.</said>
+<said xml:id="grc-utterance-000056">τί δὴ γὰρ οὔ;</said>
+<said xml:id="grc-utterance-000057">ὅτι κινούμενόν γε ἢ φέροιτο ἢ
+<milestone unit="section" resp="Stephanus" n="138c" xml:id="grc-stephanus-section-138c" />ἀλλοιοῖτο ἄν· αὗται γὰρ μόναι κινήσεις.</said>
+<said xml:id="grc-utterance-000058">ναί.</said>
+<said xml:id="grc-utterance-000059">ἀλλοιούμενον δὲ τὸ ἓν ἑαυτοῦ ἀδύνατόν που ἓν ἔτι εἶναι.</said>
+<said xml:id="grc-utterance-000060">ἀδύνατον.</said>
+<said xml:id="grc-utterance-000061">οὐκ ἄρα κατʼ ἀλλοίωσίν γε κινεῖται.</said>
+<said xml:id="grc-utterance-000062">οὐ φαίνεται.</said>
+<said xml:id="grc-utterance-000063">ἀλλʼ ἆρα τῷ φέρεσθαι;</said>
+<said xml:id="grc-utterance-000064">ἴσως.</said>
+<said xml:id="grc-utterance-000065">καὶ μὴν εἰ φέροιτο τὸ ἕν, ἤτοι ἐν τῷ αὐτῷ ἂν περιφέροιτο κύκλῳ ἢ μεταλλάττοι χώραν ἑτέραν ἐξ ἑτέρας.</said>
+<said xml:id="grc-utterance-000066">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000067">οὐκοῦν κύκλῳ μὲν περιφερόμενον ἐπὶ μέσου βεβηκέναι ἀνάγκη, καὶ τὰ περὶ τὸ μέσον φερόμενα ἄλλα μέρη ἔχειν ἑαυτοῦ· ᾧ δὲ
+<milestone unit="section" resp="Stephanus" n="138d" xml:id="grc-stephanus-section-138d" />μήτε μέσου μήτε μερῶν προσήκει, τίς μηχανὴ τοῦτο κύκλῳ ποτʼ ἐπὶ τοῦ μέσου ἐνεχθῆναι;</said>
+<said xml:id="grc-utterance-000068">οὐδεμία.</said>
+<said xml:id="grc-utterance-000069">ἀλλὰ δὴ χώραν ἀμεῖβον ἄλλοτʼ ἄλλοθι γίγνεται καὶ οὕτω κινεῖται;</said>
+<said xml:id="grc-utterance-000070">εἴπερ γε δή.</said>
+<said xml:id="grc-utterance-000071">οὐκοῦν εἶναι μέν που ἔν τινι αὐτῷ ἀδύνατον ἐφάνη;</said>
+<said xml:id="grc-utterance-000072">ναί.</said>
+<said xml:id="grc-utterance-000073">ἆρʼ οὖν γίγνεσθαι ἔτι ἀδυνατώτερον;</said>
+<said xml:id="grc-utterance-000074">οὐκ ἐννοῶ ὅπῃ.</said>
+<said xml:id="grc-utterance-000075">εἰ ἔν τῴ τι γίγνεται, οὐκ ἀνάγκη μήτε πω ἐν ἐκείνῳ εἶναι ἔτι ἐγγιγνόμενον, μήτʼ ἔτι ἔξω ἐκείνου παντάπασιν, εἴπερ ἤδη ἐγγίγνεται;</said>
+<said xml:id="grc-utterance-000076">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000077">εἰ ἄρα τι
+<milestone unit="section" resp="Stephanus" n="138e" xml:id="grc-stephanus-section-138e" />ἄλλο πείσεται τοῦτο, ἐκεῖνο ἂν μόνον πάσχοι οὗ μέρη εἴη· τὸ μὲν γὰρ ἄν τι αὐτοῦ ἤδη ἐν ἐκείνῳ, τὸ δὲ ἔξω εἴη ἅμα· τὸ δὲ μὴ ἔχον μέρη οὐχ οἷόν τέ που ἔσται τρόπῳ οὐδενὶ ὅλον ἅμα μήτε ἐντὸς εἶναί τινος μήτε ἔξω.</said>
+<said xml:id="grc-utterance-000078">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000079">οὗ δὲ μήτε μέρη εἰσὶ μήτε ὅλον τυγχάνει ὄν, οὐ πολὺ ἔτι ἀδυνατώτερον ἐγγίγνεσθαί που, μήτε κατὰ μέρη μήτε κατὰ ὅλον ἐγγιγνόμενον;</said>
+<said xml:id="grc-utterance-000080">φαίνεται.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="139" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-139">
+<p xml:id="grc-p-000014"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000081">
+<said xml:id="grc-utterance-000082">οὔτʼ ἄρα ποι ἰὸν καὶ ἔν
+
+<milestone n="139" unit="page" /><milestone unit="section" resp="Stephanus" n="139a" xml:id="grc-stephanus-section-139a" />τῳ γιγνόμενον χώραν ἀλλάττει, οὔτʼ ἐν τῷ αὐτῷ περιφερόμενον οὔτε ἀλλοιούμενον.</said>
+<said xml:id="grc-utterance-000083">οὐκ ἔοικε.</said>
+<said xml:id="grc-utterance-000084">κατὰ πᾶσαν ἄρα κίνησιν τὸ ἓν ἀκίνητον.</said>
+<said xml:id="grc-utterance-000085">ἀκίνητον.</said>
+<said xml:id="grc-utterance-000086">ἀλλὰ μὴν καὶ εἶναί γέ φαμεν ἔν τινι αὐτὸ ἀδύνατον.</said>
+<said xml:id="grc-utterance-000087">φαμὲν γάρ.</said>
+<said xml:id="grc-utterance-000088">οὐδʼ ἄρα ποτὲ ἐν τῷ αὐτῷ ἐστιν.</said>
+<said xml:id="grc-utterance-000089">τί δή;</said>
+<said xml:id="grc-utterance-000090">ὅτι ἤδη ἂν ἐν ἐκείνῳ εἴη ἐν ᾧ τῷ αὐτῷ ἐστιν.</said>
+<said xml:id="grc-utterance-000091">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000092">ἀλλʼ οὔτε ἐν αὑτῷ οὔτε ἐν ἄλλῳ οἷόν τε ἦν αὐτῷ ἐνεῖναι.</said>
+<said xml:id="grc-utterance-000093">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000094">οὐδέποτε ἄρα ἐστὶ τὸ ἓν ἐν τῷ αὐτῷ.</said>
+<said xml:id="grc-utterance-000095">οὐκ ἔοικεν.</said>
+<said xml:id="grc-utterance-000096">
+<milestone unit="section" resp="Stephanus" n="139b" xml:id="grc-stephanus-section-139b" />ἀλλὰ μὴν τό γε μηδέποτε ἐν τῷ αὐτῷ ὂν οὔτε ἡσυχίαν ἄγει οὔθʼ ἕστηκεν.</said>
+<said xml:id="grc-utterance-000097">οὐ γὰρ οἷόν τε.</said>
+<said xml:id="grc-utterance-000098">τὸ ἓν ἄρα, ὡς ἔοικεν, οὔτε ἕστηκεν οὔτε κινεῖται.</said>
+<said xml:id="grc-utterance-000099">οὔκουν δὴ φαίνεταί γε.<milestone unit="para" ed="P" />οὐδὲ μὴν ταὐτόν γε οὔτε ἑτέρῳ οὔτε ἑαυτῷ ἔσται, οὐδʼ αὖ ἕτερον οὔτε αὑτοῦ οὔτε ἑτέρου ἂν εἴη.</said>
+<said xml:id="grc-utterance-000100">πῇ δή;</said>
+<said xml:id="grc-utterance-000101">ἕτερον μέν που ἑαυτοῦ ὂν ἑνὸς ἕτερον ἂν εἴη καὶ οὐκ ἂν εἴη ἕν.</said>
+<said xml:id="grc-utterance-000102">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000103">καὶ μὴν ταὐτόν γε ἑτέρῳ ὂν ἐκεῖνο ἂν εἴη, αὐτὸ
+<milestone unit="section" resp="Stephanus" n="139c" xml:id="grc-stephanus-section-139c" />δʼ οὐκ ἂν εἴη· ὥστε οὐδʼ ἂν οὕτως εἴη ὅπερ ἔστιν, ἕν, ἀλλʼ ἕτερον ἑνός.</said>
+<said xml:id="grc-utterance-000104">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000105">ταὐτὸν μὲν ἄρα ἑτέρῳ ἢ ἕτερον ἑαυτοῦ οὐκ ἔσται.</said>
+<said xml:id="grc-utterance-000106">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000107">ἕτερον δέ γε ἑτέρου οὐκ ἔσται, ἕως ἂν ᾖ ἕν· οὐ γὰρ ἑνὶ προσήκει ἑτέρῳ τινὸς εἶναι, ἀλλὰ μόνῳ ἑτέρῳ ἑτέρου, ἄλλῳ δὲ οὐδενί.</said>
+<said xml:id="grc-utterance-000108">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000109">τῷ μὲν ἄρα ἓν εἶναι οὐκ ἔσται ἕτερον· ἢ οἴει;</said>
+<said xml:id="grc-utterance-000110">οὐ δῆτα.</said>
+<said xml:id="grc-utterance-000111">ἀλλὰ μὴν εἰ μὴ τούτῳ, οὐχ ἑαυτῷ ἔσται, εἰ δὲ μὴ αὑτῷ, οὐδὲ αὐτό· αὐτὸ δὲ μηδαμῇ ὂν ἕτερον οὐδενὸς ἔσται
+<milestone unit="section" resp="Stephanus" n="139d" xml:id="grc-stephanus-section-139d" />ἕτερον.</said>
+<said xml:id="grc-utterance-000112">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000113">οὐδὲ μὴν ταὐτόν γε ἑαυτῷ ἔσται.</said>
+<said xml:id="grc-utterance-000114">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000115">οὐχ ἥπερ τοῦ ἑνὸς φύσις, αὑτὴ δήπου καὶ τοῦ ταὐτοῦ.</said>
+<said xml:id="grc-utterance-000116">τί δή;</said>
+<said xml:id="grc-utterance-000117">ὅτι οὐκ, ἐπειδὰν ταὐτὸν γένηταί τῴ τι, ἓν γίγνεται.</said>
+<said xml:id="grc-utterance-000118">ἀλλὰ τί μήν;</said>
+<said xml:id="grc-utterance-000119">τοῖς πολλοῖς ταὐτὸν γενόμενον πολλὰ ἀνάγκη γίγνεσθαι ἀλλʼ οὐχ ἕν.</said>
+<said xml:id="grc-utterance-000120">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000121">ἀλλʼ εἰ τὸ ἓν καὶ τὸ ταὐτὸν μηδαμῇ διαφέρει, ὁπότε τι ταὐτὸν ἐγίγνετο, ἀεὶ ἂν ἓν ἐγίγνετο, καὶ ὁπότε ἕν, ταὐτόν.</said>
+<milestone unit="section" resp="Stephanus" n="139e" xml:id="grc-stephanus-section-139e" />
+<said xml:id="grc-utterance-000122">πάνυ γε.</said>
+<said xml:id="grc-utterance-000123">εἰ ἄρα τὸ ἓν ἑαυτῷ ταὐτὸν ἔσται, οὐχ ἓν ἑαυτῷ ἔσται· καὶ οὕτω ἓν ὂν οὐχ ἓν ἔσται. ἀλλὰ μὴν τοῦτό γε ἀδύνατον· ἀδύνατον ἄρα καὶ τῷ ἑνὶ ἢ ἑτέρου ἕτερον εἶναι ἢ ἑαυτῷ ταὐτόν.</said>
+<said xml:id="grc-utterance-000124">ἀδύνατον.</said>
+<said xml:id="grc-utterance-000125">οὕτω δὴ ἕτερόν γε ἢ ταὐτὸν τὸ ἓν οὔτʼ ἂν αὑτῷ οὔτʼ ἂν ἑτέρῳ εἴη.</said>
+<said xml:id="grc-utterance-000126">οὐ γὰρ οὖν.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="140" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-140">
+<p xml:id="grc-p-000015"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000127"><milestone unit="para" ed="P" />οὐδὲ μὴν ὅμοιόν τινι ἔσται οὐδʼ ἀνόμοιον οὔτε αὑτῷ οὔτε ἑτέρῳ.
+<said xml:id="grc-utterance-000128">τί δή;</said>
+<said xml:id="grc-utterance-000129">ὅτι τὸ ταὐτόν που πεπονθὸς ὅμοιον.</said>
+<said xml:id="grc-utterance-000130">ναί.</said>
+<said xml:id="grc-utterance-000131">τοῦ δέ γε ἑνὸς χωρὶς ἐφάνη τὴν φύσιν τὸ ταὐτόν.</said>
+
+<milestone n="140" unit="page" /><milestone unit="section" resp="Stephanus" n="140a" xml:id="grc-stephanus-section-140a" />
+<said xml:id="grc-utterance-000132">ἐφάνη γάρ.</said>
+<said xml:id="grc-utterance-000133">ἀλλὰ μὴν εἴ τι πέπονθε χωρὶς τοῦ ἓν εἶναι τὸ ἕν, πλείω ἂν εἶναι πεπόνθοι ἢ ἕν, τοῦτο δὲ ἀδύνατον.</said>
+<said xml:id="grc-utterance-000134">ναί.</said>
+<said xml:id="grc-utterance-000135">οὐδαμῶς ἔστιν ἄρα ταὐτὸν πεπονθὸς εἶναι τὸ ἓν οὔτε ἄλλῳ οὔτε ἑαυτῷ.</said>
+<said xml:id="grc-utterance-000136">οὐ φαίνεται.</said>
+<said xml:id="grc-utterance-000137">οὐδὲ ὅμοιον ἄρα δυνατὸν αὐτὸ εἶναι οὔτε ἄλλῳ οὔτε ἑαυτῷ.</said>
+<said xml:id="grc-utterance-000138">οὐκ ἔοικεν.</said>
+<said xml:id="grc-utterance-000139">οὐδὲ μὴν ἕτερόν γε πέπονθεν εἶναι τὸ ἕν· καὶ γὰρ οὕτω πλείω ἂν πεπόνθοι εἶναι ἢ ἕν.</said>
+<said xml:id="grc-utterance-000140">πλείω γάρ.</said>
+<said xml:id="grc-utterance-000141">τό γε μὴν ἕτερον πεπονθὸς ἢ ἑαυτοῦ ἢ ἄλλου ἀνόμοιον ἂν εἴη ἢ ἑαυτῷ
+<milestone unit="section" resp="Stephanus" n="140b" xml:id="grc-stephanus-section-140b" />ἢ ἄλλῳ, εἴπερ τὸ ταὐτὸν πεπονθὸς ὅμοιον.</said>
+<said xml:id="grc-utterance-000142">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000143">τὸ δέ γε ἕν, ὡς ἔοικεν, οὐδαμῶς ἕτερον πεπονθὸς οὐδαμῶς ἀνόμοιόν ἐστιν οὔτε αὑτῷ οὔτε ἑτέρῳ.</said>
+<said xml:id="grc-utterance-000144">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000145">οὔτε ἄρα ὅμοιον οὔτε ἀνόμοιον οὔθʼ ἑτέρῳ οὔτε ἑαυτῷ ἂν εἴη τὸ ἕν.</said>
+<said xml:id="grc-utterance-000146">οὐ φαίνεται.<milestone unit="para" ed="P" />καὶ μὴν τοιοῦτόν γε ὂν οὔτε ἴσον οὔτε ἄνισον ἔσται οὔτε ἑαυτῷ οὔτε ἄλλῳ.</said>
+<said xml:id="grc-utterance-000147">πῇ;</said>
+<said xml:id="grc-utterance-000148">ἴσον μὲν ὂν τῶν αὐτῶν μέτρων ἔσται ἐκείνῳ ᾧ ἂν ἴσον ᾖ.</said>
+<said xml:id="grc-utterance-000149">ναί.</said>
+<said xml:id="grc-utterance-000150">μεῖζον δέ που
+<milestone unit="section" resp="Stephanus" n="140c" xml:id="grc-stephanus-section-140c" />ἢ ἔλαττον ὄν, οἷς μὲν ἂν σύμμετρον ᾖ, τῶν μὲν ἐλαττόνων πλείω μέτρα ἕξει, τῶν δὲ μειζόνων ἐλάττω.</said>
+<said xml:id="grc-utterance-000151">ναί.</said>
+<said xml:id="grc-utterance-000152">οἷς δʼ ἂν μὴ σύμμετρον, τῶν μὲν σμικροτέρων, τῶν δὲ μειζόνων μέτρων ἔσται.</said>
+<said xml:id="grc-utterance-000153">πῶς γὰρ οὔ;</said>
+<said xml:id="grc-utterance-000154">οὐκοῦν ἀδύνατον τὸ μὴ μετέχον τοῦ αὐτοῦ ἢ μέτρων τῶν αὐτῶν εἶναι ἢ ἄλλων ὡντινωνοῦν τῶν αὐτῶν;</said>
+<said xml:id="grc-utterance-000155">ἀδύνατον.</said>
+<said xml:id="grc-utterance-000156">ἴσον μὲν ἄρα οὔτʼ ἂν ἑαυτῷ οὔτε ἄλλῳ εἴη μὴ τῶν αὐτῶν μέτρων ὄν.</said>
+<said xml:id="grc-utterance-000157">οὔκουν φαίνεταί γε.</said>
+<said xml:id="grc-utterance-000158">ἀλλὰ μὴν πλειόνων γε μέτρων ὂν ἢ ἐλαττόνων, ὅσωνπερ μέτρων, τοσούτων καὶ μερῶν ἂν εἴη· καὶ
+<milestone unit="section" resp="Stephanus" n="140d" xml:id="grc-stephanus-section-140d" />οὕτω αὖ οὐκέτι ἓν ἔσται ἀλλὰ τοσαῦτα ὅσαπερ καὶ τὰ μέτρα.</said>
+<said xml:id="grc-utterance-000159">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000160">εἰ δέ γε ἑνὸς μέτρου εἴη, ἴσον ἂν γίγνοιτο τῷ μέτρῳ· τοῦτο δὲ ἀδύνατον ἐφάνη, ἴσον τῳ αὐτὸ εἶναι.</said>
+<said xml:id="grc-utterance-000161">ἐφάνη γάρ.</said>
+<said xml:id="grc-utterance-000162">οὔτε ἄρα ἑνὸς μέτρου μετέχον οὔτε πολλῶν οὔτε ὀλίγων, οὔτε τὸ παράπαν τοῦ αὐτοῦ μετέχον, οὔτε ἑαυτῷ ποτε, ὡς ἔοικεν, ἔσται ἴσον οὔτε ἄλλῳ· οὔτε αὖ μεῖζον οὐδὲ ἔλαττον οὔτε ἑαυτοῦ οὔτε ἑτέρου.</said>
+<said xml:id="grc-utterance-000163">παντάπασι μὲν οὖν οὕτω.
+<milestone unit="section" resp="Stephanus" n="140e" xml:id="grc-stephanus-section-140e" /><milestone unit="para" ed="P" />τί δέ; πρεσβύτερον ἢ νεώτερον ἢ τὴν αὐτὴν ἡλικίαν ἔχειν τὸ ἓν δοκεῖ τῳ δυνατὸν εἶναι;</said>
+<said xml:id="grc-utterance-000164">τί δὴ γὰρ οὔ;</said>
+<said xml:id="grc-utterance-000165">ὅτι που ἡλικίαν μὲν τὴν αὐτὴν ἔχον ἢ αὑτῷ ἢ ἄλλῳ ἰσότητος χρόνου καὶ ὁμοιότητος μεθέξει, ὧν ἐλέγομεν οὐ μετεῖναι τῷ ἑνί, οὔτε ὁμοιότητος οὔτε ἰσότητος.</said>
+<said xml:id="grc-utterance-000166">ἐλέγομεν γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000167">καὶ μὴν καὶ ὅτι ἀνομοιότητός τε καὶ ἀνισότητος οὐ μετέχει, καὶ τοῦτο ἐλέγομεν.</said>
+<said xml:id="grc-utterance-000168">πάνυ μὲν οὖν.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="141" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-141">
+<p xml:id="grc-p-000016"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000169">				
+<said xml:id="grc-utterance-000170">πῶς οὖν
+
+<milestone n="141" unit="page" /><milestone unit="section" resp="Stephanus" n="141a" xml:id="grc-stephanus-section-141a" />οἷόν τε ἔσται τινὸς ἢ πρεσβύτερον ἢ νεώτερον εἶναι ἢ τὴν αὐτὴν ἡλικίαν ἔχειν τῳ τοιοῦτον ὄν;</said>
+<said xml:id="grc-utterance-000171">οὐδαμῶς.</said>
+<said xml:id="grc-utterance-000172">οὐκ ἄρα ἂν εἴη νεώτερόν γε οὐδὲ πρεσβύτερον οὐδὲ τὴν αὐτὴν ἡλικίαν ἔχον τὸ ἓν οὔτε αὑτῷ οὔτε ἄλλῳ.</said>
+<said xml:id="grc-utterance-000173">οὐ φαίνεται.</said>
+<said xml:id="grc-utterance-000174">ἆρʼ οὖν οὐδὲ ἐν χρόνῳ τὸ παράπαν δύναιτο ἂν εἶναι τὸ ἕν, εἰ τοιοῦτον εἴη; ἢ οὐκ ἀνάγκη, ἐάν τι ᾖ ἐν χρόνῳ, ἀεὶ αὐτὸ αὑτοῦ πρεσβύτερον γίγνεσθαι;</said>
+<said xml:id="grc-utterance-000175">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000176">οὐκοῦν τό γε πρεσβύτερον ἀεὶ νεωτέρου πρεσβύτερον;</said>
+<said xml:id="grc-utterance-000177">τί μήν;</said>
+<milestone unit="section" resp="Stephanus" n="141b" xml:id="grc-stephanus-section-141b" />
+<said xml:id="grc-utterance-000178">τὸ πρεσβύτερον ἄρα ἑαυτοῦ γιγνόμενον καὶ νεώτερον ἑαυτοῦ ἅμα γίγνεται, εἴπερ μέλλει ἔχειν ὅτου πρεσβύτερον γίγνηται.</said>
+<said xml:id="grc-utterance-000179">πῶς λέγεις;</said>
+<said xml:id="grc-utterance-000180">ὧδε· διάφορον ἕτερον ἑτέρου οὐδὲν δεῖ γίγνεσθαι ἤδη ὄντος διαφόρου, ἀλλὰ τοῦ μὲν ἤδη ὄντος ἤδη εἶναι, τοῦ δὲ γεγονότος γεγονέναι, τοῦ δὲ μέλλοντος μέλλειν, τοῦ δὲ γιγνομένου οὔτε γεγονέναι οὔτε μέλλειν οὔτε εἶναί πω διάφορον, ἀλλὰ γίγνεσθαι καὶ ἄλλως
+<milestone unit="section" resp="Stephanus" n="141c" xml:id="grc-stephanus-section-141c" />οὐκ εἶναι.</said>
+<said xml:id="grc-utterance-000181">ἀνάγκη γὰρ δή.</said>
+<said xml:id="grc-utterance-000182">ἀλλὰ μὴν τό γε πρεσβύτερον διαφορότης νεωτέρου ἐστὶν καὶ οὐδενὸς ἄλλου.</said>
+<said xml:id="grc-utterance-000183">ἔστι γάρ.</said>
+<said xml:id="grc-utterance-000184">τὸ ἄρα πρεσβύτερον ἑαυτοῦ γιγνόμενον ἀνάγκη καὶ νεώτερον ἅμα ἑαυτοῦ γίγνεσθαι.</said>
+<said xml:id="grc-utterance-000185">ἔοικεν.</said>
+<said xml:id="grc-utterance-000186">ἀλλὰ μὴν καὶ μήτε πλείω ἑαυτοῦ γίγνεσθαι χρόνον μήτε ἐλάττω, ἀλλὰ τὸν ἴσον χρόνον καὶ γίγνεσθαι ἑαυτῷ καὶ εἶναι καὶ γεγονέναι καὶ μέλλειν ἔσεσθαι.</said>
+<said xml:id="grc-utterance-000187">ἀνάγκη γὰρ οὖν καὶ ταῦτα.</said>
+<said xml:id="grc-utterance-000188">ἀνάγκη ἄρα ἐστίν, ὡς ἔοικεν, ὅσα γε ἐν χρόνῳ ἐστὶν
+<milestone unit="section" resp="Stephanus" n="141d" xml:id="grc-stephanus-section-141d" />καὶ μετέχει τοῦ τοιούτου, ἕκαστον αὐτῶν τὴν αὐτήν τε αὐτὸ αὑτῷ ἡλικίαν ἔχειν καὶ πρεσβύτερόν τε αὑτοῦ ἅμα καὶ νεώτερον γίγνεσθαι.</said>
+<said xml:id="grc-utterance-000189">κινδυνεύει.</said>
+<said xml:id="grc-utterance-000190">ἀλλὰ μὴν τῷ γε ἑνὶ τῶν τοιούτων παθημάτων οὐδὲν μετῆν.</said>
+<said xml:id="grc-utterance-000191">οὐ γὰρ μετῆν.</said>
+<said xml:id="grc-utterance-000192">οὐδὲ ἄρα χρόνου αὐτῷ μέτεστιν, οὐδʼ ἔστιν ἔν τινι χρόνῳ.</said>
+<said xml:id="grc-utterance-000193">οὔκουν δή, ὥς γε ὁ λόγος αἱρεῖ.<milestone unit="para" ed="P" />τί οὖν; τὸ ἦν καὶ τὸ γέγονε καὶ τὸ ἐγίγνετο οὐ χρόνου μέθεξιν δοκεῖ σημαίνειν τοῦ ποτὲ γεγονότος;</said>
+<said xml:id="grc-utterance-000194">καὶ μάλα.</said>
+<said xml:id="grc-utterance-000195">
+<milestone unit="section" resp="Stephanus" n="141e" xml:id="grc-stephanus-section-141e" />τί δέ; τὸ ἔσται καὶ τὸ γενήσεται καὶ τὸ γενηθήσεται οὐ τοῦ ἔπειτα <del>τοῦ μέλλοντος</del>;</said>
+<said xml:id="grc-utterance-000196">ναί.</said>
+<said xml:id="grc-utterance-000197">τὸ δὲ δὴ ἔστι καὶ τὸ γίγνεται οὐ τοῦ νῦν παρόντος;</said>
+<said xml:id="grc-utterance-000198">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000199">εἰ ἄρα τὸ ἓν μηδαμῇ μηδενὸς μετέχει χρόνου, οὔτε ποτὲ γέγονεν οὔτʼ ἐγίγνετο οὔτʼ ἦν ποτέ, οὔτε νῦν γέγονεν οὔτε γίγνεται οὔτε ἔστιν, οὔτʼ ἔπειτα γενήσεται οὔτε γενηθήσεται οὔτε ἔσται.</said>
+<said xml:id="grc-utterance-000200">ἀληθέστατα.</said>
+<said xml:id="grc-utterance-000201">ἔστιν οὖν οὐσίας ὅπως ἄν τι μετάσχοι ἄλλως ἢ κατὰ τούτων τι;</said>
+<said xml:id="grc-utterance-000202">οὐκ ἔστιν.</said>
+<said xml:id="grc-utterance-000203">οὐδαμῶς ἄρα τὸ ἓν οὐσίας μετέχει.</said>
+<said xml:id="grc-utterance-000204">οὐκ ἔοικεν.</said>
+<said xml:id="grc-utterance-000205">οὐδαμῶς ἄρα ἔστι τὸ ἕν.</said>
+<said xml:id="grc-utterance-000206">οὐ φαίνεται.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="142" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-142">
+<p xml:id="grc-p-000017"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000207">				
+<said xml:id="grc-utterance-000208">οὐδʼ ἄρα οὕτως ἔστιν ὥστε ἓν εἶναι· εἴη γὰρ ἂν ἤδη ὂν καὶ οὐσίας μετέχον· ἀλλʼ ὡς ἔοικεν, τὸ ἓν οὔτε ἕν ἐστιν οὔτε ἔστιν, εἰ δεῖ τῷ
+
+<milestone n="142" unit="page" /><milestone unit="section" resp="Stephanus" n="142a" xml:id="grc-stephanus-section-142a" />τοιῷδε λόγῳ πιστεύειν.</said>
+<said xml:id="grc-utterance-000209">κινδυνεύει.</said>
+<said xml:id="grc-utterance-000210">ὃ δὲ μὴ ἔστι, τούτῳ τῷ μὴ ὄντι εἴη ἄν τι αὐτῷ ἢ αὐτοῦ;</said>
+<said xml:id="grc-utterance-000211">καὶ πῶς;</said>
+<said xml:id="grc-utterance-000212">οὐδʼ ἄρα ὄνομα ἔστιν αὐτῷ οὐδὲ λόγος οὐδέ τις ἐπιστήμη οὐδὲ αἴσθησις οὐδὲ δόξα.</said>
+<said xml:id="grc-utterance-000213">οὐ φαίνεται.</said>
+<said xml:id="grc-utterance-000214">οὐδʼ ὀνομάζεται ἄρα οὐδὲ λέγεται οὐδὲ δοξάζεται οὐδὲ γιγνώσκεται, οὐδέ τι τῶν ὄντων αὐτοῦ αἰσθάνεται.</said>
+<said xml:id="grc-utterance-000215">οὐκ ἔοικεν.</said>
+<said xml:id="grc-utterance-000216">ἦ δυνατὸν οὖν περὶ τὸ ἓν ταῦτα οὕτως ἔχειν;</said>
+<said xml:id="grc-utterance-000217">οὔκουν ἔμοιγε δοκεῖ.
+<milestone unit="section" resp="Stephanus" n="142b" xml:id="grc-stephanus-section-142b" /><milestone unit="para" ed="P" />βούλει οὖν ἐπὶ τὴν ὑπόθεσιν πάλιν ἐξ ἀρχῆς ἐπανέλθωμεν, ἐάν τι ἡμῖν ἐπανιοῦσιν ἀλλοῖον φανῇ;</said>
+<said xml:id="grc-utterance-000218">πάνυ μὲν οὖν βούλομαι.</said>
+<said xml:id="grc-utterance-000219">οὐκοῦν <term>ἓν εἰ ἔστιν</term>, φαμέν, τὰ συμβαίνοντα περὶ αὐτοῦ, ποῖά ποτε τυγχάνει ὄντα, διομολογητέα ταῦτα· οὐχ οὕτω;</said>
+<said xml:id="grc-utterance-000220">ναί.</said>
+<said xml:id="grc-utterance-000221">ὅρα δὴ ἐξ ἀρχῆς. <term>ἓν εἰ ἔστιν</term>, ἆρα οἷόν τε αὐτὸ εἶναι μέν, οὐσίας δὲ μὴ μετέχειν;</said>
+<said xml:id="grc-utterance-000222">οὐχ οἷόν τε.</said>
+<said xml:id="grc-utterance-000223">οὐκοῦν καὶ ἡ οὐσία τοῦ ἑνὸς εἴη ἂν οὐ ταὐτὸν οὖσα τῷ ἑνί· οὐ γὰρ ἂν ἐκείνη ἦν ἐκείνου οὐσία, οὐδʼ ἂν
+<milestone unit="section" resp="Stephanus" n="142c" xml:id="grc-stephanus-section-142c" />ἐκεῖνο, τὸ ἕν, ἐκείνης μετεῖχεν, ἀλλʼ ὅμοιον ἂν ἦν λέγειν ἕν τε εἶναι καὶ ἓν ἕν. νῦν δὲ οὐχ αὕτη ἐστὶν ἡ ὑπόθεσις, <term>εἰ ἓν ἕν</term>, τί χρὴ συμβαίνειν, ἀλλʼ <term>εἰ ἓν ἔστιν</term>· οὐχ οὕτω;</said>
+<said xml:id="grc-utterance-000224">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000225">οὐκοῦν ὡς ἄλλο τι σημαῖνον τὸ <term>ἔστι</term> τοῦ <term>ἕν</term>;</said>
+<said xml:id="grc-utterance-000226">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000227">ἆρα οὖν ἄλλο ἢ ὅτι οὐσίας μετέχει τὸ ἕν, τοῦτʼ ἂν εἴη τὸ λεγόμενον, ἐπειδάν τις συλλήβδην εἴπῃ ὅτι ἓν ἔστιν;</said>
+<said xml:id="grc-utterance-000228">πάνυ γε.</said>
+<said xml:id="grc-utterance-000229">πάλιν δὴ λέγωμεν, <term>ἓν εἰ ἔστιν</term>, τί συμβήσεται. σκόπει οὖν εἰ οὐκ ἀνάγκη ταύτην τὴν ὑπόθεσιν τοιοῦτον ὂν τὸ ἓν σημαίνειν, οἷον
+<milestone unit="section" resp="Stephanus" n="142d" xml:id="grc-stephanus-section-142d" />μέρη ἔχειν;</said>
+<said xml:id="grc-utterance-000230">πῶς;</said>
+<said xml:id="grc-utterance-000231">ὧδε· εἰ τὸ <term>ἔστι</term> τοῦ ἑνὸς ὄντος λέγεται καὶ τὸ <term>ἓν</term> τοῦ ὄντος ἑνός, ἔστι δὲ οὐ τὸ αὐτὸ ἥ τε οὐσία καὶ τὸ ἕν, τοῦ αὐτοῦ δὲ ἐκείνου οὗ ὑπεθέμεθα, τοῦ ἑνὸς ὄντος, ἆρα οὐκ ἀνάγκη τὸ μὲν ὅλον ἓν ὂν εἶναι αὐτό, τούτου δὲ γίγνεσθαι μόρια τό τε ἓν καὶ τὸ εἶναι;</said>
+<said xml:id="grc-utterance-000232">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000233">πότερον οὖν ἑκάτερον τῶν μορίων τούτων μόριον μόνον προσεροῦμεν, ἢ τοῦ ὅλου μόριον τό γε μόριον προσρητέον;</said>
+<said xml:id="grc-utterance-000234">τοῦ ὅλου.</said>
+<said xml:id="grc-utterance-000235">καὶ ὅλον ἄρα ἐστί, ὃ ἂν ἓν ᾖ, καὶ μόριον ἔχει.</said>
+<said xml:id="grc-utterance-000236">πάνυ γε.</said>
+<said xml:id="grc-utterance-000237">τί οὖν; τῶν μορίων ἑκάτερον
+<milestone unit="section" resp="Stephanus" n="142e" xml:id="grc-stephanus-section-142e" />τούτων τοῦ ἑνὸς ὄντος, τό τε ἓν καὶ τὸ ὄν, ἆρα ἀπολείπεσθον ἢ τὸ ἓν τοῦ εἶναι μορίου ἢ τὸ ὂν τοῦ ἑνὸς μορίου;</said>
+<said xml:id="grc-utterance-000238">οὐκ ἂν εἴη.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="143" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-143">
+<p xml:id="grc-p-000018"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000239">				
+<said xml:id="grc-utterance-000240">πάλιν ἄρα καὶ τῶν μορίων ἑκάτερον τό τε ἓν ἴσχει καὶ τὸ ὄν, καὶ γίγνεται τὸ ἐλάχιστον ἐκ δυοῖν αὖ μορίοιν τὸ μόριον, καὶ κατὰ τὸν αὐτὸν λόγον οὕτως ἀεί, ὅτιπερ ἂν μόριον γένηται, τούτω τὼ μορίω ἀεὶ ἴσχει· τό τε γὰρ ἓν τὸ ὂν ἀεὶ ἴσχει καὶ τὸ ὂν τὸ ἕν· ὥστε ἀνάγκη
+
+<milestone n="143" unit="page" /><milestone unit="section" resp="Stephanus" n="143a" xml:id="grc-stephanus-section-143a" />δύʼ ἀεὶ γιγνόμενον μηδέποτε ἓν εἶναι.</said>
+<said xml:id="grc-utterance-000241">παντάπασι μὲν οὖν.</said>
+<said xml:id="grc-utterance-000242">οὐκοῦν ἄπειρον ἂν τὸ πλῆθος οὕτω τὸ ἓν ὂν εἴη;</said>
+<said xml:id="grc-utterance-000243">ἔοικεν.<milestone unit="para" ed="P" />ἴθι δὴ καὶ τῇδε ἔτι.</said>
+<said xml:id="grc-utterance-000244">πῇ;</said>
+<said xml:id="grc-utterance-000245">οὐσίας φαμὲν μετέχειν τὸ ἕν, διὸ ἔστιν;</said>
+<said xml:id="grc-utterance-000246">ναί.</said>
+<said xml:id="grc-utterance-000247">καὶ διὰ ταῦτα δὴ τὸ ἓν ὂν πολλὰ ἐφάνη.</said>
+<said xml:id="grc-utterance-000248">οὕτω.</said>
+<said xml:id="grc-utterance-000249">τί δέ; αὐτὸ τὸ ἕν, ὃ δή φαμεν οὐσίας μετέχειν, ἐὰν αὐτὸ τῇ διανοίᾳ μόνον καθʼ αὑτὸ λάβωμεν ἄνευ τούτου οὗ φαμεν μετέχειν, ἆρά γε ἓν μόνον φανήσεται ἢ καὶ πολλὰ τὸ αὐτὸ τοῦτο;</said>
+<said xml:id="grc-utterance-000250">ἕν, οἶμαι ἔγωγε.</said>
+<said xml:id="grc-utterance-000251">
+<milestone unit="section" resp="Stephanus" n="143b" xml:id="grc-stephanus-section-143b" />ἴδωμεν δή· ἄλλο τι ἕτερον μὲν ἀνάγκη τὴν οὐσίαν αὐτοῦ εἶναι, ἕτερον δὲ αὐτό, εἴπερ μὴ οὐσία τὸ ἕν, ἀλλʼ ὡς ἓν οὐσίας μετέσχεν.</said>
+<said xml:id="grc-utterance-000252">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000253">οὐκοῦν εἰ ἕτερον μὲν ἡ οὐσία, ἕτερον δὲ τὸ ἕν, οὔτε τῷ ἓν τὸ ἓν τῆς οὐσίας ἕτερον οὔτε τῷ οὐσία εἶναι ἡ οὐσία τοῦ ἑνὸς ἄλλο, ἀλλὰ τῷ ἑτέρῳ τε καὶ ἄλλῳ ἕτερα ἀλλήλων.</said>
+<said xml:id="grc-utterance-000254">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000255">ὥστε οὐ ταὐτόν ἐστιν οὔτε τῷ ἑνὶ οὔτε τῇ οὐσίᾳ τὸ ἕτερον.</said>
+<said xml:id="grc-utterance-000256">πῶς γάρ;
+<milestone unit="section" resp="Stephanus" n="143c" xml:id="grc-stephanus-section-143c" /><milestone unit="para" ed="P" />τί οὖν; ἐὰν προελώμεθα αὐτῶν εἴτε βούλει τὴν οὐσίαν καὶ τὸ ἕτερον εἴτε τὴν οὐσίαν καὶ τὸ ἓν εἴτε τὸ ἓν καὶ τὸ ἕτερον, ἆρʼ οὐκ ἐν ἑκάστῃ τῇ προαιρέσει προαιρούμεθά τινε ὣ ὀρθῶς ἔχει καλεῖσθαι ἀμφοτέρω;</said>
+<said xml:id="grc-utterance-000257">πῶς;</said>
+<said xml:id="grc-utterance-000258">ὧδε· ἔστιν οὐσίαν εἰπεῖν;</said>
+<said xml:id="grc-utterance-000259">ἔστιν.</said>
+<said xml:id="grc-utterance-000260">καὶ αὖθις εἰπεῖν ἕν;</said>
+<said xml:id="grc-utterance-000261">καὶ τοῦτο.</said>
+<said xml:id="grc-utterance-000262">ἆρʼ οὖν οὐχ ἑκάτερον αὐτοῖν εἴρηται;</said>
+<said xml:id="grc-utterance-000263">ναί.</said>
+<said xml:id="grc-utterance-000264">τί δʼ ὅταν εἴπω οὐσία τε καὶ ἕν, ἆρα οὐκ ἀμφοτέρω;</said>
+<said xml:id="grc-utterance-000265">πάνυ γε.</said>
+<said xml:id="grc-utterance-000266">οὐκοῦν καὶ ἐὰν οὐσία τε καὶ ἕτερον ἢ ἕτερόν τε καὶ ἕν, καὶ οὕτω πανταχῶς ἐφʼ ἑκάστου ἄμφω λέγω;</said>
+<said xml:id="grc-utterance-000267">ναί.</said>
+<said xml:id="grc-utterance-000268">
+<milestone unit="section" resp="Stephanus" n="143d" xml:id="grc-stephanus-section-143d" />ὣ δʼ ἂν ἄμφω ὀρθῶς προσαγορεύησθον, ἆρα οἷόν τε ἄμφω μὲν αὐτὼ εἶναι, δύο δὲ μή;</said>
+<said xml:id="grc-utterance-000269">οὐχ οἷόν τε.</said>
+<said xml:id="grc-utterance-000270">ὣ δʼ ἂν δύο ἦτον, ἔστι τις μηχανὴ μὴ οὐχ ἑκάτερον αὐτοῖν ἓν εἶναι;</said>
+<said xml:id="grc-utterance-000271">οὐδεμία.</said>
+<said xml:id="grc-utterance-000272">τούτων ἄρα ἐπείπερ σύνδυο ἕκαστα συμβαίνει εἶναι, καὶ ἓν ἂν εἴη ἕκαστον.</said>
+<said xml:id="grc-utterance-000273">φαίνεται.</said>
+<said xml:id="grc-utterance-000274">εἰ δὲ ἓν ἕκαστον αὐτῶν ἐστι, συντεθέντος ἑνὸς ὁποιουοῦν ᾑτινιοῦν συζυγίᾳ οὐ τρία γίγνεται τὰ πάντα;</said>
+<said xml:id="grc-utterance-000275">ναί.</said>
+<said xml:id="grc-utterance-000276">τρία δὲ οὐ περιττὰ καὶ δύο ἄρτια;</said>
+<said xml:id="grc-utterance-000277">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000278">τί δέ; δυοῖν ὄντοιν οὐκ
+<milestone unit="section" resp="Stephanus" n="143e" xml:id="grc-stephanus-section-143e" />ἀνάγκη εἶναι καὶ δίς, καὶ τριῶν ὄντων τρίς, εἴπερ ὑπάρχει τῷ τε δύο τὸ δὶς ἓν καὶ τῷ τρία τὸ τρὶς ἕν;</said>
+<said xml:id="grc-utterance-000279">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000280">δυοῖν δὲ ὄντοιν καὶ δὶς οὐκ ἀνάγκη δύο δὶς εἶναι; καὶ τριῶν καὶ τρὶς οὐκ ἀνάγκη αὖ τρία τρὶς εἶναι;</said>
+<said xml:id="grc-utterance-000281">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000282">τί δέ; τριῶν ὄντων καὶ δὶς ὄντων καὶ δυοῖν ὄντοιν καὶ τρὶς ὄντοιν οὐκ ἀνάγκη τε τρία δὶς εἶναι καὶ δύο τρίς;</said>
+<said xml:id="grc-utterance-000283">πολλή γε.</said></said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="144" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-144">
+					<p xml:id="grc-p-000019"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000284">				
+<said xml:id="grc-utterance-000285">ἄρτιά τε ἄρα ἀρτιάκις ἂν εἴη καὶ
+
+<milestone n="144" unit="page" /><milestone unit="section" resp="Stephanus" n="144a" xml:id="grc-stephanus-section-144a" />περιττὰ περιττάκις καὶ ἄρτια περιττάκις καὶ περιττὰ ἀρτιάκις.</said>
+<said xml:id="grc-utterance-000286">ἔστιν οὕτω.</said>
+<said xml:id="grc-utterance-000287">εἰ οὖν ταῦτα οὕτως ἔχει, οἴει τινὰ ἀριθμὸν ὑπολείπεσθαι ὃν οὐκ ἀνάγκη εἶναι;</said>
+<said xml:id="grc-utterance-000288">οὐδαμῶς γε.</said>
+<said xml:id="grc-utterance-000289">εἰ ἄρα ἔστιν ἕν, ἀνάγκη καὶ ἀριθμὸν εἶναι.</said>
+<said xml:id="grc-utterance-000290">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000291">ἀλλὰ μὴν ἀριθμοῦ γε ὄντος πολλὰ ἂν εἴη καὶ πλῆθος ἄπειρον τῶν ὄντων· ἢ οὐκ ἄπειρος ἀριθμὸς πλήθει καὶ μετέχων οὐσίας γίγνεται;</said>
+<said xml:id="grc-utterance-000292">καὶ πάνυ γε.</said>
+<said xml:id="grc-utterance-000293">οὐκοῦν εἰ πᾶς ἀριθμὸς οὐσίας μετέχει, καὶ τὸ μόριον ἕκαστον τοῦ ἀριθμοῦ μετέχοι ἂν αὐτῆς;</said>
+<said xml:id="grc-utterance-000294">ναί.
+<milestone unit="section" resp="Stephanus" n="144b" xml:id="grc-stephanus-section-144b" /><milestone unit="para" ed="P" />ἐπὶ πάντα ἄρα πολλὰ ὄντα ἡ οὐσία νενέμηται καὶ οὐδενὸς ἀποστατεῖ τῶν ὄντων, οὔτε τοῦ σμικροτάτου οὔτε τοῦ μεγίστου; ἢ τοῦτο μὲν καὶ ἄλογον ἐρέσθαι; πῶς γὰρ ἂν δὴ οὐσία γε τῶν ὄντων του ἀποστατοῖ;</said>
+<said xml:id="grc-utterance-000295">οὐδαμῶς.</said>
+<said xml:id="grc-utterance-000296">κατακεκερμάτισται ἄρα ὡς οἷόν τε σμικρότατα καὶ μέγιστα καὶ πανταχῶς ὄντα, καὶ μεμέρισται πάντων μάλιστα, καὶ ἔστι
+<milestone unit="section" resp="Stephanus" n="144c" xml:id="grc-stephanus-section-144c" />μέρη ἀπέραντα τῆς οὐσίας.</said>
+<said xml:id="grc-utterance-000297">ἔχει οὕτω.</said>
+<said xml:id="grc-utterance-000298">πλεῖστα ἄρα ἐστὶ τὰ μέρη αὐτῆς.</said>
+<said xml:id="grc-utterance-000299">πλεῖστα μέντοι.</said>
+<said xml:id="grc-utterance-000300">τί οὖν; ἔστι τι αὐτῶν ὃ ἔστι μὲν μέρος τῆς οὐσίας, οὐδὲν μέντοι μέρος;</said>
+<said xml:id="grc-utterance-000301">καὶ πῶς ἄν <del>τοι</del> τοῦτο γένοιτο;</said>
+<said xml:id="grc-utterance-000302">ἀλλʼ εἴπερ γε οἶμαι ἔστιν, ἀνάγκη αὐτὸ ἀεί, ἕωσπερ ἂν ᾖ, ἕν γέ τι εἶναι, μηδὲν δὲ ἀδύνατον.</said>
+<said xml:id="grc-utterance-000303">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000304">πρὸς ἅπαντι ἄρα <del>ἑκάστῳ</del> τῷ τῆς οὐσίας μέρει πρόσεστιν τὸ ἕν, οὐκ ἀπολειπόμενον οὔτε σμικροτέρου οὔτε μείζονος μέρους οὔτε ἄλλου οὐδενός.</said>
+<said xml:id="grc-utterance-000305">οὕτω.</said>
+<said xml:id="grc-utterance-000306">ἆρα οὖν ἓν
+<milestone unit="section" resp="Stephanus" n="144d" xml:id="grc-stephanus-section-144d" />ὂν πολλαχοῦ ἅμα ὅλον ἐστί; τοῦτο ἄθρει.</said>
+<said xml:id="grc-utterance-000307">ἀλλʼ ἀθρῶ καὶ ὁρῶ ὅτι ἀδύνατον.</said>
+<said xml:id="grc-utterance-000308">μεμερισμένον ἄρα, εἴπερ μὴ ὅλον· ἄλλως γάρ που οὐδαμῶς ἅμα ἅπασι τοῖς τῆς οὐσίας μέρεσιν παρέσται ἢ μεμερισμένον.</said>
+<said xml:id="grc-utterance-000309">ναί.</said>
+<said xml:id="grc-utterance-000310">καὶ μὴν τό γε μεριστὸν πολλὴ ἀνάγκη εἶναι τοσαῦτα ὅσαπερ μέρη.</said>
+<said xml:id="grc-utterance-000311">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000312">οὐκ ἄρα ἀληθῆ ἄρτι ἐλέγομεν λέγοντες ὡς πλεῖστα μέρη ἡ οὐσία νενεμημένη εἴη. οὐδὲ γὰρ πλείω τοῦ ἑνὸς νενέμηται, ἀλλʼ
+<milestone unit="section" resp="Stephanus" n="144e" xml:id="grc-stephanus-section-144e" />ἴσα, ὡς ἔοικε, τῷ ἑνί· οὔτε γὰρ τὸ ὂν τοῦ ἑνὸς ἀπολείπεται οὔτε τὸ ἓν τοῦ ὄντος, ἀλλʼ ἐξισοῦσθον δύο ὄντε ἀεὶ παρὰ πάντα.</said>
+<said xml:id="grc-utterance-000313">παντάπασιν οὕτω φαίνεται.</said>
+<said xml:id="grc-utterance-000314">τὸ ἓν ἄρα αὐτὸ κεκερματισμένον ὑπὸ τῆς οὐσίας πολλά τε καὶ ἄπειρα τὸ πλῆθός ἐστιν.</said>
+<said xml:id="grc-utterance-000315">φαίνεται.</said>
+<said xml:id="grc-utterance-000316">οὐ μόνον ἄρα τὸ ὂν ἓν πολλά ἐστιν, ἀλλὰ καὶ αὐτὸ τὸ ἓν ὑπὸ τοῦ ὄντος διανενεμημένον πολλὰ ἀνάγκη εἶναι.</said>
+<said xml:id="grc-utterance-000317">παντάπασι μὲν οὖν.</said></said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="145" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-145">
+					
+					<p xml:id="grc-p-000020"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000318"><milestone unit="para" ed="P" />
+						<said xml:id="grc-utterance-000319">καὶ μὴν ὅτι γε ὅλου τὰ μόρια μόρια, πεπερασμένον ἂν εἴη κατὰ τὸ ὅλον τὸ ἕν· ἢ οὐ περιέχεται ὑπὸ τοῦ ὅλου τὰ <milestone n="145" unit="page" /><milestone unit="section" resp="Stephanus" n="145a" xml:id="grc-stephanus-section-145a" />μόρια;</said>
+<said xml:id="grc-utterance-000320">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000321">ἀλλὰ μὴν τό γε περιέχον πέρας ἂν εἴη.</said>
+<said xml:id="grc-utterance-000322">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000323">τὸ ἓν ἄρα ὂν ἕν τέ ἐστί που καὶ πολλά, καὶ ὅλον καὶ μόρια, καὶ πεπερασμένον καὶ ἄπειρον πλήθει.</said>
+<said xml:id="grc-utterance-000324">φαίνεται.</said>
+<said xml:id="grc-utterance-000325">ἆρʼ οὖν οὐκ, ἐπείπερ πεπερασμένον, καὶ ἔσχατα ἔχον;</said>
+<said xml:id="grc-utterance-000326">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000327">τί δέ; εἰ ὅλον, οὐ καὶ ἀρχὴν ἂν ἔχοι καὶ μέσον καὶ τελευτήν; ἢ οἷόν τέ τι ὅλον εἶναι ἄνευ τριῶν τούτων; κἄν του ἓν ὁτιοῦν αὐτῶν ἀποστατῇ, ἐθελήσει ἔτι ὅλον εἶναι;</said>
+<said xml:id="grc-utterance-000328">οὐκ ἐθελήσει.</said>
+<said xml:id="grc-utterance-000329">καὶ ἀρχὴν δή, ὡς ἔοικεν, καὶ
+<milestone unit="section" resp="Stephanus" n="145b" xml:id="grc-stephanus-section-145b" />τελευτὴν καὶ μέσον ἔχοι ἂν τὸ ἕν.</said>
+<said xml:id="grc-utterance-000330">ἔχοι.</said>
+<said xml:id="grc-utterance-000331">ἀλλὰ μὴν τό γε μέσον ἴσον τῶν ἐσχάτων ἀπέχει· οὐ γὰρ ἂν ἄλλως μέσον εἴη.</said>
+<said xml:id="grc-utterance-000332">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000333">καὶ σχήματος δή τινος, ὡς ἔοικε, τοιοῦτον ὂν μετέχοι ἂν τὸ ἕν, ἤτοι εὐθέος ἢ στρογγύλου ἤ τινος μεικτοῦ ἐξ ἀμφοῖν.</said>
+<said xml:id="grc-utterance-000334">μετέχοι γὰρ ἄν.<milestone unit="para" ed="P" />ἆρʼ οὖν οὕτως ἔχον οὐκ αὐτό τε ἐν ἑαυτῷ ἔσται καὶ ἐν ἄλλῳ;</said>
+<said xml:id="grc-utterance-000335">πῶς;</said>
+<said xml:id="grc-utterance-000336">τῶν μερῶν που ἕκαστον ἐν τῷ ὅλῳ ἐστὶ καὶ οὐδὲν ἐκτὸς τοῦ ὅλου.</said>
+<said xml:id="grc-utterance-000337">οὕτω.</said>
+<said xml:id="grc-utterance-000338">πάντα δὲ τὰ μέρη ὑπὸ τοῦ
+<milestone unit="section" resp="Stephanus" n="145c" xml:id="grc-stephanus-section-145c" />ὅλου περιέχεται;</said>
+<said xml:id="grc-utterance-000339">ναί.</said>
+<said xml:id="grc-utterance-000340">καὶ μὴν τά γε πάντα μέρη τὰ αὑτοῦ τὸ ἕν ἐστι, καὶ οὔτε τι πλέον οὔτε ἔλαττον ἢ πάντα.</said>
+<said xml:id="grc-utterance-000341">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000342">οὐκοῦν καὶ τὸ ὅλον τὸ ἕν ἐστιν;</said>
+<said xml:id="grc-utterance-000343">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000344">εἰ ἄρα πάντα τὰ μέρη ἐν ὅλῳ τυγχάνει ὄντα, ἔστι δὲ τά τε πάντα τὸ ἓν καὶ αὐτὸ τὸ ὅλον, περιέχεται δὲ ὑπὸ τοῦ ὅλου τὰ πάντα, ὑπὸ τοῦ ἑνὸς ἂν περιέχοιτο τὸ ἕν, καὶ οὕτως ἂν ἤδη τὸ ἓν αὐτὸ ἐν ἑαυτῷ εἴη.</said>
+<said xml:id="grc-utterance-000345">φαίνεται.</said>
+<said xml:id="grc-utterance-000346">ἀλλὰ μέντοι τό γε ὅλον αὖ οὐκ ἐν τοῖς μέρεσίν ἐστιν, οὔτε ἐν πᾶσιν οὔτε
+<milestone unit="section" resp="Stephanus" n="145d" xml:id="grc-stephanus-section-145d" />ἐν τινί. εἰ γὰρ ἐν πᾶσιν, ἀνάγκη καὶ ἐν ἑνί· ἔν τινι γὰρ ἑνὶ μὴ ὂν οὐκ ἂν ἔτι που δύναιτο ἔν γε ἅπασιν εἶναι· εἰ δὲ τοῦτο μὲν τὸ ἓν τῶν ἁπάντων ἐστί, τὸ δὲ ὅλον ἐν τούτῳ μὴ ἔνι, πῶς ἔτι ἔν γε τοῖς πᾶσιν ἐνέσται;</said>
+<said xml:id="grc-utterance-000347">οὐδαμῶς.</said>
+<said xml:id="grc-utterance-000348">οὐδὲ μὴν ἐν τισὶ τῶν μερῶν· εἰ γὰρ ἐν τισὶ τὸ ὅλον εἴη, τὸ πλέον ἂν ἐν τῷ ἐλάττονι εἴη, ὅ ἐστιν ἀδύνατον.</said>
+<said xml:id="grc-utterance-000349">ἀδύνατον γάρ.</said>
+<said xml:id="grc-utterance-000350">μὴ ὂν δʼ ἐν πλέοσιν μηδʼ ἐν ἑνὶ μηδʼ ἐν ἅπασι τοῖς μέρεσι τὸ ὅλον οὐκ ἀνάγκη ἐν ἑτέρῳ τινὶ εἶναι ἢ μηδαμοῦ
+<milestone unit="section" resp="Stephanus" n="145e" xml:id="grc-stephanus-section-145e" />ἔτι εἶναι;</said>
+<said xml:id="grc-utterance-000351">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000352">οὐκοῦν μηδαμοῦ μὲν ὂν οὐδὲν ἂν εἴη, ὅλον δὲ ὄν, ἐπειδὴ οὐκ ἐν αὑτῷ ἐστιν, ἀνάγκη ἐν ἄλλῳ εἶναι;</said>
+<said xml:id="grc-utterance-000353">πάνυ γε.</said>
+<said xml:id="grc-utterance-000354">ἧι μὲν ἄρα τὸ ἓν ὅλον, ἐν ἄλλῳ ἐστίν· ᾗ δὲ τὰ πάντα μέρη ὄντα τυγχάνει, αὐτὸ ἐν ἑαυτῷ· καὶ οὕτω τὸ ἓν ἀνάγκη αὐτό τε ἐν ἑαυτῷ εἶναι καὶ ἐν ἑτέρῳ.</said>
+<said xml:id="grc-utterance-000355">ἀνάγκη.<milestone unit="para" ed="P" />οὕτω δὴ πεφυκὸς τὸ ἓν ἆρʼ οὐκ ἀνάγκη καὶ κινεῖσθαι καὶ ἑστάναι;</said>
+<said xml:id="grc-utterance-000356">πῇ;</said></said></p></div>
+				
+				
+				<div type="textpart" subtype="section" resp="perseus" n="146" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-146">
+				
+					<p xml:id="grc-p-000021"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000357"><said xml:id="grc-utterance-000358">ἕστηκε μέν που, εἴπερ αὐτὸ ἐν ἑαυτῷ
+
+<milestone n="146" unit="page" /><milestone unit="section" resp="Stephanus" n="146a" xml:id="grc-stephanus-section-146a" />ἐστιν· ἐν γὰρ ἑνὶ ὂν καὶ ἐκ τούτου μὴ μεταβαῖνον ἐν τῷ αὐτῷ ἂν εἴη, ἐν ἑαυτῷ.</said>
+<said xml:id="grc-utterance-000359">ἔστι γάρ.</said>
+<said xml:id="grc-utterance-000360">τὸ δέ γε ἐν τῷ αὐτῷ ἀεὶ ὂν ἑστὸς δήπου ἀνάγκη ἀεὶ εἶναι.</said>
+<said xml:id="grc-utterance-000361">πάνυ γε.</said>
+<said xml:id="grc-utterance-000362">τί δέ; τὸ ἐν ἑτέρῳ ἀεὶ ὂν οὐ τὸ ἐναντίον ἀνάγκη μηδέποτʼ ἐν ταὐτῷ εἶναι, μηδέποτε δὲ ὂν ἐν τῷ αὐτῷ μηδὲ ἑστάναι, μὴ ἑστὸς δὲ κινεῖσθαι;</said>
+<said xml:id="grc-utterance-000363">οὕτως.</said>
+<said xml:id="grc-utterance-000364">ἀνάγκη ἄρα τὸ ἕν, αὐτό τε ἐν ἑαυτῷ ἀεὶ ὂν καὶ ἐν ἑτέρῳ, ἀεὶ κινεῖσθαί τε καὶ ἑστάναι.</said>
+<said xml:id="grc-utterance-000365">φαίνεται.<milestone unit="para" ed="P" />καὶ μὴν ταὐτόν γε δεῖ εἶναι αὐτὸ ἑαυτῷ καὶ ἕτερον
+<milestone unit="section" resp="Stephanus" n="146b" xml:id="grc-stephanus-section-146b" />ἑαυτοῦ, καὶ τοῖς ἄλλοις ὡσαύτως ταὐτόν τε καὶ ἕτερον εἶναι, εἴπερ καὶ τὰ πρόσθεν πέπονθεν.</said>
+<said xml:id="grc-utterance-000366">πῶς;</said>
+<said xml:id="grc-utterance-000367">πᾶν που πρὸς ἅπαν ὧδε ἔχει, ἢ ταὐτόν ἐστιν ἢ ἕτερον· ἢ ἐὰν μὴ ταὐτὸν ᾖ μηδʼ ἕτερον, μέρος ἂν εἴη τούτου πρὸς ὃ οὕτως ἔχει, ἢ ὡς πρὸς μέρος ὅλον ἂν εἴη.</said>
+<said xml:id="grc-utterance-000368">φαίνεται.</said>
+<said xml:id="grc-utterance-000369">ἆρʼ οὖν τὸ ἓν αὐτὸ αὑτοῦ μέρος ἐστίν;</said>
+<said xml:id="grc-utterance-000370">οὐδαμῶς.</said>
+<said xml:id="grc-utterance-000371">οὐδʼ ἄρα ὡς πρὸς μέρος αὐτὸ αὑτοῦ ὅλον ἂν εἴη, πρὸς ἑαυτὸ μέρος ὄν.</said>
+<said xml:id="grc-utterance-000372">οὐ γὰρ οἷόν
+<milestone unit="section" resp="Stephanus" n="146c" xml:id="grc-stephanus-section-146c" />τε.</said>
+<said xml:id="grc-utterance-000373">ἀλλʼ ἆρα ἕτερόν ἐστιν ἑνὸς τὸ ἕν;</said>
+<said xml:id="grc-utterance-000374">οὐ δῆτα.</said>
+<said xml:id="grc-utterance-000375">οὐδʼ ἄρα ἑαυτοῦ γε ἕτερον ἂν εἴη.</said>
+<said xml:id="grc-utterance-000376">οὐ μέντοι.</said>
+<said xml:id="grc-utterance-000377">εἰ οὖν μήτε ἕτερον μήτε ὅλον μήτε μέρος αὐτὸ πρὸς ἑαυτό ἐστιν, οὐκ ἀνάγκη ἤδη ταὐτὸν εἶναι αὐτὸ ἑαυτῷ;</said>
+<said xml:id="grc-utterance-000378">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000379">τί δέ; τὸ ἑτέρωθι ὂν αὐτὸ ἑαυτοῦ ἐν τῷ αὐτῷ ὄντος ἑαυτῷ οὐκ ἀνάγκη αὐτὸ ἑαυτοῦ ἕτερον εἶναι, εἴπερ καὶ ἑτέρωθι ἔσται;</said>
+<said xml:id="grc-utterance-000380">ἔμοιγε δοκεῖ.</said>
+<said xml:id="grc-utterance-000381">οὕτω μὴν ἐφάνη ἔχον τὸ ἕν, αὐτό τε ἐν ἑαυτῷ ὂν ἅμα καὶ ἐν ἑτέρῳ.</said>
+<said xml:id="grc-utterance-000382">ἐφάνη γάρ.</said>
+<said xml:id="grc-utterance-000383">ἕτερον ἄρα, ὡς ἔοικεν,
+<milestone unit="section" resp="Stephanus" n="146d" xml:id="grc-stephanus-section-146d" />εἴη ταύτῃ ἂν ἑαυτοῦ τὸ ἕν.</said>
+<said xml:id="grc-utterance-000384">ἔοικεν.</said>
+<said xml:id="grc-utterance-000385">τί οὖν; εἴ τού τι ἕτερόν ἐστιν, οὐχ ἑτέρου ὄντος ἕτερον ἔσται;</said>
+<said xml:id="grc-utterance-000386">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000387">οὐκοῦν ὅσα μὴ ἕν ἐστιν, ἅπανθʼ ἕτερα τοῦ ἑνός, καὶ τὸ ἓν τῶν μὴ ἕν;</said>
+<said xml:id="grc-utterance-000388">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000389">ἕτερον ἄρα ἂν εἴη τὸ ἓν τῶν ἄλλων.</said>
+<said xml:id="grc-utterance-000390">ἕτερον.</said>
+<said xml:id="grc-utterance-000391">ὅρα δή· αὐτό τε ταὐτὸν καὶ τὸ ἕτερον ἆρʼ οὐκ ἐναντία ἀλλήλοις;</said>
+<said xml:id="grc-utterance-000392">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000393">ἦ οὖν ἐθελήσει ταὐτὸν ἐν τῷ ἑτέρῳ ἢ τὸ ἕτερον ἐν ταὐτῷ ποτε εἶναι;</said>
+<said xml:id="grc-utterance-000394">οὐκ ἐθελήσει.</said>
+<said xml:id="grc-utterance-000395">εἰ ἄρα τὸ ἕτερον ἐν τῷ αὐτῷ μηδέποτε ἔσται, οὐδὲν ἔστι τῶν ὄντων ἐν ᾧ ἐστὶν τὸ ἕτερον χρόνον οὐδένα·
+<milestone unit="section" resp="Stephanus" n="146e" xml:id="grc-stephanus-section-146e" />εἰ γὰρ ὁντινοῦν εἴη ἔν τῳ, ἐκεῖνον ἂν τὸν χρόνον ἐν ταὐτῷ εἴη τὸ ἕτερον. οὐχ οὕτως;</said>
+<said xml:id="grc-utterance-000396">οὕτως.</said>
+<said xml:id="grc-utterance-000397">ἐπειδὴ δʼ οὐδέποτε ἐν τῷ αὐτῷ ἐστιν, οὐδέποτε ἔν τινι τῶν ὄντων ἂν εἴη τὸ ἕτερον.</said>
+<said xml:id="grc-utterance-000398">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000399">οὔτʼ ἄρα ἐν τοῖς μὴ ἓν οὔτε ἐν τῷ ἑνὶ ἐνείη ἂν τὸ ἕτερον.</said>
+<said xml:id="grc-utterance-000400">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000401">οὐκ ἄρα τῷ ἑτέρῳ γʼ ἂν εἴη τὸ ἓν τῶν μὴ ἓν οὐδὲ τὰ μὴ ἓν τοῦ ἑνὸς ἕτερα.</said>
+<said xml:id="grc-utterance-000402">οὐ γάρ.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="147" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-147">
+<p xml:id="grc-p-000022"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000403">				
+<said xml:id="grc-utterance-000404">οὐδὲ μὴν ἑαυτοῖς γε ἕτερʼ ἂν εἴη ἀλλήλων, μὴ μετέχοντα
+
+<milestone n="147" unit="page" /><milestone unit="section" resp="Stephanus" n="147a" xml:id="grc-stephanus-section-147a" />τοῦ ἑτέρου.</said>
+<said xml:id="grc-utterance-000405">πῶς γάρ;</said>
+<said xml:id="grc-utterance-000406">εἰ δὲ μήτε αὑτοῖς ἕτερά ἐστι μήτε τῷ ἑτέρῳ, οὐ πάντῃ ἤδη ἂν ἐκφεύγοι τὸ μὴ ἕτερα εἶναι ἀλλήλων;</said>
+<said xml:id="grc-utterance-000407">ἐκφεύγοι.</said>
+<said xml:id="grc-utterance-000408">ἀλλὰ μὴν οὐδὲ τοῦ ἑνός γε μετέχει τὰ μὴ ἕν· οὐ γὰρ ἂν μὴ ἓν ἦν, ἀλλά πῃ ἂν ἓν ἦν.</said>
+<said xml:id="grc-utterance-000409">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000410">οὐδʼ ἂν ἀριθμὸς εἴη ἄρα τὰ μὴ ἕν· οὐδὲ γὰρ ἂν οὕτω μὴ ἓν ἦν παντάπασιν, ἀριθμόν γε ἔχοντα.</said>
+<said xml:id="grc-utterance-000411">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000412">τί δέ; τὰ μὴ ἓν τοῦ ἑνὸς ἆρα μόριά ἐστιν; ἢ κἂν οὕτω μετεῖχε τοῦ ἑνὸς τὰ μὴ ἕν;</said>
+<said xml:id="grc-utterance-000413">μετεῖχεν.</said>
+<said xml:id="grc-utterance-000414">εἰ ἄρα πάντῃ τὸ μὲν ἕν ἐστι,
+<milestone unit="section" resp="Stephanus" n="147b" xml:id="grc-stephanus-section-147b" />τὰ δὲ μὴ ἕν, οὔτʼ ἂν μόριον τῶν μὴ ἓν τὸ ἓν εἴη οὔτε ὅλον ὡς μορίων· οὔτε αὖ τὰ μὴ ἓν τοῦ ἑνὸς μόρια, οὔτε ὅλα ὡς μορίῳ τῷ ἑνί.</said>
+<said xml:id="grc-utterance-000415">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000416">ἀλλὰ μὴν ἔφαμεν τὰ μήτε μόρια μήτε ὅλα μήτε ἕτερα ἀλλήλων ταὐτὰ ἔσεσθαι ἀλλήλοις.</said>
+<said xml:id="grc-utterance-000417">ἔφαμεν γάρ.</said>
+<said xml:id="grc-utterance-000418">φῶμεν ἄρα καὶ τὸ ἓν πρὸς τὰ μὴ ἓν οὕτως ἔχον τὸ αὐτὸ εἶναι αὐτοῖς;</said>
+<said xml:id="grc-utterance-000419">φῶμεν.</said>
+<said xml:id="grc-utterance-000420">τὸ ἓν ἄρα, ὡς ἔοικεν, ἕτερόν τε τῶν ἄλλων ἐστὶν καὶ ἑαυτοῦ καὶ ταὐτὸν ἐκείνοις τε καὶ ἑαυτῷ.</said>
+<said xml:id="grc-utterance-000421">κινδυνεύει φαίνεσθαι ἐκ γε τοῦ λόγου.
+<milestone unit="section" resp="Stephanus" n="147c" xml:id="grc-stephanus-section-147c" /><milestone unit="para" ed="P" />ἆρʼ οὖν καὶ ὅμοιόν τε καὶ ἀνόμοιον ἑαυτῷ τε καὶ τοῖς ἄλλοις;</said>
+<said xml:id="grc-utterance-000422">ἴσως.</said>
+<said xml:id="grc-utterance-000423">ἐπειδὴ γοῦν ἕτερον τῶν ἄλλων ἐφάνη, καὶ τἆλλά που ἕτερα ἂν ἐκείνου εἴη.</said>
+<said xml:id="grc-utterance-000424">τί μήν;</said>
+<said xml:id="grc-utterance-000425">οὐκοῦν οὕτως ἕτερον τῶν ἄλλων, ὥσπερ καὶ τἆλλα ἐκείνου, καὶ οὔτε μᾶλλον οὔτε ἧττον;</said>
+<said xml:id="grc-utterance-000426">τί γὰρ ἄν;</said>
+<said xml:id="grc-utterance-000427">εἰ ἄρα μήτε μᾶλλον μήτε ἧττον, ὁμοίως.</said>
+<said xml:id="grc-utterance-000428">ναί.</said>
+<said xml:id="grc-utterance-000429">οὐκοῦν ᾗ ἕτερον εἶναι πέπονθεν τῶν ἄλλων καὶ τἆλλα ἐκείνου ὡσαύτως, ταύτῃ ταὐτὸν ἂν πεπονθότα εἶεν τό τε ἓν τοῖς ἄλλοις καὶ τἆλλα τῷ ἑνί.</said>
+<said xml:id="grc-utterance-000430">
+<milestone unit="section" resp="Stephanus" n="147d" xml:id="grc-stephanus-section-147d" />πῶς λέγεις;</said>
+<said xml:id="grc-utterance-000431">ὧδε· ἕκαστον τῶν ὀνομάτων οὐκ ἐπί τινι καλεῖς;</said>
+<said xml:id="grc-utterance-000432">ἔγωγε.</said>
+<said xml:id="grc-utterance-000433">τί οὖν; τὸ αὐτὸ ὄνομα εἴποις ἂν πλεονάκις ἢ ἅπαξ;</said>
+<said xml:id="grc-utterance-000434">ἔγωγε.</said>
+<said xml:id="grc-utterance-000435">πότερον οὖν ἐὰν μὲν ἅπαξ εἴπῃς, ἐκεῖνο προσαγορεύεις οὗπέρ ἐστι τοὔνομα, ἐὰν δὲ πολλάκις, οὐκ ἐκεῖνο; ἢ ἐάντε ἅπαξ ἐάντε πολλάκις ταὐτὸν ὄνομα φθέγξῃ, πολλὴ ἀνάγκη σε ταὐτὸν καὶ λέγειν ἀεί;</said>
+<said xml:id="grc-utterance-000436">τί μήν;</said>
+<said xml:id="grc-utterance-000437">οὐκοῦν καὶ τὸ ἕτερον ὄνομά ἐστιν ἐπί τινι;</said>
+<said xml:id="grc-utterance-000438">πάνυ γε.</said>
+<said xml:id="grc-utterance-000439">
+<milestone unit="section" resp="Stephanus" n="147e" xml:id="grc-stephanus-section-147e" />ὅταν ἄρα αὐτὸ φθέγγῃ, ἐάντε ἅπαξ ἐάντε πολλάκις, οὐκ ἐπʼ ἄλλῳ οὐδὲ ἄλλο τι ὀνομάζεις ἢ ἐκεῖνο οὗπερ ἦν ὄνομα.</said>
+<said xml:id="grc-utterance-000440">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000441">ὅταν δὴ λέγωμεν ὅτι ἕτερον μὲν τἆλλα τοῦ ἑνός, ἕτερον δὲ τὸ ἓν τῶν ἄλλων, δὶς τὸ ἕτερον εἰπόντες οὐδέν τι μᾶλλον ἐπʼ ἄλλῃ, ἀλλʼ ἐπʼ ἐκείνῃ τῇ φύσει αὐτὸ ἀεὶ λέγομεν ἧσπερ ἦν τοὔνομα.</said>
+<said xml:id="grc-utterance-000442">πάνυ μὲν οὖν.</said></said></p></div>
+				
+				
+<div type="textpart" subtype="section" resp="perseus" n="148" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-148">
+<p xml:id="grc-p-000023"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000443"><said xml:id="grc-utterance-000444">ἧι ἄρα ἕτερον τῶν
+<milestone n="148" unit="page" /><milestone unit="section" resp="Stephanus" n="148a" xml:id="grc-stephanus-section-148a" />ἄλλων τὸ ἓν καὶ τἆλλα τοῦ ἑνός, κατʼ αὐτὸ τὸ ἕτερον πεπονθέναι οὐκ ἄλλο ἀλλὰ τὸ αὐτὸ ἂν πεπονθὸς εἴη τὸ ἓν τοῖς ἄλλοις· τὸ δέ που ταὐτὸν πεπονθὸς ὅμοιον· οὐχί;</said>
+<said xml:id="grc-utterance-000445">ναί.</said>
+<said xml:id="grc-utterance-000446">ἧι δὴ τὸ ἓν ἕτερον τῶν ἄλλων πέπονθεν εἶναι, κατʼ αὐτὸ τοῦτο ἅπαν ἅπασιν ὅμοιον ἂν εἴη· ἅπαν γὰρ ἁπάντων ἕτερόν ἐστιν.</said>
+<said xml:id="grc-utterance-000447">ἔοικεν.</said>
+<said xml:id="grc-utterance-000448">ἀλλὰ μὴν τό γε ὅμοιον τῷ ἀνομοίῳ ἐναντίον.</said>
+<said xml:id="grc-utterance-000449">ναί.</said>
+<said xml:id="grc-utterance-000450">οὐκοῦν καὶ τὸ ἕτερον τῷ ταὐτῷ.</said>
+<said xml:id="grc-utterance-000451">καὶ τοῦτο.</said>
+<said xml:id="grc-utterance-000452">ἀλλὰ μὴν καὶ τοῦτό γʼ ἐφάνη, ὡς ἄρα τὸ ἓν τοῖς
+<milestone unit="section" resp="Stephanus" n="148b" xml:id="grc-stephanus-section-148b" />ἄλλοις ταὐτόν.</said>
+<said xml:id="grc-utterance-000453">ἐφάνη γάρ.</said>
+<said xml:id="grc-utterance-000454">τοὐναντίον δέ γε πάθος ἐστὶ τὸ εἶναι ταὐτὸν τοῖς ἄλλοις τῷ ἕτερον εἶναι τῶν ἄλλων.</said>
+<said xml:id="grc-utterance-000455">πάνυ γε.</said>
+<said xml:id="grc-utterance-000456">ἧι γε μὴν ἕτερον, ὅμοιον ἐφάνη.</said>
+<said xml:id="grc-utterance-000457">ναί.</said>
+<said xml:id="grc-utterance-000458">ἧι ἄρα ταὐτόν, ἀνόμοιον ἔσται κατὰ τοὐναντίον πάθος τῷ ὁμοιοῦντι πάθει. ὡμοίου δέ που τὸ ἕτερον;</said>
+<said xml:id="grc-utterance-000459">ναί.</said>
+<said xml:id="grc-utterance-000460">ἀνομοιώσει ἄρα τὸ ταὐτόν, ἢ οὐκ ἐναντίον ἔσται τῷ ἑτέρῳ.</said>
+<said xml:id="grc-utterance-000461">
+<milestone unit="section" resp="Stephanus" n="148c" xml:id="grc-stephanus-section-148c" />ἔοικεν.</said>
+<said xml:id="grc-utterance-000462">ὅμοιον ἄρα καὶ ἀνόμοιον ἔσται τὸ ἓν τοῖς ἄλλοις, ᾗ μὲν ἕτερον, ὅμοιον, ᾗ δὲ ταὐτόν, ἀνόμοιον.</said>
+<said xml:id="grc-utterance-000463">ἔχει γὰρ οὖν δή, ὡς ἔοικεν, καὶ τοιοῦτον λόγον.</said>
+<said xml:id="grc-utterance-000464">καὶ γὰρ τόνδε ἔχει.</said>
+<said xml:id="grc-utterance-000465">τίνα;</said>
+<said xml:id="grc-utterance-000466">ἧι ταὐτὸν πέπονθε, μὴ ἀλλοῖον πεπονθέναι, μὴ ἀλλοῖον δὲ πεπονθὸς μὴ ἀνόμοιον, μὴ ἀνόμοιον δὲ ὅμοιον εἶναι· ᾗ δʼ ἄλλο πέπονθεν, ἀλλοῖον, ἀλλοῖον δὲ ὂν ἀνόμοιον εἶναι.</said>
+<said xml:id="grc-utterance-000467">ἀληθῆ λέγεις.</said>
+<said xml:id="grc-utterance-000468">ταὐτόν τε ἄρα ὂν τὸ ἓν τοῖς ἄλλοις καὶ ὅτι ἕτερόν ἐστι, κατʼ ἀμφότερα καὶ κατὰ ἑκάτερον, ὅμοιόν
+<milestone unit="section" resp="Stephanus" n="148d" xml:id="grc-stephanus-section-148d" />τε ἂν εἴη καὶ ἀνόμοιον τοῖς ἄλλοις.</said>
+<said xml:id="grc-utterance-000469">πάνυ γε.</said>
+<said xml:id="grc-utterance-000470">οὐκοῦν καὶ ἑαυτῷ ὡσαύτως, ἐπείπερ ἕτερόν τε ἑαυτοῦ καὶ ταὐτὸν ἑαυτῷ ἐφάνη, κατʼ ἀμφότερα καὶ κατὰ ἑκάτερον ὅμοιόν τε καὶ ἀνόμοιον φανήσεται;</said>
+<said xml:id="grc-utterance-000471">ἀνάγκη.<milestone unit="para" ed="P" />τί δὲ δή; περὶ τοῦ ἅπτεσθαι τὸ ἓν αὑτοῦ καὶ τῶν ἄλλων καὶ τοῦ μὴ ἅπτεσθαι πέρι πῶς ἔχει, σκόπει.</said>
+<said xml:id="grc-utterance-000472">σκοπῶ.</said>
+<said xml:id="grc-utterance-000473">αὐτὸ γάρ που ἐν ἑαυτῷ ὅλῳ τὸ ἓν ἐφάνη ὄν.</said>
+<said xml:id="grc-utterance-000474">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000475">οὐκοῦν καὶ ἐν τοῖς ἄλλοις τὸ ἕν;</said>
+<said xml:id="grc-utterance-000476">ναί.</said>
+<said xml:id="grc-utterance-000477">ἧι μὲν ἄρα ἐν τοῖς ἄλλοις,
+<milestone unit="section" resp="Stephanus" n="148e" xml:id="grc-stephanus-section-148e" />τῶν ἄλλων ἅπτοιτο ἄν· ᾗ δὲ αὐτὸ ἐν ἑαυτῷ, τῶν μὲν ἄλλων ἀπείργοιτο ἅπτεσθαι, αὐτὸ δὲ αὑτοῦ ἅπτοιτο ἂν ἐν ἑαυτῷ ὄν.</said>
+<said xml:id="grc-utterance-000478">φαίνεται.</said>
+<said xml:id="grc-utterance-000479">οὕτω μὲν δὴ ἅπτοιτο ἂν τὸ ἓν αὑτοῦ τε καὶ τῶν ἄλλων.</said>
+<said xml:id="grc-utterance-000480">ἅπτοιτο.</said>
+<said xml:id="grc-utterance-000481">τί δὲ τῇδε; ἆρʼ οὐ πᾶν τὸ μέλλον ἅψεσθαί τινος ἐφεξῆς δεῖ κεῖσθαι ἐκείνῳ οὗ μέλλει ἅπτεσθαι, ταύτην τὴν ἕδραν κατέχον ἣ ἂν μετʼ ἐκείνην ᾖ <del>ἕδρα</del> ᾗ ἂν κέηται, ἅπτεται;</said>
+<said xml:id="grc-utterance-000482">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000483">καὶ τὸ ἓν ἄρα εἰ μέλλει αὐτὸ αὑτοῦ ἅψεσθαι, ἐφεξῆς δεῖ εὐθὺς μετὰ ἑαυτὸ κεῖσθαι, τὴν ἐχομένην χώραν κατέχον ἐκείνης ἐν ᾗ αὐτό ἐστιν.</said>
+<said xml:id="grc-utterance-000484">δεῖ γὰρ οὖν.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="149" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-149">
+<p xml:id="grc-p-000024"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000485">				
+<said xml:id="grc-utterance-000486">οὐκοῦν δύο μὲν ὂν τὸ ἓν ποιήσειεν
+
+<milestone n="149" unit="page" /><milestone unit="section" resp="Stephanus" n="149a" xml:id="grc-stephanus-section-149a" />ἂν ταῦτα καὶ ἐν δυοῖν χώραιν ἅμα γένοιτο· ἕως δʼ ἂν ᾖ ἕν, οὐκ ἐθελήσει;</said>
+<said xml:id="grc-utterance-000487">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000488">ἡ αὐτὴ ἄρα ἀνάγκη τῷ ἑνὶ μήτε δύο εἶναι μήτε ἅπτεσθαι αὐτῷ αὑτοῦ.</said>
+<said xml:id="grc-utterance-000489">ἡ αὐτή.</said>
+<said xml:id="grc-utterance-000490">ἀλλʼ οὐδὲ μὴν τῶν ἄλλων ἅψεται.</said>
+<said xml:id="grc-utterance-000491">τί δή;</said>
+<said xml:id="grc-utterance-000492">ὅτι, φαμέν, τὸ μέλλον ἅψεσθαι χωρὶς ὂν ἐφεξῆς δεῖ ἐκείνῳ εἶναι οὗ μέλλει ἅψεσθαι, τρίτον δὲ αὐτῶν ἐν μέσῳ μηδὲν εἶναι.</said>
+<said xml:id="grc-utterance-000493">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000494">δύο ἄρα δεῖ τὸ ὀλίγιστον εἶναι, εἰ μέλλει ἅψις εἶναι.</said>
+<said xml:id="grc-utterance-000495">δεῖ.</said>
+<said xml:id="grc-utterance-000496">ἐὰν δὲ τοῖν δυοῖν ὅροιν τρίτον προσγένηται ἑξῆς, αὐτὰ
+<milestone unit="section" resp="Stephanus" n="149b" xml:id="grc-stephanus-section-149b" />μὲν τρία ἔσται, αἱ δὲ ἅψεις δύο.</said>
+<said xml:id="grc-utterance-000497">ναί.</said>
+<said xml:id="grc-utterance-000498">καὶ οὕτω δὴ ἀεὶ ἑνὸς προσγιγνομένου μία καὶ ἅψις προσγίγνεται, καὶ συμβαίνει τὰς ἅψεις τοῦ πλήθους τῶν ἀριθμῶν μιᾷ ἐλάττους εἶναι. ᾧ γὰρ τὰ πρῶτα δύο ἐπλεονέκτησεν τῶν ἅψεων εἰς τὸ πλείω εἶναι τὸν ἀριθμὸν ἢ τὰς ἅψεις, τῷ ἴσῳ τούτῳ καὶ ὁ ἔπειτα ἀριθμὸς πᾶς πασῶν τῶν ἅψεων πλεονεκτεῖ· ἤδη
+<milestone unit="section" resp="Stephanus" n="149c" xml:id="grc-stephanus-section-149c" />γὰρ τὸ λοιπὸν ἅμα ἕν τε τῷ ἀριθμῷ προσγίγνεται καὶ μία ἅψις ταῖς ἅψεσιν.</said>
+<said xml:id="grc-utterance-000499">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000500">ὅσα ἄρα ἐστὶν τὰ ὄντα τὸν ἀριθμόν, ἀεὶ μιᾷ αἱ ἅψεις ἐλάττους εἰσὶν αὐτῶν.</said>
+<said xml:id="grc-utterance-000501">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000502">εἰ δέ γε ἓν μόνον ἐστίν, δυὰς δὲ μὴ ἔστιν, ἅψις οὐκ ἂν εἴη.</said>
+<said xml:id="grc-utterance-000503">πῶς γάρ;</said>
+<said xml:id="grc-utterance-000504">οὔκουν, φαμέν, τὰ ἄλλα τοῦ ἑνὸς οὔτε ἕν ἐστιν οὔτε μετέχει αὐτοῦ, εἴπερ ἄλλα ἐστίν.</said>
+<said xml:id="grc-utterance-000505">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000506">οὐκ ἄρα ἔνεστιν ἀριθμὸς ἐν τοῖς ἄλλοις, ἑνὸς μὴ ἐνόντος ἐν αὐτοῖς.</said>
+<said xml:id="grc-utterance-000507">πῶς γάρ;</said>
+<said xml:id="grc-utterance-000508">οὔτʼ ἄρα ἕν ἐστι τὰ ἄλλα οὔτε δύο οὔτε
+<milestone unit="section" resp="Stephanus" n="149d" xml:id="grc-stephanus-section-149d" />ἄλλου ἀριθμοῦ ἔχοντα ὄνομα οὐδέν.</said>
+<said xml:id="grc-utterance-000509">οὔ.</said>
+<said xml:id="grc-utterance-000510">τὸ ἓν ἄρα μόνον ἐστὶν ἕν, καὶ δυὰς οὐκ ἂν εἴη.</said>
+<said xml:id="grc-utterance-000511">οὐ φαίνεται.</said>
+<said xml:id="grc-utterance-000512">ἅψις ἄρα οὐκ ἔστιν δυοῖν μὴ ὄντοιν.</said>
+<said xml:id="grc-utterance-000513">οὐκ ἔστιν.</said>
+<said xml:id="grc-utterance-000514">οὔτʼ ἄρα τὸ ἓν τῶν ἄλλων ἅπτεται οὔτε τὰ ἄλλα τοῦ ἑνός, ἐπείπερ ἅψις οὐκ ἔστιν.</said>
+<said xml:id="grc-utterance-000515">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000516">οὕτω δὴ κατὰ πάντα ταῦτα τὸ ἓν τῶν τε ἄλλων καὶ ἑαυτοῦ ἅπτεταί τε καὶ οὐχ ἅπτεται.</said>
+<said xml:id="grc-utterance-000517">ἔοικεν.<milestone unit="para" ed="P" />ἆρʼ οὖν καὶ ἴσον ἐστὶ καὶ ἄνισον αὑτῷ τε καὶ τοῖς ἄλλοις;</said>
+<said xml:id="grc-utterance-000518">πῶς;</said>
+<said xml:id="grc-utterance-000519">εἰ μεῖζον εἴη τὸ ἓν ἢ τἆλλα ἢ ἔλαττον,
+<milestone unit="section" resp="Stephanus" n="149e" xml:id="grc-stephanus-section-149e" />ἢ αὖ τὰ ἄλλα τοῦ ἑνὸς μείζω ἢ ἐλάττω, ἆρα οὐκ ἂν τῷ μὲν ἓν εἶναι τὸ ἓν καὶ τἆλλα ἄλλα τοῦ ἑνὸς οὔτε τι μείζω οὔτε τι ἐλάττω ἂν εἴη ἀλλήλων αὐταῖς γε ταύταις ταῖς οὐσίαις; ἀλλʼ εἰ μὲν πρὸς τῷ τοιαῦτα εἶναι ἑκάτερα ἰσότητα ἔχοιεν, ἴσα ἂν εἴη πρὸς ἄλληλα· εἰ δὲ τὰ μὲν μέγεθος, τὸ δὲ σμικρότητα, ἢ καὶ μέγεθος μὲν τὸ ἕν, σμικρότητα δὲ τἆλλα, ὁποτέρῳ μὲν τῷ εἴδει μέγεθος προσείη, μεῖζον ἂν εἴη, ᾧ δὲ σμικρότης, ἔλαττον;</said>
+<said xml:id="grc-utterance-000520">ἀνάγκη.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="150" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-150">
+<p xml:id="grc-p-000025"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000521">				
+<said xml:id="grc-utterance-000522">οὐκοῦν ἐστόν γέ τινε τούτω εἴδη, τό τε μέγεθος καὶ ἡ σμικρότης; οὐ γὰρ ἄν που μὴ ὄντε γε ἐναντίω τε ἀλλήλοιν εἴτην καὶ ἐν τοῖς
+
+<milestone n="150" unit="page" /><milestone unit="section" resp="Stephanus" n="150a" xml:id="grc-stephanus-section-150a" />οὖσιν ἐγγιγνοίσθην.</said>
+<said xml:id="grc-utterance-000523">πῶς γὰρ ἄν;</said>
+<said xml:id="grc-utterance-000524">εἰ ἄρα ἐν τῷ ἑνὶ σμικρότης ἐγγίγνεται, ἤτοι ἐν ὅλῳ ἂν ἢ ἐν μέρει αὐτοῦ ἐνείη.</said>
+<said xml:id="grc-utterance-000525">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000526">τί δʼ εἰ ἐν ὅλῳ ἐγγίγνοιτο; οὐχὶ ἢ ἐξ ἴσου ἂν τῷ ἑνὶ διʼ ὅλου αὐτοῦ τεταμένη εἴη ἢ περιέχουσα αὐτό;</said>
+<said xml:id="grc-utterance-000527">δῆλον δή.</said>
+<said xml:id="grc-utterance-000528">ἆρʼ οὖν οὐκ ἐξ ἴσου μὲν οὖσα ἡ σμικρότης τῷ ἑνὶ ἴση ἂν αὐτῷ εἴη, περιέχουσα δὲ μείζων;</said>
+<said xml:id="grc-utterance-000529">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000530">δυνατὸν οὖν σμικρότητα ἴσην τῳ εἶναι ἢ μείζω τινός, καὶ πράττειν τὰ μεγέθους τε καὶ ἰσότητος, ἀλλὰ
+<milestone unit="section" resp="Stephanus" n="150b" xml:id="grc-stephanus-section-150b" />μὴ τὰ ἑαυτῆς;</said>
+<said xml:id="grc-utterance-000531">ἀδύνατον.</said>
+<said xml:id="grc-utterance-000532">ἐν μὲν ὅλῳ ἄρα τῷ ἑνὶ οὐκ ἂν εἴη σμικρότης, ἀλλʼ εἴπερ, ἐν μέρει.</said>
+<said xml:id="grc-utterance-000533">ναί.</said>
+<said xml:id="grc-utterance-000534">οὐδέ γε ἐν παντὶ αὖ τῷ μέρει· εἰ δὲ μή, ταὐτὰ ποιήσει ἅπερ πρὸς τὸ ὅλον· ἴση ἔσται ἢ μείζων τοῦ μέρους ἐν ᾧ ἂν ἀεὶ ἐνῇ.</said>
+<said xml:id="grc-utterance-000535">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000536">οὐδενί ποτε ἄρα ἐνέσται τῶν ὄντων σμικρότης, μήτʼ ἐν μέρει μήτʼ ἐν ὅλῳ ἐγγιγνομένη· οὐδέ τι ἔσται σμικρὸν πλὴν αὐτῆς σμικρότητος.</said>
+<said xml:id="grc-utterance-000537">οὐκ ἔοικεν.</said>
+<said xml:id="grc-utterance-000538">οὐδʼ ἄρα μέγεθος ἐνέσται ἐν αὐτῷ· μεῖζον γὰρ ἄν τι εἴη ἄλλο καὶ
+<milestone unit="section" resp="Stephanus" n="150c" xml:id="grc-stephanus-section-150c" />πλὴν αὐτοῦ μεγέθους, ἐκεῖνο ἐν ᾧ τὸ μέγεθος ἐνείη, καὶ ταῦτα σμικροῦ αὐτῷ οὐκ ὄντος, οὗ ἀνάγκη ὑπερέχειν, ἐάνπερ ᾖ μέγα· τοῦτο δὲ ἀδύνατον, ἐπειδὴ σμικρότης οὐδαμοῦ ἔνι.</said>
+<said xml:id="grc-utterance-000539">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000540">ἀλλὰ μὴν αὐτὸ μέγεθος οὐκ ἄλλου μεῖζον ἢ αὐτῆς σμικρότητος, οὐδὲ σμικρότης ἄλλου ἔλαττον ἢ αὐτοῦ μεγέθους.</said>
+<said xml:id="grc-utterance-000541">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000542">οὔτε ἄρα τὰ ἄλλα μείζω τοῦ ἑνὸς οὐδὲ ἐλάττω, μήτε μέγεθος μήτε σμικρότητα ἔχοντα, οὔτε
+<milestone unit="section" resp="Stephanus" n="150d" xml:id="grc-stephanus-section-150d" />αὐτὼ τούτω πρὸς τὸ ἓν ἔχετον τὴν δύναμιν τὴν τοῦ ὑπερέχειν καὶ ὑπερέχεσθαι, ἀλλὰ πρὸς ἀλλήλω, οὔτε αὖ τὸ ἓν τούτοιν οὐδὲ τῶν ἄλλων μεῖζον ἂν οὐδʼ ἔλαττον εἴη, μήτε μέγεθος μήτε σμικρότητα ἔχον.</said>
+<said xml:id="grc-utterance-000543">οὔκουν φαίνεταί γε.</said>
+<said xml:id="grc-utterance-000544">ἆρʼ οὖν, εἰ μήτε μεῖζον μήτε ἔλαττον τὸ ἓν τῶν ἄλλων, ἀνάγκη αὐτὸ ἐκείνων μήτε ὑπερέχειν μήτε ὑπερέχεσθαι;</said>
+<said xml:id="grc-utterance-000545">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000546">οὐκοῦν τό γε μήτε ὑπερέχον μήτε ὑπερεχόμενον πολλὴ ἀνάγκη ἐξ ἴσου εἶναι, ἐξ ἴσου δὲ ὂν ἴσον εἶναι.</said>
+<said xml:id="grc-utterance-000547">πῶς γὰρ
+<milestone unit="section" resp="Stephanus" n="150e" xml:id="grc-stephanus-section-150e" />οὔ;</said>
+<said xml:id="grc-utterance-000548">καὶ μὴν καὶ αὐτό γε τὸ ἓν πρὸς ἑαυτὸ οὕτως ἂν ἔχοι· μήτε μέγεθος ἐν ἑαυτῷ μήτε σμικρότητα ἔχον οὔτʼ ἂν ὑπερέχοιτο οὔτʼ ἂν ὑπερέχοι ἑαυτοῦ, ἀλλʼ ἐξ ἴσου ὂν ἴσον ἂν εἴη ἑαυτῷ.</said>
+<said xml:id="grc-utterance-000549">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000550">τὸ ἓν ἄρα ἑαυτῷ τε καὶ τοῖς ἄλλοις ἴσον ἂν εἴη.</said>
+<said xml:id="grc-utterance-000551">φαίνεται.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="151" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-151">
+<p xml:id="grc-p-000026"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000552"><said xml:id="grc-utterance-000553">καὶ μὴν αὐτό γε ἐν ἑαυτῷ ὂν καὶ περὶ ἑαυτὸ ἂν εἴη ἔξωθεν, καὶ περιέχον μὲν μεῖζον
+
+<milestone n="151" unit="page" /><milestone unit="section" resp="Stephanus" n="151a" xml:id="grc-stephanus-section-151a" />ἂν ἑαυτοῦ εἴη, περιεχόμενον δὲ ἔλαττον, καὶ οὕτω μεῖζον ἂν καὶ ἔλαττον εἴη αὐτὸ ἑαυτοῦ τὸ ἕν.</said>
+<said xml:id="grc-utterance-000554">εἴη γὰρ ἄν.</said>
+<said xml:id="grc-utterance-000555">οὐκοῦν καὶ τόδε ἀνάγκη, μηδὲν εἶναι ἐκτὸς τοῦ ἑνός τε καὶ τῶν ἄλλων;</said>
+<said xml:id="grc-utterance-000556">πῶς γὰρ οὔ;</said>
+<said xml:id="grc-utterance-000557">ἀλλὰ μὴν καὶ εἶναί που δεῖ τό γε ὂν ἀεί.</said>
+<said xml:id="grc-utterance-000558">ναί.</said>
+<said xml:id="grc-utterance-000559">οὐκοῦν τό γε ἔν τῳ ὂν ἐν μείζονι ἔσται ἔλαττον ὄν; οὐ γὰρ ἂν ἄλλως ἕτερον ἐν ἑτέρῳ εἴη.</said>
+<said xml:id="grc-utterance-000560">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000561">ἐπειδὴ δὲ οὐδὲν ἕτερον ἔστι χωρὶς τῶν ἄλλων καὶ τοῦ ἑνός, δεῖ δὲ αὐτὰ ἔν τῳ εἶναι, οὐκ ἀνάγκη ἤδη ἐν ἀλλήλοις εἶναι, τά τε ἄλλα ἐν τῷ ἑνὶ καὶ τὸ ἓν ἐν τοῖς ἄλλοις,
+<milestone unit="section" resp="Stephanus" n="151b" xml:id="grc-stephanus-section-151b" />ἢ μηδαμοῦ εἶναι;</said>
+<said xml:id="grc-utterance-000562">φαίνεται.</said>
+<said xml:id="grc-utterance-000563">ὅτι μὲν ἄρα τὸ ἓν ἐν τοῖς ἄλλοις ἔνεστι, μείζω ἂν εἴη τὰ ἄλλα τοῦ ἑνός, περιέχοντα αὐτό, τὸ δὲ ἓν ἔλαττον τῶν ἄλλων, περιεχόμενον· ὅτι δὲ τὰ ἄλλα ἐν τῷ ἑνί, τὸ ἓν τῶν ἄλλων κατὰ τὸν αὐτὸν λόγον μεῖζον ἂν εἴη, τὰ δὲ ἄλλα τοῦ ἑνὸς ἐλάττω.</said>
+<said xml:id="grc-utterance-000564">ἔοικεν.</said>
+<said xml:id="grc-utterance-000565">τὸ ἓν ἄρα ἴσον τε καὶ μεῖζον καὶ ἔλαττόν ἐστιν αὐτό τε αὑτοῦ καὶ τῶν ἄλλων.</said>
+<said xml:id="grc-utterance-000566">φαίνεται.</said>
+<said xml:id="grc-utterance-000567">καὶ μὴν εἴπερ μεῖζον καὶ ἔλαττον καὶ ἴσον, ἴσων ἂν εἴη μέτρων καὶ πλειόνων καὶ ἐλαττόνων
+<milestone unit="section" resp="Stephanus" n="151c" xml:id="grc-stephanus-section-151c" />αὑτῷ καὶ τοῖς ἄλλοις, ἐπειδὴ δὲ μέτρων, καὶ μερῶν.</said>
+<said xml:id="grc-utterance-000568">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000569">ἴσων μὲν ἄρα μέτρων ὂν καὶ πλειόνων καὶ ἐλαττόνων, καὶ ἀριθμῷ ἔλαττον ἂν καὶ πλέον εἴη αὐτό τε αὑτοῦ καὶ τῶν ἄλλων καὶ ἴσον αὑτῷ τε καὶ τοῖς ἄλλοις κατὰ ταὐτά.</said>
+<said xml:id="grc-utterance-000570">πῶς;</said>
+<said xml:id="grc-utterance-000571">ὧνπερ μεῖζόν ἐστι, πλειόνων που καὶ μέτρων ἂν εἴη αὐτῶν, ὅσων δὲ μέτρων, καὶ μερῶν· καὶ ὧν ἔλαττον, ὡσαύτως· καὶ οἷς ἴσον, κατὰ ταὐτά.</said>
+<said xml:id="grc-utterance-000572">οὕτως.</said>
+<said xml:id="grc-utterance-000573">οὐκοῦν ἑαυτοῦ μεῖζον καὶ ἔλαττον ὂν καὶ ἴσον ἴσων ἂν εἴη
+<milestone unit="section" resp="Stephanus" n="151d" xml:id="grc-stephanus-section-151d" />μέτρων καὶ πλειόνων καὶ ἐλαττόνων αὑτῷ, ἐπειδὴ δὲ μέτρων, καὶ μερῶν;</said>
+<said xml:id="grc-utterance-000574">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000575">ἴσων μὲν ἄρα μερῶν ὂν αὑτῷ ἴσον ἂν τὸ πλῆθος αὑτῷ εἴη, πλειόνων δὲ πλέον, ἐλαττόνων δὲ ἔλαττον τὸν ἀριθμὸν αὑτοῦ.</said>
+<said xml:id="grc-utterance-000576">φαίνεται.</said>
+<said xml:id="grc-utterance-000577">οὐκοῦν καὶ πρὸς τἆλλα ὡσαύτως ἕξει τὸ ἕν; ὅτι μὲν μεῖζον αὐτῶν φαίνεται, ἀνάγκη πλέον εἶναι καὶ τὸν ἀριθμὸν αὐτῶν· ὅτι δὲ σμικρότερον, ἔλαττον· ὅτι δὲ ἴσον μεγέθει, ἴσον καὶ τὸ πλῆθος εἶναι τοῖς ἄλλοις;</said>
+<said xml:id="grc-utterance-000578">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000579">οὕτω δὴ αὖ, ὡς
+<milestone unit="section" resp="Stephanus" n="151e" xml:id="grc-stephanus-section-151e" />ἔοικε, τὸ ἓν καὶ ἴσον καὶ πλέον καὶ ἔλαττον τὸν ἀριθμὸν αὐτό τε αὑτοῦ ἔσται καὶ τῶν ἄλλων.</said>
+<said xml:id="grc-utterance-000580">ἔσται.<milestone unit="para" ed="P" />ἆρʼ οὖν καὶ χρόνου μετέχει τὸ ἕν, καὶ ἐστί τε καὶ γίγνεται νεώτερόν τε καὶ πρεσβύτερον αὐτό τε ἑαυτοῦ καὶ τῶν ἄλλων, καὶ οὔτε νεώτερον οὔτε πρεσβύτερον οὔτε ἑαυτοῦ οὔτε τῶν ἄλλων, χρόνου μετέχον;</said>
+<said xml:id="grc-utterance-000581">πῶς;</said>
+<said xml:id="grc-utterance-000582">εἶναι μέν που αὐτῷ ὑπάρχει, εἴπερ ἓν ἔστιν.</said>
+<said xml:id="grc-utterance-000583">ναί.</said></said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="152" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-152">
+					
+					<p xml:id="grc-p-000027"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000584">				
+<said xml:id="grc-utterance-000585">τὸ δὲ εἶναι ἄλλο τί ἐστιν ἢ μέθεξις οὐσίας μετὰ χρόνου τοῦ παρόντος, ὥσπερ
+
+<milestone n="152" unit="page" /><milestone unit="section" resp="Stephanus" n="152a" xml:id="grc-stephanus-section-152a" />τὸ ἦν μετὰ τοῦ παρεληλυθότος καὶ αὖ τὸ ἔσται μετὰ τοῦ μέλλοντος οὐσίας ἐστὶ κοινωνία;</said>
+<said xml:id="grc-utterance-000586">ἔστι γάρ.</said>
+<said xml:id="grc-utterance-000587">μετέχει μὲν ἄρα χρόνου, εἴπερ καὶ τοῦ εἶναι.</said>
+<said xml:id="grc-utterance-000588">πάνυ γε.</said>
+<said xml:id="grc-utterance-000589">οὐκοῦν πορευομένου τοῦ χρόνου;</said>
+<said xml:id="grc-utterance-000590">ναί.</said>
+<said xml:id="grc-utterance-000591">ἀεὶ ἄρα πρεσβύτερον γίγνεται ἑαυτοῦ, εἴπερ προέρχεται κατὰ χρόνον.</said>
+<said xml:id="grc-utterance-000592">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000593">ἆρʼ οὖν μεμνήμεθα ὅτι νεωτέρου γιγνομένου τὸ πρεσβύτερον πρεσβύτερον γίγνεται;</said>
+<said xml:id="grc-utterance-000594">μεμνήμεθα.</said>
+<said xml:id="grc-utterance-000595">οὐκοῦν ἐπειδὴ πρεσβύτερον ἑαυτοῦ γίγνεται τὸ ἕν, νεωτέρου ἂν γιγνομένου ἑαυτοῦ πρεσβύτερον
+<milestone unit="section" resp="Stephanus" n="152b" xml:id="grc-stephanus-section-152b" />γίγνοιτο;</said>
+<said xml:id="grc-utterance-000596">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000597">γίγνεται μὲν δὴ νεώτερόν τε καὶ πρεσβύτερον αὑτοῦ οὕτω.</said>
+<said xml:id="grc-utterance-000598">ναί.</said>
+<said xml:id="grc-utterance-000599">ἔστι δὲ πρεσβύτερον ἆρʼ οὐχ ὅταν κατὰ τὸν νῦν χρόνον ᾖ γιγνόμενον τὸν μεταξὺ τοῦ ἦν τε καὶ ἔσται; οὐ γάρ που πορευόμενόν γε ἐκ τοῦ ποτὲ εἰς τὸ ἔπειτα ὑπερβήσεται τὸ νῦν.</said>
+<said xml:id="grc-utterance-000600">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000601">ἆρʼ οὖν οὐκ ἐπίσχει τότε τοῦ γίγνεσθαι πρεσβύτερον, ἐπειδὰν
+<milestone unit="section" resp="Stephanus" n="152c" xml:id="grc-stephanus-section-152c" />τῷ νῦν ἐντύχῃ, καὶ οὐ γίγνεται, ἀλλʼ ἔστι τότʼ ἤδη πρεσβύτερον; προϊὸν γὰρ οὐκ ἄν ποτε ληφθείη ὑπὸ τοῦ νῦν. τὸ γὰρ προϊὸν οὕτως ἔχει ὡς ἀμφοτέρων ἐφάπτεσθαι, τοῦ τε νῦν καὶ τοῦ ἔπειτα, τοῦ μὲν νῦν ἀφιέμενον, τοῦ δʼ ἔπειτα ἐπιλαμβανόμενον, μεταξὺ ἀμφοτέρων γιγνόμενον, τοῦ τε ἔπειτα καὶ τοῦ νῦν.</said>
+<said xml:id="grc-utterance-000602">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000603">εἰ δέ γε ἀνάγκη μὴ παρελθεῖν τὸ νῦν πᾶν τὸ γιγνόμενον, ἐπειδὰν κατὰ τοῦτο ᾖ,
+<milestone unit="section" resp="Stephanus" n="152d" xml:id="grc-stephanus-section-152d" />ἐπίσχει ἀεὶ τοῦ γίγνεσθαι καὶ ἔστι τότε τοῦτο ὅτι ἂν τύχῃ γιγνόμενον.</said>
+<said xml:id="grc-utterance-000604">φαίνεται.</said>
+<said xml:id="grc-utterance-000605">καὶ τὸ ἓν ἄρα, ὅταν πρεσβύτερον γιγνόμενον ἐντύχῃ τῷ νῦν, ἐπέσχεν τοῦ γίγνεσθαι καὶ ἔστι τότε πρεσβύτερον.</said>
+<said xml:id="grc-utterance-000606">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000607">οὐκοῦν οὗπερ ἐγίγνετο πρεσβύτερον, τούτου καὶ ἔστιν· ἐγίγνετο δὲ αὑτοῦ;</said>
+<said xml:id="grc-utterance-000608">ναί.</said>
+<said xml:id="grc-utterance-000609">ἔστι δὲ τὸ πρεσβύτερον νεωτέρου πρεσβύτερον;</said>
+<said xml:id="grc-utterance-000610">ἔστιν.</said>
+<said xml:id="grc-utterance-000611">καὶ νεώτερον ἄρα τότε αὑτοῦ ἐστι τὸ ἕν, ὅταν πρεσβύτερον γιγνόμενον ἐντύχῃ τῷ νῦν.</said>
+<said xml:id="grc-utterance-000612">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000613">τό γε μὴν
+<milestone unit="section" resp="Stephanus" n="152e" xml:id="grc-stephanus-section-152e" />νῦν ἀεὶ πάρεστι τῷ ἑνὶ διὰ παντὸς τοῦ εἶναι· ἔστι γὰρ ἀεὶ νῦν ὅτανπερ ᾖ.</said>
+<said xml:id="grc-utterance-000614">πῶς γὰρ οὔ;</said>
+<said xml:id="grc-utterance-000615">ἀεὶ ἄρα ἐστί τε καὶ γίγνεται πρεσβύτερον ἑαυτοῦ καὶ νεώτερον τὸ ἕν.</said>
+<said xml:id="grc-utterance-000616">ἔοικεν.</said>
+<said xml:id="grc-utterance-000617">πλείω δὲ χρόνον αὐτὸ ἑαυτοῦ ἔστιν ἢ γίγνεται, ἢ τὸν ἴσον;</said>
+<said xml:id="grc-utterance-000618">τὸν ἴσον.</said>
+<said xml:id="grc-utterance-000619">ἀλλὰ μὴν τόν γε ἴσον χρόνον ἢ γιγνόμενον ἢ ὂν τὴν αὐτὴν ἡλικίαν ἔχει.</said>
+<said xml:id="grc-utterance-000620">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000621">τὸ δὲ τὴν αὐτὴν ἡλικίαν ἔχον οὔτε πρεσβύτερον οὔτε νεώτερόν ἐστιν.</said>
+<said xml:id="grc-utterance-000622">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000623">τὸ ἓν ἄρα τὸν ἴσον χρόνον αὐτὸ ἑαυτῷ καὶ γιγνόμενον καὶ ὂν οὔτε νεώτερον οὔτε πρεσβύτερον ἑαυτοῦ ἐστιν οὐδὲ γίγνεται.</said>
+<said xml:id="grc-utterance-000624">οὔ μοι δοκεῖ.</said>
+<said xml:id="grc-utterance-000625">τί δέ; τῶν ἄλλων;</said></said></p></div>
+
+				<div type="textpart" subtype="section" resp="perseus" n="153" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-153">
+					
+					<p xml:id="grc-p-000028"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000626">
+						<said xml:id="grc-utterance-000627">οὐκ ἔχω λέγειν.</said>
+
+<milestone n="153" unit="page" /><milestone unit="section" resp="Stephanus" n="153a" xml:id="grc-stephanus-section-153a" />
+<said xml:id="grc-utterance-000628">τόδε γε μὴν ἔχεις λέγειν, ὅτι τὰ ἄλλα τοῦ ἑνός, εἴπερ ἕτερά ἐστιν, ἀλλὰ μὴ ἕτερον, πλείω ἐστὶν ἑνός· ἕτερον μὲν γὰρ ὂν ἓν ἂν ἦν, ἕτερα δὲ ὄντα πλείω ἑνός ἐστι καὶ πλῆθος ἂν ἔχοι.</said>
+<said xml:id="grc-utterance-000629">ἔχοι γὰρ ἄν.</said>
+<said xml:id="grc-utterance-000630">πλῆθος δὲ ὂν ἀριθμοῦ πλείονος ἂν μετέχοι ἢ τοῦ ἑνός.</said>
+<said xml:id="grc-utterance-000631">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000632">τί οὖν; ἀριθμοῦ φήσομεν τὰ πλείω γίγνεσθαί τε καὶ γεγονέναι πρότερον, ἢ τὰ ἐλάττω;</said>
+<said xml:id="grc-utterance-000633">τὰ ἐλάττω.</said>
+<said xml:id="grc-utterance-000634">τὸ ὀλίγιστον ἄρα πρῶτον· τοῦτο
+<milestone unit="section" resp="Stephanus" n="153b" xml:id="grc-stephanus-section-153b" />δʼ ἔστι τὸ ἕν. ἦ γάρ;</said>
+<said xml:id="grc-utterance-000635">ναί.</said>
+<said xml:id="grc-utterance-000636">πάντων ἄρα τὸ ἓν πρῶτον γέγονε τῶν ἀριθμὸν ἐχόντων· ἔχει δὲ καὶ τἆλλα πάντα ἀριθμόν, εἴπερ ἄλλα καὶ μὴ ἄλλο ἐστίν.</said>
+<said xml:id="grc-utterance-000637">ἔχει γάρ.</said>
+<said xml:id="grc-utterance-000638">πρῶτον δέ γε οἶμαι γεγονὸς πρότερον γέγονε, τὰ δὲ ἄλλα ὕστερον, τὰ δʼ ὕστερον γεγονότα νεώτερα τοῦ πρότερον γεγονότος· καὶ οὕτως ἂν εἴη τἆλλα νεώτερα τοῦ ἑνός, τὸ δὲ ἓν πρεσβύτερον τῶν ἄλλων.</said>
+<said xml:id="grc-utterance-000639">εἴη γὰρ ἄν.<milestone unit="para" ed="P" />τί δὲ τόδε; ἆρʼ ἂν εἴη τὸ ἓν παρὰ φύσιν τὴν αὑτοῦ
+<milestone unit="section" resp="Stephanus" n="153c" xml:id="grc-stephanus-section-153c" />γεγονός, ἢ ἀδύνατον;</said>
+<said xml:id="grc-utterance-000640">ἀδύνατον.</said>
+<said xml:id="grc-utterance-000641">ἀλλὰ μὴν μέρη γε ἔχον ἐφάνη τὸ ἕν, εἰ δὲ μέρη, καὶ ἀρχὴν καὶ τελευτὴν καὶ μέσον.</said>
+<said xml:id="grc-utterance-000642">ναί.</said>
+<said xml:id="grc-utterance-000643">οὐκοῦν πάντων πρῶτον ἀρχὴ γίγνεται, καὶ αὐτοῦ τοῦ ἑνὸς καὶ ἑκάστου τῶν ἄλλων, καὶ μετὰ τὴν ἀρχὴν καὶ τἆλλα πάντα μέχρι τοῦ τέλους;</said>
+<said xml:id="grc-utterance-000644">τί μήν;</said>
+<said xml:id="grc-utterance-000645">καὶ μὴν μόριά γε φήσομεν ταῦτʼ εἶναι πάντα τἆλλα τοῦ ὅλου τε καὶ ἑνός, αὐτὸ δὲ ἐκεῖνο ἅμα τῇ τελευτῇ γεγονέναι ἕν τε καὶ ὅλον.</said>
+<said xml:id="grc-utterance-000646">φήσομεν γάρ.</said>
+<said xml:id="grc-utterance-000647">τελευτὴ δέ γε οἶμαι ὕστατον γίγνεται, τούτῳ
+<milestone unit="section" resp="Stephanus" n="153d" xml:id="grc-stephanus-section-153d" />δʼ ἅμα τὸ ἓν πέφυκε γίγνεσθαι· ὥστʼ εἴπερ ἀνάγκη αὐτὸ τὸ ἓν μὴ παρὰ φύσιν γίγνεσθαι, ἅμα τελευτῇ ἂν γεγονὸς ὕστατον ἂν τῶν ἄλλων πεφυκὸς εἴη γίγνεσθαι.</said>
+<said xml:id="grc-utterance-000648">φαίνεται.</said>
+<said xml:id="grc-utterance-000649">νεώτερον ἄρα τῶν ἄλλων τὸ ἕν ἐστι, τὰ δʼ ἄλλα τοῦ ἑνὸς πρεσβύτερα.</said>
+<said xml:id="grc-utterance-000650">οὕτως αὖ μοι φαίνεται.</said>
+<said xml:id="grc-utterance-000651">τί δὲ δή; ἀρχὴν ἢ ἄλλο μέρος ὁτιοῦν τοῦ ἑνὸς ἢ ἄλλου ὁτουοῦν, ἐάνπερ μέρος ᾖ ἀλλὰ μὴ μέρη, οὐκ ἀναγκαῖον ἓν εἶναι, μέρος γε ὄν;</said>
+<said xml:id="grc-utterance-000652">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000653">οὐκοῦν τὸ ἓν ἅμα τε τῷ πρώτῳ γιγνομένῳ γίγνοιτʼ ἂν καὶ
+<milestone unit="section" resp="Stephanus" n="153e" xml:id="grc-stephanus-section-153e" />ἅμα τῷ δευτέρῳ, καὶ οὐδενὸς ἀπολείπεται τῶν ἄλλων γιγνομένων, ὅτιπερ ἂν προσγίγνηται ὁτῳοῦν, ἕως ἂν πρὸς τὸ ἔσχατον διελθὸν ὅλον ἓν γένηται, οὔτε μέσου οὔτε πρώτου οὔτε ἐσχάτου οὔτε ἄλλου οὐδενὸς ἀπολειφθὲν ἐν τῇ γενέσει.</said>
+<said xml:id="grc-utterance-000654">ἀληθῆ.</said></said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="154" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-154">
+					
+					<p xml:id="grc-p-000029"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000655">				
+<said xml:id="grc-utterance-000656">πᾶσιν ἄρα τοῖς ἄλλοις τὴν αὐτὴν ἡλικίαν ἴσχει τὸ ἕν· ὥστʼ εἰ μὴ παρὰ φύσιν πέφυκεν αὐτὸ τὸ ἕν, οὔτε πρότερον οὔτε ὕστερον τῶν ἄλλων γεγονὸς ἂν εἴη, ἀλλʼ ἅμα.
+
+<milestone n="154" unit="page" /><milestone unit="section" resp="Stephanus" n="154a" xml:id="grc-stephanus-section-154a" />καὶ κατὰ τοῦτον τὸν λόγον τὸ ἓν τῶν ἄλλων οὔτε πρεσβύτερον οὔτε νεώτερον ἂν εἴη, οὐδὲ τἆλλα τοῦ ἑνός· κατὰ δὲ τὸν πρόσθεν πρεσβύτερόν τε καὶ νεώτερον, καὶ τἆλλα ἐκείνου ὡσαύτως.</said>
+<said xml:id="grc-utterance-000657">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000658">ἔστι μὲν δὴ οὕτως ἔχον τε καὶ γεγονός. ἀλλὰ τί αὖ περὶ τοῦ γίγνεσθαι αὐτὸ πρεσβύτερόν τε καὶ νεώτερον τῶν ἄλλων καὶ τἆλλα τοῦ ἑνός, καὶ μήτε νεώτερον μήτε πρεσβύτερον γίγνεσθαι; ἆρα ὥσπερ περὶ τοῦ εἶναι, οὕτω καὶ περὶ τοῦ γίγνεσθαι ἔχει, ἢ ἑτέρως;</said>
+<said xml:id="grc-utterance-000659">οὐκ
+<milestone unit="section" resp="Stephanus" n="154b" xml:id="grc-stephanus-section-154b" />ἔχω λέγειν.</said>
+<said xml:id="grc-utterance-000660">ἀλλʼ ἐγὼ τοσόνδε γε· εἰ καὶ ἔστιν πρεσβύτερον ἕτερον ἑτέρου, γίγνεσθαί γε αὐτὸ πρεσβύτερον ἔτι ἢ ὡς τὸ πρῶτον εὐθὺς γενόμενον διήνεγκε τῇ ἡλικίᾳ οὐκ ἂν ἔτι δύναιτο, οὐδʼ αὖ τὸ νεώτερον ὂν ἔτι νεώτερον γίγνεσθαι· ἀνίσοις γὰρ ἴσα προστιθέμενα, χρόνῳ τε καὶ ἄλλῳ ὁτῳοῦν, ἴσῳ ποιεῖ διαφέρειν ἀεὶ ὅσῳπερ ἂν τὸ πρῶτον διενέγκῃ.</said>
+<said xml:id="grc-utterance-000661">πῶς γὰρ οὔ;</said>
+<said xml:id="grc-utterance-000662">οὐκ ἄρα τό γε ὂν τοῦ <del>ἑνὸς</del> ὄντος γίγνοιτʼ
+<milestone unit="section" resp="Stephanus" n="154c" xml:id="grc-stephanus-section-154c" />ἄν ποτε πρεσβύτερον οὐδὲ νεώτερον, εἴπερ ἴσῳ διαφέρει ἀεὶ τὴν ἡλικίαν· ἀλλʼ ἔστι καὶ γέγονε πρεσβύτερον, τὸ δὲ νεώτερον, γίγνεται δʼ οὔ.</said>
+<said xml:id="grc-utterance-000663">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000664">καὶ τὸ ἓν ἄρα ὂν τῶν ἄλλων ὄντων οὔτε πρεσβύτερόν ποτε οὔτε νεώτερον γίγνεται.</said>
+<said xml:id="grc-utterance-000665">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000666">ὅρα δὲ εἰ τῇδε πρεσβύτερα καὶ νεώτερα γίγνεται.</said>
+<said xml:id="grc-utterance-000667">πῇ δή;</said>
+<said xml:id="grc-utterance-000668">ἧι τό τε ἓν τῶν ἄλλων ἐφάνη πρεσβύτερον καὶ τἆλλα τοῦ ἑνός.</said>
+<said xml:id="grc-utterance-000669">τί οὖν;</said>
+<said xml:id="grc-utterance-000670">ὅταν τὸ ἓν τῶν ἄλλων πρεσβύτερον ᾖ, πλείω που χρόνον γέγονεν ἢ τὰ
+<milestone unit="section" resp="Stephanus" n="154d" xml:id="grc-stephanus-section-154d" />ἄλλα.</said>
+<said xml:id="grc-utterance-000671">ναί.</said>
+<said xml:id="grc-utterance-000672">πάλιν δὴ σκόπει· ἐὰν πλέονι καὶ ἐλάττονι χρόνῳ προστιθῶμεν τὸν ἴσον χρόνον, ἆρα τῷ ἴσῳ μορίῳ διοίσει τὸ πλέον τοῦ ἐλάττονος ἢ σμικροτέρῳ;</said>
+<said xml:id="grc-utterance-000673">σμικροτέρῳ.</said>
+<said xml:id="grc-utterance-000674">οὐκ ἄρα ἔσται, ὅτιπερ τὸ πρῶτον ἦν πρὸς τἆλλα ἡλικίᾳ διαφέρον τὸ ἕν, τοῦτο καὶ εἰς τὸ ἔπειτα, ἀλλὰ ἴσον λαμβάνον χρόνον τοῖς ἄλλοις ἔλαττον ἀεὶ τῇ ἡλικίᾳ διοίσει αὐτῶν ἢ πρότερον· ἢ οὔ;</said>
+<said xml:id="grc-utterance-000675">ναί.</said>
+<said xml:id="grc-utterance-000676">οὐκοῦν τό γε ἔλαττον διαφέρον
+<milestone unit="section" resp="Stephanus" n="154e" xml:id="grc-stephanus-section-154e" />ἡλικίᾳ πρός τι ἢ πρότερον νεώτερον γίγνοιτʼ ἂν ἢ ἐν τῷ πρόσθεν πρὸς ἐκεῖνα πρὸς ἃ ἦν πρεσβύτερον πρότερον;</said>
+<said xml:id="grc-utterance-000677">νεώτερον.</said>
+<said xml:id="grc-utterance-000678">εἰ δὲ ἐκεῖνο νεώτερον, οὐκ ἐκεῖνα αὖ τὰ ἄλλα πρὸς τὸ ἓν πρεσβύτερα ἢ πρότερον;</said>
+<said xml:id="grc-utterance-000679">πάνυ γε.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="155" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-155">
+<p xml:id="grc-p-000030"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000680">				
+<said xml:id="grc-utterance-000681">τὸ μὲν νεώτερον ἄρα γεγονὸς πρεσβύτερον γίγνεται πρὸς τὸ πρότερον γεγονός τε καὶ πρεσβύτερον ὄν, ἔστι δὲ οὐδέποτε πρεσβύτερον, ἀλλὰ γίγνεται ἀεὶ ἐκείνου πρεσβύτερον· ἐκεῖνο μὲν γὰρ ἐπὶ τὸ νεώτερον ἐπιδίδωσιν, τὸ δʼ ἐπὶ τὸ πρεσβύτερον.
+
+<milestone n="155" unit="page" /><milestone unit="section" resp="Stephanus" n="155a" xml:id="grc-stephanus-section-155a" />τὸ δʼ αὖ πρεσβύτερον τοῦ νεωτέρου νεώτερον γίγνεται ὡσαύτως. ἰόντε γὰρ αὐτοῖν εἰς τὸ ἐναντίον τὸ ἐναντίον ἀλλήλοιν γίγνεσθον, τὸ μὲν νεώτερον πρεσβύτερον τοῦ πρεσβυτέρου, τὸ δὲ πρεσβύτερον νεώτερον τοῦ νεωτέρου· γενέσθαι δὲ οὐκ ἂν οἵω τε εἴτην. εἰ γὰρ γένοιντο, οὐκ ἂν ἔτι γίγνοιντο, ἀλλʼ εἶεν ἄν. νῦν δὲ γίγνονται μὲν πρεσβύτερα ἀλλήλων καὶ νεώτερα· τὸ μὲν ἓν τῶν ἄλλων νεώτερον γίγνεται, ὅτι πρεσβύτερον ἐφάνη ὂν καὶ πρότερον
+<milestone unit="section" resp="Stephanus" n="155b" xml:id="grc-stephanus-section-155b" />γεγονός, τὰ δὲ ἄλλα τοῦ ἑνὸς πρεσβύτερα, ὅτι ὕστερα γέγονε. κατὰ δὲ τὸν αὐτὸν λόγον καὶ τἆλλα οὕτω πρὸς τὸ ἓν ἴσχει, ἐπειδήπερ αὐτοῦ πρεσβύτερα ἐφάνη καὶ πρότερα γεγονότα.</said>
+<said xml:id="grc-utterance-000682">φαίνεται γὰρ οὖν οὕτως.</said>
+<said xml:id="grc-utterance-000683">οὐκοῦν ᾗ μὲν οὐδὲν ἕτερον ἑτέρου πρεσβύτερον γίγνεται οὐδὲ νεώτερον, κατὰ τὸ ἴσῳ ἀριθμῷ ἀλλήλων ἀεὶ διαφέρειν, οὔτε τὸ ἓν τῶν ἄλλων πρεσβύτερον γίγνοιτʼ ἂν οὐδὲ νεώτερον, οὔτε τἆλλα τοῦ ἑνός· ᾗ δὲ ἄλλῳ ἀεὶ μορίῳ διαφέρειν ἀνάγκη
+<milestone unit="section" resp="Stephanus" n="155c" xml:id="grc-stephanus-section-155c" />τὰ πρότερα τῶν ὑστέρων γενόμενα καὶ τὰ ὕστερα τῶν προτέρων, ταύτῃ δὴ ἀνάγκη πρεσβύτερά τε καὶ νεώτερα ἀλλήλων γίγνεσθαι τά τε ἄλλα τοῦ ἑνὸς καὶ τὸ ἓν τῶν ἄλλων;</said>
+<said xml:id="grc-utterance-000684">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000685">κατὰ δὴ πάντα ταῦτα τὸ ἓν αὐτό τε αὑτοῦ καὶ τῶν ἄλλων πρεσβύτερον καὶ νεώτερον ἔστι τε καὶ γίγνεται, καὶ οὔτε πρεσβύτερον οὔτε νεώτερον οὔτʼ ἔστιν οὔτε γίγνεται οὔτε αὑτοῦ οὔτε τῶν ἄλλων.</said>
+<said xml:id="grc-utterance-000686">παντελῶς μὲν οὖν.</said>
+<said xml:id="grc-utterance-000687">ἐπειδὴ δὲ χρόνου μετέχει τὸ ἓν καὶ τοῦ
+<milestone unit="section" resp="Stephanus" n="155d" xml:id="grc-stephanus-section-155d" />πρεσβύτερόν τε καὶ νεώτερον γίγνεσθαι, ἆρʼ οὐκ ἀνάγκη καὶ τοῦ ποτὲ μετέχειν καὶ τοῦ ἔπειτα καὶ τοῦ νῦν, εἴπερ χρόνου μετέχει;</said>
+<said xml:id="grc-utterance-000688">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000689">ἦν ἄρα τὸ ἓν καὶ ἔστι καὶ ἔσται καὶ ἐγίγνετο καὶ γίγνεται καὶ γενήσεται.</said>
+<said xml:id="grc-utterance-000690">τί μήν;</said>
+<said xml:id="grc-utterance-000691">καὶ εἴη ἄν τι ἐκείνῳ καὶ ἐκείνου, καὶ ἦν καὶ ἔστιν καὶ ἔσται.</said>
+<said xml:id="grc-utterance-000692">πάνυ γε.</said>
+<said xml:id="grc-utterance-000693">καὶ ἐπιστήμη δὴ εἴη ἂν αὐτοῦ καὶ δόξα καὶ αἴσθησις, εἴπερ καὶ νῦν ἡμεῖς περὶ αὐτοῦ πάντα ταῦτα πράττομεν.</said>
+<said xml:id="grc-utterance-000694">ὀρθῶς λέγεις.</said>
+<said xml:id="grc-utterance-000695">καὶ ὄνομα δὴ καὶ λόγος ἔστιν αὐτῷ, καὶ
+<milestone unit="section" resp="Stephanus" n="155e" xml:id="grc-stephanus-section-155e" />ὀνομάζεται καὶ λέγεται· καὶ ὅσαπερ καὶ περὶ τὰ ἄλλα τῶν τοιούτων τυγχάνει ὄντα, καὶ περὶ τὸ ἓν ἔστιν.</said>
+<said xml:id="grc-utterance-000696">παντελῶς μὲν οὖν ἔχει οὕτως.<milestone unit="para" ed="P" />ἔτι δὴ τὸ τρίτον λέγωμεν. <term>τὸ ἓν εἰ ἔστιν</term> οἷον διεληλύθαμεν, ἆρʼ οὐκ ἀνάγκη αὐτό, ἕν τε ὂν καὶ πολλὰ καὶ μήτε ἓν μήτε πολλὰ καὶ μετέχον χρόνου, ὅτι μὲν ἔστιν ἕν, οὐσίας μετέχειν ποτέ, ὅτι δʼ οὐκ ἔστι, μὴ μετέχειν αὖ ποτε οὐσίας;</said>
+<said xml:id="grc-utterance-000697">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000698">ἆρʼ οὖν, ὅτε μετέχει, οἷόν τε ἔσται τότε μὴ μετέχειν, ἢ ὅτε μὴ μετέχει, μετέχειν;</said>
+<said xml:id="grc-utterance-000699">οὐχ οἷόν τε.</said>
+<said xml:id="grc-utterance-000700">ἐν ἄλλῳ ἄρα χρόνῳ μετέχει καὶ ἐν ἄλλῳ οὐ μετέχει· οὕτω γὰρ ἂν μόνως τοῦ αὐτοῦ μετέχοι τε καὶ οὐ μετέχοι.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="156" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-156">
+
+	<p xml:id="grc-p-000031"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000701"><milestone n="156" unit="page" /><milestone unit="section" resp="Stephanus" n="156a" xml:id="grc-stephanus-section-156a" />				
+<said xml:id="grc-utterance-000702">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000703">οὐκοῦν ἔστι καὶ οὗτος χρόνος, ὅτε μεταλαμβάνει τοῦ εἶναι καὶ ὅτε ἀπαλλάττεται αὐτοῦ; ἢ πῶς οἷόν τε ἔσται τοτὲ μὲν ἔχειν τὸ αὐτό, τοτὲ δὲ μὴ ἔχειν, ἐὰν μή ποτε καὶ λαμβάνῃ αὐτὸ καὶ ἀφίῃ;</said>
+<said xml:id="grc-utterance-000704">οὐδαμῶς.</said>
+<said xml:id="grc-utterance-000705">τὸ δὴ οὐσίας μεταλαμβάνειν ἆρά γε οὐ γίγνεσθαι καλεῖς;</said>
+<said xml:id="grc-utterance-000706">ἔγωγε.</said>
+<said xml:id="grc-utterance-000707">τὸ δὲ ἀπαλλάττεσθαι οὐσίας ἆρα οὐκ ἀπόλλυσθαι;</said>
+<said xml:id="grc-utterance-000708">καὶ πάνυ γε.</said>
+<said xml:id="grc-utterance-000709">τὸ ἓν δή, ὡς ἔοικε, λαμβάνον τε καὶ ἀφιὲν οὐσίαν γίγνεταί
+<milestone unit="section" resp="Stephanus" n="156b" xml:id="grc-stephanus-section-156b" />τε καὶ ἀπόλλυται.</said>
+<said xml:id="grc-utterance-000710">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000711">ἓν δὲ καὶ πολλὰ ὂν καὶ γιγνόμενον καὶ ἀπολλύμενον ἆρʼ οὐχ, ὅταν μὲν γίγνηται ἕν, τὸ πολλὰ εἶναι ἀπόλλυται, ὅταν δὲ πολλά, τὸ ἓν εἶναι ἀπόλλυται;</said>
+<said xml:id="grc-utterance-000712">πάνυ γε.</said>
+<said xml:id="grc-utterance-000713">ἓν δὲ γιγνόμενον καὶ πολλὰ ἆρʼ οὐκ ἀνάγκη διακρίνεσθαί τε καὶ συγκρίνεσθαι;</said>
+<said xml:id="grc-utterance-000714">πολλή γε.</said>
+<said xml:id="grc-utterance-000715">καὶ μὴν ἀνόμοιόν γε καὶ ὅμοιον ὅταν γίγνηται, ὁμοιοῦσθαί τε καὶ ἀνομοιοῦσθαι;</said>
+<said xml:id="grc-utterance-000716">ναί.</said>
+<said xml:id="grc-utterance-000717">καὶ ὅταν μεῖζον καὶ ἔλαττον καὶ ἴσον, αὐξάνεσθαί τε καὶ φθίνειν καὶ ἰσοῦσθαι;</said>
+<said xml:id="grc-utterance-000718">οὕτως.</said>
+<milestone unit="section" resp="Stephanus" n="156c" xml:id="grc-stephanus-section-156c" />
+<said xml:id="grc-utterance-000719">ὅταν δὲ κινούμενόν τε ἵστηται καὶ ὅταν ἑστὸς ἐπὶ τὸ κινεῖσθαι μεταβάλλῃ, δεῖ δήπου αὐτό γε μηδʼ ἐν ἑνὶ χρόνῳ εἶναι.</said>
+<said xml:id="grc-utterance-000720">πῶς δή;</said>
+<said xml:id="grc-utterance-000721">ἑστός τε πρότερον ὕστερον κινεῖσθαι καὶ πρότερον κινούμενον ὕστερον ἑστάναι, ἄνευ μὲν τοῦ μεταβάλλειν οὐχ οἷόν τε ἔσται ταῦτα πάσχειν.</said>
+<said xml:id="grc-utterance-000722">πῶς γάρ;</said>
+<said xml:id="grc-utterance-000723">χρόνος δέ γε οὐδεὶς ἔστιν, ἐν ᾧ τι οἷόν τε ἅμα μήτε κινεῖσθαι μήτε ἑστάναι.</said>
+<said xml:id="grc-utterance-000724">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000725">ἀλλʼ οὐδὲ μὴν μεταβάλλει ἄνευ τοῦ μεταβάλλειν.</said>
+<said xml:id="grc-utterance-000726">οὐκ εἰκός.</said>
+<said xml:id="grc-utterance-000727">πότʼ οὖν μεταβάλλει; οὔτε γὰρ ἑστὸς ὂν οὔτε κινούμενον μεταβάλλει, οὔτε ἐν
+<milestone unit="section" resp="Stephanus" n="156d" xml:id="grc-stephanus-section-156d" />χρόνῳ ὄν.</said>
+<said xml:id="grc-utterance-000728">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000729">ἆρʼ οὖν ἔστι τὸ ἄτοπον τοῦτο, ἐν ᾧ τότʼ ἂν εἴη, ὅτε μεταβάλλει;</said>
+<said xml:id="grc-utterance-000730">τὸ ποῖον δή;</said>
+<said xml:id="grc-utterance-000731">τὸ ἐξαίφνης. τὸ γὰρ ἐξαίφνης τοιόνδε τι ἔοικε σημαίνειν, ὡς ἐξ ἐκείνου μεταβάλλον εἰς ἑκάτερον. οὐ γὰρ ἔκ γε τοῦ ἑστάναι ἑστῶτος ἔτι μεταβάλλει, οὐδʼ ἐκ τῆς κινήσεως κινουμένης ἔτι μεταβάλλει· ἀλλὰ ἡ ἐξαίφνης αὕτη φύσις ἄτοπός τις ἐγκάθηται μεταξὺ τῆς κινήσεώς τε καὶ στάσεως,
+<milestone unit="section" resp="Stephanus" n="156e" xml:id="grc-stephanus-section-156e" />ἐν χρόνῳ οὐδενὶ οὖσα, καὶ εἰς ταύτην δὴ καὶ ἐκ ταύτης τό τε κινούμενον μεταβάλλει ἐπὶ τὸ ἑστάναι καὶ τὸ ἑστὸς ἐπὶ τὸ κινεῖσθαι.</said>
+<said xml:id="grc-utterance-000732">κινδυνεύει.</said>
+<said xml:id="grc-utterance-000733">καὶ τὸ ἓν δή, εἴπερ ἕστηκέ τε καὶ κινεῖται, μεταβάλλοι ἂν ἐφʼ ἑκάτερα—μόνως γὰρ ἂν οὕτως ἀμφότερα ποιοῖ—μεταβάλλον δʼ ἐξαίφνης μεταβάλλει, καὶ ὅτε μεταβάλλει, ἐν οὐδενὶ χρόνῳ ἂν εἴη, οὐδὲ κινοῖτʼ ἂν τότε, οὐδʼ ἂν σταίη.</said>
+<said xml:id="grc-utterance-000734">οὐ γάρ.</said></said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="157" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-157">
+					<p xml:id="grc-p-000032"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000735"><said xml:id="grc-utterance-000736">ἆρʼ οὖν οὕτω καὶ πρὸς τὰς ἄλλας μεταβολὰς ἔχει, ὅταν ἐκ τοῦ εἶναι εἰς τὸ ἀπόλλυσθαι
+
+<milestone n="157" unit="page" /><milestone unit="section" resp="Stephanus" n="157a" xml:id="grc-stephanus-section-157a" />μεταβάλλῃ ἢ ἐκ τοῦ μὴ εἶναι εἰς τὸ γίγνεσθαι, μεταξύ τινων τότε γίγνεται κινήσεών τε καὶ στάσεων, καὶ οὔτε ἔστι τότε οὔτε οὐκ ἔστι, οὔτε γίγνεται οὔτε ἀπόλλυται;</said>
+<said xml:id="grc-utterance-000737">ἔοικε γοῦν.</said>
+<said xml:id="grc-utterance-000738">κατὰ δὴ τὸν αὐτὸν λόγον καὶ ἐξ ἑνὸς ἐπὶ πολλὰ ἰὸν καὶ ἐκ πολλῶν ἐφʼ ἓν οὔτε ἕν ἐστιν οὔτε πολλά, οὔτε διακρίνεται οὔτε συγκρίνεται. καὶ ἐξ ὁμοίου ἐπὶ ἀνόμοιον καὶ ἐξ ἀνομοίου ἐπὶ ὅμοιον ἰὸν οὔτε ὅμοιον οὔτε ἀνόμοιον, οὔτε ὁμοιούμενον οὔτε ἀνομοιούμενον· καὶ
+<milestone unit="section" resp="Stephanus" n="157b" xml:id="grc-stephanus-section-157b" />ἐκ σμικροῦ ἐπὶ μέγα καὶ ἐπὶ ἴσον καὶ εἰς τὰ ἐναντία ἰὸν οὔτε σμικρὸν οὔτε μέγα οὔτε ἴσον, οὔτε αὐξανόμενον οὔτε φθῖνον οὔτε ἰσούμενον εἴη ἄν.</said>
+<said xml:id="grc-utterance-000739">οὐκ ἔοικε.</said>
+<said xml:id="grc-utterance-000740">ταῦτα δὴ τὰ παθήματα πάντʼ ἂν πάσχοι τὸ ἕν, εἰ ἔστιν.</said>
+<said xml:id="grc-utterance-000741">πῶς δʼ οὔ;<milestone unit="para" ed="P" />τί δὲ τοῖς ἄλλοις προσήκοι ἂν πάσχειν, <term>ἓν εἰ ἔστιν</term>, ἆρα οὐ σκεπτέον;</said>
+<said xml:id="grc-utterance-000742">σκεπτέον.</said>
+<said xml:id="grc-utterance-000743">λέγωμεν δή, <term>ἓν εἰ ἔστι</term>, τἆλλα τοῦ ἑνὸς τί χρὴ πεπονθέναι;</said>
+<said xml:id="grc-utterance-000744">λέγωμεν.</said>
+<said xml:id="grc-utterance-000745">οὐκοῦν ἐπείπερ ἄλλα τοῦ ἑνός ἐστιν, οὔτε τὸ ἕν ἐστι τἆλλα· οὐ
+<milestone unit="section" resp="Stephanus" n="157c" xml:id="grc-stephanus-section-157c" />γὰρ ἂν ἄλλα τοῦ ἑνὸς ἦν.</said>
+<said xml:id="grc-utterance-000746">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000747">οὐδὲ μὴν στέρεταί γε παντάπασι τοῦ ἑνὸς τἆλλα, ἀλλὰ μετέχει πῃ.</said>
+<said xml:id="grc-utterance-000748">πῇ δή;</said>
+<said xml:id="grc-utterance-000749">ὅτι που τὰ ἄλλα τοῦ ἑνὸς μόρια ἔχοντα ἄλλα ἐστίν· εἰ γὰρ μόρια μὴ ἔχοι, παντελῶς ἂν ἓν εἴη.</said>
+<said xml:id="grc-utterance-000750">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000751">μόρια δέ γε, φαμέν, τούτου ἐστὶν ὃ ἂν ὅλον ᾖ.</said>
+<said xml:id="grc-utterance-000752">φαμὲν γάρ.</said>
+<said xml:id="grc-utterance-000753">ἀλλὰ μὴν τό γε ὅλον ἓν ἐκ πολλῶν ἀνάγκη εἶναι, οὗ ἔσται μόρια τὰ μόρια· ἕκαστον γὰρ τῶν μορίων οὐ πολλῶν μόριον χρὴ εἶναι, ἀλλὰ ὅλου.</said>
+<said xml:id="grc-utterance-000754">πῶς τοῦτο;</said>
+<said xml:id="grc-utterance-000755">εἴ τι πολλῶν μόριον εἴη,
+<milestone unit="section" resp="Stephanus" n="157d" xml:id="grc-stephanus-section-157d" />ἐν οἷς αὐτὸ εἴη, ἑαυτοῦ τε δήπου μόριον ἔσται, ὅ ἐστιν ἀδύνατον, καὶ τῶν ἄλλων δὴ ἑνὸς ἑκάστου, εἴπερ καὶ πάντων. ἑνὸς γὰρ μὴ ὂν μόριον, πλὴν τούτου τῶν ἄλλων ἔσται, καὶ οὕτως ἑνὸς ἑκάστου οὐκ ἔσται μόριον, μὴ ὂν δὲ μόριον ἑκάστου οὐδενὸς τῶν πολλῶν ἔσται. μηδενὸς δὲ ὂν πάντων τούτων τι εἶναι, ὧν οὐδενὸς οὐδέν ἐστι, καὶ μόριον καὶ ἄλλο ὁτιοῦν ἀδύνατον <del>εἶναι</del>.</said>
+<said xml:id="grc-utterance-000756">φαίνεταί γε δή.</said>
+<said xml:id="grc-utterance-000757">οὐκ ἄρα τῶν πολλῶν οὐδὲ πάντων τὸ μόριον μόριον, ἀλλὰ μιᾶς τινὸς ἰδέας καὶ
+<milestone unit="section" resp="Stephanus" n="157e" xml:id="grc-stephanus-section-157e" />ἑνός τινος ὃ καλοῦμεν ὅλον, ἐξ ἁπάντων ἓν τέλειον γεγονός, τούτου μόριον ἂν τὸ μόριον εἴη.</said>
+<said xml:id="grc-utterance-000758">παντάπασι μὲν οὖν.</said>
+<said xml:id="grc-utterance-000759">εἰ ἄρα τἆλλα μόρια ἔχει, κἂν τοῦ ὅλου τε καὶ ἑνὸς μετέχοι.</said>
+<said xml:id="grc-utterance-000760">πάνυ γε.</said>
+<said xml:id="grc-utterance-000761">ἓν ἄρα ὅλον τέλειον μόρια ἔχον ἀνάγκη εἶναι τἆλλα τοῦ ἑνός.</said>
+<said xml:id="grc-utterance-000762">ἀνάγκη.</said></said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="158" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-158">
+					<p xml:id="grc-p-000033"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000763">
+						<said xml:id="grc-utterance-000764">καὶ μὴν καὶ περὶ τοῦ μορίου γε ἑκάστου ὁ αὐτὸς λόγος· καὶ γὰρ τοῦτο ἀνάγκη μετέχειν
+
+<milestone n="158" unit="page" /><milestone unit="section" resp="Stephanus" n="158a" xml:id="grc-stephanus-section-158a" />τοῦ ἑνός. εἰ γὰρ ἕκαστον αὐτῶν μόριόν ἐστι, τό γε ἕκαστον εἶναι ἓν δήπου σημαίνει, ἀφωρισμένον μὲν τῶν ἄλλων, καθʼ αὑτὸ δὲ ὄν, εἴπερ ἕκαστον ἔσται.</said>
+<said xml:id="grc-utterance-000765">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000766">μετέχοι δέ γε ἂν τοῦ ἑνὸς δῆλον ὅτι ἄλλο ὂν ἢ ἕν· οὐ γὰρ ἂν μετεῖχεν, ἀλλʼ ἦν ἂν αὐτὸ ἕν. νῦν δὲ ἑνὶ μὲν εἶναι πλὴν αὐτῷ τῷ ἑνὶ ἀδύνατόν που.</said>
+<said xml:id="grc-utterance-000767">ἀδύνατον.</said>
+<said xml:id="grc-utterance-000768">μετέχειν δέ γε τοῦ ἑνὸς ἀνάγκη τῷ τε ὅλῳ καὶ τῷ μορίῳ. τὸ μὲν γὰρ ἓν ὅλον ἔσται, οὗ μόρια τὰ μόρια· τὸ δʼ αὖ ἕκαστον ἓν μόριον τοῦ ὅλου, ὃ ἂν ᾖ
+<milestone unit="section" resp="Stephanus" n="158b" xml:id="grc-stephanus-section-158b" />μόριον ὅλου.</said>
+<said xml:id="grc-utterance-000769">οὕτως.</said>
+<said xml:id="grc-utterance-000770">οὐκοῦν ἕτερα ὄντα τοῦ ἑνὸς μεθέξει τὰ μετέχοντα αὐτοῦ;</said>
+<said xml:id="grc-utterance-000771">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000772">τὰ δʼ ἕτερα τοῦ ἑνὸς πολλά που ἂν εἴη· εἰ γὰρ μήτε ἓν μήτε ἑνὸς πλείω εἴη τἆλλα τοῦ ἑνός, οὐδὲν ἂν εἴη.</said>
+<said xml:id="grc-utterance-000773">οὐ γὰρ οὖν.<milestone unit="para" ed="P" />ἐπεὶ δέ γε πλείω ἑνός ἐστι τά τε τοῦ ἑνὸς μορίου καὶ τὰ τοῦ ἑνὸς ὅλου μετέχοντα, οὐκ ἀνάγκη ἤδη πλήθει ἄπειρα εἶναι αὐτά γε ἐκεῖνα τὰ μεταλαμβάνοντα τοῦ ἑνός;</said>
+<said xml:id="grc-utterance-000774">πῶς;</said>
+<said xml:id="grc-utterance-000775">ὧδε ἴδωμεν. ἄλλο τι οὐχ ἓν ὄντα οὐδὲ μετέχοντα τοῦ ἑνὸς τότε, ὅτε μεταλαμβάνει αὐτοῦ, μεταλαμβάνει;</said>
+<said xml:id="grc-utterance-000776">δῆλα δή.</said>
+<said xml:id="grc-utterance-000777">
+<milestone unit="section" resp="Stephanus" n="158c" xml:id="grc-stephanus-section-158c" />οὐκοῦν πλήθη ὄντα, ἐν οἷς τὸ ἓν οὐκ ἔνι;</said>
+<said xml:id="grc-utterance-000778">πλήθη μέντοι.</said>
+<said xml:id="grc-utterance-000779">τί οὖν; εἰ ἐθέλοιμεν τῇ διανοίᾳ τῶν τοιούτων ἀφελεῖν ὡς οἷοί τέ ἐσμεν ὅτι ὀλίγιστον, οὐκ ἀνάγκη καὶ τὸ ἀφαιρεθὲν ἐκεῖνο, εἴπερ τοῦ ἑνὸς μὴ μετέχοι, πλῆθος εἶναι καὶ οὐχ ἕν;</said>
+<said xml:id="grc-utterance-000780">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000781">οὐκοῦν οὕτως ἀεὶ σκοποῦντες αὐτὴν καθʼ αὑτὴν τὴν ἑτέραν φύσιν τοῦ εἴδους ὅσον ἂν αὐτῆς ἀεὶ ὁρῶμεν ἄπειρον ἔσται πλήθει;</said>
+<said xml:id="grc-utterance-000782">παντάπασι μὲν οὖν.</said>
+<said xml:id="grc-utterance-000783">καὶ μὴν ἐπειδάν γε
+<milestone unit="section" resp="Stephanus" n="158d" xml:id="grc-stephanus-section-158d" />ἓν ἕκαστον μόριον μόριον γένηται, πέρας ἤδη ἔχει πρὸς ἄλληλα καὶ πρὸς τὸ ὅλον, καὶ τὸ ὅλον πρὸς τὰ μόρια.</said>
+<said xml:id="grc-utterance-000784">κομιδῇ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000785">τοῖς ἄλλοις δὴ τοῦ ἑνὸς συμβαίνει ἐκ μὲν τοῦ ἑνὸς καὶ ἐξ ἑαυτῶν κοινωνησάντων, ὡς ἔοικεν, ἕτερόν τι γίγνεσθαι ἐν ἑαυτοῖς, ὃ δὴ πέρας παρέσχε πρὸς ἄλληλα· ἡ δʼ ἑαυτῶν φύσις καθʼ ἑαυτὰ ἀπειρίαν.</said>
+<said xml:id="grc-utterance-000786">φαίνεται.</said>
+<said xml:id="grc-utterance-000787">οὕτω δὴ τὰ ἄλλα τοῦ ἑνὸς καὶ ὅλα καὶ κατὰ μόρια ἄπειρά τέ ἐστι καὶ πέρατος μετέχει.</said>
+<said xml:id="grc-utterance-000788">πάνυ γε.
+<milestone unit="section" resp="Stephanus" n="158e" xml:id="grc-stephanus-section-158e" /><milestone unit="para" ed="P" />οὐκοῦν καὶ ὅμοιά τε καὶ ἀνόμοια ἀλλήλοις τε καὶ ἑαυτοῖς;</said>
+<said xml:id="grc-utterance-000789">πῇ δή;</said>
+<said xml:id="grc-utterance-000790">ἧι μέν που ἄπειρά ἐστι κατὰ τὴν ἑαυτῶν φύσιν πάντα, ταὐτὸν πεπονθότα ἂν εἴη ταύτῃ.</said>
+<said xml:id="grc-utterance-000791">πάνυ γε.</said>
+<said xml:id="grc-utterance-000792">καὶ μὴν ᾗ γε ἅπαντα πέρατος μετέχει, καὶ ταύτῃ πάντʼ ἂν εἴη ταὐτὸν πεπονθότα.</said>
+<said xml:id="grc-utterance-000793">πῶς δʼ οὔ;</said></said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="159" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-159">
+					<p xml:id="grc-p-000034"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000794">				
+<said xml:id="grc-utterance-000795">ᾗ δέ γε πεπερασμένα τε εἶναι καὶ ἄπειρα πέπονθεν, ἐναντία πάθη ἀλλήλοις ὄντα ταῦτα τὰ
+
+<milestone n="159" unit="page" /><milestone unit="section" resp="Stephanus" n="159a" xml:id="grc-stephanus-section-159a" />πάθη πέπονθεν.</said>
+<said xml:id="grc-utterance-000796">ναί.</said>
+<said xml:id="grc-utterance-000797">τὰ δʼ ἐναντία γε ὡς οἷόν τε ἀνομοιότατα.</said>
+<said xml:id="grc-utterance-000798">τί μήν;</said>
+<said xml:id="grc-utterance-000799">κατὰ μὲν ἄρα ἑκάτερον τὸ πάθος ὅμοια ἂν εἴη αὐτά τε αὑτοῖς καὶ ἀλλήλοις, κατὰ δʼ ἀμφότερα ἀμφοτέρως ἐναντιώτατά τε καὶ ἀνομοιότατα.</said>
+<said xml:id="grc-utterance-000800">κινδυνεύει.</said>
+<said xml:id="grc-utterance-000801">οὕτω δὴ τὰ ἄλλα αὐτά τε αὑτοῖς καὶ ἀλλήλοις ὅμοιά τε καὶ ἀνόμοια ἂν εἴη.</said>
+<said xml:id="grc-utterance-000802">οὕτως.</said>
+<said xml:id="grc-utterance-000803">καὶ ταὐτὰ δὴ καὶ ἕτερα ἀλλήλων, καὶ κινούμενα καὶ ἑστῶτα, καὶ πάντα τὰ ἐναντία πάθη οὐκέτι χαλεπῶς εὑρήσομεν πεπονθότα τἆλλα τοῦ ἑνός, ἐπείπερ καὶ
+<milestone unit="section" resp="Stephanus" n="159b" xml:id="grc-stephanus-section-159b" />ταῦτα ἐφάνη πεπονθότα.</said>
+<said xml:id="grc-utterance-000804">ὀρθῶς λέγεις.<milestone unit="para" ed="P" />οὐκοῦν, εἰ ταῦτα μὲν ἤδη ἐῷμεν ὡς φανερά, ἐπισκοποῖμεν δὲ πάλιν <term>ἓν εἰ ἔστιν</term>, ἆρα καὶ οὐχ οὕτως ἔχει τὰ ἄλλα τοῦ ἑνὸς ἢ οὕτω μόνον;</said>
+<said xml:id="grc-utterance-000805">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-000806">λέγωμεν δὴ ἐξ ἀρχῆς <term>ἓν εἰ ἔστι</term>, τί χρὴ τὰ ἄλλα τοῦ ἑνὸς πεπονθέναι.</said>
+<said xml:id="grc-utterance-000807">λέγωμεν γάρ.</said>
+<said xml:id="grc-utterance-000808">ἆρʼ οὖν οὐ χωρὶς μὲν τὸ ἓν τῶν ἄλλων, χωρὶς δὲ τἆλλα τοῦ ἑνὸς εἶναι;</said>
+<said xml:id="grc-utterance-000809">τί δή;</said>
+<said xml:id="grc-utterance-000810">ὅτι που οὐκ ἔστι παρὰ ταῦτα ἕτερον, ὃ ἄλλο μέν ἐστι τοῦ ἑνός, ἄλλο δὲ τῶν ἄλλων·
+<milestone unit="section" resp="Stephanus" n="159c" xml:id="grc-stephanus-section-159c" />πάντα γὰρ εἴρηται, ὅταν ῥηθῇ τό τε ἓν καὶ τἆλλα.</said>
+<said xml:id="grc-utterance-000811">πάντα γάρ.</said>
+<said xml:id="grc-utterance-000812">οὐκ ἄρα ἔτʼ ἔστιν ἕτερον τούτων, ἐν ᾧ τό τε ἓν ἂν εἴη τῷ αὐτῷ καὶ τἆλλα.</said>
+<said xml:id="grc-utterance-000813">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000814">οὐδέποτε ἄρα ἐν ταὐτῷ ἐστι τὸ ἓν καὶ τἆλλα.</said>
+<said xml:id="grc-utterance-000815">οὐκ ἔοικεν.</said>
+<said xml:id="grc-utterance-000816">χωρὶς ἄρα;</said>
+<said xml:id="grc-utterance-000817">ναί.</said>
+<said xml:id="grc-utterance-000818">οὐδὲ μὴν μόριά γε ἔχειν φαμὲν τὸ ὡς ἀληθῶς ἕν.</said>
+<said xml:id="grc-utterance-000819">πῶς γάρ;</said>
+<said xml:id="grc-utterance-000820">οὔτʼ ἄρα ὅλον εἴη ἂν τὸ ἓν ἐν τοῖς ἄλλοις οὔτε μόρια αὐτοῦ, εἰ χωρίς τέ ἐστι τῶν ἄλλων καὶ μόρια μὴ ἔχει.</said>
+<said xml:id="grc-utterance-000821">πῶς
+<milestone unit="section" resp="Stephanus" n="159d" xml:id="grc-stephanus-section-159d" />γάρ;</said>
+<said xml:id="grc-utterance-000822">οὐδενὶ ἄρα τρόπῳ μετέχοι ἂν τἆλλα τοῦ ἑνός, μήτε κατὰ μόριόν τι αὐτοῦ μήτε κατὰ ὅλον μετέχοντα.</said>
+<said xml:id="grc-utterance-000823">οὐκ ἔοικεν.</said>
+<said xml:id="grc-utterance-000824">οὐδαμῇ ἄρα ἓν τἆλλά ἐστιν, οὐδʼ ἔχει ἐν ἑαυτοῖς ἓν οὐδέν.</said>
+<said xml:id="grc-utterance-000825">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000826">οὐδʼ ἄρα πολλά ἐστι τἆλλα· ἓν γὰρ ἂν ἦν ἕκαστον αὐτῶν μόριον τοῦ ὅλου, εἰ πολλὰ ἦν· νῦν δὲ οὔτε ἓν οὔτε πολλὰ οὔτε ὅλον οὔτε μόριά ἐστι τἆλλα τοῦ ἑνός, ἐπειδὴ αὐτοῦ οὐδαμῇ μετέχει.</said>
+<said xml:id="grc-utterance-000827">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000828">οὐδʼ ἄρα δύο οὐδὲ τρία οὔτε αὐτά ἐστι τὰ ἄλλα οὔτε ἔνεστιν ἐν αὐτοῖς,
+<milestone unit="section" resp="Stephanus" n="159e" xml:id="grc-stephanus-section-159e" />εἴπερ τοῦ ἑνὸς πανταχῇ στέρεται.</said>
+<said xml:id="grc-utterance-000829">οὕτως.<milestone unit="para" ed="P" />οὐδὲ ὅμοια ἄρα καὶ ἀνόμοια οὔτε αὐτά ἐστι τῷ ἑνὶ τὰ ἄλλα, οὔτε ἔνεστιν ἐν αὐτοῖς ὁμοιότης καὶ ἀνομοιότης· εἰ γὰρ ὅμοια καὶ ἀνόμοια αὐτὰ εἴη ἢ ἔχοι ἐν ἑαυτοῖς ὁμοιότητα καὶ ἀνομοιότητα, δύο που εἴδη ἐναντία ἀλλήλοις ἔχοι ἂν ἐν ἑαυτοῖς τὰ ἄλλα τοῦ ἑνός.</said>
+<said xml:id="grc-utterance-000830">φαίνεται.</said>
+<said xml:id="grc-utterance-000831">ἦν δέ γε ἀδύνατον δυοῖν τινοῖν μετέχειν ἃ μηδʼ ἑνὸς μετέχοι.</said>
+<said xml:id="grc-utterance-000832">ἀδύνατον.</said></said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="160" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-160">
+					<p xml:id="grc-p-000035"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000833">
+<said xml:id="grc-utterance-000834">οὔτʼ ἄρα ὅμοια οὔτʼ ἀνόμοιά ἐστιν οὔτʼ ἀμφότερα τἆλλα.
+
+<milestone n="160" unit="page" /><milestone unit="section" resp="Stephanus" n="160a" xml:id="grc-stephanus-section-160a" />ὅμοια μὲν γὰρ ἂν ὄντα ἢ ἀνόμοια ἑνὸς ἂν τοῦ ἑτέρου εἴδους μετέχοι, ἀμφότερα δὲ ὄντα δυοῖν τοῖν ἐναντίοιν· ταῦτα δὲ ἀδύνατον ἐφάνη.</said>
+<said xml:id="grc-utterance-000835">ἀληθῆ.<milestone unit="para" ed="P" />οὐδʼ ἄρα τὰ αὐτὰ οὐδʼ ἕτερα, οὐδὲ κινούμενα οὐδὲ ἑστῶτα, οὐδὲ γιγνόμενα οὐδὲ ἀπολλύμενα, οὐδὲ μείζω οὐδὲ ἐλάττω οὐδὲ ἴσα· οὐδὲ ἄλλο οὐδὲν πέπονθε τῶν τοιούτων· εἰ γάρ τι τοιοῦτον πεπονθέναι ὑπομένει τὰ ἄλλα, καὶ ἑνὸς καὶ δυοῖν καὶ τριῶν καὶ περιττοῦ καὶ ἀρτίου μεθέξει, ὧν αὐτοῖς ἀδύνατον
+<milestone unit="section" resp="Stephanus" n="160b" xml:id="grc-stephanus-section-160b" />ἐφάνη μετέχειν τοῦ ἑνός γε πάντῃ πάντως στερομένοις.</said>
+<said xml:id="grc-utterance-000836">ἀληθέστατα.</said>
+<said xml:id="grc-utterance-000837">οὕτω δὴ ἓν εἰ ἔστιν, πάντα τέ ἐστι τὸ ἓν καὶ οὐδὲ ἕν ἐστι καὶ πρὸς ἑαυτὸ καὶ πρὸς τὰ ἄλλα ὡσαύτως.</said>
+<said xml:id="grc-utterance-000838">παντελῶς μὲν οὖν.<milestone unit="para" ed="P" />εἶεν· εἰ δὲ δὴ μὴ ἔστι τὸ ἕν, τί χρὴ συμβαίνειν ἆρʼ οὐ σκεπτέον μετὰ τοῦτο;</said>
+<said xml:id="grc-utterance-000839">σκεπτέον γάρ.</said>
+<said xml:id="grc-utterance-000840">τίς οὖν ἂν εἴη αὕτη ἡ ὑπόθεσις, <term>εἰ ἓν μὴ ἔστιν</term>; ἆρά τι διαφέρει τῆσδε, <term>εἰ μὴ ἓν μὴ ἔστιν</term>;</said>
+<said xml:id="grc-utterance-000841">διαφέρει μέντοι.</said>
+<said xml:id="grc-utterance-000842">διαφέρει μόνον, ἢ καὶ πᾶν
+<milestone unit="section" resp="Stephanus" n="160c" xml:id="grc-stephanus-section-160c" />τοὐναντίον ἐστὶν εἰπεῖν <term>εἰ μὴ ἓν μὴ ἔστι</term> τοῦ <term>εἰ ἓν μὴ ἔστιν</term>;</said>
+<said xml:id="grc-utterance-000843">πᾶν τοὐναντίον.</said>
+<said xml:id="grc-utterance-000844">τί δʼ εἴ τις λέγοι εἰ μέγεθος μὴ ἔστιν ἢ σμικρότης μὴ ἔστιν ἤ τι ἄλλο τῶν τοιούτων, ἆρα ἐφʼ ἑκάστου ἂν δηλοῖ ὅτι ἕτερόν τι λέγοι τὸ μὴ ὄν;</said>
+<said xml:id="grc-utterance-000845">πάνυ γε.</said>
+<said xml:id="grc-utterance-000846">οὐκοῦν καὶ νῦν δηλοῖ ὅτι ἕτερον λέγει τῶν ἄλλων τὸ μὴ ὄν, ὅταν εἴπῃ <term>ἓν εἰ μὴ ἔστι</term>, καὶ ἴσμεν ὃ λέγει;</said>
+<said xml:id="grc-utterance-000847">ἴσμεν.</said>
+<said xml:id="grc-utterance-000848">πρῶτον μὲν ἄρα γνωστόν τι λέγει, ἔπειτα ἕτερον τῶν ἄλλων, ὅταν εἴπῃ ἕν, εἴτε τὸ εἶναι αὐτῷ προσθεὶς εἴτε
+<milestone unit="section" resp="Stephanus" n="160d" xml:id="grc-stephanus-section-160d" />τὸ μὴ εἶναι· οὐδὲν <add>γὰρ</add> ἧττον γιγνώσκεται, τί τὸ λεγόμενον μὴ εἶναι, καὶ ὅτι διάφορον τῶν ἄλλων. ἢ οὔ;</said>
+<said xml:id="grc-utterance-000849">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000850">ὧδε ἄρα λεκτέον ἐξ ἀρχῆς, <term>ἓν εἰ μὴ ἔστι</term>, τί χρὴ εἶναι. πρῶτον μὲν οὖν αὐτῷ τοῦτο ὑπάρχειν δεῖ, ὡς ἔοικεν, εἶναι αὐτοῦ ἐπιστήμην, ἢ μηδὲ ὅτι λέγεται γιγνώσκεσθαι, ὅταν τις εἴπῃ <term>ἓν εἰ μὴ ἔστιν</term>.</said>
+<said xml:id="grc-utterance-000851">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000852">οὐκοῦν καὶ τὰ ἄλλα ἕτερα αὐτοῦ εἶναι, ἢ μηδὲ ἐκεῖνο ἕτερον τῶν ἄλλων λέγεσθαι;</said>
+<said xml:id="grc-utterance-000853">πάνυ γε.</said>
+<said xml:id="grc-utterance-000854">καὶ ἑτεροιότης ἄρα ἐστὶν αὐτῷ πρὸς τῇ ἐπιστήμῃ.
+<milestone unit="section" resp="Stephanus" n="160e" xml:id="grc-stephanus-section-160e" />οὐ γὰρ τὴν τῶν ἄλλων ἑτεροιότητα λέγει, ὅταν τὸ ἓν ἕτερον τῶν ἄλλων λέγῃ, ἀλλὰ τὴν ἐκείνου.</said>
+<said xml:id="grc-utterance-000855">φαίνεται.</said>
+<said xml:id="grc-utterance-000856">καὶ μὴν τοῦ γε ἐκείνου καὶ τοῦ τινὸς καὶ τούτου καὶ τούτῳ καὶ τούτων καὶ πάντων τῶν τοιούτων μετέχει τὸ μὴ ὂν ἕν· οὐ γὰρ ἂν τὸ ἓν ἐλέγετο οὐδʼ ἂν τοῦ ἑνὸς ἕτερα, οὐδʼ ἐκείνῳ ἄν τι ἦν οὐδʼ ἐκείνου, οὐδʼ ἄν τι ἐλέγετο, εἰ μήτε τοῦ τινὸς αὐτῷ μετῆν μήτε τῶν ἄλλων τούτων.</said>
+<said xml:id="grc-utterance-000857">ὀρθῶς.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="161" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-161">
+<p xml:id="grc-p-000036"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000858">
+<said xml:id="grc-utterance-000859">εἶναι μὲν δὴ τῷ ἑνὶ οὐχ οἷόν τε, εἴπερ γε μὴ ἔστι, μετέχειν δὲ πολλῶν οὐδὲν
+
+<milestone n="161" unit="page" /><milestone unit="section" resp="Stephanus" n="161a" xml:id="grc-stephanus-section-161a" />κωλύει, ἀλλὰ καὶ ἀνάγκη, εἴπερ τό γε ἓν ἐκεῖνο καὶ μὴ ἄλλο μὴ ἔστιν. εἰ μέντοι μήτε τὸ ἓν μήτʼ ἐκεῖνο μὴ ἔσται, ἀλλὰ περὶ ἄλλου του ὁ λόγος, οὐδὲ φθέγγεσθαι δεῖ οὐδέν· εἰ δὲ τὸ ἓν ἐκεῖνο καὶ μὴ ἄλλο ὑπόκειται μὴ εἶναι, καὶ τοῦ ἐκείνου καὶ ἄλλων πολλῶν ἀνάγκη αὐτῷ μετεῖναι.</said>
+<said xml:id="grc-utterance-000860">καὶ πάνυ γε.<milestone unit="para" ed="P" />καὶ ἀνομοιότης ἄρα ἐστὶν αὐτῷ πρὸς τὰ ἄλλα· τὰ γὰρ ἄλλα τοῦ ἑνὸς ἕτερα ὄντα ἑτεροῖα καὶ εἴη ἄν.</said>
+<said xml:id="grc-utterance-000861">ναί.</said>
+<said xml:id="grc-utterance-000862">τὰ δʼ ἑτεροῖα οὐκ ἀλλοῖα;</said>
+<said xml:id="grc-utterance-000863">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000864">τὰ δʼ ἀλλοῖα οὐκ
+<milestone unit="section" resp="Stephanus" n="161b" xml:id="grc-stephanus-section-161b" />ἀνόμοια;</said>
+<said xml:id="grc-utterance-000865">ἀνόμοια μὲν οὖν.</said>
+<said xml:id="grc-utterance-000866">οὐκοῦν εἴπερ τῷ ἑνὶ ἀνόμοιά ἐστι, δῆλον ὅτι ἀνομοίῳ τά γε ἀνόμοια ἀνόμοια ἂν εἴη.</said>
+<said xml:id="grc-utterance-000867">δῆλον.</said>
+<said xml:id="grc-utterance-000868">εἴη δὴ ἂν καὶ τῷ ἑνὶ ἀνομοιότης, πρὸς ἣν τὰ ἄλλα ἀνόμοια αὐτῷ ἐστιν.</said>
+<said xml:id="grc-utterance-000869">ἔοικεν.</said>
+<said xml:id="grc-utterance-000870">εἰ δὲ δὴ τῶν ἄλλων ἀνομοιότης ἔστιν αὐτῷ, ἆρʼ οὐκ ἀνάγκη ἑαυτοῦ ὁμοιότητα αὐτῷ εἶναι;</said>
+<said xml:id="grc-utterance-000871">πῶς;</said>
+<said xml:id="grc-utterance-000872">εἰ ἑνὸς ἀνομοιότης ἔστι τῷ ἑνί, οὐκ ἄν που περὶ τοῦ τοιούτου ὁ λόγος εἴη οἵου τοῦ ἑνός, οὐδʼ ἂν ἡ ὑπόθεσις εἴη περὶ ἑνός, ἀλλὰ περὶ ἄλλου ἢ ἑνός.</said>
+<said xml:id="grc-utterance-000873">πάνυ
+<milestone unit="section" resp="Stephanus" n="161c" xml:id="grc-stephanus-section-161c" />γε.</said>
+<said xml:id="grc-utterance-000874">οὐ δεῖ δέ γε.</said>
+<said xml:id="grc-utterance-000875">οὐ δῆτα.</said>
+<said xml:id="grc-utterance-000876">δεῖ ἄρα ὁμοιότητα τῷ ἑνὶ αὐτοῦ ἑαυτῷ εἶναι.</said>
+<said xml:id="grc-utterance-000877">δεῖ.<milestone unit="para" ed="P" />καὶ μὴν οὐδʼ αὖ ἴσον γʼ ἐστὶ τοῖς ἄλλοις· εἰ γὰρ εἴη ἴσον, εἴη τε ἂν ἤδη καὶ ὅμοιον ἂν εἴη αὐτοῖς κατὰ τὴν ἰσότητα. ταῦτα δʼ ἀμφότερα ἀδύνατα, εἴπερ μὴ ἔστιν ἕν.</said>
+<said xml:id="grc-utterance-000878">ἀδύνατα.</said>
+<said xml:id="grc-utterance-000879">ἐπειδὴ δὲ οὐκ ἔστι τοῖς ἄλλοις ἴσον, ἆρα οὐκ ἀνάγκη καὶ τἆλλα ἐκείνῳ μὴ ἴσα εἶναι;</said>
+<said xml:id="grc-utterance-000880">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000881">τὰ δὲ μὴ ἴσα οὐκ ἄνισα;</said>
+<said xml:id="grc-utterance-000882">ναί.</said>
+<said xml:id="grc-utterance-000883">τὰ δὲ ἄνισα οὐ τῷ ἀνίσῳ ἄνισα;</said>
+<said xml:id="grc-utterance-000884">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000885">καὶ ἀνισότητος δὴ μετέχει τὸ ἕν,
+<milestone unit="section" resp="Stephanus" n="161d" xml:id="grc-stephanus-section-161d" />πρὸς ἣν τἆλλα αὐτῷ ἐστιν ἄνισα;</said>
+<said xml:id="grc-utterance-000886">μετέχει.</said>
+<said xml:id="grc-utterance-000887">ἀλλὰ μέντοι ἀνισότητός γε ἐστὶ μέγεθός τε καὶ σμικρότης.</said>
+<said xml:id="grc-utterance-000888">ἔστι γάρ.</said>
+<said xml:id="grc-utterance-000889">ἔστιν ἄρα καὶ μέγεθός τε καὶ σμικρότης τῷ τοιούτῳ ἑνί;</said>
+<said xml:id="grc-utterance-000890">κινδυνεύει.</said>
+<said xml:id="grc-utterance-000891">μέγεθος μὴν καὶ σμικρότης ἀεὶ ἀφέστατον ἀλλήλοιν.</said>
+<said xml:id="grc-utterance-000892">πάνυ γε.</said>
+<said xml:id="grc-utterance-000893">μεταξὺ ἄρα τι αὐτοῖν ἀεί ἐστιν.</said>
+<said xml:id="grc-utterance-000894">ἔστιν.</said>
+<said xml:id="grc-utterance-000895">ἔχεις οὖν τι ἄλλο εἰπεῖν μεταξὺ αὐτοῖν ἢ ἰσότητα;</said>
+<said xml:id="grc-utterance-000896">οὔκ, ἀλλὰ τοῦτο.</said>
+<said xml:id="grc-utterance-000897">ὅτῳ ἄρα ἔστι μέγεθος καὶ σμικρότης, ἔστι καὶ ἰσότης αὐτῷ μεταξὺ τούτοιν οὖσα.</said>
+<said xml:id="grc-utterance-000898">
+<milestone unit="section" resp="Stephanus" n="161e" xml:id="grc-stephanus-section-161e" />φαίνεται.</said>
+<said xml:id="grc-utterance-000899">τῷ δὴ ἑνὶ μὴ ὄντι, ὡς ἔοικε, καὶ ἰσότητος ἂν μετείη καὶ μεγέθους καὶ σμικρότητος.</said>
+<said xml:id="grc-utterance-000900">ἔοικεν.<milestone unit="para" ed="P" />καὶ μὴν καὶ οὐσίας γε δεῖ αὐτὸ μετέχειν πῃ.</said>
+<said xml:id="grc-utterance-000901">πῶς δή;</said>
+<said xml:id="grc-utterance-000902">ἔχειν αὐτὸ δεῖ οὕτως ὡς λέγομεν· εἰ γὰρ μὴ οὕτως ἔχει, οὐκ ἂν ἀληθῆ λέγοιμεν ἡμεῖς λέγοντες τὸ ἓν μὴ εἶναι· εἰ δὲ ἀληθῆ, δῆλον ὅτι ὄντα αὐτὰ λέγομεν. ἢ οὐχ οὕτως;</said>
+<said xml:id="grc-utterance-000903">οὕτω μὲν οὖν.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="162" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-162">
+<p xml:id="grc-p-000037"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000904">
+<said xml:id="grc-utterance-000905">ἐπειδὴ δέ φαμεν ἀληθῆ λέγειν, ἀνάγκη
+
+<milestone n="162" unit="page" /><milestone unit="section" resp="Stephanus" n="162a" xml:id="grc-stephanus-section-162a" />ἡμῖν φάναι καὶ ὄντα λέγειν.</said>
+<said xml:id="grc-utterance-000906">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000907">ἔστιν ἄρα, ὡς ἔοικε, τὸ ἓν οὐκ ὄν· εἰ γὰρ μὴ ἔσται μὴ ὄν, ἀλλά πῃ τοῦ εἶναι ἀνήσει πρὸς τὸ μὴ εἶναι, εὐθὺς ἔσται ὄν.</said>
+<said xml:id="grc-utterance-000908">παντάπασι μὲν οὖν.</said>
+<said xml:id="grc-utterance-000909">δεῖ ἄρα αὐτὸ δεσμὸν ἔχειν τοῦ μὴ εἶναι τὸ εἶναι μὴ ὄν, εἰ μέλλει μὴ εἶναι, ὁμοίως ὥσπερ τὸ ὂν τὸ μὴ ὂν ἔχειν μὴ εἶναι, ἵνα τελέως αὖ <del>εἶναι</del> ᾖ· οὕτως γὰρ ἂν τό τε ὂν μάλιστʼ ἂν εἴη καὶ τὸ μὴ ὂν οὐκ ἂν εἴη, μετέχοντα τὸ μὲν ὂν οὐσίας τοῦ εἶναι ὄν, μὴ οὐσίας δὲ τοῦ <add>μὴ</add> εἶναι μὴ
+<milestone unit="section" resp="Stephanus" n="162b" xml:id="grc-stephanus-section-162b" />ὄν, εἰ μέλλει τελέως εἶναι, τὸ δὲ μὴ ὂν μὴ οὐσίας μὲν τοῦ μὴ εἶναι <del>μὴ</del> ὄν, οὐσίας δὲ τοῦ εἶναι μὴ ὄν, εἰ καὶ τὸ μὴ ὂν αὖ τελέως μὴ ἔσται.</said>
+<said xml:id="grc-utterance-000910">ἀληθέστατα.</said>
+<said xml:id="grc-utterance-000911">οὐκοῦν ἐπείπερ τῷ τε ὄντι τοῦ μὴ εἶναι καὶ τῷ μὴ ὄντι τοῦ εἶναι μέτεστι, καὶ τῷ ἑνί, ἐπειδὴ οὐκ ἔστι, τοῦ εἶναι ἀνάγκη μετεῖναι εἰς τὸ μὴ εἶναι.</said>
+<said xml:id="grc-utterance-000912">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000913">καὶ οὐσία δὴ φαίνεται τῷ ἑνί, εἰ μὴ ἔστιν.</said>
+<said xml:id="grc-utterance-000914">φαίνεται.</said>
+<said xml:id="grc-utterance-000915">καὶ μὴ οὐσία ἄρα, εἴπερ μὴ ἔστιν.</said>
+<said xml:id="grc-utterance-000916">πῶς δʼ οὔ;<milestone unit="para" ed="P" />οἷόν τε οὖν τὸ ἔχον πως μὴ ἔχειν οὕτω, μὴ μεταβάλλον ἐκ ταύτης τῆς ἕξεως;</said>
+<said xml:id="grc-utterance-000917">οὐχ οἷόν τε.</said>
+<said xml:id="grc-utterance-000918">πᾶν ἄρα τὸ τοιοῦτον
+<milestone unit="section" resp="Stephanus" n="162c" xml:id="grc-stephanus-section-162c" />μεταβολὴν σημαίνει, ὃ ἂν οὕτω τε καὶ μὴ οὕτως ἔχῃ.</said>
+<said xml:id="grc-utterance-000919">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-000920">μεταβολὴ δὲ κίνησις· ἢ τί φήσομεν;</said>
+<said xml:id="grc-utterance-000921">κίνησις.</said>
+<said xml:id="grc-utterance-000922">οὐκοῦν τὸ ἓν ὄν τε καὶ οὐκ ὂν ἐφάνη;</said>
+<said xml:id="grc-utterance-000923">ναί.</said>
+<said xml:id="grc-utterance-000924">οὕτως ἄρα καὶ οὐχ οὕτως ἔχον φαίνεται.</said>
+<said xml:id="grc-utterance-000925">ἔοικεν.</said>
+<said xml:id="grc-utterance-000926">καὶ κινούμενον ἄρα τὸ οὐκ ὂν ἓν πέφανται, ἐπείπερ καὶ μεταβολὴν ἐκ τοῦ εἶναι ἐπὶ τὸ μὴ εἶναι ἔχον.</said>
+<said xml:id="grc-utterance-000927">κινδυνεύει.</said>
+<said xml:id="grc-utterance-000928">ἀλλὰ μὴν εἰ μηδαμοῦ γέ ἐστι τῶν ὄντων, ὡς οὐκ ἔστιν εἴπερ μὴ ἔστιν, οὐδʼ ἂν μεθίσταιτό ποθέν ποι.</said>
+<said xml:id="grc-utterance-000929">πῶς γάρ;</said>
+<said xml:id="grc-utterance-000930">οὐκ ἄρα τῷ γε
+<milestone unit="section" resp="Stephanus" n="162d" xml:id="grc-stephanus-section-162d" />μεταβαίνειν κινοῖτʼ ἄν.</said>
+<said xml:id="grc-utterance-000931">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000932">οὐδὲ μὴν ἐν τῷ αὐτῷ ἂν στρέφοιτο· ταὐτοῦ γὰρ οὐδαμοῦ ἅπτεται. ὂν γὰρ ἐστὶ τὸ ταὐτόν· τὸ δὲ μὴ ὂν ἔν τῳ τῶν ὄντων ἀδύνατον εἶναι.</said>
+<said xml:id="grc-utterance-000933">ἀδύνατον γάρ.</said>
+<said xml:id="grc-utterance-000934">οὐκ ἄρα τὸ ἕν γε μὴ ὂν στρέφεσθαι ἂν δύναιτο ἐν ἐκείνῳ ἐν ᾧ μὴ ἔστιν.</said>
+<said xml:id="grc-utterance-000935">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-000936">οὐδὲ μὴν ἀλλοιοῦταί που τὸ ἓν ἑαυτοῦ, οὔτε τὸ ὂν οὔτε τὸ μὴ ὄν· οὐ γὰρ ἂν ἦν ὁ λόγος ἔτι περὶ τοῦ ἑνός, εἴπερ ἠλλοιοῦτο αὐτὸ ἑαυτοῦ, ἀλλὰ περὶ ἄλλου τινός.</said>
+<said xml:id="grc-utterance-000937">ὀρθῶς.</said>
+<said xml:id="grc-utterance-000938">εἰ δὲ μήτʼ ἀλλοιοῦται μήτε ἐν ταὐτῷ στρέφεται μήτε μεταβαίνει, ἆρʼ
+<milestone unit="section" resp="Stephanus" n="162e" xml:id="grc-stephanus-section-162e" />ἄν πῃ ἔτι κινοῖτο;</said>
+<said xml:id="grc-utterance-000939">πῶς γάρ;</said>
+<said xml:id="grc-utterance-000940">τό γε μὴν ἀκίνητον ἀνάγκη ἡσυχίαν ἄγειν, τὸ δὲ ἡσυχάζον ἑστάναι.</said>
+<said xml:id="grc-utterance-000941">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000942">τὸ ἓν ἄρα, ὡς ἔοικεν, οὐκ ὂν ἕστηκέ τε καὶ κινεῖται.</said>
+<said xml:id="grc-utterance-000943">ἔοικεν.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="163" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-163">
+<p xml:id="grc-p-000038"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000944">				
+<said xml:id="grc-utterance-000945">καὶ μὴν εἴπερ γε κινεῖται, μεγάλη ἀνάγκη αὐτῷ ἀλλοιοῦσθαι·
+
+<milestone n="163" unit="page" /><milestone unit="section" resp="Stephanus" n="163a" xml:id="grc-stephanus-section-163a" />ὅπῃ γὰρ ἄν τι κινηθῇ, κατὰ τοσοῦτον οὐκέθʼ ὡσαύτως ἔχει ὡς εἶχεν, ἀλλʼ ἑτέρως.</said>
+<said xml:id="grc-utterance-000946">οὕτως.</said>
+<said xml:id="grc-utterance-000947">κινούμενον δὴ τὸ ἓν καὶ ἀλλοιοῦται.</said>
+<said xml:id="grc-utterance-000948">ναί.</said>
+<said xml:id="grc-utterance-000949">καὶ μὴν μηδαμῇ γε κινούμενον οὐδαμῇ ἂν ἀλλοιοῖτο.</said>
+<said xml:id="grc-utterance-000950">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000951">ἧι μὲν ἄρα κινεῖται τὸ οὐκ ὂν ἕν, ἀλλοιοῦται· ᾗ δὲ μὴ κινεῖται, οὐκ ἀλλοιοῦται.</said>
+<said xml:id="grc-utterance-000952">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000953">τὸ ἓν ἄρα μὴ ὂν ἀλλοιοῦταί τε καὶ οὐκ ἀλλοιοῦται.</said>
+<said xml:id="grc-utterance-000954">φαίνεται.</said>
+<said xml:id="grc-utterance-000955">τὸ δʼ ἀλλοιούμενον ἆρʼ οὐκ ἀνάγκη γίγνεσθαι μὲν ἕτερον ἢ πρότερον, ἀπόλλυσθαι δὲ ἐκ τῆς
+<milestone unit="section" resp="Stephanus" n="163b" xml:id="grc-stephanus-section-163b" />προτέρας ἕξεως· τὸ δὲ μὴ ἀλλοιούμενον μήτε γίγνεσθαι μήτε ἀπόλλυσθαι;</said>
+<said xml:id="grc-utterance-000956">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000957">καὶ τὸ ἓν ἄρα μὴ ὂν ἀλλοιούμενον μὲν γίγνεταί τε καὶ ἀπόλλυται, μὴ ἀλλοιούμενον δὲ οὔτε γίγνεται οὔτε ἀπόλλυται· καὶ οὕτω τὸ ἓν μὴ ὂν γίγνεταί τε καὶ ἀπόλλυται, καὶ οὔτε γίγνεται οὔτʼ ἀπόλλυται.</said>
+<said xml:id="grc-utterance-000958">οὐ γὰρ οὖν.<milestone unit="para" ed="P" />αὖθις δὴ ἐπὶ τὴν ἀρχὴν ἴωμεν πάλιν ὀψόμενοι εἰ ταὐτὰ ἡμῖν φανεῖται ἅπερ καὶ νῦν ἢ ἕτερα.</said>
+<said xml:id="grc-utterance-000959">ἀλλὰ χρή.</said>
+<said xml:id="grc-utterance-000960">οὐκοῦν
+<milestone unit="section" resp="Stephanus" n="163c" xml:id="grc-stephanus-section-163c" /><term>ἓν εἰ μὴ ἔστι</term>, φαμέν, τί χρὴ περὶ αὐτοῦ συμβαίνειν;</said>
+<said xml:id="grc-utterance-000961">ναί.</said>
+<said xml:id="grc-utterance-000962">τὸ δὲ μὴ ἔστιν ὅταν λέγωμεν, ἆρα μή τι ἄλλο σημαίνει ἢ οὐσίας ἀπουσίαν τούτῳ ᾧ ἂν φῶμεν μὴ εἶναι;</said>
+<said xml:id="grc-utterance-000963">οὐδὲν ἄλλο.</said>
+<said xml:id="grc-utterance-000964">πότερον οὖν, ὅταν φῶμεν μὴ εἶναί τι, πὼς οὐκ εἶναί φαμεν αὐτό, πὼς δὲ εἶναι; ἢ τοῦτο τὸ μὴ ἔστι λεγόμενον ἁπλῶς σημαίνει ὅτι οὐδαμῶς οὐδαμῇ ἔστιν οὐδέ πῃ μετέχει οὐσίας τό γε μὴ ὄν;</said>
+<said xml:id="grc-utterance-000965">ἁπλούστατα μὲν οὖν.</said>
+<said xml:id="grc-utterance-000966">οὔτε ἄρα εἶναι δύναιτο ἂν τὸ μὴ ὂν οὔτε ἄλλως οὐδαμῶς
+<milestone unit="section" resp="Stephanus" n="163d" xml:id="grc-stephanus-section-163d" />οὐσίας μετέχειν.</said>
+<said xml:id="grc-utterance-000967">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000968">τὸ δὲ γίγνεσθαι καὶ τὸ ἀπόλλυσθαι μή τι ἄλλο ἦν ἢ τὸ μὲν οὐσίας μεταλαμβάνειν, τὸ δʼ ἀπολλύναι οὐσίαν;</said>
+<said xml:id="grc-utterance-000969">οὐδὲν ἄλλο.</said>
+<said xml:id="grc-utterance-000970">ὧι δέ γε μηδὲν τούτου μέτεστιν, οὔτʼ ἂν λαμβάνοι οὔτʼ ἀπολλύοι αὐτό.</said>
+<said xml:id="grc-utterance-000971">πῶς γάρ;</said>
+<said xml:id="grc-utterance-000972">τῷ ἑνὶ ἄρα, ἐπειδὴ οὐδαμῇ ἔστιν, οὔτε ἑκτέον οὔτε ἀπαλλακτέον οὔτε μεταληπτέον οὐσίας οὐδαμῶς.</said>
+<said xml:id="grc-utterance-000973">εἰκός.</said>
+<said xml:id="grc-utterance-000974">οὔτε ἄρα ἀπόλλυται τὸ μὴ ὂν ἓν οὔτε γίγνεται, ἐπείπερ οὐδαμῇ μετέχει οὐσίας.</said>
+<said xml:id="grc-utterance-000975">οὐ φαίνεται.</said>
+<said xml:id="grc-utterance-000976">οὐδʼ ἄρʼ
+<milestone unit="section" resp="Stephanus" n="163e" xml:id="grc-stephanus-section-163e" />ἀλλοιοῦται οὐδαμῇ· ἤδη γὰρ ἂν γίγνοιτό τε καὶ ἀπολλύοιτο τοῦτο πάσχον.</said>
+<said xml:id="grc-utterance-000977">ἀληθῆ.</said>
+<said xml:id="grc-utterance-000978">εἰ δὲ μὴ ἀλλοιοῦται, οὐκ ἀνάγκη μηδὲ κινεῖσθαι;</said>
+<said xml:id="grc-utterance-000979">ἀνάγκη.</said>
+<said xml:id="grc-utterance-000980">οὐδὲ μὴν ἑστάναι φήσομεν τὸ μηδαμοῦ ὄν· τὸ γὰρ ἑστὸς ἐν τῷ αὐτῷ τινι δεῖ ἀεὶ εἶναι.</said>
+<said xml:id="grc-utterance-000981">τῷ αὐτῷ· πῶς γὰρ οὔ;</said>
+<said xml:id="grc-utterance-000982">οὕτω δὴ αὖ τὸ μὴ ὂν μήτε ποτὲ ἑστάναι μήτε κινεῖσθαι λέγωμεν.</said>
+<said xml:id="grc-utterance-000983">μὴ γὰρ οὖν.</said></said></p></div>
+				
+				<div type="textpart" subtype="section" resp="perseus" n="164" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-164">
+					<p xml:id="grc-p-000039"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-000984">				
+<said xml:id="grc-utterance-000985">ἀλλὰ μὴν οὐδʼ ἔστι γε αὐτῷ τι τῶν ὄντων· ἤδη γὰρ ἂν τούτου
+
+<milestone n="164" unit="page" /><milestone unit="section" resp="Stephanus" n="164a" xml:id="grc-stephanus-section-164a" />μετέχον <del>ὄντος</del> οὐσίας μετέχοι.</said>
+<said xml:id="grc-utterance-000986">δῆλον.</said>
+<said xml:id="grc-utterance-000987">οὔτε ἄρα μέγεθος οὔτε σμικρότης οὔτε ἰσότης αὐτῷ ἔστιν.</said>
+<said xml:id="grc-utterance-000988">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000989">οὐδὲ μὴν ὁμοιότης γε οὐδὲ ἑτεροιότης οὔτε πρὸς αὑτὸ οὔτε πρὸς τἆλλα εἴη ἂν αὐτῷ.</said>
+<said xml:id="grc-utterance-000990">οὐ φαίνεται.</said>
+<said xml:id="grc-utterance-000991">τί δέ; τἆλλα ἔσθʼ ὅπως ἂν εἴη αὐτῷ, εἰ μηδὲν αὐτῷ δεῖ εἶναι;</said>
+<said xml:id="grc-utterance-000992">οὐκ ἔστιν.</said>
+<said xml:id="grc-utterance-000993">οὔτε ἄρα ὅμοια οὔτε ἀνόμοια οὔτε ταὐτὰ οὔθʼ ἕτερά ἐστιν αὐτῷ τὰ ἄλλα.</said>
+<said xml:id="grc-utterance-000994">οὐ γάρ.</said>
+<said xml:id="grc-utterance-000995">τί δέ; τὸ ἐκείνου ἢ τὸ ἐκείνῳ ἢ τὸ τὶ ἢ τὸ τοῦτο ἢ τὸ τούτου ἢ ἄλλου ἢ ἄλλῳ ἢ ποτὲ ἢ
+<milestone unit="section" resp="Stephanus" n="164b" xml:id="grc-stephanus-section-164b" />ἔπειτα ἢ νῦν ἢ ἐπιστήμη ἢ δόξα ἢ αἴσθησις ἢ λόγος ἢ ὄνομα ἢ ἄλλο ὁτιοῦν τῶν ὄντων περὶ τὸ μὴ ὂν ἔσται;</said>
+<said xml:id="grc-utterance-000996">οὐκ ἔσται.</said>
+<said xml:id="grc-utterance-000997">οὕτω δὴ ἓν οὐκ ὂν οὐκ ἔχει πως οὐδαμῇ.</said>
+<said xml:id="grc-utterance-000998">οὔκουν δὴ ἔοικέν γε οὐδαμῇ ἔχειν.<milestone unit="para" ed="P" />ἔτι δὴ λέγωμεν, <term>ἓν εἰ μὴ ἔστι</term>, τἆλλα τί χρὴ πεπονθέναι.</said>
+<said xml:id="grc-utterance-000999">λέγωμεν γάρ.</said>
+<said xml:id="grc-utterance-001000">ἄλλα μέν που δεῖ αὐτὰ εἶναι· εἰ γὰρ μηδὲ ἄλλα ἐστίν, οὐκ ἂν περὶ τῶν ἄλλων λέγοιτο.</said>
+<said xml:id="grc-utterance-001001">οὕτω.</said>
+<said xml:id="grc-utterance-001002">εἰ δὲ περὶ τῶν ἄλλων ὁ λόγος, τά γε ἄλλα ἕτερά ἐστιν. ἢ οὐκ ἐπὶ τῷ αὐτῷ καλεῖς τό τε ἄλλο καὶ τὸ
+<milestone unit="section" resp="Stephanus" n="164c" xml:id="grc-stephanus-section-164c" />ἕτερον;</said>
+<said xml:id="grc-utterance-001003">ἔγωγε.</said>
+<said xml:id="grc-utterance-001004">ἕτερον δέ γέ πού φαμεν τὸ ἕτερον εἶναι ἑτέρου, καὶ τὸ ἄλλο δὴ ἄλλο εἶναι ἄλλου;</said>
+<said xml:id="grc-utterance-001005">ναί.</said>
+<said xml:id="grc-utterance-001006">καὶ τοῖς ἄλλοις ἄρα, εἰ μέλλει ἄλλα εἶναι, ἔστι τι οὗ ἄλλα ἔσται.</said>
+<said xml:id="grc-utterance-001007">ἀνάγκη.</said>
+<said xml:id="grc-utterance-001008">τί δὴ οὖν ἂν εἴη; τοῦ μὲν γὰρ ἑνὸς οὐκ ἔσται ἄλλα, μὴ ὄντος γε.</said>
+<said xml:id="grc-utterance-001009">οὐ γάρ.</said>
+<said xml:id="grc-utterance-001010">ἀλλήλων ἄρα ἐστί· τοῦτο γὰρ αὐτοῖς ἔτι λείπεται, ἢ μηδενὸς εἶναι ἄλλοις.</said>
+<said xml:id="grc-utterance-001011">ὀρθῶς.</said>
+<said xml:id="grc-utterance-001012">κατὰ πλήθη ἄρα ἕκαστα ἀλλήλων ἄλλα ἐστί· κατὰ ἓν γὰρ οὐκ ἂν οἷά τε εἴη, μὴ ὄντος ἑνός. ἀλλʼ ἕκαστος, ὡς
+<milestone unit="section" resp="Stephanus" n="164d" xml:id="grc-stephanus-section-164d" />ἔοικεν, ὁ ὄγκος αὐτῶν ἄπειρός ἐστι πλήθει, κἂν τὸ σμικρότατον δοκοῦν εἶναι λάβῃ τις, ὥσπερ ὄναρ ἐν ὕπνῳ φαίνεται ἐξαίφνης ἀντὶ ἑνὸς δόξαντος εἶναι πολλὰ καὶ ἀντὶ σμικροτάτου παμμέγεθες πρὸς τὰ κερματιζόμενα ἐξ αὐτοῦ.</said>
+<said xml:id="grc-utterance-001013">ὀρθότατα.</said>
+<said xml:id="grc-utterance-001014">τοιούτων δὴ ὄγκων ἄλλα ἀλλήλων ἂν εἴη τἆλλα, εἰ ἑνὸς μὴ ὄντος ἄλλα ἐστίν.</said>
+<said xml:id="grc-utterance-001015">κομιδῇ μὲν οὖν.</said>
+<said xml:id="grc-utterance-001016">οὐκοῦν πολλοὶ ὄγκοι ἔσονται, εἷς ἕκαστος φαινόμενος, ὢν δὲ οὔ, εἴπερ ἓν μὴ ἔσται;</said>
+<said xml:id="grc-utterance-001017">οὕτω.</said>
+<said xml:id="grc-utterance-001018">καὶ ἀριθμὸς δὲ εἶναι αὐτῶν
+<milestone unit="section" resp="Stephanus" n="164e" xml:id="grc-stephanus-section-164e" />δόξει, εἴπερ καὶ ἓν ἕκαστον, πολλῶν ὄντων.</said>
+<said xml:id="grc-utterance-001019">πάνυ γε.</said>
+<said xml:id="grc-utterance-001020">καὶ τὰ μὲν δὴ ἄρτια, τὰ δὲ περιττὰ ἐν αὐτοῖς ὄντα οὐκ ἀληθῶς φαίνεται, εἴπερ ἓν μὴ ἔσται.</said>
+<said xml:id="grc-utterance-001021">οὐ γὰρ οὖν.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="165" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-165">
+<p xml:id="grc-p-000040"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-001022">				
+<said xml:id="grc-utterance-001023">καὶ μὴν καὶ σμικρότατόν γε, φαμέν, δόξει ἐν αὐτοῖς ἐνεῖναι· φαίνεται δὲ τοῦτο πολλὰ καὶ μεγάλα πρὸς ἕκαστον τῶν
+
+<milestone n="165" unit="page" /><milestone unit="section" resp="Stephanus" n="165a" xml:id="grc-stephanus-section-165a" />πολλῶν ὡς σμικρῶν ὄντων.</said>
+<said xml:id="grc-utterance-001024">πῶς δʼ οὔ;</said>
+<said xml:id="grc-utterance-001025">καὶ ἴσος μὴν τοῖς πολλοῖς καὶ σμικροῖς ἕκαστος ὄγκος δοξασθήσεται εἶναι· οὐ γὰρ ἂν μετέβαινεν ἐκ μείζονος εἰς ἔλαττον φαινόμενος, πρὶν εἰς τὸ μεταξὺ δόξειεν ἐλθεῖν, τοῦτο δʼ εἴη ἂν φάντασμα ἰσότητος.</said>
+<said xml:id="grc-utterance-001026">εἰκός.</said>
+<said xml:id="grc-utterance-001027">οὐκοῦν καὶ πρὸς ἄλλον ὄγκον πέρας ἔχων, αὐτός γε πρὸς αὑτὸν οὔτε ἀρχὴν οὔτε πέρας οὔτε μέσον ἔχων;</said>
+<said xml:id="grc-utterance-001028">πῇ δή;</said>
+<said xml:id="grc-utterance-001029">ὅτι ἀεὶ αὐτῶν ὅταν τίς τι λάβῃ τῇ διανοίᾳ ὥς τι τούτων ὄν, πρό τε τῆς ἀρχῆς ἄλλη
+<milestone unit="section" resp="Stephanus" n="165b" xml:id="grc-stephanus-section-165b" />ἀεὶ φαίνεται ἀρχή, μετά τε τὴν τελευτὴν ἑτέρα ὑπολειπομένη τελευτή, ἔν τε τῷ μέσῳ ἄλλα μεσαίτερα τοῦ μέσου, σμικρότερα δέ, διὰ τὸ μὴ δύνασθαι ἑνὸς αὐτῶν ἑκάστου λαμβάνεσθαι, ἅτε οὐκ ὄντος τοῦ ἑνός.</said>
+<said xml:id="grc-utterance-001030">ἀληθέστατα.</said>
+<said xml:id="grc-utterance-001031">θρύπτεσθαι δὴ οἶμαι κερματιζόμενον ἀνάγκη πᾶν τὸ ὄν, ὃ ἄν τις λάβῃ τῇ διανοίᾳ· ὄγκος γάρ που ἄνευ ἑνὸς ἀεὶ λαμβάνοιτʼ ἄν.</said>
+<said xml:id="grc-utterance-001032">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-001033">οὐκοῦν τό γε τοιοῦτον πόρρωθεν μὲν
+<milestone unit="section" resp="Stephanus" n="165c" xml:id="grc-stephanus-section-165c" />ὁρῶντι καὶ ἀμβλὺ ἓν φαίνεσθαι ἀνάγκη, ἐγγύθεν δὲ καὶ ὀξὺ νοοῦντι πλήθει ἄπειρον ἓν ἕκαστον φανῆναι, εἴπερ στέρεται τοῦ ἑνὸς μὴ ὄντος;</said>
+<said xml:id="grc-utterance-001034">ἀναγκαιότατον μὲν οὖν.</said>
+<said xml:id="grc-utterance-001035">οὕτω δὴ ἄπειρά τε καὶ πέρας ἔχοντα καὶ ἓν καὶ πολλὰ ἕκαστα τἆλλα δεῖ φαίνεσθαι, <term>ἓν εἰ μὴ ἔστιν, τἆλλα δὲ τοῦ ἑνός</term>.</said>
+<said xml:id="grc-utterance-001036">δεῖ γάρ.</said>
+<said xml:id="grc-utterance-001037">οὐκοῦν καὶ ὅμοιά τε καὶ ἀνόμοια δόξει εἶναι;</said>
+<said xml:id="grc-utterance-001038">πῇ δή;</said>
+<said xml:id="grc-utterance-001039">οἷον ἐσκιαγραφημένα ἀποστάντι μὲν ἓν πάντα φαινόμενα ταὐτὸν φαίνεσθαι πεπονθέναι καὶ ὅμοια εἶναι.</said>
+<said xml:id="grc-utterance-001040">πάνυ
+<milestone unit="section" resp="Stephanus" n="165d" xml:id="grc-stephanus-section-165d" />γε.</said>
+<said xml:id="grc-utterance-001041">προσελθόντι δέ γε πολλὰ καὶ ἕτερα καὶ τῷ τοῦ ἑτέρου φαντάσματι ἑτεροῖα καὶ ἀνόμοια ἑαυτοῖς.</said>
+<said xml:id="grc-utterance-001042">οὕτω.</said>
+<said xml:id="grc-utterance-001043">καὶ ὁμοίους δὴ καὶ ἀνομοίους τοὺς ὄγκους αὐτούς τε αὑτοῖς ἀνάγκη φαίνεσθαι καὶ ἀλλήλοις.</said>
+<said xml:id="grc-utterance-001044">πάνυ μὲν οὖν.</said>
+<said xml:id="grc-utterance-001045">οὐκοῦν καὶ τοὺς αὐτοὺς καὶ ἑτέρους ἀλλήλων, καὶ ἁπτομένους καὶ χωρὶς ἑαυτῶν, καὶ κινουμένους πάσας κινήσεις καὶ ἑστῶτας πάντῃ, καὶ γιγνομένους καὶ ἀπολλυμένους καὶ μηδέτερα, καὶ πάντα που τὰ τοιαῦτα, ἃ διελθεῖν εὐπετὲς ἤδη ἡμῖν, εἰ ἑνὸς
+<milestone unit="section" resp="Stephanus" n="165e" xml:id="grc-stephanus-section-165e" />μὴ ὄντος πολλὰ ἔστιν.</said>
+<said xml:id="grc-utterance-001046">ἀληθέστατα μὲν οὖν.<milestone unit="para" ed="P" />ἔτι δὴ ἅπαξ ἐλθόντες πάλιν ἐπὶ τὴν ἀρχὴν εἴπωμεν, <term>ἓν εἰ μὴ ἔστι, τἆλλα δὲ τοῦ ἑνός</term>, τί χρὴ εἶναι.</said>
+<said xml:id="grc-utterance-001047">εἴπωμεν γὰρ οὖν.</said>
+<said xml:id="grc-utterance-001048">οὐκοῦν ἓν μὲν οὐκ ἔσται τἆλλα.</said>
+<said xml:id="grc-utterance-001049">πῶς γάρ;</said>
+<said xml:id="grc-utterance-001050">οὐδὲ μὴν πολλά γε· ἐν γὰρ πολλοῖς οὖσιν ἐνείη ἂν καὶ ἕν. εἰ γὰρ μηδὲν αὐτῶν ἐστὶν ἕν, ἅπαντα οὐδέν ἐστιν, ὥστε οὐδʼ ἂν πολλὰ εἴη.</said>
+<said xml:id="grc-utterance-001051">ἀληθῆ.</said>
+<said xml:id="grc-utterance-001052">μὴ ἐνόντος δὲ ἑνὸς ἐν τοῖς ἄλλοις, οὔτε πολλὰ οὔτε ἕν ἐστι τἆλλα.</said>
+<said xml:id="grc-utterance-001053">οὐ γάρ.</said></said></p></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="166" xml:id="plato_parmenides-grc-edition-urn-cts-greekLit-tlg0059.tlg009.perseus-grc2-section-166">
+<p xml:id="grc-p-000041"><said who="#Κέφαλος" rend="merge" xml:id="grc-utterance-001054">				
+<said xml:id="grc-utterance-001055">οὐδέ
+<milestone n="166" unit="page" /><milestone unit="section" resp="Stephanus" n="166a" xml:id="grc-stephanus-section-166a" />γε φαίνεται ἓν οὐδὲ πολλά.</said>
+<said xml:id="grc-utterance-001056">τί δή;</said>
+<said xml:id="grc-utterance-001057">ὅτι τἆλλα τῶν μὴ ὄντων οὐδενὶ οὐδαμῇ οὐδαμῶς οὐδεμίαν κοινωνίαν ἔχει, οὐδέ τι τῶν μὴ ὄντων παρὰ τῶν ἄλλων τῴ ἐστιν· οὐδὲν γὰρ μέρος ἐστὶ τοῖς μὴ οὖσιν.</said>
+<said xml:id="grc-utterance-001058">ἀληθῆ.</said>
+<said xml:id="grc-utterance-001059">οὐδʼ ἄρα δόξα τοῦ μὴ ὄντος παρὰ τοῖς ἄλλοις ἐστὶν οὐδέ τι φάντασμα, οὐδὲ δοξάζεται οὐδαμῇ οὐδαμῶς τὸ μὴ ὂν ἐπὶ τῶν ἄλλων.</said>
+<said xml:id="grc-utterance-001060">οὐ γὰρ οὖν.</said>
+<said xml:id="grc-utterance-001061">ἓν ἄρα εἰ μὴ ἔστιν, οὐδὲ δοξάζεταί τι τῶν
+<milestone unit="section" resp="Stephanus" n="166b" xml:id="grc-stephanus-section-166b" />ἄλλων ἓν εἶναι οὐδὲ πολλά· ἄνευ γὰρ ἑνὸς πολλὰ δοξάσαι ἀδύνατον.</said>
+<said xml:id="grc-utterance-001062">ἀδύνατον γάρ.</said>
+<said xml:id="grc-utterance-001063">ἓν ἄρα εἰ μὴ ἔστι, τἆλλα οὔτε ἔστιν οὔτε δοξάζεται ἓν οὐδὲ πολλά.</said>
+<said xml:id="grc-utterance-001064">οὐκ ἔοικεν.</said>
+<said xml:id="grc-utterance-001065">οὐδʼ ἄρα ὅμοια οὐδὲ ἀνόμοια.</said>
+<said xml:id="grc-utterance-001066">οὐ γάρ.</said>
+<said xml:id="grc-utterance-001067">οὐδὲ μὴν τὰ αὐτά γε οὐδʼ ἕτερα, οὐδὲ ἁπτόμενα οὐδὲ χωρίς, οὐδὲ ἄλλα ὅσα ἐν τοῖς πρόσθεν διήλθομεν ὡς φαινόμενα αὐτά, τούτων οὔτε τι ἔστιν οὔτε φαίνεται τἆλλα, ἓν εἰ μὴ ἔστιν.</said>
+<said xml:id="grc-utterance-001068">ἀληθῆ.</said>
+<said xml:id="grc-utterance-001069">οὐκοῦν καὶ
+<milestone unit="section" resp="Stephanus" n="166c" xml:id="grc-stephanus-section-166c" />συλλήβδην εἰ εἴποιμεν, ἓν εἰ μὴ ἔστιν, οὐδέν ἐστιν, ὀρθῶς ἂν εἴποιμεν;</said>
+<said xml:id="grc-utterance-001070">παντάπασι μὲν οὖν.</said>
+<said xml:id="grc-utterance-001071">εἰρήσθω τοίνυν τοῦτό τε καὶ ὅτι, ὡς ἔοικεν, ἓν εἴτʼ ἔστιν εἴτε μὴ ἔστιν, αὐτό τε καὶ τἆλλα καὶ πρὸς αὑτὰ καὶ πρὸς ἄλληλα πάντα πάντως ἐστί τε καὶ οὐκ ἔστι καὶ φαίνεταί τε καὶ οὐ φαίνεται.</said>
+<said xml:id="grc-utterance-001072">ἀληθέστατα.</said></said></p></div>
+		</div></body>
+  </text>
+</TEI>
