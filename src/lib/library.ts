@@ -9,6 +9,8 @@ const SUPPLEMENTARY_KINDS = new Set([
   'preface',
   'translator-preface',
   'authorial-note',
+  'colophon',
+  'credits',
   'postscript',
   'prologue',
   'epilogue',
@@ -16,7 +18,9 @@ const SUPPLEMENTARY_KINDS = new Set([
   'dedication',
   'characters',
   'notes',
+  'publication-note',
   'suppressed-chapter',
+  'title-page',
 ]);
 const WRAPPER_KINDS = new Set(['edition', 'translation']);
 
@@ -26,9 +30,11 @@ export const PUBLISHED_AUTHOR_SLUGS = new Set([
   'dickens',
   'dostoevsky',
   'eliot',
+  'james',
   'plato',
   'shakespeare',
   'tolstoy',
+  'turgenev',
 ]);
 
 const AUTHOR_PROFILES: Record<string, Omit<Author, 'works'>> = {
@@ -37,9 +43,11 @@ const AUTHOR_PROFILES: Record<string, Omit<Author, 'works'>> = {
   dickens: { slug: 'dickens', name: 'Charles Dickens', dates: '1812–1870', portrait: 'dickens-charles.png' },
   dostoevsky: { slug: 'dostoevsky', name: 'Fyodor Dostoevsky', dates: '1821–1881', portrait: 'dostoevsky-fyodor.png' },
   eliot: { slug: 'eliot', name: 'George Eliot', dates: '1819–1880', portrait: 'eliot-george.png' },
+  james: { slug: 'james', name: 'Henry James', dates: '1843–1916', portrait: 'james-henry.png' },
   plato: { slug: 'plato', name: 'Plato', dates: 'c. 428–348 BCE', portrait: 'plato.png' },
   shakespeare: { slug: 'shakespeare', name: 'William Shakespeare', dates: '1564–1616', portrait: 'shakespeare-william.png' },
   tolstoy: { slug: 'tolstoy', name: 'Leo Tolstoy', dates: '1828–1910', portrait: 'tolstoy-leo.png' },
+  turgenev: { slug: 'turgenev', name: 'Ivan Turgenev', dates: '1818–1883', portrait: 'turgenev-ivan.png' },
 };
 
 const WORK_TITLES: Record<string, string> = {

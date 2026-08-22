@@ -892,27 +892,26 @@ foreach ($item in $config) {
     $authorSlug = $item.author.ToLowerInvariant()
     $baseName = $authorSlug + '_' + $item.id
     Write-Output "Processing $($item.title) by $($item.author)..."
-    if ($item.source_format -eq 'shakespeare_tei_collection') {
-        if ($item.sources.Count -ne 1) { throw "The Shakespeare collection must have exactly one source pattern." }
+    if ($item.source_format -eq 'preserved_tei_collection') {
+        if ($item.sources.Count -ne 1) { throw "Preserved TEI collection $($item.title) must have exactly one file pattern." }
+        $preservedPattern = Join-Path $PSScriptRoot $item.sources[0].path
+        $preservedFiles = @(Get-ChildItem -Path $preservedPattern -File)
+        if ($preservedFiles.Count -eq 0) { throw "No preserved TEI files matched $preservedPattern" }
+        Write-Output "Retained $($preservedFiles.Count) normalized TEI files in place."
+        continue
+    }
+    if ($item.source_format -eq 'legacy_prose_collection') {
+        if ($item.sources.Count -ne 1) { throw "Legacy prose collection $($item.title) must have exactly one source pattern." }
         $src = $item.sources[0]
         $sourcePattern = Join-Path $PSScriptRoot $src.path
-        $sourceFiles = @(Get-ChildItem -Path $sourcePattern -File | Sort-Object Name)
-        if ($sourceFiles.Count -eq 0) { throw "No Shakespeare TEI files matched $sourcePattern" }
-        foreach ($sourceFile in $sourceFiles) {
-            if ($sourceFile.Name -notmatch '^shakespeare-william_(.+)_en\.xml$') {
-                throw "Unexpected Shakespeare source filename: $($sourceFile.Name)"
-            }
-            $workId = $Matches[1]
-            $textId = "shakespeare-$workId"
-            $outPath = Join-Path $PSScriptRoot (Join-Path $authorSlug "shakespeare_${workId}_eng.xml")
-            Build-TeiFile `
-                -SourcePath @($sourceFile.FullName) `
-                -OutputPath $outPath `
-                -Lang 'eng' `
-                -XmlLang 'en' `
-                -TextId $textId `
-                -MilestoneType 'none'
-        }
+        $outputDirectory = Join-Path $PSScriptRoot $authorSlug
+        & python (Join-Path $PSScriptRoot 'build_legacy_prose.py') `
+            --source-pattern $sourcePattern `
+            --source-prefix $item.source_prefix `
+            --author-slug $authorSlug `
+            --output-dir $outputDirectory `
+            --schema (Join-Path $PSScriptRoot 'tei_all.rng')
+        if ($LASTEXITCODE -ne 0) { throw "Failed to normalize legacy prose collection $($item.title)." }
         continue
     }
     if ($item.source_format -eq 'middlemarch_annotated_fragments') {

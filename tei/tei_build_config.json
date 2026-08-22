@@ -718,9 +718,29 @@
     "author": "Shakespeare",
     "title": "Complete dramatic works",
     "id": "plays",
-    "source_format": "shakespeare_tei_collection",
+    "source_format": "preserved_tei_collection",
     "sources": [
-      { "lang": "eng", "xml_lang": "en", "path": "../shakespeare-william_*_en.xml" }
+      { "lang": "eng", "xml_lang": "en", "path": "shakespeare/*.xml" }
+    ]
+  },
+  {
+    "author": "James",
+    "title": "Henry James collection",
+    "id": "novels",
+    "source_format": "legacy_prose_collection",
+    "source_prefix": "james-henry",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../james-henry_*_en.xml" }
+    ]
+  },
+  {
+    "author": "Turgenev",
+    "title": "Ivan Turgenev collection",
+    "id": "novels",
+    "source_format": "legacy_prose_collection",
+    "source_prefix": "turgenev-ivan",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../turgenev-ivan_*_en.xml" }
     ]
   }
 ]

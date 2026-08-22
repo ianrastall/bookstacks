@@ -46,13 +46,19 @@ python ./validate_tei.py
   Prelude, Books I-VIII, Chapters I-LXXXVI, and Finale. Source dialogue,
   represented thought, free indirect discourse, and narratorial person
   annotations are retained with resolvable participant references.
-- Shakespeare's 38 plays are generated from the legacy standalone TEI files
-  named `shakespeare-william_*_en.xml` in the repository root. Acts and scenes,
-  cast lists, speakers, and typed stage directions are retained. Dramatic prose
-  remains paragraph content inside `sp`, while verse remains lineated as
-  `sp/lg/l`; the build never converts one form into the other. Empty source
-  speeches are omitted, and every retained speech, verse group, verse line,
-  and stage direction receives a stable `xml:id`.
+- Shakespeare's 38 normalized standalone files are retained directly in
+  `tei/shakespeare`; the deleted root-level legacy inputs are no longer build
+  dependencies. Acts and scenes, cast lists, speakers, and typed stage
+  directions are retained. Dramatic prose remains paragraph content inside
+  `sp`, while verse remains lineated as `sp/lg/l`.
+- Seven Henry James novels are generated from the root-level
+  `james-henry_*_en.xml` files. Their volume, book, chapter, preface, paragraph,
+  poetry, inline typography, and source metadata structures are retained.
+- Six root-level `turgenev-ivan_*_en.xml` sources generate eight Ivan Turgenev
+  works. The Gutenberg omnibus source is separated into *The Torrents of
+  Spring*, *First Love*, and *Mumu*; opening frames remain prologues, untyped
+  numbered divisions are restored as chapters, and *On the Eve* title,
+  translation, introduction, and character-list matter remains accessible.
 - `assets/tei/hta.*` contains works by Henry Thomas Austen, not Jane Austen,
   and is intentionally excluded from the generated corpus.
 - The Maude *War and Peace* and Garnett *Anna Karenina* translations are
