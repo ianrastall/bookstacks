@@ -4,6 +4,7 @@ import { authorHref, getLibrary } from '../lib/library';
 
 const library = getLibrary();
 const format = new Intl.NumberFormat('en-US');
+const libraryDescription = `A curated index of public domain texts, with ${library.authors.length} authors, ${library.workCount} books, ${library.editionCount} TEI editions, and ${format.format(library.unitCount)} reading units.`;
 ---
 
 <BaseLayout title="Home">
@@ -15,11 +16,7 @@ const format = new Intl.NumberFormat('en-US');
         <h2>Library</h2>
       </div>
     </div>
-    <p class="tool-description">
-      A curated index of public domain texts, with {library.authors.length} authors,
-      {library.workCount} books, {library.editionCount} TEI editions, and
-      {format.format(library.unitCount)} reading units.
-    </p>
+    <p class="tool-description">{libraryDescription}</p>
     <div class="tool-grid author-grid">
       {library.authors.map((author) => {
         const editionCount = author.works.reduce((sum, work) => sum + work.editions.length, 0);
