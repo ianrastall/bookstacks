@@ -534,6 +534,29 @@ button, input { font: inherit; }
 }
 .tei-line-group { margin: 1.4rem 0 1.4rem 2rem; }
 .tei-line { display: block; }
+.tei-speech { margin: 1.35em 0; }
+.tei-speaker {
+  margin: 0 0 0.08em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.reader-content .tei-speech > .tei-paragraph { text-indent: 0; }
+.reader-content .tei-speech > .tei-paragraph + .tei-paragraph { margin-top: 0.65em; }
+.tei-speech > .tei-line-group { margin: 0; }
+.tei-speech > .tei-line-group + .tei-line-group { margin-top: 0.65em; }
+.tei-speech .tei-line { padding-left: 1.5em; text-indent: -1.5em; }
+.tei-stage { font-style: italic; }
+.tei-stage-entrance,
+.tei-stage-setting { margin: 0.9em 0; text-align: center; }
+.tei-stage-exit { margin: 0.9em 0; text-align: right; }
+.tei-stage .tei-entity { border-bottom: 0; }
+.tei-stage .tei-entity,
+.tei-stage-name { font-style: normal; text-transform: uppercase; }
+.tei-cast-list { margin: 1em 0; }
+.reader-content .tei-cast-item { margin: 0.35em 0; text-indent: 0; }
+.tei-cast-role { font-weight: 700; text-transform: uppercase; }
 .tei-smallcaps { font-variant: small-caps; }
 .tei-label { font-weight: 700; }
 .tei-foreign { font-style: italic; }

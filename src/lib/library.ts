@@ -3,8 +3,9 @@ import path from 'node:path';
 import { DOMParser } from '@xmldom/xmldom';
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
-const READING_KIND_PRIORITY = ['section', 'chapter', 'stave', 'bekker_page', 'part'];
+const READING_KIND_PRIORITY = ['scene', 'section', 'chapter', 'stave', 'bekker_page', 'part'];
 const SUPPLEMENTARY_KINDS = new Set([
+  'front',
   'preface',
   'translator-preface',
   'authorial-note',
@@ -26,6 +27,7 @@ export const PUBLISHED_AUTHOR_SLUGS = new Set([
   'dostoevsky',
   'eliot',
   'plato',
+  'shakespeare',
   'tolstoy',
 ]);
 
@@ -36,6 +38,7 @@ const AUTHOR_PROFILES: Record<string, Omit<Author, 'works'>> = {
   dostoevsky: { slug: 'dostoevsky', name: 'Fyodor Dostoevsky', dates: '1821–1881', portrait: 'dostoevsky-fyodor.png' },
   eliot: { slug: 'eliot', name: 'George Eliot', dates: '1819–1880', portrait: 'eliot-george.png' },
   plato: { slug: 'plato', name: 'Plato', dates: 'c. 428–348 BCE', portrait: 'plato.png' },
+  shakespeare: { slug: 'shakespeare', name: 'William Shakespeare', dates: '1564–1616', portrait: 'shakespeare-william.png' },
   tolstoy: { slug: 'tolstoy', name: 'Leo Tolstoy', dates: '1828–1910', portrait: 'tolstoy-leo.png' },
 };
 
@@ -527,6 +530,18 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
       const firstClass = isFirstParagraph(node) ? ' tei-first-paragraph' : '';
       return `<p class="tei-paragraph${firstClass}">${children()}</p>`;
     }
+    case 'sp':
+      return `<section class="tei-speech">${children()}</section>`;
+    case 'speaker': {
+      const label = text().replace(/[.\s]+$/u, '').toLocaleUpperCase();
+      return `<div class="tei-speaker">${escapeHtml(label)}.</div>`;
+    }
+    case 'stage': {
+      const stageType = slugify(cleanText(node.getAttribute?.('type'))) || 'direction';
+      const isBlock = ['entrance', 'exit', 'setting'].includes(stageType);
+      const tag = isBlock ? 'div' : 'span';
+      return `<${tag} class="tei-stage tei-stage-${escapeAttr(stageType)}">[${children()}]</${tag}>`;
+    }
     case 'said': {
       const speaker = referencedEntities(node.getAttribute?.('who'), entities.persons);
       const addressee = referencedEntities(node.getAttribute?.('toWhom'), entities.persons);
@@ -545,7 +560,8 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
       const reference = node.getAttribute?.('ref') || node.getAttribute?.('key');
       const map = name === 'placeName' ? entities.places : entities.persons;
       const detail = referencedEntities(reference, map, true);
-      return `<span class="tei-entity"${detail ? ` title="${escapeAttr(detail)}"` : ''}>${children()}</span>`;
+      const stageNameClass = node.parentNode?.localName === 'stage' ? ' tei-stage-name' : '';
+      return `<span class="tei-entity${stageNameClass}"${detail ? ` title="${escapeAttr(detail)}"` : ''}>${children()}</span>`;
     }
     case 'note': {
       const id = xmlId(node);
@@ -576,6 +592,12 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
       return `<div class="tei-line-group">${children()}</div>`;
     case 'l':
       return `<span class="tei-line">${children()}</span>`;
+    case 'castList':
+      return `<div class="tei-cast-list" role="list">${children()}</div>`;
+    case 'castItem':
+      return `<p class="tei-cast-item" role="listitem">${children()}</p>`;
+    case 'role':
+      return `<span class="tei-cast-role">${children()}</span>`;
     case 'label':
       return `<span class="tei-label">${children()}</span>`;
     case 'ref': {

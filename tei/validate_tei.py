@@ -71,6 +71,24 @@ def validate_file(path: Path, schema: etree.RelaxNG) -> list[str]:
     if missing_paragraph_ids:
         errors.append(f"text paragraphs without xml:id: {len(missing_paragraph_ids)}")
 
+    dramatic_speeches = document.xpath("//tei:text//tei:sp", namespaces=NS)
+    if dramatic_speeches:
+        dramatic_checks = (
+            ("//tei:text//tei:sp[not(@xml:id)]", "dramatic speeches without xml:id"),
+            ("//tei:text//tei:sp[not(tei:speaker)]", "dramatic speeches without speaker"),
+            (
+                "//tei:text//tei:sp[not(tei:p or tei:lg)]",
+                "dramatic speeches without prose or verse content",
+            ),
+            ("//tei:text//tei:lg[not(@xml:id)]", "verse groups without xml:id"),
+            ("//tei:text//tei:l[not(@xml:id)]", "verse lines without xml:id"),
+            ("//tei:text//tei:stage[not(@xml:id)]", "stage directions without xml:id"),
+        )
+        for expression, message in dramatic_checks:
+            matches = document.xpath(expression, namespaces=NS)
+            if matches:
+                errors.append(f"{message}: {len(matches)}")
+
     unqualified_ids = document.xpath("//@id[namespace-uri() = '']")
     if unqualified_ids:
         errors.append(f"unqualified id attributes: {len(unqualified_ids)}")

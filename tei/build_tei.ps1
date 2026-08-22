@@ -249,6 +249,14 @@ function Normalize-ImportedTei {
         [void]$figure.AppendChild($graphic)
     }
 
+    # A legacy dramatic source can mistake italicized text within a character
+    # name for a nested stage direction. TEI does not allow stage inside name;
+    # retain the words as part of the surrounding name instead.
+    foreach ($nestedStage in @($Root.SelectNodes('.//tei:name//tei:stage', $namespaces))) {
+        $stageText = $Document.CreateTextNode($nestedStage.InnerText)
+        [void]$nestedStage.ParentNode.ReplaceChild($stageText, $nestedStage)
+    }
+
     foreach ($element in @($Root.SelectNodes('.//*'))) {
         if ($element.HasAttribute('id') -and -not $element.HasAttribute('id', $xmlNamespace)) {
             Set-XmlId $element (ConvertTo-XmlIdToken $element.GetAttribute('id'))
@@ -397,6 +405,72 @@ function Add-StructuralIds {
         $utteranceNumber++
         if (-not (Get-XmlId $said)) {
             Set-XmlId $said ("$Lang-utterance-" + $utteranceNumber.ToString('000000'))
+        }
+    }
+
+    # Dramatic speech is structurally different from prose dialogue. Preserve
+    # its sp/lg/l hierarchy and give each level a stable address of its own.
+    foreach ($emptySpeech in @($Body.SelectNodes('.//tei:sp[not(*[not(self::tei:speaker)])]', $namespaces))) {
+        [void]$emptySpeech.ParentNode.RemoveChild($emptySpeech)
+    }
+    foreach ($dramaticType in @(
+        @{ Name = 'sp'; Prefix = 'speech' },
+        @{ Name = 'lg'; Prefix = 'verse-group' },
+        @{ Name = 'l'; Prefix = 'line' },
+        @{ Name = 'stage'; Prefix = 'stage' }
+    )) {
+        $dramaticNumber = 0
+        foreach ($element in @($Body.SelectNodes(".//tei:$($dramaticType.Name)", $namespaces))) {
+            $dramaticNumber++
+            if (-not (Get-XmlId $element)) {
+                Set-XmlId $element ("$Lang-$($dramaticType.Prefix)-" + $dramaticNumber.ToString('000000'))
+            }
+        }
+    }
+}
+
+function Normalize-DramaticStageNames {
+    param(
+        [System.Xml.XmlDocument]$Document,
+        [System.Xml.XmlElement]$Root
+    )
+
+    $namespaces = Get-TeiNamespaceManager $Document
+    $knownNames = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+    foreach ($node in @($Root.SelectNodes('.//tei:castItem/tei:role | .//tei:speaker | .//tei:stage/tei:name[@type="character"]', $namespaces))) {
+        $candidate = [string]::Join(' ', ($node.InnerText -split '\s+')).Trim(' ', '.', ',', ';', ':')
+        if (-not $candidate) { continue }
+        $parts = @($candidate -split '\s*(?:,|;|&|\band\b)\s*' | Where-Object { $_ })
+        if ($parts.Count -eq 1) { [void]$knownNames.Add($candidate) }
+        foreach ($part in $parts) {
+            $part = $part.Trim(' ', '.', ',', ';', ':')
+            if ($part.Length -ge 2) { [void]$knownNames.Add($part) }
+        }
+    }
+    if ($knownNames.Count -eq 0) { return }
+
+    $alternatives = @($knownNames | Sort-Object Length -Descending | ForEach-Object { [regex]::Escape($_) })
+    $pattern = '(?<![\p{L}\p{N}])(?:' + ($alternatives -join '|') + ')(?![\p{L}\p{N}])'
+    $options = [System.Text.RegularExpressions.RegexOptions]::IgnoreCase -bor [System.Text.RegularExpressions.RegexOptions]::CultureInvariant
+    $matcher = New-Object System.Text.RegularExpressions.Regex($pattern, $options)
+
+    foreach ($stage in @($Root.SelectNodes('.//tei:stage[@type="entrance" or @type="exit"]', $namespaces))) {
+        $stageText = [string]::Join(' ', ($stage.InnerText -split '\s+')).Trim()
+        $matches = @($matcher.Matches($stageText))
+        while ($stage.HasChildNodes) { [void]$stage.RemoveChild($stage.FirstChild) }
+        $position = 0
+        foreach ($match in $matches) {
+            if ($match.Index -gt $position) {
+                [void]$stage.AppendChild($Document.CreateTextNode($stageText.Substring($position, $match.Index - $position)))
+            }
+            $name = New-TeiElement $Document 'name'
+            [void]$name.SetAttribute('type', 'character')
+            $name.InnerText = $match.Value
+            [void]$stage.AppendChild($name)
+            $position = $match.Index + $match.Length
+        }
+        if ($position -lt $stageText.Length) {
+            [void]$stage.AppendChild($Document.CreateTextNode($stageText.Substring($position)))
         }
     }
 }
@@ -789,6 +863,7 @@ function Build-TeiFile {
 
     if ($sources.Count -gt 1) { Set-CombinedHeader $output $header $sources $CombinedTitle $TextId }
     Normalize-ImportedTei $output $root
+    Normalize-DramaticStageNames $output $root
     Add-BookstacksMetadata $output $header $TextId $LicenceTarget $LicenceText
     Add-StructuralIds $output $text $Lang $TextId
     Add-MilestoneIds $output $text $Lang $MilestoneType
@@ -817,6 +892,29 @@ foreach ($item in $config) {
     $authorSlug = $item.author.ToLowerInvariant()
     $baseName = $authorSlug + '_' + $item.id
     Write-Output "Processing $($item.title) by $($item.author)..."
+    if ($item.source_format -eq 'shakespeare_tei_collection') {
+        if ($item.sources.Count -ne 1) { throw "The Shakespeare collection must have exactly one source pattern." }
+        $src = $item.sources[0]
+        $sourcePattern = Join-Path $PSScriptRoot $src.path
+        $sourceFiles = @(Get-ChildItem -Path $sourcePattern -File | Sort-Object Name)
+        if ($sourceFiles.Count -eq 0) { throw "No Shakespeare TEI files matched $sourcePattern" }
+        foreach ($sourceFile in $sourceFiles) {
+            if ($sourceFile.Name -notmatch '^shakespeare-william_(.+)_en\.xml$') {
+                throw "Unexpected Shakespeare source filename: $($sourceFile.Name)"
+            }
+            $workId = $Matches[1]
+            $textId = "shakespeare-$workId"
+            $outPath = Join-Path $PSScriptRoot (Join-Path $authorSlug "shakespeare_${workId}_eng.xml")
+            Build-TeiFile `
+                -SourcePath @($sourceFile.FullName) `
+                -OutputPath $outPath `
+                -Lang 'eng' `
+                -XmlLang 'en' `
+                -TextId $textId `
+                -MilestoneType 'none'
+        }
+        continue
+    }
     if ($item.source_format -eq 'middlemarch_annotated_fragments') {
         if ($item.sources.Count -ne 1) { throw "Middlemarch must have exactly one source repository directory." }
         $src = $item.sources[0]

@@ -46,6 +46,13 @@ python ./validate_tei.py
   Prelude, Books I-VIII, Chapters I-LXXXVI, and Finale. Source dialogue,
   represented thought, free indirect discourse, and narratorial person
   annotations are retained with resolvable participant references.
+- Shakespeare's 38 plays are generated from the legacy standalone TEI files
+  named `shakespeare-william_*_en.xml` in the repository root. Acts and scenes,
+  cast lists, speakers, and typed stage directions are retained. Dramatic prose
+  remains paragraph content inside `sp`, while verse remains lineated as
+  `sp/lg/l`; the build never converts one form into the other. Empty source
+  speeches are omitted, and every retained speech, verse group, verse line,
+  and stage direction receives a stable `xml:id`.
 - `assets/tei/hta.*` contains works by Henry Thomas Austen, not Jane Austen,
   and is intentionally excluded from the generated corpus.
 - The Maude *War and Peace* and Garnett *Anna Karenina* translations are
@@ -89,6 +96,7 @@ python ./validate_tei.py
   all ten books and Stephanus divisions, and is included automatically when
   rebuilding Plato or the complete corpus.
 
-The validator enforces Relax NG validity, unique XML IDs, granular utterance
-IDs, qualified ID attributes, and resolvable speaker and addressee pointers
-for both `said` and attributed `q` elements.
+The validator enforces Relax NG validity, unique XML IDs, granular prose and
+dramatic utterance IDs, qualified ID attributes, preservation of dramatic
+verse/prose structures, and resolvable speaker and addressee pointers for both
+`said` and attributed `q` elements.

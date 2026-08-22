@@ -713,5 +713,14 @@
     "sources": [
       { "lang": "eng", "xml_lang": "en", "path": "../../corpus-eliot-middlemarch-tei" }
     ]
+  },
+  {
+    "author": "Shakespeare",
+    "title": "Complete dramatic works",
+    "id": "plays",
+    "source_format": "shakespeare_tei_collection",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../shakespeare-william_*_en.xml" }
+    ]
   }
 ]
