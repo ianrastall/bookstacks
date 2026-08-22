@@ -451,7 +451,8 @@ button, input { font: inherit; }
 }
 
 .reader-content p { margin: 0; }
-.reader-content p + p { margin-top: 1.1em; }
+.reader-content .tei-paragraph { text-indent: 1.5em; }
+.reader-content .tei-first-paragraph { text-indent: 0; }
 .reader-content h2,
 .reader-content h3,
 .reader-content h4,
@@ -475,11 +476,8 @@ button, input { font: inherit; }
 .tei-division + .tei-division { margin-top: 2rem; }
 .tei-entity { border-bottom: 1px dotted var(--accent); }
 .tei-note { color: var(--accent-strong); font-size: 0.9em; }
-.tei-note::before { content: "["; }
-.tei-note::after { content: "]"; }
-.tei-page-break,
-.tei-milestone { display: inline-block; margin: 0 0.35rem; color: var(--muted); font: 0.72em system-ui, sans-serif; vertical-align: super; }
-.tei-page-break::before { content: "p. "; }
+.tei-note:not(.tei-note-bracketed)::before { content: "["; }
+.tei-note:not(.tei-note-bracketed)::after { content: "]"; }
 .tei-line-group { margin: 1.4rem 0 1.4rem 2rem; }
 .tei-line { display: block; }
 .tei-smallcaps { font-variant: small-caps; }
@@ -488,11 +486,15 @@ button, input { font: inherit; }
 .tei-gap { color: var(--muted); }
 .tei-sic { text-decoration: underline dotted var(--danger); }
 .tei-floating-text { margin: 1.5rem 0; padding: 1rem; border: 1px solid var(--border); background: var(--panel-muted); }
-.tei-opener,
+.tei-opener { margin: 0 0 1em; }
 .tei-closer,
+.tei-postscript { margin: 1em 0 0; }
 .tei-epigraph { margin: 1.5rem 0; }
-.tei-signed,
-.tei-dateline { text-align: right; }
+.reader-content .tei-salute { margin: 0 0 1em; text-align: left; text-indent: 0; }
+.reader-content .tei-closer .tei-salute { margin-bottom: 0; }
+.reader-content .tei-signed,
+.reader-content .tei-dateline { text-align: right; text-indent: 0; }
+.reader-content .tei-signed { margin-top: 1em; }
 .table-scroll { max-width: 100%; overflow-x: auto; }
 .reader-content table { width: 100%; border-collapse: collapse; font: 0.9em system-ui, sans-serif; }
 .reader-content td { padding: 0.5rem; border: 1px solid var(--border); }

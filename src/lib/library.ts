@@ -174,6 +174,8 @@ interface ParsedEdition extends Edition {
 interface EntityMaps {
   persons: Map<string, RegistryEntry>;
   places: Map<string, RegistryEntry>;
+  notes: Map<string, any>;
+  referencedNoteIds: Set<string>;
 }
 
 let libraryCache: Library | undefined;
@@ -345,6 +347,8 @@ function parseEdition(filePath: string): ParsedEdition {
 function parseRegistries(document: any): EntityMaps {
   const persons = new Map<string, RegistryEntry>();
   const places = new Map<string, RegistryEntry>();
+  const notes = new Map<string, any>();
+  const referencedNoteIds = new Set<string>();
 
   for (const node of [...descendants(document, 'person'), ...descendants(document, 'personGrp')]) {
     const id = xmlId(node);
@@ -362,7 +366,17 @@ function parseRegistries(document: any): EntityMaps {
     const description = registryDescription(node, nameNode);
     places.set(id, { id, name, description });
   }
-  return { persons, places };
+  for (const node of descendants(document, 'note')) {
+    const id = xmlId(node);
+    if (id) notes.set(id, node);
+  }
+  for (const node of descendants(document, 'ref')) {
+    const target = cleanText(node.getAttribute?.('target'));
+    if (target.startsWith('#') && notes.has(target.slice(1))) {
+      referencedNoteIds.add(target.slice(1));
+    }
+  }
+  return { persons, places, notes, referencedNoteIds };
 }
 
 function registryDescription(node: any, nameNode: any): string {
@@ -496,8 +510,10 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
     }
     case 'head':
       return `<h${Math.min(6, headingLevel)}>${children()}</h${Math.min(6, headingLevel)}>`;
-    case 'p':
-      return `<p>${children()}</p>`;
+    case 'p': {
+      const firstClass = isFirstParagraph(node) ? ' tei-first-paragraph' : '';
+      return `<p class="tei-paragraph${firstClass}">${children()}</p>`;
+    }
     case 'said': {
       const speaker = referencedEntities(node.getAttribute?.('who'), entities.persons);
       const addressee = referencedEntities(node.getAttribute?.('toWhom'), entities.persons);
@@ -518,17 +534,14 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
       const detail = referencedEntities(reference, map, true);
       return `<span class="tei-entity"${detail ? ` title="${escapeAttr(detail)}"` : ''}>${children()}</span>`;
     }
-    case 'note':
-      return `<span class="tei-note" role="note" title="Editorial note">${children()}</span>`;
-    case 'pb': {
-      const n = cleanText(node.getAttribute?.('n'));
-      return n ? `<span class="tei-page-break" aria-label="Page ${escapeAttr(n)}">${escapeHtml(n)}</span>` : '';
+    case 'note': {
+      const id = xmlId(node);
+      if (id && entities.referencedNoteIds.has(id)) return '';
+      return renderInlineNote(node, entities, headingLevel);
     }
-    case 'milestone': {
-      const n = cleanText(node.getAttribute?.('n'));
-      const unit = cleanText(node.getAttribute?.('unit'));
-      return n ? `<span class="tei-milestone" title="${escapeAttr(unit || 'Text milestone')} ${escapeAttr(n)}">${escapeHtml(n)}</span>` : '';
-    }
+    case 'pb':
+    case 'milestone':
+      return '';
     case 'lb':
       return '<br />';
     case 'emph':
@@ -554,6 +567,8 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
       return `<span class="tei-label">${children()}</span>`;
     case 'ref': {
       const target = cleanText(node.getAttribute?.('target'));
+      const note = target.startsWith('#') ? entities.notes.get(target.slice(1)) : undefined;
+      if (note) return renderInlineNote(note, entities, headingLevel);
       return /^(https?:\/\/|#)/.test(target)
         ? `<a href="${escapeAttr(target)}">${children()}</a>`
         : children();
@@ -616,6 +631,27 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
     default:
       return children() || escapeHtml(text());
   }
+}
+
+function isFirstParagraph(node: any): boolean {
+  for (const sibling of directElementChildren(node.parentNode)) {
+    if (sibling === node) return true;
+    if (sibling.localName === 'p') return false;
+  }
+  return true;
+}
+
+function renderInlineNote(note: any, entities: EntityMaps, headingLevel: number): string {
+  const content = directChildNodes(note).map((child) => {
+    if (child.nodeType === 1 && child.localName === 'p') {
+      return directChildNodes(child).map((part) => renderNode(part, entities, headingLevel)).join('');
+    }
+    return renderNode(child, entities, headingLevel);
+  }).join('');
+  const alreadyBracketed = /^\s*\[.*\]\s*$/s.test(cleanText(note.textContent));
+  return content.trim()
+    ? `<span class="tei-note${alreadyBracketed ? ' tei-note-bracketed' : ''}" role="note" title="Note">${content}</span>`
+    : '';
 }
 
 function referencedEntities(value: string, registry: Map<string, RegistryEntry>, includeDescription = false): string {
