@@ -16,6 +16,13 @@ const SUPPLEMENTARY_KINDS = new Set([
 ]);
 const WRAPPER_KINDS = new Set(['edition', 'translation']);
 
+export const PUBLISHED_AUTHOR_SLUGS = new Set([
+  'aristotle',
+  'dostoevsky',
+  'plato',
+  'tolstoy',
+]);
+
 const AUTHOR_PROFILES: Record<string, Omit<Author, 'works'>> = {
   aristotle: { slug: 'aristotle', name: 'Aristotle', dates: '384–322 BCE', portrait: 'aristotle.png' },
   austen: { slug: 'austen', name: 'Jane Austen', dates: '1775–1817', portrait: 'austen-jane.png' },
@@ -143,7 +150,8 @@ export function getLibrary(): Library {
 
   const teiRoot = path.resolve(process.cwd(), 'tei');
   const files = findXmlFiles(teiRoot);
-  const parsed = files.map(parseEdition);
+  const parsed = files.map(parseEdition)
+    .filter((edition) => PUBLISHED_AUTHOR_SLUGS.has(edition.authorSlug));
   const authors = new Map<string, Author>();
 
   for (const edition of parsed) {

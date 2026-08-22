@@ -1,10 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { PUBLISHED_AUTHOR_SLUGS } from '../../lib/library';
 
 export function getStaticPaths() {
   const root = path.resolve(process.cwd(), 'tei');
   return fs.readdirSync(root, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
+    .filter((entry) => entry.isDirectory() && PUBLISHED_AUTHOR_SLUGS.has(entry.name))
     .flatMap((directory) => fs.readdirSync(path.join(root, directory.name), { withFileTypes: true })
       .filter((file) => file.isFile() && file.name.endsWith('.xml'))
       .map((file) => ({
