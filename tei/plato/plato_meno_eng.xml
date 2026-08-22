@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="plato_meno" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+
+<fileDesc>
+
+
+
+	 
+	
+
+
+
+<titleStmt>
+<title>Meno</title>
+<author>Plato</author>
+	<editor role="translator">Walter Rangeley Maitland Lamb</editor>
+<sponsor>Perseus Project, Tufts University</sponsor>
+<principal>Gregory Crane</principal>
+<respStmt>
+<resp>Prepared under the supervision of</resp>
+<name>Lisa Cerrato</name>
+<name>William Merrill</name>
+<name>Elli Mylonas</name>
+<name>David Smith</name>
+</respStmt>
+<funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+
+<respStmt xml:id="bookstacks-encoding"><resp>TEI P5 normalization, structural identifiers, and speaker-reference integrity</resp><name>Bookstacks project</name></respStmt></titleStmt><editionStmt><edition n="1.0">Bookstacks TEI edition, based on the source electronic edition</edition></editionStmt><publicationStmt><publisher>Bookstacks project</publisher><pubPlace>United States</pubPlace><date when="2026-08-21">21 August 2026</date><idno type="local">plato_meno</idno><availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; source rights remain as recorded in sourceDesc.</licence></availability></publicationStmt><notesStmt>
+		<note anchored="true">Text was scanned at St. Olaf Spring, 1992.</note>
+		<note>Perseus 2.0</note>
+	</notesStmt><sourceDesc>
+	<biblStruct>
+		<monogr>
+			<author>Plato</author>
+			<title>Plato in Twelve Volumes</title>
+			<editor role="translator">Walter Rangeley Maitland Lamb</editor>
+			<imprint>
+				<pubPlace>Cambridge, MA</pubPlace>
+				<publisher>Harvard University Press</publisher>
+				<pubPlace>London</pubPlace>
+				<publisher>William Heinemann Ltd.</publisher>
+				<date type="printing">1924</date>
+				<note>volumes renumbered in various printings</note>
+			</imprint>
+			<biblScope unit="volume">2</biblScope>
+		</monogr>
+		
+		<ref target="https://archive.org/details/L165PlatoIILachesProtagorasMenoEuthydemus/page/n287/mode/2up">Internet Archive</ref>
+	</biblStruct>
+</sourceDesc></fileDesc>
+
+		<encodingDesc>
+			<refsDecl n="CTS">
+				<cRefPattern n="section" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">           
+					<p>This pointer pattern extracts section</p>
+				</cRefPattern>
+			</refsDecl>
+			
+			<!--<refsDecl doctype="TEI.2">
+<state unit="text"/>
+<state unit="section"/>
+</refsDecl>
+<refsDecl doctype="TEI.2">
+<state unit="text"/>
+<state unit="page"/>
+</refsDecl>-->
+		</encodingDesc>
+
+<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+			<particDesc>
+				
+				
+				
+				
+			<listPerson><person xml:id="Meno">
+					<persName>Meno</persName>
+				</person><person xml:id="Socrates">
+					<persName>Socrates</persName>
+				</person><person xml:id="Meno-s-Boy">
+					<persName>Meno's Boy</persName>
+				</person><person xml:id="Anytus">
+					<persName>Anytus</persName>
+				</person><person xml:id="Meno-s"><persName>Meno's</persName></person><person xml:id="Boy"><persName>Boy</persName></person></listPerson></particDesc>
+		</profileDesc>
+<revisionDesc><change when="2026-08-21" who="#bookstacks-encoding">Normalized to standalone TEI P5; added granular structural identifiers and resolvable speaker references.</change>
+<change when="2017-07-10" who="Lisa Cerrato">EpiDoc and CTS conversion.</change> 
+<change when="2014-07-01" who="Stella Dee">split composite text and converted to unicode</change>
+<change when="1992-07-01" who="WPM">Tagged in conformance with Prose.e dtd.</change>
+</revisionDesc>
+
+</teiHeader>
+  <text xml:lang="en">
+    <body>
+			<div type="translation" n="urn:cts:greekLit:tlg0059.tlg024.perseus-eng2" xml:lang="en" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2"> 
+<div type="textpart" subtype="section" resp="perseus" n="70" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-70">
+	<milestone unit="page" resp="Stephanus" n="70" xml:id="eng-stephanus-page-70" /><milestone unit="section" resp="Stephanus" n="70a" xml:id="eng-stephanus-section-70a" />
+
+<said who="#Meno" xml:id="eng-utterance-000001"><label>Men.</label> <p xml:id="eng-p-000001">Can you tell me, Socrates, whether virtue can be taught, or is acquired by practice, not teaching? Or if neither by practice nor by learning, whether it comes to mankind by nature or in some other way?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000002"><label>Soc.</label> <p xml:id="eng-p-000002">Meno, of old the Thessalians were famous and admired among the Greeks for their riding and <milestone unit="section" resp="Stephanus" n="70b" xml:id="eng-stephanus-section-70b" /> their riches; but now they have a name, I believe, for wisdom also, especially your friend Aristippus’s people, the Larisaeans. For this you have to thank Gorgias: for when he came to that city he made the leading men of the Aleuadae—among them your lover Aristippus—and the Thessalians generally enamored of wisdom. Nay more, he has given you the regular habit of answering any chance question in a fearless, magnificent manner, as befits those who know: <milestone unit="section" resp="Stephanus" n="70c" xml:id="eng-stephanus-section-70c" /> for he sets the example of offering himself to be questioned by any Greek who chooses, and on any point one likes, and he has an answer for everybody.</p></said></div> 
+				
+<div type="textpart" subtype="section" resp="perseus" n="71" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-71">
+<said who="#Socrates" rend="merge" xml:id="eng-utterance-000003"><label>Soc.</label> <p xml:id="eng-p-000003">Now in this place, my dear Meno, we have a contrary state of things: <milestone unit="page" resp="Stephanus" n="71" xml:id="eng-stephanus-page-71" /><milestone unit="section" resp="Stephanus" n="71a" xml:id="eng-stephanus-section-71a" /> a drought of wisdom, as it were, has come on; and it seems as though wisdom had deserted our borders in favour of yours. You have only to ask one of our people a question such as that, and he will be sure to laugh and say: Stranger, you must think me a specially favoured mortal, to be able to tell whether virtue can be taught, or in what way it comes to one: so far am I from knowing whether it can be taught or not, that I actually do not even know what the thing itself, virtue, is at all. <milestone unit="section" resp="Stephanus" n="71b" xml:id="eng-stephanus-section-71b" /> And I myself, Meno, am in the same case; I share my townsmen’s poverty in this matter: I have to reproach myself with an utter ignorance about virtue; and if I do not know what a thing is, how can I know what its nature may be? Or do you imagine it possible, if one has no cognizance at all of Meno, that one could know whether he is handsome or rich or noble, or the reverse of these? Do you suppose that one could?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000004"><label>Men.</label> <p xml:id="eng-p-000004">Not I. But is it true, Socrates, <milestone unit="section" resp="Stephanus" n="71c" xml:id="eng-stephanus-section-71c" /> that you do not even know what virtue is? Are we to return home with this report of you?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000005"><label>Soc.</label> <p xml:id="eng-p-000005">Not only this, my friend, but also that I never yet came across anybody who did know, in my opinion.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000006"><label>Men.</label> <p xml:id="eng-p-000006">What? You did not meet Gorgias when he was here?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000007"><label>Soc.</label> <p xml:id="eng-p-000007">I did.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000008"><label>Men.</label> <p xml:id="eng-p-000008">And you didn’t consider that he knew?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000009"><label>Soc.</label> <p xml:id="eng-p-000009">I have not a very good memory, Meno, so I cannot tell at the moment how he struck me then. It may be that he did know, and that you know what he said: <milestone unit="section" resp="Stephanus" n="71d" xml:id="eng-stephanus-section-71d" /> remind me therefore how he expressed it; or if you like, make your own statement, for I expect you share his views.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000010"><label>Men.</label> <p xml:id="eng-p-000010">I do.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000011"><label>Soc.</label> <p xml:id="eng-p-000011">Then let us pass him over, since in fact he is not present, and do you tell me, in heaven’s name, what is your own account of virtue. Speak out frankly, that I may find myself the victim of a most fortunate falsehood, if you and Gorgias prove to have knowledge of it, while I have said that I never yet came across anyone who had. </p></said> <milestone unit="section" resp="Stephanus" n="71e" xml:id="eng-stephanus-section-71e" />
+
+<said who="#Meno" xml:id="eng-utterance-000012"><label>Men.</label> <p xml:id="eng-p-000012">Why, there is no difficulty, Socrates, in telling. First of all, if you take the virtue of a man, it is easily stated that a man’s virtue is this—that he be competent to manage the affairs of his city, and to manage them so as to benefit his friends and harm his enemies, and to take care to avoid suffering harm himself. Or take a woman’s virtue: there is no difficulty in describing it as the duty of ordering the house well, looking after the property indoors, and obeying her husband. And the child has another virtue—one for the female, and one for the male; and there is another for elderly men—one, if you like, for freemen, <milestone unit="page" resp="Stephanus" n="72" xml:id="eng-stephanus-page-72" /><milestone unit="section" resp="Stephanus" n="72a" xml:id="eng-stephanus-section-72a" /> and yet another for slaves.</p></said></div>
+				
+<div type="textpart" subtype="section" resp="perseus" n="72" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-72">
+<said who="#Meno" rend="merge" xml:id="eng-utterance-000013"><label>Men.</label> <p xml:id="eng-p-000013">And there are very many other virtues besides, so that one cannot be at a loss to explain what virtue is; for it is according to each activity and age that every one of us, in whatever we do, has his virtue; and the same, I take it, Socrates, will hold also of vice.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000014"><label>Soc.</label> <p xml:id="eng-p-000014">I seem to be in a most lucky way, Meno; for in seeking one virtue I have discovered a whole swarm of virtues there in your keeping. Now, Meno, to follow this figure of a swarm, <milestone unit="section" resp="Stephanus" n="72b" xml:id="eng-stephanus-section-72b" /> suppose I should ask you what is the real nature of the bee, and you replied that there are many different kinds of bees, and I rejoined: Do you say it is by being bees that they are of many and various kinds and differ from each other, or does their difference lie not in that, but in something else—for example, in their beauty or size or some other quality? Tell me, what would be your answer to this question?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000015"><label>Men.</label> <p xml:id="eng-p-000015">Why, this—that they do not differ, as bees, the one from the other. </p></said> <milestone unit="section" resp="Stephanus" n="72c" xml:id="eng-stephanus-section-72c" />
+
+<said who="#Socrates" xml:id="eng-utterance-000016"><label>Soc.</label> <p xml:id="eng-p-000016">And if I went on to say: Well now, there is this that I want you to tell me, Meno: what do you call the quality by which they do not differ, but are all alike? You could find me an answer, I presume?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000017"><label>Men.</label> <p xml:id="eng-p-000017">I could.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000018"><label>Soc.</label> <p xml:id="eng-p-000018">And likewise also with the virtues, however many and various they may be, they all have one common character whereby they are virtues, and on which one would of course be wise to keep an eye when one is giving a definitive answer to the question of what virtue really is. <milestone unit="section" resp="Stephanus" n="72d" xml:id="eng-stephanus-section-72d" /> You take my meaning, do you not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000019"><label>Men.</label> <p xml:id="eng-p-000019">My impression is that I do; but still I do not yet grasp the meaning of the question as I could wish.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000020"><label>Soc.</label> <p xml:id="eng-p-000020">Is it only in the case of virtue, do you think, Meno, that one can say there is one kind belonging to a man, another to a woman, and so on with the rest, or is it just the same, too, in the case of health and size and strength? Do you consider that there is one health for a man, and another for a woman? Or, wherever we find health, is it of the same character universally, <milestone unit="section" resp="Stephanus" n="72e" xml:id="eng-stephanus-section-72e" /> in a man or in anyone else?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000021"><label>Men.</label> <p xml:id="eng-p-000021">I think that health is the same, both in man and in woman.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000022"><label>Soc.</label> <p xml:id="eng-p-000022">Then is it not so with size and strength also? If a woman is strong, she will be strong by reason of the same form and the same strength; by <q type="emph">the same</q> I mean that strength does not differ as strength, whether it be in a man or in a woman. Or do you think there is any difference?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000023"><label>Men.</label> <p xml:id="eng-p-000023">I do not.</p></said></div> 
+	
+	<div type="textpart" subtype="section" resp="perseus" n="73" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-73">
+		<milestone unit="page" resp="Stephanus" n="73" xml:id="eng-stephanus-page-73" /><milestone unit="section" resp="Stephanus" n="73a" xml:id="eng-stephanus-section-73a" />
+
+<said who="#Socrates" xml:id="eng-utterance-000024"><label>Soc.</label> <p xml:id="eng-p-000024">And will virtue, as virtue, differ at all whether it be in a child or in an elderly person, in a woman or in a man?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000025"><label>Men.</label> <p xml:id="eng-p-000025">I feel somehow, Socrates, that here we cease to be on the same ground as in those other cases.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000026"><label>Soc.</label> <p xml:id="eng-p-000026">Why? Were you not saying that a man’s virtue is to manage a state well, and a woman’s a house?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000027"><label>Men.</label> <p xml:id="eng-p-000027">I was.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000028"><label>Soc.</label> <p xml:id="eng-p-000028">And is it possible to manage a state well, or a house, or anything at all, if you do not manage it temperately and justly? </p></said> <milestone unit="section" resp="Stephanus" n="73b" xml:id="eng-stephanus-section-73b" />
+
+<said who="#Meno" xml:id="eng-utterance-000029"><label>Men.</label> <p xml:id="eng-p-000029">Surely not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000030"><label>Soc.</label> <p xml:id="eng-p-000030">Then whoever manages temperately and justly will manage with temperance and justice?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000031"><label>Men.</label> <p xml:id="eng-p-000031">That must be.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000032"><label>Soc.</label> <p xml:id="eng-p-000032">Then both the woman and the man require the same qualities of justice and temperance, if they are to be good.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000033"><label>Men.</label> <p xml:id="eng-p-000033">Evidently.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000034"><label>Soc.</label> <p xml:id="eng-p-000034">And what of a child or an old man? Can they ever hope to be good if they are intemperate and unjust?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000035"><label>Men.</label> <p xml:id="eng-p-000035">Surely not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000036"><label>Soc.</label> <p xml:id="eng-p-000036">Only if they are temperate and just?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000037"><label>Men.</label> <p xml:id="eng-p-000037">Yes. </p></said> <milestone unit="section" resp="Stephanus" n="73c" xml:id="eng-stephanus-section-73c" />
+
+<said who="#Socrates" xml:id="eng-utterance-000038"><label>Soc.</label> <p xml:id="eng-p-000038">So all mankind are good in the same way; for they become good when they acquire the same qualities.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000039"><label>Men.</label> <p xml:id="eng-p-000039">So it seems.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000040"><label>Soc.</label> <p xml:id="eng-p-000040">And I presume, if they had not the same virtue, they would not be good in the same way.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000041"><label>Men.</label> <p xml:id="eng-p-000041">No, indeed.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000042"><label>Soc.</label> <p xml:id="eng-p-000042">Seeing then that it is the same virtue in all cases, try and tell me, if you can recollect, what Gorgias—and you in agreement with him—say it is.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000043"><label>Men.</label> <p xml:id="eng-p-000043">Simply that it is the power of governing mankind— <milestone unit="section" resp="Stephanus" n="73d" xml:id="eng-stephanus-section-73d" /> if you want some single description to cover all cases.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000044"><label>Soc.</label> <p xml:id="eng-p-000044">That is just what I am after. But is virtue the same in a child, Meno, and in a slave—an ability to govern each his master? And do you think he who governed would still be a slave?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000045"><label>Men.</label> <p xml:id="eng-p-000045">I should say certainly not, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000046"><label>Soc.</label> <p xml:id="eng-p-000046">No, indeed, it would be unlikely, my excellent friend. And again, consider this further point: you say it is <q type="emph">to be able to govern</q>; shall we not add to that—<q type="emph">justly, not unjustly</q>?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000047"><label>Men.</label> <p xml:id="eng-p-000047">Yes, I think so; for justice, Socrates, is virtue. </p></said> <milestone unit="section" resp="Stephanus" n="73e" xml:id="eng-stephanus-section-73e" />
+
+<said who="#Socrates" xml:id="eng-utterance-000048"><label>Soc.</label> <p xml:id="eng-p-000048">Virtue, Meno, or a virtue?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000049"><label>Men.</label> <p xml:id="eng-p-000049">What do you mean by that?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000050"><label>Soc.</label> <p xml:id="eng-p-000050">What I would in any other case. To take roundness, for instance; I should call it a figure, and not figure pure and simple. And I should name it so because there are other figures as well.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000051"><label>Men.</label> <p xml:id="eng-p-000051">You would be quite right—just as I say there are other virtues besides justice.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="74" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-74">
+<milestone unit="page" resp="Stephanus" n="74" xml:id="eng-stephanus-page-74" /><milestone unit="section" resp="Stephanus" n="74a" xml:id="eng-stephanus-section-74a" />
+
+<said who="#Socrates" xml:id="eng-utterance-000052"><label>Soc.</label> <p xml:id="eng-p-000052">What are they? Tell me. In the same way as I can tell you of other figures, if you request me, so do you tell me of other virtues.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000053"><label>Men.</label> <p xml:id="eng-p-000053">Well then, courage, I consider, is a virtue, and temperance, and wisdom, and loftiness of mind; and there are a great many others.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000054"><label>Soc.</label> <p xml:id="eng-p-000054">Once more, Meno, we are in the same plight: again we have found a number of virtues when we were looking for one, though not in the same way as we did just now; but the one that runs through them all, this we are not able to find. </p></said> <milestone unit="section" resp="Stephanus" n="74b" xml:id="eng-stephanus-section-74b" />
+
+<said who="#Meno" xml:id="eng-utterance-000055"><label>Men.</label> <p xml:id="eng-p-000055">No, for I am not yet able, Socrates, to follow your line of search, and find a single virtue common to all, as one can in other cases.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000056"><label>Soc.</label> <p xml:id="eng-p-000056">And no wonder; but I will make an effort, so far as I can, to help us onward. You understand, of course, that this principle of mine applies to everything: if someone asked you the question I put to you just now: What is figure, Meno? and you replied: Roundness; and then he said, as I did: Is roundness figure or a figure? I suppose you would answer: A figure.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000057"><label>Men.</label> <p xml:id="eng-p-000057">Certainly. </p></said> <milestone unit="section" resp="Stephanus" n="74c" xml:id="eng-stephanus-section-74c" />
+
+<said who="#Socrates" xml:id="eng-utterance-000058"><label>Soc.</label> <p xml:id="eng-p-000058">And for this reason—that there are other figures as well?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000059"><label>Men.</label> <p xml:id="eng-p-000059">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000060"><label>Soc.</label> <p xml:id="eng-p-000060">And if he went on to ask you of what sort they were, you would tell him?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000061"><label>Men.</label> <p xml:id="eng-p-000061">I would.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000062"><label>Soc.</label> <p xml:id="eng-p-000062">And if he asked likewise what color is, and on your answering <q type="emph">white</q> your questioner then rejoined: Is <q type="emph">white</q> color or a color? your reply would be: A color; because there are other colors besides.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000063"><label>Men.</label> <p xml:id="eng-p-000063">It would.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000064"><label>Soc.</label> <p xml:id="eng-p-000064">And if he bade you mention other colors, <milestone unit="section" resp="Stephanus" n="74d" xml:id="eng-stephanus-section-74d" /> you would tell him of others that are colors just as much as white?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000065"><label>Men.</label> <p xml:id="eng-p-000065">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000066"><label>Soc.</label> <p xml:id="eng-p-000066">Now suppose that, like me, he pursued the argument and said: We are always arriving at a variety of things, but let me have no more of that: since you call these many things by one single name, and say they are figures, every one of them, even when they are opposed to one another, tell me what is that which comprises round and straight alike, and which you call figure— <milestone unit="section" resp="Stephanus" n="74e" xml:id="eng-stephanus-section-74e" /> including straight equally with round under that term. For that is your statement, is it not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000067"><label>Men.</label> <p xml:id="eng-p-000067">It is.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000068"><label>Soc.</label> <p xml:id="eng-p-000068">And in making it, do you mean to say that round is no more round than straight, or straight no more straight than round?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000069"><label>Men.</label> <p xml:id="eng-p-000069">No, to be sure, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000070"><label>Soc.</label> <p xml:id="eng-p-000070">What you mean is that the round shape is no more a figure than the straight, or the straight than the round.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000071"><label>Men.</label> <p xml:id="eng-p-000071">Quite right.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="75" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-75">
+<said who="#Socrates" xml:id="eng-utterance-000072"><label>Soc.</label> <p xml:id="eng-p-000072">Then what can this thing be, which bears the name of figure? Try and tell me. Suppose that, on being asked this question by someone, <milestone unit="page" resp="Stephanus" n="75" xml:id="eng-stephanus-page-75" /><milestone unit="section" resp="Stephanus" n="75a" xml:id="eng-stephanus-section-75a" /> either about figure or about color, you had replied: Why, I don’t so much as understand what you want, sir, or even know what you are saying: he might well have shown surprise, and said: Do you not understand that I am looking for that which is the same common element in all these things? Or would you still be unable to reply, Meno, if you were approached on other terms, and were asked: What is it that is common to the round and the straight and everything else that you call figures—the same in all? Try and tell me it will be good practice for your answer about virtue. </p></said> <milestone unit="section" resp="Stephanus" n="75b" xml:id="eng-stephanus-section-75b" />
+
+<said who="#Meno" xml:id="eng-utterance-000073"><label>Men.</label> <p xml:id="eng-p-000073">No, it is you who must answer, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000074"><label>Soc.</label> <p xml:id="eng-p-000074">You wish me to do you the favour?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000075"><label>Men.</label> <p xml:id="eng-p-000075">By all means.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000076"><label>Soc.</label> <p xml:id="eng-p-000076">And then you will agree to take your turn and answer me on virtue?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000077"><label>Men.</label> <p xml:id="eng-p-000077">I will.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000078"><label>Soc.</label> <p xml:id="eng-p-000078">Well then, I must make the effort, for it is worth our while.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000079"><label>Men.</label> <p xml:id="eng-p-000079">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000080"><label>Soc.</label> <p xml:id="eng-p-000080">Come now, let me try and tell you what figure is. Just consider if you accept this description of it: figure, let us say, is the only existing thing that is found always following color. Are you satisfied, or are you looking for something different? I am sure I should be content with a similar account of virtue from you. </p></said> <milestone unit="section" resp="Stephanus" n="75c" xml:id="eng-stephanus-section-75c" />
+
+<said who="#Meno" xml:id="eng-utterance-000081"><label>Men.</label> <p xml:id="eng-p-000081">But it is such a silly one, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000082"><label>Soc.</label> <p xml:id="eng-p-000082">How do you mean?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000083"><label>Men.</label> <p xml:id="eng-p-000083">Well, figure, as I understand by your account, is what always follows color. Very good; but if some one said he did not know color, and was in the same difficulty about it as about figure, what answer do you suppose would have come from you?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000084"><label>Soc.</label> <p xml:id="eng-p-000084">The truth, from me; and if my questioner were a professor of the eristic and contentious sort, I should say to him: <milestone unit="section" resp="Stephanus" n="75d" xml:id="eng-stephanus-section-75d" /> I have made my statement; if it is wrong, your business is to examine and refute it. But if, like you and me on this occasion, we were friends and chose to have a discussion together, I should have to reply in some milder tone more suited to dialectic. The more dialectical way, I suppose, is not merely to answer what is true, but also to make use of those points which the questioned person acknowledges he knows. And this is the way in which I shall now try to argue with you. Tell me, is there something you call an end? Such a thing, I mean, <milestone unit="section" resp="Stephanus" n="75e" xml:id="eng-stephanus-section-75e" /> as a limit, or extremity—I use all these terms in the same sense, though I daresay Prodicus<note resp="Loeb" anchored="true">Cf. <bibl n="Plat. Prot. 337a">Plat. Prot. 337a</bibl>.</note> might quarrel with us. But you, I am sure, refer to a thing as terminated or ended: something of that sort is what I mean—nothing complicated.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000085"><label>Men.</label> <p xml:id="eng-p-000085">Yes, I do, and I think I grasp your meaning.</p></said></div>
+	
+	<div type="textpart" subtype="section" resp="perseus" n="76" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-76">
+		<milestone unit="page" resp="Stephanus" n="76" xml:id="eng-stephanus-page-76" /><milestone unit="section" resp="Stephanus" n="76a" xml:id="eng-stephanus-section-76a" />
+
+<said who="#Socrates" xml:id="eng-utterance-000086"><label>Soc.</label> <p xml:id="eng-p-000086">Well then, you speak of a surface, and also of a solid—the terms employed in geometrical problems?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000087"><label>Men.</label> <p xml:id="eng-p-000087">I do.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000088"><label>Soc.</label> <p xml:id="eng-p-000088">So now you are able to comprehend from all this what I mean by figure. In every instance of figure I call that figure in which the solid ends; and I may put that more succinctly by saying that figure is <q type="emph">limit of solid.</q></p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000089"><label>Men.</label> <p xml:id="eng-p-000089">And what do you say of color, Socrates?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000090"><label>Soc.</label> <p xml:id="eng-p-000090">How overbearing of you, Meno, to press an old man with demands for answers, when you will not trouble yourself <milestone unit="section" resp="Stephanus" n="76b" xml:id="eng-stephanus-section-76b" /> to recollect and tell me what account Gorgias gives of virtue!</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000091"><label>Men.</label> <p xml:id="eng-p-000091">When you have answered my question, Socrates, I will answer yours.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000092"><label>Soc.</label> <p xml:id="eng-p-000092">One might tell even blindfolded, Meno, by the way you discuss, that you are handsome and still have lovers.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000093"><label>Men.</label> <p xml:id="eng-p-000093">Why so?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000094"><label>Soc.</label> <p xml:id="eng-p-000094">Because you invariably speak in a peremptory tone, after the fashion of spoilt beauties, holding as they do a despotic power so long as their bloom is on them. You have also, I daresay, <milestone unit="section" resp="Stephanus" n="76c" xml:id="eng-stephanus-section-76c" /> made a note of my weakness for handsome people. So I will indulge you, and answer.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000095"><label>Men.</label> <p xml:id="eng-p-000095">You must certainly indulge me.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000096"><label>Soc.</label> <p xml:id="eng-p-000096">Then would you like me to answer you in the manner of Gorgias,<note resp="Loeb" anchored="true">There is something of Gorgias’ stately style in the definition that follows; but the implication seems mainly to be that the substance of it will be familiar to Meno because he was a pupil of Gorgias, who had learnt his science from Empedocles.</note> which you would find easiest to follow?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000097"><label>Men.</label> <p xml:id="eng-p-000097">I should like that, of course.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000098"><label>Soc.</label> <p xml:id="eng-p-000098">Do not both of you say there are certain effluences<note resp="Loeb" anchored="true">Empedocles taught that material objects are known to us by means of effluences or films given off by them and suited in various ways to our sense-organs.</note> of existent things, as Empedocles held?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000099"><label>Men.</label> <p xml:id="eng-p-000099">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000100"><label>Soc.</label> <p xml:id="eng-p-000100">And passages into which and through which the effluences pass?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000101"><label>Men.</label> <p xml:id="eng-p-000101">To be sure.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000102"><label>Soc.</label> <p xml:id="eng-p-000102">And some of the effluences fit into various passages, <milestone unit="section" resp="Stephanus" n="76d" xml:id="eng-stephanus-section-76d" /> while some are too small or too large?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000103"><label>Men.</label> <p xml:id="eng-p-000103">That is so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000104"><label>Soc.</label> <p xml:id="eng-p-000104">And further, there is what you call sight?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000105"><label>Men.</label> <p xml:id="eng-p-000105">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000106"><label>Soc.</label> <p xml:id="eng-p-000106">So now <quote>conceive my meaning,</quote> as Pindar <note resp="Loeb" anchored="true">Fr. 82 (Bergk); cf. <bibl n="Aristoph. Birds 939">Aristoph. Birds 939</bibl>.</note> says: color is an effluence of figures, commensurate with sight and sensible.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000107"><label>Men.</label> <p xml:id="eng-p-000107">Your answer, Socrates, seems to me excellently put.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000108"><label>Soc.</label> <p xml:id="eng-p-000108">Yes, for I expect you find its terms familiar; and at the same time I fancy you observe that it enables you to tell what sound and smell are, and numerous other <milestone unit="section" resp="Stephanus" n="76e" xml:id="eng-stephanus-section-76e" /> things of the kind.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000109"><label>Men.</label> <p xml:id="eng-p-000109">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000110"><label>Soc.</label> <p xml:id="eng-p-000110">It is an answer in the high poetic style, Meno, and so more agreeable to you than that about figure.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000111"><label>Men.</label> <p xml:id="eng-p-000111">Yes, it is.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000112"><label>Soc.</label> <p xml:id="eng-p-000112">But yet, son of Alexidemus, I am inclined to think the other was the better of the two; and I believe you also would prefer it, if you were not compelled, as you were saying yesterday, to go away before the mysteries, and could stay awhile and be initiated.</p></said></div>
+	
+	<div type="textpart" subtype="section" resp="perseus" n="77" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-77">
+		<milestone unit="page" resp="Stephanus" n="77" xml:id="eng-stephanus-page-77" /><milestone unit="section" resp="Stephanus" n="77a" xml:id="eng-stephanus-section-77a" />
+
+<said who="#Meno" xml:id="eng-utterance-000113"><label>Men.</label> <p xml:id="eng-p-000113">But I should stay, Socrates, if you would give me many such answers.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000114"><label>Soc.</label> <p xml:id="eng-p-000114">Well then, I will spare no endeavor, both for your sake and for my own, to continue in that style; but I fear I may not succeed in keeping for long on that level. But come now, you in your turn must try and fulfil your promise by telling me what virtue is in a general way; and you must stop producing a plural from the singular, as the wags say whenever one breaks something, but leave virtue <milestone unit="section" resp="Stephanus" n="77b" xml:id="eng-stephanus-section-77b" /> whole and sound, and tell me what it is. The pattern you have now got from me.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000115"><label>Men.</label> <p xml:id="eng-p-000115">Well, in my view, Socrates, virtue is, in the poet’s words, <quote>to rejoice in things honorable and be able for them</quote> <note resp="Loeb" anchored="true">Perhaps from Simonides.</note>; and that, I say, is virtue—to desire what is honorable and be able to procure it.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000116"><label>Soc.</label> <p xml:id="eng-p-000116">Do you say that he who desires the honorable is desirous of the good?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000117"><label>Men.</label> <p xml:id="eng-p-000117">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000118"><label>Soc.</label> <p xml:id="eng-p-000118">Implying that there are some who desire the evil, and others the good? Do not all men, <milestone unit="section" resp="Stephanus" n="77c" xml:id="eng-stephanus-section-77c" /> in your opinion, my dear sir, desire the good?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000119"><label>Men.</label> <p xml:id="eng-p-000119">I think not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000120"><label>Soc.</label> <p xml:id="eng-p-000120">There are some who desire the evil?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000121"><label>Men.</label> <p xml:id="eng-p-000121">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000122"><label>Soc.</label> <p xml:id="eng-p-000122">Thinking the evil to be good, do you mean, or actually recognizing it to be evil, and desiring it nevertheless?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000123"><label>Men.</label> <p xml:id="eng-p-000123">Both, I believe.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000124"><label>Soc.</label> <p xml:id="eng-p-000124">Do you really believe, Meno, that a man knows the evil to be evil, and still desires it?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000125"><label>Men.</label> <p xml:id="eng-p-000125">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000126"><label>Soc.</label> <p xml:id="eng-p-000126">What do you mean by <q type="emph">desires</q>? Desires the possession of it? </p></said> <milestone unit="section" resp="Stephanus" n="77d" xml:id="eng-stephanus-section-77d" />
+
+<said who="#Meno" xml:id="eng-utterance-000127"><label>Men.</label> <p xml:id="eng-p-000127">Yes; what else could it be?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000128"><label>Soc.</label> <p xml:id="eng-p-000128">And does he think the evil benefits him who gets it, or does he know that it harms him who has it?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000129"><label>Men.</label> <p xml:id="eng-p-000129">There are some who think the evil is a benefit, and others who know that it does harm.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000130"><label>Soc.</label> <p xml:id="eng-p-000130">And, in your opinion, do those who think the evil a benefit know that it is evil?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000131"><label>Men.</label> <p xml:id="eng-p-000131">I do not think that at all.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000132"><label>Soc.</label> <p xml:id="eng-p-000132">Obviously those who are ignorant of the evil do not desire it, but only what they supposed <milestone unit="section" resp="Stephanus" n="77e" xml:id="eng-stephanus-section-77e" /> to be good, though it is really evil; so that those who are ignorant of it and think it good are really desiring the good. Is not that so?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000133"><label>Men.</label> <p xml:id="eng-p-000133">It would seem to be so in their case.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000134"><label>Soc.</label> <p xml:id="eng-p-000134">Well now, I presume those who, as you say, desire the evil, and consider that the evil harms him who gets it, know that they will be harmed by it?</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="78" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-78">
+<said who="#Meno" xml:id="eng-utterance-000135"><label>Men.</label> <p xml:id="eng-p-000135">They needs must.</p></said>
+	
+	<milestone unit="page" resp="Stephanus" n="78" xml:id="eng-stephanus-page-78" /><milestone unit="section" resp="Stephanus" n="78a" xml:id="eng-stephanus-section-78a" />
+
+<said who="#Socrates" xml:id="eng-utterance-000136"><label>Soc.</label> <p xml:id="eng-p-000136">But do they not hold that those who are harmed are miserable in proportion to the harm they suffer?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000137"><label>Men.</label> <p xml:id="eng-p-000137">That too must be.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000138"><label>Soc.</label> <p xml:id="eng-p-000138">And are not the miserable ill-starred?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000139"><label>Men.</label> <p xml:id="eng-p-000139">I think so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000140"><label>Soc.</label> <p xml:id="eng-p-000140">Then is there anyone who wishes to be miserable and ill-starred?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000141"><label>Men.</label> <p xml:id="eng-p-000141">I do not suppose there is, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000142"><label>Soc.</label> <p xml:id="eng-p-000142">No one, then, Meno, desires evil, if no one desires to be such an one: for what is being miserable but desiring evil and obtaining it? </p></said> <milestone unit="section" resp="Stephanus" n="78b" xml:id="eng-stephanus-section-78b" />
+
+<said who="#Meno" xml:id="eng-utterance-000143"><label>Men.</label> <p xml:id="eng-p-000143">It seems that what you say is true, Socrates, and that nobody desires evil.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000144"><label>Soc.</label> <p xml:id="eng-p-000144">Well now, you were saying a moment ago that virtue is the desire and ability for good?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000145"><label>Men.</label> <p xml:id="eng-p-000145">Yes, I was.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000146"><label>Soc.</label> <p xml:id="eng-p-000146">One part of the statement—the desire—belongs to our common nature, and in this respect one man is no better than another?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000147"><label>Men.</label> <p xml:id="eng-p-000147">Apparently.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000148"><label>Soc.</label> <p xml:id="eng-p-000148">But it is plain that if one man is not better than another in this, he must be superior in the ability.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000149"><label>Men.</label> <p xml:id="eng-p-000149">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000150"><label>Soc.</label> <p xml:id="eng-p-000150">Then virtue, it seems by your account, <milestone unit="section" resp="Stephanus" n="78c" xml:id="eng-stephanus-section-78c" /> is ability to procure goods.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000151"><label>Men.</label> <p xml:id="eng-p-000151">I entirely agree, Socrates, with the view which you now take of the matter.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000152"><label>Soc.</label> <p xml:id="eng-p-000152">Then let us see whether your statement is true in another respect; for very likely you may be right. You say virtue is the ability to procure goods?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000153"><label>Men.</label> <p xml:id="eng-p-000153">I do.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000154"><label>Soc.</label> <p xml:id="eng-p-000154">And do you not mean by goods such things as health and wealth?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000155"><label>Men.</label> <p xml:id="eng-p-000155">Yes, and I include the acquisition of gold and silver, and of state honors and offices.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000156"><label>Soc.</label> <p xml:id="eng-p-000156">Are there any things besides this sort, that you class as goods?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000157"><label>Men.</label> <p xml:id="eng-p-000157">No, I refer only to everything of that sort. </p></said> <milestone unit="section" resp="Stephanus" n="78d" xml:id="eng-stephanus-section-78d" />
+
+<said who="#Socrates" xml:id="eng-utterance-000158"><label>Soc.</label> <p xml:id="eng-p-000158">Very well: procuring gold and silver is virtue, according to Meno, the ancestral friend of the Great King. Tell me, do you add to such procuring, Meno, that it is to be done justly and piously, or is this indifferent to you, but even though a man procures these things unjustly, do you call them virtue all the same?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000159"><label>Men.</label> <p xml:id="eng-p-000159">Surely not, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000160"><label>Soc.</label> <p xml:id="eng-p-000160">Rather, vice.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000161"><label>Men.</label> <p xml:id="eng-p-000161"> Yes, of course.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000162"><label>Soc.</label> <p xml:id="eng-p-000162">Then it seems that justice or temperance or holiness or some other part of virtue must accompany the procuring of these things; <milestone unit="section" resp="Stephanus" n="78e" xml:id="eng-stephanus-section-78e" /> otherwise it will not be virtue, though it provides one with goods.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000163"><label>Men.</label> <p xml:id="eng-p-000163">Yes, for how, without these, could it be virtue?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000164"><label>Soc.</label> <p xml:id="eng-p-000164">And not to procure gold and silver, when it would be unjust—what we call the want of such things—is virtue, is it not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000165"><label>Men.</label> <p xml:id="eng-p-000165">Apparently.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="79" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-79">
+	<said who="#Socrates" xml:id="eng-utterance-000166"><label>Soc.</label> <p xml:id="eng-p-000166">So the procuring of this sort of goods will be no more virtue than the want of them; but it seems that whatever comes accompanied by justice will be virtue, <milestone unit="page" resp="Stephanus" n="79" xml:id="eng-stephanus-page-79" /><milestone unit="section" resp="Stephanus" n="79a" xml:id="eng-stephanus-section-79a" /> and whatever comes without any such quality, vice.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000167"><label>Men.</label> <p xml:id="eng-p-000167">I agree that it must be as you say.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000168"><label>Soc.</label> <p xml:id="eng-p-000168">And were we saying a little while ago that each of these things was a part of virtue—justice and temperance and the rest of them?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000169"><label>Men.</label> <p xml:id="eng-p-000169">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000170"><label>Soc.</label> <p xml:id="eng-p-000170">And here you are, Meno, making fun of me?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000171"><label>Men.</label> <p xml:id="eng-p-000171">How so, Socrates?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000172"><label>Soc.</label> <p xml:id="eng-p-000172">Because after my begging you not to break up virtue into small change, and giving you a pattern on which you should answer, you have ignored all this, and now tell me that virtue is <milestone unit="section" resp="Stephanus" n="79b" xml:id="eng-stephanus-section-79b" /> the ability to procure good things with justice; and this, you tell me, is a part of virtue?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000173"><label>Men.</label> <p xml:id="eng-p-000173">I do.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000174"><label>Soc.</label> <p xml:id="eng-p-000174">Then it follows from your own admission that doing whatever one does with a part of virtue is itself virtue; for you say that justice is a part of virtue, and so is each of such qualities. You ask the meaning of my remark. It is that after my requesting you to speak of virtue as a whole, you say not a word as to what it is in itself, but tell me that every action is virtue provided that it is done <milestone unit="section" resp="Stephanus" n="79c" xml:id="eng-stephanus-section-79c" /> with a part of virtue; as though you had told me what virtue is in the whole, and I must understand it forthwith—when you are really splitting it up into fragments! I think therefore that you must face the same question all over again, my dear Meno—What is virtue?—if we are to be told that every action accompanied by a part of virtue is virtue; for that is the meaning of the statement that every action accompanied by justice is virtue. Or do you not agree that you have to meet the same question afresh? Do you suppose that anyone can know a part of virtue when he does not know virtue itself?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000175"><label>Men.</label> <p xml:id="eng-p-000175">No, I do not. </p></said> <milestone unit="section" resp="Stephanus" n="79d" xml:id="eng-stephanus-section-79d" />
+
+<said who="#Socrates" xml:id="eng-utterance-000176"><label>Soc.</label> <p xml:id="eng-p-000176">And I daresay you remember, when I answered you a while ago about figure, how we rejected the sort of answer that attempts to proceed in terms which are still under inquiry and has not yet been admitted.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000177"><label>Men.</label> <p xml:id="eng-p-000177">Yes, and we were right in rejecting it, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000178"><label>Soc.</label> <p xml:id="eng-p-000178">Well then, my good sir, you must not in your turn suppose that while the nature of virtue as a whole is still under inquiry you will explain it to anyone by replying in terms of its parts, or by any other statement <milestone unit="section" resp="Stephanus" n="79e" xml:id="eng-stephanus-section-79e" /> on the same lines: you will only have to face the same question over again—What is this virtue, of which you are speaking all the time? Or do you see no force in what I say?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000179"><label>Men.</label> <p xml:id="eng-p-000179">I think what you say is right.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000180"><label>Soc.</label> <p xml:id="eng-p-000180">Then answer me again from the beginning: what do both you and your associate say that virtue is?</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="80" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-80">
+	<said who="#Meno" xml:id="eng-utterance-000181"><label>Men.</label> <p xml:id="eng-p-000181">Socrates, I used to be told, before I began to meet you, <milestone unit="page" resp="Stephanus" n="80" xml:id="eng-stephanus-page-80" /><milestone unit="section" resp="Stephanus" n="80a" xml:id="eng-stephanus-section-80a" /> that yours was just a case of being in doubt yourself and making others doubt also: and so now I find you are merely bewitching me with your spells and incantations, which have reduced me to utter perplexity. And if I am indeed to have my jest, I consider that both in your appearance and in other respects you are extremely like the flat torpedo sea-fish; for it benumbs anyone who approaches and touches it, and something of the sort is what I find you have done to me now. For in truth <milestone unit="section" resp="Stephanus" n="80b" xml:id="eng-stephanus-section-80b" /> I feel my soul and my tongue quite benumbed, and I am at a loss what answer to give you. And yet on countless occasions I have made abundant speeches on virtue to various people—and very good speeches they were, so I thought—but now I cannot say one word as to what it is. You are well advised, I consider, in not voyaging or taking a trip away from home; for if you went on like this as a stranger in any other city you would very likely be taken up for a wizard.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000182"><label>Soc.</label> <p xml:id="eng-p-000182">You are a rogue, Meno, and had almost deceived me.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000183"><label>Men.</label> <p xml:id="eng-p-000183">How is that, Socrates? </p></said> <milestone unit="section" resp="Stephanus" n="80c" xml:id="eng-stephanus-section-80c" />
+
+<said who="#Socrates" xml:id="eng-utterance-000184"><label>Soc.</label> <p xml:id="eng-p-000184">I perceive your aim in thus comparing me.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000185"><label>Men.</label> <p xml:id="eng-p-000185">What was it?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000186"><label>Soc.</label> <p xml:id="eng-p-000186">That I might compare you in return. One thing I know about all handsome people is this—they delight in being compared to something. They do well over it, since fine features, I suppose, must have fine similes. But I am not for playing your game. As for me, if the torpedo is torpid itself while causing others to be torpid, I am like it, but not otherwise. For it is not from any sureness in myself that I cause others to doubt: it is from being in more doubt than anyone else that <milestone unit="section" resp="Stephanus" n="80d" xml:id="eng-stephanus-section-80d" /> I cause doubt in others. So now, for my part, I have no idea what virtue is, whilst you, though perhaps you may have known before you came in touch with me, are now as good as ignorant of it also. But none the less I am willing to join you in examining it and inquiring into its nature.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000187"><label>Men.</label> <p xml:id="eng-p-000187">Why, on what lines will you look, Socrates, for a thing of whose nature you know nothing at all? Pray, what sort of thing, amongst those that you know not, will you treat us to as the object of your search? Or even supposing, at the best, that you hit upon it, how will you know it is the thing you did not know?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000188"><label>Soc.</label> <p xml:id="eng-p-000188">I understand the point you would make, Meno. <milestone unit="section" resp="Stephanus" n="80e" xml:id="eng-stephanus-section-80e" /> Do you see what a captious argument you are introducing—that, forsooth, a man cannot inquire either about what he knows or about what he does not know? For he cannot inquire about what he knows, because he knows it, and in that case is in no need of inquiry; nor again can he inquire about what he does not know, since he does not know about what he is to inquire.</p></said></div> 
+	
+<div type="textpart" subtype="section" resp="perseus" n="81" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-81">
+	<milestone unit="page" resp="Stephanus" n="81" xml:id="eng-stephanus-page-81" /><milestone unit="section" resp="Stephanus" n="81a" xml:id="eng-stephanus-section-81a" />
+
+<said who="#Meno" xml:id="eng-utterance-000189"><label>Men.</label> <p xml:id="eng-p-000189">Now does it seem to you to be a good argument, Socrates?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000190"><label>Soc.</label> <p xml:id="eng-p-000190">It does not.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000191"><label>Men.</label> <p xml:id="eng-p-000191">Can you explain how not?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000192"><label>Soc.</label> <p xml:id="eng-p-000192">I can; for I have heard from wise men and women who told of things divine that—</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000193"><label>Men.</label> <p xml:id="eng-p-000193">What was it they said ?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000194"><label>Soc.</label> <p xml:id="eng-p-000194">Something true, as I thought, and admirable.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000195"><label>Men.</label> <p xml:id="eng-p-000195">What was it? And who were the speakers?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000196"><label>Soc.</label> <p xml:id="eng-p-000196">They were certain priests and priestesses who have studied so as to be able to give a reasoned account of their ministry; and Pindar also <milestone unit="section" resp="Stephanus" n="81b" xml:id="eng-stephanus-section-81b" /> and many another poet of heavenly gifts. As to their words, they are these: mark now, if you judge them to be true. They say that the soul of man is immortal, and at one time comes to an end, which is called dying, and at another is born again, but never perishes. Consequently one ought to live all one’s life in the utmost holiness.<cit><quote type="verse">For from whomsoever Persephone shall accept requital for ancient wrong,<note resp="Loeb" anchored="true"><foreign xml:lang="grc">πένθος</foreign> (<gloss>affliction</gloss>) in mystic language means something like "fall" or "sin." These lines are probably from one of Pindar’s <title>Dirges</title> (Bergk, fr. 133).</note> the souls of these she restores in the ninth year to the upper sun again; from them arise</quote><bibl> </bibl></cit> <milestone unit="section" resp="Stephanus" n="81c" xml:id="eng-stephanus-section-81c" /><cit><quote type="verse">glorious kings and men of splendid might and surpassing wisdom, and for all remaining time are they called holy heroes amongst mankind.</quote><bibl>Pind. Fr. 133 Bergk</bibl></cit>Seeing then that the soul is immortal and has been born many times, and has beheld all things both in this world and in the nether realms, she has acquired knowledge of all and everything; so that it is no wonder that she should be able to recollect all that she knew before about virtue and other things. For as <milestone unit="section" resp="Stephanus" n="81d" xml:id="eng-stephanus-section-81d" /> all nature is akin, and the soul has learned all things, there is no reason why we should not, by remembering but one single thing—an act which men call learning—discover everything else, if we have courage and faint not in the search; since, it would seem, research and learning are wholly recollection. So we must not hearken to that captious argument: it would make us idle, and is pleasing only to the indolent ear, whereas the other makes us energetic <milestone unit="section" resp="Stephanus" n="81e" xml:id="eng-stephanus-section-81e" /> and inquiring. Putting my trust in its truth, I am ready to inquire with you into the nature of virtue.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000197"><label>Men.</label> <p xml:id="eng-p-000197">Yes, Socrates, but what do you mean by saying that we do not learn, and that what we call learning is recollection? Can you instruct me that this is so?</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="82" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-82">
+<said who="#Socrates" xml:id="eng-utterance-000198"><label>Soc.</label> <p xml:id="eng-p-000198">I remarked just now, Meno, that you are a rogue and so here you are asking if I can instruct you, when I say there is no teaching <milestone unit="page" resp="Stephanus" n="82" xml:id="eng-stephanus-page-82" /><milestone unit="section" resp="Stephanus" n="82a" xml:id="eng-stephanus-section-82a" /> but only recollection: you hope that I may be caught contradicting myself forthwith.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000199"><label>Men.</label> <p xml:id="eng-p-000199">I assure you, Socrates; that was not my intention I only spoke from habit. But if you can somehow prove to me that it is as you say, pray do so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000200"><label>Soc.</label> <p xml:id="eng-p-000200">It is no easy matter, but still I am willing to try my best for your sake. Just call one of your own troop of attendants there, <milestone unit="section" resp="Stephanus" n="82b" xml:id="eng-stephanus-section-82b" /> whichever one you please, that he may serve for my demonstration.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000201"><label>Men.</label> <p xml:id="eng-p-000201">Certainly. You, I say, come here.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000202"><label>Soc.</label> <p xml:id="eng-p-000202">He is a Greek, I suppose, and speaks Greek?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000203"><label>Men.</label> <p xml:id="eng-p-000203">Oh yes, to be sure—born in the house.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000204"><label>Soc.</label> <p xml:id="eng-p-000204">Now observe closely whether he strikes you as recollecting or as learning from me.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000205"><label>Men.</label> <p xml:id="eng-p-000205">I will.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000206"><label>Soc.</label> <p xml:id="eng-p-000206">Tell me, boy, do you know that a square figure is like this?<note resp="Loeb" anchored="true">Socrates draws in the sand.</note></p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000207"><label>Boy.</label> <p xml:id="eng-p-000207">I do. </p></said> <milestone unit="section" resp="Stephanus" n="82c" xml:id="eng-stephanus-section-82c" />
+
+<said who="#Socrates" xml:id="eng-utterance-000208"><label>Soc.</label> <p xml:id="eng-p-000208">Now, a square figure has these lines, four in number, all equal?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000209"><label>Boy.</label> <p xml:id="eng-p-000209">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000210"><label>Soc.</label> <p xml:id="eng-p-000210">And these, drawn through the middle,<note resp="Loeb" anchored="true">i.e., the middle of each side of the square.</note> are equal too, are they not?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000211"><label>Boy.</label> <p xml:id="eng-p-000211">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000212"><label>Soc.</label> <p xml:id="eng-p-000212">And a figure of this sort may be larger or smaller?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000213"><label>Boy.</label> <p xml:id="eng-p-000213">To be sure.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000214"><label>Soc.</label> <p xml:id="eng-p-000214">Now if this side were two feet and that also two, how many feet would the whole be? Or let me put it thus: if one way it were two feet, and only one foot the other, of course the space would be two feet taken once ?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000215"><label>Boy.</label> <p xml:id="eng-p-000215">Yes. </p></said> <milestone unit="section" resp="Stephanus" n="82d" xml:id="eng-stephanus-section-82d" />
+
+<said who="#Socrates" xml:id="eng-utterance-000216"><label>Soc.</label> <p xml:id="eng-p-000216">But as it is two feet also on that side, it must be twice two feet?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000217"><label>Boy.</label> <p xml:id="eng-p-000217">It is.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000218"><label>Soc.</label> <p xml:id="eng-p-000218">Then the space is twice two feet?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000219"><label>Boy.</label> <p xml:id="eng-p-000219">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000220"><label>Soc.</label> <p xml:id="eng-p-000220">Well, how many are twice two feet? Count and tell me.</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000221"><label>Boy.</label> <p xml:id="eng-p-000221">Four, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000222"><label>Soc.</label> <p xml:id="eng-p-000222">And might there not be another figure twice the size of this, but of the same sort, with all its sides equal like this one?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000223"><label>Boy.</label> <p xml:id="eng-p-000223">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000224"><label>Soc.</label> <p xml:id="eng-p-000224">Then how many feet will it be?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000225"><label>Boy.</label> <p xml:id="eng-p-000225">Eight.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000226"><label>Soc.</label> <p xml:id="eng-p-000226">Come now, try and tell me how long will each side <milestone unit="section" resp="Stephanus" n="82e" xml:id="eng-stephanus-section-82e" /> of that figure be. This one is two feet long: what will be the side of the other, which is double in size?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000227"><label>Boy.</label> <p xml:id="eng-p-000227">Clearly, Socrates, double.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000228"><label>Soc.</label> <p xml:id="eng-p-000228">Do you observe, Meno, that I am not teaching the boy anything, but merely asking him each time? And now he supposes that he knows about the line required to make a figure of eight square feet; or do you not think he does?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000229"><label>Men.</label> <p xml:id="eng-p-000229">I do.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000230"><label>Soc.</label> <p xml:id="eng-p-000230">Well, does he know?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000231"><label>Men.</label> <p xml:id="eng-p-000231">Certainly not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000232"><label>Soc.</label> <p xml:id="eng-p-000232">He just supposes it, from the double size required?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000233"><label>Men.</label> <p xml:id="eng-p-000233">Yes.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="83" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-83">
+	<said who="#Socrates" xml:id="eng-utterance-000234"><label>Soc.</label> <p xml:id="eng-p-000234">Now watch his progress in recollecting, by the proper use of memory. Tell me, boy, <milestone unit="page" resp="Stephanus" n="83" xml:id="eng-stephanus-page-83" /><milestone unit="section" resp="Stephanus" n="83a" xml:id="eng-stephanus-section-83a" /> do you say we get the double space from the double line? The space I speak of is not long one way and short the other, but must be equal each way like this one, while being double its size—eight square feet. Now see if you still think we get this from a double length of line.</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000235"><label>Boy.</label> <p xml:id="eng-p-000235">I do.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000236"><label>Soc.</label> <p xml:id="eng-p-000236">Well, this line is doubled, if we add here another of the same length?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000237"><label>Boy.</label> <p xml:id="eng-p-000237">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000238"><label>Soc.</label> <p xml:id="eng-p-000238">And you say we shall get our eight-foot space from four lines of this length?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000239"><label>Boy.</label> <p xml:id="eng-p-000239">Yes. </p></said> <milestone unit="section" resp="Stephanus" n="83b" xml:id="eng-stephanus-section-83b" />
+
+<said who="#Socrates" xml:id="eng-utterance-000240"><label>Soc.</label> <p xml:id="eng-p-000240">Then let us describe the square, drawing four equal lines of that length. This will be what you say is the eight-foot figure, will it not?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000241"><label>Boy.</label> <p xml:id="eng-p-000241">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000242"><label>Soc.</label> <p xml:id="eng-p-000242">And here, contained in it, have we not four squares, each of which is equal to this space of four feet?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000243"><label>Boy.</label> <p xml:id="eng-p-000243">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000244"><label>Soc.</label> <p xml:id="eng-p-000244">Then how large is the whole? Four times that space, is it not?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000245"><label>Boy.</label> <p xml:id="eng-p-000245">It must be.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000246"><label>Soc.</label> <p xml:id="eng-p-000246">And is four times equal to double?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000247"><label>Boy.</label> <p xml:id="eng-p-000247">No, to be sure.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000248"><label>Soc.</label> <p xml:id="eng-p-000248">But how much is it?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000249"><label>Boy.</label> <p xml:id="eng-p-000249">Fourfold. </p></said> <milestone unit="section" resp="Stephanus" n="83c" xml:id="eng-stephanus-section-83c" />
+
+<said who="#Socrates" xml:id="eng-utterance-000250"><label>Soc.</label> <p xml:id="eng-p-000250">Thus, from the double-sized line, boy, we get a space, not of double, but of fourfold size.</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000251"><label>Boy.</label> <p xml:id="eng-p-000251">That is true.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000252"><label>Soc.</label> <p xml:id="eng-p-000252">And if it is four times four it is sixteen, is it not?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000253"><label>Boy.</label> <p xml:id="eng-p-000253">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000254"><label>Soc.</label> <p xml:id="eng-p-000254">What line will give us a space of eight feet? This one gives us a fourfold space, does it not?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000255"><label>Boy.</label> <p xml:id="eng-p-000255">It does.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000256"><label>Soc.</label> <p xml:id="eng-p-000256">And a space of four feet is made from this line of half the length?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000257"><label>Boy.</label> <p xml:id="eng-p-000257">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000258"><label>Soc.</label> <p xml:id="eng-p-000258">Very well; and is not a space of eight feet double the size of this one, <milestone unit="section" resp="Stephanus" n="83d" xml:id="eng-stephanus-section-83d" /> and half the size of this other?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000259"><label>Boy.</label> <p xml:id="eng-p-000259">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000260"><label>Soc.</label> <p xml:id="eng-p-000260">Will it not be made from a line longer than the one of these, and shorter than the other?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000261"><label>Boy.</label> <p xml:id="eng-p-000261">I think so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000262"><label>Soc.</label> <p xml:id="eng-p-000262">Excellent: always answer just what you think. Now tell me, did we not draw this line two feet, and that four?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000263"><label>Boy.</label> <p xml:id="eng-p-000263">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000264"><label>Soc.</label> <p xml:id="eng-p-000264">Then the line on the side of the eight-foot figure should be more than this of two feet, and less than the other of four?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000265"><label>Boy.</label> <p xml:id="eng-p-000265">It should. </p></said> <milestone unit="section" resp="Stephanus" n="83e" xml:id="eng-stephanus-section-83e" />
+
+<said who="#Socrates" xml:id="eng-utterance-000266"><label>Soc.</label> <p xml:id="eng-p-000266">Try and tell me how much you would say it is.</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000267"><label>Boy.</label> <p xml:id="eng-p-000267">Three feet.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000268"><label>Soc.</label> <p xml:id="eng-p-000268">Then if it is to be three feet, we shall add on a half to this one, and so make it three feet? For here we have two, and here one more, and so again on that side there are two, and another one; and that makes the figure of which you speak.</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000269"><label>Boy.</label> <p xml:id="eng-p-000269">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000270"><label>Soc.</label> <p xml:id="eng-p-000270">Now if it be three this way and three that way, the whole space will be thrice three feet, will it not?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000271"><label>Boy.</label> <p xml:id="eng-p-000271">So it seems.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000272"><label>Soc.</label> <p xml:id="eng-p-000272">And thrice three feet are how many?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000273"><label>Boy.</label> <p xml:id="eng-p-000273">Nine.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000274"><label>Soc.</label> <p xml:id="eng-p-000274">And how many feet was that double one to be?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000275"><label>Boy.</label> <p xml:id="eng-p-000275">Eight.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000276"><label>Soc.</label> <p xml:id="eng-p-000276">So we fail to get our eight-foot figure from this three-foot line.</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000277"><label>Boy.</label> <p xml:id="eng-p-000277">Yes, indeed.</p></said></div>
+	
+<div type="textpart" subtype="section" resp="perseus" n="84" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-84">
+<said who="#Socrates" xml:id="eng-utterance-000278"><label>Soc.</label> <p xml:id="eng-p-000278">But from what line shall we get it? Try and tell us exactly; <milestone unit="page" resp="Stephanus" n="84" xml:id="eng-stephanus-page-84" /><milestone unit="section" resp="Stephanus" n="84a" xml:id="eng-stephanus-section-84a" /> and if you would rather not reckon it out, just show what line it is.</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000279"><label>Boy.</label> <p xml:id="eng-p-000279">Well, on my word, Socrates, I for one do not know.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000280"><label>Soc.</label> <p xml:id="eng-p-000280">There now, Meno, do you observe who progress he has already made in his recollection? At first he did not know what is the line that forms the figure of eight feet, and he does not know even now: but at any rate he thought he knew then, and confidently answered as though he knew, and was aware of no difficulty; whereas now he feels the difficulty he is in, and besides not knowing does not think <milestone unit="section" resp="Stephanus" n="84b" xml:id="eng-stephanus-section-84b" /> he knows.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000281"><label>Men.</label> <p xml:id="eng-p-000281">That is true.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000282"><label>Soc.</label> <p xml:id="eng-p-000282">And is he not better off in respect of the matter which he did not know?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000283"><label>Men.</label> <p xml:id="eng-p-000283">I think that too is so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000284"><label>Soc.</label> <p xml:id="eng-p-000284">Now, by causing him to doubt and giving him the torpedo’s shock, have we done him any harm?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000285"><label>Men.</label> <p xml:id="eng-p-000285">I think not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000286"><label>Soc.</label> <p xml:id="eng-p-000286">And we have certainly given him some assistance, it would seem, towards finding out the truth of the matter: for now he will push on in the search gladly, as lacking knowledge; whereas then he would have been only too ready to suppose he was right in saying, before any number of people any number of times, <milestone unit="section" resp="Stephanus" n="84c" xml:id="eng-stephanus-section-84c" /> that the double space must have a line of double the length for its side.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000287"><label>Men.</label> <p xml:id="eng-p-000287">It seems so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000288"><label>Soc.</label> <p xml:id="eng-p-000288">Now do you imagine he would have attempted to inquire or learn what he thought he knew, when he did not know it, until he had been reduced to the perplexity of realizing that he did not know, and had felt a craving to know?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000289"><label>Men.</label> <p xml:id="eng-p-000289">I think not, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000290"><label>Soc.</label> <p xml:id="eng-p-000290">Then the torpedo’s shock was of advantage to him?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000291"><label>Men.</label> <p xml:id="eng-p-000291">I think so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000292"><label>Soc.</label> <p xml:id="eng-p-000292">Now you should note how, as a result of this perplexity, he will go on and discover something by joint inquiry with me, while I merely ask questions <milestone unit="section" resp="Stephanus" n="84d" xml:id="eng-stephanus-section-84d" /> and do not teach him; and be on the watch to see if at any point you find me teaching him or expounding to him, instead of questioning him on his opinions. Tell me, boy: here we have a square of four feet,<note resp="Loeb" anchored="true">ABCD.</note> have we not? You understand?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000293"><label>Boy.</label> <p xml:id="eng-p-000293">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000294"><label>Soc.</label> <p xml:id="eng-p-000294">And here we add another square<note resp="Loeb" anchored="true">DCFE.</note> equal to it?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000295"><label>Boy.</label> <p xml:id="eng-p-000295">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000296"><label>Soc.</label> <p xml:id="eng-p-000296">And here a third,<note resp="Loeb" anchored="true">CHGF.</note> equal to either of them?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000297"><label>Boy.</label> <p xml:id="eng-p-000297">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000298"><label>Soc.</label> <p xml:id="eng-p-000298">Now shall we fill up this vacant space<note resp="Loeb" anchored="true">BIHC.</note> in the corner?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000299"><label>Boy.</label> <p xml:id="eng-p-000299">By all means.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000300"><label>Soc.</label> <p xml:id="eng-p-000300">So here we must have four equal spaces? <milestone unit="section" resp="Stephanus" n="84e" xml:id="eng-stephanus-section-84e" /> BOY. Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000301"><label>Soc.</label> <p xml:id="eng-p-000301">Well now, how many times larger is this whole space than this other?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000302"><label>Boy.</label> <p xml:id="eng-p-000302">Four times.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000303"><label>Soc.</label> <p xml:id="eng-p-000303">But it was to have been only twice, you remember?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000304"><label>Boy.</label> <p xml:id="eng-p-000304">To be sure.</p></said></div>
+	
+<div type="textpart" subtype="section" resp="perseus" n="85" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-85">
+<said who="#Socrates" xml:id="eng-utterance-000305"><label>Soc.</label> <p xml:id="eng-p-000305">And does this line,<note resp="Loeb" anchored="true">BD.</note> drawn from corner to corner, <milestone unit="page" resp="Stephanus" n="85" xml:id="eng-stephanus-page-85" /><milestone unit="section" resp="Stephanus" n="85a" xml:id="eng-stephanus-section-85a" /> cut in two each of these spaces?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000306"><label>Boy.</label> <p xml:id="eng-p-000306">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000307"><label>Soc.</label> <p xml:id="eng-p-000307">And have we here four equal lines<note resp="Loeb" anchored="true">BD, DF, FH, HB.</note> containing this space<note resp="Loeb" anchored="true">BDFH.</note>?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000308"><label>Boy.</label> <p xml:id="eng-p-000308">We have.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000309"><label>Soc.</label> <p xml:id="eng-p-000309">Now consider how large this space<note resp="Loeb" anchored="true">BDFH.</note> is.</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000310"><label>Boy.</label> <p xml:id="eng-p-000310">I do not understand.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000311"><label>Soc.</label> <p xml:id="eng-p-000311">Has not each of the inside lines cut off half of each of these four spaces?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000312"><label>Boy.</label> <p xml:id="eng-p-000312">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000313"><label>Soc.</label> <p xml:id="eng-p-000313">And how many spaces of that size are there in this part?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000314"><label>Boy.</label> <p xml:id="eng-p-000314">Four.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000315"><label>Soc.</label> <p xml:id="eng-p-000315">And how many in this<note resp="Loeb" anchored="true">ABCD.</note>?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000316"><label>Boy.</label> <p xml:id="eng-p-000316">Two.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000317"><label>Soc.</label> <p xml:id="eng-p-000317">And four is how many times two?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000318"><label>Boy.</label> <p xml:id="eng-p-000318">Twice. </p></said> <milestone unit="section" resp="Stephanus" n="85b" xml:id="eng-stephanus-section-85b" />
+
+<said who="#Socrates" xml:id="eng-utterance-000319"><label>Soc.</label> <p xml:id="eng-p-000319">And how many feet is this space<note resp="Loeb" anchored="true">BDFH.</note>?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000320"><label>Boy.</label> <p xml:id="eng-p-000320">Eight feet.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000321"><label>Soc.</label> <p xml:id="eng-p-000321">From what line do we get this figure?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000322"><label>Boy.</label> <p xml:id="eng-p-000322">From this.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000323"><label>Soc.</label> <p xml:id="eng-p-000323">From the line drawn corner-wise across the (our-foot figure?</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000324"><label>Boy.</label> <p xml:id="eng-p-000324">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000325"><label>Soc.</label> <p xml:id="eng-p-000325">The professors call it the diagonal: so if the diagonal is its name, then according to you, Meno’s boy, the double space is the square of the diagonal.</p></said>
+
+<said who="#Meno-s #Boy" xml:id="eng-utterance-000326"><label>Boy.</label> <p xml:id="eng-p-000326">Yes, certainly it is, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000327"><label>Soc.</label> <p xml:id="eng-p-000327">What do you think, Meno? Was there any opinion that he did not give as an answer of his own thought? </p></said> <milestone unit="section" resp="Stephanus" n="85c" xml:id="eng-stephanus-section-85c" />
+
+<said who="#Meno" xml:id="eng-utterance-000328"><label>Men.</label> <p xml:id="eng-p-000328"> No, they were all his own.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000329"><label>Soc.</label> <p xml:id="eng-p-000329">But you see, he did not know, as we were saying a while since.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000330"><label>Men.</label> <p xml:id="eng-p-000330">That is true.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000331"><label>Soc.</label> <p xml:id="eng-p-000331">Yet he had in him these opinions, had he not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000332"><label>Men.</label> <p xml:id="eng-p-000332">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000333"><label>Soc.</label> <p xml:id="eng-p-000333">So that he who does not know about any matters, whatever they be, may have true opinions on such matters, about which he knows nothing?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000334"><label>Men.</label> <p xml:id="eng-p-000334">Apparently.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000335"><label>Soc.</label> <p xml:id="eng-p-000335">And at this moment those opinions have just been stirred up in him, like a dream; but if he were repeatedly asked these same questions in a variety of forms, you know he will have in the end as exact an understanding <milestone unit="section" resp="Stephanus" n="85d" xml:id="eng-stephanus-section-85d" /> of them as anyone.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000336"><label>Men.</label> <p xml:id="eng-p-000336">So it seems.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000337"><label>Soc.</label> <p xml:id="eng-p-000337">Without anyone having taught him, and only through questions put to him, he will understand, recovering the knowledge out of himself?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000338"><label>Men.</label> <p xml:id="eng-p-000338">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000339"><label>Soc.</label> <p xml:id="eng-p-000339">And is not this recovery of knowledge, in himself and by himself, recollection?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000340"><label>Men.</label> <p xml:id="eng-p-000340">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000341"><label>Soc.</label> <p xml:id="eng-p-000341">And must he not have either once acquired or always had the knowledge he now has?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000342"><label>Men.</label> <p xml:id="eng-p-000342">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000343"><label>Soc.</label> <p xml:id="eng-p-000343">Now if he always had it, he was always in a state of knowing; and if he acquired it all some time, he could not have acquired it in this life. <milestone unit="section" resp="Stephanus" n="85e" xml:id="eng-stephanus-section-85e" /> Or has someone taught him geometry? You see, he can do the same as this with all geometry and every branch of knowledge. Now, can anyone have taught him all this? You ought surely to know, especially as he was born and bred in your house.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000344"><label>Men.</label> <p xml:id="eng-p-000344">Well, I know that no one has ever taught him.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000345"><label>Soc.</label> <p xml:id="eng-p-000345">And has he these opinions, or has he not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000346"><label>Men.</label> <p xml:id="eng-p-000346">He must have them, Socrates, evidently.</p></said></div>
+	
+<div type="textpart" subtype="section" resp="perseus" n="86" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-86">
+
+<said who="#Socrates" xml:id="eng-utterance-000347"><label>Soc.</label> <p xml:id="eng-p-000347">And if he did not acquire them in this present life, is it not obvious at once <milestone unit="page" resp="Stephanus" n="86" xml:id="eng-stephanus-page-86" /><milestone unit="section" resp="Stephanus" n="86a" xml:id="eng-stephanus-section-86a" /> that he had them and learnt them during some other time?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000348"><label>Men.</label> <p xml:id="eng-p-000348">Apparently.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000349"><label>Soc.</label> <p xml:id="eng-p-000349">And this must have been the time when he was not a human being?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000350"><label>Men.</label> <p xml:id="eng-p-000350">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000351"><label>Soc.</label> <p xml:id="eng-p-000351">So if in both of these periods—when he was and was not a human being—he has had true opinions in him which have only to be awakened by questioning to become knowledge, his soul must have had this cognizance throughout all time? For clearly he has always either been or not been a human being.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000352"><label>Men.</label> <p xml:id="eng-p-000352">Evidently.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000353"><label>Soc.</label> <p xml:id="eng-p-000353">And if the truth of all things that are is always <milestone unit="section" resp="Stephanus" n="86b" xml:id="eng-stephanus-section-86b" /> in our soul, then the soul must be immortal; so that you should take heart and, whatever you do not happen to know at present—that is, what you do not remember—you must endeavor to search out and recollect?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000354"><label>Men.</label> <p xml:id="eng-p-000354">What you say commends itself to me, Socrates, I know not how.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000355"><label>Soc.</label> <p xml:id="eng-p-000355">And so it does to me, Meno. Most of the points I have made in support of my argument are not such as I can confidently assert; but that the belief in the duty of inquiring after what we do not know will make us better and braver and less helpless than the notion that there is not even a possibility of discovering what we do not know, <milestone unit="section" resp="Stephanus" n="86c" xml:id="eng-stephanus-section-86c" /> nor any duty of inquiring after it—this is a point for which I am determined to do battle, so far as I am able, both in word and deed.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000356"><label>Men.</label> <p xml:id="eng-p-000356">There also I consider that you speak aright, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000357"><label>Soc.</label> <p xml:id="eng-p-000357">Then since we are of one mind as to the duty of inquiring into what one does not know, do you agree to our attempting a joint inquiry into the nature of virtue?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000358"><label>Men.</label> <p xml:id="eng-p-000358">By all means. But still, Socrates, for my part I would like best of all to examine that question I asked at first, and hear your view as to whether in pursuing it we are to regard it as a thing to be taught, or as a gift of nature to mankind, <milestone unit="section" resp="Stephanus" n="86d" xml:id="eng-stephanus-section-86d" /> or as arriving to them in some other way which I should be glad to know.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000359"><label>Soc.</label> <p xml:id="eng-p-000359">Had I control over you, Meno, as over myself, we should not have begun considering whether virtue can or cannot be taught until we had first inquired into the main question of what it is. But as you do not so much as attempt to control yourself—you are so fond of your liberty— and both attempt and hold control over me,<note resp="Loeb" anchored="true">Socrates characteristically pretends to be at the mercy of the wayward young man.</note> I will yield to your request—what else am I to do? <milestone unit="section" resp="Stephanus" n="86e" xml:id="eng-stephanus-section-86e" /> So it seems we are to consider what sort of thing it is of which we do not yet know what it is! Well, the least you can do is to relax just a little of your authority, and allow the question—whether virtue comes by teaching or some other way—to be examined by means of hypothesis.</p></said></div>
+	
+	<div type="textpart" subtype="section" resp="perseus" n="87" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-87">
+		<said who="#Socrates" rend="merge" xml:id="eng-utterance-000360"><label>Soc.</label> <p xml:id="eng-p-000360">I mean by hypothesis what the geometricians often do in dealing with a question put to them; for example, <milestone unit="page" resp="Stephanus" n="87" xml:id="eng-stephanus-page-87" /><milestone unit="section" resp="Stephanus" n="87a" xml:id="eng-stephanus-section-87a" /> whether a certain area is capable of being inscribed as a triangular space in a given circle: they reply—<q type="spoken" xml:id="eng-utterance-000361">I cannot yet tell whether it has that capability; but I think, if I may put it so, that I have a certain helpful hypothesis for the problem, and it is as follows: If this area <note resp="Loeb" anchored="true">The problem seems to be that of inscribing in a circle a triangle (BDG) equal in area to a given rectangle (ABCD).</note> is such that when you apply it to the given line<note resp="Loeb" anchored="true">i.e., the diameter (BF).</note> of the circle you find it falls short<note resp="Loeb" anchored="true">i.e., falls short of the rectangle on the diameter (ABFE).</note> by a space similar to that which you have just applied, then I take it you have one consequence, and if it is impossible for it to fall so, then some other. Accordingly I wish to put a hypothesis, before I state our conclusion as regards inscribing this figure <milestone unit="section" resp="Stephanus" n="87b" xml:id="eng-stephanus-section-87b" /> in the circle by saying whether it is impossible or not.</q> In the same way with regard to our question about virtue, since we do not know either what it is or what kind of thing it may be, we had best make use of a hypothesis in considering whether it can be taught or not, as thus: what kind of thing must virtue be in the class of mental properties, so as to be teachable or not? In the first place, if it is something dissimilar or similar to knowledge, is it taught or not—or, as we were saying just now, remembered? Let us have no disputing about the choice of a name: <milestone unit="section" resp="Stephanus" n="87c" xml:id="eng-stephanus-section-87c" /> is it taught? Or is not this fact plain to everyone—that the one and only thing taught to men is knowledge?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000362"><label>Men.</label> <p xml:id="eng-p-000361">I agree to that.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000363"><label>Soc.</label> <p xml:id="eng-p-000362">Then if virtue is a kind of knowledge, clearly it must be taught?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000364"><label>Men.</label> <p xml:id="eng-p-000363">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000365"><label>Soc.</label> <p xml:id="eng-p-000364">So you see we have made short work of this question—if virtue belongs to one class of things it is teachable, and if to another, it is not.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000366"><label>Men.</label> <p xml:id="eng-p-000365">To be sure.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000367"><label>Soc.</label> <p xml:id="eng-p-000366">The next question, it would seem, that we have to consider is whether virtue is knowledge, or of another kind than knowledge. </p></said> <milestone unit="section" resp="Stephanus" n="87d" xml:id="eng-stephanus-section-87d" />
+
+<said who="#Meno" xml:id="eng-utterance-000368"><label>Men.</label> <p xml:id="eng-p-000367"> I should say that is the next thing we have to consider.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000369"><label>Soc.</label> <p xml:id="eng-p-000368">Well now, surely we call virtue a good thing, do we not, and our hypothesis stands, that it is good?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000370"><label>Men.</label> <p xml:id="eng-p-000369">Certainly we do.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000371"><label>Soc.</label> <p xml:id="eng-p-000370">Then if there is some good apart and separable from knowledge, it may be that virtue is not a kind of knowledge; but if there is nothing good that is not embraced by knowledge, our suspicion that virtue is a kind of knowledge would be well founded.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000372"><label>Men.</label> <p xml:id="eng-p-000371">Quite so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000373"><label>Soc.</label> <p xml:id="eng-p-000372">Now it is by virtue that we are good?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000374"><label>Men.</label> <p xml:id="eng-p-000373">Yes. </p></said> <milestone unit="section" resp="Stephanus" n="87e" xml:id="eng-stephanus-section-87e" />
+
+<said who="#Socrates" xml:id="eng-utterance-000375"><label>Soc.</label> <p xml:id="eng-p-000374">And if good, profitable; for all good things are profitable, are they not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000376"><label>Men.</label> <p xml:id="eng-p-000375">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000377"><label>Soc.</label> <p xml:id="eng-p-000376">So virtue is profitable?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000378"><label>Men.</label> <p xml:id="eng-p-000377">That must follow from what has been admitted.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000379"><label>Soc.</label> <p xml:id="eng-p-000378">Then let us see, in particular instances, what sort of things they are that profit us. Health, let us say, and strength, and beauty, and wealth—these and their like we call profitable, do we not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000380"><label>Men.</label> <p xml:id="eng-p-000379">Yes.</p></said></div>
+		
+<div type="textpart" subtype="section" resp="perseus" n="88" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-88">
+<milestone unit="page" resp="Stephanus" n="88" xml:id="eng-stephanus-page-88" /><milestone unit="section" resp="Stephanus" n="88a" xml:id="eng-stephanus-section-88a" />
+
+<said who="#Socrates" xml:id="eng-utterance-000381"><label>Soc.</label> <p xml:id="eng-p-000380">But these same things, we admit, actually harm us at times; or do you dispute that statement?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000382"><label>Men.</label> <p xml:id="eng-p-000381">No, I agree.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000383"><label>Soc.</label> <p xml:id="eng-p-000382">Consider now, what is the guiding condition in each case that makes them at one time profitable, and at another harmful. Are they not profitable when the use of them is right, and harmful when it is not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000384"><label>Men.</label> <p xml:id="eng-p-000383">To be sure.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000385"><label>Soc.</label> <p xml:id="eng-p-000384">Then let us consider next the goods of the soul: by these you understand temperance, justice, courage, intelligence, memory, magnanimity, and so forth? </p></said> <milestone unit="section" resp="Stephanus" n="88b" xml:id="eng-stephanus-section-88b" />
+
+<said who="#Meno" xml:id="eng-utterance-000386"><label>Men.</label> <p xml:id="eng-p-000385">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000387"><label>Soc.</label> <p xml:id="eng-p-000386">Now tell me; such of these as you think are not knowledge, but different from knowledge—do they not sometimes harm us, and sometimes profit us? For example, courage, if it is courage apart from prudence, and only a sort of boldness: when a man is bold without sense, he is harmed; but when he has sense at the same time, he is profited, is he not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000388"><label>Men.</label> <p xml:id="eng-p-000387">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000389"><label>Soc.</label> <p xml:id="eng-p-000388">And the same holds of temperance and intelligence: things learnt and coordinated with the aid of sense are profitable, but without sense they are harmful? </p></said> <milestone unit="section" resp="Stephanus" n="88c" xml:id="eng-stephanus-section-88c" />
+
+<said who="#Meno" xml:id="eng-utterance-000390"><label>Men.</label> <p xml:id="eng-p-000389">Most certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000391"><label>Soc.</label> <p xml:id="eng-p-000390">And in brief, all the undertakings and endurances of the soul, when guided by wisdom, end in happiness, but when folly guides, in the opposite?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000392"><label>Men.</label> <p xml:id="eng-p-000391">So it seems.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000393"><label>Soc.</label> <p xml:id="eng-p-000392">Then if virtue is something that is in the soul, and must needs be profitable, it ought to be wisdom, seeing that all the properties of the soul are in themselves neither profitable nor harmful, but are made either one or the other <milestone unit="section" resp="Stephanus" n="88d" xml:id="eng-stephanus-section-88d" /> by the addition of wisdom or folly; and hence, by this argument, virtue being profitable must be a sort of wisdom.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000394"><label>Men.</label> <p xml:id="eng-p-000393">I agree.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000395"><label>Soc.</label> <p xml:id="eng-p-000394">Then as to the other things, wealth and the like, that we mentioned just now as being sometimes good and sometimes harmful—are not these also made profitable or harmful by the soul according as she uses and guides them rightly or wrongly: <milestone unit="section" resp="Stephanus" n="88e" xml:id="eng-stephanus-section-88e" /> just as, in the case of the soul generally, we found that the guidance of wisdom makes profitable the properties of the soul, while that of folly makes them harmful?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000396"><label>Men.</label> <p xml:id="eng-p-000395">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000397"><label>Soc.</label> <p xml:id="eng-p-000396">And the wise soul guides rightly, and the foolish erroneously?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000398"><label>Men.</label> <p xml:id="eng-p-000397">That is so.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="89" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-89">
+<said who="#Socrates" xml:id="eng-utterance-000399"><label>Soc.</label> <p xml:id="eng-p-000398">Then may we assert this as a universal rule, that in man all other things depend upon the soul, while the things of the soul herself depend upon wisdom, <milestone unit="page" resp="Stephanus" n="89" xml:id="eng-stephanus-page-89" /><milestone unit="section" resp="Stephanus" n="89a" xml:id="eng-stephanus-section-89a" /> if they are to be good; and so by this account the profitable will be wisdom, and virtue, we say, is profitable?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000400"><label>Men.</label> <p xml:id="eng-p-000399">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000401"><label>Soc.</label> <p xml:id="eng-p-000400">Hence we conclude that virtue is either wholly or partly wisdom?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000402"><label>Men.</label> <p xml:id="eng-p-000401">It seems to me that your statement, Socrates, is excellent.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000403"><label>Soc.</label> <p xml:id="eng-p-000402">Then if this is so, good men cannot be good by nature.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000404"><label>Men.</label> <p xml:id="eng-p-000403">I think not. </p></said> <milestone unit="section" resp="Stephanus" n="89b" xml:id="eng-stephanus-section-89b" />
+
+<said who="#Socrates" xml:id="eng-utterance-000405"><label>Soc.</label> <p xml:id="eng-p-000404">No, for then, I presume, we should have had this result: if good men were so by nature, we surely should have had men able to discern who of the young were good by nature, and on their pointing them out we should have taken them over and kept them safe in the citadel, having set our mark on them far rather than on our gold treasure, in order that none might have tampered with them, and that when they came to be of age, they might be useful to their country.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000406"><label>Men.</label> <p xml:id="eng-p-000405">Yes, most likely, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000407"><label>Soc.</label> <p xml:id="eng-p-000406">So since it is not by nature that the good become good, <milestone unit="section" resp="Stephanus" n="89c" xml:id="eng-stephanus-section-89c" /> is it by education?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000408"><label>Men.</label> <p xml:id="eng-p-000407">We must now conclude, I think, that it is; and plainly, Socrates, on our hypothesis that virtue is knowledge, it must be taught.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000409"><label>Soc.</label> <p xml:id="eng-p-000408">Yes, I daresay; but what if we were not right in agreeing to that?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000410"><label>Men.</label> <p xml:id="eng-p-000409">Well, it seemed to be a correct statement a moment ago.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000411"><label>Soc.</label> <p xml:id="eng-p-000410">Yes, but not only a moment ago must it seem correct, but now also and hereafter, if it is to be at all sound. </p></said> <milestone unit="section" resp="Stephanus" n="89d" xml:id="eng-stephanus-section-89d" />
+
+<said who="#Meno" xml:id="eng-utterance-000412"><label>Men.</label> <p xml:id="eng-p-000411">Why, what reason have you to make a difficulty about it, and feel a doubt as to virtue being knowledge?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000413"><label>Soc.</label> <p xml:id="eng-p-000412">I will tell you, Meno. I do not withdraw as incorrect the statement that it is taught, if it is knowledge; but as to its being knowledge, consider if you think I have grounds for misgiving. For tell me now: if anything at all, not merely virtue, is teachable, must there not be teachers and learners of it? </p></said> <milestone unit="section" resp="Stephanus" n="89e" xml:id="eng-stephanus-section-89e" />
+
+<said who="#Meno" xml:id="eng-utterance-000414"><label>Men.</label> <p xml:id="eng-p-000413">I think so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000415"><label>Soc.</label> <p xml:id="eng-p-000414">Then also conversely, if a thing had neither teachers nor learners, we should be right in surmising that it could not be taught?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000416"><label>Men.</label> <p xml:id="eng-p-000415">That is so: but do you think there are no teachers of virtue?</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="90" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-90">
+<said who="#Socrates" xml:id="eng-utterance-000417"><label>Soc.</label> <p xml:id="eng-p-000416">I must say I have often inquired whether there were any, but for all my pains I cannot find one. And yet many have shared the search with me, and particularly those persons whom I regard as best qualified for the task. But look, Meno: here, at the very moment when he was wanted, we have Anytus sitting down beside us, <milestone unit="page" resp="Stephanus" n="90" xml:id="eng-stephanus-page-90" /><milestone unit="section" resp="Stephanus" n="90a" xml:id="eng-stephanus-section-90a" /> to take his share in our quest. And we may well ask his assistance; for our friend Anytus, in the first place, is the son of a wise and wealthy father, Anthemion, who became rich not by a fluke or a gift—like that man the other day, Ismenias<note resp="Loeb" anchored="true">A democratic leader at Thebes who assisted Anytus and the other exiled Athenian democrates in <date when="-0403">403</date> B.C., shortly before their return to Athens and the supposed time of this dialogue (about <date when="-0402">402</date> B.C.). Cf. <bibl n="Plat. Rep. 1.336a">Plat. Rep. 1.336a</bibl>.</note> the Theban, who has come into the fortune of a Polycrates<note resp="Loeb" anchored="true">Tyrant of Samos about <date when="-0530">530</date> B.C. Cf. <bibl n="Hdt. 3.39">Hdt. 3.39 ff</bibl>.</note>—but as the product of his own skill and industry<note resp="Loeb" anchored="true">As a tanner</note>; and secondly, he has the name of being in general a well-conducted, mannerly person, <milestone unit="section" resp="Stephanus" n="90b" xml:id="eng-stephanus-section-90b" /> not insolent towards his fellow-citizens or arrogant and annoying; and further, he gave his son a good upbringing and education, as the Athenian people think, for they choose him for the highest offices. This is the sort of man to whom one may look for help in the inquiry as to whether there are teachers of virtue or not, and who they may be. So please, Anytus, join with me and your family-friend Meno in our inquiry about this matter—who can be the teachers. Consider it thus: if we wanted Meno here to be a good doctor, <milestone unit="section" resp="Stephanus" n="90c" xml:id="eng-stephanus-section-90c" /> to whom should we send him for instruction? Would it not be to the doctors?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000418"><label>An.</label> <p xml:id="eng-p-000417">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000419"><label>Soc.</label> <p xml:id="eng-p-000418">And if we wanted him to become a good cobbler, should we not send him to the cobblers?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000420"><label>An.</label> <p xml:id="eng-p-000419">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000421"><label>Soc.</label> <p xml:id="eng-p-000420">And in the same way with every other trade?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000422"><label>An.</label> <p xml:id="eng-p-000421">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000423"><label>Soc.</label> <p xml:id="eng-p-000422">Now let me ask you something more about these same instances. We should be right, we say, in sending him to the doctors if we wanted him to be a doctor. <milestone unit="section" resp="Stephanus" n="90d" xml:id="eng-stephanus-section-90d" /> When we say this, do we mean that we should be wise in sending him to those who profess the art rather than those who do not, and to those who charge a fee for the particular thing they do, as avowed teachers of anyone who wishes to come and learn of them? If these were our reasons, should we not be right in sending him?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000424"><label>An.</label> <p xml:id="eng-p-000423">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000425"><label>Soc.</label> <p xml:id="eng-p-000424">And the same would hold in the case of flute-playing, and so on with the rest? What folly, when we wanted to make someone a flute-player, <milestone unit="section" resp="Stephanus" n="90e" xml:id="eng-stephanus-section-90e" /> to refuse to send him to the professed teachers of the art, who charge a regular fee, and to bother with requests for instruction other people who neither set up to be teachers nor have a single pupil in that sort of study which we expect him, when sent, to pursue! Do you not consider this would be grossly unreasonable?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000426"><label>An.</label> <p xml:id="eng-p-000425">Yes, on my word, I do, and stupid to boot.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="91" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-91">
+<said who="#Socrates" xml:id="eng-utterance-000427"><label>Soc.</label> <p xml:id="eng-p-000426">Quite right. And now there is an opportunity of your <milestone unit="page" resp="Stephanus" n="91" xml:id="eng-stephanus-page-91" /><milestone unit="section" resp="Stephanus" n="91a" xml:id="eng-stephanus-section-91a" /> joining me in a consultation on my friend Meno here. He has been declaring to me ever so long, Anytus, that he desires to have that wisdom and virtue whereby men keep their house or their city in good order, and honor their parents, and know when to welcome and when to speed citizens and strangers as befits a good man. <milestone unit="section" resp="Stephanus" n="91b" xml:id="eng-stephanus-section-91b" /> Now tell me, to whom ought we properly to send him for lessons in this virtue? Or is it clear enough, from our argument just now, that he should go to these men who profess to be teachers of virtue and advertise themselves as the common teachers of the Greeks, and are ready to instruct anyone who chooses in return for fees charged on a fixed scale?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000428"><label>An.</label> <p xml:id="eng-p-000427">To whom are you referring, Socrates?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000429"><label>Soc.</label> <p xml:id="eng-p-000428">Surely you know as well as anyone; they are the men whom people call sophists. </p></said> <milestone unit="section" resp="Stephanus" n="91c" xml:id="eng-stephanus-section-91c" />
+
+<said who="#Anytus" xml:id="eng-utterance-000430"><label>An.</label> <p xml:id="eng-p-000429">For heaven’s sake hold your tongue, Socrates! May no kinsman or friend of mine, whether of this city or another, be seized with such madness as to let himself be infected with the company of those men; for they are a manifest plague and corruption to those who frequent them.<note resp="Loeb" anchored="true">Anytus’ vehemence expresses the hostility of the ordinary practical democrat, after the restoration of 403 B.C., towards any novel movement in the state.</note></p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000431"><label>Soc.</label> <p xml:id="eng-p-000430">What is this, Anytus? Of all the people who set up to understand how to do us good, do you mean to single out these as conveying not merely no benefit, such as the rest can give, but actually corruption <milestone unit="section" resp="Stephanus" n="91d" xml:id="eng-stephanus-section-91d" /> to anyone placed in their hands? And is it for doing this that they openly claim the payment of fees? For my part I cannot bring myself to believe you; for I know of one man, Protagoras, who amassed more money by his craft than Pheidias—so famous for the noble works he produced—or any ten other sculptors. And yet how surprising that menders of old shoes and furbishers of clothes should not be able to go undetected <milestone unit="section" resp="Stephanus" n="91e" xml:id="eng-stephanus-section-91e" /> thirty days if they should return the clothes or shoes in worse condition than they received them, and that such doings on their part would quickly starve them to death, while for more than forty years all Greece failed to notice that Protagoras was corrupting his classes and sending his pupils away in a worse state than when he took charge of them! For I believe he died about seventy years old, forty of which he spent in the practice of his art;</p></said></div>
+	
+<div type="textpart" subtype="section" resp="perseus" n="92" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-92">
+<said who="#Socrates" rend="merge" xml:id="eng-utterance-000432"><label>Soc.</label> <p xml:id="eng-p-000431">and he retains undiminished to this day the high reputation he has enjoyed all that time—and not only Protagoras, <milestone unit="page" resp="Stephanus" n="92" xml:id="eng-stephanus-page-92" /><milestone unit="section" resp="Stephanus" n="92a" xml:id="eng-stephanus-section-92a" /> but a multitude of others too: some who lived before him, and others still living. Now are we to take it, according to you, that they wittingly deceived and corrupted the youth, or that they were themselves unconscious of it? Are we to conclude those who are frequently termed the wisest of mankind to have been so demented as that?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000433"><label>An.</label> <p xml:id="eng-p-000432">Demented! Not they, Socrates: far rather the young men who pay them money, and still more the relations <milestone unit="section" resp="Stephanus" n="92b" xml:id="eng-stephanus-section-92b" /> who let the young men have their way; and most of all the cities that allow them to enter, and do not expel them, whether such attempt be made by stranger or citizen.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000434"><label>Soc.</label> <p xml:id="eng-p-000433">Tell me, Anytus, has any of the sophists wronged you? What makes you so hard on them?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000435"><label>An.</label> <p xml:id="eng-p-000434">No, heaven knows I have never in my life had dealings with any of them, nor would I let any of my people have to do with them either.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000436"><label>Soc.</label> <p xml:id="eng-p-000435">Then you have absolutely no experience of those persons? </p></said> <milestone unit="section" resp="Stephanus" n="92c" xml:id="eng-stephanus-section-92c" />
+
+<said who="#Anytus" xml:id="eng-utterance-000437"><label>An.</label> <p xml:id="eng-p-000436">And trust I never may.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000438"><label>Soc.</label> <p xml:id="eng-p-000437">How then, my good sir, can you tell whether a thing has any good or evil in it, if you are quite without experience of it?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000439"><label>An.</label> <p xml:id="eng-p-000438">Easily: the fact is, I know what these people are, whether I have experience of them or not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000440"><label>Soc.</label> <p xml:id="eng-p-000439">You are a wizard, perhaps, Anytus; for I really cannot see, from what you say yourself, how else you can know anything about them. But we are not inquiring now who the teachers are <milestone unit="section" resp="Stephanus" n="92d" xml:id="eng-stephanus-section-92d" /> whose lessons would make Meno wicked; let us grant, if you will, that they are the sophists: I only ask you to tell us, and do Meno a service as a friend of your family by letting him know, to whom in all this great city he should apply in order to become eminent in the virtue which I described just now.</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000441"><label>An.</label> <p xml:id="eng-p-000440">Why not tell him yourself?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000442"><label>Soc.</label> <p xml:id="eng-p-000441">I did mention to him the men whom I supposed to be teachers of these things; but I find, from what you say, that I am quite off the track, <milestone unit="section" resp="Stephanus" n="92e" xml:id="eng-stephanus-section-92e" /> and I daresay you are on it. Now you take your turn, and tell him to whom of the Athenians he is to go. Give us a name—anyone you please.</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000443"><label>An.</label> <p xml:id="eng-p-000442">Why mention a particular one? Any Athenian gentleman he comes across, without exception, will do him more good, if he will do as he is bid, than the sophists.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="93" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-93">
+<said who="#Socrates" xml:id="eng-utterance-000444"><label>Soc.</label> <p xml:id="eng-p-000443">And did those gentlemen grow spontaneously into what they are, and without learning from anybody are they able, nevertheless, to teach others <milestone unit="page" resp="Stephanus" n="93" xml:id="eng-stephanus-page-93" /><milestone unit="section" resp="Stephanus" n="93a" xml:id="eng-stephanus-section-93a" /> what they did not learn themselves?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000445"><label>An.</label> <p xml:id="eng-p-000444">I expect they must have learnt in their turn from the older generation, who were gentlemen: or does it not seem to you that we have had many good men in this city?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000446"><label>Soc.</label> <p xml:id="eng-p-000445">Yes, I agree, Anytus; we have also many who are good at politics, and have had them in the past as well as now. But I want to know whether they have proved good teachers besides of their own virtue: that is the question with which our discussion is actually concerned; not whether there are, or formerly have been, <milestone unit="section" resp="Stephanus" n="93b" xml:id="eng-stephanus-section-93b" /> good men here amongst us or not, but whether virtue is teachable; this has been our problem all the time. And our inquiry into this problem resolves itself into the question: Did the good men of our own and of former times know how to transmit to another man the virtue in respect of which they were good, or is it something not to be transmitted or taken over from one human being to another? That is the question I and Meno have been discussing all this time. Well, just consider it in your own way of speaking: <milestone unit="section" resp="Stephanus" n="93c" xml:id="eng-stephanus-section-93c" /> would you not say that Themistocles was a good man?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000447"><label>An.</label> <p xml:id="eng-p-000446">I would, particularly so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000448"><label>Soc.</label> <p xml:id="eng-p-000447">And if any man ever was a teacher of his own virtue, he especially was a good teacher of his?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000449"><label>An.</label> <p xml:id="eng-p-000448">In my opinion, yes, assuming that he wished to be so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000450"><label>Soc.</label> <p xml:id="eng-p-000449">But can you suppose he would not have wished that other people should become good, honorable men—above all, I presume, his own son? Or do you think he was jealous of him, and deliberately refused to impart the virtue <milestone unit="section" resp="Stephanus" n="93d" xml:id="eng-stephanus-section-93d" /> of his own goodness to him? Have you never heard how Themistocles had his son Cleophantus taught to be a good horseman? Why, he could keep his balance standing upright on horseback, and hurl the javelin while so standing, and perform many other wonderful feats in which his father had had him trained, so as to make him skilled in all that could be learnt from good masters. Surely you must have heard all this from your elders?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000451"><label>An.</label> <p xml:id="eng-p-000450">I have.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000452"><label>Soc.</label> <p xml:id="eng-p-000451">Then there could be no complaints of badness in his son’s nature? </p></said> <milestone unit="section" resp="Stephanus" n="93e" xml:id="eng-stephanus-section-93e" />
+
+<said who="#Anytus" xml:id="eng-utterance-000453"><label>An.</label> <p xml:id="eng-p-000452">I daresay not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000454"><label>Soc.</label> <p xml:id="eng-p-000453">But I ask you—did you ever hear anybody, old or young, say that Cleophantus, son of Themistocles, had the same goodness and accomplishments as his father?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000455"><label>An.</label> <p xml:id="eng-p-000454">Certainly not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000456"><label>Soc.</label> <p xml:id="eng-p-000455">And can we believe that his father chose to train his own son in those feats, and yet made him no better than his neighbors in his own particular accomplishments—if virtue, as alleged, was to be taught?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000457"><label>An.</label> <p xml:id="eng-p-000456">On my word, I think not.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="94" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-94">
+<said who="#Socrates" xml:id="eng-utterance-000458"><label>Soc.</label> <p xml:id="eng-p-000457">Well, there you have a fine teacher of virtue who, you admit, was one of the best men of past times. <milestone unit="page" resp="Stephanus" n="94" xml:id="eng-stephanus-page-94" /><milestone unit="section" resp="Stephanus" n="94a" xml:id="eng-stephanus-section-94a" /> Let us take another, Aristeides, son of Lysimachus: do you not admit that he was a good man?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000459"><label>An.</label> <p xml:id="eng-p-000458">I do, absolutely, of course.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000460"><label>Soc.</label> <p xml:id="eng-p-000459">Well, did he not train his son Lysimachus better than any other Athenian in all that masters could teach him? And in the result, do you consider he has turned out better than anyone else? You have been in his company, I know, and you see what he is like. Or take another example— <milestone unit="section" resp="Stephanus" n="94b" xml:id="eng-stephanus-section-94b" /> the splendidly accomplished Pericles: he, as you are aware, brought up two sons, Paralus and Xanthippus.</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000461"><label>An.</label> <p xml:id="eng-p-000460">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000462"><label>Soc.</label> <p xml:id="eng-p-000461">And, you know as well as I, he taught them to be the foremost horsemen of Athens, and trained them to excel in music and gymnastics and all else that comes under the head of the arts; and with all that, had he no desire to make them good men? He wished to, I imagine, but presumably it is not a thing one can be taught. And that you may not suppose it was only a few of the meanest sort of Athenians who failed in this matter, <milestone unit="section" resp="Stephanus" n="94c" xml:id="eng-stephanus-section-94c" /> let me remind you that Thucydides’<note resp="Loeb" anchored="true">Thucydides (son of Melesias, and no relation of the historian) was an aristocrat of high principle and conservative views who opposed the plans of Pericles for enriching and adorning Athens.</note> also brought up two sons, Melesias and Stephanus, and that besides giving them a good general education he made them the best wrestlers in Athens: one he placed with Xanthias, and the other with Eudorus—masters who, I should think, had the name of being the best exponents of the art. You remember them, do you not?</p></said>
+
+<said who="#Anytus" xml:id="eng-utterance-000463"><label>An.</label> <p xml:id="eng-p-000462">Yes, by hearsay.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000464"><label>Soc.</label> <p xml:id="eng-p-000463">Well, is it not obvious that this father would never have spent his money on having his children taught all those things, <milestone unit="section" resp="Stephanus" n="94d" xml:id="eng-stephanus-section-94d" /> and then have omitted to teach them at no expense the others that would have made them good men, if virtue was to be taught? Will you say that perhaps Thucydides was one of the meaner sort, and had no great number of friends among the Athenians and allies? He, who was of a great house and had much influence in our city and all over Greece, so that if virtue were to be taught he would have found out the man who was likely to make his sons good, whether one of our own people <milestone unit="section" resp="Stephanus" n="94e" xml:id="eng-stephanus-section-94e" /> or a foreigner, were he himself too busy owing to the cares of state! Ah no, my dear Anytus, it looks as though virtue were not a teachable thing.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="95" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-95">
+<said who="#Anytus" xml:id="eng-utterance-000465"><label>An.</label> <p xml:id="eng-p-000464">Socrates, I consider you are too apt to speak ill of people. I, for one, if you will take my advice, would warn you to be careful: in most cities it is probably easier to do people harm than good, and particularly in this one; <milestone unit="page" resp="Stephanus" n="95" xml:id="eng-stephanus-page-95" /><milestone unit="section" resp="Stephanus" n="95a" xml:id="eng-stephanus-section-95a" /> I think you know that yourself.<note resp="Loeb" anchored="true">Anytus goes away. His parting words show that (in Plato’s view) he regarded Socrates as an enemy of the restored democracy which, he hints, has popular juries only too ready to condemn such an awkward critic.</note></p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000466"><label>Soc.</label> <p xml:id="eng-p-000465">Meno, I think Anytus is angry, and I am not at all surprised: for he conceives, in the first place, that I am speaking ill of these gentlemen; and in the second place, he considers he is one of them himself. Yet, should the day come when he knows what <q type="emph">speaking ill</q> means, his anger will cease; at present he does not know.<note resp="Loeb" anchored="true">This is probably not a reference to a prosecution of Anytus himself, but a suggestion that what he needs is a Socratic discussion on <q type="emph">speaking ill,</q> for <q type="emph">ill</q> may mean <q type="emph">maliciously,</q> <q type="emph">untruthfully,</q> <q type="emph">ignorantly,</q> etc.</note> Now you must answer me: are there not good and honorable men among your people also?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000467"><label>Men.</label> <p xml:id="eng-p-000466">Certainly. </p></said> <milestone unit="section" resp="Stephanus" n="95b" xml:id="eng-stephanus-section-95b" />
+
+<said who="#Socrates" xml:id="eng-utterance-000468"><label>Soc.</label> <p xml:id="eng-p-000467">Well then, are they willing to put themselves forward as teachers of the young, and avow that they are teachers and that virtue is to be taught?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000469"><label>Men.</label> <p xml:id="eng-p-000468">No, no, Socrates, I assure you: sometimes you may hear them refer to it as teachable, but sometimes as not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000470"><label>Soc.</label> <p xml:id="eng-p-000469">Then are we to call those persons teachers of this thing, when they do not even agree on that great question?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000471"><label>Men.</label> <p xml:id="eng-p-000470">I should say not, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000472"><label>Soc.</label> <p xml:id="eng-p-000471">Well, and what of the sophists? Do you consider these, its only professors, <milestone unit="section" resp="Stephanus" n="95c" xml:id="eng-stephanus-section-95c" /> to be teachers of virtue?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000473"><label>Men.</label> <p xml:id="eng-p-000472">That is a point, Socrates, for which I admire Gorgias: you will never hear him promising this, and he ridicules the others when he hears them promise it. Skill in speaking is what he takes it to be their business to produce.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000474"><label>Soc.</label> <p xml:id="eng-p-000473">Then you do not think the sophists are teachers of virtue?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000475"><label>Men.</label> <p xml:id="eng-p-000474">I cannot say, Socrates. I am in the same plight as the rest of the world: sometimes I think that they are, sometimes that they are not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000476"><label>Soc.</label> <p xml:id="eng-p-000475">And are you aware that not only you and other political folk <milestone unit="section" resp="Stephanus" n="95d" xml:id="eng-stephanus-section-95d" /> are in two minds as to whether virtue is to be taught, but Theognis the poet also says, you remember, the very same thing?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000477"><label>Men.</label> <p xml:id="eng-p-000476">In which part of his poems?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000478"><label>Soc.</label> <p xml:id="eng-p-000477">In those elegiac lines where he says—<quote type="verse"><l met="elegiac">Eat and drink with these men; sit with them, and be pleasing unto them, who wield great power; for from the good wilt thou win thee lessons in the good; but mingle with the bad,</l></quote> <milestone unit="section" resp="Stephanus" n="95e" xml:id="eng-stephanus-section-95e" /><cit><quote type="verse">and thou wilt lose even the sense that thou hast.</quote><bibl>Theognis 33-36 Bergk</bibl></cit>Do you observe how in these words he implies that virtue is to be taught?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000479"><label>Men.</label> <p xml:id="eng-p-000478">He does, evidently.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="96" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-96">
+<said who="#Socrates" xml:id="eng-utterance-000480"><label>Soc.</label> <p xml:id="eng-p-000479">But in some other lines he shifts his ground a little, saying—<quote type="verse"><l met="elegiac">Could understanding be created and put into a man</l></quote><bibl>Theognis 434-438 Bergk</bibl> (I think it runs thus) <quote type="verse">many high rewards would they obtain</quote><quote type="verse"><l met="Continued" /></quote> <milestone unit="page" resp="Stephanus" n="96" xml:id="eng-stephanus-page-96" /><milestone unit="section" resp="Stephanus" n="96a" xml:id="eng-stephanus-section-96a" /><cit><quote type="verse">for he would have followed the precepts of wisdom: but not by teaching wilt thou ever make the had man good</quote><bibl>Bergk 434-438.</bibl></cit> You notice how in the second passage he contradicts himself on the same point?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000481"><label>Men.</label> <p xml:id="eng-p-000480">Apparently.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000482"><label>Soc.</label> <p xml:id="eng-p-000481">Well, can you name any other subject in which the professing teachers are not only refused recognition as teachers of others, but regarded as not even understanding it themselves, <milestone unit="section" resp="Stephanus" n="96b" xml:id="eng-stephanus-section-96b" /> and indeed as inferior in the very quality of which they claim to be teachers; while those who are themselves recognized as men of worth and honor say at one time that it is teachable, and at another that it is not? When people are so confused about this or that matter, can you say they are teachers in any proper sense of the word?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000483"><label>Men.</label> <p xml:id="eng-p-000482">No, indeed, I cannot.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000484"><label>Soc.</label> <p xml:id="eng-p-000483">Well, if neither the sophists nor the men who are themselves good and honorable are teachers of the subject, clearly no others can be?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000485"><label>Men.</label> <p xml:id="eng-p-000484">I agree. </p></said> <milestone unit="section" resp="Stephanus" n="96c" xml:id="eng-stephanus-section-96c" />
+
+<said who="#Socrates" xml:id="eng-utterance-000486"><label>Soc.</label> <p xml:id="eng-p-000485">And if there are no teachers, there can be no disciples either?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000487"><label>Men.</label> <p xml:id="eng-p-000486">I think that statement is true.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000488"><label>Soc.</label> <p xml:id="eng-p-000487">And we have admitted that a thing of which there are neither teachers nor disciples cannot be taught?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000489"><label>Men.</label> <p xml:id="eng-p-000488">We have.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000490"><label>Soc.</label> <p xml:id="eng-p-000489">So nowhere are any teachers of virtue to be found?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000491"><label>Men.</label> <p xml:id="eng-p-000490">That is so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000492"><label>Soc.</label> <p xml:id="eng-p-000491">And if no teachers, then no disciples?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000493"><label>Men.</label> <p xml:id="eng-p-000492">So it appears.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000494"><label>Soc.</label> <p xml:id="eng-p-000493">Hence virtue cannot be taught? </p></said> <milestone unit="section" resp="Stephanus" n="96d" xml:id="eng-stephanus-section-96d" />
+
+<said who="#Meno" xml:id="eng-utterance-000495"><label>Men.</label> <p xml:id="eng-p-000494">It seems likely, if our investigation is correct. And that makes me wonder, I must say, Socrates, whether perhaps there are no good men at all, or by what possible sort of process good people can come to exist?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000496"><label>Soc.</label> <p xml:id="eng-p-000495">I fear, Meno, you and I are but poor creatures, and Gorgias has been as faulty an educator of you as Prodicus of me. So our first duty is to look to ourselves, and try to find somebody who will have some means or other of making us better. <milestone unit="section" resp="Stephanus" n="96e" xml:id="eng-stephanus-section-96e" /> I say this with special reference to our recent inquiry, in which I see that we absurdly failed to note that it is not only through the guidance of knowledge that human conduct is right and good; and it is probably owing to this that we fail to perceive by what means good men can be produced.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000497"><label>Men.</label> <p xml:id="eng-p-000496">To what are you alluding, Socrates?</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="97" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-97">
+<said who="#Socrates" xml:id="eng-utterance-000498"><label>Soc.</label> <p xml:id="eng-p-000497">I mean that good men must be useful: we were right, were we not, in admitting that <milestone unit="page" resp="Stephanus" n="97" xml:id="eng-stephanus-page-97" /><milestone unit="section" resp="Stephanus" n="97a" xml:id="eng-stephanus-section-97a" /> this must needs be so?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000499"><label>Men.</label> <p xml:id="eng-p-000498">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000500"><label>Soc.</label> <p xml:id="eng-p-000499">And in thinking that they will be useful if they give us right guidance in conduct: here also, I suppose, our admission was correct?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000501"><label>Men.</label> <p xml:id="eng-p-000500">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000502"><label>Soc.</label> <p xml:id="eng-p-000501">But our assertion that it is impossible to give right guidance unless one has knowledge looks very like a mistake.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000503"><label>Men.</label> <p xml:id="eng-p-000502">What do you mean by that?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000504"><label>Soc.</label> <p xml:id="eng-p-000503">I will tell you. If a man knew the way to Larisa, or any other place you please, and walked there and led others, would he not give right and good guidance?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000505"><label>Men.</label> <p xml:id="eng-p-000504">Certainly. </p></said> <milestone unit="section" resp="Stephanus" n="97b" xml:id="eng-stephanus-section-97b" />
+
+<said who="#Socrates" xml:id="eng-utterance-000506"><label>Soc.</label> <p xml:id="eng-p-000505">Well, and a person who had a right opinion as to which was the way, but had never been there and did not really know, might give right guidance, might he not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000507"><label>Men.</label> <p xml:id="eng-p-000506">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000508"><label>Soc.</label> <p xml:id="eng-p-000507">And so long, I presume, as he has right opinion about that which the other man really knows, he will be just as good a guide—if he thinks the truth instead of knowing it—as the man who has the knowledge.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000509"><label>Men.</label> <p xml:id="eng-p-000508">Just as good.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000510"><label>Soc.</label> <p xml:id="eng-p-000509">Hence true opinion is as good a guide to rightness of action as knowledge; and this is a point we omitted just now in our consideration of the nature of virtue, <milestone unit="section" resp="Stephanus" n="97c" xml:id="eng-stephanus-section-97c" /> when we stated that knowledge is the only guide of right action; whereas we find there is also true opinion.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000511"><label>Men.</label> <p xml:id="eng-p-000510">So it seems.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000512"><label>Soc.</label> <p xml:id="eng-p-000511">Then right opinion is just as useful as knowledge.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000513"><label>Men.</label> <p xml:id="eng-p-000512">With this difference, Socrates, that he who has knowledge will always hit on the right way, whereas he who has right opinion will sometimes do so, but sometimes not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000514"><label>Soc.</label> <p xml:id="eng-p-000513">How do you mean? Will not he who always has right opinion be always right, so long as he opines rightly?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000515"><label>Men.</label> <p xml:id="eng-p-000514">It appears to me that he must; and therefore I wonder, Socrates, <milestone unit="section" resp="Stephanus" n="97d" xml:id="eng-stephanus-section-97d" /> this being the case, that knowledge should ever be more prized than right opinion, and why they should be two distinct and separate things.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000516"><label>Soc.</label> <p xml:id="eng-p-000515">Well, do you know why it is that you wonder, or shall I tell you?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000517"><label>Men.</label> <p xml:id="eng-p-000516">Please tell me.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000518"><label>Soc.</label> <p xml:id="eng-p-000517">It is because you have not observed with attention the images of Daedalus.<note resp="Loeb" anchored="true">Cf. <bibl n="Plat. Euthyph. 11">Plat. Euthyph. 11</bibl>. Socrates pretends to believe the old legend according to which Daedalus, the first sculptor, contrived a wonderful mechanism in his statues by which they could move.</note> But perhaps there are none in your country.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000519"><label>Men.</label> <p xml:id="eng-p-000518">What is the point of your remark?</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000520"><label>Soc.</label> <p xml:id="eng-p-000519">That if they are not fastened up they play truant and run away; but, if fastened, they stay where they are. </p></said> <milestone unit="section" resp="Stephanus" n="97e" xml:id="eng-stephanus-section-97e" />
+
+<said who="#Meno" xml:id="eng-utterance-000521"><label>Men.</label> <p xml:id="eng-p-000520"> Well, what of that?</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="98" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-98">
+<said who="#Socrates" xml:id="eng-utterance-000522"><label>Soc.</label> <p xml:id="eng-p-000521">To possess one of his works which is let loose does not count for much in value; it will not stay with you any more than a runaway slave: but when fastened up it is worth a great deal, for his productions are very fine things And to what am I referring in all this? To true opinion. For these, so long as they stay with us, are a fine possession, <milestone unit="page" resp="Stephanus" n="98" xml:id="eng-stephanus-page-98" /><milestone unit="section" resp="Stephanus" n="98a" xml:id="eng-stephanus-section-98a" /> and effect all that is good; but they do not care to stay for long, and run away out of the human soul, and thus are of no great value until one makes them fast with causal reasoning. And this process, friend Meno, is recollection, as in our previous talk we have agreed. But when once they are fastened, in the first place they turn into knowledge, and in the second, are abiding. And this is why knowledge is more prized than right opinion: the one transcends the other by its trammels.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000523"><label>Men.</label> <p xml:id="eng-p-000522">Upon my word, Socrates, it seems to be very much as you say. </p></said> <milestone unit="section" resp="Stephanus" n="98b" xml:id="eng-stephanus-section-98b" />
+
+<said who="#Socrates" xml:id="eng-utterance-000524"><label>Soc.</label> <p xml:id="eng-p-000523">And indeed I too speak as one who does not know but only conjectures: yet that there is a difference between right opinion and knowledge is not at all a conjecture with me but something I would particularly assert that I knew: there are not many things of which I would say that, but this one, at any rate, I will include among those that I know.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000525"><label>Men.</label> <p xml:id="eng-p-000524">Yes, and you are right, Socrates, in so saying.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000526"><label>Soc.</label> <p xml:id="eng-p-000525">Well, then, am I not right also in saying that true opinion leading the way renders the effect of each action as good as knowledge does?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000527"><label>Men.</label> <p xml:id="eng-p-000526">There again, Socrates, I think you speak the truth. </p></said> <milestone unit="section" resp="Stephanus" n="98c" xml:id="eng-stephanus-section-98c" />
+
+<said who="#Socrates" xml:id="eng-utterance-000528"><label>Soc.</label> <p xml:id="eng-p-000527">So that right opinion will be no whit inferior to knowledge in worth or usefulness as regards our actions, nor will the man who has right opinion be inferior to him who has knowledge.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000529"><label>Men.</label> <p xml:id="eng-p-000528">That is so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000530"><label>Soc.</label> <p xml:id="eng-p-000529">And you know that the good man has been admitted by us to be useful.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000531"><label>Men.</label> <p xml:id="eng-p-000530">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000532"><label>Soc.</label> <p xml:id="eng-p-000531">Since then it is not only because of knowledge that men will be good and useful to their country, where such men are to be found, but also on account of right opinion; and since neither of these two things—knowledge <milestone unit="section" resp="Stephanus" n="98d" xml:id="eng-stephanus-section-98d" /> and true opinion—is a natural property of mankind, being acquired—or do you think that either of them is natural?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000533"><label>Men.</label> <p xml:id="eng-p-000532">Not I.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000534"><label>Soc.</label> <p xml:id="eng-p-000533">Then if they are not natural, good people cannot be good by nature either.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000535"><label>Men.</label> <p xml:id="eng-p-000534">Of course not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000536"><label>Soc.</label> <p xml:id="eng-p-000535">And since they are not an effect of nature, we next considered whether virtue can be taught.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000537"><label>Men.</label> <p xml:id="eng-p-000536">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000538"><label>Soc.</label> <p xml:id="eng-p-000537">And we thought it teachable if virtue is wisdom?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000539"><label>Men.</label> <p xml:id="eng-p-000538">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000540"><label>Soc.</label> <p xml:id="eng-p-000539">And if teachable, it must be wisdom?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000541"><label>Men.</label> <p xml:id="eng-p-000540">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000542"><label>Soc.</label> <p xml:id="eng-p-000541">And if there were teachers, it could be taught, <milestone unit="section" resp="Stephanus" n="98e" xml:id="eng-stephanus-section-98e" /> but if there were none, it could not?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000543"><label>Men.</label> <p xml:id="eng-p-000542">Quite so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000544"><label>Soc.</label> <p xml:id="eng-p-000543">But surely we acknowledged that it had no teachers?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000545"><label>Men.</label> <p xml:id="eng-p-000544">That is true.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000546"><label>Soc.</label> <p xml:id="eng-p-000545">Then we acknowledged it neither was taught nor was wisdom?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000547"><label>Men.</label> <p xml:id="eng-p-000546">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000548"><label>Soc.</label> <p xml:id="eng-p-000547">But yet we admitted it was a good?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000549"><label>Men.</label> <p xml:id="eng-p-000548">Yes.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000550"><label>Soc.</label> <p xml:id="eng-p-000549">And that which guides rightly is useful and good?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000551"><label>Men.</label> <p xml:id="eng-p-000550">Certainly.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="99" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-99">
+<said who="#Socrates" xml:id="eng-utterance-000552"><label>Soc.</label> <p xml:id="eng-p-000551">And that there are only two things— <milestone unit="page" resp="Stephanus" n="99" xml:id="eng-stephanus-page-99" /><milestone unit="section" resp="Stephanus" n="99a" xml:id="eng-stephanus-section-99a" /> true opinion and knowledge—that guide rightly and a man guides rightly if he have these; for things that come about by chance do not occur through human guidance; but where a man is a guide to what is right we find these two things—true opinion and knowledge.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000553"><label>Men.</label> <p xml:id="eng-p-000552">I agree.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000554"><label>Soc.</label> <p xml:id="eng-p-000553">Well now, since virtue is not taught, we no longer take it to be knowledge?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000555"><label>Men.</label> <p xml:id="eng-p-000554">Apparently not. </p></said> <milestone unit="section" resp="Stephanus" n="99b" xml:id="eng-stephanus-section-99b" />
+
+<said who="#Socrates" xml:id="eng-utterance-000556"><label>Soc.</label> <p xml:id="eng-p-000555">So of two good and useful things one has been rejected: knowledge cannot be our guide in political conduct.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000557"><label>Men.</label> <p xml:id="eng-p-000556">I think not.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000558"><label>Soc.</label> <p xml:id="eng-p-000557">Therefore it was not by any wisdom, nor because they were wise, that the sort of men we spoke of controlled their states—Themistocles and the rest of them, to whom our friend Anytus was referring a moment ago. For this reason it was that they were unable to make others like unto themselves—because their qualities were not an effect of knowledge.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000559"><label>Men.</label> <p xml:id="eng-p-000558">The case is probably as you say, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000560"><label>Soc.</label> <p xml:id="eng-p-000559">And if not by knowledge, as the only alternative it must have been by good opinion. <milestone unit="section" resp="Stephanus" n="99c" xml:id="eng-stephanus-section-99c" /> This is the means which statesmen employ for their direction of states, and they have nothing more to do with wisdom than soothsayers and diviners; for these people utter many a true thing when inspired, but have no knowledge of anything they say.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000561"><label>Men.</label> <p xml:id="eng-p-000560">I daresay that is so.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000562"><label>Soc.</label> <p xml:id="eng-p-000561">And may we, Meno, rightly call those men divine who, having no understanding, yet succeed in many a great deed and word?</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000563"><label>Men.</label> <p xml:id="eng-p-000562">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000564"><label>Soc.</label> <p xml:id="eng-p-000563">Then we shall be right in calling those divine of whom <milestone unit="section" resp="Stephanus" n="99d" xml:id="eng-stephanus-section-99d" /> we spoke just now as soothsayers and prophets and all of the poetic turn; and especially we can say of the statesmen that they are divine and enraptured, as being inspired and possessed of God when they succeed in speaking many great things, while knowing nought of what they say.</p></said>
+
+<said who="#Meno" xml:id="eng-utterance-000565"><label>Men.</label> <p xml:id="eng-p-000564">Certainly.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000566"><label>Soc.</label> <p xml:id="eng-p-000565">And the women too, I presume, Meno, call good men divine; and the Spartans, when they eulogize a good man, say—<q type="spoken" xml:id="eng-utterance-000567">He is a divine person.</q> </p></said> <milestone unit="section" resp="Stephanus" n="99e" xml:id="eng-stephanus-section-99e" />
+
+<said who="#Meno" xml:id="eng-utterance-000568"><label>Men.</label> <p xml:id="eng-p-000566">And to all appearance, Socrates, they are right; though perhaps our friend Anytus may be annoyed at your statement.</p></said></div>
+
+<div type="textpart" subtype="section" resp="perseus" n="100" xml:id="plato_meno-eng-translation-urn-cts-greekLit-tlg0059.tlg024.perseus-eng2-section-100">
+<said who="#Socrates" xml:id="eng-utterance-000569"><label>Soc.</label> <p xml:id="eng-p-000567">For my part, I care not. As for him, Meno, we will converse with him some other time. At the moment, if through all this discussion our queries and statements have been correct, virtue is found to be neither natural nor taught, but is imparted to us by a divine dispensation without understanding in those who receive it, <milestone unit="page" resp="Stephanus" n="100" xml:id="eng-stephanus-page-100" /><milestone unit="section" resp="Stephanus" n="100a" xml:id="eng-stephanus-section-100a" /> unless there should be somebody among the statesmen capable of making a statesman of another. And if there should be any such, he might fairly be said to be among the living what Homer says Teiresias was among the dead—<quote>He alone has comprehension; the rest are flitting shades.</quote> <note resp="Loeb" anchored="true"><bibl n="Hom. Od. 10.494">Hom. Od. 10.494</bibl></note> In the same way he on earth, in respect of virtue, will be a real substance among shadows. </p></said> <milestone unit="section" resp="Stephanus" n="100b" xml:id="eng-stephanus-section-100b" />
+
+<said who="#Meno" xml:id="eng-utterance-000570"><label>Men.</label> <p xml:id="eng-p-000568">I think you put it excellently, Socrates.</p></said>
+
+<said who="#Socrates" xml:id="eng-utterance-000571"><label>Soc.</label> <p xml:id="eng-p-000569">Then the result of our reasoning, Meno, is found to be that virtue comes to us by a divine dispensation, when it does come. But the certainty of this we shall only know when, before asking in what way virtue comes to mankind, we set about inquiring what virtue is, in and by itself. It is time now for me to go my way, but do you persuade our friend Anytus of that whereof you are now yourself persuaded, so as <milestone unit="section" resp="Stephanus" n="100c" xml:id="eng-stephanus-section-100c" /> to put him in a gentler mood; for if you can persuade him, you will do a good turn to the people of Athens also.</p></said></div></div>
+		</body>
+  </text>
+</TEI>

@@ -1,0 +1,363 @@
+[
+  {
+    "author": "Plato",
+    "title": "Symposium",
+    "id": "symposium",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_symposium_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_symposium_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Phaedrus",
+    "id": "phaedrus",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_phaedrus_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_phaedrus_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Gorgias",
+    "id": "gorgias",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_gorgias_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_gorgias_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Meno",
+    "id": "meno",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_meno_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_meno_eng_lamb.xml" }
+    ]
+  },
+  {
+    "author": "Plato",
+    "title": "Timaeus",
+    "id": "timaeus",
+    "milestone_type": "stephanus",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/plato_timaeus_grc_burnet.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/plato_timaeus_eng_bury.xml" }
+    ]
+  },
+  {
+    "author": "Aristotle",
+    "title": "Nicomachean Ethics",
+    "id": "nicomachean-ethics",
+    "milestone_type": "bekker",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/aristotle_nicomachean-ethics_grc_bywater.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/aristotle_nicomachean-ethics_eng_rackham.xml" }
+    ]
+  },
+  {
+    "author": "Aristotle",
+    "title": "Metaphysics",
+    "id": "metaphysics",
+    "milestone_type": "bekker",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/aristotle_metaphysics_grc_ross.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/aristotle_metaphysics_eng_tredennick.xml" }
+    ]
+  },
+  {
+    "author": "Aristotle",
+    "title": "Poetics",
+    "id": "poetics",
+    "milestone_type": "bekker",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/aristotle_poetics_grc_kassel.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/aristotle_poetics_eng_fyfe.xml" }
+    ]
+  },
+  {
+    "author": "Aristotle",
+    "title": "Politics",
+    "id": "politics",
+    "milestone_type": "bekker",
+    "sources": [
+      { "lang": "grc", "path": "../assets/canonical-greekLit-renamed/xml/aristotle_politics_grc_ross.xml" },
+      { "lang": "eng", "path": "../assets/canonical-greekLit-renamed/xml/aristotle_politics_eng_rackham.xml" }
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "War and Peace",
+    "combined_title": "Война и мир",
+    "id": "war-and-peace",
+    "milestone_type": "none",
+    "combine": true,
+    "sources": [
+      { "lang": "rus", "path": "../assets/works/v09_003_360_Vojna_i_mir_Tom_pervyj.xml" },
+      { "lang": "rus", "path": "../assets/works/v10_003_375_Vojna_i_mir_Tom_vtoroj.xml" },
+      { "lang": "rus", "path": "../assets/works/v11_003_400_Vojna_i_mir_Tom_tretij.xml" },
+      { "lang": "rus", "path": "../assets/works/v12_003_341_Vojna_i_mir_Tom_chetvertyj.xml" }
+    ],
+    "obsolete_outputs": [
+      "tolstoy_war-and-peace-v1_rus.xml",
+      "tolstoy_war-and-peace-v2_rus.xml",
+      "tolstoy_war-and-peace-v3_rus.xml",
+      "tolstoy_war-and-peace-v4_rus.xml"
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "War and Peace — Maude translation",
+    "id": "war-and-peace",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/war and peace_tolstoy, leo, graf.epub" }
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "Anna Karenina",
+    "combined_title": "Анна Каренина",
+    "id": "anna-karenina",
+    "milestone_type": "none",
+    "combine": true,
+    "sources": [
+      { "lang": "rus", "path": "../assets/works/v18_003_458_Anna_Karenina_Chasti_1_4.xml" },
+      { "lang": "rus", "path": "../assets/works/v19_003_399_Anna_Karenina_Chasti_5_8.xml" }
+    ],
+    "obsolete_outputs": [
+      "tolstoy_anna-karenina-p1_rus.xml",
+      "tolstoy_anna-karenina-p2_rus.xml"
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "Anna Karenina — Garnett translation",
+    "id": "anna-karenina",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/anna karenina_tolstoy, leo, graf.epub" }
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "Resurrection",
+    "id": "resurrection",
+    "milestone_type": "none",
+    "sources": [
+      { "lang": "rus", "path": "../assets/works/v32_003_445_Voskresenie.xml" }
+    ]
+  },
+  {
+    "author": "Austen",
+    "title": "Pride and Prejudice",
+    "id": "pride-and-prejudice",
+    "milestone_type": "none",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/tei/aus.001.xml" }
+    ]
+  },
+  {
+    "author": "Austen",
+    "title": "Persuasion",
+    "id": "persuasion",
+    "milestone_type": "none",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/tei/aus.002.xml" }
+    ]
+  },
+  {
+    "author": "Austen",
+    "title": "Northanger Abbey",
+    "id": "northanger-abbey",
+    "milestone_type": "none",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/tei/aus.003.xml" }
+    ]
+  },
+  {
+    "author": "Austen",
+    "title": "Sense and Sensibility",
+    "id": "sense-and-sensibility",
+    "milestone_type": "none",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/tei/aus.004.xml" }
+    ]
+  },
+  {
+    "author": "Austen",
+    "title": "Emma",
+    "id": "emma",
+    "milestone_type": "none",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/tei/aus.005.xml" }
+    ]
+  },
+  {
+    "author": "Austen",
+    "title": "Mansfield Park",
+    "id": "mansfield-park",
+    "milestone_type": "none",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/tei/aus.006.xml" }
+    ]
+  },
+  {
+    "author": "Dickens",
+    "title": "A Tale of Two Cities",
+    "id": "a-tale-of-two-cities",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../a tale of two cities_charles dickens.epub" }
+    ]
+  },
+  {
+    "author": "Dickens",
+    "title": "Bleak House",
+    "id": "bleak-house",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../bleak house.epub" }
+    ]
+  },
+  {
+    "author": "Dickens",
+    "title": "David Copperfield",
+    "id": "david-copperfield",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../david copperfield_dickens, charles.epub" }
+    ]
+  },
+  {
+    "author": "Dickens",
+    "title": "Nicholas Nickleby",
+    "id": "nicholas-nickleby",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../nicholas nickleby_charles dickens.epub" }
+    ]
+  },
+  {
+    "author": "Dickens",
+    "title": "Oliver Twist",
+    "id": "oliver-twist",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../oliver twist_charles dickens.epub" }
+    ]
+  },
+  {
+    "author": "Dickens",
+    "title": "Barnaby Rudge: A Tale of the Riots of 'Eighty",
+    "id": "barnaby-rudge",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../pg917-images-3.epub" }
+    ]
+  },
+  {
+    "author": "Dickens",
+    "title": "Martin Chuzzlewit",
+    "id": "martin-chuzzlewit",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../pg968-images-3.epub" }
+    ]
+  },
+  {
+    "author": "Dickens",
+    "title": "A Christmas Carol",
+    "id": "a-christmas-carol",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../pg24022-images-3.epub" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "Demons",
+    "combined_title": "Бесы",
+    "id": "demons",
+    "milestone_type": "none",
+    "combine": true,
+    "combine_mode": "supplement",
+    "supplement_title": "У Тихона — подавленная глава (часть II, глава 9)",
+    "licence_target": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licence_text": "The Digital Dostoevsky source encoding and this derived TEI normalization are made available under CC0 1.0 Universal.",
+    "sources": [
+      { "lang": "rus", "xml_lang": "ru", "path": "../assets/dostoevsky-tei/texts/besy/besy.xml" },
+      { "lang": "rus", "xml_lang": "ru", "path": "../assets/dostoevsky-tei/texts/besy/u_tikhona.xml" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "The Brothers Karamazov",
+    "id": "brothers-karamazov",
+    "milestone_type": "none",
+    "licence_target": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licence_text": "The Digital Dostoevsky source encoding and this derived TEI normalization are made available under CC0 1.0 Universal.",
+    "sources": [
+      { "lang": "rus", "xml_lang": "ru", "path": "../assets/dostoevsky-tei/texts/bratia_karamazovy/bratia_karamazovy.xml" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "The Double",
+    "id": "the-double",
+    "milestone_type": "none",
+    "licence_target": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licence_text": "The Digital Dostoevsky source encoding and this derived TEI normalization are made available under CC0 1.0 Universal.",
+    "sources": [
+      { "lang": "rus", "xml_lang": "ru", "path": "../assets/dostoevsky-tei/texts/dvoinik/dvoinik.xml" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "The Idiot",
+    "id": "the-idiot",
+    "milestone_type": "none",
+    "licence_target": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licence_text": "The Digital Dostoevsky source encoding and this derived TEI normalization are made available under CC0 1.0 Universal.",
+    "sources": [
+      { "lang": "rus", "xml_lang": "ru", "path": "../assets/dostoevsky-tei/texts/idiot/idiot.xml" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "The Adolescent",
+    "id": "the-adolescent",
+    "milestone_type": "none",
+    "licence_target": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licence_text": "The Digital Dostoevsky source encoding and this derived TEI normalization are made available under CC0 1.0 Universal.",
+    "sources": [
+      { "lang": "rus", "xml_lang": "ru", "path": "../assets/dostoevsky-tei/texts/podrostok/podrostok.xml" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "Crime and Punishment",
+    "id": "crime-and-punishment",
+    "milestone_type": "none",
+    "licence_target": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licence_text": "The Digital Dostoevsky source encoding and this derived TEI normalization are made available under CC0 1.0 Universal.",
+    "sources": [
+      { "lang": "rus", "xml_lang": "ru", "path": "../assets/dostoevsky-tei/texts/prestuplenie_i_nakazanie/prestuplenie_i_nakazanie.xml" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "Notes from Underground",
+    "id": "notes-from-underground",
+    "milestone_type": "none",
+    "licence_target": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licence_text": "The Digital Dostoevsky source encoding and this derived TEI normalization are made available under CC0 1.0 Universal.",
+    "sources": [
+      { "lang": "rus", "xml_lang": "ru", "path": "../assets/dostoevsky-tei/texts/zapiski_iz_podpolia/zapiski_iz_podpolia.xml" }
+    ]
+  }
+]

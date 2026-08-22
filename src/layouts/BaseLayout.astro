@@ -4,160 +4,94 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  wide?: boolean;
 }
 
-const { title, description = 'A curated library of public domain literature.' } = Astro.props;
-const pageTitle = title === 'Bookstacks' ? title : `${title} - Bookstacks`;
+const {
+  title,
+  description = 'Complete public-domain books prepared as TEI and presented for close reading.',
+  wide = false,
+} = Astro.props;
+const pageTitle = title === 'Bookstacks' ? title : `${title} · Bookstacks`;
 ---
+
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSSQ9K2FFC"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f2efe7" />
+    <title>{pageTitle}</title>
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-CSSQ9K2FFC"></script>
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-CSSQ9K2FFC');
     </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description} />
-    <title>{pageTitle}</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%232d5548%22/><path d=%22M15 14h14c4 0 7 3 7 7v29c-2-3-5-4-9-4H15zm34 0H35c-4 0-7 3-7 7v29c2-3 5-4 9-4h12z%22 fill=%22%23f7f0d9%22/></svg>" />
     <slot name="head" />
     <script is:inline>
       (() => {
-        const stored = localStorage.getItem('bookstacks-theme');
-        const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches;
-        document.documentElement.dataset.theme = stored || (prefersDark ? 'dark' : 'light');
+        const savedTheme = localStorage.getItem('bookstacks-theme');
+        const savedAccent = localStorage.getItem('bookstacks-accent');
+        const dark = window.matchMedia?.('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = savedTheme || (dark ? 'dark' : 'light');
+        if (savedAccent) document.documentElement.style.setProperty('--accent', savedAccent);
       })();
     </script>
   </head>
   <body>
-    <div class="shell">
-      <header class="site-header">
-        <a class="brand" href="/">
-          <span class="brand-mark"><span class="material-icons">library_books</span></span>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="/" aria-label="Bookstacks home">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
           <span>Bookstacks</span>
         </a>
-        <nav class="site-network" aria-label="Site network">
-          <a href="https://github.com/ianrastall/bookstacks" rel="noreferrer" target="_blank">GitHub</a>
-          <a href="https://text-utils.net" rel="noreferrer" target="_blank">Text Utilities</a>
-          <a href="https://chessnerd.net" rel="noreferrer" target="_blank">Chess Nerd</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="/">Library</a>
+          <a href="https://github.com/ianrastall/bookstacks" rel="noreferrer" target="_blank">Source</a>
         </nav>
-        <div class="header-actions">
-          <label class="color-picker-wrap" title="Accent color">
+        <div class="display-controls">
+          <label class="accent-control" title="Choose accent color">
             <span class="visually-hidden">Accent color</span>
-            <span class="color-swatch" id="color-swatch"></span>
-            <input type="color" id="accent-picker" aria-label="Accent color" />
+            <input id="accent-picker" type="color" value="#2d6a58" aria-label="Accent color" />
           </label>
-          <button id="theme-toggle" class="icon-button" type="button" aria-label="Toggle theme">
-            <span class="material-icons" aria-hidden="true">dark_mode</span>
-          </button>
+          <button id="theme-toggle" class="icon-button" type="button" aria-label="Switch color theme" title="Switch color theme">◐</button>
         </div>
-      </header>
-    </div>
-    <slot />
-    <div class="shell">
-      <footer class="site-footer">
-        <p>A curated library of public domain literature. Bookstacks runs locally in your browser (some tools may make external requests).</p>
-        <p class="support-blurb">If this saved you a few hours of work, or is something you would have paid $5 for, consider <a href="https://ko-fi.com/ianrastall" rel="noreferrer" target="_blank">buying me a coffee on Ko-fi</a>.</p>
-      </footer>
-    </div>
+      </div>
+    </header>
+    <main id="content" class:list={['shell', { 'shell-wide': wide }]}>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>Complete books, encoded in TEI and built as a static library.</p>
+        <p><a href="https://ko-fi.com/ianrastall" rel="noreferrer" target="_blank">Support Bookstacks</a></p>
+      </div>
+    </footer>
     <script>
-      // Theme toggle
-      const themeToggle = document.getElementById('theme-toggle');
-      function updateThemeIcon() {
-        const isDark = document.documentElement.dataset.theme === 'dark';
-        const icon = themeToggle?.querySelector('.material-icons');
-        if (icon) icon.textContent = isDark ? 'dark_mode' : 'light_mode';
-        themeToggle?.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
-        themeToggle?.setAttribute('aria-pressed', isDark ? 'true' : 'false');
-        themeToggle?.setAttribute('title', isDark ? 'Switch to light theme' : 'Switch to dark theme');
-      }
+      const root = document.documentElement;
+      const themeButton = document.querySelector<HTMLButtonElement>('#theme-toggle');
+      const accentPicker = document.querySelector<HTMLInputElement>('#accent-picker');
+      const savedAccent = localStorage.getItem('bookstacks-accent');
+      if (savedAccent && accentPicker) accentPicker.value = savedAccent;
 
-      updateThemeIcon();
-      themeToggle?.addEventListener('click', () => {
-        const current = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
-        const next = current === 'dark' ? 'light' : 'dark';
-        document.documentElement.dataset.theme = next;
-        localStorage.setItem('bookstacks-theme', next);
-        applyAccent(localStorage.getItem('bookstacks-accent') || null);
-        updateThemeIcon();
+      themeButton?.addEventListener('click', () => {
+        const theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        root.dataset.theme = theme;
+        localStorage.setItem('bookstacks-theme', theme);
       });
-
-      // Accent colour picker
-      function hexToHsl(hex: string): [number, number, number] {
-        let r = parseInt(hex.slice(1, 3), 16) / 255;
-        let g = parseInt(hex.slice(3, 5), 16) / 255;
-        let b = parseInt(hex.slice(5, 7), 16) / 255;
-        const max = Math.max(r, g, b), min = Math.min(r, g, b);
-        let h = 0, s = 0;
-        const l = (max + min) / 2;
-        if (max !== min) {
-          const d = max - min;
-          s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
-          switch (max) {
-            case r: h = ((g - b) / d + (g < b ? 6 : 0)) / 6; break;
-            case g: h = ((b - r) / d + 2) / 6; break;
-            case b: h = ((r - g) / d + 4) / 6; break;
-          }
-        }
-        return [Math.round(h * 360), Math.round(s * 100), Math.round(l * 100)];
-      }
-
-      function hslToHex(h: number, s: number, l: number): string {
-        s /= 100; l /= 100;
-        const k = (n: number) => (n + h / 30) % 12;
-        const a = s * Math.min(l, 1 - l);
-        const f = (n: number) => l - a * Math.max(-1, Math.min(k(n) - 3, Math.min(9 - k(n), 1)));
-        return '#' + [f(0), f(8), f(4)].map(x => Math.round(x * 255).toString(16).padStart(2, '0')).join('');
-      }
-
-      function applyAccent(hex: string | null) {
-        const root = document.documentElement;
-        const isDark = root.dataset.theme === 'dark';
-        if (!hex) {
-          root.style.removeProperty('--accent');
-          root.style.removeProperty('--accent-strong');
-          return;
-        }
-        const [h, s] = hexToHsl(hex);
-        // Light: moderately saturated mid-tone; Dark: bright teal-style
-        const accent      = isDark ? hslToHex(h, Math.min(s + 10, 100), 65) : hslToHex(h, Math.min(s, 90), 40);
-        const accentStrong = isDark ? hslToHex(h, Math.min(s + 5, 100), 75) : hslToHex(h, Math.min(s, 90), 32);
-        root.style.setProperty('--accent', accent);
-        root.style.setProperty('--accent-strong', accentStrong);
-        const swatch = document.getElementById('color-swatch') as HTMLElement | null;
-        if (swatch) swatch.style.background = accent;
-      }
-
-      function initAccent() {
-        const stored = localStorage.getItem('bookstacks-accent');
-        const picker = document.getElementById('accent-picker') as HTMLInputElement | null;
-        if (stored && picker) picker.value = stored;
-        applyAccent(stored);
-        // sync swatch on load
-        const swatch = document.getElementById('color-swatch') as HTMLElement | null;
-        if (swatch && stored) swatch.style.background = stored;
-      }
-
-      initAccent();
-
-      document.getElementById('accent-picker')?.addEventListener('input', (e) => {
-        const hex = (e.target as HTMLInputElement).value;
-        localStorage.setItem('bookstacks-accent', hex);
-        applyAccent(hex);
+      accentPicker?.addEventListener('input', () => {
+        root.style.setProperty('--accent', accentPicker.value);
+        localStorage.setItem('bookstacks-accent', accentPicker.value);
       });
-
-      // Reset on double-click
-      document.getElementById('accent-picker')?.addEventListener('dblclick', () => {
+      accentPicker?.addEventListener('dblclick', () => {
+        root.style.removeProperty('--accent');
         localStorage.removeItem('bookstacks-accent');
-        applyAccent(null);
-        const swatch = document.getElementById('color-swatch') as HTMLElement | null;
-        if (swatch) swatch.style.background = '';
+        accentPicker.value = '#2d6a58';
       });
     </script>
   </body>

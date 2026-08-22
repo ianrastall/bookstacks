@@ -1,349 +1,212 @@
 ---
-import fs from 'node:fs';
-import { getCollection } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { relativeUrl } from '../../utils/relativeUrl';
 import TocTree from '../../components/TocTree.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import {
+  authorHref,
+  getLibrary,
+  unitHref,
+  workHref,
+  type Author,
+  type Edition,
+  type ReadingUnit,
+  type Work,
+} from '../../lib/library';
 
-export async function getStaticPaths() {
-  const entries = await getCollection('authors');
-  return entries.map(entry => {
-    let slug = entry.id;
-    if (slug.endsWith('/index')) {
-      slug = slug.slice(0, -6);
+type Page =
+  | { kind: 'author'; author: Author }
+  | { kind: 'work'; author: Author; work: Work }
+  | { kind: 'reader'; author: Author; work: Work; edition: Edition; unit: ReadingUnit };
+
+interface Props {
+  page: Page;
+}
+
+export function getStaticPaths() {
+  const paths: Array<{ params: { slug: string }; props: Props }> = [];
+  for (const author of getLibrary().authors) {
+    paths.push({ params: { slug: author.slug }, props: { page: { kind: 'author', author } } });
+    for (const work of author.works) {
+      paths.push({
+        params: { slug: `${author.slug}/${work.slug}` },
+        props: { page: { kind: 'work', author, work } },
+      });
+      for (const edition of work.editions) {
+        for (const unit of edition.units) {
+          paths.push({
+            params: { slug: `${author.slug}/${work.slug}/${edition.code}/${unit.path}` },
+            props: { page: { kind: 'reader', author, work, edition, unit } },
+          });
+        }
+      }
     }
-    return {
-      params: { slug },
-      props: { entry },
-    };
-  });
-}
-
-const { entry } = Astro.props;
-// No longer using Astro's render() since we have raw HTML in the data
-
-const allEntries = await getCollection('authors');
-
-// Imported relativeUrl
-
-const layout = entry.data.layout;
-
-// Human labels for chapter version toggles. Language must win over generic
-// subtype names such as "translation", otherwise every translated panel can
-// appear as English when several languages share subtype="translation".
-const LANGUAGE_LABELS: Record<string, string> = {
-  grc: 'Ancient Greek',
-  en: 'English',
-  ru: 'Русский',
-  de: 'Deutsch',
-  fr: 'Français',
-  es: 'Español',
-  pt: 'Português',
-  it: 'Italiano',
-  la: 'Latin'
-};
-
-const VERSION_KIND_LABELS: Record<string, string> = {
-  maude: 'Maude (English)',
-  garnett: 'Garnett (English)',
-  wyllie: 'Wyllie (English)',
-  johnston: 'Johnston (English)',
-  'translation-es': 'Español'
-};
-
-function versionLabel(v: { id?: string; lang?: string }) {
-  const id = (v.id || '').trim();
-  const lang = (v.lang || '').trim();
-  const idParts = id.split('-').filter(Boolean);
-  const kind = idParts.length > 0 ? idParts[idParts.length - 1] : id;
-
-  if (id && VERSION_KIND_LABELS[id]) return VERSION_KIND_LABELS[id];
-  if (kind && VERSION_KIND_LABELS[kind]) return VERSION_KIND_LABELS[kind];
-  if (lang && LANGUAGE_LABELS[lang]) return LANGUAGE_LABELS[lang];
-  if (id === 'translation') return 'Translation';
-  if (id === 'original') return 'Original';
-  return id || lang || 'Version';
-}
-
-function versionDomId(v: { id?: string; lang?: string }, index: number) {
-  return [v.lang, v.id, String(index + 1)].filter(Boolean).join('-') || `version-${index + 1}`;
-}
-
-// Default the visible panel to the translation (this is an English-readership
-// site); fall back to the first version if there's no explicit translation.
-const versions: any[] = Array.isArray(entry.data.versions) ? entry.data.versions : [];
-let versionDefault = versions.findIndex((v: any) => v.id === 'translation' || v.lang === 'en');
-if (versionDefault < 0) versionDefault = 0;
-
-// An author has a portrait if public/img/authors/<slug>.png exists.
-const authorSlugForPortrait = entry.id.replace('/index', '');
-const portrait = fs.existsSync(`public/img/authors/${authorSlugForPortrait}.png`)
-  ? relativeUrl(`img/authors/${authorSlugForPortrait}.png`)
-  : null;
-
-let books: any[] = [];
-let chapters: any[] = [];
-let previousChapter = null;
-let nextChapter = null;
-let authorSlug = '';
-let bookSlug = '';
-
-if (layout === 'author_index') {
-  const currentAuthorSlug = entry.id.replace('/index', '');
-  books = allEntries
-    .filter(e => e.data.layout === 'book_index' && e.id.startsWith(currentAuthorSlug + '/'))
-    .sort((a, b) => (a.data.book_title || '').localeCompare(b.data.book_title || ''));
-} else if (layout === 'book_index' || layout === 'book') {
-  const parts = entry.id.split('/');
-  authorSlug = parts[0];
-  bookSlug = parts[1];
-  const currentBookPrefix = `${authorSlug}/${bookSlug}/`;
-  
-  chapters = allEntries
-    .filter(e => e.data.layout === 'book' && e.id.startsWith(currentBookPrefix))
-    .sort((a, b) => (a.data.chapter_order || 0) - (b.data.chapter_order || 0));
-
-  if (layout === 'book') {
-    const currentIndex = chapters.findIndex(c => c.id === entry.id);
-    if (currentIndex > 0) previousChapter = chapters[currentIndex - 1];
-    if (currentIndex < chapters.length - 1) nextChapter = chapters[currentIndex + 1];
   }
+  return paths;
 }
 
-const tocRoots = Array.isArray(entry.data.tocTree)
-  ? entry.data.tocTree
-  : chapters.map((chapter) => ({
-      labels: [chapter.data.title || chapter.id],
-      children: [],
-      chapter: { id: chapter.id }
-    }));
+const { page } = Astro.props;
+const title = page.kind === 'author'
+  ? page.author.name
+  : page.kind === 'work'
+    ? page.work.title
+    : `${page.unit.title} · ${page.work.title}`;
+const description = page.kind === 'author'
+  ? `Complete TEI editions of works by ${page.author.name}.`
+  : page.kind === 'work'
+    ? `Read ${page.work.title} by ${page.author.name} in its available TEI editions.`
+    : `${page.unit.title} from ${page.work.title} by ${page.author.name}.`;
 ---
 
-<BaseLayout title={entry.data.title || 'Bookstacks'}>
-  {layout === 'author_index' && (
-    <section class="tool-container shell">
-      <div class="tool-header">
-        <div class="tool-title">
-          <span class="material-icons">person</span>
-          <div>
-            <h2>{entry.data.author_name}</h2>
-            {entry.data.author_dates && (
-              <p class="author-dates">{entry.data.author_dates.replace(/-/g, '–')}</p>
-            )}
-          </div>
+<BaseLayout title={title} description={description} wide={page.kind === 'reader'}>
+  {page.kind === 'author' && (
+    <>
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Library</a><span>/</span><span aria-current="page">{page.author.name}</span></nav>
+      <header class="author-hero">
+        <div class="author-hero-copy">
+          <p class="eyebrow">Author shelf</p>
+          <h1>{page.author.name}</h1>
+          <p class="author-life">{page.author.dates}</p>
+          <p>{page.author.works.length} complete {page.author.works.length === 1 ? 'work' : 'works'} in {page.author.works.reduce((sum, work) => sum + work.editions.length, 0)} prepared editions.</p>
         </div>
-        <div class="tool-actions">
-          <a class="btn btn-secondary btn-compact" href={relativeUrl('')}>
-            <span class="material-icons">home</span>
-            Home
-          </a>
+        <div class="author-hero-portrait portrait-frame">
+          <img src={`/img/authors/${page.author.portrait}`} alt={`Engraved portrait of ${page.author.name}`} width="500" height="500" />
         </div>
-      </div>
-      <p class="tool-description">Books by {entry.data.author_name}</p>
-      
-      {portrait && (
-        <div class="author-hero">
-          <img src={portrait} alt={`Portrait of ${entry.data.author_name}`} class="author-portrait" width="500" height="500" />
+      </header>
+      <section class="works-section" aria-labelledby="works-heading">
+        <div class="section-heading compact">
+          <div><p class="eyebrow">On this shelf</p><h2 id="works-heading">Works</h2></div>
         </div>
-      )}
-      
-      <div class="tool-grid">
-        {books.map(book => {
-          let bSlug = book.id;
-          if (bSlug.endsWith('/index')) bSlug = bSlug.slice(0, -6);
-          const status = book.data.book_status || 'finished';
-          const statusLabel = book.data.book_status_label || 'Finished';
-          const statusDescription = book.data.book_status_description || '';
-          const statusIcon = book.data.book_status_icon || 'check_circle';
-          return (
-            <a class="tool-card book-card" href={relativeUrl(`authors/${bSlug}`)}>
-              <div class="tool-icon">
-                <span class="material-icons">menu_book</span>
+        <div class="work-grid">
+          {page.author.works.map((work, index) => (
+            <a class="work-card" href={workHref(work)}>
+              <p class="work-number">{String(index + 1).padStart(2, '0')}</p>
+              <h3>{work.title}</h3>
+              <div class="language-list" aria-label="Available languages">
+                {work.editions.map((edition) => <span>{edition.languageName}</span>)}
               </div>
-              <h3>{book.data.book_title}</h3>
-              <span
-                class:list={['book-status', `book-status-${status}`]}
-                title={statusDescription}
-                aria-label={`Book status: ${statusLabel}. ${statusDescription}`}
-              >
-                <span class="material-icons" aria-hidden="true">{statusIcon}</span>
-                {statusLabel}
-              </span>
-              {book.data.has_original && (
-                <span class="book-status book-status-original" title="This book includes the original text" aria-label="Book status: Original Text">
-                  <span class="material-icons" aria-hidden="true">translate</span>
-                  Original Text
-                </span>
-              )}
+              <p class="card-meta">{work.editions.reduce((sum, edition) => sum + edition.units.length, 0)} reading units</p>
+              <span class="card-action">Open work <span aria-hidden="true">→</span></span>
             </a>
-          );
-        })}
-      </div>
-    </section>
+          ))}
+        </div>
+      </section>
+    </>
   )}
 
-  {layout === 'book_index' && (
-    <section class="tool-container shell">
-      <div class="tool-header">
-        <div class="tool-title">
-          <span class="material-icons">menu_book</span>
-          <h2>{entry.data.book_title}</h2>
-        </div>
-        <div class="tool-actions">
-          <a class="btn btn-secondary btn-compact" href={relativeUrl(`authors/${authorSlug}`)}>
-            <span class="material-icons">person</span>
-            {entry.data.author}
-          </a>
-        </div>
-      </div>
-      <p class="tool-description">By {entry.data.author}</p>
-      
-      <div class="book-index-status" style="display: flex; gap: 8px; margin-bottom: 24px;">
-        <span
-          class:list={['book-status', `book-status-${entry.data.book_status || 'finished'}`]}
-          title={entry.data.book_status_description || ''}
-          aria-label={`Book status: ${entry.data.book_status_label || 'Finished'}`}
-        >
-          <span class="material-icons" aria-hidden="true">{entry.data.book_status_icon || 'check_circle'}</span>
-          {entry.data.book_status_label || 'Finished'}
-        </span>
-        {entry.data.has_original && (
-          <span class="book-status book-status-original" title="This book includes the original text" aria-label="Book status: Original Text">
-            <span class="material-icons" aria-hidden="true">translate</span>
-            Original Text
-          </span>
-        )}
-      </div>
-
-      {entry.data.persons && Object.keys(entry.data.persons).length > 0 && (
-        <details class="tei-registry">
-          <summary>Characters ({Object.keys(entry.data.persons).length})</summary>
-          <ul>
-            {Object.entries(entry.data.persons).map(([id, person]: [string, any]) => (
-              <li id={id}>
-                <strong>{person.name}</strong>
-                {person.note && <span> — {person.note}</span>}
-              </li>
-            ))}
-          </ul>
-        </details>
-      )}
-
-      {entry.data.places && Object.keys(entry.data.places).length > 0 && (
-        <details class="tei-registry">
-          <summary>Places ({Object.keys(entry.data.places).length})</summary>
-          <ul>
-            {Object.entries(entry.data.places).map(([id, place]: [string, any]) => (
-              <li id={id}>
-                <strong>{place.name}</strong>
-                {place.note && <span> — {place.note}</span>}
-              </li>
-            ))}
-          </ul>
-        </details>
-      )}
-
-      <div class="toc-tree">
-        <TocTree nodes={tocRoots} />
-      </div>
-    </section>
-  )}
-
-  {layout === 'book' && (
-    <section class="tool-container chapter-container shell">
-      <div class="tool-header chapter-header">
-        <nav class="chapter-breadcrumbs chapter-breadcrumbs-inline" aria-label="Breadcrumb">
-          <a href={relativeUrl('')}>Home</a>
-          <span aria-hidden="true">/</span>
-          <a href={relativeUrl(`authors/${authorSlug}`)}>{entry.data.author}</a>
-          <span aria-hidden="true">/</span>
-          <a href={relativeUrl(`authors/${authorSlug}/${bookSlug}`)}>{entry.data.book}</a>
+  {page.kind === 'work' && (
+    <>
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><span aria-current="page">{page.work.title}</span>
+      </nav>
+      <header class="work-hero">
+        <p class="eyebrow">Complete work</p>
+        <h1>{page.work.title}</h1>
+        <p class="byline">by <a href={authorHref(page.author)}>{page.author.name}</a></p>
+        <p class="work-intro">
+          Each language below is a complete standalone TEI edition. Its own hierarchy is preserved;
+          editions are not forced into artificial chapter-by-chapter alignment.
+        </p>
+        <nav class="edition-jump" aria-label="Available editions">
+          {page.work.editions.map((edition) => <a href={`#edition-${edition.code}`}>{edition.languageName}</a>)}
         </nav>
-      </div>
-
-      <div class="chapter-layout">
-        <article class="reader-content">
-          {entry.data.versions && entry.data.versions.length > 0 ? (
-            <div class="version-reader">
-              <div class="version-toggle" role="tablist" aria-label="Text version">
-                {entry.data.versions.map((v: any, i: number) => {
-                  const domId = versionDomId(v, i);
-                  return (
-                    <button
-                      class:list={["version-tab", { active: i === versionDefault }]}
-                      type="button"
-                      role="tab"
-                      aria-selected={i === versionDefault ? 'true' : 'false'}
-                      data-version={domId}
-                    >{versionLabel(v)}</button>
-                  );
-                })}
+      </header>
+      <div class="edition-stack">
+        {page.work.editions.map((edition) => (
+          <article class="edition-panel" id={`edition-${edition.code}`}>
+            <header class="edition-header">
+              <div>
+                <p class="eyebrow">{edition.kind === 'translation' ? 'Translation' : 'Edition'}</p>
+                <h2>{edition.languageName}</h2>
+                {edition.sourceTitle !== page.work.title && <p class="source-title" lang={edition.code}>{edition.sourceTitle}</p>}
               </div>
-              {entry.data.versions.map((v: any, i: number) => {
-                const domId = versionDomId(v, i);
-                return (
-                  <div class="version-panel" data-version={domId} lang={v.lang} hidden={i !== versionDefault} set:html={v.html} />
-                );
-              })}
+              <div class="edition-actions">
+                {edition.units[0] && <a class="button" href={unitHref(page.work, edition, edition.units[0])}>Start reading</a>}
+                <a class="text-link" href={`/tei/${page.author.slug}/${edition.sourceFile}`} download>Download TEI</a>
+              </div>
+            </header>
+            <div class="edition-meta">
+              <span>{edition.units.length} reading units</span>
+              <span>Organized by {edition.unitKind.replaceAll('_', ' ')}</span>
+              <span>{edition.sourceFile}</span>
             </div>
-          ) : (
-            <div set:html={entry.data.html} />
-          )}
-        </article>
-
-        <aside class="chapter-sidebar">
-          <nav class="chapter-navigation" aria-label="Chapter navigation">
-            {previousChapter ? (
-              <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`authors/${previousChapter.id}`)}>
-                <span class="material-icons" aria-hidden="true">arrow_back</span>
-                Previous
-              </a>
-            ) : (
-              <span class="btn btn-secondary chapter-nav-button is-disabled" aria-disabled="true">
-                <span class="material-icons" aria-hidden="true">arrow_back</span>
-                Previous
-              </span>
+            <section class="toc-panel" aria-labelledby={`toc-${edition.code}`}>
+              <h3 id={`toc-${edition.code}`}>Contents</h3>
+              <TocTree nodes={edition.toc} />
+            </section>
+            {(edition.persons.length > 0 || edition.places.length > 0) && (
+              <details class="registry-panel">
+                <summary>TEI registries <span>{edition.persons.length} people · {edition.places.length} places</span></summary>
+                <div class="registry-columns">
+                  {edition.persons.length > 0 && (
+                    <section><h3>People</h3><dl>{edition.persons.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>
+                  )}
+                  {edition.places.length > 0 && (
+                    <section><h3>Places</h3><dl>{edition.places.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>
+                  )}
+                </div>
+              </details>
             )}
-
-            <a class="btn btn-primary chapter-nav-button" href={relativeUrl(`authors/${authorSlug}/${bookSlug}`)}>
-              <span class="material-icons" aria-hidden="true">menu_book</span>
-              Contents
-            </a>
-
-            {nextChapter ? (
-              <a class="btn btn-secondary chapter-nav-button" href={relativeUrl(`authors/${nextChapter.id}`)}>
-                Next
-                <span class="material-icons" aria-hidden="true">arrow_forward</span>
-              </a>
-            ) : (
-              <span class="btn btn-secondary chapter-nav-button is-disabled" aria-disabled="true">
-                Next
-                <span class="material-icons" aria-hidden="true">arrow_forward</span>
-              </span>
-            )}
-          </nav>
-        </aside>
+          </article>
+        ))}
       </div>
-    </section>
+    </>
   )}
 
-  <script>
-    // Chapter version toggle: fully switch between text versions (e.g. original
-    // facing translation). Only one panel is shown at a time.
-    document.querySelectorAll('.version-reader').forEach((reader) => {
-      const tabs = reader.querySelectorAll<HTMLButtonElement>('.version-tab');
-      const panels = reader.querySelectorAll<HTMLElement>('.version-panel');
-      tabs.forEach((tab) => {
-        tab.addEventListener('click', () => {
-          const id = tab.dataset.version;
-          tabs.forEach((t) => {
-            const active = t === tab;
-            t.classList.toggle('active', active);
-            t.setAttribute('aria-selected', active ? 'true' : 'false');
+  {page.kind === 'reader' && (
+    <>
+      <nav class="breadcrumbs reader-breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><a href={workHref(page.work)}>{page.work.title}</a><span>/</span><span aria-current="page">{page.edition.languageName}</span>
+      </nav>
+      <div class="reader-toolbar" aria-label="Reading controls">
+        <div class="reader-edition">
+          <span class="language-badge">{page.edition.languageName}</span>
+          {page.work.editions.length > 1 && <a href={`${workHref(page.work)}#edition-${page.edition.code}`}>Other editions</a>}
+        </div>
+        <div class="reader-display">
+          <button type="button" data-reader-action="narrow" aria-label="Narrow text column">−</button>
+          <span>Width</span>
+          <button type="button" data-reader-action="wide" aria-label="Widen text column">+</button>
+          <button type="button" data-reader-action="smaller" aria-label="Decrease text size">A−</button>
+          <button type="button" data-reader-action="larger" aria-label="Increase text size">A+</button>
+        </div>
+      </div>
+      <article class="reader" lang={page.edition.code}>
+        <header class="reader-header">
+          {page.unit.context.length > 0 && <p class="reader-context">{page.unit.context.join(' · ')}</p>}
+          <h1>{page.unit.title}</h1>
+          <p><a href={workHref(page.work)}>{page.work.title}</a> · {page.author.name}</p>
+        </header>
+        <div class="reader-content" set:html={page.unit.html} />
+      </article>
+      <nav class="reader-pagination" aria-label="Reading order">
+        {page.unit.previousPath ? (
+          <a rel="prev" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.previousPath}`}><span>← Previous</span><strong>Earlier in this edition</strong></a>
+        ) : <span></span>}
+        {page.unit.nextPath && (
+          <a rel="next" class="next" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.nextPath}`}><span>Next →</span><strong>Continue reading</strong></a>
+        )}
+      </nav>
+      <script>
+        const readerRoot = document.documentElement;
+        let width = Number(localStorage.getItem('bookstacks-reader-width') || 44);
+        let scale = Number(localStorage.getItem('bookstacks-reader-scale') || 1);
+        const applyReaderSettings = () => {
+          readerRoot.style.setProperty('--reader-width', `${width}rem`);
+          readerRoot.style.setProperty('--reader-scale', String(scale));
+        };
+        applyReaderSettings();
+        document.querySelectorAll<HTMLButtonElement>('[data-reader-action]').forEach((button) => {
+          button.addEventListener('click', () => {
+            const action = button.dataset.readerAction;
+            if (action === 'narrow') width = Math.max(32, width - 4);
+            if (action === 'wide') width = Math.min(60, width + 4);
+            if (action === 'smaller') scale = Math.max(0.85, Number((scale - 0.05).toFixed(2)));
+            if (action === 'larger') scale = Math.min(1.3, Number((scale + 0.05).toFixed(2)));
+            localStorage.setItem('bookstacks-reader-width', String(width));
+            localStorage.setItem('bookstacks-reader-scale', String(scale));
+            applyReaderSettings();
           });
-          panels.forEach((p) => { p.hidden = p.dataset.version !== id; });
         });
-      });
-    });
-  </script>
+      </script>
+    </>
+  )}
 </BaseLayout>

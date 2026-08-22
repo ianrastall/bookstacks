@@ -1,79 +1,52 @@
 ---
-import fs from 'node:fs';
-import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { authorHref, getLibrary } from '../lib/library';
 
-const allEntries = await getCollection('authors');
-const authors = allEntries.filter(e => e.data.layout === 'author_index').sort((a, b) => a.id.localeCompare(b.id));
-const books = allEntries.filter(e => e.data.layout === 'book_index');
-const chapters = allEntries.filter(e => e.data.layout === 'book');
-
-// Helper to construct relative URL
-function relativeUrl(path: string) {
-  return import.meta.env.BASE_URL + path.replace(/^\//, '');
-}
-
-// An author has a portrait if public/img/authors/<slug>.png exists.
-function authorPortrait(slug: string) {
-  const rel = `img/authors/${slug}.png`;
-  return fs.existsSync(`public/${rel}`) ? relativeUrl(rel) : null;
-}
-
-function pluralize(count: number, singular: string, plural = `${singular}s`) {
-  return `${count} ${count === 1 ? singular : plural}`;
-}
-
-function bookCountForAuthor(slug: string) {
-  return books.filter(book => book.id.startsWith(`${slug}/`)).length;
-}
+const library = getLibrary();
+const format = new Intl.NumberFormat('en-US');
 ---
 
-<BaseLayout title="Home">
-  <main class="shell">
-    <h1 class="visually-hidden">Library</h1>
-    <section class="tool-container" style="margin-top: 2rem;">
-      <div class="tool-header">
-        <div class="tool-title">
-          <span class="material-icons">library_books</span>
-          <h2>Library</h2>
-        </div>
+<BaseLayout title="Bookstacks">
+  <section class="hero">
+    <p class="eyebrow">A library in the text</p>
+    <h1>Complete books,<br /><em>carefully structured.</em></h1>
+    <p class="hero-copy">
+      Read public-domain works prepared as standalone TEI editions—preserving their chapters,
+      scholarly divisions, named people, places, notes, and original languages.
+    </p>
+    <dl class="library-stats" aria-label="Library statistics">
+      <div><dt>{library.authors.length}</dt><dd>authors</dd></div>
+      <div><dt>{library.workCount}</dt><dd>works</dd></div>
+      <div><dt>{library.editionCount}</dt><dd>editions</dd></div>
+      <div><dt>{format.format(library.unitCount)}</dt><dd>reading units</dd></div>
+    </dl>
+  </section>
+
+  <section class="library-section" aria-labelledby="authors-heading">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Browse the collection</p>
+        <h2 id="authors-heading">Authors</h2>
       </div>
-      
-      <p class="tool-description">A curated index of public domain texts, with {authors.length} authors, {books.length} books, and {chapters.length} chapters.</p>
-      
-      <div class="tool-grid author-grid">
-        {authors.map(author => {
-          let slug = author.id;
-          if (slug.endsWith('/index')) slug = slug.slice(0, -6);
-          const portrait = authorPortrait(slug);
-          const bookCount = bookCountForAuthor(slug);
-          return (
-            <a class="tool-card author-card" href={relativeUrl(`authors/${slug}`)}>
-              <div class="author-card-media">
-                {portrait ? (
-                  <img
-                    src={portrait}
-                    alt={`Portrait of ${author.data.author_name}`}
-                    class="author-portrait"
-                    width="500"
-                    height="500"
-                    loading="lazy"
-                  />
-                ) : (
-                  <span class="material-icons author-card-icon" aria-hidden="true">person</span>
-                )}
-              </div>
-              <div class="author-card-body">
-                <h3 class="author-name">{author.data.author_name}</h3>
-                {author.data.author_dates && (
-                  <p class="author-dates">{author.data.author_dates.replace(/-/g, '–')}</p>
-                )}
-                <p class="author-book-count">{pluralize(bookCount, 'book')}</p>
-              </div>
-            </a>
-          );
-        })}
-      </div>
-    </section>
-  </main>
+      <p>Every card opens a shelf of complete works and language editions.</p>
+    </div>
+    <div class="author-grid">
+      {library.authors.map((author) => {
+        const editions = author.works.reduce((sum, work) => sum + work.editions.length, 0);
+        return (
+          <a class="author-card" href={authorHref(author)}>
+            <div class="portrait-frame">
+              <img src={`/img/authors/${author.portrait}`} alt={`Engraved portrait of ${author.name}`} width="500" height="500" loading="lazy" />
+            </div>
+            <div class="author-card-copy">
+              <p class="author-index">{String(library.authors.indexOf(author) + 1).padStart(2, '0')}</p>
+              <h3>{author.name}</h3>
+              <p class="author-dates">{author.dates}</p>
+              <p class="card-meta">{author.works.length} {author.works.length === 1 ? 'work' : 'works'} · {editions} {editions === 1 ? 'edition' : 'editions'}</p>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
 </BaseLayout>

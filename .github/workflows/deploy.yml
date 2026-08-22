@@ -1,19 +1,15 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Build and deploy on every push to the default branch.
   push:
     branches: [main]
-  # Allow manual runs from the Actions tab.
   workflow_dispatch:
 
-# Allow this job to deploy to GitHub Pages.
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only the latest Pages deployment to proceed.
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -25,7 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          # generate-sitemap reads git history for accurate <lastmod> dates.
           fetch-depth: 0
 
       - name: Setup Node
@@ -40,23 +35,12 @@ jobs:
       - name: Build Astro site
         run: npm run build
 
-      # Generate sitemap.xml into dist/ *before* the artifact is uploaded so it
-      # ships with the site and is regenerated on every build.
       - name: Generate sitemap
         id: sitemap
         uses: cicirello/generate-sitemap@v1
         with:
           base-url-path: https://bookstacks.org/
           path-to-root: dist
-
-      - name: Sitemap stats
-        run: |
-          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
-          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
-          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
-
-      - name: Verify build output
-        run: ls -la dist/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

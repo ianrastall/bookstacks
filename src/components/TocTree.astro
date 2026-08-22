@@ -1,60 +1,28 @@
 ---
-import { relativeUrl } from '../utils/relativeUrl';
-
-interface TocNode {
-  labels?: string[];
-  labelByLang?: Record<string, string>;
-  chapter?: {
-    id?: string;
-    href?: string;
-  };
-  children?: TocNode[];
-}
+import type { TocNode } from '../lib/library';
 
 interface Props {
   nodes: TocNode[];
 }
 
 const { nodes } = Astro.props;
-
-function displayTitle(node: TocNode): string {
-  return Array.from(node.labels || [])
-    .filter(Boolean)
-    .join(' • ');
-}
-
-function chapterHref(node: TocNode): string | null {
-  if (!node.chapter) return null;
-  if (node.chapter.href) return node.chapter.href;
-  if (node.chapter.id) return relativeUrl(`authors/${node.chapter.id}`);
-  return null;
-}
 ---
+
 <ol class="toc-list">
-  {nodes.map((node) => {
-    const title = displayTitle(node);
-    const href = chapterHref(node);
-
-    return (
-      <li class="toc-item">
-        {node.chapter ? (
-          href ? (
-            <a class="toc-link" href={href}>
-              <span class="toc-link-title">{title}</span>
-            </a>
-          ) : (
-            <span class="toc-link toc-link-disabled">
-              <span class="toc-link-title">{title}</span>
-            </span>
-          )
-        ) : (
-          <div class="toc-section-title">{title}</div>
-        )}
-
-        {node.children && node.children.length > 0 && (
-          <Astro.self nodes={node.children} />
-        )}
-      </li>
-    );
-  })}
+  {nodes.map((node) => (
+    <li class:list={['toc-item', { 'toc-group': !node.href }]}>
+      {node.href ? (
+        <a class="toc-link" href={node.href}>
+          <span>{node.label}</span>
+          <span class="toc-arrow" aria-hidden="true">→</span>
+        </a>
+      ) : (
+        <div class="toc-section-title">
+          <span>{node.label}</span>
+          <span class="toc-kind">{node.kind.replaceAll('_', ' ')}</span>
+        </div>
+      )}
+      {node.children.length > 0 && <Astro.self nodes={node.children} />}
+    </li>
+  ))}
 </ol>
