@@ -580,6 +580,51 @@
   },
   {
     "author": "Dostoevsky",
+    "title": "Crime and Punishment — Garnett translation",
+    "id": "crime-and-punishment",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../pg2554.epub" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "The Idiot — Martin translation",
+    "id": "the-idiot",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../pg2638-images.epub" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "The Brothers Karamazov — Garnett translation",
+    "id": "brothers-karamazov",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../pg28054.epub" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "Notes from the Underground — Garnett translation",
+    "id": "notes-from-underground",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../pg600.epub" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
+    "title": "Demons (The Possessed) — Garnett translation",
+    "id": "demons",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../pg8117-images.epub" }
+    ]
+  },
+  {
+    "author": "Dostoevsky",
     "title": "Demons",
     "combined_title": "Бесы",
     "id": "demons",

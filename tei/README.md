@@ -65,6 +65,15 @@ python ./validate_tei.py
   unattributed. The separately encoded censored chapter *У Тихона* is
   included in the *Бесы* file as a suppressed-chapter textual supplement,
   rather than emitted as a fragmentary eighth work.
+- Five independent English Dostoevsky translations are generated from Project
+  Gutenberg EPUBs 2554 (*Crime and Punishment*, Constance Garnett), 2638 (*The
+  Idiot*, Eva Martin), 28054 (*The Brothers Karamazov*, Constance Garnett), 600
+  (*Notes from the Underground*, Constance Garnett), and 8117 (*The Possessed /
+  Demons*, Constance Garnett). Their translator or authorial front matter,
+  part/book/epilogue hierarchy, chapters, subchapter sections, paragraphs,
+  letters, poetry, inline typography, and notes are retained; standalone end
+  labels and the collected *Brothers Karamazov* notes are encoded as trailer
+  and back matter rather than flattened into the last paragraph or chapter.
 - Source-specific HTML constructs are converted to TEI equivalents, and
   divisions that mix blocks with subdivisions are grouped into ordered
   section divisions.

@@ -6,12 +6,15 @@ const XML_NS = 'http://www.w3.org/XML/1998/namespace';
 const READING_KIND_PRIORITY = ['section', 'chapter', 'stave', 'bekker_page', 'part'];
 const SUPPLEMENTARY_KINDS = new Set([
   'preface',
+  'translator-preface',
+  'authorial-note',
   'postscript',
   'prologue',
   'epilogue',
   'introduction',
   'dedication',
   'characters',
+  'notes',
   'suppressed-chapter',
 ]);
 const WRAPPER_KINDS = new Set(['edition', 'translation']);
@@ -280,11 +283,18 @@ function parseEdition(filePath: string): ParsedEdition {
     kindCounts.set(kind, (kindCounts.get(kind) ?? 0) + 1);
   }
   const unitKind = READING_KIND_PRIORITY.find((kind) => kindCounts.has(kind)) ?? 'div';
+  const unitPriority = READING_KIND_PRIORITY.indexOf(unitKind);
+  const fallbackKinds = new Set(READING_KIND_PRIORITY.slice(unitPriority + 1));
   const selected = new Set<any>();
   for (const div of allDivs) {
     const kind = kindOf(div);
     const containsPrimaryUnits = descendants(div, 'div').some((child) => kindOf(child) === unitKind);
-    if (kind === unitKind || (SUPPLEMENTARY_KINDS.has(kind) && !containsPrimaryUnits)) selected.add(div);
+    const containsFallbackUnits = descendants(div, 'div').some((child) => fallbackKinds.has(kindOf(child)));
+    if (
+      kind === unitKind
+      || (fallbackKinds.has(kind) && !containsPrimaryUnits && !containsFallbackUnits)
+      || (SUPPLEMENTARY_KINDS.has(kind) && !containsPrimaryUnits)
+    ) selected.add(div);
   }
   if (selected.size === 0) {
     for (const div of allDivs.filter((candidate) => directDivChildren(candidate).length === 0)) selected.add(div);

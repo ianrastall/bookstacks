@@ -20,6 +20,54 @@ DC = "http://purl.org/dc/elements/1.1/"
 NS = {"opf": OPF, "dc": DC, "x": XHTML}
 
 SUPPORTED_TEXTS = {
+    "2554": {
+        "groups": {"book": 0, "part": 6, "epilogue": 1},
+        "chapters": 41,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^(?:CHAPTER\s+|[IVXLCDM]+\.?$)",
+        "fronts": 1,
+        "front_heading_prefixes": {
+            "TRANSLATOR'S PREFACE": "translator-preface",
+        },
+    },
+    "2638": {
+        "groups": {"book": 0, "part": 4, "epilogue": 0},
+        "chapters": 50,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^[IVXLCDM]+\.?$",
+        "fronts": 0,
+        "section_paragraph_classes": ["center"],
+        "sections": 1,
+    },
+    "28054": {
+        "groups": {"book": 12, "part": 4, "epilogue": 1},
+        "group_levels": {"part": 1, "book": 2, "epilogue": 1},
+        "chapters": 96,
+        "unit_type": "chapter",
+        "fronts": 0,
+        "backs": 1,
+        "back_headings": {"FOOTNOTES": "notes"},
+        "section_paragraph_classes": ["center"],
+        "sections": 9,
+    },
+    "600": {
+        "groups": {"book": 0, "part": 2, "epilogue": 0},
+        "chapters": 21,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^[IVXLCDM]+\.?$",
+        "fronts": 1,
+        "front_heading_prefixes": {
+            "NOTES FROM THE UNDERGROUND": "authorial-note",
+        },
+    },
+    "8117": {
+        "groups": {"book": 0, "part": 3, "epilogue": 0},
+        "chapters": 23,
+        "unit_type": "chapter",
+        "fronts": 0,
+        "section_paragraph_classes": ["centered"],
+        "sections": 102,
+    },
     "98": {
         "groups": {"book": 3, "part": 0, "epilogue": 0},
         "chapters": 45,
@@ -129,6 +177,9 @@ def convert_inline(source: etree._Element, target: etree._Element) -> None:
         elif local in {"b", "strong"}:
             converted = tei("hi", rend="bold")
             convert_inline(child, converted)
+        elif local in {"small", "big", "sup", "sub"}:
+            converted = tei("hi", rend=local)
+            convert_inline(child, converted)
         elif local == "br":
             converted = tei("lb")
         elif local == "span":
@@ -189,8 +240,14 @@ def convert_block(
 
     if local == "p" and "footnote" in css_class.split():
         note_number += 1
-        note = tei("note", type="translation", place="foot", xml_id=f"eng-note-{note_number:04d}")
         text = normalized_text(source)
+        note_type = "translation" if "TRANSLATOR" in text.upper() else "editorial"
+        note = tei(
+            "note",
+            type=note_type,
+            place="foot",
+            xml_id=f"eng-note-{note_number:04d}",
+        )
         note.text = re.sub(r"^\*\s*", "", text)
         return note, paragraph_number, note_number
 
@@ -210,10 +267,13 @@ def convert_block(
             return None, paragraph_number, note_number
         paragraph_number += 1
         paragraph = tei("p", xml_id=f"eng-p-{paragraph_number:06d}")
-        if "noindent" in css_class.split():
-            paragraph.set("rend", "noindent")
-        elif "letter" in css_class.split():
-            paragraph.set("rend", "letter")
+        rendition_classes = [
+            class_name
+            for class_name in css_class.split()
+            if class_name in {"noindent", "letter", "right", "center", "centered", "p2"}
+        ]
+        if rendition_classes:
+            paragraph.set("rend", " ".join(rendition_classes))
         convert_inline(source, paragraph)
         return paragraph, paragraph_number, note_number
 
@@ -406,8 +466,8 @@ def build_header(metadata: dict[str, str], text_id: str) -> etree._Element:
     description.text = (
         "Converted from the Project Gutenberg XHTML spine. Gutenberg header, "
         "contents, and license boilerplate are omitted. Source book, part, "
-        "epilogue, preface, chapter, paragraph, poetry, emphasis, and footnote "
-        "structures are retained where present."
+        "epilogue, preface, chapter, subchapter section, paragraph, poetry, "
+        "letter, emphasis, and footnote structures are retained where present."
     )
     project_desc.append(description)
     encoding_desc.append(project_desc)
@@ -492,18 +552,27 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
     work = tei("div", type=work_type, xml_id=f"{text_id}-eng-text")
     body.append(work)
     text.append(body)
+    back = tei("back") if profile.get("backs", 0) else None
+    if back is not None:
+        text.append(back)
     root.append(text)
 
     grouped_work = any(profile["groups"].values())
     current_group: etree._Element | None = None if grouped_work else work
+    current_groups: dict[int, etree._Element] = {}
     current_chapter: etree._Element | None = None
+    current_section: etree._Element | None = None
     current_front: etree._Element | None = None
+    current_back: etree._Element | None = None
     group_counts = {"book": 0, "part": 0, "epilogue": 0}
     chapter_number = 0
+    section_number = 0
     paragraph_number = 0
     note_number = 0
     total_chapters = 0
+    total_sections = 0
     front_number = 0
+    back_number = 0
     chapter_has_content = False
     chapter_subtitle_set = False
     finished = False
@@ -531,14 +600,25 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     "AUTHOR'S PREFACE"
                 ):
                     front_type = "preface"
+                elif canonical.startswith("TRANSLATOR'S PREFACE"):
+                    front_type = "translator-preface"
                 elif canonical == "POSTSCRIPT":
                     front_type = "postscript"
                 elif canonical == "CHARACTERS":
                     front_type = "characters"
+                if local != "h1":
+                    for prefix, configured_type in profile.get(
+                        "front_heading_prefixes", {}
+                    ).items():
+                        if canonical.startswith(prefix):
+                            front_type = configured_type
+                            break
 
                 if front_type and front is not None:
                     front_number += 1
                     current_chapter = None
+                    current_section = None
+                    current_back = None
                     current_front = tei(
                         "div",
                         type=front_type,
@@ -551,6 +631,24 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     front.append(current_front)
                     continue
 
+                back_type = profile.get("back_headings", {}).get(canonical)
+                if back_type and back is not None:
+                    back_number += 1
+                    current_chapter = None
+                    current_section = None
+                    current_front = None
+                    current_back = tei(
+                        "div",
+                        type=back_type,
+                        n=str(back_number),
+                        xml_id=f"eng-back-{back_number:02d}-{back_type}",
+                    )
+                    back_head = tei("head")
+                    back_head.text = block_text
+                    current_back.append(back_head)
+                    back.append(current_back)
+                    continue
+
                 if canonical in {"CONTENTS", "LIST OF ILLUSTRATIONS"}:
                     current_front = None
                     continue
@@ -560,7 +658,9 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     group_type = "book"
                 elif canonical.startswith("PART "):
                     group_type = "part"
-                elif canonical.startswith(("FIRST EPILOGUE", "SECOND EPILOGUE")):
+                elif canonical == "EPILOGUE" or canonical.startswith(
+                    ("FIRST EPILOGUE", "SECOND EPILOGUE")
+                ):
                     group_type = "epilogue"
 
                 if group_type:
@@ -568,7 +668,19 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     group_number = group_counts[group_type]
                     chapter_number = 0
                     current_chapter = None
+                    current_section = None
                     current_front = None
+                    current_back = None
+                    group_level = profile.get("group_levels", {}).get(group_type, 1)
+                    parent_levels = [level for level in current_groups if level < group_level]
+                    group_parent = (
+                        current_groups[max(parent_levels)] if parent_levels else work
+                    )
+                    current_groups = {
+                        level: group
+                        for level, group in current_groups.items()
+                        if level < group_level
+                    }
                     current_group = tei(
                         "div",
                         type=group_type,
@@ -578,21 +690,29 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     group_head = tei("head")
                     group_head.text = block_text
                     current_group.append(group_head)
-                    work.append(current_group)
+                    group_parent.append(current_group)
+                    current_groups[group_level] = current_group
                     continue
 
                 unit_type = profile["unit_type"]
+                unit_heading_pattern = profile.get("unit_heading_pattern")
                 is_unit = (
-                    canonical.startswith("CHAPTER ")
-                    if unit_type == "chapter"
-                    else canonical.startswith("STAVE ")
+                    re.match(unit_heading_pattern, canonical) is not None
+                    if unit_heading_pattern
+                    else (
+                        canonical.startswith("CHAPTER ")
+                        if unit_type == "chapter"
+                        else canonical.startswith("STAVE ")
+                    )
                 )
                 if is_unit:
                     if current_group is None:
                         continue
                     chapter_number += 1
                     total_chapters += 1
+                    section_number = 0
                     current_front = None
+                    current_back = None
                     group_id = current_group.get(f"{{{XML}}}id")
                     current_chapter = tei(
                         "div",
@@ -604,6 +724,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     chapter_head.text = block_text
                     current_chapter.append(chapter_head)
                     current_group.append(current_chapter)
+                    current_section = None
                     chapter_has_content = False
                     chapter_subtitle_set = False
                     continue
@@ -618,7 +739,41 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     chapter_subtitle_set = True
                 continue
 
-            title_paragraph = profile["chapter_title_paragraph"]
+            source_classes = set(source_block.get("class", "").split())
+            if (
+                current_chapter is not None
+                and local == "p"
+                and profile.get("section_paragraph_classes")
+                and source_classes.intersection(profile["section_paragraph_classes"])
+            ):
+                if canonical == "THE END":
+                    trailer = tei("trailer")
+                    convert_inline(source_block, trailer)
+                    trailer_parent = (
+                        current_section
+                        if current_section is not None
+                        else current_chapter
+                    )
+                    trailer_parent.append(trailer)
+                    chapter_has_content = True
+                    continue
+                section_number += 1
+                total_sections += 1
+                chapter_id = current_chapter.get(f"{{{XML}}}id")
+                current_section = tei(
+                    "div",
+                    type="section",
+                    n=str(section_number),
+                    xml_id=f"{chapter_id}-section-{section_number:03d}",
+                )
+                section_head = tei("head")
+                convert_inline(source_block, section_head)
+                current_section.append(section_head)
+                current_chapter.append(current_section)
+                chapter_has_content = True
+                continue
+
+            title_paragraph = profile.get("chapter_title_paragraph")
             if (
                 current_chapter is not None
                 and title_paragraph
@@ -636,7 +791,19 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                 chapter_subtitle_set = True
                 continue
 
-            target = current_chapter if current_chapter is not None else current_front
+            target = next(
+                (
+                    candidate
+                    for candidate in (
+                        current_section,
+                        current_chapter,
+                        current_front,
+                        current_back,
+                    )
+                    if candidate is not None
+                ),
+                None,
+            )
             if target is None:
                 continue
             converted, paragraph_number, note_number = convert_block(
@@ -652,16 +819,21 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
     expected_groups = profile["groups"]
     expected_chapters = profile["chapters"]
     expected_fronts = profile["fronts"]
+    expected_backs = profile.get("backs", 0)
+    expected_sections = profile.get("sections", 0)
     if (
         group_counts != expected_groups
         or total_chapters != expected_chapters
         or front_number != expected_fronts
+        or back_number != expected_backs
+        or total_sections != expected_sections
     ):
         raise ValueError(
             "Unexpected source structure: "
-            f"groups={group_counts}, chapters={total_chapters}, fronts={front_number}; "
+            f"groups={group_counts}, chapters={total_chapters}, sections={total_sections}, "
+            f"fronts={front_number}, backs={back_number}; "
             f"expected groups={expected_groups}, chapters={expected_chapters}, "
-            f"fronts={expected_fronts}"
+            f"sections={expected_sections}, fronts={expected_fronts}, backs={expected_backs}"
         )
     return etree.ElementTree(root)
 
