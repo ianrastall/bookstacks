@@ -119,7 +119,7 @@ const description = page.kind === 'author'
                 <p>{edition.units.length} reading units · organized by {edition.unitKind.replaceAll('_', ' ')}</p>
               </div>
               <div class="edition-actions">
-                {edition.units[0] && <a class="btn btn-primary btn-compact" href={unitHref(page.work, edition, edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span>Start reading</a>}
+                {edition.units[0] && <a class="btn btn-primary btn-compact" href={unitHref(page.work, edition, edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span>Start {edition.languageName} edition</a>}
                 <a class="btn btn-secondary btn-compact" href={`/tei/${page.author.slug}/${edition.sourceFile}`} download><span class="material-icons" aria-hidden="true">download</span>TEI</a>
               </div>
             </header>
@@ -146,7 +146,7 @@ const description = page.kind === 'author'
     <section class="chapter-container shell">
       <header class="chapter-header">
         <nav class="chapter-breadcrumbs" aria-label="Breadcrumb">
-          <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><a href={workHref(page.work)}>{page.work.title}</a>
+          <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><a href={`${workHref(page.work)}#edition-${page.edition.code}`}>{page.work.title}</a>
         </nav>
         <p class="reader-context" lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>{[page.edition.languageName, ...page.unit.context].join(' · ')}</p>
         <h1 lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>{page.unit.title}</h1>
