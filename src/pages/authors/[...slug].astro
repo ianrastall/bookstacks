@@ -113,7 +113,7 @@ const description = page.kind === 'author'
             <header class="edition-header">
               <div>
                 <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{edition.languageName}</span>
-                <h3>{edition.sourceTitle}</h3>
+                <h3 lang={edition.code} translate="no">{edition.sourceTitle}</h3>
                 <p>{edition.units.length} reading units · organized by {edition.unitKind.replaceAll('_', ' ')}</p>
               </div>
               <div class="edition-actions">
@@ -121,7 +121,7 @@ const description = page.kind === 'author'
                 <a class="btn btn-secondary btn-compact" href={`/tei/${page.author.slug}/${edition.sourceFile}`} download><span class="material-icons" aria-hidden="true">download</span>TEI</a>
               </div>
             </header>
-            <div class="toc-tree">
+            <div class="toc-tree" lang={edition.code} translate="no">
               <h4>Contents</h4>
               <TocTree nodes={edition.toc} />
             </div>
@@ -146,11 +146,11 @@ const description = page.kind === 'author'
         <nav class="chapter-breadcrumbs" aria-label="Breadcrumb">
           <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><a href={workHref(page.work)}>{page.work.title}</a>
         </nav>
-        <p class="reader-context">{[page.edition.languageName, ...page.unit.context].join(' · ')}</p>
-        <h1>{page.unit.title}</h1>
+        <p class="reader-context" lang={page.edition.code} translate="no">{[page.edition.languageName, ...page.unit.context].join(' · ')}</p>
+        <h1 lang={page.edition.code} translate="no">{page.unit.title}</h1>
       </header>
       <div class="chapter-layout">
-        <article class="reader-content" lang={page.edition.code} set:html={page.unit.html} />
+        <article class="reader-content" lang={page.edition.code} translate="no" set:html={page.unit.html} />
         <aside class="chapter-sidebar" aria-label="Reading controls and navigation">
           <div class="reader-controls panel">
             <strong>{page.edition.languageName} edition</strong>
