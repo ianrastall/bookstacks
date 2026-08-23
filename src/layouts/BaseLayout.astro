@@ -45,6 +45,12 @@ const palettes = [
         const palette = localStorage.getItem('bookstacks-palette');
         const allowed = ['blue', 'green', 'red', 'orange', 'indigo', 'brown', 'coral'];
         document.documentElement.dataset.palette = palette && allowed.includes(palette) ? palette : 'coral';
+        const serif = localStorage.getItem('bookstacks-reader-serif');
+        const serifFonts = ['classic', 'charter', 'old-style', 'garamond', 'platform', 'times'];
+        document.documentElement.dataset.readerSerif = serif && serifFonts.includes(serif) ? serif : 'classic';
+        const sans = localStorage.getItem('bookstacks-reader-sans');
+        const sansFonts = ['office', 'system', 'helvetica', 'humanist', 'screen', 'trebuchet'];
+        document.documentElement.dataset.readerSans = sans && sansFonts.includes(sans) ? sans : 'office';
       })();
     </script>
   </head>

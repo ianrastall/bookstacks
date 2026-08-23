@@ -163,6 +163,31 @@ const description = page.kind === 'author'
               <button type="button" data-reader-action="smaller" aria-label="Decrease text size">A−</button>
               <button type="button" data-reader-action="larger" aria-label="Increase text size">A+</button>
             </div>
+            <div class="reader-font-controls">
+              <label class="reader-font-picker">
+                <span>Serif cascade</span>
+                <select data-reader-font="serif" aria-describedby="reader-font-note">
+                  <option value="classic">Constantia, "Georgia Pro", Georgia, "Times New Roman", Times, serif</option>
+                  <option value="charter">Charter, "Bitstream Charter", "Sitka Text", Cambria, Constantia, Georgia, serif</option>
+                  <option value="old-style">"Iowan Old Style", Baskerville, "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif</option>
+                  <option value="garamond">Garamond, "EB Garamond", "Adobe Garamond Pro", Constantia, Georgia, "Times New Roman", serif</option>
+                  <option value="platform">ui-serif, Georgia, Cambria, "Times New Roman", serif</option>
+                  <option value="times">"Times New Roman", Times, "Liberation Serif", serif</option>
+                </select>
+              </label>
+              <label class="reader-font-picker">
+                <span>Sans-serif cascade</span>
+                <select data-reader-font="sans" aria-describedby="reader-font-note">
+                  <option value="office">"Segoe UI", Calibri, Arial, sans-serif</option>
+                  <option value="system">system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif</option>
+                  <option value="helvetica">"Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif</option>
+                  <option value="humanist">"Avenir Next", Avenir, "Gill Sans", "Gill Sans MT", Calibri, "Segoe UI", sans-serif</option>
+                  <option value="screen">Verdana, Geneva, Tahoma, Arial, sans-serif</option>
+                  <option value="trebuchet">"Trebuchet MS", Tahoma, "Segoe UI", Arial, sans-serif</option>
+                </select>
+              </label>
+              <p class="reader-font-note" id="reader-font-note">Each option is an ordered CSS cascade. The browser uses the first installed font.</p>
+            </div>
           </div>
           <nav class="chapter-navigation" aria-label="Reading order">
             {page.unit.previousPath ? <a class="btn btn-secondary chapter-nav-button" rel="prev" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.previousPath}`}><span class="material-icons" aria-hidden="true">arrow_back</span>Previous</a> : <span class="btn btn-secondary chapter-nav-button is-disabled">Previous</span>}
@@ -175,6 +200,8 @@ const description = page.kind === 'author'
         const readerRoot = document.documentElement;
         let width = Number(localStorage.getItem('bookstacks-reader-width') || 44);
         let scale = Number(localStorage.getItem('bookstacks-reader-scale') || 1);
+        const serifSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="serif"]');
+        const sansSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="sans"]');
         const applyReaderSettings = () => {
           readerRoot.style.setProperty('--reader-width', `${width}rem`);
           readerRoot.style.setProperty('--reader-scale', String(scale));
@@ -192,6 +219,20 @@ const description = page.kind === 'author'
             applyReaderSettings();
           });
         });
+        if (serifSelect) {
+          serifSelect.value = readerRoot.dataset.readerSerif || 'classic';
+          serifSelect.addEventListener('change', () => {
+            readerRoot.dataset.readerSerif = serifSelect.value;
+            localStorage.setItem('bookstacks-reader-serif', serifSelect.value);
+          });
+        }
+        if (sansSelect) {
+          sansSelect.value = readerRoot.dataset.readerSans || 'office';
+          sansSelect.addEventListener('change', () => {
+            readerRoot.dataset.readerSans = sansSelect.value;
+            localStorage.setItem('bookstacks-reader-sans', sansSelect.value);
+          });
+        }
       </script>
     </section>
   )}
