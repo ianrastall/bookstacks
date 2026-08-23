@@ -364,8 +364,13 @@ button, input, select { font: inherit; }
 }
 
 .book-card { justify-content: flex-start; }
+.book-card-main { display: flex; flex-direction: column; gap: 0.8rem; color: var(--text); text-decoration: none; }
+.book-card-main:hover h3 { color: var(--accent); }
 .book-card .card-meta { margin: auto 0 0; color: var(--muted); font-size: 0.88rem; }
 .book-badges { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.book-badges .book-status { border: 1px solid transparent; text-decoration: none; }
+.book-badges .book-status:hover,
+.book-badges .book-status:focus-visible { border-color: var(--accent); background: var(--panel); color: var(--accent); }
 
 .book-status {
   display: inline-flex;

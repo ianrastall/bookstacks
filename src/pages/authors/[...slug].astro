@@ -84,16 +84,18 @@ const description = page.kind === 'author'
       </div>
       <div class="tool-grid">
         {page.author.works.map((work) => (
-          <a class="tool-card book-card" href={workHref(work)}>
-            <div class="tool-icon"><span class="material-icons" aria-hidden="true">menu_book</span></div>
-            <h3>{work.title}</h3>
+          <article class="tool-card book-card">
+            <a class="book-card-main" href={workHref(work)}>
+              <div class="tool-icon"><span class="material-icons" aria-hidden="true">menu_book</span></div>
+              <h3>{work.title}</h3>
+            </a>
             <div class="book-badges">
               {work.editions.map((edition) => (
-                <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{edition.languageName}</span>
+                <a class="book-status book-status-original" href={editionHref(work, edition)} aria-label={`${edition.languageName} contents for ${work.title}`}><span class="material-icons" aria-hidden="true">translate</span>{edition.languageName}</a>
               ))}
             </div>
             <p class="card-meta">{work.editions.length} {work.editions.length === 1 ? 'TEI edition' : 'TEI editions'}</p>
-          </a>
+          </article>
         ))}
       </div>
     </section>
