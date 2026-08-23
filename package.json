@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro check && astro build",
+    "exports": "python scripts/build_exports.py --all",
+    "exports:sample": "python scripts/build_exports.py --file tei/shakespeare/shakespeare_alls-well-that-ends-well_fra.xml",
     "preview": "astro preview",
     "check": "astro check"
   },

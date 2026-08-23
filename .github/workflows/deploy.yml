@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      BOOKSTACKS_EXPORT_ROOT: ${{ github.workspace }}/build/publications
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -29,8 +32,75 @@ jobs:
           node-version: 24
           cache: npm
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+
+      - name: Setup Java for EPUBCheck
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Cache Tectonic bundles
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/Tectonic
+          key: tectonic-0.17.0-${{ runner.os }}
+
+      - name: Cache generated publications
+        uses: actions/cache@v4
+        with:
+          path: build/publications
+          key: publications-${{ runner.os }}-${{ hashFiles('tei/**/*.xml', 'scripts/build_exports.py', 'scripts/export/**', 'src/assets/fonts/**', 'requirements-exports.txt') }}
+          restore-keys: |
+            publications-${{ runner.os }}-
+
+      - name: Install export toolchain
+        shell: bash
+        run: |
+          python -m pip install -r requirements-exports.txt
+          curl -fsSLO https://github.com/jgm/pandoc/releases/download/3.8.3/pandoc-3.8.3-1-amd64.deb
+          sudo dpkg -i pandoc-3.8.3-1-amd64.deb
+          curl -fsSL https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-unknown-linux-musl.tar.gz | tar -xz
+          sudo install -m 0755 tectonic /usr/local/bin/tectonic
+          curl -fsSLo epubcheck.zip https://github.com/w3c/epubcheck/releases/download/v5.3.0/epubcheck-5.3.0.zip
+          unzip -q epubcheck.zip -d .tools
+
       - name: Install dependencies
         run: npm ci
+
+      - name: Generate publication formats
+        run: npm run exports
+
+      - name: Validate EPUB publications
+        shell: bash
+        run: |
+          while IFS= read -r -d '' publication; do
+            java -jar .tools/epubcheck-5.3.0/epubcheck.jar "$publication"
+          done < <(find build/publications -name '*.epub' -print0)
+
+      - name: Stage changed release assets
+        run: python scripts/stage_release_assets.py --input build/publications --output build/release-assets
+
+      - name: Publish changed publication files
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          shopt -s nullglob
+          for release_dir in build/release-assets/*; do
+            tag="$(basename "$release_dir")"
+            gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" \
+              --target "$GITHUB_SHA" \
+              --title "Bookstacks ${tag#publications-} publications" \
+              --notes "Automatically generated from the canonical TEI editions. Per-edition checksums remain in the build manifest." \
+              --latest=false
+            mapfile -d '' assets < <(find "$release_dir" -maxdepth 1 -type f -print0)
+            gh release upload "$tag" "${assets[@]}" --clobber
+          done
 
       - name: Build Astro site
         run: npm run build
@@ -43,7 +113,7 @@ jobs:
           path-to-root: dist
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: dist
 

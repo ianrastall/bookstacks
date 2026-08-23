@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { DOMParser } from '@xmldom/xmldom';
+import { isLocale, ui, type Locale } from './i18n';
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
 const READING_KIND_PRIORITY = ['scene', 'section', 'chapter', 'stave', 'bekker_page', 'part'];
@@ -207,6 +208,11 @@ interface EntityMaps {
   referencedNoteIds: Set<string>;
 }
 
+interface RenderContext {
+  locale: Locale;
+  noteIndex: number;
+}
+
 let libraryCache: Library | undefined;
 
 export function getLibrary(): Library {
@@ -277,6 +283,48 @@ export function unitHref(work: Pick<Work, 'authorSlug' | 'slug'>, edition: Pick<
   return `${editionHref(work, edition)}/${unit.path}`;
 }
 
+export function localizedAuthorHref(author: Pick<Author, 'slug'>, locale: Locale): string {
+  return `/${locale}/authors/${author.slug}`;
+}
+
+export function localizedWorkHref(work: Pick<Work, 'authorSlug' | 'slug'>, locale: Locale): string {
+  return `${localizedAuthorHref({ slug: work.authorSlug }, locale)}/${work.slug}`;
+}
+
+export function localizedEditionHref(work: Pick<Work, 'authorSlug' | 'slug'>, edition: Pick<Edition, 'code'>): string {
+  const locale = isLocale(edition.code) ? edition.code : 'en';
+  return localizedWorkHref(work, locale);
+}
+
+export function localizedUnitHref(work: Pick<Work, 'authorSlug' | 'slug'>, edition: Pick<Edition, 'code'>, unit: Pick<ReadingUnit, 'path'>): string {
+  return `${localizedEditionHref(work, edition)}/${unit.path}`;
+}
+
+export function editionForLocale(work: Pick<Work, 'editions'>, locale: Locale): Edition | undefined {
+  return work.editions.find((edition) => edition.code === locale);
+}
+
+export function localizedWorkTitle(work: Work, locale: Locale): string {
+  return editionForLocale(work, locale)?.sourceTitle ?? work.title;
+}
+
+export function editionDownloadBaseHref(author: Pick<Author, 'slug'>, edition: Pick<Edition, 'sourceFile'>): string {
+  const stem = edition.sourceFile.replace(/\.xml$/i, '');
+  const language = stem.match(/_(eng|fra|grc|rus)$/)?.[1] ?? 'eng';
+  const tag = language === 'eng'
+    ? `publications-en-${author.slug.localeCompare('n') < 0 ? 'a-m' : 'n-z'}`
+    : `publications-${language === 'fra' ? 'fr' : language === 'rus' ? 'ru' : 'grc'}`;
+  return `https://github.com/ianrastall/bookstacks/releases/download/${tag}/${stem}`;
+}
+
+export function editionDownloadHref(
+  author: Pick<Author, 'slug'>,
+  edition: Pick<Edition, 'sourceFile'>,
+  suffix: 'cover.png' | 'epub' | 'pdf' | 'html.zip' | 'docx' | 'md' | 'latex.zip' | 'jsonl' | 'manifest.json',
+): string {
+  return `${editionDownloadBaseHref(author, edition)}.${suffix}`;
+}
+
 function findXmlFiles(root: string): string[] {
   if (!fs.existsSync(root)) throw new Error(`TEI directory not found: ${root}`);
   return fs.readdirSync(root, { withFileTypes: true })
@@ -293,6 +341,7 @@ function parseEdition(filePath: string): ParsedEdition {
   if (!match) throw new Error(`Unexpected TEI filename: ${fileName}`);
   const [, authorSlug, workSlug, fileLanguage] = match;
   const language = LANGUAGE_DATA[fileLanguage] ?? { code: fileLanguage, name: fileLanguage };
+  const locale: Locale = isLocale(language.code) ? language.code : 'en';
   const source = fs.readFileSync(filePath, 'utf8');
   const document = new DOMParser().parseFromString(source, 'application/xml');
   const parseError = descendants(document, 'parsererror')[0];
@@ -345,16 +394,16 @@ function parseEdition(filePath: string): ParsedEdition {
       pathValue = finalSegments.join('/');
     }
     usedPaths.add(pathValue);
-    const title = divisionLabel(div, segmentCache);
+    const title = divisionLabel(div, segmentCache, locale);
     const context = divisionAncestors(div, text)
       .filter((ancestor) => !WRAPPER_KINDS.has(kindOf(ancestor)))
-      .map((ancestor) => divisionLabel(ancestor, segmentCache));
+      .map((ancestor) => divisionLabel(ancestor, segmentCache, locale));
     units.push({
       path: pathValue,
       segments: finalSegments,
       title,
       context,
-      html: renderDivision(div, entities),
+      html: renderDivision(div, entities, locale),
     });
   }
 
@@ -364,8 +413,8 @@ function parseEdition(filePath: string): ParsedEdition {
   }
 
   const kind = allDivs.map(kindOf).find((item) => item === 'edition' || item === 'translation') ?? 'edition';
-  const routeBase = `/authors/${authorSlug}/${workSlug}/${language.code}`;
-  const toc = buildDocumentToc(text, selected, units, segmentCache, routeBase);
+  const routeBase = `/${locale}/authors/${authorSlug}/${workSlug}`;
+  const toc = buildDocumentToc(text, selected, units, segmentCache, routeBase, locale);
 
   return {
     authorSlug,
@@ -433,19 +482,20 @@ function buildDocumentToc(
   units: ReadingUnit[],
   segmentCache: Map<any, string>,
   routeBase: string,
+  locale: Locale,
 ): TocNode[] {
   const unitByPath = new Map(units.map((unit) => [unit.path, unit]));
   const sections: TocNode[] = [];
   for (const areaName of ['front', 'body', 'back']) {
     const area = directElementChildren(text).find((child) => child.localName === areaName);
     if (!area) continue;
-    const children = buildTocChildren(area, text, selected, unitByPath, segmentCache, routeBase);
+    const children = buildTocChildren(area, text, selected, unitByPath, segmentCache, routeBase, locale);
     if (!children.length) continue;
     if (areaName === 'body') sections.push(...children);
-    else sections.push({ label: areaName === 'front' ? 'Front matter' : 'Back matter', kind: areaName, children });
+    else sections.push({ label: areaName === 'front' ? ui(locale).frontMatter : ui(locale).backMatter, kind: areaName, children });
   }
   if (!sections.length) {
-    sections.push(...buildTocChildren(text, text, selected, unitByPath, segmentCache, routeBase));
+    sections.push(...buildTocChildren(text, text, selected, unitByPath, segmentCache, routeBase, locale));
   }
   return sections;
 }
@@ -457,6 +507,7 @@ function buildTocChildren(
   unitByPath: Map<string, ReadingUnit>,
   segmentCache: Map<any, string>,
   routeBase: string,
+  locale: Locale,
 ): TocNode[] {
   const nodes: TocNode[] = [];
   for (const div of directDivChildren(parent)) {
@@ -473,11 +524,11 @@ function buildTocChildren(
       }
       continue;
     }
-    const children = buildTocChildren(div, text, selected, unitByPath, segmentCache, routeBase);
+    const children = buildTocChildren(div, text, selected, unitByPath, segmentCache, routeBase, locale);
     if (!children.length) continue;
     const kind = kindOf(div);
     if (WRAPPER_KINDS.has(kind) && !directHead(div)) nodes.push(...children);
-    else nodes.push({ label: divisionLabel(div, segmentCache), kind, children });
+    else nodes.push({ label: divisionLabel(div, segmentCache, locale), kind, children });
   }
   return nodes;
 }
@@ -511,33 +562,34 @@ function divisionSegment(div: any, cache: Map<any, string>): string {
   return segment;
 }
 
-function divisionLabel(div: any, segmentCache: Map<any, string>): string {
+function divisionLabel(div: any, segmentCache: Map<any, string>, locale: Locale): string {
   const head = directHead(div);
   if (head) return truncate(cleanText(head.textContent), 180);
   const kind = kindOf(div);
   const n = cleanText(div.getAttribute?.('n'));
-  if (n && !/^urn:/i.test(n)) return `${displayKind(kind)} ${n}`;
+  if (n && !/^urn:/i.test(n)) return `${displayKind(kind, locale)} ${n}`;
   const segment = divisionSegment(div, segmentCache);
   const ordinal = segment.match(/-(\d+)$/)?.[1]?.replace(/^0+/, '') || '';
-  return ordinal ? `${displayKind(kind)} ${ordinal}` : displayKind(kind);
+  return ordinal ? `${displayKind(kind, locale)} ${ordinal}` : displayKind(kind, locale);
 }
 
-function renderDivision(div: any, entities: EntityMaps): string {
+function renderDivision(div: any, entities: EntityMaps, locale: Locale): string {
+  const context: RenderContext = { locale, noteIndex: 0 };
   let html = '';
   for (const child of directChildNodes(div)) {
     if (child.nodeType === 1 && child.localName === 'head') continue;
-    html += renderNode(child, entities, 2);
+    html += renderNode(child, entities, 2, context);
   }
   return html;
 }
 
-function renderNode(node: any, entities: EntityMaps, headingLevel: number): string {
+function renderNode(node: any, entities: EntityMaps, headingLevel: number, context: RenderContext): string {
   if (!node) return '';
   if (node.nodeType === 3 || node.nodeType === 4) return escapeHtml(node.nodeValue ?? '');
   if (node.nodeType !== 1) return '';
 
   const name = node.localName;
-  const children = () => directChildNodes(node).map((child) => renderNode(child, entities, headingLevel)).join('');
+  const children = () => directChildNodes(node).map((child) => renderNode(child, entities, headingLevel, context)).join('');
   const text = () => cleanText(node.textContent);
   const lang = node.getAttribute?.('xml:lang') || node.getAttributeNS?.(XML_NS, 'lang');
   const langAttr = lang ? ` lang="${escapeAttr(lang)}"` : '';
@@ -545,7 +597,7 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
   switch (name) {
     case 'div': {
       const kind = kindOf(node);
-      const content = directChildNodes(node).map((child) => renderNode(child, entities, headingLevel + 1)).join('');
+      const content = directChildNodes(node).map((child) => renderNode(child, entities, headingLevel + 1, context)).join('');
       return `<section class="tei-division tei-${escapeAttr(slugify(kind))}">${content}</section>`;
     }
     case 'head':
@@ -590,7 +642,7 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
     case 'note': {
       const id = xmlId(node);
       if (id && entities.referencedNoteIds.has(id)) return '';
-      return renderInlineNote(node, entities, headingLevel);
+      return renderInlineNote(node, entities, headingLevel, context);
     }
     case 'pb':
     case 'milestone':
@@ -627,7 +679,7 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
     case 'ref': {
       const target = cleanText(node.getAttribute?.('target'));
       const note = target.startsWith('#') ? entities.notes.get(target.slice(1)) : undefined;
-      if (note) return renderInlineNote(note, entities, headingLevel);
+      if (note) return renderInlineNote(note, entities, headingLevel, context);
       return /^(https?:\/\/|#)/.test(target)
         ? `<a href="${escapeAttr(target)}">${children()}</a>`
         : children();
@@ -636,7 +688,7 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number): stri
       const preferred = ['corr', 'reg', 'expan', 'orig', 'sic', 'abbr']
         .map((tag) => directElementChildren(node).find((child) => child.localName === tag))
         .find(Boolean);
-      return preferred ? renderNode(preferred, entities, headingLevel) : children();
+      return preferred ? renderNode(preferred, entities, headingLevel, context) : children();
     }
     case 'del':
       return `<del>${children()}</del>`;
@@ -700,12 +752,12 @@ function isFirstParagraph(node: any): boolean {
   return true;
 }
 
-function renderInlineNote(note: any, entities: EntityMaps, headingLevel: number): string {
+function renderInlineNote(note: any, entities: EntityMaps, headingLevel: number, context: RenderContext): string {
   let content = directChildNodes(note).map((child) => {
     if (child.nodeType === 1 && child.localName === 'p') {
-      return directChildNodes(child).map((part) => renderNode(part, entities, headingLevel)).join('');
+      return directChildNodes(child).map((part) => renderNode(part, entities, headingLevel, context)).join('');
     }
-    return renderNode(child, entities, headingLevel);
+    return renderNode(child, entities, headingLevel, context);
   }).join('').trim();
   const noteText = cleanText(note.textContent);
   if (/^\[(?:\*|\d+)\]\s*/.test(noteText)) {
@@ -715,9 +767,13 @@ function renderInlineNote(note: any, entities: EntityMaps, headingLevel: number)
   } else if (/^\[.*\]$/s.test(noteText)) {
     content = content.replace(/^\s*\[/, '').replace(/\]\s*$/, '');
   }
-  return content.trim()
-    ? ` <sup class="tei-note" role="note" title="Footnote">${content.trim()}</sup> `
-    : '';
+  if (!content.trim()) return '';
+  context.noteIndex += 1;
+  const number = context.noteIndex;
+  const sourceId = xmlId(note) || `generated-${number}`;
+  const popoverId = `note-${slugify(sourceId)}-${number}`;
+  const labels = ui(context.locale);
+  return ` <span class="tei-note"><button class="tei-note-ref" type="button" aria-expanded="false" aria-controls="${escapeAttr(popoverId)}" aria-label="${escapeAttr(`${labels.footnote} ${number}`)}">${number}</button><span class="tei-note-popover" id="${escapeAttr(popoverId)}" role="note" tabindex="-1" hidden><span class="tei-note-label">${escapeHtml(`${labels.footnote} ${number}`)}</span><span class="tei-note-text">${content.trim()}</span><button class="tei-note-close" type="button" aria-label="${escapeAttr(labels.closeFootnote)}">×</button></span></span> `;
 }
 
 function referencedEntities(value: string, registry: Map<string, RegistryEntry>, includeDescription = false): string {
@@ -769,13 +825,16 @@ function xmlId(node: any): string {
   return node?.getAttributeNS?.(XML_NS, 'id') || node?.getAttribute?.('xml:id') || '';
 }
 
-function displayKind(kind: string): string {
-  const labels: Record<string, string> = {
-    bekker_page: 'Bekker page',
-    suppressed_chapter: 'Suppressed chapter',
-    'suppressed-chapter': 'Suppressed chapter',
+function displayKind(kind: string, locale: Locale): string {
+  const normalized = kind.replaceAll('_', '-');
+  const labels: Record<Locale, Record<string, string>> = {
+    en: { act: 'Act', scene: 'Scene', chapter: 'Chapter', section: 'Section', book: 'Book', volume: 'Volume', part: 'Part', stave: 'Stave', introduction: 'Introduction', preface: 'Preface', prologue: 'Prologue', epilogue: 'Epilogue', 'bekker-page': 'Bekker page', 'suppressed-chapter': 'Suppressed chapter' },
+    fr: { act: 'Acte', scene: 'Scène', chapter: 'Chapitre', section: 'Section', book: 'Livre', volume: 'Tome', part: 'Partie', stave: 'Strophe', introduction: 'Introduction', preface: 'Préface', prologue: 'Prologue', epilogue: 'Épilogue', 'bekker-page': 'Page de Bekker', 'suppressed-chapter': 'Chapitre supprimé' },
+    grc: { act: 'Πρᾶξις', scene: 'Σκηνή', chapter: 'Κεφάλαιον', section: 'Τμῆμα', book: 'Βιβλίον', volume: 'Τόμος', part: 'Μέρος', stave: 'Στροφή', introduction: 'Εἰσαγωγή', preface: 'Προοίμιον', prologue: 'Πρόλογος', epilogue: 'Ἐπίλογος', 'bekker-page': 'Σελίς Bekker', 'suppressed-chapter': 'Κεφάλαιον ἀφαιρεθέν' },
+    ru: { act: 'Действие', scene: 'Сцена', chapter: 'Глава', section: 'Раздел', book: 'Книга', volume: 'Том', part: 'Часть', stave: 'Часть', introduction: 'Введение', preface: 'Предисловие', prologue: 'Пролог', epilogue: 'Эпилог', 'bekker-page': 'Страница Беккера', 'suppressed-chapter': 'Исключённая глава' },
   };
-  return labels[kind] ?? kind.replaceAll('_', ' ').replace(/(^|\s)\S/g, (letter) => letter.toUpperCase());
+  return labels[locale][normalized]
+    ?? normalized.replaceAll('-', ' ').replace(/(^|\s)\S/g, (letter) => letter.toUpperCase());
 }
 
 function titleFromSlug(slug: string): string {
@@ -787,7 +846,7 @@ function titleFromSlug(slug: string): string {
 }
 
 function languageOrder(code: string): number {
-  return ['en', 'grc', 'ru'].indexOf(code) === -1 ? 99 : ['en', 'grc', 'ru'].indexOf(code);
+  return ['en', 'fr', 'grc', 'ru'].indexOf(code) === -1 ? 99 : ['en', 'fr', 'grc', 'ru'].indexOf(code);
 }
 
 function cleanText(value: unknown): string {

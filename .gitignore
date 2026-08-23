@@ -1,7 +1,10 @@
 node_modules/
 dist/
 .astro/
-assets/
+.tools/
+tmp/
+/assets/
+/public/downloads/
 .DS_Store
 Thumbs.db
 *.log

@@ -1,0 +1,310 @@
+---
+import TocTree from '../../../components/TocTree.astro';
+import EditionDownloads from '../../../components/EditionDownloads.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import {
+  editionForLocale,
+  getLibrary,
+  localizedAuthorHref,
+  localizedEditionHref,
+  localizedUnitHref,
+  localizedWorkHref,
+  type Author,
+  type Edition,
+  type ReadingUnit,
+  type Work,
+} from '../../../lib/library';
+import { SUPPORTED_LANGUAGES, ui, type Locale } from '../../../lib/i18n';
+
+type Page =
+  | { kind: 'author'; locale: Locale; author: Author }
+  | { kind: 'edition'; locale: Locale; author: Author; work: Work; edition: Edition }
+  | { kind: 'reader'; locale: Locale; author: Author; work: Work; edition: Edition; unit: ReadingUnit };
+
+interface Props { page: Page }
+
+export function getStaticPaths() {
+  const paths: Array<{ params: { lang: string; slug: string }; props: Props }> = [];
+  for (const language of SUPPORTED_LANGUAGES) {
+    const locale = language.code;
+    for (const author of getLibrary().authors) {
+      const works = author.works.filter((work) => editionForLocale(work, locale));
+      if (!works.length) continue;
+      paths.push({ params: { lang: locale, slug: author.slug }, props: { page: { kind: 'author', locale, author } } });
+      for (const work of works) {
+        const edition = editionForLocale(work, locale)!;
+        paths.push({
+          params: { lang: locale, slug: `${author.slug}/${work.slug}` },
+          props: { page: { kind: 'edition', locale, author, work, edition } },
+        });
+        for (const unit of edition.units) {
+          paths.push({
+            params: { lang: locale, slug: `${author.slug}/${work.slug}/${unit.path}` },
+            props: { page: { kind: 'reader', locale, author, work, edition, unit } },
+          });
+        }
+      }
+    }
+  }
+  return paths;
+}
+
+const { page } = Astro.props;
+const { locale } = page;
+const labels = ui(locale);
+const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => {
+  const target = language.code;
+  if (page.kind === 'author') {
+    const hasBooks = page.author.works.some((work) => editionForLocale(work, target));
+    return [target, hasBooks ? localizedAuthorHref(page.author, target) : `/${target}/`];
+  }
+  const targetEdition = editionForLocale(page.work, target);
+  if (!targetEdition) return [target, `/${target}/`];
+  if (page.kind === 'reader' && target === locale) return [target, localizedUnitHref(page.work, page.edition, page.unit)];
+  return [target, localizedWorkHref(page.work, target)];
+})) as Record<Locale, string>;
+const title = page.kind === 'author' ? page.author.name : page.kind === 'edition' ? page.edition.sourceTitle : `${page.unit.title} · ${page.edition.sourceTitle}`;
+const description = page.kind === 'author'
+  ? labels.booksBy(page.author.name)
+  : page.kind === 'edition'
+    ? `${page.edition.sourceTitle} · ${labels.byAuthor(page.author.name)}`
+    : `${page.unit.title} · ${page.edition.sourceTitle}`;
+const authorWorks = page.kind === 'author'
+  ? page.author.works.map((work) => ({ work, edition: editionForLocale(work, locale) })).filter((entry): entry is { work: Work; edition: Edition } => Boolean(entry.edition))
+  : [];
+---
+
+<BaseLayout title={title} description={description} locale={locale} languageLinks={languageLinks} wide={page.kind === 'reader'}>
+  {page.kind === 'author' && (
+    <section class="tool-container shell">
+      <div class="tool-header">
+        <div class="tool-title">
+          <span class="material-icons" aria-hidden="true">person</span>
+          <div>
+            <h1>{page.author.name}</h1>
+            <p class="author-dates">{page.author.dates}</p>
+          </div>
+        </div>
+        <div class="tool-actions">
+          <a class="btn btn-secondary btn-compact" href={`/${locale}/`}>
+            <span class="material-icons" aria-hidden="true">home</span>{labels.home}
+          </a>
+        </div>
+      </div>
+      <p class="tool-description">{labels.booksBy(page.author.name)}</p>
+      <div class="author-hero">
+        <img src={`/img/authors/${page.author.portrait}`} alt={page.author.name} class="author-portrait" width="500" height="500" />
+      </div>
+      <div class="tool-grid">
+        {authorWorks.map(({ work, edition }) => (
+          <article class="tool-card book-card">
+            <a class="book-card-main" href={localizedWorkHref(work, locale)}>
+              <div class="tool-icon"><span class="material-icons" aria-hidden="true">menu_book</span></div>
+              <h2>{edition.sourceTitle}</h2>
+            </a>
+            <div class="book-badges">
+              <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{edition.languageName}</span>
+            </div>
+            <p class="card-meta">{labels.readingUnitCount(edition.units.length)}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {page.kind === 'edition' && (
+    <section class="tool-container shell">
+      <div class="tool-header">
+        <div class="tool-title">
+          <span class="material-icons" aria-hidden="true">menu_book</span>
+          <div>
+            <h1>{page.edition.sourceTitle}</h1>
+            <p class="tool-description">{labels.byAuthor(page.author.name)}</p>
+          </div>
+        </div>
+        <div class="tool-actions">
+          <a class="btn btn-secondary btn-compact" href={localizedAuthorHref(page.author, locale)}>
+            <span class="material-icons" aria-hidden="true">person</span>{page.author.name}
+          </a>
+        </div>
+      </div>
+      <p class="edition-note">{labels.editionStructureNote}</p>
+      <article class="edition-panel edition-contents">
+        <header class="edition-header">
+          <div>
+            <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{page.edition.languageName}</span>
+            <h2>{page.edition.sourceTitle}</h2>
+            <p>{labels.readingUnitCount(page.edition.units.length)} · {labels.organizedBy(page.edition.unitKind.replaceAll('_', ' '))}</p>
+          </div>
+          <div class="edition-actions">
+            {page.edition.units[0] && <a class="btn btn-primary btn-compact" href={localizedUnitHref(page.work, page.edition, page.edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span>{labels.startReading}</a>}
+            <a class="btn btn-secondary btn-compact" href="#downloads"><span class="material-icons" aria-hidden="true">download</span>{labels.downloads}</a>
+          </div>
+        </header>
+        <div class="toc-tree">
+          <h3>{labels.contents}</h3>
+          <TocTree nodes={page.edition.toc} />
+        </div>
+        {(page.edition.persons.length > 0 || page.edition.places.length > 0) && (
+          <details class="tei-registry">
+            <summary>{labels.registries(page.edition.persons.length, page.edition.places.length)}</summary>
+            <div class="registry-columns">
+              {page.edition.persons.length > 0 && <section><h3>{labels.people}</h3><dl>{page.edition.persons.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
+              {page.edition.places.length > 0 && <section><h3>{labels.places}</h3><dl>{page.edition.places.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
+            </div>
+          </details>
+        )}
+      </article>
+      <EditionDownloads author={page.author} work={page.work} edition={page.edition} locale={locale} />
+    </section>
+  )}
+
+  {page.kind === 'reader' && (
+    <section class="chapter-container shell">
+      <header class="chapter-header">
+        <nav class="chapter-breadcrumbs" aria-label={labels.contents}>
+          <a href={`/${locale}/`}>{labels.library}</a><span>/</span><a href={localizedAuthorHref(page.author, locale)}>{page.author.name}</a><span>/</span><a href={localizedEditionHref(page.work, page.edition)}>{page.edition.sourceTitle}</a>
+        </nav>
+        <p class="reader-context">{page.unit.context.join(' · ')}</p>
+        <h1>{page.unit.title}</h1>
+      </header>
+      <div class="chapter-layout">
+        <article class="reader-content" set:html={page.unit.html} />
+        <aside class="chapter-sidebar" aria-label={labels.readingControls}>
+          <div class="reader-controls panel">
+            <strong>{page.edition.sourceTitle}</strong>
+            {page.work.editions.length > 1 && (
+              <details class="other-editions">
+                <summary>{labels.otherEditions}</summary>
+                <ul>
+                  {page.work.editions.filter((edition) => edition.code !== locale).map((edition) => (
+                    <li><a href={localizedEditionHref(page.work, edition)} lang={edition.code}>{edition.sourceTitle}</a></li>
+                  ))}
+                </ul>
+              </details>
+            )}
+            <div class="reader-display">
+              <span>{labels.textWidth}</span>
+              <button type="button" data-reader-action="narrow" aria-label={labels.narrowText}>−</button>
+              <button type="button" data-reader-action="wide" aria-label={labels.widenText}>+</button>
+              <span>{labels.textSize}</span>
+              <button type="button" data-reader-action="smaller" aria-label={labels.decreaseText}>A−</button>
+              <button type="button" data-reader-action="larger" aria-label={labels.increaseText}>A+</button>
+            </div>
+            <div class="reader-font-controls">
+              <label class="reader-font-picker">
+                <span>{labels.serifCascade}</span>
+                <select data-reader-font="serif" aria-describedby="reader-font-note">
+                  <option value="classic">Constantia, Georgia, Times</option>
+                  <option value="charter">Charter, Cambria, Constantia</option>
+                  <option value="old-style">Iowan Old Style, Baskerville, Palatino</option>
+                  <option value="garamond">Garamond, Constantia, Georgia</option>
+                  <option value="platform">ui-serif, Georgia, Cambria</option>
+                  <option value="times">Times New Roman, Liberation Serif</option>
+                </select>
+              </label>
+              <label class="reader-font-picker">
+                <span>{labels.sansCascade}</span>
+                <select data-reader-font="sans" aria-describedby="reader-font-note">
+                  <option value="office">Segoe UI, Calibri, Arial</option>
+                  <option value="system">System UI, Segoe UI</option>
+                  <option value="helvetica">Helvetica Neue, Helvetica, Arial</option>
+                  <option value="humanist">Avenir Next, Gill Sans, Calibri</option>
+                  <option value="screen">Verdana, Geneva, Tahoma</option>
+                  <option value="trebuchet">Trebuchet MS, Tahoma, Segoe UI</option>
+                </select>
+              </label>
+              <p class="reader-font-note" id="reader-font-note">{labels.fontNote}</p>
+            </div>
+          </div>
+          <nav class="chapter-navigation" aria-label={labels.readingOrder}>
+            {page.unit.previousPath ? <a class="btn btn-secondary chapter-nav-button" rel="prev" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.previousPath}`}><span class="material-icons" aria-hidden="true">arrow_back</span>{labels.previous}</a> : <span class="btn btn-secondary chapter-nav-button is-disabled">{labels.previous}</span>}
+            <a class="btn btn-secondary chapter-nav-button" href={localizedEditionHref(page.work, page.edition)}><span class="material-icons" aria-hidden="true">list</span>{labels.contents}</a>
+            {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.nextPath}`}>{labels.next}<span class="material-icons" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled">{labels.next}</span>}
+          </nav>
+        </aside>
+      </div>
+      <script>
+        const readerRoot = document.documentElement;
+        let width = Number(localStorage.getItem('bookstacks-reader-width') || 44);
+        let scale = Number(localStorage.getItem('bookstacks-reader-scale') || 1);
+        const serifSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="serif"]');
+        const sansSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="sans"]');
+        const applyReaderSettings = () => {
+          readerRoot.style.setProperty('--reader-width', `${width}rem`);
+          readerRoot.style.setProperty('--reader-scale', String(scale));
+        };
+        applyReaderSettings();
+        document.querySelectorAll<HTMLButtonElement>('[data-reader-action]').forEach((button) => {
+          button.addEventListener('click', () => {
+            const action = button.dataset.readerAction;
+            if (action === 'narrow') width = Math.max(32, width - 4);
+            if (action === 'wide') width = Math.min(60, width + 4);
+            if (action === 'smaller') scale = Math.max(0.85, Number((scale - 0.05).toFixed(2)));
+            if (action === 'larger') scale = Math.min(1.3, Number((scale + 0.05).toFixed(2)));
+            localStorage.setItem('bookstacks-reader-width', String(width));
+            localStorage.setItem('bookstacks-reader-scale', String(scale));
+            applyReaderSettings();
+          });
+        });
+        if (serifSelect) {
+          serifSelect.value = readerRoot.dataset.readerSerif || 'classic';
+          serifSelect.addEventListener('change', () => {
+            readerRoot.dataset.readerSerif = serifSelect.value;
+            localStorage.setItem('bookstacks-reader-serif', serifSelect.value);
+          });
+        }
+        if (sansSelect) {
+          sansSelect.value = readerRoot.dataset.readerSans || 'office';
+          sansSelect.addEventListener('change', () => {
+            readerRoot.dataset.readerSans = sansSelect.value;
+            localStorage.setItem('bookstacks-reader-sans', sansSelect.value);
+          });
+        }
+
+        const noteWrappers = Array.from(document.querySelectorAll<HTMLElement>('.tei-note'));
+        const closeNote = (wrapper: HTMLElement) => {
+          const reference = wrapper.querySelector<HTMLButtonElement>('.tei-note-ref');
+          const popover = wrapper.querySelector<HTMLElement>('.tei-note-popover');
+          if (!reference || !popover) return;
+          wrapper.dataset.pinned = 'false';
+          reference.setAttribute('aria-expanded', 'false');
+          popover.hidden = true;
+        };
+        const openNote = (wrapper: HTMLElement, pinned = false) => {
+          for (const other of noteWrappers) if (other !== wrapper) closeNote(other);
+          const reference = wrapper.querySelector<HTMLButtonElement>('.tei-note-ref');
+          const popover = wrapper.querySelector<HTMLElement>('.tei-note-popover');
+          if (!reference || !popover) return;
+          if (pinned) wrapper.dataset.pinned = 'true';
+          reference.setAttribute('aria-expanded', 'true');
+          popover.hidden = false;
+        };
+        for (const wrapper of noteWrappers) {
+          const reference = wrapper.querySelector<HTMLButtonElement>('.tei-note-ref');
+          const close = wrapper.querySelector<HTMLButtonElement>('.tei-note-close');
+          reference?.addEventListener('mouseenter', () => openNote(wrapper));
+          reference?.addEventListener('focus', () => openNote(wrapper));
+          wrapper.addEventListener('mouseleave', () => {
+            if (wrapper.dataset.pinned !== 'true' && !wrapper.contains(document.activeElement)) closeNote(wrapper);
+          });
+          reference?.addEventListener('click', () => {
+            if (wrapper.dataset.pinned === 'true') closeNote(wrapper);
+            else openNote(wrapper, true);
+          });
+          close?.addEventListener('click', () => {
+            closeNote(wrapper);
+            reference?.focus();
+          });
+        }
+        document.addEventListener('keydown', (event) => {
+          if (event.key !== 'Escape') return;
+          const open = noteWrappers.find((wrapper) => wrapper.querySelector<HTMLButtonElement>('.tei-note-ref')?.getAttribute('aria-expanded') === 'true');
+          const reference = open?.querySelector<HTMLButtonElement>('.tei-note-ref');
+          if (open) closeNote(open);
+          reference?.focus();
+        });
+      </script>
+    </section>
+  )}
+</BaseLayout>

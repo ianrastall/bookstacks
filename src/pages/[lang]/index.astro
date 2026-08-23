@@ -1,0 +1,16 @@
+---
+import LibraryIndex from '../../components/LibraryIndex.astro';
+import { SUPPORTED_LANGUAGES, type Locale } from '../../lib/i18n';
+
+export function getStaticPaths() {
+  return SUPPORTED_LANGUAGES.map((language) => ({
+    params: { lang: language.code },
+    props: { locale: language.code },
+  }));
+}
+
+const { locale } = Astro.props as { locale: Locale };
+---
+
+<LibraryIndex locale={locale} />
+

@@ -1,0 +1,58 @@
+---
+import EditionDownloads from '../../components/EditionDownloads.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { editionForLocale, getLibrary, type Author, type Edition, type Work } from '../../lib/library';
+import { SUPPORTED_LANGUAGES, isLocale, ui, type Locale } from '../../lib/i18n';
+
+interface DownloadEntry { author: Author; work: Work; edition: Edition }
+
+export function getStaticPaths() {
+  return SUPPORTED_LANGUAGES.map((language) => ({ params: { lang: language.code } }));
+}
+
+const requestedLocale = String(Astro.params.lang ?? 'en');
+const locale: Locale = isLocale(requestedLocale) ? requestedLocale : 'en';
+const labels = ui(locale);
+const entries: DownloadEntry[] = getLibrary().authors.flatMap((author) => author.works.flatMap((work) => {
+  const edition = editionForLocale(work, locale);
+  return edition ? [{ author, work, edition }] : [];
+}));
+const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [language.code, `/${language.code}/downloads`])) as Record<Locale, string>;
+---
+
+<BaseLayout title={labels.downloads} description={labels.downloadFormatsNote} locale={locale} languageLinks={languageLinks}>
+  <section class="tool-container shell downloads-page">
+    <div class="tool-header">
+      <div class="tool-title">
+        <span class="material-icons" aria-hidden="true">download</span>
+        <div>
+          <h1>{labels.downloads}</h1>
+          <p class="tool-description">{labels.downloadFormatsNote}</p>
+        </div>
+      </div>
+    </div>
+
+    <aside class="corpus-download">
+      <div>
+        <h2>{labels.completeCorpus}</h2>
+        <p>{labels.completeCorpusHelp}</p>
+      </div>
+      <div class="download-links">
+        <a class="btn btn-primary" href="https://github.com/ianrastall/bookstacks/releases/download/publications-corpus/bookstacks-corpus.zip" download>
+          <span class="material-icons" aria-hidden="true">dataset</span>JSONL ZIP
+        </a>
+        <a class="btn btn-secondary" href="https://github.com/ianrastall/bookstacks/releases/download/publications-corpus/bookstacks-corpus-manifest.json" download>
+          <span class="material-icons" aria-hidden="true">fact_check</span>Manifest
+        </a>
+      </div>
+    </aside>
+
+    {entries.length ? (
+      <div class="download-collection">
+        {entries.map(({ author, work, edition }) => (
+          <EditionDownloads author={author} work={work} edition={edition} locale={locale} compact />
+        ))}
+      </div>
+    ) : <p class="empty-state">{labels.noBooks}</p>}
+  </section>
+</BaseLayout>

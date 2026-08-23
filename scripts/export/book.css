@@ -1,0 +1,24 @@
+:root {
+  color: #241f20;
+  background: #fffdf9;
+  font-family: "Source Serif 4", Georgia, serif;
+  line-height: 1.6;
+}
+
+body { max-width: 44rem; margin: 0 auto; padding: 4vw; }
+.book-cover { display: block; width: min(100%, 28rem); margin: 0 auto 3rem; }
+nav#TOC { margin: 2rem 0 3rem; padding: 1.25rem; border: 1px solid #d8c9c9; background: #faf5f2; }
+h1, h2, h3, h4, h5, h6 { color: #541523; font-family: "Source Serif 4", Georgia, serif; line-height: 1.2; }
+p { margin: 0 0 0.75rem; }
+blockquote { margin: 1.5rem 0; padding-left: 1rem; border-left: 3px solid #a87980; }
+a { color: #7b2637; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 0.45rem; border: 1px solid #cdbfc1; vertical-align: top; }
+.footnotes { margin-top: 3rem; border-top: 1px solid #cdbfc1; font-size: 0.9em; }
+
+@media (prefers-color-scheme: dark) {
+  :root { color: #f2ece9; background: #171112; }
+  nav#TOC { border-color: #60474c; background: #241a1c; }
+  h1, h2, h3, h4, h5, h6, a { color: #d7aeb5; }
+}
+

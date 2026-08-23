@@ -1,41 +1,29 @@
 ---
-import TocTree from '../../components/TocTree.astro';
-import BaseLayout from '../../layouts/BaseLayout.astro';
 import {
-  authorHref,
-  editionHref,
   getLibrary,
-  unitHref,
-  workHref,
-  type Author,
-  type Edition,
-  type ReadingUnit,
-  type Work,
+  localizedAuthorHref,
+  localizedEditionHref,
+  localizedUnitHref,
+  localizedWorkHref,
 } from '../../lib/library';
 
-type Page =
-  | { kind: 'author'; author: Author }
-  | { kind: 'work'; author: Author; work: Work }
-  | { kind: 'edition'; author: Author; work: Work; edition: Edition }
-  | { kind: 'reader'; author: Author; work: Work; edition: Edition; unit: ReadingUnit };
-
-interface Props { page: Page }
+interface Props { target: string }
 
 export function getStaticPaths() {
   const paths: Array<{ params: { slug: string }; props: Props }> = [];
   for (const author of getLibrary().authors) {
-    paths.push({ params: { slug: author.slug }, props: { page: { kind: 'author', author } } });
+    paths.push({ params: { slug: author.slug }, props: { target: localizedAuthorHref(author, 'en') } });
     for (const work of author.works) {
-      paths.push({ params: { slug: `${author.slug}/${work.slug}` }, props: { page: { kind: 'work', author, work } } });
+      paths.push({ params: { slug: `${author.slug}/${work.slug}` }, props: { target: localizedWorkHref(work, 'en') } });
       for (const edition of work.editions) {
         paths.push({
           params: { slug: `${author.slug}/${work.slug}/${edition.code}` },
-          props: { page: { kind: 'edition', author, work, edition } },
+          props: { target: localizedEditionHref(work, edition) },
         });
         for (const unit of edition.units) {
           paths.push({
             params: { slug: `${author.slug}/${work.slug}/${edition.code}/${unit.path}` },
-            props: { page: { kind: 'reader', author, work, edition, unit } },
+            props: { target: localizedUnitHref(work, edition, unit) },
           });
         }
       }
@@ -44,261 +32,5 @@ export function getStaticPaths() {
   return paths;
 }
 
-const { page } = Astro.props;
-const title = page.kind === 'author'
-  ? page.author.name
-  : page.kind === 'work'
-    ? page.work.title
-    : page.kind === 'edition'
-      ? `${page.edition.languageName} edition · ${page.work.title}`
-      : `${page.unit.title} · ${page.work.title}`;
-const description = page.kind === 'author'
-  ? `Complete TEI editions of works by ${page.author.name}.`
-  : page.kind === 'work'
-    ? `Read ${page.work.title} by ${page.author.name} in its available TEI editions.`
-    : page.kind === 'edition'
-      ? `Contents of the ${page.edition.languageName} TEI edition of ${page.work.title} by ${page.author.name}.`
-      : `${page.unit.title} from ${page.work.title} by ${page.author.name}.`;
+return Astro.redirect(Astro.props.target, 301);
 ---
-
-<BaseLayout title={title} description={description} wide={page.kind === 'reader'}>
-  {page.kind === 'author' && (
-    <section class="tool-container shell">
-      <div class="tool-header">
-        <div class="tool-title">
-          <span class="material-icons" aria-hidden="true">person</span>
-          <div>
-            <h2>{page.author.name}</h2>
-            <p class="author-dates">{page.author.dates}</p>
-          </div>
-        </div>
-        <div class="tool-actions">
-          <a class="btn btn-secondary btn-compact" href="/">
-            <span class="material-icons" aria-hidden="true">home</span> Home
-          </a>
-        </div>
-      </div>
-      <p class="tool-description">Books by {page.author.name}</p>
-      <div class="author-hero">
-        <img src={`/img/authors/${page.author.portrait}`} alt={`Portrait of ${page.author.name}`} class="author-portrait" width="500" height="500" />
-      </div>
-      <div class="tool-grid">
-        {page.author.works.map((work) => (
-          <article class="tool-card book-card">
-            <a class="book-card-main" href={workHref(work)}>
-              <div class="tool-icon"><span class="material-icons" aria-hidden="true">menu_book</span></div>
-              <h3>{work.title}</h3>
-            </a>
-            <div class="book-badges">
-              {work.editions.map((edition) => (
-                <a class="book-status book-status-original" href={editionHref(work, edition)} aria-label={`${edition.languageName} contents for ${work.title}`}><span class="material-icons" aria-hidden="true">translate</span>{edition.languageName}</a>
-              ))}
-            </div>
-            <p class="card-meta">{work.editions.length} {work.editions.length === 1 ? 'TEI edition' : 'TEI editions'}</p>
-          </article>
-        ))}
-      </div>
-    </section>
-  )}
-
-  {page.kind === 'work' && (
-    <section class="tool-container shell">
-      <div class="tool-header">
-        <div class="tool-title">
-          <span class="material-icons" aria-hidden="true">menu_book</span>
-          <h2>{page.work.title}</h2>
-        </div>
-        <div class="tool-actions">
-          <a class="btn btn-secondary btn-compact" href={authorHref(page.author)}>
-            <span class="material-icons" aria-hidden="true">person</span>{page.author.name}
-          </a>
-        </div>
-      </div>
-      <p class="tool-description">By {page.author.name}</p>
-      <p class="edition-note">
-        Each language below is a complete, standalone TEI edition. Its own hierarchy is preserved;
-        editions are not forced into artificial chapter-by-chapter alignment. Browser auto-translation
-        is disabled for non-English editions to preserve their source language; English editions remain
-        translatable for readers who need another language.
-      </p>
-      <div class="edition-stack">
-        {page.work.editions.map((edition) => (
-          <article class="edition-panel" id={`edition-${edition.code}`}>
-            <header class="edition-header">
-              <div>
-                <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{edition.languageName}</span>
-                <h3 lang={edition.code} translate={edition.code === 'en' ? undefined : 'no'}>{edition.sourceTitle}</h3>
-                <p>{edition.units.length} reading units · organized by {edition.unitKind.replaceAll('_', ' ')}</p>
-              </div>
-              <div class="edition-actions">
-                {edition.units[0] && <a class="btn btn-primary btn-compact" href={unitHref(page.work, edition, edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span>Start {edition.languageName} edition</a>}
-                <a class="btn btn-secondary btn-compact" href={`/tei/${page.author.slug}/${edition.sourceFile}`} download><span class="material-icons" aria-hidden="true">download</span>TEI</a>
-              </div>
-            </header>
-            <div class="toc-tree" lang={edition.code} translate={edition.code === 'en' ? undefined : 'no'}>
-              <h4>Contents</h4>
-              <TocTree nodes={edition.toc} />
-            </div>
-            {(edition.persons.length > 0 || edition.places.length > 0) && (
-              <details class="tei-registry">
-                <summary>TEI registries ({edition.persons.length} people, {edition.places.length} places)</summary>
-                <div class="registry-columns">
-                  {edition.persons.length > 0 && <section><h4>People</h4><dl>{edition.persons.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
-                  {edition.places.length > 0 && <section><h4>Places</h4><dl>{edition.places.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
-                </div>
-              </details>
-            )}
-          </article>
-        ))}
-      </div>
-    </section>
-  )}
-
-  {page.kind === 'edition' && (
-    <section class="tool-container shell">
-      <div class="tool-header">
-        <div class="tool-title">
-          <span class="material-icons" aria-hidden="true">menu_book</span>
-          <div>
-            <h2>{page.work.title}</h2>
-            <p class="tool-description">{page.edition.languageName} edition · {page.author.name}</p>
-          </div>
-        </div>
-        <div class="tool-actions">
-          <a class="btn btn-secondary btn-compact" href={workHref(page.work)}>
-            <span class="material-icons" aria-hidden="true">translate</span>Other editions
-          </a>
-        </div>
-      </div>
-      {page.edition.code !== 'en' && (
-        <p class="edition-note">Automatic browser translation is disabled for this source-language edition. English editions remain translatable.</p>
-      )}
-      <article class="edition-panel edition-contents">
-        <header class="edition-header">
-          <div>
-            <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{page.edition.languageName}</span>
-            <h3 lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>{page.edition.sourceTitle}</h3>
-            <p>{page.edition.units.length} reading units · organized by {page.edition.unitKind.replaceAll('_', ' ')}</p>
-          </div>
-          <div class="edition-actions">
-            {page.edition.units[0] && <a class="btn btn-primary btn-compact" href={unitHref(page.work, page.edition, page.edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span>Start {page.edition.languageName} edition</a>}
-            <a class="btn btn-secondary btn-compact" href={`/tei/${page.author.slug}/${page.edition.sourceFile}`} download><span class="material-icons" aria-hidden="true">download</span>TEI</a>
-          </div>
-        </header>
-        <div class="toc-tree" lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>
-          <h4>Contents</h4>
-          <TocTree nodes={page.edition.toc} />
-        </div>
-        {(page.edition.persons.length > 0 || page.edition.places.length > 0) && (
-          <details class="tei-registry">
-            <summary>TEI registries ({page.edition.persons.length} people, {page.edition.places.length} places)</summary>
-            <div class="registry-columns">
-              {page.edition.persons.length > 0 && <section><h4>People</h4><dl>{page.edition.persons.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
-              {page.edition.places.length > 0 && <section><h4>Places</h4><dl>{page.edition.places.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
-            </div>
-          </details>
-        )}
-      </article>
-    </section>
-  )}
-
-  {page.kind === 'reader' && (
-    <section class="chapter-container shell">
-      <header class="chapter-header">
-        <nav class="chapter-breadcrumbs" aria-label="Breadcrumb">
-          <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><a href={workHref(page.work)}>{page.work.title}</a><span>/</span><a href={editionHref(page.work, page.edition)}>{page.edition.languageName}</a>
-        </nav>
-        <p class="reader-context" lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>{[page.edition.languageName, ...page.unit.context].join(' · ')}</p>
-        <h1 lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>{page.unit.title}</h1>
-      </header>
-      <div class="chapter-layout">
-        <article class="reader-content" lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'} set:html={page.unit.html} />
-        <aside class="chapter-sidebar" aria-label="Reading controls and navigation">
-          <div class="reader-controls panel">
-            <strong>{page.edition.languageName} edition</strong>
-            {page.work.editions.length > 1 && <a href={`${workHref(page.work)}#edition-${page.edition.code}`}>Other editions</a>}
-            {page.edition.code !== 'en' && (
-              <p class="translation-note">Automatic browser translation is disabled for this source-language edition. English editions remain translatable.</p>
-            )}
-            <div class="reader-display">
-              <span>Text width</span>
-              <button type="button" data-reader-action="narrow" aria-label="Narrow text column">−</button>
-              <button type="button" data-reader-action="wide" aria-label="Widen text column">+</button>
-              <span>Text size</span>
-              <button type="button" data-reader-action="smaller" aria-label="Decrease text size">A−</button>
-              <button type="button" data-reader-action="larger" aria-label="Increase text size">A+</button>
-            </div>
-            <div class="reader-font-controls">
-              <label class="reader-font-picker">
-                <span>Serif cascade</span>
-                <select data-reader-font="serif" aria-describedby="reader-font-note">
-                  <option value="classic">Constantia, "Georgia Pro", Georgia, "Times New Roman", Times, serif</option>
-                  <option value="charter">Charter, "Bitstream Charter", "Sitka Text", Cambria, Constantia, Georgia, serif</option>
-                  <option value="old-style">"Iowan Old Style", Baskerville, "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif</option>
-                  <option value="garamond">Garamond, "EB Garamond", "Adobe Garamond Pro", Constantia, Georgia, "Times New Roman", serif</option>
-                  <option value="platform">ui-serif, Georgia, Cambria, "Times New Roman", serif</option>
-                  <option value="times">"Times New Roman", Times, "Liberation Serif", serif</option>
-                </select>
-              </label>
-              <label class="reader-font-picker">
-                <span>Sans-serif cascade</span>
-                <select data-reader-font="sans" aria-describedby="reader-font-note">
-                  <option value="office">"Segoe UI", Calibri, Arial, sans-serif</option>
-                  <option value="system">system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif</option>
-                  <option value="helvetica">"Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif</option>
-                  <option value="humanist">"Avenir Next", Avenir, "Gill Sans", "Gill Sans MT", Calibri, "Segoe UI", sans-serif</option>
-                  <option value="screen">Verdana, Geneva, Tahoma, Arial, sans-serif</option>
-                  <option value="trebuchet">"Trebuchet MS", Tahoma, "Segoe UI", Arial, sans-serif</option>
-                </select>
-              </label>
-              <p class="reader-font-note" id="reader-font-note">Each option is an ordered CSS cascade. The browser uses the first installed font.</p>
-            </div>
-          </div>
-          <nav class="chapter-navigation" aria-label="Reading order">
-            {page.unit.previousPath ? <a class="btn btn-secondary chapter-nav-button" rel="prev" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.previousPath}`}><span class="material-icons" aria-hidden="true">arrow_back</span>Previous</a> : <span class="btn btn-secondary chapter-nav-button is-disabled">Previous</span>}
-            <a class="btn btn-secondary chapter-nav-button" href={editionHref(page.work, page.edition)}><span class="material-icons" aria-hidden="true">list</span>Contents</a>
-            {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.nextPath}`}>Next<span class="material-icons" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled">Next</span>}
-          </nav>
-        </aside>
-      </div>
-      <script>
-        const readerRoot = document.documentElement;
-        let width = Number(localStorage.getItem('bookstacks-reader-width') || 44);
-        let scale = Number(localStorage.getItem('bookstacks-reader-scale') || 1);
-        const serifSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="serif"]');
-        const sansSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="sans"]');
-        const applyReaderSettings = () => {
-          readerRoot.style.setProperty('--reader-width', `${width}rem`);
-          readerRoot.style.setProperty('--reader-scale', String(scale));
-        };
-        applyReaderSettings();
-        document.querySelectorAll<HTMLButtonElement>('[data-reader-action]').forEach((button) => {
-          button.addEventListener('click', () => {
-            const action = button.dataset.readerAction;
-            if (action === 'narrow') width = Math.max(32, width - 4);
-            if (action === 'wide') width = Math.min(60, width + 4);
-            if (action === 'smaller') scale = Math.max(0.85, Number((scale - 0.05).toFixed(2)));
-            if (action === 'larger') scale = Math.min(1.3, Number((scale + 0.05).toFixed(2)));
-            localStorage.setItem('bookstacks-reader-width', String(width));
-            localStorage.setItem('bookstacks-reader-scale', String(scale));
-            applyReaderSettings();
-          });
-        });
-        if (serifSelect) {
-          serifSelect.value = readerRoot.dataset.readerSerif || 'classic';
-          serifSelect.addEventListener('change', () => {
-            readerRoot.dataset.readerSerif = serifSelect.value;
-            localStorage.setItem('bookstacks-reader-serif', serifSelect.value);
-          });
-        }
-        if (sansSelect) {
-          sansSelect.value = readerRoot.dataset.readerSans || 'office';
-          sansSelect.addEventListener('change', () => {
-            readerRoot.dataset.readerSans = sansSelect.value;
-            localStorage.setItem('bookstacks-reader-sans', sansSelect.value);
-          });
-        }
-      </script>
-    </section>
-  )}
-</BaseLayout>

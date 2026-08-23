@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getLibrary, localizedAuthorHref } from '../lib/library';
+import { SUPPORTED_LANGUAGES, ui, type Locale } from '../lib/i18n';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const labels = ui(locale);
+const library = getLibrary();
+const authors = library.authors
+  .map((author) => ({
+    ...author,
+    works: author.works.filter((work) => work.editions.some((edition) => edition.code === locale)),
+  }))
+  .filter((author) => author.works.length > 0);
+const editionCount = authors.reduce((sum, author) => sum + author.works.length, 0);
+const unitCount = authors.reduce((sum, author) => sum + author.works.reduce((workSum, work) => {
+  return workSum + (work.editions.find((edition) => edition.code === locale)?.units.length ?? 0);
+}, 0), 0);
+const format = new Intl.NumberFormat(locale === 'grc' ? 'el-GR' : locale);
+const libraryDescription = labels.librarySummary(authors.length, editionCount, editionCount, format.format(unitCount));
+const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [language.code, `/${language.code}/`])) as Record<Locale, string>;
+---
+
+<BaseLayout title={labels.library} description={libraryDescription} locale={locale} languageLinks={languageLinks}>
+  <section class="tool-container shell" style="margin-top: 2rem;">
+    <h1 class="visually-hidden">{labels.library}</h1>
+    <div class="tool-header">
+      <div class="tool-title">
+        <span class="material-icons" aria-hidden="true">library_books</span>
+        <h2>{labels.library}</h2>
+      </div>
+    </div>
+    <p class="tool-description">{libraryDescription}</p>
+    {authors.length > 0 ? (
+      <div class="tool-grid author-grid">
+        {authors.map((author) => {
+          const editionTotal = author.works.length;
+          return (
+            <a class="tool-card author-card" href={localizedAuthorHref(author, locale)}>
+              <div class="author-card-media">
+                <img src={`/img/authors/${author.portrait}`} alt={author.name} class="author-portrait" width="500" height="500" loading="lazy" />
+              </div>
+              <div class="author-card-body">
+                <h3 class="author-name">{author.name}</h3>
+                <p class="author-dates">{author.dates}</p>
+                <p class="author-book-count">{labels.bookCount(author.works.length)} · {labels.editionCount(editionTotal)}</p>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    ) : <p class="empty-state">{labels.noBooks}</p>}
+  </section>
+</BaseLayout>
+
