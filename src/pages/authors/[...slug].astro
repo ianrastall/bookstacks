@@ -105,7 +105,9 @@ const description = page.kind === 'author'
       <p class="tool-description">By {page.author.name}</p>
       <p class="edition-note">
         Each language below is a complete, standalone TEI edition. Its own hierarchy is preserved;
-        editions are not forced into artificial chapter-by-chapter alignment.
+        editions are not forced into artificial chapter-by-chapter alignment. Browser auto-translation
+        is disabled for non-English editions to preserve their source language; English editions remain
+        translatable for readers who need another language.
       </p>
       <div class="edition-stack">
         {page.work.editions.map((edition) => (
@@ -155,6 +157,9 @@ const description = page.kind === 'author'
           <div class="reader-controls panel">
             <strong>{page.edition.languageName} edition</strong>
             {page.work.editions.length > 1 && <a href={`${workHref(page.work)}#edition-${page.edition.code}`}>Other editions</a>}
+            {page.edition.code !== 'en' && (
+              <p class="translation-note">Automatic browser translation is disabled for this source-language edition. English editions remain translatable.</p>
+            )}
             <div class="reader-display">
               <span>Text width</span>
               <button type="button" data-reader-action="narrow" aria-label="Narrow text column">−</button>
