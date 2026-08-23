@@ -742,5 +742,45 @@
     "sources": [
       { "lang": "eng", "xml_lang": "en", "path": "../turgenev-ivan_*_en.xml" }
     ]
+  },
+  {
+    "author": "Bronte-Anne",
+    "title": "Anne Brontë collection",
+    "id": "novels",
+    "source_format": "legacy_prose_collection",
+    "source_prefix": "bronte-anne",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../bronte-anne_*_en.xml" }
+    ]
+  },
+  {
+    "author": "Bronte-Charlotte",
+    "title": "Charlotte Brontë collection",
+    "id": "novels",
+    "source_format": "legacy_prose_collection",
+    "source_prefix": "bronte-charlotte",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../bronte-charlotte_*_en.xml" }
+    ]
+  },
+  {
+    "author": "Bronte-Emily",
+    "title": "Emily Brontë collection",
+    "id": "novels",
+    "source_format": "legacy_prose_collection",
+    "source_prefix": "bronte-emily",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../bronte-emily_*_en.xml" }
+    ]
+  },
+  {
+    "author": "Chesterton-G-K",
+    "title": "G. K. Chesterton collection",
+    "id": "books",
+    "source_format": "legacy_prose_collection",
+    "source_prefix": "chesterton-g-k",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../chesterton-g-k_*_en.xml" }
+    ]
   }
 ]

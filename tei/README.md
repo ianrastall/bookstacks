@@ -59,6 +59,12 @@ python ./validate_tei.py
   Spring*, *First Love*, and *Mumu*; opening frames remain prologues, untyped
   numbered divisions are restored as chapters, and *On the Eve* title,
   translation, introduction, and character-list matter remains accessible.
+- Six root-level `bronte-*_*_en.xml` sources generate separate Anne, Charlotte,
+  and Emily Brontë shelves containing *Agnes Grey*, Charlotte Brontë's four
+  supplied novels, and *Wuthering Heights*. Four `chesterton-g-k_*_en.xml`
+  sources generate the G. K. Chesterton shelf. Their chapter hierarchies,
+  front matter, paragraphs, poetry, figures, inline typography, and source
+  metadata are retained.
 - `assets/tei/hta.*` contains works by Henry Thomas Austen, not Jane Austen,
   and is intentionally excluded from the generated corpus.
 - The Maude *War and Peace* and Garnett *Anna Karenina* translations are
