@@ -724,6 +724,15 @@
     ]
   },
   {
+    "author": "Shakespeare",
+    "title": "French Shakespeare plays",
+    "id": "plays-french",
+    "source_format": "gutenberg_drama_collection",
+    "sources": [
+      { "lang": "fra", "xml_lang": "fr", "path": "../pg*.epub" }
+    ]
+  },
+  {
     "author": "James",
     "title": "Henry James collection",
     "id": "novels",

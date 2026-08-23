@@ -939,6 +939,17 @@ foreach ($item in $config) {
         if ($LASTEXITCODE -ne 0) { throw "Failed to convert Gutenberg EPUB for $($item.title)." }
         continue
     }
+    if ($item.source_format -eq 'gutenberg_drama_collection') {
+        if ($item.sources.Count -ne 1) { throw "Gutenberg drama collection $($item.title) must have exactly one source pattern." }
+        $sourcePattern = Join-Path $PSScriptRoot $item.sources[0].path
+        $outputDirectory = Join-Path $PSScriptRoot $authorSlug
+        & python (Join-Path $PSScriptRoot 'build_gutenberg_drama_epub.py') `
+            --source-pattern $sourcePattern `
+            --output-dir $outputDirectory `
+            --schema (Join-Path $PSScriptRoot 'tei_all.rng')
+        if ($LASTEXITCODE -ne 0) { throw "Failed to convert Gutenberg drama collection $($item.title)." }
+        continue
+    }
     if ($item.combine) {
         $languages = @($item.sources.lang | Select-Object -Unique)
         if ($languages.Count -ne 1) { throw "Combined work $($item.title) must use one language per output." }

@@ -51,6 +51,13 @@ python ./validate_tei.py
   dependencies. Acts and scenes, cast lists, speakers, and typed stage
   directions are retained. Dramatic prose remains paragraph content inside
   `sp`, while verse remains lineated as `sp/lg/l`.
+- Thirty-seven French Shakespeare plays are generated from Project Gutenberg
+  EPUB XHTML translated by François Guizot. Acts, scenes, speakers, prose
+  speeches, stage directions, character lists, songs and verse, editorial
+  notices, inline typography, and referenced translator notes are retained.
+  Five accompanying poetry volumes—*Venus and Adonis*, *The Rape of Lucrece*,
+  *A Lover's Complaint*, the *Sonnets*, and *The Passionate Pilgrim*—are
+  explicitly excluded because they are not plays.
 - Seven Henry James novels are generated from the root-level
   `james-henry_*_en.xml` files. Their volume, book, chapter, preface, paragraph,
   poetry, inline typography, and source metadata structures are retained.

@@ -131,6 +131,7 @@ const WORK_TITLES: Record<string, string> = {
 
 const LANGUAGE_DATA: Record<string, { code: string; name: string }> = {
   eng: { code: 'en', name: 'English' },
+  fra: { code: 'fr', name: 'French' },
   grc: { code: 'grc', name: 'Ancient Greek' },
   rus: { code: 'ru', name: 'Russian' },
 };
