@@ -424,6 +424,8 @@ button, input, select { font: inherit; }
   background: var(--panel);
 }
 
+.edition-contents { margin: 2rem 0 3rem; }
+
 .edition-header {
   display: flex;
   align-items: flex-start;

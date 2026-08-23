@@ -269,8 +269,12 @@ export function workHref(work: Pick<Work, 'authorSlug' | 'slug'>): string {
   return `/authors/${work.authorSlug}/${work.slug}`;
 }
 
+export function editionHref(work: Pick<Work, 'authorSlug' | 'slug'>, edition: Pick<Edition, 'code'>): string {
+  return `${workHref(work)}/${edition.code}`;
+}
+
 export function unitHref(work: Pick<Work, 'authorSlug' | 'slug'>, edition: Pick<Edition, 'code'>, unit: Pick<ReadingUnit, 'path'>): string {
-  return `${workHref(work)}/${edition.code}/${unit.path}`;
+  return `${editionHref(work, edition)}/${unit.path}`;
 }
 
 function findXmlFiles(root: string): string[] {

@@ -3,6 +3,7 @@ import TocTree from '../../components/TocTree.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import {
   authorHref,
+  editionHref,
   getLibrary,
   unitHref,
   workHref,
@@ -15,6 +16,7 @@ import {
 type Page =
   | { kind: 'author'; author: Author }
   | { kind: 'work'; author: Author; work: Work }
+  | { kind: 'edition'; author: Author; work: Work; edition: Edition }
   | { kind: 'reader'; author: Author; work: Work; edition: Edition; unit: ReadingUnit };
 
 interface Props { page: Page }
@@ -26,6 +28,10 @@ export function getStaticPaths() {
     for (const work of author.works) {
       paths.push({ params: { slug: `${author.slug}/${work.slug}` }, props: { page: { kind: 'work', author, work } } });
       for (const edition of work.editions) {
+        paths.push({
+          params: { slug: `${author.slug}/${work.slug}/${edition.code}` },
+          props: { page: { kind: 'edition', author, work, edition } },
+        });
         for (const unit of edition.units) {
           paths.push({
             params: { slug: `${author.slug}/${work.slug}/${edition.code}/${unit.path}` },
@@ -43,12 +49,16 @@ const title = page.kind === 'author'
   ? page.author.name
   : page.kind === 'work'
     ? page.work.title
-    : `${page.unit.title} · ${page.work.title}`;
+    : page.kind === 'edition'
+      ? `${page.edition.languageName} edition · ${page.work.title}`
+      : `${page.unit.title} · ${page.work.title}`;
 const description = page.kind === 'author'
   ? `Complete TEI editions of works by ${page.author.name}.`
   : page.kind === 'work'
     ? `Read ${page.work.title} by ${page.author.name} in its available TEI editions.`
-    : `${page.unit.title} from ${page.work.title} by ${page.author.name}.`;
+    : page.kind === 'edition'
+      ? `Contents of the ${page.edition.languageName} TEI edition of ${page.work.title} by ${page.author.name}.`
+      : `${page.unit.title} from ${page.work.title} by ${page.author.name}.`;
 ---
 
 <BaseLayout title={title} description={description} wide={page.kind === 'reader'}>
@@ -142,11 +152,59 @@ const description = page.kind === 'author'
     </section>
   )}
 
+  {page.kind === 'edition' && (
+    <section class="tool-container shell">
+      <div class="tool-header">
+        <div class="tool-title">
+          <span class="material-icons" aria-hidden="true">menu_book</span>
+          <div>
+            <h2>{page.work.title}</h2>
+            <p class="tool-description">{page.edition.languageName} edition · {page.author.name}</p>
+          </div>
+        </div>
+        <div class="tool-actions">
+          <a class="btn btn-secondary btn-compact" href={workHref(page.work)}>
+            <span class="material-icons" aria-hidden="true">translate</span>Other editions
+          </a>
+        </div>
+      </div>
+      {page.edition.code !== 'en' && (
+        <p class="edition-note">Automatic browser translation is disabled for this source-language edition. English editions remain translatable.</p>
+      )}
+      <article class="edition-panel edition-contents">
+        <header class="edition-header">
+          <div>
+            <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{page.edition.languageName}</span>
+            <h3 lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>{page.edition.sourceTitle}</h3>
+            <p>{page.edition.units.length} reading units · organized by {page.edition.unitKind.replaceAll('_', ' ')}</p>
+          </div>
+          <div class="edition-actions">
+            {page.edition.units[0] && <a class="btn btn-primary btn-compact" href={unitHref(page.work, page.edition, page.edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span>Start {page.edition.languageName} edition</a>}
+            <a class="btn btn-secondary btn-compact" href={`/tei/${page.author.slug}/${page.edition.sourceFile}`} download><span class="material-icons" aria-hidden="true">download</span>TEI</a>
+          </div>
+        </header>
+        <div class="toc-tree" lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>
+          <h4>Contents</h4>
+          <TocTree nodes={page.edition.toc} />
+        </div>
+        {(page.edition.persons.length > 0 || page.edition.places.length > 0) && (
+          <details class="tei-registry">
+            <summary>TEI registries ({page.edition.persons.length} people, {page.edition.places.length} places)</summary>
+            <div class="registry-columns">
+              {page.edition.persons.length > 0 && <section><h4>People</h4><dl>{page.edition.persons.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
+              {page.edition.places.length > 0 && <section><h4>Places</h4><dl>{page.edition.places.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
+            </div>
+          </details>
+        )}
+      </article>
+    </section>
+  )}
+
   {page.kind === 'reader' && (
     <section class="chapter-container shell">
       <header class="chapter-header">
         <nav class="chapter-breadcrumbs" aria-label="Breadcrumb">
-          <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><a href={`${workHref(page.work)}#edition-${page.edition.code}`}>{page.work.title}</a>
+          <a href="/">Library</a><span>/</span><a href={authorHref(page.author)}>{page.author.name}</a><span>/</span><a href={workHref(page.work)}>{page.work.title}</a><span>/</span><a href={editionHref(page.work, page.edition)}>{page.edition.languageName}</a>
         </nav>
         <p class="reader-context" lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>{[page.edition.languageName, ...page.unit.context].join(' · ')}</p>
         <h1 lang={page.edition.code} translate={page.edition.code === 'en' ? undefined : 'no'}>{page.unit.title}</h1>
@@ -196,7 +254,7 @@ const description = page.kind === 'author'
           </div>
           <nav class="chapter-navigation" aria-label="Reading order">
             {page.unit.previousPath ? <a class="btn btn-secondary chapter-nav-button" rel="prev" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.previousPath}`}><span class="material-icons" aria-hidden="true">arrow_back</span>Previous</a> : <span class="btn btn-secondary chapter-nav-button is-disabled">Previous</span>}
-            <a class="btn btn-secondary chapter-nav-button" href={`${workHref(page.work)}#edition-${page.edition.code}`}><span class="material-icons" aria-hidden="true">list</span>Contents</a>
+            <a class="btn btn-secondary chapter-nav-button" href={editionHref(page.work, page.edition)}><span class="material-icons" aria-hidden="true">list</span>Contents</a>
             {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${workHref(page.work)}/${page.edition.code}/${page.unit.nextPath}`}>Next<span class="material-icons" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled">Next</span>}
           </nav>
         </aside>
