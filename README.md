@@ -28,7 +28,11 @@ python -m pip install -r requirements-exports.txt
 npm run exports
 ```
 
-`npm run exports:sample` builds the French edition of *All's Well That Ends Well* as a quick end-to-end check. Local files default to `public/downloads/` and are intentionally ignored by Git. In deployment, the workflow restores unchanged validated editions from cache, regenerates only stale editions, validates every EPUB with W3C EPUBCheck, and publishes changed binaries to stable GitHub Release groups so the reading site remains comfortably inside GitHub Pages’ size limit. Per-edition manifests include checksums and structural validation results; the complete JSONL corpus, manifest, and schema notes are published as their own release group.
+`npm run exports:sample` builds the French edition of *All's Well That Ends Well* as a quick end-to-end check. Local files default to `public/downloads/` and are intentionally ignored by Git.
+
+Website deployment and publication generation are independent. The Pages workflow builds only the static Astro site. A separate publications workflow runs when canonical TEI or export-toolchain inputs change, restores unchanged validated editions from cache, regenerates stale editions, validates every EPUB with W3C EPUBCheck, and publishes changed binaries to stable GitHub Release groups. A publication failure therefore leaves the last valid files online without blocking a website deployment.
+
+Per-edition manifests include checksums and structural validation results; the complete JSONL corpus, manifest, and schema notes are published as their own release group. The site links directly to those durable assets. By default they live in this repository, but they can be moved without changing site code: set the `PUBLICATIONS_REPOSITORY` Actions variable and a `PUBLICATIONS_TOKEN` secret for the publication workflow, then set `PUBLICATIONS_BASE_URL` to the new repository's `https://github.com/OWNER/REPOSITORY/releases/download` URL for the Pages workflow.
 
 ## Language neighborhoods
 

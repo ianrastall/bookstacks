@@ -132,7 +132,10 @@ def parse_edition(source: Path) -> Edition:
     title_node = first_direct(title_stmt, "title") if title_stmt is not None else None
     author_node = first_descendant(title_stmt, "author") if title_stmt is not None else None
     author_name_node = first_descendant(author_node, "persName") if author_node is not None else None
-    license_node = first_descendant(root, "licence")
+    publication_stmt = first_descendant(root, "publicationStmt")
+    availability_node = first_direct(publication_stmt, "availability") if publication_stmt is not None else None
+    license_node = first_descendant(availability_node, "licence") if availability_node is not None else None
+    rights_text = element_text(license_node) or element_text(availability_node)
     identifier = root.get(XML_ID) or source.stem.replace("_", "-")
     return Edition(
         source=source,
@@ -144,7 +147,7 @@ def parse_edition(source: Path) -> Edition:
         title=element_text(title_node) or work_slug.replace("-", " ").title(),
         author=element_text(author_name_node) or element_text(author_node) or author_slug.replace("-", " ").title(),
         identifier=identifier,
-        license_text=element_text(license_node),
+        license_text=rights_text,
         license_url=license_node.get("target", "") if license_node is not None else "",
         root=root,
     )

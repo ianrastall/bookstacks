@@ -308,13 +308,20 @@ export function localizedWorkTitle(work: Work, locale: Locale): string {
   return editionForLocale(work, locale)?.sourceTitle ?? work.title;
 }
 
+const DEFAULT_PUBLICATIONS_BASE_URL = 'https://github.com/ianrastall/bookstacks/releases/download';
+
+export function publicationAssetHref(tag: string, assetName: string): string {
+  const baseUrl = (import.meta.env.PUBLIC_PUBLICATIONS_BASE_URL || DEFAULT_PUBLICATIONS_BASE_URL).replace(/\/+$/, '');
+  return `${baseUrl}/${encodeURIComponent(tag)}/${encodeURIComponent(assetName)}`;
+}
+
 export function editionDownloadBaseHref(author: Pick<Author, 'slug'>, edition: Pick<Edition, 'sourceFile'>): string {
   const stem = edition.sourceFile.replace(/\.xml$/i, '');
   const language = stem.match(/_(eng|fra|grc|rus)$/)?.[1] ?? 'eng';
   const tag = language === 'eng'
     ? `publications-en-${author.slug.localeCompare('n') < 0 ? 'a-m' : 'n-z'}`
     : `publications-${language === 'fra' ? 'fr' : language === 'rus' ? 'ru' : 'grc'}`;
-  return `https://github.com/ianrastall/bookstacks/releases/download/${tag}/${stem}`;
+  return publicationAssetHref(tag, stem);
 }
 
 export function editionDownloadHref(

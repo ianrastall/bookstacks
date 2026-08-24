@@ -1,7 +1,7 @@
 ---
 import EditionDownloads from '../../components/EditionDownloads.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { editionForLocale, getLibrary, type Author, type Edition, type Work } from '../../lib/library';
+import { editionForLocale, getLibrary, publicationAssetHref, type Author, type Edition, type Work } from '../../lib/library';
 import { SUPPORTED_LANGUAGES, isLocale, ui, type Locale } from '../../lib/i18n';
 
 interface DownloadEntry { author: Author; work: Work; edition: Edition }
@@ -38,10 +38,10 @@ const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [
         <p>{labels.completeCorpusHelp}</p>
       </div>
       <div class="download-links">
-        <a class="btn btn-primary" href="https://github.com/ianrastall/bookstacks/releases/download/publications-corpus/bookstacks-corpus.zip" download>
+        <a class="btn btn-primary" href={publicationAssetHref('publications-corpus', 'bookstacks-corpus.zip')} download>
           <span class="material-icons" aria-hidden="true">dataset</span>JSONL ZIP
         </a>
-        <a class="btn btn-secondary" href="https://github.com/ianrastall/bookstacks/releases/download/publications-corpus/bookstacks-corpus-manifest.json" download>
+        <a class="btn btn-secondary" href={publicationAssetHref('publications-corpus', 'bookstacks-corpus-manifest.json')} download>
           <span class="material-icons" aria-hidden="true">fact_check</span>Manifest
         </a>
       </div>
