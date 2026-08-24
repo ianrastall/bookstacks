@@ -75,9 +75,9 @@ jobs:
       - name: Validate EPUB publications
         shell: bash
         run: |
-          while IFS= read -r -d '' publication; do
-            java -jar .tools/epubcheck-5.3.0/epubcheck.jar "$publication"
-          done < <(find build/publications -name '*.epub' -print0)
+          export EPUBCHECK_JAR="$GITHUB_WORKSPACE/.tools/epubcheck-5.3.0/epubcheck.jar"
+          find build/publications -name '*.epub' -print0 \
+            | xargs -0 -r -n 1 -P 4 bash -c 'java -jar "$EPUBCHECK_JAR" "$1"' _
 
       - name: Stage changed release assets
         run: python scripts/stage_release_assets.py --input build/publications --output build/release-assets
