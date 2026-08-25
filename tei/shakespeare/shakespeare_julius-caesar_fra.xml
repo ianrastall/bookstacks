@@ -4494,21 +4494,21 @@ votre mère qui gronde, et il vous laissera faire.</p>
           </sp>
           <stage type="business" xml:id="fra-stage-000112">(Bruit derrière le théâtre.)</stage>
           <sp xml:id="fra-speech-000580">
-            <speaker>LE POËTE (</speaker>
-            <stage type="business" xml:id="fra-stage-000113">derrière le théâtre)</stage>
+            <speaker>LE POËTE</speaker>
+            <stage type="business" xml:id="fra-stage-000113">(derrière le théâtre)</stage>
             <p xml:id="fra-p-000601">Laissez-moi entrer, je
 veux voir les généraux: il y a de la discorde entre eux;
 il n'est pas prudent de les laisser seuls.</p>
           </sp>
           <sp xml:id="fra-speech-000581">
-            <speaker>LUCIUS (</speaker>
-            <stage type="business" xml:id="fra-stage-000114">derrière le théâtre)</stage>
+            <speaker>LUCIUS</speaker>
+            <stage type="business" xml:id="fra-stage-000114">(derrière le théâtre)</stage>
             <p xml:id="fra-p-000602">Vous ne pénétrerez point
 jusqu'à eux.</p>
           </sp>
           <sp xml:id="fra-speech-000582">
-            <speaker>LE POËTE (</speaker>
-            <stage type="business" xml:id="fra-stage-000115">derrière le théâtre)</stage>
+            <speaker>LE POËTE</speaker>
+            <stage type="business" xml:id="fra-stage-000115">(derrière le théâtre)</stage>
             <p xml:id="fra-p-000603">Rien ne peut m'arrêter
 que la mort.</p>
           </sp>

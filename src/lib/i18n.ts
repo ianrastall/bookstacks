@@ -71,6 +71,14 @@ export interface UiStrings {
   colors: Record<string, string>;
 }
 
+function russianPlural(count: number, one: string, few: string, many: string): string {
+  const mod10 = Math.abs(count) % 10;
+  const mod100 = Math.abs(count) % 100;
+  if (mod10 === 1 && mod100 !== 11) return one;
+  if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return few;
+  return many;
+}
+
 const STRINGS: Record<Locale, UiStrings> = {
   en: {
     siteDescription: 'A curated library of public-domain literature.',
@@ -200,9 +208,9 @@ const STRINGS: Record<Locale, UiStrings> = {
     librarySummary: (authors, books, editions, units) => `Κατάλογος ${authors} συγγραφέων, ${books} βιβλίων, ${editions} ἐκδόσεων TEI καὶ ${units} μερῶν Ἑλληνιστί.`,
     booksBy: (name) => `Βιβλία τοῦ ${name}`,
     byAuthor: (name) => `Ὑπὸ ${name}`,
-    bookCount: (count) => `${count} βιβλία`,
-    editionCount: (count) => `${count} ἐκδόσεις`,
-    readingUnitCount: (count) => `${count} μέρη`,
+    bookCount: (count) => `${count} ${count === 1 ? 'βιβλίον' : 'βιβλία'}`,
+    editionCount: (count) => `${count} ${count === 1 ? 'ἔκδοσις' : 'ἐκδόσεις'}`,
+    readingUnitCount: (count) => `${count} ${count === 1 ? 'μέρος' : 'μέρη'}`,
     organizedBy: (kind) => `κατὰ ${kind}`,
     availableInLanguage: (language) => `Ἐν ${language}`,
     startReading: 'Ἄρξασθαι τῆς ἀναγνώσεως',
@@ -216,7 +224,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     downloadFormatsNote: 'Τὴν πηγὴν TEI ἑκάστης ἐκδόσεως κατάφορτωσον. PDF παρέχεται μόνον ἐὰν τὸ ἀντίστοιχον ἀρχεῖον ἐν τῇ ἀποθήκῃ ὑπάρχῃ.',
     people: 'Πρόσωπα',
     places: 'Τόποι',
-    registries: (people, places) => `Κατάλογοι TEI (${people} πρόσωπα, ${places} τόποι)`,
+    registries: (people, places) => `Κατάλογοι TEI (${people} ${people === 1 ? 'πρόσωπον' : 'πρόσωπα'}, ${places} ${places === 1 ? 'τόπος' : 'τόποι'})`,
     previous: 'Πρότερον',
     next: 'Ἑπόμενον',
     readingOrder: 'Τάξις ἀναγνώσεως',
@@ -255,9 +263,9 @@ const STRINGS: Record<Locale, UiStrings> = {
     librarySummary: (authors, books, editions, units) => `Избранный каталог: ${authors} авторов, ${books} книг, ${editions} изданий TEI и ${units} частей для чтения на русском языке.`,
     booksBy: (name) => `Книги автора ${name}`,
     byAuthor: (name) => `Автор: ${name}`,
-    bookCount: (count) => `${count} книг`,
-    editionCount: (count) => `${count} изданий`,
-    readingUnitCount: (count) => `${count} частей для чтения`,
+    bookCount: (count) => `${count} ${russianPlural(count, 'книга', 'книги', 'книг')}`,
+    editionCount: (count) => `${count} ${russianPlural(count, 'издание', 'издания', 'изданий')}`,
+    readingUnitCount: (count) => `${count} ${russianPlural(count, 'часть', 'части', 'частей')} для чтения`,
     organizedBy: (kind) => `структура: ${kind}`,
     availableInLanguage: (language) => `Доступно на языке: ${language}`,
     startReading: 'Начать чтение',
@@ -271,7 +279,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     downloadFormatsNote: 'Для каждого издания доступен исходный файл TEI. PDF предлагается только тогда, когда соответствующий файл есть в репозитории.',
     people: 'Люди',
     places: 'Места',
-    registries: (people, places) => `Реестры TEI (${people} персон, ${places} мест)`,
+    registries: (people, places) => `Реестры TEI (${people} ${russianPlural(people, 'персона', 'персоны', 'персон')}, ${places} ${russianPlural(places, 'место', 'места', 'мест')})`,
     previous: 'Назад',
     next: 'Далее',
     readingOrder: 'Порядок чтения',

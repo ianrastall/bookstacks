@@ -9,12 +9,13 @@ import {
   localizedEditionHref,
   localizedUnitHref,
   localizedWorkHref,
+  readingOrganizationLabel,
   type Author,
   type Edition,
   type ReadingUnit,
   type Work,
 } from '../../../lib/library';
-import { SUPPORTED_LANGUAGES, ui, type Locale } from '../../../lib/i18n';
+import { SUPPORTED_LANGUAGES, languageData, ui, type Locale } from '../../../lib/i18n';
 
 type Page =
   | { kind: 'author'; locale: Locale; author: Author }
@@ -103,7 +104,7 @@ const authorWorks = page.kind === 'author'
               <h2>{edition.sourceTitle}</h2>
             </a>
             <div class="book-badges">
-              <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{edition.languageName}</span>
+              <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{languageData(locale).nativeName}</span>
             </div>
             <p class="card-meta">{labels.readingUnitCount(edition.units.length)}</p>
           </article>
@@ -132,9 +133,9 @@ const authorWorks = page.kind === 'author'
       <article class="edition-panel edition-contents">
         <header class="edition-header">
           <div>
-            <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{page.edition.languageName}</span>
+            <span class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{languageData(locale).nativeName}</span>
             <h2>{page.edition.sourceTitle}</h2>
-            <p>{labels.readingUnitCount(page.edition.units.length)} · {labels.organizedBy(page.edition.unitKind.replaceAll('_', ' '))}</p>
+            <p>{labels.readingUnitCount(page.edition.units.length)} · {labels.organizedBy(readingOrganizationLabel(page.edition.unitKind, locale))}</p>
           </div>
           <div class="edition-actions">
             {page.edition.units[0] && <a class="btn btn-primary btn-compact" href={localizedUnitHref(page.work, page.edition, page.edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span>{labels.startReading}</a>}

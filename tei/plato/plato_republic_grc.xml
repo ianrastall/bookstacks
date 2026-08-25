@@ -4,7 +4,7 @@
   <teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <fileDesc>
     <titleStmt>
-      <title type="main" xml:lang="en">The Republic</title>
+      <title type="main" xml:lang="grc">Πολιτεία</title>
       <title type="uniform" xml:lang="grc">Πολιτεία</title>
       <title type="alternative" xml:lang="lat">Respublica</title>
       <author ref="https://viaf.org/viaf/108159964" xml:lang="en">Plato</author>

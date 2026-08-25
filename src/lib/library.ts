@@ -5,6 +5,7 @@ import authorProfileData from '../data/author-profiles.json';
 import { isLocale, ui, type Locale } from './i18n';
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
+const TEI_NS = 'http://www.tei-c.org/ns/1.0';
 const READING_KIND_PRIORITY = ['scene', 'section', 'chapter', 'stave', 'bekker_page', 'part'];
 const SUPPLEMENTARY_KINDS = new Set([
   'front',
@@ -295,6 +296,16 @@ export function editionForLocale(work: Pick<Work, 'editions'>, locale: Locale): 
   return work.editions.find((edition) => edition.code === locale);
 }
 
+export function readingOrganizationLabel(kind: string, locale: Locale): string {
+  const labels: Record<Locale, Record<string, string>> = {
+    en: { scene: 'scene', section: 'section', chapter: 'chapter', stave: 'stave', bekker_page: 'Bekker page', part: 'part' },
+    fr: { scene: 'scène', section: 'section', chapter: 'chapitre', stave: 'strophe', bekker_page: 'page de Bekker', part: 'partie' },
+    grc: { scene: 'σκηνή', section: 'τμῆμα', chapter: 'κεφάλαιον', stave: 'στροφή', bekker_page: 'σελίδα Bekker', part: 'μέρος' },
+    ru: { scene: 'сцены', section: 'разделы', chapter: 'главы', stave: 'части', bekker_page: 'страницы Беккера', part: 'части' },
+  };
+  return labels[locale][kind] ?? kind.replaceAll('_', ' ');
+}
+
 export function localizedWorkTitle(work: Work, locale: Locale): string {
   return editionForLocale(work, locale)?.sourceTitle ?? work.title;
 }
@@ -344,9 +355,12 @@ function parseEdition(filePath: string): ParsedEdition {
   const document = new DOMParser().parseFromString(source, 'application/xml');
   const parseError = descendants(document, 'parsererror')[0];
   if (parseError) throw new Error(`Invalid XML in ${fileName}: ${cleanText(parseError.textContent)}`);
+  if (authorSlug === 'shakespeare' && fileLanguage === 'fra') repairConvertedDrama(document);
 
   const titleStmt = descendants(document, 'titleStmt')[0];
-  const sourceTitle = cleanText(descendants(titleStmt, 'title')[0]?.textContent)
+  const directTitles = directElementChildren(titleStmt).filter((node) => node.localName === 'title');
+  const sourceTitleNode = directTitles.find((node) => cleanText(node.getAttribute?.('type')) === 'main') ?? directTitles[0];
+  const sourceTitle = cleanText(sourceTitleNode?.textContent)
     || WORK_TITLES[workSlug]
     || titleFromSlug(workSlug);
   const entities = parseRegistries(document);
@@ -466,6 +480,56 @@ function parseRegistries(document: any): EntityMaps {
     }
   }
   return { persons, places, notes, referencedNoteIds };
+}
+
+function repairConvertedDrama(document: any): void {
+  for (const speech of descendants(document, 'sp')) {
+    const children = directElementChildren(speech);
+    const speaker = children.find((child) => child.localName === 'speaker');
+    const stage = children.find((child) => child.localName === 'stage');
+    if (!speaker || !stage) continue;
+
+    const speakerText = cleanText(speaker.textContent);
+    const stageText = cleanText(stage.textContent);
+    const trailingMarker = speakerText.match(/^(.*?)(\d+)$/u);
+    if (trailingMarker && /\p{L}/u.test(trailingMarker[1])) {
+      replaceElementText(document, speaker, trailingMarker[1]);
+      continue;
+    }
+    if (speakerText.endsWith('(') && stageText.endsWith(')')) {
+      replaceElementText(document, speaker, speakerText.slice(0, -1).trimEnd());
+      replaceElementText(document, stage, `(${stageText}`);
+      continue;
+    }
+
+    const letterCount = [...speakerText].filter((character) => /\p{L}/u.test(character)).length;
+    const fragmentary = letterCount <= 2 || speakerText.startsWith('(') || /['’]$/u.test(speakerText);
+    if (!fragmentary) continue;
+
+    const paragraphs = children.filter((child) => child.localName === 'p');
+    const combined = `${speakerText}${stageText}`;
+    const parent = speech.parentNode;
+    if (!parent) continue;
+
+    if (speakerText.startsWith('(')) {
+      const replacement = document.createElementNS(TEI_NS, 'stage');
+      replacement.setAttribute('type', stage.getAttribute?.('type') || 'business');
+      replacement.appendChild(document.createTextNode([combined, ...paragraphs.map((paragraph) => cleanText(paragraph.textContent))].join(' ')));
+      parent.replaceChild(replacement, speech);
+      continue;
+    }
+
+    const firstParagraph = document.createElementNS(TEI_NS, 'p');
+    firstParagraph.appendChild(document.createTextNode(combined));
+    parent.insertBefore(firstParagraph, speech);
+    for (const paragraph of paragraphs) parent.insertBefore(paragraph, speech);
+    parent.removeChild(speech);
+  }
+}
+
+function replaceElementText(document: any, element: any, value: string): void {
+  while (element.firstChild) element.removeChild(element.firstChild);
+  element.appendChild(document.createTextNode(value));
 }
 
 function registryDescription(node: any, nameNode: any): string {
@@ -589,7 +653,9 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
   if (node.nodeType !== 1) return '';
 
   const name = node.localName;
-  const children = () => directChildNodes(node).map((child) => renderNode(child, entities, headingLevel, context)).join('');
+  const children = () => normalizeInlineSpacing(
+    directChildNodes(node).map((child) => renderNode(child, entities, headingLevel, context)).join(''),
+  );
   const text = () => cleanText(node.textContent);
   const lang = node.getAttribute?.('xml:lang') || node.getAttributeNS?.(XML_NS, 'lang');
   const langAttr = lang ? ` lang="${escapeAttr(lang)}"` : '';
@@ -603,8 +669,24 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     case 'head':
       return `<h${Math.min(6, headingLevel)}>${children()}</h${Math.min(6, headingLevel)}>`;
     case 'p': {
+      const rend = `${node.getAttribute?.('rend') ?? ''} ${node.getAttribute?.('style') ?? ''}`.toLowerCase();
       const firstClass = isFirstParagraph(node) ? ' tei-first-paragraph' : '';
-      return `<p class="tei-paragraph${firstClass}">${children()}</p>`;
+      const rendClasses = [
+        /\b(?:noindent|notindent)\b/.test(rend) && 'tei-no-indent',
+        /\bcenter\b/.test(rend) && 'tei-align-center',
+        /\bright\b/.test(rend) && 'tei-align-right',
+        /\b(?:pre|preformatted)\b/.test(rend) && 'tei-preformatted',
+        /\bletter\b/.test(rend) && 'tei-letter',
+      ].filter(Boolean).join(' ');
+      const classAttr = `tei-paragraph${firstClass}${rendClasses ? ` ${rendClasses}` : ''}`;
+      if (/\bsubheading\b/.test(rend)) {
+        const level = Math.min(6, headingLevel);
+        return `<h${level} class="tei-subheading">${children()}</h${level}>`;
+      }
+      if (/\bblockquote\b/.test(rend)) {
+        return `<blockquote class="tei-blockquote"><p class="${classAttr}">${children()}</p></blockquote>`;
+      }
+      return `<p class="${classAttr}">${children()}</p>`;
     }
     case 'sp':
       return `<section class="tei-speech">${children()}</section>`;
@@ -616,7 +698,12 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
       const stageType = slugify(cleanText(node.getAttribute?.('type'))) || 'direction';
       const isBlock = ['entrance', 'exit', 'setting'].includes(stageType);
       const tag = isBlock ? 'div' : 'span';
-      return `<${tag} class="tei-stage tei-stage-${escapeAttr(stageType)}">[${children()}]</${tag}>`;
+      const content = children();
+      const stageText = text();
+      const delimited = /^[([]/u.test(stageText)
+        || /[)\]][.,;:]?$/u.test(stageText)
+        || hasPairedDelimiters(stageText, [['(', ')'], ['[', ']']]);
+      return `<${tag} class="tei-stage tei-stage-${escapeAttr(stageType)}">${delimited ? content : `[${content}]`}</${tag}>`;
     }
     case 'said': {
       const speaker = referencedEntities(node.getAttribute?.('who'), entities.persons);
@@ -627,7 +714,9 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     case 'q':
     case 'quote': {
       const block = directElementChildren(node).some((child) => ['p', 'lg', 'sp'].includes(child.localName));
-      return block ? `<blockquote>${children()}</blockquote>` : `<q>${children()}</q>`;
+      if (block) return `<blockquote>${children()}</blockquote>`;
+      const delimited = hasPairedDelimiters(text(), [['“', '”'], ['‘', '’'], ['«', '»'], ['„', '“'], ['"', '"'], ["'", "'"]]);
+      return `<q${delimited ? ' class="tei-quote-delimited"' : ''}>${children()}</q>`;
     }
     case 'persName':
     case 'placeName':
@@ -658,10 +747,12 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
       return `<span class="tei-foreign"${langAttr}>${children()}</span>`;
     case 'hi': {
       const rend = `${node.getAttribute?.('rend') ?? ''} ${node.getAttribute?.('style') ?? ''}`.toLowerCase();
-      if (rend.includes('bold')) return `<strong>${children()}</strong>`;
+      if (rend.includes('bold') || rend.includes('strong')) return `<strong>${children()}</strong>`;
       if (rend.includes('sup')) return `<sup>${children()}</sup>`;
       if (rend.includes('sub')) return `<sub>${children()}</sub>`;
-      if (rend.includes('small')) return `<span class="tei-smallcaps">${children()}</span>`;
+      if (rend.includes('small') || /\bsc(?:\W|$)/.test(rend)) return `<span class="tei-smallcaps">${children()}</span>`;
+      if (rend.includes('razradka')) return `<span class="tei-letterspaced">${children()}</span>`;
+      if (rend.includes('span') || rend.includes('normal')) return `<span>${children()}</span>`;
       return `<em>${children()}</em>`;
     }
     case 'lg':
@@ -773,7 +864,25 @@ function renderInlineNote(note: any, entities: EntityMaps, headingLevel: number,
   const sourceId = xmlId(note) || `generated-${number}`;
   const popoverId = `note-${slugify(sourceId)}-${number}`;
   const labels = ui(context.locale);
-  return ` <span class="tei-note"><button class="tei-note-ref" type="button" aria-expanded="false" aria-controls="${escapeAttr(popoverId)}" aria-label="${escapeAttr(`${labels.footnote} ${number}`)}">${number}</button><span class="tei-note-popover" id="${escapeAttr(popoverId)}" role="note" tabindex="-1" hidden><span class="tei-note-label">${escapeHtml(`${labels.footnote} ${number}`)}</span><span class="tei-note-text">${content.trim()}</span><button class="tei-note-close" type="button" aria-label="${escapeAttr(labels.closeFootnote)}">×</button></span></span> `;
+  return `<span class="tei-note"><button class="tei-note-ref" type="button" aria-expanded="false" aria-controls="${escapeAttr(popoverId)}" aria-label="${escapeAttr(`${labels.footnote} ${number}`)}">${number}</button><span class="tei-note-popover" id="${escapeAttr(popoverId)}" role="note" tabindex="-1" hidden><span class="tei-note-label">${escapeHtml(`${labels.footnote} ${number}`)}</span><span class="tei-note-text">${content.trim()}</span><button class="tei-note-close" type="button" aria-label="${escapeAttr(labels.closeFootnote)}">×</button></span></span>`;
+}
+
+function normalizeInlineSpacing(value: string): string {
+  return value
+    .replace(/\s+(?=<span class="tei-note">)/g, '')
+    .replace(/(<\/button><\/span><\/span>)\s+([,.;:!?])/g, '$1$2');
+}
+
+function hasPairedDelimiters(value: string, pairs: Array<[string, string]>): boolean {
+  const normalized = cleanText(value);
+  return pairs.some(([opening, closing]) => (
+    normalized.startsWith(opening)
+    && new RegExp(`${escapeRegExp(closing)}[.,;:]?$`, 'u').test(normalized)
+  ));
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 function referencedEntities(value: string, registry: Map<string, RegistryEntry>, includeDescription = false): string {

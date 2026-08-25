@@ -492,7 +492,7 @@ sont vite passés.</p>
           </sp>
           <stage type="entrance" xml:id="fra-stage-000006">(Entrent Dull et Costard tenant une lettre.)</stage>
           <sp xml:id="fra-speech-000043">
-            <speaker>DULL1</speaker>
+            <speaker>DULL</speaker>
             <p xml:id="fra-p-000070">Quelle est la personne du duc?</p>
           </sp>
           <sp xml:id="fra-speech-000044">

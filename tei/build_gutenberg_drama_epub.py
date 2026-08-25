@@ -330,7 +330,7 @@ def uppercase_role_prefix(value: str) -> str | None:
         output.append(character)
     candidate = "".join(output).strip(" ,.\t\r\n")
     letters = [character for character in candidate if character.isalpha()]
-    if not letters or len(candidate) > 100 or not all(character == character.upper() for character in letters):
+    if len(letters) < 2 or len(candidate) > 100 or not all(character == character.upper() for character in letters):
         return None
     return candidate
 
@@ -342,7 +342,7 @@ def speech_prefix(element: etree._Element) -> tuple[str, str, int] | None:
     if not separators:
         return None
     position, length = min(separators)
-    before = clean_text(raw[:position]).rstrip(".- ")
+    before = re.sub(r"\d+$", "", clean_text(raw[:position]).rstrip(".- "))
     role = uppercase_role_prefix(before)
     if not role:
         return None

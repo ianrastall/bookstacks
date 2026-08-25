@@ -596,6 +596,16 @@ button, input, select { font: inherit; }
 .reader-content p { margin: 0; }
 .reader-content .tei-paragraph { text-indent: 1.5em; }
 .reader-content .tei-first-paragraph { text-indent: 0; }
+.reader-content .tei-no-indent { text-indent: 0; }
+.reader-content .tei-align-center { text-align: center; text-indent: 0; }
+.reader-content .tei-align-right { text-align: right; text-indent: 0; }
+.reader-content .tei-preformatted { white-space: pre-line; }
+.reader-content .tei-letter { margin: 1.25em 0; padding-left: 1.5em; text-indent: 0; }
+.reader-content .tei-subheading { margin-top: 1.8em; text-align: center; }
+.reader-content .tei-blockquote .tei-paragraph { text-indent: 0; }
+.tei-quote-delimited::before,
+.tei-quote-delimited::after { content: none; }
+.tei-letterspaced { letter-spacing: 0.14em; }
 .reader-content h2,
 .reader-content h3,
 .reader-content h4,
@@ -639,7 +649,7 @@ button, input, select { font: inherit; }
 .tei-note {
   position: relative;
   display: inline;
-  margin-inline: 0.18em;
+  margin-inline: 0;
   font-family: var(--sans-font);
   line-height: 1;
 }
