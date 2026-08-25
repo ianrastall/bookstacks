@@ -66,6 +66,22 @@ python ./validate_tei.py
   Spring*, *First Love*, and *Mumu*; opening frames remain prologues, untyped
   numbered divisions are restored as chapters, and *On the Eve* title,
   translation, introduction, and character-list matter remains accessible.
+- Seven matching Russian Turgenev editions are generated from the paginated
+  public-domain HTML at the Internet Library of Alexei Komarov. The importer
+  caches the source pages in ignored `assets/ilibrary/turgenev`, records each
+  stated print source, and retains headings, paragraphs, verse, notes,
+  epigraphs, dedications, ornaments, inline emphasis, and source-section
+  boundaries. *Virgin Soil* is excluded because the catalog does not contain
+  its Russian original, *Новь*.
+
+To refresh or rebuild only these Russian editions from the repository root:
+
+```powershell
+python tei/build_ilibrary_turgenev.py --cache-dir assets/ilibrary/turgenev --output-dir tei/turgenev --schema tei/tei_all.rng
+```
+
+Existing cached HTML is reused. Pass `--refresh` to download it again, or
+`--work <slug>` to rebuild one selected title.
 - Six root-level `bronte-*_*_en.xml` sources generate separate Anne, Charlotte,
   and Emily Brontë shelves containing *Agnes Grey*, Charlotte Brontë's four
   supplied novels, and *Wuthering Heights*. Four `chesterton-g-k_*_en.xml`

@@ -753,6 +753,15 @@
     ]
   },
   {
+    "author": "Turgenev",
+    "title": "Ivan Turgenev Russian collection",
+    "id": "novels-russian",
+    "source_format": "ilibrary_turgenev_html",
+    "sources": [
+      { "lang": "rus", "xml_lang": "ru", "path": "../assets/ilibrary/turgenev" }
+    ]
+  },
+  {
     "author": "Bronte-Anne",
     "title": "Anne Brontë collection",
     "id": "novels",

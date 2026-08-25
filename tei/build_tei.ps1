@@ -914,6 +914,17 @@ foreach ($item in $config) {
         if ($LASTEXITCODE -ne 0) { throw "Failed to normalize legacy prose collection $($item.title)." }
         continue
     }
+    if ($item.source_format -eq 'ilibrary_turgenev_html') {
+        if ($item.sources.Count -ne 1) { throw "iLibrary Turgenev collection must have exactly one cache directory." }
+        $cacheDirectory = Join-Path $PSScriptRoot $item.sources[0].path
+        $outputDirectory = Join-Path $PSScriptRoot $authorSlug
+        & python (Join-Path $PSScriptRoot 'build_ilibrary_turgenev.py') `
+            --cache-dir $cacheDirectory `
+            --output-dir $outputDirectory `
+            --schema (Join-Path $PSScriptRoot 'tei_all.rng')
+        if ($LASTEXITCODE -ne 0) { throw "Failed to convert the iLibrary Turgenev HTML collection." }
+        continue
+    }
     if ($item.source_format -eq 'middlemarch_annotated_fragments') {
         if ($item.sources.Count -ne 1) { throw "Middlemarch must have exactly one source repository directory." }
         $src = $item.sources[0]
