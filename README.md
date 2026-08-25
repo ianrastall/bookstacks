@@ -24,6 +24,8 @@ tei/austen/austen_emma_eng.pdf
 
 The matching PDF link appears automatically because the file exists in the repository; without that file, the site shows only the TEI download. The optional `scripts/build_exports.py` tool remains available for explicitly invoked local PDF creation, but neither `npm run build` nor the deployment workflow runs it. Its output is ignored until a selected PDF is copied beside its TEI source and committed.
 
+For local review, the Downloads page also detects exporter output at `public/downloads/<author>/<edition>/<edition>.pdf`. These ignored files are preview-only; a production PDF still needs to be copied beside its matching TEI source and committed.
+
 ## Language neighborhoods
 
 Canonical routes begin with a site language (`/en/`, `/fr/`, `/grc/`, or `/ru/`). Choosing a flag changes the interface language and filters the library to editions in that language. Entering a book through one of its language-specific routes does the same. Legacy unprefixed reading routes redirect to the corresponding canonical neighborhood.

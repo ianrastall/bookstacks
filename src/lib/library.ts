@@ -141,6 +141,7 @@ export interface Edition {
   sourceTitle: string;
   sourceFile: string;
   pdfFile?: string;
+  pdfHref?: string;
   kind: string;
   unitKind: string;
   units: ReadingUnit[];
@@ -293,9 +294,10 @@ export function editionTeiHref(
 
 export function editionPdfHref(
   author: Pick<Author, 'slug'>,
-  edition: Pick<Edition, 'pdfFile'>,
+  edition: Pick<Edition, 'pdfFile' | 'pdfHref'>,
 ): string | undefined {
-  return edition.pdfFile ? `/tei/${author.slug}/${edition.pdfFile}` : undefined;
+  if (!edition.pdfFile) return undefined;
+  return edition.pdfHref ?? `/tei/${author.slug}/${edition.pdfFile}`;
 }
 
 function findXmlFiles(root: string): string[] {
@@ -310,10 +312,18 @@ function findXmlFiles(root: string): string[] {
 
 function parseEdition(filePath: string): ParsedEdition {
   const fileName = path.basename(filePath);
+  const stem = fileName.replace(/\.xml$/i, '');
   const pdfName = fileName.replace(/\.xml$/i, '.pdf');
   const match = fileName.match(/^([^_]+)_(.+)_([a-z]{3})\.xml$/);
   if (!match) throw new Error(`Unexpected TEI filename: ${fileName}`);
   const [, authorSlug, workSlug, fileLanguage] = match;
+  const repositoryPdfPath = path.join(path.dirname(filePath), pdfName);
+  const generatedPdfPath = path.resolve(process.cwd(), 'public', 'downloads', authorSlug, stem, pdfName);
+  const pdfHref = fs.existsSync(repositoryPdfPath)
+    ? `/tei/${authorSlug}/${pdfName}`
+    : fs.existsSync(generatedPdfPath)
+      ? `/downloads/${authorSlug}/${stem}/${pdfName}`
+      : undefined;
   const language = LANGUAGE_DATA[fileLanguage] ?? { code: fileLanguage, name: fileLanguage };
   const locale: Locale = isLocale(language.code) ? language.code : 'en';
   const source = fs.readFileSync(filePath, 'utf8');
@@ -398,7 +408,8 @@ function parseEdition(filePath: string): ParsedEdition {
     languageName: language.name,
     sourceTitle,
     sourceFile: fileName,
-    pdfFile: fs.existsSync(path.join(path.dirname(filePath), pdfName)) ? pdfName : undefined,
+    pdfFile: pdfHref ? pdfName : undefined,
+    pdfHref,
     kind,
     unitKind,
     units,
