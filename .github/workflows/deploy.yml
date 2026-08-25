@@ -46,6 +46,9 @@ jobs:
           base-url-path: https://bookstacks.org/
           path-to-root: dist
 
+      - name: Add language root aliases
+        run: node scripts/stage_language_root_aliases.mjs
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
