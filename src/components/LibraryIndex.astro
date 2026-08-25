@@ -22,7 +22,7 @@ const unitCount = authors.reduce((sum, author) => sum + author.works.reduce((wor
 }, 0), 0);
 const format = new Intl.NumberFormat(locale === 'grc' ? 'el-GR' : locale);
 const libraryDescription = labels.librarySummary(authors.length, editionCount, editionCount, format.format(unitCount));
-const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [language.code, `/${language.code}/`])) as Record<Locale, string>;
+const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [language.code, `/${language.code}`])) as Record<Locale, string>;
 ---
 
 <BaseLayout title={labels.library} description={libraryDescription} locale={locale} languageLinks={languageLinks}>
@@ -56,4 +56,3 @@ const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [
     ) : <p class="empty-state">{labels.noBooks}</p>}
   </section>
 </BaseLayout>
-

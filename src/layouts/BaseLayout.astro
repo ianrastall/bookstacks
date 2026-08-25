@@ -45,7 +45,7 @@ const palettes = [
     <meta name="description" content={description} />
     <title>{pageTitle}</title>
     {SUPPORTED_LANGUAGES.map((language) => (
-      <link rel="alternate" hreflang={language.code} href={new URL(languageLinks[language.code] ?? `/${language.code}/`, Astro.site)} />
+      <link rel="alternate" hreflang={language.code} href={new URL(languageLinks[language.code] ?? `/${language.code}`, Astro.site)} />
     ))}
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <slot name="head" />
@@ -70,7 +70,7 @@ const palettes = [
     <a class="skip-link" href="#content">{labels.skipToContent}</a>
     <div class="shell">
       <header class="site-header">
-        <a class="brand" href={`/${locale}/`}>
+        <a class="brand" href={`/${locale}`}>
           <span class="brand-mark"><span class="material-icons">library_books</span></span>
           <span>Bookstacks</span>
         </a>
@@ -85,7 +85,7 @@ const palettes = [
             {SUPPORTED_LANGUAGES.map((language) => (
               <a
                 class="language-option"
-                href={languageLinks[language.code] ?? `/${language.code}/`}
+                href={languageLinks[language.code] ?? `/${language.code}`}
                 aria-current={language.code === locale ? 'page' : undefined}
                 lang={language.code}
                 hreflang={language.code}

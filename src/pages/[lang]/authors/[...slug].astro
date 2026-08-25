@@ -56,10 +56,10 @@ const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => {
   const target = language.code;
   if (page.kind === 'author') {
     const hasBooks = page.author.works.some((work) => editionForLocale(work, target));
-    return [target, hasBooks ? localizedAuthorHref(page.author, target) : `/${target}/`];
+    return [target, hasBooks ? localizedAuthorHref(page.author, target) : `/${target}`];
   }
   const targetEdition = editionForLocale(page.work, target);
-  if (!targetEdition) return [target, `/${target}/`];
+  if (!targetEdition) return [target, `/${target}`];
   if (page.kind === 'reader' && target === locale) return [target, localizedUnitHref(page.work, page.edition, page.unit)];
   return [target, localizedWorkHref(page.work, target)];
 })) as Record<Locale, string>;
@@ -86,7 +86,7 @@ const authorWorks = page.kind === 'author'
           </div>
         </div>
         <div class="tool-actions">
-          <a class="btn btn-secondary btn-compact" href={`/${locale}/`}>
+          <a class="btn btn-secondary btn-compact" href={`/${locale}`}>
             <span class="material-icons" aria-hidden="true">home</span>{labels.home}
           </a>
         </div>
@@ -163,7 +163,7 @@ const authorWorks = page.kind === 'author'
     <section class="chapter-container shell">
       <header class="chapter-header">
         <nav class="chapter-breadcrumbs" aria-label={labels.contents}>
-          <a href={`/${locale}/`}>{labels.library}</a><span>/</span><a href={localizedAuthorHref(page.author, locale)}>{page.author.name}</a><span>/</span><a href={localizedEditionHref(page.work, page.edition)}>{page.edition.sourceTitle}</a>
+          <a href={`/${locale}`}>{labels.library}</a><span>/</span><a href={localizedAuthorHref(page.author, locale)}>{page.author.name}</a><span>/</span><a href={localizedEditionHref(page.work, page.edition)}>{page.edition.sourceTitle}</a>
         </nav>
         <p class="reader-context">{page.unit.context.join(' · ')}</p>
         <h1>{page.unit.title}</h1>
