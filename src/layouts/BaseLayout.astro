@@ -47,6 +47,7 @@ const palettes = [
     <meta name="description" content={description} />
     <title>{pageTitle}</title>
     <link rel="canonical" href={new URL(canonicalPath, Astro.site)} />
+    <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site)} />
     {SUPPORTED_LANGUAGES.map((language) => (
       <link rel="alternate" hreflang={language.code} href={new URL(languageLinks[language.code] ?? `/${language.code}`, Astro.site)} />
     ))}
@@ -73,7 +74,7 @@ const palettes = [
     <a class="skip-link" href="#content">{labels.skipToContent}</a>
     <div class="shell">
       <header class="site-header">
-        <a class="brand" href={`/${locale}`}>
+        <a class="brand" href="/">
           <span class="brand-mark"><span class="material-icons">library_books</span></span>
           <span>Bookstacks</span>
         </a>
@@ -85,11 +86,20 @@ const palettes = [
         </nav>
         <div class="header-actions">
           <nav class="language-switcher" aria-label={labels.chooseLanguage}>
+            <a
+              class="language-option"
+              href="/"
+              aria-current={canonicalPath === '/' ? 'page' : undefined}
+              title={labels.allLanguages}
+            >
+              <span class="language-flag" aria-hidden="true">🌐</span>
+              <span class="visually-hidden">{labels.allLanguages}</span>
+            </a>
             {SUPPORTED_LANGUAGES.map((language) => (
               <a
                 class="language-option"
                 href={languageLinks[language.code] ?? `/${language.code}`}
-                aria-current={language.code === locale ? 'page' : undefined}
+                aria-current={canonicalPath !== '/' && language.code === locale ? 'page' : undefined}
                 lang={language.code}
                 hreflang={language.code}
                 title={language.nativeName}

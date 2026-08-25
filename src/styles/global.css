@@ -346,6 +346,21 @@ button, input, select { font: inherit; }
 .tool-card h2,
 .tool-card h3 { margin: 0; font-size: 1.08rem; }
 
+.language-home { max-width: 920px; }
+.language-home-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.language-home-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  min-height: 112px;
+  padding: 1.2rem;
+}
+.language-home-flag { font-size: 2.25rem; line-height: 1; }
+.language-home-copy { display: flex; flex-direction: column; gap: 0.15rem; }
+.language-home-copy strong { font-size: 1.15rem; }
+.language-home-copy > span { color: var(--muted); font-size: 0.88rem; }
+.language-home-arrow { color: var(--accent); }
+
 .tool-icon {
   display: flex;
   align-items: center;

@@ -1,5 +1,36 @@
 ---
-import LibraryIndex from '../components/LibraryIndex.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SUPPORTED_LANGUAGES, type Locale } from '../lib/i18n';
+
+const languageLinks = Object.fromEntries(
+  SUPPORTED_LANGUAGES.map((language) => [language.code, `/${language.code}`]),
+) as Record<Locale, string>;
 ---
 
-<LibraryIndex locale="en" />
+<BaseLayout
+  title="Bookstacks"
+  description="Choose a language for the Bookstacks library of public-domain literature."
+  languageLinks={languageLinks}
+>
+  <section class="tool-container shell language-home" style="margin-top: 2rem;">
+    <div class="tool-header">
+      <div class="tool-title">
+        <span class="material-icons" aria-hidden="true">public</span>
+        <h1>Choose a language</h1>
+      </div>
+    </div>
+    <p class="tool-description">Select a language to enter its library.</p>
+    <div class="tool-grid language-home-grid">
+      {SUPPORTED_LANGUAGES.map((language) => (
+        <a class="tool-card language-home-card" href={`/${language.code}`} lang={language.code} hreflang={language.code}>
+          <span class="language-home-flag" aria-hidden="true">{language.flag}</span>
+          <span class="language-home-copy">
+            <strong>{language.nativeName}</strong>
+            <span>{language.name}</span>
+          </span>
+          <span class="material-icons language-home-arrow" aria-hidden="true">arrow_forward</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

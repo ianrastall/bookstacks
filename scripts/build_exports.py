@@ -26,8 +26,12 @@ ROOT = Path(__file__).resolve().parents[1]
 TEI_ROOT = ROOT / "tei"
 OUTPUT_ROOT = Path(os.environ.get("BOOKSTACKS_EXPORT_ROOT", ROOT / "public" / "downloads")).resolve()
 TMP_ROOT = ROOT / "tmp" / "exports"
-FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NotoSerif-Book.ttf"
-BOLD_FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NotoSerif-Semibold.ttf"
+FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NewCM10-Regular.otf"
+ITALIC_FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NewCM10-Italic.otf"
+BOLD_FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NewCM10-Bold.otf"
+BOLD_ITALIC_FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NewCM10-BoldItalic.otf"
+SMALL_FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NewCM08-Regular.otf"
+SMALL_ITALIC_FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NewCM08-Italic.otf"
 AUTHOR_PROFILES_PATH = ROOT / "src" / "data" / "author-profiles.json"
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 XML_LANG = "{http://www.w3.org/XML/1998/namespace}lang"
@@ -759,7 +763,14 @@ No ISBN has been assigned. The stable Bookstacks edition identifier and canonica
 """
 
 
-def latex_document(edition: Edition, body: str, font_filename: str, bold_font_filename: str) -> str:
+def latex_document(
+    edition: Edition,
+    body: str,
+    font_filename: str,
+    italic_font_filename: str,
+    bold_font_filename: str,
+    bold_italic_font_filename: str,
+) -> str:
     language = {
         "en": "english",
         "fr": "french",
@@ -773,14 +784,12 @@ def latex_document(edition: Edition, body: str, font_filename: str, bold_font_fi
     # chapters). Deep section lists become unreadable in heavily annotated TEI.
     toc_depth = 0
     canonical_url = edition.canonical_url
-    return rf"""\documentclass[12pt,twoside,openany]{{memoir}}
+    return rf"""\documentclass[11pt,twoside,openany]{{memoir}}
 \usepackage{{fontspec}}
 \setmainfont{{{font_filename}}}[
   BoldFont={{{bold_font_filename}}},
-  ItalicFont={{{font_filename}}},
-  BoldItalicFont={{{bold_font_filename}}},
-  ItalicFeatures={{FakeSlant=.18}},
-  BoldItalicFeatures={{FakeSlant=.18}}
+  ItalicFont={{{italic_font_filename}}},
+  BoldItalicFont={{{bold_italic_font_filename}}}
 ]
 \usepackage[{language}]{{babel}}
 \usepackage{{microtype}}
@@ -944,7 +953,11 @@ def edition_fingerprint(edition: Edition) -> str:
         edition.source,
         Path(__file__).resolve(),
         FONT_PATH,
+        ITALIC_FONT_PATH,
         BOLD_FONT_PATH,
+        BOLD_ITALIC_FONT_PATH,
+        SMALL_FONT_PATH,
+        SMALL_ITALIC_FONT_PATH,
         AUTHOR_PROFILES_PATH,
         ROOT / "requirements-exports.txt",
     ]
@@ -994,11 +1007,25 @@ def build_edition(edition: Edition) -> dict[str, object]:
     body = LatexRenderer(edition).render()
     latex_dir = work_dir / "latex"
     latex_dir.mkdir()
-    for font_path in (FONT_PATH, BOLD_FONT_PATH):
+    for font_path in (
+        FONT_PATH,
+        ITALIC_FONT_PATH,
+        BOLD_FONT_PATH,
+        BOLD_ITALIC_FONT_PATH,
+        SMALL_FONT_PATH,
+        SMALL_ITALIC_FONT_PATH,
+    ):
         shutil.copy2(font_path, latex_dir / font_path.name)
     tex_path = latex_dir / f"{edition.stem}.tex"
     tex_path.write_text(
-        latex_document(edition, body, FONT_PATH.name, BOLD_FONT_PATH.name),
+        latex_document(
+            edition,
+            body,
+            FONT_PATH.name,
+            ITALIC_FONT_PATH.name,
+            BOLD_FONT_PATH.name,
+            BOLD_ITALIC_FONT_PATH.name,
+        ),
         encoding="utf-8",
         newline="\n",
     )

@@ -22,6 +22,7 @@ export interface UiStrings {
   home: string;
   siteNetwork: string;
   chooseLanguage: string;
+  allLanguages: string;
   chooseColorTheme: string;
   colorThemes: string;
   toggleTheme: string;
@@ -78,6 +79,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     home: 'Home',
     siteNetwork: 'Site network',
     chooseLanguage: 'Choose language',
+    allLanguages: 'All languages',
     chooseColorTheme: 'Choose color theme',
     colorThemes: 'Color themes',
     toggleTheme: 'Toggle theme',
@@ -132,6 +134,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     home: 'Accueil',
     siteNetwork: 'Réseau du site',
     chooseLanguage: 'Choisir la langue',
+    allLanguages: 'Toutes les langues',
     chooseColorTheme: 'Choisir le thème de couleur',
     colorThemes: 'Thèmes de couleur',
     toggleTheme: 'Changer de thème',
@@ -186,6 +189,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     home: 'Οἶκος',
     siteNetwork: 'Δίκτυον',
     chooseLanguage: 'Γλῶτταν ἑλέσθαι',
+    allLanguages: 'Πᾶσαι γλῶτται',
     chooseColorTheme: 'Χρῶμα ἑλέσθαι',
     colorThemes: 'Χρώματα',
     toggleTheme: 'Φῶς μεταβάλλειν',
@@ -240,6 +244,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     home: 'Главная',
     siteNetwork: 'Сайты',
     chooseLanguage: 'Выбрать язык',
+    allLanguages: 'Все языки',
     chooseColorTheme: 'Выбрать цветовую тему',
     colorThemes: 'Цветовые темы',
     toggleTheme: 'Сменить тему',
