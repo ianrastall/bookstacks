@@ -25,6 +25,20 @@ const SUPPLEMENTARY_KINDS = new Set([
   'title-page',
 ]);
 const WRAPPER_KINDS = new Set(['edition', 'translation']);
+const RELEASE_PDF_INDEX_PATH = path.resolve(process.cwd(), 'tmp', 'release-pdfs.json');
+const EXPORT_ROOT = path.resolve(process.env.BOOKSTACKS_EXPORT_ROOT || path.join(process.cwd(), 'public', 'downloads'));
+
+function loadReleasePdfHrefs(): Record<string, string> {
+  if (!fs.existsSync(RELEASE_PDF_INDEX_PATH)) return {};
+  const values = JSON.parse(fs.readFileSync(RELEASE_PDF_INDEX_PATH, 'utf8')) as Record<string, unknown>;
+  return Object.fromEntries(Object.entries(values).filter((entry): entry is [string, string] => (
+    entry[0].toLowerCase().endsWith('.pdf')
+    && typeof entry[1] === 'string'
+    && entry[1].startsWith('https://github.com/')
+  )));
+}
+
+const RELEASE_PDF_HREFS = loadReleasePdfHrefs();
 
 const AUTHOR_PROFILE_DATA = authorProfileData as Record<string, Omit<Author, 'slug' | 'works'>>;
 
@@ -318,12 +332,12 @@ function parseEdition(filePath: string): ParsedEdition {
   if (!match) throw new Error(`Unexpected TEI filename: ${fileName}`);
   const [, authorSlug, workSlug, fileLanguage] = match;
   const repositoryPdfPath = path.join(path.dirname(filePath), pdfName);
-  const generatedPdfPath = path.resolve(process.cwd(), 'public', 'downloads', authorSlug, stem, pdfName);
+  const generatedPdfPath = path.join(EXPORT_ROOT, authorSlug, stem, pdfName);
   const pdfHref = fs.existsSync(repositoryPdfPath)
     ? `/tei/${authorSlug}/${pdfName}`
     : fs.existsSync(generatedPdfPath)
       ? `/downloads/${authorSlug}/${stem}/${pdfName}`
-      : undefined;
+      : RELEASE_PDF_HREFS[pdfName];
   const language = LANGUAGE_DATA[fileLanguage] ?? { code: fileLanguage, name: fileLanguage };
   const locale: Locale = isLocale(language.code) ? language.code : 'en';
   const source = fs.readFileSync(filePath, 'utf8');

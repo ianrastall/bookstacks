@@ -13,7 +13,7 @@ Use `npm run build` for the same type check and static production build used bef
 
 ## Edition downloads
 
-Bookstacks distributes only the canonical TEI source and, when supplied, a PDF. The site build does not generate publication files or fetch them from a release service. Every TEI file under `tei/<author>/` is downloadable from its book page and the downloads index.
+Bookstacks distributes only the canonical TEI source and, when supplied, a PDF. The site build does not generate publication files. Every TEI file under `tei/<author>/` is downloadable from its book page and the downloads index.
 
 To publish a PDF, commit it beside its matching TEI file with the same basename:
 
@@ -22,9 +22,9 @@ tei/austen/austen_emma_eng.xml
 tei/austen/austen_emma_eng.pdf
 ```
 
-The matching PDF link appears automatically because the file exists in the repository; without that file, the site shows only the TEI download. The optional `scripts/build_exports.py` tool remains available for explicitly invoked local PDF creation, but neither `npm run build` nor the deployment workflow runs it. Its output is ignored until a selected PDF is copied beside its TEI source and committed.
+The matching PDF link appears automatically because the file exists in the repository; without that file, the site falls back to a matching PDF already published in a `publications-*` GitHub release. The deployment indexes those release assets before building the site but does not regenerate them. The optional `scripts/build_exports.py` tool remains available for explicitly invoked local PDF creation, but neither `npm run build` nor the deployment workflow runs it.
 
-For local review, the Downloads page also detects exporter output at `public/downloads/<author>/<edition>/<edition>.pdf`. These ignored files are preview-only; a production PDF still needs to be copied beside its matching TEI source and committed.
+For local review, the Downloads page also detects exporter output at `public/downloads/<author>/<edition>/<edition>.pdf`. These ignored files are preview-only; publish a production PDF as a matching release asset or copy it beside its TEI source and commit it.
 
 ## Language neighborhoods
 
