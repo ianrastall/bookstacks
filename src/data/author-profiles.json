@@ -1,0 +1,16 @@
+{
+  "aristotle": { "name": "Aristotle", "dates": "384-322 BCE", "portrait": "aristotle.png" },
+  "austen": { "name": "Jane Austen", "dates": "1775-1817", "portrait": "austen-jane.png" },
+  "bronte-anne": { "name": "Anne Brontë", "dates": "1820-1849", "portrait": "bronte-anne.png" },
+  "bronte-charlotte": { "name": "Charlotte Brontë", "dates": "1816-1855", "portrait": "bronte-charlotte.png" },
+  "bronte-emily": { "name": "Emily Brontë", "dates": "1818-1848", "portrait": "bronte-emily.png" },
+  "chesterton-g-k": { "name": "G. K. Chesterton", "dates": "1874-1936", "portrait": "chesterton-g-k.png" },
+  "dickens": { "name": "Charles Dickens", "dates": "1812-1870", "portrait": "dickens-charles.png" },
+  "dostoevsky": { "name": "Fyodor Dostoevsky", "dates": "1821-1881", "portrait": "dostoevsky-fyodor.png" },
+  "eliot": { "name": "George Eliot", "dates": "1819-1880", "portrait": "eliot-george.png" },
+  "james": { "name": "Henry James", "dates": "1843-1916", "portrait": "james-henry.png" },
+  "plato": { "name": "Plato", "dates": "c. 428-348 BCE", "portrait": "plato.png" },
+  "shakespeare": { "name": "William Shakespeare", "dates": "1564-1616", "portrait": "shakespeare-william.png" },
+  "tolstoy": { "name": "Leo Tolstoy", "dates": "1828-1910", "portrait": "tolstoy-leo.png" },
+  "turgenev": { "name": "Ivan Turgenev", "dates": "1818-1883", "portrait": "turgenev-ivan.png" }
+}

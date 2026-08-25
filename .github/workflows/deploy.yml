@@ -18,8 +18,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    env:
-      PUBLIC_PUBLICATIONS_BASE_URL: ${{ vars.PUBLICATIONS_BASE_URL || 'https://github.com/ianrastall/bookstacks/releases/download' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v7

@@ -1,6 +1,7 @@
 ---
 import {
-  editionDownloadHref,
+  editionPdfHref,
+  editionTeiHref,
   localizedWorkHref,
   type Author,
   type Edition,
@@ -18,81 +19,24 @@ interface Props {
 
 const { author, work, edition, locale, compact = false } = Astro.props;
 const labels = ui(locale);
-const stem = edition.sourceFile.replace(/\.xml$/i, '');
-const file = (suffix: Parameters<typeof editionDownloadHref>[2]) => editionDownloadHref(author, edition, suffix);
-const groups = [
-  {
-    label: labels.read,
-    formats: [
-      { name: 'EPUB', suffix: 'epub' as const, icon: 'auto_stories' },
-      { name: 'PDF', suffix: 'pdf' as const, icon: 'picture_as_pdf' },
-      { name: 'HTML', suffix: 'html.zip' as const, icon: 'language' },
-    ],
-  },
-  {
-    label: labels.editAndReuse,
-    formats: [
-      { name: 'Markdown', suffix: 'md' as const, icon: 'markdown' },
-      { name: 'DOCX', suffix: 'docx' as const, icon: 'description' },
-      { name: 'LaTeX', suffix: 'latex.zip' as const, icon: 'functions' },
-    ],
-  },
-  {
-    label: labels.source,
-    formats: [{ name: 'TEI XML', href: `/tei/${author.slug}/${edition.sourceFile}`, icon: 'code' }],
-  },
-  {
-    label: labels.data,
-    formats: [
-      { name: 'JSONL', suffix: 'jsonl' as const, icon: 'data_object' },
-      { name: 'Manifest', suffix: 'manifest.json' as const, icon: 'fact_check' },
-    ],
-  },
-];
+const pdfHref = editionPdfHref(author, edition);
 ---
 
-<article id={compact ? undefined : 'downloads'} class:list={['download-edition', { 'download-edition-compact': compact }]}>
-  <a class="download-cover-link" href={file('cover.png')} aria-label={`${labels.download}: ${edition.sourceTitle}`}>
-    <span class="download-cover-placeholder" aria-hidden="true"><span>{edition.sourceTitle}</span><small>{author.name}</small></span>
-    <img class="download-cover" src={file('cover.png')} alt="" width="320" height="512" loading="lazy" onerror="this.style.display='none'" />
-  </a>
+<article id={compact ? undefined : 'downloads'} class:list={['download-edition', 'download-edition-repository', { 'download-edition-compact': compact }]}>
   <div class="download-edition-body">
     <header class="download-edition-header">
       {compact ? <h2><a href={localizedWorkHref(work, locale)}>{edition.sourceTitle}</a></h2> : <h3>{labels.downloadEdition}</h3>}
       {compact && <p>{author.name} · {languageData(locale).nativeName}</p>}
     </header>
-    <div class="download-groups">
-      {groups.map((group) => (
-        <section class="download-group" aria-label={group.label}>
-          <p class="download-group-label">{group.label}</p>
-          <div class="download-links">
-            {group.formats.map((format) => (
-              <a
-                class="btn btn-secondary btn-compact"
-                href={'href' in format ? format.href : file(format.suffix)}
-                download
-                title={`${labels.download} ${format.name}`}
-              >
-                <span class="material-icons" aria-hidden="true">{format.icon}</span>{format.name}
-              </a>
-            ))}
-          </div>
-        </section>
-      ))}
-    </div>
-    <div class="kindle-handoff">
-      <div>
-        <strong>{labels.sendToKindle}</strong>
-        <p>{labels.sendToKindleHelp}</p>
-      </div>
-      <div class="download-links">
-        <a class="btn btn-secondary btn-compact" href={file('epub')} download={`${stem}.epub`}>
-          <span class="material-icons" aria-hidden="true">download</span>{labels.downloadEpub}
+    <div class="download-links repository-download-links">
+      <a class:list={['btn', 'btn-compact', pdfHref ? 'btn-secondary' : 'btn-primary']} href={editionTeiHref(author, edition)} download={edition.sourceFile}>
+        <span class="material-icons" aria-hidden="true">code</span>TEI XML
+      </a>
+      {pdfHref && (
+        <a class="btn btn-primary btn-compact" href={pdfHref} download={edition.pdfFile}>
+          <span class="material-icons" aria-hidden="true">picture_as_pdf</span>PDF
         </a>
-        <a class="btn btn-primary btn-compact" href="https://www.amazon.com/sendtokindle" rel="noreferrer" target="_blank">
-          <span class="material-icons" aria-hidden="true">send</span>{labels.sendToKindle}
-        </a>
-      </div>
+      )}
     </div>
   </div>
 </article>

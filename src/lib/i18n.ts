@@ -45,18 +45,7 @@ export interface UiStrings {
   backMatter: string;
   downloads: string;
   downloadEdition: string;
-  read: string;
-  editAndReuse: string;
-  source: string;
-  data: string;
-  sendToKindle: string;
-  sendToKindleHelp: string;
-  downloadEpub: string;
-  download: string;
-  allDownloads: string;
   downloadFormatsNote: string;
-  completeCorpus: string;
-  completeCorpusHelp: string;
   people: string;
   places: string;
   registries: (people: number, places: number) => string;
@@ -112,18 +101,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     backMatter: 'Back matter',
     downloads: 'Downloads',
     downloadEdition: 'Download this edition',
-    read: 'Read',
-    editAndReuse: 'Edit and reuse',
-    source: 'Source',
-    data: 'Data',
-    sendToKindle: 'Send to Kindle',
-    sendToKindleHelp: 'Download the EPUB, then upload it with Amazon’s official Send to Kindle service.',
-    downloadEpub: 'Download EPUB',
-    download: 'Download',
-    allDownloads: 'All downloads',
-    downloadFormatsNote: 'Every file is generated from the canonical TEI edition. Choose a reading, editing, typesetting, source, or corpus format.',
-    completeCorpus: 'Complete JSONL corpus',
-    completeCorpusHelp: 'Paragraph-boundary chunks with stable work, edition, language, hierarchy, annotation, source, and license metadata for search and LLM ingestion.',
+    downloadFormatsNote: 'Download the TEI source for any edition. A PDF is offered only when a matching file is included in the repository.',
     people: 'People',
     places: 'Places',
     registries: (people, places) => `TEI registries (${people} people, ${places} places)`,
@@ -177,18 +155,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     backMatter: 'Pages finales',
     downloads: 'Téléchargements',
     downloadEdition: 'Télécharger cette édition',
-    read: 'Lire',
-    editAndReuse: 'Modifier et réutiliser',
-    source: 'Source',
-    data: 'Données',
-    sendToKindle: 'Envoyer vers Kindle',
-    sendToKindleHelp: 'Téléchargez l’EPUB, puis importez-le avec le service officiel Envoyer vers Kindle d’Amazon.',
-    downloadEpub: 'Télécharger l’EPUB',
-    download: 'Télécharger',
-    allDownloads: 'Tous les téléchargements',
-    downloadFormatsNote: 'Chaque fichier est produit à partir de l’édition TEI canonique. Choisissez un format de lecture, d’édition, de composition, de source ou de corpus.',
-    completeCorpus: 'Corpus JSONL complet',
-    completeCorpusHelp: 'Segments respectant les paragraphes, avec des métadonnées stables sur l’œuvre, l’édition, la langue, la hiérarchie, les annotations, la source et la licence, pour la recherche et l’ingestion par les LLM.',
+    downloadFormatsNote: 'Téléchargez la source TEI de chaque édition. Un PDF est proposé uniquement si le dépôt contient le fichier correspondant.',
     people: 'Personnes',
     places: 'Lieux',
     registries: (people, places) => `Registres TEI (${people} personnes, ${places} lieux)`,
@@ -242,18 +209,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     backMatter: 'Ἐπίλογος',
     downloads: 'Καταφορτώσεις',
     downloadEdition: 'Τὴν ἔκδοσιν καταφορτῶσαι',
-    read: 'Ἀνάγνωσις',
-    editAndReuse: 'Μεταβολὴ καὶ χρῆσις',
-    source: 'Πηγή',
-    data: 'Δεδομένα',
-    sendToKindle: 'Πέμπειν εἰς Kindle',
-    sendToKindleHelp: 'Τὸ EPUB κατάφορτωσον, εἶτα διὰ τῆς Ἀμαζόνος εἰς Kindle πέμψον.',
-    downloadEpub: 'EPUB καταφορτῶσαι',
-    download: 'Καταφορτῶσαι',
-    allDownloads: 'Πᾶσαι καταφορτώσεις',
-    downloadFormatsNote: 'Ἕκαστον ἀρχεῖον ἐκ τῆς κυρίας ἐκδόσεως TEI γίνεται· ἕλου ἀνάγνωσιν, μεταβολήν, στοιχειοθεσίαν, πηγὴν ἢ δεδομένα.',
-    completeCorpus: 'Πλήρες σῶμα JSONL',
-    completeCorpusHelp: 'Μέρη κατὰ παραγράφους μετὰ σταθερῶν στοιχείων ἔργου, ἐκδόσεως, γλώττης, τάξεως, σημειώσεων, πηγῆς καὶ ἀδείας, πρὸς ζήτησιν καὶ LLM.',
+    downloadFormatsNote: 'Τὴν πηγὴν TEI ἑκάστης ἐκδόσεως κατάφορτωσον. PDF παρέχεται μόνον ἐὰν τὸ ἀντίστοιχον ἀρχεῖον ἐν τῇ ἀποθήκῃ ὑπάρχῃ.',
     people: 'Πρόσωπα',
     places: 'Τόποι',
     registries: (people, places) => `Κατάλογοι TEI (${people} πρόσωπα, ${places} τόποι)`,
@@ -307,18 +263,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     backMatter: 'Заключительные материалы',
     downloads: 'Загрузки',
     downloadEdition: 'Скачать это издание',
-    read: 'Читать',
-    editAndReuse: 'Редактировать и использовать',
-    source: 'Исходный текст',
-    data: 'Данные',
-    sendToKindle: 'Отправить на Kindle',
-    sendToKindleHelp: 'Скачайте EPUB, затем загрузите его через официальный сервис Amazon «Отправить на Kindle».',
-    downloadEpub: 'Скачать EPUB',
-    download: 'Скачать',
-    allDownloads: 'Все загрузки',
-    downloadFormatsNote: 'Каждый файл создаётся из канонического издания TEI. Выберите формат для чтения, редактирования, вёрстки, исходного текста или корпусных данных.',
-    completeCorpus: 'Полный корпус JSONL',
-    completeCorpusHelp: 'Фрагменты по границам абзацев со стабильными метаданными произведения, издания, языка, иерархии, аннотаций, источника и лицензии — для поиска и загрузки в LLM.',
+    downloadFormatsNote: 'Для каждого издания доступен исходный файл TEI. PDF предлагается только тогда, когда соответствующий файл есть в репозитории.',
     people: 'Люди',
     places: 'Места',
     registries: (people, places) => `Реестры TEI (${people} персон, ${places} мест)`,

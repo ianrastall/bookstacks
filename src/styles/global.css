@@ -454,7 +454,7 @@ button, input, select { font: inherit; }
 
 .download-edition {
   display: grid;
-  grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
+  grid-template-columns: 1fr;
   gap: clamp(1.25rem, 3vw, 2rem);
   margin: 0 0 3rem;
   padding: clamp(1rem, 3vw, 1.5rem);
@@ -463,65 +463,17 @@ button, input, select { font: inherit; }
   background: var(--panel);
 }
 
-.download-cover-link { position: relative; align-self: start; aspect-ratio: 5 / 8; overflow: hidden; border: 1px solid var(--border); background: #541523; box-shadow: var(--shadow); }
-.download-cover { position: relative; z-index: 1; display: block; width: 100%; height: auto; aspect-ratio: 5 / 8; object-fit: cover; }
-.download-cover-placeholder {
-  position: absolute;
-  inset: 7%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.8rem;
-  padding: 10%;
-  border: 5px double #111;
-  background: rgba(255, 255, 255, 0.76);
-  color: #69727c;
-  font-family: var(--serif-font);
-  font-weight: 750;
-  text-align: center;
-}
-.download-cover-placeholder small { color: #36393c; font-size: 0.58em; font-weight: 500; }
-.download-edition-body { min-width: 0; }
+.download-edition-body { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-width: 0; }
 .download-edition-header h2,
 .download-edition-header h3 { margin: 0; font-size: 1.25rem; }
 .download-edition-header h2 a { color: var(--text); text-decoration: none; }
 .download-edition-header h2 a:hover { color: var(--accent); }
 .download-edition-header p { margin: 0.3rem 0 0; color: var(--muted); }
-.download-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.25rem; }
-.download-group { min-width: 0; padding-top: 0.85rem; border-top: 1px solid var(--border); }
-.download-group-label { margin: 0 0 0.65rem; color: var(--muted); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; }
+.repository-download-links { flex: 0 0 auto; }
 .download-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-.kindle-handoff {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-top: 1.25rem;
-  padding: 1rem;
-  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border));
-  border-radius: 8px;
-  background: var(--panel-muted);
-}
-.kindle-handoff p { max-width: 42rem; margin: 0.25rem 0 0; color: var(--muted); font-size: 0.82rem; }
 .downloads-page { padding-top: 1rem; }
-.corpus-download {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-  margin: 1.5rem 0 2rem;
-  padding: 1.25rem;
-  border: 1px solid var(--accent);
-  border-radius: 8px;
-  background: var(--panel-muted);
-}
-.corpus-download h2 { margin: 0; font-size: 1.25rem; }
-.corpus-download p { max-width: 52rem; margin: 0.35rem 0 0; color: var(--muted); }
 .download-collection { display: grid; gap: 1.25rem; padding-bottom: 3rem; }
-.download-edition-compact { grid-template-columns: 135px minmax(0, 1fr); margin: 0; }
-.download-edition-compact .download-groups { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.download-edition-compact .kindle-handoff { align-items: flex-start; }
+.download-edition-compact { margin: 0; }
 
 .edition-panel {
   padding: clamp(1rem, 3vw, 1.5rem);
@@ -782,7 +734,6 @@ button, input, select { font: inherit; }
   .chapter-layout { display: block; }
   .chapter-sidebar { position: static; margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--border); }
   .chapter-navigation { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: none; }
-  .download-edition-compact .download-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 768px) {
@@ -794,11 +745,6 @@ button, input, select { font: inherit; }
   .edition-header { align-items: stretch; flex-direction: column; }
   .registry-columns { grid-template-columns: 1fr; }
   .edition-actions { flex-wrap: wrap; }
-  .download-edition,
-  .download-edition-compact { grid-template-columns: 120px minmax(0, 1fr); }
-  .download-groups { grid-template-columns: 1fr; }
-  .kindle-handoff,
-  .corpus-download { align-items: stretch; flex-direction: column; }
 }
 
 @media (max-width: 560px) {
@@ -815,8 +761,5 @@ button, input, select { font: inherit; }
     width: auto;
     transform: none;
   }
-  .download-edition,
-  .download-edition-compact { grid-template-columns: 1fr; }
-  .download-cover-link { width: min(180px, 55vw); }
-  .download-edition-compact .download-groups { grid-template-columns: 1fr; }
+  .download-edition-body { align-items: flex-start; flex-direction: column; }
 }

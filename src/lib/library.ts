@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { DOMParser } from '@xmldom/xmldom';
+import authorProfileData from '../data/author-profiles.json';
 import { isLocale, ui, type Locale } from './i18n';
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
@@ -25,39 +26,13 @@ const SUPPLEMENTARY_KINDS = new Set([
 ]);
 const WRAPPER_KINDS = new Set(['edition', 'translation']);
 
-export const PUBLISHED_AUTHOR_SLUGS = new Set([
-  'aristotle',
-  'austen',
-  'bronte-anne',
-  'bronte-charlotte',
-  'bronte-emily',
-  'chesterton-g-k',
-  'dickens',
-  'dostoevsky',
-  'eliot',
-  'james',
-  'plato',
-  'shakespeare',
-  'tolstoy',
-  'turgenev',
-]);
+const AUTHOR_PROFILE_DATA = authorProfileData as Record<string, Omit<Author, 'slug' | 'works'>>;
 
-const AUTHOR_PROFILES: Record<string, Omit<Author, 'works'>> = {
-  aristotle: { slug: 'aristotle', name: 'Aristotle', dates: '384–322 BCE', portrait: 'aristotle.png' },
-  austen: { slug: 'austen', name: 'Jane Austen', dates: '1775–1817', portrait: 'austen-jane.png' },
-  'bronte-anne': { slug: 'bronte-anne', name: 'Anne Brontë', dates: '1820–1849', portrait: 'bronte-anne.png' },
-  'bronte-charlotte': { slug: 'bronte-charlotte', name: 'Charlotte Brontë', dates: '1816–1855', portrait: 'bronte-charlotte.png' },
-  'bronte-emily': { slug: 'bronte-emily', name: 'Emily Brontë', dates: '1818–1848', portrait: 'bronte-emily.png' },
-  'chesterton-g-k': { slug: 'chesterton-g-k', name: 'G. K. Chesterton', dates: '1874–1936', portrait: 'chesterton-g-k.png' },
-  dickens: { slug: 'dickens', name: 'Charles Dickens', dates: '1812–1870', portrait: 'dickens-charles.png' },
-  dostoevsky: { slug: 'dostoevsky', name: 'Fyodor Dostoevsky', dates: '1821–1881', portrait: 'dostoevsky-fyodor.png' },
-  eliot: { slug: 'eliot', name: 'George Eliot', dates: '1819–1880', portrait: 'eliot-george.png' },
-  james: { slug: 'james', name: 'Henry James', dates: '1843–1916', portrait: 'james-henry.png' },
-  plato: { slug: 'plato', name: 'Plato', dates: 'c. 428–348 BCE', portrait: 'plato.png' },
-  shakespeare: { slug: 'shakespeare', name: 'William Shakespeare', dates: '1564–1616', portrait: 'shakespeare-william.png' },
-  tolstoy: { slug: 'tolstoy', name: 'Leo Tolstoy', dates: '1828–1910', portrait: 'tolstoy-leo.png' },
-  turgenev: { slug: 'turgenev', name: 'Ivan Turgenev', dates: '1818–1883', portrait: 'turgenev-ivan.png' },
-};
+export const PUBLISHED_AUTHOR_SLUGS = new Set(Object.keys(AUTHOR_PROFILE_DATA));
+
+const AUTHOR_PROFILES = Object.fromEntries(
+  Object.entries(AUTHOR_PROFILE_DATA).map(([slug, profile]) => [slug, { slug, ...profile }]),
+) as Record<string, Omit<Author, 'works'>>;
 
 const WORK_TITLES: Record<string, string> = {
   'alcibiades-1': 'Alcibiades I',
@@ -165,6 +140,7 @@ export interface Edition {
   languageName: string;
   sourceTitle: string;
   sourceFile: string;
+  pdfFile?: string;
   kind: string;
   unitKind: string;
   units: ReadingUnit[];
@@ -308,28 +284,18 @@ export function localizedWorkTitle(work: Work, locale: Locale): string {
   return editionForLocale(work, locale)?.sourceTitle ?? work.title;
 }
 
-const DEFAULT_PUBLICATIONS_BASE_URL = 'https://github.com/ianrastall/bookstacks/releases/download';
-
-export function publicationAssetHref(tag: string, assetName: string): string {
-  const baseUrl = (import.meta.env.PUBLIC_PUBLICATIONS_BASE_URL || DEFAULT_PUBLICATIONS_BASE_URL).replace(/\/+$/, '');
-  return `${baseUrl}/${encodeURIComponent(tag)}/${encodeURIComponent(assetName)}`;
-}
-
-export function editionDownloadBaseHref(author: Pick<Author, 'slug'>, edition: Pick<Edition, 'sourceFile'>): string {
-  const stem = edition.sourceFile.replace(/\.xml$/i, '');
-  const language = stem.match(/_(eng|fra|grc|rus)$/)?.[1] ?? 'eng';
-  const tag = language === 'eng'
-    ? `publications-en-${author.slug.localeCompare('n') < 0 ? 'a-m' : 'n-z'}`
-    : `publications-${language === 'fra' ? 'fr' : language === 'rus' ? 'ru' : 'grc'}`;
-  return publicationAssetHref(tag, stem);
-}
-
-export function editionDownloadHref(
+export function editionTeiHref(
   author: Pick<Author, 'slug'>,
   edition: Pick<Edition, 'sourceFile'>,
-  suffix: 'cover.png' | 'epub' | 'pdf' | 'html.zip' | 'docx' | 'md' | 'latex.zip' | 'jsonl' | 'manifest.json',
 ): string {
-  return `${editionDownloadBaseHref(author, edition)}.${suffix}`;
+  return `/tei/${author.slug}/${edition.sourceFile}`;
+}
+
+export function editionPdfHref(
+  author: Pick<Author, 'slug'>,
+  edition: Pick<Edition, 'pdfFile'>,
+): string | undefined {
+  return edition.pdfFile ? `/tei/${author.slug}/${edition.pdfFile}` : undefined;
 }
 
 function findXmlFiles(root: string): string[] {
@@ -344,6 +310,7 @@ function findXmlFiles(root: string): string[] {
 
 function parseEdition(filePath: string): ParsedEdition {
   const fileName = path.basename(filePath);
+  const pdfName = fileName.replace(/\.xml$/i, '.pdf');
   const match = fileName.match(/^([^_]+)_(.+)_([a-z]{3})\.xml$/);
   if (!match) throw new Error(`Unexpected TEI filename: ${fileName}`);
   const [, authorSlug, workSlug, fileLanguage] = match;
@@ -431,6 +398,7 @@ function parseEdition(filePath: string): ParsedEdition {
     languageName: language.name,
     sourceTitle,
     sourceFile: fileName,
+    pdfFile: fs.existsSync(path.join(path.dirname(filePath), pdfName)) ? pdfName : undefined,
     kind,
     unitKind,
     units,

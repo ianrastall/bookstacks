@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Stage only newly generated publication files into stable GitHub Release groups."""
+"""Stage publication files into stable, host-ready release groups."""
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import shutil
 from collections import Counter
@@ -33,19 +34,34 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--all", action="store_true", help="Stage every generated PDF, not only changed PDFs.")
+    parser.add_argument("--link", action="store_true", help="Use local hard links instead of copying staged files.")
     arguments = parser.parse_args()
     source = arguments.input.resolve()
     target = arguments.output.resolve()
-    if not source.is_relative_to(ROOT) or not target.is_relative_to(ROOT) or target.name != "release-assets":
-        parser.error("Input and output must be workspace paths, and output must be named release-assets.")
-    changed_manifest = source / "_changed-assets.json"
-    if not changed_manifest.is_file():
-        parser.error(f"Missing exporter change manifest: {changed_manifest}")
+    if not source.is_dir():
+        parser.error(f"Publication input directory does not exist: {source}")
+    if not target.is_relative_to(ROOT) or target.name != "release-assets":
+        parser.error("Output must be a workspace path named release-assets.")
+    if arguments.all:
+        changed = sorted(
+            path.relative_to(source)
+            for path in source.rglob("*")
+            if path.is_file() and path.suffix.lower() == ".pdf"
+        )
+    else:
+        changed_manifest = source / "_changed-assets.json"
+        if not changed_manifest.is_file():
+            parser.error(f"Missing exporter change manifest: {changed_manifest}")
+        changed = [
+            Path(value)
+            for value in json.loads(changed_manifest.read_text(encoding="utf-8"))
+            if Path(value).suffix.lower() == ".pdf"
+        ]
     if target.exists():
         shutil.rmtree(target)
     target.mkdir(parents=True)
 
-    changed = [Path(value) for value in json.loads(changed_manifest.read_text(encoding="utf-8"))]
     counts: Counter[str] = Counter()
     for relative in changed:
         asset = (source / relative).resolve()
@@ -57,7 +73,10 @@ def main() -> int:
         destination.parent.mkdir(parents=True, exist_ok=True)
         if destination.exists():
             raise ValueError(f"Release asset name collision: {destination.name}")
-        shutil.copy2(asset, destination)
+        if arguments.link:
+            os.link(asset, destination)
+        else:
+            shutil.copy2(asset, destination)
         counts[tag] += 1
 
     for tag, count in sorted(counts.items()):

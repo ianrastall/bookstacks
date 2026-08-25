@@ -7,7 +7,7 @@ export function getStaticPaths() {
   return fs.readdirSync(root, { withFileTypes: true })
     .filter((entry) => entry.isDirectory() && PUBLISHED_AUTHOR_SLUGS.has(entry.name))
     .flatMap((directory) => fs.readdirSync(path.join(root, directory.name), { withFileTypes: true })
-      .filter((file) => file.isFile() && file.name.endsWith('.xml'))
+      .filter((file) => file.isFile() && /\.(xml|pdf)$/i.test(file.name))
       .map((file) => ({
         params: { file: `${directory.name}/${file.name}` },
         props: { sourcePath: path.join(root, directory.name, file.name) },
@@ -15,10 +15,11 @@ export function getStaticPaths() {
 }
 
 export function GET({ props }: { props: { sourcePath: string } }) {
+  const isPdf = path.extname(props.sourcePath).toLowerCase() === '.pdf';
   return new Response(fs.readFileSync(props.sourcePath), {
     headers: {
-      'Content-Type': 'application/tei+xml; charset=utf-8',
-      'Content-Disposition': `inline; filename="${path.basename(props.sourcePath)}"`,
+      'Content-Type': isPdf ? 'application/pdf' : 'application/tei+xml; charset=utf-8',
+      'Content-Disposition': `attachment; filename="${path.basename(props.sourcePath)}"`,
     },
   });
 }
