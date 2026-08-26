@@ -507,6 +507,15 @@
     ]
   },
   {
+    "author": "Austen",
+    "title": "Spanish translations of the six novels",
+    "id": "novels-spanish",
+    "source_format": "spanish_austen_epub_collection",
+    "sources": [
+      { "lang": "spa", "xml_lang": "es", "path": "../assets/source-epub" }
+    ]
+  },
+  {
     "author": "Dickens",
     "title": "A Tale of Two Cities",
     "id": "a-tale-of-two-cities",

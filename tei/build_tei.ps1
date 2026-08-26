@@ -937,6 +937,17 @@ foreach ($item in $config) {
         if ($LASTEXITCODE -ne 0) { throw "Failed to convert the annotated Middlemarch source corpus." }
         continue
     }
+    if ($item.source_format -eq 'spanish_austen_epub_collection') {
+        if ($item.sources.Count -ne 1) { throw "Spanish Austen collection must have exactly one source directory." }
+        $sourceDirectory = Join-Path $PSScriptRoot $item.sources[0].path
+        $outputDirectory = Join-Path $PSScriptRoot $authorSlug
+        & python (Join-Path $PSScriptRoot 'build_spanish_austen_epubs.py') `
+            --source-dir $sourceDirectory `
+            --output-dir $outputDirectory `
+            --schema (Join-Path $PSScriptRoot 'tei_all.rng')
+        if ($LASTEXITCODE -ne 0) { throw "Failed to convert the Spanish Jane Austen EPUB collection." }
+        continue
+    }
     if ($item.source_format -eq 'gutenberg_epub') {
         if ($item.sources.Count -ne 1) { throw "Gutenberg EPUB work $($item.title) must have exactly one source." }
         $src = $item.sources[0]

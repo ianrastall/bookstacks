@@ -40,6 +40,26 @@ python ./validate_tei.py
 - The six Jane Austen novels are generated from `assets/tei/aus.001.xml`
   through `aus.006.xml`. Their chapter hierarchy, participant lists, and
   encoded prose-speaker attributions are retained and normalized.
+- Six independent Spanish Jane Austen editions are generated from the EPUBs
+  in `assets/source-epub`. Their logical chapter boundaries are reconstructed
+  independently of EPUB file splits; front and back matter, source title
+  pages, two-volume hierarchy, contents tables, print-page milestones,
+  explicit display letters, verse, inline typography, source trailers, and
+  publisher notes are retained where present. Prose dialogue remains
+  unattributed because the EPUB XHTML does not identify speakers.
+
+To rebuild only the English and Spanish Austen editions from the repository
+root:
+
+```powershell
+./tei/build_tei.ps1 -Author Austen
+```
+
+To rebuild just the six Spanish EPUB conversions:
+
+```powershell
+python tei/build_spanish_austen_epubs.py --source-dir assets/source-epub --output-dir tei/austen --schema tei/tei_all.rng
+```
 - George Eliot's *Middlemarch* is generated from the sibling
   `corpus-eliot-middlemarch-tei` repository. Its eight HTML-like source
   fragments are repaired and consolidated into one TEI book containing the
