@@ -123,6 +123,7 @@ const WORK_TITLES: Record<string, string> = {
 const LANGUAGE_DATA: Record<string, { code: string; name: string }> = {
   eng: { code: 'en', name: 'English' },
   fra: { code: 'fr', name: 'French' },
+  spa: { code: 'es', name: 'Spanish' },
   grc: { code: 'grc', name: 'Ancient Greek' },
   rus: { code: 'ru', name: 'Russian' },
 };
@@ -300,6 +301,7 @@ export function readingOrganizationLabel(kind: string, locale: Locale): string {
   const labels: Record<Locale, Record<string, string>> = {
     en: { scene: 'scene', section: 'section', chapter: 'chapter', stave: 'stave', bekker_page: 'Bekker page', part: 'part' },
     fr: { scene: 'scène', section: 'section', chapter: 'chapitre', stave: 'strophe', bekker_page: 'page de Bekker', part: 'partie' },
+    es: { scene: 'escena', section: 'sección', chapter: 'capítulo', stave: 'estrofa', bekker_page: 'página de Bekker', part: 'parte' },
     grc: { scene: 'σκηνή', section: 'τμῆμα', chapter: 'κεφάλαιον', stave: 'στροφή', bekker_page: 'σελίδα Bekker', part: 'μέρος' },
     ru: { scene: 'сцены', section: 'разделы', chapter: 'главы', stave: 'части', bekker_page: 'страницы Беккера', part: 'части' },
   };
@@ -939,6 +941,7 @@ function displayKind(kind: string, locale: Locale): string {
   const labels: Record<Locale, Record<string, string>> = {
     en: { act: 'Act', scene: 'Scene', chapter: 'Chapter', section: 'Section', book: 'Book', volume: 'Volume', part: 'Part', stave: 'Stave', introduction: 'Introduction', preface: 'Preface', prologue: 'Prologue', epilogue: 'Epilogue', 'bekker-page': 'Bekker page', 'suppressed-chapter': 'Suppressed chapter' },
     fr: { act: 'Acte', scene: 'Scène', chapter: 'Chapitre', section: 'Section', book: 'Livre', volume: 'Tome', part: 'Partie', stave: 'Strophe', introduction: 'Introduction', preface: 'Préface', prologue: 'Prologue', epilogue: 'Épilogue', 'bekker-page': 'Page de Bekker', 'suppressed-chapter': 'Chapitre supprimé' },
+    es: { act: 'Acto', scene: 'Escena', chapter: 'Capítulo', section: 'Sección', book: 'Libro', volume: 'Tomo', part: 'Parte', stave: 'Estrofa', introduction: 'Introducción', preface: 'Prefacio', prologue: 'Prólogo', epilogue: 'Epílogo', 'bekker-page': 'Página de Bekker', 'suppressed-chapter': 'Capítulo suprimido' },
     grc: { act: 'Πρᾶξις', scene: 'Σκηνή', chapter: 'Κεφάλαιον', section: 'Τμῆμα', book: 'Βιβλίον', volume: 'Τόμος', part: 'Μέρος', stave: 'Στροφή', introduction: 'Εἰσαγωγή', preface: 'Προοίμιον', prologue: 'Πρόλογος', epilogue: 'Ἐπίλογος', 'bekker-page': 'Σελίς Bekker', 'suppressed-chapter': 'Κεφάλαιον ἀφαιρεθέν' },
     ru: { act: 'Действие', scene: 'Сцена', chapter: 'Глава', section: 'Раздел', book: 'Книга', volume: 'Том', part: 'Часть', stave: 'Часть', introduction: 'Введение', preface: 'Предисловие', prologue: 'Пролог', epilogue: 'Эпилог', 'bekker-page': 'Страница Беккера', 'suppressed-chapter': 'Исключённая глава' },
   };
@@ -955,7 +958,7 @@ function titleFromSlug(slug: string): string {
 }
 
 function languageOrder(code: string): number {
-  return ['en', 'fr', 'grc', 'ru'].indexOf(code) === -1 ? 99 : ['en', 'fr', 'grc', 'ru'].indexOf(code);
+  return ['en', 'fr', 'es', 'grc', 'ru'].indexOf(code) === -1 ? 99 : ['en', 'fr', 'es', 'grc', 'ru'].indexOf(code);
 }
 
 function cleanText(value: unknown): string {

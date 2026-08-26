@@ -42,6 +42,7 @@ PUBLISHED_AUTHORS = set(AUTHOR_PROFILES)
 LANGUAGES = {
     "eng": {"code": "en", "name": "English", "contents": "Contents", "note": "Note"},
     "fra": {"code": "fr", "name": "Français", "contents": "Sommaire", "note": "Note"},
+    "spa": {"code": "es", "name": "Español", "contents": "Índice", "note": "Nota"},
     "grc": {"code": "grc", "name": "Ἑλληνική", "contents": "Περιεχόμενα", "note": "Ὑποσημείωσις"},
     "rus": {"code": "ru", "name": "Русский", "contents": "Содержание", "note": "Примечание"},
 }
@@ -49,6 +50,7 @@ LANGUAGES = {
 KIND_LABELS = {
     "en": {"act": "Act", "scene": "Scene", "chapter": "Chapter", "section": "Section", "book": "Book", "volume": "Volume", "part": "Part", "stave": "Stave", "introduction": "Introduction", "preface": "Preface", "prologue": "Prologue", "epilogue": "Epilogue"},
     "fr": {"act": "Acte", "scene": "Scène", "chapter": "Chapitre", "section": "Section", "book": "Livre", "volume": "Tome", "part": "Partie", "stave": "Strophe", "introduction": "Introduction", "preface": "Préface", "prologue": "Prologue", "epilogue": "Épilogue"},
+    "es": {"act": "Acto", "scene": "Escena", "chapter": "Capítulo", "section": "Sección", "book": "Libro", "volume": "Tomo", "part": "Parte", "stave": "Estrofa", "introduction": "Introducción", "preface": "Prefacio", "prologue": "Prólogo", "epilogue": "Epílogo"},
     "grc": {"act": "Πρᾶξις", "scene": "Σκηνή", "chapter": "Κεφάλαιον", "section": "Τμῆμα", "book": "Βιβλίον", "volume": "Τόμος", "part": "Μέρος", "stave": "Στροφή", "introduction": "Εἰσαγωγή", "preface": "Προοίμιον", "prologue": "Πρόλογος", "epilogue": "Ἐπίλογος"},
     "ru": {"act": "Действие", "scene": "Сцена", "chapter": "Глава", "section": "Раздел", "book": "Книга", "volume": "Том", "part": "Часть", "stave": "Часть", "introduction": "Введение", "preface": "Предисловие", "prologue": "Пролог", "epilogue": "Эпилог"},
 }
@@ -66,6 +68,7 @@ PRESERVED_INITIALISMS = {
 STRUCTURAL_HEADING_WORDS = {
     "act", "book", "chapter", "part", "scene", "section", "stave", "volume",
     "acte", "chapitre", "livre", "partie", "scène", "section", "tome",
+    "acto", "capítulo", "escena", "estrofa", "libro", "parte", "sección", "tomo",
     "глава", "действие", "книга", "раздел", "том", "часть",
     "βιβλίον", "κεφάλαιον", "μέρος", "πρᾶξις", "σκηνή", "τμῆμα", "τόμος",
 }
@@ -774,6 +777,7 @@ def latex_document(
     language = {
         "en": "english",
         "fr": "french",
+        "es": "spanish",
         "grc": "greek",
         "ru": "russian",
     }.get(edition.locale, "english")

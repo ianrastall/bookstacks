@@ -733,6 +733,15 @@
     ]
   },
   {
+    "author": "Shakespeare",
+    "title": "Spanish Hamlet",
+    "id": "hamlet-spanish",
+    "source_format": "gutenberg_spanish_drama",
+    "sources": [
+      { "lang": "spa", "xml_lang": "es", "path": "../assets/gutenberg-spanish/pg56454.epub" }
+    ]
+  },
+  {
     "author": "James",
     "title": "Henry James collection",
     "id": "novels",
