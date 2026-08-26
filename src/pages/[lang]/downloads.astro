@@ -1,5 +1,5 @@
 ---
-import EditionDownloads from '../../components/EditionDownloads.astro';
+import DownloadsTable from '../../components/DownloadsTable.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { editionForLocale, getLibrary, type Author, type Edition, type Work } from '../../lib/library';
 import { SUPPORTED_LANGUAGES, isLocale, ui, type Locale } from '../../lib/i18n';
@@ -33,11 +33,7 @@ const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [
     </div>
 
     {entries.length ? (
-      <div class="download-collection">
-        {entries.map(({ author, work, edition }) => (
-          <EditionDownloads author={author} work={work} edition={edition} locale={locale} compact />
-        ))}
-      </div>
+      <DownloadsTable entries={entries} locale={locale} />
     ) : <p class="empty-state">{labels.noBooks}</p>}
   </section>
 </BaseLayout>

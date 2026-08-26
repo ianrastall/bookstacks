@@ -47,6 +47,9 @@ export interface UiStrings {
   downloads: string;
   downloadEdition: string;
   downloadFormatsNote: string;
+  author: string;
+  title: string;
+  files: string;
   people: string;
   places: string;
   registries: (people: number, places: number) => string;
@@ -112,6 +115,9 @@ const STRINGS: Record<Locale, UiStrings> = {
     downloads: 'Downloads',
     downloadEdition: 'Download this edition',
     downloadFormatsNote: 'Download the TEI source for any edition. A PDF is offered only when a matching file is included in the repository.',
+    author: 'Author',
+    title: 'Title',
+    files: 'Files',
     people: 'People',
     places: 'Places',
     registries: (people, places) => `TEI registries (${people} people, ${places} places)`,
@@ -167,6 +173,9 @@ const STRINGS: Record<Locale, UiStrings> = {
     downloads: 'Téléchargements',
     downloadEdition: 'Télécharger cette édition',
     downloadFormatsNote: 'Téléchargez la source TEI de chaque édition. Un PDF est proposé uniquement si le dépôt contient le fichier correspondant.',
+    author: 'Auteur',
+    title: 'Titre',
+    files: 'Fichiers',
     people: 'Personnes',
     places: 'Lieux',
     registries: (people, places) => `Registres TEI (${people} personnes, ${places} lieux)`,
@@ -222,6 +231,9 @@ const STRINGS: Record<Locale, UiStrings> = {
     downloads: 'Καταφορτώσεις',
     downloadEdition: 'Τὴν ἔκδοσιν καταφορτῶσαι',
     downloadFormatsNote: 'Τὴν πηγὴν TEI ἑκάστης ἐκδόσεως κατάφορτωσον. PDF παρέχεται μόνον ἐὰν τὸ ἀντίστοιχον ἀρχεῖον ἐν τῇ ἀποθήκῃ ὑπάρχῃ.',
+    author: 'Συγγραφεύς',
+    title: 'Τίτλος',
+    files: 'Ἀρχεῖα',
     people: 'Πρόσωπα',
     places: 'Τόποι',
     registries: (people, places) => `Κατάλογοι TEI (${people} ${people === 1 ? 'πρόσωπον' : 'πρόσωπα'}, ${places} ${places === 1 ? 'τόπος' : 'τόποι'})`,
@@ -277,6 +289,9 @@ const STRINGS: Record<Locale, UiStrings> = {
     downloads: 'Загрузки',
     downloadEdition: 'Скачать это издание',
     downloadFormatsNote: 'Для каждого издания доступен исходный файл TEI. PDF предлагается только тогда, когда соответствующий файл есть в репозитории.',
+    author: 'Автор',
+    title: 'Название',
+    files: 'Файлы',
     people: 'Люди',
     places: 'Места',
     registries: (people, places) => `Реестры TEI (${people} ${russianPlural(people, 'персона', 'персоны', 'персон')}, ${places} ${russianPlural(places, 'место', 'места', 'мест')})`,

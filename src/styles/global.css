@@ -490,6 +490,68 @@ button, input, select { font: inherit; }
 .download-collection { display: grid; gap: 1.25rem; padding-bottom: 3rem; }
 .download-edition-compact { margin: 0; }
 
+.download-table-wrap {
+  margin-bottom: 3rem;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.download-table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+}
+
+.download-table th,
+.download-table td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.download-table th {
+  background: var(--panel-muted);
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.download-table tbody tr:last-child td { border-bottom: 0; }
+.download-table tbody tr:hover { background: color-mix(in srgb, var(--panel-muted) 60%, transparent); }
+.download-author { width: 30%; }
+.download-title { width: 48%; font-weight: 700; }
+.download-author a,
+.download-title a { color: var(--text); text-decoration: none; }
+.download-author a:hover,
+.download-title a:hover { color: var(--accent); text-decoration: underline; }
+.download-files-heading { width: 1%; white-space: nowrap; }
+
+.download-sort {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: -0.35rem -0.45rem;
+  padding: 0.35rem 0.45rem;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+.download-sort:hover,
+.download-sort:focus-visible { background: var(--panel); color: var(--accent); }
+.download-sort-icon { font-size: 1rem; }
+.download-table-links { flex-wrap: nowrap; }
+
 .edition-panel {
   padding: clamp(1rem, 3vw, 1.5rem);
   border: 1px solid var(--border);

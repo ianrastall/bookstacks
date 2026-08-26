@@ -1,0 +1,115 @@
+---
+import {
+  editionPdfHref,
+  editionTeiHref,
+  localizedAuthorHref,
+  localizedWorkHref,
+  type Author,
+  type Edition,
+  type Work,
+} from '../lib/library';
+import { ui, type Locale } from '../lib/i18n';
+
+interface DownloadEntry {
+  author: Author;
+  work: Work;
+  edition: Edition;
+}
+
+interface Props {
+  entries: DownloadEntry[];
+  locale: Locale;
+}
+
+const { entries, locale } = Astro.props;
+const labels = ui(locale);
+---
+
+<div class="download-table-wrap">
+  <table class="download-table" data-download-table>
+    <thead>
+      <tr>
+        <th scope="col" data-sort-column="author" aria-sort="ascending">
+          <button class="download-sort" type="button" data-sort="author">
+            <span>{labels.author}</span>
+            <span class="material-icons download-sort-icon" aria-hidden="true">arrow_upward</span>
+          </button>
+        </th>
+        <th scope="col" data-sort-column="title" aria-sort="none">
+          <button class="download-sort" type="button" data-sort="title">
+            <span>{labels.title}</span>
+            <span class="material-icons download-sort-icon" aria-hidden="true">unfold_more</span>
+          </button>
+        </th>
+        <th scope="col" class="download-files-heading">{labels.files}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {entries.map(({ author, work, edition }) => {
+        const pdfHref = editionPdfHref(author, edition);
+        return (
+          <tr data-author={author.name} data-title={edition.sourceTitle}>
+            <td class="download-author">
+              <a href={localizedAuthorHref(author, locale)}>{author.name}</a>
+            </td>
+            <td class="download-title">
+              <a href={localizedWorkHref(work, locale)}>{edition.sourceTitle}</a>
+            </td>
+            <td>
+              <div class="download-links download-table-links">
+                <a class:list={['btn', 'btn-compact', pdfHref ? 'btn-secondary' : 'btn-primary']} href={editionTeiHref(author, edition)} download={edition.sourceFile}>
+                  <span class="material-icons" aria-hidden="true">code</span>TEI XML
+                </a>
+                {pdfHref && (
+                  <a class="btn btn-primary btn-compact" href={pdfHref} download={edition.pdfFile}>
+                    <span class="material-icons" aria-hidden="true">picture_as_pdf</span>PDF
+                  </a>
+                )}
+              </div>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  const tables = document.querySelectorAll<HTMLTableElement>('[data-download-table]');
+
+  for (const table of tables) {
+    const body = table.tBodies[0];
+    const buttons = table.querySelectorAll<HTMLButtonElement>('[data-sort]');
+    const collator = new Intl.Collator(document.documentElement.lang, {
+      numeric: true,
+      sensitivity: 'base',
+    });
+
+    for (const button of buttons) {
+      button.addEventListener('click', () => {
+        const key = button.dataset.sort;
+        const heading = button.closest('th');
+        if (!key || !heading || !body) return;
+
+        const direction = heading.getAttribute('aria-sort') === 'ascending' ? 'descending' : 'ascending';
+        const multiplier = direction === 'ascending' ? 1 : -1;
+        const rows = Array.from(body.rows);
+
+        rows.sort((left, right) => {
+          const comparison = collator.compare(left.dataset[key] || '', right.dataset[key] || '');
+          if (comparison) return comparison * multiplier;
+          return left.rowIndex - right.rowIndex;
+        });
+
+        for (const otherHeading of table.querySelectorAll<HTMLElement>('[data-sort-column]')) {
+          otherHeading.setAttribute('aria-sort', otherHeading === heading ? direction : 'none');
+          const icon = otherHeading.querySelector('.download-sort-icon');
+          if (icon) icon.textContent = otherHeading === heading
+            ? direction === 'ascending' ? 'arrow_upward' : 'arrow_downward'
+            : 'unfold_more';
+        }
+        body.append(...rows);
+      });
+    }
+  }
+</script>
