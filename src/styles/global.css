@@ -790,6 +790,8 @@ button, input, select { font: inherit; }
 .tei-stage-entrance,
 .tei-stage-setting { margin: 0.9em 0; text-align: center; }
 .tei-stage-exit { margin: 0.9em 0; text-align: right; }
+.tei-stage-scene-introduction,
+.tei-stage-bracket { font-style: normal; }
 .tei-stage .tei-entity { border-bottom: 0; }
 .tei-stage .tei-entity,
 .tei-stage-name { font-style: normal; text-transform: uppercase; }

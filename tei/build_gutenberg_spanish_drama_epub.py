@@ -107,6 +107,7 @@ class SpanishDramaBuilder(DramaBuilder):
     ) -> None:
         self.translator = translator
         self.finished = False
+        self.scene_introduction: etree._Element | None = None
         super().__init__(metadata, documents, text_id)
         self.ids = SpanishIds()
 
@@ -165,11 +166,25 @@ class SpanishDramaBuilder(DramaBuilder):
             xml_id=f"{self.text_id}-{structural_parent}-scene-{self.scene_number:03d}",
         )
         division.append(tei("head", heading))
-        for extra in lines[1:]:
-            stage_kind = "entrance" if looks_like_scene_cast(extra) else "setting"
-            division.append(tei("stage", extra, type=stage_kind, xml_id=self.ids.next("stage")))
+        introduction = None
+        if len(lines) > 1:
+            introduction = tei(
+                "stage",
+                type="setting",
+                rend="scene-introduction",
+                xml_id=self.ids.next("stage"),
+            )
+            for index, extra in enumerate(lines[1:]):
+                if index:
+                    introduction.append(tei("lb"))
+                if looks_like_scene_cast(extra):
+                    introduction.append(tei("name", extra, type="person"))
+                else:
+                    introduction.append(tei("hi", extra, rend="italic"))
+            division.append(introduction)
         self.current_act.append(division)
         self.current_scene = division
+        self.scene_introduction = introduction
         self.current_sp = None
         self.scene_has_speech = False
 
@@ -215,6 +230,21 @@ class SpanishDramaBuilder(DramaBuilder):
         self.target().append(paragraph)
 
     def add_stage(self, element: etree._Element) -> None:
+        if self.current_scene is not None and not self.scene_has_speech:
+            if self.scene_introduction is None:
+                self.scene_introduction = tei(
+                    "stage",
+                    type="setting",
+                    rend="scene-introduction",
+                    xml_id=self.ids.next("stage"),
+                )
+                self.current_scene.append(self.scene_introduction)
+            if len(self.scene_introduction) or clean_text(self.scene_introduction.text):
+                self.scene_introduction.append(tei("lb"))
+            description = tei("hi", rend="italic")
+            convert_inline(element, description, self.ids, self.notes)
+            self.scene_introduction.append(description)
+            return
         stage = tei(
             "stage",
             type=spanish_stage_type(element_text(element), not self.scene_has_speech),
@@ -285,6 +315,7 @@ class SpanishDramaBuilder(DramaBuilder):
             self.target().append(speech)
             self.current_sp = speech
             self.scene_has_speech = True
+            self.scene_introduction = None
             return
 
         if self.current_scene is not None and looks_like_spanish_stage(element, not self.scene_has_speech):

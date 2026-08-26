@@ -698,6 +698,8 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     }
     case 'stage': {
       const stageType = slugify(cleanText(node.getAttribute?.('type'))) || 'direction';
+      const stageRend = cleanText(node.getAttribute?.('rend')).toLowerCase();
+      const isSceneIntroduction = /\bscene-introduction\b/.test(stageRend);
       const isBlock = ['entrance', 'exit', 'setting'].includes(stageType);
       const tag = isBlock ? 'div' : 'span';
       const content = children();
@@ -705,7 +707,11 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
       const delimited = /^[([]/u.test(stageText)
         || /[)\]][.,;:]?$/u.test(stageText)
         || hasPairedDelimiters(stageText, [['(', ')'], ['[', ']']]);
-      return `<${tag} class="tei-stage tei-stage-${escapeAttr(stageType)}">${delimited ? content : `[${content}]`}</${tag}>`;
+      const stageClass = `tei-stage tei-stage-${escapeAttr(stageType)}${isSceneIntroduction ? ' tei-stage-scene-introduction' : ''}`;
+      const bracketed = isSceneIntroduction
+        ? `<span class="tei-stage-bracket">[</span>${content}<span class="tei-stage-bracket">]</span>`
+        : `[${content}]`;
+      return `<${tag} class="${stageClass}">${delimited ? content : bracketed}</${tag}>`;
     }
     case 'said': {
       const speaker = referencedEntities(node.getAttribute?.('who'), entities.persons);

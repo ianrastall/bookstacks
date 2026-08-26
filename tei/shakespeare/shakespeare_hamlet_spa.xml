@@ -135,11 +135,15 @@ cercanías y en las fronteras de Dinamarca.</stage>
         <head>ACTO PRIMERO</head>
         <div type="scene" n="1" xml:id="shakespeare-hamlet-spa-act-001-scene-001">
           <head>ESCENA PRIMERA</head>
-          <stage type="setting" xml:id="spa-stage-000002">Explanada delante del palacio real de Elsingor. Noche obscura</stage>
-          <stage type="entrance" xml:id="spa-stage-000003">FRANCISCO, BERNARDO</stage>
-          <stage type="setting" xml:id="spa-stage-000004">Francisco estará paseándose haciendo centinela. Bernardo se va
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000002">
+            <hi rend="italic">Explanada delante del palacio real de Elsingor. Noche obscura</hi>
+            <lb/>
+            <name type="person">FRANCISCO, BERNARDO</name>
+            <lb/>
+            <hi rend="italic">Francisco estará paseándose haciendo centinela. Bernardo se va
 acercando hacia él. Estos personajes y los de la escena siguiente
-estarán armados con espada y lanza.</stage>
+estarán armados con espada y lanza.</hi>
+          </stage>
           <sp xml:id="spa-speech-000001">
             <speaker>Bernardo</speaker>
             <p xml:id="spa-p-000003">¿Quién está ahí?</p>
@@ -193,7 +197,9 @@ mis compañeros de guardia, diles que vengan presto.</p>
         </div>
         <div type="scene" n="2" xml:id="shakespeare-hamlet-spa-act-001-scene-002">
           <head>ESCENA II</head>
-          <stage type="entrance" xml:id="spa-stage-000005">HORACIO, MARCELO y dichos</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000003">
+            <name type="person">HORACIO, MARCELO y dichos</name>
+          </stage>
           <sp xml:id="spa-speech-000013">
             <speaker>Horacio</speaker>
             <p xml:id="spa-p-000015">Amigos de este país.</p>
@@ -215,7 +221,7 @@ centinela?</p>
             <speaker>Francisco</speaker>
             <p xml:id="spa-p-000019">Bernardo, que queda en mi lugar. Buenas noches.</p>
           </sp>
-          <stage type="exit" xml:id="spa-stage-000006">(<hi rend="italic">Vase Francisco. Marcelo y Horacio se acercan adonde está Bernardo
+          <stage type="exit" xml:id="spa-stage-000004">(<hi rend="italic">Vase Francisco. Marcelo y Horacio se acercan adonde está Bernardo
 haciendo centinela</hi>).</stage>
           <sp xml:id="spa-speech-000018">
             <speaker>Marcelo</speaker>
@@ -275,7 +281,7 @@ daba la una...</p>
             <speaker>Marcelo</speaker>
             <p xml:id="spa-p-000031">Chit. Calla; mírale por dónde viene otra vez.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000007">(<hi rend="italic">Se aparece á un extremo del teatro la sombra del rey Hamlet
+          <stage type="business" xml:id="spa-stage-000005">(<hi rend="italic">Se aparece á un extremo del teatro la sombra del rey Hamlet
 armado de todas armas, con un manto real, yelmo en la cabeza, y la
 visera alzada. Los soldados y Horacio se levantan despavoridos</hi>).</stage>
           <sp xml:id="spa-speech-000030">
@@ -304,13 +310,13 @@ visera alzada. Los soldados y Horacio se levantan despavoridos</hi>).</stage>
           </sp>
           <sp xml:id="spa-speech-000036">
             <speaker>Horacio</speaker>
-            <stage type="business" xml:id="spa-stage-000008">se encamina hacia donde está la sombra</stage>
+            <stage type="business" xml:id="spa-stage-000006">se encamina hacia donde está la sombra</stage>
             <p xml:id="spa-p-000038">¿Quién eres tú, que
 así usurpas este tiempo á la noche, y esa presencia noble y guerrera que
 tuvo un día la majestad del soberano dinamarqués que yace en el
 sepulcro? Habla: por el cielo te lo pido.</p>
           </sp>
-          <stage type="exit" xml:id="spa-stage-000009">(<hi rend="italic">Vase la sombra á paso lento</hi>).<lb/>
+          <stage type="exit" xml:id="spa-stage-000007">(<hi rend="italic">Vase la sombra á paso lento</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000037">
             <speaker>Marcelo</speaker>
@@ -426,7 +432,7 @@ habidos tesoros, por lo que se dice que vosotros, infelices espíritus,
 después de la muerte vagáis inquietos, decláralo... deténte y habla...
 Marcelo, deténle...</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000010">(<hi rend="italic">Canta un gallo á lo lejos, y empieza á retirarse la sombra; los
+          <stage type="business" xml:id="spa-stage-000008">(<hi rend="italic">Canta un gallo á lo lejos, y empieza á retirarse la sombra; los
 soldados quieren detenerla haciendo uso de las lanzas: pero la
 sombra los evita, y desaparece con prontitud</hi>).</stage>
           <sp xml:id="spa-speech-000051">
@@ -464,7 +470,7 @@ su garganta sonora, y que á este anuncio todo extraño espíritu errante
 por la tierra ó el mar, el fuego ó el aire, huye á su centro; y el
 fantasma que hemos visto acaba de confirmar la certeza de esta opinión.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000011">(<hi rend="italic">Empieza á iluminarse lentamente el teatro</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000009">(<hi rend="italic">Empieza á iluminarse lentamente el teatro</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000058">
             <speaker>Marcelo</speaker>
@@ -494,9 +500,12 @@ con más seguridad.</p>
         </div>
         <div type="scene" n="3" xml:id="shakespeare-hamlet-spa-act-001-scene-003">
           <head>ESCENA III</head>
-          <stage type="setting" xml:id="spa-stage-000012">Salón de palacio</stage>
-          <stage type="setting" xml:id="spa-stage-000013">CLAUDIO, GERTRUDIS, HAMLET, POLONIO, LAERTES, VOLTIMAN, CORNELIO,
-caballeros, damas y acompañamiento.</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000010">
+            <hi rend="italic">Salón de palacio</hi>
+            <lb/>
+            <hi rend="italic">CLAUDIO, GERTRUDIS, HAMLET, POLONIO, LAERTES, VOLTIMAN, CORNELIO,
+caballeros, damas y acompañamiento.</hi>
+          </stage>
           <sp xml:id="spa-speech-000061">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000063">Aunque la muerte de mi querido hermano Hamlet está todavía tan
@@ -541,8 +550,11 @@ nuestro respeto.</p>
         </div>
         <div type="scene" n="4" xml:id="shakespeare-hamlet-spa-act-001-scene-004">
           <head>ESCENA IV</head>
-          <stage type="entrance" xml:id="spa-stage-000014">CLAUDIO, GERTRUDIS, HAMLET, POLONIO, LAERTES,</stage>
-          <stage type="setting" xml:id="spa-stage-000015">damas, caballeros y acompañamiento</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000011">
+            <name type="person">CLAUDIO, GERTRUDIS, HAMLET, POLONIO, LAERTES,</name>
+            <lb/>
+            <hi rend="italic">damas, caballeros y acompañamiento</hi>
+          </stage>
           <sp xml:id="spa-speech-000064">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000066">Y tú, Laertes, ¿qué solicitas? Me has hablado de una
@@ -665,8 +677,10 @@ las aclamaciones del rey, repitiendo el trueno de la tierra. Venid.</p>
         </div>
         <div type="scene" n="5" xml:id="shakespeare-hamlet-spa-act-001-scene-005">
           <head>ESCENA V</head>
-          <stage type="entrance" xml:id="spa-stage-000016">HAMLET</stage>
-          <stage type="setting" xml:id="spa-stage-000017">¡Oh, si esta demasiado sólida masa de carne pudiera ablandarse y
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000012">
+            <name type="person">HAMLET</name>
+            <lb/>
+            <hi rend="italic">¡Oh, si esta demasiado sólida masa de carne pudiera ablandarse y
 liquidarse disuelta en lluvia de lágrimas, ó el Todopoderoso no asestara
 el cañón contra el homicida de sí mismo! ¡Oh Dios! ¡oh Dios mío! ¡Cuán
 fatigado ya de todo, juzgo molestos, insípidos y vanos los placeres del
@@ -687,11 +701,14 @@ con mi tío, hermano de mi padre; pero no más parecido á él, que yo lo
 soy á Hércules. En un mes... enrojecidos aún los ojos con el pérfido
 llanto, se casó. ¡Ah delincuente precipitación, ir á ocupar con tal
 diligencia un lecho incestuoso! Ni esto es bueno, ni puede producir
-bien. Pero hazte pedazos, corazón mío, que mi lengua debe reprimirse.</stage>
+bien. Pero hazte pedazos, corazón mío, que mi lengua debe reprimirse.</hi>
+          </stage>
         </div>
         <div type="scene" n="6" xml:id="shakespeare-hamlet-spa-act-001-scene-006">
           <head>ESCENA VI</head>
-          <stage type="entrance" xml:id="spa-stage-000018">HAMLET, HORACIO, BERNARDO, MARCELO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000013">
+            <name type="person">HAMLET, HORACIO, BERNARDO, MARCELO</name>
+          </stage>
           <sp xml:id="spa-speech-000080">
             <speaker>Horacio</speaker>
             <p xml:id="spa-p-000082">Buenos días, señor.</p>
@@ -964,8 +981,11 @@ tierra las oculte, se descubren al fin á la vista humana.</p>
         </div>
         <div type="scene" n="7" xml:id="shakespeare-hamlet-spa-act-001-scene-007">
           <head>ESCENA VII</head>
-          <stage type="setting" xml:id="spa-stage-000019">Sala de casa de Polonio</stage>
-          <stage type="entrance" xml:id="spa-stage-000020">LAERTES, OFELIA</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000014">
+            <hi rend="italic">Sala de casa de Polonio</hi>
+            <lb/>
+            <name type="person">LAERTES, OFELIA</name>
+          </stage>
           <sp xml:id="spa-speech-000136">
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-000138">Ya tengo todo mi equipaje á bordo. Adiós, hermana, y cuando
@@ -1035,7 +1055,9 @@ bendición repetida será un nuevo consuelo para mí.</p>
         </div>
         <div type="scene" n="8" xml:id="shakespeare-hamlet-spa-act-001-scene-008">
           <head>ESCENA VIII</head>
-          <stage type="entrance" xml:id="spa-stage-000021">POLONIO, LAERTES, OFELIA</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000015">
+            <name type="person">POLONIO, LAERTES, OFELIA</name>
+          </stage>
           <sp xml:id="spa-speech-000143">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000145">¿Aún estás aquí? ¡Qué mala vergüenza! A bordo, á bordo; el
@@ -1064,7 +1086,7 @@ permita que mi bendición haga fructificar en ti esos consejos.</p>
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-000146">Humildemente os pido vuestra licencia.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000022">(<hi rend="italic">Se arrodilla y besa la mano á Polonio.</hi>)<lb/>
+          <stage type="business" xml:id="spa-stage-000016">(<hi rend="italic">Se arrodilla y besa la mano á Polonio.</hi>)<lb/>
 </stage>
           <sp xml:id="spa-speech-000145">
             <speaker>Polonio</speaker>
@@ -1086,7 +1108,9 @@ bien de lo que te he dicho.</p>
         </div>
         <div type="scene" n="9" xml:id="shakespeare-hamlet-spa-act-001-scene-009">
           <head>ESCENA IX</head>
-          <stage type="entrance" xml:id="spa-stage-000023">POLONIO, OFELIA</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000017">
+            <name type="person">POLONIO, OFELIA</name>
+          </stage>
           <sp xml:id="spa-speech-000149">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000151">¿Y qué es lo que te ha dicho, Ofelia?</p>
@@ -1165,8 +1189,11 @@ hacerlo así; yo te lo mando. Vete á tu aposento.</p>
         </div>
         <div type="scene" n="10" xml:id="shakespeare-hamlet-spa-act-001-scene-010">
           <head>ESCENA X</head>
-          <stage type="setting" xml:id="spa-stage-000024">Explanada delante del palacio. Noche obscura</stage>
-          <stage type="entrance" xml:id="spa-stage-000025">HAMLET, HORACIO, MARCELO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000018">
+            <hi rend="italic">Explanada delante del palacio. Noche obscura</hi>
+            <lb/>
+            <name type="person">HAMLET, HORACIO, MARCELO</name>
+          </stage>
           <sp xml:id="spa-speech-000161">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000163">El aire es frío y sutil en demasía.</p>
@@ -1192,7 +1219,7 @@ hacerlo así; yo te lo mando. Vete á tu aposento.</p>
             <p xml:id="spa-p-000168">No las he oído. Pues en tal caso ya está cerca el tiempo en
 que el muerto suele pasearse. Pero ¿qué significa este ruido, señor?</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000026">(<hi rend="italic">Suena á lo lejos música de clarines y timbales.</hi>)<lb/>
+          <stage type="business" xml:id="spa-stage-000019">(<hi rend="italic">Suena á lo lejos música de clarines y timbales.</hi>)<lb/>
 </stage>
           <sp xml:id="spa-speech-000167">
             <speaker>Hamlet</speaker>
@@ -1230,7 +1257,7 @@ el valor al más precioso metal, y le envilece.</p>
             <speaker>Horacio</speaker>
             <p xml:id="spa-p-000172">¿Veis, señor? ya viene.</p>
           </sp>
-          <stage type="exit" xml:id="spa-stage-000027">(<hi rend="italic">Aparécese la sombra del rey Hamlet hacia el fondo del teatro.
+          <stage type="exit" xml:id="spa-stage-000020">(<hi rend="italic">Aparécese la sombra del rey Hamlet hacia el fondo del teatro.
 Hamlet al verla se retira lleno de horror, y después se encamina
 hacia ella.</hi>)</stage>
           <sp xml:id="spa-speech-000171">
@@ -1291,7 +1318,7 @@ aquella cumbre al mar, y sienta en la profundidad su bramido ronco.</p>
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000181">Todavía me llama... Camina. Ya te sigo.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000028">(<hi rend="italic">La sombra hará los movimientos que indica el diálogo. Horacio y
+          <stage type="business" xml:id="spa-stage-000021">(<hi rend="italic">La sombra hará los movimientos que indica el diálogo. Horacio y
 Marcelo quieren detener á Hamlet, y él los aparta con violencia, y
 la sigue.</hi>)</stage>
           <sp xml:id="spa-speech-000180">
@@ -1316,7 +1343,9 @@ detenga... Otra vez te digo que andes, que voy á seguirte.</p>
         </div>
         <div type="scene" n="11" xml:id="shakespeare-hamlet-spa-act-001-scene-011">
           <head>ESCENA XI</head>
-          <stage type="entrance" xml:id="spa-stage-000029">HORACIO, MARCELO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000022">
+            <name type="person">HORACIO, MARCELO</name>
+          </stage>
           <sp xml:id="spa-speech-000184">
             <speaker>Horacio</speaker>
             <p xml:id="spa-p-000186">Su exaltada imaginación le arrebata.</p>
@@ -1344,8 +1373,11 @@ detenga... Otra vez te digo que andes, que voy á seguirte.</p>
         </div>
         <div type="scene" n="12" xml:id="shakespeare-hamlet-spa-act-001-scene-012">
           <head>ESCENA XII</head>
-          <stage type="setting" xml:id="spa-stage-000030">Parte remota cercana al mar vista á lo lejos del palacio de Elsingor</stage>
-          <stage type="setting" xml:id="spa-stage-000031">HAMLET, la sombra del rey HAMLET</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000023">
+            <hi rend="italic">Parte remota cercana al mar vista á lo lejos del palacio de Elsingor</hi>
+            <lb/>
+            <hi rend="italic">HAMLET, la sombra del rey HAMLET</hi>
+          </stage>
           <sp xml:id="spa-speech-000190">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000192">¿A dónde me quieres llevar? Habla, yo no paso de aquí.</p>
@@ -1474,7 +1506,9 @@ del día. Adiós, adiós. Acuérdate de mí.</p>
         </div>
         <div type="scene" n="13" xml:id="shakespeare-hamlet-spa-act-001-scene-013">
           <head>ESCENA XIII</head>
-          <stage type="entrance" xml:id="spa-stage-000032">HAMLET, y después HORACIO y MARCELO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000024">
+            <name type="person">HAMLET, y después HORACIO y MARCELO</name>
+          </stage>
           <sp xml:id="spa-speech-000208">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000210">¡Oh vosotros, ejércitos celestiales! ¡oh tierra!... ¿y quién
@@ -1496,12 +1530,12 @@ Sí, tú eres... ¡ Ah! pero la expresión que debo conservar es ésta:
           </sp>
           <sp xml:id="spa-speech-000209">
             <speaker>Horacio</speaker>
-            <stage type="business" xml:id="spa-stage-000033">gritando desde adentro</stage>
+            <stage type="business" xml:id="spa-stage-000025">gritando desde adentro</stage>
             <p xml:id="spa-p-000211">¡Señor! ¡señor!</p>
           </sp>
           <sp xml:id="spa-speech-000210">
             <speaker>Marcelo</speaker>
-            <stage type="business" xml:id="spa-stage-000034">gritando desde adentro</stage>
+            <stage type="business" xml:id="spa-stage-000026">gritando desde adentro</stage>
             <p xml:id="spa-p-000212">¡Hamlet!</p>
           </sp>
           <sp xml:id="spa-speech-000211">
@@ -1520,7 +1554,7 @@ Sí, tú eres... ¡ Ah! pero la expresión que debo conservar es ésta:
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000216">¡Hola amigos, ¡eh! venid, venid acá</p>
           </sp>
-          <stage type="entrance" xml:id="spa-stage-000035">(<hi rend="italic">Salen Horacio y Marcelo.</hi>)<lb/>
+          <stage type="entrance" xml:id="spa-stage-000027">(<hi rend="italic">Salen Horacio y Marcelo.</hi>)<lb/>
 </stage>
           <sp xml:id="spa-speech-000215">
             <speaker>Marcelo</speaker>
@@ -1639,7 +1673,7 @@ concedáis una corta merced.</p>
             <speaker>La sombra</speaker>
             <p xml:id="spa-p-000242">Juradlo.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000036">(<hi rend="italic">Se oirá la voz de la sombra, que suena á varias distancias debajo
+          <stage type="business" xml:id="spa-stage-000028">(<hi rend="italic">Se oirá la voz de la sombra, que suena á varias distancias debajo
 de tierra. Hamlet y los demás, horrorizados, mudan de situación,
 según lo indica el diálogo.</hi>)</stage>
           <sp xml:id="spa-speech-000241">
@@ -1716,13 +1750,16 @@ juntos.</p>
         <head>ACTO II</head>
         <div type="scene" n="1" xml:id="shakespeare-hamlet-spa-act-002-scene-001">
           <head>ESCENA PRIMERA</head>
-          <stage type="setting" xml:id="spa-stage-000037">Sala en casa de Polonio</stage>
-          <stage type="entrance" xml:id="spa-stage-000038">POLONIO, REINALDO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000029">
+            <hi rend="italic">Sala en casa de Polonio</hi>
+            <lb/>
+            <name type="person">POLONIO, REINALDO</name>
+          </stage>
           <sp xml:id="spa-speech-000252">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000254">Reinaldo, entrégale este dinero y estas cartas.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000039">(<hi rend="italic">Le da un bolsillo y unas cartas.</hi>)<lb/>
+          <stage type="business" xml:id="spa-stage-000030">(<hi rend="italic">Le da un bolsillo y unas cartas.</hi>)<lb/>
 </stage>
           <sp xml:id="spa-speech-000253">
             <speaker>Reinaldo</speaker>
@@ -1868,7 +1905,9 @@ instrucción y advertencias que acabo de darte. ¿Me has entendido?</p>
         </div>
         <div type="scene" n="2" xml:id="shakespeare-hamlet-spa-act-002-scene-002">
           <head>ESCENA II</head>
-          <stage type="entrance" xml:id="spa-stage-000040">POLONIO, OFELIA</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000031">
+            <name type="person">POLONIO, OFELIA</name>
+          </stage>
           <sp xml:id="spa-speech-000279">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000281">Y bien, Ofelia, ¿qué hay de nuevo?</p>
@@ -1941,8 +1980,11 @@ Vamos.</p>
         </div>
         <div type="scene" n="3" xml:id="shakespeare-hamlet-spa-act-002-scene-003">
           <head>ESCENA III</head>
-          <stage type="setting" xml:id="spa-stage-000041">Salón de palacio</stage>
-          <stage type="entrance" xml:id="spa-stage-000042">CLAUDIO, GERTRUDIS, RICARDO, GUILLERMO, acompañamiento</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000032">
+            <hi rend="italic">Salón de palacio</hi>
+            <lb/>
+            <name type="person">CLAUDIO, GERTRUDIS, RICARDO, GUILLERMO, acompañamiento</name>
+          </stage>
           <sp xml:id="spa-speech-000290">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000292">Bien venido, Guillermo; y tú también, querido Ricardo. Además
@@ -1999,7 +2041,9 @@ serle agradables y útiles.</p>
         </div>
         <div type="scene" n="4" xml:id="shakespeare-hamlet-spa-act-002-scene-004">
           <head>ESCENA IV</head>
-          <stage type="setting" xml:id="spa-stage-000043">CLAUDIO, GERTRUDIS, POLONIO, acompañamiento</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000033">
+            <hi rend="italic">CLAUDIO, GERTRUDIS, POLONIO, acompañamiento</hi>
+          </stage>
           <sp xml:id="spa-speech-000298">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000300">Señor: los embajadores enviados a Noruega han vuelto ya en
@@ -2045,7 +2089,9 @@ padre y nuestro acelerado casamiento.</p>
         </div>
         <div type="scene" n="5" xml:id="shakespeare-hamlet-spa-act-002-scene-005">
           <head>ESCENA V</head>
-          <stage type="entrance" xml:id="spa-stage-000044">CLAUDIO, GERTRUDIS, POLONIO, VOLTIMAN, CORNELIO, acompañamiento</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000034">
+            <name type="person">CLAUDIO, GERTRUDIS, POLONIO, VOLTIMAN, CORNELIO, acompañamiento</name>
+          </stage>
           <sp xml:id="spa-speech-000306">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000308">Bien venidos, amigos. Dí, Voltiman, ¿qué respondió nuestro
@@ -2067,7 +2113,7 @@ fin os ruega concedáis paso libre por vuestros estados al ejército
 prevenido para tal empresa, bajo las condiciones de recíproca seguridad,
 expresadas aquí.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000045">(<hi rend="italic">Saca unos papeles y se los da a Claudio.</hi>)<lb/>
+          <stage type="business" xml:id="spa-stage-000035">(<hi rend="italic">Saca unos papeles y se los da a Claudio.</hi>)<lb/>
 </stage>
           <sp xml:id="spa-speech-000308">
             <speaker>Claudio</speaker>
@@ -2079,7 +2125,9 @@ seréis conmigo en el festín. Tendré gusto de veros.</p>
         </div>
         <div type="scene" n="6" xml:id="shakespeare-hamlet-spa-act-002-scene-006">
           <head>ESCENA VI</head>
-          <stage type="entrance" xml:id="spa-stage-000046">CLAUDIO, GERTRUDIS, POLONIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000036">
+            <name type="person">CLAUDIO, GERTRUDIS, POLONIO</name>
+          </stage>
           <sp xml:id="spa-speech-000309">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000311">Este asunto se ha concluído muy bien. (<hi rend="italic">Claudio hace una seña,
@@ -2233,12 +2281,14 @@ hablar si me dais licencia.</p>
         </div>
         <div type="scene" n="7" xml:id="shakespeare-hamlet-spa-act-002-scene-007">
           <head>ESCENA VII</head>
-          <stage type="entrance" xml:id="spa-stage-000047">POLONIO, HAMLET</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000037">
+            <name type="person">POLONIO, HAMLET</name>
+          </stage>
           <sp xml:id="spa-speech-000330">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000334">¿Cómo os va, mi buen señor?</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000048">(<hi rend="italic">Hamlet sale leyendo un libro.</hi>)<lb/>
+          <stage type="business" xml:id="spa-stage-000038">(<hi rend="italic">Hamlet sale leyendo un libro.</hi>)<lb/>
 </stage>
           <sp xml:id="spa-speech-000331">
             <speaker>Hamlet</speaker>
@@ -2355,14 +2405,16 @@ exceptuando la vida, eso sí, exceptuando la vida.</p>
           </sp>
           <sp xml:id="spa-speech-000354">
             <speaker>Polonio</speaker>
-            <stage type="business" xml:id="spa-stage-000049">á Guillermo y Ricardo, que salen por donde él se va</stage>
+            <stage type="business" xml:id="spa-stage-000039">á Guillermo y Ricardo, que salen por donde él se va</stage>
             <p xml:id="spa-p-000358">Si
 buscáis al príncipe, vedle ahí.</p>
           </sp>
         </div>
         <div type="scene" n="8" xml:id="shakespeare-hamlet-spa-act-002-scene-008">
           <head>ESCENA VIII</head>
-          <stage type="entrance" xml:id="spa-stage-000050">HAMLET, RICARDO, GUILLERMO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000040">
+            <name type="person">HAMLET, RICARDO, GUILLERMO</name>
+          </stage>
           <sp xml:id="spa-speech-000355">
             <speaker>Ricardo</speaker>
             <p xml:id="spa-p-000359">Buenos días, señor.</p>
@@ -2526,7 +2578,7 @@ sencillez la verdad. ¿Os han mandado venir, ó no?</p>
           </sp>
           <sp xml:id="spa-speech-000388">
             <speaker>Ricardo</speaker>
-            <stage type="business" xml:id="spa-stage-000051">mirando á Guillermo</stage>
+            <stage type="business" xml:id="spa-stage-000041">mirando á Guillermo</stage>
             <p xml:id="spa-p-000392">¿Qué dices tú?</p>
           </sp>
           <sp xml:id="spa-speech-000389">
@@ -2685,7 +2737,9 @@ corre el sur, distingo muy bien un huevo de una castaña.</p>
         </div>
         <div type="scene" n="9" xml:id="shakespeare-hamlet-spa-act-002-scene-009">
           <head>ESCENA IX</head>
-          <stage type="entrance" xml:id="spa-stage-000052">POLONIO y dichos</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000042">
+            <name type="person">POLONIO y dichos</name>
+          </stage>
           <sp xml:id="spa-speech-000414">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000418">Dios os guarde, señores.</p>
@@ -2732,7 +2786,7 @@ Polonio</hi>). Cuando Roscio era actor en Roma...</p>
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000427">Cada actor viene caballero en burro.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000053">(<hi rend="italic">Hamlet declama este verso en tono trágico y los que dice poco
+          <stage type="business" xml:id="spa-stage-000043">(<hi rend="italic">Hamlet declama este verso en tono trágico y los que dice poco
 después</hi>).</stage>
           <sp xml:id="spa-speech-000424">
             <speaker>Polonio</speaker>
@@ -2795,7 +2849,9 @@ manifestará lo demás. Pero, ¿veis? Ahí vienen otros á hablar por mí.</p>
         </div>
         <div type="scene" n="10" xml:id="shakespeare-hamlet-spa-act-002-scene-010">
           <head>ESCENA X</head>
-          <stage type="entrance" xml:id="spa-stage-000054">HAMLET, RICARDO, GUILLERMO, POLONIO y cuatro cómicos</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000044">
+            <name type="person">HAMLET, RICARDO, GUILLERMO, POLONIO y cuatro cómicos</name>
+          </stage>
           <sp xml:id="spa-speech-000434">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000442">Bien venidos, señores; me alegro de veros á todos tan buenos.
@@ -2851,14 +2907,14 @@ por aquel verso... deja, deja, veré si me acuerdo.</p>
             </lg>
             <p xml:id="spa-p-000446">Prosigue tú.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000055">(<hi rend="italic">Todos los versos de esta escena los dicen con declamación
+          <stage type="business" xml:id="spa-stage-000045">(<hi rend="italic">Todos los versos de esta escena los dicen con declamación
 trágica</hi>).</stage>
           <sp xml:id="spa-speech-000436">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000447">¡Muy bien declamado, á fe mía! con buen acento y bella
 expresión.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000056">
+          <stage type="business" xml:id="spa-stage-000046">
 <seg rend="smcap">Cómico</seg> 1.º—           Al momento<lb/>
 le ve lidiando, ¡resistencia breve!<lb/>
 contra los griegos; su temida espada<lb/>
@@ -2905,7 +2961,7 @@ caiga en pedazos del abismo al centro.<lb/>
 gusta de ver bailar ó de oir cuentos de alcahuetas, ó si no se duerme.
 Prosigue con aquello de Hécuba.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000057"><seg rend="smcap">Cómico</seg> 1.º—Pero quien viese ¡oh vista dolorosa! la mal ceñida reina...</stage>
+          <stage type="business" xml:id="spa-stage-000047"><seg rend="smcap">Cómico</seg> 1.º—Pero quien viese ¡oh vista dolorosa! la mal ceñida reina...</stage>
           <sp xml:id="spa-speech-000439">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000450">¡La mal ceñida reina!</p>
@@ -2914,7 +2970,7 @@ Prosigue con aquello de Hécuba.</p>
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000451">Esto es bueno, mal ceñida reina, ¡bueno!</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000058">
+          <stage type="business" xml:id="spa-stage-000048">
 Cómico 1.º—Pero quien viese ¡oh vista dolorosa!<lb/>
 <seg>la mal ceñida reina, el pie desnudo,</seg><lb/>
 <seg>girar de un lado al otro, amenazando</seg><lb/>
@@ -2994,8 +3050,10 @@ burla de él. Amigos, hasta la noche. Pasadlo bien.</p>
         </div>
         <div type="scene" n="11" xml:id="shakespeare-hamlet-spa-act-002-scene-011">
           <head>ESCENA XI</head>
-          <stage type="entrance" xml:id="spa-stage-000059">HAMLET</stage>
-          <stage type="setting" xml:id="spa-stage-000060">Ya estoy solo. ¡Qué abatido, qué insensible soy! ¿No es admirable que
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000049">
+            <name type="person">HAMLET</name>
+            <lb/>
+            <hi rend="italic">Ya estoy solo. ¡Qué abatido, qué insensible soy! ¿No es admirable que
 este actor, en una fábula, en una ficción, pueda dirigir tan á su placer
 el ánimo, que así agite y desfigure el rostro en la declamación,
 vertiendo de sus ojos lágrimas, débil la voz, y todas sus acciones tan
@@ -3034,15 +3092,19 @@ demonio no le es difícil presentarse bajo la más agradable forma; sí, y
 acaso como él es tan poderoso sobre una imaginación perturbada,
 valiéndose de mi propia debilidad y melancolía, me engaña para perderme.
 Yo voy á adquirir pruebas más sólidas, y esta representación ha de ser
-el lazo en que se enrede la conciencia del rey.</stage>
+el lazo en que se enrede la conciencia del rey.</hi>
+          </stage>
         </div>
       </div>
       <div type="act" n="3" xml:id="shakespeare-hamlet-spa-act-003">
         <head>ACTO III</head>
         <div type="scene" n="1" xml:id="shakespeare-hamlet-spa-act-003-scene-001">
           <head>ESCENA PRIMERA</head>
-          <stage type="setting" xml:id="spa-stage-000061">Galería de palacio</stage>
-          <stage type="entrance" xml:id="spa-stage-000062">CLAUDIO, GERTRUDIS, POLONIO, OFELIA, RICARDO, GUILLERMO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000050">
+            <hi rend="italic">Galería de palacio</hi>
+            <lb/>
+            <name type="person">CLAUDIO, GERTRUDIS, POLONIO, OFELIA, RICARDO, GUILLERMO</name>
+          </stage>
           <sp xml:id="spa-speech-000451">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000464">¿Y no os fué posible indagar en la conversación que con él
@@ -3105,7 +3167,9 @@ propensión á este género de placeres.</p>
         </div>
         <div type="scene" n="2" xml:id="shakespeare-hamlet-spa-act-003-scene-002">
           <head>ESCENA II</head>
-          <stage type="entrance" xml:id="spa-stage-000063">CLAUDIO, GERTRUDIS, POLONIO, OFELIA</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000051">
+            <name type="person">CLAUDIO, GERTRUDIS, POLONIO, OFELIA</name>
+          </stage>
           <sp xml:id="spa-speech-000463">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000476">Tú, mi amada Gertrudis, deberás también retirarte, porque
@@ -3129,7 +3193,9 @@ para vuestra mutua felicidad restituirle su salud perdida.</p>
         </div>
         <div type="scene" n="3" xml:id="shakespeare-hamlet-spa-act-003-scene-003">
           <head>ESCENA III</head>
-          <stage type="entrance" xml:id="spa-stage-000064">CLAUDIO, POLONIO, OFELIA</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000052">
+            <name type="person">CLAUDIO, POLONIO, OFELIA</name>
+          </stage>
           <sp xml:id="spa-speech-000466">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000479">Paséate por aquí, Ofelia. Si V. M. gusta podemos ya
@@ -3153,9 +3219,12 @@ disimulado en palabras traidoras. ¡Oh, qué pesada carga me oprime!</p>
         </div>
         <div type="scene" n="4" xml:id="shakespeare-hamlet-spa-act-003-scene-004">
           <head>ESCENA IV</head>
-          <stage type="entrance" xml:id="spa-stage-000065">HAMLET, OFELIA</stage>
-          <stage type="setting" xml:id="spa-stage-000066">(Hamlet dirá este monólogo, creyéndose solo. Ofelia á un extremo del
-teatro lee.)</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000053">
+            <name type="person">HAMLET, OFELIA</name>
+            <lb/>
+            <hi rend="italic">(Hamlet dirá este monólogo, creyéndose solo. Ofelia á un extremo del
+teatro lee.)</hi>
+          </stage>
           <sp xml:id="spa-speech-000469">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000482">Existir o no existir, ésta es la cuestión. ¿Cuál es más digna
@@ -3211,7 +3280,7 @@ extremo su valor; pero ya disipado aquel perfume, recibidlas, que un
 alma generosa considera como viles los más opulentos dones, si llega á
 entibiarse el afecto de quien los dió. Vedlos aquí.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000067">(<hi rend="italic">Presentándole algunas joyas. Hamlet rehusa tomarlas</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000054">(<hi rend="italic">Presentándole algunas joyas. Hamlet rehusa tomarlas</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000475">
             <speaker>Hamlet</speaker>
@@ -3281,7 +3350,7 @@ vete, vete á un convento... ¿En dónde está tu padre?</p>
             <p xml:id="spa-p-000500">¿Sí? pues que cierren bien todas las puertas, para que si
 quiere hacer locuras las haga dentro de su casa. Adiós.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000068">(<hi rend="italic">Hace que se va, y vuelve</hi>)<lb/>
+          <stage type="business" xml:id="spa-stage-000055">(<hi rend="italic">Hace que se va, y vuelve</hi>)<lb/>
 </stage>
           <sp xml:id="spa-speech-000488">
             <speaker>Ofelia</speaker>
@@ -3296,7 +3365,7 @@ tienes necesidad de casarte, cásate con un tonto; porque los hombres
 avisados saben muy bien que vosotras los convertís en fieras... Al
 convento, y pronto. Adiós.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000069">(<hi rend="italic">Hace, que se va, y vuelve</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000056">(<hi rend="italic">Hace, que se va, y vuelve</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000490">
             <speaker>Ofelia</speaker>
@@ -3316,8 +3385,10 @@ convento, véte.</p>
         </div>
         <div type="scene" n="5" xml:id="shakespeare-hamlet-spa-act-003-scene-005">
           <head>ESCENA V</head>
-          <stage type="entrance" xml:id="spa-stage-000070">OFELIA</stage>
-          <stage type="setting" xml:id="spa-stage-000071">¡Oh, qué trastorno ha padecido esa alma generosa! La penetración del
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000057">
+            <name type="person">OFELIA</name>
+            <lb/>
+            <hi rend="italic">¡Oh, qué trastorno ha padecido esa alma generosa! La penetración del
 cortesano, la lengua del sabio, la espada del guerrero, la esperanza y
 delicias del estado, el espejo de la cultura, el modelo de la gentileza
 que estudiaban los más advertidos, todo, todo se ha aniquilado. Y yo, la
@@ -3326,11 +3397,14 @@ de sus promesas suaves, veo ahora aquel noble y sublime entendimiento
 desacordado, como la campana sonora que se hiende; aquella incomparable
 presencia, aquel semblante de florida juventud, alterado con el frenesí.
 ¡ Oh, cuánta, cuánta es mi desdicha de haber visto lo que vi, para ver
-ahora lo que veo!</stage>
+ahora lo que veo!</hi>
+          </stage>
         </div>
         <div type="scene" n="6" xml:id="shakespeare-hamlet-spa-act-003-scene-006">
           <head>ESCENA VI</head>
-          <stage type="entrance" xml:id="spa-stage-000072">CLAUDIO, POLONIO, OFELIA</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000058">
+            <name type="person">CLAUDIO, POLONIO, OFELIA</name>
+          </stage>
           <sp xml:id="spa-speech-000492">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000505">¡Amor! ¡Qué! No van por este camino sus afectos; ni en lo que
@@ -3352,7 +3426,9 @@ todo lo hemos oído.</p>
         </div>
         <div type="scene" n="7" xml:id="shakespeare-hamlet-spa-act-003-scene-007">
           <head>ESCENA VII</head>
-          <stage type="entrance" xml:id="spa-stage-000073">CLAUDIO, POLONIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000059">
+            <name type="person">CLAUDIO, POLONIO</name>
+          </stage>
           <sp xml:id="spa-speech-000494">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000507">Haced lo que os parezca, señor; pero si lo juzgáis á
@@ -3371,12 +3447,16 @@ escrupulosa atención.</p>
         </div>
         <div type="scene" n="8" xml:id="shakespeare-hamlet-spa-act-003-scene-008">
           <head>ESCENA VIII</head>
-          <stage type="setting" xml:id="spa-stage-000074">Salón de palacio</stage>
-          <stage type="setting" xml:id="spa-stage-000075">El salón estará iluminado; habrá asientos que formen semicírculo
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000060">
+            <hi rend="italic">Salón de palacio</hi>
+            <lb/>
+            <hi rend="italic">El salón estará iluminado; habrá asientos que formen semicírculo
 para el concurso que ha de asistir al espectáculo. Ha de haber en
 el foro una gran puerta con pabellones y cortina, por donde saldrán
-á su tiempo los actores que deben representar.</stage>
-          <stage type="setting" xml:id="spa-stage-000076">HAMLET y dos cómicos</stage>
+á su tiempo los actores que deben representar.</hi>
+            <lb/>
+            <hi rend="italic">HAMLET y dos cómicos</hi>
+          </stage>
           <sp xml:id="spa-speech-000496">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000509">Dirás este pasaje en la forma que te le he declamado yo: con
@@ -3426,7 +3506,9 @@ empeño de lucirlo. Id á prepararos.</p>
         </div>
         <div type="scene" n="9" xml:id="shakespeare-hamlet-spa-act-003-scene-009">
           <head>ESCENA IX</head>
-          <stage type="entrance" xml:id="spa-stage-000077">HAMLET, POLONIO, RICARDO, GUILLERMO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000061">
+            <name type="person">HAMLET, POLONIO, RICARDO, GUILLERMO</name>
+          </stage>
           <sp xml:id="spa-speech-000499">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000514">Y bien, Polonio, ¿gustará al rey de oir esta pieza?</p>
@@ -3447,7 +3529,9 @@ empeño de lucirlo. Id á prepararos.</p>
         </div>
         <div type="scene" n="10" xml:id="shakespeare-hamlet-spa-act-003-scene-010">
           <head>ESCENA X</head>
-          <stage type="entrance" xml:id="spa-stage-000078">HAMLET, HORACIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000062">
+            <name type="person">HAMLET, HORACIO</name>
+          </stage>
           <sp xml:id="spa-speech-000503">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000518">¿Quién es?... ¡Ah! Horacio.</p>
@@ -3503,9 +3587,12 @@ asiento.</p>
         </div>
         <div type="scene" n="11" xml:id="shakespeare-hamlet-spa-act-003-scene-011">
           <head>ESCENA XI</head>
-          <stage type="setting" xml:id="spa-stage-000079">CLAUDIO, GERTRUDIS, HAMLET, HORACIO, POLONIO, OFELIA, RICARDO,
-GUILLERMO y acompañamiento de damas, caballeros, pajes y guardias.</stage>
-          <stage type="setting" xml:id="spa-stage-000080">(<hi rend="italic">Suena marcha dánica</hi>).</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000063">
+            <hi rend="italic">CLAUDIO, GERTRUDIS, HAMLET, HORACIO, POLONIO, OFELIA, RICARDO,
+GUILLERMO y acompañamiento de damas, caballeros, pajes y guardias.</hi>
+            <lb/>
+            <hi rend="italic">(<hi rend="italic">Suena marcha dánica</hi>).</hi>
+          </stage>
           <sp xml:id="spa-speech-000510">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000525">¿Cómo estás, mi querido Hamlet?</p>
@@ -3550,7 +3637,7 @@ delito. ¿Están ya prevenidos los cómicos?</p>
             <speaker>Gertrudis</speaker>
             <p xml:id="spa-p-000534">Ven aquí, mi querido Hamlet, ponte á mi lado.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000081">(<hi rend="italic">Gertrudis y Claudio se sientan junto á la puerta por donde han de
+          <stage type="business" xml:id="spa-stage-000064">(<hi rend="italic">Gertrudis y Claudio se sientan junto á la puerta por donde han de
 salir los actores. Siguen por su orden las damas y caballeros.
 Hamlet se sienta en el suelo á los pies de Ofelia</hi>).</stage>
           <sp xml:id="spa-speech-000520">
@@ -3633,7 +3720,7 @@ aquel epitafio:</p>
               <l xml:id="spa-line-000024" rend="indent-0">Y ya le olvidaron así que murió.</l>
             </lg>
           </sp>
-          <stage type="exit" xml:id="spa-stage-000082">(Suenan trompetas, y se da principio á la escena muda.—Salen el
+          <stage type="exit" xml:id="spa-stage-000065">(Suenan trompetas, y se da principio á la escena muda.—Salen el
 duque y la duquesa (que lo harán los cómicos primero y segundo); al
 encontrarse, se saludan y abrazan afectuosamente; ella se arrodilla
 mostrando el mayor respeto; él la levanta y reclina la cabeza
@@ -3662,7 +3749,9 @@ le desdeña, pero al fin admite su amor. Vanse.)</stage>
         </div>
         <div type="scene" n="12" xml:id="shakespeare-hamlet-spa-act-003-scene-012">
           <head>ESCENA XII</head>
-          <stage type="entrance" xml:id="spa-stage-000083">Cómico cuarto y dichos</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000066">
+            <name type="person">Cómico cuarto y dichos</name>
+          </stage>
           <sp xml:id="spa-speech-000540">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000555">Ahora lo sabremos por lo que nos diga ese actor; los cómicos no
@@ -3703,13 +3792,16 @@ deciros lo que significa.</p>
         </div>
         <div type="scene" n="13" xml:id="shakespeare-hamlet-spa-act-003-scene-013">
           <head>ESCENA XIII</head>
-          <stage type="entrance" xml:id="spa-stage-000084">Cómico primero, cómico segundo y dichos</stage>
-          <stage type="setting" xml:id="spa-stage-000085"><seg rend="smcap">Cómico</seg> 1.º—Ya treinta vueltas dió de Febo el carro á las ondas
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000067">
+            <name type="person">Cómico primero, cómico segundo y dichos</name>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Cómico</seg> 1.º—Ya treinta vueltas dió de Febo el carro á las ondas
 saladas de Nereo y al globo de la tierra, y treinta veces con luz
 prestada han alumbrado el suelo doce lunas, en giros repetidos,
 después que el dios de amor y el himeneo nos enlazaron, para dicha
-nuestra, en nudo santo el corazón y el cuello.</stage>
-          <stage type="setting" xml:id="spa-stage-000086"><seg rend="smcap">Cómico</seg> 2.º—Y ¡oh! quiera el cielo que otros tantos giros á la luna
+nuestra, en nudo santo el corazón y el cuello.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Cómico</seg> 2.º—Y ¡oh! quiera el cielo que otros tantos giros á la luna
 y al sol, señor, contemos antes que el fuego; de este amor se
 apague. Pero es mi pena inconsolable al veros doliente, triste y
 tan diverso ahora de aquel que fuisteis... Tímida recelo... Mas
@@ -3719,23 +3811,26 @@ afectos, ó no existe ninguno, ó se combinan éste y aquél con el
 mayor extremo. Cuán grande es el amor que á vos me inclina, las
 pruebas lo dirán que dadas tengo; pues tal es mi temor. Si un fino
 amante, sin motivo tal vez vive temiendo, la que al veros así toda
-es temores, muy puro amor abrigará en el pecho.</stage>
-          <stage type="setting" xml:id="spa-stage-000087"><seg rend="smcap">Cómico</seg> 1.º—Sí, yo debo dejarte, amada mía; inevitable es ya;
+es temores, muy puro amor abrigará en el pecho.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Cómico</seg> 1.º—Sí, yo debo dejarte, amada mía; inevitable es ya;
 cederán presto á la muerte mis fuerzas fatigadas; tú vivirás,
 gozando del obsequio y el amor de la tierra. Acaso entonces un
-digno esposo...</stage>
-          <stage type="setting" xml:id="spa-stage-000088"><seg rend="smcap">Cómico</seg> 2.º—<seg>No</seg>, dad al silencio esos anuncios. ¿Yo? Pues ¿no serían
+digno esposo...</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Cómico</seg> 2.º—<seg>No</seg>, dad al silencio esos anuncios. ¿Yo? Pues ¿no serían
 traición culpable en mí tales afectos? ¿Yo un nuevo esposo? No; la
-que se entrega al segundo señor, mató al primero.</stage>
+que se entrega al segundo señor, mató al primero.</hi>
+          </stage>
           <sp xml:id="spa-speech-000547">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000563">Esto es zumo de ajenjos.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000089"><seg rend="smcap">Cómico</seg> 2.º—Motivos de interés tal vez inducen á renovar los nudos
+          <stage type="business" xml:id="spa-stage-000068"><seg rend="smcap">Cómico</seg> 2.º—Motivos de interés tal vez inducen á renovar los nudos
 de himeneo, no motivos de amor; yo causaría segunda muerte á mi
 difunto dueño, cuando del nuevo esposo recibiera en tálamo nupcial
 amantes besos.</stage>
-          <stage type="business" xml:id="spa-stage-000090"><seg rend="smcap">Cómico</seg> 1.º—No dudaré que el corazón te dicta lo que aseguras hoy;
+          <stage type="business" xml:id="spa-stage-000069"><seg rend="smcap">Cómico</seg> 1.º—No dudaré que el corazón te dicta lo que aseguras hoy;
 fácil creemos cumplir lo prometido, y fácilmente se quebranta y se
 olvida. Los deseos del hombre á la memoria están sumisos, que nace
 activa y desfallece presto. Así pende del ramo acerbo el fruto, y
@@ -3756,7 +3851,7 @@ encaminan los destinos del hombre y sus afectos, y sólo en él la
 voluntad es libre, mas no la ejecución; y así el suceso nuestros
 designios todos desvanece. Tú me prometes no rendir á nuevo yugo
 tu libertad... Esas ideas ¡ay! morirán cuando me vieres muerto.</stage>
-          <stage type="business" xml:id="spa-stage-000091"><seg rend="smcap">Cómico</seg> 2.º—Luces me niegue el sol, frutos la tierra, sin descanso
+          <stage type="business" xml:id="spa-stage-000070"><seg rend="smcap">Cómico</seg> 2.º—Luces me niegue el sol, frutos la tierra, sin descanso
 y placer viva muriendo, desesperada y en prisión obscura, su mesa
 envidie al eremita austero; cuantas penas el ánimo entristecen,
 todas turben el fin de mis deseos y los destruyan, ni quietud
@@ -3766,16 +3861,16 @@ esposo, segundas bodas pérfida celebro.</stage>
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000564">Si ella no cumpliese lo que promete...</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000092">
+          <stage type="business" xml:id="spa-stage-000071">
 <seg rend="smcap">Cómico</seg> 1.º—Mucho juraste... Aquí gozar quisiera
 solitaria quietud; rendido siento
 al cansancio mi espíritu. Permite
 que alguna parte le conceda al sueño
 de las molestas horas.
 </stage>
-          <stage type="business" xml:id="spa-stage-000093">(<hi rend="italic">Se acuesta en un lecho de flores</hi>)<lb/>
+          <stage type="business" xml:id="spa-stage-000072">(<hi rend="italic">Se acuesta en un lecho de flores</hi>)<lb/>
 </stage>
-          <stage type="exit" xml:id="spa-stage-000094">
+          <stage type="exit" xml:id="spa-stage-000073">
 Cómico 2.º—<seg>El</seg> te halague
 con tranquilo descanso, y nunca el cielo
 en unión tan feliz pesares mezcle.      <seg>(<hi rend="italic">Vase</hi>).</seg><lb/>
@@ -3819,7 +3914,9 @@ desollado el lomo.</p>
         </div>
         <div type="scene" n="14" xml:id="shakespeare-hamlet-spa-act-003-scene-014">
           <head>ESCENA XIV</head>
-          <stage type="entrance" xml:id="spa-stage-000095">Cómico tercero y dichos</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000074">
+            <name type="person">Cómico tercero y dichos</name>
+          </stage>
           <sp xml:id="spa-speech-000556">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000572">Este que sale ahora se llama Luciano, sobrino del duque.</p>
@@ -3851,7 +3948,7 @@ si viese puestos en acción entrambos títeres.</p>
 Empieza, asesino... Déjate de poner ese gesto de condenado, y empieza.
 Vamos... el cuervo graznador está ya gritando venganza.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000096">Cómico 3.º—Negros designios, brazo ya dispuesto
+          <stage type="business" xml:id="spa-stage-000075">Cómico 3.º—Negros designios, brazo ya dispuesto
 á ejecutarlos, tósigo oportuno,
 sitio remoto, favorable el tiempo,
 y nadie que lo observe. Tú, extraído
@@ -3862,7 +3959,7 @@ infectadas tres veces, y otras tantas
 exprimidas después, sirve á mi intento;
 pues á tu actividad mágica, horrible,
 la robustez vital cede tan presto.</stage>
-          <stage type="business" xml:id="spa-stage-000097">(<hi rend="italic">Acércase adonde está durmiendo el cómico primero; destapa un
+          <stage type="business" xml:id="spa-stage-000076">(<hi rend="italic">Acércase adonde está durmiendo el cómico primero; destapa un
 frasquillo, y le echa una porción de licor en el oído</hi>).</stage>
           <sp xml:id="spa-speech-000563">
             <speaker>Hamlet</speaker>
@@ -3871,7 +3968,7 @@ El duque se llama Gonzago... Es historia cierta, y corre escrita en muy
 buen italiano. Presto veréis cómo la mujer de Gonzago se enamora del
 matador.</p>
           </sp>
-          <stage type="exit" xml:id="spa-stage-000098">(<hi rend="italic">Levántase Claudio lleno de indignación. Gertrudis, los
+          <stage type="exit" xml:id="spa-stage-000077">(<hi rend="italic">Levántase Claudio lleno de indignación. Gertrudis, los
 caballeros, damas y acompañamiento hacen lo mismo, y se van según
 lo indica el diálogo</hi>).</stage>
           <sp xml:id="spa-speech-000564">
@@ -3901,10 +3998,13 @@ lo indica el diálogo</hi>).</stage>
         </div>
         <div type="scene" n="15" xml:id="shakespeare-hamlet-spa-act-003-scene-015">
           <head>ESCENA XV</head>
-          <stage type="setting" xml:id="spa-stage-000099">HAMLET, HORACIO, cómico primero, cómico tercero</stage>
-          <stage type="setting" xml:id="spa-stage-000100">(<hi rend="italic">Hamlet canta estos versos en voz baja, y representa los que
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000078">
+            <hi rend="italic">HAMLET, HORACIO, cómico primero, cómico tercero</hi>
+            <lb/>
+            <hi rend="italic">(<hi rend="italic">Hamlet canta estos versos en voz baja, y representa los que
 siguen después. Los cómicos primero y tercero estarán retirados á
-un extremo del teatro, esperando sus órdenes</hi>).</stage>
+un extremo del teatro, esperando sus órdenes</hi>).</hi>
+          </stage>
           <sp xml:id="spa-speech-000570">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000586">El ciervo herido llora,<lb/>
@@ -3965,7 +4065,9 @@ porque no le gusta. Vaya un poco de música.</p>
         </div>
         <div type="scene" n="16" xml:id="shakespeare-hamlet-spa-act-003-scene-016">
           <head>ESCENA XVI</head>
-          <stage type="entrance" xml:id="spa-stage-000101">HAMLET, HORACIO, RICARDO, GUILLERMO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000079">
+            <name type="person">HAMLET, HORACIO, RICARDO, GUILLERMO</name>
+          </stage>
           <sp xml:id="spa-speech-000579">
             <speaker>Guillermo</speaker>
             <p xml:id="spa-p-000596">Señor, ¿permitiréis que os diga una palabra?</p>
@@ -4092,7 +4194,9 @@ tal refrán. ¡Ah! ya están aquí las flautas.</p>
         </div>
         <div type="scene" n="17" xml:id="shakespeare-hamlet-spa-act-003-scene-017">
           <head>ESCENA XVII</head>
-          <stage type="entrance" xml:id="spa-stage-000102">Cómico tercero y dichos</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000080">
+            <name type="person">Cómico tercero y dichos</name>
+          </stage>
           <sp xml:id="spa-speech-000605">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000622">Dejadme ver una.... ¿A qué tengo de ir ahí? (<hi rend="italic">Guillermo y
@@ -4155,7 +4259,9 @@ hacerle producir el menor sonido.</p>
         </div>
         <div type="scene" n="18" xml:id="shakespeare-hamlet-spa-act-003-scene-018">
           <head>ESCENA XVIII</head>
-          <stage type="setting" xml:id="spa-stage-000103">POLONIO y otros</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000081">
+            <hi rend="italic">POLONIO y otros</hi>
+          </stage>
           <sp xml:id="spa-speech-000616">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000633">¡Oh! Dios te bendiga.</p>
@@ -4204,8 +4310,10 @@ me volverán loco de veras. Iré, iré al instante.</p>
         </div>
         <div type="scene" n="19" xml:id="shakespeare-hamlet-spa-act-003-scene-019">
           <head>ESCENA XIX</head>
-          <stage type="entrance" xml:id="spa-stage-000104">HAMLET</stage>
-          <stage type="setting" xml:id="spa-stage-000105">Este es el espacio de la noche apto á los maleficios. Esta es la hora en
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000082">
+            <name type="person">HAMLET</name>
+            <lb/>
+            <hi rend="italic">Este es el espacio de la noche apto á los maleficios. Esta es la hora en
 que los cementerios se abren, y el infierno respira contagios al mundo.
 Ahora podría yo beber caliente sangre; ahora podría ejecutar tales
 acciones, que el día se estremeciese al verlas. Pero vamos á ver á mi
@@ -4214,12 +4322,16 @@ este firme pecho se albergue la fiereza de Nerón. Déjame ser cruel, pero
 no parricida. El puñal que ha de herirla esté en mis palabras, no en mi
 mano; disimulen el corazón y la lengua; sean las que fueren las
 execraciones que contra ella pronuncie, nunca, nunca mi alma solicitará
-que se cumplan.</stage>
+que se cumplan.</hi>
+          </stage>
         </div>
         <div type="scene" n="20" xml:id="shakespeare-hamlet-spa-act-003-scene-020">
           <head>ESCENA XX</head>
-          <stage type="setting" xml:id="spa-stage-000106">Gabinete</stage>
-          <stage type="entrance" xml:id="spa-stage-000107">CLAUDIO, RICARDO, GUILLERMO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000083">
+            <hi rend="italic">Gabinete</hi>
+            <lb/>
+            <name type="person">CLAUDIO, RICARDO, GUILLERMO</name>
+          </stage>
           <sp xml:id="spa-speech-000627">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000644">No, no le quiero aquí, ni conviene á nuestra seguridad dejar
@@ -4259,7 +4371,9 @@ Quiero encadenar este temor, que ahora camina demasiado libre.</p>
         </div>
         <div type="scene" n="21" xml:id="shakespeare-hamlet-spa-act-003-scene-021">
           <head>ESCENA XXI</head>
-          <stage type="entrance" xml:id="spa-stage-000108">CLAUDIO, POLONIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000084">
+            <name type="person">CLAUDIO, POLONIO</name>
+          </stage>
           <sp xml:id="spa-speech-000632">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000649">Señor, ya se ha encaminado al cuarto de su madre. Voy á
@@ -4277,8 +4391,10 @@ pasado.</p>
         </div>
         <div type="scene" n="22" xml:id="shakespeare-hamlet-spa-act-003-scene-022">
           <head>ESCENA XXII</head>
-          <stage type="entrance" xml:id="spa-stage-000109">CLAUDIO</stage>
-          <stage type="setting" xml:id="spa-stage-000110">¡Oh, mi culpa es atroz! Su hedor sube al cielo, llevando consigo la
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000085">
+            <name type="person">CLAUDIO</name>
+            <lb/>
+            <hi rend="italic">¡Oh, mi culpa es atroz! Su hedor sube al cielo, llevando consigo la
 maldición más terrible; la muerte de un hermano. No puedo recogerme á
 orar, por más que eficazmente lo procuro; que es más fuerte que mi
 voluntad el delito que la destruye. Como el hombre á quien dos
@@ -4306,12 +4422,16 @@ aprisionada! que cuanto más te esfuerzas para ser libre, más quedas
 oprimida. ¡Angeles, asistidme! Probad en mí vuestro poder. Dóblense mis
 rodillas tenaces; y tú, corazón mío de aceradas fibras, hazte blando
 como los nervios del niño que acaba de nacer. Todo, todo puede
-enmendarse.</stage>
-          <stage type="setting" xml:id="spa-stage-000111">(<hi rend="italic">Se arrodilla y apoya los brazos y la cabeza en un sillón</hi>).</stage>
+enmendarse.</hi>
+            <lb/>
+            <hi rend="italic">(<hi rend="italic">Se arrodilla y apoya los brazos y la cabeza en un sillón</hi>).</hi>
+          </stage>
         </div>
         <div type="scene" n="23" xml:id="shakespeare-hamlet-spa-act-003-scene-023">
           <head>ESCENA XXIII</head>
-          <stage type="entrance" xml:id="spa-stage-000112">CLAUDIO, HAMLET</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000086">
+            <name type="person">CLAUDIO, HAMLET</name>
+          </stage>
           <sp xml:id="spa-speech-000634">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000651">Esta es la ocasión propicia. Ahora está rezando, ahora le
@@ -4336,15 +4456,21 @@ Malvado, esta medicina, que te dilata la dolencia, no evitará tu muerte.</p>
         </div>
         <div type="scene" n="24" xml:id="shakespeare-hamlet-spa-act-003-scene-024">
           <head>ESCENA XXIV</head>
-          <stage type="entrance" xml:id="spa-stage-000113">CLAUDIO</stage>
-          <stage type="setting" xml:id="spa-stage-000114">Mis palabras suben al cielo, mis afectos quedan en la tierra. (<hi rend="italic">Se
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000087">
+            <name type="person">CLAUDIO</name>
+            <lb/>
+            <hi rend="italic">Mis palabras suben al cielo, mis afectos quedan en la tierra. (<hi rend="italic">Se
 levanta, con agitación</hi>). Palabras sin afectos nunca llegan á los oídos
-de Dios.</stage>
+de Dios.</hi>
+          </stage>
         </div>
         <div type="scene" n="25" xml:id="shakespeare-hamlet-spa-act-003-scene-025">
           <head>ESCENA XXV</head>
-          <stage type="setting" xml:id="spa-stage-000115">Cuarto de la reina</stage>
-          <stage type="entrance" xml:id="spa-stage-000116">GERTRUDIS, POLONIO, HAMLET</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000088">
+            <hi rend="italic">Cuarto de la reina</hi>
+            <lb/>
+            <name type="person">GERTRUDIS, POLONIO, HAMLET</name>
+          </stage>
           <sp xml:id="spa-speech-000635">
             <speaker>Polonio</speaker>
             <p xml:id="spa-p-000652">Va á venir al momento. Mostradle entereza; decidle que sus
@@ -4355,19 +4481,21 @@ os lo suplico.</p>
           </sp>
           <sp xml:id="spa-speech-000636">
             <speaker>Hamlet</speaker>
-            <stage type="business" xml:id="spa-stage-000117">gritando desde adentro</stage>
+            <stage type="business" xml:id="spa-stage-000089">gritando desde adentro</stage>
             <p xml:id="spa-p-000653">¡Madre! ¡madre!</p>
           </sp>
           <sp xml:id="spa-speech-000637">
             <speaker>Gertrudis</speaker>
             <p xml:id="spa-p-000654">Así te lo prometo; nada temo. Ya le siento llegar. Retírate.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000118">(<hi rend="italic">Polonio se oculta detrás de unos tapices</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000090">(<hi rend="italic">Polonio se oculta detrás de unos tapices</hi>).<lb/>
 </stage>
         </div>
         <div type="scene" n="26" xml:id="shakespeare-hamlet-spa-act-003-scene-026">
           <head>ESCENA XXVI</head>
-          <stage type="entrance" xml:id="spa-stage-000119">GERTRUDIS, HAMLET, POLONIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000091">
+            <name type="person">GERTRUDIS, HAMLET, POLONIO</name>
+          </stage>
           <sp xml:id="spa-speech-000638">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000655">¿Qué me mandáis, señora?</p>
@@ -4423,7 +4551,7 @@ conciencia.</p>
             <p xml:id="spa-p-000666">¿Qué intentas hacer? ¿Quieres matarme?... ¿Quién me socorre?
 ¡Cielos!</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000120">(Al ver Gertrudis la extraordinaria agitación que Hamlet manifiesta
+          <stage type="business" xml:id="spa-stage-000092">(Al ver Gertrudis la extraordinaria agitación que Hamlet manifiesta
 en su semblante y acciones, teme que va á matarla, y grita
 despavorida pidiendo socorro. Polonio quiere salir de donde está
 oculto, y después se detiene. Hamlet advierte que los tapices se
@@ -4556,7 +4684,9 @@ que robó la preciosa corona, y se la guardó en el bolsillo.</p>
         </div>
         <div type="scene" n="27" xml:id="shakespeare-hamlet-spa-act-003-scene-027">
           <head>ESCENA XXVII</head>
-          <stage type="setting" xml:id="spa-stage-000121">GERTRUDIS, HAMLET, la sombra del rey Hamlet</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000093">
+            <hi rend="italic">GERTRUDIS, HAMLET, la sombra del rey Hamlet</hi>
+          </stage>
           <sp xml:id="spa-speech-000668">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000685">Un rey de botarga... ¡Oh espíritus celestes! defendedme,
@@ -4630,7 +4760,9 @@ pórtico.</p>
         </div>
         <div type="scene" n="28" xml:id="shakespeare-hamlet-spa-act-003-scene-028">
           <head>ESCENA XXVIII</head>
-          <stage type="entrance" xml:id="spa-stage-000122">GERTRUDIS, HAMLET</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000094">
+            <name type="person">GERTRUDIS, HAMLET</name>
+          </stage>
           <sp xml:id="spa-speech-000681">
             <speaker>Gertrudis</speaker>
             <p xml:id="spa-p-000698">Todo es efecto de la fantasía. El desorden que padece tu
@@ -4733,8 +4865,11 @@ ello. Buenas noches, madre.</p>
         <head>ACTO IV</head>
         <div type="scene" n="1" xml:id="shakespeare-hamlet-spa-act-004-scene-001">
           <head>ESCENA PRIMERA</head>
-          <stage type="setting" xml:id="spa-stage-000123">Salón de palacio</stage>
-          <stage type="entrance" xml:id="spa-stage-000124">CLAUDIO, GERTRUDIS, RICARDO, GUILLERMO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000095">
+            <hi rend="italic">Salón de palacio</hi>
+            <lb/>
+            <name type="person">CLAUDIO, GERTRUDIS, RICARDO, GUILLERMO</name>
+          </stage>
           <sp xml:id="spa-speech-000691">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000708">Esos suspiros, esos profundos sollozos alguna causa tienen;
@@ -4784,7 +4919,9 @@ tan indigno.</p>
         </div>
         <div type="scene" n="2" xml:id="shakespeare-hamlet-spa-act-004-scene-002">
           <head>ESCENA II</head>
-          <stage type="entrance" xml:id="spa-stage-000125">CLAUDIO, GERTRUDIS, RICARDO, GUILLERMO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000096">
+            <name type="person">CLAUDIO, GERTRUDIS, RICARDO, GUILLERMO</name>
+          </stage>
           <sp xml:id="spa-speech-000698">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000715">¡Oh Guillermo, amigos! Id entrambos con alguna gente que os
@@ -4802,15 +4939,18 @@ llena de agitación y de terror.</p>
         </div>
         <div type="scene" n="3" xml:id="shakespeare-hamlet-spa-act-004-scene-003">
           <head>ESCENA III</head>
-          <stage type="setting" xml:id="spa-stage-000126">Cuarto de Hamlet</stage>
-          <stage type="entrance" xml:id="spa-stage-000127">HAMLET, RICARDO, GUILLERMO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000097">
+            <hi rend="italic">Cuarto de Hamlet</hi>
+            <lb/>
+            <name type="person">HAMLET, RICARDO, GUILLERMO</name>
+          </stage>
           <sp xml:id="spa-speech-000699">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000716">Colocado ya en lugar seguro... Pero...</p>
           </sp>
           <sp xml:id="spa-speech-000700">
             <speaker>Ricardo</speaker>
-            <stage type="business" xml:id="spa-stage-000128">desde adentro</stage>
+            <stage type="business" xml:id="spa-stage-000098">desde adentro</stage>
             <p xml:id="spa-p-000717">¡Hamlet! ¡señor!</p>
           </sp>
           <sp xml:id="spa-speech-000701">
@@ -4889,20 +5029,26 @@ verle.</p>
         </div>
         <div type="scene" n="4" xml:id="shakespeare-hamlet-spa-act-004-scene-004">
           <head>ESCENA IV</head>
-          <stage type="setting" xml:id="spa-stage-000129">Salón de palacio</stage>
-          <stage type="entrance" xml:id="spa-stage-000130">CLAUDIO</stage>
-          <stage type="setting" xml:id="spa-stage-000131">Le he enviado á llamar, y he mandado buscar el cadáver. ¡Qué peligroso
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000099">
+            <hi rend="italic">Salón de palacio</hi>
+            <lb/>
+            <name type="person">CLAUDIO</name>
+            <lb/>
+            <hi rend="italic">Le he enviado á llamar, y he mandado buscar el cadáver. ¡Qué peligroso
 es dejar en libertad á este mancebo! Pero no es posible tampoco ejercer
 sobre él la severidad de las leyes. Está muy querido de la fanática
 multitud, cuyos afectos se determinan por los ojos, no por la razón, y
 que en tales casos considera el castigo del delincuente, y no el delito.
 Conviene, para mantener la tranquilidad, que esa repentina ausencia de
 Hamlet aparezca como cosa muy de antemano meditada y resuelta. Los males
-desesperados, ó son incurables, ó se alivian con desesperados remedios.</stage>
+desesperados, ó son incurables, ó se alivian con desesperados remedios.</hi>
+          </stage>
         </div>
         <div type="scene" n="5" xml:id="shakespeare-hamlet-spa-act-004-scene-005">
           <head>ESCENA V</head>
-          <stage type="entrance" xml:id="spa-stage-000132">CLAUDIO, RICARDO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000100">
+            <name type="person">CLAUDIO, RICARDO</name>
+          </stage>
           <sp xml:id="spa-speech-000716">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000733">¿Qué hay, qué ha sucedido?</p>
@@ -4932,7 +5078,9 @@ cadáver.</p>
         </div>
         <div type="scene" n="6" xml:id="shakespeare-hamlet-spa-act-004-scene-006">
           <head>ESCENA VI</head>
-          <stage type="entrance" xml:id="spa-stage-000133">CLAUDIO, RICARDO, HAMLET, GUILLERMO, criados</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000101">
+            <name type="person">CLAUDIO, RICARDO, HAMLET, GUILLERMO, criados</name>
+          </stage>
           <sp xml:id="spa-speech-000722">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000739">Y bien, Hamlet, ¿en dónde está Polonio?</p>
@@ -4987,7 +5135,7 @@ oleréis sin duda al subir los escalones de la galería.</p>
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000749">Id á buscarle.</p>
           </sp>
-          <stage type="exit" xml:id="spa-stage-000134">(<hi rend="italic">Vanse los criados</hi>).<lb/>
+          <stage type="exit" xml:id="spa-stage-000102">(<hi rend="italic">Vanse los criados</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000733">
             <speaker>Hamlet</speaker>
@@ -5036,7 +5184,9 @@ son una carne misma, con que... mi madre... ¡Eh! Vamos á Inglaterra.</p>
         </div>
         <div type="scene" n="7" xml:id="shakespeare-hamlet-spa-act-004-scene-007">
           <head>ESCENA VII</head>
-          <stage type="entrance" xml:id="spa-stage-000135">CLAUDIO, RICARDO, GUILLERMO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000103">
+            <name type="person">CLAUDIO, RICARDO, GUILLERMO</name>
+          </stage>
           <sp xml:id="spa-speech-000742">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000759">Seguidle inmediatamente; instad con viveza su embarco, no se
@@ -5055,8 +5205,11 @@ sea, no se restablecerán en mi corazón la tranquilidad ni la alegría.</p>
         </div>
         <div type="scene" n="8" xml:id="shakespeare-hamlet-spa-act-004-scene-008">
           <head>ESCENA VIII</head>
-          <stage type="setting" xml:id="spa-stage-000136">Campo solitario en las fronteras de Dinamarca</stage>
-          <stage type="setting" xml:id="spa-stage-000137">FORTIMBRAS, un capitán, soldados</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000104">
+            <hi rend="italic">Campo solitario en las fronteras de Dinamarca</hi>
+            <lb/>
+            <hi rend="italic">FORTIMBRAS, un capitán, soldados</hi>
+          </stage>
           <sp xml:id="spa-speech-000743">
             <speaker>Fortimbrás</speaker>
             <p xml:id="spa-p-000760">Id, capitán, saludad en mi nombre al monarca danés; decidle
@@ -5076,7 +5229,9 @@ persona á darle pruebas de mi respeto.</p>
         </div>
         <div type="scene" n="9" xml:id="shakespeare-hamlet-spa-act-004-scene-009">
           <head>ESCENA IX</head>
-          <stage type="setting" xml:id="spa-stage-000138">Un capitán, HAMLET, RICARDO, GUILLERMO, soldados</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000105">
+            <hi rend="italic">Un capitán, HAMLET, RICARDO, GUILLERMO, soldados</hi>
+          </stage>
           <sp xml:id="spa-speech-000746">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000763">Caballero, ¿de dónde son estas tropas?</p>
@@ -5134,7 +5289,7 @@ el hombre perece. Os doy muchas gracias de vuestra cortesía.</p>
             <speaker>Capitán</speaker>
             <p xml:id="spa-p-000774">Dios os guarde.</p>
           </sp>
-          <stage type="exit" xml:id="spa-stage-000139">(<hi rend="italic">Vanse el capitán y los soldados</hi>).<lb/>
+          <stage type="exit" xml:id="spa-stage-000106">(<hi rend="italic">Vanse el capitán y los soldados</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000758">
             <speaker>Ricardo</speaker>
@@ -5147,8 +5302,10 @@ el hombre perece. Os doy muchas gracias de vuestra cortesía.</p>
         </div>
         <div type="scene" n="10" xml:id="shakespeare-hamlet-spa-act-004-scene-010">
           <head>ESCENA X</head>
-          <stage type="entrance" xml:id="spa-stage-000140">HAMLET</stage>
-          <stage type="setting" xml:id="spa-stage-000141">Cuantos accidentes ocurren, todos me acusan, excitando á la venganza mi
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000107">
+            <name type="person">HAMLET</name>
+            <lb/>
+            <hi rend="italic">Cuantos accidentes ocurren, todos me acusan, excitando á la venganza mi
 adormecido aliento. ¿Qué es el hombre que funda su mayor felicidad, y
 emplea todo su tiempo sólo en dormir y alimentarse? Es un bruto y no
 más. No: aquel que nos formó dotados de tan extenso conocimiento, que
@@ -5174,12 +5331,16 @@ capricho, por una estéril gloria van al sepulcro como á sus lechos,
 combatiendo por una causa que la multitud es incapaz de comprender, por
 un terreno que aun no es suficiente sepultura á tantos cadáveres... ¡Oh!
 de hoy más, ó no existirá en mi fantasía idea ninguna, ó cuantas forme
-serán sangrientas.</stage>
+serán sangrientas.</hi>
+          </stage>
         </div>
         <div type="scene" n="11" xml:id="shakespeare-hamlet-spa-act-004-scene-011">
           <head>ESCENA XI</head>
-          <stage type="setting" xml:id="spa-stage-000142">Galería de palacio</stage>
-          <stage type="entrance" xml:id="spa-stage-000143">GERTRUDIS, HORACIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000108">
+            <hi rend="italic">Galería de palacio</hi>
+            <lb/>
+            <name type="person">GERTRUDIS, HORACIO</name>
+          </stage>
           <sp xml:id="spa-speech-000760">
             <speaker>Gertrudis</speaker>
             <p xml:id="spa-p-000777">No, no quiero hablarla.</p>
@@ -5218,7 +5379,9 @@ temor de ser descubierto hace tal vez que él mismo se descubra.</p>
         </div>
         <div type="scene" n="12" xml:id="shakespeare-hamlet-spa-act-004-scene-012">
           <head>ESCENA XII</head>
-          <stage type="entrance" xml:id="spa-stage-000144">GERTRUDIS, OFELIA, HORACIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000109">
+            <name type="person">GERTRUDIS, OFELIA, HORACIO</name>
+          </stage>
           <sp xml:id="spa-speech-000765">
             <speaker>Ofelia</speaker>
             <p xml:id="spa-p-000782">¿En dónde está la hermosa reina de Dinamarca?</p>
@@ -5258,7 +5421,9 @@ canta Ofelia</hi>).</p>
         </div>
         <div type="scene" n="13" xml:id="shakespeare-hamlet-spa-act-004-scene-013">
           <head>ESCENA XIII</head>
-          <stage type="entrance" xml:id="spa-stage-000145">CLAUDIO, GERTRUDIS, OFELIA, HORACIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000110">
+            <name type="person">CLAUDIO, GERTRUDIS, OFELIA, HORACIO</name>
+          </stage>
           <sp xml:id="spa-speech-000772">
             <speaker>Gertrudis</speaker>
             <p xml:id="spa-p-000790">¡Desgraciada! ¿Veis esto, señor?</p>
@@ -5317,14 +5482,16 @@ noches. Amiguitas, buenas noches, buenas noches, buenas noches.</p>
           </sp>
           <sp xml:id="spa-speech-000782">
             <speaker>Claudio</speaker>
-            <stage type="business" xml:id="spa-stage-000146">á Horacio</stage>
+            <stage type="business" xml:id="spa-stage-000111">á Horacio</stage>
             <p xml:id="spa-p-000801">Acompáñala á su cuarto, y haz que la asista
 suficiente guardia. Yo te lo ruego.</p>
           </sp>
         </div>
         <div type="scene" n="14" xml:id="shakespeare-hamlet-spa-act-004-scene-014">
           <head>ESCENA XIV</head>
-          <stage type="entrance" xml:id="spa-stage-000147">CLAUDIO, GERTRUDIS</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000112">
+            <name type="person">CLAUDIO, GERTRUDIS</name>
+          </stage>
           <sp xml:id="spa-speech-000783">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000802">¡Oh! todo es efecto de un profundo dolor; todo nace de la
@@ -5344,7 +5511,7 @@ dejaremos de ser citados continuamente de boca en boca. Todos estos
 afanes juntos, mi querida Gertrudis, como una máquina destructora que se
 dispara, me dan muchas muertes á un tiempo.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000148">(<hi rend="italic">Suena á lo lejos un rumor confuso, que se irá aumentando durante
+          <stage type="business" xml:id="spa-stage-000113">(<hi rend="italic">Suena á lo lejos un rumor confuso, que se irá aumentando durante
 la escena siguiente</hi>).</stage>
           <sp xml:id="spa-speech-000784">
             <speaker>Gertrudis</speaker>
@@ -5353,7 +5520,9 @@ la escena siguiente</hi>).</stage>
         </div>
         <div type="scene" n="15" xml:id="shakespeare-hamlet-spa-act-004-scene-015">
           <head>ESCENA XV</head>
-          <stage type="setting" xml:id="spa-stage-000149">CLAUDIO, GERTRUDIS, un caballero</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000114">
+            <hi rend="italic">CLAUDIO, GERTRUDIS, un caballero</hi>
+          </stage>
           <sp xml:id="spa-speech-000785">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000804">¿En dónde está mi guardia?... Acudid... defended las
@@ -5383,7 +5552,9 @@ rastro mal seguro en que va á perderse!</p>
         </div>
         <div type="scene" n="16" xml:id="shakespeare-hamlet-spa-act-004-scene-016">
           <head>ESCENA XVI</head>
-          <stage type="setting" xml:id="spa-stage-000150">LAERTES, CLAUDIO, GERTRUDIS, soldados y pueblo</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000115">
+            <hi rend="italic">LAERTES, CLAUDIO, GERTRUDIS, soldados y pueblo</hi>
+          </stage>
           <sp xml:id="spa-speech-000789">
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-000808">¿En dónde está el rey? (<hi rend="italic">Volviéndose hacia la puerta por donde
@@ -5494,7 +5665,7 @@ la luz del día.</p>
             <speaker>Voces</speaker>
             <p xml:id="spa-p-000828">Dejadla entrar.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000151">(<hi rend="italic">Ruido y voces dentro</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000116">(<hi rend="italic">Ruido y voces dentro</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000810">
             <speaker>Laertes</speaker>
@@ -5503,10 +5674,12 @@ la luz del día.</p>
         </div>
         <div type="scene" n="17" xml:id="shakespeare-hamlet-spa-act-004-scene-017">
           <head>ESCENA XVII</head>
-          <stage type="setting" xml:id="spa-stage-000152">CLAUDIO, GERTRUDIS, LAERTES, OFELIA, acompañamiento. Ofelia sale
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000117">
+            <hi rend="italic">CLAUDIO, GERTRUDIS, LAERTES, OFELIA, acompañamiento. Ofelia sale
 vestida de blanco, el cabello suelto, y una guirnalda en la cabeza,
 hecha de paja y flores silvestres, trayendo, en el faldellín muchas
-flores y hierbas.</stage>
+flores y hierbas.</hi>
+          </stage>
           <sp xml:id="spa-speech-000811">
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-000830">¡Oh, calor activo, abrasa mi cerebro! ¡Lágrimas en extremo
@@ -5562,7 +5735,7 @@ que la agitan y á sus memorias tristes.</p>
           </sp>
           <sp xml:id="spa-speech-000817">
             <speaker>Ofelia</speaker>
-            <stage type="business" xml:id="spa-stage-000153">á Gertrudis</stage>
+            <stage type="business" xml:id="spa-stage-000118">á Gertrudis</stage>
             <p xml:id="spa-p-000838">Aquí hay hinojo para vos, y palomillas y
 ruda... para vos también, y esto poquito es para mí... Nosotros podemos
 llamarla hierba santa del domingo... vos la usaréis con la distinción
@@ -5601,7 +5774,9 @@ adiós.</p>
         </div>
         <div type="scene" n="18" xml:id="shakespeare-hamlet-spa-act-004-scene-018">
           <head>ESCENA XVIII</head>
-          <stage type="entrance" xml:id="spa-stage-000154">CLAUDIO, GERTRUDIS, LAERTES</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000119">
+            <name type="person">CLAUDIO, GERTRUDIS, LAERTES</name>
+          </stage>
           <sp xml:id="spa-speech-000820">
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-000842">¡Veis esto, Dios mío!</p>
@@ -5631,8 +5806,11 @@ sobre el que fuere delincuente. Ven conmigo.</p>
         </div>
         <div type="scene" n="19" xml:id="shakespeare-hamlet-spa-act-004-scene-019">
           <head>ESCENA XIX</head>
-          <stage type="setting" xml:id="spa-stage-000155">Sala en casa de Horacio</stage>
-          <stage type="setting" xml:id="spa-stage-000156">HORACIO, un criado</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000120">
+            <hi rend="italic">Sala en casa de Horacio</hi>
+            <lb/>
+            <hi rend="italic">HORACIO, un criado</hi>
+          </stage>
           <sp xml:id="spa-speech-000824">
             <speaker>Horacio</speaker>
             <p xml:id="spa-p-000846">¿Quiénes son los que me quieren hablar?</p>
@@ -5649,8 +5827,11 @@ mundo pueda nadie escribirme, si ya no es Hamlet mi señor.</p>
         </div>
         <div type="scene" n="20" xml:id="shakespeare-hamlet-spa-act-004-scene-020">
           <head>ESCENA XX</head>
-          <stage type="setting" xml:id="spa-stage-000157">HORACIO, dos marineros</stage>
-          <stage type="setting" xml:id="spa-stage-000158"><seg rend="smcap">Marinero</seg> 1.º—Dios os guarde.</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000121">
+            <hi rend="italic">HORACIO, dos marineros</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Marinero</seg> 1.º—Dios os guarde.</hi>
+          </stage>
           <sp xml:id="spa-speech-000827">
             <speaker>Horacio</speaker>
             <p xml:id="spa-p-000849">Y á vosotros también.</p>
@@ -5679,8 +5860,11 @@ las entregó.</p>
         </div>
         <div type="scene" n="21" xml:id="shakespeare-hamlet-spa-act-004-scene-021">
           <head>ESCENA XXI</head>
-          <stage type="setting" xml:id="spa-stage-000159">Gabinete del rey</stage>
-          <stage type="entrance" xml:id="spa-stage-000160">CLAUDIO, LAERTES</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000122">
+            <hi rend="italic">Gabinete del rey</hi>
+            <lb/>
+            <name type="person">CLAUDIO, LAERTES</name>
+          </stage>
           <sp xml:id="spa-speech-000828">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000853">Sin duda tu rectitud aprobará ya mi descargo, y me darás lugar
@@ -5729,13 +5913,15 @@ espero darte á conocer la... Pero... ¿Qué noticias traes?</p>
         </div>
         <div type="scene" n="22" xml:id="shakespeare-hamlet-spa-act-004-scene-022">
           <head>ESCENA XXII</head>
-          <stage type="setting" xml:id="spa-stage-000161">CLAUDIO, LAERTES, un guardia</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000123">
+            <hi rend="italic">CLAUDIO, LAERTES, un guardia</hi>
+          </stage>
           <sp xml:id="spa-speech-000833">
             <speaker>Guardia</speaker>
             <p xml:id="spa-p-000858">Señor, veis aquí las cartas del príncipe: ésta, para V. M., y
 ésta, para la reina.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000162">(<hi rend="italic">Da unas cartas á Claudio</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000124">(<hi rend="italic">Da unas cartas á Claudio</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000834">
             <speaker>Claudio</speaker>
@@ -5753,20 +5939,24 @@ recibió del que las trajo, es el que me las ha entregado á mí.</p>
         </div>
         <div type="scene" n="23" xml:id="shakespeare-hamlet-spa-act-004-scene-023">
           <head>ESCENA XXIII</head>
-          <stage type="entrance" xml:id="spa-stage-000163">CLAUDIO, LAERTES</stage>
-          <stage type="setting" xml:id="spa-stage-000164"><seg rend="smcap">Claudio.</seg> (<hi rend="italic">Lee una carta.</hi>)—«Alto y poderoso señor: os hago saber cómo
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000125">
+            <name type="person">CLAUDIO, LAERTES</name>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Claudio.</seg> (<hi rend="italic">Lee una carta.</hi>)—«Alto y poderoso señor: os hago saber cómo
 he llegado desnudo á vuestro reino. Mañana os pediré permiso de ver
 vuestra presencia real; y entonces, mediante vuestro perdón, os diré la
-causa de mi extraña y repentina vuelta.—<seg rend="smcap">Hamlet.</seg>»</stage>
-          <stage type="setting" xml:id="spa-stage-000165">¿Qué quiere decir esto? ¿Se habrán vuelto los otros también, ó hay
-alguna equivocación, ó acaso todo es falso?</stage>
+causa de mi extraña y repentina vuelta.—<seg rend="smcap">Hamlet.</seg>»</hi>
+            <lb/>
+            <hi rend="italic">¿Qué quiere decir esto? ¿Se habrán vuelto los otros también, ó hay
+alguna equivocación, ó acaso todo es falso?</hi>
+          </stage>
           <sp xml:id="spa-speech-000837">
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-000862">¿Conocéis la letra?</p>
           </sp>
           <sp xml:id="spa-speech-000838">
             <speaker>Claudio</speaker>
-            <stage type="business" xml:id="spa-stage-000166">examinando con atención la carta</stage>
+            <stage type="business" xml:id="spa-stage-000126">examinando con atención la carta</stage>
             <p xml:id="spa-p-000863">Sí, es de Hamlet...
 <hi rend="italic">Desnudo</hi>... y en una enmienda que hay aquí, dice: <hi rend="italic">solo</hi>... ¿Qué puede
 ser esto?</p>
@@ -5929,12 +6119,14 @@ expresamente una copa, que al gustarla sólo, aunque haya podido librarse
 de tu espada ungida, veremos cumplido nuestro deseo. Pero... calla...
 ¿Qué ruido se escucha?</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000167">(<hi rend="italic">Suena ruido dentro</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000127">(<hi rend="italic">Suena ruido dentro</hi>).<lb/>
 </stage>
         </div>
         <div type="scene" n="24" xml:id="shakespeare-hamlet-spa-act-004-scene-024">
           <head>ESCENA XXIV</head>
-          <stage type="entrance" xml:id="spa-stage-000168">GERTRUDIS, CLAUDIO, LAERTES</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000128">
+            <name type="person">GERTRUDIS, CLAUDIO, LAERTES</name>
+          </stage>
           <sp xml:id="spa-speech-000861">
             <speaker>Claudio</speaker>
             <p xml:id="spa-p-000886">¿Qué ocurre de nuevo, amada reina?</p>
@@ -5984,7 +6176,7 @@ quedará en mí de femenil ni de cobarde... Adiós, señores... Mis palabras
 de fuego arderían en llamas, si no las apagasen estas lágrimas
 imprudentes.</p>
           </sp>
-          <stage type="exit" xml:id="spa-stage-000169">(<hi rend="italic">Vase Laertes</hi>).<lb/>
+          <stage type="exit" xml:id="spa-stage-000129">(<hi rend="italic">Vase Laertes</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000868">
             <speaker>Claudio</speaker>
@@ -5998,71 +6190,101 @@ Conviene seguirle.</p>
         <head>ACTO V</head>
         <div type="scene" n="1" xml:id="shakespeare-hamlet-spa-act-005-scene-001">
           <head>ESCENA PRIMERA</head>
-          <stage type="setting" xml:id="spa-stage-000170">Cementerio contiguo á una iglesia</stage>
-          <stage type="setting" xml:id="spa-stage-000171">Sepultureros primero y segundo</stage>
-          <stage type="setting" xml:id="spa-stage-000172"><seg rend="smcap">Sepulturero</seg> 1.º—¿Y es la que ha de sepultarse en tierra sagrada, la que
-deliberadamente ha conspirado contra su propia salvación?</stage>
-          <stage type="setting" xml:id="spa-stage-000173"><seg rend="smcap">Sepulturero</seg> 2.º—Dígote que sí: con que haz presto el hoyo. El juez ha
-reconocido ya el cadáver, y ha dispuesto que se la entierre en sagrado.</stage>
-          <stage type="setting" xml:id="spa-stage-000174"><seg rend="smcap">Sepulturero</seg> 1.º—Yo no entiendo cómo va eso... Aun si se hubiera ahogado
-haciendo esfuerzos para librarse, anda con Dios.</stage>
-          <stage type="setting" xml:id="spa-stage-000175"><seg rend="smcap">Sepulturero</seg> 2.º—Así han juzgado que fué.</stage>
-          <stage type="setting" xml:id="spa-stage-000176"><seg rend="smcap">Sepulturero</seg> 1.º—No, no, eso fué <hi rend="italic">se offendendo</hi>; ni puede haber sido de
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000130">
+            <hi rend="italic">Cementerio contiguo á una iglesia</hi>
+            <lb/>
+            <hi rend="italic">Sepultureros primero y segundo</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—¿Y es la que ha de sepultarse en tierra sagrada, la que
+deliberadamente ha conspirado contra su propia salvación?</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—Dígote que sí: con que haz presto el hoyo. El juez ha
+reconocido ya el cadáver, y ha dispuesto que se la entierre en sagrado.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—Yo no entiendo cómo va eso... Aun si se hubiera ahogado
+haciendo esfuerzos para librarse, anda con Dios.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—Así han juzgado que fué.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—No, no, eso fué <hi rend="italic">se offendendo</hi>; ni puede haber sido de
 otra manera, porque... ve aquí el punto de la dificultad: Si yo me ahogo
 voluntariamente, esto arguye por de contado una acción, y toda acción
 consta de tres partes, que son: hacer, obrar y ejecutar; de donde se
-infiere, amigo Rasura, que ella se ahogó voluntariamente.</stage>
-          <stage type="setting" xml:id="spa-stage-000177"><seg rend="smcap">Sepulturero</seg> 2.º—¡Qué!... Pero óigame ahora el tío Socaba.</stage>
-          <stage type="setting" xml:id="spa-stage-000178"><seg rend="smcap">Sepulturero</seg> 1.º—No, deja, yo te diré. Mira, aquí está el agua. Bien.
+infiere, amigo Rasura, que ella se ahogó voluntariamente.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—¡Qué!... Pero óigame ahora el tío Socaba.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—No, deja, yo te diré. Mira, aquí está el agua. Bien.
 Aquí está el hombre. Muy bien... Pues, señor, si este hombre va y se
 mete dentro del agua, se ahoga á sí mismo; porque por fas ó por nefas,
 ello es que él va... Pero atiende á lo que digo. Si el agua viene hacia
 él y le sorprende y le ahoga, entonces no se ahoga él á sí propio...
-Compadre Rasura, el que no desea su muerte no se acorta la vida.</stage>
-          <stage type="setting" xml:id="spa-stage-000179"><seg rend="smcap">Sepulturero</seg> 2.º—Y qué, ¿hay leyes para eso?</stage>
-          <stage type="setting" xml:id="spa-stage-000180"><seg rend="smcap">Sepulturero</seg> 1.º—Ya se ve que las hay, y por ella se guía el juez que
-examina estos casos.</stage>
-          <stage type="setting" xml:id="spa-stage-000181"><seg rend="smcap">Sepulturero</seg> 2.º—¿Quieres que te diga la verdad? Pues mira, si la muerta
-no fuese una señora, yo te aseguro que no la enterrarían en sagrado.</stage>
-          <stage type="setting" xml:id="spa-stage-000182"><seg rend="smcap">Sepulturero</seg> 1.º—En efecto, dices bien; y es mucha lástima que los
+Compadre Rasura, el que no desea su muerte no se acorta la vida.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—Y qué, ¿hay leyes para eso?</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—Ya se ve que las hay, y por ella se guía el juez que
+examina estos casos.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—¿Quieres que te diga la verdad? Pues mira, si la muerta
+no fuese una señora, yo te aseguro que no la enterrarían en sagrado.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—En efecto, dices bien; y es mucha lástima que los
 grandes personajes hayan de tener en este mundo especial privilegio,
 entre todos los demás cristianos, para ahogarse y ahorcarse cuando
 quieren, sin que nadie les diga nada... Vamos allá con el azadón...
 (<hi rend="italic">Pónense los dos á abrir una sepultura en medio del teatro, sacando la
 tierra con espuertas, y entre ella calaveras y huesos</hi>). Ello es que no
 hay caballeros de nobleza más antigua que los jardineros, sepultureros y
-cavadores, que son los que ejercen la profesión de Adán.</stage>
-          <stage type="setting" xml:id="spa-stage-000183"><seg rend="smcap">Sepulturero</seg> 2.º—Pues qué, ¿Adán fue caballero?</stage>
-          <stage type="setting" xml:id="spa-stage-000184"><seg rend="smcap">Sepulturero</seg> 1.º—¡Toma! como que fué el primero que llevó armas... Pero
+cavadores, que son los que ejercen la profesión de Adán.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—Pues qué, ¿Adán fue caballero?</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—¡Toma! como que fué el primero que llevó armas... Pero
 voy á hacerte una pregunta, y si no me respondes á cuento, has de
-confesar que eres un...</stage>
-          <stage type="setting" xml:id="spa-stage-000185"><seg rend="smcap">Sepulturero</seg> 2.º—Adelante.</stage>
-          <stage type="setting" xml:id="spa-stage-000186"><seg rend="smcap">Sepulturero</seg> 1.º—¿Cuál es el que construye edificios más fuertes que los
-que hacen los albañiles y los carpinteros de casas y navíos?</stage>
-          <stage type="setting" xml:id="spa-stage-000187"><seg rend="smcap">Sepulturero</seg> 2.º—El que hace la horca, porque aquella fábrica sobrevive
-á mil inquilinos.</stage>
-          <stage type="setting" xml:id="spa-stage-000188"><seg rend="smcap">Sepulturero</seg> 1.º—Agudo eres, por vida mía. Buen edificio es la horca;
+confesar que eres un...</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—Adelante.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—¿Cuál es el que construye edificios más fuertes que los
+que hacen los albañiles y los carpinteros de casas y navíos?</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—El que hace la horca, porque aquella fábrica sobrevive
+á mil inquilinos.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—Agudo eres, por vida mía. Buen edificio es la horca;
 pero ¿cómo es bueno? Es bueno para los que hacen mal: ahora bien, tú
 haces mal en decir que la horca es fábrica más fuerte que una iglesia;
-con que la horca podría ser buena para ti... Volvamos á la pregunta.</stage>
-          <stage type="setting" xml:id="spa-stage-000189"><seg rend="smcap">Sepulturero</seg> 2.º—¿Cuál es el que hace habitaciones más durables que las
-que hacen los albañiles, los carpinteros de casas y de navíos?</stage>
-          <stage type="setting" xml:id="spa-stage-000190"><seg rend="smcap">Sepulturero</seg> 1.º—Sí, dímelo, y sales del apuro.</stage>
-          <stage type="setting" xml:id="spa-stage-000191"><seg rend="smcap">Sepulturero</seg> 2.º—Ya se ve que te lo digo.</stage>
-          <stage type="setting" xml:id="spa-stage-000192"><seg rend="smcap">Sepulturero</seg> 1.º—Pues vamos.</stage>
-          <stage type="setting" xml:id="spa-stage-000193"><seg rend="smcap">Sepulturero</seg> 2.º—Pues no puedo decirlo.</stage>
-          <stage type="setting" xml:id="spa-stage-000194"><seg rend="smcap">Sepulturero</seg> 1.º—Vaya, no te rompas la cabeza sobre ello... Tú eres un
+con que la horca podría ser buena para ti... Volvamos á la pregunta.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—¿Cuál es el que hace habitaciones más durables que las
+que hacen los albañiles, los carpinteros de casas y de navíos?</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—Sí, dímelo, y sales del apuro.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—Ya se ve que te lo digo.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—Pues vamos.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 2.º—Pues no puedo decirlo.</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—Vaya, no te rompas la cabeza sobre ello... Tú eres un
 burro lerdo que no saldrá de su paso por más que le apaleen. Cuando te
 hagan esta pregunta, has de responder: «El sepulturero.» ¿No ves que las
 casas que él hace duran hasta el día del juicio?... Anda, ve ahí á casa
-de Juanillo, y tráeme una copa de aguardiente.</stage>
+de Juanillo, y tráeme una copa de aguardiente.</hi>
+          </stage>
         </div>
         <div type="scene" n="2" xml:id="shakespeare-hamlet-spa-act-005-scene-002">
           <head>ESCENA II</head>
-          <stage type="setting" xml:id="spa-stage-000195">HAMLET, HORACIO, sepulturero primero</stage>
-          <stage type="setting" xml:id="spa-stage-000196"><seg rend="smcap">Sepulturero</seg> 1.º—Yo amé en mis primeros años,</stage>
-          <stage type="setting" xml:id="spa-stage-000197">(<hi rend="italic">Cantando</hi>).<lb/>
-</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000131">
+            <hi rend="italic">HAMLET, HORACIO, sepulturero primero</hi>
+            <lb/>
+            <hi rend="italic"><seg rend="smcap">Sepulturero</seg> 1.º—Yo amé en mis primeros años,</hi>
+            <lb/>
+            <hi rend="italic">(<hi rend="italic">Cantando</hi>).<lb/>
+</hi>
+          </stage>
           <sp xml:id="spa-speech-000869">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000894">¡Qué poco siente ese hombre lo que hace, que abre una sepultura
@@ -6078,7 +6300,7 @@ y canta!</p>
 el tacto.</p>
             <p xml:id="spa-p-000897"><seg rend="smcap">Sepulturero</seg> 1.º—La edad callada en la huesa</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000198">(<hi rend="italic">Cantando</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000132">(<hi rend="italic">Cantando</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000872">
             <speaker>Hamlet</speaker>
@@ -6260,7 +6482,7 @@ será?</p>
 echó un frasco de vino del Rhin por los cabezones... Pues, señor, esta
 calavera es la calavera de Yorick, el bufón del rey.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000199">(<hi rend="italic">El sepulturero le da una calavera á Hamlet</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000133">(<hi rend="italic">El sepulturero le da una calavera á Hamlet</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-000897">
             <speaker>Hamlet</speaker>
@@ -6303,7 +6525,7 @@ forma?</p>
             <speaker>Horacio</speaker>
             <p xml:id="spa-p-000947">Sin diferencia alguna.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000200">(El sepulturero primero, acabada la excavación, sale de la
+          <stage type="business" xml:id="spa-stage-000134">(El sepulturero primero, acabada la excavación, sale de la
 sepultura y se pasea hacia el fondo del teatro. Viene después el
 sepulturero segundo, que trae el aguardiente; beben y hablan entre
 sí, permaneciendo retirados hasta la escena siguiente, como lo
@@ -6338,13 +6560,16 @@ Ocultémonos un poco, y observa.</p>
         </div>
         <div type="scene" n="3" xml:id="shakespeare-hamlet-spa-act-005-scene-003">
           <head>ESCENA III</head>
-          <stage type="setting" xml:id="spa-stage-000201">CLAUDIO, GERTRUDIS, HAMLET, LAERTES, HORACIO, un cura, dos
-sepultureros, acompañamiento de damas, caballeros y criados.</stage>
-          <stage type="setting" xml:id="spa-stage-000202">(Conducen entre cuatro hombres el cadáver de Ofelia, vestida con
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000135">
+            <hi rend="italic">CLAUDIO, GERTRUDIS, HAMLET, LAERTES, HORACIO, un cura, dos
+sepultureros, acompañamiento de damas, caballeros y criados.</hi>
+            <lb/>
+            <hi rend="italic">(Conducen entre cuatro hombres el cadáver de Ofelia, vestida con
 túnica blanca y coronada de flores. Detrás sigue el preste y todos
 los que hacen el duelo, atravesando el teatro á paso lento, hasta
 llegar á donde está la sepultura. Suena el clamor de las campanas.
-Hamlet y Horacio se retiran á un extremo del teatro.)</stage>
+Hamlet y Horacio se retiran á un extremo del teatro.)</hi>
+          </stage>
           <sp xml:id="spa-speech-000907">
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-000951">¿Qué otra ceremonia falta?</p>
@@ -6411,7 +6636,7 @@ que toca los cielos.</p>
 invoca en su aflicción á las estrellas errantes, haciéndolas detenerse
 admiradas á oirle?... Yo soy Hamlet, príncipe de Dinamarca.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000203">(Atravesando por en medio de todos, va hacia la sepultura, entra en
+          <stage type="business" xml:id="spa-stage-000136">(Atravesando por en medio de todos, va hacia la sepultura, entra en
 ella, y luchan él y Laertes, y se dan puñadas. Algunos de los
 circunstantes van allá, los sacan del hoyo y los separan.)</stage>
           <sp xml:id="spa-speech-000918">
@@ -6501,11 +6726,14 @@ tranquilas; pero entre tanto conviene sufrir.</p>
         </div>
         <div type="scene" n="4" xml:id="shakespeare-hamlet-spa-act-005-scene-004">
           <head>ESCENA IV</head>
-          <stage type="setting" xml:id="spa-stage-000204">
-            <hi rend="bold">Salón de palacio, el mismo que sirvió para la representación, con
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000137">
+            <hi rend="italic">
+              <hi rend="bold">Salón de palacio, el mismo que sirvió para la representación, con
 asientos que han de ocuparse en la escena IX.</hi>
+            </hi>
+            <lb/>
+            <hi rend="italic">HAMLET, HORACIO</hi>
           </stage>
-          <stage type="setting" xml:id="spa-stage-000205">HAMLET, HORACIO</stage>
           <sp xml:id="spa-speech-000933">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-000977">Baste ya lo dicho sobre esta materia. Ahora quisiera informarte
@@ -6643,7 +6871,9 @@ quejas irritó en exceso mi cólera.</p>
         </div>
         <div type="scene" n="5" xml:id="shakespeare-hamlet-spa-act-005-scene-005">
           <head>ESCENA V</head>
-          <stage type="entrance" xml:id="spa-stage-000206">HAMLET, HORACIO, ENRIQUE</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000138">
+            <name type="person">HAMLET, HORACIO, ENRIQUE</name>
+          </stage>
           <sp xml:id="spa-speech-000953">
             <speaker>Enrique</speaker>
             <p xml:id="spa-p-000997">En hora feliz haya regresado V. A. á Dinamarca.</p>
@@ -6871,7 +7101,9 @@ flores de vuestro ingenio.</p>
         </div>
         <div type="scene" n="6" xml:id="shakespeare-hamlet-spa-act-005-scene-006">
           <head>ESCENA VI</head>
-          <stage type="entrance" xml:id="spa-stage-000207">HAMLET, HORACIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000139">
+            <name type="person">HAMLET, HORACIO</name>
+          </stage>
           <sp xml:id="spa-speech-000996">
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-001040">El hace muy bien de recomendarse á si mismo; porque si no, dudo
@@ -6895,7 +7127,9 @@ todas las ampollas huecas se deshacen, y no queda nada en el vaso.</p>
         </div>
         <div type="scene" n="7" xml:id="shakespeare-hamlet-spa-act-005-scene-007">
           <head>ESCENA VII</head>
-          <stage type="setting" xml:id="spa-stage-000208">HAMLET, HORACIO, un Caballero</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000140">
+            <hi rend="italic">HAMLET, HORACIO, un Caballero</hi>
+          </stage>
           <sp xml:id="spa-speech-000999">
             <speaker>Caballero</speaker>
             <p xml:id="spa-p-001043">Señor, parece que S. M. os envió un recado con el joven
@@ -6930,7 +7164,9 @@ hablarais á Laertes con dulzura y expresiones de amistad.</p>
         </div>
         <div type="scene" n="8" xml:id="shakespeare-hamlet-spa-act-005-scene-008">
           <head>ESCENA VIII</head>
-          <stage type="entrance" xml:id="spa-stage-000209">HAMLET, HORACIO</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000141">
+            <name type="person">HAMLET, HORACIO</name>
+          </stage>
           <sp xml:id="spa-speech-001005">
             <speaker>Horacio</speaker>
             <p xml:id="spa-p-001049">Temo que habéis de perder, señor.</p>
@@ -6968,7 +7204,7 @@ siempre lo que podría ocurrir después, ¿qué importa que la pierda tarde
 ó presto? Sepa morir.</p>
             <p xml:id="spa-p-001055">ESCENA IX</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000210">HAMLET, HORACIO, CLAUDIO, GERTRUDIS, LAERTES, ENRIQUE, caballeros,
+          <stage type="business" xml:id="spa-stage-000142">HAMLET, HORACIO, CLAUDIO, GERTRUDIS, LAERTES, ENRIQUE, caballeros,
 damas, acompañamiento</stage>
           <sp xml:id="spa-speech-001011">
             <speaker>Claudio</speaker>
@@ -7035,7 +7271,7 @@ condiciones.</p>
             <speaker>Hamlet</speaker>
             <p xml:id="spa-p-001065">Sí, señor, y en verdad que habéis apostado por el más débil.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000211">(Traen los criados una mesa, y en ella, cuando lo manda Claudio,
+          <stage type="business" xml:id="spa-stage-000143">(Traen los criados una mesa, y en ella, cuando lo manda Claudio,
 ponen jarros y copas de oro que llenan de vino. Claudio y Gertrudis
 se sientan junto á la mesa, y todos los demás, según su clase,
 ocupan los asientos restantes. Quedan en pie los criados que sirven
@@ -7051,7 +7287,7 @@ favor nuestro.</p>
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-001067">Este es muy pasado. Dejadme ver otro.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000212">(<hi rend="italic">Enrique presenta varios floretes. Hamlet toma uno, y Laertes
+          <stage type="business" xml:id="spa-stage-000144">(<hi rend="italic">Enrique presenta varios floretes. Hamlet toma uno, y Laertes
 escoge otro</hi>).</stage>
           <sp xml:id="spa-speech-001023">
             <speaker>Hamlet</speaker>
@@ -7127,7 +7363,7 @@ primero. Vamos... Otra estocada. ¿Qué decís?</p>
 este lienzo y límpiate el rostro... La reina brinda á tu buena fortuna,
 querido Hamlet.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000213">(<hi rend="italic">Toma la copa y bebe; Claudio lo quiere estorbar; y Gertrudis bebe
+          <stage type="business" xml:id="spa-stage-000145">(<hi rend="italic">Toma la copa y bebe; Claudio lo quiere estorbar; y Gertrudis bebe
 segunda vez</hi>).</stage>
           <sp xml:id="spa-speech-001038">
             <speaker>Hamlet</speaker>
@@ -7157,7 +7393,7 @@ segunda vez</hi>).</stage>
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-001089">Ahora veréis si le acierto.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000214">(<hi rend="italic">Laertes habla con Claudio en voz baja, mientras Gertrudis limpia
+          <stage type="business" xml:id="spa-stage-000146">(<hi rend="italic">Laertes habla con Claudio en voz baja, mientras Gertrudis limpia
 con un lienzo el sudor á Hamlet</hi>).</stage>
           <sp xml:id="spa-speech-001045">
             <speaker>Claudio</speaker>
@@ -7185,7 +7421,7 @@ mí.</p>
             <speaker>Laertes</speaker>
             <p xml:id="spa-p-001095">Ahora... ésta...</p>
           </sp>
-          <stage type="entrance" xml:id="spa-stage-000215">(Vuelven á batallar; se enfurecen, truécanse las espadas y quedan
+          <stage type="entrance" xml:id="spa-stage-000147">(Vuelven á batallar; se enfurecen, truécanse las espadas y quedan
 heridos los dos. Horacio y Enrique los separan con dificultad;
 Gertrudis cae moribunda en los brazos de Claudio. Todo es terror y
 confusión.)</stage>
@@ -7227,7 +7463,7 @@ víctima de mi propia traición.</p>
             <p xml:id="spa-p-001104">No, no... ¡La bebida!... ¡Querido Hamlet!... ¡La bebida!....
 ¡Me han envenenado!</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000216">(<hi rend="italic">Queda muerta en la silla</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000148">(<hi rend="italic">Queda muerta en la silla</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-001060">
             <speaker>Hamlet</speaker>
@@ -7243,7 +7479,7 @@ ponzoña su aguda punta... ¡Volvióse en mi daño la trama indigna!...
 Vesme aquí postrado para no levantarme jamás... Tu madre ha bebido un
 tósigo... No puedo proseguir... El rey, el rey es el delincuente.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000217">(Claudio quiere huir. Hamlet corre á él furioso, y le atraviesa la
+          <stage type="business" xml:id="spa-stage-000149">(Claudio quiere huir. Hamlet corre á él furioso, y le atraviesa la
 espada por el cuerpo. Toma la copa envenenada, y se la hace apurar
 por fuerza. Le deja muerto en el suelo, y vuelve á oir las últimas
 palabras de Laertes.)</stage>
@@ -7288,7 +7524,7 @@ verdad y los motivos de mi conducta á quien los ignora.</p>
             <p xml:id="spa-p-001113">¿Vivir? No lo creáis. Yo tengo alma romana, y aun ha quedado
 aquí parte del tósigo.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000218">(Busca en la mesa el jarro del veneno, echa porción de él en una
+          <stage type="business" xml:id="spa-stage-000150">(Busca en la mesa el jarro del veneno, echa porción de él en una
 copa, va á beber. Hamlet quiere estorbárselo. Los criados quitan la
 copa á Horacio, la toma Hamlet, y la tira al suelo.)</stage>
           <sp xml:id="spa-speech-001069">
@@ -7300,12 +7536,14 @@ retarda un poco esa felicidad que apeteces, alarga por algún tiempo la
 fatigosa vida en este mundo lleno de miserias, y divulga por él mi
 historia... ¿Qué estrépito militar es éste?</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000219">(<hi rend="italic">Suena música militar, que se va aproximando lentamente</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000151">(<hi rend="italic">Suena música militar, que se va aproximando lentamente</hi>).<lb/>
 </stage>
         </div>
         <div type="scene" n="9" xml:id="shakespeare-hamlet-spa-act-005-scene-009">
           <head>ESCENA X</head>
-          <stage type="setting" xml:id="spa-stage-000220">HAMLET, HORACIO, ENRIQUE, un Caballero y acompañamiento</stage>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000152">
+            <hi rend="italic">HAMLET, HORACIO, ENRIQUE, un Caballero y acompañamiento</hi>
+          </stage>
           <sp xml:id="spa-speech-001070">
             <speaker>Caballero</speaker>
             <p xml:id="spa-p-001115">El joven Fortimbrás, que vuelve vencedor de Polonia, saluda
@@ -7319,7 +7557,7 @@ que Fortimbrás será elegido por aquella nación. Yo moribundo le doy mi
 voto... Díselo tú, e infórmale de cuanto acaba de ocurrir... ¡Oh! Para
 mí sólo queda ya... silencio eterno.</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000221">(<hi rend="italic">Muere</hi>).<lb/>
+          <stage type="business" xml:id="spa-stage-000153">(<hi rend="italic">Muere</hi>).<lb/>
 </stage>
           <sp xml:id="spa-speech-001072">
             <speaker>Horacio</speaker>
@@ -7329,7 +7567,7 @@ angélicos te acompañen al celeste descanso!... Pero, ¿cómo se acerca
 hasta aquí ese estruendo de tambores?</p>
             <p xml:id="spa-p-001118">ESCENA XI</p>
           </sp>
-          <stage type="business" xml:id="spa-stage-000222">FORTIMBRAS, dos embajadores, HORACIO, ENRIQUE, soldados,
+          <stage type="business" xml:id="spa-stage-000154">FORTIMBRAS, dos embajadores, HORACIO, ENRIQUE, soldados,
 acompañamiento</stage>
           <sp xml:id="spa-speech-001073">
             <speaker>Fortimbrás</speaker>
