@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+from copy import deepcopy
 from pathlib import Path
 import re
 import sys
@@ -22,6 +23,7 @@ from build_gutenberg_drama_epub import (
     convert_inline,
     element_text,
     epub_data,
+    iter_blocks,
     local_name,
     project_gutenberg_id,
     split_break_lines,
@@ -31,12 +33,87 @@ from build_gutenberg_drama_epub import (
 )
 
 
-SUPPORTED_PLAYS = {
+SUPPORTED_VOLUMES = {
     "56454": {
-        "slug": "hamlet",
         "translator": "Leandro Fernández de Moratín",
+        "plays": [
+            {"slug": "hamlet", "title": "Hamlet: Drama en cinco actos", "source_title": None},
+        ],
+    },
+    "53207": {
+        "translator": "Marcelino Menéndez y Pelayo",
+        "plays": [
+            {"slug": "the-merchant-of-venice", "title": "El mercader de Venecia", "source_title": "EL MERCADER DE VENECIA"},
+            {"slug": "macbeth", "title": "Macbeth", "source_title": "MACBETH"},
+            {"slug": "romeo-and-juliet", "title": "Romeo y Julieta", "source_title": "ROMEO Y JULIETA"},
+            {"slug": "othello", "title": "Otelo", "source_title": "OTELO"},
+        ],
+    },
+    "59686": {
+        "translator": "José Arnaldo Márquez",
+        "plays": [
+            {"slug": "julius-caesar", "title": "Julio César", "source_title": "JULIO CÉSAR"},
+            {"slug": "as-you-like-it", "title": "Como gustéis", "source_title": "COMO GUSTÉIS"},
+            {"slug": "the-comedy-of-errors", "title": "Comedia de equivocaciones", "source_title": "COMEDIA DE EQUIVOCACIONES"},
+            {
+                "slug": "the-merry-wives-of-windsor",
+                "title": "Las alegres comadres de Windsor",
+                "source_title": "LAS ALEGRES COMADRES DE WINDSOR",
+            },
+        ],
     },
 }
+
+
+def heading_key(value: str) -> str:
+    return clean_text(value).casefold().rstrip(". ")
+
+
+def split_volume_documents(
+    documents: list[etree._Element],
+    source_title: str | None,
+    all_source_titles: list[str],
+) -> list[etree._Element]:
+    if source_title is None:
+        return documents
+
+    target = heading_key(source_title)
+    boundaries = {heading_key(title) for title in all_source_titles}
+    selected: list[etree._Element] = []
+    active = False
+    complete = False
+    xhtml = "http://www.w3.org/1999/xhtml"
+
+    for document in documents:
+        bodies = document.xpath("//*[local-name()='body']")
+        if not bodies:
+            continue
+        output = etree.Element(f"{{{xhtml}}}html", nsmap={None: xhtml})
+        body = etree.SubElement(output, f"{{{xhtml}}}body")
+        for block in iter_blocks(bodies[0]):
+            local = local_name(block)
+            key = heading_key(element_text(block))
+            is_heading = local.startswith("h") and local[1:].isdigit()
+            if not active:
+                if is_heading and key == target:
+                    active = True
+                else:
+                    continue
+            elif is_heading and key in boundaries and key != target:
+                complete = True
+                break
+            elif is_heading and key in {"índice", "the full project gutenberg™ license"}:
+                complete = True
+                break
+            body.append(deepcopy(block))
+        if len(body):
+            selected.append(output)
+        if complete:
+            break
+
+    if not active or not selected:
+        raise ValueError(f"Could not locate play heading {source_title!r} in the EPUB reading order")
+    return selected
 
 
 class SpanishIds:
@@ -48,24 +125,50 @@ class SpanishIds:
         return f"spa-{kind}-{self.counts[kind]:06d}"
 
 
-def spanish_speech_prefix(element: etree._Element) -> tuple[str, str, int] | None:
+def spanish_speaker_label(value: str) -> tuple[str, str]:
+    value = clean_text(value)
+    qualified = re.fullmatch(r"(.+?)\.?\s*(?:—\s*)?\((.+)\)\.?", value)
+    if qualified:
+        return clean_text(qualified.group(1)).rstrip(". "), clean_text(qualified.group(2))
+    return value.rstrip(". "), ""
+
+
+def spanish_speech_prefix(
+    element: etree._Element,
+    known_speakers: set[str] | None = None,
+) -> tuple[str, str, int] | None:
     raw = "".join(element.itertext())
     position = raw.find("—")
     if position < 1:
         return None
-    label = clean_text(raw[:position])
-    if not label.endswith("."):
+    smallcaps = element.xpath(
+        ".//*[contains(concat(' ', normalize-space(@class), ' '), ' smcap ')]"
+    )
+    raw_label = clean_text(raw[:position])
+    if smallcaps:
+        marked_label = clean_text("".join(smallcaps[0].itertext())).rstrip("— ")
+        if not marked_label or not raw_label.startswith(marked_label):
+            return None
+        label_remainder = raw_label[len(marked_label) :].strip()
+        if label_remainder and not re.fullmatch(
+            r"(?:\d+\.[ºª]\.?)?\.?\s*(?:\(.+\))?\.?",
+            label_remainder,
+        ):
+            return None
+    else:
+        unmarked_role, _ = spanish_speaker_label(raw_label)
+        if (
+            not raw_label.endswith(".")
+            or unmarked_role.casefold() not in (known_speakers or set())
+        ):
+            return None
+    if "." not in raw_label:
         return None
-    label = label[:-1].strip()
-    if label.startswith("("):
+    label, qualifier = spanish_speaker_label(raw_label)
+    if not label or not label[0].isalpha():
         return None
-    qualifier = ""
-    qualified = re.fullmatch(r"(.+?)\s*\((.+)\)", label)
-    if qualified:
-        label = clean_text(qualified.group(1))
-        qualifier = clean_text(qualified.group(2))
     letters = [character for character in label if character.isalpha()]
-    if len(letters) < 2 or len(label) > 100:
+    if len(letters) < 2 or len(label) > 45:
         return None
     return label, qualifier, position + 1
 
@@ -97,6 +200,33 @@ def looks_like_scene_cast(value: str) -> bool:
     return bool(letters) and (uppercase / len(letters) >= 0.65 or "y dichos" in value.casefold())
 
 
+UPPERCASE_NAME_RUN = re.compile(
+    r"(?<![\wÁÉÍÓÚÜÑ])(?:[A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ0-9.ºª'’\-]*)(?:[ ,]+(?:[A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ0-9.ºª'’\-]*))*"
+)
+
+
+def append_scene_line(parent: etree._Element, value: str, names_only: bool = False) -> None:
+    value = clean_text(value)
+    if not value:
+        return
+    if names_only or looks_like_scene_cast(value):
+        parent.append(tei("name", value, type="person"))
+        return
+
+    position = 0
+    for match in UPPERCASE_NAME_RUN.finditer(value):
+        if sum(character.isalpha() for character in match.group(0)) < 2:
+            continue
+        if match.start() > position:
+            parent.append(tei("hi", value[position : match.start()], rend="italic"))
+        parent.append(tei("name", match.group(0), type="person"))
+        position = match.end()
+    if position < len(value):
+        parent.append(tei("hi", value[position:], rend="italic"))
+    if not len(parent):
+        parent.append(tei("hi", value, rend="italic"))
+
+
 class SpanishDramaBuilder(DramaBuilder):
     def __init__(
         self,
@@ -108,6 +238,9 @@ class SpanishDramaBuilder(DramaBuilder):
         self.translator = translator
         self.finished = False
         self.scene_introduction: etree._Element | None = None
+        self.pending_speaker = ""
+        self.pending_speaker_stage = ""
+        self.known_speakers: set[str] = set()
         super().__init__(metadata, documents, text_id)
         self.ids = SpanishIds()
 
@@ -177,16 +310,34 @@ class SpanishDramaBuilder(DramaBuilder):
             for index, extra in enumerate(lines[1:]):
                 if index:
                     introduction.append(tei("lb"))
-                if looks_like_scene_cast(extra):
-                    introduction.append(tei("name", extra, type="person"))
-                else:
-                    introduction.append(tei("hi", extra, rend="italic"))
+                append_scene_line(introduction, extra)
             division.append(introduction)
         self.current_act.append(division)
         self.current_scene = division
         self.scene_introduction = introduction
         self.current_sp = None
         self.scene_has_speech = False
+        self.pending_speaker = ""
+        self.pending_speaker_stage = ""
+
+    def new_implicit_scene(self) -> None:
+        if self.current_act is None or self.current_scene is not None:
+            return
+        self.scene_number += 1
+        division = tei(
+            "div",
+            type="scene",
+            n=str(self.scene_number),
+            xml_id=f"{self.text_id}-act-{self.act_number:03d}-scene-{self.scene_number:03d}",
+        )
+        division.append(tei("head", "ESCENA I."))
+        self.current_act.append(division)
+        self.current_scene = division
+        self.scene_introduction = None
+        self.current_sp = None
+        self.scene_has_speech = False
+        self.pending_speaker = ""
+        self.pending_speaker_stage = ""
 
     def add_heading(self, element: etree._Element) -> None:
         if self.finished:
@@ -209,11 +360,13 @@ class SpanishDramaBuilder(DramaBuilder):
             self.current_front = None
             self.current_sp = None
             self.cast_list = None
+            self.pending_speaker = ""
+            self.pending_speaker_stage = ""
             return
         if re.search(r"\bescena\b", folded):
             self.new_spanish_scene(element)
             return
-        if "personajes" in folded or "dramatis personae" in folded:
+        if "personajes" in folded or "personas del drama" in folded or "dramatis personae" in folded:
             self.new_front("characters", value)
             return
         if self.current_act is None:
@@ -241,9 +394,11 @@ class SpanishDramaBuilder(DramaBuilder):
                 self.current_scene.append(self.scene_introduction)
             if len(self.scene_introduction) or clean_text(self.scene_introduction.text):
                 self.scene_introduction.append(tei("lb"))
-            description = tei("hi", rend="italic")
-            convert_inline(element, description, self.ids, self.notes)
-            self.scene_introduction.append(description)
+            append_scene_line(
+                self.scene_introduction,
+                element_text(element),
+                names_only="quien" in classes(element),
+            )
             return
         stage = tei(
             "stage",
@@ -294,6 +449,12 @@ class SpanishDramaBuilder(DramaBuilder):
             self.target().append(paragraph)
             self.finished = True
             return
+        folded = value.casefold()
+        if self.current_act is None and (
+            "personajes" in folded or "personas del drama" in folded or "dramatis personae" in folded
+        ):
+            self.new_front("characters", value)
+            return
         if self.cast_list is not None:
             if value.casefold().startswith("la escena"):
                 self.add_stage(element)
@@ -301,7 +462,52 @@ class SpanishDramaBuilder(DramaBuilder):
                 self.add_cast_paragraph(element)
             return
 
-        prefix = spanish_speech_prefix(element) if self.current_scene is not None else None
+        if self.current_act is not None and self.current_scene is None:
+            self.new_implicit_scene()
+
+        if (
+            self.current_scene is not None
+            and not self.scene_has_speech
+            and classes(element) & {"donde", "quien", "cb", "c"}
+        ):
+            self.add_stage(element)
+            return
+
+        if classes(element) & {"rol", "cspeak"}:
+            self.pending_speaker, self.pending_speaker_stage = spanish_speaker_label(value)
+            self.current_sp = None
+            return
+
+        if self.pending_speaker and self.current_scene is not None:
+            speech = tei("sp", xml_id=self.ids.next("speech"))
+            speech.append(tei("speaker", self.pending_speaker))
+            if self.pending_speaker_stage:
+                speech.append(
+                    tei(
+                        "stage",
+                        self.pending_speaker_stage,
+                        type="business",
+                        xml_id=self.ids.next("stage"),
+                    )
+                )
+            paragraph = tei("p", xml_id=self.ids.next("p"))
+            convert_inline(element, paragraph, self.ids, self.notes)
+            if element_text(paragraph) or len(paragraph):
+                speech.append(paragraph)
+            self.target().append(speech)
+            self.current_sp = speech
+            self.scene_has_speech = True
+            self.scene_introduction = None
+            self.known_speakers.add(self.pending_speaker.casefold())
+            self.pending_speaker = ""
+            self.pending_speaker_stage = ""
+            return
+
+        prefix = (
+            spanish_speech_prefix(element, self.known_speakers)
+            if self.current_scene is not None
+            else None
+        )
         if prefix:
             role, qualifier, skip = prefix
             speech = tei("sp", xml_id=self.ids.next("speech"))
@@ -316,6 +522,9 @@ class SpanishDramaBuilder(DramaBuilder):
             self.current_sp = speech
             self.scene_has_speech = True
             self.scene_introduction = None
+            self.known_speakers.add(role.casefold())
+            self.pending_speaker = ""
+            self.pending_speaker_stage = ""
             return
 
         if self.current_scene is not None and looks_like_spanish_stage(element, not self.scene_has_speech):
@@ -359,6 +568,26 @@ class SpanishDramaBuilder(DramaBuilder):
     def add_table(self, element: etree._Element) -> None:
         if self.finished:
             return
+        rows = element.xpath(".//*[local-name()='tr']")
+        if self.current_scene is not None and "}" in element_text(element):
+            speakers: list[str] = []
+            dialogue = ""
+            for row in rows:
+                cells = row.xpath("./*[local-name()='td' or local-name()='th']")
+                values = [element_text(cell) for cell in cells]
+                if values and values[0]:
+                    speakers.append(values[0].rstrip(". "))
+                for value in values[1:]:
+                    if value and value != "}":
+                        dialogue = value
+            if speakers and dialogue:
+                speech = tei("sp", xml_id=self.ids.next("speech"))
+                speech.append(tei("speaker", " y ".join(speakers)))
+                speech.append(tei("p", dialogue, xml_id=self.ids.next("p")))
+                self.target().append(speech)
+                self.current_sp = speech
+                self.scene_has_speech = True
+                return
         if self.current_front is not None and self.current_front.get("type") == "title-page":
             targets = element.xpath(".//*[local-name()='a']/@href")
             if targets and all(".xhtml#" in target for target in targets):
@@ -383,20 +612,25 @@ def main() -> int:
 
     metadata, documents = epub_data(args.source)
     pg_id = project_gutenberg_id(metadata, args.source)
-    play = SUPPORTED_PLAYS.get(pg_id)
-    if play is None:
+    volume = SUPPORTED_VOLUMES.get(pg_id)
+    if volume is None:
         raise ValueError(f"Unsupported Spanish drama EPUB: Project Gutenberg #{pg_id}")
     if metadata.get("creator") != "William Shakespeare" or metadata.get("language") != "es":
         raise ValueError(f"Unexpected metadata in {args.source}: {metadata.get('creator')}, {metadata.get('language')}")
 
-    slug = play["slug"]
-    text_id = f"shakespeare-{slug}-spa"
-    output = args.output_dir / f"shakespeare_{slug}_spa.xml"
-    builder = SpanishDramaBuilder(metadata, documents, text_id, play["translator"])
-    document = builder.build()
     schema = etree.RelaxNG(etree.parse(str(args.schema)))
-    validate_structure(document, output, schema)
-    write_document(document, output)
+    source_titles = [play["source_title"] for play in volume["plays"] if play["source_title"]]
+    for play in volume["plays"]:
+        slug = play["slug"]
+        text_id = f"shakespeare-{slug}-spa"
+        output = args.output_dir / f"shakespeare_{slug}_spa.xml"
+        play_metadata = dict(metadata)
+        play_metadata["title"] = play["title"]
+        play_documents = split_volume_documents(documents, play["source_title"], source_titles)
+        builder = SpanishDramaBuilder(play_metadata, play_documents, text_id, volume["translator"])
+        document = builder.build()
+        validate_structure(document, output, schema)
+        write_document(document, output)
     return 0
 
 

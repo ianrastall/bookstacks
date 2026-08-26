@@ -734,10 +734,12 @@
   },
   {
     "author": "Shakespeare",
-    "title": "Spanish Hamlet",
-    "id": "hamlet-spanish",
+    "title": "Spanish Shakespeare plays",
+    "id": "plays-spanish",
     "source_format": "gutenberg_spanish_drama",
     "sources": [
+      { "lang": "spa", "xml_lang": "es", "path": "../assets/gutenberg-spanish/pg53207.epub" },
+      { "lang": "spa", "xml_lang": "es", "path": "../assets/gutenberg-spanish/pg59686.epub" },
       { "lang": "spa", "xml_lang": "es", "path": "../assets/gutenberg-spanish/pg56454.epub" }
     ]
   },

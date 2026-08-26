@@ -1,0 +1,3719 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="shakespeare-the-comedy-of-errors-spa" xml:lang="es">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="es">Comedia de equivocaciones</title>
+        <author>
+          <persName>William Shakespeare</persName>
+          <note type="dates">1564–1616</note>
+        </author>
+        <respStmt>
+          <resp>Spanish translation</resp>
+          <name>José Arnaldo Márquez</name>
+        </respStmt>
+        <respStmt xml:id="bookstacks-encoding">
+          <resp>XHTML-to-TEI drama conversion and structural encoding</resp>
+          <name>Bookstacks project</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0">Bookstacks Spanish TEI edition</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Bookstacks project</publisher>
+        <pubPlace>United States</pubPlace>
+        <date when="2026-08-25">25 August 2026</date>
+        <idno type="local">shakespeare-the-comedy-of-errors-spa</idno>
+        <availability status="free">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; the Project Gutenberg source is public domain in the United States.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born-digital Spanish text from Project Gutenberg eBook #59686, converted from its EPUB XHTML reading order. Gutenberg administrative boilerplate, navigation, and decorative images were omitted.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Acts, scenes, dramatic speakers, prose speeches, stage directions, cast material, songs and verse, editorial notices, inline typography, and referenced translator notes were mapped to TEI P5 without inventing speaker identities.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es">Spanish</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://www.gutenberg.org">
+          <term>Shakespeare, William, 1564-1616 -- Translations into Spanish</term>
+          <term>English drama -- Translations into Spanish</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-08-25" who="#bookstacks-encoding">Converted the Spanish Project Gutenberg EPUB XHTML into standalone dramatic TEI P5.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <body>
+      <div type="title-page" xml:id="spa-title-page-000001">
+        <head>COMEDIA DE EQUIVOCACIONES.</head>
+        <p xml:id="spa-p-000001"><hi rend="small">TRADUCCIÓN   DE<lb/>
+</hi>
+<lb/>
+<seg rend="xhtml_big">
+JOSÉ   ARNALDO   MÁRQUEZ.</seg><lb/>
+<lb/>
+Ilustración de <hi rend="italic">H. Knacksuss</hi>.<lb/>
+<lb/>
+Grabados de <hi rend="italic">Otto Minde</hi>.<lb/>
+</p>
+      </div>
+      <div type="characters" xml:id="spa-characters-000001">
+        <head>PERSONAJES.</head>
+        <castList>
+          <castItem><role>SOLINO</role>, duque de Éfeso.</castItem>
+          <castItem><role>ÆGEÓN</role>, mercader de Siracusa.</castItem>
+          <castItem>ANTÍFOLO de Éfeso. —Hermanos gemelos, hijos de Ægeón y de Emilia, pero desconocidos uno de otro.</castItem>
+          <castItem>ANTÍFOLO de Siracusa.</castItem>
+          <castItem>DROMIO de Éfeso. —Hermanos gemelos y esclavos de los dos Antífolo.</castItem>
+          <castItem>DROMIO de Siracusa.</castItem>
+          <castItem><role>BALTASAR</role>, mercader.</castItem>
+          <castItem><role>ANGELO</role>, platero.</castItem>
+          <castItem><role>UN COMERCIANTE</role>, amigo de Antífolo de Siracusa.</castItem>
+          <castItem><role>PINCH</role>, maestro de escuela y mágico.</castItem>
+          <castItem><role>EMILIA</role>, esposa de Ægeón, abadesa de una comunidad de Éfeso.</castItem>
+          <castItem><role>ADRIANA</role>, esposa de Antífolo de Éfeso.</castItem>
+          <castItem><role>LUCIANA</role>, hermana de Adriana.</castItem>
+          <castItem><role>LUCÍA</role>, doncella de Luciana.</castItem>
+          <castItem><role>UNA CORTESANA</role>.</castItem>
+          <castItem><role>UN ALCAIDE</role>.</castItem>
+          <castItem><role>OFICIALES DE JUSTICIA Y OTROS</role>.</castItem>
+        </castList>
+        <stage type="setting" xml:id="spa-stage-000001">
+La escena pasa en Éfeso.<lb/>
+</stage>
+      </div>
+      <div type="act" n="1" xml:id="shakespeare-the-comedy-of-errors-spa-act-001">
+        <head>ACTO I.</head>
+        <div type="scene" n="1" xml:id="shakespeare-the-comedy-of-errors-spa-act-001-scene-001">
+          <head>ESCENA I.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000002">
+            <hi rend="italic">Sala en el palacio del duque.</hi>
+            <lb/>
+            <hi rend="italic">El </hi>
+            <name type="person">DUQUE DE ÉFESO</name>
+            <hi rend="italic">, ÆGEÓN, un </hi>
+            <name type="person">ALCAIDE</name>
+            <hi rend="italic">, oficiales y otras gentes del séquito del duque.</hi>
+          </stage>
+          <sp xml:id="spa-speech-000001">
+            <speaker>ÆGEÓN</speaker>
+            <p xml:id="spa-p-000002"><seg rend="smcap">ontinuad</seg>, Solino; procurad mi pérdida; y con la sentencia de muerte,
+terminad mis desgracias y mi vida.</p>
+          </sp>
+          <sp xml:id="spa-speech-000002">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000003">Mercader de Siracusa, cesa de defender tu causa; yo no soy
+bastante parcial para infringir nuestras leyes.—La enemistad y la
+discordia, recientemente excitadas por el ultraje bárbaro que vuestro
+duque ha hecho á estos mercaderes, honrados compatriotas nuestros,
+quienes, por falta de oro para rescatar sus vidas, han sellado con su
+sangre sus rigurosos decretos, excluyen toda piedad de nuestra
+amenazante actitud; pues desde las querellas intestinas y mortales
+levantadas entre tus sediciosos compatriotas y los nuestros, se ha
+sancionado en consejos solemnes, tanto por nosotros como por los
+siracusanos, no permitir tráfico alguno á las ciudades enemigas
+nuestras. Además, si un natural de Éfeso es visto en los mercados y
+ferias de Siracusa, ó si un natural de Siracusa viene á la bahía de
+Efeso, muere, y sus mercaderías son confiscadas á disposición del duque,
+á menos que levante una cantidad de mil marcos para cumplir la pena y
+servirle de rescate. Tus géneros, vendidos al más alto precio, no pueden
+subir á cien marcos; por consiguiente la ley te condena á morir.</p>
+          </sp>
+          <sp xml:id="spa-speech-000003">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000004">Bien! Lo que me consuela es que, al realizarse vuestras
+palabras, mis males terminarán con el sol poniente.</p>
+          </sp>
+          <sp xml:id="spa-speech-000004">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000005">Vamos, siracusano, dinos brevemente por qué has dejado tu
+ciudad natal y qué motivo te ha traído á Éfeso.</p>
+          </sp>
+          <sp xml:id="spa-speech-000005">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000006">No podía haberse impuesto tarea más penosa que la de intimarme á
+decir males indecibles. Sin embargo, á fin de que el mundo sea testigo
+de que mi muerte habrá provenido de la naturaleza y no de un crimen
+vergonzoso, diré todo lo que el dolor me permita decir.—Nací en
+Siracusa y me casé con una mujer que hubiese sido feliz sin mí, y por mí
+también sin nuestro mal destino. Vivía contento con ella; nuestra
+fortuna se aumentó por los fructuosos viajes que con frecuencia hacía yo
+á Epídoro, hasta la muerte de nuestro agente de negocios. Su pérdida,
+habiendo dejado en abandono el cuidado de grandes bienes, me obligó á
+sustraerme de los tiernos abrazos de mi esposa. Apenas habían pasado
+seis meses de ausencia, cuando casi desfallecida bajo la dulce carga que
+llevan las mujeres, hizo sus preparativos para seguirme, y llegó con
+prontitud y seguridad á los lugares donde me hallaba. Poco tiempo
+después de su llegada hízose la feliz madre de dos hermosos niños; y, lo
+que hay de extraño, tan parecidos entre sí, que no se podían distinguir
+sino por sus nombres. Á la misma hora y en la misma hostería, una pobre
+mujer fué desembarazada de una carga semejante, dando al mundo dos
+gemelos varones igualmente parecidos. Compré estos dos muchachos á sus
+padres, quienes se encontraban en extrema indigencia, y los crié para
+servir á mis hijos. Mi mujer, que no estaba poco orgullosa de estos dos
+niños, me instaba cada día para volver á nuestra patria. Consentí á
+pesar mío ¡ay! demasiado temprano. Nos embarcamos.—Estábamos á una
+legua de Epídoro, antes que la mar, siempre dócil á los vientos, nos
+hubiese amenazado con algún accidente trágico; pero no conservamos mucho
+tiempo la esperanza. La escasa claridad que nos prestaba el cielo no
+servía sino para mostrar á nuestras almas aterradas, el mandato dudoso
+de una muerte inmediata. En cuanto á mí, yo la habría abrazado con
+alegría, si las lágrimas incesantes de mi esposa, que lloraba de
+antemano la desgracia que veía venir inevitablemente, y los gemidos
+lastimeros de los dos niños que lloraban por imitación, ignorando lo que
+era de temer, no me hubiesen forzado á buscar el modo de retardar el
+instante fatal para ellos y para mí; y he aquí cuál fué nuestro recurso;
+no quedaba otro:—Los marineros buscaron su salvación en nuestro bote, y
+nos abandonaron dejándonos el barco ya á punto de hundirse. Mi esposa,
+más atenta á velar sobre mi último nacido, lo había ligado al pequeño
+mástil de reserva del cual se proveen los marinos para las tempestades;
+con él estaba ligado uno de los gemelos esclavos; y yo había tenido que
+hacer lo mismo con los otros dos niños. Hecho esto, mi esposa y yo con
+las miradas fijas en aquellos en quienes estaban fijos nuestros
+corazones, nos atamos á cada uno de los extremos del palo; y flotando en
+seguida á voluntad de las olas, fuímos llevados por ellas hacia Corinto,
+á lo que nosotros habíamos pensado. Al fin, el sol, mostrándose á la
+tierra, disipó los vapores que habían causado nuestros males; bajo la
+influencia benéfica de su luz deseada, los mares se calmaron
+gradualmente, y descubrimos en lontananza dos barcos que navegaban sobre
+nosotros; de Corinto el más lejano, y el otro de Epídoro. Pero antes de
+que nos hubiesen alcanzado... ¡Oh! no me obliguéis á decir más;
+conjeturad lo que aconteció por lo que acabáis de oir.</p>
+          </sp>
+          <sp xml:id="spa-speech-000006">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000007">Prosigue, anciano: no interrumpas tu relato; podemos al menos
+compadecerte si no podemos perdonarte.</p>
+          </sp>
+          <sp xml:id="spa-speech-000007">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000008">¡Oh! ¡Si los dioses nos hubiesen compadecido, no les llamaría
+ahora con tanta justicia desapiadados hacia nosotros! Antes que los dos
+barcos hubiesen avanzado á diez leguas de nosotros, dimos contra una
+grande roca; é impulsado con violencia sobre este escollo, nuestro
+mástil de socorro fué roto por el medio; de tal modo que, en esta
+nuestra injusta separación, la fortuna nos dejó á los dos de qué
+regocijarnos y de qué afligirnos. La mitad que llevaba á la infeliz y
+que parecía cargada de menor peso, aunque no de menor infortunio, fué
+impulsada con más velocidad por los vientos: y fueron recogidos los tres
+á nuestra vista por pescadores de Corinto, á lo que nos pareció.
+Finalmente, otro barco se había apoderado de nosotros; y llegando á
+conocer sus tripulantes quiénes eran aquellos que la suerte les había
+conducido á salvar, acogieron con benevolencia á sus náufragos: y
+hubiesen alcanzado á quitar á los pescadores su presa á no haber sido el
+buque tan mal velero. Se vieron, pues, obligados á dirigir su rumbo
+hacia la patria.—Habéis oído cómo he sido separado de mi dicha y cómo
+mi vida ha sido prolongada por adversidades para haceros el triste
+relato de mis desventuras.</p>
+          </sp>
+          <sp xml:id="spa-speech-000008">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000009">Y, en bien de los que lloras, hazme el favor de decir
+detalladamente lo que os aconteció á ellos y á ti hasta ahora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000009">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000010">Mi hijo menor, que es el mayor en mi cuidado, cumplida la edad
+de diez y ocho años, se ha mostrado deseoso de buscar á su hermano, y me
+ha rogado con importunidad permitirle que su joven esclavo (pues los dos
+muchachos habían compartido la misma suerte, y éste, separado de su
+hermano, había conservado el nombre) pudiese acompañarle en esta
+investigación. Para poder encontrar uno de los objetos de mi atormentada
+ternura, yo arriesgaba perder el otro. He recorrido durante cinco
+veranos las extremidades más apartadas de la Grecia, errando hasta más
+allá de los límites de Asia; y costeando hacia mi pátria, he abordado á
+Éfeso sin esperanza de encontrarlos, pero repugnándome pasar por este
+lugar ó cualquiera otro donde habitan hombres, sin explorarlo. Es aquí,
+en fin, donde debe terminar la historia de mi vida; y sería feliz de
+esta muerte oportuna, si todos mis viajes me hubiesen asegurado al menos
+que mis hijos viven.</p>
+          </sp>
+          <sp xml:id="spa-speech-000010">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000011">¡Desventurado Ægeón, á quien los hados han marcado para
+probar el colmo de la desgracia! Créeme: mi alma abogaría por tu causa
+si pudiese hacerlo sin violar nuestras leyes, sin ofender mi corona, mi
+juramento y mi dignidad, que los príncipes no pueden anular, aun cuando
+lo quisieran. Pero aunque tú seas destinado á la muerte, y que la
+sentencia pronunciada no pueda revocarse sin grave daño de nuestro
+honor, sin embargo te favoreceré en lo que pueda. Así, mercader, te
+concederé este día para buscar tu salvación en un socorro bienhechor:
+acude á todos los amigos que tienes en Éfeso, mendiga ó toma prestado
+para recoger la suma y vive; si no, tu muerte es inevitable.—Alcaide,
+tómalo bajo tu custodia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000011">
+            <speaker>Alcaide</speaker>
+            <p xml:id="spa-p-000012">Sí, mi señor.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000003">
+(<hi rend="italic">El duque sale con su séquito.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000012">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000013">Ægeón se retira sin esperanza y sin socorro, y su muerte no es
+sino diferida.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000004">
+(<hi rend="italic">Salen.</hi>)<lb/>
+</stage>
+        </div>
+        <div type="scene" n="2" xml:id="shakespeare-the-comedy-of-errors-spa-act-001-scene-002">
+          <head>ESCENA II.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000005">
+            <hi rend="italic">Plaza pública.</hi>
+            <lb/>
+            <name type="person">ANTÍFOLO y DROMIO de Siracusa; UN MERCADER.</name>
+          </stage>
+          <sp xml:id="spa-speech-000013">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000014">Tened cuidado de esparcir la voz de que sois de Epídoro,
+si no queréis ver todos vuestros bienes confiscados al instante. Hoy
+mismo un mercader de Siracusa acaba de ser preso por haber abordado
+aquí, y, no encontrándose en estado de rescatar su vida, debe perecer,
+según los estatutos de la ciudad, antes que el sol fatigado se ponga al
+occidente. He aquí vuestro dinero que tenía en depósito.</p>
+          </sp>
+          <sp xml:id="spa-speech-000014">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000015">(<hi rend="italic">A Dromio.</hi>) Vé á llevarlo al Centauro, donde posamos,
+Dromio, y esperarás allí que yo vaya á reunirme contigo. Dentro de una
+hora será la comida: hasta entonces voy á echar un vistazo sobre las
+costumbres de la ciudad, tratar á los mercaderes, mirar los edificios;
+después de lo cual volveré á tomar algún reposo en mi hostería, pues
+estoy cansado y adolorido de este largo viaje. Vete.</p>
+          </sp>
+          <sp xml:id="spa-speech-000015">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000016">Más de un hombre os tomaría la palabra gustosamente, y se iría
+en efecto teniendo tan buen medio de partir.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000006">
+(<hi rend="italic">Sale Dromio.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000016">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000017">(<hi rend="italic">Al mercader.</hi>) Es un criado de confianza, señor, que á
+menudo, cuando estoy agobiado por la inquietud y la melancolía, alegra
+mi humor con sus chanzas. Vamos, ¿queréis pasearos conmigo en la ciudad
+y venir en seguida á mi posada á comer conmigo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000017">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000018">Estoy invitado, señor, en casa de ciertos negociantes, de
+los cuales espero grandes beneficios. Os ruego me excuséis. Pero mas
+tarde, si gustáis, á las cinco, os tomaré en la plaza del mercado, y
+desde ese momento os haré compañía hasta la hora de acostarse. Mis
+negocios en este instante me obligan á dejaros.</p>
+          </sp>
+          <sp xml:id="spa-speech-000018">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000019">Adios, pues, hasta luégo. Yo, voy á perderme errando de aquí
+para allí, á fin de ver la ciudad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000019">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000020">Señor, os deseo mucha satisfacción.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000007">
+(<hi rend="italic">El mercader sale.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000020">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000021">(<hi rend="italic">Solo.</hi>) El que me desea la satisfacción, me desea lo que no
+puedo obtener: Estoy en el mundo como una gota de agua que busca en el
+Océano otra gota; y no pudiendo encontrar allí su compañera, se pierde
+ella propia errante é inapercibida. Así yo, desgraciado, para encontrar
+una madre y un hermano, me pierdo á mí propio buscándolos.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000008">
+(<hi rend="italic">Entra Dromio de Éfeso.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000021">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000022">(<hi rend="italic">Percibiendo á Dromio.</hi>) He aquí el almanaque de mi
+verdadera fecha. ¿Cómo, cómo sucede que estás de vuelta tan pronto?</p>
+          </sp>
+          <sp xml:id="spa-speech-000022">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000023">¿De vuelta tan pronto, decís? Mas bien vengo demasiado
+tarde. El capón se quema, el lechón se cae del asador; la campana del
+reloj ha dado las doce y mi dueña las juntó en la una sobre mi mejilla.
+Ella está tan acalorada porque la carne está fría: la carne está fría
+porque no venís á casa; no venís á casa porque no tenéis apetito; no
+tenéis apetito porque habéis almorzado: pero nosotros que sabemos lo que
+es ayunar y rogar, estamos en penitencia hoy por vuestra culpa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000023">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000024">Guardad vuestro resuello, señor, y responded á esto, os lo
+ruego: ¿dónde habéis dejado el dinero que os he remitido?</p>
+          </sp>
+          <sp xml:id="spa-speech-000024">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000025">¡Oh! ¿Qué? ¿Los seis cuartos que tuve el miércoles último para
+pagar al sillero la gurupera de mi ama? Es el sillero quien los ha
+tenido, señor; yo no los he guardado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000025">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000026">No estoy en este momento de humor de chancear: dime y sin
+tergiversar ¿dónde está el dinero? Somos extranjeros aquí. ¿Cómo osas
+confiar á otros la custodia de una cantidad tan fuerte?</p>
+          </sp>
+          <sp xml:id="spa-speech-000026">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000027">Os ruego, señor, chancead cuando os sentéis á la mesa para
+comer. Corro á todo escape á buscaros de parte de mi ama: si vuelvo sin
+vos no tendré escape para que ella no me escriba vuestra culpa en el
+hocico. Me parece que vuestro estómago debería, como el mío, hacer veces
+de reloj y llamaros al albergue sin necesidad de mensajero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000027">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000028">Vamos, vamos, Dromio, estas chanzas están fuera de razón.
+Guárdalas para hora más alegre que esta. ¿Dónde está el oro que he
+confiado á tu cuidado?</p>
+          </sp>
+          <sp xml:id="spa-speech-000028">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000029">¿Á mí, señor? ¡Pero si no me habéis dado oro!</p>
+          </sp>
+          <sp xml:id="spa-speech-000029">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000030">Vamos, señor bergante, dejad vuestras tonterías y decidme
+¿cómo has dispuesto de lo que te confié?</p>
+          </sp>
+          <sp xml:id="spa-speech-000030">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000031">Todo lo que se me ha confiado es el conduciros del mercado á
+casa, al Fénix, para comer: mi ama y su hermana os esperan.</p>
+          </sp>
+          <sp xml:id="spa-speech-000031">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000032">Tan verdad como soy cristiano, quieres responderme ¿en qué
+lugar de seguridad has puesto mi dinero? Ó voy á romper tu atolondrada
+cabeza que se obstina en la broma cuando no estoy dispuesto á ello:
+¿dónde están los mil fuertes que has recibido de mí?</p>
+          </sp>
+          <sp xml:id="spa-speech-000032">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000033">He recibido de vos algunos fuertes en la cabeza, algunos otros
+de mi ama sobre las espaldas, pero nunca mil fuertes entre vosotros dos.
+Y si los devolviera á vuestra señoría, quizá no los soportaría en
+paciencia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000033">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000034">¡Los fuertes de tu ama! ¿Y qué ama tienes tú, esclavo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000034">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000035">La esposa de vuestra señoría, mi ama, que está en el Fénix; la
+que ayuna hasta que vengáis á comer, y que os ruega venir lo más pronto
+para sentarse á la mesa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000035">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000036">¡Cómo! ¿Quieres reirte en mi cara de mí de ese modo después
+de habértelo prohibido?... Toma, toma esto, pícaro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000036">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000037">Eh! ¿Qué queréis decir, señor? En nombre de Dios, tened
+vuestras manos tranquilas; ó si no, voy á pedir socorro á mis piernas.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000009">
+(<hi rend="italic">Dromio huye.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000037">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000038">Por vida mía, de una manera ú otra, este pícaro se habrá
+dejado escamotear todo mi dinero. Dícese que esta ciudad está llena de
+pillos, de escamoteadores listos, que engañan la vista; de hechiceros
+que trabajan en las sombras, y cambian el espíritu; de agoreras asesinas
+del alma, que deforman el cuerpo; de bribones disfrazados, de
+charlatanes y de mil otros criminales autorizados. Si es así, no partiré
+sino lo más pronto. Voy á ir al Centauro para buscar á este esclavo:
+temo mucho que mi dinero no esté en seguridad.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000010">
+(<hi rend="italic">Sale.</hi>)<lb/>
+</stage>
+        </div>
+      </div>
+      <div type="act" n="2" xml:id="shakespeare-the-comedy-of-errors-spa-act-002">
+        <head>ACTO II.</head>
+        <div type="scene" n="1" xml:id="shakespeare-the-comedy-of-errors-spa-act-002-scene-001">
+          <head>ESCENA I.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000011">
+            <hi rend="italic">Plaza pública.</hi>
+            <lb/>
+            <name type="person">Entran ADRIANA y LUCIANA.</name>
+          </stage>
+          <sp xml:id="spa-speech-000038">
+            <speaker>ADRIANA</speaker>
+            <p xml:id="spa-p-000039"><seg rend="smcap">i</seg> mi marido, ni el esclavo á quien con tanta prisa envié á buscar á su
+amo, han vuelto. Luciana, son las dos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000039">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000040">Quizás algún comerciante le habrá invitado, y habrá ido del
+mercado á comer á alguna parte. Querida hermana, comamos y no os
+agitéis. Los hombres son dueños de su libertad. El tiempo es el único
+dueño de ellos; y, según ven el tiempo, van ó vienen. Así, tomad
+paciencia, mi querida hermana.</p>
+          </sp>
+          <sp xml:id="spa-speech-000040">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000041">Eh! ¿Por qué ha de ser su libertad mayor que la nuestra?</p>
+          </sp>
+          <sp xml:id="spa-speech-000041">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000042">Porque sus quehaceres están siempre fuera del hogar.</p>
+          </sp>
+          <sp xml:id="spa-speech-000042">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000043">Y ved, cuando yo hago lo mismo lo toma á mal.</p>
+          </sp>
+          <sp xml:id="spa-speech-000043">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000044">¡Oh! Sabed que él es la brida de vuestra voluntad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000044">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000045">No hay sino los asnos que se dejan embridar así.</p>
+          </sp>
+          <sp xml:id="spa-speech-000045">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000046">Una libertad obstinada es herida por la desgracia. Nada existe
+bajo el cielo, sobre la tierra, en el mar y en el firmamento, que no
+tenga sus límites.—Entre los animales, los peces y los pájaros alados,
+dominan los machos, y los demás están sujetos á su autoridad; los
+hombres, más cercanos de la divinidad, dueños de todas esas criaturas,
+soberanos del ancho mundo y de los vastos y turbulentos mares, dotados
+de alma y de inteligencia, de un rango más elevado que los peces y los
+pájaros, son los dueños de sus esposas y sus señores. Que vuestra
+voluntad sea, pues, sometida á sus acuerdos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000046">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000047">¿Es esta esclavitud lo que os impide casaros?</p>
+          </sp>
+          <sp xml:id="spa-speech-000047">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000048">No, no es eso, sino los inconvenientes del lecho conyugal.</p>
+          </sp>
+          <sp xml:id="spa-speech-000048">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000049">Pero, si fueses casada, sería necesario soportar la autoridad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000049">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000050">Antes de aprender á amar, quiero acostumbrarme á obedecer.</p>
+          </sp>
+          <sp xml:id="spa-speech-000050">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000051">¿Y si vuestro marido fuese á hacer alguna encartada á otra
+parte?</p>
+          </sp>
+          <sp xml:id="spa-speech-000051">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000052">Hasta que él hubiese vuelto á mí, yo tendría paciencia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000052">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000053">Mientras la paciencia no está perturbada, no es maravilla que
+se tenga tranquila. Puede ser dulce quien no tenga otro motivo. Pedimos
+á una alma desgraciada, oprimida por la adversidad, que esté tranquila
+cuando la oímos gemir. Pero si estuviéramos cargadas con el mismo peso
+de dolor, nos quejaríamos nosotros mismos tanto ó más aún. Así, tú que
+no tienes un marido duro que te aflija, pretendes consolarme instando
+una paciencia que no da ningún socorro; pero si vives suficiente para
+verte tratar como á mí, echarás pronto á un lado esta absurda paciencia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000053">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000054">Vamos, quiero casarme algún día, aunque no sea sino para hacer
+la prueba.—Pero, he aquí á vuestro esclavo que vuelve; vuestro marido
+no está lejos. (<hi rend="italic">Entra Dromio de Éfeso.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000054">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000055">¡Y bien! ¿Tu tardío amo está ya cerca?</p>
+          </sp>
+          <sp xml:id="spa-speech-000055">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000056">Verdaderamente, está á diez dedos de mí; lo cual pueden
+atestiguar mis orejas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000056">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000057">Dime ¿le has hablado? ¿Sabes su intención?</p>
+          </sp>
+          <sp xml:id="spa-speech-000057">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000058">Sí, sí; ha explicado su intención á mi oreja. Maldita sea su
+mano. ¡Trabajo he tenido para comprenderla!</p>
+          </sp>
+          <sp xml:id="spa-speech-000058">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000059">¿Ha hablado de una manera tan equívoca, que no hayas podido
+sentir su pensamiento?</p>
+          </sp>
+          <sp xml:id="spa-speech-000059">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000060">¡Oh! ha hablado tan claro, que no he sentido sino demasiado
+bien sus golpes; y á pesar de esto tan confusamente, que apenas los he
+comprendido.</p>
+          </sp>
+          <sp xml:id="spa-speech-000060">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000061">Pero, te ruego decirme ¿está en camino para volver aquí?
+¡Parece que se cuida bien de agradar á su esposa!</p>
+          </sp>
+          <sp xml:id="spa-speech-000061">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000062">Ama, mi amo es seguramente del orden del creciente ¿estáis?</p>
+          </sp>
+          <sp xml:id="spa-speech-000062">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000063">¡Del orden del creciente, pícaro!</p>
+          </sp>
+          <sp xml:id="spa-speech-000063">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000064">No quiero decir que sea deshonrado; pero ciertamente, es de
+todo punto lunático.—Cuando le he dado priesa de venir á comer, me ha
+pedido mil coronas en oro.—<hi rend="italic">Es hora de comer</hi>, le he dicho.—<hi rend="italic">Mi oro</hi>,
+ha respondido.—<hi rend="italic">Vuestras viandas se queman</hi>, he dicho.—<hi rend="italic">Mi oro</hi>,
+dijo.—<hi rend="italic">¿Váis á venir?</hi> dije.—<hi rend="italic">Mi oro</hi>, replicó, <hi rend="italic">¿dónde están las mil
+coronas que te he dado, malvado?</hi>—<hi rend="italic">El lechón</hi>, dije, <hi rend="italic">está todo
+quemado</hi>.—<hi rend="italic">Mi oro</hi>, díjome.—<hi rend="italic">Mi ama, señor</hi>, le dije.—<hi rend="italic">¡Que vaya tu
+ama á ahorcarse! ¡Yo no conozco ama! ¡Al diablo tu ama!</hi></p>
+          </sp>
+          <sp xml:id="spa-speech-000064">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000065">¿Quién ha dicho eso?</p>
+          </sp>
+          <sp xml:id="spa-speech-000065">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000066">Es mi amo quien lo ha dicho. <hi rend="italic">No conozco</hi>, dijo, <hi rend="italic">ni casa, ni
+esposa, ni ama</hi>. De suerte que os traigo sobre mis espaldas el mensaje
+del cual mi lengua debía haber sido encargada; pues, para concluir, me
+ha dado golpes sobre ellas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000066">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000067">Vuelve hacia él, miserable, y tráele al albergue.</p>
+          </sp>
+          <sp xml:id="spa-speech-000067">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000068">Sí, vuelve hacia él, para hacerte enviar otra vez al albergue
+molido de golpes! ¡En nombre de Dios! Enviad algún otro mensajero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000068">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000069">Vuelve á ir, esclavo, ó voy á abrirte la cabeza por en medio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000069">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000070">Y él bendecirá esta cruz con otros golpes. Entre ambos tendré
+una cabeza bien santa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000070">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000071">Vete, rústico hablador; conduce tu amo á la casa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000071">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000072">¿Soy tan movible con vos, como lo sois conmigo, para que me
+echéis como una pelota? Vos me arrojáis de aquí y él me arrojará para
+acá. Si he de durar en este servicio, haríais bien en aforrarme de
+cuero. (<hi rend="italic">Sale.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000072">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000073">¡Vaya! ¡Cómo rebaja la impaciencia la expresión de vuestro
+rostro!</p>
+          </sp>
+          <sp xml:id="spa-speech-000073">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000074">¿Es necesario que halague con su compañía á sus favoritas,
+mientras que yo languidezco en el albergue y suspiro por una mirada
+afectuosa? ¿Ha desaparecido con la fealdad de los años la belleza
+seductora de mi pobre rostro? Entonces es él quien lo ha marchitado. ¿Es
+fastidiosa mi conversación, estéril mi ingenio? Si ya no tengo una
+conversación viva y picante, es su dureza, peor que la del mármol, lo
+que la ha embotado. ¿Atraen otras su afecto con brillantes aderezos? No
+es culpa mía: él es dueño de mis bienes. ¿Qué estragos hay en mí que no
+haya causado él? Sí, es él solo quien ha alterado mis facciones.—Una
+mirada suya animadora restauraría bien pronto mi belleza; pero él,
+ciervo indomable, salta las empalizadas y corre á buscar pasto lejos de
+su albergue. ¡Pobre desventurada! No soy ya para él sino un goce pasado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000074">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000075">¡Celos con que te atormentas tú misma! ¡Ea, pues! arrójalos de
+ti.</p>
+          </sp>
+          <sp xml:id="spa-speech-000075">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000076">Sólo idiotas insensibles pueden prescindir de semejantes
+agravios. Sé que sus ojos llevan á otra parte su homenaje; si no ¿qué
+causa le impediría estar aquí? Hermana, sabéis que me ha prometido una
+cadena.—¡Pluguiera á Dios que esto fuese la sola cosa que me negara! No
+desertaría entonces de su lecho legítimo. Veo que la joya mejor
+esmaltada ha de perder su hermosura; que si el oro resiste largo tiempo
+al frotamiento, al fin se gasta con el roce; del mismo modo no hay
+hombre, que tenga un nombre sin que la falsedad y la corrupción lo
+degraden. Puesto que mi belleza no tiene encanto á sus ojos, llorando
+consumiré lo que me queda de ella, y moriré en el llanto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000076">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000077">¡Cuántas amantes insensatas se esclavizan á celos furiosos!</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000012">
+(<hi rend="italic">Salen.</hi>)<lb/>
+</stage>
+        </div>
+        <div type="scene" n="2" xml:id="shakespeare-the-comedy-of-errors-spa-act-002-scene-002">
+          <head>ESCENA II.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000013">
+            <hi rend="italic">Plaza pública.</hi>
+            <lb/>
+            <hi rend="italic">Entra </hi>
+            <name type="person">ANTÍFOLO</name>
+            <hi rend="italic"> de Siracusa.</hi>
+          </stage>
+          <sp xml:id="spa-speech-000077">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000078">El oro que remití á Dromio está colocado con seguridad en el
+Centauro, y el solícito esclavo ha ido á vagar por la ciudad en busca
+mía..... Según mi cálculo y la relación del hostelero, no ha podido
+hablar á Dromio desde que al principio lo envié del mercado..... Pero,
+hele aquí que viene. (<hi rend="italic">Entra Dromio de Siracusa</hi>). ¡Y bien! señor,
+¿habéis perdido vuestro buen humor? Ya que os agradan los golpes, no
+tenéis sino empezar de nuevo vuestra broma conmigo. ¿No conocéis el
+Centauro? ¿No habéis recibido el oro? ¿Vuestra ama os ha enviado á
+buscarme para comer? ¿Mi alojamiento era en el Fénix? ¿Has perdido la
+razón para darme respuestas tan descabelladas?</p>
+          </sp>
+          <sp xml:id="spa-speech-000078">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000079">¿Qué respuestas, señor? ¿Cuándo os he hablado así?</p>
+          </sp>
+          <sp xml:id="spa-speech-000079">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000080">Hace apenas un momento, aquí mismo; no hace media hora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000080">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000081">No os he visto desde que me habéis mandado de aquí al Centauro
+con el oro que me habíais confiado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000081">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000082">Pícaro, me has negado haber recibido este depósito, y me has
+hablado de una ama y de una comida, lo que me desagradaba demasiado,
+como habrás sentido, lo espero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000082">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000083">Estoy muy satisfecho de veros en vena de buen humor: pero ¿qué
+quiere decir esta broma? Os ruego, mi señor, que os expliquéis.</p>
+          </sp>
+          <sp xml:id="spa-speech-000083">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000084">¡Qué! ¿quieres hacerme burla aún y provocarme de frente?
+¿Piensas que chanceo? Toma, toma esto y esto.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000014">
+(<hi rend="italic">Le golpea</hi>).<lb/>
+</stage>
+          <sp xml:id="spa-speech-000084">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000085">Parad, señor, ¡en nombre de Dios! Ya vuestro juego se vuelve de
+veras. ¿Por qué motivo me golpeais así?</p>
+          </sp>
+          <sp xml:id="spa-speech-000085">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000086">¡Porque te tomo familiarmente algunas veces por mi bufón, y
+converso contigo, tu insolencia se burlará de mi afecto é interrumpirá
+libremente mis horas serias! Cuando brilla el sol retocen los moscones;
+pero desde que oculta sus rayos escúrranse en los agujeros de las
+paredes. Cuando quieras bromear conmigo, estudia mi rostro y conforma
+tus modales á mi fisonomía, ó bien haré entrar á golpes este método en
+tu cabeza.</p>
+          </sp>
+          <sp xml:id="spa-speech-000086">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000087">En mi cráneo, decís. Preferiría yo que fuese cabeza, no cráneo
+solo, si dejarais de magullarla; pero si seguís con estos golpes, será
+necesario procurarme un cráneo para cubrir mi cabeza y ponerla al
+abrigo, ó si no tendré que buscar mi entendimiento en mis espaldas.
+¿Pero por gracia, señor, por qué me golpeais?</p>
+          </sp>
+          <sp xml:id="spa-speech-000087">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000088">¿No lo sabes?</p>
+          </sp>
+          <sp xml:id="spa-speech-000088">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000089">No sé nada, señor, sino que soy golpeado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000089">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000090">¿Quieres que te diga por qué?</p>
+          </sp>
+          <sp xml:id="spa-speech-000090">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000091">Sí, señor, el por qué. Pues dícese que todo por qué tiene su
+por qué.</p>
+          </sp>
+          <sp xml:id="spa-speech-000091">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000092">Desde luégo, porque has osado burlarte de mí. ¿Y por qué
+todavía? Por haber venido á burlarte una segunda vez.</p>
+          </sp>
+          <sp xml:id="spa-speech-000092">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000093">¿Se ha golpeado alguna vez á un hombre tan mal á propósito,
+cuando en el por qué y en el por qué no hay concordancia ni
+razón?—Vamos, señor, os doy gracias.</p>
+          </sp>
+          <sp xml:id="spa-speech-000093">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000094">Me das gracias, y á propósito ¿de qué?</p>
+          </sp>
+          <sp xml:id="spa-speech-000094">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000095">¡Ah! señor, porque me habéis dado algo por nada.</p>
+          </sp>
+          <sp xml:id="spa-speech-000095">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000096">Te lo pagaré pronto, dándote nada por algo.—Pero dime, ¿es
+la hora de comer?</p>
+          </sp>
+          <sp xml:id="spa-speech-000096">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000097">No, señor; creo que á la comida le falta de lo que yo tengo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000097">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000098">Vamos, ¿de qué?</p>
+          </sp>
+          <sp xml:id="spa-speech-000098">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000099">De salsa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000099">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000100">¡Bien! Entonces estará seca.</p>
+          </sp>
+          <sp xml:id="spa-speech-000100">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000101">Si es así, señor, os ruego no probarla.</p>
+          </sp>
+          <sp xml:id="spa-speech-000101">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000102">¿Y la razón?</p>
+          </sp>
+          <sp xml:id="spa-speech-000102">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000103">De miedo de que os haga encolerizaros y me valga otra salsa de
+palos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000103">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000104">Vamos, aprende á chancear á propósito. Cada cosa á su tiempo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000104">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000105">Habría osado negarlo antes que os hubiéseis puesto tan enojado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000105">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000106">¿Según qué regla?</p>
+          </sp>
+          <sp xml:id="spa-speech-000106">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000107">¡Diablos, señor! Según una regla tan llana como la cabeza calva
+del viejo padre Tiempo en persona.</p>
+          </sp>
+          <sp xml:id="spa-speech-000107">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000108">Veámosla.</p>
+          </sp>
+          <sp xml:id="spa-speech-000108">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000109">No hay ocasión de que recobre sus cabellos el hombre que se
+pone naturalmente calvo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000109">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000110">¿No puede recobrarlos por multa y recobros?</p>
+          </sp>
+          <sp xml:id="spa-speech-000110">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000111">Sí, pagando multa por llevar peluca, y recobrando de los
+cabellos que ha perdido otro hombre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000111">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000112">¿Por qué el tiempo escatima tanto los cabellos, puesto que
+son una secreción tan abundante?</p>
+          </sp>
+          <sp xml:id="spa-speech-000112">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000113">Porque es un dón que prodiga á los animales; y lo que quita á
+los hombres en cabellos se lo devuelve en cordura.</p>
+          </sp>
+          <sp xml:id="spa-speech-000113">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000114">¡Cómo! Si existen hombres que tienen más cabellos que
+entendimiento!</p>
+          </sp>
+          <sp xml:id="spa-speech-000114">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000115">Ninguno de esos hombres tiene el talento de perder los
+cabellos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000115">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000116">¡Pues qué! has dicho ahora poco que los hombres de abundantes
+cabellos son buenas gentes sin ingenio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000116">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000117">Cuanto más simple es un hombre, tanto más pronto los pierde.
+Sin embargo, los pierde con una especie de alegría.</p>
+          </sp>
+          <sp xml:id="spa-speech-000117">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000118">¿Por qué razón?</p>
+          </sp>
+          <sp xml:id="spa-speech-000118">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000119">Por dos razones, y dos buenas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000119">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000120">Te ruego no digas <hi rend="italic">buenas</hi>.</p>
+          </sp>
+          <sp xml:id="spa-speech-000120">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000121">Entonces por dos razones seguras.</p>
+          </sp>
+          <sp xml:id="spa-speech-000121">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000122">No, no seguras, en una cosa falsa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000122">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000123">Entonces por dos razones ciertas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000123">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000124">Preséntalas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000124">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000125">Una, para economizar el dinero que le costarían sus rizos;
+otra, á fin de que en la comida sus cabellos no caigan en la sopa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000125">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000126">Deberías haber probado en todo este tiempo que no hay tiempo
+para todo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000126">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000127">Y así lo he hecho, señor, probando que no hay tiempo para
+recobrar los cabellos que se han perdido naturalmente.</p>
+          </sp>
+          <sp xml:id="spa-speech-000127">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000128">Pero no has dado una razón sólida para probar que no hay
+tiempo alguno para recobrarlos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000128">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000129">Voy á remediarlo de este modo. El Tiempo mismo es calvo; así,
+pues, hasta el fin del mundo tendrá un séquito de hombres calvos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000129">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000130">Sabía que la conclusión sería calva. Pero despacio, ¿quién
+nos hace señas allá abajo?</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000015">
+(<hi rend="italic">Entran Adriana y Luciana.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000130">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000131">Sí, sí, Antífolo; tienes una expresión extraña y adusta:
+guardas tus dulces miradas para alguna otra querida: no soy más tu
+Adriana, tu esposa. Hubo un tiempo en que sin exigírtelo jurabas que
+ninguna habla era una música á tu oído sino el sonido de mi voz; ningún
+objeto tan encantador á tus ojos como mis miradas; ningún tacto más
+lisonjero para tu mano que el de la mía; ningún manjar delicioso que te
+agradase sino los que yo te servía. Cómo sucede hoy, esposo mío, ¡oh!
+cómo sucede que te hayas alejado tanto de ti mismo? Sí; digo alejado de
+ti mismo, porque lo estás de mí; que, siendo incorporada á ti,
+inseparable de ti, soy más que la mejor y más amada parte de ti mismo.
+¡Ah! no te arranques de mi lado; pues créeme, mi bien amado, que te
+sería tan fácil dejar caer una gota de agua en el Océano y recogerla en
+seguida sin mezcla, sin adición, ni disminución alguna, como separarte
+de mí sin arrastrarme contigo también. ¡Oh! ¿cómo heriría tu corazón en
+lo más vivo, si oyeras solamente decir que soy infiel, y que este
+cuerpo, consagrado á ti, es manchado por una grosera voluptuosidad? ¿No
+me escupirías el rostro? ¿No me arrojarías? ¿No me echarías en cara el
+nombre de marido? ¿No desgarrarías la piel teñida de mi frente de
+cortesana? ¿No arrancarías el anillo nupcial de mi mano pérfida? ¿Y no
+le destrozarías con el juramento del divorcio? Sé que no lo puedes: ¡y
+bien! hazlo desde este momento..... Estoy cubierta con una mancha
+adúltera; mi sangre está manchada con el crimen de la prostitución; pues
+si los dos no formamos sino una sola carne y tú eres infiel, recibo el
+veneno mezclado en tus venas y quedo prostituída por tu contagio.—Sé,
+pues, constante y fiel á tu lecho legítimo. Entonces viviremos yo sin
+mancha y tú sin deshonor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000131">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000132">¿Es á mí á quien persuadís, bella dama? No os conozco. No ha
+sino dos horas que estoy en Éfeso, tan extranjero á vuestra ciudad como
+á vuestros discursos: y aunque tengo que emplear toda mi atención para
+estudiar cada una de vuestras palabras, no puedo comprender una sola de
+lo que decís.</p>
+          </sp>
+          <sp xml:id="spa-speech-000132">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000133">¡Vaya, hermano, cómo ha cambiado el mundo para vos! ¿Cuándo
+habéis tratado así á mi</p>
+            <p xml:id="spa-p-000134">—<hi rend="italic">¿Es á mí á quien persuadís, bella dama?</hi></p>
+            <p xml:id="spa-p-000135">hermana? Ella os ha enviado á buscar por Dromio para comer.</p>
+          </sp>
+          <sp xml:id="spa-speech-000133">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000136">¿Por Dromio?</p>
+          </sp>
+          <sp xml:id="spa-speech-000134">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000137">¿Por mí?</p>
+          </sp>
+          <sp xml:id="spa-speech-000135">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000138">Por ti. Y he aquí la respuesta que me has traído: que él te
+había abofeteado, y que al hacerlo había renegado mi casa por suya y á
+mí por su esposa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000136">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000139">¿Habéis hablado á esta dama? ¿Cuál es, pues, el giro y el fin
+de vuestra intriga?</p>
+          </sp>
+          <sp xml:id="spa-speech-000137">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000140">Yo, señor, no la he visto jamás hasta este momento.</p>
+          </sp>
+          <sp xml:id="spa-speech-000138">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000141">Mientes, bellaco; pues me has repetido en la plaza las
+propias palabras que acabas de decir.</p>
+          </sp>
+          <sp xml:id="spa-speech-000139">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000142">Jamás en mi vida le he hablado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000140">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000143">¿Cómo sucede, pues, que nos llama por nuestros nombres, á
+menos que no sea por inspiración?</p>
+          </sp>
+          <sp xml:id="spa-speech-000141">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000144">¡Qué mal sienta á vuestra gravedad fingir tan groseramente, de
+acuerdo con vuestro esclavo, y excitarlo á que me contraríe! Sea mía la
+culpa y que de ella no os toque parte alguna; pero no os hagáis culpable
+hacia esa culpa añadiendo todavía mayor desprecio. Vamos, voy á coger tu
+brazo: tú eres el olmo, esposo mío, y yo soy la vid, cuya debilidad
+unida á tu fuerza me da algo de tu vigor; si algún objeto te desliga de
+mí, no puede ser sino una vil planta, una yedra usurpadora ó un musgo
+inútil que, creciendo sin cultivo, penetra en tu savia, la infecta y
+vive á expensas de tu honor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000142">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000145">¡Es á mí á quien habla! Me toma por tema de sus discursos.
+¡Qué! ¿La habré desposado en sueños, ó estoy dormido en este momento y
+me imagino oir todo esto? ¿Qué error engaña nuestros oídos y nuestros
+ojos? Hasta que haya aclarado esta incertidumbre quiero entretener el
+error que se me ofrece.</p>
+          </sp>
+          <sp xml:id="spa-speech-000143">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000146">Dromio, vé á decir á los criados que sirvan la comida.</p>
+          </sp>
+          <sp xml:id="spa-speech-000144">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000147">¡Oh! ¡Si yo tuviese mi rosario! Me santiguo como pecador. Este
+es el país de las hadas. ¡Oh enigma de los enigmas! Hablamos á
+fantasmas, á buhos, á espíritus fantásticos. Si no les obedecemos, he
+aquí lo que sucederá: nos chuparán la sangre ó nos pellizcarán hasta
+ponernos azules y negros.</p>
+          </sp>
+          <sp xml:id="spa-speech-000145">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000148">¿Qué refunfuñas ahí á tus solas en lugar de responder? Dromio,
+zángano, caracol, holgazán, imbécil.</p>
+          </sp>
+          <sp xml:id="spa-speech-000146">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000149">Estoy metamorfoseado, amo; ¿no es verdad?</p>
+          </sp>
+          <sp xml:id="spa-speech-000147">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000150">Creo que lo estás en tu alma, y que yo también lo estoy.</p>
+          </sp>
+          <sp xml:id="spa-speech-000148">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000151">Todo, á fe, amo mío, alma y cuerpo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000149">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000152">Tú conservas tu propia forma.</p>
+          </sp>
+          <sp xml:id="spa-speech-000150">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000153">No: soy un mono.</p>
+          </sp>
+          <sp xml:id="spa-speech-000151">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000154">Si en algo te has convertido, es en asno.</p>
+          </sp>
+          <sp xml:id="spa-speech-000152">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000155">Eso es verdad: yo la llevo á cuestas y estoy ansioso de pacer.
+No hay duda; soy un asno. ¿De qué otro modo podría ser que la conociese
+yo tan bien como ella me conoce?</p>
+          </sp>
+          <sp xml:id="spa-speech-000153">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000156">Vamos, vamos, no quiero ser tan necia que me ponga el dedo en
+el ojo y llore, mientras que el criado y el amo ríen y se burlan de mis
+males. Vamos, señor, venid á comer: Dromio, cuida la puerta. Esposo mío,
+hoy comeré arriba con vos y os obligaré á hacer confesión de mil
+travesuras. Oye, bellaco; si alguien viniere á preguntar por tu amo,
+dirás que come fuera y no dejarás entrar alma viviente. Venid, hermana.
+Dromio, haz bien tu papel de portero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000154">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000157">¿Estoy en la tierra, en el cielo ó en el infierno? ¿Estoy
+dormido ó despierto, loco ó en mi buen sentido? Conocido de éstas y
+disfrazado para mí mismo. Diré lo que digan ellas, lo sostendré con
+perseverancia y en esta niebla me dejaré llevar á todas las aventuras.</p>
+          </sp>
+          <sp xml:id="spa-speech-000155">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000158">Amo, ¿serviré de portero?</p>
+          </sp>
+          <sp xml:id="spa-speech-000156">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000159">Sí; no dejes entrar á nadie, si no quieres que te rompa la
+cabeza.</p>
+          </sp>
+          <sp xml:id="spa-speech-000157">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000160">Vamos, venid, Antífolo. Comemos demasiado tarde.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000016">
+(<hi rend="italic">Salen.</hi>)<lb/>
+</stage>
+        </div>
+      </div>
+      <div type="act" n="3" xml:id="shakespeare-the-comedy-of-errors-spa-act-003">
+        <head>ACTO III.</head>
+        <div type="scene" n="1" xml:id="shakespeare-the-comedy-of-errors-spa-act-003-scene-001">
+          <head>ESCENA I.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000017">
+            <hi rend="italic">Se ve la calle que pasa delante de la casa de Antífolo de Éfeso.</hi>
+            <lb/>
+            <name type="person">ANTÍFOLO de Éfeso, DROMIO de Éfeso, ANGELO y BALTASAR.</name>
+          </stage>
+          <sp xml:id="spa-speech-000158">
+            <speaker>ANTÍFOLO DE ÉFESO</speaker>
+            <p xml:id="spa-p-000161"><seg rend="smcap">i</seg> buen señor Angelo, es necesario que nos excuséis á todos: mi mujer se
+pone de mal humor, cuando no llego á tiempo. Decid que me entretuve en
+vuestra tienda viendo trabajar en su cadena, y que mañana la llevaréis á
+la casa. Pero he aquí un canalla que quiere sostener en mi presencia que
+me ha alcanzado en la plaza, que le he golpeado, que le he confiado mil
+marcos en oro, y que he renegado de mi casa y mi esposa.—¿Qué quisiste
+decirme con esto, grandísimo borracho?</p>
+          </sp>
+          <sp xml:id="spa-speech-000159">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000162">Decid lo que queráis, señor; pero yo sé lo que sé.
+Guardo todavía las señales de vuestra mano para probar que me habéis
+golpeado en la plaza. Si mi piel fuese un pergamino y vuestros golpes
+tinta, vuestra propia escritura atestiguaría lo que digo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000160">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000163">Yo, digo que eres un asno.</p>
+          </sp>
+          <sp xml:id="spa-speech-000161">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000164">Por cierto que así parece por los malos tratos que
+recibo y por los golpes que sufro. Debería responder á un puntapié con
+una coz, y entonces os guardaríais de mis cascos y tendríais cuidado con
+el asno.</p>
+          </sp>
+          <sp xml:id="spa-speech-000162">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000165">Estáis triste, señor Baltasar. Ruego á Dios que nuestro
+banquete responda á mi buena voluntad y á la buena acogida que
+recibiréis aquí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000163">
+            <speaker>Baltasar</speaker>
+            <p xml:id="spa-p-000166">Doy poco valor á vuestro banquete, señor, al lado del alto
+valor de vuestra buena acogida.</p>
+          </sp>
+          <sp xml:id="spa-speech-000164">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000167">¡Oh! señor Baltasar, sea carne ó pescado, una mesa llena de
+buena acogida hace parecer pobre el plato más exquisito.</p>
+          </sp>
+          <sp xml:id="spa-speech-000165">
+            <speaker>Baltasar</speaker>
+            <p xml:id="spa-p-000168">La buena vianda es común, señor; se encuentra hasta en la
+mesa de todos los rústicos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000166">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000169">Y una buena acogida es aún más común; porque no es nada sino
+palabras.</p>
+          </sp>
+          <sp xml:id="spa-speech-000167">
+            <speaker>Baltasar</speaker>
+            <p xml:id="spa-p-000170">Mesa parca y buena acogida hacen una alegre fiesta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000168">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000171">Sí, para un huésped avaro y un convidado aún más mezquino.
+Pero, aunque mis provisiones sean exiguas, aceptadlas de buena gracia:
+podéis encontrar mejor festín, pero no ofrecido más de corazón.—Pero
+despacio, mi puerta está cerrada. (<hi rend="italic">Á Dromio.</hi>) Vé á decir que se nos
+abra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000169">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000172">(<hi rend="italic">Llamando.</hi>) Hola, Magdalena, Brígida, Mariana, Cecilia,
+Giulieta, Juana.</p>
+          </sp>
+          <sp xml:id="spa-speech-000170">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000173">(<hi rend="italic">Dentro.</hi>) Silencio, caballo de noria, capón,
+gañán, idiota! Aléjate de la puerta ó siéntate en el umbral. ¿Andas
+reclutando mozas que así llamas tal surtido de ellas, cuando con una
+sola hay ya una de más? Vamos, vete de esta puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000171">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000174">¿Qué belitre nos han dado de portero?—Mi amo espera
+en la calle.</p>
+          </sp>
+          <sp xml:id="spa-speech-000172">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000175">Que se marche por donde vino, no sea que coja frío
+en los piés.</p>
+          </sp>
+          <sp xml:id="spa-speech-000173">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000176">¿Quién habla ahí dentro? ¡Hola! abrid la puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000174">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000177">Bien, señor; os diré el cuándo si me decís para
+qué!</p>
+          </sp>
+          <sp xml:id="spa-speech-000175">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000178">¿Para qué? Para sentarme á comer; no he comido hoy.</p>
+          </sp>
+          <sp xml:id="spa-speech-000176">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000179">Ni comeréis hoy aquí; volved cuando podáis.</p>
+          </sp>
+          <sp xml:id="spa-speech-000177">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000180">¿Quién eres para cerrarme la puerta de mi casa?</p>
+          </sp>
+          <sp xml:id="spa-speech-000178">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000181">Soy portero por el momento, señor, y mi nombre es
+Dromio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000179">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000182">¡Ah! bandido! me has robado á la vez mi empleo y mi
+nombre. El uno no me ha dado jamás honra y el otro me ha traído amargos
+reproches. Si hubieses sido Dromio hoy y hubieses estado en mi lugar,
+habrías cambiado con gusto tu facha por un nombre, ó tu nombre por un
+asno.</p>
+          </sp>
+          <sp xml:id="spa-speech-000180">
+            <speaker>Lucía</speaker>
+            <p xml:id="spa-p-000183">(<hi rend="italic">Del interior de la casa.</hi>) ¿Qué barullo es ese? ¿Dromio, qué
+gente es esa que está en la puerta?</p>
+          </sp>
+          <sp xml:id="spa-speech-000181">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000184">Lucía, haz entrar á mi amo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000182">
+            <speaker>Lucía</speaker>
+            <p xml:id="spa-p-000185">No, ciertamente: viene demasiado tarde; puedes decírselo á tu
+amo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000183">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000186">¡Santo Dios! Es necesario que ría.—Á vos el
+proverbio. ¿Debo colocar mi bastón?</p>
+          </sp>
+          <sp xml:id="spa-speech-000184">
+            <speaker>Lucía</speaker>
+            <p xml:id="spa-p-000187">Y á vos este otro; quiere decir ¿cuándo? ¿Podéis decirlo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000185">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000188">Si tu nombre es Lucía, Lucía le has respondido
+bien.</p>
+          </sp>
+          <sp xml:id="spa-speech-000186">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000189">¿Oyes, tontuela? ¿Espero que nos dejarás entrar?</p>
+          </sp>
+          <sp xml:id="spa-speech-000187">
+            <speaker>Lucía</speaker>
+            <p xml:id="spa-p-000190">Pensaba habéroslo preguntado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000188">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000191">Y habéis dicho que no.</p>
+          </sp>
+          <sp xml:id="spa-speech-000189">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000192">Vamos, bien, bien contestado; es golpe por golpe.</p>
+          </sp>
+          <sp xml:id="spa-speech-000190">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000193">Ea! maula, déjame entrar.</p>
+          </sp>
+          <sp xml:id="spa-speech-000191">
+            <speaker>Lucía</speaker>
+            <p xml:id="spa-p-000194">¿Podríais decir para agradar á quién?</p>
+          </sp>
+          <sp xml:id="spa-speech-000192">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000195">Señor, golpead fuerte en la puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000193">
+            <speaker>Lucía</speaker>
+            <p xml:id="spa-p-000196">Que golpee, hasta que le duela á la puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000194">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000197">Te lo haré pagar caro, aunque tenga que echar abajo
+la puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000195">
+            <speaker>Lucía</speaker>
+            <p xml:id="spa-p-000198">¿Quién se antoja de eso y de un cepo de piés en la ciudad?</p>
+          </sp>
+          <sp xml:id="spa-speech-000196">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000199">(<hi rend="italic">En el interior de la casa.</hi>) ¿Quién hace tanto ruido en la
+puerta?</p>
+          </sp>
+          <sp xml:id="spa-speech-000197">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000200">Bajo mi palabra, que vuestra ciudad está
+embarullada por mozos turbulentos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000198">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000201">¿Estáis ahí, esposa mía? Podíais haber venido un
+poco más pronto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000199">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000202">¿Vuestra esposa, señor bribón? Ea! Marchaos de esta puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000200">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000203">Si tenéis que sufrir, señor, ese bribón no quedará
+bueno y sano.</p>
+          </sp>
+          <sp xml:id="spa-speech-000201">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000204">(<hi rend="italic">Á Antífolo de Éfeso.</hi>) Aquí no hay ni mesa puesta, ni buena
+acogida; ya quisiéramos tener una ú otra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000202">
+            <speaker>Baltasar</speaker>
+            <p xml:id="spa-p-000205">Discutiendo lo que se debe hacer, no perderemos una ni otra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000203">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000206">(<hi rend="italic">Á Antífolo.</hi>) Estos señores están en la puerta, mi
+amo; decidles pues, que entren.</p>
+          </sp>
+          <sp xml:id="spa-speech-000204">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000207">Algo de sospechoso sucede cuando no podemos entrar.</p>
+          </sp>
+          <sp xml:id="spa-speech-000205">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000208">Vuestra sopa está caliente, adentro; y vos quedáis
+aquí expuesto al frío. Hay para poner á un hombre furioso como un gamo,
+cuando es engañado y burlado de este modo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000206">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000209">Vé á traer alguna cosa para derribar la puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000207">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000210">Romped alguna cosa aquí, y yo romperé vuestra
+cabeza de bribón.</p>
+          </sp>
+          <sp xml:id="spa-speech-000208">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000211">Vamos, quiero entrar por fuerza; vé á traer una
+grúa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000209">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000212">¿Una grúa sin plumas, señor, es lo que queréis decir?
+Para un pez sin nadaderas, hé aquí un pájaro sin plumas; si un pájaro
+puede hacernos entrar, tunante, desplumaremos un cuervo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000210">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000213">Vé pronto á buscarme una grúa de hierro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000211">
+            <speaker>Baltasar</speaker>
+            <p xml:id="spa-p-000214">Tened paciencia, señor. ¡Oh! No lleguéis á tal extremidad.
+Hacéis mal á vuestra reputación y vais á poner al alcance de las
+sospechas el honor inmaculado de vuestra esposa. Una palabra más.
+Vuestra larga experiencia de su sensatez, de su casta virtud, de sus
+años y de su modestia alegan en su favor alguna razón que os es
+desconocida; no dudéis, señor; ella os explicará por qué se encuentran
+hoy cerradas para vos las puertas; dejaos guiar por mí, apartaos de este
+lugar con paciencia y vamos á comer juntos á la hostería del Tigre, y al
+caer la tarde volved solo para saber la razón de esta extraña sorpresa.
+Si queréis entrar por fuerza en medio del movimiento del día, se
+suscitarán sobre esto los comentarios del vulgo. Las suposiciones
+injuriosas á vuestra reputación, sin mancha aún, se deslizarán hasta
+vuestra tumba y se albergarán sobre ella cuando ya no existáis. La
+calumnia vive de herencias y se establece para siempre allí donde
+penetra una vez.</p>
+          </sp>
+          <sp xml:id="spa-speech-000212">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000215">Habéis prevalecido. Voy á retirarme tranquilamente,
+y á despecho de la alegría, pretenderé estar alegre. Conozco una moza de
+humor encantador, bonita y espiritual, un poco extravagante, y, sin
+embargo, benigna. Comeremos allí; mi esposa me ha movido querella muy á
+menudo por ese motivo, pero inmerecidamente lo protesto. Iremos á comer
+donde ella. Volved á vuestra casa y traed la cadena. Sé que ha de estar
+terminada á esta hora. Llevadla, os lo ruego, al Puerco-espín, que es la
+casa. Voy á regalar esta cadena á mi hostelera, aunque no sea sino para
+hacer rabiar á mi esposa; querido amigo, daos prisa; puesto que mi
+esposa me cierra las puertas, iré á llamar á otra parte y veremos si me
+rechaza del mismo modo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000213">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000216">Iré á encontraros á esta cita dentro de una hora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000214">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000217">Hacedlo; esta broma me costará algún gasto.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2" xml:id="shakespeare-the-comedy-of-errors-spa-act-003-scene-002">
+          <head>ESCENA II.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000018">
+            <hi rend="italic">La casa de Antífolo de Éfeso.</hi>
+            <lb/>
+            <name type="person">LUCIANA</name>
+            <hi rend="italic"> aparece con </hi>
+            <name type="person">ANTÍFOLO</name>
+            <hi rend="italic"> de Siracusa.</hi>
+          </stage>
+          <sp xml:id="spa-speech-000215">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000218">¡Ah! ¿Es posible que hayáis olvidado completamente los deberes
+de un marido? Qué, Antífolo, ¿vendrá el odio desde la primavera del amor
+á corromper los primeros brotes de vuestro amor? ¿El edificio empezado á
+fabricar por el amor amenazará ruina desde ahora? Si habéis desposado á
+mi hermana por su riqueza, al menos, por consideración á ésta, tratadla
+con más bondad. Si amáis en otra parte, hacedlo en secreto; ocultad
+vuestro amor pérfido con alguna apariencia de misterio y que mi hermana
+no lo lea en vuestros ojos. Que vuestra lengua no sea heraldo de vuestra
+vergüenza; el aspecto afable, las palabras honestas convienen á la
+deslealtad; revestid al vicio con la librea de la virtud; conservad la
+actitud de la inocencia, aunque vuestro corazón sea culpable; enseñad al
+crimen á llevar el exterior de la santidad; sed pérfido en silencio.
+¿Qué necesidad hay de que ella sepa nada? ¿Qué ladrón es tan torpe que
+se jacte de su propio delito? Es doble injuria abandonar vuestro lecho y
+hacerlo comprender en la mesa por vuestro aspecto. Hay para el vicio una
+especie de buena fama bastarda cuando se le maneja con habilidad. Las
+malas acciones se duplican con las malas palabras. ¡Ah! ¡Pobres mujeres!
+Puesto que es fácil engañarnos, hacednos creer á lo menos que nos amáis.
+Si otras tienen el brazo, mostradnos al menos la manga; estamos
+avasalladas á todos vuestros movimientos y nos hacéis mover como
+queréis. Vamos, querido hermano, entrad en casa; consolad á mi hermana,
+regocijadla, llamadla vuestra esposa. Es una mentira santa el faltar un
+poco á la sinceridad, cuando la dulce voz de la lisonja subyuga á la
+discordia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000216">
+            <speaker>Antífolo de Siracusa</speaker>
+            <p xml:id="spa-p-000219">Amada señora (pues no conozco vuestro nombre ni
+sé por qué prodigio habéis podido acertar con el mío), vuestra
+inteligencia y vuestra gracia hacen de vos nada menos que una maravilla
+del mundo. Sois una criatura divina; enseñadme lo que debo pensar, lo
+que debo decir. Manifestad á mi inteligencia grosera, terrena, ahogada
+por los errores, débil, ligera y superficial, el sentido del enigma
+oculto en el disfraz de vuestras palabras. ¿Por qué trabajáis contra la
+sencilla rectitud de mi alma para hacerla vagar por un campo
+desconocido? ¿Sois un dios? ¿Querríais crearme de nuevo? Transformadme,
+pues, y cederé á vuestro poder. Pero si soy yo mismo, sé bien entonces
+que vuestra llorosa hermana no es mi esposa ni debo homenaje alguno á su
+lecho. Mucho más, mucho más arrastrado me siento hacia vos. ¡Ah! No me
+atraigas con tus cantos, dulce sirena, para ahogarme en la corriente de
+las lágrimas de tu hermana. Canta, sirena, para ti misma y te adoraré;
+extiende sobre la onda plateada tus dorados cabellos y serás el lecho
+donde me recline. Si tal gloria fuese posible, ¡dichoso aquel que
+muriera teniendo semejante modo de morir! Que el amor, este sér ligero,
+se ahogue, si se hunde bajo las aguas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000217">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000220">¡Qué! ¿Estáis loco para discurrir de esta manera?</p>
+          </sp>
+          <sp xml:id="spa-speech-000218">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000221">No, no estoy loco; estoy subyugado, no sé cómo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000219">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000222">Es una ilusión de vuestros ojos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000220">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000223">Por haber visto de cerca vuestros rayos, brillante sol.</p>
+          </sp>
+          <sp xml:id="spa-speech-000221">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000224">No veáis sino lo que debéis ver, y vuestra vista se
+despejará.</p>
+          </sp>
+          <sp xml:id="spa-speech-000222">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000225">Tanto vale cerrar los ojos, dulce amor, como abrirlos en la
+oscuridad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000223">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000226">¡Qué! ¿Me llamáis amor? Dad ese nombre á mi hermana.</p>
+          </sp>
+          <sp xml:id="spa-speech-000224">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000227">Á la hermana de vuestra hermana.</p>
+          </sp>
+          <sp xml:id="spa-speech-000225">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000228">Queréis decir mi hermana.</p>
+          </sp>
+          <sp xml:id="spa-speech-000226">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000229">No: sino tú misma; tú, la mejor mitad de mi sér; la pura luz
+de mis pupilas; el caro corazón de mi corazón; mi alimento, mi fortuna y
+el único anhelo de mi tierna esperanza; tú, mi cielo en la tierra, toda
+mi ambición en el cielo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000227">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000230">Mi hermana es todo esto, ó al menos, debería serlo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000228">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000231">Toma tú misma el nombre de hermana, mi bien amada, pues es á
+ti á quien aspiro: es á ti á quien quiero amar; es contigo con quien
+quiero pasar mi vida. No tienes esposo aún, ni yo tengo aún esposa. Dame
+tu mano.</p>
+          </sp>
+          <sp xml:id="spa-speech-000229">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000232">¡Oh! Poco á poco, señor: esperad, voy á traer á mi hermana
+para pedirle su consentimiento.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000019">
+(<hi rend="italic">Sale Luciana.—Entra Dromio de Siracusa.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000230">
+            <speaker>Antífolo de Siracusa</speaker>
+            <p xml:id="spa-p-000233">¡Y bien! ¿Qué ocurre, Dromio? ¿Á dónde corres tan
+aprisa?</p>
+          </sp>
+          <sp xml:id="spa-speech-000231">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000234">¿Me conocéis, señor? ¿Soy Dromio? ¿Soy vuestro criado? ¿Soy yo,
+yo mismo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000232">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000235">Eres Dromio, eres mi criado, eres tú mismo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000233">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000236">Soy un asno, soy el hombre de una mujer, y todo esto sin ser yo
+parte en ello.</p>
+          </sp>
+          <sp xml:id="spa-speech-000234">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000237">¡Cómo! ¿El hombre de qué mujer? ¿Y cómo sin que seas parte en
+ello?</p>
+          </sp>
+          <sp xml:id="spa-speech-000235">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000238">Á fe mía, señor, que sin saber cómo pertenezco á una mujer; á
+una mujer que me reivindica; á una mujer que me persigue; á una mujer
+que está resuelta á tenerme.</p>
+          </sp>
+          <sp xml:id="spa-speech-000236">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000239">¿Qué derechos alega sobre ti?</p>
+          </sp>
+          <sp xml:id="spa-speech-000237">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000240">¡Ah! señor, el derecho que alegaríais sobre vuestro cabello;
+pretende poseerme como á una bestia de carga: no que quiera tenerme por
+ser yo una bestia, sino que siendo ella una criatura enteramente
+bestial, quiere tener derechos sobre mí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000238">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000241">¿Quién es ella?</p>
+          </sp>
+          <sp xml:id="spa-speech-000239">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000242">Un cuerpo muy venerable: sí, uno del cual un hombre no puede
+hablar sin decir: «Muy reverendo señor.» Bien flaca suerte me cabría en
+esta unión, y sin embargo, es un casamiento maravillosamente gordo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000240">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000243">¿Qué quieres decir por un casamiento maravillosamente gordo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000241">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000244">¡Oh! sí, señor: es la moza de cocina, y con más grasa que piel.
+Ni se me ocurre lo que podré hacer con ella, á menos que sea hacerla
+arder como una lámpara para escaparme lejos á favor de su propia
+claridad. Garantizo que los andrajos con que se viste y el sebo de que
+están impregnados calentarían el invierno de Polonia: y si viviese hasta
+el juicio final, podría arder una semana más que el mundo entero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000242">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000245">¿Cuál es el color de su rostro?</p>
+          </sp>
+          <sp xml:id="spa-speech-000243">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000246">Prieto como el cuero de mis zapatos, pero está lejos de tener
+la cara como ellos. ¿Por qué? Porque suda de modo que un hombre tendría
+que calzar zuecos para andar sobre esa mugre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000244">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000247">Esa es una falta que el agua puede corregir.</p>
+          </sp>
+          <sp xml:id="spa-speech-000245">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000248">No, señor, está dentro de la piel: el diluvio de Noé no
+llegaría á limpiarla.</p>
+          </sp>
+          <sp xml:id="spa-speech-000246">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000249">¿Cuál es su nombre?</p>
+          </sp>
+          <sp xml:id="spa-speech-000247">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000250">Ana, señor; pero su nombre y tres cuartos, quiero decir, una
+ana y tres cuartos no bastarían para medirla de un cuadril al otro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000248">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000251">¿Mide, pues, algún ancho?</p>
+          </sp>
+          <sp xml:id="spa-speech-000249">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000252">No es más larga de la cabeza á los piés que ancha de un cuadril
+á otro. Es esférica como un globo; podría marcar los paises sobre ella.</p>
+          </sp>
+          <sp xml:id="spa-speech-000250">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000253">¿En qué parte de su cuerpo está la Irlanda?</p>
+          </sp>
+          <sp xml:id="spa-speech-000251">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000254">Á fe mía, señor, en las nalgas: lo he reconocido por las aguas
+cenagosas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000252">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000255">¿En dónde la Escocia?</p>
+          </sp>
+          <sp xml:id="spa-speech-000253">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000256">Lo he reconocido por lo ávida: está en la palma de la mano.</p>
+          </sp>
+          <sp xml:id="spa-speech-000254">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000257">¿Y la Francia?</p>
+          </sp>
+          <sp xml:id="spa-speech-000255">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000258">Sobre su frente, armada y volteada, y en guerra con sus
+cabellos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000256">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000259">¿Y la Inglaterra?</p>
+          </sp>
+          <sp xml:id="spa-speech-000257">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000260">He buscado las rocas de yeso: pero no he podido reconocer en
+ellas ninguna blancura; conjeturo que podrá hallarse sobre la barba,
+según el flujo salobre que corría entre ella y la Francia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000258">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000261">¿Y la España?</p>
+          </sp>
+          <sp xml:id="spa-speech-000259">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000262">Á fe mía que no la he visto; pero la he sentido en el calor de
+su aliento.</p>
+          </sp>
+          <sp xml:id="spa-speech-000260">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000263">¿Dónde están las Américas y las Indias?</p>
+          </sp>
+          <sp xml:id="spa-speech-000261">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000264">¡Oh! señor, en su nariz; completamente adornada de rubíes,
+escarbunclos y zafiros, é inclinando su rico aspecto hacia el cálido
+aliento de la España que enviaba flotas enteras á cargar lastre en su
+nariz.</p>
+          </sp>
+          <sp xml:id="spa-speech-000262">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000265">¿Dónde estaban la Bélgica y los Paises Bajos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000263">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000266">¡Oh! señor; no he estado á ver tan abajo. Para concluir: este
+limpión ó bruja ha reclamado sus derechos sobre mí, me ha llamado
+Dromio, ha jurado que estaba comprometido con ella, me ha dicho las
+señales particulares que tenía en el cuerpo, por ejemplo, la mancha que
+tengo en la espalda, el lunar que hay en mi cuello, la gran berruga que
+tengo en el brazo izquierdo; de modo que, absorto y confundido, he huído
+lejos de ella, como de una bruja. Y creo que si mi pecho no hubiese
+estado tan lleno de fe y mi corazón tan templado como el acero, me
+habría metamorfoseado en perro rabón ó me habría hecho dar vueltas al
+asador.</p>
+          </sp>
+          <sp xml:id="spa-speech-000264">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000267">Vete, márchate en seguida; corre al gran camino: si el viento
+sopla de cualquier modo de la playa, por poco que sea, no quiero pasar
+la noche en esta ciudad. Si hay alguna barca lista á darse á la vela,
+vuelve al mercado donde me estaré paseando hasta que vuelvas. Si todo el
+mundo nos conoce, no conociendo nosotros á nadie, paréceme que es tiempo
+de alistar el equipaje y partir.</p>
+          </sp>
+          <sp xml:id="spa-speech-000265">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000268">Como huiría un hombre para salvar de las garras de un oso su
+vida, así huyo yo de esa que pretende ser mi esposa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000266">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000269">En este país no habitan sino brujas, y por consiguiente debía
+ya haberme ido. Mi corazón aborrece la que me llama su marido; pero su
+encantadora hermana posee gracias maravillosas y soberanas; su aire y
+sus discursos son tan encantadores que casi me he hecho traición á mí
+mismo. Y para no causar yo mi propio daño, taparé mis oídos ante los
+cantos de la sirena.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000020">
+(<hi rend="italic">Entra Angelo</hi>).<lb/>
+</stage>
+          <sp xml:id="spa-speech-000267">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000270">¿Señor Antífolo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000268">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000271">Sí, ese es mi nombre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000269">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000272">Lo sé bien, señor. Tomad, he aquí vuestra cadena. Creía
+encontraros en el «Puerco-espín: la cadena no estaba terminada aún; es
+lo que me ha retardado tanto tiempo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000270">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000273">¿Qué queréis que haga de esto?</p>
+          </sp>
+          <sp xml:id="spa-speech-000271">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000274">Lo que gustéis, señor; la he hecho para vos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000272">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000275">¡Hecha para mí, señor!—No os la he ordenado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000273">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000276">No una vez, no dos veces, sino veinte veces. Id á vuestro
+alojamiento y haced la corte á vuestra esposa con este regalo; y luégo,
+á la hora de cena, volveré á veros y á recibir el importe de mi cadena.</p>
+          </sp>
+          <sp xml:id="spa-speech-000274">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000277">Os ruego, señor, que recibáis el dinero al instante, no sea
+que no volváis á ver ni cadena ni dinero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000275">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000278">Sois jovial, señor; adios, hasta luégo.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000021">
+(<hi rend="italic">Sale.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000276">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000279">Me sería imposible decir lo que debo pensar de todo esto;
+pero lo que sé muy bien, al menos, es que no existe hombre tan tonto
+para despreciar, cuando se le ofrece, una cadena tan hermosa. Veo que
+aquí un hombre no necesita atormentarse para vivir, puesto que se hacen
+en las calles tan ricos presentes. Voy á ir á la plaza del mercado á
+esperar allí á Dromio; si algún buque se hace á la vela, parto en
+seguida.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4" xml:id="shakespeare-the-comedy-of-errors-spa-act-004">
+        <head>ACTO IV.</head>
+        <div type="scene" n="1" xml:id="shakespeare-the-comedy-of-errors-spa-act-004-scene-001">
+          <head>ESCENA I.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000022">
+            <hi rend="italic">La escena pasa en la calle.</hi>
+            <lb/>
+            <name type="person">UN MERCADER, ANGELO, UN OFICIAL DE JUSTICIA.</name>
+          </stage>
+          <sp xml:id="spa-speech-000277">
+            <speaker>EL MERCADER</speaker>
+            <stage type="business" xml:id="spa-stage-000023">A Angelo.</stage>
+            <p xml:id="spa-p-000280"><seg rend="smcap">abéis</seg> que se debe la cantidad desde Pentecostés, y que desde ese tiempo
+no os he importunado mucho; ni lo haría aun hoy mismo si no partiese
+para Persia y no tuviese necesidad de guilder para mi viaje; así
+satisfacedme inmediatamente, ú os hago prender por este oficial.</p>
+          </sp>
+          <sp xml:id="spa-speech-000278">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000281">Exactamente la misma cantidad de que os soy deudor, me es
+debida por Antífolo; y en el instante en que os he encontrado, acababa
+de entregarle una cadena. Á las cinco recibiré su precio: hacedme el
+placer de venir conmigo hasta su casa, donde os pagaré mi obligación, y
+os daré las gracias.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000024">
+(<hi rend="italic">Entran Antífolo de Éfeso y Dromio de Éfeso.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000279">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000282">(<hi rend="italic">Apercibiéndoles, á Angelo.</hi>) Podéis evitaros la molestia:
+mirad, he aquí que llega.</p>
+          </sp>
+          <sp xml:id="spa-speech-000280">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000283">Mientras voy á casa del platero, vé, tú, á comprar
+un pedazo de cuerda; quiero servirme de ella para mi esposa y sus
+cómplices, por haberme cerrado la puerta en pleno día.—¡Pero despacio!
+Veo al platero.—Véte; compra una soga y tráemela á casa.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000025">
+(<hi rend="italic">Sale.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000281">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000284">¡Ah! ¡Voy á comprar una soga!</p>
+          </sp>
+          <sp xml:id="spa-speech-000282">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000285">¡Muy lucido queda un hombre cuando cuenta con vos!
+Había prometido vuestra visita y la cadena; pero no he visto ni cadena
+ni platero. Probablemente pensasteis que mi amor á mi esposa duraría
+demasiado tiempo si lo encadenabais; y por tanto, no habéis venido.</p>
+          </sp>
+          <sp xml:id="spa-speech-000283">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000286">Con permiso de vuestro jovial humor, he aquí la cuenta del peso
+de vuestra cadena, hasta el último quilate, la ley del oro y el precio
+de la hechura: todo lo cual importa tres ducados más que lo que debo á
+este señor.—Os ruego, me hagáis el favor de cancelarme con él desde
+luégo, pues está próximo á embarcarse y no espera sino esto para partir.</p>
+          </sp>
+          <sp xml:id="spa-speech-000284">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000287">No traigo conmigo la cantidad necesaria; por otra
+parte, tengo algunos negocios en la ciudad.—Conducid á este extranjero
+á mi casa; llevad con vos la cadena, y al entregarla á mi esposa,
+decidle que salde la suma; quizás estaré allí al mismo tiempo que vos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000285">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000288">¿Entonces llevaréis la cadena vos mismo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000286">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000289">No; tomadla con vos; no sea que yo llegue tarde.</p>
+          </sp>
+          <sp xml:id="spa-speech-000287">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000290">Vamos, señor, está bien. ¿La tenéis con vos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000288">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000291">Si no la tengo, es porque vos la tenéis; sin lo
+cual, podríais volveros sin vuestro dinero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000289">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000292">Vamos, señor, os ruego que me déis la cadena. El viento y la
+marea esperan á este caballero y tengo que reprocharme el haberle
+retenido aquí tanto tiempo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000290">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000293">Señor mío, os valéis de este pretexto para excusar
+vuestra falta de palabra, al no haberla llevado al Puerco-Espín; es á mí
+á quien toca regañaros por esto. Pero, á fuer de astuto, principiáis por
+ser el primero en querellarse.</p>
+          </sp>
+          <sp xml:id="spa-speech-000291">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000294">La hora avanza. Señor, os ruego que os déis prisa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000292">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000295">¿Véis cómo me importuna...? Pronto, la cadena.</p>
+          </sp>
+          <sp xml:id="spa-speech-000293">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000296">¡Y bien! Llevadla á mi esposa, y recibid vuestro
+dinero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000294">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000297">Vamos, vamos; sabéis que os la he dado hace un momento. Enviad
+la cadena, ó entregadme alguna prenda.</p>
+          </sp>
+          <sp xml:id="spa-speech-000295">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000298">Veo que lleváis la broma hasta el exceso. Veamos,
+¿dónde está la cadena? Dejadme verla.</p>
+          </sp>
+          <sp xml:id="spa-speech-000296">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000299">Mis asuntos no permiten estas tardanzas; caro señor,
+decidme si queréis satisfacerme ó no; si no queréis, voy á dejar á este
+señor entre las manos del oficial.</p>
+          </sp>
+          <sp xml:id="spa-speech-000297">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000300">¿Yo, satisfaceros? ¿Y con qué satisfaceros?</p>
+          </sp>
+          <sp xml:id="spa-speech-000298">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000301">Dando el dinero que me debéis por la cadena.</p>
+          </sp>
+          <sp xml:id="spa-speech-000299">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000302">No os debo nada, mientras no la haya recibido.</p>
+          </sp>
+          <sp xml:id="spa-speech-000300">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000303">¡Ah! Sabéis que os la he entregado hace media hora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000301">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000304">No me habéis dado ninguna cadena: mucho me ofendéis
+diciéndome esto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000302">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000305">Vos, señor, me ofendéis mucho más negándolo. Considerad cuánto
+interesa esto á mi crédito.</p>
+          </sp>
+          <sp xml:id="spa-speech-000303">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000306">Vamos, oficial, prendedlo sobre mi demanda.</p>
+          </sp>
+          <sp xml:id="spa-speech-000304">
+            <speaker>El oficial</speaker>
+            <stage type="business" xml:id="spa-stage-000026">á Angelo.</stage>
+            <p xml:id="spa-p-000307">Os prendo y os intimo obedecer en nombre del
+duque.</p>
+          </sp>
+          <sp xml:id="spa-speech-000305">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000308">Esto compromete mi reputación. (<hi rend="italic">Á Antífolo.</hi>) Ó consentís en
+pagar la suma á mi saldo, ú os hago prender por este mismo oficial.</p>
+          </sp>
+          <sp xml:id="spa-speech-000306">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000309">¡Consentir en pagar una cosa que no he recibido,
+jamás! Préndeme, loco, si te atreves.</p>
+          </sp>
+          <sp xml:id="spa-speech-000307">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000310">He aquí los gastos. Prendedle, señor oficial... No perdonaría á
+mi hermano en semejante caso, si me insultaba con tanto desprecio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000308">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000311">Os prendo, señor; oís la requisición.</p>
+          </sp>
+          <sp xml:id="spa-speech-000309">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000312">Te obedezco, hasta que te dé caución. (<hi rend="italic">A Angelo.</hi>)
+Bribón, me pagarás esta broma con todo el oro que puede haber en tu
+tienda.</p>
+          </sp>
+          <sp xml:id="spa-speech-000310">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000313">Señor, no dudo que obtendré justicia en Éfeso, para vergüenza
+vuestra.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000027">
+(<hi rend="italic">Entra Dromio de Siracusa.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000311">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000314">Señor, hay una barca de Epidauro que no espera sino que llegue
+á bordo el armador, y se dará á la vela en seguida. He embarcado nuestro
+equipaje; he comprado aceite, bálsamo y aguardiente. El navío está
+aparejado; un buen viento sopla alegremente de tierra y no se espera
+sino al armador y á vos, señor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000312">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000315">¡Qué! ¿Te has vuelto loco? ¿Qué quieres decir,
+imbécil? ¿Qué barco de Epidamno me espera á mí, pícaro?</p>
+          </sp>
+          <sp xml:id="spa-speech-000313">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000316">El barco al cual me habéis enviado para tomar nuestro pasaje.</p>
+          </sp>
+          <sp xml:id="spa-speech-000314">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000317">Esclavo ebrio, te he enviado á buscar una soga, y te
+he dicho para qué y lo qué quería hacer con ella.</p>
+          </sp>
+          <sp xml:id="spa-speech-000315">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000318">Es como si dijerais que me habíais enviado á ahorcarme. Me
+habéis enviado á la bahía, señor, á buscar un buque.</p>
+          </sp>
+          <sp xml:id="spa-speech-000316">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000319">Examinaré este asunto más despacio y enseñaré á tus
+orejas á escucharme con más atención. Vé, pues, derecho á casa de
+Adriana, pillo, dale esta llave y dile que en el pupitre que está
+cubierto con una alfombra de Turquía, hay una bolsa llena de ducados;
+que me la mande; dile que me han prendido en la calle y que este dinero
+será una caución: corre pronto, esclavo: parte. Vamos, oficial, os sigo
+á la cárcel, hasta que vuelva el criado. (<hi rend="italic">Salen.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000317">
+            <speaker>Dromio</speaker>
+            <stage type="business" xml:id="spa-stage-000028">solo</stage>
+            <p xml:id="spa-p-000320">¡Á casa de Adriana! Quiere decir á casa de aquella
+donde hemos comido, donde Dulcebella me ha reclamado por marido: es
+demasiado gorda para que yo alcance á abrazarla; pero es preciso que
+vaya, aunque contra mi voluntad: pues es necesario que los criados
+ejecuten las órdenes de sus amos.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000029">
+(<hi rend="italic">Sale.</hi>)<lb/>
+</stage>
+        </div>
+        <div type="scene" n="2" xml:id="shakespeare-the-comedy-of-errors-spa-act-004-scene-002">
+          <head>ESCENA II.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000030">
+            <hi rend="italic">La escena pasa en la casa de Antífolo de Éfeso.</hi>
+            <lb/>
+            <name type="person">ADRIANA y LUCIANA.</name>
+          </stage>
+          <sp xml:id="spa-speech-000318">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000321">¿Cómo, Luciana, te ha tentado hasta este punto? ¿Has podido
+leer cuidadosamente en sus ojos si sus exigencias eran serias ó no?
+¿Estaba colorado ó pálido, triste ó alegre? ¿Qué observaciones has hecho
+en ese instante sobre los meteoros de su corazón que chispeaban en su
+rostro?</p>
+          </sp>
+          <sp xml:id="spa-speech-000319">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000322">Desde luégo, ha negado que tuviéseis derecho alguno sobre él.</p>
+          </sp>
+          <sp xml:id="spa-speech-000320">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000323">Quería decir que él obraba como si yo no tuviera ninguno. Por
+esto mismo estoy aún más indignada.</p>
+          </sp>
+          <sp xml:id="spa-speech-000321">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000324">En seguida me ha jurado que era extranjero aquí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000322">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000325">Y ha jurado la verdad, pues ha perjurado de su hogar.</p>
+          </sp>
+          <sp xml:id="spa-speech-000323">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000326">Entonces he intercedido por vos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000324">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000327">¡Y bien! ¿Qué ha dicho él?</p>
+          </sp>
+          <sp xml:id="spa-speech-000325">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000328">El amor que yo reclamaba para vos, lo ha implorado de mí para
+él.</p>
+          </sp>
+          <sp xml:id="spa-speech-000326">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000329">¿Con qué persuasiones ha solicitado tu ternura?</p>
+          </sp>
+          <sp xml:id="spa-speech-000327">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000330">En términos que hubiesen podido conmover, tratándose de una
+pretensión honrada. Primero ha elogiado mi belleza, en seguida mi
+inteligencia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000328">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000331">¿Le has respondido como debías?</p>
+          </sp>
+          <sp xml:id="spa-speech-000329">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000332">Tened paciencia, os conjuro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000330">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000333">No puedo, ni quiero tenerme tranquila. Es necesario que se
+satisfaga mi lengua, si no mi corazón. Es deforme, contrahecho, viejo y
+marchito, feo de cara, peor configurado de cuerpo, de todo punto
+deforme; vicioso, rudo, extravagante, tonto y bruto; detestable en los
+hechos, y más detestable aún en los propósitos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000331">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000334">¿Y quién podría estar celosa de semejante hombre? Nunca se
+llora un mal perdido.</p>
+          </sp>
+          <sp xml:id="spa-speech-000332">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000335">¡Ah! Pero pienso mejor de él que lo que hablo. Y, no obstante,
+quisiera que fuese aún más deforme á los ojos de los otros. El Avefría
+grita lejos de su nido, para que se alejen de él. Mientras mi lengua le
+maldice, mi corazón ruega por él.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000031">
+(<hi rend="italic">Entra Dromio.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000333">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000336">Ea! venid. El pupitre, la bolsa: mis caras señoras, apresuraos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000334">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000337">¿Por qué estás tan fuera de aliento?</p>
+          </sp>
+          <sp xml:id="spa-speech-000335">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000338">Á fuerza de correr.</p>
+          </sp>
+          <sp xml:id="spa-speech-000336">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000339">¿Dónde está tu amo, Dromio? ¿Está bien?</p>
+          </sp>
+          <sp xml:id="spa-speech-000337">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000340">No; está en los limbos del Tártaro, peor que en el infierno; un
+diablo de eterno uniforme lo ha cogido; un diablo cuyo corazón está
+revestido de acero, un malvado, un genio brutal é implacable; un lobo,
+peor que lobo, un mozo vestido de piel de búfalo, un enemigo secreto que
+os pone la mano sobre la espalda, y que os cierra el paso de avenidas,
+esquinas y calles; en fin, alguien que arrastra las pobres almas al
+infierno antes del juicio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000338">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000341">¡Hombre de Dios! ¿De qué se trata?</p>
+          </sp>
+          <sp xml:id="spa-speech-000339">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000342">No sé de qué se trata; pero le han prendido.</p>
+          </sp>
+          <sp xml:id="spa-speech-000340">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000343">¡Qué! ¿Está preso? ¿Y por demanda de quién?</p>
+          </sp>
+          <sp xml:id="spa-speech-000341">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000344">No sé bien por demanda de quién está preso; todo lo que puedo
+decir, es que el que lo ha prendido está vestido con uniforme de piel de
+búfalo. ¿Queréis, señora, mandarle para rescatarse, el dinero que está
+en el pupitre?</p>
+          </sp>
+          <sp xml:id="spa-speech-000342">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000345">Vé á buscarlo, hermana mía. (<hi rend="italic">Luciana sale.</hi>) Me extraña que
+tenga deudas que yo ignore. Dime ¿le han prendido por un pagaré?</p>
+          </sp>
+          <sp xml:id="spa-speech-000343">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000346">No por un pagaré, sino á propósito de algo mas fuerte; una
+cadena, una cadena: ¿no oís sonar?</p>
+          </sp>
+          <sp xml:id="spa-speech-000344">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000347">¡Qué! ¿La cadena?</p>
+          </sp>
+          <sp xml:id="spa-speech-000345">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000348">No, no; la campana. Ya debía haberme marchado; eran las dos
+cuando me separé de él; y he aquí que el reloj da la una.</p>
+          </sp>
+          <sp xml:id="spa-speech-000346">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000349">¿Las horas retroceden pues? Jamás he oído tal cosa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000347">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000350">¡Oh! sí, verdaderamente; cuando una de las dos horas encuentra
+á un sargento, retrocede de miedo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000348">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000351">¡Como si el tiempo tuviera deudas! Razonas como un loco
+rematado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000349">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000352">El tiempo es un verdadero quebrado, y debe á la estación más de
+lo que él vale. Y es un ladrón también; ¿no habéis oído decir que el
+tiempo adelanta á paso de lobo, como un ladrón? Si el tiempo está
+adeudado y es ladrón, y encuentra en el camino á un sargento, ¿no tiene
+razón de retroceder una hora en un día?</p>
+          </sp>
+          <sp xml:id="spa-speech-000350">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000353">Corre, Dromio, he aquí el dinero (<hi rend="italic">Luciana vuelve con la
+bolsa</hi>); llévalo pronto y trae á tu amo á casa inmediatamente. Venid,
+hermana mía, estoy abatida por mis conjeturas que ya me animan, ya me
+desalientan.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000032">
+(<hi rend="italic">Salen.</hi>)<lb/>
+</stage>
+        </div>
+        <div type="scene" n="3" xml:id="shakespeare-the-comedy-of-errors-spa-act-004-scene-003">
+          <head>ESCENA III.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000033">
+            <hi rend="italic">Una calle de Éfeso.</hi>
+            <lb/>
+            <name type="person">ANTÍFOLO</name>
+            <hi rend="italic"> de Siracusa solo.</hi>
+            <lb/>
+            <hi rend="italic">No encuentro un solo hombre que no me salude, como si fuese un amigo familiar, y todos me llaman por mi nombre. Unos me ofrecen dinero, otros me invitan á comer; estos me dan las gracias por servicios que les he hecho; aquellos me ofrecen mercaderías en venta. Hace un momento un sastre me ha llamado á su tienda y me ha mostrado sederías que había comprado para mí; y á renglón seguido ha tomado la medida de mi cuerpo. Seguramente que todo esto no es sino encanto, ilusiones, y los hechiceros de Laponia habitan aquí.</hi>
+            <lb/>
+            <hi rend="italic">(Entra una cortesana.)</hi>
+          </stage>
+          <sp xml:id="spa-speech-000351">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000354">Amo, he aquí el oro que me enviásteis á buscar..... ¡Qué!
+¿Habéis hecho vestir de nuevo el retrato del viejo Adam?</p>
+          </sp>
+          <sp xml:id="spa-speech-000352">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000355">¿Qué oro es ese? ¿De qué Adam quieres hablar?</p>
+          </sp>
+          <sp xml:id="spa-speech-000353">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000356">No del Adam que habitaba el paraíso, sino del Adam que mora en
+la cárcel; de aquel que anda uniformado con piel del ternero muerto para
+el hijo pródigo; aquel que vino tras de vos, señor, como un ángel malo,
+y que os ha ordenado renunciar á vuestra libertad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000354">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000357">No te entiendo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000355">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000358">¿No? Y, no obstante, es una cosa bien sencilla: este hombre que
+andaba como un violón en un estuche de cuero; el hombre, señor, que,
+cuando los caballeros están cansados, les da un chasco y los arresta;
+aquel que tiene piedad de los hombres arruinados, y les da un vestido de
+cárcel; aquel que tiene la pretensión de hacer más hazañas con su maza
+que una lanza morisca.</p>
+          </sp>
+          <sp xml:id="spa-speech-000356">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000359">¡Qué! ¿Quieres decir un sargento?</p>
+          </sp>
+          <sp xml:id="spa-speech-000357">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000360">Sí, señor, el sargento de las obligaciones: aquel que obliga á
+cada individuo que falta á sus compromisos, á responder de ellos; hombre
+que cree que uno está siempre á punto de acostarse y dice: «¡Dios os dé
+buen descanso!»</p>
+          </sp>
+          <sp xml:id="spa-speech-000358">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000361">Vamos, amigo, dejémonos de locuras. ¿Hay algún barco que
+salga esta noche? ¿Podemos partir?</p>
+          </sp>
+          <sp xml:id="spa-speech-000359">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000362">Sí, señor; he venido á daros la respuesta hace una hora; la
+barca <hi rend="italic">Expedición</hi> partirá esta noche; pero estabais impedido por el
+sargento y obligado á retardaros más allá del tiempo fijado. He aquí los
+dineros que me habéis mandado á buscar para libertaros.</p>
+          </sp>
+          <sp xml:id="spa-speech-000360">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000363">Este mozo está loco y yo también; no hacemos sino errar de
+ilusiones en ilusiones. ¡Que alguna santa protección nos saque de aquí!</p>
+          </sp>
+          <sp xml:id="spa-speech-000361">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000364">¡Ah! ¡Cuánto me alegro de encontraros, señor Antífolo!
+Veo que habéis, en fin, hallado al platero: ¿es esa la cadena que me
+prometísteis hoy?</p>
+          </sp>
+          <sp xml:id="spa-speech-000362">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000365">¡Atrás, Satanás! Te prohibo tentarme.</p>
+          </sp>
+          <sp xml:id="spa-speech-000363">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000366">Señor, ¿es esta la señora de Satanás?</p>
+          </sp>
+          <sp xml:id="spa-speech-000364">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000367">Es el demonio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000365">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000368">Es aún peor, es la señora del demonio; y viene aquí bajo la
+forma de una moza ligera de cascos; y por esto las muchachas dicen:
+¡Dios me condene! lo cual significa: ¡Dios me haga una moza de la vida
+airada! Está escrito que se aparecen á los hombres como ángeles de luz.
+La luz es un efecto del fuego y el fuego quema. <hi rend="italic">Ergo</hi>, las mozas de
+placer quemarán; no os aproximéis á ella.</p>
+          </sp>
+          <sp xml:id="spa-speech-000366">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000369">¡Vuestro criado y vos, señor, estáis de un humor
+maravilloso. ¿Queréis venir conmigo? Recobraremos aquí la comida que no
+hemos podido tomar en casa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000367">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000370">Amo, si debéis probar la sopa, pedid de antemano una cuchara
+larga.</p>
+          </sp>
+          <sp xml:id="spa-speech-000368">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000371">¿Pues para qué, Dromio?</p>
+          </sp>
+          <sp xml:id="spa-speech-000369">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000372">Verdaderamente, es menester una cuchara larga al hombre que
+debe comer con el diablo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000370">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000373">(<hi rend="italic">A la cortesana.</hi>) ¡Atrás, pues, demonio! ¿Á qué vienes á
+hablarme de cena? Eres como todas las demás, una bruja. Conjúrote á que
+me dejes y te vayas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000371">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000374">Dadme el anillo que me habéis tomado en la comida; ó en
+cambio de mi diamante, la cadena que me habéis prometido; y entonces me
+iré, señor, y no os importunaré más.</p>
+          </sp>
+          <sp xml:id="spa-speech-000372">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000375">Hay diablos que no piden sino el recorte de una uña, un junco,
+un cabello, una gota de sangre, un alfiler, una nuez, una semilla de
+cereza; pero esta, más codiciosa, quisiera tener una cadena. Amo, tened
+cuidado: si le dáis la cadena, la diabla la sacudirá y nos espantará con
+ella.</p>
+          </sp>
+          <sp xml:id="spa-speech-000373">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000376">Os ruego, señor, que me déis mi sortija ó mi cadena.
+Espero que no tenéis intención de defraudarme de este modo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000374">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000377">¡Fuera de aquí, gitana! Vamos, Dromio, partamos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000375">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000378"><hi rend="italic">Huye del orgullo</hi>, dice el pavo; ¿sabéis eso, señora?</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000034">
+(<hi rend="italic">Salen Antífolo y Dromio.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000376">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000379">Ahora está fuera de duda que Antífolo está loco; de otro
+modo jamás se habría conducido tan mal. Me tiene una sortija que vale
+cuarenta ducados y me había prometido en cambio una cadena de oro: y
+ahora me niega la una y la otra, lo que me obliga á concluir que se ha
+vuelto loco. Además de esta actual prueba de su demencia, me acuerdo de
+los cuentos extravagantes que me ha endilgado hoy en la comida, como el
+de no haber podido entrar en su casa, porque le habían cerrado la
+puerta. Probablemente su esposa, que conoce sus accesos de locura, le ha
+cerrado, en efecto, la puerta intencionalmente. Lo que tengo que hacer
+ahora, es llegar pronto á su casa, y decir á su esposa, que en un acceso
+de locura ha entrado bruscamente en mi casa, y me ha quitado de viva
+fuerza una sortija que se ha llevado. He aquí el partido que me parece
+mejor escoger, pues cuarenta ducados son demasiado para perderlos.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4" xml:id="shakespeare-the-comedy-of-errors-spa-act-004-scene-004">
+          <head>ESCENA IV.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000035">
+            <hi rend="italic">La escena pasa en la calle.</hi>
+            <lb/>
+            <name type="person">ANTÍFOLO DE ÉFESO y UN SARGENTO.</name>
+          </stage>
+          <sp xml:id="spa-speech-000377">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000380">No tengáis ninguna inquietud; no me escaparé; te daré como
+caución, antes de dejarte, la cantidad por la cual estoy preso. Mi
+esposa está hoy de mal humor, y no querrá fiarse ligeramente al
+mensajero, ni creer que haya podido yo ser prendido en Éfeso; dígote que
+esta nueva sonará en sus oídos de una manera extraña. (<hi rend="italic">Entra Dromio de
+Éfeso, con un pedazo de soga en la mano.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000378">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000381">He aquí á mi criado, creo que traerá el dinero. ¡Y
+bien! Dromio, ¿traes lo que te he mandado á buscar?</p>
+          </sp>
+          <sp xml:id="spa-speech-000379">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000382">He aquí, os lo garantizo, con qué pagar á todos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000380">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000383">Pero el dinero ¿dónde está?</p>
+          </sp>
+          <sp xml:id="spa-speech-000381">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000384">Por supuesto, he dado el dinero por el cordel.</p>
+          </sp>
+          <sp xml:id="spa-speech-000382">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000385">¿Quinientos ducados, tunante, por un pedazo de soga?</p>
+          </sp>
+          <sp xml:id="spa-speech-000383">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000386">Yo os daría quinientas, señor, por ese precio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000384">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000387">¿Pues para qué te mandé correr á toda prisa al alojamiento?</p>
+          </sp>
+          <sp xml:id="spa-speech-000385">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000388">Para traeros un pedazo de soga, señor; y con este he vuelto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000386">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000389">Y con este fin, voy á recibirte como mereces.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000036">
+(<hi rend="italic">Le golpea.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000387">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000390">Paciencia, señor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000388">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000391">Verdaderamente yo soy quien debe ser paciente: me acosa la
+adversidad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000389">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000392">(<hi rend="italic">A Dromio.</hi>) Es bastante: cállate ahora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000390">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000393">Persuadidle más bien para que haga callar sus manos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000391">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000394">¡Bastardo! ¡Bribón insensible!</p>
+          </sp>
+          <sp xml:id="spa-speech-000392">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000395">Quisiera ser insensible, señor, para no sentir vuestros golpes.</p>
+          </sp>
+          <sp xml:id="spa-speech-000393">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000396">No eres sensible sino á los golpes, como los asnos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000394">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000397">En efecto, soy un asno; podéis probarlo por mis grandes orejas.
+Le he servido desde la hora de mi nacimiento hasta este instante, y
+jamás he recibido de él por mis servicios, sino golpes. Cuando tengo
+frío, me calienta con golpes; cuando tengo calor me refresca con golpes;
+con golpes me despierta cuando estoy dormido; con ellos me hace levantar
+si estoy sentado; con golpes me despide cuando salgo de la casa, y con
+golpes me acoge cuando estoy de vuelta. En fin, llevo sus golpes en las
+espaldas como un mendigo tiene que llevar su pequeñuelo; y creo que
+cuando me haya invalidado, me será preciso ir á mendigar con ello de
+puerta en puerta. (<hi rend="italic">Entran Adriana, Luciana, la cortesana, Pinch y
+otros.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000395">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000398">Vamos, seguidme, he allí á mi esposa que llega.</p>
+          </sp>
+          <sp xml:id="spa-speech-000396">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000399">Ama, <hi rend="italic">respice finem</hi>, respetad vuestro fin; ó más bien la
+profecía, como el loro, «¡cuidado con la soga!»</p>
+          </sp>
+          <sp xml:id="spa-speech-000397">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000400">(<hi rend="italic">Golpeando á Dromio.</hi>) ¿Y hablarás todavía?</p>
+          </sp>
+          <sp xml:id="spa-speech-000398">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000401">(<hi rend="italic">A Adriana.</hi>) ¡Y bien! ¿qué pensais ahora? ¿Está loco
+vuestro marido?</p>
+          </sp>
+          <sp xml:id="spa-speech-000399">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000402">Su incivilidad no prueba menos. Buen doctor Pinch, vos que
+sabéis exorcisar, restablecedle en su buen sentido, y os daré cuanto
+pidiéreis.</p>
+          </sp>
+          <sp xml:id="spa-speech-000400">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000403">¡Ay! ¡Qué chispeantes y furiosas son sus miradas!</p>
+          </sp>
+          <sp xml:id="spa-speech-000401">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000404">¡Ved cómo tiembla en su enagenación!</p>
+          </sp>
+          <sp xml:id="spa-speech-000402">
+            <speaker>Pinch</speaker>
+            <p xml:id="spa-p-000405">Dadme vuestra mano; dejadme sentir vuestro pulso.</p>
+          </sp>
+          <sp xml:id="spa-speech-000403">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000406">Tomad, he aquí mi mano, y que la sienta vuestra oreja.</p>
+          </sp>
+          <sp xml:id="spa-speech-000404">
+            <speaker>Pinch</speaker>
+            <p xml:id="spa-p-000407">Te adjuro, Satanás, ya que habitas dentro de este hombre, ceder
+la posesión á mis santas oraciones y hundirte al instante en tus
+dominios tenebrosos; te adjuro por todos los santos del cielo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000405">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000408">Silencio, brujo chocho; silencio; no estoy loco.</p>
+          </sp>
+          <sp xml:id="spa-speech-000406">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000409">¡Oh! ¡Pluguiese á Dios que no lo estuvieses, alma
+desventurada!</p>
+          </sp>
+          <sp xml:id="spa-speech-000407">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000410">(<hi rend="italic">A su esposa.</hi>) Y vos, favorita, ¿son estos vuestros
+compinches? ¿Es este compañero, cara de azafrán, quien estaba de gala y
+fiesta hoy en mi casa, mientras que las puertas estaban criminalmente
+cerradas, y que se me rehusaba la entrada?</p>
+          </sp>
+          <sp xml:id="spa-speech-000408">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000411">¡Oh! esposo mío, Dios sabe que habéis comido en casa; ¡y ojalá
+hubiéseis permanecido hasta ahora al abrigo de esta difamación y de este
+público oprobio!</p>
+          </sp>
+          <sp xml:id="spa-speech-000409">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000412">¿He comido en casa? Tú, tunante, qué dices tú?</p>
+          </sp>
+          <sp xml:id="spa-speech-000410">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000413">Para decir la verdad, señor, no habéis comido en el
+alojamiento.</p>
+          </sp>
+          <sp xml:id="spa-speech-000411">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000414">¿Mis puertas no estaban cerradas y yo fuera?</p>
+          </sp>
+          <sp xml:id="spa-speech-000412">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000415">¡Por Dios! Vuestra puerta estaba cerrada y vos fuera.</p>
+          </sp>
+          <sp xml:id="spa-speech-000413">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000416">¿Y ella misma no me ha colmado de injurias?</p>
+            <p xml:id="spa-p-000417">—<hi rend="italic">Te adjuro, Satanás, ya que habitas dentro de este
+hombre...</hi></p>
+          </sp>
+          <sp xml:id="spa-speech-000414">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000418">Sin mentir, os ha dicho injurias ella misma.</p>
+          </sp>
+          <sp xml:id="spa-speech-000415">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000419">¿Su cocinera no me ha insultado, zaherido, despreciado?</p>
+          </sp>
+          <sp xml:id="spa-speech-000416">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000420">Cierto, lo ha hecho: la vestal de la cocina os ha rechazado
+injuriosamente.</p>
+          </sp>
+          <sp xml:id="spa-speech-000417">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000421">¿Y no me he ido todo enagenado de ira?</p>
+          </sp>
+          <sp xml:id="spa-speech-000418">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000422">En verdad, nada más cierto: mis huesos son testigos de ello,
+que han sentido desde entonces toda la fuerza de esta rabia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000419">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000423">(<hi rend="italic">A Dromio.</hi>) ¿Es bueno darle razón en sus contradicciones?</p>
+          </sp>
+          <sp xml:id="spa-speech-000420">
+            <speaker>Pinch</speaker>
+            <p xml:id="spa-p-000424">No hay mal en eso: este mozo conoce su humor y cediendo le
+lisonjea en su frenesí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000421">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000425">Has conquistado al platero para hacerme prender.</p>
+          </sp>
+          <sp xml:id="spa-speech-000422">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000426">¡Ay! al contrario: os he mandado dinero para rescataros, por
+mano de Dromio que, vedle aquí, había corrido á buscarle.</p>
+          </sp>
+          <sp xml:id="spa-speech-000423">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000427">¿Dinero? ¿Por mi mano? Buen corazón y buena voluntad, podría
+ser; pero ciertamente, mi amo, ni una partícula de dinero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000424">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000428">¿No has ido á encontrarla para pedirle una bolsa de ducados?</p>
+          </sp>
+          <sp xml:id="spa-speech-000425">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000429">Ha venido y se la he entregado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000426">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000430">Y yo soy testigo de que se la entregó.</p>
+          </sp>
+          <sp xml:id="spa-speech-000427">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000431">Dios y el cordelero me son testigos de que no se me ha mandado
+á buscar otra cosa que un pedazo de soga.</p>
+          </sp>
+          <sp xml:id="spa-speech-000428">
+            <speaker>Pinch</speaker>
+            <p xml:id="spa-p-000432">Señora, el amo y el criado están poseídos ambos. Lo veo en sus
+semblantes pálidos y cadavéricos. Es necesario atarlos y ponerlos en
+algún cuarto oscuro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000429">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000433">Responded; ¿por qué me habéis cerrado la puerta hoy? Y tú,
+(<hi rend="italic">á Dromio</hi>) ¿por qué niegas la bolsa de oro que te han dado?</p>
+          </sp>
+          <sp xml:id="spa-speech-000430">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000434">Mi buen esposo, no os he cerrado la puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000431">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000435">Y yo, querido amo, no he recibido oro; pero confieso, señor,
+que sí os han cerrado la puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000432">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000436">¡Hipócrita villano, dices una doble mentira!</p>
+          </sp>
+          <sp xml:id="spa-speech-000433">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000437">Prostituta hipócrita, mientes en todo; y has hecho liga con
+una banda de forajidos para llenarme de afrentas y desprecio; pero, con
+estas uñas arrancaré tus pérfidos ojos, que se complacen en verme en tal
+ignominia. (<hi rend="italic">Pinch y su gente amarran á Antífolo y Dromio de Éfeso.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000434">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000438">¡Oh! ¡Amarradle, amarradle; que no se acerque á mí!</p>
+          </sp>
+          <sp xml:id="spa-speech-000435">
+            <speaker>Pinch</speaker>
+            <p xml:id="spa-p-000439">¡Más gente! El demonio que lo posee es fuerte.</p>
+          </sp>
+          <sp xml:id="spa-speech-000436">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000440">¡Ay! ¡Qué pálido y desfigurado está el pobre hombre!</p>
+          </sp>
+          <sp xml:id="spa-speech-000437">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000441">¡Qué! ¿Queréis asesinarme? Tú, carcelero, yo soy tu
+prisionero; ¿sufrirás que me arranquen de tus manos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000438">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000442">Señores, dejadle; es mi preso y vosotros no lo tendréis.</p>
+          </sp>
+          <sp xml:id="spa-speech-000439">
+            <speaker>Pinch</speaker>
+            <p xml:id="spa-p-000443">Vamos, que se amarre á este hombre, pues es frenético también.</p>
+          </sp>
+          <sp xml:id="spa-speech-000440">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000444">¿Qué quieres decir, rencoroso sargento? ¿Tienes gusto de ver á
+un infortunado hacerse mal y daño á sí mismo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000441">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000445">Es mi preso; si le dejo ir, me exigirán la suma que debe.</p>
+          </sp>
+          <sp xml:id="spa-speech-000442">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000446">Te eximiré de ello antes de dejarte; condúceme al instante
+donde su acreedor. Cuando sepa la naturaleza de esta deuda, la pagaré.
+Mi buen doctor, ved que sea conducido en seguridad hasta mi casa. ¡Oh
+desventurado día!</p>
+          </sp>
+          <sp xml:id="spa-speech-000443">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000447">¡Oh, miserable prostituída!</p>
+          </sp>
+          <sp xml:id="spa-speech-000444">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000448">Amo, heme aquí apresado por causa de vos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000445">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000449">¡Enhoramala para ti, bandido! ¿Por qué me haces encolerizar?</p>
+          </sp>
+          <sp xml:id="spa-speech-000446">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000450">¿Queréis, pues, que os amarren por nada? Sed loco, amo; gritad,
+el diablo...</p>
+          </sp>
+          <sp xml:id="spa-speech-000447">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000451">¡Dios les asista, pobres almas! ¡Cómo desvarían!</p>
+          </sp>
+          <sp xml:id="spa-speech-000448">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000452">Vamos, sacadle de aquí. Venid conmigo, hermana. (<hi rend="italic">Salen Pinch,
+Antífolo, Dromio, etc.—Al oficial.</hi>) Decidme, ahora, ¿á requisición de
+quién está preso?</p>
+          </sp>
+          <sp xml:id="spa-speech-000449">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000453">Sobre la demanda de un tal Angelo, un platero. ¿Le
+conocéis?</p>
+          </sp>
+          <sp xml:id="spa-speech-000450">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000454">Le conozco. ¿Qué cantidad le debe?</p>
+          </sp>
+          <sp xml:id="spa-speech-000451">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000455">Doscientos ducados.</p>
+          </sp>
+          <sp xml:id="spa-speech-000452">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000456">¿Y por qué se los debe?</p>
+          </sp>
+          <sp xml:id="spa-speech-000453">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000457">Es el valor de una cadena que vuestro esposo ha recibido de
+él.</p>
+          </sp>
+          <sp xml:id="spa-speech-000454">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000458">Había encargado una cadena para mí, pero no se le ha
+entregado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000455">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000459">Cuando vuestro esposo, todo enfurecido, vino hoy á mi
+casa, se llevó mi sortija, que he visto en su dedo, hace poco, y
+momentos después le he encontrado con mi cadena.</p>
+          </sp>
+          <sp xml:id="spa-speech-000456">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000460">Eso puede muy bien ser; pero no la he visto nunca. Venid,
+alcaide, conducidme á casa del platero. Estoy impaciente por saber la
+verdad de esto con todos sus detalles. (<hi rend="italic">Entran Antífolo de Siracusa con
+la espada desnuda y Dromio de Siracusa.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000457">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000461">¡Oh Dios, tened piedad de nosotros! ¡Heles aquí de nuevo en
+libertad!</p>
+          </sp>
+          <sp xml:id="spa-speech-000458">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000462">¡Y vienen con la espada desnuda! ¡Pidamos socorro, para
+hacerlos amarrar de nuevo!</p>
+          </sp>
+          <sp xml:id="spa-speech-000459">
+            <speaker>El oficial</speaker>
+            <p xml:id="spa-p-000463">Escapémonos; nos matarían.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000037">
+(<hi rend="italic">Huyen.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000460">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000464">Veo que estas brujas tienen miedo de las espadas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000461">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000465">La que quería ser vuestra esposa ahora poco, os huye ahora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000462">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000466">Vamos al Centauro. Saquemos nuestros equipajes; no veo la
+hora de estar sano y salvo á bordo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000463">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000467">No, quedaos aquí esta noche; seguramente no se nos hará mal
+alguno. Véis que se nos habla amistosamente, que se nos ha dado oro; me
+parece que son unas buenas gentes; y sin esta montaña de carne loca, que
+me reclama para el matrimonio, me sentiría con bastante ganas de
+quedarme aquí siempre, y de hacerme brujo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000464">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000468">No me quedaría esta noche ni por el valor de la ciudad
+entera: vámonos á hacer llevar nuestro equipaje á bordo. (<hi rend="italic">Salen.</hi>)</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5" xml:id="shakespeare-the-comedy-of-errors-spa-act-005">
+        <head>ACTO V.</head>
+        <div type="scene" n="1" xml:id="shakespeare-the-comedy-of-errors-spa-act-005-scene-001">
+          <head>ESCENA I.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000038">
+            <hi rend="italic">La misma.</hi>
+            <lb/>
+            <name type="person">Entran EL MERCADER y ANGELO.</name>
+          </stage>
+          <sp xml:id="spa-speech-000465">
+            <speaker>ANGELO</speaker>
+            <p xml:id="spa-p-000469"><seg rend="smcap">iento</seg> mucho, señor, haber retardado vuestra partida. Pero os protesto
+que la cadena le ha sido entregada por mí, aunque tenga la deshonra
+inconcebible de negarlo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000466">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000470">¿Cómo está considerado este hombre en la ciudad?</p>
+          </sp>
+          <sp xml:id="spa-speech-000467">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000471">Goza de una reputación respetable, de un crédito sin límites;
+es muy querido; ningún ciudadano de esta ciudad es superior á él: su
+palabra, cuando él lo quisiera, respondería de toda mi fortuna.</p>
+          </sp>
+          <sp xml:id="spa-speech-000468">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000472">Hablad bajo: creo que es él quien se pasea allí. (<hi rend="italic">Entra
+Antífolo de Siracusa.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000469">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000473">Sí, es él: y lleva en su cuello esta misma cadena que por
+perjurio monstruoso ha jurado no haber recibido. Acercaos, señor, voy á
+hablarle.—(Á <hi rend="italic">Antífolo</hi>.) Señor Antífolo, me asombra sobremanera que
+me hayáis causado esta vergüenza y este embarazo, no sin daño de vuestra
+propia reputación. ¡Negarme tan decididamente y con juramentos haber
+recibido esta cadena que lleváis ahora á la vista de todos! Además de la
+acusación, la vergüenza y el arresto, habéis perjudicado también á este
+honrado amigo, que á no haber tenido que aguardar el fallo de nuestro
+debate, se habría dado á la vela, y estaría actualmente en el mar.
+¡Habéis recibido esta cadena de mí! ¡Habéis recibido esta cadena de mí!
+¿Podéis negarlo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000470">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000474">Creo que la he recibido de vos; no lo he negado jamás, señor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000471">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000475">¡Oh! lo habéis negado, señor, y aun habéis perjurado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000472">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000476">¿Quién me ha oído negar y jurar lo contrario?</p>
+          </sp>
+          <sp xml:id="spa-speech-000473">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000477">Yo, á quien conocéis, lo he oído con mis propias orejas.
+¡Bah! ¡Miserable! Es una vergüenza que te sea permitido pasearte allí
+donde concurre la gente honrada.</p>
+          </sp>
+          <sp xml:id="spa-speech-000474">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000478">Eres un villano en insultarme así. Probaré mi honor y
+probidad contra vos dentro de un momento, si te atreves á hacerme
+frente.</p>
+          </sp>
+          <sp xml:id="spa-speech-000475">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000479">Me atrevo, y te desafío como al vil que eres. (<hi rend="italic">Sacan las
+espadas para batirse. Entran Adriana, Luciana, la cortesana y otros.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000476">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000480">(<hi rend="italic">Corriendo.</hi>) Parad, no le hiráis; por el amor de Dios! Está
+loco. Que alguien se apodere de él; quitadle la espada. Atad á Dromio
+también, y conducidles á mi casa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000477">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000481">Huyamos, amo mío, huyamos; en nombre de Dios, entrad en alguna
+casa. He aquí una especie de convento: entremos, ó estamos perdidos.
+(<hi rend="italic">Antífolo de Siracusa y Dromio entran en el convento: se presenta la
+abadesa.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000478">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000482">Silencio, buenas gentes: ¿por qué os agrupáis aquí?</p>
+          </sp>
+          <sp xml:id="spa-speech-000479">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000483">Vengo á llevar de aquí á mi pobre esposo que está loco.
+Entremos á fin de que podamos atarle con firmeza y conducirle á casa
+para que se cure.</p>
+          </sp>
+          <sp xml:id="spa-speech-000480">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000484">Bien veía yo que no estaba en su entero juicio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000481">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000485">Me pesa ahora haber sacado la espada contra él.</p>
+          </sp>
+          <sp xml:id="spa-speech-000482">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000486">¿Desde cuándo está así poseído?</p>
+          </sp>
+          <sp xml:id="spa-speech-000483">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000487">Toda esta semana ha estado melancólico, sombrío y triste; bien
+diferente de lo que era siempre; pero hasta este medio día, su
+enfermedad no había jamás estallado en tal extremo de rabia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000484">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000488">¿No ha sufrido grandes pérdidas en un naufragio? ¿Ó
+enterrado algún amigo querido? ¿Sus ojos no han extraviado á su corazón
+en un amor ilegítimo? Es un pecado muy común en los jóvenes, quienes dan
+á sus ojos la libertad de verlo todo. ¿Á cuál de estos accidentes ha
+solido estar sujeto?</p>
+          </sp>
+          <sp xml:id="spa-speech-000485">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000489">Á ninguno, si no es el último. Quiero decir, algún amorío que
+le alejaba frecuentemente de su casa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000486">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000490">Deberíais haberle amonestado por ello.</p>
+          </sp>
+          <sp xml:id="spa-speech-000487">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000491">Por cierto, lo he hecho.</p>
+          </sp>
+          <sp xml:id="spa-speech-000488">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000492">Quizás con escasa energía.</p>
+          </sp>
+          <sp xml:id="spa-speech-000489">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000493">Con tanta como me lo permitía el pudor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000490">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000494">Quizás en particular.</p>
+          </sp>
+          <sp xml:id="spa-speech-000491">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000495">Y en público también.</p>
+          </sp>
+          <sp xml:id="spa-speech-000492">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000496">Sí, pero no lo suficiente.</p>
+          </sp>
+          <sp xml:id="spa-speech-000493">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000497">Era el tema de todas nuestras conversaciones; en la cama, no
+podía él dormir, por lo mucho que de ello le hablaba. En la mesa, no
+podía comer por lo mucho que de ello le hablaba. Á solas, era el objeto
+de mis reconvenciones. En sociedad, aludía yo frecuentemente á ello, y
+aun le decía cuán malo y vergonzoso era.</p>
+          </sp>
+          <sp xml:id="spa-speech-000494">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000498">Y de ahí ha sucedido que este hombre se ha vuelto loco. Los
+clamores emponzoñados de una mujer celosa son un veneno más mortífero
+que el diente de un perro rabioso.—Parece que su sueño era interrumpido
+por tus querellas; he ahí lo que ha debilitado su cabeza. Dices que las
+comidas eran sazonadas con tus reproches; las comidas perturbadas hacen
+las malas digestiones, de donde nacen el fuego y el delirio de la
+fiebre. ¡Y qué cosa es la fiebre, sino un acceso de locura!—Dices que
+tu vehemencia ha interrumpido sus pasatiempos. Privando al hombre de una
+dulce recreación, ¿qué ha de venir? Una acerba y triste melancolía,
+análoga á la feroz é inconsolable desesperación; y en seguida una grande
+é infecta multitud de enfermedades, enemigas de la existencia.—Ser
+perturbado en sus alimentos, en su recreo, en el sueño conservador de la
+vida, bastaría para hacer que se volvieran locos hombres y bestias. La
+consecuencia es, pues, que vuestros accesos de celos son los que han
+privado á vuestro esposo del uso de su razón.</p>
+          </sp>
+          <sp xml:id="spa-speech-000495">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000499">No le ha hecho sino dulces amonestaciones, cuando él se
+entregaba al ímpetu, á la brutalidad de arrebatos groseros. (<hi rend="italic">Á su
+hermana.</hi>) ¿Por qué soportáis estos reproches sin responder?</p>
+          </sp>
+          <sp xml:id="spa-speech-000496">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000500">Me ha entregado á los reproches de mi propia conciencia.
+Buenas gentes, entrad y apoderaos de él.</p>
+          </sp>
+          <sp xml:id="spa-speech-000497">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000501">No; nadie entra jamás en mi casa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000498">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000502">Entonces, que vuestros criados traigan á mi esposo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000499">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000503">Eso no será tampoco; él ha tomado este lugar como un asilo
+sagrado; y éste lo garantizará de vuestras manos, hasta que yo lo haya
+devuelto al uso de sus facultades, ó haya perdido mi trabajo en
+intentarlo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000500">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000504">Quiero cuidar á mi esposo, ser su custodia, su enfermera, pues
+es mi obligación; y no quiero otro agente que yo misma. Así dejadme
+conducirle á mi casa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000501">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000505">Tened paciencia; no lo dejaré salir de aquí hasta que no
+haya empleado los medios probados que poseo; jarabes, drogas saludables
+y santas oraciones, para restablecerle en el estado natural del hombre;
+es una parte de mi voto, un deber caritativo de mi orden; así retiraos y
+dejadle confiado á mis cuidados.</p>
+          </sp>
+          <sp xml:id="spa-speech-000502">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000506">No me moveré de aquí, y no dejaré aquí á mi esposo. Sienta mal
+á vuestra santidad el separar al marido y la mujer.</p>
+          </sp>
+          <sp xml:id="spa-speech-000503">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000507">Calmaos y retiraos. Vos no lo tendréis.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000039">
+(<hi rend="italic">Sale la abadesa.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000504">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000508">Quejaos al duque de esta indignidad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000505">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000509">Vamos, venid: caeré prosternada á sus piés y no me levantaré
+hasta que mis lágrimas y mis ruegos hayan comprometido á Su Alteza á
+venir en persona al monasterio, para quitar por fuerza mi esposo á la
+abadesa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000506">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000510">El horario de este cuadrante creo que marca las cinco.
+Estoy seguro de que en este momento, el duque se dirige en persona hacia
+la triste llanura, lugar de muerte y de tristes ejecuciones, que está
+detrás de los fosos de esta abadía.</p>
+          </sp>
+          <sp xml:id="spa-speech-000507">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000511">¿Y por qué causa va allí?</p>
+          </sp>
+          <sp xml:id="spa-speech-000508">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000512">Para ver cortar públicamente la cabeza de un respetable
+mercader de Siracusa que ha tenido la desgracia de infringir las leyes y
+los estatutos de esta ciudad, abordando á esta bahía.</p>
+          </sp>
+          <sp xml:id="spa-speech-000509">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000513">En efecto, helos aquí que vienen: vamos á asistir á la
+ejecución.</p>
+          </sp>
+          <sp xml:id="spa-speech-000510">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000514">(<hi rend="italic">A su hermana.</hi>) Arrojaos á los piés del duque, antes que
+haya pasado la abadía. (<hi rend="italic">Entran el duque con su cortejo, Ægeón, con la
+cabeza descubierta, el verdugo, guardias y otros oficiales.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000511">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000515">(<hi rend="italic">A un pregonero público.</hi>) Proclamad públicamente una vez
+más, que si hay algún amigo que quiera pagar la suma por él, no morirá,
+pues nos interesamos en su suerte!</p>
+          </sp>
+          <sp xml:id="spa-speech-000512">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000516">(<hi rend="italic">Arrojándose á las rodillas del duque.</hi>) ¡Justicia contra la
+abadesa!</p>
+          </sp>
+          <sp xml:id="spa-speech-000513">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000517">Es una señora virtuosa y respetable: no es posible que os
+haya hecho mal.</p>
+          </sp>
+          <sp xml:id="spa-speech-000514">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000518">Que Vuestra Alteza se digne oirme: Antífolo, mi esposo, á
+quien hice dueño de mi persona y de cuanto poseía, conforme á vuestras
+cartas presentes, ha sido atacado, en este día fatal, por un espantoso
+acceso de locura. Se ha lanzado furioso á la calle (y con él su esclavo
+que está loco también) ultrajando á los ciudadanos, entrando por fuerza
+en sus casas, llevándose sortijas, joyas, todo lo que agradaba á su
+capricho. He logrado hacerlo atar una vez y conducirlo á mi casa,
+mientras iba yo á reparar los perjuicios que su furia había causado aquí
+y allá en la ciudad. Sin embargo, no sé por qué medio ha podido
+escaparse; se ha desembarazado de los que le custodiaban, seguido de su
+esclavo, alienado como él; ambos, impulsados por una rabia desenfrenada,
+con las espadas desnudas, nos han encontrado y han venido á caer sobre
+nosotros y nos han puesto en fuga hasta que provistas de nuevos
+refuerzos hemos vuelto para detenerlos; entonces se han escapado á esta
+abadía, donde les hemos perseguido. Y he aquí que la abadesa nos cierra
+las puertas y no nos permite buscarle, ni hacerle salir, con el fin de
+que podamos llevarle. Así, muy noble duque, con vuestra autoridad,
+ordenad que lo traigan y lo lleven á su casa, para que allí sea
+auxiliado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000515">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000519">Vuestro esposo ha servido ya en mis guerras y os he prometido
+mi palabra de príncipe, cuando lo admitisteis á compartir vuestro lecho,
+hacerle todo el bien que podría depender de mí. Id, alguno de vosotros,
+tocad á las puertas de la abadía y decid á la señora abadesa que venga á
+hablarme: quiero arreglar esto antes de pasar á otra cosa. (<hi rend="italic">Entra un
+criado.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000516">
+            <speaker>El criado</speaker>
+            <p xml:id="spa-p-000520">¡Oh! ama mía, ama mía, huíd, poneos en salvo! Mi amo y su
+esclavo se han escapado; han golpeado á las sirvientas una tras otra y
+amarrado al doctor y quemádole las barbas con tizones encendidos; y á
+medida que ardían, le han arrojado baldes de fango infecto para apagar
+el fuego de sus cabellos. Mi amo le exhorta á la paciencia, mientras que
+su esclavo le trasquila con tijeras como á un loco; y seguramente, si no
+enviáis socorro al instante, matarán al mágico entre los dos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000517">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000521">Calla; imbécil: tu amo y su criado están aquí; y todo lo que
+dices, no es más que un cuento.</p>
+          </sp>
+          <sp xml:id="spa-speech-000518">
+            <speaker>El criado</speaker>
+            <p xml:id="spa-p-000522">Ama, por mi vida, os digo la verdad. Desde que ví esta
+escena he corrido casi sin respirar. Grita contra vos, y jura que si
+puede cogeros, os tostará la cara y os desfigurará. (<hi rend="italic">Se oyen gritos en
+el interior.</hi>) Escuchad, escuchad; ya le oigo; huíd, ama mía, escapaos!</p>
+          </sp>
+          <sp xml:id="spa-speech-000519">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000523">(<hi rend="italic">A Adriana.</hi>) Venid, poneos junto á mí. No tengáis ningún
+temor. Guardadla con vuestras alabardas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000520">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000524">(<hi rend="italic">Viendo entrar á Antífolo de Éfeso.</hi>) ¡Oh dioses! ¡Es mi
+esposo! Sed testigos, que reaparece aquí como un espíritu invisible. No
+hace sino un momento que le hemos visto refugiarse en esta abadía, y
+hele aquí ahora que llega por otro lado. ¡Esto sobrepuja la inteligencia
+humana!</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000040">
+(<hi rend="italic">Entran Antífolo y Dromio de Éfeso.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000521">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000525">¡Justicia, generoso duque! ¡Oh! ¡Aseguradme justicia! En
+nombre de los servicios que os he hecho en tiempos pasados, cuando os he
+cubierto con mi cuerpo en el combate y he recibido profundas heridas por
+salvar vuestra vida; en nombre de la sangre que perdí entonces por vos,
+acordadme justicia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000522">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000526">Si el temor de la muerte no me ha trastornado la razón, es á mi
+hijo Antífolo á quien veo, y á Dromio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000523">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000527">¡Justicia, buen príncipe, contra esta mujer que véis allí!
+Ella, á quien me habéis dado vos mismo por esposa, me ha ultrajado y
+deshonrado, con la más grande y la más cruel afrenta. La injuria que sin
+pudor me ha hecho hoy, sobrepuja la imaginación.</p>
+          </sp>
+          <sp xml:id="spa-speech-000524">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000528">Explicaos y me encontraréis justo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000525">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000529">Hoy mismo, poderoso duque, ha cerrado para mí las puertas de
+mi casa, mientras que ella se regalaba allí con bribones infames.</p>
+          </sp>
+          <sp xml:id="spa-speech-000526">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000530">Grave falta; responde, mujer: ¿has obrado así?</p>
+          </sp>
+          <sp xml:id="spa-speech-000527">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000531">No, mi digno señor. Yo, él y mi hermana, hemos comido hoy
+juntos. ¡Que caiga sobre mi alma la acusación, sí no es enteramente
+falsa!</p>
+          </sp>
+          <sp xml:id="spa-speech-000528">
+            <speaker>Luciana</speaker>
+            <p xml:id="spa-p-000532">¡Que jamás vuelva yo á ver la luz del día, ni á reposar en la
+noche, si ella no dice la pura verdad á Vuestra Alteza!</p>
+          </sp>
+          <sp xml:id="spa-speech-000529">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000533">¡Oh mujer perjura! Una y otra juran en falso. Sobre este punto,
+el loco las acusa con justicia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000530">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000534">Mi soberano, sé lo que digo. No estoy perturbado por los
+vapores del vino, ni extraviado por el desorden de la cólera, aunque las
+injurias que he recibido bastarían para hacer perder la razón á un
+hombre más prudente que yo. Esta mujer me ha impedido entrar hoy á mi
+casa para comer: este platero que véis, si no estuviese de acuerdo con
+ella, podría atestiguarlo, pues estaba conmigo entonces; me ha dejado
+para ir á buscar una cadena, prometiendo traérmela al Puerco-Espín,
+donde Baltasar y yo comimos juntos; terminada nuestra comida y no
+volviendo él, he ido á buscarle y le he encontrado en la calle en
+compañía de este caballero. Allí este platero perjuro me ha jurado
+descaradamente haberme entregado una cadena que ¡lo sabe Dios! no he
+visto jamás, ¡y por esta causa me ha hecho prender por un sargento! He
+obedecido y he enviado mi criado á mi casa á buscar algunos ducados.
+Volvió, pero sin dinero. Entonces rogué cortesmente al oficial que me
+acompañase él mismo hasta mi casa. En el camino hemos encontrado á mi
+esposa, su hermana y toda una caterva de viles cómplices; traían con
+ellos á un tal Pinch, un perdido, de cara flaca y aire de hambriento, un
+esqueleto descarnado, un charlatán, decidor de buena aventura,
+escamoteador remendado, un miserable necesitado, de ojos hundidos y
+mirada maliciosa, una momia ambulante. Este pillo peligroso ha osado
+hacerse pasar por mágico, mirándome los ojos, tomándome el pulso,
+despreciándome en mi presencia. Él, que apenas es un ente, ha exclamado
+que yo estaba loco. En seguida todos han caído sobre mí, me han
+amarrado, arrastrado y sumergido á mí y á mi criado, atados ambos, en
+una húmeda y tenebrosa cueva de mi casa. Al fin royendo mis lazos con
+los dientes, los he roto; he recobrado mi libertad y he corrido en
+seguida en busca de Vuestra Alteza; conjúrola que me haga dar una
+satisfacción amplia por estas indignidades y las afrentas inauditas que
+me han hecho sufrir.</p>
+          </sp>
+          <sp xml:id="spa-speech-000531">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000535">Mi príncipe, en toda verdad, mi testimonio se acuerda con el
+suyo en que no ha comido en su casa sino que le han cerrado la puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000532">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000536">¿Pero le habéis entregado ó no la cadena en cuestión?</p>
+          </sp>
+          <sp xml:id="spa-speech-000533">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000537">La ha recibido de mí, Alteza; y cuando corría en esta calle,
+esta gente ha visto la cadena en su cuello.</p>
+          </sp>
+          <sp xml:id="spa-speech-000534">
+            <speaker>El mercader</speaker>
+            <p xml:id="spa-p-000538">Además, yo juraré que con mis propios oídos os he oído
+confesar que habíais recibido de él la cadena, después de haberlo negado
+con juramento en la plaza del Mercado. En esta ocasión es cuando saqué
+la espada contra vos: entonces os escapasteis en esta abadía, de donde
+creo habéis salido por milagro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000535">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000539">Jamás he entrado en el recinto de esta abadía; jamás habéis
+sacado la espada contra mí; jamás he visto la cadena: ¡tomo por testigo
+al cielo! Y todo lo que me imputáis es mentira.</p>
+          </sp>
+          <sp xml:id="spa-speech-000536">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000540">¡Qué acusación tan enredada! Creo que habéis bebido todos en
+la copa de Circeo. Si hubiera entrado en esta casa, allí estaría aún; si
+estuviese loco, no defendería su causa con tanta sangre fría. Decís que
+ha comido en su casa; el platero lo niega. ¿Y tú, tunante, qué dices tú?</p>
+          </sp>
+          <sp xml:id="spa-speech-000537">
+            <speaker>Dromio</speaker>
+            <p xml:id="spa-p-000541">Príncipe, ha comido con esta mujer en el Puerco-Espín.</p>
+          </sp>
+          <sp xml:id="spa-speech-000538">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000542">Sí, mi príncipe, ha cogido de mi dedo esa sortija que le
+véis.</p>
+          </sp>
+          <sp xml:id="spa-speech-000539">
+            <speaker>Antífolo</speaker>
+            <p xml:id="spa-p-000543">Es verdad, mi soberano, es de ella de quien tengo esta
+sortija.</p>
+          </sp>
+          <sp xml:id="spa-speech-000540">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000544">(<hi rend="italic">A la cortesana.</hi>) ¿Le habéis visto entrar en esta abadía?</p>
+          </sp>
+          <sp xml:id="spa-speech-000541">
+            <speaker>La cortesana</speaker>
+            <p xml:id="spa-p-000545">Tan seguro, mi príncipe, como lo es, que veo á Vuestra
+Gracia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000542">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000546">Es extraño! Id á decir á la abadesa que se presente aquí:
+creo, verdaderamente, que estáis todos de acuerdo ó completamente locos.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000041">
+(<hi rend="italic">Uno de la gente del duque va á buscar á la abadesa.</hi>)<lb/>
+</stage>
+          <sp xml:id="spa-speech-000543">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000547">Poderoso duque, acordadme la libertad de decir una palabra.
+Quizás veo aquí un amigo que salvará mi vida y pagará la suma que puede
+libertarme.</p>
+          </sp>
+          <sp xml:id="spa-speech-000544">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000548">Decid libremente, siracusano, lo que queráis.</p>
+          </sp>
+          <sp xml:id="spa-speech-000545">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000549">(<hi rend="italic">Á Antífolo.</hi>) ¿Vuestro nombre, señor, no es Antífolo? ¿Y no es
+ese vuestro esclavo Dromio?</p>
+          </sp>
+          <sp xml:id="spa-speech-000546">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000550">No hace aún una hora, señor, que era su esclavo: pero
+él, se lo agradezco, ha cortado mis cuerdas con sus dientes; y ahora soy
+Dromio y su servidor, pero ya no esclavo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000547">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000551">Estoy seguro que los dos os acordáis de mí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000548">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000552">Nos acordamos de nosotros mismos, señor, en viéndoos;
+pues hace algunos instantes que estábamos ligados, como lo estáis vos
+ahora. ¿No sois un enfermo de Pinch, no es verdad, señor?</p>
+          </sp>
+          <sp xml:id="spa-speech-000549">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000553">(<hi rend="italic">Á Antífolo.</hi>) ¿Por qué me miráis como á un extraño? Me
+conocéis bien.</p>
+          </sp>
+          <sp xml:id="spa-speech-000550">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000554">Jamás en mi vida os he visto, hasta este momento.</p>
+          </sp>
+          <sp xml:id="spa-speech-000551">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000555">¡Oh! la tristeza me ha cambiado desde la última vez que me
+habéis visto; mis horas de inquietud, y la mano destructora del tiempo
+han grabado extrañas alteraciones sobre mi rostro. Pero decidme aún ¿no
+reconocéis mi voz?</p>
+          </sp>
+          <sp xml:id="spa-speech-000552">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000556">Tampoco.</p>
+          </sp>
+          <sp xml:id="spa-speech-000553">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000557">¿Y tú, Dromio?</p>
+          </sp>
+          <sp xml:id="spa-speech-000554">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000558">Ni yo, señor; os lo aseguro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000555">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000559">Y yo estoy seguro que la reconoces.</p>
+          </sp>
+          <sp xml:id="spa-speech-000556">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000560">¿Sí, señor? Y yo estoy seguro que no, y lo que un
+hombre os niega, estáis obligado ahora á creerlo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000557">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000561">¡No reconocer mi voz! ¡Oh estrago del tiempo! ¡Has deformado y
+entorpecido á tal punto mi lengua, en el corto espacio de siete años,
+que mi hijo único no pueda ya reconocer mi débil voz que hacen vibrar
+desapacible los cuidados! Aunque mi rostro surcado de arrugas, esté
+oculto bajo la nieve del invierno que hiela la savia; aunque todos los
+canales de mi sangre estén helados; sin embargo, un resto de memoria
+reluce en la noche de mi vida; las antorchas medio consumidas de mi
+vista, despiden aún alguna pálida claridad; mis orejas ensordecidas me
+sirven aún para oir un poco; y todos estos viejos testigos (no, no puedo
+equivocarme) me dicen que eres mi hijo Antífolo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000558">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000562">Nunca en mi vida he visto á mi padre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000559">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000563">No hace aún siete años, joven, lo sabes, que nos hemos separado
+en Siracusa: pero puede ser, hijo mío, que tengas vergüenza de
+reconocerme en el infortunio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000560">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000564">El duque, y todos los de la ciudad que me conocen,
+pueden atestiguar conmigo que eso no es verdad. No he visto jamás
+Siracusa, en toda mi vida.</p>
+          </sp>
+          <sp xml:id="spa-speech-000561">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000565">Te aseguro, siracusano, que desde ha veinte años que soy el
+protector de Antífolo, jamás ha visto Siracusa: veo que tu edad y tu
+peligro perturban tu razón. (<hi rend="italic">Entra la abadesa, seguida de Antífolo y
+de Dromio de Siracusa.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000562">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000566">Muy poderoso duque, he aquí un hombre cruelmente ultrajado.
+(<hi rend="italic">Todo el mundo se aproxima y se apresura para ver.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000563">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000567">Veo dos maridos, ó mis ojos me engañan.</p>
+          </sp>
+          <sp xml:id="spa-speech-000564">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000568">Uno de estos dos hombres es sin duda el genio del otro; y lo
+mismo sucede con estos dos esclavos. ¿Cuál de los dos es el hombre
+natural y cuál el espíritu? ¿Quién puede distinguir al uno del otro?</p>
+          </sp>
+          <sp xml:id="spa-speech-000565">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000569">Soy yo, señor, quien soy Dromio; ordenad á ese
+hombre que se retire.</p>
+          </sp>
+          <sp xml:id="spa-speech-000566">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000570">Soy yo, señor, quien soy Dromio: permitid que me
+quede.</p>
+          </sp>
+          <sp xml:id="spa-speech-000567">
+            <speaker>Antífolo de Siracusa</speaker>
+            <p xml:id="spa-p-000571">¿No eres Ægeón, ó eres su fantasma?</p>
+          </sp>
+          <sp xml:id="spa-speech-000568">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000572">¡Oh mi viejo amo! ¿Quién lo ha cargado aquí con
+estos lazos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000569">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000573">Cualquiera que sea el que le ha encadenado, le libertaré de
+su cadena y ganaré un esposo. Hablad, viejo Ægeón, si sois el hombre que
+tuvo una esposa, hace tiempo, llamada Emilia, que os dió á la vez dos
+hermosos niños; ¡oh! ¡si sois el mismo Ægeón, hablad, y hablad á la
+propia Emilia!</p>
+          </sp>
+          <sp xml:id="spa-speech-000570">
+            <speaker>Ægeón</speaker>
+            <p xml:id="spa-p-000574">Si no sueño, eres Emilia; si eres Emilia dime ¿dónde está este
+hijo que flotaba contigo sobre aquella balsa fatal?</p>
+          </sp>
+          <sp xml:id="spa-speech-000571">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000575">Él y yo con el gemelo Dromio, fuímos recogidos por
+habitantes de Epidamno; pero un momento después, pescadores feroces de
+Corinto les quitaron por fuerza á Dromio y á mi hijo, y me dejaron con
+los de Epidamno. Lo que fué de ellos después, no puedo decirlo; á mí, la
+fortuna me ha colocado en el estado en que me véis.</p>
+          </sp>
+          <sp xml:id="spa-speech-000572">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000576">He aquí que principia á confirmarse la historia de esta
+mañana; ¡estos dos Antífolo, estos dos hijos tan parecidos, y estos dos
+Dromio tan semejantes! He aquí los padres de estos dos niños que la
+casualidad reune. Antífolo, ¿has venido primero de Corinto?</p>
+          </sp>
+          <sp xml:id="spa-speech-000573">
+            <speaker>Antífolo de Siracusa</speaker>
+            <p xml:id="spa-p-000577">No, príncipe; yo no: vine de Siracusa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000574">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000578">Vamos, teneos separados; no puedo distinguiros uno de otro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000575">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000579">Vine de Corinto, mi bondadoso señor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000576">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000580">Y yo con él.</p>
+          </sp>
+          <sp xml:id="spa-speech-000577">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000581">Conducido a esta ciudad por vuestro tío, el duque
+Menafón, guerrero tan famoso.</p>
+          </sp>
+          <sp xml:id="spa-speech-000578">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000582">¿Cuál de los dos ha comido conmigo hoy?</p>
+          </sp>
+          <sp xml:id="spa-speech-000579">
+            <speaker>Antífolo de Siracusa</speaker>
+            <p xml:id="spa-p-000583">Yo, mi bella dama.</p>
+          </sp>
+          <sp xml:id="spa-speech-000580">
+            <speaker>Adriana</speaker>
+            <p xml:id="spa-p-000584">¿Y no sois vos mi esposo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000581">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000585">No, á eso digo yo no.</p>
+          </sp>
+          <sp xml:id="spa-speech-000582">
+            <speaker>Antífolo de Siracusa</speaker>
+            <p xml:id="spa-p-000586">Y convengo con vos; aunque ella me haya dado este
+título...., y que esta bella señorita, su hermana, que he ahí, me haya
+llamado su hermano.—Lo que os he dicho entonces, espero tener un día la
+ocasión de probároslo, si todo lo que veo y oigo no es un sueño.</p>
+          </sp>
+          <sp xml:id="spa-speech-000583">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000587">He aquí la cadena, señor, que habéis recibido de mí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000584">
+            <speaker>Antífolo de Siracusa</speaker>
+            <p xml:id="spa-p-000588">Lo creo, señor, no lo niego.</p>
+          </sp>
+          <sp xml:id="spa-speech-000585">
+            <speaker>Antífolo de Éfeso</speaker>
+            <stage type="business" xml:id="spa-stage-000042">á Angelo</stage>
+            <p xml:id="spa-p-000589">Y vos, señor, me habéis hecho prender
+por esta cadena.</p>
+          </sp>
+          <sp xml:id="spa-speech-000586">
+            <speaker>Angelo</speaker>
+            <p xml:id="spa-p-000590">Creo que sí, señor; no lo niego.</p>
+          </sp>
+          <sp xml:id="spa-speech-000587">
+            <speaker>Adriana</speaker>
+            <stage type="business" xml:id="spa-stage-000043">á Antífolo de Éfeso.</stage>
+            <p xml:id="spa-p-000591">Os he enviado dinero, señor, para
+serviros de caución, por Dromio; pero creo que no os lo ha llevado.
+(<hi rend="italic">Señalando á Dromio de Siracusa.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000588">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000592">No, yo no.</p>
+          </sp>
+          <sp xml:id="spa-speech-000589">
+            <speaker>Antífolo de Siracusa</speaker>
+            <p xml:id="spa-p-000593">He recibido de vos esta bolsa de ducados; y es
+Dromio, mi criado, quien me la ha traído: veo ahora que cada uno de
+nosotros ha encontrando el criado del otro; yo he sido tomado por él, y
+él por mí; y de aquí han provenido todas estas equivocaciones.</p>
+          </sp>
+          <sp xml:id="spa-speech-000590">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000594">Empeño aquí estos ducados por el rescate de mi
+padre, que he aquí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000591">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000595">Es inútil; doy la vida á vuestro padre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000592">
+            <speaker>La cortesana</speaker>
+            <stage type="business" xml:id="spa-stage-000044">á Antífolo de Éfeso.</stage>
+            <p xml:id="spa-p-000596">Señor, es necesario que me
+volváis este diamante.</p>
+          </sp>
+          <sp xml:id="spa-speech-000593">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000597">Helo aquí, tomadle, y muchas gracias por vuestra
+buena carne.</p>
+          </sp>
+          <sp xml:id="spa-speech-000594">
+            <speaker>La abadesa</speaker>
+            <p xml:id="spa-p-000598">Ilustre duque, dignaos daros la molestia de entrar con
+nosotros en esta abadía; oiréis la historia entera de nuestras
+aventuras. Y vosotros todos, que estáis reunidos en este lugar y que
+habéis sufrido algún perjuicio por las equivocaciones recíprocas de este
+día, venid, acompañadnos, y tendréis plena satisfacción. Durante
+veinticinco años enteros, he sufrido los dolores del alumbramiento, á
+causa de vosotros, hijos míos, y no es sino en esta hora cuando estoy al
+fin desembarazada de mi penoso fardo. El duque, mi marido, mis dos hijos
+y vosotros que marcáis la fecha de su nacimiento, venid conmigo á una
+fiesta de puerperio; á tan largos dolores debe suceder tal natividad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000595">
+            <speaker>El duque</speaker>
+            <p xml:id="spa-p-000599">Con todo mi corazón; quiero apadrinar esta fiesta. (<hi rend="italic">Salen el
+duque, la abadesa, Ægeón, la cortesana, el mercader y el séquito.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000596">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000600">(<hi rend="italic">A Antífolo de Éfeso.</hi>) Mi amo, ¿iré á tomar
+vuestro equipaje á bordo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000597">
+            <speaker>Antífolo de Éfeso</speaker>
+            <p xml:id="spa-p-000601">Dromio, ¿qué equipaje á bordo has embarcado?</p>
+          </sp>
+          <sp xml:id="spa-speech-000598">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000602">Todos vuestros efectos, señor, que teníais en el
+albergue del Centauro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000599">
+            <speaker>Antífolo de Siracusa</speaker>
+            <p xml:id="spa-p-000603">Es á mí á quien quiere hablar: soy yo, quien soy
+tu amo, Dromio. Vamos, ven con nosotros: trataremos de arreglar eso más
+tarde: abraza á tu hermano y diviértete con él. (<hi rend="italic">Los dos Antífolos
+salen.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000600">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000604">Hay en la casa de vuestro amo una amiga gorda, que
+hoy en la comida me ha ENCOCINADO tomándome por vos. En lo sucesivo será
+mi hermana y no mi esposa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000601">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000605">Me parece que sois mi espejo en lugar de ser mi
+hermano. Veo en vuestro rostro que soy un muchacho bonito. ¿Queréis
+entrar para ver su fiesta?</p>
+          </sp>
+          <sp xml:id="spa-speech-000602">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000606">No es á mí, señor, á quien toca pasar el primero:
+sois el mayor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000603">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000607">Es una cuestión: ¿cómo la resolveremos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000604">
+            <speaker>Dromio de Siracusa</speaker>
+            <p xml:id="spa-p-000608">Tiraremos á la paja corta para decidirla. Hasta
+entonces, pasa tú delante.</p>
+          </sp>
+          <sp xml:id="spa-speech-000605">
+            <speaker>Dromio de Éfeso</speaker>
+            <p xml:id="spa-p-000609">No, tengámonos así. Hemos entrado en el mundo como dos
+hermanos: entremos aquí mano en mano y no uno delante del otro.
+(<hi rend="italic">Salen.</hi>)</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

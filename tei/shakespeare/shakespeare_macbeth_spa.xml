@@ -1,0 +1,3664 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="shakespeare-macbeth-spa" xml:lang="es">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="es">Macbeth</title>
+        <author>
+          <persName>William Shakespeare</persName>
+          <note type="dates">1564–1616</note>
+        </author>
+        <respStmt>
+          <resp>Spanish translation</resp>
+          <name>Marcelino Menéndez y Pelayo</name>
+        </respStmt>
+        <respStmt xml:id="bookstacks-encoding">
+          <resp>XHTML-to-TEI drama conversion and structural encoding</resp>
+          <name>Bookstacks project</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0">Bookstacks Spanish TEI edition</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Bookstacks project</publisher>
+        <pubPlace>United States</pubPlace>
+        <date when="2026-08-25">25 August 2026</date>
+        <idno type="local">shakespeare-macbeth-spa</idno>
+        <availability status="free">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; the Project Gutenberg source is public domain in the United States.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born-digital Spanish text from Project Gutenberg eBook #53207, converted from its EPUB XHTML reading order. Gutenberg administrative boilerplate, navigation, and decorative images were omitted.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Acts, scenes, dramatic speakers, prose speeches, stage directions, cast material, songs and verse, editorial notices, inline typography, and referenced translator notes were mapped to TEI P5 without inventing speaker identities.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es">Spanish</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="https://www.gutenberg.org">
+          <term>Shakespeare, William, 1564-1616 -- Translations into Spanish</term>
+          <term>English drama -- Translations into Spanish</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-08-25" who="#bookstacks-encoding">Converted the Spanish Project Gutenberg EPUB XHTML into standalone dramatic TEI P5.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <body>
+      <div type="title-page" xml:id="spa-title-page-000001">
+        <head>MACBETH.</head>
+        <p xml:id="spa-p-000001">TRAGEDIA DE SHAKSPEARE.</p>
+        <p xml:id="spa-p-000002"><hi rend="small">TRADUCCION<lb/>
+DE</hi><lb/>
+<seg rend="xhtml_big">D. M. MENENDEZ PELAYO.</seg></p>
+        <p xml:id="spa-p-000003">Ilustracion de <hi rend="italic">Grot Johan</hi>, grabados de <hi rend="italic">H. Thiele</hi>.</p>
+      </div>
+      <div type="characters" xml:id="spa-characters-000001">
+        <head>PERSONAJES.</head>
+        <castList>
+          <castItem>El rey de Escocia, DUNCAN.</castItem>
+          <castItem>Sus hijos: MALCOLM y DONALBÁIN.</castItem>
+          <castItem>Lady MACBETH.</castItem>
+          <castItem><role>MACBETH</role>. señores escoceses.</castItem>
+          <castItem><role>BANQUO</role>.</castItem>
+          <castItem><role>MACDUFF</role>.</castItem>
+          <castItem><role>LÉNNOX</role>.</castItem>
+          <castItem><role>ROSS</role>.</castItem>
+          <castItem><role>ANGUSS</role>.</castItem>
+          <castItem><role>MENTEITH</role>.</castItem>
+          <castItem><role>CAITHNÉSS</role>.</castItem>
+          <castItem>Lady MACDUFF.</castItem>
+          <castItem><role>FLEANCIO</role>, hijo de Banquo.</castItem>
+          <castItem><role>SUARDO</role>, señor de Northumberland.</castItem>
+          <castItem>Su hijo.</castItem>
+          <castItem><role>SÉTON</role>, oficial de Macbeth.</castItem>
+          <castItem>Un niño hijo de Macduff.</castItem>
+          <castItem>Un doctor inglés.</castItem>
+          <castItem>Otro escocés.</castItem>
+          <castItem>Un sargento.</castItem>
+          <castItem>Un viejo.</castItem>
+          <castItem>Un portero.</castItem>
+          <castItem>Una dama de lady Macbeth.</castItem>
+          <castItem>Nobles, guerreros, asesinos, criados, espías, etc.</castItem>
+          <castItem>Hécate.</castItem>
+          <castItem>Tres brujas.</castItem>
+          <castItem>Varios fantasmas.</castItem>
+        </castList>
+      </div>
+      <div type="act" n="1" xml:id="shakespeare-macbeth-spa-act-001">
+        <head>ACTO I.</head>
+        <div type="scene" n="1" xml:id="shakespeare-macbeth-spa-act-001-scene-001">
+          <head>ESCENA PRIMERA.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000001">
+            <hi rend="italic">Tarde tempestuosa.</hi>
+            <lb/>
+            <name type="person">Tres BRUJAS.</name>
+          </stage>
+          <sp xml:id="spa-speech-000001">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000004"><seg rend="smcap">¿Cuándo</seg> volvemos á
+juntarnos, cuando relampaguee, cuando truene ó cuando llueva?</p>
+            <p xml:id="spa-p-000005">BRUJA 2.ª</p>
+            <p xml:id="spa-p-000006">Cuando acabe el estruendo de la batalla, y unos la pierdan y otros
+la ganen.</p>
+          </sp>
+          <sp xml:id="spa-speech-000002">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000007">Entonces será antes de ponerse el sol.</p>
+          </sp>
+          <sp xml:id="spa-speech-000003">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000008">¿Dónde hemos de encontrarnos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000004">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000009">En el yermo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000005">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000010">Allí toparemos con Macbeth.</p>
+          </sp>
+          <sp xml:id="spa-speech-000006">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000011">Me llama Morrongo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000007">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000012">Y á mí el Sapo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000008">
+            <speaker>LAS TRES JUNTAS</speaker>
+            <p xml:id="spa-p-000013">El mal es bien, y el bien es mal: cortemos los aires y la niebla.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2" xml:id="shakespeare-macbeth-spa-act-001-scene-002">
+          <head>ESCENA II.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000002">
+            <hi rend="italic">Campamento.</hi>
+            <lb/>
+            <name type="person">DUNCAN, MALCOLM, un ESCUDERO, un SARGENTO, LÉNNOX y ROSS.</name>
+          </stage>
+          <sp xml:id="spa-speech-000009">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000014">¿Quién es aquel herido? Quizá nos traiga nuevas del campamento.</p>
+          </sp>
+          <sp xml:id="spa-speech-000010">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000015">Es el escudero que puso en peligro su vida por salvar la mia.
+¡Buenas tardes, amigo! Cuenta tú al Rey el estado del combate.</p>
+          </sp>
+          <sp xml:id="spa-speech-000011">
+            <speaker>ESCUDERO</speaker>
+            <p xml:id="spa-p-000016">Sigue indeciso, semejante á una lucha entre dos nadadores que
+quieren mutuamente sofocarse. Con el traidor Macdonnell, en quien se
+juntan todas las infamias, van unidos muchos caballeros y gente plebeya
+de las islas de Occidente. La fortuna, como ramera, les otorga sus
+favores, pero en vano, porque el fuerte Macbeth, hijo predilecto de
+la victoria, penetra entre las filas hasta encontrarle, y le taja la
+cabeza, y la clava sobre nuestras empalizadas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000012">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000017">¡Bravo caballero, ornamento de mi linaje!</p>
+          </sp>
+          <sp xml:id="spa-speech-000013">
+            <speaker>ESCUDERO</speaker>
+            <p xml:id="spa-p-000018">Así como el sol de la mañana produce á veces tempestad y
+torbellinos, así de esta victoria resultaron nuevos peligros. Óyeme,
+Rey. Cuando el valor, brazo de la justicia, habia logrado ahuyentar á
+aquella muchedumbre allegadiza, hé aquí que se rehace el de Noruega, y
+arroja nuevos campeones á la lid.</p>
+          </sp>
+          <sp xml:id="spa-speech-000014">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000019">¿Y entonces no se desalentaron Macbeth y Banquo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000015">
+            <speaker>SARGENTO</speaker>
+            <p xml:id="spa-p-000020">¡Desalentarse! ¡Bueno es eso! Como el águila viendo gorriones, ó el
+leon liebres. Son cañones de doble carga. Con tal ímpetu menudearon
+sus golpes sobre los contrarios, que pensé que querian reproducir el
+sacrificio del Calvario. Pero estoy perdiendo sangre, y necesito curar
+mis heridas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000016">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000021">Tan nobles son como tus palabras. Buscad un cirujano. ¿Pero quién
+viene?</p>
+          </sp>
+          <sp xml:id="spa-speech-000017">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000022">El señor de Ross.</p>
+          </sp>
+          <sp xml:id="spa-speech-000018">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000023">Grande es la ansiedad que su rostro manifiesta. Debe ser portador de
+grandes nuevas.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000003">(<hi rend="italic">Entra Ross.</hi>)</stage>
+          <sp xml:id="spa-speech-000019">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000024">¡Salud al Rey!</p>
+          </sp>
+          <sp xml:id="spa-speech-000020">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000025">¿De dónde vienes, noble señor?</p>
+          </sp>
+          <sp xml:id="spa-speech-000021">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000026">Poderoso monarca, vengo de Faife, donde el aire agita en mengua
+nuestra los estandartes noruegos. Su Rey, con lucida hueste y con ayuda
+del traidor señor de Cáudor, renovó la lucha, pero el terrible esposo
+de Belona, cubierto de espesa malla, les resistió brazo á brazo, y
+hierro á hierro, y logró domeñar su altivez y postrarla por tierra. Al
+fin, logramos la victoria.</p>
+          </sp>
+          <sp xml:id="spa-speech-000022">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000027">¡Felicidad suprema!</p>
+          </sp>
+          <sp xml:id="spa-speech-000023">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000028">El rey Suenon de Noruega queria capitular, pero no le permitimos ni
+áun enterrar sus muertos, sin que pagara antes en la isla de Colme la
+contribucion de guerra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000024">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000029">Nunca volverá el de Cáudor á poner en peligro la seguridad de mis
+Estados. Manda tú poner á precio su cabeza, y saluda á Macbeth con el
+título que el otro tenia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000025">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000030">Cumpliré tu voluntad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000026">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000031">Macbeth goce desde hoy lo que Cáudor perdió.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3" xml:id="shakespeare-macbeth-spa-act-001-scene-003">
+          <head>ESCENA III.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000004">
+            <hi rend="italic">Un páramo.</hi>
+            <lb/>
+            <name type="person">Tres BRUJAS, MACBETH y BANQUO.</name>
+          </stage>
+          <sp xml:id="spa-speech-000027">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000032">¿Qué has hecho, hermana?</p>
+          </sp>
+          <sp xml:id="spa-speech-000028">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000033">Matar puercos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000029">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000034">¿Dónde has estado, hermana?</p>
+          </sp>
+          <sp xml:id="spa-speech-000030">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000035">La mujer del marinero tenia castañas en su falda, y estaba
+mordiéndolas. Yo le dije: «Dame alguna», y la asquerosa, harta de
+bazófia, me contestó: «Vade retro, condenada bruja.» Su marido se fué
+á Alepo, mandando el <hi rend="italic">Tigre</hi>. Yo, como rata sin cola, navegaré en una
+tela de cedazo, donde cabe bien mi cuerpo. Así lo haré, así lo haré.</p>
+          </sp>
+          <sp xml:id="spa-speech-000031">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000036">Yo te ayudaré con un viento desfavorable.</p>
+          </sp>
+          <sp xml:id="spa-speech-000032">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000037">Gracias.</p>
+          </sp>
+          <sp xml:id="spa-speech-000033">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000038">Yo con otro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000034">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000039">De los demas yo soy señora. ¿Qué puerta quedará segura, cuando
+de todos los puntos de la rosa soplen los vientos? Ni una vez podrá
+conciliar el sueño. Su vida será la del precito, y las tormentas agitarán sin
+cesar su nave. ¡Ved!</p>
+          </sp>
+          <sp xml:id="spa-speech-000035">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000040">¿Qué es eso?</p>
+          </sp>
+          <sp xml:id="spa-speech-000036">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000041">El dedo de un marinero, que se ahogó al volver de su viaje.</p>
+          </sp>
+          <sp xml:id="spa-speech-000037">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000042">¡Tambor, tambor! Ya llega Macbeth.</p>
+          </sp>
+          <sp xml:id="spa-speech-000038">
+            <speaker>LAS TRES BRUJAS</speaker>
+            <p xml:id="spa-p-000043">Juntemos las manos, hagamos una rueda, como hermanas enviadas del
+cielo y de la tierra. Tres vueltas por tí, tres por tí, tres por mí:
+son nueve, cuenta justa. ¡Silencio! Ya ha llegado el término del
+conjuro.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000005">(<hi rend="italic">Llegan Macbeth y Banquo.</hi>)</stage>
+          <sp xml:id="spa-speech-000039">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000044">¡Dia de sangre, pero hermoso más que cuantos he visto!</p>
+          </sp>
+          <sp xml:id="spa-speech-000040">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000045">¿Está lejos el castillo de Fóres? ¿Quiénes serán aquellas mujeres
+arrugadas y de tan extraño aspecto? No parecen séres humanos. ¿Sois
+vivientes? ¿Puedo haceros una pregunta? Debeis de entenderme, porque
+las tres, al mismo tiempo, poneis en los labios vuestros dedos, que
+semejan los de un cadáver. No me atrevo á llamaros mujeres, por las
+barbas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000041">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000046">Si teneis lengua, decidnos quiénes sois.</p>
+          </sp>
+          <sp xml:id="spa-speech-000042">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000047">¡Salud, Macbeth, señor de Glámis!</p>
+          </sp>
+          <sp xml:id="spa-speech-000043">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000048">¡Salud, Macbeth, señor de Cáudor!</p>
+          </sp>
+          <sp xml:id="spa-speech-000044">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000049">¡Salud, Macbeth, tú serás rey!</p>
+          </sp>
+          <sp xml:id="spa-speech-000045">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000050">¿De qué nace ese terror, amigo Macbeth? ¿Por qué te asustan tan
+gratas nuevas? Decidme: ¿sois fantasmas ó séres reales? Habeis saludado
+á mi amigo con títulos de gloria y anuncio de grandezas futuras y
+pompas reales. Decidme algo á mí, si es que sabeis qué granos han de
+germinar ó morir en la série de los tiempos. No temo de vosotras ni
+odio ni favor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000046">
+            <speaker>BRUJAS</speaker>
+            <p xml:id="spa-p-000051">¡Salud!</p>
+          </sp>
+          <sp xml:id="spa-speech-000047">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000052">Serás más grande que Macbeth y menos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000048">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000053">Más feliz y menos feliz.</p>
+          </sp>
+          <sp xml:id="spa-speech-000049">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000054">No rey, pero padre de reyes. ¡Salud, Macbeth y Banquo!</p>
+          </sp>
+          <sp xml:id="spa-speech-000050">
+            <speaker>BRUJA 1.ª y 2.ª</speaker>
+            <p xml:id="spa-p-000055">¡Salud!</p>
+          </sp>
+          <sp xml:id="spa-speech-000051">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000056">No os vayais, oscuras mensajeras. Ya se qué soy señor de Glámis
+por muerte de Sinel, pero ¿cómo he de serlo de Cáudor, si el señor
+vive próspera y felizmente? Tan absurdo es llamarme señor de Cáudor
+como rey. ¿Quién os dió esas noticias? ¿Por qué me habeis venido á
+sorprender en este desierto con tales presagios?</p>
+          </sp>
+          <sp xml:id="spa-speech-000052">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000057">Son sin duda espíritus vaporosos que engendra la tierra, como los
+produce tambien el agua. ¿Por dónde habrán desaparecido?</p>
+          </sp>
+          <sp xml:id="spa-speech-000053">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000058">Los cuerpos se han disuelto en el aire, como se pierde en el aire la
+respiracion. ¡Ojalá se hubieran quedado!</p>
+          </sp>
+          <sp xml:id="spa-speech-000054">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000059">¿Será verdad lo que hemos visto? ¿ó habremos probado alguna yerba de
+las que trastornan el juicio?</p>
+          </sp>
+          <sp xml:id="spa-speech-000055">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000060">Tus hijos han de ser reyes.</p>
+          </sp>
+          <sp xml:id="spa-speech-000056">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000061">Lo serás tú mismo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000057">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000062">¿Y tambien señor de Cáudor? ¿No lo dijeron así?</p>
+          </sp>
+          <sp xml:id="spa-speech-000058">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000063">¿Quién llega?</p>
+          </sp>
+          <sp xml:id="spa-speech-000059">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000064">Macbeth, el Rey ha oido tus hazañas. Incierto entre la admiracion y
+el aplauso, no sabe cómo elogiarte, por el valor con que has lidiado
+contra los noruegos, sin percatarte tú mismo del estrago que en ellos
+hacias. Van llegando tan densos como el granizo los mensajeros de la
+victoria, y todos se hacen lenguas de tu heroismo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000060">
+            <speaker>ANGUSS</speaker>
+            <p xml:id="spa-p-000065">El Rey nos envia á darte las gracias y á llevarte á su presencia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000061">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000066">Él me encarga que te salude con el título de señor de Cáudor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000062">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000067">¡Conque tambien el diablo dice verdad!</p>
+          </sp>
+          <sp xml:id="spa-speech-000063">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000068">Si vive el de Cáudor ¿por qué me atavian con ropas ajenas?</p>
+          </sp>
+          <sp xml:id="spa-speech-000064">
+            <speaker>ANGUSS</speaker>
+            <p xml:id="spa-p-000069">Vive el que llevaba ese título, pero debe perder la vida, y se ha
+fulminado contra él dura sentencia. No afirmo que se uniera con los
+noruegos contra su patria, pero está convicto y confeso de traidor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000065">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000070">(<hi rend="italic">Aparte.</hi>) ¡Ya soy señor de Glámis, y señor de Cáudor! Falta lo demas.
+(<hi rend="italic">Á Ross y Anguss.</hi>) Gracias. (<hi rend="italic">A Banquo.</hi>) ¿Crees que tus hijos
+serán reyes, conforme á la promesa de los que me han hecho señor de
+Cáudor?</p>
+          </sp>
+          <sp xml:id="spa-speech-000066">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000071">Esa promesa quizá te haga ambicionar el sólio. Pero mira que á veces
+el demonio nos engaña con la verdad, y nos trae la perdicion envuelta
+en dones que parecen inocentes. Oidme dos palabras, amigos mios.</p>
+          </sp>
+          <sp xml:id="spa-speech-000067">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000072">¡Con dos verdades se abre la escena de este drama, que ha de
+terminar con una corona régia! ¿Es un bien ó un mal este pensamiento?
+Si es un mal, ¿por qué empieza á cumplirse, y soy ya señor de Cáudor?
+Si es un bien, ¿por qué me aterran horribles imágenes, y palpita
+mi corazon de un modo inusitado? El pensamiento del homicidio, más
+horroroso que la realidad misma, comienza á dominarme y á oscurecer mi
+albedrío. Sólo tiene vida en mí lo que aún no existe.</p>
+          </sp>
+          <sp xml:id="spa-speech-000068">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000073">¡Qué absorto y embebecido está nuestro compañero!</p>
+          </sp>
+          <sp xml:id="spa-speech-000069">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000074">Si los hados quieren hacerme rey, lo harán sin que yo busque la
+corona.</p>
+          </sp>
+          <sp xml:id="spa-speech-000070">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000075">El nuevo honor le viene como vestido nuevo: ¡no se le ajusta bien,
+por falta de costumbre!</p>
+          </sp>
+          <sp xml:id="spa-speech-000071">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000076">Corra el tiempo, y suceda lo que quiera.</p>
+          </sp>
+          <sp xml:id="spa-speech-000072">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000077">A tus órdenes, generoso Macbeth.</p>
+          </sp>
+          <sp xml:id="spa-speech-000073">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000078">Perdon, amigos. Estaba distraido con antiguas memorias. Agradezco
+y recordaré siempre vuestros favores. Cabalguemos á ver al Rey. (<hi rend="italic">A
+Banquo.</hi>) Medita tú lo que nos ha sucedido. Luego hablaremos con toda
+libertad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000074">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000079">Así lo deseo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000075">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000080">Hasta despues. Ni una palabra más. Vamos, caballeros.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4" xml:id="shakespeare-macbeth-spa-act-001-scene-004">
+          <head>ESCENA IV.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000006">
+            <hi rend="italic">Habitacion de palacio.</hi>
+            <lb/>
+            <name type="person">DUNCAN, MALCOLM, BANQUO y MACBETH.</name>
+          </stage>
+          <sp xml:id="spa-speech-000076">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000081">¿Está ajusticiado Cáudor? ¿Han vuelto ya los que fueron á su
+castillo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000077">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000082">No han vuelto todavía, pero he hablado con uno que le vió morir, y
+dice que se arrepintió de sus pecados y pidió vuestro perdon. La muerte
+ha sido lo mejor de su vida. Murió como si en vida hubiese aprendido
+á renunciar y tener por cosa vana lo que antes juzgaba de mayor
+aprecio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000078">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000083">¿Quién adivina el alma por el semblante? ¿Quién me hubiera dicho que
+ese caballero no era el más fiel de todos los mios?</p>
+            <p xml:id="spa-p-000084">Primo mio, ya me sentia yo pesaroso de mi ingratitud. Pero estabas
+tan lejos, que ni siquiera las alas del premio podian alcanzarte. Ojalá
+hubieras hecho menos, porque entonces serian menos inferiores á tus
+méritos mis galardones y mercedes. Larga deuda, que nunca podré pagar,
+tengo contigo.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000007">(<hi rend="italic">Á Macbeth que entra.</hi>)</stage>
+          <sp xml:id="spa-speech-000079">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000085">Bastante pago de mi lealtad es ella misma. Mis servicios son como
+hijos y criados del trono: hacen lo que deben, y nada más.</p>
+          </sp>
+          <sp xml:id="spa-speech-000080">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000086">Eres planta que arraiga en mi corazon. Yo la haré crecer. ¡Ilustre
+Banquo! No son menores tus méritos. Así lo reconozco, y te estrecho
+contra mi corazon.</p>
+          </sp>
+          <sp xml:id="spa-speech-000081">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000087">En él germine, que para vos será la cosecha.</p>
+          </sp>
+          <sp xml:id="spa-speech-000082">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000088">¡Hijos, parientes, caballeros!, sabed que nombro heredero de mis
+Estados á mi hijo Malcolm, que desde hoy se llamará príncipe de
+Cumberland. Pero este honor no puede venir solo, y para celebrarle haré
+que caigan, como estrellas, títulos de nobleza sobre todos lo que los
+merezcan. Ahora vamos á Inverness, que los negocios apremian.</p>
+          </sp>
+          <sp xml:id="spa-speech-000083">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000089">¿Cuándo descansareis? Quiero adelantarme en el camino y alegrar los
+oidos de mi mujer con tan grata nueva. Permitídmelo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000084">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000090">¡Noble señor de Cáudor!</p>
+          </sp>
+          <sp xml:id="spa-speech-000085">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000091">(<hi rend="italic">Aparte.</hi>) ¡Príncipe heredero Malcolm! Obstáculo nuevo en mi
+camino. He de saltar por él ó rendirme. No brilleis, estrellas: no
+aclare vuestra luz el negro deseo que abriga mi corazon. Ojos mios,
+la mano hará lo que vosotros no quereis ver. Entre tanto, miradla de
+soslayo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000086">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000092">¿Verdad, Banquo, que Macbeth es un egregio vasallo? No hay para mí
+banquete tan grato como el oir de boca de las gentes sus alabanzas.
+Sigámosle, ya que quiere festejarnos. Es el mejor de mis parientes.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5" xml:id="shakespeare-macbeth-spa-act-001-scene-005">
+          <head>ESCENA V.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000008">
+            <hi rend="italic">Habitacion en el castillo de Macbeth, en Inverness.</hi>
+            <lb/>
+            <name type="person">LADY MACBETH, un CRIADO y MACBETH.</name>
+          </stage>
+          <sp xml:id="spa-speech-000087">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000093">(<hi rend="italic">Leyendo una carta de su marido.</hi>) «Las brujas me salieron al
+encuentro el dia de la victoria. Su ciencia es superior á la de los
+mortales. Quise preguntarlas más, pero se deshicieron en niebla.
+Aún no habia salido yo de mi asombro, cuando llegan nuncios del Rey
+saludándome como á señor de Glámis y de Cáudor, lo mismo que las
+hechiceras, pero estas dijeron ademas: «Salve, Macbeth: tu serás
+rey.» He querido, esposa amada, confiarte este secreto, para que
+no dejes por ignorancia, ni un solo momento, de gozar la dicha que
+nos está profetizada. Piénsalo bien. Adios.» ¡Ya eres señor de Glámis y de Cáudor! Lo
+demas se cumplirá tambien, pero desconfio de tu carácter criado con la
+leche de la clemencia. No sabes ir por atajos sino por el camino recto.
+Tienes ambicion de gloria, pero temes el mal. Quisieras conseguir por
+medios lícitos un fin injusto, y coger el fruto de la traicion sin
+ser traidor. Te espanta lo que vas á hacer, pero despues de hecho, no
+quisieras que se deshiciese. ¡Ven pronto! Infundiré mi alma en tus
+oidos, y mi lengua será azote que espante y disipe las nieblas que te
+impiden llegar á esa corona, que el hado y el influjo de las estrellas
+aparejan para tus sienes.</p>
+          </sp>
+          <sp xml:id="spa-speech-000088">
+            <speaker>UN CRIADO</speaker>
+            <p xml:id="spa-p-000094">Esta noche llega el Rey.</p>
+          </sp>
+          <sp xml:id="spa-speech-000089">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000095">¿Estás en tí? ¿No ves que tu señor no está en el castillo, ni nos ha
+avisado?</p>
+          </sp>
+          <sp xml:id="spa-speech-000090">
+            <speaker>UN CRIADO</speaker>
+            <p xml:id="spa-p-000096">Tambien él se acerca. Un compañero mio vino casi sin aliento á traer
+la noticia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000091">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000097">Cuidad bien al mensajero. Es portador de grandes nuevas. (<hi rend="italic">Aparte.</hi>)
+El cuervo se enronquece de tanto graznar, anunciando que el rey Duncan
+llega al castillo. ¡Espíritus agitadores del pensamiento, despojadme
+de mi sexo, haced más espesa mi sangre, henchidme de crueldad de
+piés á cabeza, ahogad los remordimientos, y ni la compasion ni el
+escrúpulo sean parte á detenerme ni á colocarse entre el propósito y el
+golpe! ¡Espíritus del mal, inspiradores de todo crímen, incorpóreos,
+invisibles, convertid en hiel la leche de mis pechos! Baja, hórrida
+noche: tiende tu
+manto, roba al infierno sus densas humaredas, para que no vea mi puñal
+el golpe que va á dar, ni el cielo pueda apartar el velo de la niebla,
+y contemplarme y decirme á voces: «Detente.»</p>
+            <p xml:id="spa-p-000098">¡Noble señor de Glámis y de Cáudor, áun más ilustre que uno y otro
+por la profética salutacion de las hechiceras! tu carta me ha hecho
+salir de lo presente, y columbrar lo futuro, y extasiarme con él.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000009">(<hi rend="italic">Llega Macbeth.</hi>)</stage>
+          <sp xml:id="spa-speech-000092">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000099">Esposa mia, esta noche llega Duncan.</p>
+          </sp>
+          <sp xml:id="spa-speech-000093">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000100">¿Y cuándo se va?</p>
+          </sp>
+          <sp xml:id="spa-speech-000094">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000101">Dice que mañana.</p>
+          </sp>
+          <sp xml:id="spa-speech-000095">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000102">¡Nunca verá el sol de mañana! En tu rostro, esposo mio, leo como
+en un libro abierto lo que esta noche va á pasar. Disimula prudente:
+oculte tu semblante lo que tu alma medita. Dén tu lengua, tus manos y
+tus ojos la bien venida al rey Duncan: debes esconder el áspid entre
+las flores. Yo me encargo de lo demas. El trono es nuestro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000096">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000103">Ya hablaremos despacio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000097">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000104">Muéstrate alegre.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6" xml:id="shakespeare-macbeth-spa-act-001-scene-006">
+          <head>ESCENA VI.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000010">
+            <hi rend="italic">Entrada del castillo de Macbeth. Sus criados alumbran con antorchas.</hi>
+            <lb/>
+            <name type="person">DUNCAN, BANQUO y LADY MACBETH.</name>
+          </stage>
+          <sp xml:id="spa-speech-000098">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000105">¡Qué hermosamente situado está el castillo! ¡Cómo alegra los
+sentidos esta apacible brisa de la tarde!</p>
+          </sp>
+          <sp xml:id="spa-speech-000099">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000106">La golondrina, eterna huésped del verano, moradora de las iglesias,
+pone en la arquitectura de sus nidos un vago recuerdo del cielo. De
+todo pilar, alero ó ángulo suspende su prolífico lecho, y donde ellas
+anidan, parece que vive la alegría.</p>
+          </sp>
+          <sp xml:id="spa-speech-000100">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000107">¡Ved! ¡Ya sale la noble castellana! (<hi rend="italic">A Macbeth.</hi>) Muchas veces
+tenemos por amor lo que es verdadera desgracia. Pedid á Dios que os
+premie vuestro trabajo, y haga recaer en mí vuestros favores.</p>
+          </sp>
+          <sp xml:id="spa-speech-000101">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000108">Todo nuestro obsequio es poco para pagar tan altos beneficios y
+mercedes, y sobre todo la de haber honrado con vuestra presencia
+esta casa. Pedimos á Dios, en agradecimiento, todo género de favores
+presentes y futuros para vos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000102">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000109">¿Dónde está Macbeth? Corrimos tras él para anticiparnos, pero la
+veloz carrera de su caballo y su amor, todavía más poderoso que su
+corcel, le dieron la ventaja, y llegó mucho antes que nosotros. Hermosa castellana,
+por esta noche reclamamos vuestra hospitalidad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000103">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000110">Criados vuestros somos: cuanto tenemos os pertenece.</p>
+          </sp>
+          <sp xml:id="spa-speech-000104">
+            <speaker>DUNCAN</speaker>
+            <p xml:id="spa-p-000111">Dadme la mano, y guiadme á donde esté mi huésped, objeto perenne de
+mi gracia.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7" xml:id="shakespeare-macbeth-spa-act-001-scene-007">
+          <head>ESCENA VII.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000011">
+            <hi rend="italic">Galería en el castillo de Macbeth.</hi>
+            <lb/>
+            <name type="person">MACBETH y LADY MACBETH.</name>
+          </stage>
+          <sp xml:id="spa-speech-000105">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000112">¡Si bastara hacerlo... pronto quedaba terminado! ¡Si con dar el
+golpe, se atajaran las consecuencias, y el éxito fuera seguro... yo me
+lanzaria de cabeza desde el escollo de la duda al mar de una existencia
+nueva! ¿Pero cómo hacer callar á la razon que incesante nos recuerda
+sus máximas importunas, máximas que en la infancia aprendió y que luego
+son tortura del maestro? La implacable justicia nos hace apurar hasta
+las heces la copa de nuestro propio veneno. Yo debo doble fidelidad al
+rey Duncan. Primero, por pariente y vasallo. Segundo, porque le doy
+hospitalidad en mi castillo, y estoy obligado á defenderle de extraños
+enemigos, en vez de empuñar yo el hierro homicida. Ademas, es tan buen
+rey, tan justo y clemente, que los ángeles de su guarda irán pregonando
+eterna maldicion contra su asesino. La compasion, niño recien nacido, querubin desnudo, irá
+cabalgando en las invisibles alas del viento, para anunciar el crímen
+á los hombres, y el llanto y agudo clamor de los pueblos sobrepujará
+á la voz de los roncos vendavales. La ambicion me impele á escalar la
+cima, ¿pero rodaré por la pendiente opuesta? (<hi rend="italic">A Lady Macbeth.</hi>) ¿Qué
+sucede?</p>
+          </sp>
+          <sp xml:id="spa-speech-000106">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000113">La cena está acabada. ¿Por qué te retiraste tan pronto de la sala
+del banquete?</p>
+          </sp>
+          <sp xml:id="spa-speech-000107">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000114">¿Me has llamado?</p>
+          </sp>
+          <sp xml:id="spa-speech-000108">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000115">¿No lo sabes?</p>
+          </sp>
+          <sp xml:id="spa-speech-000109">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000116">Tenemos que renunciar á ese horrible propósito. Las mercedes del Rey
+han llovido sobre mí. Las gentes me aclaman honrado y vencedor. Hoy he
+visto los arreos de la gloria, y no debo mancharlos tan pronto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000110">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000117">¿Qué ha sido de la esperanza que te alentaba? ¿Por ventura ha caido
+en embriaguez ó en sueño? ¿O está despierta, y mira con estúpidos
+y pasmados ojos lo que antes contemplaba con tanta arrogancia? ¿Es
+ese el amor que me mostrabas? ¿No quieres que tus obras igualen á
+tus pensamientos y deseos? ¿Pasarás por cobarde á tus propios ojos,
+diciendo primero: «lo haria» y luego «me falta valor»? Acuérdate de la
+fábula del gato.</p>
+          </sp>
+          <sp xml:id="spa-speech-000111">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000118">¡Calla, por el infierno! Me atrevo á hacer lo que cualquiera otro hombre
+haria, pero esto no es humano.</p>
+          </sp>
+          <sp xml:id="spa-speech-000112">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000119">¿Pues es alguna fiera la que te lo propuso? ¿No eras hombre, cuando
+te atrevias, y buscabas tiempo y lugar oportunos? ¡Y ahora que ellos
+mismos se te presentan, tiemblas y desfalleces! Yo he dado de mamar
+á mis hijos, y sé cómo se les ama; pues bien, si yo faltara á un
+juramento como tú has faltado, arrancaria el pecho de las encías de mi
+hijo cuando más risueño me mirara, y le estrellaria los sesos contra la
+tierra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000113">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000120">¿Y si se frustra nuestro plan?</p>
+          </sp>
+          <sp xml:id="spa-speech-000114">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000121">¡Imposible, si aprietas los tornillos de tu valor! Duncan viene
+cansado del largo viaje, y se dormirá: yo embriagaré á sus dos
+servidores, de modo que se anuble en ellos la memoria y se reduzca
+á humo el juicio. Quedarán en sueño tan profundo como si fuesen cadáveres. ¿Quién nos
+impide dar muerte á Duncan, y atribuir el crímen á sus embriagados
+compañeros?</p>
+          </sp>
+          <sp xml:id="spa-speech-000115">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000122">Tú no debias concebir ni dar á luz más que varones. Mancharemos
+de sangre á los dos guardas ébrios, y asesinaremos á Duncan con sus
+puñales.</p>
+          </sp>
+          <sp xml:id="spa-speech-000116">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000123">¿Y quién no creerá que ellos fueron los matadores, cuando oiga
+nuestras lamentaciones y clamoreo despues de su muerte?</p>
+          </sp>
+          <sp xml:id="spa-speech-000117">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000124">Estoy resuelto. Todas mis facultades se concentran en este solo
+objeto. Oculte, con traidora máscara, nuestro semblante lo que maquina
+el alma.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2" xml:id="shakespeare-macbeth-spa-act-002">
+        <head>ACTO II.</head>
+        <div type="scene" n="1" xml:id="shakespeare-macbeth-spa-act-002-scene-001">
+          <head>ESCENA PRIMERA.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000012">
+            <hi rend="italic">Patio en el castillo de Macbeth.</hi>
+            <lb/>
+            <name type="person">BANQUO, FLEANCIO y MACBETH.</name>
+          </stage>
+          <sp xml:id="spa-speech-000118">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000125"><seg rend="smcap">Hijo,</seg> ¿qué hora es?</p>
+            <p xml:id="spa-p-000126">FLEANCIO.</p>
+            <p xml:id="spa-p-000127">No he oido el reloj, pero la luna va descendiendo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000119">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000128">Será media noche.</p>
+          </sp>
+          <sp xml:id="spa-speech-000120">
+            <speaker>FLEANCIO</speaker>
+            <p xml:id="spa-p-000129">Quizá más tarde.</p>
+          </sp>
+          <sp xml:id="spa-speech-000121">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000130">Toma la espada. El cielo ha apagado sus candiles, sin duda por
+economía. Me rinde el sueño con mano de plomo, pero no quiero dormir.
+¡Dios mio! contén la ira que viene á perturbarme en medio del reposo.
+Dame la espada. ¿Quién es?</p>
+          </sp>
+          <sp xml:id="spa-speech-000122">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000131">Un amigo tuyo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000123">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000132">¿Todavía estás en pié? El Rey se ha acostado más alegre que nunca,
+y ponderando mucho tu hospitalidad. Manda un diamante para tu mujer, á
+quien llama su linda huéspeda.</p>
+          </sp>
+          <sp xml:id="spa-speech-000124">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000133">Por imprudencia quizá haya caido mi voluntad en faltas que, á
+disponer de su libre albedrío, hubiera evitado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000125">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000134">No sé qué hayas cometido ninguna falta. Ayer soñé con las brujas.
+Por cierto que contigo han andado verídicas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000126">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000135">No me cuido de eso. Ya hablaremos otra vez con más espacio, si eso
+te complace.</p>
+          </sp>
+          <sp xml:id="spa-speech-000127">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000136">Cuando quieras.</p>
+          </sp>
+          <sp xml:id="spa-speech-000128">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000137">Si te guias por mi consejo, ganarás honra y favor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000129">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000138">Siempre que sea sin menoscabo de la lealtad que reina en mi
+pecho.</p>
+          </sp>
+          <sp xml:id="spa-speech-000130">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000139">Véte á descansar.</p>
+          </sp>
+          <sp xml:id="spa-speech-000131">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000140">Gracias.</p>
+          </sp>
+          <stage type="exit" xml:id="spa-stage-000013">(<hi rend="italic">Vase con su hijo.</hi>)</stage>
+          <sp xml:id="spa-speech-000132">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000141">(<hi rend="italic">A su criado.</hi>) Dí á la señora que me llame cuando tenga preparada
+mi copa. Tú, acuéstate. ¡Me parece estar viendo el puño de una daga
+vuelta hácia mí! ¡Ven á mis manos, puñal que toco aunque no veo! ¿O
+eres acaso sueño de mi delirante fantasía? Me pareces tan real como
+el que en mi mano resplandece. Tú me enseñas el arma y el camino. La
+cuchilla y el mango respiran ya sangre. ¡Vana ilusion! Es el crímen
+mismo el que me habla así. La Naturaleza reposa en nuestro hemisferio.
+Negros ensueños agitan al que ciñe real corona. Las brujas en su
+nefando sábado festejan á la pálida Hécate, y el escuálido homicidio,
+temeroso de los aullidos del lobo centinela suyo, camina con silencioso
+pié, como iba Tarquino á la mansion de la casta Lucrecia. ¡Tierra, no
+sientas el ruido de mis piés, no le adivines! ¡No pregonen tus piedras
+mi crímen! ¡Da tregua á los terrores de estas horas nocturnas! Pero,
+¿á qué es detenerme en vanas palabras que hielan la accion? (<hi rend="italic">Óyese
+una campana.</hi>) ¡Ha llegado la hora! ¡Duncan, no oigas el tañido de esa
+campana, que me invita al crímen, y que te abre las puertas del cielo ó
+del infierno!</p>
+          </sp>
+        </div>
+        <div type="scene" n="2" xml:id="shakespeare-macbeth-spa-act-002-scene-002">
+          <head>ESCENA II.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000014">
+            <name type="person">Lady MACBETH y MACBETH.</name>
+          </stage>
+          <sp xml:id="spa-speech-000133">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000142">La embriaguez en que han caido me da alientos. ¡Silencio! Es el
+chillido del buho, severo centinela de la noche. Abiertas están las
+puertas. La pócima que administré á los guardas los tiene entre la vida
+y la muerte.</p>
+          </sp>
+          <sp xml:id="spa-speech-000134">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000143">(<hi rend="italic">Dentro.</hi>) ¿Quién es?</p>
+          </sp>
+          <sp xml:id="spa-speech-000135">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000144">Temo que se despierten, antes que esté consumado el crímen, y sea
+peor el amago que el golpe... Yo misma afilé los puñales... Si su sueño
+no se hubiera parecido al de mi padre, yo misma le hubiera dado muerte.
+Pero aquí está mi marido...</p>
+          </sp>
+          <sp xml:id="spa-speech-000136">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000145">Ya está cumplido. ¿Has sentido algun rumor?</p>
+          </sp>
+          <sp xml:id="spa-speech-000137">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000146">No más que el canto del grillo y el chillido del buho. ¿Hablaste
+algo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000138">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000147">¿Cuándo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000139">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000148">Ahora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000140">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000149">¿Cuando bajé?</p>
+          </sp>
+          <sp xml:id="spa-speech-000141">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000150">Sí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000142">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000151">¿Quién está en el segundo aposento?</p>
+          </sp>
+          <sp xml:id="spa-speech-000143">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000152">Donalbáin.</p>
+          </sp>
+          <sp xml:id="spa-speech-000144">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000153">¡Qué horror!</p>
+          </sp>
+          <sp xml:id="spa-speech-000145">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000154">¡Qué necedad! ¿Por qué te parece horrible?</p>
+          </sp>
+          <sp xml:id="spa-speech-000146">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000155">El uno se sonreia en sueños, el otro se despertó y me llamó:
+<hi rend="italic">¡asesino!</hi> Los miré fijo y con estupor; despues rezaron y se quedaron
+dormidos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000147">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000156">Como una piedra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000148">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000157">El uno dijo: «Dios nos bendiga», y el otro: «Amen». Yo no pude
+repetirlo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000149">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000158">Calma ese terror.</p>
+          </sp>
+          <sp xml:id="spa-speech-000150">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000159">¿Por qué no pude responder «Amen»? Yo necesitaba bendicion, pero la
+lengua se me pegó al paladar.</p>
+          </sp>
+          <sp xml:id="spa-speech-000151">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000160">Si das en esas cavilaciones, perderás el juicio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000152">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000161">Creí escuchar una voz que me decia: «Macbeth, tú no puedes dormir,
+porque has asesinado al sueño.» ¡Perder el sueño, que desteje la
+intrincada trama del dolor, el sueño, descanso de toda fatiga: alimento
+el más dulce que se sirve á la mesa de la vida!</p>
+          </sp>
+          <sp xml:id="spa-speech-000153">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000162">¿Por qué esa agitacion?</p>
+          </sp>
+          <sp xml:id="spa-speech-000154">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000163">Aquella voz me decia alto, muy alto: «Glámis ha matado al sueño: por
+eso no dormirá Cáudor, ni tampoco Macbeth.»</p>
+          </sp>
+          <sp xml:id="spa-speech-000155">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000164">¿Pero qué voz era esa? ¡Esposo mio! no te domine así el torpe miedo,
+ni ofusque el brillo de tu razon. Lava en el agua la mancha de sangre
+de tus manos. ¿Por qué quitas de su lugar las dagas? Bien están ahí.
+Véte y ensucia con sangre á los centinelas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000156">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000165">No me atrevo á volver ni á contemplar lo que hice.</p>
+          </sp>
+          <sp xml:id="spa-speech-000157">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000166">¡Cobarde! Dame esas dagas. Están como muertos. Parecen estatuas.
+Eres como el niño á quien asusta la figura del diablo. Yo mancharé de
+sangre la cara de esos guardas. (<hi rend="italic">Suenan golpes.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000158">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000167">¿Quién va? El más leve rumor me horroriza. ¿Qué manos son las que
+se levantan, para arrancar mis ojos de sus órbitas? No bastaria todo
+el Océano para lavar la sangre de mis dedos. Ellos bastarian para
+enrojecerle y mancharle.</p>
+          </sp>
+          <sp xml:id="spa-speech-000159">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000168">Tambien mis manos están rojas, pero mi alma no desfallece como la
+tuya. Llaman á la puerta del Mediodía. Lavémonos, para evitar toda
+sospecha. Tu valor se ha agotado en el primer ímpetu. Oye... Siguen
+llamando... Ponte el traje de noche. No vean que estamos en vela. No te
+pierdas en vanas meditaciones.</p>
+          </sp>
+          <sp xml:id="spa-speech-000160">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000169">¡Oh, si la memoria y el pensamiento se extinguiesen en mí, para no
+recordar lo que hice! (<hi rend="italic">Siguen los golpes.</hi>)</p>
+            <p xml:id="spa-p-000170">
+<seg rend="x_link"> </seg>
+<hi rend="italic">Lady Macbeth en la cámara de Duncan.</hi>
+</p>
+          </sp>
+        </div>
+        <div type="scene" n="3" xml:id="shakespeare-macbeth-spa-act-002-scene-003">
+          <head>ESCENA III.</head>
+          <sp xml:id="spa-speech-000161">
+            <speaker>EL PORTERO</speaker>
+            <p xml:id="spa-p-000171">¡Qué estrépito! Ni que fuera uno portero del infierno. ¿Quién será
+ese maldito? Algun labrador que se habrá ahorcado descontento de la
+mala cosecha... Y sigue alborotando... Será algun testigo falso, pronto
+á jurar en cualquiera de los platillos de la balanza. ¡Entra, malvado!
+¡Y sigue dando! Será algun sastre inglés que ha sisado tela de unos
+calzones franceses. ¡Qué frio hace aquí aunque estamos en el infierno!
+Ya se acabó mi papel de diablo. A otra gente más lucida pensé abrir. No
+os olvideis del portero.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4" xml:id="shakespeare-macbeth-spa-act-002-scene-004">
+          <head>ESCENA IV.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000015">
+            <name type="person">MACDUFF, un PORTERO, LÉNNOX y MACBETH.</name>
+          </stage>
+          <sp xml:id="spa-speech-000162">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000172">¿Cómo te levantas tan tarde? ¿Te acostaste tarde por ventura?</p>
+          </sp>
+          <sp xml:id="spa-speech-000163">
+            <speaker>PORTERO</speaker>
+            <p xml:id="spa-p-000173">Duró la fiesta hasta que cantó por segunda vez el gallo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000164">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000174">¿Se ha levantado tu señor?... Pero aquí viene. Sin duda le
+despertamos con los golpes.</p>
+          </sp>
+          <sp xml:id="spa-speech-000165">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000175">(<hi rend="italic">A Macbeth.</hi>) ¡Buenos dias!</p>
+          </sp>
+          <sp xml:id="spa-speech-000166">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000176">¡Felices!</p>
+          </sp>
+          <sp xml:id="spa-speech-000167">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000177">¿Está despierto el Rey?</p>
+          </sp>
+          <sp xml:id="spa-speech-000168">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000178">Todavía no.</p>
+          </sp>
+          <sp xml:id="spa-speech-000169">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000179">Me dijo que le llamara á esta hora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000170">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000180">Os quiero guiar á su habitacion.</p>
+          </sp>
+          <sp xml:id="spa-speech-000171">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000181">Molestia inútil, por más que os agrade.</p>
+          </sp>
+          <sp xml:id="spa-speech-000172">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000182">Esta es su puerta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000173">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000183">Mi deber es entrar.</p>
+          </sp>
+          <stage type="exit" xml:id="spa-stage-000016">(<hi rend="italic">Vase.</hi>)</stage>
+          <sp xml:id="spa-speech-000174">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000184">¿Se va hoy el Rey?</p>
+          </sp>
+          <sp xml:id="spa-speech-000175">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000185">Así lo tiene pensado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000176">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000186">¡Mala noche! El viento ha echado abajo nuestra chimenea. Se han
+oido extrañas voces, gritos de agonía, cantos proféticos de muerte y
+destruccion. Las aves nocturnas no han cesado de graznar. Hay quien
+dice que la tierra misma se estremecia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000177">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000187">Tremenda ha sido, en verdad, la noche.</p>
+          </sp>
+          <sp xml:id="spa-speech-000178">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000188">No recuerdo otra semejante. Verdad que soy jóven.</p>
+          </sp>
+          <sp xml:id="spa-speech-000179">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000189">¡Horror, horror, horror! ¡Ni la lengua ni el corazon deben
+nombrarte!</p>
+          </sp>
+          <sp xml:id="spa-speech-000180">
+            <speaker>MACBETH y LÉNNOX</speaker>
+            <p xml:id="spa-p-000190">¿Qué?</p>
+          </sp>
+          <sp xml:id="spa-speech-000181">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000191">Una traicion horrible. Un sacrilegio... El templo de la vida del Rey
+ha sido profanado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000182">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000192">¿Su vida?</p>
+          </sp>
+          <sp xml:id="spa-speech-000183">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000193">¿La del Rey?</p>
+          </sp>
+          <sp xml:id="spa-speech-000184">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000194">Entrad en la alcoba, y lo vereis, si es que no ciegan vuestros
+ojos de espanto. No puedo hablar. Vedlo vosotros mismos... ¡Á las armas! ¡Traicion,
+malvados! ¡Donalbáin, Banquo, Malcolm, alerta! ¡Lejos de vosotros ese
+sueño tan pesado como la muerte! Ved la muerte misma... Pronto...
+¡Banquo, Malcolm! Dejad el lecho, venid, animados fantasmas, á
+contemplar esta escena de duelo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000185">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000195">¿Qué es eso? ¿Por qué despertais con tales gritos á la gente de la
+casa que aún duerme?</p>
+          </sp>
+          <sp xml:id="spa-speech-000186">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000196">En vuestros oidos, hermosa dama, no deben sonar otra vez nuestros
+lamentos. No es tanto horror para oidos de mujer.</p>
+            <p xml:id="spa-p-000197">¡Banquo, Banquo! Nuestro Rey ha sido asesinado.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000017">(<hi rend="italic">Entra Banquo.</hi>)</stage>
+          <sp xml:id="spa-speech-000187">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000198">¡Dios mio, y en mi casa!</p>
+          </sp>
+          <sp xml:id="spa-speech-000188">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000199">Aquí y en todas seria horrible. Dime que no es verdad. Dímelo por
+Dios.</p>
+          </sp>
+          <sp xml:id="spa-speech-000189">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000200">¡Ojalá hubiera muerto yo pocas horas antes! Mi vida hubiera sido del
+todo feliz. Ya han muerto para mí la gloria y la esperanza. He agotado
+el vino de la existencia, y sólo me quedan las heces en el vaso.</p>
+          </sp>
+          <sp xml:id="spa-speech-000190">
+            <speaker>DONALBÁIN</speaker>
+            <p xml:id="spa-p-000201">¿Qué es esto?</p>
+          </sp>
+          <sp xml:id="spa-speech-000191">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000202">¿Y tú me lo preguntas? Se ha secado la fuente de la vida. Tu padre
+ha sido muerto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000192">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000203">¿Quién lo mató?</p>
+          </sp>
+          <sp xml:id="spa-speech-000193">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000204">Sin duda sus guardias, porque tienen manchadas de sangre las manos y
+la cara, y los ensangrentados puñales junto al lecho. En sus miradas se
+retrataba el delirio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000194">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000205">¡Cuánto siento que mi furor me llevara á darles instantánea
+muerte!</p>
+          </sp>
+          <sp xml:id="spa-speech-000195">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000206">¿Por qué lo hiciste?</p>
+          </sp>
+          <sp xml:id="spa-speech-000196">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000207">¿Y quién se contiene en tal arrebato? ¿Cuándo se unió el furor
+con la prudencia, la lealtad con el sosiego? Mi amor al Rey venció á
+mi tranquila razon. Yo veia á Duncan teñido en su propia sangre, y
+cerca de él á los asesinos con el color de su oficio; veia sus puñales
+manchados tambien... ¿Quién podia dudar? ¿Quién que amase al Rey,
+hubiera podido detener sus iras?</p>
+          </sp>
+          <sp xml:id="spa-speech-000197">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000208">Llevadme lejos de aquí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000198">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000209">¡Y callamos! aunque no pocos pueden achacarnos el crímen.</p>
+          </sp>
+          <sp xml:id="spa-speech-000199">
+            <speaker>DONALBÁIN</speaker>
+            <p xml:id="spa-p-000210">Más vale callarnos y atajar nuestras lágrimas. Vamos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000200">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000211">Disimulemos nuestra pena.</p>
+          </sp>
+          <sp xml:id="spa-speech-000201">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000212">Cuidad á la señora. Despues que nos vistamos, hemos de examinar más
+despacio este horrible suceso. En la mano de Dios están mis actos.
+Desde allí desafio toda sospecha traidora. Juro que soy inocente.</p>
+          </sp>
+          <sp xml:id="spa-speech-000202">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000213">Y yo tambien.</p>
+          </sp>
+          <sp xml:id="spa-speech-000203">
+            <speaker>TODOS</speaker>
+            <p xml:id="spa-p-000214">Y todos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000204">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000215">Juntémonos luego en el estrado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000205">
+            <speaker>TODOS</speaker>
+            <p xml:id="spa-p-000216">Así lo haremos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000206">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000217">¿Qué haces? Nada de tratos con ellos. Al traidor le es fácil simular
+la pena que no siente. Iré á Inglaterra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000207">
+            <speaker>DONALBÁIN</speaker>
+            <p xml:id="spa-p-000218">Y yo á Irlanda. Separados estamos más seguros. Aquí las sonrisas son
+puñales, y derraman sangre los que por la sangre están unidos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000208">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000219">La bala de su venganza no ha estallado todavía. Nos conviene
+esquivarla. A caballo, y partamos sin despedirnos. Harta razon tenemos
+para escondernos.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5" xml:id="shakespeare-macbeth-spa-act-002-scene-005">
+          <head>ESCENA V.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000018">
+            <hi rend="italic">Exterior del Castillo.</hi>
+            <lb/>
+            <name type="person">Un VIEJO, ROSS y MACDUFF.</name>
+          </stage>
+          <sp xml:id="spa-speech-000209">
+            <speaker>UN VIEJO</speaker>
+            <p xml:id="spa-p-000220">En mis setenta años he visto cosas peregrinas y horrendas, pero
+nunca como esta noche.</p>
+          </sp>
+          <sp xml:id="spa-speech-000210">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000221">¡Venerable anciano! ¡Con qué cólera mira el cielo la trágica escena
+de los hombres! Ya ha amanecido, pero todavía la noche se resiste á
+abandonar su dominio. Quizá se avergüenza el dia, y no se atreve á
+derramar su pura lumbre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000211">
+            <speaker>EL VIEJO</speaker>
+            <p xml:id="spa-p-000222">No es natural nada de lo que sucede. El mártes un generoso halcon
+cayó en las garras de una lechuza.</p>
+          </sp>
+          <sp xml:id="spa-speech-000212">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000223">Los caballos de Duncan, los mejores de su casta, han quebrantado
+sus establos, y vueltos al estado salvaje, son terror de los
+palafreneros.</p>
+          </sp>
+          <sp xml:id="spa-speech-000213">
+            <speaker>EL VIEJO</speaker>
+            <p xml:id="spa-p-000224">Ellos mismos se están devorando.</p>
+          </sp>
+          <sp xml:id="spa-speech-000214">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000225">Así es. ¡Qué horror miran mis ojos!... Pero aquí se acerca el buen
+Macduff. ¿Cómo están las cosas, amigo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000215">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000226">Ya lo veis.</p>
+          </sp>
+          <sp xml:id="spa-speech-000216">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000227">¿Quién fué el asesino?</p>
+          </sp>
+          <sp xml:id="spa-speech-000217">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000228">Los que mató Macbeth.</p>
+          </sp>
+          <sp xml:id="spa-speech-000218">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000229">¿Y qué interes tenian?</p>
+          </sp>
+          <sp xml:id="spa-speech-000219">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000230">Eran pagados por los dos hijos del Rey difunto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000220">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000231">¡Horror contra naturaleza! ¡La ambicion se devora á sí misma! Y
+Macbeth sucederá en el trono.</p>
+          </sp>
+          <sp xml:id="spa-speech-000221">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000232">Ya le han elegido rey, y va á coronarse á Esconia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000222">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000233">¿Y el cuerpo del rey Duncan?</p>
+          </sp>
+          <sp xml:id="spa-speech-000223">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000234">Lo llevan á enterrar á la montaña de San Colme, sepulcro de sus
+mayores.</p>
+          </sp>
+          <sp xml:id="spa-speech-000224">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000235">¿Te vas á Esconia, primo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000225">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000236">A Faife.</p>
+          </sp>
+          <sp xml:id="spa-speech-000226">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000237">Yo á Esconia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000227">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000238">Felicidad en todo. Adios. Gusto más de la ropa nueva, que de la
+antigua.</p>
+          </sp>
+          <sp xml:id="spa-speech-000228">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000239">Adios, buen viaje.</p>
+          </sp>
+          <sp xml:id="spa-speech-000229">
+            <speaker>EL VIEJO</speaker>
+            <p xml:id="spa-p-000240">Quien saque como vosotros bien del mal, y haga amigo al enemigo,
+llevará la bendicion de Dios.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3" xml:id="shakespeare-macbeth-spa-act-003">
+        <head>ACTO III.</head>
+        <div type="scene" n="1" xml:id="shakespeare-macbeth-spa-act-003-scene-001">
+          <head>ESCENA PRIMERA.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000019">
+            <hi rend="italic">Palacio de Fóres.</hi>
+            <lb/>
+            <name type="person">BANQUO, MACBETH, un CRIADO y dos ASESINOS.</name>
+          </stage>
+          <sp xml:id="spa-speech-000230">
+            <speaker>BANQUO</speaker>
+            <stage type="business" xml:id="spa-stage-000020">sólo</stage>
+            <p xml:id="spa-p-000241"><seg rend="smcap">Ya eres</seg> rey, Macbeth,
+y señor de Glámis y de Cáudor. Está cumplido en todas sus partes el
+vaticinio de las hechiceras, pero ¿quién sabe si la traicion te habrá
+allanado el camino? Ni ha de quedar el cetro en tu linaje. Si es verdad
+lo que nos dijeron, reyes han de ser mis hijos. ¿Por qué los oráculos
+que fueron veraces contigo no han de ser tambien propicios á mi
+ambicion? Pero disimulemos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000231">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000242">Ya tenemos aquí á nuestro principal convidado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000232">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000243">Grande hubiera sido su falta en el banquete.</p>
+          </sp>
+          <sp xml:id="spa-speech-000233">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000244">Te convido á un gran festin que he de dar esta noche.</p>
+          </sp>
+          <sp xml:id="spa-speech-000234">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000245">Vuestra Majestad puede mandarme, en vez de convidarme. Mi voluntad
+está indisolublemente unida á la vuestra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000235">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000246">¿Sales á caballo esta tarde?</p>
+          </sp>
+          <sp xml:id="spa-speech-000236">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000247">Sí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000237">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000248">Si no, podrias ayudarme con tu consejo en la junta de esta tarde.
+Mañana será. ¿Vas lejos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000238">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000249">Pasearé hasta la hora de cenar. Si mi caballo no aprieta el paso,
+pediré prestadas á la noche una ó dos horas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000239">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000250">No faltes.</p>
+          </sp>
+          <sp xml:id="spa-speech-000240">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000251">No faltaré.</p>
+          </sp>
+          <sp xml:id="spa-speech-000241">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000252">Tengo nuevas de que mis revoltosos deudos están refugiados en
+Inglaterra y en Irlanda. No confiesan su parricidio, y divulgan contra
+mí horrendas acusaciones. Mañana hablaremos de esto, cuando nos
+juntemos á tratar de otros negocios. Ahora, á caballo. Hasta luego. ¿Te
+acompaña tu hijo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000242">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000253">Sí, y vendrá pronto, porque ya es hora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000243">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000254">Dios guie con bien vuestros caballos y os vuelva pronto. Hasta la
+noche.</p>
+            <p xml:id="spa-p-000255">Vosotros haced lo que querais hasta las siete. Vuestra compañía me
+será más grata á la hora de cenar, si en este momento me dejais solo.
+Adios, mis caballeros.</p>
+          </sp>
+          <stage type="exit" xml:id="spa-stage-000021">(<hi rend="italic">Vase Banquo.</hi>)</stage>
+          <stage type="exit" xml:id="spa-stage-000022">(<hi rend="italic">Vanse todos.</hi>)</stage>
+          <sp xml:id="spa-speech-000244">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000256">(<hi rend="italic">A un criado.</hi>) ¿Me esperan ya esos hombres?</p>
+          </sp>
+          <sp xml:id="spa-speech-000245">
+            <speaker>CRIADO</speaker>
+            <p xml:id="spa-p-000257">Están á la puerta de palacio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000246">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000258">Diles que entren.</p>
+            <p xml:id="spa-p-000259">¿De qué me sirve el poder sin la seguridad? Banquo es mi amenaza
+perpétua: su altiva condicion me infunde miedo. Junta á su valor el
+ingenio y la prudencia. Me reconozco inferior á él como Marco Antonio á
+César. Él fué quien se atrevió á dirigir la palabra á las brujas cuando
+me aclamaron Rey, y á preguntarlas por su suerte futura, y ellas con
+fatídica voz le contestaron: «Tus hijos serán reyes.» A mí me otorgan
+una corona estéril, un cetro irrisorio, que no pasará á mis hijos sino
+á los de un extraño. Yo vendré á ser el bienhechor de la familia de
+Banquo. Por servirla asesiné al Rey Duncan, y llené de hiel el cáliz de
+mi vida; y vendí al diablo el tesoro de mi alma. ¡Todo para hacer reyes
+á los hijos de Banquo! ¡Fatal destino mio, sálvame: lidia por mí esta
+batalla! ¿Quién es?</p>
+            <p xml:id="spa-p-000260">(<hi rend="italic">Al criado.</hi>) Espera á la puerta hasta que llame.</p>
+            <p xml:id="spa-p-000261">(<hi rend="italic">A los asesinos.</hi>) Ya oisteis ayer lo que deseo.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000023">(<hi rend="italic">Se va el criado.</hi>)</stage>
+          <stage type="entrance" xml:id="spa-stage-000024">(<hi rend="italic">Entran los asesinos.</hi>)</stage>
+          <stage type="exit" xml:id="spa-stage-000025">(<hi rend="italic">Vase el criado.</hi>)</stage>
+          <sp xml:id="spa-speech-000247">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000262">Sí, rey.</p>
+          </sp>
+          <sp xml:id="spa-speech-000248">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000263">¿Habeis pensado bien lo que os dije? Él y no yo ha sido hasta ahora
+la causa de vuestros males. Ya os expliqué cómo se habia burlado de
+vosotros: quiénes le ayudaron. En suma el más necio hubiera podido
+decir: <hi rend="italic">Tuvo la culpa Banquo.</hi></p>
+          </sp>
+          <sp xml:id="spa-speech-000249">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000264">Verdad es lo que dices.</p>
+          </sp>
+          <sp xml:id="spa-speech-000250">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000265">Y añado más, y vengo al objeto de este coloquio. ¿Hasta cuándo
+durará vuestra paciencia? ¿Manda el Evangelio que receis á Dios por ese
+hombre y por su linaje, cuando os está empobreciendo y esquilmando, y
+os tiene casi á punto de muerte?</p>
+          </sp>
+          <sp xml:id="spa-speech-000251">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000266">¡Oh Rey! somos hombres.</p>
+          </sp>
+          <sp xml:id="spa-speech-000252">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000267">Tambien son perros los galgos y los mastines y los lebreles, y los
+de aguas y los de caza, pero se distinguen unos de otros por tener más
+ó menos valor y fortaleza, y mejor ó peor olfato. La naturaleza reparte
+con igualdad sus dones, y por eso las diversas castas tienen nombres
+distintos. Lo mismo sucede con los hombres. Si no quereis ser de los
+últimos y más abyectos, yo os daré un consejo que os libre para siempre
+de esa opresion y tiranía, y os haga acreedores á mi gratitud eterna,
+porque no puedo vivir en paz, si él no muere.</p>
+          </sp>
+          <sp xml:id="spa-speech-000253">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000268">Señor; yo soy un hombre de esos tan maltratados por la suerte, que me
+arrojaré á cualquier cosa, por vengarme del mundo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000254">
+            <speaker>ASESINO 2.º</speaker>
+            <p xml:id="spa-p-000269">Tan mala ha sido mi fortuna, que para mejorarla ó acabar de una vez,
+arriesgaré mi vida en cualquier lance.</p>
+          </sp>
+          <sp xml:id="spa-speech-000255">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000270">Está bien. Banquo es enemigo vuestro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000256">
+            <speaker>ASESINO 2.º</speaker>
+            <p xml:id="spa-p-000271">Verdad, señor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000257">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000272">Y mio, á tal extremo que cada minuto de su vida es un tormento
+para mí. Yo podria sin cargo de conciencia deshacerme de él, pero
+tiene amigos que tambien lo son mios, y no quiero perderlos. Por eso
+acudo á vosotros, ya que hay poderosos motivos para que el golpe sea
+secreto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000258">
+            <speaker>ASESINO 2.º</speaker>
+            <p xml:id="spa-p-000273">Se hará vuestra voluntad, oh Rey.</p>
+          </sp>
+          <sp xml:id="spa-speech-000259">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000274">Aunque perezcamos en la demanda.</p>
+          </sp>
+          <sp xml:id="spa-speech-000260">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000275">Conozco vuestro denuedo. Pronto os diré en qué sitio habeis de
+emboscaros, y cuándo; porque esta misma noche ha de darse el golpe.
+Conviene que sea lejos de palacio, para alejar de mí toda sospecha. No
+dejeis indicio alguno del crímen. Le acompaña su hijo Fleancio, que me
+estorba tanto como su padre. Por consiguiente, matadle tambien. Quedaos
+solos. Volveré luego.</p>
+          </sp>
+          <sp xml:id="spa-speech-000261">
+            <speaker>LOS DOS ASESINOS</speaker>
+            <p xml:id="spa-p-000276">Estamos resueltos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000262">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000277">Volveré pronto... Entrad... ¡Oh, Banquo! esta noche ó nunca subirá
+tu alma á los cielos.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2" xml:id="shakespeare-macbeth-spa-act-003-scene-002">
+          <head>ESCENA II.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000026">
+            <name type="person">Lady MACBETH, MACBETH y un CRIADO.</name>
+          </stage>
+          <sp xml:id="spa-speech-000263">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000278">¿Está en palacio Banquo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000264">
+            <speaker>CRIADO</speaker>
+            <p xml:id="spa-p-000279">No, señora, pero esta noche vendrá.</p>
+          </sp>
+          <sp xml:id="spa-speech-000265">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000280">Dí al Rey, que quiero hablarle un momento.</p>
+          </sp>
+          <sp xml:id="spa-speech-000266">
+            <speaker>CRIADO</speaker>
+            <p xml:id="spa-p-000281">Así lo haré...</p>
+          </sp>
+          <sp xml:id="spa-speech-000267">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000282">¿De qué nos sirve haber logrado nuestros deseos, si no alcanzamos
+placer ni reposo? Es preferible la paz de nuestras víctimas, al falso
+goce que procede del crímen.</p>
+            <p xml:id="spa-p-000283">Esposo mio, ¿por qué te atormentan siempre tan tristes recuerdos?
+olvida lo pasado.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000027">(<hi rend="italic">Entra Macbeth.</hi>)</stage>
+          <sp xml:id="spa-speech-000268">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000284">Hemos herido á la serpiente, pero no la hemos matado. Volverá
+á acometernos, mientras estemos cerca de sus dientes. ¡Húndase la
+tierra, arda el universo, antes que yo coma ni duerma en medio de tales
+espantos nocturnos!
+¡Ojalá estuviera yo con mis víctimas, más bien que entregado á la
+tortura de mi pensamiento! Duncan no teme ya ni el hierro matador ni el
+veneno, ni la discordia, ni la guerra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000269">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000285">Esposo mio, alegra ese semblante, para que nuestros huéspedes no
+adviertan esta noche tu agitacion.</p>
+          </sp>
+          <sp xml:id="spa-speech-000270">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000286">Así lo haré, amada mia. Fíjate en Banquo: muéstrate risueña con él,
+en la mirada y en las palabras. Todavía no estamos seguros: es preciso
+lavar nuestra honra en el rio de la adulacion, y convertir nuestros
+semblantes en hipócrita máscara.</p>
+          </sp>
+          <sp xml:id="spa-speech-000271">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000287">¡Oh, basta, basta!</p>
+          </sp>
+          <sp xml:id="spa-speech-000272">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000288">Mi alma es un nido de sierpes... ¡Todavía respiran Banquo y
+Fleancio!</p>
+          </sp>
+          <sp xml:id="spa-speech-000273">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000289">No son inmortales.</p>
+          </sp>
+          <sp xml:id="spa-speech-000274">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000290">Esa es la esperanza que nos queda. El hierro puede alcanzarlos.
+Antes que el murciélago abandone su claustro; antes que se oiga en
+el silencio de la noche el soñoliento zumbido del escarabajo, estará
+terminado todo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000275">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000291">¿Qué quieres decir?</p>
+          </sp>
+          <sp xml:id="spa-speech-000276">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000292">Vale más que lo ignores, hasta que esté cumplido, y puedas regocijarte
+en ello. Ven, ciega noche, venda tú los ojos al clemente dia. Rompa
+tu mano invisible y ensangrentada la atroz escritura que causa mis
+terrores... Va creciendo la oscuridad: retorna el cuervo á la espesura
+del bosque: las aves nocturnas descienden anhelosas de presa... ¡Te
+horrorizan mis palabras! ¿Y por qué? Sólo el crímen puede consumar lo
+que ha empezado el crímen. Ven conmigo.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3" xml:id="shakespeare-macbeth-spa-act-003-scene-003">
+          <head>ESCENA III.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000028">
+            <hi rend="italic">Bosque á la entrada del palacio.</hi>
+            <lb/>
+            <name type="person">ASESINOS, BANQUO y su hijo FLEANCIO.</name>
+          </stage>
+          <sp xml:id="spa-speech-000277">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000293">¿Quién te ha enviado?</p>
+          </sp>
+          <sp xml:id="spa-speech-000278">
+            <speaker>ASESINO 3.º</speaker>
+            <p xml:id="spa-p-000294">Macbeth.</p>
+          </sp>
+          <sp xml:id="spa-speech-000279">
+            <speaker>ASESINO 2.º</speaker>
+            <p xml:id="spa-p-000295">No debemos dudar de él, puesto que sabe nuestro fin y propósito.</p>
+          </sp>
+          <sp xml:id="spa-speech-000280">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000296">Ya muere el sol en occidente, y el pasajero aguija su caballo para
+llegar á la posada. Ya está cerca el que esperamos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000281">
+            <speaker>ASESINO 3.º</speaker>
+            <p xml:id="spa-p-000297">Suenan las herraduras de sus caballos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000282">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000298">(<hi rend="italic">Dentro.</hi>) ¡Luz!</p>
+          </sp>
+          <sp xml:id="spa-speech-000283">
+            <speaker>ASESINO 2.º</speaker>
+            <p xml:id="spa-p-000299">¡Ahí está! Le aguardan en la llanura.</p>
+          </sp>
+          <sp xml:id="spa-speech-000284">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000300">Se llevan los caballos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000285">
+            <speaker>ASESINO 3.º</speaker>
+            <p xml:id="spa-p-000301">El, como los demas, se encamina á pié á palacio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000286">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000302">¡Luz, luz!</p>
+          </sp>
+          <sp xml:id="spa-speech-000287">
+            <speaker>ASESINO 3.º</speaker>
+            <p xml:id="spa-p-000303">¡Ahí está!</p>
+          </sp>
+          <sp xml:id="spa-speech-000288">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000304">Aguarda.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000029">(<hi rend="italic">Entran Banquo, su hijo Fleancio, un criado con
+antorcha.</hi>)</stage>
+          <sp xml:id="spa-speech-000289">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000305">Va á llover esta noche.</p>
+          </sp>
+          <sp xml:id="spa-speech-000290">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000306">¡Muera! (<hi rend="italic">Le hiere.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000291">
+            <speaker>BANQUO</speaker>
+            <p xml:id="spa-p-000307">¡Traicion! Huye, hijo, y si puedes, venga mi muerte. (<hi rend="italic">Cae.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000292">
+            <speaker>ASESINO 3.º</speaker>
+            <p xml:id="spa-p-000308">¿Por qué mataste la luz?</p>
+          </sp>
+          <sp xml:id="spa-speech-000293">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000309">¿No hice bien?</p>
+          </sp>
+          <sp xml:id="spa-speech-000294">
+            <speaker>ASESINO 3.º</speaker>
+            <p xml:id="spa-p-000310">Ha muerto uno solo. El hijo huye.</p>
+          </sp>
+          <sp xml:id="spa-speech-000295">
+            <speaker>ASESINO 2.º</speaker>
+            <p xml:id="spa-p-000311">Hemos perdido la mitad de la paga.</p>
+          </sp>
+          <sp xml:id="spa-speech-000296">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000312">Vamos á dar cuenta á Macbeth.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4" xml:id="shakespeare-macbeth-spa-act-003-scene-004">
+          <head>ESCENA IV.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000030">
+            <hi rend="italic">Sala de palacio. Mesa preparada para un festin.</hi>
+            <lb/>
+            <name type="person">MACBETH, los CONVIDADOS, LADY MACBETH, ASESINO 1.º y LÉNNOX.</name>
+          </stage>
+          <sp xml:id="spa-speech-000297">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000313">Sentaos, segun vuestra categoría y nobleza. Bien venidos seais
+todos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000298">
+            <speaker>LOS CONVIDADOS</speaker>
+            <p xml:id="spa-p-000314">Gracias.</p>
+          </sp>
+          <sp xml:id="spa-speech-000299">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000315">Siéntese la reina en el trono, y démosle la bienvenida.</p>
+          </sp>
+          <sp xml:id="spa-speech-000300">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000316">Gracias. Dádsela á nuestros convidados. Os saludo de todo corazon,
+señores.</p>
+          </sp>
+          <sp xml:id="spa-speech-000301">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000317">Con toda el alma te lo agradecen. (<hi rend="italic">Á Lady Macbeth.</hi>) Los dos lados
+iguales: yo en medio. Alegraos, brindaremos juntos.</p>
+            <p xml:id="spa-p-000318">Traes manchada la cara de sangre.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000031">(<hi rend="italic">Se presenta el asesino 1.º</hi>)</stage>
+          <sp xml:id="spa-speech-000302">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000319">Sangre de Banquo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000303">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000320">Más vale que sea la suya que la tuya. ¿Queda muerto?</p>
+          </sp>
+          <sp xml:id="spa-speech-000304">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000321">Le degollé, señor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000305">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000322">¡Matador excelente te debo apellidar, y más, si acabaste tambien con
+Fleancio!</p>
+          </sp>
+          <sp xml:id="spa-speech-000306">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000323">¡Oh rey! huyó.</p>
+          </sp>
+          <sp xml:id="spa-speech-000307">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000324">¡Y siguen mis temores! Si él hubiera muerto, yo seria feliz, duro
+como el mármol y las rocas, libre como el aire. Pero ahora me veo
+receloso, inquieto, entre dudas y temores. ¿Y Banquo murió de veras?</p>
+          </sp>
+          <sp xml:id="spa-speech-000308">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000325">Cayó en una zanja profundísima, con veinte heridas en la cabeza, la
+menor de ellas mortal.</p>
+          </sp>
+          <sp xml:id="spa-speech-000309">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000326">Gracias infinitas. Muerta está la serpiente, pero ese retoño
+fugitivo ha de envenenarnos con el tiempo. Todavía no ha echado
+dientes. Vuelve mañana. Aún tenemos que hablar.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000032">(<hi rend="italic">Se va el asesino.</hi>)</stage>
+          <sp xml:id="spa-speech-000310">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000327">Esposo, anima con tu presencia y tus palabras la languidez del
+festin. Si no has de hacerlo, más valdrá comer solos. La alegría es la
+salsa de las cenas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000311">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000328">¡Dulce maestra mia! La buena digestion venga hoy despues del
+apetito, y tras ellos la salud.</p>
+          </sp>
+          <sp xml:id="spa-speech-000312">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000329">Tomad asiento, rey.</p>
+          </sp>
+          <sp xml:id="spa-speech-000313">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000330">Congregada tendríamos esta noche la flor de la monarquía, si no nos
+faltase el ilustre Banquo. Quiero culpar su negligencia, más bien que
+imaginar que le haya acontecido alguna desgracia.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000033">(<hi rend="italic">El espectro de Banquo ocupa el sitial de
+Macbeth.</hi>)</stage>
+          <sp xml:id="spa-speech-000314">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000331">Honradnos, señor, tomando asiento.</p>
+          </sp>
+          <sp xml:id="spa-speech-000315">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000332">¿Dónde? No le encuentro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000316">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000333">Aquí le teneis, señor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000317">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000334">¿Dónde?</p>
+          </sp>
+          <sp xml:id="spa-speech-000318">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000335">Señor, aquí. ¿Pero qué agitacion es la vuestra?</p>
+          </sp>
+          <sp xml:id="spa-speech-000319">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000336">¿Quién de vosotros ha hecho esto?</p>
+          </sp>
+          <sp xml:id="spa-speech-000320">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000337">¿Qué, señor?</p>
+          </sp>
+          <sp xml:id="spa-speech-000321">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000338">Yo no... yo no lo hice... no me mires agitando tu cabellera tinta en
+sangre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000322">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000339">Levantaos: el rey está enfermo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000323">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000340">No, no, continuad sentados. Son accidentes que desde jóven padece
+mi marido. No os levanteis. Es cosa de un momento. Vereis cual se
+repone en seguida. No os fijeis en él, porque se aumentará su delirio.
+(<hi rend="italic">Aparte á Macbeth.</hi>) ¡Y dices que eres hombre!</p>
+          </sp>
+          <sp xml:id="spa-speech-000324">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000341">Y hombre fuerte, pues que me atrevo á mirar de hito en hito lo que
+pondria espanto al mismo Satanás.</p>
+          </sp>
+          <sp xml:id="spa-speech-000325">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000342">¡Necedad insigne! ¡Sombras que finge el miedo! Es como aquel puñal
+que decias que te guiaba por el aire, cuando mataste al rey Duncan.
+¡Consejas, tolerables solo en boca de una anciana, al amor de la
+lumbre! ¡Vergüenza para tí! ¡Y áun sigues turbado! ¡No ves que tú
+asiento está vacío!</p>
+          </sp>
+          <sp xml:id="spa-speech-000326">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000343">¡No, no... Mira, mira!... ¿No lo ves?... ¿Qué dices ahora?...
+Pero ¿qué me importa lo que digas? ¿Mueves la cabeza en signo de
+incredulidad?... Habla, habla... Si los sepulcros nos arrojan su presa,
+los palacios se trocarán en festin de buitres.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000034">(<hi rend="italic">Se va la sombra.</hi>)</stage>
+          <sp xml:id="spa-speech-000327">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000344">¿Estás loco?</p>
+            <p xml:id="spa-p-000345">
+<seg rend="x_link"> </seg>
+<hi rend="italic">El festin de Macbeth.</hi>
+</p>
+          </sp>
+          <sp xml:id="spa-speech-000328">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000346">Te juro, por mi alma, que le he visto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000329">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000347">¿Y no te avergüenzas?</p>
+          </sp>
+          <sp xml:id="spa-speech-000330">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000348">Siempre se ha derramado sangre. Desde que el mundo es mundo, ha
+habido crímenes atroces. Pero antes el muerto muerto se quedaba. Ahora
+las sombras vuelven y nos arrojan de nuestros sitiales.</p>
+          </sp>
+          <sp xml:id="spa-speech-000331">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000349">Tus caballeros reclaman tu presencia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000332">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000350">No me acordaba de ellos. ¡Amigos mios! ¡nobles caballeros! no
+hagais caso de mí. Si me conocierais bien, no os extrañaria este
+súbito accidente. ¡Salud, amigos! Brindemos á la salud de nuestro
+amigo Banquo, único que nos falta. ¡Ojalá llegue pronto! ¡Brindo por
+vosotros, y por él y por todos!</p>
+          </sp>
+          <sp xml:id="spa-speech-000333">
+            <speaker>LOS CONVIDADOS</speaker>
+            <p xml:id="spa-p-000351">Nosotros repetimos el brindis.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000035">(<hi rend="italic">Vuelve á aparecer la sombra.</hi>)</stage>
+          <sp xml:id="spa-speech-000334">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000352">¡Lejos, lejos de mí!... Que la tierra te trague... Mi sangre se
+hiela: falta á mis huesos el tuétano... la lumbre de mis ojos se
+oscurece.</p>
+          </sp>
+          <sp xml:id="spa-speech-000335">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000353">El accidente vuelve: no es grave, pero descompone la fiesta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000336">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000354">Yo no temo nada de lo que pueden temer los hombres. Ven á mí en
+forma de tigre de Hircania, de oso ó de rinoceronte: no se agitarán mis
+nervios. O vuelve á la vida, y rétame á lid campal, hierro á hierro, y
+si tiemblo al ir á encontrarte, llámame hijo de mi nodriza... Pero no
+vengas como sombra. ¡Huye de mí, formidable espectro!</p>
+            <p xml:id="spa-p-000355">Ya se retira, y vuelvo á ser hombre. Sentaos otra vez: os lo
+suplico.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000036">(<hi rend="italic">Desaparece la sombra.</hi>)</stage>
+          <sp xml:id="spa-speech-000337">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000356">Con ese delirio has turbado la alegría del convite.</p>
+          </sp>
+          <sp xml:id="spa-speech-000338">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000357">¿Y cómo no asombrarnos, cuando estalla esa borrascosa nube de
+verano? Ahora dudo de mi razon viendo que podeis contemplar tales
+apariciones sin que vuestro rostro palidezca.</p>
+          </sp>
+          <sp xml:id="spa-speech-000339">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000358">¿De qué apariciones hablas?</p>
+          </sp>
+          <sp xml:id="spa-speech-000340">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000359">¡Silencio! La contradiccion le molesta. Podeis retiraros sin
+ceremonia. Idos pronto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000341">
+            <speaker>LOS CONVIDADOS</speaker>
+            <p xml:id="spa-p-000360">Buenas noches, y descanse el Rey.</p>
+          </sp>
+          <sp xml:id="spa-speech-000342">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000361">Buenas noches.</p>
+          </sp>
+          <sp xml:id="spa-speech-000343">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000362">¡Sangre pide! La sangre clama por sangre; ya lo dice el proverbio.
+Hasta los árboles hablan á la voz del agorero, ó por natural virtud.
+Y á veces la voz de la urraca, del cuervo, ó del grajo, ha delatado al asesino.
+¿Qué hora es?</p>
+          </sp>
+          <sp xml:id="spa-speech-000344">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000363">La noche combate con las primeras horas del dia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000345">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000364">Macduff se niega á obedecerme, y á reconocer mi autoridad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000346">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000365">¿Le has llamado?</p>
+          </sp>
+          <sp xml:id="spa-speech-000347">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000366">No, pero tengo noticias ciertas de él por mis numerosos espías.
+Mañana temprano iré á ver á las brujas. Quiero apurarlo todo, y
+averiguar el mal, aunque sea por medios torcidos. Todo debe rendirse
+á mi voluntad. Estoy nadando en un mar de sangre, y tan lejos ya de
+la orilla, que me es indiferente bogar adelante ó atras. Es tiempo de
+obras y no de palabras. Descienda el pensamiento á las manos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000348">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000367">Te falta la sal de la vida, el sueño.</p>
+          </sp>
+          <sp xml:id="spa-speech-000349">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000368">Pues á dormir. ¡Mi terror, nacido de la falta de costumbre, me quita
+el sueño! ¡Soy novicio en el crímen!</p>
+          </sp>
+        </div>
+        <div type="scene" n="5" xml:id="shakespeare-macbeth-spa-act-003-scene-005">
+          <head>ESCENA V.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000037">
+            <hi rend="italic">Un páramo.—Tempestad.</hi>
+          </stage>
+          <sp xml:id="spa-speech-000350">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000369">Oh Hécate, tu semblante muestra á las claras tu enojo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000351">
+            <speaker>HÉCATE</speaker>
+            <p xml:id="spa-p-000370">¿Y no tengo razon, impertinentes viejas? ¿Por qué, siendo yo la
+fuente de vuestro poder y de todos los males humanos, habeis osado,
+sin pedirme consejo, ni acudir á mi ciencia, tratar con Macbeth por
+enigmas? ¡Y todo en provecho de un ingrato, de un ambicioso, que sólo
+mira á su interes, y no se acuerda de vosotras! Antes que el sol se
+ponga, venid á los antros tartáreos; no dejeis de traer ninguna de
+vuestras redomas, encantos y conjuros. Ahora, á volar. Esta noche ha de
+cumplirse una evocacion tremenda. De la luna pende una gota de vapor
+que he de coger esta misma noche antes que caiga. Yo la destilaré
+con mi ciencia maravillosa, y evocaré génios de tal virtud que le
+traigan lisonjeramente engañado hasta el abismo. No temerá la muerte:
+confiará en su estrella: podrá más su esperanza que su buen juicio ó
+sus temores, y ya veis que hombre excesivamente confiado está medio
+perdido.</p>
+            <p xml:id="spa-p-000371">(<hi rend="italic">Se oye dentro una voz.</hi>) ¡Venid, venid!</p>
+          </sp>
+          <sp xml:id="spa-speech-000352">
+            <speaker>HÉCATE</speaker>
+            <p xml:id="spa-p-000372">¿Ois la voz del génio? Camina en esa transparente nube.</p>
+          </sp>
+          <sp xml:id="spa-speech-000353">
+            <speaker>LAS BRUJAS</speaker>
+            <p xml:id="spa-p-000373">Vámonos, que pronto volverá.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6" xml:id="shakespeare-macbeth-spa-act-003-scene-006">
+          <head>ESCENA VI.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000038">
+            <hi rend="italic">Palacio de Fóres.</hi>
+            <lb/>
+            <name type="person">LÉNNOX y el SEÑOR.</name>
+          </stage>
+          <sp xml:id="spa-speech-000354">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000374">Te asombra lo que he dicho. Pero sigue tú discurriendo. Macbeth mostró
+mucho sentimiento por la muerte de Duncan... ¡Es claro, como que
+estaba muerto! Banquo salió á pasear muy tarde, y quizá le mataria
+su hijo, puesto que huyó en seguida.—¿Y á quién se le ocurre salir á
+pasear de noche?... ¿No fué cosa monstruosa el parricidio de Malcolm y
+Donalbáin? ¡Cómo le angustió á Macbeth!... Tanto que en seguida mató á
+los guardas, dominados por el sueño y el vino... ¡Lealtad admirable!...
+ó gran prueba de talento. Hizo bien, porque ¿quién hubiera podido oir
+con calma que negaban el crímen? A fe mia que si cayeran en manos de
+Macbeth (lo cual no es fácil, ni Dios permita) los hijos de Duncan, ya
+habian de ver lo que es matar á su padre, y lo mismo el hijo de Banquo.
+Pero callemos, que por hablar demasiado y por huir de la mesa del Rey,
+anda perseguido Macduff. ¿Sabes dónde está?</p>
+          </sp>
+          <sp xml:id="spa-speech-000355">
+            <speaker>EL SEÑOR</speaker>
+            <p xml:id="spa-p-000375">Malcolm, el heredero del trono de Duncan, usurpado por ese tirano,
+vive en Inglaterra, al amparo del santo rey Eduardo, y dando brillantes
+muestras de lo claro de su estirpe. Macduff ha ido á aquella córte, á
+solicitar el auxilio del valeroso duque Suardo. Con su ayuda, y sobre
+todo con la del Dios de los ejércitos, no volverá el puñal á turbar
+nuestros sueños, y vivirán seguros los leales. La indignacion del Rey,
+al saberlo, ha sido tanta, que va á declarar la guerra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000356">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000376">¿Y no llamó antes á Macduff?</p>
+          </sp>
+          <sp xml:id="spa-speech-000357">
+            <speaker>EL SEÑOR</speaker>
+            <p xml:id="spa-p-000377">Sí le llamó, pero él contestó rotundamente que no, volvió la espalda
+al mensajero, y parecia decir entre dientes: «Muy cara os ha de costar
+mi respuesta.»</p>
+          </sp>
+          <sp xml:id="spa-speech-000358">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000378">Será un aviso para que proceda con cautela, y no se exponga á nuevas
+asechanzas. Vaya á Inglaterra un ángel con la noticia de todo lo
+ocurrido, antes que Macduff vuelva. Caigan de nuevo las bendiciones de
+Dios sobre esta tierra infeliz oprimida por un tirano.</p>
+          </sp>
+          <sp xml:id="spa-speech-000359">
+            <speaker>EL SEÑOR</speaker>
+            <p xml:id="spa-p-000379">Óigate el cielo.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4" xml:id="shakespeare-macbeth-spa-act-004">
+        <head>ACTO IV.</head>
+        <div type="scene" n="1" xml:id="shakespeare-macbeth-spa-act-004-scene-001">
+          <head>ESCENA PRIMERA.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000039">
+            <hi rend="italic">El antro de las brujas.—En medio una caldera hirviendo.—Noche de tempestad.</hi>
+            <lb/>
+            <name type="person">BRUJAS, HÉCATE, MACBETH, varias SOMBRAS y LÉNNOX.</name>
+          </stage>
+          <sp xml:id="spa-speech-000360">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000380"><seg rend="smcap">Tres veces</seg> ha mayado el
+gato.</p>
+            <p xml:id="spa-p-000381">BRUJA 2.ª</p>
+            <p xml:id="spa-p-000382">Tres veces se ha lamentado el erizo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000361">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000383">La arpía ha dado la señal de comenzar el encanto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000362">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000384">Demos vueltas al rededor de la caldera, y echemos en ella las
+hediondas entrañas del sapo que dormia en las frias piedras y que por
+espacio de un mes ha estado destilando su veneno.</p>
+          </sp>
+          <sp xml:id="spa-speech-000363">
+            <speaker>TODAS LAS BRUJAS</speaker>
+            <p xml:id="spa-p-000385">Aumente el trabajo: crezca la labor: hierva la caldera.</p>
+          </sp>
+          <sp xml:id="spa-speech-000364">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000386">Lancemos en ella la piel de la víbora, la lana del murciélago amigo
+de las tinieblas, la lengua del perro, el dardo del escorpion, ojos
+de lagarto, músculos de rana, alas de lechuza... Hierva todo esto,
+obedeciendo al infernal conjuro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000365">
+            <speaker>BRUJAS</speaker>
+            <p xml:id="spa-p-000387">Aumente el trabajo: crezca la labor: hierva la caldera.</p>
+          </sp>
+          <sp xml:id="spa-speech-000366">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000388">Entren en ella colmillos de lobo, escamas de serpiente, la abrasada
+garganta del tiburon, el brazo de un sacrílego judío, la nariz de un
+turco, los labios de un tártaro, el hígado de un macho cabrío, la raiz
+de la cicuta, las hojas del abeto iluminadas por el tibio resplandor
+de la luna, el dedo de un niño arrojado por su infanticida madre al
+pozo... Unamos á todo esto las entrañas de un tigre salvaje.</p>
+          </sp>
+          <sp xml:id="spa-speech-000367">
+            <speaker>TODAS LAS BRUJAS</speaker>
+            <p xml:id="spa-p-000389">Aumente el trabajo: crezca la labor: hierva la caldera.</p>
+          </sp>
+          <sp xml:id="spa-speech-000368">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000390">Para aumentar la fuerza del hechizo, humedecedlo todo con sangre de
+mono.</p>
+          </sp>
+          <sp xml:id="spa-speech-000369">
+            <speaker>HÉCATE</speaker>
+            <p xml:id="spa-p-000391">Alabanza merece vuestro trabajo; y yo le remuneraré. Danzad en torno
+de la caldera, para que quede consumado el encanto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000370">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000392">Ya me pican los dedos: indicio de que el traidor Macbeth se
+aproxima. Abríos ante él, puertas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000371">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000393">Misteriosas y astutas hechiceras, ¿en qué os ocupáis?</p>
+          </sp>
+          <sp xml:id="spa-speech-000372">
+            <speaker>LAS BRUJAS</speaker>
+            <p xml:id="spa-p-000394">En un maravilloso conjuro.</p>
+          </sp>
+          <sp xml:id="spa-speech-000373">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000395">En nombre de vuestra ciencia os conjuro. Aunque la tempestad se
+desate contra los templos, y rompa el mar sus barreras para inundar la
+tierra, y el huracan arranque de cuajo las espigas, y derribe alcázares
+y torres; aunque el mundo todo perezca y se confunda, responded á mis
+interrogaciones.</p>
+          </sp>
+          <sp xml:id="spa-speech-000374">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000396">Habla.</p>
+          </sp>
+          <sp xml:id="spa-speech-000375">
+            <speaker>BRUJA 2.ª</speaker>
+            <p xml:id="spa-p-000397">Pregúntanos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000376">
+            <speaker>BRUJA 3.ª</speaker>
+            <p xml:id="spa-p-000398">Á todo te responderemos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000377">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000399">¿Quieres que hablemos nosotras ó que contesten los génios, señores
+nuestros?</p>
+          </sp>
+          <sp xml:id="spa-speech-000378">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000400">Invocad á los génios, para que yo los vea.</p>
+          </sp>
+          <sp xml:id="spa-speech-000379">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000401">Verted la sangre del cerdo: avivad la llama con grasa resudada del
+patíbulo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000380">
+            <speaker>LAS BRUJAS</speaker>
+            <p xml:id="spa-p-000402">Acudid á mi voz, génios buenos y malos. Haced ostentacion de vuestro
+arte.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000040">(<hi rend="italic">En medio de la tempestad, aparece una sombra, armada, con
+casco.</hi>)</stage>
+          <sp xml:id="spa-speech-000381">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000403">Respóndeme, misterioso génio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000382">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000404">Él adivinará tu pensamiento. Óyele y no le hables.</p>
+          </sp>
+          <sp xml:id="spa-speech-000383">
+            <speaker>LA SOMBRA</speaker>
+            <p xml:id="spa-p-000405">Recela tú de Macduff, recela de Macduff, Adios... Dejadme.</p>
+          </sp>
+          <sp xml:id="spa-speech-000384">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000406">No sé quién eres, pero seguiré tu consejo, porque has sabido herir
+la cuerda de mi temor. Oye otra pregunta.</p>
+          </sp>
+          <sp xml:id="spa-speech-000385">
+            <speaker>BRUJA 1.ª</speaker>
+            <p xml:id="spa-p-000407">No te responderá, pero ahora viene otra sombra.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000041">(<hi rend="italic">Aparece la sombra de un niño cubierto de
+sangre.</hi>)</stage>
+          <sp xml:id="spa-speech-000386">
+            <speaker>LA SOMBRA</speaker>
+            <p xml:id="spa-p-000408">Macbeth, Macbeth, Macbeth.</p>
+          </sp>
+          <sp xml:id="spa-speech-000387">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000409">Aplico tres oidos para escucharte.</p>
+          </sp>
+          <sp xml:id="spa-speech-000388">
+            <speaker>LA SOMBRA</speaker>
+            <p xml:id="spa-p-000410">Si eres cruel, implacable y sin entrañas, ninguno de los humanos
+podrá vencerte.</p>
+          </sp>
+          <sp xml:id="spa-speech-000389">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000411">Entonces ¿por qué he de temer á Macduff?... Puede vivir seguro...
+Pero no... es más seguro que perezca, para tener esta nueva prenda
+contra el hado... No le dejaré vivir; desmentiré así á los espectros
+que finge el miedo, y me dormiré al arrullo de los truenos.</p>
+            <p xml:id="spa-p-000412">¿Quién es ese niño que se ciñe altanero la corona real?</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000042">(<hi rend="italic">La sombra de un niño, con corona y una rama de árbol
+en la mano.</hi>)</stage>
+          <sp xml:id="spa-speech-000390">
+            <speaker>BRUJAS</speaker>
+            <p xml:id="spa-p-000413">Óyele en silencio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000391">
+            <speaker>LA SOMBRA</speaker>
+            <p xml:id="spa-p-000414">Sé fuerte como el leon: no desmaye un punto tu audacia: no cedas
+ante los enemigos. Serás invencible, hasta que venga contra tí la selva
+de Birnam, y cubra con sus ramas á Dunsinania.</p>
+          </sp>
+          <sp xml:id="spa-speech-000392">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000415">¡Eso es imposible! ¿Quién puede mover de su lugar los árboles y
+ponerlos en camino? Favorables son los presagios. ¡Sedicion, no alces
+la cabeza, hasta que la selva de Birnam se mueva! Ya estoy libre de
+todo peligro que no sea el de pagar en su dia la deuda que todos
+tenemos con la muerte. Pero decidme, si es que vuestro saber penetra tanto:
+¿reinarán los hijos de Banquo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000393">
+            <speaker>LAS BRUJAS</speaker>
+            <p xml:id="spa-p-000416">Nunca podrás averiguarlo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000394">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000417">Decídmelo. Os conjuro de nuevo y os maldeciré, si no me lo revelais.
+Pero ¿por qué cae en tierra la caldera?... ¿Qué ruido siento?</p>
+          </sp>
+          <sp xml:id="spa-speech-000395">
+            <speaker>LAS BRUJAS</speaker>
+            <p xml:id="spa-p-000418">Mira.—¡Sombras, pasad rápidas, atormentando su corazon y sus
+oidos!</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000043">(<hi rend="italic">Pasan ocho reyes, el último de ellos con un espejo
+en la mano. Despues la sombra de Banquo.</hi>)</stage>
+          <sp xml:id="spa-speech-000396">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000419">¡Cómo te asemejas á Banquo!... Apártate de mí... Tu corona quema
+mis ojos... Y todos pasais coronados... ¿Por qué tal espectáculo,
+malditas viejas?... Tambien el tercero... Y el cuarto... ¡Saltad de
+vuestras órbitas, ojos mios!... ¿Cuándo, cuándo dejareis de pasar?...
+Aún viene otro... el séptimo... ¿Por qué no me vuelvo ciego?... Y luego
+el octavo... Y trae un espejo, en que me muestra otros tantos reyes, y
+algunos con doble corona y triple cetro... Espantosa vision... Ahora
+lo entiendo todo... Banquo, pálido por la reciente herida, me dice
+sonriéndose que son de su raza esos monarcas... Decidme, ¿es verdad lo
+que miro?</p>
+          </sp>
+          <sp xml:id="spa-speech-000397">
+            <speaker>LAS BRUJAS</speaker>
+            <p xml:id="spa-p-000420">Verdad es, pero ¿á qué tu espanto?... Venid, alegraos, ya se pierde
+en los aires el canto del conjuro: gozad en misteriosa danza: hagamos
+al Rey el debido homenaje.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000044">(<hi rend="italic">Danzan y desaparecen.</hi>)</stage>
+          <sp xml:id="spa-speech-000398">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000421">¿Por dónde han huido?... ¡Maldita sea la hora presente!</p>
+          </sp>
+          <sp xml:id="spa-speech-000399">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000422">¿Qué hay?</p>
+          </sp>
+          <sp xml:id="spa-speech-000400">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000423">¿No has visto á las Brujas?</p>
+          </sp>
+          <sp xml:id="spa-speech-000401">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000424">No.</p>
+          </sp>
+          <sp xml:id="spa-speech-000402">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000425">¿No han pasado por donde tú estabas de guardia?</p>
+          </sp>
+          <sp xml:id="spa-speech-000403">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000426">No.</p>
+          </sp>
+          <sp xml:id="spa-speech-000404">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000427">¡Maldito sea el aire que las lleva! ¡Maldito quien de ellas se fia!
+Siento ruido de caballos; ¿quién son?</p>
+          </sp>
+          <sp xml:id="spa-speech-000405">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000428">Mensajeros que traen la noticia de que Macduff huye á Inglaterra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000406">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000429">¿A Inglaterra?</p>
+          </sp>
+          <sp xml:id="spa-speech-000407">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000430">Así dicen.</p>
+          </sp>
+          <sp xml:id="spa-speech-000408">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000431">El tiempo se me adelanta. La ejecucion debe seguir al propósito, el
+acto al pensamiento. Necesito entrar en Faife, y degollar á Macduff,
+á su mujer y á sus hijos y á toda su parentela... Y hacerlo pronto,
+no sea que el propósito se frustre, y quede en vana amenaza. Basta de
+agüeros y sombras.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2" xml:id="shakespeare-macbeth-spa-act-004-scene-002">
+          <head>ESCENA II.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000045">
+            <hi rend="italic">Castillo de Macduff.</hi>
+            <lb/>
+            <name type="person">Lady MACDUFF, ROSS, el HIJO de MACDUFF, un MENSAJERO y ASESINOS.</name>
+          </stage>
+          <sp xml:id="spa-speech-000409">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000432">¿Por qué esa inesperada fuga?</p>
+          </sp>
+          <sp xml:id="spa-speech-000410">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000433">Tranquilízate, señora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000411">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000434">¡Qué locura hizo! El miedo nos hace traidores.</p>
+          </sp>
+          <sp xml:id="spa-speech-000412">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000435">¿Quién sabe si fué miedo ó prudencia?</p>
+          </sp>
+          <sp xml:id="spa-speech-000413">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000436">¿Prudencia dejar su mujer, sus hijos y su hacienda, expuestos á la
+venganza de un tirano?... No creo en su cariño... El ave más pequeña
+y débil de todas resiste á la lechuza, cuando se trata de defender su
+prole... En Macduff ha habido temor sobrado y ningun amor. Su fuga es
+cobardía y locura.</p>
+          </sp>
+          <sp xml:id="spa-speech-000414">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000437">Tranquilízate, prima mia. Tu marido es bueno y prudente, y sabe
+bien lo que hace. Pero vivimos en tan malos tiempos que á veces somos
+traidores hasta sin saberlo, y tememos y recelamos sin causa, como
+quien cruza un mar incierto y proceloso. Adios. Volveré pronto. Quizá
+se remedie todo y luzca de nuevo el sol de la esperanza. Adios, hermosa
+prima. Dios te bendiga.</p>
+          </sp>
+          <sp xml:id="spa-speech-000415">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000438">Mi hijo está huérfano aunque tiene padre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000416">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000439">No puedo detenerme más. Seria en daño vuestro y mio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000417">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000440">(<hi rend="italic">A su hijo.</hi>) Y ahora que estás sin padre, ¿cómo vivirás, hijo
+mio?</p>
+          </sp>
+          <sp xml:id="spa-speech-000418">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000441">Madre mia, como los pájaros del cielo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000419">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000442">¿Con insectos y moscas?</p>
+          </sp>
+          <sp xml:id="spa-speech-000420">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000443">Con lo que encuentre, como hacen ellas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000421">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000444">¡Infeliz! ¿Y no temerás redes, liga ni cazadores?</p>
+          </sp>
+          <sp xml:id="spa-speech-000422">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000445">¿Y por qué he de temerlos, madre? Nadie caza á los pájaros pequeños.
+Y ademas, mi padre no ha muerto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000423">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000446">¿Qué harias por tener padre?</p>
+          </sp>
+          <sp xml:id="spa-speech-000424">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000447">¿Y tú por tener marido?</p>
+          </sp>
+          <sp xml:id="spa-speech-000425">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000448">Compraria veinte en cualquiera parte.</p>
+          </sp>
+          <sp xml:id="spa-speech-000426">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000449">Para venderlos despues.</p>
+          </sp>
+          <sp xml:id="spa-speech-000427">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000450">Muy agudo eres para tus años.</p>
+          </sp>
+          <sp xml:id="spa-speech-000428">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000451">Dices que mi padre fué traidor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000429">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000452">Sí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000430">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000453">¿Y qué es ser traidor?</p>
+          </sp>
+          <sp xml:id="spa-speech-000431">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000454">Faltar á la palabra y al juramento.</p>
+          </sp>
+          <sp xml:id="spa-speech-000432">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000455">¿Eso se llama traicion?</p>
+          </sp>
+          <sp xml:id="spa-speech-000433">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000456">Y quien la comete merece ser ahorcado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000434">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000457">¿Todo el que la comete?</p>
+          </sp>
+          <sp xml:id="spa-speech-000435">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000458">Todos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000436">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000459">¿Y quién los ha de ahorcar?</p>
+          </sp>
+          <sp xml:id="spa-speech-000437">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000460">La gente honrada.</p>
+          </sp>
+          <sp xml:id="spa-speech-000438">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000461">Entonces bien necios son los traidores, porque, siendo tantos,
+parece que habian de ser ellos los que ahorcasen á la gente de bien.</p>
+          </sp>
+          <sp xml:id="spa-speech-000439">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000462">¿Qué harias por tener padre?</p>
+          </sp>
+          <sp xml:id="spa-speech-000440">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000463">Si hubiera muerto de veras, tú estarias llorando, y si no llorabas,
+era indicio claro de que pronto tendria yo otro padre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000441">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000464">Gracioso estás, pobre hijo mio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000442">
+            <speaker>UN MENSAJERO</speaker>
+            <p xml:id="spa-p-000465">Dios te bendiga y salve, hermosa castellana. No te conozco, pero el
+honor me obliga á avisarte que se acerca á tí un inminente peligro.
+Sigue mi consejo. Huye en seguida con tus hijos. Quizá te parezca rudo
+mi aviso, pero seria cruel dejarte en las garras de los asesinos.
+Adios. No puedo detenerme.</p>
+          </sp>
+          <sp xml:id="spa-speech-000443">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000466">¿Y á dónde voy? ¿Qué pecado he cometido? Estoy en un mundo donde
+á veces se tiene por locura hacer el bien, y se tributan elogios á
+la maldad. ¿De qué me sirve la pueril excusa de no haber hecho mal á
+nadie?... Pero ¿qué horribles semblantes son los que miro?...</p>
+          </sp>
+          <sp xml:id="spa-speech-000444">
+            <speaker>ASESINOS</speaker>
+            <p xml:id="spa-p-000467">¿Dónde está tu marido?</p>
+          </sp>
+          <sp xml:id="spa-speech-000445">
+            <speaker>LADY MACDUFF</speaker>
+            <p xml:id="spa-p-000468">No en parte tan infame donde tus ojos puedan verle.</p>
+          </sp>
+          <sp xml:id="spa-speech-000446">
+            <speaker>ASESINO 1.º</speaker>
+            <p xml:id="spa-p-000469">(<hi rend="italic">Al niño.</hi>) Eres un traidor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000447">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000470">Mentira, vil sicario.</p>
+          </sp>
+          <sp xml:id="spa-speech-000448">
+            <speaker>ASESINO</speaker>
+            <p xml:id="spa-p-000471">Muere, pollo en cascaron. (<hi rend="italic">Le hiere.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000449">
+            <speaker>HIJO</speaker>
+            <p xml:id="spa-p-000472">Me ha matado. Huye, madre, sálvate.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3" xml:id="shakespeare-macbeth-spa-act-004-scene-003">
+          <head>ESCENA III.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000046">
+            <hi rend="italic">Palacio real de Inglaterra.</hi>
+            <lb/>
+            <name type="person">MALCOLM, MACDUFF, un DOCTOR y ROSS.</name>
+          </stage>
+          <sp xml:id="spa-speech-000450">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000473">Busquemos sitio apartado donde poder llorar.</p>
+          </sp>
+          <sp xml:id="spa-speech-000451">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000474">Eso no: empuñemos el hierro de la venganza, en defensa de la
+patria oprimida. Cada dia suben al cielo nuevos clamores de viudas y
+huérfanos, acompañando el duelo universal de Escocia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000452">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000475">Mucho lo lamento, pero no creo más que lo que sé. Remediaré lo
+que pueda y cuando pueda. Tendrás razon en todo lo que dices. Pero
+acuérdate que ese tirano, cuyo nombre mancha la lengua al pronunciarlo,
+parecia bueno, y tú mismo le tuviste por tal. Y ademas á vosotros no os
+ha hecho mal ninguno. ¿Si querreis engañarme, sacrificándome como un
+cordero en las aras de ese ídolo?</p>
+          </sp>
+          <sp xml:id="spa-speech-000453">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000476">Nunca he sido traidor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000454">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000477">Pero lo fué Macbeth... Perdóname... no me atrevo á adivinar lo que
+eres. Mira si resplandecen y son puros los ángeles, y sin embargo,
+el más luciente de ellos cayó. Muchas veces el crímen toma la máscara de la
+virtud.</p>
+          </sp>
+          <sp xml:id="spa-speech-000455">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000478">¡Perdí toda esperanza!</p>
+          </sp>
+          <sp xml:id="spa-speech-000456">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000479">Siempre me quedan mis dudas. ¿Por qué has dejado abandonados á tu
+mujer y á tus hijos, á cuanto quieres en el mundo? Perdóname. Quizá te
+ofendan mis recelos. Puede ser tambien que tengas razon. Pero yo con
+esos recelos me defiendo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000457">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000480">¡Llora sin tregua, pobre Escocia! Horrible tiranía pesa sobre tí:
+los buenos se callan, y nadie se atreve á resistirla. Has de sufrir en
+calma tus males, ya que tu Rey vacila y tiembla. Señor, me juzgas mal.
+No seria yo traidor ni áun á precio de toda la tierra que ese malvado
+señorea, ni por todas las riquezas del Oriente.</p>
+          </sp>
+          <sp xml:id="spa-speech-000458">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000481">No he querido ofenderte, ni desconfio de tí en absoluto. Sé que
+nuestra pobre Escocia suda llanto y sangre, oprimida por ese bárbaro.
+Sé que cada dia aumentan y se enconan sus heridas. Creo tambien que á
+mi voz muchos brazos se levantarian. Ahora mismo Inglaterra me ofrece
+miles de combatientes. Pero cuando llegase yo á pisotear la cabeza del
+tirano ó á llevarla en mi lanza, no seria más feliz la patria bajo el
+reinado del sucesor de Macbeth, antes crecerian sus infortunios.</p>
+          </sp>
+          <sp xml:id="spa-speech-000459">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000482">¿De qué sucesor hablas?</p>
+          </sp>
+          <sp xml:id="spa-speech-000460">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000483">De mí mismo. Llevo de tal manera en mí las semillas de todos los
+vicios, que cuando fructifiquen, parecerán blancas como la nieve las
+ensangrentadas sombras de las víctimas de Macbeth, y quizá bendigan su
+memoria los súbditos, al contemplar mi horrenda vida.</p>
+          </sp>
+          <sp xml:id="spa-speech-000461">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000484">¡Pero si en los infiernos mismos no hay un sér más perverso que
+Macbeth!</p>
+          </sp>
+          <sp xml:id="spa-speech-000462">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000485">Te concedo de buen grado que es cruel, lascivo, hipócrita, falso,
+avaro, iracundo, y que se juntan en él todas las maldades del mundo.
+Pero tambien es atroz mi lujuria: no bastarian á saciarla todas
+vuestras hijas y esposas: no habria dique que pudiera oponerse á mi
+deseo... No... no... prefiero que reine Macbeth.</p>
+          </sp>
+          <sp xml:id="spa-speech-000463">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000486">Terrible enemigo del cuerpo es la incontinencia, y de ella han
+sido víctimas muchos reyes, y por ella han sido asolados florecientes
+imperios. Pero no temais, señor. El campo del placer es espacioso. No
+faltan bellezas frágiles, y aunque tu voracidad sea como la del buitre,
+has de acabar por cansarte de tantas como acudirán, ufanas de su
+pomposa deshonra.</p>
+          </sp>
+          <sp xml:id="spa-speech-000464">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000487">Ademas, ruge en mi pecho condicion tan indomable, que si fuera
+rey, no tendria yo reparo en matar á un noble por despojarle de sus
+heredades y castillos, ó condenarle por falsas acusaciones, aunque él
+fuera espejo de lealtad, para enriquecerme con sus despojos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000465">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000488">La lujuria es viento de estío, pero la codicia echa raíces mucho más
+profundas en el alma. Ella ha sido la espada matadora de muchos reyes
+nuestros. Pero no importa. Los tesoros de Escocia han de colmar tu
+deseo. Si no tienes otros vicios que esos, aún son tolerables.</p>
+          </sp>
+          <sp xml:id="spa-speech-000466">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000489">Es que no tengo ninguna cualidad buena. No conozco, ni áun de lejos,
+la justicia, la templanza, la serenidad, la constancia, la clemencia,
+el valor, la firmeza en los propósitos, la generosidad. No hay vicio
+alguno de que yo carezca. Si yo llegara á reinar, echaria al infierno
+la miel de la concordia, y asolaria y confundiria el orbe entero.</p>
+          </sp>
+          <sp xml:id="spa-speech-000467">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000490">¡Ay desdichada Escocia!</p>
+          </sp>
+          <sp xml:id="spa-speech-000468">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000491">Así soy. Dí si me crees digno de reinar.</p>
+          </sp>
+          <sp xml:id="spa-speech-000469">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000492">No, ni tampoco de vivir sobre la tierra. ¡Pobre patria mia, vil
+despojo de un tirano que mancha en sangre el cetro que usurpó!
+¿Cómo restaurar tu antigua gloria, si el vástago de tus reyes está
+maldiciendo de sí mismo, y de todo su linaje? Tu padre, señor, era un
+santo: tu madre vivia muerta para el mundo, y pasaba de hinojos y en
+oracion el dia. Adios, señor. Los vicios de que hablais me arrojan de
+Escocia. Muerta está mi última esperanza.</p>
+          </sp>
+          <sp xml:id="spa-speech-000470">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000493">No... muerta no... Esa noble indignacion que muestras, es un
+grito de tu alma generosa, y viene á disipar todos mis temores. Veo claras tu
+lealtad y tu inocencia. Macbeth ha querido más de una vez engañarme
+con artificios parecidos, y por eso me guardo de la nimia credulidad.
+¡Sea Dios juez entre nosotros! Me pongo en tus manos: me arrepiento de
+haber sospechado de tí, bien contra mi natural instinto, y de haberme
+calumniado, atribuyéndome los vicios que aborrezco más. Soy continente.
+Nunca he faltado á mi palabra. No he codiciado lo ajeno ni áun lo
+propio. No haria una traicion al mismo Lucifer, y amo la verdad tanto
+como la vida. Hoy es la primera vez que he faltado á ella, y eso en
+contra mia. Tal como soy verdaderamente, me ofrezco á tí y á nuestra
+Escocia oprimida... Cuando tú has llegado, el viejo Suardo preparaba
+una expedicion de diez mil guerreros. Todos iremos juntos. ¡Dios
+nos proteja, pues tan santa y justa es nuestra causa! Dí, ¿por qué
+callas?</p>
+          </sp>
+          <sp xml:id="spa-speech-000471">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000494">¿Y quién no queda absorto al ver unidos tan faustos y tan infelices
+sucesos?</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000047">(<hi rend="italic">Entra un médico.</hi>)</stage>
+          <sp xml:id="spa-speech-000472">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000495">Ya hablaremos. (<hi rend="italic">Al Doctor.</hi>) ¿Viene el Rey?</p>
+          </sp>
+          <sp xml:id="spa-speech-000473">
+            <speaker>DOCTOR</speaker>
+            <p xml:id="spa-p-000496">Ya le espera un tropel de enfermos, que aguarda de sus manos la
+salud. Él los cura con el tacto de sus benditas manos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000474">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000497">Gracias, doctor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000475">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000498">¿Y de qué enfermedad cura el Rey?</p>
+          </sp>
+          <sp xml:id="spa-speech-000476">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000499">De las escrófulas. Es un milagro patente. Desde que estoy en
+Inglaterra, lo he visto muchas veces. No se sabe cómo logra tal favor
+del cielo, pero á los enfermos más desesperados, llenos de úlceras y
+llagas, los cura con sólo colgarles medallas del cuerpo, y pronunciar
+alguna devota oracion. Dicen que esta sobrenatural virtud pasa de unos
+á otros reyes de Inglaterra. Tiene ademas el don de profecía, y otras
+mil bendiciones celestes, prueba no dudosa de su santidad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000477">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000500">¿Quién viene?</p>
+          </sp>
+          <sp xml:id="spa-speech-000478">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000501">De mi tierra es, pero no le conozco.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000048">(<hi rend="italic">Entra Ross.</hi>)</stage>
+          <sp xml:id="spa-speech-000479">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000502">Con bien vengas, ilustre pariente mio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000480">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000503">Te recuerdo. ¡Oh, Dios mio, haz que no volvamos á mirarnos como
+extraños!</p>
+          </sp>
+          <sp xml:id="spa-speech-000481">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000504">Dios te oiga, señor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000482">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000505">¿Sigue en el mismo estado nuestra patria?</p>
+          </sp>
+          <sp xml:id="spa-speech-000483">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000506">¡Oh, desdichada Escocia! Ya no es nuestra madre, sino nuestro
+sepulcro. Sólo quien no tenga uso de razon, puede sonreir allí. No se
+oyen más que suspiros y lamentos. El dolor se convierte en locura.
+Banquo ha muerto, sin que nadie pregunte por qué. Las almas puras se
+marchitan como las flores.</p>
+          </sp>
+          <sp xml:id="spa-speech-000484">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000507">Esa narracion quizá tenga más de poética que de verdadera.</p>
+          </sp>
+          <sp xml:id="spa-speech-000485">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000508">¿Y cuáles son los crímenes más recientes?</p>
+          </sp>
+          <sp xml:id="spa-speech-000486">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000509">Uno nuevo á cada hora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000487">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000510">¿Qué es de mi mujer?</p>
+          </sp>
+          <sp xml:id="spa-speech-000488">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000511">¿Tu mujer?... Está bien.</p>
+          </sp>
+          <sp xml:id="spa-speech-000489">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000512">¿Y mis hijos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000490">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000513">Bien.</p>
+          </sp>
+          <sp xml:id="spa-speech-000491">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000514">¿El tirano ha intentado algo contra ellos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000492">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000515">En paz los dejé cuando salí de Escocia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000493">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000516">No seas avaro de palabras. Dime la verdad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000494">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000517">Cuando vine á traeros estas noticias, decíase que se habian
+levantado numerosas huestes contra el tirano, y que éste se aprestaba á
+combatirlas. La ocasion se presenta favorable. Si acudes pronto, hasta
+las mujeres se alzarán para romper sus cadenas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000495">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000518">Pronto iremos á salvarlos. Inglaterra nos ayuda con diez mil
+hombres mandados por el valiente Suardo, el mejor caudillo de la
+cristiandad.</p>
+          </sp>
+          <sp xml:id="spa-speech-000496">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000519">¡Ojalá que yo pudiera consolarme como tú, pero mis desdichas son de
+tal naturaleza que debo confiarlas á los vientos, y no donde las oiga
+nadie!</p>
+          </sp>
+          <sp xml:id="spa-speech-000497">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000520">¿Es desdicha pública ó privada?</p>
+          </sp>
+          <sp xml:id="spa-speech-000498">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000521">Todo hombre de bien debe lamentarse de ellas, pero á tí te toca la
+mayor parte.</p>
+          </sp>
+          <sp xml:id="spa-speech-000499">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000522">Entonces no tardes en decírmela.</p>
+          </sp>
+          <sp xml:id="spa-speech-000500">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000523">No se enojen tus oidos contra mi lengua, aunque se vea forzada á
+pronunciar las más horrendas palabras que nunca oiste.</p>
+          </sp>
+          <sp xml:id="spa-speech-000501">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000524">¡Dios mio! Casi lo adivino.</p>
+          </sp>
+          <sp xml:id="spa-speech-000502">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000525">Tu castillo fué saqueado: muertos tu esposa y tus hijos. No me
+atrevo á referirte cómo, para no añadir una más á las víctimas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000503">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000526">¡Dios poderoso! Habla. No ocultes tu rostro. Es más tremendo el
+dolor que no se expresa con palabras.</p>
+          </sp>
+          <sp xml:id="spa-speech-000504">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000527">¿Y mis hijos tambien?</p>
+          </sp>
+          <sp xml:id="spa-speech-000505">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000528">Perecieron tu esposa y tus hijos y tus criados, y cuantos estaban
+allí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000506">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000529">¿Por qué no estaba yo? ¿Y tambien mi mujer?...</p>
+          </sp>
+          <sp xml:id="spa-speech-000507">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000530">Tambien.</p>
+          </sp>
+          <sp xml:id="spa-speech-000508">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000531">¡Serenidad! La venganza, única medicina de nuestros males, ha de ser
+tremenda.</p>
+          </sp>
+          <sp xml:id="spa-speech-000509">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000532">¡Pero Macbeth no tiene hijos!... Hijos mios... ¿Todos perecieron?...
+¿Todos?... ¿Y su madre tambien?... ¿Y de un solo golpe?</p>
+          </sp>
+          <sp xml:id="spa-speech-000510">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000533">Véngate como un hombre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000511">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000534">Sí que me vengaré, pero soy hombre, y siento y me atormenta la
+memoria de lo que más quise en el mundo. ¡Y lo vió el cielo y no se
+apiadó de ellos! ¡Ah, pecador Macduff, tú tienes la culpa de todo! Por
+tí han perecido aquellos inocentes. ¡Dios les dé la gloria eterna!</p>
+          </sp>
+          <sp xml:id="spa-speech-000512">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000535">Tu dolor afile tu espada é inflame tu brio. Sírvate de aguijon y no
+de freno.</p>
+          </sp>
+          <sp xml:id="spa-speech-000513">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000536">Aunque lloraran mis ojos como los de una mujer, mi lengua hablaria
+con la audacia de un varon. ¡Dios mio, ponme enfrente de ese demonio, y
+si se libra de mi espada, consentiré hasta que el cielo le perdone!</p>
+          </sp>
+          <sp xml:id="spa-speech-000514">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000537">Esas ya son palabras dignas de tí. Vamos á despedirnos del Rey de
+Inglaterra. Sólo nos falta su permiso. Macbeth está á la orilla del
+precipicio. El cielo se declara en favor nuestro. Tregua á vuestro
+dolor. No hay noche sin aurora.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5" xml:id="shakespeare-macbeth-spa-act-005">
+        <head>ACTO V.</head>
+        <div type="scene" n="1" xml:id="shakespeare-macbeth-spa-act-005-scene-001">
+          <head>ESCENA PRIMERA.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000049">
+            <hi rend="italic">Castillo de Dunsinania.</hi>
+            <lb/>
+            <name type="person">Un MÉDICO, una DAMA y LADY MACBETH.</name>
+          </stage>
+          <sp xml:id="spa-speech-000515">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000538"><seg rend="smcap">Aunque</seg> hemos permanecido
+dos noches en vela, nada he visto que confirme vuestros temores,
+¿Cuándo la visteis levantarse por última vez?</p>
+            <p xml:id="spa-p-000539">LA DAMA.</p>
+            <p xml:id="spa-p-000540">Despues que el Rey se fué á la guerra, la he visto muchas veces
+levantarse, vestirse, sentarse á su mesa, tomar papel, escribir una
+carta, cerrarla, sellarla, y luego volverse á acostarse: todo ello
+dormida.</p>
+          </sp>
+          <sp xml:id="spa-speech-000516">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000541">Grave trastorno de su razon arguye el ejecutar en sueños los actos
+de la vida. ¿Y recuerdas que haya dicho alguna palabra?</p>
+          </sp>
+          <sp xml:id="spa-speech-000517">
+            <speaker>LA DAMA</speaker>
+            <p xml:id="spa-p-000542">Sí, pero nunca las repetiré.</p>
+          </sp>
+          <sp xml:id="spa-speech-000518">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000543">Á mi puedes decírmelas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000519">
+            <speaker>LA DAMA</speaker>
+            <p xml:id="spa-p-000544">Ni á tí, ni á nadie, porque no podria yo presentar testigos en apoyo
+de mi relato.</p>
+            <p xml:id="spa-p-000545">Aquí está, como suele, y dormida del todo. Acércate y repara.</p>
+          </sp>
+          <stage type="entrance" xml:id="spa-stage-000050">(<hi rend="italic">Entra Lady Macbeth, sonámbula, y con una luz en la
+mano.</hi>)</stage>
+          <sp xml:id="spa-speech-000520">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000546">¿Dónde tomó esa luz?</p>
+          </sp>
+          <sp xml:id="spa-speech-000521">
+            <speaker>LA DAMA</speaker>
+            <p xml:id="spa-p-000547">La tiene siempre junto á su lecho. Así lo ha mandado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000522">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000548">Tiene los ojos abiertos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000523">
+            <speaker>LA DAMA</speaker>
+            <p xml:id="spa-p-000549">Pero no ve.</p>
+          </sp>
+          <sp xml:id="spa-speech-000524">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000550">Mira cómo se retuerce las manos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000525">
+            <speaker>LA DAMA</speaker>
+            <p xml:id="spa-p-000551">Es su ademan más frecuente. Hace como quien se las lava.</p>
+          </sp>
+          <sp xml:id="spa-speech-000526">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000552">Todavía están manchadas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000527">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000553">Oiré cuanto hable, y no lo borraré de la memoria.</p>
+          </sp>
+          <sp xml:id="spa-speech-000528">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000554">¡Lejos de mí esta horrible mancha!... Ya es la una... Las dos... Ya
+es hora... Qué triste está el infierno... ¡Vergüenza para tí, marido
+mio!... ¡Guerrero y cobarde!... ¿Y qué importa que se sepa, si nadie
+puede juzgarnos?... ¿Pero cómo tenia aquel viejo tanta sangre?</p>
+          </sp>
+          <sp xml:id="spa-speech-000529">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000555">¿Oyes?</p>
+          </sp>
+          <sp xml:id="spa-speech-000530">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000556">¿Dónde está la mujer del señor Faife?... ¿Pero por qué no se lavan
+nunca mis manos?... Calma, señor, calma... ¡Qué dañosos son esos
+arrebatos!</p>
+          </sp>
+          <sp xml:id="spa-speech-000531">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000557">Oye, oye: ya sabemos lo que no debíamos saber.</p>
+          </sp>
+          <sp xml:id="spa-speech-000532">
+            <speaker>LA DAMA</speaker>
+            <p xml:id="spa-p-000558">No tiene conciencia de lo que dice. La verdad sólo Dios la sabe.</p>
+          </sp>
+          <sp xml:id="spa-speech-000533">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000559">Todavía siento el olor de la sangre. Todos los aromas de Oriente no
+bastarian á quitar de esta pequeña mano mia el olor de la sangre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000534">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000560">¡Qué oprimido está ese corazon!</p>
+          </sp>
+          <sp xml:id="spa-speech-000535">
+            <speaker>LA DAMA</speaker>
+            <p xml:id="spa-p-000561">No le llevaria yo en el pecho, por toda la dignidad que ella pueda
+tener.</p>
+          </sp>
+          <sp xml:id="spa-speech-000536">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000562">No sé curar tales enfermedades, pero he visto sonámbulos que han
+muerto como unos santos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000537">
+            <speaker>LADY MACBETH</speaker>
+            <p xml:id="spa-p-000563">Lávate las manos. Vístete. Vuelva el color á tu semblante. Macbeth
+está bien muerto, y no ha de volver de su sepulcro.... Á la cama, á la
+cama... Llaman á la puerta... Ven, dame la mano... ¿Quién deshace lo
+hecho?... Á la cama.</p>
+          </sp>
+          <sp xml:id="spa-speech-000538">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000564">¿Se acuesta ahora?</p>
+          </sp>
+          <sp xml:id="spa-speech-000539">
+            <speaker>LA DAMA</speaker>
+            <p xml:id="spa-p-000565">En seguida.</p>
+          </sp>
+          <sp xml:id="spa-speech-000540">
+            <speaker>EL MÉDICO</speaker>
+            <p xml:id="spa-p-000566">Ya la murmuracion pregona su crímen. La maldad suele trastornar
+el entendimiento, y el ánimo pecador divulga en sueños su secreto.
+Necesita confesor y no médico. Dios la perdone, y perdone á todos.
+No te alejes de su lado: aparta de ella cuanto pueda molestarla.
+Buenas noches. ¡Qué luz inesperada ha herido mis ojos! Pero más vale
+callar.</p>
+          </sp>
+          <sp xml:id="spa-speech-000541">
+            <speaker>LA DAMA</speaker>
+            <p xml:id="spa-p-000567">Buenas noches, doctor.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2" xml:id="shakespeare-macbeth-spa-act-005-scene-002">
+          <head>ESCENA II.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000051">
+            <hi rend="italic">Campamento.</hi>
+            <lb/>
+            <name type="person">MENTEITH, ANGUSS, CAITHNÉSS y LÉNNOX.</name>
+          </stage>
+          <sp xml:id="spa-speech-000542">
+            <speaker>MENTEITH</speaker>
+            <p xml:id="spa-p-000568">Los ingleses, mandados por Malcolm, Suardo y Macduff, se adelantan
+á rápidas jornadas. El génio de la venganza los impele, y su belicoso
+ardor debe animar al más tibio.</p>
+          </sp>
+          <sp xml:id="spa-speech-000543">
+            <speaker>ANGUSS</speaker>
+            <p xml:id="spa-p-000569">Los encontraremos en el bosque de Birnam: esa es la direccion que
+traen.</p>
+          </sp>
+          <sp xml:id="spa-speech-000544">
+            <speaker>CAITHNÉSS</speaker>
+            <p xml:id="spa-p-000570">¿Donalbáin está con sus hermanos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000545">
+            <speaker>ANGUSS</speaker>
+            <p xml:id="spa-p-000571">No, porque yo tengo la lista de todos los que vienen con Suardo,
+entre ellos su propio hijo y otros jóvenes que quieren hacer hoy sus
+primeros alardes varoniles.</p>
+          </sp>
+          <sp xml:id="spa-speech-000546">
+            <speaker>MENTEITH</speaker>
+            <p xml:id="spa-p-000572">¿Y qué hace Macbeth?</p>
+          </sp>
+          <sp xml:id="spa-speech-000547">
+            <speaker>CAITHNÉSS</speaker>
+            <p xml:id="spa-p-000573">Fortificar á Dunsinania. Dicen algunos que está loco, pero los que
+le quieren mejor afirman que está cegado por el furor de la pelea.
+No puede ya estrechar con el cinturon de su imperio el cuerpo de su
+desesperada causa.</p>
+          </sp>
+          <sp xml:id="spa-speech-000548">
+            <speaker>ANGUSS</speaker>
+            <p xml:id="spa-p-000574">Ni borrar de sus manos las huellas de sangre de su oculto crímen.
+Cada dia le abandonan sus parciales, y si alguno le obedece no es por
+cariño. Todo el mundo conoce que la púrpura real de su grandeza oculta
+un cuerpo raquítico y miserable.</p>
+          </sp>
+          <sp xml:id="spa-speech-000549">
+            <speaker>MENTEITH</speaker>
+            <p xml:id="spa-p-000575">¿Y cómo no ha de temblar, si en el fondo de su alma se siente ya
+condenado?</p>
+          </sp>
+          <sp xml:id="spa-speech-000550">
+            <speaker>CAITHNÉSS</speaker>
+            <p xml:id="spa-p-000576">Vamos á prestar homenaje al legítimo monarca, y á ofrecer nuestra
+sangre para que sirva de medicina á la patria oprimida.</p>
+          </sp>
+          <sp xml:id="spa-speech-000551">
+            <speaker>LÉNNOX</speaker>
+            <p xml:id="spa-p-000577">Ofrezcámosla toda, ó la que baste á regar el tronco y las ramas.
+Vamos al bosque de Birnam.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3" xml:id="shakespeare-macbeth-spa-act-005-scene-003">
+          <head>ESCENA III.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000052">
+            <hi rend="italic">Castillo de Dunsinania.</hi>
+            <lb/>
+            <name type="person">MACBETH, un CRIADO, SÉTON y un MÉDICO.</name>
+          </stage>
+          <sp xml:id="spa-speech-000552">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000578">¡No quiero saber más nuevas! Nada he de temer hasta que el bosque
+de Birnam se mueva contra Dunsinania. ¿Por ventura ese niño Malcolm no
+ha nacido de mujer? A mí dijeron los génios que conocen lo porvenir:
+«Macbeth, no temas á ningun hombre nacido de mujer.» Huyan en buen hora
+mis traidores caballeros: júntense con los epicúreos de Inglaterra.
+Mi alma es de tal temple, que no vacilará ni aún en lo más deshecho de la tormenta.</p>
+            <p xml:id="spa-p-000579">¡El diablo te ennegrezca á fuerza de maldiciones esa cara blanca!
+¿Quién te dió esa mirada de liebre?</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000053">(<hi rend="italic">Llega un criado.</hi>)</stage>
+          <sp xml:id="spa-speech-000553">
+            <speaker>CRIADO</speaker>
+            <p xml:id="spa-p-000580">Vienen diez mil.</p>
+          </sp>
+          <sp xml:id="spa-speech-000554">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000581">¿Liebres?</p>
+          </sp>
+          <sp xml:id="spa-speech-000555">
+            <speaker>CRIADO</speaker>
+            <p xml:id="spa-p-000582">No, soldados.</p>
+          </sp>
+          <sp xml:id="spa-speech-000556">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000583">Aráñate la cara con las manos, para que el rubor oculte tu miedo.
+¡Rayos y centellas! ¿Por qué palideces, cara de leche? ¿Qué guerreros
+son esos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000557">
+            <speaker>CRIADO</speaker>
+            <p xml:id="spa-p-000584">Ingleses.</p>
+          </sp>
+          <sp xml:id="spa-speech-000558">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000585">¿Por qué no ocultas tu rostro, antes de pronunciar tales
+palabras?... ¡Séton, Séton! Este dia ha de ser el último de mi poder,
+ó el primero de mi grandeza. Demasiado tiempo he vivido. Mi edad
+se marchita y
+amarillea como las hojas de otoño. Ya no puedo confiar en amigos, ni
+vivir de esperanzas. Sólo me resta oir enconadas maldiciones, ó el vano
+susurro de la lisonja. ¿Séton?</p>
+          </sp>
+          <sp xml:id="spa-speech-000559">
+            <speaker>SÉTON</speaker>
+            <p xml:id="spa-p-000586">Rey, tus órdenes aguardo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000560">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000587">¿Cuáles son las últimas noticias?</p>
+          </sp>
+          <sp xml:id="spa-speech-000561">
+            <speaker>SÉTON</speaker>
+            <p xml:id="spa-p-000588">Exactas parecen las que este mensajero ha traido.</p>
+          </sp>
+          <sp xml:id="spa-speech-000562">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000589">Lidiaré, hasta que me arranquen la piel de los huesos. ¡Pronto mis
+armas!</p>
+          </sp>
+          <sp xml:id="spa-speech-000563">
+            <speaker>SÉTON</speaker>
+            <p xml:id="spa-p-000590">No es necesario aún, señor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000564">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000591">Quiero armarme, y correr la tierra con mis jinetes. Ahorcaré á todo
+el que hable de rendirse. ¡Mis armas! Doctor (<hi rend="italic">al médico</hi>) ¿cómo está
+mi mujer?</p>
+          </sp>
+          <sp xml:id="spa-speech-000565">
+            <speaker>MÉDICO</speaker>
+            <p xml:id="spa-p-000592">No es grave su dolencia, pero mil extrañas visiones le quitan el
+sueño.</p>
+          </sp>
+          <sp xml:id="spa-speech-000566">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000593">Cúidala bien. ¿No sabes curar su alma, borrar de su memoria el
+dolor, y de su cerebro las tenaces ideas que le agobian? ¿No tienes
+algun antídoto contra el veneno que hierve en su corazon?</p>
+          </sp>
+          <sp xml:id="spa-speech-000567">
+            <speaker>MÉDICO</speaker>
+            <p xml:id="spa-p-000594">Estos males sólo puede curarlos el mismo enfermo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000568">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000595">¡Echa á los perros tus medicinas! ¡Pronto, mis armas, mi cetro de
+mando! ¡Séton, convoca á tus guerreros! Los nobles me abandonan. Si tú,
+doctor, lograras volver á su antiguo lecho las aguas del rio, descubrir
+el verdadero mal de mi mujer, y devolverle la salud, no tendrian tasa
+mis aplausos y mercedes. Cúrala por Dios. ¿Qué jarabes, qué drogas, qué
+ruibarbo conoces que nos libre de los ingleses?... Iré á su encuentro,
+sin temer la muerte, mientras no se mueva contra nosotros el bosque de
+Dunsinania.</p>
+          </sp>
+          <sp xml:id="spa-speech-000569">
+            <speaker>MÉDICO</speaker>
+            <p xml:id="spa-p-000596">Si yo pudiera huir de Dunsinania, no volveria aunque me ofreciesen
+un tesoro.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4" xml:id="shakespeare-macbeth-spa-act-005-scene-004">
+          <head>ESCENA IV.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000054">
+            <hi rend="italic">Campamento á la vista de un bosque.</hi>
+            <lb/>
+            <name type="person">MALCOLM, CAITHNÉSS, un SOLDADO, SUARDO y MACDUFF.</name>
+          </stage>
+          <sp xml:id="spa-speech-000570">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000597">Amigos, ha llegado la hora de volver á tomar posesion de nuestras
+casas. ¿Qué selva es esta?</p>
+          </sp>
+          <sp xml:id="spa-speech-000571">
+            <speaker>CAITHNÉSS</speaker>
+            <p xml:id="spa-p-000598">La de Birnam.</p>
+          </sp>
+          <sp xml:id="spa-speech-000572">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000599">Corte cada soldado una rama, y delante cúbrase con ella, para que
+nuestro número parezca mayor, y podamos engañar á los espías.</p>
+          </sp>
+          <sp xml:id="spa-speech-000573">
+            <speaker>SOLDADO</speaker>
+            <p xml:id="spa-p-000600">Así lo haremos.</p>
+          </sp>
+          <sp xml:id="spa-speech-000574">
+            <speaker>SUARDO</speaker>
+            <p xml:id="spa-p-000601">Dicen que el tirano está muy esperanzado, y nos aguarda en
+Dunsinania.</p>
+          </sp>
+          <sp xml:id="spa-speech-000575">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000602">Hace bien en encerrarse, porque sus mismos parciales le abandonan, y
+los pocos que le ayudan, no lo hacen por cariño.</p>
+          </sp>
+          <sp xml:id="spa-speech-000576">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000603">Dejemos tales observaciones para cuando esté acabada nuestra
+empresa. Ahora conviene pensar sólo en el combate.</p>
+          </sp>
+          <sp xml:id="spa-speech-000577">
+            <speaker>SUARDO</speaker>
+            <p xml:id="spa-p-000604">Pronto hemos de ver el resultado y no por vanas conjeturas.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5" xml:id="shakespeare-macbeth-spa-act-005-scene-005">
+          <head>ESCENA V.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000055">
+            <hi rend="italic">Alcázar de Dunsinania.</hi>
+            <lb/>
+            <name type="person">MACBETH, SÉTON y un ESPÍA.</name>
+          </stage>
+          <sp xml:id="spa-speech-000578">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000605">Tremolad mi enseña en los muros. Ya suenan cerca sus clamores. El
+castillo es inexpugnable. Pelearán en nuestra ayuda el hambre y la
+fiebre. Si no nos abandonan los traidores, saldrémos al encuentro del
+enemigo, y le derrotarémos frente á frente. ¿Pero qué ruido siento?</p>
+          </sp>
+          <sp xml:id="spa-speech-000579">
+            <speaker>SÉTON</speaker>
+            <p xml:id="spa-p-000606">Son voces de mujeres.</p>
+          </sp>
+          <sp xml:id="spa-speech-000580">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000607">Yo soy inaccesible al miedo. Tengo estragado el paladar del alma. Hubo
+tiempo en que me aterraba cualquier rumor nocturno, y se erizaban mis
+cabellos, cuando oia referir alguna espantosa tragedia, pero despues
+llegué á saciarme de horrores: la imágen de la desolacion se hizo
+familiar á mi espíritu, y ya no me conmueve nada. ¿Pero qué gritos son
+esos?</p>
+          </sp>
+          <sp xml:id="spa-speech-000581">
+            <speaker>SÉTON</speaker>
+            <p xml:id="spa-p-000608">La reina ha muerto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000582">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000609">¡Ojalá hubiera sido más tarde! No es oportuna la ocasion para tales
+nuevas. Esa engañosa palabra <hi rend="italic">mañana</hi>, <hi rend="italic">mañana</hi>, <hi rend="italic">mañana</hi> nos va
+llevando por dias al sepulcro, y la falaz lumbre del ayer ilumina al
+necio hasta que cae en la fosa. ¡Apágate ya, luz de mi vida! ¿Qué es
+la vida sino una sombra, un histrion que pasa por el teatro, y á quien
+se olvida despues, ó la vana y ruidosa fábula de un necio?</p>
+            <p xml:id="spa-p-000610">Habla, que ese es tu oficio.</p>
+          </sp>
+          <stage type="business" xml:id="spa-stage-000056">(<hi rend="italic">Llega un espía.</hi>)</stage>
+          <sp xml:id="spa-speech-000583">
+            <speaker>ESPÍA</speaker>
+            <p xml:id="spa-p-000611">Señor, te diré lo que he visto, pero apenas me atrevo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000584">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000612">Dí sin temor.</p>
+          </sp>
+          <sp xml:id="spa-speech-000585">
+            <speaker>ESPÍA</speaker>
+            <p xml:id="spa-p-000613">Señor, juraria que el bosque de Birnam se mueve hácia nosotros. Lo
+he visto desde lo alto del collado.</p>
+          </sp>
+          <sp xml:id="spa-speech-000586">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000614">¡Mentira vil!</p>
+          </sp>
+          <sp xml:id="spa-speech-000587">
+            <speaker>ESPÍA</speaker>
+            <p xml:id="spa-p-000615">Mátame, si no es cierto. El bosque viene andando, y está á tres
+millas de aquí.</p>
+          </sp>
+          <sp xml:id="spa-speech-000588">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000616">Si mientes, te colgaré del primer árbol que veamos, y allí morirás
+de hambre. Si dices verdad, ahórcame tú á mí. Ya desfallece mi
+temeraria confianza. Ya empiezo á dudar de esos génios que mezclan
+mentiras con verdades. Ellos me dijeron: «Cuando la selva de Birnam
+venga á Dunsinania»; y la selva viene marchando. ¡A la batalla, á la
+batalla! Si es verdad lo que dices, inútil es quedarse. Ya me ahoga la
+vida, me hastia la luz del sol. Anhelo que el orbe se confunda. Rujan
+los vientos desatados. ¡Sonad las trompetas!</p>
+          </sp>
+        </div>
+        <div type="scene" n="6" xml:id="shakespeare-macbeth-spa-act-005-scene-006">
+          <head>ESCENA VI.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000057">
+            <hi rend="italic">Explanada delante del castillo de Dunsinania.</hi>
+            <lb/>
+            <name type="person">MALCOLM, SUARDO y MACDUFF.</name>
+          </stage>
+          <sp xml:id="spa-speech-000589">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000617">Hemos llegado. Dejad el verde escudo de esas ramas, y apercibíos
+al combate. Amado pariente mio, Suardo, tú dirigirás el ataque con
+tu noble hijo y mi primo. El valiente Macduff y yo cuidaremos de lo
+restante.</p>
+          </sp>
+          <sp xml:id="spa-speech-000590">
+            <speaker>SUARDO</speaker>
+            <p xml:id="spa-p-000618">Está bien, señor. Sea vencido quien no lidie esta noche bizarramente
+contra las huestes del tirano.</p>
+          </sp>
+          <sp xml:id="spa-speech-000591">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000619">Hienda el clarin los aires en aullido de muerte y de venganza.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7" xml:id="shakespeare-macbeth-spa-act-005-scene-007">
+          <head>ESCENA VII.</head>
+          <stage type="setting" rend="scene-introduction" xml:id="spa-stage-000058">
+            <hi rend="italic">Otra parte del campo.</hi>
+            <lb/>
+            <name type="person">MACBETH, el jóven SUARDO, MACDUFF, MALCOLM, SUARDO, ROSS y CABALLEROS.</name>
+          </stage>
+          <sp xml:id="spa-speech-000592">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000620">Estoy amarrado á mi corcel. No puedo huir. Me defenderé como un oso.
+¿Quién puede vencerme, como no sea el que no haya nacido de madre?</p>
+          </sp>
+          <sp xml:id="spa-speech-000593">
+            <speaker>EL JÓVEN SUARDO</speaker>
+            <p xml:id="spa-p-000621">¿Quién eres?</p>
+          </sp>
+          <sp xml:id="spa-speech-000594">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000622">Temblarás de oir mi nombre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000595">
+            <speaker>EL JÓVEN SUARDO</speaker>
+            <p xml:id="spa-p-000623">No, aunque sea el más horrible de los que suenan en el infierno.</p>
+          </sp>
+          <sp xml:id="spa-speech-000596">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000624">Soy Macbeth.</p>
+          </sp>
+          <sp xml:id="spa-speech-000597">
+            <speaker>EL JÓVEN SUARDO</speaker>
+            <p xml:id="spa-p-000625">Ni el mismo Satanás puede proferir nombre más aborrecible.</p>
+          </sp>
+          <sp xml:id="spa-speech-000598">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000626">Ni que infunda más espanto.</p>
+          </sp>
+          <sp xml:id="spa-speech-000599">
+            <speaker>EL JÓVEN SUARDO</speaker>
+            <p xml:id="spa-p-000627">Mientes, y te lo probaré con mi hierro. (<hi rend="italic">Combaten, y Suardo cae
+herido por Macbeth.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000600">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000628">Tú naciste de madre, y ninguno de los nacidos de mujer puede
+conmigo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000601">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000629">Por aquí se oye ruido. ¡Ven, tirano! Si mueres al filo de otra
+espada que la mia, no me darán tregua ni reposo las sombras de mi mujer
+y de mis hijos. Yo no peleo contra viles mercenarios, que alquilan su
+brazo al mejor postor. O mataré á Macbeth, ó no teñirá la sangre el
+filo de mi espada. Por allí debe estar. Aquellos clamores indican su
+presencia. ¡Fortuna! déjame encontrarle.</p>
+          </sp>
+          <sp xml:id="spa-speech-000602">
+            <speaker>SUARDO</speaker>
+            <p xml:id="spa-p-000630">(<hi rend="italic">A Malcolm.</hi>) El castillo se ha rendido, señor. Las gentes del
+tirano se dispersan. Vuestros caballeros lidian como leones. La
+victoria es nuestra. Se declaran en nuestro favor hasta los mismos
+enemigos. Subamos á la fortaleza.</p>
+          </sp>
+          <sp xml:id="spa-speech-000603">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000631">¿Por qué he de morir neciamente como el romano, arrojándome sobre
+mi espada? Mientras me quede un soplo de vida, no dejaré de amontonar
+cadáveres.</p>
+          </sp>
+          <sp xml:id="spa-speech-000604">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000632">Detente, perro de Satanás.</p>
+          </sp>
+          <sp xml:id="spa-speech-000605">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000633">He procurado huir de tí. Huye tú de mí. Estoy harto de tu sangre.</p>
+          </sp>
+          <sp xml:id="spa-speech-000606">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000634">Te respondo con la espada. No hay palabras bastantes para
+maldecirte.</p>
+          </sp>
+          <sp xml:id="spa-speech-000607">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000635">¡Tiempo perdido! Más fácil te será cortar el aire con la espada
+que herirme á mí. Mi vida está hechizada: no puede matarme quien haya
+nacido de mujer.</p>
+          </sp>
+          <sp xml:id="spa-speech-000608">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000636">¿De qué te sirven tus hechizos? ¿No te dijo el génio á quien has
+vendido tu alma, que Macduff fué arrancado, antes de tiempo, de las
+entrañas de su madre muerta?</p>
+          </sp>
+          <sp xml:id="spa-speech-000609">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000637">¡Maldita sea tu lengua que así me arrebata mi sobrenatural poder!
+¡Qué necio es quien se fia en la promesa de los demonios que nos
+engañan con equívocas y falaces palabras! ¡No puedo pelear contigo!</p>
+          </sp>
+          <sp xml:id="spa-speech-000610">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000638">Pues ríndete, cobarde, y serás el escarnio de las gentes, y te
+ataremos vivo á la picota, con un rótulo que diga: «Este es el
+tirano.»</p>
+          </sp>
+          <sp xml:id="spa-speech-000611">
+            <speaker>MACBETH</speaker>
+            <p xml:id="spa-p-000639">Nunca me rendiré. No quiero besar la tierra que huelle Malcolm,
+ni sufrir las maldiciones de la plebe. Moriré batallando, aunque la selva de
+Birnam se haya movido contra Dunsinania, y aunque tú no seas nacido de
+mujer. Mira. Cubro mi pecho con el escudo. Hiéreme sin piedad, Macduff.
+¡Maldicion sobre quien diga «basta!» (<hi rend="italic">Combaten.</hi>)</p>
+          </sp>
+          <sp xml:id="spa-speech-000612">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000640">¡Quiera Dios que vuelvan los amigos que nos faltan!</p>
+          </sp>
+          <sp xml:id="spa-speech-000613">
+            <speaker>SUARDO</speaker>
+            <p xml:id="spa-p-000641">Algunos habrán perecido, que no puede menos de pagarse cara la
+gloria de tal dia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000614">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000642">Faltan Macduff y tu hijo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000615">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000643">Tu hijo murió como soldado. Vivió hasta ser hombre, y con su heroica
+muerte probó que era digno de serlo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000616">
+            <speaker>SUARDO</speaker>
+            <p xml:id="spa-p-000644">¿Dices que ha muerto?</p>
+          </sp>
+          <sp xml:id="spa-speech-000617">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000645">Cayó entre los primeros. No iguales tu dolor al heroismo que él
+mostró, porque entonces no tendrán fin tus querellas.</p>
+          </sp>
+          <sp xml:id="spa-speech-000618">
+            <speaker>SUARDO</speaker>
+            <p xml:id="spa-p-000646">¿Y fué herido de frente?</p>
+          </sp>
+          <sp xml:id="spa-speech-000619">
+            <speaker>ROSS</speaker>
+            <p xml:id="spa-p-000647">De frente.</p>
+          </sp>
+          <sp xml:id="spa-speech-000620">
+            <speaker>SUARDO</speaker>
+            <p xml:id="spa-p-000648">Dios le habrá recibido entre sus guerreros. ¡Ojalá que tuviera
+yo tantos hijos como cabellos, y que todos murieran así! Llegó su
+hora.</p>
+          </sp>
+          <sp xml:id="spa-speech-000621">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000649">Honroso duelo merece, y yo me encargo de tributárselo.</p>
+          </sp>
+          <sp xml:id="spa-speech-000622">
+            <speaker>SUARDO</speaker>
+            <p xml:id="spa-p-000650">Saldó como honrado sus cuentas con la muerte. ¡Dios le haya recibido
+en su seno!</p>
+          </sp>
+          <sp xml:id="spa-speech-000623">
+            <speaker>MACDUFF</speaker>
+            <p xml:id="spa-p-000651">(<hi rend="italic">Que se presenta con la cabeza de Macbeth.</hi>)</p>
+            <p xml:id="spa-p-000652">Ya eres rey. Mira la cabeza del tirano. Libres somos. La flor de
+tu reino te rodea, y yo en nombre de todos, seguro de que sus voces
+responderán á las mias, te aclamo rey de Escocia.</p>
+          </sp>
+          <sp xml:id="spa-speech-000624">
+            <speaker>TODOS</speaker>
+            <p xml:id="spa-p-000653">¡Salud al Rey de Escocia!</p>
+          </sp>
+          <sp xml:id="spa-speech-000625">
+            <speaker>MALCOLM</speaker>
+            <p xml:id="spa-p-000654">No pasará mucho tiempo sin que yo pague á todos lo que al afecto de
+todos debo. Nobles caballeros parientes mios, desde hoy sereis condes,
+los primeros que en Escocia ha habido. Luego haré que vuelvan á sus
+casas los que huyeron del hierro de los asesinos y de la tiranía de
+Macbeth, y de su diabólica mujer que, segun dicen, se ha suicidado.
+Estas cosas y cuantas sean justas haré con la ayuda de Dios. Os invito
+á asistir á mi coronacion en Escocia.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
