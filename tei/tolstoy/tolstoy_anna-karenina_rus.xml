@@ -54,7 +54,7 @@
                     <funder>
                         Проект «Слово Толстого»
                     </funder>
-            <respStmt xml:id="bookstacks-encoding"><resp>TEI P5 normalization, structural identifiers, and speaker-reference integrity</resp><name>Bookstacks project</name></respStmt></titleStmt><editionStmt><edition n="1.0">Bookstacks TEI edition, based on the source electronic edition</edition></editionStmt><publicationStmt><publisher>Bookstacks project</publisher><pubPlace>United States</pubPlace><date when="2026-08-21">21 August 2026</date><idno type="local">tolstoy_anna-karenina</idno><availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">The source encoding and this derived TEI file are made available under the Creative Commons Attribution-ShareAlike 4.0 International License.</licence></availability></publicationStmt><notesStmt>
+            <respStmt xml:id="bookstacks-encoding"><resp>TEI P5 normalization, structural identifiers, and speaker-reference integrity</resp><name>Bookstacks project</name></respStmt></titleStmt><editionStmt><edition n="1.0">Bookstacks TEI edition, based on the source electronic edition</edition></editionStmt><publicationStmt><publisher>Bookstacks project</publisher><pubPlace>United States</pubPlace><date when="2026-08-27">27 August 2026</date><idno type="local">tolstoy_anna-karenina</idno><availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; source rights remain as recorded in sourceDesc.</licence></availability></publicationStmt><notesStmt>
                 <note>
                     Публикуемые документы был получены с сайта tolstoy.ru в формате html, переведены в формат TEI. Исправлены некоторые ошибки распознавания. Тексты, написанные в дореформенной орфографии, сопоставлены с их версиями в современной орфографии. 
                 </note>
@@ -137,11 +137,11 @@
                 <catRef ana="#publ" target="published" />
             </textClass>
         </profileDesc>
-    <revisionDesc><change when="2026-08-21" who="#bookstacks-encoding">Normalized to standalone TEI P5; added granular structural identifiers and resolvable speaker references.</change></revisionDesc></teiHeader>
+    <revisionDesc><change when="2026-08-27" who="#bookstacks-encoding">Normalized to standalone TEI P5; added granular structural identifiers and resolvable speaker references.</change></revisionDesc></teiHeader>
   <text xml:lang="ru">
     <body>
-   <div type="volume" xml:id="tolstoy_anna-karenina-rus-volume-1" n="1">
-    <div type="section" xml:id="tolstoy_anna-karenina-rus-volume-1-section-001"><p xml:id="source-1-5c3d5faf-7e1e-4352-afd6-c85ce1076222">
+   <div type="volume" xml:id="source-1-vol1">
+    <div type="section" xml:id="source-1-vol1-section-001"><p xml:id="source-1-5c3d5faf-7e1e-4352-afd6-c85ce1076222">
      <pb n="3" />
     </p>
     </div><div type="section" xml:id="source-1-h000009"><head rend="center">
@@ -175,7 +175,7 @@
       </cit>
      </epigraph>
     </div>
-    <div type="part" xml:id="tolstoy_anna-karenina-rus-volume-1-part-1" n="1"><head n="level2" type="part">
+    <div type="part" xml:id="source-1-vol1part1"><head n="level2" type="part">
       <hi rend="strong">
        ЧАСТЬ ПЕРВАЯ.
       </hi>
@@ -1736,7 +1736,7 @@
        — Отчего же? Калач иногда так пахнет, что не удержишься.
       </p>
       </div><div rend="petit" type="poem" xml:id="source-1-h000009002011-poem-002">
-       <lg>
+       <lg xml:id="rus-verse-group-000001">
         <l rend="v" xml:id="source-1-41b6114b-0bc2-4b51-b965-53e7d8ef742c">
          Himmlisch ist’s, wenn ich bezwungen
         </l>
@@ -4424,7 +4424,7 @@
       </p>
      </div>
     </div>
-    <div type="part" xml:id="tolstoy_anna-karenina-rus-volume-1-part-2" n="2">
+    <div type="part" xml:id="source-1-vol1part2">
      <div type="section" xml:id="source-1-h000009003001"><head rend="center">
        <hi rend="strong">
         I.
@@ -8929,7 +8929,7 @@
       </p>
      </div>
     </div>
-    <div type="part" xml:id="tolstoy_anna-karenina-rus-volume-1-part-3" n="3">
+    <div type="part" xml:id="source-1-vol1part3">
      <div type="section" xml:id="source-1-h000009004001"><head rend="center">
        <hi rend="strong">
         I.
@@ -12426,7 +12426,7 @@
       </p>
      </div>
     </div>
-    <div type="part" xml:id="tolstoy_anna-karenina-rus-volume-1-part-4" n="4">
+    <div type="part" xml:id="source-1-vol1part4">
      <div type="section" xml:id="source-1-h000009005001"><head rend="center">
        <hi rend="strong">
         I.
@@ -13224,7 +13224,7 @@
        — Ну, разумеется! Вот ты и пришел ко мне. Помнишь, ты нападал на меня за то, что я ищу в жизни наслаждений?
       </p>
       </div><div type="poem" xml:id="source-1-h000009005007-poem-002">
-       <lg>
+       <lg xml:id="rus-verse-group-000002">
         <l rend="v petit" xml:id="source-1-b9d5953b-cf36-4d12-a3d5-05d98bdd9d3a">
          Не будь, о моралист, так строг!...
         </l>
@@ -15318,11 +15318,11 @@
      </div>
     </div>
    </div>
-  <div type="volume" xml:id="tolstoy_anna-karenina-rus-volume-2" n="2">
-    <div type="section" xml:id="tolstoy_anna-karenina-rus-volume-2-section-001"><p xml:id="source-2-9f81fdc6-9953-4512-a7da-ec12079bac69">
+  <div type="volume" xml:id="source-2-vol2">
+    <div type="section" xml:id="source-2-vol2-section-001"><p xml:id="source-2-9f81fdc6-9953-4512-a7da-ec12079bac69">
      <pb n="3" />
     </p>
-    </div><div type="part" xml:id="tolstoy_anna-karenina-rus-volume-2-part-1" n="1">
+    </div><div type="part" xml:id="source-2-vol2part1">
      <div type="section" xml:id="source-2-h000007001001"><head rend="center">
        <hi rend="strong">
         I.
@@ -18910,7 +18910,7 @@
       </p>
      </div>
     </div>
-    <div type="part" xml:id="tolstoy_anna-karenina-rus-volume-2-part-2" n="2">
+    <div type="part" xml:id="source-2-vol2part2">
      <div type="section" xml:id="source-2-h000007002001"><head rend="center">
        <hi rend="strong">
         I.
@@ -23741,7 +23741,7 @@
       </p>
      </div>
     </div>
-    <div type="part" xml:id="tolstoy_anna-karenina-rus-volume-2-part-3" n="3">
+    <div type="part" xml:id="source-2-vol2part3">
      <div type="section" xml:id="source-2-h000007003001"><head rend="center">
        <hi rend="strong">
         I.
@@ -27387,7 +27387,7 @@
       </p>
      </div></div>
     </div>
-    <div type="part" xml:id="tolstoy_anna-karenina-rus-volume-2-part-4" n="4">
+    <div type="part" xml:id="source-2-vol2part4">
      <div type="section" xml:id="source-2-h000007004001"><head rend="center">
        <hi rend="strong">
         I.

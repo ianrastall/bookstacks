@@ -196,6 +196,23 @@ function Normalize-ImportedTei {
 
     $namespaces = Get-TeiNamespaceManager $Document
 
+    # Tolstoy Digital uses a private diagnostic attribute on choice that is not
+    # part of TEI P5.  The correction itself remains fully represented by the
+    # sic/corr children.
+    foreach ($element in @($Root.SelectNodes('.//*[@original_editorial_correction]', $namespaces))) {
+        $element.RemoveAttribute('original_editorial_correction')
+    }
+
+    # Some source epigraph citations wrap bibl content in p, although bibl's
+    # TEI content model expects the inline content directly.
+    foreach ($paragraph in @($Root.SelectNodes('.//tei:bibl/tei:p', $namespaces))) {
+        $bibliography = $paragraph.ParentNode
+        while ($paragraph.HasChildNodes) {
+            [void]$bibliography.InsertBefore($paragraph.FirstChild, $paragraph)
+        }
+        [void]$bibliography.RemoveChild($paragraph)
+    }
+
     # These XIncludes point outside the distributed corpus and cannot resolve in
     # a standalone Bookstacks file.
     foreach ($include in @($Root.SelectNodes('.//xi:include', $namespaces))) {
@@ -716,7 +733,8 @@ function Set-CombinedHeader {
         [System.Xml.XmlElement]$Header,
         [object[]]$Sources,
         [string]$Title,
-        [string]$TextId
+        [string]$TextId,
+        [string]$XmlLang
     )
 
     $namespaces = Get-TeiNamespaceManager $Document
@@ -727,7 +745,7 @@ function Set-CombinedHeader {
         }
         $newTitle = New-TeiElement $Document 'title'
         [void]$newTitle.SetAttribute('type', 'main')
-        [void]$newTitle.SetAttribute('lang', $xmlNamespace, 'ru')
+        [void]$newTitle.SetAttribute('lang', $xmlNamespace, $XmlLang)
         Set-XmlId $newTitle "$TextId-title"
         $newTitle.InnerText = $Title
         [void]$titleStmt.PrependChild($newTitle)
@@ -756,6 +774,9 @@ function Build-TeiFile {
         [string]$MilestoneType,
         [string]$CombinedTitle,
         [string]$CombineMode = 'sequence',
+        [string[]]$SourceTitles,
+        [string]$SourceDivisionType = 'work',
+        [string[]]$SourceDivisionTypes,
         [string]$SupplementTitle,
         [string]$LicenceTarget = 'https://creativecommons.org/licenses/by-sa/4.0/',
         [string]$LicenceText = 'This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; source rights remain as recorded in sourceDesc.'
@@ -800,8 +821,34 @@ function Build-TeiFile {
     if ($sources[0].Front) {
         [void]$text.AppendChild($output.ImportNode($sources[0].Front, $true))
     }
-    $body = [System.Xml.XmlElement]$output.ImportNode($sources[0].Body, $true)
-    if ($sources.Count -gt 1) {
+    if ($SourceTitles -and $SourceTitles.Count -gt 0) {
+        if ($SourceTitles.Count -ne $sources.Count) {
+            throw "SourceTitles must provide one title for each source in $CombinedTitle."
+        }
+        if ($SourceDivisionTypes -and $SourceDivisionTypes.Count -ne $sources.Count) {
+            throw "SourceDivisionTypes must provide one type for each source in $CombinedTitle."
+        }
+        $body = New-TeiElement $output 'body'
+        for ($sourceIndex = 0; $sourceIndex -lt $sources.Count; $sourceIndex++) {
+            $sourceBody = [System.Xml.XmlElement]$output.ImportNode($sources[$sourceIndex].Body, $true)
+            Add-IdentifierPrefix $output $sourceBody ("source-" + ($sourceIndex + 1))
+            $sourceDivision = New-TeiElement $output 'div'
+            $divisionType = if ($SourceDivisionTypes) { $SourceDivisionTypes[$sourceIndex] } else { $SourceDivisionType }
+            [void]$sourceDivision.SetAttribute('type', $divisionType)
+            Set-XmlId $sourceDivision ("$TextId-$Lang-$divisionType-" + ($sourceIndex + 1).ToString('00'))
+            $sourceHead = New-TeiElement $output 'head'
+            $sourceHead.InnerText = $SourceTitles[$sourceIndex]
+            [void]$sourceDivision.AppendChild($sourceHead)
+            foreach ($child in @($sourceBody.ChildNodes | Where-Object { $_ -is [System.Xml.XmlElement] })) {
+                [void]$sourceDivision.AppendChild($child)
+            }
+            [void]$body.AppendChild($sourceDivision)
+        }
+    }
+    else {
+        $body = [System.Xml.XmlElement]$output.ImportNode($sources[0].Body, $true)
+    }
+    if ($sources.Count -gt 1 -and (-not $SourceTitles -or $SourceTitles.Count -eq 0)) {
         if ($CombineMode -ne 'supplement') { Add-IdentifierPrefix $output $body 'source-1' }
         for ($sourceIndex = 1; $sourceIndex -lt $sources.Count; $sourceIndex++) {
             $additionalBody = [System.Xml.XmlElement]$output.ImportNode($sources[$sourceIndex].Body, $true)
@@ -861,7 +908,7 @@ function Build-TeiFile {
         }
     }
 
-    if ($sources.Count -gt 1) { Set-CombinedHeader $output $header $sources $CombinedTitle $TextId }
+    if ($sources.Count -gt 1) { Set-CombinedHeader $output $header $sources $CombinedTitle $TextId $XmlLang }
     Normalize-ImportedTei $output $root
     Normalize-DramaticStageNames $output $root
     Add-BookstacksMetadata $output $header $TextId $LicenceTarget $LicenceText
@@ -948,6 +995,45 @@ foreach ($item in $config) {
         if ($LASTEXITCODE -ne 0) { throw "Failed to convert the Spanish Jane Austen EPUB collection." }
         continue
     }
+    if ($item.source_format -eq 'tolstoy_standard_ebooks_collection') {
+        if ($item.sources.Count -ne 2) { throw "Tolstoy Standard Ebooks collection requires the Short Fiction and Hadji Murad source repositories." }
+        $shortFictionRoot = Join-Path $PSScriptRoot $item.sources[0].path
+        $hadjiRoot = Join-Path $PSScriptRoot $item.sources[1].path
+        $outPath = Join-Path $PSScriptRoot (Join-Path $authorSlug "${baseName}_eng.xml")
+        & python (Join-Path $PSScriptRoot 'build_standard_ebooks_tolstoy.py') `
+            --short-fiction-root $shortFictionRoot `
+            --hadji-root $hadjiRoot `
+            --output $outPath `
+            --schema (Join-Path $PSScriptRoot 'tei_all.rng') `
+            --text-id $baseName
+        if ($LASTEXITCODE -ne 0) { throw "Failed to build the selected Tolstoy English novellas." }
+        continue
+    }
+    if ($item.source_format -eq 'gutenberg_epub_sequence') {
+        $languages = @($item.sources.lang | Select-Object -Unique)
+        if ($languages.Count -ne 1) { throw "Gutenberg EPUB sequence $($item.title) must use one language per output." }
+        $lang = $languages[0]
+        $firstSource = $item.sources[0]
+        $xmlLang = if ($firstSource.xml_lang) { $firstSource.xml_lang } elseif ($lang -eq 'eng') { 'en' } else { $lang }
+        $stagingDirectory = Join-Path (Split-Path $PSScriptRoot) 'tmp/tei-staging'
+        if (-not (Test-Path $stagingDirectory)) { New-Item -ItemType Directory -Path $stagingDirectory | Out-Null }
+        $stagedSources = @()
+        for ($sourceIndex = 0; $sourceIndex -lt $item.sources.Count; $sourceIndex++) {
+            $src = $item.sources[$sourceIndex]
+            $srcPath = Join-Path $PSScriptRoot $src.path
+            $stagedPath = Join-Path $stagingDirectory ("${baseName}-source-" + ($sourceIndex + 1) + ".xml")
+            & python (Join-Path $PSScriptRoot 'build_gutenberg_epub.py') `
+                --source $srcPath `
+                --output $stagedPath `
+                --schema (Join-Path $PSScriptRoot 'tei_all.rng') `
+                --text-id ("${baseName}-source-" + ($sourceIndex + 1))
+            if ($LASTEXITCODE -ne 0) { throw "Failed to convert a Gutenberg EPUB in $($item.title)." }
+            $stagedSources += $stagedPath
+        }
+        $outPath = Join-Path $PSScriptRoot (Join-Path $authorSlug "${baseName}_${lang}.xml")
+        Build-TeiFile -SourcePath $stagedSources -OutputPath $outPath -Lang $lang -XmlLang $xmlLang -TextId $baseName -MilestoneType $item.milestone_type -CombinedTitle $item.combined_title
+        continue
+    }
     if ($item.source_format -eq 'gutenberg_epub') {
         if ($item.sources.Count -ne 1) { throw "Gutenberg EPUB work $($item.title) must have exactly one source." }
         $src = $item.sources[0]
@@ -995,7 +1081,7 @@ foreach ($item in $config) {
         $combineMode = if ($item.combine_mode) { $item.combine_mode } else { 'sequence' }
         $licenceTarget = if ($item.licence_target) { $item.licence_target } else { 'https://creativecommons.org/licenses/by-sa/4.0/' }
         $licenceText = if ($item.licence_text) { $item.licence_text } else { 'This derived TEI file is made available under the Creative Commons Attribution-ShareAlike 4.0 International License; source rights remain as recorded in sourceDesc.' }
-        Build-TeiFile -SourcePath $srcPaths -OutputPath $outPath -Lang $lang -XmlLang $xmlLang -TextId $baseName -MilestoneType $item.milestone_type -CombinedTitle $item.combined_title -CombineMode $combineMode -SupplementTitle $item.supplement_title -LicenceTarget $licenceTarget -LicenceText $licenceText
+        Build-TeiFile -SourcePath $srcPaths -OutputPath $outPath -Lang $lang -XmlLang $xmlLang -TextId $baseName -MilestoneType $item.milestone_type -CombinedTitle $item.combined_title -CombineMode $combineMode -SourceTitles $item.source_titles -SourceDivisionType $item.source_division_type -SourceDivisionTypes $item.source_division_types -SupplementTitle $item.supplement_title -LicenceTarget $licenceTarget -LicenceText $licenceText
 
         $authorOutputDirectory = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot $authorSlug))
         foreach ($obsoleteName in @($item.obsolete_outputs | Where-Object { $_ })) {

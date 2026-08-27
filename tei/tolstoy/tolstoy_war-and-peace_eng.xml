@@ -22,7 +22,7 @@
       </ns0:editionStmt>
       <ns0:publicationStmt>
         <ns0:publisher>Bookstacks project</ns0:publisher>
-        <ns0:date when="2026-08-21">21 August 2026</ns0:date>
+        <ns0:date when="2026-08-27">27 August 2026</ns0:date>
         <ns0:idno type="local">tolstoy_war-and-peace</ns0:idno>
         <ns0:availability status="free">
           <ns0:p>Public domain in the USA.</ns0:p>
@@ -43,7 +43,7 @@
     </ns0:fileDesc>
     <ns0:encodingDesc>
       <ns0:projectDesc>
-        <ns0:p>Converted from the Project Gutenberg XHTML spine. Gutenberg header, contents, and license boilerplate are omitted. Source book, part, epilogue, preface, chapter, paragraph, poetry, emphasis, and footnote structures are retained where present.</ns0:p>
+        <ns0:p>Converted from the Project Gutenberg XHTML spine. Gutenberg header, contents, and license boilerplate are omitted. Source book, part, epilogue, preface, chapter, subchapter section, paragraph, poetry, letter, emphasis, and footnote structures are retained where present.</ns0:p>
       </ns0:projectDesc>
     </ns0:encodingDesc>
     <ns0:profileDesc>
@@ -52,7 +52,7 @@
       </ns0:langUsage>
     </ns0:profileDesc>
     <ns0:revisionDesc>
-      <ns0:change when="2026-08-21" who="#bookstacks-encoding">Converted the Project Gutenberg EPUB XHTML to standalone TEI P5.</ns0:change>
+      <ns0:change when="2026-08-27" who="#bookstacks-encoding">Converted the Project Gutenberg EPUB XHTML to standalone TEI P5.</ns0:change>
     </ns0:revisionDesc>
   </ns0:teiHeader>
   <ns0:text xml:lang="en">
@@ -338,8 +338,7 @@
       gatherings, but only to small receptions. Prince Vasíli’s son, Hippolyte,
       had come with Mortemart, whom he introduced. The Abbé Morio and many
       others had also come.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0001">The most fascinating woman in Petersburg.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0001">* The most fascinating woman in Petersburg.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000044">
       To each new arrival Anna Pávlovna said, “You have not yet seen my aunt,”
        or “You do not know my aunt?” and very gravely conducted him or her to a
@@ -898,8 +897,7 @@
 <ns0:hi rend="italic">“‘Dieu me la donne, gare à qui la touche!’’</ns0:hi> * They say he was very
       fine when he said that,” he remarked, repeating the words in Italian: <ns0:hi rend="italic">“‘Dio
       mi l’ha dato. Guai a chi la tocchi!’’</ns0:hi>
-</ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0002">God has given it to me, let him who touches it beware!</ns0:note>
+<ns0:note type="editorial" place="foot" xml:id="eng-note-0002">* God has given it to me, let him who touches it beware!</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000131">
       “I hope this will prove the last drop that will make the glass run over,”
        Anna Pávlovna continued. “The sovereigns will not be able to endure this
@@ -2433,8 +2431,7 @@
       “How plainly all these young people wear their hearts on their sleeves!”
        said Anna Mikháylovna, pointing to Nicholas as he went out. <ns0:hi rend="italic">“Cousinage—dangereux
       voisinage,”</ns0:hi> * she added.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0003">Cousinhood is a dangerous neighborhood.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0003">* Cousinhood is a dangerous neighborhood.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000402">
       “Yes,” said the countess when the brightness these young people had
       brought into the room had vanished; and as if answering a question no one
@@ -2963,8 +2960,7 @@
       “Prince, <ns0:hi rend="italic">humanum est errare</ns0:hi>, * but...” replied the doctor,
       swallowing his <ns0:hi rend="italic">r</ns0:hi>’s, and pronouncing the Latin words with a French
       accent.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0004">To err is human.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0004">* To err is human.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000507">
       “Very well, very well...”
      </ns0:p>
@@ -3561,8 +3557,7 @@
       expressions with the choicest French phrases—which was a peculiarity
       of his speech. “<ns0:hi rend="italic">Vous comptez vous faire des rentes sur l’état</ns0:hi>; *
       you want to make something out of your company?”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0005">You expect to make an income out of the government.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0005">* You expect to make an income out of the government.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000620">
       “No, Peter Nikoláevich; I only want to show that in the cavalry the
       advantages are far less than in the infantry. Just consider my own
@@ -3596,8 +3591,7 @@
       “<ns0:hi rend="italic">La balance y est</ns0:hi>... * A German knows how to skin a flint, as the
       proverb says,” remarked Shinshín, moving his pipe to the other side of his
       mouth and winking at the count.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0006">So that squares matters.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0006">* So that squares matters.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000625">
       The count burst out laughing. The other guests seeing that Shinshín was
       talking came up to listen. Berg, oblivious of irony or indifference,
@@ -3629,8 +3623,7 @@
       the visitors try to guess from these glances who, or what, they are
       waiting for—some important relation who has not yet arrived, or a
       dish that is not yet ready.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0007">Hors d’oeuvres.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0007">* Hors d’oeuvres.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000629">
       Pierre had come just at dinnertime and was sitting awkwardly in the middle
       of the drawing room on the first chair he had come across, blocking the
@@ -3833,11 +3826,7 @@
       he was about; yet they beat him <ns0:hi rend="italic">à plate couture</ns0:hi>,*(3) and where are
       we to find Suvórovs now? <ns0:hi rend="italic">Je vous demande un peu</ns0:hi>,” *(4) said he,
       continually changing from French to Russian.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0008">Do you know the proverb?</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0009">(2) That suits us down to the ground.</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0010">(3) Hollow.</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0011">(4) I just ask you that.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0008">* Do you know the proverb?</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0009">*(2) That suits us down to the ground.</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0010">*(3) Hollow.</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0011">*(4) I just ask you that.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000658">
       “Ve must vight to the last tr-r-op of our plood!” said the colonel,
       thumping the table; “and ve must tie for our Emperor, and zen all vill pe
@@ -4435,8 +4424,7 @@
       Catiche,” * muttered the prince, seating himself wearily on the chair she
       had just vacated. “You have made the place warm, I must say,” he remarked.
       “Well, sit down: let’s have a talk.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0012">Catherine.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0012">* Catherine.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000766">
       “I thought perhaps something had happened,” she said with her unchanging
       stonily severe expression; and, sitting down opposite the prince, she
@@ -4557,8 +4545,7 @@
       all stupid; but I know this: an illegitimate son cannot inherit... <ns0:hi rend="italic">un
       bâtard!</ns0:hi>”* she added, as if supposing that this translation of the word
       would effectively prove to Prince Vasíli the invalidity of his contention.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0013">A bastard.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0013">* A bastard.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000787">
       “Well, really, Catiche! Can’t you understand! You are so intelligent, how
       is it you don’t see that if the count has written a letter to the Emperor
@@ -4567,8 +4554,7 @@
       everything under the will? And if the will and letter are not destroyed,
       then you will have nothing but the consolation of having been dutiful <ns0:hi rend="italic">et
       tout ce qui s’ensuit!</ns0:hi>* That’s certain.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0014">And all that follows therefrom.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0014">* And all that follows therefrom.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000788">
       “I know the will was made, but I also know that it is invalid; and you, <ns0:hi rend="italic">mon
       cousin</ns0:hi>, seem to consider me a perfect fool,” said the princess with
@@ -5976,8 +5962,7 @@
       The third interruption came when Prince Andrew was finishing his
       description. The old man began to sing, in the cracked voice of old age:
       <ns0:hi rend="italic">“Malbrook s’en va-t-en guerre. Dieu sait quand reviendra.”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0015">“Marlborough is going to the wars; God knows when he’ll return.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0015">* “Marlborough is going to the wars; God knows when he’ll return.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-000987">
       His son only smiled.
     </ns0:p>
@@ -6267,8 +6252,7 @@
       must be for her, poor thing, after what she has been used to, to be parted
       from her husband and be left alone in the country, in her condition! It’s
       very hard.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0016">To understand all is to forgive all.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0016">* To understand all is to forgive all.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001033">
       Prince Andrew smiled as he looked at his sister, as we smile at those we
       think we thoroughly understand.
@@ -6594,8 +6578,7 @@
       tell me how he receives you. If he is all right—serve him. Nicholas
       Bolkónski’s son need not serve under anyone if he is in disfavor. Now come
       here.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0017">Kutúzov.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0017">* Kutúzov.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001099">
       He spoke so rapidly that he did not finish half his words, but his son was
       accustomed to understand him. He led him to the desk, raised the lid, drew
@@ -7653,8 +7636,7 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-001293">
 <ns0:hi rend="italic">“Gott, wie naiv!”</ns0:hi> * said he angrily, after he had gone a few steps.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0018">“Good God, what simplicity!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0018">* “Good God, what simplicity!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001294">
       Nesvítski with a laugh threw his arms round Prince Andrew, but Bolkónski,
       turning still paler, pushed him away with an angry look and turned to
@@ -7695,9 +7677,7 @@
       pour vous, pas pour vous</ns0:hi>. *(2) Only a <ns0:hi rend="italic">hobbledehoy</ns0:hi> could amuse himself in
       this way,” he added in Russian—but pronouncing the word with a
       French accent—having noticed that Zherkóv could still hear him.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0019">“Forty thousand men massacred and the army of our allies destroyed, and you find that a cause for jesting!”</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0020">(2) “It is all very well for that good-for-nothing fellow of whom you have made a friend, but not for you, not for you.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0019">* “Forty thousand men massacred and the army of our allies destroyed, and you find that a cause for jesting!”</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0020">* (2) “It is all very well for that good-for-nothing fellow of whom you have made a friend, but not for you, not for you.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001301">
       He waited a moment to see whether the cornet would answer, but he turned
       and went out of the corridor.
@@ -7749,24 +7729,20 @@
       clearing manure from the cowhouse, looked out, and his face immediately
       brightened on seeing Rostóv. <ns0:hi rend="italic">“Schön gut Morgen! Schön gut Morgen!”</ns0:hi> * he
       said winking with a merry smile, evidently pleased to greet the young man.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0021">“A very good morning! A very good morning!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0021">* “A very good morning! A very good morning!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001309">
 <ns0:hi rend="italic">“Schon fleissig?”</ns0:hi> * said Rostóv with the same gay brotherly smile which
       did not leave his eager face. <ns0:hi rend="italic">“Hoch Oestreicher! Hoch Russen! Kaiser
       Alexander hoch!”</ns0:hi> *(2) said he, quoting words often repeated by the German
       landlord.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0022">“Busy already?”</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0023">(2) “Hurrah for the Austrians! Hurrah for the Russians! Hurrah for Emperor Alexander!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0022">* “Busy already?”</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0023">* (2) “Hurrah for the Austrians! Hurrah for the Russians! Hurrah for Emperor Alexander!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001310">
       The German laughed, came out of the cowshed, pulled off his cap, and
       waving it above his head cried:
     </ns0:p>
             <ns0:p xml:id="eng-p-001311">
 <ns0:hi rend="italic">“Und die ganze Welt hoch!”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0024">“And hurrah for the whole world!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0024">* “And hurrah for the whole world!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001312">
       Rostóv waved his cap above his head like the German and cried laughing,
       <ns0:hi rend="italic">“Und vivat die ganze Welt!”</ns0:hi> Though neither the German cleaning his cowshed
@@ -9591,8 +9567,7 @@
       distance and puckering the skin above his left eye, <ns0:hi rend="italic">“malgré la haute
       estime que je professe pour</ns0:hi> the Orthodox Russian army, <ns0:hi rend="italic">j’avoue que
       votre victoire n’est pas des plus victorieuses.”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0025">“But my dear fellow, with all my respect for the Orthodox Russian army, I must say that your victory was not particularly victorious.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0025">* “But my dear fellow, with all my respect for the Orthodox Russian army, I must say that your victory was not particularly victorious.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001654">
       He went on talking in this way in French, uttering only those words in
       Russian on which he wished to put a contemptuous emphasis.
@@ -9727,8 +9702,7 @@
       repeated, accentuating the <ns0:hi rend="italic">u</ns0:hi>: “I think, however, now that he lays down
       laws for Austria at Schönbrunn, <ns0:hi rend="italic">il faut lui faire grâce de l’u!</ns0:hi> * I shall
       certainly adopt an innovation and call him simply Bonaparte!”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0026">“We must let him off the u!”</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0026">* “We must let him off the u!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001675">
       “But joking apart,” said Prince Andrew, “do you really think the campaign
       is over?”
@@ -9742,8 +9716,7 @@
       is between ourselves—I instinctively feel that we are being
       deceived, my instinct tells me of negotiations with France and projects
       for peace, a secret peace concluded separately.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0027">Fine eyes.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0027">* Fine eyes.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001677">
       “Impossible!” cried Prince Andrew. “That would be too base.”
      </ns0:p>
@@ -9798,8 +9771,7 @@
       one of themselves, an honor they did not extend to many. From politeness
       and to start conversation, they asked him a few questions about the army
       and the battle, and then the talk went off into merry jests and gossip.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0028">Ours.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0028">* Ours.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001685">
       “But the best of it was,” said one, telling of the misfortune of a fellow
       diplomat, “that the Chancellor told him flatly that his appointment to
@@ -9829,8 +9801,7 @@
             <ns0:p xml:id="eng-p-001691">
 <ns0:hi rend="italic">“La femme est la compagne de l’homme,”</ns0:hi> * announced Prince Hippolyte, and
       began looking through a lorgnette at his elevated legs.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0029">“Woman is man’s companion.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0029">* “Woman is man’s companion.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001692">
       Bilíbin and the rest of “ours” burst out laughing in Hippolyte’s face, and
       Prince Andrew saw that Hippolyte, of whom—he had to admit—he
@@ -10079,8 +10050,7 @@
       go and take the bridge, cross it, and now with their whole army are on
       this side of the Danube, marching on us, you, and your lines of
       communication.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0030">The marshalls.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0030">* The marshalls.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001746">
       “Stop jesting,” said Prince Andrew sadly and seriously. This news grieved
       him and yet he was pleased.
@@ -10135,9 +10105,7 @@
       dignity at stake and orders the sergeant to be arrested. Come, you must
       own that this affair of the Thabor Bridge is delightful! It is not exactly
       stupidity, nor rascality....”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0031">Bridgehead.</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0032">(2) That their fire gets into his eyes and he forgets that he ought to be firing at the enemy.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0031">* Bridgehead.</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0032">* (2) That their fire gets into his eyes and he forgets that he ought to be firing at the enemy.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001750">
       “It may be treachery,” said Prince Andrew, vividly imagining the gray
       overcoats, wounds, the smoke of gunpowder, the sounds of firing, and the
@@ -10252,8 +10220,7 @@
       astonishment at the genius of his hero, a feeling of wounded pride, and a
       hope of glory. “And should there be nothing left but to die?” he thought.
       “Well, if need be, I shall do it no worse than others.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0033">“That Russian army which has been brought from the ends of the earth by English gold, we shall cause to share the same fate—(the fate of the army at Ulm).”</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0033">* “That Russian army which has been brought from the ends of the earth by English gold, we shall cause to share the same fate—(the fate of the army at Ulm).”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001773">
       He looked with disdain at the endless confused mass of detachments, carts,
       guns, artillery, and again baggage wagons and vehicles of all kinds
@@ -10793,8 +10760,7 @@
             <ns0:p xml:id="eng-p-001863">
 <ns0:hi rend="italic">“Voilà l’agrément des camps, monsieur le prince,”</ns0:hi> * said the staff
       officer.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0034">“This is a pleasure one gets in camp, Prince.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0034">* “This is a pleasure one gets in camp, Prince.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001864">
       They rode up the opposite hill. From there the French could already be
       seen. Prince Andrew stopped and began examining the position.
@@ -10928,12 +10894,10 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-001884">
       “We’ll make you dance as we did under Suvórov...,” * said Dólokhov.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0035">“On vous fera danser.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0035">* “On vous fera danser.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001885">
 <ns0:hi rend="italic">“Qu’ est-ce qu’il chante?”</ns0:hi> * asked a Frenchman.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0036">“What’s he singing about?”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0036">* “What’s he singing about?”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001886">
       “It’s ancient history,” said another, guessing that it referred to a
       former war. “The Emperor will teach your Suvara as he has taught the
@@ -11881,8 +11845,7 @@
       took delight in his every movement. The sound of musketry at the foot of
       the hill, now diminishing, now increasing, seemed like someone’s
       breathing. He listened intently to the ebb and flow of these sounds.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0037">Daughter of Matthew.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0037">* Daughter of Matthew.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-001996">
       “Ah! Breathing again, breathing!” he muttered to himself.
     </ns0:p>
@@ -13094,8 +13057,7 @@
             <ns0:p xml:id="eng-p-002167">
 <ns0:hi rend="italic">“Je vous aime!”</ns0:hi> * he said, remembering what has to be said at such
       moments: but his words sounded so weak that he felt ashamed of himself.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0038">“I love you.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0038">* “I love you.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-002168">
       Six weeks later he was married, and settled in Count Bezúkhov’s large,
       newly furnished Petersburg house, the happy possessor, as people said, of
@@ -13586,8 +13548,7 @@
       dear prince,” said the little princess (of course, in French) to Prince
       Vasíli. “It’s not as at Annette’s * receptions where you
       always ran away; you remember <ns0:hi rend="italic">cette chère Annette!</ns0:hi>”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0039">Anna Pávlovna.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0039">* Anna Pávlovna.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-002242">
       “Ah, but you won’t talk politics to me like Annette!”
      </ns0:p>
@@ -13623,8 +13584,7 @@
       at all bad!” he thought, examining her, “not at all bad, that little
       companion! I hope she will bring her along with her when we’re married, <ns0:hi rend="italic">la
       petite est gentille.</ns0:hi>” *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0040">The little one is charming.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0040">* The little one is charming.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-002249">
       The old prince dressed leisurely in his study, frowning and considering
       what he was to do. The coming of these visitors annoyed him. “What are
@@ -16911,8 +16871,7 @@
 <ns0:hi rend="italic">“Ma foi, sire, nous ferons ce qui sera dans notre possibilité, sire,”</ns0:hi> * he
       answered gaily, raising nevertheless ironic smiles among the gentlemen of
       the Tsar’s suite by his poor French.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0041">“Indeed, Sire, we shall do everything it is possible to do, Sire.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0041">* “Indeed, Sire, we shall do everything it is possible to do, Sire.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-002757">
       Milorádovich wheeled his horse sharply and stationed himself a little
       behind the Emperor. The Ápsheron men, excited by the Tsar’s presence,
@@ -17360,8 +17319,7 @@
      </ns0:p>
             <ns0:p xml:id="eng-p-002827">
 <ns0:hi rend="italic">“Zum Henker diese Russen!”</ns0:hi> * muttered a German.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0042">“Hang these Russians!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0042">* “Hang these Russians!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-002828">
       Several wounded men passed along the road, and words of abuse, screams,
       and groans mingled in a general hubbub, then the firing died down. Rostóv
@@ -18044,8 +18002,7 @@
             <ns0:p xml:id="eng-p-002938">
       “Here he is... our own... Kólya, * dear fellow... How he has changed!...
       Where are the candles?... Tea!...”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0043">Nicholas.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0043">* Nicholas.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-002939">
       “And me, kiss me!”
      </ns0:p>
@@ -19060,8 +19017,7 @@
       says, ‘but when you see one your fear’s all gone, and your only thought is
       not to let him get away!’ And that’s how it is with me. <ns0:hi rend="italic">À demain, mon
       cher</ns0:hi>.” *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0044">Till tomorrow, my dear fellow.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0044">* Till tomorrow, my dear fellow.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003091">
       Next day, at eight in the morning, Pierre and Nesvítski drove to the
       Sokólniki forest and found Dólokhov, Denísov, and Rostóv already there.
@@ -19338,8 +19294,7 @@
       “I’m not such a fool.... Just you try it on.... <ns0:hi rend="italic">Allez-vous promener</ns0:hi>,” *
       she used to say. Often seeing the success she had with young and old men
       and women Pierre could not understand why he did not love her.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0045">“You clear out of this.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0045">* “You clear out of this.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003136">
       “Yes, I never loved her,” said he to himself; “I knew she was a depraved
       woman,” he repeated, “but dared not admit it to myself. And now there’s
@@ -19357,8 +19312,7 @@
       lie, and worse than a lie? I am guilty and must endure... what? A slur on
       my name? A misfortune for life? Oh, that’s nonsense,” he thought. “The
       slur on my name and honor—that’s all apart from myself.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0046">I love you.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0046">* I love you.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003139">
       “Louis XVI was executed because they said he was dishonorable and a
       criminal,” came into Pierre’s head, “and from their point of view they
@@ -19377,8 +19331,7 @@
       kept repeating to himself. And when he had said it for the tenth time,
       Molière’s words: <ns0:hi rend="italic">“Mais que diable allait-il faire dans cette galère?”</ns0:hi> *
       occurred to him, and he began to laugh at himself.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0047">“But what the devil was he doing in that galley?”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0047">* “But what the devil was he doing in that galley?”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003141">
       In the night he called his valet and told him to pack up to go to
       Petersburg. He could not imagine how he could speak to her now. He
@@ -19674,8 +19627,7 @@
             <ns0:p xml:id="eng-p-003191">
       “Dearest, I’m afraid this morning’s <ns0:hi rend="italic">fruschtique</ns0:hi> *—as Fóka the cook
       calls it—has disagreed with me.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0048">Frühstück: breakfast.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0048">* Frühstück: breakfast.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003192">
       “What is the matter with you, my darling? You look pale. Oh, you are very
       pale!” said Princess Mary in alarm, running with her soft, ponderous steps
@@ -20172,8 +20124,7 @@
             <ns0:p xml:id="eng-p-003266">
       “Nicholas, will you come to Iogel’s? Please do!” said Natásha. “He asked
       you, and Vasíli Dmítrich * is also going.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0049">Denísov.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0049">* Denísov.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003267">
       “Where would I not go at the countess’ command!” said Denísov, who at the
       Rostóvs’ had jocularly assumed the role of Natásha’s knight. “I’m even
@@ -21320,8 +21271,7 @@
       The servant brought back his tumbler turned upside down, * with an
       unfinished bit of nibbled sugar, and asked if anything more would be
       wanted.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0050">To indicate he did not want more tea.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0050">* To indicate he did not want more tea.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003479">
       “No. Give me the book,” said the stranger.
     </ns0:p>
@@ -22368,8 +22318,7 @@
       (for some reason she called it <ns0:hi rend="italic">Urope</ns0:hi> as if that were a specially refined French
       pronunciation which she could allow herself when conversing with a
       Frenchman), <ns0:hi rend="italic">“L’Urope ne sera jamais notre alliée sincère.”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0051">“Europe will never be our sincere ally.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0051">* “Europe will never be our sincere ally.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003631">
       After that Anna Pávlovna led up to the courage and firmness of the King of
       Prussia, in order to draw Borís into the conversation.
@@ -23777,8 +23726,7 @@
       with her beautiful radiant eyes and seemed to say, “I like you very much,
       but please don’t laugh at my people.” After exchanging the first
       greetings, they sat down.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0052">“Delighted to see you. I am very glad to see you.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0052">* “Delighted to see you. I am very glad to see you.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003843">
       “Ah, and Ivánushka is here too!” said Prince Andrew, glancing with a smile
       at the young pilgrim.
@@ -23789,9 +23737,7 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-003845">
       “Andrew, <ns0:hi rend="italic">au nom de Dieu!</ns0:hi>” *(2) Princess Mary repeated.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0053">“You must know that this is a woman.”</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0054">(2) “For heaven’s sake.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0053">* “You must know that this is a woman.”</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0054">* (2) “For heaven’s sake.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003846">
       It was evident that Prince Andrew’s ironical tone toward the pilgrims and
       Princess Mary’s helpless attempts to protect them were their customary
@@ -23801,8 +23747,7 @@
 <ns0:hi rend="italic">“Mais, ma bonne amie,”</ns0:hi> said Prince Andrew, <ns0:hi rend="italic">“vous devriez au contraire
       m’être reconnaissante de ce que j’explique à Pierre votre intimité avec ce
       jeune homme.”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0055">“But, my dear, you ought on the contrary to be grateful to me for explaining to Pierre your intimacy with this young man.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0055">* “But, my dear, you ought on the contrary to be grateful to me for explaining to Pierre your intimacy with this young man.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003848">
       “Really?” said Pierre, gazing over his spectacles with curiosity and
       seriousness (for which Princess Mary was specially grateful to him) into
@@ -23931,8 +23876,7 @@
       n’ai pas voulu l’offenser.</ns0:hi> * I did not mean anything, I was only joking,”
        he said, smiling shyly and trying to efface his offense. “It was all my
       fault, and Andrew was only joking.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0056">“Princess, on my word, I did not wish to offend her.”</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0056">* “Princess, on my word, I did not wish to offend her.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-003874">
       Pelagéya stopped doubtfully, but in Pierre’s face there was such a look of
       sincere penitence, and Prince Andrew glanced so meekly now at her and now
@@ -24910,8 +24854,7 @@
             <ns0:p xml:id="eng-p-004020">
       “No, I only wonder how you managed to get away from your regiment. <ns0:hi rend="italic">Dans un
       moment je suis à vous</ns0:hi>,” * he said, answering someone who called him.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0057">“In a minute I shall be at your disposal.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0057">* “In a minute I shall be at your disposal.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004021">
       “I see I’m intruding,” Rostóv repeated.
     </ns0:p>
@@ -26206,8 +26149,7 @@
       that <ns0:hi rend="italic">le principe des monarchies est l’honneur me paraît incontestable.
       Certains droits et privilèges de la noblesse me paraissent être des moyens
       de soutenir ce sentiment.</ns0:hi>” *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0058">“The principle of monarchies is honor seems to me incontestable. Certain rights and privileges for the aristocracy appear to me a means of maintaining that sentiment.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0058">* “The principle of monarchies is honor seems to me incontestable. Certain rights and privileges for the aristocracy appear to me a means of maintaining that sentiment.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004229">
       The smile vanished from Speránski’s white face, which was much improved by
       the change. Probably Prince Andrew’s thought interested him.
@@ -26216,8 +26158,7 @@
 <ns0:hi rend="italic">“Si vous envisagez la question sous ce point de vue,”</ns0:hi> * he began,
       pronouncing French with evident difficulty, and speaking even slower than
       in Russian but quite calmly.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0059">“If you regard the question from that point of view.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0059">* “If you regard the question from that point of view.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004231">
       Speránski went on to say that honor, <ns0:hi rend="italic">l’honneur</ns0:hi>, cannot be upheld by
       privileges harmful to the service; that honor, <ns0:hi rend="italic">l’honneur</ns0:hi>, is either a
@@ -26548,8 +26489,7 @@
       seemed to be on his side understood him in their own way with limitations
       and alterations he could not agree to, as what he always wanted most was
       to convey his thought to others just as he himself understood it.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0060">The Illuminati sought to substitute republican for monarchical institutions.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0060">* The Illuminati sought to substitute republican for monarchical institutions.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004268">
       At the end of the meeting the Grand Master with irony and ill-will
       reproved Bezúkhov for his vehemence and said it was not love of virtue
@@ -26725,9 +26665,7 @@
       established that she could say the emptiest and stupidest things and
       everybody would go into raptures over every word of hers and look for a
       profound meaning in it of which she herself had no conception.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0061">“That’s a superb animal.”</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0062">(2) “Of a charming woman, as witty as she is lovely.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0061">* “That’s a superb animal.”</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0062">* (2) “Of a charming woman, as witty as she is lovely.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004283">
       Pierre was just the husband needed for a brilliant society woman. He was
       that absent-minded crank, a <ns0:hi rend="italic">grand seigneur</ns0:hi> husband who was in no one’s
@@ -27040,8 +26978,7 @@
       <ns0:hi rend="italic">“das soll mein Weib werden,”</ns0:hi> * and from that moment had made up his mind
       to marry her. Now in Petersburg, having considered the Rostóvs’ position
       and his own, he decided that the time had come to propose.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0063">“That girl shall be my wife.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0063">* “That girl shall be my wife.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004312">
       Berg’s proposal was at first received with a perplexity that was not
       flattering to him. At first it seemed strange that the son of an obscure
@@ -27720,8 +27657,7 @@
       host and hostess, who had already been standing at the door for half an
       hour repeating the same words to the various arrivals, <ns0:hi rend="italic">“Charmé de vous
       voir,”</ns0:hi> * greeted the Rostóvs and Perónskaya in the same manner.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0064">“Delighted to see you.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0064">* “Delighted to see you.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004429">
       The two girls in their white dresses, each with a rose in her black hair,
       both curtsied in the same way, but the hostess’ eye involuntarily rested
@@ -27814,8 +27750,7 @@
       writing some project or other. Just look how he treats the ladies! There’s
       one talking to him and he has turned away,” she said, pointing at him.
       “I’d give it to him if he treated me as he does those ladies.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0065">“He is all the rage just now.”</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0065">* “He is all the rage just now.”</ns0:note></ns0:p>
           </ns0:div>
           <ns0:div type="chapter" n="16" xml:id="eng-book-06-chapter-016">
             <ns0:head>CHAPTER XVI</ns0:head>
@@ -28411,8 +28346,7 @@
       generalizing from that observation, supposed that all men, though they
       understand nothing and are conceited and selfish, ascribe common sense to
       themselves alone.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0066">To be a man.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0066">* To be a man.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004512">
       Berg rose and embraced his wife carefully, so as not to crush her lace
       fichu for which he had paid a good price, kissing her straight on the
@@ -28607,8 +28541,7 @@
             <ns0:p xml:id="eng-p-004542">
       “Yes, you know between cousins intimacy often leads to love. <ns0:hi rend="italic">Le cousinage
       est un dangereux voisinage.</ns0:hi> * Don’t you think so?”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0067">“Cousinhood is a dangerous neighborhood.”</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0067">* “Cousinhood is a dangerous neighborhood.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004543">
       “Oh, undoubtedly!” said Prince Andrew, and with sudden and unnatural
       liveliness he began chaffing Pierre about the need to be very careful with
@@ -31098,8 +31031,7 @@
       and with sly merriment, the fear that had at first seized Nicholas and the
       others that she might not do the right thing was at an end, and they were
       already admiring her.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0068">The French shawl dance.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0068">* The French shawl dance.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-004907">
       She did the right thing with such precision, such complete precision, that
       Anísya Fëdorovna, who had at once handed her the handkerchief she needed
@@ -32682,8 +32614,7 @@
       unmarried, liked him because without making love to any of them, he was
       equally amiable to all, especially after supper. <ns0:hi rend="italic">“Il est charmant; il n’a
       pas de sexe,”</ns0:hi> * they said of him.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0069">“He is charming; he has no sex.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0069">* “He is charming; he has no sex.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-005189">
       Pierre was one of those retired gentlemen-in-waiting of whom there were
       hundreds good-humoredly ending their days in Moscow.
@@ -32991,8 +32922,7 @@
       had passed off safely. After admitting the doctor, Princess Mary sat down
       with a book in the drawing room near the door through which she could hear
       all that passed in the study.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0070">To force the guard.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0070">* To force the guard.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-005211">
       At first she heard only Métivier’s voice, then her father’s, then both
       voices began speaking at the same time, the door was flung open, and on
@@ -33483,14 +33413,13 @@
      </ns0:p>
             <ns0:p xml:id="eng-p-005301">
       On another page he drew a tomb, and wrote:
-    </ns0:p>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0071">* Death gives relief and death is peaceful. Ah! from suffering there is no other refuge.</ns0:note></ns0:p>
             <ns0:lg type="poem">
               <ns0:lg type="stanza">
                 <ns0:l>La mort est secourable et la mort est tranquille.</ns0:l>
                 <ns0:l>Ah! contre les douleurs il n’y a pas d’autre asile. *</ns0:l>
               </ns0:lg>
             </ns0:lg>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0071">Death gives relief and death is peaceful. Ah! from suffering there is no other refuge.</ns0:note>
             <ns0:p xml:id="eng-p-005302">
       Julie said this was charming
     </ns0:p>
@@ -33502,7 +33431,7 @@
      </ns0:p>
             <ns0:p xml:id="eng-p-005304">
       In reply Borís wrote these lines:
-    </ns0:p>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0072">*Poisonous nourishment of a too sensitive soul, Thou, without whom happiness would for me be impossible, Tender melancholy, ah, come to console me, Come to calm the torments of my gloomy retreat, And mingle a secret sweetness With these tears that I feel to be flowing.</ns0:note></ns0:p>
             <ns0:lg type="poem">
               <ns0:lg type="stanza">
                 <ns0:l>Aliment de poison d’une âme trop sensible,</ns0:l>
@@ -33513,7 +33442,6 @@
                 <ns0:l>A ces pleurs que je sens couler. *</ns0:l>
               </ns0:lg>
             </ns0:lg>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0072">Poisonous nourishment of a too sensitive soul, Thou, without whom happiness would for me be impossible, Tender melancholy, ah, come to console me, Come to calm the torments of my gloomy retreat, And mingle a secret sweetness With these tears that I feel to be flowing.</ns0:note>
             <ns0:p xml:id="eng-p-005305">
       For Borís, Julie played most doleful nocturnes on her harp. Borís read
       <ns0:hi rend="italic">Poor Liza</ns0:hi> aloud to her, and more than once interrupted the reading
@@ -34406,8 +34334,7 @@
       costume tournament, Countess? Do come!” and putting out his hand to her
       bouquet and dropping his voice, he added, “You will be the prettiest
       there. Do come, dear countess, and give me this flower as a pledge!”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0073">Are the pretty women.</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0073">* Are the pretty women.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-005419">
       Natásha did not understand what he was saying any more than he did
       himself, but she felt that his incomprehensible words had an improper
@@ -36943,8 +36870,7 @@
       been so much in the grip of inevitable laws, which compelled him, while
       thinking that he was acting on his own volition, to perform for the hive
       life—that is to say, for history—whatever had to be performed.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0074">“To shed (or not to shed) the blood of his peoples.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0074">* “To shed (or not to shed) the blood of his peoples.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-005876">
       The people of the west moved eastwards to slay their fellow men, and by
       the law of coincidence thousands of minute causes fitted in and
@@ -37014,8 +36940,7 @@
       him in the same direction. On the tenth of June, * coming up with the
       army, he spent the night in apartments prepared for him on the estate of a
       Polish count in the Vilkavisski forest.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0075">Old style.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0075">* Old style.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-005882">
       Next day, overtaking the army, he went in a carriage to the Niemen, and,
       changing into a Polish uniform, he drove to the riverbank in order to
@@ -37147,8 +37072,7 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-005895">
 <ns0:hi rend="italic">Quos vult perdere dementat.</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0076">Those whom (God) wishes to destroy he drives mad.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0076">* Those whom (God) wishes to destroy he drives mad.</ns0:note></ns0:p>
           </ns0:div>
           <ns0:div type="chapter" n="3" xml:id="eng-book-09-chapter-003">
             <ns0:head>CHAPTER III</ns0:head>
@@ -37423,8 +37347,7 @@
       walking through the streets with his wife, some Italians called out to
       him: <ns0:hi rend="italic">“Viva il re!”</ns0:hi> * he turned to his wife with a pensive smile and said:
       “Poor fellows, they don’t know that I am leaving them tomorrow!”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0077">“Long live the king.”</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0077">* “Long live the king.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-005931">
       But though he firmly believed himself to be King of Naples and pitied the
       grief felt by the subjects he was abandoning, latterly, after he had been
@@ -37475,8 +37398,7 @@
       Napoleon had resented the demand that he should withdraw his troops from
       Prussia, especially when that demand became generally known and the
       dignity of France was thereby offended.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0078">“Royalty has its obligations.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0078">* “Royalty has its obligations.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-005938">
       Balashëv replied that there was “nothing offensive in the demand,
       because...” but Murat interrupted him.
@@ -40206,8 +40128,7 @@
       Besuhof</ns0:hi>—all this had to mature and culminate, to lift him out of that
       spellbound, petty sphere of Moscow habits in which he felt himself held captive and
       lead him to a great achievement and great happiness.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0079">Forty-two.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0079">* Forty-two.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-006246">
       On the eve of the Sunday when the special prayer was read, Pierre had
       promised the Rostóvs to bring them, from Count Rostopchín whom he knew
@@ -41017,8 +40938,7 @@
       owners of serfs whom we are willing to devote to his service, and <ns0:hi rend="italic">chair à
       canon</ns0:hi> * we are ready to make of ourselves—and not to obtain from us
       any co-co-counsel.”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0080">“Food for cannon.”</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0080">* “Food for cannon.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-006379">
       Many persons withdrew from the circle, noticing the senator’s sarcastic
       smile and the freedom of Pierre’s remarks. Only Count Rostóv was pleased
@@ -42964,8 +42884,7 @@
       Russian prisoner captured by the cavalry. Followed by Lelorgne d’Ideville,
       an interpreter, he overtook Napoleon at a gallop and reined in his horse
       with an amused expression.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0081">“Moscow, the Asiatic capital of this great empire, the sacred city of Alexander’s people, Moscow with its innumerable churches shaped like Chinese pagodas.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0081">* “Moscow, the Asiatic capital of this great empire, the sacred city of Alexander’s people, Moscow with its innumerable churches shaped like Chinese pagodas.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-006675">
       “Well?” asked Napoleon.
     </ns0:p>
@@ -43051,8 +42970,7 @@
       Berthier and said he wished to see how the news that he was talking to the
       Emperor himself, to that very Emperor who had written his immortally
       victorious name on the Pyramids, would affect this <ns0:hi rend="italic">enfant du Don</ns0:hi>. *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0082">“Child of the Don.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0082">* “Child of the Don.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-006690">
       The fact was accordingly conveyed to Lavrúshka.
     </ns0:p>
@@ -45159,8 +45077,7 @@
       his head. “And the French shall too, believe me,” he went on, growing
       warmer and beating his chest, “I’ll make them eat horseflesh!”
       And tears again dimmed his eyes.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0083">“Everything comes in time to him who knows how to wait.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0083">* “Everything comes in time to him who knows how to wait.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007039">
       “But shan’t we have to accept battle?” remarked Prince Andrew.
     </ns0:p>
@@ -45175,9 +45092,7 @@
       will tell you what to do, and what I do. <ns0:hi rend="italic">Dans le doute, mon cher</ns0:hi>,” he
       paused, <ns0:hi rend="italic">“abstiens-toi”</ns0:hi> *(2)—he articulated the French proverb
       deliberately.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0084">“Don’t see it that way, that’s the trouble.”</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0085">(2) “When in doubt, my dear fellow, do nothing.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0084">* “Don’t see it that way, that’s the trouble.”</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0085">* (2) “When in doubt, my dear fellow, do nothing.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007041">
       “Well, good-by, my dear fellow; remember that with all my heart I share
       your sorrow, and that for you I am not a Serene Highness, nor a prince,
@@ -45273,8 +45188,7 @@
       on his, but that the best thing about Bezúkhov’s action was that he
       himself was going to don a uniform and ride at the head of his regiment
       without charging anything for the show.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0086">“Think it over; get into the barque, and take care not to make it a barque of Charon.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0086">* “Think it over; get into the barque, and take care not to make it a barque of Charon.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007049">
       “You don’t spare anyone,” said Julie Drubetskáya as she collected
       and pressed together a bunch of raveled lint with her thin, beringed fingers.
@@ -45402,8 +45316,7 @@
             <ns0:p xml:id="eng-p-007077">
       “Oh, come, my dear count! <ns0:hi rend="italic">C’est la fable de tout Moscou. Je vous admire,
       ma parole d’honneur!”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0087">“It is the talk of all Moscow. My word, I admire you!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0087">* “It is the talk of all Moscow. My word, I admire you!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007078">
       “Forfeit, forfeit!” cried the militia officer.
     </ns0:p>
@@ -45434,8 +45347,7 @@
       triumphantly, and to have the last word she promptly changed the subject.
       “Do you know what I heard today? Poor Mary Bolkónskaya arrived in Moscow
       yesterday. Do you know that she has lost her father?”
-     </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0088">“Who excuses himself, accuses himself.”</ns0:note>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0088">* “Who excuses himself, accuses himself.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007086">
       “Really? Where is she? I should like very much to see her,” said Pierre.
     </ns0:p>
@@ -45459,8 +45371,7 @@
             <ns0:p xml:id="eng-p-007091">
       “Do you know, I really believe she is <ns0:hi rend="italic">un petit peu amoureuse du jeune
       homme.</ns0:hi>” *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0089">“A little bit in love with the young man.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0089">* “A little bit in love with the young man.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007092">
       “Forfeit, forfeit, forfeit!”
      </ns0:p>
@@ -46594,8 +46505,7 @@
       downhill and uphill, across a ryefield trodden and beaten down as if by
       hail, following a track freshly made by the artillery over the furrows of
       the plowed land, and reached some <ns0:hi rend="italic">flèches</ns0:hi> * which were still being dug.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0090">A kind of entrenchment.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0090">* A kind of entrenchment.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007273">
       At the <ns0:hi rend="italic">flèches</ns0:hi> Bennigsen stopped and began looking at the Shevárdino
       Redoubt opposite, which had been ours the day before and where several
@@ -46975,14 +46885,12 @@
             <ns0:p xml:id="eng-p-007326">
 <ns0:hi rend="italic">“Der Krieg muss in Raum verlegt werden. Der Ansicht kann ich nicht genug
       Preis geben,”</ns0:hi> * said one of them.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0091">“The war must be extended widely. I cannot sufficiently commend that view.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0091">* “The war must be extended widely. I cannot sufficiently commend that view.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007327">
 <ns0:hi rend="italic">“Oh, ja,”</ns0:hi> said the other, <ns0:hi rend="italic">“der Zweck ist nur den Feind
       zu schwächen, so kann man gewiss nicht den Verlust der Privat-Personen in Achtung
       nehmen.”</ns0:hi>*
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0092">“Oh, yes, the only aim is to weaken the enemy, so of course one cannot take into account the loss of private individuals.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0092">* “Oh, yes, the only aim is to weaken the enemy, so of course one cannot take into account the loss of private individuals.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007328">
       “Oh, no,” agreed the other.
     </ns0:p>
@@ -50467,8 +50375,7 @@
       partner came to seek her, put an end to her discourse with her future
       <ns0:hi rend="italic">directeur de conscience</ns0:hi>, but the next evening Monsieur de Jobert came to
       see Hélène when she was alone, and after that often came again.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0093">Lay member of the Society of Jesus.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0093">* Lay member of the Society of Jesus.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007822">
       One day he took the countess to a Roman Catholic church, where she knelt
       down before the altar to which she was led. The enchanting, middle-aged
@@ -50651,8 +50558,7 @@
             <ns0:p xml:id="eng-p-007843">
 <ns0:hi rend="italic">“Une maîtresse-femme!</ns0:hi> * That’s what is called putting things squarely. She
       would like to be married to all three at the same time,” thought he.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0094">A masterly woman.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0094">* A masterly woman.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007844">
       “But tell me, how will your husband look at the matter?” Bilíbin asked,
       his reputation being so well established that he did not fear to ask so
@@ -50699,8 +50605,7 @@
       position j’ai des devoirs,”</ns0:hi> * said Hélène changing from Russian, in which
       language she always felt that her case did not sound quite clear, into
       French which suited it better.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0095">“Oh, Mamma, don’t talk nonsense! You don’t understand anything. In my position I have obligations.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0095">* “Oh, Mamma, don’t talk nonsense! You don’t understand anything. In my position I have obligations.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007854">
       “But, my dear....”
      </ns0:p>
@@ -50715,13 +50620,11 @@
             <ns0:p xml:id="eng-p-007857">
 <ns0:hi rend="italic">“Non, dites-lui que je ne veux pas le voir, que je suis furieuse contre
       lui, parce qu’il m’a manqué parole.”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0096">“No, tell him I don’t wish to see him, I am furious with him for not keeping his word to me.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0096">* “No, tell him I don’t wish to see him, I am furious with him for not keeping his word to me.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007858">
 <ns0:hi rend="italic">“Comtesse, à tout péché miséricorde,”</ns0:hi> * said a fair-haired young
       man with a long face and nose, as he entered the room.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0097">“Countess, there is mercy for every sin.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0097">* “Countess, there is mercy for every sin.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-007859">
       The old princess rose respectfully and curtsied. The young man who had
       entered took no notice of her. The princess nodded to her daughter and
@@ -52792,8 +52695,7 @@
       voilà donc enfin, cette fameuse ville! Il était temps,”</ns0:hi> * said he, and
       dismounting he ordered a plan of Moscow to be spread out before him, and
       summoned Lelorgne d’Ideville, the interpreter.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0098">“That Asiatic city of the innumerable churches, holy Moscow! Here it is then at last, that famous city. It was high time.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0098">* “That Asiatic city of the innumerable churches, holy Moscow! Here it is then at last, that famous city. It was high time.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008212">
       “A town captured by the enemy is like a maid who has lost her honor,”
        thought he (he had said so to Túchkov at Smolénsk). From that point of
@@ -52835,8 +52737,7 @@
      </ns0:p>
             <ns0:p xml:id="eng-p-008214">
 <ns0:hi rend="italic">“Qu’on m’amène les boyars,”</ns0:hi> * said he to his suite.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0099">“Bring the boyars to me.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0099">* “Bring the boyars to me.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008215">
       A general with a brilliant suite galloped off at once to fetch the boyars.
     </ns0:p>
@@ -52863,9 +52764,7 @@
       <ns0:hi rend="italic">Maison de ma Mère</ns0:hi>, *(2) he concluded. “But am I really in Moscow? Yes,
       here it lies before me, but why is the deputation from the city so long in
       appearing?” he wondered.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0100">“My dear, my tender, my poor mother.”</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0101">(2) “House of my Mother.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0100">* “My dear, my tender, my poor mother.”</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0101">* (2) “House of my Mother.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008218">
       Meanwhile an agitated consultation was being carried on in whispers among
       his generals and marshals at the rear of his suite. Those sent to fetch
@@ -54387,8 +54286,7 @@
       case a troublesome and dangerous thing to do), arson cannot be regarded as
       the cause, for the same thing would have happened without any
       incendiarism.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0102">To Rostopchín’s ferocious patriotism.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0102">* To Rostopchín’s ferocious patriotism.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008448">
       However tempting it might be for the French to blame Rostopchín’s ferocity
       and for Russians to blame the scoundrel Bonaparte, or later on to place an
@@ -54619,15 +54517,13 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-008479">
 <ns0:hi rend="italic">“Bonjour, la compagnie!”</ns0:hi> * said he gaily, smiling and looking about him.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0103">“Good day, everybody!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0103">* “Good day, everybody!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008480">
       No one gave any reply.
     </ns0:p>
             <ns0:p xml:id="eng-p-008481">
 <ns0:hi rend="italic">“Vous êtes le bourgeois?”</ns0:hi> * the officer asked Gerásim.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0104">“Are you the master here?”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0104">* “Are you the master here?”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008482">
       Gerásim gazed at the officer with an alarmed and inquiring look.
     </ns0:p>
@@ -54638,8 +54534,7 @@
       added he, clapping the scared and silent Gerásim on the shoulder. “Well,
       does no one speak French in this establishment?” he asked again in French,
       looking around and meeting Pierre’s eyes. Pierre moved away from the door.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0105">“Quarters, quarters, lodgings! The French are good fellows. What the devil! There, don’t let us be cross, old fellow!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0105">* “Quarters, quarters, lodgings! The French are good fellows. What the devil! There, don’t let us be cross, old fellow!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008484">
       Again the officer turned to Gerásim and asked him to show him the rooms in
       the house.
@@ -56048,8 +55943,7 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-008705">
 <ns0:hi rend="italic">“On ne passe pas!”</ns0:hi> * cried a voice.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0106">“You can’t pass!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0106">* “You can’t pass!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008706">
       “This way, uncle,” cried the girl. “We’ll pass through
       the side street, by the Nikúlins’!”
@@ -56299,8 +56193,7 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-008745">
 <ns0:hi rend="italic">“Voyons, pas de bêtises!”</ns0:hi> * he cried.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0107">“Look here, no nonsense!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0107">* “Look here, no nonsense!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008746">
       Pierre was in such a transport of rage that he remembered nothing and his
       strength increased tenfold. He rushed at the barefooted Frenchman and,
@@ -56704,17 +56597,14 @@
       reached Petersburg with the official announcement of that event. This
       messenger was Michaud, a Frenchman who did not know Russian, but who was
       <ns0:hi rend="italic">quoique étranger, russe de cœur et d’âme,</ns0:hi> * as he said of himself.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0108">Though a foreigner, Russian in heart and soul.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0108">* Though a foreigner, Russian in heart and soul.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008805">
       The Emperor at once received this messenger in his study at the palace on
       Stone Island. Michaud, who had never seen Moscow before the campaign and
       who did not know Russian, yet felt deeply moved (as he wrote) when he
       appeared before <ns0:hi rend="italic">notre très gracieux souverain</ns0:hi> * with the news of the
       burning of Moscow, <ns0:hi rend="italic">dont les flammes éclairaient sa route</ns0:hi>. *(2)
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0109">Our most gracious sovereign.</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0110">(2) Whose flames illumined his route.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0109">* Our most gracious sovereign.</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0110">* (2) Whose flames illumined his route.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-008806">
       Though the source of M. Michaud’s chagrin must have been different from
       that which caused Russians to grieve, he had such a sad face when shown
@@ -58841,8 +58731,7 @@
             <ns0:p xml:id="eng-p-009112">
 <ns0:hi rend="italic">“Mon enfant!”</ns0:hi> she muttered, <ns0:hi rend="italic">“je vous aime et vous
       connais depuis longtemps.”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0111">“My child! I love you and have known you a long time.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0111">* “My child! I love you and have known you a long time.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009113">
       Despite her excitement, Princess Mary realized that this was the
       countess and that it was necessary to say something to her. Hardly
@@ -59067,8 +58956,7 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-009155">
 <ns0:hi rend="italic">“Merci, chère amie, d’être venue.”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0112">“Thank you for coming, my dear.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0112">* “Thank you for coming, my dear.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009156">
       Princess Mary pressed his hand. The pressure made him wince just
       perceptibly. He was silent, and she did not know what to say. She now
@@ -60450,8 +60338,7 @@
       With regard to supplies for the army, Napoleon decreed that all the troops
       in turn should enter Moscow <ns0:hi rend="italic">à la maraude</ns0:hi> * to obtain provisions for
       themselves, so that the army might have its future provided for.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0113">As looters.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0113">* As looters.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009343">
       With regard to religion, Napoleon ordered the priests to be brought back
       and services to be again performed in the churches.
@@ -62121,8 +62008,7 @@
       strength of an army to be identical with its numbers. Military science
       says that the more troops the greater the strength. <ns0:hi rend="italic">Les gros bataillons
       ont toujours raison</ns0:hi>. *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0114">Large battalions are always victorious.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0114">* Large battalions are always victorious.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009564">
       For military science to say this is like defining momentum in mechanics by
       reference to the mass only: stating that momenta are equal or unequal to
@@ -62340,8 +62226,7 @@
             <ns0:p xml:id="eng-p-009588">
       Beside Denísov rode an <ns0:hi rend="italic">esaul</ns0:hi>, * Denísov’s fellow worker, also
       in felt cloak and sheepskin cap, and riding a large sleek Don horse.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0115">A captain of Cossacks.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0115">* A captain of Cossacks.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009589">
       Esaul Lováyski the Third was a tall man as straight as an arrow,
       pale-faced, fair-haired, with narrow light eyes and with calm
@@ -63021,14 +62906,11 @@
 <ns0:hi rend="italic">“Ah, c’est vous!”</ns0:hi> said Pétya. <ns0:hi rend="italic">“Voulez-vous
       manger? N’ayez pas peur, on ne vous fera pas de mal,”</ns0:hi> * he added
       shyly and affectionately, touching the boy’s hand. <ns0:hi rend="italic">“Entrez, entrez.”</ns0:hi> *(2)
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0116">“Ah, it’s you! Do you want something to eat? Don’t be afraid, they won’t hurt you.”</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0117">(2) “Come in, come in.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0116">* “Ah, it’s you! Do you want something to eat? Don’t be afraid, they won’t hurt you.”</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0117">* (2) “Come in, come in.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009712">
 <ns0:hi rend="italic">“Merci, monsieur,”</ns0:hi> * said the drummer boy in a trembling
       almost childish voice, and he began scraping his dirty feet on the threshold.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0118">“Thank you, sir.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0118">* “Thank you, sir.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009713">
       There were many things Pétya wanted to say to the drummer boy, but did not
       dare to. He stood irresolutely beside him in the passage. Then in the
@@ -63194,30 +63076,26 @@
       “Don’t talk Russian,” said Dólokhov in a hurried whisper, and at that very
       moment they heard through the darkness the challenge: <ns0:hi rend="italic">“Qui vive?”</ns0:hi> * and
       the click of a musket.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0119">“Who goes there?”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0119">* “Who goes there?”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009743">
       The blood rushed to Pétya’s face and he grasped his pistol.
     </ns0:p>
             <ns0:p xml:id="eng-p-009744">
 <ns0:hi rend="italic">“Lanciers du 6-me,”</ns0:hi> * replied Dólokhov, neither hastening nor slackening
       his horse’s pace.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0120">“Lancers of the 6th Regiment.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0120">* “Lancers of the 6th Regiment.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009745">
       The black figure of a sentinel stood on the bridge.
     </ns0:p>
             <ns0:p xml:id="eng-p-009746">
 <ns0:hi rend="italic">“Mot d’ordre.”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0121">“Password.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0121">* “Password.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009747">
       Dólokhov reined in his horse and advanced at a walk.
     </ns0:p>
             <ns0:p xml:id="eng-p-009748">
 <ns0:hi rend="italic">“Dites donc, le colonel Gérard est ici?”</ns0:hi> * he asked.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0122">“Tell me, is Colonel Gérard here?”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0122">* “Tell me, is Colonel Gérard here?”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009749">
 <ns0:hi rend="italic">“Mot d’ordre,”</ns0:hi> repeated the sentinel, barring the way and not replying.
     </ns0:p>
@@ -63225,8 +63103,7 @@
 <ns0:hi rend="italic">“Quand un officier fait sa ronde, les sentinelles ne demandent pas le mot
       d’ordre...”</ns0:hi> cried Dólokhov suddenly flaring up and riding straight
       at the sentinel. <ns0:hi rend="italic">“Je vous demande si le colonel est ici.”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0123">“When an officer is making his round, sentinels don’t ask him for the password.... I am asking you if the colonel is here.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0123">* “When an officer is making his round, sentinels don’t ask him for the password.... I am asking you if the colonel is here.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009751">
       And without waiting for an answer from the sentinel, who had stepped
       aside, Dólokhov rode up the incline at a walk.
@@ -63262,8 +63139,7 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-009757">
 <ns0:hi rend="italic">“Bonjour, messieurs!”</ns0:hi> * said Dólokhov loudly and clearly.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0124">“Good day, gentlemen.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0124">* “Good day, gentlemen.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009758">
       There was a stir among the officers in the shadow beyond the fire, and one
       tall, long-necked officer, walking round the fire, came up to Dólokhov.
@@ -64024,8 +63900,7 @@
             <ns0:head>CHAPTER XIV</ns0:head>
             <ns0:p xml:id="eng-p-009875">
 <ns0:hi rend="italic">“À vos places!”</ns0:hi> * suddenly cried a voice.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0125">“To your places.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0125">* “To your places.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009876">
       A pleasant feeling of excitement and an expectation of something joyful
       and solemn was aroused among the soldiers of the convoy and the prisoners.
@@ -64223,8 +64098,7 @@
 <ns0:hi rend="italic">“Filez, filez!”</ns0:hi> * Dólokhov kept saying, having adopted
       this expression from the French, and when his eyes met those of the prisoners
       they flashed with a cruel light.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0126">“Get along, get along!”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0126">* “Get along, get along!”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009909">
       Denísov, bareheaded and with a gloomy face, walked behind some Cossacks
       who were carrying the body of Pétya Rostóv to a hole that had been dug in
@@ -64402,8 +64276,7 @@
 <ns0:hi rend="italic">“J’ai assez fait l’empereur; il est temps de faire le
       général,”</ns0:hi> * but nevertheless immediately ran away again, abandoning
       to its fate the scattered fragments of the army he left behind.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0127">“I have acted the Emperor long enough; it is time to act the general.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0127">* “I have acted the Emperor long enough; it is time to act the general.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009926">
       Then we are told of the greatness of soul of the marshals, especially of
       Ney—a greatness of soul consisting in this: that he made his way by
@@ -64433,16 +64306,13 @@
       “heroes.” And Napoleon, escaping home in a warm fur coat and leaving to
       perish those who were not merely his comrades but were (in his opinion) men he had
       brought there, feels <ns0:hi rend="italic">que c’est grand</ns0:hi>, *(2) and his soul is tranquil.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0128">“It is great.”</ns0:note>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0129">(2) That it is great.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0128">* “It is great.”</ns0:note><ns0:note type="editorial" place="foot" xml:id="eng-note-0129">* (2) That it is great.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009930">
 <ns0:hi rend="italic">“Du sublime</ns0:hi> (he saw something sublime in himself) <ns0:hi rend="italic">au ridicule il n’y a
       qu’un pas,”</ns0:hi> * said he. And the whole world for fifty years has been
       repeating: <ns0:hi rend="italic">“Sublime! Grand! Napoléon le Grand!” Du sublime au ridicule il
       n’y a qu’un pas.</ns0:hi>
-</ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0130">“From the sublime to the ridiculous is but a step.”</ns0:note>
+<ns0:note type="editorial" place="foot" xml:id="eng-note-0130">* “From the sublime to the ridiculous is but a step.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-009931">
       And it occurs to no one that to admit a greatness not commensurable with
       the standard of right and wrong is merely to admit one’s own nothingness
@@ -65220,8 +65090,7 @@
       himself—who was fond of parleys with the French, sent envoys
       demanding their surrender, wasted time, and did not do what he was ordered
       to do.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0131">Knight without fear and without reproach.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0131">* Knight without fear and without reproach.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-010041">
       “I give you that column, lads,” he said, riding up to the troops and
       pointing out the French to the cavalry.
@@ -65270,8 +65139,7 @@
       frightened of the name of Napoleon, and that by his blunders at Krásnoe
       and the Berëzina he deprived the Russian army of the glory of complete
       victory over the French. *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0132">History of the year 1812. The character of Kutúzov and reflections on the unsatisfactory results of the battles at Krásnoe, by Bogdánovich.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0132">* History of the year 1812. The character of Kutúzov and reflections on the unsatisfactory results of the battles at Krásnoe, by Bogdánovich.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-010047">
       Such is the fate not of great men (<ns0:hi rend="italic">grands hommes</ns0:hi>) whom the Russian mind
       does not acknowledge, but of those rare and always solitary individuals
@@ -66003,8 +65871,7 @@
             <ns0:p xml:id="eng-p-010172">
 <ns0:hi rend="italic">“Vive Henri Quatre! Vive ce roi valiant!”</ns0:hi> sang Morel,
       winking. <ns0:hi rend="italic">“Ce diable à quatre...”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0133">“Long live Henry the Fourth, that valiant king! That rowdy devil.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0133">* “Long live Henry the Fourth, that valiant king! That rowdy devil.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-010173">
       “Vivarika! Vif-seruvaru! Sedyablyaka!” repeated the soldier, flourishing
       his arm and really catching the tune.
@@ -66017,7 +65884,7 @@
     </ns0:p>
             <ns0:p xml:id="eng-p-010176">
       “Well, go on, go on!”
-     </ns0:p>
+     <ns0:note type="editorial" place="foot" xml:id="eng-note-0134">* Who had a triple talent For drinking, for fighting, And for being a gallant old boy...</ns0:note></ns0:p>
             <ns0:lg type="poem">
               <ns0:lg type="stanza">
                 <ns0:l>“Qui eut le triple talent,</ns0:l>
@@ -66025,7 +65892,6 @@
                 <ns0:l>Et d’être un vert galant.” *</ns0:l>
               </ns0:lg>
             </ns0:lg>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0134">Who had a triple talent For drinking, for fighting, And for being a gallant old boy...</ns0:note>
             <ns0:p xml:id="eng-p-010177">
       “It goes smoothly, too. Well, now, Zaletáev!”
      </ns0:p>
@@ -70322,8 +70188,7 @@
       that if you did not look after your estates yourself but only wanted a
       quiet life, the harsher your steward was the more readily your object
       might be attained,” he said to Nicholas.
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0135">Without faith or law.</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0135">* Without faith or law.</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-010825">
       “Well, what does that lead up to?” said Nicholas.
     </ns0:p>
@@ -70418,8 +70283,7 @@
       here is wotten and howwible, but the <ns0:hi rend="italic">Tugendbund</ns0:hi> I don’t understand.
       If we’re not satisfied, let us have a <ns0:hi rend="italic">bunt</ns0:hi> of our own.
       That’s all wight. <ns0:hi rend="italic">Je suis vot’e homme!”</ns0:hi> *
-    </ns0:p>
-            <ns0:note type="translation" place="foot" xml:id="eng-note-0136">“I’m your man.”</ns0:note>
+    <ns0:note type="editorial" place="foot" xml:id="eng-note-0136">* “I’m your man.”</ns0:note></ns0:p>
             <ns0:p xml:id="eng-p-010841">
       Pierre smiled, Natásha began to laugh, but Nicholas knitted his brows
       still more and began proving to Pierre that there was no prospect of any

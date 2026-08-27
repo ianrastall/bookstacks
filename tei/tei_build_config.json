@@ -415,7 +415,7 @@
     "id": "war-and-peace",
     "source_format": "gutenberg_epub",
     "sources": [
-      { "lang": "eng", "xml_lang": "en", "path": "../assets/war and peace_tolstoy, leo, graf.epub" }
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/war and peace_tolstoy, leo, graf.epub" }
     ]
   },
   {
@@ -440,7 +440,7 @@
     "id": "anna-karenina",
     "source_format": "gutenberg_epub",
     "sources": [
-      { "lang": "eng", "xml_lang": "en", "path": "../assets/anna karenina_tolstoy, leo, graf.epub" }
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/anna karenina_tolstoy, leo, graf.epub" }
     ]
   },
   {
@@ -450,6 +450,97 @@
     "milestone_type": "none",
     "sources": [
       { "lang": "rus", "path": "../assets/works/v32_003_445_Voskresenie.xml" }
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "Childhood, Boyhood, and Youth",
+    "combined_title": "Детство, Отрочество, Юность",
+    "id": "childhood-boyhood-youth",
+    "milestone_type": "none",
+    "combine": true,
+    "source_division_type": "part",
+    "source_titles": ["Детство", "Отрочество", "Юность"],
+    "sources": [
+      { "lang": "rus", "path": "../assets/works/v01_003_095_Detstvo.xml" },
+      { "lang": "rus", "path": "../assets/works/v02_003_075_Otrochestvo.xml" },
+      { "lang": "rus", "path": "../assets/works/v02_079_226_Junost.xml" }
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "Childhood, Boyhood, and Youth — Hogarth translation",
+    "combined_title": "Childhood, Boyhood, and Youth",
+    "id": "childhood-boyhood-youth",
+    "source_format": "gutenberg_epub_sequence",
+    "milestone_type": "none",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/pg2142-images-3.epub" },
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/pg2450-images-3.epub" },
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/pg2637-images-3.epub" }
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "The Cossacks",
+    "id": "cossacks",
+    "milestone_type": "none",
+    "sources": [
+      { "lang": "rus", "path": "../assets/works/v06_003_150_Kazaki_Kavkazskaja_povest.xml" }
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "The Cossacks — Maude translation",
+    "id": "cossacks",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/pg4761-images-3.epub" }
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "Novellas",
+    "combined_title": "Повести и рассказы",
+    "id": "novellas",
+    "milestone_type": "none",
+    "combine": true,
+    "source_division_type": "novella",
+    "source_division_types": [
+      "novella", "short-story", "novella", "novella", "novella",
+      "novella", "novella", "novella", "novella"
+    ],
+    "source_titles": [
+      "Семейное счастие",
+      "Бог правду видит, да не скоро скажет",
+      "Смерть Ивана Ильича",
+      "Крейцерова соната",
+      "Дьявол",
+      "Отец Сергий",
+      "Хозяин и работник",
+      "Хаджи-Мурат",
+      "Фальшивый купон"
+    ],
+    "sources": [
+      { "lang": "rus", "path": "../assets/works/v05_067_143_Semejnoe_schastie.xml" },
+      { "lang": "rus", "path": "../assets/works/v21_246_253_Bog_pravdu_vidit_da_ne_skoro_skazhet.xml" },
+      { "lang": "rus", "path": "../assets/works/v26_061_113_Smert_Ivana_Ilicha.xml" },
+      { "lang": "rus", "path": "../assets/works/v27_007_078_Krejtserova_sonata.xml" },
+      { "lang": "rus", "path": "../assets/works/v27_481_515_Djavol.xml" },
+      { "lang": "rus", "path": "../assets/works/v31_005_046_Otets_Sergij.xml" },
+      { "lang": "rus", "path": "../assets/works/v29_003_046_Hozjain_i_rabotnik.xml" },
+      { "lang": "rus", "path": "../assets/works/v35_005_118_Hadzhi_Murat.xml" },
+      { "lang": "rus", "path": "../assets/works/v36_005_053_Falshivyj_kupon.xml" }
+    ]
+  },
+  {
+    "author": "Tolstoy",
+    "title": "Novellas — various public-domain translations",
+    "id": "novellas",
+    "source_format": "tolstoy_standard_ebooks_collection",
+    "sources": [
+      { "path": "../assets/standardebooks/leo-tolstoy_short-fiction_various-translators" },
+      { "path": "../assets/standardebooks/leo-tolstoy_hadji-murad_aylmer-maude" }
     ]
   },
   {

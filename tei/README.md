@@ -115,6 +115,18 @@ Existing cached HTML is reused. Pass `--refresh` to download it again, or
   Gutenberg header, contents, and license boilerplate are omitted. Each
   translation retains its own book/part and chapter hierarchy, paragraphs,
   translator notes, poetry, and inline emphasis where present.
+- Tolstoy's *Childhood, Boyhood, and Youth* is compiled from three Tolstoy
+  Digital Russian TEI works and three independent C. J. Hogarth Project
+  Gutenberg translations (ebooks 2142, 2450, and 2637). *The Cossacks* pairs
+  the Tolstoy Digital Russian TEI with the Maudes' Project Gutenberg
+  translation (ebook 4761).
+- The bilingual Tolstoy *Novellas* volume contains *Family Happiness*, “God
+  Sees the Truth, But Waits,” *The Death of Ivan Ilyitch*, *The Kreutzer
+  Sonata*, *The Devil*, *Father Sergius*, *Master and Man*, *Hadji Murad*, and
+  *The Forged Coupon*. Russian works come from Tolstoy Digital. English texts
+  are selected from the Standard Ebooks *Short Fiction* and *Hadji Murad*
+  repositories; each work remains a separate internal division, with its
+  chapters, epigraphs, inline typography, and referenced endnotes retained.
 - The Dickens editions are independently generated from Project Gutenberg
   EPUBs 98 (*A Tale of Two Cities*), 1023 (*Bleak House*), 766 (*David
   Copperfield*), 967 (*Nicholas Nickleby*), 730 (*Oliver Twist*), 917

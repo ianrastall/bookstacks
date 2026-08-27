@@ -20,6 +20,38 @@ DC = "http://purl.org/dc/elements/1.1/"
 NS = {"opf": OPF, "dc": DC, "x": XHTML}
 
 SUPPORTED_TEXTS = {
+    "2142": {
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 28,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^(?:CHAPTER\s+)?[IVXLCDM]+(?:\.|\s+—)",
+        "fronts": 0,
+        "work_head": True,
+    },
+    "2450": {
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 27,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^(?:CHAPTER\s+)?[IVXLCDM]+(?:\.|\s+—)",
+        "fronts": 0,
+        "work_head": True,
+    },
+    "2637": {
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 45,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^(?:CHAPTER\s+)?[IVXLCDM]+(?:\.|\s+—)",
+        "fronts": 0,
+        "work_head": True,
+    },
+    "4761": {
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 42,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^(?:CHAPTER\s+)?[IVXLCDM]+\.?$",
+        "fronts": 0,
+        "work_head": True,
+    },
     "2554": {
         "groups": {"book": 0, "part": 6, "epilogue": 1},
         "chapters": 41,
@@ -661,6 +693,10 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
     body = tei("body")
     work_type = "translation" if metadata["translators"] else "edition"
     work = tei("div", type=work_type, xml_id=f"{text_id}-eng-text")
+    if profile.get("work_head"):
+        work_head = tei("head")
+        work_head.text = metadata["title"]
+        work.append(work_head)
     body.append(work)
     text.append(body)
     back = tei("back") if profile.get("backs", 0) else None

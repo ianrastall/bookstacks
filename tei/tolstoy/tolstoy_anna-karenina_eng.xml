@@ -21,7 +21,7 @@
       </ns0:editionStmt>
       <ns0:publicationStmt>
         <ns0:publisher>Bookstacks project</ns0:publisher>
-        <ns0:date when="2026-08-21">21 August 2026</ns0:date>
+        <ns0:date when="2026-08-27">27 August 2026</ns0:date>
         <ns0:idno type="local">tolstoy_anna-karenina</ns0:idno>
         <ns0:availability status="free">
           <ns0:p>Public domain in the USA.</ns0:p>
@@ -41,7 +41,7 @@
     </ns0:fileDesc>
     <ns0:encodingDesc>
       <ns0:projectDesc>
-        <ns0:p>Converted from the Project Gutenberg XHTML spine. Gutenberg header, contents, and license boilerplate are omitted. Source book, part, epilogue, preface, chapter, paragraph, poetry, emphasis, and footnote structures are retained where present.</ns0:p>
+        <ns0:p>Converted from the Project Gutenberg XHTML spine. Gutenberg header, contents, and license boilerplate are omitted. Source book, part, epilogue, preface, chapter, subchapter section, paragraph, poetry, letter, emphasis, and footnote structures are retained where present.</ns0:p>
       </ns0:projectDesc>
     </ns0:encodingDesc>
     <ns0:profileDesc>
@@ -50,7 +50,7 @@
       </ns0:langUsage>
     </ns0:profileDesc>
     <ns0:revisionDesc>
-      <ns0:change when="2026-08-21" who="#bookstacks-encoding">Converted the Project Gutenberg EPUB XHTML to standalone TEI P5.</ns0:change>
+      <ns0:change when="2026-08-27" who="#bookstacks-encoding">Converted the Project Gutenberg EPUB XHTML to standalone TEI P5.</ns0:change>
     </ns0:revisionDesc>
   </ns0:teiHeader>
   <ns0:text xml:lang="en">
@@ -7482,7 +7482,7 @@ distinctly from the rush of disappointment that she had been deceiving herself,
 and that this pursuit was not merely not distasteful to her, but that it made
 the whole interest of her life.
 </ns0:p>
-            <ns0:p xml:id="eng-p-001246">
+            <ns0:p xml:id="eng-p-001246" rend="p2">
 The celebrated singer was singing for the second time, and all the fashionable
 world was in the theater. Vronsky, seeing his cousin from his stall in the
 front row, did not wait till the <ns0:hi rend="italic">entr’acte</ns0:hi>, but went to her box.
@@ -9655,7 +9655,7 @@ at the very heads of the sportsmen. There was the report of four shots, and
 like swallows the snipe turned swift somersaults in the air and vanished from
 sight.
 </ns0:p>
-            <ns0:p xml:id="eng-p-001616">
+            <ns0:p xml:id="eng-p-001616" rend="p2">
 The stand-shooting was capital. Stepan Arkadyevitch shot two more birds and
 Levin two, of which one was not found. It began to get dark. Venus, bright and
 silvery, shone with her soft light low down in the west behind the birch trees,
@@ -39661,7 +39661,7 @@ conversation with her, and recalling the minutest changes in her expression,
 entering more and more into her position, and feeling sympathy for her, Levin
 reached home.
 </ns0:p>
-            <ns0:p xml:id="eng-p-006392">
+            <ns0:p xml:id="eng-p-006392" rend="p2">
 At home Kouzma told Levin that Katerina Alexandrovna was quite well, and that
 her sisters had not long been gone, and he handed him two letters. Levin read
 them at once in the hall, that he might not overlook them later. One was from
