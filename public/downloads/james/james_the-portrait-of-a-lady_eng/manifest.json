@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "james-the-portrait-of-a-lady",
+  "work_id": "james:the-portrait-of-a-lady",
+  "title": "The Portrait of a Lady",
+  "author": "Henry James (1843-1916)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/james/the-portrait-of-a-lady",
+  "source_tei": "james_the-portrait-of-a-lady_eng.xml",
+  "generator_fingerprint": "d7d03665b9d8f417dd448df9f64a3441252090d78fecc2e5c93e4bcbd6de6ea3",
+  "validations": {
+    "pdf": {
+      "pages": 520,
+      "outline_items": 3
+    }
+  },
+  "files": [
+    {
+      "name": "james_the-portrait-of-a-lady_eng.pdf",
+      "bytes": 1659414,
+      "sha256": "9a63fd2f22004745c61ae73a6ca0931a3bcc895170afd8b79eb4fdb8afbebc45"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_letters",
+  "work_id": "plato:letters",
+  "title": "Ἐπιστολαί",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/letters",
+  "source_tei": "plato_letters_grc.xml",
+  "generator_fingerprint": "a6e7951b9cea9e3b7793358c1340203386cda6a3ba6b67e50078153181c46079",
+  "validations": {
+    "pdf": {
+      "pages": 54,
+      "outline_items": 13
+    }
+  },
+  "files": [
+    {
+      "name": "plato_letters_grc.pdf",
+      "bytes": 191111,
+      "sha256": "98a2b9594c7c737983797e7741d69d620caeff5cc6db5b0b5f91e944f3d1131a"
+    }
+  ]
+}

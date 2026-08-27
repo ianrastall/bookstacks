@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "tolstoy_novellas",
+  "work_id": "tolstoy:novellas",
+  "title": "Повести и рассказы",
+  "author": "Leo Tolstoy (1828-1910)",
+  "language": "ru",
+  "canonical_url": "https://bookstacks.org/ru/authors/tolstoy/novellas",
+  "source_tei": "tolstoy_novellas_rus.xml",
+  "generator_fingerprint": "b2e2ca1ac1e14b38903483579fb69d5a10b937830f980ab6b7442a6f913d2589",
+  "validations": {
+    "pdf": {
+      "pages": 484,
+      "outline_items": 9
+    }
+  },
+  "files": [
+    {
+      "name": "tolstoy_novellas_rus.pdf",
+      "bytes": 1423185,
+      "sha256": "4997da39f6c4392edabd0591d16bd754955e61f9d4f236202aa7ea1d2b3fd685"
+    }
+  ]
+}

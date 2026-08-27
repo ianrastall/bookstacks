@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-king-john",
+  "work_id": "shakespeare:king-john",
+  "title": "King John",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/shakespeare/king-john",
+  "source_tei": "shakespeare_king-john_eng.xml",
+  "generator_fingerprint": "5e2583d4d8dbc61d62ae37ad45df1e8ccb024cb21b158620164786cb6372bd9c",
+  "validations": {
+    "pdf": {
+      "pages": 127,
+      "outline_items": 6
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_king-john_eng.pdf",
+      "bytes": 321179,
+      "sha256": "182921c942b947019fd7fd4613fed6a92c2a5c810ae44393b70cf54a298cafc8"
+    }
+  ]
+}

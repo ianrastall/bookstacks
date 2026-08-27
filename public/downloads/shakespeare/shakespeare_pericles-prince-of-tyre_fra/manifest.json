@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-pericles-prince-of-tyre-fra",
+  "work_id": "shakespeare:pericles-prince-of-tyre",
+  "title": "Périclès / Tragédie",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/pericles-prince-of-tyre",
+  "source_tei": "shakespeare_pericles-prince-of-tyre_fra.xml",
+  "generator_fingerprint": "30353732e62e3d01b9b985c4628dc742808ca0b29ecea81ab9de5ae38c662f02",
+  "validations": {
+    "pdf": {
+      "pages": 102,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_pericles-prince-of-tyre_fra.pdf",
+      "bytes": 237174,
+      "sha256": "e51895ef05742cee9138ce58a141c318462e57686263d5ed741bef678f7a5d0e"
+    }
+  ]
+}

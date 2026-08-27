@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_gorgias",
+  "work_id": "plato:gorgias",
+  "title": "Γοργίας",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/gorgias",
+  "source_tei": "plato_gorgias_grc.xml",
+  "generator_fingerprint": "4979602a59bd9785240809ac73474a2952a34d7e23c80fdc286d7c89489c64f5",
+  "validations": {
+    "pdf": {
+      "pages": 78,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_gorgias_grc.pdf",
+      "bytes": 259585,
+      "sha256": "5ada72c36e571a1932085c98190c6f11bc5dfc00db46e9c383c4d45e5d8b4138"
+    }
+  ]
+}

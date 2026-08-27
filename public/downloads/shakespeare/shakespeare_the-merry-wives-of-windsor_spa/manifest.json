@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-merry-wives-of-windsor-spa",
+  "work_id": "shakespeare:the-merry-wives-of-windsor",
+  "title": "Las alegres comadres de Windsor",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "es",
+  "canonical_url": "https://bookstacks.org/es/authors/shakespeare/the-merry-wives-of-windsor",
+  "source_tei": "shakespeare_the-merry-wives-of-windsor_spa.xml",
+  "generator_fingerprint": "9e133cac3f3c69c08a06bea64b4b45b419a5ce5dcc472d77ee1c72a6ebc12494",
+  "validations": {
+    "pdf": {
+      "pages": 137,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-merry-wives-of-windsor_spa.pdf",
+      "bytes": 280674,
+      "sha256": "9f71edc873cdcb3b6919eb3e73a080c797e4d31c3c6e896b1bc97c36763303e7"
+    }
+  ]
+}

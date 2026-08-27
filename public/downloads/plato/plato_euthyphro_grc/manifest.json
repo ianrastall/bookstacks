@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_euthyphro",
+  "work_id": "plato:euthyphro",
+  "title": "Εὐθύφρων",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/euthyphro",
+  "source_tei": "plato_euthyphro_grc.xml",
+  "generator_fingerprint": "9a1945732011464fc4792d00e20986a8599c5a1d25a1b23210937e06af936cb5",
+  "validations": {
+    "pdf": {
+      "pages": 20,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_euthyphro_grc.pdf",
+      "bytes": 81135,
+      "sha256": "2a9d4b366daace0669b32f8c234ef429877e8d9c816b87ad110f0a1a9f96c220"
+    }
+  ]
+}

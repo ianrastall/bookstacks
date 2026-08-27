@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "dostoevsky_the-adolescent",
+  "work_id": "dostoevsky:the-adolescent",
+  "title": "Подросток",
+  "author": "Fyodor Dostoevsky (1821-1881)",
+  "language": "ru",
+  "canonical_url": "https://bookstacks.org/ru/authors/dostoevsky/the-adolescent",
+  "source_tei": "dostoevsky_the-adolescent_rus.xml",
+  "generator_fingerprint": "1d29a60681a4974f0dcc6fbe6c00d42592d8b1cddd7c197990e4a7759bf155dc",
+  "validations": {
+    "pdf": {
+      "pages": 518,
+      "outline_items": 4
+    }
+  },
+  "files": [
+    {
+      "name": "dostoevsky_the-adolescent_rus.pdf",
+      "bytes": 1585830,
+      "sha256": "a5d8c6197337971c58078bf817d050525548393c0fd9adef330b1f0bd6eee446"
+    }
+  ]
+}

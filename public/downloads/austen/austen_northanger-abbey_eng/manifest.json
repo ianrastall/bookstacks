@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "austen_northanger-abbey",
+  "work_id": "austen:northanger-abbey",
+  "title": "Northanger Abbey",
+  "author": "Jane Austen (1775-1817)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/austen/northanger-abbey",
+  "source_tei": "austen_northanger-abbey_eng.xml",
+  "generator_fingerprint": "44ff7041e770aa5b2701b5f76e6a9e925a57f02c03065b72a36ad39402bcf8f7",
+  "validations": {
+    "pdf": {
+      "pages": 196,
+      "outline_items": 32
+    }
+  },
+  "files": [
+    {
+      "name": "austen_northanger-abbey_eng.pdf",
+      "bytes": 590959,
+      "sha256": "b17c59294ef724f05396060257c9f459ac4e5f132a97063d80312f0f165db00d"
+    }
+  ]
+}

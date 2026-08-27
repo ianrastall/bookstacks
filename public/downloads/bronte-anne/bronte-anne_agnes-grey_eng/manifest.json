@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "bronte-anne-agnes-grey",
+  "work_id": "bronte-anne:agnes-grey",
+  "title": "Agnes Grey",
+  "author": "Anne Brontë (1820-1849)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/bronte-anne/agnes-grey",
+  "source_tei": "bronte-anne_agnes-grey_eng.xml",
+  "generator_fingerprint": "c7cad71f823a4d4f5266a15bc451f442039c65cffb03061647b2c490a630d458",
+  "validations": {
+    "pdf": {
+      "pages": 169,
+      "outline_items": 25
+    }
+  },
+  "files": [
+    {
+      "name": "bronte-anne_agnes-grey_eng.pdf",
+      "bytes": 534099,
+      "sha256": "0066636293b3daad1c700229ee5fa41bf9143114ca8f12cbd041b67377a1a090"
+    }
+  ]
+}

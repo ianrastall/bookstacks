@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_apology",
+  "work_id": "plato:apology",
+  "title": "Apology",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/plato/apology",
+  "source_tei": "plato_apology_eng.xml",
+  "generator_fingerprint": "6d3907b0e2c98c90e83f7d8b01712b922e1e3de30c45d7ce458dc7e9c93b5d60",
+  "validations": {
+    "pdf": {
+      "pages": 28,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_apology_eng.pdf",
+      "bytes": 102429,
+      "sha256": "4d890abba403d1322be8de8918a6541f3e165ef1383288730f61d827ddc5d60f"
+    }
+  ]
+}

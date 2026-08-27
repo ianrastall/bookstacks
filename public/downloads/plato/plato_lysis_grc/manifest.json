@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_lysis",
+  "work_id": "plato:lysis",
+  "title": "Λύσις",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/lysis",
+  "source_tei": "plato_lysis_grc.xml",
+  "generator_fingerprint": "6c1f6c4a1076cda03bfb90ee65eb874d0dde7a8f79f33416ac215236102b1630",
+  "validations": {
+    "pdf": {
+      "pages": 20,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_lysis_grc.pdf",
+      "bytes": 91159,
+      "sha256": "ba1e4d850645ffc8f9db89d758e62f9c4aa3d931541a03d7dfdee898246e7053"
+    }
+  ]
+}

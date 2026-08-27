@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_philebus",
+  "work_id": "plato:philebus",
+  "title": "Philebus",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/plato/philebus",
+  "source_tei": "plato_philebus_eng.xml",
+  "generator_fingerprint": "85c6c3e3ad93137a2e2f78590620e3412c40cd292b64cc124275785b6b06e4c6",
+  "validations": {
+    "pdf": {
+      "pages": 68,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_philebus_eng.pdf",
+      "bytes": 192378,
+      "sha256": "3041d374021b33bfc8d66cdac3a346ef0d39f152cc59acba6cf959a218eee167"
+    }
+  ]
+}

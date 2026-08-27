@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-taming-of-the-shrew-fra",
+  "work_id": "shakespeare:the-taming-of-the-shrew",
+  "title": "La méchante femme mise à la raison / Comédie",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/the-taming-of-the-shrew",
+  "source_tei": "shakespeare_the-taming-of-the-shrew_fra.xml",
+  "generator_fingerprint": "1bea9b0e87fec8d12c915a2d9d174bc153e247a63e126f47a4f797abfc13e926",
+  "validations": {
+    "pdf": {
+      "pages": 133,
+      "outline_items": 9
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-taming-of-the-shrew_fra.pdf",
+      "bytes": 307305,
+      "sha256": "e66bf0a1757ad694106f916a1bfc94f523e111c2cae797030a64f2e240383cd4"
+    }
+  ]
+}

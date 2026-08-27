@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_critias",
+  "work_id": "plato:critias",
+  "title": "Κριτίας",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/critias",
+  "source_tei": "plato_critias_grc.xml",
+  "generator_fingerprint": "154150b1cdb5cc3d58a743bc0f8239d385c11bfc7b277bffbb3ffec0fa7331d8",
+  "validations": {
+    "pdf": {
+      "pages": 17,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_critias_grc.pdf",
+      "bytes": 78375,
+      "sha256": "4ce0d7497d7e03aece4e9941ad2737c2af7103b2e0c8a36546a8a8deaa8d0e02"
+    }
+  ]
+}

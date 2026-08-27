@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-othello-fra",
+  "work_id": "shakespeare:othello",
+  "title": "Othello",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/othello",
+  "source_tei": "shakespeare_othello_fra.xml",
+  "generator_fingerprint": "05fffc4c37f4f32b1f896100f356bbdf22762eaaba7bb4557571eb0d674e586c",
+  "validations": {
+    "pdf": {
+      "pages": 168,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_othello_fra.pdf",
+      "bytes": 371155,
+      "sha256": "90248c2089e7d260883f2456564af743fc68b3552da69bdeaba42b276d6e3967"
+    }
+  ]
+}

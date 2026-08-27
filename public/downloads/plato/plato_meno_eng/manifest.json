@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_meno",
+  "work_id": "plato:meno",
+  "title": "Meno",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/plato/meno",
+  "source_tei": "plato_meno_eng.xml",
+  "generator_fingerprint": "c42caa896dd47f72c55cc6ccbb4b7db0f95c47cc045a13e581e3a897fef2e4cb",
+  "validations": {
+    "pdf": {
+      "pages": 53,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_meno_eng.pdf",
+      "bytes": 136638,
+      "sha256": "b75c303738ab0a0d78d9df8dcdb6619bc33f5f2072a3752e3a1c9f5dff872c4a"
+    }
+  ]
+}

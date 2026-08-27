@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-comedy-of-errors-fra",
+  "work_id": "shakespeare:the-comedy-of-errors",
+  "title": "La Comédie des Méprises",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/the-comedy-of-errors",
+  "source_tei": "shakespeare_the-comedy-of-errors_fra.xml",
+  "generator_fingerprint": "a7cbae51722b487070217ab876afc62360d7185479ed80ac2980201000af3606",
+  "validations": {
+    "pdf": {
+      "pages": 98,
+      "outline_items": 8
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-comedy-of-errors_fra.pdf",
+      "bytes": 220997,
+      "sha256": "602da33a1f5bef06ad018a3bfe81517d5f74180034d114095400ca7c2406b7d8"
+    }
+  ]
+}

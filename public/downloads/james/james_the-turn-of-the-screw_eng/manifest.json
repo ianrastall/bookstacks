@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "james-the-turn-of-the-screw",
+  "work_id": "james:the-turn-of-the-screw",
+  "title": "The Turn of the Screw",
+  "author": "Henry James (1843-1916)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/james/the-turn-of-the-screw",
+  "source_tei": "james_the-turn-of-the-screw_eng.xml",
+  "generator_fingerprint": "61b6e8f461041cf750f824ac40dad7c20c8c86873febf5489cd94a74ab4f4da2",
+  "validations": {
+    "pdf": {
+      "pages": 115,
+      "outline_items": 25
+    }
+  },
+  "files": [
+    {
+      "name": "james_the-turn-of-the-screw_eng.pdf",
+      "bytes": 340951,
+      "sha256": "c6407899d5ad106003372849344dc9e0a9f1b6bc0f715d20063fa25e43908883"
+    }
+  ]
+}

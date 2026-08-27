@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-king-richard-ii",
+  "work_id": "shakespeare:king-richard-ii",
+  "title": "King Richard II",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/shakespeare/king-richard-ii",
+  "source_tei": "shakespeare_king-richard-ii_eng.xml",
+  "generator_fingerprint": "ce48e74bc71af5927d8507502460fb02741e2c760f17ed5f074f21eacc3a0bfd",
+  "validations": {
+    "pdf": {
+      "pages": 132,
+      "outline_items": 6
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_king-richard-ii_eng.pdf",
+      "bytes": 338544,
+      "sha256": "ff9f822970a79165561c3f5dd7c09fea879f22fa778dac173114c7f051bb264d"
+    }
+  ]
+}

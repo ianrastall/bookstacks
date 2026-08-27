@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "turgenev-fathers-and-children",
+  "work_id": "turgenev:fathers-and-children",
+  "title": "Fathers and Children",
+  "author": "Ivan Turgenev (1818-1883)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/turgenev/fathers-and-children",
+  "source_tei": "turgenev_fathers-and-children_eng.xml",
+  "generator_fingerprint": "0432df991c5e19704d5a2721604ae6551a873c1910d872b048d03531694032dc",
+  "validations": {
+    "pdf": {
+      "pages": 192,
+      "outline_items": 28
+    }
+  },
+  "files": [
+    {
+      "name": "turgenev_fathers-and-children_eng.pdf",
+      "bytes": 572009,
+      "sha256": "cf15734325a15c46549c3b9e08ea397a1825231768a89985e9f6830db1b42ca2"
+    }
+  ]
+}

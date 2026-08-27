@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "chesterton-g-k-orthodoxy",
+  "work_id": "chesterton-g-k:orthodoxy",
+  "title": "Orthodoxy",
+  "author": "G. K. Chesterton (1874-1936)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/chesterton-g-k/orthodoxy",
+  "source_tei": "chesterton-g-k_orthodoxy_eng.xml",
+  "generator_fingerprint": "1ce1852c985d1c9cf337140c6b919ebe2dad15205e1984c05e0cb13f14bc9d33",
+  "validations": {
+    "pdf": {
+      "pages": 142,
+      "outline_items": 12
+    }
+  },
+  "files": [
+    {
+      "name": "chesterton-g-k_orthodoxy_eng.pdf",
+      "bytes": 472546,
+      "sha256": "03647324e747e0dbd28bea0f8434ce476317dadd50a064f9f984796f5119ef12"
+    }
+  ]
+}

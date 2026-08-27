@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_timaeus",
+  "work_id": "plato:timaeus",
+  "title": "Τίμαιος",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/timaeus",
+  "source_tei": "plato_timaeus_grc.xml",
+  "generator_fingerprint": "a7f14e81e10d845739e501f19a50ba693ec8f45582f81a10ee44fdf1c48d4ca6",
+  "validations": {
+    "pdf": {
+      "pages": 59,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_timaeus_grc.pdf",
+      "bytes": 232248,
+      "sha256": "04d12004a9e5936e61638526d5141b00003ad57ab1b5f84f54a91bf1eda59cc4"
+    }
+  ]
+}

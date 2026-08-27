@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "bronte-charlotte-villette",
+  "work_id": "bronte-charlotte:villette",
+  "title": "Villette",
+  "author": "Charlotte Brontë (1816-1855)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/bronte-charlotte/villette",
+  "source_tei": "bronte-charlotte_villette_eng.xml",
+  "generator_fingerprint": "c51bd57b58cc4a9310705dda7c94f998c8bfadc85f183e86dbe7d361d38b4b3e",
+  "validations": {
+    "pdf": {
+      "pages": 469,
+      "outline_items": 43
+    }
+  },
+  "files": [
+    {
+      "name": "bronte-charlotte_villette_eng.pdf",
+      "bytes": 1493752,
+      "sha256": "db45cd1f88262ed1d69ff514dcf81d9850cbd3841ffd0f1555631663c991277b"
+    }
+  ]
+}

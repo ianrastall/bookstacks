@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "turgenev-on-the-eve",
+  "work_id": "turgenev:on-the-eve",
+  "title": "Накануне",
+  "author": "Ivan Turgenev (1818-1883)",
+  "language": "ru",
+  "canonical_url": "https://bookstacks.org/ru/authors/turgenev/on-the-eve",
+  "source_tei": "turgenev_on-the-eve_rus.xml",
+  "generator_fingerprint": "b28c7ea4a25e6fc00317db4803809c656c6cb3467c3281c94932e6024a733d8f",
+  "validations": {
+    "pdf": {
+      "pages": 162,
+      "outline_items": 35
+    }
+  },
+  "files": [
+    {
+      "name": "turgenev_on-the-eve_rus.pdf",
+      "bytes": 449093,
+      "sha256": "1aca090349e24165b31d3953e343f3b3f915448fd919ff3824e14ca64c8b0ed7"
+    }
+  ]
+}

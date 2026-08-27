@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-othello-spa",
+  "work_id": "shakespeare:othello",
+  "title": "Otelo",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "es",
+  "canonical_url": "https://bookstacks.org/es/authors/shakespeare/othello",
+  "source_tei": "shakespeare_othello_spa.xml",
+  "generator_fingerprint": "739bb83894ff935d49c1a71153fb447a7d7a71bb9e8974b27f021b6f4febd720",
+  "validations": {
+    "pdf": {
+      "pages": 145,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_othello_spa.pdf",
+      "bytes": 278129,
+      "sha256": "40f9958cad0d7da315e7372cb04149a2f7722fa79386026dc63cd2bd734f4d5b"
+    }
+  ]
+}

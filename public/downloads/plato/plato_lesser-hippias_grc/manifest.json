@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_lesser-hippias",
+  "work_id": "plato:lesser-hippias",
+  "title": "Ἱππίας ἐλάττων",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/lesser-hippias",
+  "source_tei": "plato_lesser-hippias_grc.xml",
+  "generator_fingerprint": "b3258044fda953b41cc5541af78bca136dea9a7801baa0d5ee52b2ca9f822474",
+  "validations": {
+    "pdf": {
+      "pages": 18,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_lesser-hippias_grc.pdf",
+      "bytes": 76134,
+      "sha256": "6d68df1e49910128b6e0bde3850f5b2bf7970387c984a36f9f51bfb789c4513f"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_laches",
+  "work_id": "plato:laches",
+  "title": "Laches",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/plato/laches",
+  "source_tei": "plato_laches_eng.xml",
+  "generator_fingerprint": "faad5b343d574a79b06b25d3232512e5fda84a47aeec33acce6c9764055814c9",
+  "validations": {
+    "pdf": {
+      "pages": 37,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_laches_eng.pdf",
+      "bytes": 115553,
+      "sha256": "696d27de0c531616062d5379211568b2a05b7ea3256e6c313ba20a26bc4b6bbf"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_lysis",
+  "work_id": "plato:lysis",
+  "title": "Lysis",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/plato/lysis",
+  "source_tei": "plato_lysis_eng.xml",
+  "generator_fingerprint": "dc82bc1604c981cf9bfb36dc4dc530d0496b78e54b80ed201bc010e099effc8f",
+  "validations": {
+    "pdf": {
+      "pages": 25,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_lysis_eng.pdf",
+      "bytes": 98942,
+      "sha256": "112185ddd41b27bb0122ac6c7395f96931bd0b3c100147a3c2c0cc954cb8a360"
+    }
+  ]
+}

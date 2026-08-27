@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-macbeth",
+  "work_id": "shakespeare:macbeth",
+  "title": "Macbeth",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/shakespeare/macbeth",
+  "source_tei": "shakespeare_macbeth_eng.xml",
+  "generator_fingerprint": "99f659a99632bc0d4e28293418114eb69f09a96b76a311f5bd62863ab2b3684e",
+  "validations": {
+    "pdf": {
+      "pages": 128,
+      "outline_items": 6
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_macbeth_eng.pdf",
+      "bytes": 297972,
+      "sha256": "9626a1af68b5ed92e6cd15de607493fb190aac677bc35f187bc99db0d9fd2a46"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "bronte-charlotte-jane-eyre-an-autobiography",
+  "work_id": "bronte-charlotte:jane-eyre-an-autobiography",
+  "title": "Jane Eyre: An Autobiography",
+  "author": "Charlotte Brontë (1816-1855)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/bronte-charlotte/jane-eyre-an-autobiography",
+  "source_tei": "bronte-charlotte_jane-eyre-an-autobiography_eng.xml",
+  "generator_fingerprint": "6fd011d3c70b98ae9707f2a2e70b6d57f06ebbb1b4033f68d478ab0010233431",
+  "validations": {
+    "pdf": {
+      "pages": 450,
+      "outline_items": 40
+    }
+  },
+  "files": [
+    {
+      "name": "bronte-charlotte_jane-eyre-an-autobiography_eng.pdf",
+      "bytes": 1384056,
+      "sha256": "cf71394613b5d70ab803d21ddb96772611a7e6988219e9ade744e549a0915b64"
+    }
+  ]
+}

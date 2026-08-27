@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "turgenev-virgin-soil",
+  "work_id": "turgenev:virgin-soil",
+  "title": "Virgin Soil",
+  "author": "Ivan Turgenev (1818-1883)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/turgenev/virgin-soil",
+  "source_tei": "turgenev_virgin-soil_eng.xml",
+  "generator_fingerprint": "94a0457f5251f30612459b884707d39ab65e2ab81f40219bb41ef3aaa7853b63",
+  "validations": {
+    "pdf": {
+      "pages": 263,
+      "outline_items": 39
+    }
+  },
+  "files": [
+    {
+      "name": "turgenev_virgin-soil_eng.pdf",
+      "bytes": 757518,
+      "sha256": "bc72ebd2d3a5bcdc3fe9a0eebd78d65257efa5d718b2b4110274e312c400f633"
+    }
+  ]
+}

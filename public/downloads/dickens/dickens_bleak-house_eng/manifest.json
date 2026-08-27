@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "dickens_bleak-house",
+  "work_id": "dickens:bleak-house",
+  "title": "Bleak House",
+  "author": "Charles Dickens (1812-1870)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/dickens/bleak-house",
+  "source_tei": "dickens_bleak-house_eng.xml",
+  "generator_fingerprint": "5df24ec1d7a320189972f03494e78e5bb7a6aa9ef164d31995033241617b03d9",
+  "validations": {
+    "pdf": {
+      "pages": 831,
+      "outline_items": 68
+    }
+  },
+  "files": [
+    {
+      "name": "dickens_bleak-house_eng.pdf",
+      "bytes": 2528202,
+      "sha256": "1fef5ff33cd06ab58e39cbfd78209d7625d3c154dc0e26f042b3051f4299ca77"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "turgenev-first-love",
+  "work_id": "turgenev:first-love",
+  "title": "Первая любовь",
+  "author": "Ivan Turgenev (1818-1883)",
+  "language": "ru",
+  "canonical_url": "https://bookstacks.org/ru/authors/turgenev/first-love",
+  "source_tei": "turgenev_first-love_rus.xml",
+  "generator_fingerprint": "b0ee9ee1b9b10a71964f76dbbd0127e98d516bfc0ec44ebfea2a45111a8a61c5",
+  "validations": {
+    "pdf": {
+      "pages": 75,
+      "outline_items": 23
+    }
+  },
+  "files": [
+    {
+      "name": "turgenev_first-love_rus.pdf",
+      "bytes": 210358,
+      "sha256": "bbe0a3684d7e3607e5d1780c036ed8bc2db0e873f1cd9dcfc2897d892cad9754"
+    }
+  ]
+}

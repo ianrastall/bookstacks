@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "bronte-emily-wuthering-heights",
+  "work_id": "bronte-emily:wuthering-heights",
+  "title": "Wuthering Heights",
+  "author": "Emily Brontë (1818-1848)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/bronte-emily/wuthering-heights",
+  "source_tei": "bronte-emily_wuthering-heights_eng.xml",
+  "generator_fingerprint": "8b4b7e10f4221b8164b2ecec980c22844cd758b12f379e5c27fa6a153cc78e8e",
+  "validations": {
+    "pdf": {
+      "pages": 281,
+      "outline_items": 34
+    }
+  },
+  "files": [
+    {
+      "name": "bronte-emily_wuthering-heights_eng.pdf",
+      "bytes": 892426,
+      "sha256": "4befcfbcff2a175d7ccb66312fdd28c375bc896e949e40af5fbf95b880807cba"
+    }
+  ]
+}

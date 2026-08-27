@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "eliot_middlemarch",
+  "work_id": "eliot:middlemarch",
+  "title": "Middlemarch",
+  "author": "George Eliot (1819-1880)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/eliot/middlemarch",
+  "source_tei": "eliot_middlemarch_eng.xml",
+  "generator_fingerprint": "9f1d4b9f5951e07b4241b72343487c7ddc86173a2daa566f8da1e05c2721e9ad",
+  "validations": {
+    "pdf": {
+      "pages": 708,
+      "outline_items": 11
+    }
+  },
+  "files": [
+    {
+      "name": "eliot_middlemarch_eng.pdf",
+      "bytes": 2286467,
+      "sha256": "22054d1a0f2703889df67a80c7d245301c606c619fc13afcfaedde449073ca34"
+    }
+  ]
+}

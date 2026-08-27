@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-comedy-of-errors-spa",
+  "work_id": "shakespeare:the-comedy-of-errors",
+  "title": "Comedia de equivocaciones",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "es",
+  "canonical_url": "https://bookstacks.org/es/authors/shakespeare/the-comedy-of-errors",
+  "source_tei": "shakespeare_the-comedy-of-errors_spa.xml",
+  "generator_fingerprint": "5ae33a5453d11d2d92d3aedde0678a676942bada30f4f9a8649585db055289c2",
+  "validations": {
+    "pdf": {
+      "pages": 88,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-comedy-of-errors_spa.pdf",
+      "bytes": 195265,
+      "sha256": "65edd9cb7dcf02451153e31be5b265dc9e5ee42d3e3fed09061622e53901fd32"
+    }
+  ]
+}

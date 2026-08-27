@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-as-you-like-it-spa",
+  "work_id": "shakespeare:as-you-like-it",
+  "title": "Como gustéis",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "es",
+  "canonical_url": "https://bookstacks.org/es/authors/shakespeare/as-you-like-it",
+  "source_tei": "shakespeare_as-you-like-it_spa.xml",
+  "generator_fingerprint": "21aff2d51969e06bd72a2019794b14dbde9d45396896eb8cbdc70275c99526ae",
+  "validations": {
+    "pdf": {
+      "pages": 121,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_as-you-like-it_spa.pdf",
+      "bytes": 260390,
+      "sha256": "f2c98ad5966b79730c5c685f2e9728634bd39abd028957d11bfa5725d4ad872d"
+    }
+  ]
+}

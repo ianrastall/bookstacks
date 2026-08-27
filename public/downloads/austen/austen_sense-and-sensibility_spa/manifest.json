@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "austen-sense-and-sensibility-spa",
+  "work_id": "austen:sense-and-sensibility",
+  "title": "Sentido y sensibilidad",
+  "author": "Jane Austen (1775-1817)",
+  "language": "es",
+  "canonical_url": "https://bookstacks.org/es/authors/austen/sense-and-sensibility",
+  "source_tei": "austen_sense-and-sensibility_spa.xml",
+  "generator_fingerprint": "fe4894681c6801d91075b53c2ba8e8a141c8ba603b8fe3cf5346a6f5e0f381c3",
+  "validations": {
+    "pdf": {
+      "pages": 320,
+      "outline_items": 51
+    }
+  },
+  "files": [
+    {
+      "name": "austen_sense-and-sensibility_spa.pdf",
+      "bytes": 909653,
+      "sha256": "a94acf92136cfddf54167174e2e19cf38a02633f85b32cc2627b63eb68279039"
+    }
+  ]
+}

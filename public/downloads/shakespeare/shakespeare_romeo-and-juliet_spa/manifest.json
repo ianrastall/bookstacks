@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-romeo-and-juliet-spa",
+  "work_id": "shakespeare:romeo-and-juliet",
+  "title": "Romeo y Julieta",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "es",
+  "canonical_url": "https://bookstacks.org/es/authors/shakespeare/romeo-and-juliet",
+  "source_tei": "shakespeare_romeo-and-juliet_spa.xml",
+  "generator_fingerprint": "cd453e6f06c7ce1d76523bad689e5ed8d63f6980a3cb9cfc18af2a495ab3c041",
+  "validations": {
+    "pdf": {
+      "pages": 116,
+      "outline_items": 8
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_romeo-and-juliet_spa.pdf",
+      "bytes": 239979,
+      "sha256": "fcb610b504cf09f2766be13e596a5e968322a57f316d767806fe09b97f778c61"
+    }
+  ]
+}

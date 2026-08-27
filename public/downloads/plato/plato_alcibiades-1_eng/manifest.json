@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_alcibiades-1",
+  "work_id": "plato:alcibiades-1",
+  "title": "Alcibiades 1",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/plato/alcibiades-1",
+  "source_tei": "plato_alcibiades-1_eng.xml",
+  "generator_fingerprint": "66afc8e24fe40f303fa38a5b5891a65bb99ed274eaa142fcbae1446af652f6ab",
+  "validations": {
+    "pdf": {
+      "pages": 49,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_alcibiades-1_eng.pdf",
+      "bytes": 144742,
+      "sha256": "567a9a5fd09f1b45689e05d8cef98c716f14f86b3f10b630175521ed3493a201"
+    }
+  ]
+}

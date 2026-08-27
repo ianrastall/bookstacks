@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "aristotle_poetics",
+  "work_id": "aristotle:poetics",
+  "title": "Περὶ ποιητικῆς",
+  "author": "Aristotle (384-322 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/aristotle/poetics",
+  "source_tei": "aristotle_poetics_grc.xml",
+  "generator_fingerprint": "81208303e7e14cd37e42d73df648bfe255ee9dac54eef07c6dfd994550ce778d",
+  "validations": {
+    "pdf": {
+      "pages": 50,
+      "outline_items": 26
+    }
+  },
+  "files": [
+    {
+      "name": "aristotle_poetics_grc.pdf",
+      "bytes": 145111,
+      "sha256": "ac53e42bd2c9a3f8e96988e1a1f8b340e688a7df364e0fa290e11c5709e25cbe"
+    }
+  ]
+}

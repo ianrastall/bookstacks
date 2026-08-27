@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-king-richard-iii",
+  "work_id": "shakespeare:king-richard-iii",
+  "title": "King Richard III",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/shakespeare/king-richard-iii",
+  "source_tei": "shakespeare_king-richard-iii_eng.xml",
+  "generator_fingerprint": "1149a5d4d7f370bec9b1175d94299668777420bb3cd865974fa168dfcc77c64e",
+  "validations": {
+    "pdf": {
+      "pages": 194,
+      "outline_items": 6
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_king-richard-iii_eng.pdf",
+      "bytes": 437117,
+      "sha256": "4cb4642fb87f504ad3ab6abe33e3c1fde21bac578337a8b56cfdef05f411a0e6"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-king-henry-vi-part-2-fra",
+  "work_id": "shakespeare:king-henry-vi-part-2",
+  "title": "Henri VI (2/3)",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/king-henry-vi-part-2",
+  "source_tei": "shakespeare_king-henry-vi-part-2_fra.xml",
+  "generator_fingerprint": "4951e2bcc7f98eb108f5a8da5884e4205943fd32cc2aef87d421b908a44b9b98",
+  "validations": {
+    "pdf": {
+      "pages": 137,
+      "outline_items": 6
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_king-henry-vi-part-2_fra.pdf",
+      "bytes": 334567,
+      "sha256": "6fef1e11e734b779e92538f285166ae753d61984a19b418e0a8e5144f5f5161b"
+    }
+  ]
+}

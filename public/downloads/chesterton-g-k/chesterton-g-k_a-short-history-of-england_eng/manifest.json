@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "chesterton-g-k-a-short-history-of-england",
+  "work_id": "chesterton-g-k:a-short-history-of-england",
+  "title": "A Short History of England",
+  "author": "G. K. Chesterton (1874-1936)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/chesterton-g-k/a-short-history-of-england",
+  "source_tei": "chesterton-g-k_a-short-history-of-england_eng.xml",
+  "generator_fingerprint": "50e56897118b13ecdf3c31126dd12b326ef0588262f880f4dfb888aa218b9146",
+  "validations": {
+    "pdf": {
+      "pages": 134,
+      "outline_items": 3
+    }
+  },
+  "files": [
+    {
+      "name": "chesterton-g-k_a-short-history-of-england_eng.pdf",
+      "bytes": 462801,
+      "sha256": "bbeb90f6b18d5e3659b72c4fd9d4f74c0f0f79aa7e7b6d584a3a9eebf79b9f34"
+    }
+  ]
+}

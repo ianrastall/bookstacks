@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-hamlet-spa",
+  "work_id": "shakespeare:hamlet",
+  "title": "Hamlet: Drama en cinco actos",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "es",
+  "canonical_url": "https://bookstacks.org/es/authors/shakespeare/hamlet",
+  "source_tei": "shakespeare_hamlet_spa.xml",
+  "generator_fingerprint": "be72b511a0f99828bb975b0f6f9a63fd0e49ccbd9d359a9fdc96bb1b69ea0c07",
+  "validations": {
+    "pdf": {
+      "pages": 178,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_hamlet_spa.pdf",
+      "bytes": 384781,
+      "sha256": "e07c996f5438c1578adf11c9a5ed95dcaedde5ecc8367e0890f7a30a833294b3"
+    }
+  ]
+}

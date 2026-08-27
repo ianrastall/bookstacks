@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-a-midsummer-nights-dream",
+  "work_id": "shakespeare:a-midsummer-nights-dream",
+  "title": "A Midsummer Night's Dream",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/shakespeare/a-midsummer-nights-dream",
+  "source_tei": "shakespeare_a-midsummer-nights-dream_eng.xml",
+  "generator_fingerprint": "6d0b85a4cd6ee588ebd85a1a71e494d324f9b173a8f528358c2164b7c443461c",
+  "validations": {
+    "pdf": {
+      "pages": 106,
+      "outline_items": 6
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_a-midsummer-nights-dream_eng.pdf",
+      "bytes": 245538,
+      "sha256": "5428cac894473c0c9431c1ae1980cb4980320ee5171cf0f2a4d34bcbf5120e16"
+    }
+  ]
+}

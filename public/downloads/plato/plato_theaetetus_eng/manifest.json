@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_theaetetus",
+  "work_id": "plato:theaetetus",
+  "title": "Theaetetus",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/plato/theaetetus",
+  "source_tei": "plato_theaetetus_eng.xml",
+  "generator_fingerprint": "e213c959a9fb3f93c57ba3c4aab4f1a9157438c5e8733b7098adb8e4772641f7",
+  "validations": {
+    "pdf": {
+      "pages": 87,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_theaetetus_eng.pdf",
+      "bytes": 276791,
+      "sha256": "b53d973e4e9c0f685dc93f9c3ca63db5d846f087f627a9342259369d89073363"
+    }
+  ]
+}

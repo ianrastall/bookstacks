@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-two-gentlemen-of-verona-fra",
+  "work_id": "shakespeare:the-two-gentlemen-of-verona",
+  "title": "Les Deux Gentilshommes de Vérone",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/the-two-gentlemen-of-verona",
+  "source_tei": "shakespeare_the-two-gentlemen-of-verona_fra.xml",
+  "generator_fingerprint": "3d8dcdabb767b6ecf8b400da082b61c1f1e679b4e65f182de8de295470060435",
+  "validations": {
+    "pdf": {
+      "pages": 117,
+      "outline_items": 8
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-two-gentlemen-of-verona_fra.pdf",
+      "bytes": 255382,
+      "sha256": "17ebcef08bdf4c9c7823c3e54c7981e6d63fe5ebe8a39e7bb73c3b84f4ef0424"
+    }
+  ]
+}

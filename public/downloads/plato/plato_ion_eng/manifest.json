@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_ion",
+  "work_id": "plato:ion",
+  "title": "Ion",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/plato/ion",
+  "source_tei": "plato_ion_eng.xml",
+  "generator_fingerprint": "aa69f2c4af63a4752ddab01e98b4353a951571e8450a3b24b6a2520fca6f165b",
+  "validations": {
+    "pdf": {
+      "pages": 23,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_ion_eng.pdf",
+      "bytes": 79190,
+      "sha256": "66909eb86cb1f7d3b5ba0b202025aa077dad827853a8616c0797d7b0ed382ff4"
+    }
+  ]
+}

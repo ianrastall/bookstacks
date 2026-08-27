@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_euthydemus",
+  "work_id": "plato:euthydemus",
+  "title": "Εὐθύδημος",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/euthydemus",
+  "source_tei": "plato_euthydemus_grc.xml",
+  "generator_fingerprint": "3f69e6a28d5c15f706ee62fdb5c2d8d0fa6ff004403e90866ae5660f3f58bb07",
+  "validations": {
+    "pdf": {
+      "pages": 34,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_euthydemus_grc.pdf",
+      "bytes": 138173,
+      "sha256": "ad51380095358fe59402fc3357bf3e00d5aebcceeb7ad3f314127bdb73868b8c"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "tolstoy_childhood-boyhood-youth",
+  "work_id": "tolstoy:childhood-boyhood-youth",
+  "title": "Childhood, Boyhood, and Youth",
+  "author": "Leo Tolstoy (1828-1910)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/tolstoy/childhood-boyhood-youth",
+  "source_tei": "tolstoy_childhood-boyhood-youth_eng.xml",
+  "generator_fingerprint": "09e403a4091a099d0c5a7cbf7a0d2d31582743752df871ba37001a299adbe2fc",
+  "validations": {
+    "pdf": {
+      "pages": 299,
+      "outline_items": 3
+    }
+  },
+  "files": [
+    {
+      "name": "tolstoy_childhood-boyhood-youth_eng.pdf",
+      "bytes": 979852,
+      "sha256": "ca3b40c5ede2930cb538c6283969ecb43fb885939a4b72ea3a0d73c693e7b698"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "dostoevsky_the-idiot",
+  "work_id": "dostoevsky:the-idiot",
+  "title": "The Idiot",
+  "author": "Fyodor Dostoevsky (1821-1881)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/dostoevsky/the-idiot",
+  "source_tei": "dostoevsky_the-idiot_eng.xml",
+  "generator_fingerprint": "eb6d26ce780458de0f5d7944b0f49cb2d1ad8fe6325d7fd420b1d06e235d8fa4",
+  "validations": {
+    "pdf": {
+      "pages": 551,
+      "outline_items": 4
+    }
+  },
+  "files": [
+    {
+      "name": "dostoevsky_the-idiot_eng.pdf",
+      "bytes": 1746990,
+      "sha256": "03e6d2f7a3fcf8dc507a2fe1453d725f20d11c3ab669c24faf06c64c04765615"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-king-henry-iv-part-1-fra",
+  "work_id": "shakespeare:king-henry-iv-part-1",
+  "title": "Henri IV (1re partie)",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/king-henry-iv-part-1",
+  "source_tei": "shakespeare_king-henry-iv-part-1_fra.xml",
+  "generator_fingerprint": "6b5507a503bd3686ded2cc650bf0aefdeab206511d378da819bec74e82e63e47",
+  "validations": {
+    "pdf": {
+      "pages": 137,
+      "outline_items": 9
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_king-henry-iv-part-1_fra.pdf",
+      "bytes": 342244,
+      "sha256": "7b8b77d2eba85aedde9bd16606101f67ebf68859f7f54001e6d491abf3fb76a6"
+    }
+  ]
+}

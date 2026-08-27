@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_meno",
+  "work_id": "plato:meno",
+  "title": "Μένων",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/meno",
+  "source_tei": "plato_meno_grc.xml",
+  "generator_fingerprint": "d6eef9ff9247366a4c72f48a9a771256e5781e6af7b477d891d67442965b6164",
+  "validations": {
+    "pdf": {
+      "pages": 35,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_meno_grc.pdf",
+      "bytes": 120539,
+      "sha256": "d174d988a8adb7ec8f6d92039854600fe7ed0ae74a74f43512e24b14fa77193d"
+    }
+  ]
+}

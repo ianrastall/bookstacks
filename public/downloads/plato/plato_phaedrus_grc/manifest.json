@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_phaedrus",
+  "work_id": "plato:phaedrus",
+  "title": "Φαῖδρος",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "grc",
+  "canonical_url": "https://bookstacks.org/grc/authors/plato/phaedrus",
+  "source_tei": "plato_phaedrus_grc.xml",
+  "generator_fingerprint": "3331aedff906b7fd3cadff8599e95f191774f29fcd90270354d54d35b89d3ad1",
+  "validations": {
+    "pdf": {
+      "pages": 48,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_phaedrus_grc.pdf",
+      "bytes": 186066,
+      "sha256": "1b078d534f32ff852ee9638ae0a5b84ee6035bf4c481fa53c07c57450b7204dc"
+    }
+  ]
+}

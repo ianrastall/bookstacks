@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "austen_mansfield-park",
+  "work_id": "austen:mansfield-park",
+  "title": "Mansfield Park",
+  "author": "Jane Austen (1775-1817)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/austen/mansfield-park",
+  "source_tei": "austen_mansfield-park_eng.xml",
+  "generator_fingerprint": "7a2b1c427dc63cc9a2c7061ad7fd5d63fa9873be78b339c55f36dfced1d1268d",
+  "validations": {
+    "pdf": {
+      "pages": 380,
+      "outline_items": 48
+    }
+  },
+  "files": [
+    {
+      "name": "austen_mansfield-park_eng.pdf",
+      "bytes": 1181104,
+      "sha256": "22d93f6c61ae21f3c06826876bde826bc1bfaec21e1c3a7404c4ab3f8060903c"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-loves-labours-lost-fra",
+  "work_id": "shakespeare:loves-labours-lost",
+  "title": "Peines d'amour perdues / Comédie",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/loves-labours-lost",
+  "source_tei": "shakespeare_loves-labours-lost_fra.xml",
+  "generator_fingerprint": "159b86e006c745b90efb1d8d43e4da6a4d4fa1257f7dc7762b83685a37c1100e",
+  "validations": {
+    "pdf": {
+      "pages": 146,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_loves-labours-lost_fra.pdf",
+      "bytes": 325667,
+      "sha256": "cdc9d9decbc0aca2edf781577f8bb7a98d35bd8404f438ae91490fefb3d59265"
+    }
+  ]
+}

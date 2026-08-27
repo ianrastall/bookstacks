@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-timon-of-athens",
+  "work_id": "shakespeare:timon-of-athens",
+  "title": "Timon of Athens",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/shakespeare/timon-of-athens",
+  "source_tei": "shakespeare_timon-of-athens_eng.xml",
+  "generator_fingerprint": "dd57f198830ef5fb479de022e890468785ef1c46391f738dcc6e5b7fd882b9c3",
+  "validations": {
+    "pdf": {
+      "pages": 134,
+      "outline_items": 6
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_timon-of-athens_eng.pdf",
+      "bytes": 283453,
+      "sha256": "b9ba7326b89dd96100a353d10e262c68be0b6b2d47f9acb57453e094dbc8da76"
+    }
+  ]
+}

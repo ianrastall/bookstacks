@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-king-lear-fra",
+  "work_id": "shakespeare:king-lear",
+  "title": "Le roi Lear",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/king-lear",
+  "source_tei": "shakespeare_king-lear_fra.xml",
+  "generator_fingerprint": "cd597a4abb0cd4e39f965c596239cbdc1ad8cf5a1b8e895608191ed598808f85",
+  "validations": {
+    "pdf": {
+      "pages": 167,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_king-lear_fra.pdf",
+      "bytes": 389443,
+      "sha256": "331de139d4465cb7ae2924e99570404ee5ab6075ddd1716bda5266d9236aaa2e"
+    }
+  ]
+}

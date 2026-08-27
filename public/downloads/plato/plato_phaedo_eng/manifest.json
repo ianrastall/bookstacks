@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "plato_phaedo",
+  "work_id": "plato:phaedo",
+  "title": "Phaedo",
+  "author": "Plato (c. 428-348 BCE)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/plato/phaedo",
+  "source_tei": "plato_phaedo_eng.xml",
+  "generator_fingerprint": "d3d37a49d1d474d03eced84b7d901cd72786ea78caf238c04cedf2c4402ece6f",
+  "validations": {
+    "pdf": {
+      "pages": 71,
+      "outline_items": 1
+    }
+  },
+  "files": [
+    {
+      "name": "plato_phaedo_eng.pdf",
+      "bytes": 209232,
+      "sha256": "ff30870ce9fa6727d507009e47e5758010eb0259b206b35380cd1fa2e4ba8628"
+    }
+  ]
+}

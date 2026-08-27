@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-winters-tale-fra",
+  "work_id": "shakespeare:the-winters-tale",
+  "title": "Le conte d'hiver",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/the-winters-tale",
+  "source_tei": "shakespeare_the-winters-tale_fra.xml",
+  "generator_fingerprint": "bc348df72e6fc73e10161275d30bb1afac96e6efd374d78056d44ea63d3bd991",
+  "validations": {
+    "pdf": {
+      "pages": 134,
+      "outline_items": 7
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-winters-tale_fra.pdf",
+      "bytes": 334455,
+      "sha256": "996f5e0a9925cfc87075197847cbec07a3c1daaf5e20284ff10b00f8d1746887"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-winters-tale",
+  "work_id": "shakespeare:the-winters-tale",
+  "title": "The Winter's Tale",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/shakespeare/the-winters-tale",
+  "source_tei": "shakespeare_the-winters-tale_eng.xml",
+  "generator_fingerprint": "8d674f5ff8f12baf226174e2a39b325ba3246c8f33dc319c596d78f12e0306b1",
+  "validations": {
+    "pdf": {
+      "pages": 149,
+      "outline_items": 6
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-winters-tale_eng.pdf",
+      "bytes": 365371,
+      "sha256": "12eff220abf8a1c78b3484eb5591131f17197e59ada3dfa0e56673e61ff2972c"
+    }
+  ]
+}

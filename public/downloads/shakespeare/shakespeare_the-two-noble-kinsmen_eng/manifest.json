@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-two-noble-kinsmen",
+  "work_id": "shakespeare:the-two-noble-kinsmen",
+  "title": "The Two Noble Kinsmen",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/shakespeare/the-two-noble-kinsmen",
+  "source_tei": "shakespeare_the-two-noble-kinsmen_eng.xml",
+  "generator_fingerprint": "7e982242cb43b9b2bad4b5241004382f58da301db400a599f2bfb9de09fd7a3d",
+  "validations": {
+    "pdf": {
+      "pages": 166,
+      "outline_items": 8
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-two-noble-kinsmen_eng.pdf",
+      "bytes": 381264,
+      "sha256": "8c27b3f0acda625eaa2c6afc0d274d84439f67594a37aaa234485e83d654a8cb"
+    }
+  ]
+}

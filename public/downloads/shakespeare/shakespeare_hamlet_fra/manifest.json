@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-hamlet-fra",
+  "work_id": "shakespeare:hamlet",
+  "title": "Hamlet",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/hamlet",
+  "source_tei": "shakespeare_hamlet_fra.xml",
+  "generator_fingerprint": "06a0263602b645f8bfbb960aaea13490904aaa1af4d8b7ff6b4d646e4ba63d51",
+  "validations": {
+    "pdf": {
+      "pages": 196,
+      "outline_items": 8
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_hamlet_fra.pdf",
+      "bytes": 500675,
+      "sha256": "d95ae4bcee0aefd0afb9af05b4ec6fbbb94abddf49f35fabb7be3b3317d59ccf"
+    }
+  ]
+}

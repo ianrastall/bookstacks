@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-merchant-of-venice-fra",
+  "work_id": "shakespeare:the-merchant-of-venice",
+  "title": "Le marchand de Venise",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/the-merchant-of-venice",
+  "source_tei": "shakespeare_the-merchant-of-venice_fra.xml",
+  "generator_fingerprint": "1d8e170b12839f13a73602fd15c407e56c1ca03780698d7f8654f2ff46fdfba3",
+  "validations": {
+    "pdf": {
+      "pages": 114,
+      "outline_items": 8
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-merchant-of-venice_fra.pdf",
+      "bytes": 278734,
+      "sha256": "c1315616c3e7c76a344cc15e35c4434fe24f1b5139f0547ac44811b273c43153"
+    }
+  ]
+}

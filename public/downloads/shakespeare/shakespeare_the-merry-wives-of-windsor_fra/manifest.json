@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-the-merry-wives-of-windsor-fra",
+  "work_id": "shakespeare:the-merry-wives-of-windsor",
+  "title": "Les joyeuses Bourgeoises de Windsor",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/the-merry-wives-of-windsor",
+  "source_tei": "shakespeare_the-merry-wives-of-windsor_fra.xml",
+  "generator_fingerprint": "afa554136d5d443ae10eeb53fbf1724517318456f24117f8af195c713a67d066",
+  "validations": {
+    "pdf": {
+      "pages": 146,
+      "outline_items": 8
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_the-merry-wives-of-windsor_fra.pdf",
+      "bytes": 330329,
+      "sha256": "c42c0cab767ab8dd5f6485522d2c4347bc952d601f4631c80fce6317176df23e"
+    }
+  ]
+}

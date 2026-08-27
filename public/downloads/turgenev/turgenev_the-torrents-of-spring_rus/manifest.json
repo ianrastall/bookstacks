@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "turgenev-the-torrents-of-spring",
+  "work_id": "turgenev:the-torrents-of-spring",
+  "title": "Вешние воды",
+  "author": "Ivan Turgenev (1818-1883)",
+  "language": "ru",
+  "canonical_url": "https://bookstacks.org/ru/authors/turgenev/the-torrents-of-spring",
+  "source_tei": "turgenev_the-torrents-of-spring_rus.xml",
+  "generator_fingerprint": "7c90001ed249a6932632bd1cbae91414ee37bd2f63fffa17af218dea3d20ea57",
+  "validations": {
+    "pdf": {
+      "pages": 158,
+      "outline_items": 45
+    }
+  },
+  "files": [
+    {
+      "name": "turgenev_the-torrents-of-spring_rus.pdf",
+      "bytes": 427036,
+      "sha256": "83951c9c05d0c109007cdec6d2e2206dc3b289edbcaa1dc622c83bf84ce6b28b"
+    }
+  ]
+}

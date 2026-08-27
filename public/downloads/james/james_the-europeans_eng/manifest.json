@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "james-the-europeans",
+  "work_id": "james:the-europeans",
+  "title": "The Europeans",
+  "author": "Henry James (1843-1916)",
+  "language": "en",
+  "canonical_url": "https://bookstacks.org/en/authors/james/the-europeans",
+  "source_tei": "james_the-europeans_eng.xml",
+  "generator_fingerprint": "78d35b4fae15d10126d218d6920a0f97704b72692106f2ef5f41c6f2d4637178",
+  "validations": {
+    "pdf": {
+      "pages": 148,
+      "outline_items": 12
+    }
+  },
+  "files": [
+    {
+      "name": "james_the-europeans_eng.pdf",
+      "bytes": 461813,
+      "sha256": "1a25abe3c25750cc888b17fb45661570262d65bed685a40ddb4cc21d65f22d5b"
+    }
+  ]
+}

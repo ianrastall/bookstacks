@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "austen-pride-and-prejudice-spa",
+  "work_id": "austen:pride-and-prejudice",
+  "title": "Orgullo y prejuicio",
+  "author": "Jane Austen (1775-1817)",
+  "language": "es",
+  "canonical_url": "https://bookstacks.org/es/authors/austen/pride-and-prejudice",
+  "source_tei": "austen_pride-and-prejudice_spa.xml",
+  "generator_fingerprint": "0dcbe754bd2e05b1ce3ba048b014c03e5ad7972e5eca668e1657bf1cd9467ece",
+  "validations": {
+    "pdf": {
+      "pages": 283,
+      "outline_items": 5
+    }
+  },
+  "files": [
+    {
+      "name": "austen_pride-and-prejudice_spa.pdf",
+      "bytes": 870845,
+      "sha256": "fe5e3298b728db82806b101ca04f00d4716b3471a57b46d886bfae36b0999c9e"
+    }
+  ]
+}

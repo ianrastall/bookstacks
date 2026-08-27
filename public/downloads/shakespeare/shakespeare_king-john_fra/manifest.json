@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "edition_id": "shakespeare-king-john-fra",
+  "work_id": "shakespeare:king-john",
+  "title": "Le roi Jean",
+  "author": "William Shakespeare (1564-1616)",
+  "language": "fr",
+  "canonical_url": "https://bookstacks.org/fr/authors/shakespeare/king-john",
+  "source_tei": "shakespeare_king-john_fra.xml",
+  "generator_fingerprint": "7667da677e2a69a13c3043b70aed3e93cc204ebe374997ec008704f60558eddf",
+  "validations": {
+    "pdf": {
+      "pages": 110,
+      "outline_items": 8
+    }
+  },
+  "files": [
+    {
+      "name": "shakespeare_king-john_fra.pdf",
+      "bytes": 284405,
+      "sha256": "3ef22e0fbad39e62c1f3e605f38b6fefa7598695a6f496a6dff751cffa263ae0"
+    }
+  ]
+}
