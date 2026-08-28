@@ -816,6 +816,21 @@ button, input, select { font: inherit; }
 .table-scroll { max-width: 100%; overflow-x: auto; }
 .reader-content table { width: 100%; border-collapse: collapse; font: 0.9em var(--sans-font); }
 .reader-content td { padding: 0.5rem; border: 1px solid var(--border); }
+.tei-figure { margin: 1.75rem auto; text-align: center; }
+.tei-graphic {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: min(70vh, 52rem);
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.tei-figure figcaption {
+  max-width: 36rem;
+  margin: 0.65rem auto 0;
+  color: var(--muted);
+  font: 0.78rem/1.45 var(--sans-font);
+}
 
 @media (max-width: 960px) {
   .chapter-header,

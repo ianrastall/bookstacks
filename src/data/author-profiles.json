@@ -7,6 +7,7 @@
   "chesterton-g-k": { "name": "G. K. Chesterton", "dates": "1874-1936", "portrait": "chesterton-g-k.png" },
   "dickens": { "name": "Charles Dickens", "dates": "1812-1870", "portrait": "dickens-charles.png" },
   "dostoevsky": { "name": "Fyodor Dostoevsky", "dates": "1821-1881", "portrait": "dostoevsky-fyodor.png" },
+  "doyle": { "name": "Arthur Conan Doyle", "dates": "1859-1930", "portrait": "doyle-arthur-conan.png" },
   "eliot": { "name": "George Eliot", "dates": "1819-1880", "portrait": "eliot-george.png" },
   "james": { "name": "Henry James", "dates": "1843-1916", "portrait": "james-henry.png" },
   "plato": { "name": "Plato", "dates": "c. 428-348 BCE", "portrait": "plato.png" },

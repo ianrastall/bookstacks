@@ -6,20 +6,37 @@ export function getStaticPaths() {
   const root = path.resolve(process.cwd(), 'tei');
   return fs.readdirSync(root, { withFileTypes: true })
     .filter((entry) => entry.isDirectory() && PUBLISHED_AUTHOR_SLUGS.has(entry.name))
-    .flatMap((directory) => fs.readdirSync(path.join(root, directory.name), { withFileTypes: true })
-      .filter((file) => file.isFile() && /\.(xml|pdf)$/i.test(file.name))
-      .map((file) => ({
-        params: { file: `${directory.name}/${file.name}` },
-        props: { sourcePath: path.join(root, directory.name, file.name) },
+    .flatMap((directory) => findPublishedFiles(path.join(root, directory.name))
+      .map((sourcePath) => ({
+        params: { file: path.relative(root, sourcePath).split(path.sep).join('/') },
+        props: { sourcePath },
       })));
 }
 
 export function GET({ props }: { props: { sourcePath: string } }) {
-  const isPdf = path.extname(props.sourcePath).toLowerCase() === '.pdf';
+  const extension = path.extname(props.sourcePath).toLowerCase();
+  const contentTypes: Record<string, string> = {
+    '.xml': 'application/tei+xml; charset=utf-8',
+    '.pdf': 'application/pdf',
+    '.png': 'image/png',
+    '.jpg': 'image/jpeg',
+    '.jpeg': 'image/jpeg',
+    '.gif': 'image/gif',
+    '.svg': 'image/svg+xml',
+  };
+  const isImage = ['.png', '.jpg', '.jpeg', '.gif', '.svg'].includes(extension);
   return new Response(fs.readFileSync(props.sourcePath), {
     headers: {
-      'Content-Type': isPdf ? 'application/pdf' : 'application/tei+xml; charset=utf-8',
-      'Content-Disposition': `attachment; filename="${path.basename(props.sourcePath)}"`,
+      'Content-Type': contentTypes[extension] ?? 'application/octet-stream',
+      'Content-Disposition': `${isImage ? 'inline' : 'attachment'}; filename="${path.basename(props.sourcePath)}"`,
     },
+  });
+}
+
+function findPublishedFiles(root: string): string[] {
+  return fs.readdirSync(root, { withFileTypes: true }).flatMap((entry) => {
+    const target = path.join(root, entry.name);
+    if (entry.isDirectory()) return findPublishedFiles(target);
+    return entry.isFile() && /\.(xml|pdf|png|jpe?g|gif|svg)$/i.test(entry.name) ? [target] : [];
   });
 }

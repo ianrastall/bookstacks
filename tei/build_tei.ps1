@@ -1047,6 +1047,19 @@ foreach ($item in $config) {
         if ($LASTEXITCODE -ne 0) { throw "Failed to convert Gutenberg EPUB for $($item.title)." }
         continue
     }
+    if ($item.source_format -eq 'wikisource_epub') {
+        if ($item.sources.Count -ne 1) { throw "Wikisource EPUB work $($item.title) must have exactly one source." }
+        $src = $item.sources[0]
+        $srcPath = Join-Path $PSScriptRoot $src.path
+        $outPath = Join-Path $PSScriptRoot (Join-Path $authorSlug "${baseName}_$($src.lang).xml")
+        & python (Join-Path $PSScriptRoot 'build_wikisource_epub.py') `
+            --source $srcPath `
+            --output $outPath `
+            --schema (Join-Path $PSScriptRoot 'tei_all.rng') `
+            --text-id $baseName
+        if ($LASTEXITCODE -ne 0) { throw "Failed to convert Wikisource EPUB for $($item.title)." }
+        continue
+    }
     if ($item.source_format -eq 'gutenberg_drama_collection') {
         if ($item.sources.Count -ne 1) { throw "Gutenberg drama collection $($item.title) must have exactly one source pattern." }
         $sourcePattern = Join-Path $PSScriptRoot $item.sources[0].path

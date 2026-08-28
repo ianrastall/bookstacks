@@ -50,6 +50,7 @@ const AUTHOR_PROFILES = Object.fromEntries(
 ) as Record<string, Omit<Author, 'works'>>;
 
 const WORK_TITLES: Record<string, string> = {
+  'a-study-in-scarlet': 'A Study in Scarlet',
   'alcibiades-1': 'Alcibiades I',
   'alcibiades-2': 'Alcibiades II',
   'apology': 'Apology',
@@ -91,6 +92,7 @@ const WORK_TITLES: Record<string, string> = {
   'david-copperfield': 'David Copperfield',
   'demons': 'Demons',
   'emma': 'Emma',
+  'his-last-bow': 'His Last Bow',
   'gorgias': 'Gorgias',
   'jane-eyre-an-autobiography': 'Jane Eyre: An Autobiography',
   'mansfield-park': 'Mansfield Park',
@@ -113,9 +115,16 @@ const WORK_TITLES: Record<string, string> = {
   'sense-and-sensibility': 'Sense and Sensibility',
   'symposium': 'Symposium',
   'the-adolescent': 'The Adolescent',
+  'the-adventures-of-sherlock-holmes': 'The Adventures of Sherlock Holmes',
+  'the-case-book-of-sherlock-holmes': 'The Case-Book of Sherlock Holmes',
   'the-double': 'The Double',
+  'the-hound-of-the-baskervilles': 'The Hound of the Baskervilles',
   'the-idiot': 'The Idiot',
   'the-man-who-was-thursday-a-nightmare': 'The Man Who Was Thursday: A Nightmare',
+  'the-memoirs-of-sherlock-holmes': 'The Memoirs of Sherlock Holmes',
+  'the-return-of-sherlock-holmes': 'The Return of Sherlock Holmes',
+  'the-sign-of-the-four': 'The Sign of the Four',
+  'the-valley-of-fear': 'The Valley of Fear',
   'timaeus': 'Timaeus',
   'war-and-peace': 'War and Peace',
 };
@@ -204,6 +213,7 @@ interface EntityMaps {
 interface RenderContext {
   locale: Locale;
   noteIndex: number;
+  assetBase: string;
 }
 
 let libraryCache: Library | undefined;
@@ -417,7 +427,7 @@ function parseEdition(filePath: string): ParsedEdition {
       segments: finalSegments,
       title,
       context,
-      html: renderDivision(div, entities, locale),
+      html: renderDivision(div, entities, locale, `/tei/${authorSlug}`),
     });
   }
 
@@ -639,8 +649,8 @@ function divisionLabel(div: any, segmentCache: Map<any, string>, locale: Locale)
   return ordinal ? `${displayKind(kind, locale)} ${ordinal}` : displayKind(kind, locale);
 }
 
-function renderDivision(div: any, entities: EntityMaps, locale: Locale): string {
-  const context: RenderContext = { locale, noteIndex: 0 };
+function renderDivision(div: any, entities: EntityMaps, locale: Locale, assetBase: string): string {
+  const context: RenderContext = { locale, noteIndex: 0, assetBase };
   let html = '';
   for (const child of directChildNodes(div)) {
     if (child.nodeType === 1 && child.localName === 'head') continue;
@@ -806,9 +816,18 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     case 'cell':
       return `<td>${children()}</td>`;
     case 'figure':
-      return `<figure>${children()}</figure>`;
-    case 'graphic':
-      return '';
+      return `<figure class="tei-figure">${children()}</figure>`;
+    case 'graphic': {
+      const source = cleanText(node.getAttribute?.('url'));
+      const relative = source.replace(/^\.\//, '');
+      if (!/^img\/[A-Za-z0-9._/-]+$/.test(relative) || relative.includes('..')) return '';
+      const description = cleanText(
+        directElementChildren(node.parentNode).find((child) => child.localName === 'figDesc')?.textContent,
+      );
+      return `<img class="tei-graphic" src="${escapeAttr(`${context.assetBase}/${relative}`)}" alt="${escapeAttr(description)}" loading="lazy" decoding="async" />`;
+    }
+    case 'figDesc':
+      return `<figcaption>${children()}</figcaption>`;
     case 'floatingText':
       return `<aside class="tei-floating-text">${children()}</aside>`;
     case 'opener':

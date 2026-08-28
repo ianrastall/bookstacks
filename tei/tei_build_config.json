@@ -815,6 +815,87 @@
     ]
   },
   {
+    "author": "Doyle",
+    "title": "A Study in Scarlet",
+    "id": "a-study-in-scarlet",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/doyle/244-study-in-scarlet.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "The Sign of the Four",
+    "id": "the-sign-of-the-four",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/doyle/2097-sign-of-the-four.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "The Adventures of Sherlock Holmes",
+    "id": "the-adventures-of-sherlock-holmes",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/doyle/48320-adventures.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "The Memoirs of Sherlock Holmes",
+    "id": "the-memoirs-of-sherlock-holmes",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/doyle/834-memoirs.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "The Hound of the Baskervilles",
+    "id": "the-hound-of-the-baskervilles",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/doyle/2852-hound.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "The Return of Sherlock Holmes",
+    "id": "the-return-of-sherlock-holmes",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/doyle/108-return.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "The Valley of Fear",
+    "id": "the-valley-of-fear",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/doyle/3289-valley-of-fear.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "His Last Bow",
+    "id": "his-last-bow",
+    "source_format": "wikisource_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/His_Last_Bow.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "The Case-Book of Sherlock Holmes",
+    "id": "the-case-book-of-sherlock-holmes",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/source-epub/doyle/69700-case-book.epub" }
+    ]
+  },
+  {
     "author": "Shakespeare",
     "title": "Complete dramatic works",
     "id": "plays",

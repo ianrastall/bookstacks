@@ -136,6 +136,21 @@ Existing cached HTML is reused. Pass `--refresh` to download it again, or
   poetry, contributor credits, and inline emphasis are retained where
   present; Gutenberg header, contents, transcriber notes, and license
   boilerplate are omitted.
+- The nine English Sherlock Holmes books are generated independently from
+  Project Gutenberg EPUBs 244, 2097, 48320, 834, 2852, 108, 3289, and 69700,
+  plus the Wikisource EPUB of *His Last Bow*. Wikisource supplies the complete
+  eight-story 1917 volume, including “The Adventure of the Cardboard Box,”
+  which is absent from Gutenberg EPUB 2350. Novel parts, collection stories,
+  internal story sections, prefaces,
+  epilogues, paragraphs, letters, verse, and inline typography are retained.
+  Covers, decorative initials, frontispieces, and conventional narrative
+  illustrations (including the Paget-style and later illustrated-edition
+  plates) are omitted. The three documentary charts and manuscript scraps in
+  *The Memoirs of Sherlock Holmes* and the twelve cipher, map, plan, and
+  message figures in *The Return of Sherlock Holmes* are retained as TEI
+  `figure`/`graphic` structures. Their production PNGs preserve the source
+  geometry and linework while using the dark reader panel color as the image
+  background.
 - The seven Russian Dostoevsky works are generated from the Digital
   Dostoevsky TEI corpus in `assets/dostoevsky-tei/texts`. Its part, chapter,
   and section hierarchy; front matter; full stand-off character and group

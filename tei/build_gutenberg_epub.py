@@ -170,6 +170,106 @@ SUPPORTED_TEXTS = {
         "fronts": 0,
         "chapter_title_paragraph": None,
     },
+    "244": {
+        "title": "A Study in Scarlet",
+        "groups": {"book": 0, "part": 2, "epilogue": 0},
+        "chapters": 14,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^CHAPTER\s+[IVXLCDM]+\.",
+        "fronts": 0,
+    },
+    "2097": {
+        "title": "The Sign of the Four",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 12,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^CHAPTER\s+[IVXLCDM]+\b",
+        "fronts": 0,
+    },
+    "48320": {
+        "title": "The Adventures of Sherlock Holmes",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 12,
+        "unit_type": "chapter",
+        "unit_heading_pattern": (
+            r"^(?:ADVENTURES OF SHERLOCK HOLMES\s+)?ADVENTURE\s+[IVXLCDM]+\b"
+        ),
+        "fronts": 0,
+        "section_heading_pattern": r"^[IVXLCDM]+$",
+        "sections": 3,
+    },
+    "834": {
+        "title": "The Memoirs of Sherlock Holmes",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 12,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^[IVXLCDM]+\.",
+        "fronts": 0,
+    },
+    "2852": {
+        "title": "The Hound of the Baskervilles",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 15,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^CHAPTER\s+\d+\.",
+        "fronts": 0,
+    },
+    "108": {
+        "title": "The Return of Sherlock Holmes",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 13,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^THE ADVENTURE\b",
+        "fronts": 0,
+    },
+    "3289": {
+        "title": "The Valley of Fear",
+        "groups": {"book": 0, "part": 2, "epilogue": 1},
+        "chapters": 14,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^CHAPTER\s+[IVXLCDM]+\b",
+        "fronts": 0,
+        "allow_group_content": True,
+    },
+    "2350": {
+        "title": "His Last Bow: Some Later Reminiscences of Sherlock Holmes",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 7,
+        "unit_type": "chapter",
+        "unit_heading_pattern": (
+            r"^(?:THE ADVENTURE|THE DISAPPEARANCE|HIS LAST BOW:)"
+        ),
+        "fronts": 1,
+        "section_heading_pattern": r"^(?:[12]\.|PART\s+[IVXLCDM]+)",
+        "sections": 4,
+    },
+    "69700": {
+        "title": "The Case-Book of Sherlock Holmes",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 12,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^(?:THE ADVENTURE|THE PROBLEM)\b",
+        "fronts": 0,
+    },
+}
+
+
+DOYLE_FIGURES = {
+    "3232417667027798712_img01.jpg": ("return-dancing-men-01.png", "The first Dancing Men cipher message: AM HERE ABE SLANEY."),
+    "3232417667027798712_img02.jpg": ("return-dancing-men-02.png", "A Dancing Men cipher message copied from the tool-house door: AT ELRIGES."),
+    "3232417667027798712_img03.jpg": ("return-dancing-men-03.png", "A Dancing Men cipher message: COME ELSIE."),
+    "3232417667027798712_img04.jpg": ("return-dancing-men-04.png", "A Dancing Men cipher reply: NEVER."),
+    "3232417667027798712_img05.jpg": ("return-dancing-men-05.png", "A Dancing Men cipher message: ELSIE PREPARE TO MEET THY GOD."),
+    "3232417667027798712_img06.jpg": ("return-dancing-men-06.png", "The Dancing Men cipher sign for the letter E."),
+    "3232417667027798712_img07.jpg": ("return-dancing-men-07.png", "The Dancing Men cipher signs for N, V, and R."),
+    "3232417667027798712_img08.jpg": ("return-dancing-men-08.png", "Holmes's Dancing Men cipher message: COME HERE AT ONCE."),
+    "3232417667027798712_img09.jpg": ("return-priory-school-map.png", "Holmes's rough map of the Priory School and Lower Gill Moor."),
+    "3232417667027798712_img10.jpg": ("return-professors-study-plan.png", "A rough plan of the professor's study and its approaches."),
+    "3232417667027798712_img11.jpg": ("return-blotting-paper-obverse.png", "The obverse of a message recovered from blotting paper."),
+    "3232417667027798712_img12.jpg": ("return-blotting-paper-reverse.png", "The reversed blotting-paper message: Stand by us for God's sake."),
+    "6615613300706498260_rough-chart.jpg": ("memoirs-rough-chart.png", "A rough chart of the Foreign Office corridors and entrances."),
+    "6615613300706498260_scrap.jpg": ("memoirs-scrap-1.png", "A torn scrap bearing the words 'at quarter to twelve' and 'learn what may be'."),
+    "6615613300706498260_scrap2.jpg": ("memoirs-scrap-2.png", "The reconstructed message assembled from two torn scraps of paper."),
 }
 
 
@@ -186,7 +286,7 @@ def tei(name: str, **attributes: str) -> etree._Element:
 
 
 def normalized_text(element: etree._Element) -> str:
-    return " ".join("".join(element.itertext()).split())
+    return " ".join("".join(element.itertext()).replace("\ufffd", "’").split())
 
 
 def append_text(parent: etree._Element, value: str | None) -> None:
@@ -269,6 +369,24 @@ def convert_block(
 ) -> tuple[etree._Element | None, int, int]:
     local = etree.QName(source).localname
     css_class = source.get("class", "")
+
+    if local == "figure" or (local == "div" and source.xpath(".//x:img", namespaces=NS)):
+        images = source.xpath(".//x:img", namespaces=NS)
+        source_name = PurePosixPath(images[0].get("src", "")).name if images else ""
+        figure_data = DOYLE_FIGURES.get(source_name)
+        if figure_data is None:
+            return None, paragraph_number, note_number
+        image_name, description = figure_data
+        figure = tei("figure", type="authorial")
+        graphic = tei(
+            "graphic",
+            url=f"./img/{image_name}",
+            mimeType="image/png",
+        )
+        figure_description = tei("figDesc")
+        figure_description.text = description
+        figure.extend((graphic, figure_description))
+        return figure, paragraph_number, note_number
 
     if local == "p" and "footnote" in css_class.split():
         note_number += 1
@@ -439,6 +557,16 @@ def build_header(metadata: dict[str, str], text_id: str) -> etree._Element:
     conversion_name.text = "Bookstacks project"
     bookstacks_resp.extend((conversion_role, conversion_name))
     title_stmt.append(bookstacks_resp)
+    if gutenberg_number(metadata) in {"108", "834"}:
+        graphics_resp = tei("respStmt", xml_id="bookstacks-graphics")
+        graphics_role = tei("resp")
+        graphics_role.text = (
+            "selection and dark-mode restoration of documentary figures"
+        )
+        graphics_name = tei("name")
+        graphics_name.text = "Bookstacks project"
+        graphics_resp.extend((graphics_role, graphics_name))
+        title_stmt.append(graphics_resp)
     file_desc.append(title_stmt)
 
     edition_stmt = tei("editionStmt")
@@ -501,6 +629,15 @@ def build_header(metadata: dict[str, str], text_id: str) -> etree._Element:
         "epilogue, preface, chapter, subchapter section, paragraph, poetry, "
         "letter, emphasis, and footnote structures are retained where present."
     )
+    if gutenberg_number(metadata) in {
+        "108", "244", "834", "2097", "2350", "2852", "3289", "48320", "69700"
+    }:
+        description.text += (
+            " Pictorial and decorative illustrations are omitted from this Sherlock "
+            "Holmes edition. Maps, ciphers, manuscript scraps, and other documentary "
+            "figures are retained where supplied and restored for the Bookstacks dark "
+            "reader without changing their textual or geometric content."
+        )
     project_desc.append(description)
     encoding_desc.append(project_desc)
     header.append(encoding_desc)
@@ -540,6 +677,7 @@ def iter_reading_blocks(xhtml: etree._Element) -> list[etree._Element]:
         "blockquote",
         "ul",
         "ol",
+        "figure",
     }
     container_names = {"p", "pre", "blockquote", "ul", "ol"}
     suppressed_classes = {"footer", "pg-boilerplate", "pgheader", "trans-note"}
@@ -548,7 +686,15 @@ def iter_reading_blocks(xhtml: etree._Element) -> list[etree._Element]:
         if not isinstance(element.tag, str):
             continue
         local = etree.QName(element).localname
-        if local not in block_names:
+        is_figure_div = (
+            local == "div"
+            and bool(element.xpath(".//x:img", namespaces=NS))
+            and (
+                "figure" in element.get("role", "").split()
+                or any(name.startswith("fig") for name in element.get("class", "").split())
+            )
+        )
+        if local not in block_names and not is_figure_div:
             continue
         nested = False
         for ancestor in (element, *element.iterancestors()):
@@ -561,6 +707,22 @@ def iter_reading_blocks(xhtml: etree._Element) -> list[etree._Element]:
                 if ancestor is not element:
                     nested = True
                     break
+            if ancestor is not element and (
+                etree.QName(ancestor).localname == "figure"
+                or (
+                    etree.QName(ancestor).localname == "div"
+                    and bool(ancestor.xpath(".//x:img", namespaces=NS))
+                    and (
+                        "figure" in ancestor.get("role", "").split()
+                        or any(
+                            name.startswith("fig")
+                            for name in ancestor.get("class", "").split()
+                        )
+                    )
+                )
+            ):
+                nested = True
+                break
         if not nested:
             blocks.append(element)
     return blocks
@@ -683,6 +845,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
     if text_number not in SUPPORTED_TEXTS:
         raise ValueError(f"Unsupported Project Gutenberg text: {metadata['identifier']}")
     profile = SUPPORTED_TEXTS[text_number]
+    metadata["title"] = profile.get("title", metadata["title"])
 
     root = tei("TEI", xml_id=text_id)
     root.append(build_header(metadata, text_id))
@@ -729,7 +892,11 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
         for source_block in iter_reading_blocks(xhtml):
             local = etree.QName(source_block).localname
             block_text = normalized_text(source_block)
-            if not block_text:
+            source_is_figure = local == "figure" or (
+                local == "div"
+                and bool(source_block.xpath(".//x:img", namespaces=NS))
+            )
+            if not block_text and not source_is_figure:
                 continue
             canonical = block_text.upper().replace("’", "'")
 
@@ -798,6 +965,28 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
 
                 if canonical in {"CONTENTS", "LIST OF ILLUSTRATIONS"}:
                     current_front = None
+                    continue
+
+                section_heading_pattern = profile.get("section_heading_pattern")
+                if (
+                    current_chapter is not None
+                    and section_heading_pattern
+                    and re.match(section_heading_pattern, canonical)
+                ):
+                    section_number += 1
+                    total_sections += 1
+                    chapter_id = current_chapter.get(f"{{{XML}}}id")
+                    current_section = tei(
+                        "div",
+                        type="section",
+                        n=str(section_number),
+                        xml_id=f"{chapter_id}-section-{section_number:03d}",
+                    )
+                    section_head = tei("head")
+                    section_head.text = block_text
+                    current_section.append(section_head)
+                    current_chapter.append(current_section)
+                    chapter_has_content = True
                     continue
 
                 group_type: str | None = None
@@ -946,6 +1135,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                         current_chapter,
                         current_front,
                         current_back,
+                        current_group if profile.get("allow_group_content") else None,
                     )
                     if candidate is not None
                 ),
