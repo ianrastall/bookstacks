@@ -141,8 +141,8 @@ Existing cached HTML is reused. Pass `--refresh` to download it again, or
   plus the Wikisource EPUB of *His Last Bow*. Wikisource supplies the complete
   eight-story 1917 volume, including “The Adventure of the Cardboard Box,”
   which is absent from Gutenberg EPUB 2350. Novel parts, collection stories,
-  internal story sections, prefaces,
-  epilogues, paragraphs, letters, verse, and inline typography are retained.
+  internal story sections, prefaces, epilogues, paragraphs, letters, verse,
+  and inline typography are retained.
   Covers, decorative initials, frontispieces, and conventional narrative
   illustrations (including the Paget-style and later illustrated-edition
   plates) are omitted. The three documentary charts and manuscript scraps in
@@ -151,6 +151,13 @@ Existing cached HTML is reused. Pass `--refresh` to download it again, or
   `figure`/`graphic` structures. Their production PNGs preserve the source
   geometry and linework while using the dark reader panel color as the image
   background.
+- Five additional Arthur Conan Doyle works are generated from Project
+  Gutenberg EPUBs 903 (*The White Company*), 2845 (*Sir Nigel*), 537 (*Tales
+  of Terror and Mystery*), 126 (*The Poison Belt*), and 139 (*The Lost World*).
+  Their introductions and forewords, novel chapters and subtitles, anthology
+  part/story hierarchy, concluding newspaper reports, paragraphs, display
+  text, and inline typography are retained. Each supplied EPUB contains only
+  generated cover art, which is omitted; none contains a documentary figure.
 - The seven Russian Dostoevsky works are generated from the Digital
   Dostoevsky TEI corpus in `assets/dostoevsky-tei/texts`. Its part, chapter,
   and section hierarchy; front matter; full stand-off character and group

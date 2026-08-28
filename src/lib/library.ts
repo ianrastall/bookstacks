@@ -9,6 +9,7 @@ const TEI_NS = 'http://www.tei-c.org/ns/1.0';
 const READING_KIND_PRIORITY = ['scene', 'section', 'chapter', 'stave', 'bekker_page', 'part'];
 const SUPPLEMENTARY_KINDS = new Set([
   'front',
+  'foreword',
   'preface',
   'translator-preface',
   'authorial-note',
@@ -120,11 +121,16 @@ const WORK_TITLES: Record<string, string> = {
   'the-double': 'The Double',
   'the-hound-of-the-baskervilles': 'The Hound of the Baskervilles',
   'the-idiot': 'The Idiot',
+  'the-lost-world': 'The Lost World',
   'the-man-who-was-thursday-a-nightmare': 'The Man Who Was Thursday: A Nightmare',
   'the-memoirs-of-sherlock-holmes': 'The Memoirs of Sherlock Holmes',
+  'the-poison-belt': 'The Poison Belt',
   'the-return-of-sherlock-holmes': 'The Return of Sherlock Holmes',
   'the-sign-of-the-four': 'The Sign of the Four',
   'the-valley-of-fear': 'The Valley of Fear',
+  'the-white-company': 'The White Company',
+  'sir-nigel': 'Sir Nigel',
+  'tales-of-terror-and-mystery': 'Tales of Terror and Mystery',
   'timaeus': 'Timaeus',
   'war-and-peace': 'War and Peace',
 };

@@ -896,6 +896,51 @@
     ]
   },
   {
+    "author": "Doyle",
+    "title": "The White Company",
+    "id": "the-white-company",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/pg903-images-3.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "Sir Nigel",
+    "id": "sir-nigel",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/pg2845-images-3.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "Tales of Terror and Mystery",
+    "id": "tales-of-terror-and-mystery",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/tales of terror and mystery_arthur conan doyle.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "The Poison Belt",
+    "id": "the-poison-belt",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/pg126-images-3.epub" }
+    ]
+  },
+  {
+    "author": "Doyle",
+    "title": "The Lost World",
+    "id": "the-lost-world",
+    "source_format": "gutenberg_epub",
+    "sources": [
+      { "lang": "eng", "xml_lang": "en", "path": "../assets/pg139-images-3.epub" }
+    ]
+  },
+  {
     "author": "Shakespeare",
     "title": "Complete dramatic works",
     "id": "plays",

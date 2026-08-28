@@ -251,6 +251,59 @@ SUPPORTED_TEXTS = {
         "unit_heading_pattern": r"^(?:THE ADVENTURE|THE PROBLEM)\b",
         "fronts": 0,
     },
+    "903": {
+        "title": "The White Company",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 38,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^CHAPTER\s+[IVXLCDM]+\.",
+        "fronts": 0,
+    },
+    "2845": {
+        "title": "Sir Nigel",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 27,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^[IVXLCDM]+\.",
+        "fronts": 1,
+        "front_heading_prefixes": {"INTRODUCTION": "introduction"},
+    },
+    "537": {
+        "title": "Tales of Terror and Mystery",
+        "groups": {"book": 0, "part": 2, "epilogue": 0},
+        "group_heading_patterns": {"part": r"^TALES OF (?:TERROR|MYSTERY)$"},
+        "group_heading_levels": {"part": ["h2"]},
+        "chapters": 12,
+        "unit_type": "chapter",
+        "unit_heading_pattern": (
+            r"^(?:THE HORROR OF THE HEIGHTS|THE LEATHER FUNNEL|THE NEW CATACOMB|"
+            r"THE CASE OF LADY SANNOX|THE TERROR OF BLUE JOHN GAP|THE BRAZILIAN CAT|"
+            r"THE LOST SPECIAL|THE BEETLE-HUNTER|THE MAN WITH THE WATCHES|"
+            r"THE JAPANNED BOX|THE BLACK DOCTOR|THE JEW'S BREASTPLATE)$"
+        ),
+        "fronts": 0,
+    },
+    "126": {
+        "title": "The Poison Belt",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 6,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^CHAPTER\s+[IVXLCDM]+$",
+        "fronts": 0,
+        "coda_heading_pattern": r"^TWENTY-EIGHT HOURS' WORLD COMA\b",
+        "codas": 1,
+    },
+    "139": {
+        "title": "The Lost World",
+        "groups": {"book": 0, "part": 0, "epilogue": 0},
+        "chapters": 16,
+        "unit_type": "chapter",
+        "unit_heading_pattern": r"^CHAPTER\s+[IVXLCDM]+$",
+        "fronts": 1,
+        "front_heading_prefixes": {"FOREWORD": "foreword"},
+        "coda_heading_pattern": r"^THE NEW WORLD GREAT MEETING\b",
+        "codas": 1,
+    },
 }
 
 
@@ -638,6 +691,11 @@ def build_header(metadata: dict[str, str], text_id: str) -> etree._Element:
             "figures are retained where supplied and restored for the Bookstacks dark "
             "reader without changing their textual or geometric content."
         )
+    elif gutenberg_number(metadata) in {"126", "139", "537", "903", "2845"}:
+        description.text += (
+            " Source cover art is omitted. No documentary maps, diagrams, "
+            "manuscript facsimiles, or other textual figures occur in this EPUB."
+        )
     project_desc.append(description)
     encoding_desc.append(project_desc)
     header.append(encoding_desc)
@@ -874,6 +932,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
     current_section: etree._Element | None = None
     current_front: etree._Element | None = None
     current_back: etree._Element | None = None
+    current_coda: etree._Element | None = None
     group_counts = {"book": 0, "part": 0, "epilogue": 0}
     chapter_number = 0
     section_number = 0
@@ -883,6 +942,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
     total_sections = 0
     front_number = 0
     back_number = 0
+    coda_number = 0
     chapter_has_content = False
     chapter_subtitle_set = False
     finished = False
@@ -933,6 +993,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     current_chapter = None
                     current_section = None
                     current_back = None
+                    current_coda = None
                     current_front = tei(
                         "div",
                         type=front_type,
@@ -951,6 +1012,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     current_chapter = None
                     current_section = None
                     current_front = None
+                    current_coda = None
                     current_back = tei(
                         "div",
                         type=back_type,
@@ -989,13 +1051,50 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     chapter_has_content = True
                     continue
 
-                group_type: str | None = None
-                if canonical.startswith("BOOK "):
+                coda_heading_pattern = profile.get("coda_heading_pattern")
+                if coda_heading_pattern and re.match(coda_heading_pattern, canonical):
+                    coda_number += 1
+                    current_chapter = None
+                    current_section = None
+                    current_front = None
+                    current_back = None
+                    coda_parent = current_group if current_group is not None else work
+                    current_coda = tei(
+                        "div",
+                        type="epilogue",
+                        n=str(coda_number),
+                        xml_id=f"{text_id}-eng-text-epilogue-{coda_number:02d}",
+                    )
+                    coda_head = tei("head")
+                    coda_head.text = block_text
+                    current_coda.append(coda_head)
+                    coda_parent.append(current_coda)
+                    continue
+
+                group_type: str | None = next(
+                    (
+                        configured_type
+                        for configured_type, pattern in profile.get(
+                            "group_heading_patterns", {}
+                        ).items()
+                        if re.match(pattern, canonical)
+                        and (
+                            not profile.get("group_heading_levels", {}).get(
+                                configured_type
+                            )
+                            or local
+                            in profile["group_heading_levels"][configured_type]
+                        )
+                    ),
+                    None,
+                )
+                if group_type is None and canonical.startswith("BOOK "):
                     group_type = "book"
-                elif canonical.startswith("PART "):
+                elif group_type is None and canonical.startswith("PART "):
                     group_type = "part"
-                elif canonical == "EPILOGUE" or canonical.startswith(
-                    ("FIRST EPILOGUE", "SECOND EPILOGUE")
+                elif group_type is None and (
+                    canonical == "EPILOGUE"
+                    or canonical.startswith(("FIRST EPILOGUE", "SECOND EPILOGUE"))
                 ):
                     group_type = "epilogue"
 
@@ -1007,6 +1106,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     current_section = None
                     current_front = None
                     current_back = None
+                    current_coda = None
                     group_level = profile.get("group_levels", {}).get(group_type, 1)
                     parent_levels = [level for level in current_groups if level < group_level]
                     group_parent = (
@@ -1049,6 +1149,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                     section_number = 0
                     current_front = None
                     current_back = None
+                    current_coda = None
                     group_id = current_group.get(f"{{{XML}}}id")
                     current_chapter = tei(
                         "div",
@@ -1135,6 +1236,7 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
                         current_chapter,
                         current_front,
                         current_back,
+                        current_coda,
                         current_group if profile.get("allow_group_content") else None,
                     )
                     if candidate is not None
@@ -1158,19 +1260,21 @@ def build_document(epub_path: Path, text_id: str) -> etree._ElementTree:
     expected_fronts = profile["fronts"]
     expected_backs = profile.get("backs", 0)
     expected_sections = profile.get("sections", 0)
+    expected_codas = profile.get("codas", 0)
     if (
         group_counts != expected_groups
         or total_chapters != expected_chapters
         or front_number != expected_fronts
         or back_number != expected_backs
         or total_sections != expected_sections
+        or coda_number != expected_codas
     ):
         raise ValueError(
             "Unexpected source structure: "
-            f"groups={group_counts}, chapters={total_chapters}, sections={total_sections}, "
+            f"groups={group_counts}, chapters={total_chapters}, sections={total_sections}, codas={coda_number}, "
             f"fronts={front_number}, backs={back_number}; "
             f"expected groups={expected_groups}, chapters={expected_chapters}, "
-            f"sections={expected_sections}, fronts={expected_fronts}, backs={expected_backs}"
+            f"sections={expected_sections}, codas={expected_codas}, fronts={expected_fronts}, backs={expected_backs}"
         )
     relocate_inline_notes(root)
     return etree.ElementTree(root)
