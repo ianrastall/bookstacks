@@ -6,7 +6,7 @@ import { isLocale, ui, type Locale } from './i18n';
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';
-const READING_KIND_PRIORITY = ['scene', 'section', 'chapter', 'stave', 'bekker_page', 'part'];
+const READING_KIND_PRIORITY = ['scene', 'section', 'chapter', 'stave', 'bekker_page', 'part', 'story'];
 const SUPPLEMENTARY_KINDS = new Set([
   'front',
   'foreword',
@@ -51,6 +51,9 @@ const AUTHOR_PROFILES = Object.fromEntries(
 ) as Record<string, Omit<Author, 'works'>>;
 
 const WORK_TITLES: Record<string, string> = {
+  'call-to-arms': 'Call to Arms',
+  'journey-to-the-west': 'Journey to the West',
+  'tao-te-ching': 'Tao Te Ching',
   'a-study-in-scarlet': 'A Study in Scarlet',
   'alcibiades-1': 'Alcibiades I',
   'alcibiades-2': 'Alcibiades II',
@@ -141,6 +144,7 @@ const LANGUAGE_DATA: Record<string, { code: string; name: string }> = {
   spa: { code: 'es', name: 'Spanish' },
   grc: { code: 'grc', name: 'Ancient Greek' },
   rus: { code: 'ru', name: 'Russian' },
+  zho: { code: 'zh-Hans', name: '简体中文' },
 };
 
 export interface Library {
@@ -155,6 +159,7 @@ export interface Author {
   name: string;
   dates: string;
   portrait: string;
+  portraitDescription?: string;
   works: Work[];
 }
 
@@ -171,6 +176,8 @@ export interface Edition {
   languageName: string;
   sourceTitle: string;
   sourceFile: string;
+  sourceDescription?: string;
+  sourceLinks: Array<{ label: string; href: string }>;
   pdfFile?: string;
   pdfHref?: string;
   kind: string;
@@ -320,6 +327,7 @@ export function readingOrganizationLabel(kind: string, locale: Locale): string {
     es: { scene: 'escena', section: 'sección', chapter: 'capítulo', stave: 'estrofa', bekker_page: 'página de Bekker', part: 'parte' },
     grc: { scene: 'σκηνή', section: 'τμῆμα', chapter: 'κεφάλαιον', stave: 'στροφή', bekker_page: 'σελίδα Bekker', part: 'μέρος' },
     ru: { scene: 'сцены', section: 'разделы', chapter: 'главы', stave: 'части', bekker_page: 'страницы Беккера', part: 'части' },
+    'zh-Hans': { scene: '场', section: '节', chapter: '章回', stave: '节', bekker_page: '贝克尔页码', part: '部', story: '篇' },
   };
   return labels[locale][kind] ?? kind.replaceAll('_', ' ');
 }
@@ -381,6 +389,13 @@ function parseEdition(filePath: string): ParsedEdition {
   const sourceTitle = cleanText(sourceTitleNode?.textContent)
     || WORK_TITLES[workSlug]
     || titleFromSlug(workSlug);
+  const sourceDescriptionNode = descendants(descendants(document, 'notesStmt')[0], 'note')
+    .find((node) => node.getAttribute('type') === 'source-description');
+  const sourceDescription = cleanText(sourceDescriptionNode?.textContent) || undefined;
+  const sourceLinks = sourceDescription ? descendants(descendants(document, 'sourceDesc')[0], 'ref')
+    .filter((node) => node.getAttribute('type') === 'source')
+    .map((node) => ({ label: cleanText(node.textContent), href: cleanText(node.getAttribute('target')) }))
+    .filter((link) => /^https?:\/\//.test(link.href)) : [];
   const entities = parseRegistries(document);
   const text = descendants(document, 'text')[0];
   if (!text) throw new Error(`No TEI text element in ${fileName}`);
@@ -454,6 +469,8 @@ function parseEdition(filePath: string): ParsedEdition {
     languageName: language.name,
     sourceTitle,
     sourceFile: fileName,
+    sourceDescription,
+    sourceLinks,
     pdfFile: pdfHref ? pdfName : undefined,
     pdfHref,
     kind,
@@ -975,6 +992,7 @@ function displayKind(kind: string, locale: Locale): string {
     es: { act: 'Acto', scene: 'Escena', chapter: 'Capítulo', section: 'Sección', book: 'Libro', volume: 'Tomo', part: 'Parte', stave: 'Estrofa', introduction: 'Introducción', preface: 'Prefacio', prologue: 'Prólogo', epilogue: 'Epílogo', 'bekker-page': 'Página de Bekker', 'suppressed-chapter': 'Capítulo suprimido' },
     grc: { act: 'Πρᾶξις', scene: 'Σκηνή', chapter: 'Κεφάλαιον', section: 'Τμῆμα', book: 'Βιβλίον', volume: 'Τόμος', part: 'Μέρος', stave: 'Στροφή', introduction: 'Εἰσαγωγή', preface: 'Προοίμιον', prologue: 'Πρόλογος', epilogue: 'Ἐπίλογος', 'bekker-page': 'Σελίς Bekker', 'suppressed-chapter': 'Κεφάλαιον ἀφαιρεθέν' },
     ru: { act: 'Действие', scene: 'Сцена', chapter: 'Глава', section: 'Раздел', book: 'Книга', volume: 'Том', part: 'Часть', stave: 'Часть', introduction: 'Введение', preface: 'Предисловие', prologue: 'Пролог', epilogue: 'Эпилог', 'bekker-page': 'Страница Беккера', 'suppressed-chapter': 'Исключённая глава' },
+    'zh-Hans': { act: '幕', scene: '场', chapter: '章', section: '节', book: '卷', volume: '卷', part: '部', story: '篇', stave: '节', introduction: '导言', preface: '序言', prologue: '序篇', epilogue: '尾声', 'bekker-page': '贝克尔页码', 'suppressed-chapter': '补篇' },
   };
   return labels[locale][normalized]
     ?? normalized.replaceAll('-', ' ').replace(/(^|\s)\S/g, (letter) => letter.toUpperCase());
@@ -989,7 +1007,8 @@ function titleFromSlug(slug: string): string {
 }
 
 function languageOrder(code: string): number {
-  return ['en', 'fr', 'es', 'grc', 'ru'].indexOf(code) === -1 ? 99 : ['en', 'fr', 'es', 'grc', 'ru'].indexOf(code);
+  const order = ['en', 'fr', 'es', 'grc', 'ru', 'zh-Hans'].indexOf(code);
+  return order === -1 ? 99 : order;
 }
 
 function cleanText(value: unknown): string {

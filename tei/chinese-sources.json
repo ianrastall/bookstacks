@@ -1,0 +1,170 @@
+[
+  {
+    "work": "call-to-arms",
+    "key": "preface",
+    "provider": "wikisource",
+    "title": "维基文库：吶喊",
+    "url": "https://zh.wikisource.org/wiki/%E5%90%B6%E5%96%8A",
+    "cache": "wikisource-吶喊.html",
+    "content_sha256": "3ae3abef9e3f616698ffe5ae9fe80b22e8079189db207aa1cadaa80130ffe407",
+    "revision": 11120768
+  },
+  {
+    "work": "call-to-arms",
+    "key": "madmans-diary",
+    "provider": "wikisource",
+    "title": "维基文库：狂人日記",
+    "url": "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+    "cache": "wikisource-狂人日記.html",
+    "content_sha256": "895f5a50c8ce70aa2f7f930018d35a7d158b7c08d23d044618528847333402c2",
+    "revision": 2605391
+  },
+  {
+    "work": "call-to-arms",
+    "key": "kong-yiji",
+    "provider": "wikisource",
+    "title": "维基文库：孔乙己",
+    "url": "https://zh.wikisource.org/wiki/%E5%AD%94%E4%B9%99%E5%B7%B1",
+    "cache": "wikisource-孔乙己.html",
+    "content_sha256": "c1d7df67f9d0b7a1d3886d094c00ac2d8520aba0446273b0464a59ddc1d4047d",
+    "revision": 2605389
+  },
+  {
+    "work": "call-to-arms",
+    "key": "medicine",
+    "provider": "wikisource",
+    "title": "维基文库：藥",
+    "url": "https://zh.wikisource.org/wiki/%E8%97%A5",
+    "cache": "wikisource-藥.html",
+    "content_sha256": "621f18388e491a7d261b614eebe3058e21009e2bf16346af47ded29ab09ad175",
+    "revision": 2523886
+  },
+  {
+    "work": "call-to-arms",
+    "key": "tomorrow",
+    "provider": "wikisource",
+    "title": "维基文库：明天",
+    "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%A4%A9",
+    "cache": "wikisource-明天.html",
+    "content_sha256": "03fafe9241c8d981fb4c845bf166f72d6e82368d11d1e7a7622cf576be78d445",
+    "revision": 2524371
+  },
+  {
+    "work": "call-to-arms",
+    "key": "a-small-incident",
+    "provider": "wikisource",
+    "title": "维基文库：一件小事",
+    "url": "https://zh.wikisource.org/wiki/%E4%B8%80%E4%BB%B6%E5%B0%8F%E4%BA%8B",
+    "cache": "wikisource-一件小事.html",
+    "content_sha256": "e4034a0fc6daa270ebef05ec9fa07aeeb809ef9633757f5f884c3f8b823c7648",
+    "revision": 10675925
+  },
+  {
+    "work": "call-to-arms",
+    "key": "the-story-of-hair",
+    "provider": "wikisource",
+    "title": "维基文库：頭髮的故事",
+    "url": "https://zh.wikisource.org/wiki/%E9%A0%AD%E9%AB%AE%E7%9A%84%E6%95%85%E4%BA%8B",
+    "cache": "wikisource-頭髮的故事.html",
+    "content_sha256": "c884761538231540e05d40ff41d7a2cb89d7247bcf89f1d6a83977639d33e7c0",
+    "revision": 2525914
+  },
+  {
+    "work": "call-to-arms",
+    "key": "a-storm-in-a-teacup",
+    "provider": "wikisource",
+    "title": "维基文库：風波",
+    "url": "https://zh.wikisource.org/wiki/%E9%A2%A8%E6%B3%A2",
+    "cache": "wikisource-風波.html",
+    "content_sha256": "fc8585ebdc7f59a9ce76b0e5fcbfa30cba0aec1ad7e020a265cfbffefadd5ab0",
+    "revision": 2629202
+  },
+  {
+    "work": "call-to-arms",
+    "key": "hometown",
+    "provider": "wikisource",
+    "title": "维基文库：故鄉",
+    "url": "https://zh.wikisource.org/wiki/%E6%95%85%E9%84%89",
+    "cache": "wikisource-故鄉.html",
+    "content_sha256": "0d12064dad2bd634186023b08a271978cb8c749eb703096d3309f5c94b87d831",
+    "revision": 2570945
+  },
+  {
+    "work": "call-to-arms",
+    "key": "the-true-story-of-ah-q",
+    "provider": "wikisource",
+    "title": "维基文库：阿Ｑ正傳",
+    "url": "https://zh.wikisource.org/wiki/%E9%98%BF%EF%BC%B1%E6%AD%A3%E5%82%B3",
+    "cache": "wikisource-阿Ｑ正傳.html",
+    "content_sha256": "f4df68eceff9b7c4c5cd9f8af163d99bbf9064e2c1b9e667ad5ceceb5c1ef9cf",
+    "revision": 2633268
+  },
+  {
+    "work": "call-to-arms",
+    "key": "dragon-boat-festival",
+    "provider": "wikisource",
+    "title": "维基文库：端午節",
+    "url": "https://zh.wikisource.org/wiki/%E7%AB%AF%E5%8D%88%E7%AF%80",
+    "cache": "wikisource-端午節.html",
+    "content_sha256": "51a9a0bfbbd6d4b8b9eab072c0b382547000630ee381b60299afe798266830a4",
+    "revision": 2673910
+  },
+  {
+    "work": "call-to-arms",
+    "key": "the-white-light",
+    "provider": "wikisource",
+    "title": "维基文库：白光",
+    "url": "https://zh.wikisource.org/wiki/%E7%99%BD%E5%85%89",
+    "cache": "wikisource-白光.html",
+    "content_sha256": "e6cb0ea47ddfe2a4a3dd25860e3317f49dfeadbc892574297f79591604cc5bbb",
+    "revision": 2687312
+  },
+  {
+    "work": "call-to-arms",
+    "key": "rabbits-and-cats",
+    "provider": "wikisource",
+    "title": "维基文库：兔和貓",
+    "url": "https://zh.wikisource.org/wiki/%E5%85%94%E5%92%8C%E8%B2%93",
+    "cache": "wikisource-兔和貓.html",
+    "content_sha256": "83b1f907b1abda27e7d12837588aa68059d818770d61d4f26ecb401b6aefa079",
+    "revision": 8736224
+  },
+  {
+    "work": "call-to-arms",
+    "key": "a-comedy-of-ducks",
+    "provider": "wikisource",
+    "title": "维基文库：鴨的喜劇",
+    "url": "https://zh.wikisource.org/wiki/%E9%B4%A8%E7%9A%84%E5%96%9C%E5%8A%87",
+    "cache": "wikisource-鴨的喜劇.html",
+    "content_sha256": "cdf6151bf1520fd27bc3baa216b92837a3c90fd7f8e34f3a21696b3070aafa39",
+    "revision": 9458356
+  },
+  {
+    "work": "call-to-arms",
+    "key": "village-opera",
+    "provider": "wikisource",
+    "title": "维基文库：社戲",
+    "url": "https://zh.wikisource.org/wiki/%E7%A4%BE%E6%88%B2",
+    "cache": "wikisource-社戲.html",
+    "content_sha256": "b241f3e477d769c65ae6dc3a946e0f6695c6a245d9113a2611de5f6c187c4e6c",
+    "revision": 10605419
+  },
+  {
+    "work": "journey-to-the-west",
+    "key": "journey-to-the-west",
+    "provider": "gutenberg",
+    "title": "Project Gutenberg：西游记",
+    "url": "https://www.gutenberg.org/cache/epub/23962/pg23962-images.html",
+    "cache": "23962.html",
+    "content_sha256": "28ef1a612e2efccc78a364a969141f77c6eeb5600549361cb3b177c589ece625"
+  },
+  {
+    "work": "tao-te-ching",
+    "key": "tao-te-ching",
+    "provider": "gutenberg",
+    "title": "Project Gutenberg：道德经",
+    "url": "https://www.gutenberg.org/cache/epub/7337/pg7337-images.html",
+    "cache": "7337.html",
+    "content_sha256": "86439b0cc3b4ec8d33473c366fd6b1303aaa50483971233ea1fc457886aaef63"
+  }
+]

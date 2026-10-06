@@ -66,6 +66,22 @@
 
 html { background: var(--bg); scroll-behavior: smooth; }
 
+html:lang(zh-Hans) body { font-family: "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", "PingFang SC", var(--sans-font); }
+html:lang(zh-Hans) .reader-content {
+  font-family: "Noto Serif CJK SC", "Noto Serif SC", "Songti SC", SimSun, var(--serif-font);
+  line-height: 1.9;
+  line-break: strict;
+  overflow-wrap: anywhere;
+}
+html:lang(zh-Hans) .reader-content :is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", "PingFang SC", var(--sans-font);
+  line-height: 1.6;
+}
+.author-portrait.author-monogram { display: grid; place-items: center; font-size: clamp(4rem, 10vw, 8rem); color: #332a29; aspect-ratio: 1; }
+.edition-source-note { margin: 1.5rem 0; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--panel-muted); line-height: 1.7; }
+.edition-source-note p { margin: 0.5rem 0; }
+.edition-source-note ul { margin: 0.5rem 0 0; padding-left: 1.3rem; }
+
 body {
   margin: 0;
   min-height: 100vh;

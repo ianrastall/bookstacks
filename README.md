@@ -28,7 +28,18 @@ For local review, the Downloads page also detects exporter output at `public/dow
 
 ## Language neighborhoods
 
-Canonical routes begin with a site language (`/en/`, `/fr/`, `/grc/`, or `/ru/`). Choosing a flag changes the interface language and filters the library to editions in that language. Entering a book through one of its language-specific routes does the same. Legacy unprefixed reading routes redirect to the corresponding canonical neighborhood.
+Canonical routes begin with a site language (`/en/`, `/fr/`, `/es/`, `/grc/`, `/ru/`, or `/zh-Hans/`). Choosing a flag changes the interface language and filters the library to editions in that language. Entering a book through one of its language-specific routes does the same. Legacy unprefixed reading routes redirect to the corresponding canonical neighborhood.
+
+The Simplified Chinese neighborhood contains Lu Xun’s *Call to Arms* (preface
+and 14 stories), *Journey to the West* (100 chapters), and *Tao Te Ching*
+(81 chapters). Its interface, contents, reading controls, and download pages
+use Simplified Chinese. Book pages identify the selected text sources and
+character conversion. The Chinese authors have engraved illustration portraits
+matching the existing shelf. Lu Xun follows his documented photographic appearance;
+Wu Cheng’en and Laozi use traditional artistic representations, identified in
+the image descriptions. Generation prompts are recorded in
+`public/img/authors/chinese-portraits.md`. Author cards use character monograms
+where no portrait has been supplied.
 
 TEI notes are rendered as numbered, keyboard-accessible popovers in the web reader.
 

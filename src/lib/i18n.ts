@@ -4,6 +4,7 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'es', teiCode: 'spa', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸' },
   { code: 'grc', teiCode: 'grc', name: 'Ancient Greek', nativeName: 'Ἑλληνική', flag: '🇬🇷' },
   { code: 'ru', teiCode: 'rus', name: 'Russian', nativeName: 'Русский', flag: '🇷🇺' },
+  { code: 'zh-Hans', teiCode: 'zho', name: 'Simplified Chinese', nativeName: '简体中文', flag: '🇨🇳' },
 ] as const;
 
 export type Locale = typeof SUPPORTED_LANGUAGES[number]['code'];
@@ -71,6 +72,7 @@ export interface UiStrings {
   closeFootnote: string;
   automaticTranslationNote: string;
   editionStructureNote: string;
+  sources: string;
   noBooks: string;
   colors: Record<string, string>;
 }
@@ -140,6 +142,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     automaticTranslationNote: 'Automatic browser translation is disabled for this source-language edition.',
     editionStructureNote: 'This is a complete, standalone TEI edition whose own hierarchy is preserved; translations are not forced into artificial chapter-by-chapter alignment.',
     noBooks: 'No books are currently available in this language.',
+    sources: 'Text sources',
     colors: { blue: 'Blue', green: 'Green', red: 'Red', orange: 'Ochre', indigo: 'Indigo', brown: 'Brown', coral: 'Coral' },
   },
   fr: {
@@ -198,6 +201,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     automaticTranslationNote: 'La traduction automatique du navigateur est désactivée pour préserver cette édition dans sa langue source.',
     editionStructureNote: 'Il s’agit d’une édition TEI complète et autonome dont la hiérarchie propre est conservée ; les traductions ne sont pas artificiellement alignées chapitre par chapitre.',
     noBooks: 'Aucun livre n’est actuellement disponible dans cette langue.',
+    sources: 'Sources du texte',
     colors: { blue: 'Bleu', green: 'Vert', red: 'Rouge', orange: 'Ocre', indigo: 'Indigo', brown: 'Brun', coral: 'Corail' },
   },
   es: {
@@ -256,6 +260,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     automaticTranslationNote: 'La traducción automática del navegador está desactivada para conservar el idioma de esta edición.',
     editionStructureNote: 'Esta es una edición TEI completa e independiente que conserva su propia estructura; las traducciones no se alinean artificialmente escena por escena.',
     noBooks: 'Actualmente no hay libros disponibles en este idioma.',
+    sources: 'Fuentes del texto',
     colors: { blue: 'Azul', green: 'Verde', red: 'Rojo', orange: 'Ocre', indigo: 'Índigo', brown: 'Marrón', coral: 'Coral' },
   },
   grc: {
@@ -314,6 +319,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     automaticTranslationNote: 'Ἡ αὐτόματος μετάφρασις κέκλεισται, ἵνα ἡ γλῶττα σώζηται.',
     editionStructureNote: 'Ἡ ἔκδοσις αὕτη τελεία καὶ αὐτοτελής ἐστι, τὴν οἰκείαν τάξιν φυλάττουσα.',
     noBooks: 'Οὐδὲν βιβλίον ταύτῃ τῇ γλώττῃ πάρεστιν.',
+    sources: 'Πηγαί',
     colors: { blue: 'Κυανοῦν', green: 'Πράσινον', red: 'Ἐρυθρόν', orange: 'Ὦχρα', indigo: 'Ἰνδικόν', brown: 'Φαιόν', coral: 'Κοράλλιον' },
   },
   ru: {
@@ -372,7 +378,67 @@ const STRINGS: Record<Locale, UiStrings> = {
     automaticTranslationNote: 'Автоматический перевод браузера отключён, чтобы сохранить язык исходного издания.',
     editionStructureNote: 'Это полное самостоятельное издание TEI с сохранённой собственной структурой; переводы не выравниваются искусственно по главам.',
     noBooks: 'На этом языке пока нет доступных книг.',
+    sources: 'Источники текста',
     colors: { blue: 'Синий', green: 'Зелёный', red: 'Красный', orange: 'Охра', indigo: 'Индиго', brown: 'Коричневый', coral: 'Коралловый' },
+  },
+  'zh-Hans': {
+    siteDescription: '精选公版文学图书馆。',
+    skipToContent: '跳转到正文',
+    library: '图书馆',
+    home: '首页',
+    siteNetwork: '相关网站',
+    chooseLanguage: '选择语言',
+    allLanguages: '所有语言',
+    chooseColorTheme: '选择主题颜色',
+    colorThemes: '主题颜色',
+    toggleTheme: '切换主题',
+    switchToLight: '切换为浅色主题',
+    switchToDark: '切换为深色主题',
+    curatedLibrary: '精选公版文学图书馆。Bookstacks 在浏览器中运行；部分工具可能访问外部服务。',
+    support: '如果这个网站对您有所帮助，欢迎通过 Ko-fi 支持 Bookstacks。',
+    librarySummary: (authors, books, editions, units) => `精选简体中文书目：${authors} 位作者、${books} 部作品、${editions} 个 TEI 版本，共 ${units} 个阅读单元。`,
+    booksBy: (name) => `${name}的作品`,
+    byAuthor: (name) => `作者：${name}`,
+    bookCount: (count) => `${count} 部作品`,
+    editionCount: (count) => `${count} 个版本`,
+    readingUnitCount: (count) => `${count} 个阅读单元`,
+    organizedBy: (kind) => `按${kind}编排`,
+    availableInLanguage: (language) => `可阅读语言：${language}`,
+    startReading: '开始阅读',
+    continueReading: '继续阅读',
+    otherEditions: '其他版本',
+    contents: '目录',
+    frontMatter: '卷首',
+    backMatter: '卷末',
+    downloads: '下载',
+    downloadEdition: '下载本版本',
+    downloadFormatsNote: '每个版本均提供 TEI 源文件；仅在有配套文件时提供 PDF。',
+    author: '作者',
+    title: '书名',
+    files: '文件',
+    people: '人物',
+    places: '地点',
+    registries: (people, places) => `TEI 名录（${people} 位人物、${places} 个地点）`,
+    previous: '上一节',
+    next: '下一节',
+    readingOrder: '阅读顺序',
+    readingControls: '阅读设置与导航',
+    textWidth: '正文宽度',
+    textSize: '字号',
+    narrowText: '缩小正文宽度',
+    widenText: '增大正文宽度',
+    decreaseText: '缩小字号',
+    increaseText: '增大字号',
+    serifCascade: '宋体字体',
+    sansCascade: '黑体字体',
+    fontNote: '中文优先使用系统中已安装的宋体或黑体；西文使用所选字体。',
+    footnote: '注释',
+    closeFootnote: '关闭注释',
+    automaticTranslationNote: '已关闭浏览器自动翻译，以保留本版本的原文。',
+    editionStructureNote: '本版本收录中文原文，以简体字呈现，并保留所选底本的篇章结构。',
+    sources: '文本来源',
+    noBooks: '暂无此语言的图书。',
+    colors: { blue: '蓝色', green: '绿色', red: '红色', orange: '赭色', indigo: '靛色', brown: '棕色', coral: '珊瑚色' },
   },
 };
 

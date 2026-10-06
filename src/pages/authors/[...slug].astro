@@ -6,15 +6,22 @@ import {
   localizedUnitHref,
   localizedWorkHref,
 } from '../../lib/library';
+import { isLocale } from '../../lib/i18n';
 
 interface Props { target: string }
 
 export function getStaticPaths() {
   const paths: Array<{ params: { slug: string }; props: Props }> = [];
   for (const author of getLibrary().authors) {
-    paths.push({ params: { slug: author.slug }, props: { target: localizedAuthorHref(author, 'en') } });
+    const firstCode = author.works[0]?.editions[0]?.code ?? 'en';
+    const authorLocale = author.works.some((work) => work.editions.some((edition) => edition.code === 'en'))
+      ? 'en' : isLocale(firstCode) ? firstCode : 'en';
+    paths.push({ params: { slug: author.slug }, props: { target: localizedAuthorHref(author, authorLocale) } });
     for (const work of author.works) {
-      paths.push({ params: { slug: `${author.slug}/${work.slug}` }, props: { target: localizedWorkHref(work, 'en') } });
+      const workCode = work.editions[0]?.code ?? 'en';
+      const workLocale = work.editions.some((edition) => edition.code === 'en')
+        ? 'en' : isLocale(workCode) ? workCode : 'en';
+      paths.push({ params: { slug: `${author.slug}/${work.slug}` }, props: { target: localizedWorkHref(work, workLocale) } });
       for (const edition of work.editions) {
         paths.push({
           params: { slug: `${author.slug}/${work.slug}/${edition.code}` },

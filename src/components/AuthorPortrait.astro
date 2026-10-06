@@ -1,0 +1,10 @@
+---
+import type { Author } from '../lib/library';
+interface Props { author: Author; lazy?: boolean }
+const { author, lazy = false } = Astro.props;
+---
+{author.portrait ? (
+  <img src={`/img/authors/${author.portrait}`} alt={author.portraitDescription ?? author.name} title={author.portraitDescription} class="author-portrait" style={author.portraitDescription ? 'mix-blend-mode: multiply' : undefined} width="500" height="500" loading={lazy ? 'lazy' : 'eager'} />
+) : (
+  <div class="author-portrait author-monogram" aria-hidden="true">{Array.from(author.name)[0]}</div>
+)}

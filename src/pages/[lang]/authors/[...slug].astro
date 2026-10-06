@@ -2,6 +2,7 @@
 import TocTree from '../../../components/TocTree.astro';
 import EditionDownloads from '../../../components/EditionDownloads.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import AuthorPortrait from '../../../components/AuthorPortrait.astro';
 import {
   editionForLocale,
   getLibrary,
@@ -94,7 +95,7 @@ const authorWorks = page.kind === 'author'
       </div>
       <p class="tool-description">{labels.booksBy(page.author.name)}</p>
       <div class="author-hero">
-        <img src={`/img/authors/${page.author.portrait}`} alt={page.author.name} class="author-portrait" width="500" height="500" />
+        <AuthorPortrait author={page.author} />
       </div>
       <div class="tool-grid">
         {authorWorks.map(({ work, edition }) => (
@@ -130,6 +131,13 @@ const authorWorks = page.kind === 'author'
         </div>
       </div>
       <p class="edition-note">{labels.editionStructureNote}</p>
+      {page.edition.sourceDescription && (
+        <aside class="edition-source-note">
+          <strong>{labels.sources}</strong>
+          <p>{page.edition.sourceDescription}</p>
+          <ul>{page.edition.sourceLinks.map((source) => <li><a href={source.href}>{source.label}</a></li>)}</ul>
+        </aside>
+      )}
       <article class="edition-panel edition-contents">
         <header class="edition-header">
           <div>

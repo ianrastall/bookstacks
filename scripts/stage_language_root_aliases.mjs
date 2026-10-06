@@ -5,7 +5,7 @@ import path from 'node:path';
 
 const root = path.resolve(import.meta.dirname, '..');
 const outputRoot = path.join(root, 'dist');
-const locales = ['en', 'fr', 'es', 'grc', 'ru'];
+const locales = ['en', 'fr', 'es', 'grc', 'ru', 'zh-Hans'];
 
 for (const locale of locales) {
   const source = path.join(outputRoot, `${locale}.html`);
