@@ -1,22 +1,20 @@
 ---
 import {
   getLibrary,
-  localizedAuthorHref,
   localizedEditionHref,
   localizedUnitHref,
   localizedWorkHref,
 } from '../../lib/library';
 import { isLocale } from '../../lib/i18n';
 
-interface Props { target: string }
+import AuthorPage from '../../components/AuthorPage.astro';
+import type { Author } from '../../lib/library';
+interface Props { target?: string; author?: Author }
 
 export function getStaticPaths() {
   const paths: Array<{ params: { slug: string }; props: Props }> = [];
   for (const author of getLibrary().authors) {
-    const firstCode = author.works[0]?.editions[0]?.code ?? 'en';
-    const authorLocale = author.works.some((work) => work.editions.some((edition) => edition.code === 'en'))
-      ? 'en' : isLocale(firstCode) ? firstCode : 'en';
-    paths.push({ params: { slug: author.slug }, props: { target: localizedAuthorHref(author, authorLocale) } });
+    paths.push({ params: { slug: author.slug }, props: { author } });
     for (const work of author.works) {
       const workCode = work.editions[0]?.code ?? 'en';
       const workLocale = work.editions.some((edition) => edition.code === 'en')
@@ -39,5 +37,7 @@ export function getStaticPaths() {
   return paths;
 }
 
-return Astro.redirect(Astro.props.target, 301);
+if (Astro.props.target) return Astro.redirect(Astro.props.target, 301);
 ---
+
+{Astro.props.author && <AuthorPage author={Astro.props.author} />}

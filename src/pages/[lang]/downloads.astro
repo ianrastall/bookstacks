@@ -1,39 +1,7 @@
 ---
-import DownloadsTable from '../../components/DownloadsTable.astro';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import { editionForLocale, getLibrary, type Author, type Edition, type Work } from '../../lib/library';
-import { SUPPORTED_LANGUAGES, isLocale, ui, type Locale } from '../../lib/i18n';
-
-interface DownloadEntry { author: Author; work: Work; edition: Edition }
-
-export function getStaticPaths() {
-  return SUPPORTED_LANGUAGES.map((language) => ({ params: { lang: language.code } }));
-}
-
-const requestedLocale = String(Astro.params.lang ?? 'en');
-const locale: Locale = isLocale(requestedLocale) ? requestedLocale : 'en';
-const labels = ui(locale);
-const entries: DownloadEntry[] = getLibrary().authors.flatMap((author) => author.works.flatMap((work) => {
-  const edition = editionForLocale(work, locale);
-  return edition ? [{ author, work, edition }] : [];
-}));
-const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [language.code, `/${language.code}/downloads`])) as Record<Locale, string>;
+import DownloadsPage from '../../components/DownloadsPage.astro';
+import { SUPPORTED_LANGUAGES,type Locale } from '../../lib/i18n';
+export function getStaticPaths() { return SUPPORTED_LANGUAGES.map(language=>({params:{lang:language.code}})); }
+const locale=Astro.params.lang as Locale;
 ---
-
-<BaseLayout title={labels.downloads} description={labels.downloadFormatsNote} locale={locale} languageLinks={languageLinks}>
-  <section class="tool-container shell downloads-page">
-    <div class="tool-header">
-      <div class="tool-title">
-        <span class="material-icons" aria-hidden="true">download</span>
-        <div>
-          <h1>{labels.downloads}</h1>
-          <p class="tool-description">{labels.downloadFormatsNote}</p>
-        </div>
-      </div>
-    </div>
-
-    {entries.length ? (
-      <DownloadsTable entries={entries} locale={locale} />
-    ) : <p class="empty-state">{labels.noBooks}</p>}
-  </section>
-</BaseLayout>
+<DownloadsPage locale={locale} />

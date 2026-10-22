@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AuthorPortrait from './AuthorPortrait.astro';
+import { localizedEditionHref, type Author } from '../lib/library';
+import { isLocale, languageData, type Locale } from '../lib/i18n';
+interface Props { author: Author; locale?: Locale }
+const {author,locale='en'}=Astro.props;
+---
+<BaseLayout title={author.name} locale={locale}>
+ <section class="tool-container shell">
+  <h1>{author.name}</h1><p class="author-dates">{author.dates}</p>
+  <div class="author-hero"><AuthorPortrait author={author} /></div>
+  <div class="tool-grid">
+   {author.works.map(work=><article class="tool-card book-card">
+    <h2 lang="en">{work.title}</h2>
+    <ul class="edition-list">{work.editions.map(edition=><li>
+     <a class="book-card-main" href={localizedEditionHref(work,edition)} lang={edition.code} translate="no">{edition.sourceTitle}</a>
+     <span class="edition-language" lang={edition.code} translate="no">{isLocale(edition.code) ? languageData(edition.code).nativeName : edition.languageName}</span>
+    </li>)}</ul>
+   </article>)}
+  </div>
+ </section>
+</BaseLayout>

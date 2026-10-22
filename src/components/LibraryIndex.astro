@@ -1,9 +1,10 @@
 ---
+import T from './InterfaceText.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { jupiterUi } from '../lib/jupiter-ui';
+import { text } from '../lib/interface';
 import AuthorPortrait from './AuthorPortrait.astro';
-import { getLibrary, localizedAuthorHref } from '../lib/library';
-import { SUPPORTED_LANGUAGES, ui, type Locale } from '../lib/i18n';
+import { getLibrary } from '../lib/library';
+import { ui, type Locale } from '../lib/i18n';
 
 interface Props {
   locale: Locale;
@@ -12,49 +13,40 @@ interface Props {
 const { locale } = Astro.props;
 const labels = ui(locale);
 const library = getLibrary();
-const authors = library.authors
-  .map((author) => ({
-    ...author,
-    works: author.works.filter((work) => work.editions.some((edition) => edition.code === locale)),
-  }))
-  .filter((author) => author.works.length > 0);
-const editionCount = authors.reduce((sum, author) => sum + author.works.length, 0);
-const unitCount = authors.reduce((sum, author) => sum + author.works.reduce((workSum, work) => {
-  return workSum + (work.editions.find((edition) => edition.code === locale)?.units.length ?? 0);
-}, 0), 0);
-const libraryDescription = `${labels.bookCount(editionCount)} · ${labels.readingUnitCount(unitCount)}`;
-const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [language.code, `/${language.code}`])) as Record<Locale, string>;
+const authors = library.authors;
+const editionCount = authors.reduce((sum,author)=>sum+author.works.reduce((n,work)=>n+work.editions.length,0),0);
+const libraryDescription = labels.editionCount(editionCount);
 ---
 
-<BaseLayout title={labels.library} description={libraryDescription} locale={locale} languageLinks={languageLinks}>
+<BaseLayout title={text(locale,"c.2")} titleKey="c.2" description={libraryDescription} locale={locale}>
   <section class="tool-container shell" style="margin-top: 2rem;">
-    <h1 class="visually-hidden">{labels.library}</h1>
+    <h1 class="visually-hidden"><T locale={locale} k="c.2" /></h1>
     <div class="tool-header">
       <div class="tool-title">
         <span class="material-icons" aria-hidden="true">library_books</span>
-        <h2>{labels.library}</h2>
+        <h2><T locale={locale} k="c.2" /></h2>
       </div>
     </div>
-    <p class="tool-description">{libraryDescription}</p><div class="author-filter"><label for="author-search">{jupiterUi(locale)[13]}</label><input id="author-search" type="search" /></div><p id="author-empty" hidden>{jupiterUi(locale)[14]}</p>
+    <p class="tool-description"><T locale={locale} k="editionCount" args={[editionCount]} /></p><div class="author-filter"><label for="author-search"><T locale={locale} k="c.8" /></label><input id="author-search" type="search" /></div><p id="author-empty" hidden><T locale={locale} k="c.7" /></p>
     {authors.length > 0 ? (
       <div class="tool-grid author-grid">
         {authors.map((author) => {
-          const editionTotal = author.works.length;
+          const editionTotal = author.works.reduce((sum,work)=>sum+work.editions.length,0);
           return (
-            <a class="tool-card author-card" data-author-search={`${author.name} ${author.works.map(work=>work.editions.find(e=>e.code===locale)?.sourceTitle || work.title).join(' ')}`} href={localizedAuthorHref(author, locale)}>
+            <a class="tool-card author-card" data-author-search={`${author.name} ${author.works.flatMap(work=>[work.title,...work.editions.map(e=>e.sourceTitle)]).join(' ')}`} href={`/authors/${author.slug}`}>
               <div class="author-card-media">
                 <AuthorPortrait author={author} lazy />
               </div>
               <div class="author-card-body">
                 <h3 class="author-name">{author.name}</h3>
                 <p class="author-dates">{author.dates}</p>
-                <p class="author-book-count">{labels.bookCount(author.works.length)} · {labels.editionCount(editionTotal)}</p>
+                <p class="author-book-count"><T locale={locale} k="bookCount" args={[author.works.length]} /> · <T locale={locale} k="editionCount" args={[editionTotal]} /></p>
               </div>
             </a>
           );
         })}
       </div>
-    ) : <p class="empty-state">{labels.noBooks}</p>}
+    ) : <p class="empty-state"><T locale={locale} k="noBooks" /></p>}
   </section>
 </BaseLayout>
 

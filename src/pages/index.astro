@@ -1,19 +1,4 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import { getLibrary,localizedEditionHref,localizedUnitHref } from '../lib/library';
-import { SUPPORTED_LANGUAGES,isLocale,languageData } from '../lib/i18n';
-const library=getLibrary();
-const entries=library.authors.flatMap(author=>author.works.flatMap(work=>work.editions.filter(edition=>isLocale(edition.code)).map(edition=>({author,work,edition}))));
-const languageLinks=Object.fromEntries(SUPPORTED_LANGUAGES.map(l=>[l.code,`/${l.code}`]));
+import Catalogue from '../components/Catalogue.astro';
 ---
-<BaseLayout title="Bookstacks" description="Books, authors, language editions and reading downloads." languageLinks={languageLinks}>
-  <section class="shell catalogue-page">
-    <div class="catalogue-heading"><h1>Library</h1><p>{library.authors.length} authors · {library.workCount} works · {entries.length} editions</p></div>
-    <nav class="library-languages" aria-label="Browse authors by language">{SUPPORTED_LANGUAGES.map(language=><a href={`/${language.code}`} lang={language.code}>{language.nativeName}<span>{entries.filter(e=>e.edition.code===language.code).length}</span></a>)}</nav>
-    <div class="catalogue-controls"><div class="field wide-field"><label for="book-search">Search authors and titles</label><input type="search" id="book-search" disabled /></div><div class="field"><label for="book-language">Language</label><select id="book-language" disabled><option value="">All languages</option>{SUPPORTED_LANGUAGES.map(l=><option value={l.code}>{l.nativeName}</option>)}</select></div><div class="field"><label for="book-author">Author</label><select id="book-author" disabled><option value="">All authors</option>{library.authors.map(a=><option value={a.slug}>{a.name}</option>)}</select></div></div>
-    <p id="book-count" class="catalogue-status" role="status">{entries.length} editions</p>
-    <div class="book-table-wrap"><table class="book-table"><thead><tr><th scope="col">Title / author</th><th scope="col">Language</th><th scope="col">Read</th></tr></thead><tbody>{entries.map(({author,work,edition})=><tr data-book-row data-search={`${author.name} ${work.title} ${edition.sourceTitle}`} data-author={author.slug} data-language={edition.code}><td><a class="book-title" href={localizedEditionHref(work,edition)} lang={edition.code}>{edition.sourceTitle}</a><span class="book-author">{author.name}</span></td><td>{isLocale(edition.code) ? languageData(edition.code).nativeName : edition.languageName}</td><td>{edition.units[0]&&<a class="read-link" href={localizedUnitHref(work,edition,edition.units[0])} aria-label={`Read ${edition.sourceTitle}`}>Read →</a>}</td></tr>)}</tbody></table></div>
-    <p id="book-empty" class="catalogue-status" hidden>No matching books.</p><div id="book-pagination" class="catalogue-pagination" hidden><button id="book-previous" type="button">← Previous</button><span id="book-page"></span><button id="book-next" type="button">Next →</button></div>
-  </section>
-</BaseLayout>
-<script src="../scripts/catalogue.ts"></script>
+<Catalogue />

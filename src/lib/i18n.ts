@@ -435,7 +435,7 @@ const STRINGS: Record<Locale, UiStrings> = {
     footnote: '注释',
     closeFootnote: '关闭注释',
     automaticTranslationNote: '已关闭浏览器自动翻译，以保留本版本的原文。',
-    editionStructureNote: '本版本收录中文原文，以简体字呈现，并保留所选底本的篇章结构。',
+    editionStructureNote: '这是完整且独立的 TEI 版本，保留其自身的篇章结构；不同译本不强行按章节对齐。',
     sources: '文本来源',
     noBooks: '暂无此语言的图书。',
     colors: { blue: '蓝色', green: '绿色', red: '红色', orange: '赭色', indigo: '靛色', brown: '棕色', coral: '珊瑚色' },

@@ -1,20 +1,21 @@
 ---
+import T from '../components/InterfaceText.astro';
 import '../styles/global.css';
 import '../styles/jupiter.css';
 import 'material-icons/iconfont/filled.css';
 import { ArrowUpRight,BookOpen,Download } from '@lucide/astro';
+import { text } from '../lib/interface';
 import Appearance from '../components/jupiter/Appearance.astro';
 import { SUPPORTED_LANGUAGES,ui,type Locale } from '../lib/i18n';
-import { jupiterUi } from '../lib/jupiter-ui';
-interface Props { title:string;description?:string;wide?:boolean;locale?:Locale;languageLinks?:Partial<Record<Locale,string>>; }
-const {title,locale='en',languageLinks={},description=ui(locale).siteDescription,wide=false}=Astro.props;
-const labels=ui(locale),t=jupiterUi(locale);
+interface Props { title:string;description?:string;wide?:boolean;locale?:Locale;titleKey?:string; }
+const {title,titleKey,locale='en',description=ui(locale).siteDescription,wide=false}=Astro.props;
+const labels=ui(locale);
 const pageTitle=title==='Bookstacks' ? title : `${title} · Bookstacks`;
 const routePath=Astro.url.pathname.replace(/\.html$/,'');
 const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
 ---
 <!doctype html>
-<html lang={locale} data-theme="dark" data-reader-page={wide ? 'true' : undefined}>
+<html lang={locale} data-title-key={titleKey} data-theme="dark" data-reader-page={wide ? 'true' : undefined}>
   <head>
     <!-- Google tag (gtag.js) -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-CSSQ9K2FFC"></script>
@@ -29,10 +30,6 @@ const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
     <meta name="description" content={description} />
     <title>{pageTitle}</title>
     <link rel="canonical" href={new URL(canonicalPath, Astro.site)} />
-    <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site)} />
-    {SUPPORTED_LANGUAGES.map((language) => (
-      <link rel="alternate" hreflang={language.code} href={new URL(languageLinks[language.code] ?? `/${language.code}`, Astro.site)} />
-    ))}
     <slot name="head" />
     <script is:inline>
       try {
@@ -50,14 +47,30 @@ const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
     </script>
   </head>
   <body>
-    <a class="skip-link" href="#content">{labels.skipToContent}</a>
+    <a class="skip-link" href="#content"><T locale={locale} k="skipToContent" /></a>
     <header class="site-header">
-      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"><BookOpen size={21} /></span><span>Bookstacks<small>A Jupiter project</small></span></a>
-      <nav class="site-network" aria-label={labels.siteNetwork}><a href="https://text-utils.net">Text Utilities <ArrowUpRight size={13} aria-hidden="true" /></a><a href="https://chessnerd.net">Chess Nerd <ArrowUpRight size={13} aria-hidden="true" /></a><a href="/" class="network-current" aria-current="true">Bookstacks</a></nav>
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"><BookOpen size={21} /></span><span>Bookstacks<small lang="en">A Jupiter project</small></span></a>
+      <nav class="site-network" aria-label={labels.siteNetwork} data-i18n-aria-label="siteNetwork"><a href="https://text-utils.net">Text Utilities <ArrowUpRight size={13} aria-hidden="true" /></a><a href="https://chessnerd.net">Chess Nerd <ArrowUpRight size={13} aria-hidden="true" /></a><a href="/" class="network-current" aria-current="true">Bookstacks</a></nav>
       <Appearance locale={locale} />
     </header>
-    <div class="library-nav shell"><nav aria-label={labels.library}><a href="/"><BookOpen size={15} aria-hidden="true" />{labels.allLanguages}</a><a href={`/${locale}`}>{labels.library}</a><a href={`/${locale}/downloads`}><Download size={15} aria-hidden="true" />{labels.downloads}</a></nav><nav class="language-switcher" aria-label={labels.chooseLanguage}>{SUPPORTED_LANGUAGES.map(language=><a class="language-option" href={languageLinks[language.code] ?? `/${language.code}`} aria-current={canonicalPath!=='/'&&language.code===locale?'page':undefined} lang={language.code} hreflang={language.code} title={language.nativeName}><span aria-hidden="true">{language.flag}</span><span>{language.nativeName}</span></a>)}</nav></div>
+    <div class="library-nav shell">
+      <nav aria-label={labels.library} data-i18n-aria-label="library">
+        <a href="/"><BookOpen size={15} aria-hidden="true" /><T locale={locale} k="library" /></a>
+        <a href="/authors"><T locale={locale} k="c.2" /></a>
+        <a href="/downloads"><Download size={15} aria-hidden="true" /><T locale={locale} k="downloads" /></a>
+      </nav>
+      <div class="interface-choice field">
+        <label for="interface-language"><T locale={locale} k="c.0" /></label>
+        <select id="interface-language" disabled>
+          <option value="auto" data-i18n="c.1">{text(locale,'c.1')}</option>
+          {SUPPORTED_LANGUAGES.map(language=><option value={language.code} lang={language.code}>{language.nativeName}</option>)}
+        </select>
+      </div>
+      <span id="interface-feedback" class="visually-hidden" role="status"></span>
+      <noscript><nav aria-label={labels.chooseLanguage}>{SUPPORTED_LANGUAGES.map(language=><a href={`/${language.code}`} lang={language.code}>{language.nativeName}</a>)}</nav></noscript>
+    </div>
     <main id="content"><slot /></main>
-    <footer class="site-footer shell"><strong>Bookstacks</strong><nav aria-label={labels.siteNetwork}><a href="https://github.com/ianrastall/bookstacks">{t[17]} ↗</a><a href="https://ko-fi.com/ianrastall">{t[15]} ↗</a></nav></footer>
+    <footer class="site-footer shell"><strong>Bookstacks</strong><nav aria-label={labels.siteNetwork} data-i18n-aria-label="siteNetwork"><a href="https://github.com/ianrastall/bookstacks"><T locale={locale} k="j.17" /> ↗</a><a href="https://ko-fi.com/ianrastall"><T locale={locale} k="j.15" /> ↗</a></nav></footer>
+    <script>import '../scripts/interface';</script>
   </body>
 </html>

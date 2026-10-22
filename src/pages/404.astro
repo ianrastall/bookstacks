@@ -1,12 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import T from '../components/InterfaceText.astro';
 ---
-
-<BaseLayout title="Page not found">
-  <section class="empty-state">
-    <p class="eyebrow">404</p>
-    <h1>This page is not on the shelf.</h1>
-    <p>The address may belong to an older edition of Bookstacks.</p>
-    <a class="button" href="/">Return to the library</a>
-  </section>
+<BaseLayout title="Page not found" titleKey="c.9">
+ <section class="empty-state"><p>404</p><h1><T locale="en" k="c.9" /></h1><a href="/"><T locale="en" k="c.10" /></a></section>
 </BaseLayout>

@@ -1,0 +1,32 @@
+---
+import T from './InterfaceText.astro';
+import DownloadsTable from './DownloadsTable.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getLibrary, type Author, type Edition, type Work } from '../lib/library';
+import { ui, type Locale } from '../lib/i18n';
+
+interface DownloadEntry { author: Author; work: Work; edition: Edition }
+
+interface Props { locale?: Locale }
+const {locale='en'}=Astro.props;
+const labels = ui(locale);
+const entries: DownloadEntry[] = getLibrary().authors.flatMap(author=>author.works.flatMap(work=>work.editions.map(edition=>({author,work,edition}))));
+---
+
+<BaseLayout title={labels.downloads} titleKey="downloads" description={labels.downloadFormatsNote} locale={locale}>
+  <section class="tool-container shell downloads-page">
+    <div class="tool-header">
+      <div class="tool-title">
+        <span class="material-icons" aria-hidden="true">download</span>
+        <div>
+          <h1><T locale={locale} k="downloads" /></h1>
+          <p class="tool-description"><T locale={locale} k="downloadFormatsNote" /></p>
+        </div>
+      </div>
+    </div>
+
+    {entries.length ? (
+      <DownloadsTable entries={entries} locale={locale} />
+    ) : <p class="empty-state"><T locale={locale} k="noBooks" /></p>}
+  </section>
+</BaseLayout>

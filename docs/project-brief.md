@@ -48,3 +48,11 @@ The source map records associated inventory entries; grouping is a review relati
 6. Migrate/expand only with data and existing behavior preserved.
 
 Ian selected Bookstacks as the third website on 22 October 2026. The implementation is recorded in [jupiter-web.md](jupiter-web.md). The principal checkout is now D:/jupiter/bookstacks; other checkouts and their local work remain intact.
+
+## Unified library and interface localization
+
+Ian's direction, 22 October 2026: revisit the overall structure next time. He dislikes separating the library into language neighborhoods. Prefer one unified library organized around authors, works and editions, with internationalization in the W3C sense: browser language preferences can select the interface language, with a visible manual choice and a remembered override.
+
+Keep interface language separate from the language of a book or translation. Edition language should remain metadata and a useful filter; changing interface language should not silently change the selected edition or assume equivalent chapter structures. Review W3C internationalization guidance, language metadata, accessibility, fallback behavior and preservation of existing URLs when planning the change.
+
+Ian resumed this work on 22 October 2026. The unified catalogue, author shelves, downloads and independent interface-language selection are now implemented; see [the implementation record](jupiter-web.md#unified-library-and-independent-interface-language--22-october-2026).
