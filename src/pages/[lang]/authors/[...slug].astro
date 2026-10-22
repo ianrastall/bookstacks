@@ -180,7 +180,7 @@ const authorWorks = page.kind === 'author'
       <div class="chapter-layout">
         <article class="reader-content" set:html={page.unit.html} />
         <aside class="chapter-sidebar" aria-label={labels.readingControls}>
-          <div class="reader-controls panel">
+          <details class="reader-controls panel" open><summary>{labels.readingControls}</summary>
             <strong>{page.edition.sourceTitle}</strong>
             {page.work.editions.length > 1 && (
               <details class="other-editions">
@@ -225,7 +225,7 @@ const authorWorks = page.kind === 'author'
               </label>
               <p class="reader-font-note" id="reader-font-note">{labels.fontNote}</p>
             </div>
-          </div>
+          </details>
           <nav class="chapter-navigation" aria-label={labels.readingOrder}>
             {page.unit.previousPath ? <a class="btn btn-secondary chapter-nav-button" rel="prev" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.previousPath}`}><span class="material-icons" aria-hidden="true">arrow_back</span>{labels.previous}</a> : <span class="btn btn-secondary chapter-nav-button is-disabled">{labels.previous}</span>}
             <a class="btn btn-secondary chapter-nav-button" href={localizedEditionHref(page.work, page.edition)}><span class="material-icons" aria-hidden="true">list</span>{labels.contents}</a>
@@ -235,8 +235,12 @@ const authorWorks = page.kind === 'author'
       </div>
       <script>
         const readerRoot = document.documentElement;
-        let width = Number(localStorage.getItem('bookstacks-reader-width') || 44);
-        let scale = Number(localStorage.getItem('bookstacks-reader-scale') || 1);
+        const controls=document.querySelector<HTMLDetailsElement>('.reader-controls')!;
+        const compact=matchMedia('(max-width:760px)');controls.open=!compact.matches;compact.addEventListener('change',()=>controls.open=!compact.matches);
+        const readSetting=(key:string)=>{try{return localStorage.getItem(key);}catch{return null;}};
+        const saveSetting=(key:string,value:string)=>{try{localStorage.setItem(key,value);}catch{/* Settings still apply for this page. */}};
+        let width = Number(readSetting('bookstacks-reader-width') || 44);
+        let scale = Number(readSetting('bookstacks-reader-scale') || 1);
         const serifSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="serif"]');
         const sansSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="sans"]');
         const applyReaderSettings = () => {
@@ -250,9 +254,9 @@ const authorWorks = page.kind === 'author'
             if (action === 'narrow') width = Math.max(32, width - 4);
             if (action === 'wide') width = Math.min(60, width + 4);
             if (action === 'smaller') scale = Math.max(0.85, Number((scale - 0.05).toFixed(2)));
-            if (action === 'larger') scale = Math.min(1.3, Number((scale + 0.05).toFixed(2)));
-            localStorage.setItem('bookstacks-reader-width', String(width));
-            localStorage.setItem('bookstacks-reader-scale', String(scale));
+            if (action === 'larger') scale = Math.min(2, Number((scale + 0.05).toFixed(2)));
+            saveSetting('bookstacks-reader-width', String(width));
+            saveSetting('bookstacks-reader-scale', String(scale));
             applyReaderSettings();
           });
         });
@@ -260,14 +264,14 @@ const authorWorks = page.kind === 'author'
           serifSelect.value = readerRoot.dataset.readerSerif || 'classic';
           serifSelect.addEventListener('change', () => {
             readerRoot.dataset.readerSerif = serifSelect.value;
-            localStorage.setItem('bookstacks-reader-serif', serifSelect.value);
+            saveSetting('bookstacks-reader-serif', serifSelect.value);
           });
         }
         if (sansSelect) {
           sansSelect.value = readerRoot.dataset.readerSans || 'office';
           sansSelect.addEventListener('change', () => {
             readerRoot.dataset.readerSans = sansSelect.value;
-            localStorage.setItem('bookstacks-reader-sans', sansSelect.value);
+            saveSetting('bookstacks-reader-sans', sansSelect.value);
           });
         }
 

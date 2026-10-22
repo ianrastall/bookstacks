@@ -2,10 +2,12 @@
 
 Bookstacks is a statically generated reading site for complete books encoded as TEI P5. Each XML file in `tei/` is a standalone work and language edition; related editions are grouped at the work level without assuming chapter-by-chapter alignment.
 
+See [the Jupiter interface and migration record](docs/jupiter-web.md) for the library/reader redesign and preserved publication boundaries.
+
 ## Development
 
 ```sh
-npm install
+npm ci
 npm run dev
 ```
 

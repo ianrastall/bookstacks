@@ -9,15 +9,25 @@
     "exports": "python scripts/build_exports.py --all",
     "exports:sample": "python scripts/build_exports.py --file tei/shakespeare/shakespeare_alls-well-that-ends-well_fra.xml",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "test": "vitest run",
+    "test:browser": "playwright test",
+    "audit": "npm audit --audit-level=high"
   },
   "dependencies": {
-    "@xmldom/xmldom": "^0.9.10"
+    "@xmldom/xmldom": "0.9.12"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.10",
-    "@types/node": "^26.0.0",
-    "astro": "^7.2.4",
-    "typescript": "^5.9.2"
+    "@astrojs/check": "0.9.10",
+    "@lucide/astro": "1.61.0",
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
+    "astro": "7.4.2",
+    "material-icons": "1.13.14",
+    "typescript": "6.0.3",
+    "vitest": "4.1.12"
+  },
+  "engines": {
+    "node": ">=24.13.0 <25"
   }
 }

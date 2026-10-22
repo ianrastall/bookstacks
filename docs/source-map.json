@@ -1,0 +1,181 @@
+{
+  "project": "bookstacks",
+  "status": "principal website migrated from clean current source, retaining Git history; alternate checkout changes preserved separately",
+  "priority": "important",
+  "track": "Astro/TypeScript reading site plus editorial/publication pipelines",
+  "source_candidates": [
+    "D:/dev/proj/bookstacks",
+    "D:/GitHub/bookstacks",
+    "D:/GitHub/bookstacks-v0"
+  ],
+  "related_portfolio_entries": [
+    {
+      "id": "dir-007",
+      "kind": "top-level directory",
+      "current_path": "D:\\GitHub\\bookstacks",
+      "group": "bookstacks",
+      "relationship": "alternate checkout",
+      "observed_state": "Alternate checkout",
+      "purpose": "Bookstacks public-domain reading site using Astro and TEI XML; this checkout uses tei-source/. Same origin as the newer-dated dev checkout; unique local changes were not compared.",
+      "evidence": "D:\\GitHub\\bookstacks\\README.md",
+      "organization_note": "Shares origin with v0 and dev checkout; tracked changes present. Candidate comparison, not identical contents.",
+      "disposition": "Compare history, local work, capability and source data before choosing a retained implementation."
+    },
+    {
+      "id": "dir-008",
+      "kind": "top-level directory",
+      "current_path": "D:\\GitHub\\bookstacks-library",
+      "group": "bookstacks",
+      "relationship": "subproject / pipeline",
+      "observed_state": "Documented pipeline",
+      "purpose": "Gutenberg acquisition and structural TEI scaffolding pipeline, intended to prepare texts for a separate semantic-enrichment phase.",
+      "evidence": "D:\\GitHub\\bookstacks-library\\explanation.md",
+      "organization_note": "",
+      "disposition": "Attach to conceptual group; preserve data authority and independent release/repo boundaries where useful."
+    },
+    {
+      "id": "dir-009",
+      "kind": "top-level directory",
+      "current_path": "D:\\GitHub\\bookstacks-tei",
+      "group": "bookstacks",
+      "relationship": "subproject / pipeline",
+      "observed_state": "Pipeline and editorial work",
+      "purpose": "Bookstacks TEI conversion workspace, with downloaded/converted material and hand-quality semantic encoding. tei-semantic/HANDOFF.md explicitly pauses the earlier automated wrapper converter.",
+      "evidence": "D:\\GitHub\\bookstacks-tei\\tei-semantic\\HANDOFF.md",
+      "organization_note": "",
+      "disposition": "Attach to conceptual group; preserve data authority and independent release/repo boundaries where useful."
+    },
+    {
+      "id": "dir-010",
+      "kind": "top-level directory",
+      "current_path": "D:\\GitHub\\bookstacks-v0",
+      "group": "bookstacks",
+      "relationship": "earlier implementation",
+      "observed_state": "Earlier version",
+      "purpose": "Bookstacks v0: static HTML book library and migration scripts that generate chapter pages from processed full-book sources.",
+      "evidence": "D:\\GitHub\\bookstacks-v0\\AGENTS.md",
+      "organization_note": "Same Bookstacks origin does not make this older HTML implementation redundant; tracked changes present.",
+      "disposition": "Compare history, local work, capability and source data before choosing a retained implementation."
+    },
+    {
+      "id": "dir-011",
+      "kind": "top-level directory",
+      "current_path": "D:\\GitHub\\bookstacks-v2",
+      "group": "bookstacks",
+      "relationship": "earlier implementation",
+      "observed_state": "Conversion experiment",
+      "purpose": "Bookstacks v2 experiment: rebuild older Markdown books into TEI, with an ODD customization, generated schemas and sample XML.",
+      "evidence": "D:\\GitHub\\bookstacks-v2\\rebuilder.py",
+      "organization_note": "",
+      "disposition": "Compare history, local work, capability and source data before choosing a retained implementation."
+    },
+    {
+      "id": "dir-053",
+      "kind": "top-level directory",
+      "current_path": "D:\\GitHub\\TEI",
+      "group": "bookstacks",
+      "relationship": "upstream reference / dependency",
+      "observed_state": "Upstream checkout",
+      "purpose": "Official Text Encoding Initiative Guidelines/schema source repository. This is TEIC/TEI, not the Tolstoy TEI corpus under dev.",
+      "evidence": "D:\\GitHub\\TEI\\README.md",
+      "organization_note": "",
+      "disposition": "Keep as dependency/reference; record upstream and any local adaptations. Exclude from new product count."
+    },
+    {
+      "id": "dir-075",
+      "kind": "top-level directory",
+      "current_path": "D:\\dev\\proj\\bookstacks",
+      "group": "bookstacks",
+      "relationship": "distinct project / tool",
+      "observed_state": "Newer-dated checkout",
+      "purpose": "Bookstacks: Astro TEI P5 reading site with edition/language grouping and canonical XML/PDF downloads. Same origin as GitHub/bookstacks, with a different current directory/content layout.",
+      "evidence": "D:\\dev\\proj\\bookstacks\\README.md",
+      "organization_note": "",
+      "disposition": "Review alongside group; retain current source until a product/repository decision."
+    },
+    {
+      "id": "dir-076",
+      "kind": "top-level directory",
+      "current_path": "D:\\dev\\proj\\bookstacks-publications",
+      "group": "bookstacks",
+      "relationship": "subproject / pipeline",
+      "observed_state": "Publication artifacts",
+      "purpose": "Bookstacks publication/export workspace grouped by author, with corpus material and an asset-change record; complements the reading site.",
+      "evidence": "D:\\dev\\proj\\bookstacks-publications",
+      "organization_note": "",
+      "disposition": "Attach to conceptual group; preserve data authority and independent release/repo boundaries where useful."
+    },
+    {
+      "id": "dir-088",
+      "kind": "top-level directory",
+      "current_path": "D:\\dev\\proj\\corpus-eliot-middlemarch-tei",
+      "group": "bookstacks",
+      "relationship": "upstream reference / dependency",
+      "observed_state": "Upstream corpus",
+      "purpose": "Open Editions Middlemarch TEI corpus with eight book XMLs, scripts and analysis; reference literary data.",
+      "evidence": "D:\\dev\\proj\\corpus-eliot-middlemarch-tei\\book1.xml",
+      "organization_note": "",
+      "disposition": "Keep as dependency/reference; record upstream and any local adaptations. Exclude from new product count."
+    },
+    {
+      "id": "dir-094",
+      "kind": "top-level directory",
+      "current_path": "D:\\dev\\proj\\data_austen",
+      "group": "bookstacks",
+      "relationship": "upstream reference / dependency",
+      "observed_state": "Upstream corpus",
+      "purpose": "Austen Said TEI data repository from University of Nebraska-Lincoln, with Ruby/XSLT/JavaScript processing for diction research.",
+      "evidence": "D:\\dev\\proj\\data_austen\\README.md",
+      "organization_note": "",
+      "disposition": "Keep as dependency/reference; record upstream and any local adaptations. Exclude from new product count."
+    },
+    {
+      "id": "dir-115",
+      "kind": "top-level directory",
+      "current_path": "D:\\dev\\proj\\leo-tolstoy_war-and-peace_louise-maude_aylmer-maude",
+      "group": "bookstacks",
+      "relationship": "upstream reference / dependency",
+      "observed_state": "Reference edition source",
+      "purpose": "Standard Ebooks-style War and Peace edition source, cover assets and production notes for the Maude translation; not an independent application.",
+      "evidence": "D:\\dev\\proj\\leo-tolstoy_war-and-peace_louise-maude_aylmer-maude\\production-notes.md",
+      "organization_note": "",
+      "disposition": "Keep as dependency/reference; record upstream and any local adaptations. Exclude from new product count."
+    },
+    {
+      "id": "dir-156",
+      "kind": "top-level directory",
+      "current_path": "D:\\dev\\proj\\TEI",
+      "group": "bookstacks",
+      "relationship": "upstream reference / dependency",
+      "observed_state": "Upstream corpus",
+      "purpose": "Tolstoy Digital TEI/XML texts, images, headers and related material. Distinct from the official TEI standards checkout under GitHub.",
+      "evidence": "D:\\dev\\proj\\TEI\\README.md",
+      "organization_note": "",
+      "disposition": "Keep as dependency/reference; record upstream and any local adaptations. Exclude from new product count."
+    },
+    {
+      "id": "nested-019",
+      "kind": "nested repository or component",
+      "current_path": "D:\\GitHub\\bookstacks-tei\\pipeline",
+      "group": "bookstacks",
+      "relationship": "pipeline component",
+      "purpose": "Structural converter; semantic handoff says earlier wrapper approach is paused.",
+      "evidence": "D:\\GitHub\\bookstacks-tei\\pipeline",
+      "organization_note": "",
+      "disposition": "Preserve component/repository identity in the group map; choose physical layout later."
+    },
+    {
+      "id": "nested-020",
+      "kind": "nested repository or component",
+      "current_path": "D:\\GitHub\\bookstacks-tei\\tei-semantic",
+      "group": "bookstacks",
+      "relationship": "editorial subproject",
+      "purpose": "Semantic encoding policy and hand-quality editions.",
+      "evidence": "D:\\GitHub\\bookstacks-tei\\tei-semantic",
+      "organization_note": "",
+      "disposition": "Preserve component/repository identity in the group map; choose physical layout later."
+    }
+  ],
+  "source_evidence_status": "local documents and original inventory; no application/build/release verification in this planning pass",
+  "active_checkout": "D:/jupiter/bookstacks"
+}

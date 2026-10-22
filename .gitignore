@@ -8,3 +8,7 @@ tmp/
 Thumbs.db
 *.log
 __pycache__/
+
+playwright-report/
+test-results/
+audit-report.json

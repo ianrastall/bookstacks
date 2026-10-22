@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { jupiterUi } from '../lib/jupiter-ui';
 import AuthorPortrait from './AuthorPortrait.astro';
 import { getLibrary, localizedAuthorHref } from '../lib/library';
 import { SUPPORTED_LANGUAGES, ui, type Locale } from '../lib/i18n';
@@ -21,8 +22,7 @@ const editionCount = authors.reduce((sum, author) => sum + author.works.length, 
 const unitCount = authors.reduce((sum, author) => sum + author.works.reduce((workSum, work) => {
   return workSum + (work.editions.find((edition) => edition.code === locale)?.units.length ?? 0);
 }, 0), 0);
-const format = new Intl.NumberFormat(locale === 'grc' ? 'el-GR' : locale);
-const libraryDescription = labels.librarySummary(authors.length, editionCount, editionCount, format.format(unitCount));
+const libraryDescription = `${labels.bookCount(editionCount)} · ${labels.readingUnitCount(unitCount)}`;
 const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [language.code, `/${language.code}`])) as Record<Locale, string>;
 ---
 
@@ -35,13 +35,13 @@ const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [
         <h2>{labels.library}</h2>
       </div>
     </div>
-    <p class="tool-description">{libraryDescription}</p>
+    <p class="tool-description">{libraryDescription}</p><div class="author-filter"><label for="author-search">{jupiterUi(locale)[13]}</label><input id="author-search" type="search" /></div><p id="author-empty" hidden>{jupiterUi(locale)[14]}</p>
     {authors.length > 0 ? (
       <div class="tool-grid author-grid">
         {authors.map((author) => {
           const editionTotal = author.works.length;
           return (
-            <a class="tool-card author-card" href={localizedAuthorHref(author, locale)}>
+            <a class="tool-card author-card" data-author-search={`${author.name} ${author.works.map(work=>work.editions.find(e=>e.code===locale)?.sourceTitle || work.title).join(' ')}`} href={localizedAuthorHref(author, locale)}>
               <div class="author-card-media">
                 <AuthorPortrait author={author} lazy />
               </div>
@@ -57,3 +57,8 @@ const languageLinks = Object.fromEntries(SUPPORTED_LANGUAGES.map((language) => [
     ) : <p class="empty-state">{labels.noBooks}</p>}
   </section>
 </BaseLayout>
+
+<script>
+ import { matchesSearch } from '../lib/catalogue';
+ const search=document.querySelector<HTMLInputElement>('#author-search')!;search.addEventListener('input',()=>{let count=0;document.querySelectorAll<HTMLElement>('[data-author-search]').forEach(card=>{card.hidden=!matchesSearch(card.dataset.authorSearch||'',search.value);if(!card.hidden)count++;});document.querySelector<HTMLElement>('#author-empty')!.hidden=!!count;});
+</script>

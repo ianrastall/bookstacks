@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v7
         with:
-          node-version: 24
+          node-version-file: '.nvmrc'
           cache: 'npm'
 
       - name: Install dependencies
@@ -35,6 +35,12 @@ jobs:
         run: node scripts/index_release_pdfs.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Audit dependencies
+        run: npm run audit
+
+      - name: Unit tests
+        run: npm test
 
       - name: Build Astro site
         run: npm run build
@@ -48,6 +54,12 @@ jobs:
 
       - name: Add language root aliases
         run: node scripts/stage_language_root_aliases.mjs
+
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser regression checks
+        run: npm run test:browser
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

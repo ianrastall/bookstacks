@@ -1,0 +1,15 @@
+---
+import { Settings2, X } from '@lucide/astro';
+import { jupiterUi } from '../../lib/jupiter-ui';
+import type { Locale } from '../../lib/i18n';
+interface Props { locale:Locale; }
+const t=jupiterUi(Astro.props.locale);
+---
+<button id="appearance-open" disabled type="button" class="appearance-trigger" aria-haspopup="dialog"><Settings2 size={17} aria-hidden="true" /><span>{t[0]}</span></button>
+<dialog id="appearance-dialog" aria-labelledby="appearance-title">
+  <div class="dialog-heading"><div><p class="eyebrow">{t[0]}</p><h2 id="appearance-title">{t[1]}</h2></div><button id="appearance-close" class="icon-button" type="button" aria-label={t[11]}><X size={20} aria-hidden="true" /></button></div>
+  <div class="field"><label for="theme-choice">{t[2]}</label><select id="theme-choice"><option value="dark">{t[3]}</option><option value="light">{t[4]}</option></select></div>
+  <fieldset class="accent-options"><legend>{t[5]}</legend><label class="radio-option"><input type="radio" name="accent-mode" value="system" checked />{t[6]}</label><p class="setting-help">{t[7]}</p><label class="radio-option"><input type="radio" name="accent-mode" value="custom" />{t[8]}</label><div class="custom-accent"><label for="accent-picker">{t[9]}</label><input id="accent-picker" type="color" value="#c8a96b" /><output id="accent-value" for="accent-picker">#C8A96B</output></div></fieldset>
+  <button id="accent-reset" type="button">{t[10]}</button><p class="setting-help" id="appearance-feedback" role="status">{t[12]}</p>
+</dialog>
+<script>import '../../scripts/appearance';</script>
