@@ -22,6 +22,7 @@ function apply() {
   const reference = note.querySelector<HTMLElement>('.tei-note-ref');
   const label = `${text(locale,'footnote')} ${reference?.textContent || ''}`;
   reference?.setAttribute('aria-label',label);
+  if (reference) reference.lang=locale;
   const heading=note.querySelector<HTMLElement>('.tei-note-label');
   if (heading) { heading.textContent=label; heading.lang=locale; }
   const close=note.querySelector<HTMLElement>('.tei-note-close');

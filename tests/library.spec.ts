@@ -57,7 +57,7 @@ test('interface changes preserve the selected edition, chapter, contents and tex
  await page.locator('#interface-language').selectOption('ru');await expect(page.locator('html')).toHaveAttribute('lang','ru');
  await expect(page).toHaveURL(/\/en\/authors\/aristotle\/poetics\/chapter-1\?ui=ru$/);
  await expect(article).toHaveAttribute('lang','en');await expect(article).toHaveAttribute('translate','no');expect(await article.innerText()).toBe(original);
- await expect(page.locator('a[rel="next"]')).toContainText('Далее');expect(await page.locator('a[rel="next"]').getAttribute('href')).toBe(next);
+ await expect(page.locator('.tei-note-ref').first()).toHaveAttribute('lang','ru');await expect(page.locator('a[rel="next"]')).toContainText('Далее');expect(await page.locator('a[rel="next"]').getAttribute('href')).toBe(next);
  await page.locator('a[rel="next"]').click();await expect(page.locator('html')).toHaveAttribute('lang','ru');await expect(page).toHaveURL(/\/en\/authors\/aristotle\/poetics\/chapter-2/);
  await page.reload();await expect(page.locator('#interface-language')).toHaveValue('ru');
  await page.locator('#interface-language').selectOption('auto');await expect(page.locator('html')).toHaveAttribute('lang','en');expect(await page.evaluate(()=>localStorage.getItem('bookstacks-interface-language'))).toBeNull();
