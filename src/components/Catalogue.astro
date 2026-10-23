@@ -1,22 +1,25 @@
 ---
 import T from './InterfaceText.astro';
-import { ui, type Locale } from '../lib/i18n';
 import { text } from '../lib/interface';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getLibrary,localizedEditionHref,localizedUnitHref } from '../lib/library';
-import { SUPPORTED_LANGUAGES,isLocale,languageData } from '../lib/i18n';
+import { EDITION_LANGUAGES,INTERFACE_LOCALES,editionDirection,editionLanguageName,isEditionLanguage,type Locale } from '../lib/i18n';
 interface Props { locale?: Locale }
 const {locale='en'}=Astro.props;
 const library=getLibrary();
-const entries=library.authors.flatMap(author=>author.works.flatMap(work=>work.editions.filter(edition=>isLocale(edition.code)).map(edition=>({author,work,edition}))));
+const entries=library.authors.flatMap(author=>author.works.flatMap(work=>work.editions.filter(edition=>isEditionLanguage(edition.code)).map(edition=>({author,work,edition}))));
 ---
-<BaseLayout locale={locale} title="Bookstacks" description="Books, authors, language editions and reading downloads.">
+<BaseLayout locale={locale} title="Bookstacks">
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="x-default" href={new URL('/', Astro.site)} />
+    {INTERFACE_LOCALES.map(language=><link rel="alternate" hreflang={language.code} href={new URL(`/${language.code}`, Astro.site)} />)}
+  </Fragment>
   <section class="shell catalogue-page">
     <div class="catalogue-heading"><h1><T locale={locale} k="library" /></h1><p><T locale={locale} k="bookCount" args={[library.workCount]} /> · <T locale={locale} k="editionCount" args={[entries.length]} /></p></div>
-    <div class="catalogue-controls"><div class="field wide-field"><label for="book-search"><T locale={locale} k="c.8" /></label><input type="search" id="book-search" disabled /></div><div class="field"><label for="book-language"><T locale={locale} k="c.3" /></label><select id="book-language" disabled><option value="" data-i18n="allLanguages">{ui(locale).allLanguages}</option>{SUPPORTED_LANGUAGES.map(l=><option value={l.code}>{l.nativeName}</option>)}</select></div><div class="field"><label for="book-author"><T locale={locale} k="author" /></label><select id="book-author" disabled><option value="" data-i18n="c.4">{text(locale,"c.4")}</option>{library.authors.map(a=><option value={a.slug}>{a.name}</option>)}</select></div></div>
+    <div class="catalogue-controls"><div class="field wide-field"><label for="book-search"><T locale={locale} k="searchAuthorsTitles" /></label><input type="search" id="book-search" disabled /></div><div class="field"><label for="book-language"><T locale={locale} k="bookLanguage" /></label><select id="book-language" disabled><option value="" data-i18n="allLanguages">{text(locale,'allLanguages')}</option>{EDITION_LANGUAGES.map(l=><option value={l.code} lang={l.code} dir={l.dir}>{l.nativeName}</option>)}</select></div><div class="field"><label for="book-author"><T locale={locale} k="author" /></label><select id="book-author" disabled><option value="" data-i18n="allAuthors">{text(locale,'allAuthors')}</option>{library.authors.map(a=><option value={a.slug}>{a.name}</option>)}</select></div></div>
     <p id="book-count" class="catalogue-status" role="status"><T locale={locale} k="editionCount" args={[entries.length]} /></p>
-    <div class="book-table-wrap"><table class="book-table"><thead><tr><th scope="col"><T locale={locale} k="c.5" /></th><th scope="col"><T locale={locale} k="c.3" /></th><th scope="col"><T locale={locale} k="c.6" /></th></tr></thead><tbody>{entries.map(({author,work,edition})=><tr data-book-row data-search={`${author.name} ${work.title} ${edition.sourceTitle}`} data-author={author.slug} data-language={edition.code}><td><a class="book-title" href={localizedEditionHref(work,edition)} lang={edition.code} translate="no">{edition.sourceTitle}</a><span class="book-author">{author.name}</span></td><td lang={edition.code} translate="no">{isLocale(edition.code) ? languageData(edition.code).nativeName : edition.languageName}</td><td>{edition.units[0]&&<a class="read-link" href={localizedUnitHref(work,edition,edition.units[0])}><T locale={locale} k="c.6" /> →</a>}</td></tr>)}</tbody></table></div>
-    <p id="book-empty" class="catalogue-status" hidden><T locale={locale} k="c.7" /></p><div id="book-pagination" class="catalogue-pagination" hidden><button id="book-previous" type="button">← <T locale={locale} k="previous" /></button><span id="book-page"></span><button id="book-next" type="button"><T locale={locale} k="next" /> →</button></div>
+    <div class="book-table-wrap"><table class="book-table"><thead><tr><th scope="col"><T locale={locale} k="titleAuthor" /></th><th scope="col"><T locale={locale} k="bookLanguage" /></th><th scope="col"><T locale={locale} k="read" /></th></tr></thead><tbody>{entries.map(({author,work,edition})=><tr data-book-row data-search={`${author.name} ${work.title} ${edition.sourceTitle}`} data-author={author.slug} data-language={edition.code}><td><a class="book-title" href={localizedEditionHref(work,edition)} lang={edition.code} dir={editionDirection(edition.code)} translate="no">{edition.sourceTitle}</a><span class="book-author">{author.name}</span></td><td lang={edition.code} dir={editionDirection(edition.code)} translate="no">{editionLanguageName(edition)}</td><td>{edition.units[0]&&<a class="read-link" href={localizedUnitHref(work,edition,edition.units[0])}><T locale={locale} k="read" /> <span class="inline-arrow" aria-hidden="true">→</span></a>}</td></tr>)}</tbody></table></div>
+    <p id="book-empty" class="catalogue-status" hidden><T locale={locale} k="noMatchingBooks" /></p><div id="book-pagination" class="catalogue-pagination" hidden><button id="book-previous" type="button"><span class="inline-arrow" aria-hidden="true">←</span> <T locale={locale} k="previous" /></button><span id="book-page"></span><button id="book-next" type="button"><T locale={locale} k="next" /> <span class="inline-arrow" aria-hidden="true">→</span></button></div>
   </section>
 </BaseLayout>
 <script src="../scripts/catalogue.ts"></script>

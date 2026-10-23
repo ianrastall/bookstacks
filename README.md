@@ -24,22 +24,33 @@ tei/austen/austen_emma_eng.xml
 tei/austen/austen_emma_eng.pdf
 ```
 
-The matching PDF link appears automatically because the file exists in the repository; without that file, the site falls back to a matching PDF already published in a `publications-*` GitHub release. The deployment indexes those release assets before building the site but does not regenerate them. The optional `scripts/build_exports.py` tool remains available for explicitly invoked local PDF creation, but neither `npm run build` nor the deployment workflow runs it.
+PDF links resolve in this order:
 
-For local review, the Downloads page also detects exporter output at `public/downloads/<author>/<edition>/<edition>.pdf`. These ignored files are preview-only; publish a production PDF as a matching release asset or copy it beside its TEI source and commit it.
+1. a PDF committed beside its TEI file under `tei/<author>/`;
+2. exporter output committed under `public/downloads/<author>/<edition>/<edition>.pdf` (the current source of most published PDFs, served at `/downloads/...`);
+3. a matching asset in a `publications-*` GitHub release, indexed by `scripts/index_release_pdfs.mjs` before the deployment build.
 
-## Language neighborhoods
+The site build and deployment never regenerate the corpus or PDFs. `scripts/build_exports.py` remains available for explicitly invoked local PDF creation; neither `npm run build` nor the deployment workflow runs it, and its output is published only when it is committed.
 
-Canonical routes begin with a site language (`/en/`, `/fr/`, `/es/`, `/grc/`, `/ru/`, or `/zh-Hans/`). Choosing a flag changes the interface language and filters the library to editions in that language. Entering a book through one of its language-specific routes does the same. Legacy unprefixed reading routes redirect to the corresponding canonical neighborhood.
+## Languages
 
-The Simplified Chinese neighborhood contains Lu Xun’s *Call to Arms* (preface
-and 14 stories), *Journey to the West* (100 chapters), and *Tao Te Ching*
-(81 chapters). Its interface, contents, reading controls, and download pages
-use Simplified Chinese. Book pages identify the selected text sources and
-character conversion. The Chinese authors have engraved illustration portraits
-matching the existing shelf. Lu Xun follows his documented photographic appearance;
-Wu Cheng’en and Laozi use traditional artistic representations, identified in
-the image descriptions. Generation prompts are recorded in
+Bookstacks keeps two kinds of language separate.
+
+- **Edition language** is the language of a literary text: English, French, Spanish, Ancient Greek, Russian or Simplified Chinese. Reading routes begin with it (`/fr/authors/...`). It is edition metadata and an optional catalogue filter.
+- **Interface language** is the language of the site's controls. Forty interface locales are available: Arabic, Bengali, Czech, Danish, German, Modern Greek, English, Spanish, Persian, Finnish, Filipino, French, Ancient Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Marathi, Malay, Norwegian Bokmål, Dutch, Polish, Portuguese (Brazil and Portugal), Romanian, Russian, Swedish, Swahili, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Simplified and Traditional Chinese.
+
+The interface follows the browser's language preferences in order, falling back to English. The labeled selector offers a manual choice that is saved in the browser; `?ui=<locale>` applies a shareable override and `?ui=auto` clears it. Changing the interface language never filters the catalogue or changes the selected edition, chapter or reading position. Arabic, Hebrew, Persian and Urdu interfaces set `dir="rtl"`; edition text keeps its own `lang` and `dir`. Static catalogue pages at `/<locale>` (for example `/de`) serve browsers without JavaScript.
+
+Interface text lives in `src/i18n/locales/<locale>.ts`, one catalogue per locale, typed against the English catalogue in `en.ts`. Counts use CLDR plural categories through `Intl.PluralRules`. The browser loads only the catalogue it needs. To add a locale, add it to `INTERFACE_LOCALES` in `src/lib/i18n.ts` and create its catalogue; `npm test` checks that every catalogue has every message and placeholder. The translations other than English, French, Spanish, Ancient Greek, Russian and Simplified Chinese were added on 23 October 2026 without native-speaker review; corrections are welcome.
+
+The Simplified Chinese editions are Lu Xun’s *Call to Arms* (preface and 14
+stories), *Journey to the West* (100 chapters), and *Tao Te Ching* (81
+chapters). Their contents and reading typography follow the edition language.
+Book pages identify the selected text sources and character conversion. The
+Chinese authors have engraved illustration portraits matching the existing
+shelf. Lu Xun follows his documented photographic appearance; Wu Cheng’en and
+Laozi use traditional artistic representations, identified in the image
+descriptions. Generation prompts are recorded in
 `public/img/authors/chinese-portraits.md`. Author cards use character monograms
 where no portrait has been supplied.
 
@@ -47,8 +58,8 @@ TEI notes are rendered as numbered, keyboard-accessible popovers in the web read
 
 ## Project layout
 
-- `src/` contains the Astro site and TEI-to-HTML reader.
-- `public/` contains deployable static assets.
+- `src/` contains the Astro site and TEI-to-HTML reader; `src/i18n/` holds the interface catalogues.
+- `public/` contains deployable static assets, including committed PDF exports under `public/downloads/`.
 - `tei/` contains the curated standalone TEI corpus, schema, validator, and build scripts.
 - `assets/` contains local source material used by the TEI preparation pipeline. It is not served or committed; the deployable standalone results live in `tei/`.
 

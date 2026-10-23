@@ -8,7 +8,7 @@ import {
   type Edition,
   type Work,
 } from '../lib/library';
-import { isLocale, languageData, type Locale } from '../lib/i18n';
+import { editionDirection, editionLanguageName, type Locale } from '../lib/i18n';
 
 interface DownloadEntry {
   author: Author;
@@ -40,7 +40,7 @@ const { entries, locale } = Astro.props;
             <span class="material-icons download-sort-icon" aria-hidden="true">unfold_more</span>
           </button>
         </th>
-        <th scope="col"><T locale={locale} k="c.3" /></th>
+        <th scope="col"><T locale={locale} k="bookLanguage" /></th>
         <th scope="col" class="download-files-heading"><T locale={locale} k="files" /></th>
       </tr>
     </thead>
@@ -53,9 +53,9 @@ const { entries, locale } = Astro.props;
               <a href={`/authors/${author.slug}`}>{author.name}</a>
             </td>
             <td class="download-title">
-              <a href={localizedEditionHref(work, edition)} lang={edition.code} translate="no">{edition.sourceTitle}</a>
+              <a href={localizedEditionHref(work, edition)} lang={edition.code} dir={editionDirection(edition.code)} translate="no">{edition.sourceTitle}</a>
             </td>
-            <td lang={edition.code} translate="no">{isLocale(edition.code) ? languageData(edition.code).nativeName : edition.languageName}</td>
+            <td lang={edition.code} dir={editionDirection(edition.code)} translate="no">{editionLanguageName(edition)}</td>
             <td>
               <div class="download-links download-table-links">
                 <a class:list={['btn', 'btn-compact', pdfHref ? 'btn-secondary' : 'btn-primary']} href={editionTeiHref(author, edition)} download={edition.sourceFile}>

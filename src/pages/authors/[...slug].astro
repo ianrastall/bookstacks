@@ -5,7 +5,7 @@ import {
   localizedUnitHref,
   localizedWorkHref,
 } from '../../lib/library';
-import { isLocale } from '../../lib/i18n';
+import { isEditionLanguage } from '../../lib/i18n';
 
 import AuthorPage from '../../components/AuthorPage.astro';
 import type { Author } from '../../lib/library';
@@ -18,7 +18,7 @@ export function getStaticPaths() {
     for (const work of author.works) {
       const workCode = work.editions[0]?.code ?? 'en';
       const workLocale = work.editions.some((edition) => edition.code === 'en')
-        ? 'en' : isLocale(workCode) ? workCode : 'en';
+        ? 'en' : isEditionLanguage(workCode) ? workCode : 'en';
       paths.push({ params: { slug: `${author.slug}/${work.slug}` }, props: { target: localizedWorkHref(work, workLocale) } });
       for (const edition of work.editions) {
         paths.push({

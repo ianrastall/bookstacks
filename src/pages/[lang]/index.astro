@@ -1,7 +1,8 @@
 ---
 import Catalogue from '../../components/Catalogue.astro';
-import { SUPPORTED_LANGUAGES, type Locale } from '../../lib/i18n';
-export function getStaticPaths() { return SUPPORTED_LANGUAGES.map(language=>({params:{lang:language.code}})); }
+import { INTERFACE_LOCALES, type Locale } from '../../lib/i18n';
+// Static localized catalogues serve browsers without JavaScript; the catalogue itself is never filtered.
+export function getStaticPaths() { return INTERFACE_LOCALES.map(language=>({params:{lang:language.code}})); }
 const locale=Astro.params.lang as Locale;
 ---
 <Catalogue locale={locale} />

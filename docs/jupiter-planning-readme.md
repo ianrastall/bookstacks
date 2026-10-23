@@ -10,4 +10,4 @@ Publish readable, semantically encoded literary editions and their source/public
 - [Current sources and related portfolio material](docs/source-map.json)
 - [Jupiter working plan](../jupiter-plan.md)
 
-This folder holds planning records. The existing implementation remains in the source locations recorded above; this is not a runnable replacement or a newly initialized repository.
+These are planning records. The implementation is this repository (`D:/jupiter/bookstacks`, deployed to bookstacks.org); see [the README](../README.md) and [the implementation record](jupiter-web.md).

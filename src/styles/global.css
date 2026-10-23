@@ -67,6 +67,9 @@
 html { background: var(--bg); scroll-behavior: smooth; }
 
 html:lang(zh-Hans) body { font-family: "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", "PingFang SC", var(--sans-font); }
+html:lang(zh-Hant) body { font-family: "Noto Sans CJK TC", "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", var(--sans-font); }
+html:lang(ja) body { font-family: "Noto Sans CJK JP", "Noto Sans JP", "Yu Gothic UI", "Meiryo UI", "Hiragino Sans", var(--sans-font); }
+html:lang(ko) body { font-family: "Noto Sans CJK KR", "Noto Sans KR", "Malgun Gothic", "Apple SD Gothic Neo", var(--sans-font); }
 .reader-content:lang(zh-Hans) {
   font-family: "Noto Serif CJK SC", "Noto Serif SC", "Songti SC", SimSun, var(--serif-font);
   line-height: 1.9;
@@ -78,9 +81,9 @@ html:lang(zh-Hans) body { font-family: "Noto Sans CJK SC", "Noto Sans SC", "Micr
   line-height: 1.6;
 }
 .author-portrait.author-monogram { display: grid; place-items: center; font-size: clamp(4rem, 10vw, 8rem); color: #332a29; aspect-ratio: 1; }
-.edition-source-note { margin: 1.5rem 0; padding: 1rem 1.2rem; border-left: 3px solid var(--accent); background: var(--panel-muted); line-height: 1.7; }
+.edition-source-note { margin: 1.5rem 0; padding: 1rem 1.2rem; border-inline-start: 3px solid var(--accent); background: var(--panel-muted); line-height: 1.7; }
 .edition-source-note p { margin: 0.5rem 0; }
-.edition-source-note ul { margin: 0.5rem 0 0; padding-left: 1.3rem; }
+.edition-source-note ul { margin: 0.5rem 0 0; padding-inline-start: 1.3rem; }
 
 body {
   margin: 0;
@@ -116,7 +119,7 @@ button, input, select { font: inherit; }
 .skip-link {
   position: fixed;
   top: 0.5rem;
-  left: 0.5rem;
+  inset-inline-start: 0.5rem;
   z-index: 100;
   padding: 0.55rem 0.8rem;
   background: var(--panel);
@@ -188,7 +191,7 @@ button, input, select { font: inherit; }
 }
 
 .site-network a:hover { border-color: var(--accent); color: var(--accent); }
-.site-network .material-icons { margin-right: 0.25rem; font-size: 1rem; }
+.site-network .material-icons { margin-inline-end: 0.25rem; font-size: 1rem; }
 .header-actions { justify-content: flex-end; }
 
 .language-switcher {
@@ -255,7 +258,7 @@ button, input, select { font: inherit; }
 .palette-menu {
   position: absolute;
   top: calc(100% + 0.45rem);
-  right: 0;
+  inset-inline-end: 0;
   z-index: 20;
   display: grid;
   width: 11rem;
@@ -277,7 +280,7 @@ button, input, select { font: inherit; }
   border-radius: 5px;
   background: transparent;
   color: var(--text);
-  text-align: left;
+  text-align: start;
   cursor: pointer;
 }
 
@@ -476,7 +479,7 @@ button, input, select { font: inherit; }
   max-width: 48rem;
   margin: 1.5rem 0 0;
   padding: 1rem;
-  border-left: 3px solid var(--accent);
+  border-inline-start: 3px solid var(--accent);
   background: var(--panel-muted);
   color: var(--muted);
 }
@@ -524,7 +527,7 @@ button, input, select { font: inherit; }
 .download-table td {
   padding: 0.8rem 1rem;
   border-bottom: 1px solid var(--border);
-  text-align: left;
+  text-align: start;
   vertical-align: middle;
 }
 
@@ -602,7 +605,7 @@ button, input, select { font: inherit; }
 .toc-tree h3,
 .toc-tree h4 { margin: 0 0 1rem; }
 .toc-list { margin: 0; padding: 0; list-style: none; }
-.toc-list .toc-list { margin: 0.35rem 0 0.35rem 1.25rem; padding-left: 0.8rem; border-left: 1px solid var(--border); }
+.toc-list .toc-list { margin-block: 0.35rem; margin-inline: 1.25rem 0; padding-inline-start: 0.8rem; border-inline-start: 1px solid var(--border); }
 .toc-item + .toc-item { margin-top: 0.3rem; }
 
 .toc-link,
@@ -678,7 +681,7 @@ button, input, select { font: inherit; }
 .reader-content .tei-align-center { text-align: center; text-indent: 0; }
 .reader-content .tei-align-right { text-align: right; text-indent: 0; }
 .reader-content .tei-preformatted { white-space: pre-line; }
-.reader-content .tei-letter { margin: 1.25em 0; padding-left: 1.5em; text-indent: 0; }
+.reader-content .tei-letter { margin: 1.25em 0; padding-inline-start: 1.5em; text-indent: 0; }
 .reader-content .tei-subheading { margin-top: 1.8em; text-align: center; }
 .reader-content .tei-blockquote .tei-paragraph { text-indent: 0; }
 .tei-quote-delimited::before,
@@ -689,14 +692,14 @@ button, input, select { font: inherit; }
 .reader-content h4,
 .reader-content h5,
 .reader-content h6 { margin: 1.8em 0 0.75em; font-family: var(--sans-font); line-height: 1.25; }
-.reader-content blockquote { margin: 1.5rem 0; padding-left: 1rem; border-left: 3px solid var(--border); color: var(--muted); }
+.reader-content blockquote { margin: 1.5rem 0; padding-inline-start: 1rem; border-inline-start: 3px solid var(--border); color: var(--muted); }
 
 .chapter-sidebar { position: sticky; top: 1rem; }
 .panel { padding: 1rem; border: 1px solid var(--border); border-radius: 8px; background: var(--panel); }
 .reader-controls { display: grid; gap: 0.75rem; font-size: 0.85rem; }
 .reader-controls > a { width: max-content; }
 .other-editions summary { color: var(--accent); font-weight: 700; cursor: pointer; }
-.other-editions ul { margin: 0.45rem 0 0; padding-left: 1.1rem; }
+.other-editions ul { margin: 0.45rem 0 0; padding-inline-start: 1.1rem; }
 .other-editions li + li { margin-top: 0.35rem; }
 .translation-note { margin: 0; color: var(--muted); font-size: 0.75rem; line-height: 1.4; }
 .reader-display { display: grid; grid-template-columns: 1fr 2.2rem 2.2rem; gap: 0.35rem; align-items: center; }
@@ -767,7 +770,7 @@ button, input, select { font: inherit; }
   box-shadow: var(--shadow);
   color: var(--text);
   font: 0.86rem/1.55 var(--sans-font);
-  text-align: left;
+  text-align: start;
   text-indent: 0;
   transform: translateX(-50%);
 }
@@ -801,7 +804,7 @@ button, input, select { font: inherit; }
 .reader-content .tei-speech > .tei-paragraph + .tei-paragraph { margin-top: 0.65em; }
 .tei-speech > .tei-line-group { margin: 0; }
 .tei-speech > .tei-line-group + .tei-line-group { margin-top: 0.65em; }
-.tei-speech .tei-line { padding-left: 1.5em; text-indent: -1.5em; }
+.tei-speech .tei-line { padding-inline-start: 1.5em; text-indent: -1.5em; }
 .tei-stage { font-style: italic; }
 .tei-stage-entrance,
 .tei-stage-setting { margin: 0.9em 0; text-align: center; }

@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AuthorPortrait from './AuthorPortrait.astro';
 import { localizedEditionHref, type Author } from '../lib/library';
-import { isLocale, languageData, type Locale } from '../lib/i18n';
+import { editionDirection, editionLanguageName, type Locale } from '../lib/i18n';
 interface Props { author: Author; locale?: Locale }
 const {author,locale='en'}=Astro.props;
 ---
@@ -12,10 +12,10 @@ const {author,locale='en'}=Astro.props;
   <div class="author-hero"><AuthorPortrait author={author} /></div>
   <div class="tool-grid">
    {author.works.map(work=><article class="tool-card book-card">
-    <h2 lang="en">{work.title}</h2>
+    <h2 lang="en" dir="ltr">{work.title}</h2>
     <ul class="edition-list">{work.editions.map(edition=><li>
-     <a class="book-card-main" href={localizedEditionHref(work,edition)} lang={edition.code} translate="no">{edition.sourceTitle}</a>
-     <span class="edition-language" lang={edition.code} translate="no">{isLocale(edition.code) ? languageData(edition.code).nativeName : edition.languageName}</span>
+     <a class="book-card-main" href={localizedEditionHref(work,edition)} lang={edition.code} dir={editionDirection(edition.code)} translate="no">{edition.sourceTitle}</a>
+     <span class="edition-language" lang={edition.code} dir={editionDirection(edition.code)} translate="no">{editionLanguageName(edition)}</span>
     </li>)}</ul>
    </article>)}
   </div>

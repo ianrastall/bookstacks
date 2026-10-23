@@ -3,17 +3,17 @@ import T from './InterfaceText.astro';
 import DownloadsTable from './DownloadsTable.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getLibrary, type Author, type Edition, type Work } from '../lib/library';
-import { ui, type Locale } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
+import { text } from '../lib/interface';
 
 interface DownloadEntry { author: Author; work: Work; edition: Edition }
 
 interface Props { locale?: Locale }
 const {locale='en'}=Astro.props;
-const labels = ui(locale);
 const entries: DownloadEntry[] = getLibrary().authors.flatMap(author=>author.works.flatMap(work=>work.editions.map(edition=>({author,work,edition}))));
 ---
 
-<BaseLayout title={labels.downloads} titleKey="downloads" description={labels.downloadFormatsNote} locale={locale}>
+<BaseLayout title={text(locale,'downloads')} titleKey="downloads" description={text(locale,'downloadFormatsNote')} locale={locale}>
   <section class="tool-container shell downloads-page">
     <div class="tool-header">
       <div class="tool-title">

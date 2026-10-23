@@ -4,18 +4,19 @@ import '../styles/global.css';
 import '../styles/jupiter.css';
 import 'material-icons/iconfont/filled.css';
 import { ArrowUpRight,BookOpen,Download } from '@lucide/astro';
+import '../i18n/catalogues';
 import { text } from '../lib/interface';
 import Appearance from '../components/jupiter/Appearance.astro';
-import { SUPPORTED_LANGUAGES,ui,type Locale } from '../lib/i18n';
+import { INTERFACE_LOCALES,localeDirection,type Locale } from '../lib/i18n';
 interface Props { title:string;description?:string;wide?:boolean;locale?:Locale;titleKey?:string; }
-const {title,titleKey,locale='en',description=ui(locale).siteDescription,wide=false}=Astro.props;
-const labels=ui(locale);
+const {title,titleKey,locale='en',description=text(locale,'siteDescription'),wide=false}=Astro.props;
+const t=(key:string)=>text(locale,key);
 const pageTitle=title==='Bookstacks' ? title : `${title} · Bookstacks`;
 const routePath=Astro.url.pathname.replace(/\.html$/,'');
 const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
 ---
 <!doctype html>
-<html lang={locale} data-title-key={titleKey} data-theme="dark" data-reader-page={wide ? 'true' : undefined}>
+<html lang={locale} dir={localeDirection(locale)} data-title-key={titleKey} data-theme="dark" data-reader-page={wide ? 'true' : undefined}>
   <head>
     <!-- Google tag (gtag.js) -->
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-CSSQ9K2FFC"></script>
@@ -31,6 +32,7 @@ const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
     <title>{pageTitle}</title>
     <link rel="canonical" href={new URL(canonicalPath, Astro.site)} />
     <slot name="head" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <script is:inline>
       try {
         const root=document.documentElement;
@@ -50,27 +52,27 @@ const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
     <a class="skip-link" href="#content"><T locale={locale} k="skipToContent" /></a>
     <header class="site-header">
       <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"><BookOpen size={21} /></span><span>Bookstacks<small lang="en">A Jupiter project</small></span></a>
-      <nav class="site-network" aria-label={labels.siteNetwork} data-i18n-aria-label="siteNetwork"><a href="https://text-utils.net">Text Utilities <ArrowUpRight size={13} aria-hidden="true" /></a><a href="https://chessnerd.net">Chess Nerd <ArrowUpRight size={13} aria-hidden="true" /></a><a href="/" class="network-current" aria-current="true">Bookstacks</a></nav>
+      <nav class="site-network" aria-label={t('siteNetwork')} data-i18n-aria-label="siteNetwork"><a href="https://text-utils.net">Text Utilities <ArrowUpRight size={13} aria-hidden="true" /></a><a href="https://chessnerd.net">Chess Nerd <ArrowUpRight size={13} aria-hidden="true" /></a><a href="/" class="network-current" aria-current="true">Bookstacks</a></nav>
       <Appearance locale={locale} />
     </header>
     <div class="library-nav shell">
-      <nav aria-label={labels.library} data-i18n-aria-label="library">
+      <nav aria-label={t('library')} data-i18n-aria-label="library">
         <a href="/"><BookOpen size={15} aria-hidden="true" /><T locale={locale} k="library" /></a>
-        <a href="/authors"><T locale={locale} k="c.2" /></a>
+        <a href="/authors"><T locale={locale} k="authors" /></a>
         <a href="/downloads"><Download size={15} aria-hidden="true" /><T locale={locale} k="downloads" /></a>
       </nav>
       <div class="interface-choice field">
-        <label for="interface-language"><T locale={locale} k="c.0" /></label>
+        <label for="interface-language"><T locale={locale} k="interfaceLanguage" /></label>
         <select id="interface-language" disabled>
-          <option value="auto" data-i18n="c.1">{text(locale,'c.1')}</option>
-          {SUPPORTED_LANGUAGES.map(language=><option value={language.code} lang={language.code}>{language.nativeName}</option>)}
+          <option value="auto" data-i18n="automaticLanguage">{t('automaticLanguage')}</option>
+          {INTERFACE_LOCALES.map(language=><option value={language.code} lang={language.code} dir={language.dir}>{language.nativeName}</option>)}
         </select>
       </div>
       <span id="interface-feedback" class="visually-hidden" role="status"></span>
-      <noscript><nav aria-label={labels.chooseLanguage}>{SUPPORTED_LANGUAGES.map(language=><a href={`/${language.code}`} lang={language.code}>{language.nativeName}</a>)}</nav></noscript>
+      <noscript><nav class="noscript-languages" aria-label={t('chooseLanguage')}>{INTERFACE_LOCALES.map(language=><a href={`/${language.code}`} lang={language.code} dir={language.dir} hreflang={language.code}>{language.nativeName}</a>)}</nav></noscript>
     </div>
     <main id="content"><slot /></main>
-    <footer class="site-footer shell"><strong>Bookstacks</strong><nav aria-label={labels.siteNetwork} data-i18n-aria-label="siteNetwork"><a href="https://github.com/ianrastall/bookstacks"><T locale={locale} k="j.17" /> ↗</a><a href="https://ko-fi.com/ianrastall"><T locale={locale} k="j.15" /> ↗</a></nav></footer>
+    <footer class="site-footer shell"><strong>Bookstacks</strong><nav aria-label={t('siteNetwork')} data-i18n-aria-label="siteNetwork"><a href="https://github.com/ianrastall/bookstacks"><T locale={locale} k="sourceOnGitHub" /> ↗</a><a href="https://ko-fi.com/ianrastall"><T locale={locale} k="support" /> ↗</a></nav></footer>
     <script>import '../scripts/interface';</script>
   </body>
 </html>

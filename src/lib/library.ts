@@ -2,7 +2,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { DOMParser } from '@xmldom/xmldom';
 import authorProfileData from '../data/author-profiles.json';
-import { isLocale, ui, type Locale } from './i18n';
+import { EDITION_LANGUAGES, isEditionLanguage, type EditionLanguage as Locale } from './i18n';
+import '../i18n/catalogues';
+import { text as interfaceText } from './interface';
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';
@@ -308,7 +310,7 @@ export function localizedWorkHref(work: Pick<Work, 'authorSlug' | 'slug'>, local
 }
 
 export function localizedEditionHref(work: Pick<Work, 'authorSlug' | 'slug'>, edition: Pick<Edition, 'code'>): string {
-  const locale = isLocale(edition.code) ? edition.code : 'en';
+  const locale = isEditionLanguage(edition.code) ? edition.code : 'en';
   return localizedWorkHref(work, locale);
 }
 
@@ -318,22 +320,6 @@ export function localizedUnitHref(work: Pick<Work, 'authorSlug' | 'slug'>, editi
 
 export function editionForLocale(work: Pick<Work, 'editions'>, locale: Locale): Edition | undefined {
   return work.editions.find((edition) => edition.code === locale);
-}
-
-export function readingOrganizationLabel(kind: string, locale: Locale): string {
-  const labels: Record<Locale, Record<string, string>> = {
-    en: { scene: 'scene', section: 'section', chapter: 'chapter', stave: 'stave', bekker_page: 'Bekker page', part: 'part' },
-    fr: { scene: 'scène', section: 'section', chapter: 'chapitre', stave: 'strophe', bekker_page: 'page de Bekker', part: 'partie' },
-    es: { scene: 'escena', section: 'sección', chapter: 'capítulo', stave: 'estrofa', bekker_page: 'página de Bekker', part: 'parte' },
-    grc: { scene: 'σκηνή', section: 'τμῆμα', chapter: 'κεφάλαιον', stave: 'στροφή', bekker_page: 'σελίδα Bekker', part: 'μέρος' },
-    ru: { scene: 'сцены', section: 'разделы', chapter: 'главы', stave: 'части', bekker_page: 'страницы Беккера', part: 'части' },
-    'zh-Hans': { scene: '场', section: '节', chapter: '章回', stave: '节', bekker_page: '贝克尔页码', part: '部', story: '篇' },
-  };
-  return labels[locale][kind] ?? kind.replaceAll('_', ' ');
-}
-
-export function localizedWorkTitle(work: Work, locale: Locale): string {
-  return editionForLocale(work, locale)?.sourceTitle ?? work.title;
 }
 
 export function editionTeiHref(
@@ -376,7 +362,7 @@ function parseEdition(filePath: string): ParsedEdition {
       ? `/downloads/${authorSlug}/${stem}/${pdfName}`
       : RELEASE_PDF_HREFS[pdfName];
   const language = LANGUAGE_DATA[fileLanguage] ?? { code: fileLanguage, name: fileLanguage };
-  const locale: Locale = isLocale(language.code) ? language.code : 'en';
+  const locale: Locale = isEditionLanguage(language.code) ? language.code : 'en';
   const source = fs.readFileSync(filePath, 'utf8');
   const document = new DOMParser().parseFromString(source, 'application/xml');
   const parseError = descendants(document, 'parsererror')[0];
@@ -591,7 +577,7 @@ function buildDocumentToc(
     const children = buildTocChildren(area, text, selected, unitByPath, segmentCache, routeBase, locale);
     if (!children.length) continue;
     if (areaName === 'body') sections.push(...children);
-    else sections.push({ label: areaName === 'front' ? ui(locale).frontMatter : ui(locale).backMatter, kind: areaName, children });
+    else sections.push({ label: interfaceText(locale, areaName === 'front' ? 'frontMatter' : 'backMatter'), kind: areaName, children });
   }
   if (!sections.length) {
     sections.push(...buildTocChildren(text, text, selected, unitByPath, segmentCache, routeBase, locale));
@@ -913,8 +899,9 @@ function renderInlineNote(note: any, entities: EntityMaps, headingLevel: number,
   const number = context.noteIndex;
   const sourceId = xmlId(note) || `generated-${number}`;
   const popoverId = `note-${slugify(sourceId)}-${number}`;
-  const labels = ui(context.locale);
-  return `<span class="tei-note"><button class="tei-note-ref" type="button" aria-expanded="false" aria-controls="${escapeAttr(popoverId)}" aria-label="${escapeAttr(`${labels.footnote} ${number}`)}">${number}</button><span class="tei-note-popover" id="${escapeAttr(popoverId)}" role="note" tabindex="-1" hidden><span class="tei-note-label">${escapeHtml(`${labels.footnote} ${number}`)}</span><span class="tei-note-text">${content.trim()}</span><button class="tei-note-close" type="button" aria-label="${escapeAttr(labels.closeFootnote)}">×</button></span></span>`;
+  const footnote = interfaceText(context.locale, 'footnote');
+  const closeFootnote = interfaceText(context.locale, 'closeFootnote');
+  return `<span class="tei-note"><button class="tei-note-ref" type="button" aria-expanded="false" aria-controls="${escapeAttr(popoverId)}" aria-label="${escapeAttr(`${footnote} ${number}`)}">${number}</button><span class="tei-note-popover" id="${escapeAttr(popoverId)}" role="note" tabindex="-1" hidden><span class="tei-note-label">${escapeHtml(`${footnote} ${number}`)}</span><span class="tei-note-text">${content.trim()}</span><button class="tei-note-close" type="button" aria-label="${escapeAttr(closeFootnote)}">×</button></span></span>`;
 }
 
 function normalizeInlineSpacing(value: string): string {
@@ -1007,7 +994,7 @@ function titleFromSlug(slug: string): string {
 }
 
 function languageOrder(code: string): number {
-  const order = ['en', 'fr', 'es', 'grc', 'ru', 'zh-Hans'].indexOf(code);
+  const order = EDITION_LANGUAGES.findIndex((language) => language.code === code);
   return order === -1 ? 99 : order;
 }
 

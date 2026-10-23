@@ -81,7 +81,7 @@ test('explicit language works across navigation with unavailable storage',async(
 
 
 test('unified pages fit narrow screens with long interface labels',async({page})=>{
- for(const path of ['/?ui=fr','/authors?ui=ru','/authors/shakespeare?ui=es','/downloads?ui=fr']){
+ for(const path of ['/?ui=fr','/authors?ui=ru','/authors/shakespeare?ui=es','/downloads?ui=fr','/?ui=ta','/authors?ui=ar','/en/authors/aristotle/poetics/chapter-1?ui=ar','/downloads?ui=de']){
   await page.goto(path);
   for(const width of [1440,390,320]){
    await page.setViewportSize({width,height:900});
@@ -100,4 +100,36 @@ test('book typography follows edition language independently of interface langua
  await page.goto('/?language=zh-Hans&ui=en');await page.locator('.read-link:visible').first().click();await expect(article).toHaveAttribute('lang','zh-Hans');
  const chineseFont=await article.evaluate(el=>getComputedStyle(el).fontFamily);expect(chineseFont).toContain('SimSun');
  await page.locator('#interface-language').selectOption('ru');expect(await article.evaluate(el=>getComputedStyle(el).fontFamily)).toBe(chineseFont);
+});
+
+test('browser preferences select interface locales beyond the edition languages',async({browser})=>{
+ for(const [preference,locale,heading] of [['de-DE','de','Bibliothek'],['zh-TW','zh-Hant','圖書館'],['pt','pt-BR','Biblioteca'],['ja-JP','ja','ライブラリ']]){
+  const context=await browser.newContext({locale:preference});const page=await context.newPage();
+  await page.goto('http://127.0.0.1:4323/');await expect(page.locator('html')).toHaveAttribute('lang',locale);
+  await expect(page.locator('h1')).toHaveText(heading);await expect(page.locator('#interface-language')).toHaveValue('auto');
+  await expect(page.locator('[data-book-row]')).toHaveCount(257);await context.close();
+ }
+});
+
+test('right-to-left interfaces keep edition text left-to-right',async({page})=>{
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('/en/authors/aristotle/poetics/chapter-1');const article=page.locator('.reader-content');const original=await article.innerText();
+ await page.locator('#interface-language').selectOption('ar');
+ await expect(page.locator('html')).toHaveAttribute('dir','rtl');await expect(page.locator('html')).toHaveAttribute('lang','ar');
+ await expect(article).toHaveAttribute('dir','ltr');await expect(article).toHaveAttribute('lang','en');expect(await article.innerText()).toBe(original);
+ await expect(page.locator('a[rel="next"]')).toContainText('التالي');
+ expect(await article.evaluate(el=>getComputedStyle(el).direction)).toBe('ltr');
+ await page.locator('#interface-language').selectOption('he');await expect(page.locator('html')).toHaveAttribute('lang','he');await expect(page.locator('html')).toHaveAttribute('dir','rtl');
+ await page.locator('#interface-language').selectOption('de');await expect(page.locator('html')).toHaveAttribute('dir','ltr');await expect(page.locator('a[rel="next"]')).toContainText('Weiter');
+ expect(errors).toEqual([]);
+});
+
+test('localized homepages for every interface locale work without JavaScript',async({browser})=>{
+ const context=await browser.newContext({javaScriptEnabled:false});const page=await context.newPage();
+ await page.goto('http://127.0.0.1:4323/de');await expect(page.locator('html')).toHaveAttribute('lang','de');await expect(page.locator('h1')).toHaveText('Bibliothek');
+ expect(await page.locator('[data-book-row]').count()).toBe(257);
+ await page.goto('http://127.0.0.1:4323/ar');await expect(page.locator('html')).toHaveAttribute('dir','rtl');await expect(page.locator('h1')).toHaveText('المكتبة');
+ await expect(page.locator('.book-title').first()).toHaveAttribute('dir','ltr');
+ expect(await page.locator('link[rel="alternate"][hreflang]').count()).toBe(41);
+ await context.close();
 });

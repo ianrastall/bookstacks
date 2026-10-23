@@ -1,447 +1,87 @@
-export const SUPPORTED_LANGUAGES = [
-  { code: 'en', teiCode: 'eng', name: 'English', nativeName: 'English', flag: '🇬🇧' },
-  { code: 'fr', teiCode: 'fra', name: 'French', nativeName: 'Français', flag: '🇫🇷' },
-  { code: 'es', teiCode: 'spa', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸' },
-  { code: 'grc', teiCode: 'grc', name: 'Ancient Greek', nativeName: 'Ἑλληνική', flag: '🇬🇷' },
-  { code: 'ru', teiCode: 'rus', name: 'Russian', nativeName: 'Русский', flag: '🇷🇺' },
-  { code: 'zh-Hans', teiCode: 'zho', name: 'Simplified Chinese', nativeName: '简体中文', flag: '🇨🇳' },
+// Edition languages are the languages of literary texts in the corpus. They own
+// the reading routes (/fr/authors/...). Interface locales only translate the
+// site controls and never select, filter or substitute an edition.
+export const EDITION_LANGUAGES = [
+  { code: 'en', teiCode: 'eng', name: 'English', nativeName: 'English', dir: 'ltr' },
+  { code: 'fr', teiCode: 'fra', name: 'French', nativeName: 'Français', dir: 'ltr' },
+  { code: 'es', teiCode: 'spa', name: 'Spanish', nativeName: 'Español', dir: 'ltr' },
+  { code: 'grc', teiCode: 'grc', name: 'Ancient Greek', nativeName: 'Ἑλληνική', dir: 'ltr' },
+  { code: 'ru', teiCode: 'rus', name: 'Russian', nativeName: 'Русский', dir: 'ltr' },
+  { code: 'zh-Hans', teiCode: 'zho', name: 'Simplified Chinese', nativeName: '简体中文', dir: 'ltr' },
 ] as const;
 
-export type Locale = typeof SUPPORTED_LANGUAGES[number]['code'];
+export type EditionLanguage = typeof EDITION_LANGUAGES[number]['code'];
+
+export function isEditionLanguage(value: string): value is EditionLanguage {
+  return EDITION_LANGUAGES.some((language) => language.code === value);
+}
+
+export function editionLanguageData(code: EditionLanguage) {
+  return EDITION_LANGUAGES.find((language) => language.code === code)!;
+}
+
+export function editionLanguageName(edition: { code: string; languageName: string }): string {
+  return isEditionLanguage(edition.code) ? editionLanguageData(edition.code).nativeName : edition.languageName;
+}
+
+export function editionDirection(code: string): 'ltr' | 'rtl' {
+  return isEditionLanguage(code) ? editionLanguageData(code).dir : 'ltr';
+}
+
+// Ordered by BCP 47 tag. Every edition language is also an interface locale.
+export const INTERFACE_LOCALES = [
+  { code: 'ar', name: 'Arabic', nativeName: 'العربية', dir: 'rtl' },
+  { code: 'bn', name: 'Bengali', nativeName: 'বাংলা', dir: 'ltr' },
+  { code: 'cs', name: 'Czech', nativeName: 'Čeština', dir: 'ltr' },
+  { code: 'da', name: 'Danish', nativeName: 'Dansk', dir: 'ltr' },
+  { code: 'de', name: 'German', nativeName: 'Deutsch', dir: 'ltr' },
+  { code: 'el', name: 'Greek', nativeName: 'Ελληνικά', dir: 'ltr' },
+  { code: 'en', name: 'English', nativeName: 'English', dir: 'ltr' },
+  { code: 'es', name: 'Spanish', nativeName: 'Español', dir: 'ltr' },
+  { code: 'fa', name: 'Persian', nativeName: 'فارسی', dir: 'rtl' },
+  { code: 'fi', name: 'Finnish', nativeName: 'Suomi', dir: 'ltr' },
+  { code: 'fil', name: 'Filipino', nativeName: 'Filipino', dir: 'ltr' },
+  { code: 'fr', name: 'French', nativeName: 'Français', dir: 'ltr' },
+  { code: 'grc', name: 'Ancient Greek', nativeName: 'Ἑλληνική', dir: 'ltr' },
+  { code: 'he', name: 'Hebrew', nativeName: 'עברית', dir: 'rtl' },
+  { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', dir: 'ltr' },
+  { code: 'hu', name: 'Hungarian', nativeName: 'Magyar', dir: 'ltr' },
+  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr' },
+  { code: 'it', name: 'Italian', nativeName: 'Italiano', dir: 'ltr' },
+  { code: 'ja', name: 'Japanese', nativeName: '日本語', dir: 'ltr' },
+  { code: 'ko', name: 'Korean', nativeName: '한국어', dir: 'ltr' },
+  { code: 'mr', name: 'Marathi', nativeName: 'मराठी', dir: 'ltr' },
+  { code: 'ms', name: 'Malay', nativeName: 'Bahasa Melayu', dir: 'ltr' },
+  { code: 'nb', name: 'Norwegian Bokmål', nativeName: 'Norsk bokmål', dir: 'ltr' },
+  { code: 'nl', name: 'Dutch', nativeName: 'Nederlands', dir: 'ltr' },
+  { code: 'pl', name: 'Polish', nativeName: 'Polski', dir: 'ltr' },
+  { code: 'pt-BR', name: 'Portuguese (Brazil)', nativeName: 'Português (Brasil)', dir: 'ltr' },
+  { code: 'pt-PT', name: 'Portuguese (Portugal)', nativeName: 'Português (Portugal)', dir: 'ltr' },
+  { code: 'ro', name: 'Romanian', nativeName: 'Română', dir: 'ltr' },
+  { code: 'ru', name: 'Russian', nativeName: 'Русский', dir: 'ltr' },
+  { code: 'sv', name: 'Swedish', nativeName: 'Svenska', dir: 'ltr' },
+  { code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', dir: 'ltr' },
+  { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', dir: 'ltr' },
+  { code: 'te', name: 'Telugu', nativeName: 'తెలుగు', dir: 'ltr' },
+  { code: 'th', name: 'Thai', nativeName: 'ไทย', dir: 'ltr' },
+  { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr' },
+  { code: 'uk', name: 'Ukrainian', nativeName: 'Українська', dir: 'ltr' },
+  { code: 'ur', name: 'Urdu', nativeName: 'اردو', dir: 'rtl' },
+  { code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', dir: 'ltr' },
+  { code: 'zh-Hans', name: 'Simplified Chinese', nativeName: '简体中文', dir: 'ltr' },
+  { code: 'zh-Hant', name: 'Traditional Chinese', nativeName: '繁體中文', dir: 'ltr' },
+] as const;
+
+export type Locale = typeof INTERFACE_LOCALES[number]['code'];
+
+// Compile-time guarantee that each edition language has an interface translation.
+const editionLocalesAreInterfaceLocales: readonly Locale[] = EDITION_LANGUAGES.map((language) => language.code);
+void editionLocalesAreInterfaceLocales;
 
 export function isLocale(value: string): value is Locale {
-  return SUPPORTED_LANGUAGES.some((language) => language.code === value);
+  return INTERFACE_LOCALES.some((locale) => locale.code === value);
 }
 
-export function languageData(locale: Locale) {
-  return SUPPORTED_LANGUAGES.find((language) => language.code === locale)!;
-}
-
-export interface UiStrings {
-  siteDescription: string;
-  skipToContent: string;
-  library: string;
-  home: string;
-  siteNetwork: string;
-  chooseLanguage: string;
-  allLanguages: string;
-  chooseColorTheme: string;
-  colorThemes: string;
-  toggleTheme: string;
-  switchToLight: string;
-  switchToDark: string;
-  curatedLibrary: string;
-  support: string;
-  librarySummary: (authors: number, books: number, editions: number, units: string) => string;
-  booksBy: (name: string) => string;
-  byAuthor: (name: string) => string;
-  bookCount: (count: number) => string;
-  editionCount: (count: number) => string;
-  readingUnitCount: (count: number) => string;
-  organizedBy: (kind: string) => string;
-  availableInLanguage: (language: string) => string;
-  startReading: string;
-  continueReading: string;
-  otherEditions: string;
-  contents: string;
-  frontMatter: string;
-  backMatter: string;
-  downloads: string;
-  downloadEdition: string;
-  downloadFormatsNote: string;
-  author: string;
-  title: string;
-  files: string;
-  people: string;
-  places: string;
-  registries: (people: number, places: number) => string;
-  previous: string;
-  next: string;
-  readingOrder: string;
-  readingControls: string;
-  textWidth: string;
-  textSize: string;
-  narrowText: string;
-  widenText: string;
-  decreaseText: string;
-  increaseText: string;
-  serifCascade: string;
-  sansCascade: string;
-  fontNote: string;
-  footnote: string;
-  closeFootnote: string;
-  automaticTranslationNote: string;
-  editionStructureNote: string;
-  sources: string;
-  noBooks: string;
-  colors: Record<string, string>;
-}
-
-function russianPlural(count: number, one: string, few: string, many: string): string {
-  const mod10 = Math.abs(count) % 10;
-  const mod100 = Math.abs(count) % 100;
-  if (mod10 === 1 && mod100 !== 11) return one;
-  if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return few;
-  return many;
-}
-
-const STRINGS: Record<Locale, UiStrings> = {
-  en: {
-    siteDescription: 'A curated library of public-domain literature.',
-    skipToContent: 'Skip to content',
-    library: 'Library',
-    home: 'Home',
-    siteNetwork: 'Site network',
-    chooseLanguage: 'Choose language',
-    allLanguages: 'All languages',
-    chooseColorTheme: 'Choose color theme',
-    colorThemes: 'Color themes',
-    toggleTheme: 'Toggle theme',
-    switchToLight: 'Switch to light theme',
-    switchToDark: 'Switch to dark theme',
-    curatedLibrary: 'A curated library of public-domain literature. Bookstacks runs locally in your browser; some tools may make external requests.',
-    support: 'If this saved you a few hours of work, consider supporting Bookstacks on Ko-fi.',
-    librarySummary: (authors, books, editions, units) => `A curated index with ${authors} authors, ${books} books, ${editions} TEI editions, and ${units} reading units in English.`,
-    booksBy: (name) => `Books by ${name}`,
-    byAuthor: (name) => `By ${name}`,
-    bookCount: (count) => `${count} ${count === 1 ? 'book' : 'books'}`,
-    editionCount: (count) => `${count} ${count === 1 ? 'edition' : 'editions'}`,
-    readingUnitCount: (count) => `${count} reading ${count === 1 ? 'unit' : 'units'}`,
-    organizedBy: (kind) => `organized by ${kind}`,
-    availableInLanguage: (language) => `Available in ${language}`,
-    startReading: 'Start reading',
-    continueReading: 'Continue reading',
-    otherEditions: 'Other editions',
-    contents: 'Contents',
-    frontMatter: 'Front matter',
-    backMatter: 'Back matter',
-    downloads: 'Downloads',
-    downloadEdition: 'Download this edition',
-    downloadFormatsNote: 'Download the TEI source for any edition. A PDF is offered only when a matching file is included in the repository.',
-    author: 'Author',
-    title: 'Title',
-    files: 'Files',
-    people: 'People',
-    places: 'Places',
-    registries: (people, places) => `TEI registries (${people} people, ${places} places)`,
-    previous: 'Previous',
-    next: 'Next',
-    readingOrder: 'Reading order',
-    readingControls: 'Reading controls and navigation',
-    textWidth: 'Text width',
-    textSize: 'Text size',
-    narrowText: 'Narrow text column',
-    widenText: 'Widen text column',
-    decreaseText: 'Decrease text size',
-    increaseText: 'Increase text size',
-    serifCascade: 'Serif cascade',
-    sansCascade: 'Sans-serif cascade',
-    fontNote: 'Each option is an ordered CSS cascade. The browser uses the first installed font.',
-    footnote: 'Footnote',
-    closeFootnote: 'Close footnote',
-    automaticTranslationNote: 'Automatic browser translation is disabled for this source-language edition.',
-    editionStructureNote: 'This is a complete, standalone TEI edition whose own hierarchy is preserved; translations are not forced into artificial chapter-by-chapter alignment.',
-    noBooks: 'No books are currently available in this language.',
-    sources: 'Text sources',
-    colors: { blue: 'Blue', green: 'Green', red: 'Red', orange: 'Ochre', indigo: 'Indigo', brown: 'Brown', coral: 'Coral' },
-  },
-  fr: {
-    siteDescription: 'Une bibliothèque choisie de littérature du domaine public.',
-    skipToContent: 'Aller au contenu',
-    library: 'Bibliothèque',
-    home: 'Accueil',
-    siteNetwork: 'Réseau du site',
-    chooseLanguage: 'Choisir la langue',
-    allLanguages: 'Toutes les langues',
-    chooseColorTheme: 'Choisir le thème de couleur',
-    colorThemes: 'Thèmes de couleur',
-    toggleTheme: 'Changer de thème',
-    switchToLight: 'Passer au thème clair',
-    switchToDark: 'Passer au thème sombre',
-    curatedLibrary: 'Une bibliothèque choisie de littérature du domaine public. Bookstacks fonctionne localement dans votre navigateur ; certains outils peuvent effectuer des requêtes externes.',
-    support: 'Si ce site vous a fait gagner quelques heures, vous pouvez soutenir Bookstacks sur Ko-fi.',
-    librarySummary: (authors, books, editions, units) => `Un catalogue choisi de ${authors} auteurs, ${books} livres, ${editions} éditions TEI et ${units} unités de lecture en français.`,
-    booksBy: (name) => `Livres de ${name}`,
-    byAuthor: (name) => `Par ${name}`,
-    bookCount: (count) => `${count} ${count === 1 ? 'livre' : 'livres'}`,
-    editionCount: (count) => `${count} ${count === 1 ? 'édition' : 'éditions'}`,
-    readingUnitCount: (count) => `${count} ${count === 1 ? 'unité de lecture' : 'unités de lecture'}`,
-    organizedBy: (kind) => `organisé par ${kind}`,
-    availableInLanguage: (language) => `Disponible en ${language}`,
-    startReading: 'Commencer la lecture',
-    continueReading: 'Continuer la lecture',
-    otherEditions: 'Autres éditions',
-    contents: 'Sommaire',
-    frontMatter: 'Pages liminaires',
-    backMatter: 'Pages finales',
-    downloads: 'Téléchargements',
-    downloadEdition: 'Télécharger cette édition',
-    downloadFormatsNote: 'Téléchargez la source TEI de chaque édition. Un PDF est proposé uniquement si le dépôt contient le fichier correspondant.',
-    author: 'Auteur',
-    title: 'Titre',
-    files: 'Fichiers',
-    people: 'Personnes',
-    places: 'Lieux',
-    registries: (people, places) => `Registres TEI (${people} personnes, ${places} lieux)`,
-    previous: 'Précédent',
-    next: 'Suivant',
-    readingOrder: 'Ordre de lecture',
-    readingControls: 'Réglages et navigation de lecture',
-    textWidth: 'Largeur du texte',
-    textSize: 'Taille du texte',
-    narrowText: 'Rétrécir la colonne de texte',
-    widenText: 'Élargir la colonne de texte',
-    decreaseText: 'Réduire la taille du texte',
-    increaseText: 'Augmenter la taille du texte',
-    serifCascade: 'Police avec empattements',
-    sansCascade: 'Police sans empattements',
-    fontNote: 'Chaque option est une liste ordonnée de polices. Le navigateur utilise la première police installée.',
-    footnote: 'Note',
-    closeFootnote: 'Fermer la note',
-    automaticTranslationNote: 'La traduction automatique du navigateur est désactivée pour préserver cette édition dans sa langue source.',
-    editionStructureNote: 'Il s’agit d’une édition TEI complète et autonome dont la hiérarchie propre est conservée ; les traductions ne sont pas artificiellement alignées chapitre par chapitre.',
-    noBooks: 'Aucun livre n’est actuellement disponible dans cette langue.',
-    sources: 'Sources du texte',
-    colors: { blue: 'Bleu', green: 'Vert', red: 'Rouge', orange: 'Ocre', indigo: 'Indigo', brown: 'Brun', coral: 'Corail' },
-  },
-  es: {
-    siteDescription: 'Una biblioteca selecta de literatura de dominio público.',
-    skipToContent: 'Ir al contenido',
-    library: 'Biblioteca',
-    home: 'Inicio',
-    siteNetwork: 'Sitios',
-    chooseLanguage: 'Elegir idioma',
-    allLanguages: 'Todos los idiomas',
-    chooseColorTheme: 'Elegir tema de color',
-    colorThemes: 'Temas de color',
-    toggleTheme: 'Cambiar tema',
-    switchToLight: 'Usar tema claro',
-    switchToDark: 'Usar tema oscuro',
-    curatedLibrary: 'Una biblioteca selecta de literatura de dominio público. Bookstacks funciona localmente en el navegador; algunas herramientas pueden realizar solicitudes externas.',
-    support: 'Si este sitio le ha ahorrado unas horas de trabajo, puede apoyar a Bookstacks en Ko-fi.',
-    librarySummary: (authors, books, editions, units) => `Un catálogo selecto con ${authors} autores, ${books} libros, ${editions} ediciones TEI y ${units} unidades de lectura en español.`,
-    booksBy: (name) => `Libros de ${name}`,
-    byAuthor: (name) => `De ${name}`,
-    bookCount: (count) => `${count} ${count === 1 ? 'libro' : 'libros'}`,
-    editionCount: (count) => `${count} ${count === 1 ? 'edición' : 'ediciones'}`,
-    readingUnitCount: (count) => `${count} ${count === 1 ? 'unidad de lectura' : 'unidades de lectura'}`,
-    organizedBy: (kind) => `organizado por ${kind}`,
-    availableInLanguage: (language) => `Disponible en ${language}`,
-    startReading: 'Empezar a leer',
-    continueReading: 'Continuar leyendo',
-    otherEditions: 'Otras ediciones',
-    contents: 'Índice',
-    frontMatter: 'Preliminares',
-    backMatter: 'Apéndices',
-    downloads: 'Descargas',
-    downloadEdition: 'Descargar esta edición',
-    downloadFormatsNote: 'Descargue la fuente TEI de cualquier edición. El PDF solo se ofrece cuando el repositorio contiene el archivo correspondiente.',
-    author: 'Autor',
-    title: 'Título',
-    files: 'Archivos',
-    people: 'Personas',
-    places: 'Lugares',
-    registries: (people, places) => `Registros TEI (${people} ${people === 1 ? 'persona' : 'personas'}, ${places} ${places === 1 ? 'lugar' : 'lugares'})`,
-    previous: 'Anterior',
-    next: 'Siguiente',
-    readingOrder: 'Orden de lectura',
-    readingControls: 'Controles y navegación de lectura',
-    textWidth: 'Ancho del texto',
-    textSize: 'Tamaño del texto',
-    narrowText: 'Estrechar la columna de texto',
-    widenText: 'Ensanchar la columna de texto',
-    decreaseText: 'Reducir el texto',
-    increaseText: 'Aumentar el texto',
-    serifCascade: 'Tipografía con serifas',
-    sansCascade: 'Tipografía sin serifas',
-    fontNote: 'Cada opción es una lista ordenada de tipografías. El navegador utiliza la primera que esté instalada.',
-    footnote: 'Nota',
-    closeFootnote: 'Cerrar nota',
-    automaticTranslationNote: 'La traducción automática del navegador está desactivada para conservar el idioma de esta edición.',
-    editionStructureNote: 'Esta es una edición TEI completa e independiente que conserva su propia estructura; las traducciones no se alinean artificialmente escena por escena.',
-    noBooks: 'Actualmente no hay libros disponibles en este idioma.',
-    sources: 'Fuentes del texto',
-    colors: { blue: 'Azul', green: 'Verde', red: 'Rojo', orange: 'Ocre', indigo: 'Índigo', brown: 'Marrón', coral: 'Coral' },
-  },
-  grc: {
-    siteDescription: 'Βιβλιοθήκη ἐκλεκτῶν δημοσίων συγγραμμάτων.',
-    skipToContent: 'Ἐπὶ τὸ περιεχόμενον',
-    library: 'Βιβλιοθήκη',
-    home: 'Οἶκος',
-    siteNetwork: 'Δίκτυον',
-    chooseLanguage: 'Γλῶτταν ἑλέσθαι',
-    allLanguages: 'Πᾶσαι γλῶτται',
-    chooseColorTheme: 'Χρῶμα ἑλέσθαι',
-    colorThemes: 'Χρώματα',
-    toggleTheme: 'Φῶς μεταβάλλειν',
-    switchToLight: 'Εἰς φῶς',
-    switchToDark: 'Εἰς σκότος',
-    curatedLibrary: 'Βιβλιοθήκη ἐκλεκτῶν δημοσίων συγγραμμάτων. Τὸ Bookstacks ἐν τῷ περιηγητῇ λειτουργεῖ.',
-    support: 'Εἰ ὠφέλιμον σοι ἐγένετο, δύνασαι τὸ Bookstacks ἐν Ko-fi στηρίζειν.',
-    librarySummary: (authors, books, editions, units) => `Κατάλογος ${authors} συγγραφέων, ${books} βιβλίων, ${editions} ἐκδόσεων TEI καὶ ${units} μερῶν Ἑλληνιστί.`,
-    booksBy: (name) => `Βιβλία τοῦ ${name}`,
-    byAuthor: (name) => `Ὑπὸ ${name}`,
-    bookCount: (count) => `${count} ${count === 1 ? 'βιβλίον' : 'βιβλία'}`,
-    editionCount: (count) => `${count} ${count === 1 ? 'ἔκδοσις' : 'ἐκδόσεις'}`,
-    readingUnitCount: (count) => `${count} ${count === 1 ? 'μέρος' : 'μέρη'}`,
-    organizedBy: (kind) => `κατὰ ${kind}`,
-    availableInLanguage: (language) => `Ἐν ${language}`,
-    startReading: 'Ἄρξασθαι τῆς ἀναγνώσεως',
-    continueReading: 'Ἀναγιγνώσκειν',
-    otherEditions: 'Ἄλλαι ἐκδόσεις',
-    contents: 'Περιεχόμενα',
-    frontMatter: 'Προοίμιον',
-    backMatter: 'Ἐπίλογος',
-    downloads: 'Καταφορτώσεις',
-    downloadEdition: 'Τὴν ἔκδοσιν καταφορτῶσαι',
-    downloadFormatsNote: 'Τὴν πηγὴν TEI ἑκάστης ἐκδόσεως κατάφορτωσον. PDF παρέχεται μόνον ἐὰν τὸ ἀντίστοιχον ἀρχεῖον ἐν τῇ ἀποθήκῃ ὑπάρχῃ.',
-    author: 'Συγγραφεύς',
-    title: 'Τίτλος',
-    files: 'Ἀρχεῖα',
-    people: 'Πρόσωπα',
-    places: 'Τόποι',
-    registries: (people, places) => `Κατάλογοι TEI (${people} ${people === 1 ? 'πρόσωπον' : 'πρόσωπα'}, ${places} ${places === 1 ? 'τόπος' : 'τόποι'})`,
-    previous: 'Πρότερον',
-    next: 'Ἑπόμενον',
-    readingOrder: 'Τάξις ἀναγνώσεως',
-    readingControls: 'Μέτρα καὶ πλοήγησις',
-    textWidth: 'Πλάτος λόγου',
-    textSize: 'Μέγεθος γραμμάτων',
-    narrowText: 'Στενότερον',
-    widenText: 'Εὐρύτερον',
-    decreaseText: 'Μικρότερα γράμματα',
-    increaseText: 'Μείζονα γράμματα',
-    serifCascade: 'Γράμματα κερασφόρα',
-    sansCascade: 'Γράμματα ἄκερα',
-    fontNote: 'Ὁ περιηγητὴς τὴν πρώτην παροῦσαν γραμματοσειρὰν χρῆται.',
-    footnote: 'Ὑποσημείωσις',
-    closeFootnote: 'Κλεῖσαι τὴν ὑποσημείωσιν',
-    automaticTranslationNote: 'Ἡ αὐτόματος μετάφρασις κέκλεισται, ἵνα ἡ γλῶττα σώζηται.',
-    editionStructureNote: 'Ἡ ἔκδοσις αὕτη τελεία καὶ αὐτοτελής ἐστι, τὴν οἰκείαν τάξιν φυλάττουσα.',
-    noBooks: 'Οὐδὲν βιβλίον ταύτῃ τῇ γλώττῃ πάρεστιν.',
-    sources: 'Πηγαί',
-    colors: { blue: 'Κυανοῦν', green: 'Πράσινον', red: 'Ἐρυθρόν', orange: 'Ὦχρα', indigo: 'Ἰνδικόν', brown: 'Φαιόν', coral: 'Κοράλλιον' },
-  },
-  ru: {
-    siteDescription: 'Избранная библиотека литературы общественного достояния.',
-    skipToContent: 'Перейти к содержанию',
-    library: 'Библиотека',
-    home: 'Главная',
-    siteNetwork: 'Сайты',
-    chooseLanguage: 'Выбрать язык',
-    allLanguages: 'Все языки',
-    chooseColorTheme: 'Выбрать цветовую тему',
-    colorThemes: 'Цветовые темы',
-    toggleTheme: 'Сменить тему',
-    switchToLight: 'Включить светлую тему',
-    switchToDark: 'Включить тёмную тему',
-    curatedLibrary: 'Избранная библиотека литературы общественного достояния. Bookstacks работает локально в браузере; некоторые инструменты могут обращаться к внешним службам.',
-    support: 'Если сайт сэкономил вам время, вы можете поддержать Bookstacks на Ko-fi.',
-    librarySummary: (authors, books, editions, units) => `Избранный каталог: ${authors} авторов, ${books} книг, ${editions} изданий TEI и ${units} частей для чтения на русском языке.`,
-    booksBy: (name) => `Книги автора ${name}`,
-    byAuthor: (name) => `Автор: ${name}`,
-    bookCount: (count) => `${count} ${russianPlural(count, 'книга', 'книги', 'книг')}`,
-    editionCount: (count) => `${count} ${russianPlural(count, 'издание', 'издания', 'изданий')}`,
-    readingUnitCount: (count) => `${count} ${russianPlural(count, 'часть', 'части', 'частей')} для чтения`,
-    organizedBy: (kind) => `структура: ${kind}`,
-    availableInLanguage: (language) => `Доступно на языке: ${language}`,
-    startReading: 'Начать чтение',
-    continueReading: 'Продолжить чтение',
-    otherEditions: 'Другие издания',
-    contents: 'Содержание',
-    frontMatter: 'Начальные материалы',
-    backMatter: 'Заключительные материалы',
-    downloads: 'Загрузки',
-    downloadEdition: 'Скачать это издание',
-    downloadFormatsNote: 'Для каждого издания доступен исходный файл TEI. PDF предлагается только тогда, когда соответствующий файл есть в репозитории.',
-    author: 'Автор',
-    title: 'Название',
-    files: 'Файлы',
-    people: 'Люди',
-    places: 'Места',
-    registries: (people, places) => `Реестры TEI (${people} ${russianPlural(people, 'персона', 'персоны', 'персон')}, ${places} ${russianPlural(places, 'место', 'места', 'мест')})`,
-    previous: 'Назад',
-    next: 'Далее',
-    readingOrder: 'Порядок чтения',
-    readingControls: 'Настройки чтения и навигация',
-    textWidth: 'Ширина текста',
-    textSize: 'Размер текста',
-    narrowText: 'Сузить колонку текста',
-    widenText: 'Расширить колонку текста',
-    decreaseText: 'Уменьшить текст',
-    increaseText: 'Увеличить текст',
-    serifCascade: 'Шрифт с засечками',
-    sansCascade: 'Шрифт без засечек',
-    fontNote: 'Каждый вариант — упорядоченный список шрифтов. Браузер использует первый установленный шрифт.',
-    footnote: 'Примечание',
-    closeFootnote: 'Закрыть примечание',
-    automaticTranslationNote: 'Автоматический перевод браузера отключён, чтобы сохранить язык исходного издания.',
-    editionStructureNote: 'Это полное самостоятельное издание TEI с сохранённой собственной структурой; переводы не выравниваются искусственно по главам.',
-    noBooks: 'На этом языке пока нет доступных книг.',
-    sources: 'Источники текста',
-    colors: { blue: 'Синий', green: 'Зелёный', red: 'Красный', orange: 'Охра', indigo: 'Индиго', brown: 'Коричневый', coral: 'Коралловый' },
-  },
-  'zh-Hans': {
-    siteDescription: '精选公版文学图书馆。',
-    skipToContent: '跳转到正文',
-    library: '图书馆',
-    home: '首页',
-    siteNetwork: '相关网站',
-    chooseLanguage: '选择语言',
-    allLanguages: '所有语言',
-    chooseColorTheme: '选择主题颜色',
-    colorThemes: '主题颜色',
-    toggleTheme: '切换主题',
-    switchToLight: '切换为浅色主题',
-    switchToDark: '切换为深色主题',
-    curatedLibrary: '精选公版文学图书馆。Bookstacks 在浏览器中运行；部分工具可能访问外部服务。',
-    support: '如果这个网站对您有所帮助，欢迎通过 Ko-fi 支持 Bookstacks。',
-    librarySummary: (authors, books, editions, units) => `精选简体中文书目：${authors} 位作者、${books} 部作品、${editions} 个 TEI 版本，共 ${units} 个阅读单元。`,
-    booksBy: (name) => `${name}的作品`,
-    byAuthor: (name) => `作者：${name}`,
-    bookCount: (count) => `${count} 部作品`,
-    editionCount: (count) => `${count} 个版本`,
-    readingUnitCount: (count) => `${count} 个阅读单元`,
-    organizedBy: (kind) => `按${kind}编排`,
-    availableInLanguage: (language) => `可阅读语言：${language}`,
-    startReading: '开始阅读',
-    continueReading: '继续阅读',
-    otherEditions: '其他版本',
-    contents: '目录',
-    frontMatter: '卷首',
-    backMatter: '卷末',
-    downloads: '下载',
-    downloadEdition: '下载本版本',
-    downloadFormatsNote: '每个版本均提供 TEI 源文件；仅在有配套文件时提供 PDF。',
-    author: '作者',
-    title: '书名',
-    files: '文件',
-    people: '人物',
-    places: '地点',
-    registries: (people, places) => `TEI 名录（${people} 位人物、${places} 个地点）`,
-    previous: '上一节',
-    next: '下一节',
-    readingOrder: '阅读顺序',
-    readingControls: '阅读设置与导航',
-    textWidth: '正文宽度',
-    textSize: '字号',
-    narrowText: '缩小正文宽度',
-    widenText: '增大正文宽度',
-    decreaseText: '缩小字号',
-    increaseText: '增大字号',
-    serifCascade: '宋体字体',
-    sansCascade: '黑体字体',
-    fontNote: '中文优先使用系统中已安装的宋体或黑体；西文使用所选字体。',
-    footnote: '注释',
-    closeFootnote: '关闭注释',
-    automaticTranslationNote: '已关闭浏览器自动翻译，以保留本版本的原文。',
-    editionStructureNote: '这是完整且独立的 TEI 版本，保留其自身的篇章结构；不同译本不强行按章节对齐。',
-    sources: '文本来源',
-    noBooks: '暂无此语言的图书。',
-    colors: { blue: '蓝色', green: '绿色', red: '红色', orange: '赭色', indigo: '靛色', brown: '棕色', coral: '珊瑚色' },
-  },
-};
-
-export function ui(locale: Locale): UiStrings {
-  return STRINGS[locale];
+export function localeDirection(locale: Locale): 'ltr' | 'rtl' {
+  return INTERFACE_LOCALES.find((item) => item.code === locale)!.dir;
 }

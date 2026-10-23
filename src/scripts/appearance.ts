@@ -1,5 +1,4 @@
-import { text } from '../lib/interface';
-import type { Locale } from '../lib/i18n';
+import { currentLocale, text } from '../lib/interface';
 import { accentForeground, readableAccent } from '../lib/appearance';
 
 const root = document.documentElement;
@@ -11,7 +10,7 @@ const feedback = document.querySelector<HTMLElement>('#appearance-feedback')!;
 function read(key: string) { try { return localStorage.getItem(key); } catch { return null; } }
 function save(key: string, value: string | null) {
   try { if (value === null) localStorage.removeItem(key); else localStorage.setItem(key, value); }
-  catch { feedback.textContent = text(document.documentElement.lang as Locale,'c.11'); }
+  catch { feedback.textContent = text(currentLocale() ?? 'en','preferenceNotSaved'); }
 }
 let custom = read('bookstacks-accent');
 if (!custom || !/^#[0-9a-f]{6}$/i.test(custom)) custom = null;

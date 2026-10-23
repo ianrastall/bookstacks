@@ -8,7 +8,7 @@ import {
   type Edition,
   type Work,
 } from '../lib/library';
-import { isLocale, languageData, type Locale } from '../lib/i18n';
+import { editionDirection, editionLanguageName, type Locale } from '../lib/i18n';
 
 interface Props {
   author: Author;
@@ -25,8 +25,8 @@ const pdfHref = editionPdfHref(author, edition);
 <article id={compact ? undefined : 'downloads'} class:list={['download-edition', 'download-edition-repository', { 'download-edition-compact': compact }]}>
   <div class="download-edition-body">
     <header class="download-edition-header">
-      {compact ? <h2><a href={localizedEditionHref(work, edition)} lang={edition.code} translate="no">{edition.sourceTitle}</a></h2> : <h3><T locale={locale} k="downloadEdition" /></h3>}
-      {compact && <p>{author.name} · {isLocale(edition.code) ? languageData(edition.code).nativeName : edition.languageName}</p>}
+      {compact ? <h2><a href={localizedEditionHref(work, edition)} lang={edition.code} dir={editionDirection(edition.code)} translate="no">{edition.sourceTitle}</a></h2> : <h3><T locale={locale} k="downloadEdition" /></h3>}
+      {compact && <p>{author.name} · <span lang={edition.code} dir={editionDirection(edition.code)} translate="no">{editionLanguageName(edition)}</span></p>}
     </header>
     <div class="download-links repository-download-links">
       <a class:list={['btn', 'btn-compact', pdfHref ? 'btn-secondary' : 'btn-primary']} href={editionTeiHref(author, edition)} download={edition.sourceFile}>

@@ -4,30 +4,29 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { text } from '../lib/interface';
 import AuthorPortrait from './AuthorPortrait.astro';
 import { getLibrary } from '../lib/library';
-import { ui, type Locale } from '../lib/i18n';
+import type { Locale } from '../lib/i18n';
 
 interface Props {
   locale: Locale;
 }
 
 const { locale } = Astro.props;
-const labels = ui(locale);
 const library = getLibrary();
 const authors = library.authors;
 const editionCount = authors.reduce((sum,author)=>sum+author.works.reduce((n,work)=>n+work.editions.length,0),0);
-const libraryDescription = labels.editionCount(editionCount);
+const libraryDescription = text(locale,'editionCount',[editionCount]);
 ---
 
-<BaseLayout title={text(locale,"c.2")} titleKey="c.2" description={libraryDescription} locale={locale}>
+<BaseLayout title={text(locale,"authors")} titleKey="authors" description={libraryDescription} locale={locale}>
   <section class="tool-container shell" style="margin-top: 2rem;">
-    <h1 class="visually-hidden"><T locale={locale} k="c.2" /></h1>
+    <h1 class="visually-hidden"><T locale={locale} k="authors" /></h1>
     <div class="tool-header">
       <div class="tool-title">
         <span class="material-icons" aria-hidden="true">library_books</span>
-        <h2><T locale={locale} k="c.2" /></h2>
+        <h2><T locale={locale} k="authors" /></h2>
       </div>
     </div>
-    <p class="tool-description"><T locale={locale} k="editionCount" args={[editionCount]} /></p><div class="author-filter"><label for="author-search"><T locale={locale} k="c.8" /></label><input id="author-search" type="search" /></div><p id="author-empty" hidden><T locale={locale} k="c.7" /></p>
+    <p class="tool-description"><T locale={locale} k="editionCount" args={[editionCount]} /></p><div class="author-filter"><label for="author-search"><T locale={locale} k="searchAuthorsTitles" /></label><input id="author-search" type="search" disabled /></div><p id="author-empty" hidden><T locale={locale} k="noMatchingBooks" /></p>
     {authors.length > 0 ? (
       <div class="tool-grid author-grid">
         {authors.map((author) => {
@@ -52,5 +51,5 @@ const libraryDescription = labels.editionCount(editionCount);
 
 <script>
  import { matchesSearch } from '../lib/catalogue';
- const search=document.querySelector<HTMLInputElement>('#author-search')!;search.addEventListener('input',()=>{let count=0;document.querySelectorAll<HTMLElement>('[data-author-search]').forEach(card=>{card.hidden=!matchesSearch(card.dataset.authorSearch||'',search.value);if(!card.hidden)count++;});document.querySelector<HTMLElement>('#author-empty')!.hidden=!!count;});
+ const search=document.querySelector<HTMLInputElement>('#author-search')!;search.disabled=false;search.addEventListener('input',()=>{let count=0;document.querySelectorAll<HTMLElement>('[data-author-search]').forEach(card=>{card.hidden=!matchesSearch(card.dataset.authorSearch||'',search.value);if(!card.hidden)count++;});document.querySelector<HTMLElement>('#author-empty')!.hidden=!!count;});
 </script>

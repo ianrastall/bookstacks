@@ -1,7 +1,8 @@
 ---
 import DownloadsPage from '../../components/DownloadsPage.astro';
-import { SUPPORTED_LANGUAGES,type Locale } from '../../lib/i18n';
-export function getStaticPaths() { return SUPPORTED_LANGUAGES.map(language=>({params:{lang:language.code}})); }
+import { EDITION_LANGUAGES,type Locale } from '../../lib/i18n';
+// Existing localized download addresses; /downloads lists every edition for every interface locale.
+export function getStaticPaths() { return EDITION_LANGUAGES.map(language=>({params:{lang:language.code}})); }
 const locale=Astro.params.lang as Locale;
 ---
 <DownloadsPage locale={locale} />

@@ -14,18 +14,19 @@ import {
   type ReadingUnit,
   type Work,
 } from '../../../lib/library';
-import { SUPPORTED_LANGUAGES, languageData, ui, type Locale } from '../../../lib/i18n';
+import { EDITION_LANGUAGES, editionDirection, editionLanguageData, editionLanguageName, type EditionLanguage } from '../../../lib/i18n';
+import { text } from '../../../lib/interface';
 
 type Page =
-  | { kind: 'author'; locale: Locale; author: Author }
-  | { kind: 'edition'; locale: Locale; author: Author; work: Work; edition: Edition }
-  | { kind: 'reader'; locale: Locale; author: Author; work: Work; edition: Edition; unit: ReadingUnit };
+  | { kind: 'author'; locale: EditionLanguage; author: Author }
+  | { kind: 'edition'; locale: EditionLanguage; author: Author; work: Work; edition: Edition }
+  | { kind: 'reader'; locale: EditionLanguage; author: Author; work: Work; edition: Edition; unit: ReadingUnit };
 
 interface Props { page: Page }
 
 export function getStaticPaths() {
   const paths: Array<{ params: { lang: string; slug: string }; props: Props }> = [];
-  for (const language of SUPPORTED_LANGUAGES) {
+  for (const language of EDITION_LANGUAGES) {
     const locale = language.code;
     for (const author of getLibrary().authors) {
       const works = author.works.filter((work) => editionForLocale(work, locale));
@@ -50,13 +51,15 @@ export function getStaticPaths() {
 }
 
 const { page } = Astro.props;
+// The route language is the edition language; the interface script may replace control text afterwards.
 const { locale } = page;
-const labels = ui(locale);
+const t = (key: string, args: Array<string | number> = []) => text(locale, key, args);
+const editionDir = page.kind === 'author' ? 'ltr' : editionDirection(page.edition.code);
 const title = page.kind === 'author' ? page.author.name : page.kind === 'edition' ? page.edition.sourceTitle : `${page.unit.title} · ${page.edition.sourceTitle}`;
 const description = page.kind === 'author'
-  ? labels.booksBy(page.author.name)
+  ? t('booksBy', [page.author.name])
   : page.kind === 'edition'
-    ? `${page.edition.sourceTitle} · ${labels.byAuthor(page.author.name)}`
+    ? `${page.edition.sourceTitle} · ${t('byAuthor', [page.author.name])}`
     : `${page.unit.title} · ${page.edition.sourceTitle}`;
 ---
 
@@ -67,7 +70,7 @@ const description = page.kind === 'author'
         <div class="tool-title">
           <span class="material-icons" aria-hidden="true">menu_book</span>
           <div>
-            <h1 lang={page.edition.code} translate="no">{page.edition.sourceTitle}</h1>
+            <h1 lang={page.edition.code} dir={editionDir} translate="no">{page.edition.sourceTitle}</h1>
             <p class="tool-description"><T locale={locale} k="byAuthor" args={[page.author.name]} /></p>
           </div>
         </div>
@@ -81,15 +84,15 @@ const description = page.kind === 'author'
       {page.edition.sourceDescription && (
         <aside class="edition-source-note">
           <strong><T locale={locale} k="sources" /></strong>
-          <p lang={page.edition.code} translate="no">{page.edition.sourceDescription}</p>
+          <p lang={page.edition.code} dir={editionDir} translate="no">{page.edition.sourceDescription}</p>
           <ul>{page.edition.sourceLinks.map((source) => <li><a href={source.href}>{source.label}</a></li>)}</ul>
         </aside>
       )}
       <article class="edition-panel edition-contents">
         <header class="edition-header">
           <div>
-            <span lang={page.edition.code} translate="no" class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{languageData(locale).nativeName}</span>
-            <h2 lang={page.edition.code} translate="no">{page.edition.sourceTitle}</h2>
+            <span lang={page.edition.code} dir={editionDir} translate="no" class="book-status book-status-original"><span class="material-icons" aria-hidden="true">translate</span>{editionLanguageData(locale).nativeName}</span>
+            <h2 lang={page.edition.code} dir={editionDir} translate="no">{page.edition.sourceTitle}</h2>
             <p><T locale={locale} k="readingUnitCount" args={[page.edition.units.length]} /></p>
           </div>
           <div class="edition-actions">
@@ -99,18 +102,18 @@ const description = page.kind === 'author'
         </header>
         {page.work.editions.length > 1 && <details class="other-editions">
           <summary><T locale={locale} k="otherEditions" /></summary>
-          <ul>{page.work.editions.filter(edition=>edition.code!==locale).map(edition=><li><a href={localizedEditionHref(page.work,edition)} lang={edition.code} translate="no">{edition.sourceTitle}</a></li>)}</ul>
+          <ul>{page.work.editions.filter(edition=>edition.code!==locale).map(edition=><li><a href={localizedEditionHref(page.work,edition)} lang={edition.code} dir={editionDirection(edition.code)} translate="no">{edition.sourceTitle} <span class="edition-language">({editionLanguageName(edition)})</span></a></li>)}</ul>
         </details>}
         <div class="toc-tree">
           <h3><T locale={locale} k="contents" /></h3>
-          <div lang={page.edition.code} translate="no"><TocTree nodes={page.edition.toc} /></div>
+          <div lang={page.edition.code} dir={editionDir} translate="no"><TocTree nodes={page.edition.toc} /></div>
         </div>
         {(page.edition.persons.length > 0 || page.edition.places.length > 0) && (
           <details class="tei-registry">
             <summary><T locale={locale} k="registries" args={[page.edition.persons.length, page.edition.places.length]} /></summary>
             <div class="registry-columns">
-              {page.edition.persons.length > 0 && <section><h3><T locale={locale} k="people" /></h3><dl>{page.edition.persons.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
-              {page.edition.places.length > 0 && <section><h3><T locale={locale} k="places" /></h3><dl>{page.edition.places.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
+              {page.edition.persons.length > 0 && <section><h3><T locale={locale} k="people" /></h3><dl lang={page.edition.code} dir={editionDir} translate="no">{page.edition.persons.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
+              {page.edition.places.length > 0 && <section><h3><T locale={locale} k="places" /></h3><dl lang={page.edition.code} dir={editionDir} translate="no">{page.edition.places.map((entry) => <div><dt>{entry.name}</dt>{entry.description && <dd>{entry.description}</dd>}</div>)}</dl></section>}
             </div>
           </details>
         )}
@@ -122,39 +125,39 @@ const description = page.kind === 'author'
   {page.kind === 'reader' && (
     <section class="chapter-container shell">
       <header class="chapter-header">
-        <nav class="chapter-breadcrumbs" aria-label={labels.contents} data-i18n-aria-label="contents">
+        <nav class="chapter-breadcrumbs" aria-label={t('contents')} data-i18n-aria-label="contents">
           <a href="/"><T locale={locale} k="library" /></a><span>/</span><a href={`/authors/${page.author.slug}`}>{page.author.name}</a><span>/</span><a href={localizedEditionHref(page.work, page.edition)}>{page.edition.sourceTitle}</a>
         </nav>
-        <p lang={page.edition.code} translate="no" class="reader-context">{page.unit.context.join(' · ')}</p>
-        <h1 lang={page.edition.code} translate="no">{page.unit.title}</h1>
+        <p lang={page.edition.code} dir={editionDir} translate="no" class="reader-context">{page.unit.context.join(' · ')}</p>
+        <h1 lang={page.edition.code} dir={editionDir} translate="no">{page.unit.title}</h1>
       </header>
       <div class="chapter-layout">
-        <article lang={page.edition.code} translate="no" class="reader-content" set:html={page.unit.html} />
-        <aside class="chapter-sidebar" aria-label={labels.readingControls} data-i18n-aria-label="readingControls">
+        <article lang={page.edition.code} dir={editionDir} translate="no" class="reader-content" set:html={page.unit.html} />
+        <aside class="chapter-sidebar" aria-label={t('readingControls')} data-i18n-aria-label="readingControls">
           <details class="reader-controls panel" open><summary><T locale={locale} k="readingControls" /></summary>
-            <strong lang={page.edition.code} translate="no">{page.edition.sourceTitle}</strong>
+            <strong lang={page.edition.code} dir={editionDir} translate="no">{page.edition.sourceTitle}</strong>
             {page.work.editions.length > 1 && (
               <details class="other-editions">
                 <summary><T locale={locale} k="otherEditions" /></summary>
                 <ul>
                   {page.work.editions.filter((edition) => edition.code !== locale).map((edition) => (
-                    <li><a href={localizedEditionHref(page.work, edition)} lang={edition.code} translate="no">{edition.sourceTitle}</a></li>
+                    <li><a href={localizedEditionHref(page.work, edition)} lang={edition.code} dir={editionDirection(edition.code)} translate="no">{edition.sourceTitle} <span class="edition-language">({editionLanguageName(edition)})</span></a></li>
                   ))}
                 </ul>
               </details>
             )}
             <div class="reader-display">
               <span><T locale={locale} k="textWidth" /></span>
-              <button type="button" data-reader-action="narrow" aria-label={labels.narrowText} data-i18n-aria-label="narrowText">−</button>
-              <button type="button" data-reader-action="wide" aria-label={labels.widenText} data-i18n-aria-label="widenText">+</button>
+              <button type="button" data-reader-action="narrow" aria-label={t('narrowText')} data-i18n-aria-label="narrowText">−</button>
+              <button type="button" data-reader-action="wide" aria-label={t('widenText')} data-i18n-aria-label="widenText">+</button>
               <span><T locale={locale} k="textSize" /></span>
-              <button type="button" data-reader-action="smaller" aria-label={labels.decreaseText} data-i18n-aria-label="decreaseText">A−</button>
-              <button type="button" data-reader-action="larger" aria-label={labels.increaseText} data-i18n-aria-label="increaseText">A+</button>
+              <button type="button" data-reader-action="smaller" dir="ltr" aria-label={t('decreaseText')} data-i18n-aria-label="decreaseText">A−</button>
+              <button type="button" data-reader-action="larger" dir="ltr" aria-label={t('increaseText')} data-i18n-aria-label="increaseText">A+</button>
             </div>
             <div class="reader-font-controls">
               <label class="reader-font-picker">
                 <span><T locale={locale} k="serifCascade" /></span>
-                <select data-reader-font="serif" aria-describedby="reader-font-note">
+                <select data-reader-font="serif" dir="ltr" aria-describedby="reader-font-note">
                   <option value="classic">Constantia, Georgia, Times</option>
                   <option value="charter">Charter, Cambria, Constantia</option>
                   <option value="old-style">Iowan Old Style, Baskerville, Palatino</option>
@@ -165,7 +168,7 @@ const description = page.kind === 'author'
               </label>
               <label class="reader-font-picker">
                 <span><T locale={locale} k="sansCascade" /></span>
-                <select data-reader-font="sans" aria-describedby="reader-font-note">
+                <select data-reader-font="sans" dir="ltr" aria-describedby="reader-font-note">
                   <option value="office">Segoe UI, Calibri, Arial</option>
                   <option value="system">System UI, Segoe UI</option>
                   <option value="helvetica">Helvetica Neue, Helvetica, Arial</option>
@@ -177,10 +180,10 @@ const description = page.kind === 'author'
               <p class="reader-font-note" id="reader-font-note"><T locale={locale} k="fontNote" /></p>
             </div>
           </details>
-          <nav class="chapter-navigation" aria-label={labels.readingOrder} data-i18n-aria-label="readingOrder">
-            {page.unit.previousPath ? <a class="btn btn-secondary chapter-nav-button" rel="prev" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.previousPath}`}><span class="material-icons" aria-hidden="true">arrow_back</span><T locale={locale} k="previous" /></a> : <span class="btn btn-secondary chapter-nav-button is-disabled"><T locale={locale} k="previous" /></span>}
+          <nav class="chapter-navigation" aria-label={t('readingOrder')} data-i18n-aria-label="readingOrder">
+            {page.unit.previousPath ? <a class="btn btn-secondary chapter-nav-button" rel="prev" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.previousPath}`}><span class="material-icons directional-icon" aria-hidden="true">arrow_back</span><T locale={locale} k="previous" /></a> : <span class="btn btn-secondary chapter-nav-button is-disabled"><T locale={locale} k="previous" /></span>}
             <a class="btn btn-secondary chapter-nav-button" href={localizedEditionHref(page.work, page.edition)}><span class="material-icons" aria-hidden="true">list</span><T locale={locale} k="contents" /></a>
-            {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.nextPath}`}><T locale={locale} k="next" /><span class="material-icons" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled"><T locale={locale} k="next" /></span>}
+            {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.nextPath}`}><T locale={locale} k="next" /><span class="material-icons directional-icon" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled"><T locale={locale} k="next" /></span>}
           </nav>
         </aside>
       </div>
