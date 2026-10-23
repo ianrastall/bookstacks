@@ -61,6 +61,7 @@ TEI notes are rendered as numbered, keyboard-accessible popovers in the web read
 - `src/` contains the Astro site and TEI-to-HTML reader; `src/i18n/` holds the interface catalogues.
 - `public/` contains deployable static assets, including committed PDF exports under `public/downloads/`.
 - `tei/` contains the curated standalone TEI corpus, schema, validator, and build scripts.
+- `corpusdb/` is the prototype SQLite catalogue derived from TEI and the side files (see `corpusdb/README.md`); `docs/corpus-audit/` holds the corpus audit it is based on.
 - `assets/` contains local source material used by the TEI preparation pipeline. It is not served or committed; the deployable standalone results live in `tei/`.
 
 See `tei/README.md` for corpus provenance and validation details.

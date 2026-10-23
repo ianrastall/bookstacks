@@ -156,4 +156,4 @@ Independently of storage, extend `tei/validate_tei.py` with a versioned Bookstac
 
 ## Next step
 
-With the boundary decided, Stage 2 can be an additive prototype in a new path: a SQLite schema for the records above, populated from TEI and the side files by a read-only importer, plus the profile checks above as a report. The current TEI, site build and deployment stay untouched.
+Ian chose the hybrid boundary on 23 October 2026; the Stage 2 prototype is in [`corpusdb/`](../../corpusdb/README.md). The original plan for this step read: with the boundary decided, Stage 2 can be an additive prototype in a new path: a SQLite schema for the records above, populated from TEI and the side files by a read-only importer, plus the profile checks above as a report. The current TEI, site build and deployment stay untouched.
