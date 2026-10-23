@@ -1,0 +1,4290 @@
+{
+ "generated_from": {
+  "git_revision": "8a59707c27eea77f3bff6f6d59ad4cfece1133c8",
+  "tei_root": "tei",
+  "renderer": "src/lib/library.ts"
+ },
+ "summary": {
+  "editions": 257,
+  "works": 148,
+  "works_with_several_editions": 100,
+  "work_titles_in_code": 85,
+  "works_titled_by_slug_fallback": 63,
+  "work_titles_without_work": [],
+  "author_profiles": 18,
+  "authors_with_several_header_forms": 5,
+  "language_codes_in_code": {
+   "eng": "en",
+   "fra": "fr",
+   "spa": "es",
+   "grc": "grc",
+   "rus": "ru",
+   "zho": "zh-Hans"
+  },
+  "language_declaration_mismatches": 1,
+  "export_manifests": 240,
+  "editions_without_export_manifest": 17,
+  "manifests_recording_source_tei_hash": 0,
+  "manifests_with_canonical_url_mismatch": 0,
+  "manifests_with_pdf_hash_mismatch": 0,
+  "manifest_keys": {
+   "author": 240,
+   "canonical_url": 240,
+   "edition_id": 240,
+   "files": 240,
+   "generator_fingerprint": 240,
+   "language": 240,
+   "schema_version": 240,
+   "source_tei": 240,
+   "title": 240,
+   "validations": 240,
+   "work_id": 240
+  },
+  "pdfs_beside_tei": 0,
+  "portrait_files": 58,
+  "portraits_referenced_by_profiles": 18,
+  "route_redirects_in_astro_config": 4
+ },
+ "code_held_editorial_rules": {
+  "reading_kind_priority": [
+   "scene",
+   "section",
+   "chapter",
+   "stave",
+   "bekker_page",
+   "part",
+   "story"
+  ],
+  "supplementary_kinds": [
+   "front",
+   "foreword",
+   "preface",
+   "translator-preface",
+   "authorial-note",
+   "colophon",
+   "credits",
+   "postscript",
+   "prologue",
+   "epilogue",
+   "introduction",
+   "dedication",
+   "characters",
+   "notes",
+   "publication-note",
+   "suppressed-chapter",
+   "title-page"
+  ],
+  "wrapper_kinds": [
+   "edition",
+   "translation"
+  ],
+  "render_time_repairs": [
+   "repairConvertedDrama"
+  ]
+ },
+ "authors": {
+  "aristotle": {
+   "profile_name": "Aristotle",
+   "profile_dates": "384-322 BCE",
+   "portrait": "aristotle.png",
+   "header_author_forms": {
+    "Aristotle": 8
+   }
+  },
+  "austen": {
+   "profile_name": "Jane Austen",
+   "profile_dates": "1775-1817",
+   "portrait": "austen-jane.png",
+   "header_author_forms": {
+    "Austen, Jane, 1775-1817": 6,
+    "Jane Austen1775–1817": 6
+   }
+  },
+  "bronte-anne": {
+   "profile_name": "Anne Brontë",
+   "profile_dates": "1820-1849",
+   "portrait": "bronte-anne.png",
+   "header_author_forms": {
+    "Anne Brontë1820-1849": 1
+   }
+  },
+  "bronte-charlotte": {
+   "profile_name": "Charlotte Brontë",
+   "profile_dates": "1816-1855",
+   "portrait": "bronte-charlotte.png",
+   "header_author_forms": {
+    "Charlotte Brontë1816-1855": 4
+   }
+  },
+  "bronte-emily": {
+   "profile_name": "Emily Brontë",
+   "profile_dates": "1818-1848",
+   "portrait": "bronte-emily.png",
+   "header_author_forms": {
+    "Emily Brontë1818-1848": 1
+   }
+  },
+  "chesterton-g-k": {
+   "profile_name": "G. K. Chesterton",
+   "profile_dates": "1874-1936",
+   "portrait": "chesterton-g-k.png",
+   "header_author_forms": {
+    "G. K. Chesterton1874-1936": 4
+   }
+  },
+  "dickens": {
+   "profile_name": "Charles Dickens",
+   "profile_dates": "1812-1870",
+   "portrait": "dickens-charles.png",
+   "header_author_forms": {
+    "Charles Dickens": 8
+   }
+  },
+  "dostoevsky": {
+   "profile_name": "Fyodor Dostoevsky",
+   "profile_dates": "1821-1881",
+   "portrait": "dostoevsky-fyodor.png",
+   "header_author_forms": {
+    "Fedor Dostoevskii": 7,
+    "Fyodor Dostoyevsky": 5
+   }
+  },
+  "doyle": {
+   "profile_name": "Arthur Conan Doyle",
+   "profile_dates": "1859-1930",
+   "portrait": "doyle-arthur-conan.png",
+   "header_author_forms": {
+    "Arthur Conan Doyle": 14
+   }
+  },
+  "eliot": {
+   "profile_name": "George Eliot",
+   "profile_dates": "1819-1880",
+   "portrait": "eliot-george.png",
+   "header_author_forms": {
+    "George Eliot": 1
+   }
+  },
+  "james": {
+   "profile_name": "Henry James",
+   "profile_dates": "1843-1916",
+   "portrait": "james-henry.png",
+   "header_author_forms": {
+    "Henry James1843-1916": 7
+   }
+  },
+  "laozi": {
+   "profile_name": "老子",
+   "profile_dates": "生卒年不详",
+   "portrait": "laozi.png",
+   "header_author_forms": {
+    "老子（传统归属）": 1
+   }
+  },
+  "lu-xun": {
+   "profile_name": "鲁迅",
+   "profile_dates": "1881—1936",
+   "portrait": "lu-xun.png",
+   "header_author_forms": {
+    "鲁迅": 1
+   }
+  },
+  "plato": {
+   "profile_name": "Plato",
+   "profile_dates": "c. 428-348 BCE",
+   "portrait": "plato.png",
+   "header_author_forms": {
+    "Plato": 72
+   }
+  },
+  "shakespeare": {
+   "profile_name": "William Shakespeare",
+   "profile_dates": "1564-1616",
+   "portrait": "shakespeare-william.png",
+   "header_author_forms": {
+    "William Shakespeare 1564–1616": 46,
+    "William Shakespeare 1564-1616": 38
+   }
+  },
+  "tolstoy": {
+   "profile_name": "Leo Tolstoy",
+   "profile_dates": "1828-1910",
+   "portrait": "tolstoy-leo.png",
+   "header_author_forms": {
+    "Толстой Лев Николаевич": 6,
+    "graf Leo Tolstoy": 4,
+    "Leo Tolstoy": 1
+   }
+  },
+  "turgenev": {
+   "profile_name": "Ivan Turgenev",
+   "profile_dates": "1818-1883",
+   "portrait": "turgenev-ivan.png",
+   "header_author_forms": {
+    "Ivan Turgenev1818-1883": 8,
+    "Иван Сергеевич Тургенев1818–1883": 7
+   }
+  },
+  "wu-chengen": {
+   "profile_name": "吴承恩",
+   "profile_dates": "约1500—约1582",
+   "portrait": "wu-chengen.png",
+   "header_author_forms": {
+    "吴承恩（传统归属）": 1
+   }
+  }
+ },
+ "works": [
+  {
+   "author_slug": "aristotle",
+   "work_slug": "metaphysics",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Metaphysics",
+    "τὰ Μετὰ τὰ Φυσικά"
+   ]
+  },
+  {
+   "author_slug": "aristotle",
+   "work_slug": "nicomachean-ethics",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Nicomachean Ethics",
+    "Ἠθικὰ Νικομάχεια"
+   ]
+  },
+  {
+   "author_slug": "aristotle",
+   "work_slug": "poetics",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Poetics",
+    "Περὶ ποιητικῆς"
+   ]
+  },
+  {
+   "author_slug": "aristotle",
+   "work_slug": "politics",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Politics",
+    "Πολιτικά"
+   ]
+  },
+  {
+   "author_slug": "austen",
+   "work_slug": "emma",
+   "editions": [
+    "eng",
+    "spa"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Emma"
+   ]
+  },
+  {
+   "author_slug": "austen",
+   "work_slug": "mansfield-park",
+   "editions": [
+    "eng",
+    "spa"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Mansfield Park"
+   ]
+  },
+  {
+   "author_slug": "austen",
+   "work_slug": "northanger-abbey",
+   "editions": [
+    "eng",
+    "spa"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "La abadía de Northanger",
+    "Northanger Abbey"
+   ]
+  },
+  {
+   "author_slug": "austen",
+   "work_slug": "persuasion",
+   "editions": [
+    "eng",
+    "spa"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Persuasion",
+    "Persuasión"
+   ]
+  },
+  {
+   "author_slug": "austen",
+   "work_slug": "pride-and-prejudice",
+   "editions": [
+    "eng",
+    "spa"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Orgullo y prejuicio",
+    "Pride and Prejudice"
+   ]
+  },
+  {
+   "author_slug": "austen",
+   "work_slug": "sense-and-sensibility",
+   "editions": [
+    "eng",
+    "spa"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Sense and Sensibility",
+    "Sentido y sensibilidad"
+   ]
+  },
+  {
+   "author_slug": "bronte-anne",
+   "work_slug": "agnes-grey",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Agnes Grey"
+   ]
+  },
+  {
+   "author_slug": "bronte-charlotte",
+   "work_slug": "jane-eyre-an-autobiography",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Jane Eyre: An Autobiography"
+   ]
+  },
+  {
+   "author_slug": "bronte-charlotte",
+   "work_slug": "shirley",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Shirley"
+   ]
+  },
+  {
+   "author_slug": "bronte-charlotte",
+   "work_slug": "the-professor",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Professor"
+   ]
+  },
+  {
+   "author_slug": "bronte-charlotte",
+   "work_slug": "villette",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Villette"
+   ]
+  },
+  {
+   "author_slug": "bronte-emily",
+   "work_slug": "wuthering-heights",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Wuthering Heights"
+   ]
+  },
+  {
+   "author_slug": "chesterton-g-k",
+   "work_slug": "a-short-history-of-england",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "A Short History of England"
+   ]
+  },
+  {
+   "author_slug": "chesterton-g-k",
+   "work_slug": "george-bernard-shaw",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "George Bernard Shaw"
+   ]
+  },
+  {
+   "author_slug": "chesterton-g-k",
+   "work_slug": "orthodoxy",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Orthodoxy"
+   ]
+  },
+  {
+   "author_slug": "chesterton-g-k",
+   "work_slug": "the-man-who-was-thursday-a-nightmare",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Man Who Was Thursday: A Nightmare"
+   ]
+  },
+  {
+   "author_slug": "dickens",
+   "work_slug": "a-christmas-carol",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "A Christmas Carol"
+   ]
+  },
+  {
+   "author_slug": "dickens",
+   "work_slug": "a-tale-of-two-cities",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "A Tale of Two Cities"
+   ]
+  },
+  {
+   "author_slug": "dickens",
+   "work_slug": "barnaby-rudge",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Barnaby Rudge: A Tale of the Riots of 'Eighty"
+   ]
+  },
+  {
+   "author_slug": "dickens",
+   "work_slug": "bleak-house",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Bleak House"
+   ]
+  },
+  {
+   "author_slug": "dickens",
+   "work_slug": "david-copperfield",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "David Copperfield"
+   ]
+  },
+  {
+   "author_slug": "dickens",
+   "work_slug": "martin-chuzzlewit",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Martin Chuzzlewit"
+   ]
+  },
+  {
+   "author_slug": "dickens",
+   "work_slug": "nicholas-nickleby",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Nicholas Nickleby"
+   ]
+  },
+  {
+   "author_slug": "dickens",
+   "work_slug": "oliver-twist",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Oliver Twist"
+   ]
+  },
+  {
+   "author_slug": "dostoevsky",
+   "work_slug": "brothers-karamazov",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Brothers Karamazov",
+    "Братья Карамазовы"
+   ]
+  },
+  {
+   "author_slug": "dostoevsky",
+   "work_slug": "crime-and-punishment",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Crime and Punishment",
+    "Преступление и наказание"
+   ]
+  },
+  {
+   "author_slug": "dostoevsky",
+   "work_slug": "demons",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Possessed",
+    "Бесы"
+   ]
+  },
+  {
+   "author_slug": "dostoevsky",
+   "work_slug": "notes-from-underground",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Notes from the Underground",
+    "Записки из подполья"
+   ]
+  },
+  {
+   "author_slug": "dostoevsky",
+   "work_slug": "the-adolescent",
+   "editions": [
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Подросток"
+   ]
+  },
+  {
+   "author_slug": "dostoevsky",
+   "work_slug": "the-double",
+   "editions": [
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Двойник"
+   ]
+  },
+  {
+   "author_slug": "dostoevsky",
+   "work_slug": "the-idiot",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Idiot",
+    "Идиот"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "a-study-in-scarlet",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "A Study in Scarlet"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "his-last-bow",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "His Last Bow: Some Later Reminiscences of Sherlock Holmes"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "sir-nigel",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Sir Nigel"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "tales-of-terror-and-mystery",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Tales of Terror and Mystery"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-adventures-of-sherlock-holmes",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Adventures of Sherlock Holmes"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-case-book-of-sherlock-holmes",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Case-Book of Sherlock Holmes"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-hound-of-the-baskervilles",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Hound of the Baskervilles"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-lost-world",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Lost World"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-memoirs-of-sherlock-holmes",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Memoirs of Sherlock Holmes"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-poison-belt",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Poison Belt"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-return-of-sherlock-holmes",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Return of Sherlock Holmes"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-sign-of-the-four",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Sign of the Four"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-valley-of-fear",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Valley of Fear"
+   ]
+  },
+  {
+   "author_slug": "doyle",
+   "work_slug": "the-white-company",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The White Company"
+   ]
+  },
+  {
+   "author_slug": "eliot",
+   "work_slug": "middlemarch",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Middlemarch"
+   ]
+  },
+  {
+   "author_slug": "james",
+   "work_slug": "the-ambassadors",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Ambassadors"
+   ]
+  },
+  {
+   "author_slug": "james",
+   "work_slug": "the-bostonians",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Bostonians"
+   ]
+  },
+  {
+   "author_slug": "james",
+   "work_slug": "the-europeans",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Europeans"
+   ]
+  },
+  {
+   "author_slug": "james",
+   "work_slug": "the-portrait-of-a-lady",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Portrait of a Lady"
+   ]
+  },
+  {
+   "author_slug": "james",
+   "work_slug": "the-turn-of-the-screw",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Turn of the Screw"
+   ]
+  },
+  {
+   "author_slug": "james",
+   "work_slug": "the-wings-of-the-dove",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Wings of the Dove"
+   ]
+  },
+  {
+   "author_slug": "james",
+   "work_slug": "washington-square",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Washington Square"
+   ]
+  },
+  {
+   "author_slug": "laozi",
+   "work_slug": "tao-te-ching",
+   "editions": [
+    "zho"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "道德经"
+   ]
+  },
+  {
+   "author_slug": "lu-xun",
+   "work_slug": "call-to-arms",
+   "editions": [
+    "zho"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "呐喊"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "alcibiades-1",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Alcibiades 1",
+    "Ἀλκιβιάδης αʹ"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "alcibiades-2",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Alcibiades 2",
+    "Ἀλκιβιάδης βʹ"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "apology",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Apology",
+    "Ἀπολογία Σωκράτους"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "charmides",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Charmides",
+    "Χαρμίδης"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "cleitophon",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Cleitophon",
+    "Κλειτοφῶν"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "cratylus",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Cratylus",
+    "Κρατύλος"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "critias",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Critias",
+    "Κριτίας"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "crito",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Crito",
+    "Κρίτων"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "epinomis",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Epinomis",
+    "Ἐπινομίς"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "euthydemus",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Euthydemus",
+    "Εὐθύδημος"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "euthyphro",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Euthyphro",
+    "Εὐθύφρων"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "gorgias",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Gorgias",
+    "Γοργίας"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "greater-hippias",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Hippias Major",
+    "Ἱππίας μείζων"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "hipparchus",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Hipparchus",
+    "Ἵππαρχος"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "ion",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Ion",
+    "Ἴων"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "laches",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Laches",
+    "Λάχης"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "laws",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Laws",
+    "Νόμοι"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "lesser-hippias",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Hippias Minor",
+    "Ἱππίας ἐλάττων"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "letters",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Letters",
+    "Ἐπιστολαί"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "lovers",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Lovers",
+    "Ἐρασταί"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "lysis",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Lysis",
+    "Λύσις"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "menexenus",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Menexenus",
+    "Μενέξενος"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "meno",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Meno",
+    "Μένων"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "minos",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Minos",
+    "Μίνως"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "parmenides",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Parmenides",
+    "Παρμενίδης"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "phaedo",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Phaedo",
+    "Φαίδων"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "phaedrus",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Phaedrus",
+    "Φαῖδρος"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "philebus",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Philebus",
+    "Φίληβος"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "protagoras",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Protagoras",
+    "Πρωταγόρας"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "republic",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "The Republic",
+    "Πολιτεία"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "sophist",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Sophist",
+    "Σοφιστής"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "statesman",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Statesman",
+    "Πολιτικός"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "symposium",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Symposium",
+    "Συμπόσιον"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "theaetetus",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Theaetetus",
+    "Θεαίτητος"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "theages",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Theages",
+    "Θεάγης"
+   ]
+  },
+  {
+   "author_slug": "plato",
+   "work_slug": "timaeus",
+   "editions": [
+    "eng",
+    "grc"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Timaeus",
+    "Τίμαιος"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "a-midsummer-nights-dream",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "A Midsummer Night's Dream",
+    "Le songe d'une nuit d'été"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "alls-well-that-ends-well",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "All's Well That Ends Well",
+    "Tout est bien qui finit bien"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "antony-and-cleopatra",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Antoine et Cléopâtre",
+    "Antony and Cleopatra"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "as-you-like-it",
+   "editions": [
+    "eng",
+    "fra",
+    "spa"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "As You Like It",
+    "Comme il vous plaira",
+    "Como gustéis"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "coriolanus",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Coriolan",
+    "Coriolanus"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "cymbeline",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Cymbeline",
+    "Cymbeline: Tragédie"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "hamlet",
+   "editions": [
+    "eng",
+    "fra",
+    "spa"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Hamlet",
+    "Hamlet: Drama en cinco actos"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "julius-caesar",
+   "editions": [
+    "eng",
+    "fra",
+    "spa"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Jules César",
+    "Julio César",
+    "Julius Caesar"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-henry-iv-part-1",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Henri IV (1re partie)",
+    "King Henry IV, Part 1"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-henry-iv-part-2",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Henri IV (2e partie)",
+    "King Henry IV, Part 2"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-henry-v",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Henri V",
+    "King Henry V"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-henry-vi-part-1",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Henri VI (1/3)",
+    "King Henry VI, Part 1"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-henry-vi-part-2",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Henri VI (2/3)",
+    "King Henry VI, Part 2"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-henry-vi-part-3",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Henri VI (3/3)",
+    "King Henry VI, Part 3"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-henry-viii",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Henri VIII",
+    "King Henry VIII"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-john",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "King John",
+    "Le roi Jean"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-lear",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "King Lear",
+    "Le roi Lear"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-richard-ii",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "King Richard II",
+    "La vie et la mort du roi Richard II"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "king-richard-iii",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "King Richard III",
+    "La vie et la mort du roi Richard III"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "loves-labours-lost",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Love's Labour's Lost",
+    "Peines d'amour perdues / Comédie"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "macbeth",
+   "editions": [
+    "eng",
+    "fra",
+    "spa"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Macbeth"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "measure-for-measure",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Measure for Measure",
+    "Mesure pour mesure"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "much-ado-about-nothing",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Beaucoup de Bruit pour Rien",
+    "Much Ado about Nothing"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "othello",
+   "editions": [
+    "eng",
+    "fra",
+    "spa"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Otelo",
+    "Othello"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "pericles-prince-of-tyre",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Pericles, Prince of Tyre",
+    "Périclès / Tragédie"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "romeo-and-juliet",
+   "editions": [
+    "eng",
+    "fra",
+    "spa"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Romeo and Juliet",
+    "Romeo y Julieta",
+    "Roméo et Juliette / Tragédie"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "the-comedy-of-errors",
+   "editions": [
+    "eng",
+    "fra",
+    "spa"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Comedia de equivocaciones",
+    "La Comédie des Méprises",
+    "The Comedy of Errors"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "the-merchant-of-venice",
+   "editions": [
+    "eng",
+    "fra",
+    "spa"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "El mercader de Venecia",
+    "Le marchand de Venise",
+    "The Merchant of Venice"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "the-merry-wives-of-windsor",
+   "editions": [
+    "eng",
+    "fra",
+    "spa"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Las alegres comadres de Windsor",
+    "Les joyeuses Bourgeoises de Windsor",
+    "The Merry Wives of Windsor"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "the-taming-of-the-shrew",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "La méchante femme mise à la raison / Comédie",
+    "The Taming of the Shrew"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "the-tempest",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "La Tempête",
+    "The Tempest"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "the-two-gentlemen-of-verona",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Les Deux Gentilshommes de Vérone",
+    "The Two Gentlemen of Verona"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "the-two-noble-kinsmen",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Two Noble Kinsmen"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "the-winters-tale",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Le conte d'hiver",
+    "The Winter's Tale"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "timon-of-athens",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Timon d'Athènes",
+    "Timon of Athens"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "titus-andronicus",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Titus Andronicus"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "troilus-and-cressida",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Troilus and Cressida",
+    "Troïlus et Cressida"
+   ]
+  },
+  {
+   "author_slug": "shakespeare",
+   "work_slug": "twelfth-night",
+   "editions": [
+    "eng",
+    "fra"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Le Jour des Rois",
+    "Twelfth Night"
+   ]
+  },
+  {
+   "author_slug": "tolstoy",
+   "work_slug": "anna-karenina",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Anna Karenina",
+    "Анна Каренина"
+   ]
+  },
+  {
+   "author_slug": "tolstoy",
+   "work_slug": "childhood-boyhood-youth",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Childhood, Boyhood, and Youth",
+    "Детство, Отрочество, Юность"
+   ]
+  },
+  {
+   "author_slug": "tolstoy",
+   "work_slug": "cossacks",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Cossacks: A Tale of 1852",
+    "Казаки. Произведения. Tolstoy Digital"
+   ]
+  },
+  {
+   "author_slug": "tolstoy",
+   "work_slug": "novellas",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Novellas",
+    "Повести и рассказы"
+   ]
+  },
+  {
+   "author_slug": "tolstoy",
+   "work_slug": "resurrection",
+   "editions": [
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "Воскресение. Произведения. Tolstoy Digital"
+   ]
+  },
+  {
+   "author_slug": "tolstoy",
+   "work_slug": "war-and-peace",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "War and Peace",
+    "Война и мир"
+   ]
+  },
+  {
+   "author_slug": "turgenev",
+   "work_slug": "a-house-of-gentlefolk",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "A House of Gentlefolk",
+    "Дворянское гнездо"
+   ]
+  },
+  {
+   "author_slug": "turgenev",
+   "work_slug": "fathers-and-children",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Fathers and Children",
+    "Отцы и дети"
+   ]
+  },
+  {
+   "author_slug": "turgenev",
+   "work_slug": "first-love",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "First Love",
+    "Первая любовь"
+   ]
+  },
+  {
+   "author_slug": "turgenev",
+   "work_slug": "mumu",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Mumu",
+    "Муму"
+   ]
+  },
+  {
+   "author_slug": "turgenev",
+   "work_slug": "on-the-eve",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "On the Eve",
+    "Накануне"
+   ]
+  },
+  {
+   "author_slug": "turgenev",
+   "work_slug": "rudin",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Rudin",
+    "Рудин"
+   ]
+  },
+  {
+   "author_slug": "turgenev",
+   "work_slug": "the-torrents-of-spring",
+   "editions": [
+    "eng",
+    "rus"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "The Torrents of Spring",
+    "Вешние воды"
+   ]
+  },
+  {
+   "author_slug": "turgenev",
+   "work_slug": "virgin-soil",
+   "editions": [
+    "eng"
+   ],
+   "title_source": "slug fallback",
+   "header_titles": [
+    "Virgin Soil"
+   ]
+  },
+  {
+   "author_slug": "wu-chengen",
+   "work_slug": "journey-to-the-west",
+   "editions": [
+    "zho"
+   ],
+   "title_source": "WORK_TITLES",
+   "header_titles": [
+    "西游记"
+   ]
+  }
+ ],
+ "language_declaration_mismatches": [
+  {
+   "file": "tei/plato/plato_republic_eng.xml",
+   "file_language": "eng",
+   "root_lang": null,
+   "text_lang": "eng"
+  }
+ ],
+ "manifests": [
+  {
+   "manifest": "public/downloads/aristotle/aristotle_metaphysics_eng/manifest.json",
+   "source_tei": "aristotle_metaphysics_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Aristotle (384-322 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/aristotle/aristotle_metaphysics_grc/manifest.json",
+   "source_tei": "aristotle_metaphysics_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Aristotle (384-322 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/aristotle/aristotle_nicomachean-ethics_eng/manifest.json",
+   "source_tei": "aristotle_nicomachean-ethics_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Aristotle (384-322 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/aristotle/aristotle_nicomachean-ethics_grc/manifest.json",
+   "source_tei": "aristotle_nicomachean-ethics_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Aristotle (384-322 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/aristotle/aristotle_poetics_eng/manifest.json",
+   "source_tei": "aristotle_poetics_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Aristotle (384-322 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/aristotle/aristotle_poetics_grc/manifest.json",
+   "source_tei": "aristotle_poetics_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Aristotle (384-322 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/aristotle/aristotle_politics_eng/manifest.json",
+   "source_tei": "aristotle_politics_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Aristotle (384-322 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/aristotle/aristotle_politics_grc/manifest.json",
+   "source_tei": "aristotle_politics_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Aristotle (384-322 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_emma_eng/manifest.json",
+   "source_tei": "austen_emma_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_emma_spa/manifest.json",
+   "source_tei": "austen_emma_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_mansfield-park_eng/manifest.json",
+   "source_tei": "austen_mansfield-park_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_mansfield-park_spa/manifest.json",
+   "source_tei": "austen_mansfield-park_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_northanger-abbey_eng/manifest.json",
+   "source_tei": "austen_northanger-abbey_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_northanger-abbey_spa/manifest.json",
+   "source_tei": "austen_northanger-abbey_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_persuasion_eng/manifest.json",
+   "source_tei": "austen_persuasion_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_persuasion_spa/manifest.json",
+   "source_tei": "austen_persuasion_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_pride-and-prejudice_eng/manifest.json",
+   "source_tei": "austen_pride-and-prejudice_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_pride-and-prejudice_spa/manifest.json",
+   "source_tei": "austen_pride-and-prejudice_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_sense-and-sensibility_eng/manifest.json",
+   "source_tei": "austen_sense-and-sensibility_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/austen/austen_sense-and-sensibility_spa/manifest.json",
+   "source_tei": "austen_sense-and-sensibility_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Jane Austen (1775-1817)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/bronte-anne/bronte-anne_agnes-grey_eng/manifest.json",
+   "source_tei": "bronte-anne_agnes-grey_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Anne Brontë (1820-1849)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/bronte-charlotte/bronte-charlotte_jane-eyre-an-autobiography_eng/manifest.json",
+   "source_tei": "bronte-charlotte_jane-eyre-an-autobiography_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charlotte Brontë (1816-1855)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/bronte-charlotte/bronte-charlotte_shirley_eng/manifest.json",
+   "source_tei": "bronte-charlotte_shirley_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charlotte Brontë (1816-1855)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/bronte-charlotte/bronte-charlotte_the-professor_eng/manifest.json",
+   "source_tei": "bronte-charlotte_the-professor_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charlotte Brontë (1816-1855)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/bronte-charlotte/bronte-charlotte_villette_eng/manifest.json",
+   "source_tei": "bronte-charlotte_villette_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charlotte Brontë (1816-1855)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/bronte-emily/bronte-emily_wuthering-heights_eng/manifest.json",
+   "source_tei": "bronte-emily_wuthering-heights_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Emily Brontë (1818-1848)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/chesterton-g-k/chesterton-g-k_a-short-history-of-england_eng/manifest.json",
+   "source_tei": "chesterton-g-k_a-short-history-of-england_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "G. K. Chesterton (1874-1936)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/chesterton-g-k/chesterton-g-k_george-bernard-shaw_eng/manifest.json",
+   "source_tei": "chesterton-g-k_george-bernard-shaw_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "G. K. Chesterton (1874-1936)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/chesterton-g-k/chesterton-g-k_orthodoxy_eng/manifest.json",
+   "source_tei": "chesterton-g-k_orthodoxy_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "G. K. Chesterton (1874-1936)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/chesterton-g-k/chesterton-g-k_the-man-who-was-thursday-a-nightmare_eng/manifest.json",
+   "source_tei": "chesterton-g-k_the-man-who-was-thursday-a-nightmare_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "G. K. Chesterton (1874-1936)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dickens/dickens_a-christmas-carol_eng/manifest.json",
+   "source_tei": "dickens_a-christmas-carol_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charles Dickens (1812-1870)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dickens/dickens_a-tale-of-two-cities_eng/manifest.json",
+   "source_tei": "dickens_a-tale-of-two-cities_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charles Dickens (1812-1870)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dickens/dickens_barnaby-rudge_eng/manifest.json",
+   "source_tei": "dickens_barnaby-rudge_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charles Dickens (1812-1870)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dickens/dickens_bleak-house_eng/manifest.json",
+   "source_tei": "dickens_bleak-house_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charles Dickens (1812-1870)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dickens/dickens_david-copperfield_eng/manifest.json",
+   "source_tei": "dickens_david-copperfield_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charles Dickens (1812-1870)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dickens/dickens_martin-chuzzlewit_eng/manifest.json",
+   "source_tei": "dickens_martin-chuzzlewit_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charles Dickens (1812-1870)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dickens/dickens_nicholas-nickleby_eng/manifest.json",
+   "source_tei": "dickens_nicholas-nickleby_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charles Dickens (1812-1870)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dickens/dickens_oliver-twist_eng/manifest.json",
+   "source_tei": "dickens_oliver-twist_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Charles Dickens (1812-1870)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_brothers-karamazov_eng/manifest.json",
+   "source_tei": "dostoevsky_brothers-karamazov_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_brothers-karamazov_rus/manifest.json",
+   "source_tei": "dostoevsky_brothers-karamazov_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_crime-and-punishment_eng/manifest.json",
+   "source_tei": "dostoevsky_crime-and-punishment_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_crime-and-punishment_rus/manifest.json",
+   "source_tei": "dostoevsky_crime-and-punishment_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_demons_eng/manifest.json",
+   "source_tei": "dostoevsky_demons_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_demons_rus/manifest.json",
+   "source_tei": "dostoevsky_demons_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_notes-from-underground_eng/manifest.json",
+   "source_tei": "dostoevsky_notes-from-underground_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_notes-from-underground_rus/manifest.json",
+   "source_tei": "dostoevsky_notes-from-underground_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_the-adolescent_rus/manifest.json",
+   "source_tei": "dostoevsky_the-adolescent_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_the-double_rus/manifest.json",
+   "source_tei": "dostoevsky_the-double_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_the-idiot_eng/manifest.json",
+   "source_tei": "dostoevsky_the-idiot_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/dostoevsky/dostoevsky_the-idiot_rus/manifest.json",
+   "source_tei": "dostoevsky_the-idiot_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Fyodor Dostoevsky (1821-1881)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/eliot/eliot_middlemarch_eng/manifest.json",
+   "source_tei": "eliot_middlemarch_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "George Eliot (1819-1880)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/james/james_the-ambassadors_eng/manifest.json",
+   "source_tei": "james_the-ambassadors_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Henry James (1843-1916)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/james/james_the-bostonians_eng/manifest.json",
+   "source_tei": "james_the-bostonians_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Henry James (1843-1916)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/james/james_the-europeans_eng/manifest.json",
+   "source_tei": "james_the-europeans_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Henry James (1843-1916)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/james/james_the-portrait-of-a-lady_eng/manifest.json",
+   "source_tei": "james_the-portrait-of-a-lady_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Henry James (1843-1916)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/james/james_the-turn-of-the-screw_eng/manifest.json",
+   "source_tei": "james_the-turn-of-the-screw_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Henry James (1843-1916)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/james/james_the-wings-of-the-dove_eng/manifest.json",
+   "source_tei": "james_the-wings-of-the-dove_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Henry James (1843-1916)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/james/james_washington-square_eng/manifest.json",
+   "source_tei": "james_washington-square_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Henry James (1843-1916)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_alcibiades-1_eng/manifest.json",
+   "source_tei": "plato_alcibiades-1_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_alcibiades-1_grc/manifest.json",
+   "source_tei": "plato_alcibiades-1_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_alcibiades-2_eng/manifest.json",
+   "source_tei": "plato_alcibiades-2_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_alcibiades-2_grc/manifest.json",
+   "source_tei": "plato_alcibiades-2_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_apology_eng/manifest.json",
+   "source_tei": "plato_apology_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_apology_grc/manifest.json",
+   "source_tei": "plato_apology_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_charmides_eng/manifest.json",
+   "source_tei": "plato_charmides_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_charmides_grc/manifest.json",
+   "source_tei": "plato_charmides_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_cleitophon_eng/manifest.json",
+   "source_tei": "plato_cleitophon_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_cleitophon_grc/manifest.json",
+   "source_tei": "plato_cleitophon_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_cratylus_eng/manifest.json",
+   "source_tei": "plato_cratylus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_cratylus_grc/manifest.json",
+   "source_tei": "plato_cratylus_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_critias_eng/manifest.json",
+   "source_tei": "plato_critias_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_critias_grc/manifest.json",
+   "source_tei": "plato_critias_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_crito_eng/manifest.json",
+   "source_tei": "plato_crito_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_crito_grc/manifest.json",
+   "source_tei": "plato_crito_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_epinomis_eng/manifest.json",
+   "source_tei": "plato_epinomis_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_epinomis_grc/manifest.json",
+   "source_tei": "plato_epinomis_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_euthydemus_eng/manifest.json",
+   "source_tei": "plato_euthydemus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_euthydemus_grc/manifest.json",
+   "source_tei": "plato_euthydemus_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_euthyphro_eng/manifest.json",
+   "source_tei": "plato_euthyphro_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_euthyphro_grc/manifest.json",
+   "source_tei": "plato_euthyphro_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_gorgias_eng/manifest.json",
+   "source_tei": "plato_gorgias_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_gorgias_grc/manifest.json",
+   "source_tei": "plato_gorgias_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_greater-hippias_eng/manifest.json",
+   "source_tei": "plato_greater-hippias_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_greater-hippias_grc/manifest.json",
+   "source_tei": "plato_greater-hippias_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_hipparchus_eng/manifest.json",
+   "source_tei": "plato_hipparchus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_hipparchus_grc/manifest.json",
+   "source_tei": "plato_hipparchus_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_ion_eng/manifest.json",
+   "source_tei": "plato_ion_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_ion_grc/manifest.json",
+   "source_tei": "plato_ion_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_laches_eng/manifest.json",
+   "source_tei": "plato_laches_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_laches_grc/manifest.json",
+   "source_tei": "plato_laches_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_laws_eng/manifest.json",
+   "source_tei": "plato_laws_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_laws_grc/manifest.json",
+   "source_tei": "plato_laws_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_lesser-hippias_eng/manifest.json",
+   "source_tei": "plato_lesser-hippias_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_lesser-hippias_grc/manifest.json",
+   "source_tei": "plato_lesser-hippias_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_letters_eng/manifest.json",
+   "source_tei": "plato_letters_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_letters_grc/manifest.json",
+   "source_tei": "plato_letters_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_lovers_eng/manifest.json",
+   "source_tei": "plato_lovers_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_lovers_grc/manifest.json",
+   "source_tei": "plato_lovers_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_lysis_eng/manifest.json",
+   "source_tei": "plato_lysis_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_lysis_grc/manifest.json",
+   "source_tei": "plato_lysis_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_menexenus_eng/manifest.json",
+   "source_tei": "plato_menexenus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_menexenus_grc/manifest.json",
+   "source_tei": "plato_menexenus_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_meno_eng/manifest.json",
+   "source_tei": "plato_meno_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_meno_grc/manifest.json",
+   "source_tei": "plato_meno_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_minos_eng/manifest.json",
+   "source_tei": "plato_minos_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_minos_grc/manifest.json",
+   "source_tei": "plato_minos_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_parmenides_eng/manifest.json",
+   "source_tei": "plato_parmenides_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_parmenides_grc/manifest.json",
+   "source_tei": "plato_parmenides_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_phaedo_eng/manifest.json",
+   "source_tei": "plato_phaedo_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_phaedo_grc/manifest.json",
+   "source_tei": "plato_phaedo_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_phaedrus_eng/manifest.json",
+   "source_tei": "plato_phaedrus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_phaedrus_grc/manifest.json",
+   "source_tei": "plato_phaedrus_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_philebus_eng/manifest.json",
+   "source_tei": "plato_philebus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_philebus_grc/manifest.json",
+   "source_tei": "plato_philebus_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_protagoras_eng/manifest.json",
+   "source_tei": "plato_protagoras_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_protagoras_grc/manifest.json",
+   "source_tei": "plato_protagoras_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_republic_eng/manifest.json",
+   "source_tei": "plato_republic_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_republic_grc/manifest.json",
+   "source_tei": "plato_republic_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_sophist_eng/manifest.json",
+   "source_tei": "plato_sophist_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_sophist_grc/manifest.json",
+   "source_tei": "plato_sophist_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_statesman_eng/manifest.json",
+   "source_tei": "plato_statesman_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_statesman_grc/manifest.json",
+   "source_tei": "plato_statesman_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_symposium_eng/manifest.json",
+   "source_tei": "plato_symposium_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_symposium_grc/manifest.json",
+   "source_tei": "plato_symposium_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_theaetetus_eng/manifest.json",
+   "source_tei": "plato_theaetetus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_theaetetus_grc/manifest.json",
+   "source_tei": "plato_theaetetus_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_theages_eng/manifest.json",
+   "source_tei": "plato_theages_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_theages_grc/manifest.json",
+   "source_tei": "plato_theages_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_timaeus_eng/manifest.json",
+   "source_tei": "plato_timaeus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/plato/plato_timaeus_grc/manifest.json",
+   "source_tei": "plato_timaeus_grc.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Plato (c. 428-348 BCE)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_a-midsummer-nights-dream_eng/manifest.json",
+   "source_tei": "shakespeare_a-midsummer-nights-dream_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_a-midsummer-nights-dream_fra/manifest.json",
+   "source_tei": "shakespeare_a-midsummer-nights-dream_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_alls-well-that-ends-well_eng/manifest.json",
+   "source_tei": "shakespeare_alls-well-that-ends-well_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_alls-well-that-ends-well_fra/manifest.json",
+   "source_tei": "shakespeare_alls-well-that-ends-well_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_antony-and-cleopatra_eng/manifest.json",
+   "source_tei": "shakespeare_antony-and-cleopatra_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_antony-and-cleopatra_fra/manifest.json",
+   "source_tei": "shakespeare_antony-and-cleopatra_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_as-you-like-it_eng/manifest.json",
+   "source_tei": "shakespeare_as-you-like-it_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_as-you-like-it_fra/manifest.json",
+   "source_tei": "shakespeare_as-you-like-it_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_as-you-like-it_spa/manifest.json",
+   "source_tei": "shakespeare_as-you-like-it_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_coriolanus_eng/manifest.json",
+   "source_tei": "shakespeare_coriolanus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_coriolanus_fra/manifest.json",
+   "source_tei": "shakespeare_coriolanus_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_cymbeline_eng/manifest.json",
+   "source_tei": "shakespeare_cymbeline_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_cymbeline_fra/manifest.json",
+   "source_tei": "shakespeare_cymbeline_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_hamlet_eng/manifest.json",
+   "source_tei": "shakespeare_hamlet_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_hamlet_fra/manifest.json",
+   "source_tei": "shakespeare_hamlet_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_hamlet_spa/manifest.json",
+   "source_tei": "shakespeare_hamlet_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_julius-caesar_eng/manifest.json",
+   "source_tei": "shakespeare_julius-caesar_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_julius-caesar_fra/manifest.json",
+   "source_tei": "shakespeare_julius-caesar_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_julius-caesar_spa/manifest.json",
+   "source_tei": "shakespeare_julius-caesar_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-iv-part-1_eng/manifest.json",
+   "source_tei": "shakespeare_king-henry-iv-part-1_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-iv-part-1_fra/manifest.json",
+   "source_tei": "shakespeare_king-henry-iv-part-1_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-iv-part-2_eng/manifest.json",
+   "source_tei": "shakespeare_king-henry-iv-part-2_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-iv-part-2_fra/manifest.json",
+   "source_tei": "shakespeare_king-henry-iv-part-2_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-v_eng/manifest.json",
+   "source_tei": "shakespeare_king-henry-v_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-v_fra/manifest.json",
+   "source_tei": "shakespeare_king-henry-v_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-vi-part-1_eng/manifest.json",
+   "source_tei": "shakespeare_king-henry-vi-part-1_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-vi-part-1_fra/manifest.json",
+   "source_tei": "shakespeare_king-henry-vi-part-1_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-vi-part-2_eng/manifest.json",
+   "source_tei": "shakespeare_king-henry-vi-part-2_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-vi-part-2_fra/manifest.json",
+   "source_tei": "shakespeare_king-henry-vi-part-2_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-vi-part-3_eng/manifest.json",
+   "source_tei": "shakespeare_king-henry-vi-part-3_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-vi-part-3_fra/manifest.json",
+   "source_tei": "shakespeare_king-henry-vi-part-3_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-viii_eng/manifest.json",
+   "source_tei": "shakespeare_king-henry-viii_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-henry-viii_fra/manifest.json",
+   "source_tei": "shakespeare_king-henry-viii_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-john_eng/manifest.json",
+   "source_tei": "shakespeare_king-john_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-john_fra/manifest.json",
+   "source_tei": "shakespeare_king-john_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-lear_eng/manifest.json",
+   "source_tei": "shakespeare_king-lear_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-lear_fra/manifest.json",
+   "source_tei": "shakespeare_king-lear_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-richard-ii_eng/manifest.json",
+   "source_tei": "shakespeare_king-richard-ii_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-richard-ii_fra/manifest.json",
+   "source_tei": "shakespeare_king-richard-ii_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-richard-iii_eng/manifest.json",
+   "source_tei": "shakespeare_king-richard-iii_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_king-richard-iii_fra/manifest.json",
+   "source_tei": "shakespeare_king-richard-iii_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_loves-labours-lost_eng/manifest.json",
+   "source_tei": "shakespeare_loves-labours-lost_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_loves-labours-lost_fra/manifest.json",
+   "source_tei": "shakespeare_loves-labours-lost_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_macbeth_eng/manifest.json",
+   "source_tei": "shakespeare_macbeth_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_macbeth_fra/manifest.json",
+   "source_tei": "shakespeare_macbeth_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_macbeth_spa/manifest.json",
+   "source_tei": "shakespeare_macbeth_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_measure-for-measure_eng/manifest.json",
+   "source_tei": "shakespeare_measure-for-measure_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_measure-for-measure_fra/manifest.json",
+   "source_tei": "shakespeare_measure-for-measure_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_much-ado-about-nothing_eng/manifest.json",
+   "source_tei": "shakespeare_much-ado-about-nothing_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_much-ado-about-nothing_fra/manifest.json",
+   "source_tei": "shakespeare_much-ado-about-nothing_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_othello_eng/manifest.json",
+   "source_tei": "shakespeare_othello_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_othello_fra/manifest.json",
+   "source_tei": "shakespeare_othello_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_othello_spa/manifest.json",
+   "source_tei": "shakespeare_othello_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_pericles-prince-of-tyre_eng/manifest.json",
+   "source_tei": "shakespeare_pericles-prince-of-tyre_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_pericles-prince-of-tyre_fra/manifest.json",
+   "source_tei": "shakespeare_pericles-prince-of-tyre_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_romeo-and-juliet_eng/manifest.json",
+   "source_tei": "shakespeare_romeo-and-juliet_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_romeo-and-juliet_fra/manifest.json",
+   "source_tei": "shakespeare_romeo-and-juliet_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_romeo-and-juliet_spa/manifest.json",
+   "source_tei": "shakespeare_romeo-and-juliet_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-comedy-of-errors_eng/manifest.json",
+   "source_tei": "shakespeare_the-comedy-of-errors_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-comedy-of-errors_fra/manifest.json",
+   "source_tei": "shakespeare_the-comedy-of-errors_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-comedy-of-errors_spa/manifest.json",
+   "source_tei": "shakespeare_the-comedy-of-errors_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-merchant-of-venice_eng/manifest.json",
+   "source_tei": "shakespeare_the-merchant-of-venice_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-merchant-of-venice_fra/manifest.json",
+   "source_tei": "shakespeare_the-merchant-of-venice_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-merchant-of-venice_spa/manifest.json",
+   "source_tei": "shakespeare_the-merchant-of-venice_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-merry-wives-of-windsor_eng/manifest.json",
+   "source_tei": "shakespeare_the-merry-wives-of-windsor_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-merry-wives-of-windsor_fra/manifest.json",
+   "source_tei": "shakespeare_the-merry-wives-of-windsor_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-merry-wives-of-windsor_spa/manifest.json",
+   "source_tei": "shakespeare_the-merry-wives-of-windsor_spa.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-taming-of-the-shrew_eng/manifest.json",
+   "source_tei": "shakespeare_the-taming-of-the-shrew_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-taming-of-the-shrew_fra/manifest.json",
+   "source_tei": "shakespeare_the-taming-of-the-shrew_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-tempest_eng/manifest.json",
+   "source_tei": "shakespeare_the-tempest_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-tempest_fra/manifest.json",
+   "source_tei": "shakespeare_the-tempest_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-two-gentlemen-of-verona_eng/manifest.json",
+   "source_tei": "shakespeare_the-two-gentlemen-of-verona_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-two-gentlemen-of-verona_fra/manifest.json",
+   "source_tei": "shakespeare_the-two-gentlemen-of-verona_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-two-noble-kinsmen_eng/manifest.json",
+   "source_tei": "shakespeare_the-two-noble-kinsmen_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-winters-tale_eng/manifest.json",
+   "source_tei": "shakespeare_the-winters-tale_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_the-winters-tale_fra/manifest.json",
+   "source_tei": "shakespeare_the-winters-tale_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_timon-of-athens_eng/manifest.json",
+   "source_tei": "shakespeare_timon-of-athens_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_timon-of-athens_fra/manifest.json",
+   "source_tei": "shakespeare_timon-of-athens_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_titus-andronicus_eng/manifest.json",
+   "source_tei": "shakespeare_titus-andronicus_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_titus-andronicus_fra/manifest.json",
+   "source_tei": "shakespeare_titus-andronicus_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_troilus-and-cressida_eng/manifest.json",
+   "source_tei": "shakespeare_troilus-and-cressida_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_troilus-and-cressida_fra/manifest.json",
+   "source_tei": "shakespeare_troilus-and-cressida_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_twelfth-night_eng/manifest.json",
+   "source_tei": "shakespeare_twelfth-night_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/shakespeare/shakespeare_twelfth-night_fra/manifest.json",
+   "source_tei": "shakespeare_twelfth-night_fra.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "William Shakespeare (1564-1616)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_anna-karenina_eng/manifest.json",
+   "source_tei": "tolstoy_anna-karenina_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_anna-karenina_rus/manifest.json",
+   "source_tei": "tolstoy_anna-karenina_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_childhood-boyhood-youth_eng/manifest.json",
+   "source_tei": "tolstoy_childhood-boyhood-youth_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_childhood-boyhood-youth_rus/manifest.json",
+   "source_tei": "tolstoy_childhood-boyhood-youth_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_cossacks_eng/manifest.json",
+   "source_tei": "tolstoy_cossacks_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_cossacks_rus/manifest.json",
+   "source_tei": "tolstoy_cossacks_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_novellas_eng/manifest.json",
+   "source_tei": "tolstoy_novellas_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_novellas_rus/manifest.json",
+   "source_tei": "tolstoy_novellas_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_resurrection_rus/manifest.json",
+   "source_tei": "tolstoy_resurrection_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_war-and-peace_eng/manifest.json",
+   "source_tei": "tolstoy_war-and-peace_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/tolstoy/tolstoy_war-and-peace_rus/manifest.json",
+   "source_tei": "tolstoy_war-and-peace_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Leo Tolstoy (1828-1910)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_a-house-of-gentlefolk_eng/manifest.json",
+   "source_tei": "turgenev_a-house-of-gentlefolk_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_a-house-of-gentlefolk_rus/manifest.json",
+   "source_tei": "turgenev_a-house-of-gentlefolk_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_fathers-and-children_eng/manifest.json",
+   "source_tei": "turgenev_fathers-and-children_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_fathers-and-children_rus/manifest.json",
+   "source_tei": "turgenev_fathers-and-children_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_first-love_eng/manifest.json",
+   "source_tei": "turgenev_first-love_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_first-love_rus/manifest.json",
+   "source_tei": "turgenev_first-love_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_mumu_eng/manifest.json",
+   "source_tei": "turgenev_mumu_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_mumu_rus/manifest.json",
+   "source_tei": "turgenev_mumu_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_on-the-eve_eng/manifest.json",
+   "source_tei": "turgenev_on-the-eve_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_on-the-eve_rus/manifest.json",
+   "source_tei": "turgenev_on-the-eve_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_rudin_eng/manifest.json",
+   "source_tei": "turgenev_rudin_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_rudin_rus/manifest.json",
+   "source_tei": "turgenev_rudin_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_the-torrents-of-spring_eng/manifest.json",
+   "source_tei": "turgenev_the-torrents-of-spring_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_the-torrents-of-spring_rus/manifest.json",
+   "source_tei": "turgenev_the-torrents-of-spring_rus.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  },
+  {
+   "manifest": "public/downloads/turgenev/turgenev_virgin-soil_eng/manifest.json",
+   "source_tei": "turgenev_virgin-soil_eng.xml",
+   "source_tei_exists": true,
+   "records_source_tei_hash": false,
+   "canonical_url_matches_route": true,
+   "author_string": "Ivan Turgenev (1818-1883)",
+   "pdf_hashes_match": true
+  }
+ ],
+ "unreferenced_portraits": [
+  "augustine-st.png",
+  "balzac-honore-de.png",
+  "burroughs-edgar-rice.png",
+  "carroll-lewis.png",
+  "chaucer-geoffrey.png",
+  "chekhov-anton.png",
+  "christie-agatha.png",
+  "coleridge-samuel-taylor.png",
+  "defoe-daniel.png",
+  "descartes-rene.png",
+  "douglass-frederick.png",
+  "du-bois-w-e-b.png",
+  "forster-e-m.png",
+  "gibbon-edward.png",
+  "gibran-kahlil.png",
+  "gogol-nikolai.png",
+  "grey-zane.png",
+  "hardy-thomas.png",
+  "hawthorne-nathaniel.png",
+  "homer.png",
+  "hugo-victor.png",
+  "ibsen-henrik.png",
+  "james-william.png",
+  "jerome-jerome-k.png",
+  "kafka-franz.png",
+  "machiavelli-niccolo.png",
+  "mann-thomas.png",
+  "marlowe-christopher.png",
+  "milton-john.png",
+  "nietzsche-friedrich.png",
+  "poe-edgar-allan.png",
+  "sayers-dorothy.png",
+  "shelley-mary.png",
+  "stoker-bram.png",
+  "twain-mark.png",
+  "tzu-sun.png",
+  "wharton-edith.png",
+  "whitman-walt.png",
+  "wodehouse-p-g.png",
+  "wordsworth-william.png"
+ ]
+}
