@@ -245,3 +245,20 @@ test('Chinese sans reading text retains its script fonts independently of interf
  await page.locator('#interface-language').selectOption('ru');expect(await article.evaluate(el=>getComputedStyle(el).fontFamily)).toBe(sans);
  await page.locator('[data-reader-font="serif"]').selectOption('classic');expect(await article.evaluate(el=>getComputedStyle(el).fontFamily)).toContain('SimSun');
 });
+
+
+test('structural titles use title case in contents, reader headings and context without changing routes or TEI',async({page})=>{
+ await page.goto('/en/authors/bronte-anne/agnes-grey');
+ const first=page.locator('.toc-link').filter({hasText:'Chapter I. The Parsonage'});
+ await expect(first).toHaveCount(1);await expect(first).toHaveAttribute('href','/en/authors/bronte-anne/agnes-grey/chapter-1');
+ await first.click();await expect(page.locator('.chapter-header h1')).toHaveText('Chapter I. The Parsonage');
+ await expect(page).toHaveTitle('Chapter I. The Parsonage · Agnes Grey · Bookstacks');
+ await page.goto('/en/authors/dostoevsky/crime-and-punishment');
+ await expect(page.locator('.toc-section-title').filter({hasText:/^\s*Part II\s*$/})).toHaveCount(1);
+ const partChapter=page.locator('.toc-group').filter({has:page.locator('.toc-section-title').filter({hasText:/^\s*Part II\s*$/})}).last().locator('.toc-link').first();
+ await partChapter.click();await expect(page.locator('.reader-context')).toContainText('Part II');
+ expect(await page.locator('.reader-context').evaluate(el=>getComputedStyle(el).textTransform)).toBe('none');
+ await page.locator('#interface-language').selectOption('fr');await expect(page.locator('.reader-context')).toContainText('Part II');
+ const source=await page.request.get('/tei/bronte-anne/bronte-anne_agnes-grey_eng.xml');
+ expect(await source.text()).toContain('<head>CHAPTER I.<lb/> THE PARSONAGE</head>');
+});

@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { DOMParser } from '@xmldom/xmldom';
 import authorProfileData from '../data/author-profiles.json';
+import { headingTitleCase, normalizeHeadingNode } from './headings';
 import { EDITION_LANGUAGES, isEditionLanguage, type EditionLanguage as Locale } from './i18n';
 import '../i18n/catalogues';
 import { text as interfaceText } from './interface';
@@ -386,6 +387,12 @@ function parseEdition(filePath: string): ParsedEdition {
   const text = descendants(document, 'text')[0];
   if (!text) throw new Error(`No TEI text element in ${fileName}`);
 
+  // Format the transient display DOM; canonical TEI and route identities stay intact.
+  for (const head of descendants(text, 'head')) normalizeHeadingNode(head, locale);
+  for (const paragraph of descendants(text, 'p')) {
+    if (/\bsubheading\b/i.test(paragraph.getAttribute('rend') || paragraph.getAttribute('style') || '')) normalizeHeadingNode(paragraph, locale);
+  }
+
   const allDivs = descendants(text, 'div');
   const kindCounts = new Map<string, number>();
   for (const div of allDivs) {
@@ -652,10 +659,10 @@ function divisionLabel(div: any, segmentCache: Map<any, string>, locale: Locale)
   if (head) return truncate(cleanText(head.textContent), 180);
   const kind = kindOf(div);
   const n = cleanText(div.getAttribute?.('n'));
-  if (n && !/^urn:/i.test(n)) return `${displayKind(kind, locale)} ${n}`;
+  if (n && !/^urn:/i.test(n)) return headingTitleCase(`${displayKind(kind, locale)} ${n}`, locale);
   const segment = divisionSegment(div, segmentCache);
   const ordinal = segment.match(/-(\d+)$/)?.[1]?.replace(/^0+/, '') || '';
-  return ordinal ? `${displayKind(kind, locale)} ${ordinal}` : displayKind(kind, locale);
+  return headingTitleCase(ordinal ? `${displayKind(kind, locale)} ${ordinal}` : displayKind(kind, locale), locale);
 }
 
 function renderDivision(div: any, entities: EntityMaps, locale: Locale, assetBase: string): string {

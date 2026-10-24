@@ -78,3 +78,17 @@ Ian requested a fresh Constantia default each time. Stored serif/sans-serif valu
 are no longer read or written, and chapter loads, reloads and history returns reset
 both the selected menu values and the text to the default serif cascade. Width,
 size and general appearance preferences retain their existing behavior.
+
+
+### Structural heading title case — 24 October 2026
+
+Chapter, part, volume, book, act, scene and other division titles now use title
+case in the contents, reader page titles, hierarchy context and nested headings.
+English minor words use the existing PDF exporter's word list. Roman numerals,
+initialisms, accents and internal capitals in mixed-case names are retained.
+Casing uses the edition language, independently of interface choices; Chinese
+characters are unchanged. The hierarchy context no longer forces uppercase.
+
+Formatting applies only to text nodes in the transient display DOM, retaining
+inline emphasis, links, IDs and note content. Canonical TEI files, route segments
+and PDF publication files are unchanged. PDF generation remains a separate pipeline.

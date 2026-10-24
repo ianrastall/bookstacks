@@ -651,7 +651,7 @@ button, input, select { font: inherit; }
 }
 
 .chapter-breadcrumbs a { color: var(--muted); }
-.reader-context { margin: 1.5rem 0 0.25rem; color: var(--muted); font-size: 0.82rem; font-weight: 750; letter-spacing: 0.06em; text-transform: uppercase; }
+.reader-context { margin: 1.5rem 0 0.25rem; color: var(--muted); font-size: 0.82rem; font-weight: 750; letter-spacing: 0.06em; }
 .chapter-header h1 { margin: 0; font-size: clamp(1.65rem, 3vw, 2.4rem); line-height: 1.15; }
 
 .chapter-layout {
