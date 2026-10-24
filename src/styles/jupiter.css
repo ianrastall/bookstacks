@@ -19,7 +19,7 @@
   --accent-strong: #72551d; --danger: #a42e27; --success: #2f683d; --warning: #805b0c; --info: #355c7b;
 }
 
-:root { --sans-font:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+:root:not([data-reader-sans]) { --sans-font:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
 [hidden] { display:none !important; }
 body { background:var(--bg);color:var(--text);font-family:var(--sans-font);font-size:16px; }
 a { color:var(--accent-strong);text-underline-offset:3px; }a:hover { color:var(--text); }
@@ -75,3 +75,13 @@ dialog { margin:auto;width:min(420px,calc(100% - 32px));padding:24px;border:1px 
 [dir='rtl'] :is(.book-title,.book-card-main,.chapter-header h1,.reader-context,.tool-title h1,.edition-header h2) { text-align:right; }
 [dir='rtl'] .inline-arrow,[dir='rtl'] .directional-icon { transform:scaleX(-1); }
 .noscript-languages { display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:12px; }
+
+.catalogue-page-size { max-width:14rem;margin-top:16px; }
+.reader-fullscreen { padding:8px;border:1px solid var(--control-border);border-radius:4px;background:var(--input);color:var(--text); }
+/* Width remains adjustable on medium screens as well as wide desktops. */
+@media(min-width:761px) { .chapter-layout { grid-template-columns:minmax(0,var(--reader-width)) var(--chapter-sidebar-width); } }
+.reader-expanded { position:fixed;inset:0;z-index:100;width:100%;height:100dvh;max-width:none;margin:0;padding:24px;overflow:auto;background:var(--bg); }
+.reader-expanded:fullscreen { width:100%;height:100%; }
+body.reader-fullscreen-active { overflow:hidden; }
+body.reader-fullscreen-active > :is(.site-header,.library-nav,.site-footer,.skip-link) { visibility:hidden; }
+@media(max-width:760px) { .reader-expanded { padding:16px; } }

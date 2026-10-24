@@ -228,3 +228,24 @@ The validator enforces Relax NG validity, unique XML IDs, granular prose and
 dramatic utterance IDs, qualified ID attributes, preservation of dramatic
 verse/prose structures, and resolvable speaker and addressee pointers for both
 `said` and attributed `q` elements.
+
+## English Tao Te Ching (24 October 2026)
+
+`laozi/laozi_tao-te-ching_eng.xml` is James Legge’s complete English translation,
+from [Project Gutenberg 216](https://www.gutenberg.org/ebooks/216). It retains
+both parts, 81 chapter divisions, paragraph numbering and lineated verse.
+The transcription credits Gregory Walker and David Widger. It is a separate
+edition under the existing work identity; Chinese text and URLs are unchanged.
+
+The dedicated importer validates the reviewed cached HTML fingerprint, sequential
+chapter numbers, each literary text block and the Relax NG schema before writing:
+
+```powershell
+# Download separately using the operating system certificate trust store:
+Invoke-WebRequest https://www.gutenberg.org/cache/epub/216/pg216-images.html -OutFile assets/source-chinese/216.html
+python tei/build_legge_tao.py
+python tei/validate_tei.py tei/laozi
+```
+
+A changed source fingerprint requires editorial review before updating the importer.
+This does not run during website deployment and does not create a PDF.

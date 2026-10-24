@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 test.beforeEach(async({page})=>{await page.route('https://www.googletagmanager.com/**',r=>r.abort());await page.route('https://fonts.googleapis.com/**',r=>r.abort());});
 for(const locale of ['en','fr','es','grc','ru','zh-Hans']) test(`library, edition and reading workflow: ${locale}`,async({page})=>{
- const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/'+locale+'?ui='+locale);await expect(page.locator('html')).toHaveAttribute('lang',locale);await expect(page.locator('[data-book-row]')).toHaveCount(257);await page.locator('.library-nav a[href="/authors"]').click();await expect(page.locator('.author-card')).toHaveCount(18);
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/'+locale+'?ui='+locale);await expect(page.locator('html')).toHaveAttribute('lang',locale);await expect(page.locator('[data-book-row]')).toHaveCount(258);await page.locator('.library-nav a[href="/authors"]').click();await expect(page.locator('.author-card')).toHaveCount(18);
  for(const width of [1440,1024,768,390,320]){await page.setViewportSize({width,height:900});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`library overflow ${width}`).toBe(true);}
  await page.locator('.author-card').first().click();await page.locator('.book-card-main').first().click();await expect(page.locator('.toc-tree')).toBeVisible();await page.locator('.edition-actions a').first().click();await expect(page.locator('.reader-content')).toBeVisible();
  for(const width of [1440,1024,768,390,320]){await page.setViewportSize({width,height:900});await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),{message:`reader overflow ${width}`}).toBe(true);}
@@ -42,12 +42,12 @@ test('catalogue and book text are available without JavaScript',async({browser})
 test('phone footnotes stay within the viewport',async({page})=>{await page.setViewportSize({width:320,height:900});await page.goto('/en/authors/aristotle/poetics/chapter-1');await page.locator('.tei-note-ref').first().click();const note=page.locator('.tei-note-popover:visible');await expect(note).toBeVisible();const box=await note.boundingBox();expect(box!.x).toBeGreaterThanOrEqual(0);expect(box!.x+box!.width).toBeLessThanOrEqual(320);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);});
 
 
-test('browser language localizes the entire catalogue without filtering books',async({browser})=>{
+test('browser language initializes the book filter while the catalogue stays unified',async({browser})=>{
  const context=await browser.newContext({locale:'fr-CA'});const page=await context.newPage();
  await page.goto('http://127.0.0.1:4323/');await expect(page.locator('html')).toHaveAttribute('lang','fr');
- await expect(page.locator('h1')).toHaveText('Bibliothèque');await expect(page.locator('#book-language')).toHaveValue('');
- await expect(page.locator('[data-book-row]')).toHaveCount(257);await expect(page.locator('.library-languages')).toHaveCount(0);
- await page.locator('.library-nav a[href="/downloads"]').click();await expect(page.locator('h1')).toHaveText('Téléchargements');await expect(page.locator('[data-download-table] tbody tr')).toHaveCount(257);
+ await expect(page.locator('h1')).toHaveText('Bibliothèque');await expect(page.locator('#book-language')).toHaveValue('fr');
+ await expect(page.locator('[data-book-row]')).toHaveCount(258);await expect(page.locator('.library-languages')).toHaveCount(0);
+ await page.locator('.library-nav a[href="/downloads"]').click();await expect(page.locator('h1')).toHaveText('Téléchargements');await expect(page.locator('[data-download-table] tbody tr')).toHaveCount(258);
  await context.close();
 });
 
@@ -107,7 +107,7 @@ test('browser preferences select interface locales beyond the edition languages'
   const context=await browser.newContext({locale:preference});const page=await context.newPage();
   await page.goto('http://127.0.0.1:4323/');await expect(page.locator('html')).toHaveAttribute('lang',locale);
   await expect(page.locator('h1')).toHaveText(heading);await expect(page.locator('#interface-language')).toHaveValue('auto');
-  await expect(page.locator('[data-book-row]')).toHaveCount(257);await context.close();
+  await expect(page.locator('[data-book-row]')).toHaveCount(258);await context.close();
  }
 });
 
@@ -127,9 +127,76 @@ test('right-to-left interfaces keep edition text left-to-right',async({page})=>{
 test('localized homepages for every interface locale work without JavaScript',async({browser})=>{
  const context=await browser.newContext({javaScriptEnabled:false});const page=await context.newPage();
  await page.goto('http://127.0.0.1:4323/de');await expect(page.locator('html')).toHaveAttribute('lang','de');await expect(page.locator('h1')).toHaveText('Bibliothek');
- expect(await page.locator('[data-book-row]').count()).toBe(257);
+ expect(await page.locator('[data-book-row]').count()).toBe(258);
  await page.goto('http://127.0.0.1:4323/ar');await expect(page.locator('html')).toHaveAttribute('dir','rtl');await expect(page.locator('h1')).toHaveText('المكتبة');
  await expect(page.locator('.book-title').first()).toHaveAttribute('dir','ltr');
  expect(await page.locator('link[rel="alternate"][hreflang]').count()).toBe(41);
  await context.close();
+});
+
+
+test('page size combines with filters, restores from URL and remembers all languages', async ({page}) => {
+ await page.goto('/?language=all');
+ await page.locator('#book-page-size').selectOption('32');
+ await expect(page.locator('[data-book-row]:visible')).toHaveCount(32);
+ await page.locator('#book-next').click();
+ await page.locator('#book-page-size').selectOption('64');
+ await expect(page.locator('#book-page')).toHaveText('1 / 5');
+ await page.reload();await expect(page.locator('#book-page-size')).toHaveValue('64');
+ await page.locator('#book-page-size').selectOption('all');
+ await expect(page.locator('[data-book-row]:visible')).toHaveCount(258);
+ await expect(page.locator('#book-pagination')).toBeHidden();
+ await page.locator('#book-language').selectOption('zh-Hans');
+ await expect(page.locator('[data-book-row]:visible')).toHaveCount(3);
+ await page.locator('#book-language').selectOption('');await page.reload();
+ await expect(page.locator('#book-language')).toHaveValue('');
+ await expect(page.locator('[data-book-row]:visible')).toHaveCount(258);
+ await page.goto('/?language=all');await expect(page.locator('#book-page-size')).toHaveValue('all');
+});
+
+test('interface overrides never change the initial browser book preference or explicit filter', async ({browser}) => {
+ const context=await browser.newContext({locale:'fr-CA'});const page=await context.newPage();
+ await page.goto('http://127.0.0.1:4323/?ui=ru');await expect(page.locator('#book-language')).toHaveValue('fr');
+ await page.locator('#interface-language').selectOption('en');await expect(page.locator('#book-language')).toHaveValue('fr');
+ await page.goto('http://127.0.0.1:4323/?language=all');await expect(page.locator('#book-language')).toHaveValue('');
+ await context.close();
+ const unsupported=await browser.newContext({locale:'ja-JP'});const other=await unsupported.newPage();
+ await other.goto('http://127.0.0.1:4323/');await expect(other.locator('#book-language')).toHaveValue('');await unsupported.close();
+});
+
+test('sans cascade changes computed typography and width grows across reloads', async ({page}) => {
+ await page.setViewportSize({width:1920,height:1080});
+ await page.goto('/en/authors/aristotle/poetics/chapter-1');
+ const controls=page.locator('.reader-controls');const article=page.locator('.reader-content');
+ const before=await controls.evaluate(el=>getComputedStyle(el).fontFamily);
+ await page.locator('[data-reader-font="sans"]').selectOption('screen');
+ const after=await controls.evaluate(el=>getComputedStyle(el).fontFamily);expect(after).not.toBe(before);expect(after).toContain('Verdana');
+ const width=(await article.boundingBox())!.width;
+ for(let i=0;i<8;i++)await page.locator('[data-reader-action="wide"]').click();
+ expect((await article.boundingBox())!.width).toBeGreaterThan(width+200);
+ await page.reload();expect(await controls.evaluate(el=>getComputedStyle(el).fontFamily)).toBe(after);
+ expect((await article.boundingBox())!.width).toBeGreaterThan(width+200);
+});
+
+test('fullscreen provides an exit and preserves book text and notes', async ({page}) => {
+ await page.goto('/en/authors/aristotle/poetics/chapter-1');
+ const article=page.locator('.reader-content');const original=await article.innerText();
+ const toggle=page.locator('.reader-fullscreen');await toggle.click();
+ await expect(toggle).toHaveAttribute('aria-pressed','true');await expect(toggle).toHaveText('Exit fullscreen');
+ await expect(page.locator('.chapter-container')).toHaveClass(/reader-expanded/);
+ expect(await article.innerText()).toBe(original);
+ await page.locator('.tei-note-ref').first().click();await expect(page.locator('.tei-note-popover:visible')).toHaveCount(1);
+ await toggle.click();await expect(toggle).toHaveAttribute('aria-pressed','false');
+ await page.evaluate(()=>Object.defineProperty(document,'fullscreenEnabled',{value:false,configurable:true}));
+ await toggle.click();await page.keyboard.press('Escape');await expect(toggle).toHaveAttribute('aria-pressed','false');
+});
+
+test('Legge English edition has all 81 chapters and independent Chinese edition links',async({page})=>{
+ await page.goto('/en/authors/laozi/tao-te-ching');
+ await expect(page.locator('.edition-source-note')).toContainText('James Legge');
+ const chapters=page.locator('.toc-tree a');
+ expect(await chapters.count()).toBe(81);
+ await chapters.first().click();await expect(page.locator('.reader-content')).toContainText('The Tao that can be trodden');
+ await expect(page.locator('.reader-content .tei-line')).not.toHaveCount(0);
+ await expect(page.locator('.other-editions a')).toHaveAttribute('href','/zh-Hans/authors/laozi/tao-te-ching');
 });

@@ -39,7 +39,7 @@ Bookstacks keeps two kinds of language separate.
 - **Edition language** is the language of a literary text: English, French, Spanish, Ancient Greek, Russian or Simplified Chinese. Reading routes begin with it (`/fr/authors/...`). It is edition metadata and an optional catalogue filter.
 - **Interface language** is the language of the site's controls. Forty interface locales are available: Arabic, Bengali, Czech, Danish, German, Modern Greek, English, Spanish, Persian, Finnish, Filipino, French, Ancient Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Marathi, Malay, Norwegian Bokmål, Dutch, Polish, Portuguese (Brazil and Portugal), Romanian, Russian, Swedish, Swahili, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Simplified and Traditional Chinese.
 
-The interface follows the browser's language preferences in order, falling back to English. The labeled selector offers a manual choice that is saved in the browser; `?ui=<locale>` applies a shareable override and `?ui=auto` clears it. Changing the interface language never filters the catalogue or changes the selected edition, chapter or reading position. Arabic, Hebrew, Persian and Urdu interfaces set `dir="rtl"`; edition text keeps its own `lang` and `dir`. Static catalogue pages at `/<locale>` (for example `/de`) serve browsers without JavaScript.
+The interface follows the browser's language preferences in order, falling back to English. The labeled selector offers a manual choice that is saved in the browser; `?ui=<locale>` applies a shareable override and `?ui=auto` clears it. Changing the interface language never changes the catalogue filter, selected edition, chapter or reading position. On the first catalogue visit, the book-language filter follows the first matching browser language preference; if none matches an available edition language, it shows all languages. The filter remains explicit in the URL (`language=all` preserves All languages). Books per page offers 16, 32, 64 or all editions, remembers the choice locally and supports a `size` URL parameter. Arabic, Hebrew, Persian and Urdu interfaces set `dir="rtl"`; edition text keeps its own `lang` and `dir`. Static catalogue pages at `/<locale>` (for example `/de`) serve browsers without JavaScript.
 
 Interface text lives in `src/i18n/locales/<locale>.ts`, one catalogue per locale, typed against the English catalogue in `en.ts`. Counts use CLDR plural categories through `Intl.PluralRules`. The browser loads only the catalogue it needs. To add a locale, add it to `INTERFACE_LOCALES` in `src/lib/i18n.ts` and create its catalogue; `npm test` checks that every catalogue has every message and placeholder. The translations other than English, French, Spanish, Ancient Greek, Russian and Simplified Chinese were added on 23 October 2026 without native-speaker review; corrections are welcome.
 
@@ -53,6 +53,10 @@ Laozi use traditional artistic representations, identified in the image
 descriptions. Generation prompts are recorded in
 `public/img/authors/chinese-portraits.md`. Author cards use character monograms
 where no portrait has been supplied.
+
+The English *Tao Te Ching* edition contains James Legge’s complete translation from Project Gutenberg ebook 216, with both parts, all 81 chapters and verse preserved. Complete freely reusable English editions of *Call to Arms* and *Journey to the West* still need suitable sources; see [the translation source record](docs/chinese-english-sources.md).
+
+Reader controls adjust text width (32–100 rem), text size and serif/sans-serif cascades. Fullscreen keeps reading controls, notes and chapter navigation available; use Exit fullscreen or Escape to return. Browsers without native fullscreen use an expanded reader within the tab.
 
 TEI notes are rendered as numbered, keyboard-accessible popovers in the web reader.
 

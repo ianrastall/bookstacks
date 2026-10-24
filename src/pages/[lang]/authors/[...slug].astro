@@ -146,6 +146,7 @@ const description = page.kind === 'author'
                 </ul>
               </details>
             )}
+            <button type="button" class="reader-fullscreen" aria-pressed="false" disabled><T locale={locale} k="fullscreen" /></button>
             <div class="reader-display">
               <span><T locale={locale} k="textWidth" /></span>
               <button type="button" data-reader-action="narrow" aria-label={t('narrowText')} data-i18n-aria-label="narrowText">−</button>
@@ -188,13 +189,16 @@ const description = page.kind === 'author'
         </aside>
       </div>
       <script>
+        import { currentLocale, text } from '../../../lib/interface';
         const readerRoot = document.documentElement;
         const controls=document.querySelector<HTMLDetailsElement>('.reader-controls')!;
         const compact=matchMedia('(max-width:760px)');controls.open=!compact.matches;compact.addEventListener('change',()=>controls.open=!compact.matches);
         const readSetting=(key:string)=>{try{return localStorage.getItem(key);}catch{return null;}};
         const saveSetting=(key:string,value:string)=>{try{localStorage.setItem(key,value);}catch{/* Settings still apply for this page. */}};
-        let width = Number(readSetting('bookstacks-reader-width') || 44);
-        let scale = Number(readSetting('bookstacks-reader-scale') || 1);
+        const savedWidth = Number(readSetting('bookstacks-reader-width') || 44);
+        let width = Number.isFinite(savedWidth) ? Math.min(100, Math.max(32, savedWidth)) : 44;
+        const savedScale = Number(readSetting('bookstacks-reader-scale') || 1);
+        let scale = Number.isFinite(savedScale) ? Math.min(2, Math.max(0.85, savedScale)) : 1;
         const serifSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="serif"]');
         const sansSelect = document.querySelector<HTMLSelectElement>('[data-reader-font="sans"]');
         const applyReaderSettings = () => {
@@ -206,7 +210,7 @@ const description = page.kind === 'author'
           button.addEventListener('click', () => {
             const action = button.dataset.readerAction;
             if (action === 'narrow') width = Math.max(32, width - 4);
-            if (action === 'wide') width = Math.min(60, width + 4);
+            if (action === 'wide') width = Math.min(100, width + 4);
             if (action === 'smaller') scale = Math.max(0.85, Number((scale - 0.05).toFixed(2)));
             if (action === 'larger') scale = Math.min(2, Number((scale + 0.05).toFixed(2)));
             saveSetting('bookstacks-reader-width', String(width));
@@ -228,6 +232,46 @@ const description = page.kind === 'author'
             saveSetting('bookstacks-reader-sans', sansSelect.value);
           });
         }
+
+        const reader = document.querySelector<HTMLElement>('.chapter-container')!;
+        const fullscreen = document.querySelector<HTMLButtonElement>('.reader-fullscreen')!;
+        const fullscreenLabel = fullscreen.querySelector<HTMLElement>('[data-i18n]')!;
+        const setFullscreen = (active: boolean) => {
+          reader.classList.toggle('reader-expanded', active);
+          document.body.classList.toggle('reader-fullscreen-active', active);
+          fullscreen.setAttribute('aria-pressed', String(active));
+          for (const sibling of document.body.children) {
+            if (sibling instanceof HTMLElement && sibling.tagName !== 'MAIN' && !['SCRIPT', 'STYLE'].includes(sibling.tagName)) sibling.inert = active;
+          }
+          if (active) { reader.setAttribute('role', 'dialog'); reader.setAttribute('aria-modal', 'true'); }
+          else { reader.removeAttribute('role'); reader.removeAttribute('aria-modal'); }
+
+          fullscreenLabel.dataset.i18n = active ? 'exitFullscreen' : 'fullscreen';
+          updateFullscreenLabel();
+        };
+        const updateFullscreenLabel = () => {
+          fullscreenLabel.textContent = text(currentLocale() ?? 'en', fullscreenLabel.dataset.i18n!);
+        };
+        reader.setAttribute('aria-label', controls.querySelector('strong')!.textContent!);
+        fullscreen.disabled = false;
+        fullscreen.addEventListener('click', async () => {
+          if (reader.classList.contains('reader-expanded')) {
+            if (document.fullscreenElement) await document.exitFullscreen().catch(() => {});
+            setFullscreen(false);
+          } else {
+            setFullscreen(true); fullscreen.focus();
+            if (document.fullscreenEnabled) await reader.requestFullscreen().catch(() => {});
+          }
+        });
+        document.addEventListener('fullscreenchange', () => {
+          if (!document.fullscreenElement) { setFullscreen(false); fullscreen.focus(); }
+        });
+        document.addEventListener('interfacechange', updateFullscreenLabel);
+        document.addEventListener('keydown', event => {
+          if (event.key === 'Escape' && reader.classList.contains('reader-expanded') && !document.fullscreenElement) {
+            setFullscreen(false); fullscreen.focus();
+          }
+        });
 
         const noteWrappers = Array.from(document.querySelectorAll<HTMLElement>('.tei-note'));
         const closeNote = (wrapper: HTMLElement) => {

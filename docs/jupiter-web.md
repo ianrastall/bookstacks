@@ -44,3 +44,23 @@ Arabic, Hebrew, Persian and Urdu set the document direction to right-to-left. In
 Other corrections in this pass: the README described the committed `public/downloads/` PDF exports as ignored preview files (481 files are tracked and served; the documented resolution order now matches `src/lib/library.ts`) and still described language neighborhoods; registry entries and "Other editions" links now carry edition language metadata and name each edition's language; the root language-alias script discovers localized homepages instead of using a hard-coded list; the site now has a favicon. The 34 new translations were drafted without native-speaker review.
 
 Checks: `npm test`, `npm run audit`, `npm run build`, `node scripts/stage_language_root_aliases.mjs`, `npm run test:browser`.
+
+## Reader controls and catalogue preferences — 24 October 2026
+
+Fixed the Jupiter default sans-serif cascade overriding explicit reader selections.
+Width controls now extend to 100 rem and remain effective at intermediate desktop
+sizes. Fullscreen includes the text, controls, notes and chapter navigation; native
+fullscreen is used where available, with an expanded in-tab fallback and Escape
+exit. Background controls are inert while expanded.
+
+The catalogue offers 16, 32, 64 or all editions per page. A saved page size can be
+overridden with `size=16|32|64|all`; changing filters or size resets pagination.
+The initial book-language filter follows browser preferences independently of the
+interface locale. Explicit `language=all` restores the unified catalogue, and
+changing interface language never changes the current filter or reading route.
+This follows Ian’s latest request and supersedes the earlier all-languages default.
+
+Added the complete James Legge English Tao Te Ching as a separate TEI edition.
+The other two requested translations need complete sources with clear reuse rights;
+see [the source record](chinese-english-sources.md). Site builds remain separate
+from source acquisition, TEI import and PDF generation.
