@@ -54,6 +54,7 @@ const AUTHOR_PROFILES = Object.fromEntries(
 ) as Record<string, Omit<Author, 'works'>>;
 
 const WORK_TITLES: Record<string, string> = {
+  'collected-works-of-mystery-and-horror': 'Collected Works of Mystery and Horror',
   'call-to-arms': 'Call to Arms',
   'journey-to-the-west': 'Journey to the West',
   'tao-te-ching': 'Tao Te Ching',
@@ -197,6 +198,7 @@ export interface ReadingUnit {
   title: string;
   context: string[];
   html: string;
+  illustration?: { src: string; previewSrc?: string; description: string };
   previousPath?: string;
   nextPath?: string;
 }
@@ -436,12 +438,27 @@ function parseEdition(filePath: string): ParsedEdition {
     const context = divisionAncestors(div, text)
       .filter((ancestor) => !WRAPPER_KINDS.has(kindOf(ancestor)))
       .map((ancestor) => divisionLabel(ancestor, segmentCache, locale));
+    const illustrationRef = cleanText(div.getAttribute('corresp'));
+    const figure = illustrationRef.startsWith('#')
+      ? descendants(document, 'figure').find((figure) => figure.getAttribute('xml:id') === illustrationRef.slice(1))
+      : descendants(div, 'figure').find((figure) => figure.getAttribute('type') === 'engraving');
+    const graphic = figure && directElementChildren(figure).find((node) => node.localName === 'graphic');
+    const imagePath = cleanText(graphic?.getAttribute('url')).replace(/^\.\//, '');
+    const illustration = graphic && /^img\/[A-Za-z0-9._/-]+$/.test(imagePath) && !imagePath.includes('..')
+      ? {
+        src: `/tei/${authorSlug}/${imagePath}`,
+        previewSrc: fs.existsSync(path.join(path.dirname(filePath), imagePath.replace(/\.png$/, '.jpg')))
+          ? `/tei/${authorSlug}/${imagePath.replace(/\.png$/, '.jpg')}` : undefined,
+        description: cleanText(directElementChildren(figure).find((node) => node.localName === 'figDesc')?.textContent),
+      }
+      : undefined;
     units.push({
       path: pathValue,
       segments: finalSegments,
       title,
       context,
       html: renderDivision(div, entities, locale, `/tei/${authorSlug}`),
+      illustration,
     });
   }
 
@@ -704,6 +721,7 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
         /\bcenter\b/.test(rend) && 'tei-align-center',
         /\bright\b/.test(rend) && 'tei-align-right',
         /\b(?:pre|preformatted)\b/.test(rend) && 'tei-preformatted',
+        /\bcipher\b/.test(rend) && 'tei-cipher',
         /\bletter\b/.test(rend) && 'tei-letter',
       ].filter(Boolean).join(' ');
       const classAttr = `tei-paragraph${firstClass}${rendClasses ? ` ${rendClasses}` : ''}`;
@@ -832,15 +850,16 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     case 'cell':
       return `<td>${children()}</td>`;
     case 'figure':
+      if (node.getAttribute('type') === 'engraving') return '';
       return `<figure class="tei-figure">${children()}</figure>`;
     case 'graphic': {
       const source = cleanText(node.getAttribute?.('url'));
       const relative = source.replace(/^\.\//, '');
       if (!/^img\/[A-Za-z0-9._/-]+$/.test(relative) || relative.includes('..')) return '';
       const description = cleanText(
-        directElementChildren(node.parentNode).find((child) => child.localName === 'figDesc')?.textContent,
+        directElementChildren(node.parentNode).find((child) => child.localName === 'figDesc')?.textContent || node.getAttribute('n'),
       );
-      return `<img class="tei-graphic" src="${escapeAttr(`${context.assetBase}/${relative}`)}" alt="${escapeAttr(description)}" loading="lazy" decoding="async" />`;
+      return `<img class="tei-graphic${node.getAttribute('rend') === 'inline' ? ' tei-inline-graphic' : ''}" src="${escapeAttr(`${context.assetBase}/${relative}`)}" alt="${escapeAttr(description)}" loading="lazy" decoding="async" />`;
     }
     case 'figDesc':
       return `<figcaption>${children()}</figcaption>`;

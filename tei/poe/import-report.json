@@ -1,0 +1,177 @@
+[
+  {
+    "title": "The Gold-Bug",
+    "source_blocks": 252,
+    "normalized_text_sha256": "cc2485d4fb049fb310326033efe1ef3812cb33be699aff86dccc828d1f8c224b"
+  },
+  {
+    "title": "The Murders in the Rue Morgue",
+    "source_blocks": 130,
+    "normalized_text_sha256": "2dd08b796edd90eeaa36dd6ca1cef43c9034a8445364df2b61ec5489795d33d1"
+  },
+  {
+    "title": "The Mystery of Marie Roget",
+    "source_blocks": 128,
+    "normalized_text_sha256": "afee43d218ea05d63f9719f1fd6714a3d7c2765d183f14782db74a171fbd9d3e"
+  },
+  {
+    "title": "MS. Found in a Bottle",
+    "source_blocks": 42,
+    "normalized_text_sha256": "a7e71365b7b8c2c60145ab5e11cdad61b709c4bc9cdc703549c0e4f4933a214c"
+  },
+  {
+    "title": "The Oval Portrait",
+    "source_blocks": 6,
+    "normalized_text_sha256": "2afbfd98c8a02eea38953e109344303536ad8508b30024bcee4c64d9622ef96b"
+  },
+  {
+    "title": "The Purloined Letter",
+    "source_blocks": 125,
+    "normalized_text_sha256": "923da497ec2393c31646593bc29175906fa23b4fb80c00b6d6fda35ae1d1138a"
+  },
+  {
+    "title": "A Descent into the Maelstrom",
+    "source_blocks": 54,
+    "normalized_text_sha256": "2e37aedfa46afe286d0a0e6453759b25c740fea5cfd469c4dad2500652738041"
+  },
+  {
+    "title": "Mesmeric Revelation",
+    "source_blocks": 76,
+    "normalized_text_sha256": "69a4f8a8bc263eea17af8df312c25e36f0bb35349f74e4477a16e3f2e316433c"
+  },
+  {
+    "title": "The Facts in the Case of M. Valdemar",
+    "source_blocks": 52,
+    "normalized_text_sha256": "94f504e6370230a9aae24a432098b8613caa5a44b32bb9a87cfa1c6e558b6ca0"
+  },
+  {
+    "title": "The Black Cat",
+    "source_blocks": 30,
+    "normalized_text_sha256": "fe842c8441b83632d43a7f6b9f6cab6c114ea775618018ded352c6d83da5bb0c"
+  },
+  {
+    "title": "The Fall of the House of Usher",
+    "source_blocks": 47,
+    "normalized_text_sha256": "89b613aafa7c0e1c2820f1ab11c54f18deae3c16e5a15b51b0b434ce33f39a9d"
+  },
+  {
+    "title": "Silence\u2014A Fable",
+    "source_blocks": 15,
+    "normalized_text_sha256": "eb51b539312d246ea5a5fceed051421bc661251d3a819c57e8b0eb2c2f480a9d"
+  },
+  {
+    "title": "The Masque of the Red Death",
+    "source_blocks": 14,
+    "normalized_text_sha256": "cf6b16c65117c782a0fa49e1daca698cb2e4c45be6de4d249bb967ecc8484b58"
+  },
+  {
+    "title": "The Cask of Amontillado",
+    "source_blocks": 89,
+    "normalized_text_sha256": "806d9c3dc6b6a737e58a8845cc9df82a9004273c0c779eb9fc7b0f5fd55ab4ea"
+  },
+  {
+    "title": "The Imp of the Perverse",
+    "source_blocks": 16,
+    "normalized_text_sha256": "53c52845c81d58f93252e08b22a7d4887b04b644a9fdb7ab5c5e940d63b3cb68"
+  },
+  {
+    "title": "The Assignation",
+    "source_blocks": 38,
+    "normalized_text_sha256": "7a7aab49259376544ff21d91aa631294ef69a7606b5150c434e8eaeb377417af"
+  },
+  {
+    "title": "The Pit and the Pendulum",
+    "source_blocks": 40,
+    "normalized_text_sha256": "14b2a33c6270b25a3315c6998fd7e460b29c03bdc968ab23e9a010b8452c8f0d"
+  },
+  {
+    "title": "The Premature Burial",
+    "source_blocks": 46,
+    "normalized_text_sha256": "30771945c56fdbdbb6a11e53738cd114c1e86d3cd1e2f9f21a27397372439105"
+  },
+  {
+    "title": "William Wilson",
+    "source_blocks": 56,
+    "normalized_text_sha256": "1b72cb3aab4a3b4468ae59e44d5d59bd27fad62645f2fbe971a35aacd2150ed4"
+  },
+  {
+    "title": "The Tell-Tale Heart",
+    "source_blocks": 18,
+    "normalized_text_sha256": "d21d6d216dbf0dbcd214d2abb12dd536951694b620ce884a8c3525a37f688793"
+  },
+  {
+    "title": "Berenice",
+    "source_blocks": 25,
+    "normalized_text_sha256": "8e6c09c37d014019e4789fd5a30f64fb0216f365dd480c21954a605b58a95dcc"
+  },
+  {
+    "title": "Eleonora",
+    "source_blocks": 17,
+    "normalized_text_sha256": "11f41b9146cfecdf1cf14a0ca85a4124e139d170092dd201e79b83a8cd5eb38c"
+  },
+  {
+    "title": "Ligeia",
+    "source_blocks": 25,
+    "normalized_text_sha256": "c55f0cc2dee1c52ecff02fe0cf86dcfef8d71e85d579ed6381404e572f590343"
+  },
+  {
+    "title": "Morella",
+    "source_blocks": 21,
+    "normalized_text_sha256": "37b8d485e54099459c55868685d6c5c9b8fcfd15c6f3ded5e714d111eebad3a6"
+  },
+  {
+    "title": "A Tale of the Ragged Mountains",
+    "source_blocks": 34,
+    "normalized_text_sha256": "cefe346a6dd5059f557a1f567cc6c51c669c3951d03ebf04b34d4f19e827c79c"
+  },
+  {
+    "title": "Metzengerstein",
+    "source_blocks": 42,
+    "normalized_text_sha256": "39271482314bd8e2f188e19b9e07569cf1e188d6fbbb8dfeb8bcb8d7b9f474be"
+  },
+  {
+    "title": "The System of Doctor Tarr and Professor Fether",
+    "source_blocks": 124,
+    "normalized_text_sha256": "5008ec569dc0b39b4bb96a694b7c1cab92407391f8509fe4cf6f5186e5838ab3"
+  },
+  {
+    "title": "The Oblong Box",
+    "source_blocks": 48,
+    "normalized_text_sha256": "7b8b98b998d57eb509707870db8cc0b88e521181aeab0783d986b9b440372b7f"
+  },
+  {
+    "title": "The Conversation of Eiros and Charmion",
+    "source_blocks": 24,
+    "normalized_text_sha256": "509726ebbc289c6a1fd82809f79fa02c3eee647b77a128d08b634a4fc5863559"
+  },
+  {
+    "title": "Shadow\u2014A Parable",
+    "source_blocks": 5,
+    "normalized_text_sha256": "32346dd615b8c5199e62f26c89ad6aa51499cf7c303b52aadde29db2ab112d92"
+  },
+  {
+    "title": "The Sphinx",
+    "source_blocks": 15,
+    "normalized_text_sha256": "85103c772f33bd58a720c1767ce667eddb415b218a7433c1e57177d663bd432e"
+  },
+  {
+    "title": "Hop-Frog",
+    "source_blocks": 61,
+    "normalized_text_sha256": "5467fef699259d6d6ad958a6a4c87a38182f2ddc323b3bca2b948cb6499811fa"
+  },
+  {
+    "title": "The Man of the Crowd",
+    "source_blocks": 22,
+    "normalized_text_sha256": "548e2caab0b10982ed709d40b687d08707a41662baa29f169fd56d8fb320398a"
+  },
+  {
+    "title": "Thou Art the Man",
+    "source_blocks": 41,
+    "normalized_text_sha256": "7aa4641b5dde08a4df09d96fcf1f349b4e20640a05d621989b7d18fe5539b2af"
+  },
+  {
+    "title": "The Narrative of Arthur Gordon Pym of Nantucket",
+    "source_blocks": 348,
+    "normalized_text_sha256": "cdfe9ceeccd51fabdc1d71d88f3371c099c4c86b60279505551d65bae79947ad"
+  }
+]

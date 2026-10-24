@@ -1,0 +1,578 @@
+[
+  {
+    "slug": "the-gold-bug",
+    "file": "img/the-gold-bug.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one illustration for an Edgar Allan Poe book. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Scene: A gold scarab beetle resting beside a scrap of parchment and a quill on a rough wooden table.",
+    "sha256": "13ff749b14954a141e075995f7c3de4cde28a04a5ed94ba82d7df3072e3a3747",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-gold-bug.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "c03b20377b0662ecebf407b322f7d74a5a38a346059d07a654161da3be63cca8"
+    }
+  },
+  {
+    "slug": "the-murders-in-the-rue-morgue",
+    "file": "img/the-murders-in-the-rue-morgue.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one illustration for an Edgar Allan Poe book. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Scene: A shuttered fourth-floor Paris window viewed from a narrow nineteenth-century courtyard, a lightning rod alongside it.",
+    "sha256": "30565d0b10e84fb03dd5d01f5f290c273af5bb2cb1e970640d2d5eb4200057fd",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-murders-in-the-rue-morgue.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "102eae00dbc1a8fe7165c18a9b809feab604b091ad833c7282c7c38d72397571"
+    }
+  },
+  {
+    "slug": "the-mystery-of-marie-roget",
+    "file": "img/the-mystery-of-marie-roget.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one illustration for an Edgar Allan Poe book. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Scene: An empty nineteenth-century riverside path beside the Seine with reeds, a small boat and distant Paris rooftops.",
+    "sha256": "ce491d4d187c37c645323e36bc9d00fd11d8495646f30ebbad06040bc386c0bb",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-mystery-of-marie-roget.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "4941231f023d0963c3679bcd3e908d9d3a6a88afe6f94b91a27b24ce1f742d26"
+    }
+  },
+  {
+    "slug": "ms-found-in-a-bottle",
+    "file": "img/ms-found-in-a-bottle.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one illustration for an Edgar Allan Poe book. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Scene: An ancient tall sailing ship towering through black storm waves, seen from a tiny open boat.",
+    "sha256": "0c88cf42adfda464e90b2c8d13d96905c98643575f4cd83814b5affcf8c080b6",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/ms-found-in-a-bottle.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "24720674d03543cacc4636e0ada0a4ba5c0f4d3702ab8916cf12b61ed7b91a17"
+    }
+  },
+  {
+    "slug": "the-oval-portrait",
+    "file": "img/the-oval-portrait.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: An ornate oval portrait of a young woman beside a candelabrum in an abandoned turret chamber.",
+    "sha256": "283f04874bdf6befa13c4d90e55f59cf45cfd7daeaa3765c67c41c71e108a7ab",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-oval-portrait.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "208bbe13dc98667771414071ee16c119ed305f7fcaa493ad550bf25ff205cef8"
+    }
+  },
+  {
+    "slug": "the-purloined-letter",
+    "file": "img/the-purloined-letter.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A crumpled folded letter prominently displayed in a card rack over a nineteenth-century fireplace.",
+    "sha256": "725371481fbd84422f7f2c7de2376e86e670c19bc2ac0db29bea0ec094204a62",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-purloined-letter.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "d6cabb03cae3ddcec58e22b0136b315a32ae840a7387a0bddd944f9fb337dc87"
+    }
+  },
+  {
+    "slug": "a-descent-into-the-maelstrom",
+    "file": "img/a-descent-into-the-maelstrom.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A fisherman clinging to a wooden barrel within a vast spiralling sea whirlpool.",
+    "sha256": "425a5b275ba39523037577e37e621adefa8e37861dea436eefe9b85adeec0432",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/a-descent-into-the-maelstrom.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "9cdd3f570a52e1723812e2476962bdfcc6cfc79d32bf430e24a0a69ec9bfa182"
+    }
+  },
+  {
+    "slug": "mesmeric-revelation",
+    "file": "img/mesmeric-revelation.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A candlelit nineteenth-century sickroom with a seated mesmerist beside a dying man, restrained and solemn.",
+    "sha256": "81a790590679f550b3cfe6a90043fe995dbb5a33b6169f7e78a719a75678204f",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/mesmeric-revelation.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "6a6a140ea6b9c8d56b28c4592d6cbce9d900a36ed006af47707170dfb145dc41"
+    }
+  },
+  {
+    "slug": "the-facts-in-the-case-of-m-valdemar",
+    "file": "img/the-facts-in-the-case-of-m-valdemar.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A mesmerist extending a hand beside a shrouded still patient on a nineteenth-century bed, ominous without gore.",
+    "sha256": "e79ac79177b747305d3c74b0d0a2af7bb94e90263dc42214a100c00033720ef5",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-facts-in-the-case-of-m-valdemar.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "02bb4ba273f215240492ce6d289b18d42bf7a492b1c3fcd12e7e5f9769f89c4f"
+    }
+  },
+  {
+    "slug": "the-black-cat",
+    "file": "img/the-black-cat.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A black cat with one eye sitting before a cracked plaster cellar wall, dramatic hatched shadows.",
+    "sha256": "21a2f7e8cb0e483805f7b097a643b6907da0d2518d1ac5c80809f8e3f98e7999",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-black-cat.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "4557ae39e707516a0a490fa3f64e56ed8da7dd68f0c0820ec1a99becce687313"
+    }
+  },
+  {
+    "slug": "the-fall-of-the-house-of-usher",
+    "file": "img/the-fall-of-the-house-of-usher.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe's The Fall of the House of Usher: a decaying Gothic mansion with narrow windows reflected in a still dark tarn, a hairline fissure down its facade, bare branches. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Save the generated image as a local file and return its path.",
+    "sha256": "aaddd5ec3bf312c504d7993e4a30b3967ef667274e6064bd9db5198127316e33",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-fall-of-the-house-of-usher.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "6f11b462c9cf6f9b4ca3b60a3660ea267164d21db8818d7f22d6ce4fa81fd66e"
+    }
+  },
+  {
+    "slug": "silencea-fable",
+    "file": "img/silencea-fable.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A solitary robed man seated on a rock beside a still river in a desolate landscape of tall reeds.",
+    "sha256": "2782becbc6dd61dff5f467a15d00eafdd1725625724e04046d3b2037567b6d3d",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/silencea-fable.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "e3f6299abfa0fbbcc1e185b8b77b2ddcbef6e58a6febc233f8add475a1fde92c"
+    }
+  },
+  {
+    "slug": "the-masque-of-the-red-death",
+    "file": "img/the-masque-of-the-red-death.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A masked shrouded figure before an ebony pendulum clock in a Gothic masquerade chamber.",
+    "sha256": "8887681da87b72d37f93562646cd5be5a683e719b581c45e9338d057087c8b03",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-masque-of-the-red-death.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "c249516d1f66d41ab32ca9e5be854d6bec24824b8f655366e554e06d7cd79cfa"
+    }
+  },
+  {
+    "slug": "the-cask-of-amontillado",
+    "file": "img/the-cask-of-amontillado.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A trowel, a lantern and wine casks in a vaulted catacomb with a partially built brick niche, no visible victim.",
+    "sha256": "85d2c274720983d7babaabe3fd623b97fe2ad8051ee1d892e617ccad078be7ea",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-cask-of-amontillado.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "b048f1f5663591e6411a7782eb07bedf8c2bc0275769fc3e2c5be489402105c6"
+    }
+  },
+  {
+    "slug": "the-imp-of-the-perverse",
+    "file": "img/the-imp-of-the-perverse.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A solitary nineteenth-century man at the edge of a dizzyingly high precipice, seen from behind.",
+    "sha256": "e275f2751d728d7bddf837ad1696bb0e67767e0c5882254347b5120c9547b1a8",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-imp-of-the-perverse.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "48440098f27491580874ffaec8382bb6df55de541233da56eb2737cb238a9971"
+    }
+  },
+  {
+    "slug": "the-assignation",
+    "file": "img/the-assignation.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: An empty gondola moored beneath a Venetian palace balcony at night, a single lamp on the water.",
+    "sha256": "eafb0d8f69d074c1bd354f634951cb90ba5ea1b9eb55790eca64812c81a09b5c",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-assignation.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "989ff721849af5d0dbe0b5c12bee4a1c7a0507e8b2b1a4459c7052f9a9e688e2"
+    }
+  },
+  {
+    "slug": "the-pit-and-the-pendulum",
+    "file": "img/the-pit-and-the-pendulum.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A huge crescent steel pendulum above a wooden platform in a stone dungeon, a circular pit nearby, no gore.",
+    "sha256": "af5341e05c4a77d1a28254e86690f013e23fe2cdb427ceddbd27263d506bd119",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-pit-and-the-pendulum.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "1105f047fb6fd01da8ec906c91a4952101f780e440eea35cb365bfa2754f10f2"
+    }
+  },
+  {
+    "slug": "the-premature-burial",
+    "file": "img/the-premature-burial.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: The interior of a nineteenth-century safety coffin with bell cord, shown as a detailed cutaway encyclopedia engraving.",
+    "sha256": "d5e650b760836e466b3e0e39dc1b12a68ea4b37f8211f293bd19a2f34f40a9c7",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-premature-burial.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "e970b4741b9573f89e4272f8eedd6a32ca7f41153c08eb0fdabe325c7f5a686f"
+    }
+  },
+  {
+    "slug": "william-wilson",
+    "file": "img/william-wilson.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: Two identically dressed nineteenth-century men facing each other in a dim mirror-lined chamber.",
+    "sha256": "0f5047163b95188bed92c01ac5596b4b2739b2ee77fb772d9955e3c30dbde5c8",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/william-wilson.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "10cb56195d6d44112459bfe6b32dcfbdd6b252fbe1658e88581feb7ac0e18df8"
+    }
+  },
+  {
+    "slug": "the-tell-tale-heart",
+    "file": "img/the-tell-tale-heart.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A narrow beam from a shuttered lantern falling across an old wooden bedroom floor at night, no gore.",
+    "sha256": "c3b8bcbb5946ca1b09eea38c5de0bdad128081c012fd7b962cf945afb82d34a9",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-tell-tale-heart.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "2db5ed96461a782219226ead833dee41eae284b084ffaad1fe5116d36b9a8ed2"
+    }
+  },
+  {
+    "slug": "berenice",
+    "file": "img/berenice.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A small closed surgical instrument box beside an open Latin book and an oil lamp in a shadowy library.",
+    "sha256": "9473349fc438fbcdddc7d2fdb2bdece3b6b4027710614dbd43718af2c2457cac",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/berenice.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "a288a0a101c5d52837420736a2cbdbd12371390ed6d58762787cb8303e007239"
+    }
+  },
+  {
+    "slug": "eleonora",
+    "file": "img/eleonora.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A secluded valley with a winding stream, dense flowers and clouded mountains, a solitary distant figure.",
+    "sha256": "cb69564a8abed7f5b4c51909a05aa63cab0b4126fd3ccfb9b829239c577a0a3f",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/eleonora.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "d34d90c0425f8856cac660ea0aae1946766c5774b7a33435f7258860ad748bb0"
+    }
+  },
+  {
+    "slug": "ligeia",
+    "file": "img/ligeia.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A tall pale dark-haired woman in a richly curtained Gothic chamber with a smoking censer, restrained supernatural atmosphere.",
+    "sha256": "5178387614d5f03912506bcf392c0d1cdcfc36ea27146e0773a775e73a2a294b",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/ligeia.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "b26a1cb9f6c5c3dcbad3804c23f476bd099361b3599ab4759106e6914f36fd8c"
+    }
+  },
+  {
+    "slug": "morella",
+    "file": "img/morella.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: An open old book beside a candle and a closed tomb door in the background, eerie stillness.",
+    "sha256": "042fad29e6b896184a272c8ec6962a75c967d91e0e3273dc821a0c9ab6e2805e",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/morella.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "e7911a12cbe4011e87b5e6b07722fc0c5d050bb088eb041eced51c86bceb02c8"
+    }
+  },
+  {
+    "slug": "a-tale-of-the-ragged-mountains",
+    "file": "img/a-tale-of-the-ragged-mountains.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A solitary nineteenth-century traveller walking into mist in wooded Virginia mountains.",
+    "sha256": "13060377647fd61623a55e050b72b21e8086afbd6440ec61ae33099c7f01e9b1",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/a-tale-of-the-ragged-mountains.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "a21a0afd6458052aa28c12b6b56e7181e0098b13d63a12cd76ce0fdc2201379c"
+    }
+  },
+  {
+    "slug": "metzengerstein",
+    "file": "img/metzengerstein.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A huge dark horse rearing before a burning medieval castle, intricate heraldic tapestry texture.",
+    "sha256": "ec1f35e7b900595d0adbd3fef90d78b72a7690fcb5e1c4dee215c5d962bc8d6c",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/metzengerstein.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "4146562c5f416bfc19e9b68afadbc1e64d93df427ebae18471fefa5d096615b0"
+    }
+  },
+  {
+    "slug": "the-system-of-doctor-tarr-and-professor-fether",
+    "file": "img/the-system-of-doctor-tarr-and-professor-fether.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: An extravagant candlelit dinner table in a nineteenth-century French asylum, eccentric formally dressed diners, no caricatures.",
+    "sha256": "5fb3e9dc5e549415fe5e439351f68a163bb750564f3de1d5089c9b17685138b6",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-system-of-doctor-tarr-and-professor-fether.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "be0502f929535160803582103e832959601facde7dd30b7419af6a12e67cb51a"
+    }
+  },
+  {
+    "slug": "the-oblong-box",
+    "file": "img/the-oblong-box.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A long sealed wooden shipping box secured with ropes on a nineteenth-century sailing ship deck.",
+    "sha256": "1fcd518a1e3a9cfbda8473b3f97a019cc323208e900f977d90674672027daa7b",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-oblong-box.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "76e54e39a719108bcc7b34233075b36aefd5a41c9d0c0ddc697e7771da063289"
+    }
+  },
+  {
+    "slug": "the-conversation-of-eiros-and-charmion",
+    "file": "img/the-conversation-of-eiros-and-charmion.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A blazing comet above an ancient-looking city beneath a turbulent night sky, apocalyptic atmosphere.",
+    "sha256": "bb04ff94726e19c1b2d6de0427dcaf00b37f9a36b670f68e6dd8666a0e025415",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-conversation-of-eiros-and-charmion.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "5c7baf3abc1eea726ca0a6cdd315974dafc84f2078d9c8ffbe01e950f6fae4ae"
+    }
+  },
+  {
+    "slug": "shadowa-parable",
+    "file": "img/shadowa-parable.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: Seven solemn ancient Greek revellers around a table with a shrouded body and a strange shadow upon a bronze door.",
+    "sha256": "c5f925cf2809e799759b238edf32045e9ed78552ef9a15bb2ee19ba90e108e35",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/shadowa-parable.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "f739ff0ad3797c13d1a62b0512049961db2882ba7fa50bd56788fc2c66fb44da"
+    }
+  },
+  {
+    "slug": "the-sphinx",
+    "file": "img/the-sphinx.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A deaths-head hawkmoth on a window thread, its tiny form enlarged in the foreground against a distant hillside.",
+    "sha256": "732f9a7fa4c89d4310ed8908f34b7c2e5584804fc0aaf73529fb5f4f681b57a8",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-sphinx.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "33552febb41b3dc3fdf3b2c2da646236bbd1980eb4f6711989d549e1d9c4d60f"
+    }
+  },
+  {
+    "slug": "hop-frog",
+    "file": "img/hop-frog.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: Eight orangutan masquerade costumes suspended together on a chain above a medieval hall, no flames or gore, ominous mood.",
+    "sha256": "7b9682913af741edcf8e9ad32f4b18c6ed4c424c5f96f1fc640d4ef9a49a1c72",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/hop-frog.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "f5993d2c26d90d1d49b20d697aeaf368183856e2fc41083def808d76da2014b6"
+    }
+  },
+  {
+    "slug": "the-man-of-the-crowd",
+    "file": "img/the-man-of-the-crowd.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A solitary elderly man moving through a crowded gaslit nineteenth-century London street at dusk.",
+    "sha256": "09867079ca944c8fa2cf54399727fab108f175a32a3b424426dd709eb0eee1bc",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-man-of-the-crowd.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "2ce09ea0a78247b06c80eea26cba2d9eed45b88503002b09e5de64d07866fb83"
+    }
+  },
+  {
+    "slug": "thou-art-the-man",
+    "file": "img/thou-art-the-man.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A large wine shipping crate open in a nineteenth-century dining room, startled onlookers in shadow, no visible corpse.",
+    "sha256": "97590f4ae244de202df0e0da9b9f6f36cf2ac4dbda1e0395df1dd227d27fe469",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/thou-art-the-man.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "280a64347d34f3d265b7a13e4363c8b4865c19bdf6f206e61da9c38db9c781ce"
+    }
+  },
+  {
+    "slug": "the-narrative-of-arthur-gordon-pym-of-nantucket",
+    "file": "img/the-narrative-of-arthur-gordon-pym-of-nantucket.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: A small open boat approaching an immense pale shrouded figure in Antarctic mist and falling white vapour.",
+    "sha256": "14435a78fa26147c14a575dc932e1fff39b95a242d7d68d8536aa05000a6750f",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/the-narrative-of-arthur-gordon-pym-of-nantucket.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "383426b7dc4e953fa496b848c52a58e069fcd8ee210a3f53c9fcf028fc885da7"
+    }
+  },
+  {
+    "slug": "pym-grampus",
+    "file": "img/pym-grampus.png",
+    "generationTool": "OpenAI built-in image_gen",
+    "date": "2026-10-24",
+    "prompt": "Use case: illustration-story. Create one book illustration for Edgar Allan Poe. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Soft vignette on all four sides: engraved marks grow sparse towards every edge and dissolve into a blank white margin; no hard image boundary. Scene: The storm-damaged nineteenth-century brig Grampus rolling in heavy seas, its broken rigging above the waves.",
+    "sha256": "bbe5341a4a111a6fcf8ccd6cecede8cc717adb783dc8ba829612bf4b7cb01b55",
+    "width": 1536,
+    "height": 1024,
+    "preview": {
+      "file": "img/pym-grampus.jpg",
+      "width": 640,
+      "height": 427,
+      "sha256": "332e5f3a1b22b9d23d506442d957e512a0d08f34611a06eb1bc0ae4762ebad34"
+    }
+  }
+]

@@ -1,0 +1,335 @@
+{
+  "title": "Collected Works of Mystery and Horror",
+  "sources": {
+    "2147": {
+      "url": "https://www.gutenberg.org/cache/epub/2147/pg2147-images.html",
+      "sha256": "d08841647264bc6c061b6906966e90d5bc6506ceab0f231a57d171ff2f2460c7"
+    },
+    "2148": {
+      "url": "https://www.gutenberg.org/cache/epub/2148/pg2148-images.html",
+      "sha256": "b1708a8c0a2b7887e79742d4fbeda797e18eac145912d5ba1d4f10c74b949de4"
+    },
+    "2149": {
+      "url": "https://www.gutenberg.org/cache/epub/2149/pg2149-images.html",
+      "sha256": "4e4e341b9884a764a0701aba207ffc9efbffb56ef62c67ccbe7ef91a16f1681a"
+    },
+    "2150": {
+      "url": "https://www.gutenberg.org/cache/epub/2150/pg2150-images.html",
+      "sha256": "ad9e55ee5e28d7c9d6df98e86ca41bddd4ea88fecda893da2ec2ee9d7eae733a"
+    },
+    "2151": {
+      "url": "https://www.gutenberg.org/cache/epub/2151/pg2151-images.html",
+      "sha256": "681259fa9bbf1a06e1e1af693eb7f4a64f5eac14f9dfc8e80b43662024f74cfa"
+    },
+    "51060": {
+      "url": "https://www.gutenberg.org/cache/epub/51060/pg51060-images.html",
+      "sha256": "941a9f2af990c5769070f14d6d31ea03923547e3f13f3a3b35c108f732f9a8ce",
+      "edition": "New York: Harper & Brothers, 1838; transcription by Ron Swanson"
+    }
+  },
+  "stories": [
+    {
+      "volume": 2147,
+      "title": "The Gold-Bug",
+      "slug": "the-gold-bug",
+      "scene": "A gold scarab beetle resting beside a scrap of parchment and a quill on a rough wooden table.",
+      "description": "A gold scarab beetle resting beside a scrap of parchment and a quill on a rough wooden table."
+    },
+    {
+      "volume": 2147,
+      "title": "The Murders in the Rue Morgue",
+      "slug": "the-murders-in-the-rue-morgue",
+      "scene": "A shuttered fourth-floor Paris window viewed from a narrow nineteenth-century courtyard, a lightning rod alongside it.",
+      "description": "A shuttered fourth-floor Paris window viewed from a narrow nineteenth-century courtyard, a lightning rod alongside it."
+    },
+    {
+      "volume": 2147,
+      "title": "The Mystery of Marie Roget",
+      "slug": "the-mystery-of-marie-roget",
+      "scene": "An empty nineteenth-century riverside path beside the Seine with reeds, a small boat and distant Paris rooftops.",
+      "description": "An empty nineteenth-century riverside path beside the Seine with reeds, a small boat and distant Paris rooftops."
+    },
+    {
+      "volume": 2147,
+      "title": "MS. Found in a Bottle",
+      "slug": "ms-found-in-a-bottle",
+      "scene": "An ancient tall sailing ship towering through black storm waves, seen from a tiny open boat.",
+      "description": "An ancient tall sailing ship towering through black storm waves, seen from a tiny open boat."
+    },
+    {
+      "volume": 2147,
+      "title": "The Oval Portrait",
+      "slug": "the-oval-portrait",
+      "scene": "An ornate oval portrait of a young woman beside a candelabrum in an abandoned turret chamber.",
+      "description": "An ornate oval portrait of a young woman beside a candelabrum in an abandoned turret chamber."
+    },
+    {
+      "volume": 2148,
+      "title": "The Purloined Letter",
+      "slug": "the-purloined-letter",
+      "scene": "A crumpled folded letter prominently displayed in a card rack over a nineteenth-century fireplace.",
+      "description": "A crumpled folded letter prominently displayed in a card rack over a nineteenth-century fireplace."
+    },
+    {
+      "volume": 2148,
+      "title": "A Descent into the Maelstrom",
+      "slug": "a-descent-into-the-maelstrom",
+      "scene": "A fisherman clinging to a wooden barrel within a vast spiralling sea whirlpool.",
+      "description": "A fisherman clinging to a wooden barrel within a vast spiralling sea whirlpool."
+    },
+    {
+      "volume": 2148,
+      "title": "Mesmeric Revelation",
+      "slug": "mesmeric-revelation",
+      "scene": "A candlelit nineteenth-century sickroom with a seated mesmerist beside a dying man, restrained and solemn.",
+      "description": "A candlelit nineteenth-century sickroom with a seated mesmerist beside a dying man."
+    },
+    {
+      "volume": 2148,
+      "title": "The Facts in the Case of M. Valdemar",
+      "slug": "the-facts-in-the-case-of-m-valdemar",
+      "scene": "A mesmerist extending a hand beside a shrouded still patient on a nineteenth-century bed, ominous without gore.",
+      "description": "A mesmerist extending a hand beside a shrouded still patient on a nineteenth-century bed."
+    },
+    {
+      "volume": 2148,
+      "title": "The Black Cat",
+      "slug": "the-black-cat",
+      "scene": "A black cat with one eye sitting before a cracked plaster cellar wall, dramatic hatched shadows.",
+      "description": "A black cat with one eye sitting before a cracked plaster cellar wall."
+    },
+    {
+      "volume": 2148,
+      "title": "The Fall of the House of Usher",
+      "slug": "the-fall-of-the-house-of-usher",
+      "scene": "A decaying Gothic mansion with narrow windows reflected in a still dark tarn, a hairline fissure down its facade, bare branches.",
+      "description": "A decaying Gothic mansion with narrow windows reflected in a still dark tarn, a hairline fissure down its facade, bare branches."
+    },
+    {
+      "volume": 2148,
+      "title": "Silence—A Fable",
+      "slug": "silencea-fable",
+      "scene": "A solitary robed man seated on a rock beside a still river in a desolate landscape of tall reeds.",
+      "description": "A solitary robed man seated on a rock beside a still river in a desolate landscape of tall reeds."
+    },
+    {
+      "volume": 2148,
+      "title": "The Masque of the Red Death",
+      "slug": "the-masque-of-the-red-death",
+      "scene": "A masked shrouded figure before an ebony pendulum clock in a Gothic masquerade chamber.",
+      "description": "A masked shrouded figure before an ebony pendulum clock in a Gothic masquerade chamber."
+    },
+    {
+      "volume": 2148,
+      "title": "The Cask of Amontillado",
+      "slug": "the-cask-of-amontillado",
+      "scene": "A trowel, a lantern and wine casks in a vaulted catacomb with a partially built brick niche, no visible victim.",
+      "description": "A trowel, a lantern and wine casks in a vaulted catacomb with a partially built brick niche."
+    },
+    {
+      "volume": 2148,
+      "title": "The Imp of the Perverse",
+      "slug": "the-imp-of-the-perverse",
+      "scene": "A solitary nineteenth-century man at the edge of a dizzyingly high precipice, seen from behind.",
+      "description": "A solitary nineteenth-century man at the edge of a dizzyingly high precipice, seen from behind."
+    },
+    {
+      "volume": 2148,
+      "title": "The Assignation",
+      "slug": "the-assignation",
+      "scene": "An empty gondola moored beneath a Venetian palace balcony at night, a single lamp on the water.",
+      "description": "An empty gondola moored beneath a Venetian palace balcony at night, a single lamp on the water."
+    },
+    {
+      "volume": 2148,
+      "title": "The Pit and the Pendulum",
+      "slug": "the-pit-and-the-pendulum",
+      "scene": "A huge crescent steel pendulum above a wooden platform in a stone dungeon, a circular pit nearby, no gore.",
+      "description": "A huge crescent steel pendulum above a wooden platform in a stone dungeon, a circular pit nearby."
+    },
+    {
+      "volume": 2148,
+      "title": "The Premature Burial",
+      "slug": "the-premature-burial",
+      "scene": "The interior of a nineteenth-century safety coffin with bell cord, shown as a detailed cutaway encyclopedia engraving.",
+      "description": "The interior of a nineteenth-century safety coffin with bell cord, shown as a detailed cutaway encyclopedia engraving."
+    },
+    {
+      "volume": 2148,
+      "title": "William Wilson",
+      "slug": "william-wilson",
+      "scene": "Two identically dressed nineteenth-century men facing each other in a dim mirror-lined chamber.",
+      "description": "Two identically dressed nineteenth-century men facing each other in a dim mirror-lined chamber."
+    },
+    {
+      "volume": 2148,
+      "title": "The Tell-Tale Heart",
+      "slug": "the-tell-tale-heart",
+      "scene": "A narrow beam from a shuttered lantern falling across an old wooden bedroom floor at night, no gore.",
+      "description": "A narrow beam from a shuttered lantern falling across an old wooden bedroom floor at night."
+    },
+    {
+      "volume": 2148,
+      "title": "Berenice",
+      "slug": "berenice",
+      "scene": "A small closed surgical instrument box beside an open Latin book and an oil lamp in a shadowy library.",
+      "description": "A small closed surgical instrument box beside an open Latin book and an oil lamp in a shadowy library."
+    },
+    {
+      "volume": 2148,
+      "title": "Eleonora",
+      "slug": "eleonora",
+      "scene": "A secluded valley with a winding stream, dense flowers and clouded mountains, a solitary distant figure.",
+      "description": "A secluded valley with a winding stream, dense flowers and clouded mountains, a solitary distant figure."
+    },
+    {
+      "volume": 2149,
+      "title": "Ligeia",
+      "slug": "ligeia",
+      "scene": "A tall pale dark-haired woman in a richly curtained Gothic chamber with a smoking censer, restrained supernatural atmosphere.",
+      "description": "A tall pale dark-haired woman in a richly curtained Gothic chamber with a smoking censer."
+    },
+    {
+      "volume": 2149,
+      "title": "Morella",
+      "slug": "morella",
+      "scene": "An open old book beside a candle and a closed tomb door in the background, eerie stillness.",
+      "description": "An open old book beside a candle and a closed tomb door in the background."
+    },
+    {
+      "volume": 2149,
+      "title": "A Tale of the Ragged Mountains",
+      "slug": "a-tale-of-the-ragged-mountains",
+      "scene": "A solitary nineteenth-century traveller walking into mist in wooded Virginia mountains.",
+      "description": "A solitary nineteenth-century traveller walking into mist in wooded Virginia mountains."
+    },
+    {
+      "volume": 2150,
+      "title": "Metzengerstein",
+      "slug": "metzengerstein",
+      "scene": "A huge dark horse rearing before a burning medieval castle, intricate heraldic tapestry texture.",
+      "description": "A huge dark horse rearing before a burning medieval castle."
+    },
+    {
+      "volume": 2150,
+      "title": "The System of Doctor Tarr and Professor Fether",
+      "slug": "the-system-of-doctor-tarr-and-professor-fether",
+      "scene": "An extravagant candlelit dinner table in a nineteenth-century French asylum, eccentric formally dressed diners, no caricatures.",
+      "description": "An extravagant candlelit dinner table in a nineteenth-century French asylum, eccentric formally dressed diners."
+    },
+    {
+      "volume": 2150,
+      "title": "The Oblong Box",
+      "slug": "the-oblong-box",
+      "scene": "A long sealed wooden shipping box secured with ropes on a nineteenth-century sailing ship deck.",
+      "description": "A long sealed wooden shipping box secured with ropes on a nineteenth-century sailing ship deck."
+    },
+    {
+      "volume": 2150,
+      "title": "The Conversation of Eiros and Charmion",
+      "slug": "the-conversation-of-eiros-and-charmion",
+      "scene": "A blazing comet above an ancient-looking city beneath a turbulent night sky, apocalyptic atmosphere.",
+      "description": "A blazing comet above an ancient-looking city beneath a turbulent night sky."
+    },
+    {
+      "volume": 2150,
+      "title": "Shadow—A Parable",
+      "slug": "shadowa-parable",
+      "scene": "Seven solemn ancient Greek revellers around a table with a shrouded body and a strange shadow upon a bronze door.",
+      "description": "Seven solemn ancient Greek revellers around a table with a shrouded body and a strange shadow upon a bronze door."
+    },
+    {
+      "volume": 2151,
+      "title": "The Sphinx",
+      "slug": "the-sphinx",
+      "scene": "A deaths-head hawkmoth on a window thread, its tiny form enlarged in the foreground against a distant hillside.",
+      "description": "A deaths-head hawkmoth on a window thread, its tiny form enlarged in the foreground against a distant hillside."
+    },
+    {
+      "volume": 2151,
+      "title": "Hop-Frog",
+      "slug": "hop-frog",
+      "scene": "Eight orangutan masquerade costumes suspended together on a chain above a medieval hall, no flames or gore, ominous mood.",
+      "description": "Eight orangutan masquerade costumes suspended together on a chain above a medieval hall."
+    },
+    {
+      "volume": 2151,
+      "title": "The Man of the Crowd",
+      "slug": "the-man-of-the-crowd",
+      "scene": "A solitary elderly man moving through a crowded gaslit nineteenth-century London street at dusk.",
+      "description": "A solitary elderly man moving through a crowded gaslit nineteenth-century London street at dusk."
+    },
+    {
+      "volume": 2151,
+      "title": "Thou Art the Man",
+      "slug": "thou-art-the-man",
+      "scene": "A large wine shipping crate open in a nineteenth-century dining room, startled onlookers in shadow, no visible corpse.",
+      "description": "A large wine shipping crate open in a nineteenth-century dining room, startled onlookers in shadow."
+    },
+    {
+      "volume": 51060,
+      "title": "The Narrative of Arthur Gordon Pym of Nantucket",
+      "slug": "the-narrative-of-arthur-gordon-pym-of-nantucket",
+      "scene": "A small open boat approaching an immense pale shrouded figure in Antarctic mist and falling white vapour.",
+      "description": "A small open boat approaching an immense pale shrouded figure in Antarctic mist and falling white vapour."
+    }
+  ],
+  "sourceFigures": [
+    {
+      "file": "img/pym-source-1.jpg",
+      "url": "https://www.gutenberg.org/files/51060/51060-h/images/1.jpg",
+      "sha256": "adff8505d8470b5fdf2a9a915da15d1f601f424620ce7103535da730bcc897ce",
+      "description": "figure 1",
+      "width": 208,
+      "height": 289
+    },
+    {
+      "file": "img/pym-source-2.jpg",
+      "url": "https://www.gutenberg.org/files/51060/51060-h/images/2.jpg",
+      "sha256": "90bce81aeff2fa85d7a3d0ab7472caa644dc5f84127d13a44adbe919631d4056",
+      "description": "figure 2",
+      "width": 245,
+      "height": 293
+    },
+    {
+      "file": "img/pym-source-3.jpg",
+      "url": "https://www.gutenberg.org/files/51060/51060-h/images/3.jpg",
+      "sha256": "d7eb3b0bba5ce4c533d267f87adb31a6d340cf29ce9efdeb17210497a1737a45",
+      "description": "figures 3 and 5",
+      "width": 448,
+      "height": 133
+    },
+    {
+      "file": "img/pym-source-4.jpg",
+      "url": "https://www.gutenberg.org/files/51060/51060-h/images/4.jpg",
+      "sha256": "2aaefb13a611c72221e63c050a9a844104b25763e6230fea6a0fbaa2d10b3ef2",
+      "description": "figure 4",
+      "width": 468,
+      "height": 186
+    },
+    {
+      "file": "img/pym-source-5.jpg",
+      "url": "https://www.gutenberg.org/files/51060/51060-h/images/5.jpg",
+      "sha256": "1f03d79f2edf7760078b7fddfd71e8482653bcbe932f17f979e165a056dd5ce9",
+      "description": "To be shady",
+      "width": 93,
+      "height": 31
+    },
+    {
+      "file": "img/pym-source-6.jpg",
+      "url": "https://www.gutenberg.org/files/51060/51060-h/images/6.jpg",
+      "sha256": "b0567ed51a06400dee8a11897cbe44c45cca6990c2f50f376c77f1feaee282c1",
+      "description": "To be white",
+      "width": 132,
+      "height": 31
+    },
+    {
+      "file": "img/pym-source-7.jpg",
+      "url": "https://www.gutenberg.org/files/51060/51060-h/images/7.jpg",
+      "sha256": "c18a717098fdd726134b43ab6eaf960209c37e7f1ef0a1ff9544b4bf8460d2ce",
+      "description": "The region of the south",
+      "width": 182,
+      "height": 32
+    }
+  ]
+}

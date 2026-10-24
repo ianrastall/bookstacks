@@ -856,6 +856,42 @@ button, input, select { font: inherit; }
   font: 0.78rem/1.45 var(--sans-font);
 }
 
+/* Fade the plate into any reader surface on all four sides. Blending removes
+   the paper color inside the vignette; the mask also softens dense edge marks. */
+.tei-engraving .tei-graphic {
+  border-radius: 0;
+  mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent),
+    linear-gradient(to bottom, transparent, black 12%, black 88%, transparent);
+  mask-composite: intersect;
+  filter: grayscale(1);
+  mix-blend-mode: normal;
+}
+[data-theme='light'] .tei-engraving .tei-graphic {
+  filter: grayscale(1);
+  mix-blend-mode: multiply;
+}
+.reader-content .tei-cipher {
+  white-space: pre-wrap;
+  font-family: ui-monospace, monospace;
+  font-size: 0.8em;
+}
+.reader-illustration { margin: 1.5rem 0 0; }
+.reader-content .tei-inline-graphic { display: inline-block; max-height: 1.6em; vertical-align: middle; margin: 0 0.15em; border-radius: 0; }
+.reader-illustration .tei-graphic { width: 100%; height: auto; }
+@media (min-width: 961px) {
+  .chapter-sidebar:has(.reader-illustration) {
+    max-height: calc(100dvh - 2rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+}
+@media (max-width: 760px) {
+  .reader-illustration { width: min(18rem, 100%); margin: 1rem auto; }
+}
+@media (forced-colors: active) {
+  .tei-engraving .tei-graphic { filter: none; mix-blend-mode: normal; }
+}
+
 @media (max-width: 960px) {
   .chapter-header,
   .chapter-layout { max-width: var(--reader-width); }

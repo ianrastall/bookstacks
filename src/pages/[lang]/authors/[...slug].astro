@@ -188,6 +188,11 @@ const description = page.kind === 'author'
             <a class="btn btn-secondary chapter-nav-button" href={localizedEditionHref(page.work, page.edition)}><span class="material-icons" aria-hidden="true">list</span><T locale={locale} k="contents" /></a>
             {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.nextPath}`}><T locale={locale} k="next" /><span class="material-icons directional-icon" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled"><T locale={locale} k="next" /></span>}
           </nav>
+          {page.unit.illustration && (
+            <figure class="reader-illustration tei-engraving" lang={page.edition.code} dir={editionDir} translate="no">
+              <img class="tei-graphic" src={page.unit.illustration.previewSrc ?? page.unit.illustration.src} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
+            </figure>
+          )}
         </aside>
       </div>
       <script>

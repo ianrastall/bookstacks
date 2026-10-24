@@ -69,3 +69,16 @@ TEI notes are rendered as numbered, keyboard-accessible popovers in the web read
 - `assets/` contains local source material used by the TEI preparation pipeline. It is not served or committed; the deployable standalone results live in `tei/`.
 
 See `tei/README.md` for corpus provenance and validation details.
+
+## Author coverage and Poe
+
+The [author coverage review](docs/author-coverage-and-additions.md) records the
+existing authors, gaps in their coverage, and proposed starting volumes for all
+40 initially unused author portraits. Only Poe is added in this change.
+
+Poe’s *Collected Works of Mystery and Horror* contains 34 shorter works and the
+complete *Narrative of Arthur Gordon Pym of Nantucket*, with 36 new AI-generated
+engraving-style illustrations. All four image edges fade into the reader page.
+The collection manifest, pinned source hashes, import verification report and
+illustration provenance are in `tei/poe/`. Its explicit offline importer is
+`tei/build_poe.py`; site builds do not fetch or regenerate the edition or PDFs.
