@@ -43,6 +43,18 @@ const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
         if(!accent && old && palettes[old]){accent=palettes[old];localStorage.setItem('bookstacks-accent',accent);}
         if(accent && /^#[0-9a-f]{6}$/i.test(accent))root.style.setProperty('--accent',accent);
       } catch { /* Browser storage is optional. */ }
+      // Font choices last for this tab's reading session, including chapter navigation.
+      try {
+        const root=document.documentElement;
+        if(root.dataset.readerPage==='true'){
+          const [family,cascade]=(sessionStorage.getItem('bookstacks-reader-font') || '').split(':');
+          const cascades={serif:['classic','charter','old-style','garamond','platform','times'],sans:['office','system','helvetica','humanist','screen','trebuchet']};
+          if(cascades[family]?.includes(cascade)){
+            root.dataset.readerFamily=family;
+            root.dataset[family==='serif'?'readerSerif':'readerSans']=cascade;
+          }
+        }
+      } catch { /* Font controls still work when session storage is unavailable. */ }
     </script>
   </head>
   <body>

@@ -220,27 +220,37 @@ const description = page.kind === 'author'
             applyReaderSettings();
           });
         });
-        const resetReaderFonts = () => {
-          readerRoot.dataset.readerSerif = 'classic';
-          readerRoot.dataset.readerFamily = 'serif';
-          delete readerRoot.dataset.readerSans;
-          if (serifSelect) serifSelect.value = 'classic';
-          if (sansSelect) sansSelect.value = '';
+        const applyReaderFont = (family: 'serif' | 'sans', cascade: string) => {
+          readerRoot.dataset.readerFamily = family;
+          if (family === 'serif') {
+            readerRoot.dataset.readerSerif = cascade;
+            delete readerRoot.dataset.readerSans;
+          } else readerRoot.dataset.readerSans = cascade;
+          if (serifSelect) serifSelect.value = family === 'serif' ? cascade : '';
+          if (sansSelect) sansSelect.value = family === 'sans' ? cascade : '';
         };
-        resetReaderFonts();
-        // Browser history can restore an entire page, including form values.
-        window.addEventListener('pageshow', resetReaderFonts);
+        const restoreReaderFont = () => {
+          let saved: string | null = null;
+          try { saved = sessionStorage.getItem('bookstacks-reader-font'); } catch { /* Optional storage. */ }
+          const [family, cascade] = (saved || '').split(':');
+          const select = family === 'serif' ? serifSelect : family === 'sans' ? sansSelect : null;
+          if (select && [...select.options].some(option => option.value === cascade && !option.disabled)) {
+            applyReaderFont(family as 'serif' | 'sans', cascade);
+          } else applyReaderFont('serif', 'classic');
+        };
+        const chooseReaderFont = (family: 'serif' | 'sans', cascade: string) => {
+          applyReaderFont(family, cascade);
+          try { sessionStorage.setItem('bookstacks-reader-font', `${family}:${cascade}`); } catch { /* Applied for this page. */ }
+        };
+        restoreReaderFont();
+        // History restoration must use the session's latest choice, not stale form values.
+        window.addEventListener('pageshow', restoreReaderFont);
         if (serifSelect && sansSelect) {
           serifSelect.addEventListener('change', () => {
-            readerRoot.dataset.readerSerif = serifSelect.value;
-            readerRoot.dataset.readerFamily = 'serif';
-            delete readerRoot.dataset.readerSans;
-            sansSelect.value = '';
+            chooseReaderFont('serif', serifSelect.value);
           });
           sansSelect.addEventListener('change', () => {
-            readerRoot.dataset.readerSans = sansSelect.value;
-            readerRoot.dataset.readerFamily = 'sans';
-            serifSelect.value = '';
+            chooseReaderFont('sans', sansSelect.value);
           });
         }
 

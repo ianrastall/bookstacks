@@ -92,3 +92,18 @@ characters are unchanged. The hierarchy context no longer forces uppercase.
 Formatting applies only to text nodes in the transient display DOM, retaining
 inline emphasis, links, IDs and note content. Canonical TEI files, route segments
 and PDF publication files are unchanged. PDF generation remains a separate pipeline.
+
+
+### Font state within a reading session — 24 October 2026
+
+Ian clarified that the chosen font should survive chapter changes during a reading
+session. The active family and cascade now use `sessionStorage` under
+`bookstacks-reader-font`. A fresh tab session defaults to Constantia; the old
+permanent font preferences are still ignored. No font cookie is created.
+
+The head script validates and applies the saved choice before the reader paints.
+Reader initialization and `pageshow` restore the same choice into both the CSS
+state and dropdowns, including after Back/Forward navigation to an older page.
+Only the active font menu has a selected cascade. Missing, invalid or blocked
+session storage falls back safely; controls continue to work for the current page.
+This supersedes the per-chapter font reset described in the earlier correction.

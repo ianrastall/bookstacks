@@ -16,7 +16,7 @@ test('catalogue paginates and author discovery filters titles',async({page})=>{
 test('reading size, fonts, notes and chapter navigation remain usable',async({page})=>{
  await page.goto('/en/authors/aristotle/poetics/chapter-1');const article=page.locator('.reader-content');const before=await article.evaluate(el=>parseFloat(getComputedStyle(el).fontSize));
  for(let i=0;i<12;i++)await page.locator('[data-reader-action="larger"]').click();expect(await article.evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThan(before*1.4);
- await page.locator('[data-reader-font="serif"]').selectOption('platform');await page.reload();await expect(page.locator('[data-reader-font="serif"]')).toHaveValue('classic');expect(await article.evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThan(before*1.4);
+ await page.locator('[data-reader-font="serif"]').selectOption('platform');await page.reload();await expect(page.locator('[data-reader-font="serif"]')).toHaveValue('platform');expect(await article.evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThan(before*1.4);
  const note=page.locator('.tei-note-ref').first();await note.focus();await page.keyboard.press('Enter');await expect(page.locator('.tei-note-popover:visible')).toHaveCount(1);await page.keyboard.press('Escape');await expect(page.locator('.tei-note-popover:visible')).toHaveCount(0);
  await page.locator('.chapter-navigation a[rel="next"]').click();await expect(page).not.toHaveURL(/chapter-1$/);await expect(article).toBeVisible();
 });
@@ -164,7 +164,7 @@ test('interface overrides never change the initial browser book preference or ex
  await other.goto('http://127.0.0.1:4323/');await expect(other.locator('#book-language')).toHaveValue('');await unsupported.close();
 });
 
-test('sans cascade changes book text while width persists and fonts reset on reload', async ({page}) => {
+test('sans cascade and width persist through reloads in the same tab', async ({page}) => {
  await page.setViewportSize({width:1920,height:1080});
  await page.goto('/en/authors/aristotle/poetics/chapter-1');
  const article=page.locator('.reader-content');
@@ -175,9 +175,9 @@ test('sans cascade changes book text while width persists and fonts reset on rel
  const width=(await article.boundingBox())!.width;
  for(let i=0;i<8;i++)await page.locator('[data-reader-action="wide"]').click();
  expect((await article.boundingBox())!.width).toBeGreaterThan(width+200);
- await page.reload();expect(await article.evaluate(el=>getComputedStyle(el).fontFamily)).toBe(before);
- await expect(page.locator('[data-reader-font="serif"]')).toHaveValue('classic');
- await expect(page.locator('[data-reader-font="sans"]')).toHaveValue('');
+ await page.reload();expect(await article.evaluate(el=>getComputedStyle(el).fontFamily)).toBe(after);
+ await expect(page.locator('[data-reader-font="serif"]')).toHaveValue('');
+ await expect(page.locator('[data-reader-font="sans"]')).toHaveValue('screen');
  expect((await article.boundingBox())!.width).toBeGreaterThan(width+200);
 });
 
@@ -232,8 +232,17 @@ test('both font menus apply to book paragraphs and clear the inactive selection'
  await serif.selectOption('times');await expect(sans).toHaveValue('');expect(await family()).toMatch(/^"Times New Roman"/);
  await serif.selectOption('classic');expect(await family()).toMatch(/^Constantia/);
  await sans.selectOption('screen');await page.locator('a[rel="next"]').click();
- await expect(serif).toHaveValue('classic');await expect(sans).toHaveValue('');expect(await family()).toMatch(/^Constantia/);
- await page.goBack();await expect(serif).toHaveValue('classic');await expect(sans).toHaveValue('');expect(await family()).toMatch(/^Constantia/);
+ await expect(serif).toHaveValue('');await expect(sans).toHaveValue('screen');expect(await family()).toMatch(/^Verdana/);
+ await serif.selectOption('times');
+ await page.goBack();await expect(serif).toHaveValue('times');await expect(sans).toHaveValue('');expect(await family()).toMatch(/^"Times New Roman"/);
+ await page.goForward();await expect(serif).toHaveValue('times');await expect(sans).toHaveValue('');expect(await family()).toMatch(/^"Times New Roman"/);
+ const fresh=await page.context().newPage();
+ await fresh.route('https://www.googletagmanager.com/**',route=>route.abort());
+ await fresh.goto('/en/authors/bronte-anne/agnes-grey/chapter-1');
+ await expect(fresh.locator('[data-reader-font="serif"]')).toHaveValue('classic');
+ await expect(fresh.locator('[data-reader-font="sans"]')).toHaveValue('');
+ expect(await fresh.locator('.reader-content').evaluate(el=>getComputedStyle(el).fontFamily)).toMatch(/^Constantia/);
+ await fresh.close();
 });
 
 test('Chinese sans reading text retains its script fonts independently of interface language',async({page})=>{
@@ -261,4 +270,26 @@ test('structural titles use title case in contents, reader headings and context 
  await page.locator('#interface-language').selectOption('fr');await expect(page.locator('.reader-context')).toContainText('Part II');
  const source=await page.request.get('/tei/bronte-anne/bronte-anne_agnes-grey_eng.xml');
  expect(await source.text()).toContain('<head>CHAPTER I.<lb/> THE PARSONAGE</head>');
+});
+
+
+test('session font storage can be unavailable or invalid without breaking the reader',async({browser})=>{
+ for(const blocked of [true,false]){
+  const context=await browser.newContext();const page=await context.newPage();const errors:string[]=[];
+  page.on('pageerror',error=>errors.push(error.message));
+  await page.route('https://www.googletagmanager.com/**',route=>route.abort());
+  await page.addInitScript(block=>{
+   if(block)Object.defineProperty(window,'sessionStorage',{get(){throw new Error('Unavailable');}});
+   else if(!sessionStorage.getItem('bookstacks-reader-font'))sessionStorage.setItem('bookstacks-reader-font','sans:invalid-cascade');
+  },blocked);
+  await page.goto('http://127.0.0.1:4323/en/authors/aristotle/poetics/chapter-1');
+  await expect(page.locator('[data-reader-font="serif"]')).toHaveValue('classic');
+  expect(await page.locator('.reader-content').evaluate(el=>getComputedStyle(el).fontFamily)).toMatch(/^Constantia/);
+  await page.locator('[data-reader-font="sans"]').selectOption('screen');
+  expect(await page.locator('.reader-content').evaluate(el=>getComputedStyle(el).fontFamily)).toMatch(/^Verdana/);
+  if(!blocked){
+   await page.reload();await expect(page.locator('[data-reader-font="sans"]')).toHaveValue('screen');
+  }
+  expect(errors).toEqual([]);await context.close();
+ }
 });
