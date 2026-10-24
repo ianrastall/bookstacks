@@ -674,6 +674,11 @@ button, input, select { font: inherit; }
   line-height: 1.85;
 }
 
+[data-reader-family='sans'] .reader-content { font-family: var(--sans-font); }
+[data-reader-family='sans'] .reader-content:lang(zh-Hans) {
+  font-family: "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", "PingFang SC", var(--sans-font);
+}
+
 .reader-content p { margin: 0; }
 .reader-content .tei-paragraph { text-indent: 1.5em; }
 .reader-content .tei-first-paragraph { text-indent: 0; }

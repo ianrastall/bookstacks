@@ -158,8 +158,9 @@ const description = page.kind === 'author'
             <div class="reader-font-controls">
               <label class="reader-font-picker">
                 <span><T locale={locale} k="serifCascade" /></span>
-                <select data-reader-font="serif" dir="ltr" aria-describedby="reader-font-note">
-                  <option value="classic">Constantia, Georgia, Times</option>
+                <select data-reader-font="serif" dir="ltr" autocomplete="off" aria-describedby="reader-font-note">
+                  <option value="" disabled>—</option>
+                  <option value="classic" selected>Constantia, Georgia, Times</option>
                   <option value="charter">Charter, Cambria, Constantia</option>
                   <option value="old-style">Iowan Old Style, Baskerville, Palatino</option>
                   <option value="garamond">Garamond, Constantia, Georgia</option>
@@ -169,7 +170,8 @@ const description = page.kind === 'author'
               </label>
               <label class="reader-font-picker">
                 <span><T locale={locale} k="sansCascade" /></span>
-                <select data-reader-font="sans" dir="ltr" aria-describedby="reader-font-note">
+                <select data-reader-font="sans" dir="ltr" autocomplete="off" aria-describedby="reader-font-note">
+                  <option value="" disabled selected>—</option>
                   <option value="office">Segoe UI, Calibri, Arial</option>
                   <option value="system">System UI, Segoe UI</option>
                   <option value="helvetica">Helvetica Neue, Helvetica, Arial</option>
@@ -218,18 +220,27 @@ const description = page.kind === 'author'
             applyReaderSettings();
           });
         });
-        if (serifSelect) {
-          serifSelect.value = readerRoot.dataset.readerSerif || 'classic';
+        const resetReaderFonts = () => {
+          readerRoot.dataset.readerSerif = 'classic';
+          readerRoot.dataset.readerFamily = 'serif';
+          delete readerRoot.dataset.readerSans;
+          if (serifSelect) serifSelect.value = 'classic';
+          if (sansSelect) sansSelect.value = '';
+        };
+        resetReaderFonts();
+        // Browser history can restore an entire page, including form values.
+        window.addEventListener('pageshow', resetReaderFonts);
+        if (serifSelect && sansSelect) {
           serifSelect.addEventListener('change', () => {
             readerRoot.dataset.readerSerif = serifSelect.value;
-            saveSetting('bookstacks-reader-serif', serifSelect.value);
+            readerRoot.dataset.readerFamily = 'serif';
+            delete readerRoot.dataset.readerSans;
+            sansSelect.value = '';
           });
-        }
-        if (sansSelect) {
-          sansSelect.value = readerRoot.dataset.readerSans || 'office';
           sansSelect.addEventListener('change', () => {
             readerRoot.dataset.readerSans = sansSelect.value;
-            saveSetting('bookstacks-reader-sans', sansSelect.value);
+            readerRoot.dataset.readerFamily = 'sans';
+            serifSelect.value = '';
           });
         }
 

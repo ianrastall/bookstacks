@@ -16,7 +16,7 @@ test('catalogue paginates and author discovery filters titles',async({page})=>{
 test('reading size, fonts, notes and chapter navigation remain usable',async({page})=>{
  await page.goto('/en/authors/aristotle/poetics/chapter-1');const article=page.locator('.reader-content');const before=await article.evaluate(el=>parseFloat(getComputedStyle(el).fontSize));
  for(let i=0;i<12;i++)await page.locator('[data-reader-action="larger"]').click();expect(await article.evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThan(before*1.4);
- await page.locator('[data-reader-font="serif"]').selectOption('platform');await page.reload();await expect(page.locator('[data-reader-font="serif"]')).toHaveValue('platform');expect(await article.evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThan(before*1.4);
+ await page.locator('[data-reader-font="serif"]').selectOption('platform');await page.reload();await expect(page.locator('[data-reader-font="serif"]')).toHaveValue('classic');expect(await article.evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThan(before*1.4);
  const note=page.locator('.tei-note-ref').first();await note.focus();await page.keyboard.press('Enter');await expect(page.locator('.tei-note-popover:visible')).toHaveCount(1);await page.keyboard.press('Escape');await expect(page.locator('.tei-note-popover:visible')).toHaveCount(0);
  await page.locator('.chapter-navigation a[rel="next"]').click();await expect(page).not.toHaveURL(/chapter-1$/);await expect(article).toBeVisible();
 });
@@ -164,17 +164,20 @@ test('interface overrides never change the initial browser book preference or ex
  await other.goto('http://127.0.0.1:4323/');await expect(other.locator('#book-language')).toHaveValue('');await unsupported.close();
 });
 
-test('sans cascade changes computed typography and width grows across reloads', async ({page}) => {
+test('sans cascade changes book text while width persists and fonts reset on reload', async ({page}) => {
  await page.setViewportSize({width:1920,height:1080});
  await page.goto('/en/authors/aristotle/poetics/chapter-1');
- const controls=page.locator('.reader-controls');const article=page.locator('.reader-content');
- const before=await controls.evaluate(el=>getComputedStyle(el).fontFamily);
+ const article=page.locator('.reader-content');
+ const before=await article.evaluate(el=>getComputedStyle(el).fontFamily);expect(before).toMatch(/^Constantia/);
  await page.locator('[data-reader-font="sans"]').selectOption('screen');
- const after=await controls.evaluate(el=>getComputedStyle(el).fontFamily);expect(after).not.toBe(before);expect(after).toContain('Verdana');
+ const after=await article.evaluate(el=>getComputedStyle(el).fontFamily);expect(after).not.toBe(before);expect(after).toMatch(/^Verdana/);
+ await expect(page.locator('[data-reader-font="serif"]')).toHaveValue('');
  const width=(await article.boundingBox())!.width;
  for(let i=0;i<8;i++)await page.locator('[data-reader-action="wide"]').click();
  expect((await article.boundingBox())!.width).toBeGreaterThan(width+200);
- await page.reload();expect(await controls.evaluate(el=>getComputedStyle(el).fontFamily)).toBe(after);
+ await page.reload();expect(await article.evaluate(el=>getComputedStyle(el).fontFamily)).toBe(before);
+ await expect(page.locator('[data-reader-font="serif"]')).toHaveValue('classic');
+ await expect(page.locator('[data-reader-font="sans"]')).toHaveValue('');
  expect((await article.boundingBox())!.width).toBeGreaterThan(width+200);
 });
 
@@ -199,4 +202,46 @@ test('Legge English edition has all 81 chapters and independent Chinese edition 
  await chapters.first().click();await expect(page.locator('.reader-content')).toContainText('The Tao that can be trodden');
  await expect(page.locator('.reader-content .tei-line')).not.toHaveCount(0);
  await expect(page.locator('.other-editions a')).toHaveAttribute('href','/zh-Hans/authors/laozi/tao-te-ching');
+});
+
+
+test('both font menus apply to book paragraphs and clear the inactive selection', async ({page}) => {
+ await page.addInitScript(()=>{
+  localStorage.setItem('bookstacks-reader-serif','garamond');
+  localStorage.setItem('bookstacks-reader-sans','trebuchet');
+ });
+ await page.goto('/en/authors/bronte-anne/agnes-grey/chapter-1');
+ const serif=page.locator('[data-reader-font="serif"]');const sans=page.locator('[data-reader-font="sans"]');
+ const paragraph=page.locator('.reader-content .tei-paragraph').first();
+ const family=()=>paragraph.evaluate(el=>getComputedStyle(el).fontFamily);
+ const cdp=await page.context().newCDPSession(page);
+ await cdp.send('DOM.enable');await cdp.send('CSS.enable');
+ const {root}=await cdp.send('DOM.getDocument');
+ const {nodeId}=await cdp.send('DOM.querySelector',{nodeId:root.nodeId,selector:'.reader-content .tei-paragraph'});
+ const renderedFonts=async()=>{
+  const {fonts}=await cdp.send('CSS.getPlatformFontsForNode',{nodeId});
+  return fonts.filter((font:{glyphCount:number})=>font.glyphCount>0).map((font:{familyName:string})=>font.familyName).sort();
+ };
+ const defaultFonts=await renderedFonts();expect(defaultFonts.length).toBeGreaterThan(0);
+ await sans.selectOption('screen');await expect.poll(renderedFonts).not.toEqual(defaultFonts);
+ await serif.selectOption('classic');await expect.poll(renderedFonts).toEqual(defaultFonts);
+ await expect(serif).toHaveValue('classic');await expect(sans).toHaveValue('');expect(await family()).toMatch(/^Constantia/);
+ for(const [choice,font] of [['office','Segoe UI'],['screen','Verdana'],['trebuchet','Trebuchet MS']]) {
+  await sans.selectOption(choice);await expect(serif).toHaveValue('');expect(await family()).toContain(font);
+ }
+ await serif.selectOption('times');await expect(sans).toHaveValue('');expect(await family()).toMatch(/^"Times New Roman"/);
+ await serif.selectOption('classic');expect(await family()).toMatch(/^Constantia/);
+ await sans.selectOption('screen');await page.locator('a[rel="next"]').click();
+ await expect(serif).toHaveValue('classic');await expect(sans).toHaveValue('');expect(await family()).toMatch(/^Constantia/);
+ await page.goBack();await expect(serif).toHaveValue('classic');await expect(sans).toHaveValue('');expect(await family()).toMatch(/^Constantia/);
+});
+
+test('Chinese sans reading text retains its script fonts independently of interface language',async({page})=>{
+ await page.goto('/zh-Hans/authors/laozi/tao-te-ching/part-1/chapter-1?ui=en');
+ const article=page.locator('.reader-content');
+ expect(await article.evaluate(el=>getComputedStyle(el).fontFamily)).toContain('SimSun');
+ await page.locator('[data-reader-font="sans"]').selectOption('screen');
+ const sans=await article.evaluate(el=>getComputedStyle(el).fontFamily);expect(sans).toContain('Microsoft YaHei');expect(sans).toContain('Verdana');expect(sans).not.toContain('SimSun');
+ await page.locator('#interface-language').selectOption('ru');expect(await article.evaluate(el=>getComputedStyle(el).fontFamily)).toBe(sans);
+ await page.locator('[data-reader-font="serif"]').selectOption('classic');expect(await article.evaluate(el=>getComputedStyle(el).fontFamily)).toContain('SimSun');
 });

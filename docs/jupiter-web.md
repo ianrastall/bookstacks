@@ -64,3 +64,17 @@ Added the complete James Legge English Tao Te Ching as a separate TEI edition.
 The other two requested translations need complete sources with clear reuse rights;
 see [the source record](chinese-english-sources.md). Site builds remain separate
 from source acquisition, TEI import and PDF generation.
+
+
+### Font control correction — 24 October 2026
+
+The earlier sans-serif fix affected interface typography and reader headings,
+but book paragraphs still used the serif stack. Either cascade menu now selects
+the book text family; the inactive menu is cleared so only one font choice appears
+active. Chinese editions use the corresponding Chinese serif or sans-serif stack,
+independent of interface locale.
+
+Ian requested a fresh Constantia default each time. Stored serif/sans-serif values
+are no longer read or written, and chapter loads, reloads and history returns reset
+both the selected menu values and the text to the default serif cascade. Width,
+size and general appearance preferences retain their existing behavior.

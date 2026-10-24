@@ -42,9 +42,6 @@ const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
         let accent=localStorage.getItem('bookstacks-accent');
         if(!accent && old && palettes[old]){accent=palettes[old];localStorage.setItem('bookstacks-accent',accent);}
         if(accent && /^#[0-9a-f]{6}$/i.test(accent))root.style.setProperty('--accent',accent);
-        const serif=localStorage.getItem('bookstacks-reader-serif');const sans=localStorage.getItem('bookstacks-reader-sans');
-        if(['classic','charter','old-style','garamond','platform','times'].includes(serif))root.dataset.readerSerif=serif;
-        if(['office','system','helvetica','humanist','screen','trebuchet'].includes(sans))root.dataset.readerSans=sans;
       } catch { /* Browser storage is optional. */ }
     </script>
   </head>
