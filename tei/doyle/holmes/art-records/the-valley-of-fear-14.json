@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-14",
+  "file": "img/holmes/the-valley-of-fear-14.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter VII The Trapping of Birdy Edwards. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: As McMurdo had said, the house in which he lived was a lonely one and very well suited for such a crime as they had planned. It was on the extreme fringe of the town and stood well back from the road. In any other case the conspirators would have simply called out their man, as they had many a time before, and emptied their pistols into his body; but in this instance it was very necessary to find out how much he knew, how he knew it, and what had been passed on to his employers. It was possible that they were already too late and that the work had been done. If that was indeed so, they could at least have their revenge upon the man who had done it. But they were hopeful that nothing of great importance had yet come to the detective’s knowledge, as otherwise, they argued, he would not have troubled to write down and forward such trivial in",
+  "sha256": "4c112c93f4608032bae51cb203c326da318c755dd7b5c48a484b9627d86c142f",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "0f362d5d0c7815a75c60ea71936af0f83a9d4bc52aa8555008215c7b4034d294",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-14.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-14.preview.jpg",
+    "sha256": "6ace2ba4fbc584cc0e1f47158d529806a60c814b47ff07d6b2eb26243e3c331e"
+  }
+}

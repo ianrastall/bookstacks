@@ -1,0 +1,16 @@
+{
+  "slug": "the-hound-of-the-baskervilles-08",
+  "file": "img/holmes/the-hound-of-the-baskervilles-08.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Hound of the Baskervilles — Chapter 8. First Report of Dr. Watson. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: From this point onward I will follow the course of events by transcribing my own letters to Mr. Sherlock Holmes which lie before me on the table. One page is missing, but otherwise they are exactly as written and show my feelings and suspicions of the moment more accurately than my memory, clear as it is upon these tragic events, can possibly do. Baskerville Hall, October 13th. MY DEAR HOLMES, My previous letters and telegrams have kept you pretty well up to date as to all that has occurred in this most God-forsaken corner of the world. The longer one stays here the more does the spirit of the moor sink into one’s soul, its vastness, and also its grim charm. When you are once out upon its bosom you have left all traces of modern England behind you, but, on the other hand, you are conscious everywhere of the homes and the work of the prehi",
+  "sha256": "af8019dc14de27666d673b9be9deffa9fd8d570a82bdd1c4cb7648245c558f57",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "75d8190060dbf67098f99131de0591aa767a18f8ee3fd4080024ebb4321571d5",
+  "masterFile": "assets/source-holmes-art/the-hound-of-the-baskervilles-08.png",
+  "preview": {
+    "file": "img/holmes/the-hound-of-the-baskervilles-08.preview.jpg",
+    "sha256": "3ef883c7dec6411c4ef588286ea539285ae1e5e0ec184ec1eb2bf6914a7cfc7a"
+  }
+}

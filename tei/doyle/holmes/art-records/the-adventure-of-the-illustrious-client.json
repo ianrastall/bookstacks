@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-illustrious-client",
+  "file": "img/holmes/the-adventure-of-the-illustrious-client.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Illustrious Client. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: \"It can't hurt now,\" was Mr. Sherlock Holmes's comment when, for the tenth time in as many years, I asked his leave to reveal the following narrative. So it was that at last I obtained permission to put on record what was, in some ways, the supreme moment of my friend's career. Both Holmes and I had a weakness for the Turkish Bath. It was over a smoke in the pleasant lassitude of the drying-room that I have found him less reticent and more human than anywhere else. On the upper floor of the Northumberland Avenue establishment there is an isolated corner where two couches lie side by side, and it was on these that we lay upon September 3, 1902, the day when my narrative begins. I had asked him whether anything was stirring, and for answer he had shot his long, thin, nervous arm out of the sheets which enveloped him and had drawn an envelop",
+  "sha256": "e99c9e3e50cbe0f347ff300d753b09cde1b474310b8ce477d96abb3e6d8cc326",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "fa894a5e059d410e116628b1df7904cf1a7b701c758a273120207a7ac863cbb2",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-illustrious-client.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-illustrious-client.preview.jpg",
+    "sha256": "c30d0ce30612e426ce08a1eab826d49150ba20772e0d1b5662676294b9ae9e7f"
+  }
+}

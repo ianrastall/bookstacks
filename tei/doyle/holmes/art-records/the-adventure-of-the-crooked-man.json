@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-crooked-man",
+  "file": "img/holmes/the-adventure-of-the-crooked-man.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Crooked Man. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: One summer night, a few months after my marriage, I was seated by my own hearth smoking a last pipe and nodding over a novel, for my day’s work had been an exhausting one. My wife had already gone upstairs, and the sound of the locking of the hall door some time before told me that the servants had also retired. I had risen from my seat and was knocking out the ashes of my pipe when I suddenly heard the clang of the bell. I looked at the clock. It was a quarter to twelve. This could not be a visitor at so late an hour. A patient, evidently, and possibly an all-night sitting. With a wry face I went out into the hall and opened the door. To my astonishment it was Sherlock Holmes who stood upon my step. “Ah, Watson,” said he, “I hoped that I might not be too late to catch you.” “My dear fellow, pray come in.” “You look surprised, and no wond",
+  "sha256": "928f82c1123ad75653dc7270227838ba82c7ee8f6cb53b38c23792ed8a2e030f",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "87c5a4aa2b62db47d77f344fcebb138571954290d5a2d7b63226f613a5801501",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-crooked-man.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-crooked-man.preview.jpg",
+    "sha256": "256cac06d7bd0b6f280c8aaf04288ed143c612db1224b449bd9d33367017432e"
+  }
+}

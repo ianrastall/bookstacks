@@ -1,0 +1,16 @@
+{
+  "slug": "a-study-in-scarlet-05",
+  "file": "img/holmes/a-study-in-scarlet-05.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, A Study in Scarlet — CHAPTER V. OUR ADVERTISEMENT BRINGS A VISITOR.. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Our morning’s exertions had been too much for my weak health, and I was tired out in the afternoon. After Holmes’ departure for the concert, I lay down upon the sofa and endeavoured to get a couple of hours’ sleep. It was a useless attempt. My mind had been too much excited by all that had occurred, and the strangest fancies and surmises crowded into it. Every time that I closed my eyes I saw before me the distorted baboon-like countenance of the murdered man. So sinister was the impression which that face had produced upon me that I found it difficult to feel anything but gratitude for him who had removed its owner from the world. If ever human features bespoke vice of the most malignant type, they were certainly those of Enoch J. Drebber, of Cleveland. Still I recognized that justice must be done, and that the depravity of the victim wa",
+  "sha256": "01105284758cb17d9ce28a96bc38548cd819fff0d8db227729b9e50f91ea6f46",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "7a8c920e8b71887424549e355077346533b4c5e2f44363ff68b0c0873cf64111",
+  "masterFile": "assets/source-holmes-art/a-study-in-scarlet-05.png",
+  "preview": {
+    "file": "img/holmes/a-study-in-scarlet-05.preview.jpg",
+    "sha256": "d68fa1b4160cc002da632344435aeb22c3ef064b848cf2fcae00991c40932b63"
+  }
+}

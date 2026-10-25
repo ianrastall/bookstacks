@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-speckled-band",
+  "file": "img/holmes/the-adventure-of-the-speckled-band.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Speckled Band. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: ON glancing over my notes of the seventy odd cases in which I have during the last eight years studied the methods of my friend Sherlock Holmes, I find many tragic, some comic, a large number merely strange, but none commonplace; for, working as he did rather for the love of his art than for the acquirement of wealth, he refused to associate himself with any investigation which did not tend towards the unusual, and even the fantastic. Of all these varied cases, however, I cannot recall any which presented more singular features than that which was associated with the well-known Surrey family of the Roylotts of Stoke Moran. The events in question occurred in the early days of my association with Holmes, when we were sharing rooms as bachelors in Baker Street. It is possible that I might have placed them upon record before, but a promise of",
+  "sha256": "9d00a90714407e0f3762a579b8c5013363738b54aea18d5f08c8b38c87809574",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "55e8d28bd454a4b0e9ed4115892fa1685df1671a9aab1c03d19411ed63002c62",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-speckled-band.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-speckled-band.preview.jpg",
+    "sha256": "e48fa4eb2750d0d93c41ad429e0e9cf99dd3d70eb4214fe3eb6a8904145325ae"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-six-napoleons",
+  "file": "img/holmes/the-adventure-of-the-six-napoleons.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Six Napoleons. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: It was no very unusual thing for Mr. Lestrade, of Scotland Yard, to look in upon us of an evening, and his visits were welcome to Sherlock Holmes, for they enabled him to keep in touch with all that was going on at the police headquarters. In return for the news which Lestrade would bring, Holmes was always ready to listen with attention to the details of any case upon which the detective was engaged, and was able occasionally, without any active interference, to give some hint or suggestion drawn from his own vast knowledge and experience. On this particular evening, Lestrade had spoken of the weather and the newspapers. Then he had fallen silent, puffing thoughtfully at his cigar. Holmes looked keenly at him. “Anything remarkable on hand?” he asked. “Oh, no, Mr. Holmes—nothing very particular.” “Then tell me about it.” Lestrade laughed.",
+  "sha256": "b3197f459b823f7e601e4556f05bc23ba43d2eed89b7669ee6735ccee2ccf765",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "ef37d4c640ab3df6edf26d4349db640594ffcc925fbb8bce1db913cb79e7f214",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-six-napoleons.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-six-napoleons.preview.jpg",
+    "sha256": "e7be45c4260b9dc4f28ec2791f4b5cf6fce5d48b553a39edf5aba06a3af68801"
+  }
+}

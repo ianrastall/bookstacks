@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-wisteria-lodge",
+  "file": "img/holmes/the-adventure-of-wisteria-lodge.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of Wisteria Lodge. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: I find it recorded in my notebook that it was a bleak and windy day towards the end of March in the year 1892. Holmes had received a telegram whilst we sat at our lunch, and he had scribbled a reply. He made no remark, but the matter remained in his thoughts, for he stood in front of the fire afterwards with a thoughtful face, smoking his pipe, and casting an occasional glance at the message. Suddenly he turned upon me with a mischievous twinkle in his eyes. “I suppose, Watson, we must look upon you as a man of letters,” said he. “How do you define the word ‘grotesque’?” “Strange—remarkable,” I suggested. He shook his head at my definition. “There is surely something more than that,” said he; “some underlying suggestion of the tragic and the terrible. If you cast your mind back to some of those narratives with which you have afflicted a l",
+  "sha256": "90e1933fd5c1a8ea8e7b667050ea86067b23cef9b9bf13cd88bd9849287790c0",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "ca13d2a81e13c24060fdc72fef67157f9c460c47bdd3b7cd5f372b3cba28a56c",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-wisteria-lodge.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-wisteria-lodge.preview.jpg",
+    "sha256": "5200ed3cf3d5f95a43ba499092a60456330047d3e0cab416cdda279dc69d3cf8"
+  }
+}

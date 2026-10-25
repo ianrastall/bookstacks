@@ -1,0 +1,16 @@
+{
+  "slug": "the-sign-of-four-12",
+  "file": "img/holmes/the-sign-of-four-12.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Sign of Four — Chapter XII The Strange Story of Jonathan Small. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: A very patient man was that inspector in the cab, for it was a weary time before I rejoined him. His face clouded over when I showed him the empty box. “There goes the reward!” said he, gloomily. “Where there is no money there is no pay. This night’s work would have been worth a tenner each to Sam Brown and me if the treasure had been there.” “Mr. Thaddeus Sholto is a rich man,” I said. “He will see that you are rewarded, treasure or no.” The inspector shook his head despondently, however. “It’s a bad job,” he repeated; “and so Mr. Athelney Jones will think.” His forecast proved to be correct, for the detective looked blank enough when I got to Baker Street and showed him the empty box. They had only just arrived, Holmes, the prisoner, and he, for they had changed their plans so far as to report themselves at a station upon the way. My co",
+  "sha256": "de40cea424a379ae35d2a8d14b611d4d2f2f3d1c08a20637931e3839cc856258",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "b0a4860c03849be280a7df36cd7782f1b20b7a133e959f8729b89f46be2de5f3",
+  "masterFile": "assets/source-holmes-art/the-sign-of-four-12.png",
+  "preview": {
+    "file": "img/holmes/the-sign-of-four-12.preview.jpg",
+    "sha256": "5ff4235d53036461a2cd5f184f549234f9e3379b7e0e049fd158e74c96843080"
+  }
+}

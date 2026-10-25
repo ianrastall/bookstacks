@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-lions-mane",
+  "file": "img/holmes/the-adventure-of-the-lions-mane.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. One illustration for Arthur Conan Doyle's Sherlock Holmes story The Adventure of the Lion's Mane. Scene: Sherlock Holmes crouches beside a clear tidal rock pool on the Sussex coast and points with his walking stick at a large jellyfish in the water, with its long threadlike stinging tentacles visible. Pebbles, coastal cliffs, a quiet sea, early twentieth century before 1914. The lion's mane in this story is a JELLYFISH, not a lion or a furry animal. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery, matching the Bookstacks Poe plates. Avoid any lion, lion skin, fur, mane of hair or museum specimen.",
+  "sha256": "bb7c135c3f1a83edd1f4563ab83751b098b8a515ea2a75114353df2d8c244023",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "3236e56bd83c742aa291ddf7adc9a44e561a2d2df9a157586143a8e016bd441c",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-lions-mane.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-lions-mane.preview.jpg",
+    "sha256": "4be752ceb347397ab8d4e1bb905766a11122738086fc30cbe6304adac0b93962"
+  }
+}

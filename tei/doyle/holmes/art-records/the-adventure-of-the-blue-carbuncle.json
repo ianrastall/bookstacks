@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-blue-carbuncle",
+  "file": "img/holmes/the-adventure-of-the-blue-carbuncle.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Blue Carbuncle. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: I HAD called upon my friend Sherlock Holmes upon the second morning after Christmas, with the intention of wishing him the compliments of the season. He was lounging upon the sofa in a purple dressing-gown, a pipe-rack within his reach upon the right, and a pile of crumpled morning papers, evidently newly studied, near at hand. Beside the couch was a wooden chair, and on the angle of the back hung a very seedy and disreputable hard-felt hat, much the worse for wear, and cracked in several places. A lens and a forceps lying upon the seat of the chair suggested that the hat had been suspended in this manner for the purpose of examination. “You are engaged,” said I; “perhaps I interrupt you.” “Not at all. I am glad to have a friend with whom I can discuss my results. The matter is a perfectly trivial one” (he jerked his thumb in the directio",
+  "sha256": "480d26965d028c63ad68c2563842c384e518083887efda466462d0b7f3f4f2f5",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "3927012acfdc40972627a8666eb975b6a5375c7b1bd81b0e3e11129e965ba38a",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-blue-carbuncle.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-blue-carbuncle.preview.jpg",
+    "sha256": "cd3cbbb193f4dbd2728a6c74558ca4a1d73eba2244616a29417945238836b500"
+  }
+}

@@ -172,6 +172,7 @@ export interface Work {
   title: string;
   authorSlug: string;
   editions: Edition[];
+  searchTerms?: string[];
 }
 
 export interface Edition {
@@ -286,6 +287,40 @@ export function getLibrary(): Library {
     unitCount: parsed.reduce((sum, edition) => sum + edition.units.length, 0),
   };
   return libraryCache;
+}
+
+// Source editions keep their existing reader/download routes. Their collected
+// replacements are the catalogue entries; no canonical TEI is removed.
+export function getCatalogueLibrary(): Library {
+  const library = getLibrary();
+  const holmesSources = new Set([
+    'a-study-in-scarlet', 'the-sign-of-the-four', 'the-hound-of-the-baskervilles',
+    'the-valley-of-fear', 'the-adventures-of-sherlock-holmes',
+    'the-memoirs-of-sherlock-holmes', 'the-return-of-sherlock-holmes',
+    'his-last-bow', 'the-case-book-of-sherlock-holmes',
+  ]);
+  const authors = library.authors.map(author => ({
+    ...author,
+    works: author.works.flatMap<Work>(work => {
+      if (author.slug === 'doyle' && ['the-complete-sherlock-holmes', 'the-chronological-sherlock-holmes'].includes(work.slug)) {
+        return [{ ...work, searchTerms: [
+          ...author.works.filter(source => holmesSources.has(source.slug)).map(source => source.title),
+          ...work.editions.flatMap(edition => edition.units.map(unit => unit.title)),
+        ] }];
+      }
+      if (author.slug !== 'doyle' || !holmesSources.has(work.slug)) return [work];
+      // These collections replace English catalogue entries only. A source
+      // edition in another language must remain independently discoverable.
+      const editions = work.editions.filter(edition => edition.code !== 'en');
+      return editions.length ? [{ ...work, editions }] : [];
+    }),
+  }));
+  return {
+    authors,
+    workCount: authors.reduce((n, author) => n + author.works.length, 0),
+    editionCount: authors.reduce((n, author) => n + author.works.reduce((m, work) => m + work.editions.length, 0), 0),
+    unitCount: authors.reduce((n, author) => n + author.works.reduce((m, work) => m + work.editions.reduce((k, edition) => k + edition.units.length, 0), 0), 0),
+  };
 }
 
 export function authorHref(author: Pick<Author, 'slug'>): string {
@@ -444,11 +479,14 @@ function parseEdition(filePath: string): ParsedEdition {
       : descendants(div, 'figure').find((figure) => figure.getAttribute('type') === 'engraving');
     const graphic = figure && directElementChildren(figure).find((node) => node.localName === 'graphic');
     const imagePath = cleanText(graphic?.getAttribute('url')).replace(/^\.\//, '');
+    const previewPath = imagePath.endsWith('.png')
+      ? imagePath.replace(/\.png$/, '.jpg')
+      : imagePath.replace(/\.jpe?g$/, '.preview.jpg');
     const illustration = graphic && /^img\/[A-Za-z0-9._/-]+$/.test(imagePath) && !imagePath.includes('..')
       ? {
         src: `/tei/${authorSlug}/${imagePath}`,
-        previewSrc: fs.existsSync(path.join(path.dirname(filePath), imagePath.replace(/\.png$/, '.jpg')))
-          ? `/tei/${authorSlug}/${imagePath.replace(/\.png$/, '.jpg')}` : undefined,
+        previewSrc: previewPath !== imagePath && fs.existsSync(path.join(path.dirname(filePath), previewPath))
+          ? `/tei/${authorSlug}/${previewPath}` : undefined,
         description: cleanText(directElementChildren(figure).find((node) => node.localName === 'figDesc')?.textContent),
       }
       : undefined;

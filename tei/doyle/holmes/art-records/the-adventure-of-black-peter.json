@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-black-peter",
+  "file": "img/holmes/the-adventure-of-black-peter.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of Black Peter. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: I have never known my friend to be in better form, both mental and physical, than in the year ’95. His increasing fame had brought with it an immense practice, and I should be guilty of an indiscretion if I were even to hint at the identity of some of the illustrious clients who crossed our humble threshold in Baker Street. Holmes, however, like all great artists, lived for his art’s sake, and, save in the case of the Duke of Holdernesse, I have seldom known him claim any large reward for his inestimable services. So unworldly was he—or so capricious—that he frequently refused his help to the powerful and wealthy where the problem made no appeal to his sympathies, while he would devote weeks of most intense application to the affairs of some humble client whose case presented those strange and dramatic qualities which appealed to his imag",
+  "sha256": "50a8528cf89077094e5dbcc7f3f51e5ec18100cbed58151edd9c02ba68581fb3",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "5d87973b4703c14fc1e243b0a2ffedea6abe114495ab2dd94da31bc2183321dd",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-black-peter.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-black-peter.preview.jpg",
+    "sha256": "ddf86fa3b4a150a1d71c4d32a8291079326bfbdaa80da7d32fe5d8d0b8c22fec"
+  }
+}

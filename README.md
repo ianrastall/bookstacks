@@ -82,3 +82,11 @@ engraving-style illustrations. All four image edges fade into the reader page.
 The collection manifest, pinned source hashes, import verification report and
 illustration provenance are in `tei/poe/`. Its explicit offline importer is
 `tei/build_poe.py`; site builds do not fetch or regenerate the edition or PDFs.
+
+The Doyle catalogue includes *The Complete Sherlock Holmes* in first-publication
+order and *The Chronological Sherlock Holmes* in Baring-Gould’s career order.
+Both contain the four novels, 56 canonical stories, Doyle’s two brief Holmes
+pieces, and *The Story of the Lost Special*. They share 115 new engraving-style
+plates. The original editions, reader URLs, TEI and supplied PDFs remain
+available. See [the collection source and chronology record](docs/holmes-collections.md)
+for editorial placements, preservation checks, and the explicit offline importer.

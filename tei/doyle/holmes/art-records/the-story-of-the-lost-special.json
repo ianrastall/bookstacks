@@ -1,0 +1,16 @@
+{
+  "slug": "the-story-of-the-lost-special",
+  "file": "img/holmes/the-story-of-the-lost-special.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Create one illustration for Arthur Conan Doyle's The Story of the Lost Special. Nineteenth-century steel engraving, extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained ominous mood. Scene: An empty railway junction near an abandoned Victorian colliery, rails diverging into a dark mine cutting, a distant steam locomotive under clouds. This is a book sidebar plate matching Poe's engraving illustrations.",
+  "sha256": "08bf2de51cf6cb5ba7a974096894b34e92d77cc9620acb2407cbbfc8b88e325b",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "7746fdf1daf002bf867537ca4255a1f4f72a8eed80b9f6dd433a3255926e791e",
+  "masterFile": "assets/source-holmes-art/the-story-of-the-lost-special.png",
+  "preview": {
+    "file": "img/holmes/the-story-of-the-lost-special.preview.jpg",
+    "sha256": "506fa1ba0ef4ad2d85d0ce4e6921157782e821237d3f33f7414f9e2ab457fd49"
+  }
+}

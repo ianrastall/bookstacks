@@ -1,0 +1,16 @@
+{
+  "slug": "his-last-bow",
+  "file": "img/holmes/his-last-bow.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, His Last Bow. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: IT was nine o’clock at night upon the second of August—the most terrible August in the history of the world. One might have thought already that God’s curse hung heavy over a degenerate world, for there was an awesome hush and a feeling of vague expectancy in the sultry and stagnant air. The sun had long set, but one blood-red gash like an open wound lay low in the distant west. Above, the stars were shining brightly; and below, the lights of the shipping glimmered in the bay. The two famous Germans stood beside the stone parapet of the garden walk, with the long low, heavily gabled house behind them, and they looked down upon the broad sweep of the beach at the foot of the great chalk cliff on which Von Bork, like some wandering eagle, had perched himself four years before. They stood with their heads close together, talking in low, conf",
+  "sha256": "3081db502c27bbecc4508d56492b1df54c998ac3a8bc29c942ce0c5790527f6d",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "ac097cde579853e52e163057ea2081e1bbca881f0a4f8490ed2f9d92d2ca7f96",
+  "masterFile": "assets/source-holmes-art/his-last-bow.png",
+  "preview": {
+    "file": "img/holmes/his-last-bow.preview.jpg",
+    "sha256": "b5fa1b9a3f61d464f49ffddb013ed7374615eef612d714df5f7e6e7349b84405"
+  }
+}

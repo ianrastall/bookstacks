@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-11",
+  "file": "img/holmes/the-valley-of-fear-11.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter IV The Valley of Fear. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: When McMurdo awoke next morning he had good reason to remember his initiation into the lodge. His head ached with the effect of the drink, and his arm, where he had been branded, was hot and swollen. Having his own peculiar source of income, he was irregular in his attendance at his work; so he had a late breakfast, and remained at home for the morning writing a long letter to a friend. Afterwards he read the Daily Herald. In a special column put in at the last moment he read, “Outrage at the Herald Office—Editor Seriously Injured.” It was a short account of the facts with which he was himself more familiar than the writer could have been. It ended with the statement: The matter is now in the hands of the police; but it can hardly be hoped that their exertions will be attended by any better results than in the past. Some of the men were r",
+  "sha256": "8e421b78b84cf26acef36e666e5b7a7105d1e78471088d13eb73756aec09680c",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "fe705998642691df6b59f1e73f090fb981b26b209d546b70f84b67cc38f83a48",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-11.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-11.preview.jpg",
+    "sha256": "aa567401d9890c46464379988aaee5ef6739e6b076c7e9d99997a9e662fcede1"
+  }
+}

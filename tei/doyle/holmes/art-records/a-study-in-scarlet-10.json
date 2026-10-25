@@ -1,0 +1,16 @@
+{
+  "slug": "a-study-in-scarlet-10",
+  "file": "img/holmes/a-study-in-scarlet-10.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, A Study in Scarlet — CHAPTER III. JOHN FERRIER TALKS WITH THE PROPHET.. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Three weeks had passed since Jefferson Hope and his comrades had departed from Salt Lake City. John Ferrier’s heart was sore within him when he thought of the young man’s return, and of the impending loss of his adopted child. Yet her bright and happy face reconciled him to the arrangement more than any argument could have done. He had always determined, deep down in his resolute heart, that nothing would ever induce him to allow his daughter to wed a Mormon. Such a marriage he regarded as no marriage at all, but as a shame and a disgrace. Whatever he might think of the Mormon doctrines, upon that one point he was inflexible. He had to seal his mouth on the subject, however, for to express an unorthodox opinion was a dangerous matter in those days in the Land of the Saints. Yes, a dangerous matter—so dangerous that even the most saintly d",
+  "sha256": "572d533adc29101caafbef7e47f29432b3f51d92f3e80e4be5252e3511cbb155",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "8502c771b8fe66a6b27c224c86d92d43f68fa32ec934b987af882fa62b5f44b2",
+  "masterFile": "assets/source-holmes-art/a-study-in-scarlet-10.png",
+  "preview": {
+    "file": "img/holmes/a-study-in-scarlet-10.preview.jpg",
+    "sha256": "a6fbb7cc7a01545a311e5dd1cd8eac8a474f66d23e9825af643a0a890a9e0c93"
+  }
+}

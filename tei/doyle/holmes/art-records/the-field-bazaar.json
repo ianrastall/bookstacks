@@ -1,0 +1,16 @@
+{
+  "slug": "the-field-bazaar",
+  "file": "img/holmes/the-field-bazaar.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Field Bazaar. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: \"I should certainly do it,\" said Sherlock Holmes. I started at the interruption, for my companion had been eating his breakfast with his attention entirely centered upon the paper which was propped up by the coffee pot. Now I looked across at him to find his eyes fastened upon me with the half-amused, half-questioning expression which he usually assumed when he felt he had made an intellectual point. \"Do what?\" I asked. He smiled as he took his slipper from the mantelpiece and drew from it enough shag tobacco to fill the old clay pipe with which he invariably rounded off his breakfast. \"A most characteristic question of yours, Watson,\" said he. \"You will not, I am sure, be offended if I say that any reputation for sharpness which I may possess has been entirely gained by the admirable foil which you have made for me. Have I not heard of d",
+  "sha256": "d0808785ce37d825c659033dccc7031091ee7dfa46f45d1b045690d7f92059d8",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "46d4d6112662e0b232ed89b2f191ef9994b0fe7fbdd5d34ce17ada90788b05a9",
+  "masterFile": "assets/source-holmes-art/the-field-bazaar.png",
+  "preview": {
+    "file": "img/holmes/the-field-bazaar.preview.jpg",
+    "sha256": "5ec47226899d46cad58d91ddb1f390bb7c0cdd8a056406e36ca4336aa958490c"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "how-watson-learned-the-trick",
+  "file": "img/holmes/how-watson-learned-the-trick.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, How Watson Learned the Trick. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Watson had been watching his companion intently ever since he had sat down to the breakfast table. Holmes happened to look up and catch his eye. \"Well, Watson, what are you thinking about?\" he asked. \"About you.\" \"Me?\" \"Yes, Holmes. I was thinking how superficial are these tricks of yours, and how wonderful it is that the public should continue to show interest in them.\" \"I quite agree,\" said Holmes. \"In fact, I have a recollection that I have myself made a similar remark.\" \"Your methods,\" said Watson severely, \"are really easily acquired.\" \"No doubt,\" Holmes answered with a smile. \"Perhaps you will yourself give an example of this method of reasoning.\" \"With pleasure,\" said Watson. \"I am able to say that you were greatly preoccupied when you got up this morning.\" \"Excellent!\" said Holmes. \"How could you possibly know that?\" \"Because you ",
+  "sha256": "6db9828d8059b920ff067a067bf001e5a53e3fafadec575eb6c43e0014407182",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "723d33b7b71fd2c2f8af026def014664a57989f8f0ccae69806460a034c41114",
+  "masterFile": "assets/source-holmes-art/how-watson-learned-the-trick.png",
+  "preview": {
+    "file": "img/holmes/how-watson-learned-the-trick.preview.jpg",
+    "sha256": "355ad2595a69b8a3ef40e879df5f1e720439912cb0331ec4edb00a6db83d2f38"
+  }
+}

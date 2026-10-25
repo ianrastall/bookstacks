@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-golden-pince-nez",
+  "file": "img/holmes/the-adventure-of-the-golden-pince-nez.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Golden Pince-Nez. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: When I look at the three massive manuscript volumes which contain our work for the year 1894, I confess that it is very difficult for me, out of such a wealth of material, to select the cases which are most interesting in themselves, and at the same time most conducive to a display of those peculiar powers for which my friend was famous. As I turn over the pages, I see my notes upon the repulsive story of the red leech and the terrible death of Crosby, the banker. Here also I find an account of the Addleton tragedy, and the singular contents of the ancient British barrow. The famous Smith-Mortimer succession case comes also within this period, and so does the tracking and arrest of Huret, the Boulevard assassin—an exploit which won for Holmes an autograph letter of thanks from the French President and the Order of the Legion of Honour. Ea",
+  "sha256": "4b3b726df507f47b40a9604520bac2413c0201dd5b923565ef1571a2e440a2cc",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "7e76ae7b283cc30d07837b616d65fce825a8c12c83c546165ae32425da3e498a",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-golden-pince-nez.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-golden-pince-nez.preview.jpg",
+    "sha256": "1c480ce6fd6824fdde6278e2f3c87b0dd04f2cbc7d27cd74739c73d54f25abd7"
+  }
+}

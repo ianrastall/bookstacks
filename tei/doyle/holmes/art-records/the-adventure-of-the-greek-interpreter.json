@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-greek-interpreter",
+  "file": "img/holmes/the-adventure-of-the-greek-interpreter.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Greek Interpreter. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: During my long and intimate acquaintance with Mr. Sherlock Holmes I had never heard him refer to his relations, and hardly ever to his own early life. This reticence upon his part had increased the somewhat inhuman effect which he produced upon me, until sometimes I found myself regarding him as an isolated phenomenon, a brain without a heart, as deficient in human sympathy as he was pre-eminent in intelligence. His aversion to women and his disinclination to form new friendships were both typical of his unemotional character, but not more so than his complete suppression of every reference to his own people. I had come to believe that he was an orphan with no relatives living, but one day, to my very great surprise, he began to talk to me about his brother. It was after tea on a summer evening, and the conversation, which had roamed in a",
+  "sha256": "040f0210f61e4932f7f2a591f720a18e115d1b58ff80febace16ca9efb727955",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "c72c576a38546e96cd83fa6b5b5707e62363e084342fdcbae264fae00d0f04a6",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-greek-interpreter.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-greek-interpreter.preview.jpg",
+    "sha256": "98ecf42828c9befbd3309031c8501c93183eed14d1eeb8d366d6e367b224107c"
+  }
+}

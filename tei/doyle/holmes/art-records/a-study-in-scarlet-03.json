@@ -1,0 +1,16 @@
+{
+  "slug": "a-study-in-scarlet-03",
+  "file": "img/holmes/a-study-in-scarlet-03.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, A Study in Scarlet — CHAPTER III. THE LAURISTON GARDENS MYSTERY. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: I confess that I was considerably startled by this fresh proof of the practical nature of my companion’s theories. My respect for his powers of analysis increased wondrously. There still remained some lurking suspicion in my mind, however, that the whole thing was a pre-arranged episode, intended to dazzle me, though what earthly object he could have in taking me in was past my comprehension. When I looked at him he had finished reading the note, and his eyes had assumed the vacant, lack-lustre expression which showed mental abstraction. “How in the world did you deduce that?” I asked. “Deduce what?” said he, petulantly. “Why, that he was a retired sergeant of Marines.” “I have no time for trifles,” he answered, brusquely; then with a smile, “Excuse my rudeness. You broke the thread of my thoughts; but perhaps it is as well. So you actual",
+  "sha256": "03ae2678dae6ee45f77c0ff4bd1001ba0f273266af3b7dfcda6611c2e494c6ba",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "212ae061d47ae53c546a5d1ba202e927cdbd61ed437725874876baede1c201b0",
+  "masterFile": "assets/source-holmes-art/a-study-in-scarlet-03.png",
+  "preview": {
+    "file": "img/holmes/a-study-in-scarlet-03.preview.jpg",
+    "sha256": "707296bb43e047f48d910d96779b1d8e0693b720306439e62e656e9e8664562b"
+  }
+}

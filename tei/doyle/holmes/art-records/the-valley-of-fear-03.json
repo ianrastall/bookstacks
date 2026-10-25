@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-03",
+  "file": "img/holmes/the-valley-of-fear-03.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter III The Tragedy of Birlstone. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Now for a moment I will ask leave to remove my own insignificant personality and to describe events which occurred before we arrived upon the scene by the light of knowledge which came to us afterwards. Only in this way can I make the reader appreciate the people concerned and the strange setting in which their fate was cast. The village of Birlstone is a small and very ancient cluster of half-timbered cottages on the northern border of the county of Sussex. For centuries it had remained unchanged; but within the last few years its picturesque appearance and situation have attracted a number of well-to-do residents, whose villas peep out from the woods around. These woods are locally supposed to be the extreme fringe of the great Weald forest, which thins away until it reaches the northern chalk downs. A number of small shops have come in",
+  "sha256": "ead57711ea54c098beaf4e63a9f701fad931d6c62daba9a2d29c65105eb26d99",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "18b88c3eebd523a6964e2c6601e906aee7f2f28bf637d3b7f39e62aa2f35bde6",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-03.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-03.preview.jpg",
+    "sha256": "13d621ee5d7b4db2087a61870d808900a141d244ec16f5fd72ea2cdc7223500c"
+  }
+}

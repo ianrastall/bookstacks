@@ -1,0 +1,16 @@
+{
+  "slug": "the-hound-of-the-baskervilles-11",
+  "file": "img/holmes/the-hound-of-the-baskervilles-11.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Hound of the Baskervilles — Chapter 11. The Man on the Tor. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: The extract from my private diary which forms the last chapter has brought my narrative up to the eighteenth of October, a time when these strange events began to move swiftly towards their terrible conclusion. The incidents of the next few days are indelibly graven upon my recollection, and I can tell them without reference to the notes made at the time. I start them from the day which succeeded that upon which I had established two facts of great importance, the one that Mrs. Laura Lyons of Coombe Tracey had written to Sir Charles Baskerville and made an appointment with him at the very place and hour that he met his death, the other that the lurking man upon the moor was to be found among the stone huts upon the hillside. With these two facts in my possession I felt that either my intelligence or my courage must be deficient if I could",
+  "sha256": "410769698eaa16d5ac00b2bc5ce8094b5b71fee8ebe2c5f68e628cb391aac9fa",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "d8d14e054336168d29846b0366f627dafd51b2e82cf83b0723c0030e6c68a631",
+  "masterFile": "assets/source-holmes-art/the-hound-of-the-baskervilles-11.png",
+  "preview": {
+    "file": "img/holmes/the-hound-of-the-baskervilles-11.preview.jpg",
+    "sha256": "dce929ebf459744b731dcafd76358a97f532cb2b3b3d9463ec8380e140bfe004"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "a-study-in-scarlet-13",
+  "file": "img/holmes/a-study-in-scarlet-13.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, A Study in Scarlet — CHAPTER VI. A CONTINUATION OF THE REMINISCENCES OF JOHN WATSON, M.D.. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Our prisoner’s furious resistance did not apparently indicate any ferocity in his disposition towards ourselves, for on finding himself powerless, he smiled in an affable manner, and expressed his hopes that he had not hurt any of us in the scuffle. “I guess you’re going to take me to the police-station,” he remarked to Sherlock Holmes. “My cab’s at the door. If you’ll loose my legs I’ll walk down to it. I’m not so light to lift as I used to be.” Gregson and Lestrade exchanged glances as if they thought this proposition rather a bold one; but Holmes at once took the prisoner at his word, and loosened the towel which we had bound round his ankles. He rose and stretched his legs, as though to assure himself that they were free once more. I remember that I thought to myself, as I eyed him, that I had seldom seen a more powerfully built man; ",
+  "sha256": "ef7bfd395d27ab338b3553fc1d6322fad83a02ec7dfbb183a18265c27b74d226",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "df3e24e96d107a3d533f8e573eb64e5e6a68da8b85c155fdb0d6811b9e3c542e",
+  "masterFile": "assets/source-holmes-art/a-study-in-scarlet-13.png",
+  "preview": {
+    "file": "img/holmes/a-study-in-scarlet-13.preview.jpg",
+    "sha256": "19e2d7f0d05462a385c0197b62bbd0f0825959430d3cc1a016336ec44ab186db"
+  }
+}

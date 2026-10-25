@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-10",
+  "file": "img/holmes/the-valley-of-fear-10.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter III Lodge 341, Vermissa. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: On the day following the evening which had contained so many exciting events, McMurdo moved his lodgings from old Jacob Shafter’s and took up his quarters at the Widow MacNamara’s on the extreme outskirts of the town. Scanlan, his original acquaintance aboard the train, had occasion shortly afterwards to move into Vermissa, and the two lodged together. There was no other boarder, and the hostess was an easy-going old Irishwoman who left them to themselves; so that they had a freedom for speech and action welcome to men who had secrets in common. Shafter had relented to the extent of letting McMurdo come to his meals there when he liked; so that his intercourse with Ettie was by no means broken. On the contrary, it drew closer and more intimate as the weeks went by. In his bedroom at his new abode McMurdo felt it safe to take out the coini",
+  "sha256": "082244cd41a7c6cb5443d0476614286ae56f4c5481a127f85bc3781ff609e1d2",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "ff8dfaaf2749b57f3bc8585a90896d6b28b799a7571fc0b4bc82c59f601fa029",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-10.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-10.preview.jpg",
+    "sha256": "87d182f5c0ca5ca14b2dca3f50b9836ccef61062c32339f436db9d961a60b7b4"
+  }
+}

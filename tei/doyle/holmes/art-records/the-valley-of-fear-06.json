@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-06",
+  "file": "img/holmes/the-valley-of-fear-06.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter VI A Dawning Light. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: The three detectives had many matters of detail into which to inquire; so I returned alone to our modest quarters at the village inn. But before doing so I took a stroll in the curious old-world garden which flanked the house. Rows of very ancient yew trees cut into strange designs girded it round. Inside was a beautiful stretch of lawn with an old sundial in the middle, the whole effect so soothing and restful that it was welcome to my somewhat jangled nerves. In that deeply peaceful atmosphere one could forget, or remember only as some fantastic nightmare, that darkened study with the sprawling, bloodstained figure on the floor. And yet, as I strolled round it and tried to steep my soul in its gentle balm, a strange incident occurred, which brought me back to the tragedy and left a sinister impression in my mind. I have said that a deco",
+  "sha256": "821d8d38ce83417ea1e71082ce69ebfa075909ca7d76b2cc32908d0f2409cea0",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "7dd182afb80018130f387de8e5d80e64017f6d58bed4dd5751d1e3aa7c04b7b8",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-06.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-06.preview.jpg",
+    "sha256": "5e665f946966e20fc74fc94e0585f13ec2ee709129584ea1a8a739265d9375fd"
+  }
+}

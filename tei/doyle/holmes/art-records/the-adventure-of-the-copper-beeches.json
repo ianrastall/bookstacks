@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-copper-beeches",
+  "file": "img/holmes/the-adventure-of-the-copper-beeches.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Copper Beeches. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: “TO the man who loves art for its own sake,” remarked Sherlock Holmes, tossing aside the advertisement sheet of , “it is frequently in its least important and lowliest manifestations that the keenest pleasure is to be derived. It is pleasant to me to observe, Watson, that you have so far grasped this truth that in these little records of our cases which you have been good enough to draw up, and, I am bound to say, occasionally to embellish, you have given prominence not so much to the many and sensational trials in which I have figured, but rather to those incidents which may have been trivial in themselves, but which have given room for those faculties of deduction and of logical synthesis which I have made my special province.” “And yet,” said I, smiling, “I cannot quite hold myself absolved from the charge of sensationalism which has b",
+  "sha256": "086bb02473c28c1bdbfa567af279a4a1009cdd7327d71a3ebf38f9f8e728685f",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "b14f382fc7021d48bedd5ba5c7a4fc36b58e567837ae8f98de12ca037cd6be1c",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-copper-beeches.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-copper-beeches.preview.jpg",
+    "sha256": "e91c6db2241d7ce45b25732a2ed09dffcffc68cd26e279d5f3075fd02f317658"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "the-sign-of-four-08",
+  "file": "img/holmes/the-sign-of-four-08.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Sign of Four — Chapter VIII The Baker Street Irregulars. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: “What now?” I asked. “Toby has lost his character for infallibility.” “He acted according to his lights,” said Holmes, lifting him down from the barrel and walking him out of the timber-yard. “If you consider how much creasote is carted about London in one day, it is no great wonder that our trail should have been crossed. It is much used now, especially for the seasoning of wood. Poor Toby is not to blame.” “We must get on the main scent again, I suppose.” “Yes. And, fortunately, we have no distance to go. Evidently what puzzled the dog at the corner of Knight’s Place was that there were two different trails running in opposite directions. We took the wrong one. It only remains to follow the other.” There was no difficulty about this. On leading Toby to the place where he had committed his fault, he cast about in a wide circle and finall",
+  "sha256": "852dd52ee0d793220c5d18b77e74b449160903f8686545ba3995e8a21b9d4d76",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "964e12078a53b7d57b53aa459a093294b0839d74b73f897673b549c47e08ff77",
+  "masterFile": "assets/source-holmes-art/the-sign-of-four-08.png",
+  "preview": {
+    "file": "img/holmes/the-sign-of-four-08.preview.jpg",
+    "sha256": "a0bb9b419848e0a80352a5ab9128b64a6e05357f2a1d6798590bb762f0571c73"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "the-sign-of-four-06",
+  "file": "img/holmes/the-sign-of-four-06.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Sign of Four — Chapter VI Sherlock Holmes Gives a Demonstration. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: “Now, Watson,” said Holmes, rubbing his hands, “we have half an hour to ourselves. Let us make good use of it. My case is, as I have told you, almost complete; but we must not err on the side of over-confidence. Simple as the case seems now, there may be something deeper underlying it.” “Simple!” I ejaculated. “Surely,” said he, with something of the air of a clinical professor expounding to his class. “Just sit in the corner there, that your footprints may not complicate matters. Now to work! In the first place, how did these folk come, and how did they go? The door has not been opened since last night. How of the window?” He carried the lamp across to it, muttering his observations aloud the while, but addressing them to himself rather than to me. “Window is snibbed on the inner side. Framework is solid. No hinges at the side. Let us op",
+  "sha256": "ac6528c2aec231c3dbf373dfaeeb4bc71d907b2fe0952baee6bfb9471c4610f6",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "3585745574f0e2ce5121657a8979dff85f69051654589e1020943e2c575a51eb",
+  "masterFile": "assets/source-holmes-art/the-sign-of-four-06.png",
+  "preview": {
+    "file": "img/holmes/the-sign-of-four-06.preview.jpg",
+    "sha256": "42b5e9e2fd31dda85d51a78cb5fd3f11c36a25e72b63c3c25f96f420d69a0afd"
+  }
+}

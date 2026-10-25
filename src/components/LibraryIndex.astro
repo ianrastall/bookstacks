@@ -3,7 +3,7 @@ import T from './InterfaceText.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { text } from '../lib/interface';
 import AuthorPortrait from './AuthorPortrait.astro';
-import { getLibrary } from '../lib/library';
+import { getCatalogueLibrary } from '../lib/library';
 import type { Locale } from '../lib/i18n';
 
 interface Props {
@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { locale } = Astro.props;
-const library = getLibrary();
+const library = getCatalogueLibrary();
 const authors = library.authors;
 const editionCount = authors.reduce((sum,author)=>sum+author.works.reduce((n,work)=>n+work.editions.length,0),0);
 const libraryDescription = text(locale,'editionCount',[editionCount]);
@@ -32,7 +32,7 @@ const libraryDescription = text(locale,'editionCount',[editionCount]);
         {authors.map((author) => {
           const editionTotal = author.works.reduce((sum,work)=>sum+work.editions.length,0);
           return (
-            <a class="tool-card author-card" data-author-search={`${author.name} ${author.works.flatMap(work=>[work.title,...work.editions.map(e=>e.sourceTitle)]).join(' ')}`} href={`/authors/${author.slug}`}>
+            <a class="tool-card author-card" data-author-search={`${author.name} ${author.works.flatMap(work=>[work.title,...(work.searchTerms ?? []),...work.editions.map(e=>e.sourceTitle)]).join(' ')}`} href={`/authors/${author.slug}`}>
               <div class="author-card-media">
                 <AuthorPortrait author={author} lazy />
               </div>

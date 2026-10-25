@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-02",
+  "file": "img/holmes/the-valley-of-fear-02.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter II Sherlock Holmes Discourses. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: It was one of those dramatic moments for which my friend existed. It would be an overstatement to say that he was shocked or even excited by the amazing announcement. Without having a tinge of cruelty in his singular composition, he was undoubtedly callous from long overstimulation. Yet, if his emotions were dulled, his intellectual perceptions were exceedingly active. There was no trace then of the horror which I had myself felt at this curt declaration; but his face showed rather the quiet and interested composure of the chemist who sees the crystals falling into position from his oversaturated solution. “Remarkable!” said he. “Remarkable!” “You don’t seem surprised.” “Interested, Mr. Mac, but hardly surprised. Why should I be surprised? I receive an anonymous communication from a quarter which I know to be important, warning me that da",
+  "sha256": "3093b1bc044953164b37096802de3f8130c6c86ccb3dc1eb09b4c3ccdc8d7247",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "17dd45bb8f52a6d2c2aa83d755d0c8eaaef10e53ab4b3565e8697fe0664bf145",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-02.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-02.preview.jpg",
+    "sha256": "11c69883acb43a9912721198e39663817cebbcba245f3e68352563a6ffae48bc"
+  }
+}

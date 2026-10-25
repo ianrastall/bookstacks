@@ -1,0 +1,16 @@
+{
+  "slug": "a-study-in-scarlet-12",
+  "file": "img/holmes/a-study-in-scarlet-12.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, A Study in Scarlet — CHAPTER V. THE AVENGING ANGELS.. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: All night their course lay through intricate defiles and over irregular and rock-strewn paths. More than once they lost their way, but Hope’s intimate knowledge of the mountains enabled them to regain the track once more. When morning broke, a scene of marvellous though savage beauty lay before them. In every direction the great snow-capped peaks hemmed them in, peeping over each other’s shoulders to the far horizon. So steep were the rocky banks on either side of them, that the larch and the pine seemed to be suspended over their heads, and to need only a gust of wind to come hurtling down upon them. Nor was the fear entirely an illusion, for the barren valley was thickly strewn with trees and boulders which had fallen in a similar manner. Even as they passed, a great rock came thundering down with a hoarse rattle which woke the echoes i",
+  "sha256": "f54ca13610ecb98ac85c86e71c0fc11945fa40921ef7a5343d532de3fd3adb7a",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "c48403728d408b96b07de8c30cf901a4fc8ebfff38e2849c930985d755fb502c",
+  "masterFile": "assets/source-holmes-art/a-study-in-scarlet-12.png",
+  "preview": {
+    "file": "img/holmes/a-study-in-scarlet-12.preview.jpg",
+    "sha256": "043b683d13048ce5d29ac54f4e2972f65cef99a2913a58a679fefcc23ed346b2"
+  }
+}

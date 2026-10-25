@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-05",
+  "file": "img/holmes/the-valley-of-fear-05.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter V The People of the Drama. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: “Have you seen all you want of the study?” asked White Mason as we reentered the house. “For the time,” said the inspector, and Holmes nodded. “Then perhaps you would now like to hear the evidence of some of the people in the house. We could use the dining room, Ames. Please come yourself first and tell us what you know.” The butler’s account was a simple and a clear one, and he gave a convincing impression of sincerity. He had been engaged five years before, when Douglas first came to Birlstone. He understood that Mr. Douglas was a rich gentleman who had made his money in America. He had been a kind and considerate employer—not quite what Ames was used to, perhaps; but one can’t have everything. He never saw any signs of apprehension in Mr. Douglas: on the contrary, he was the most fearless man he had ever known. He ordered the drawbridg",
+  "sha256": "7507326c7bc04ae24b94271709b7d83d7fdaa3fadabde1be32b0c625d38a5a8c",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "af8a6bec059e169feb8a7fdd34696d529a6092faaf1406a2c3d8714dc54e338e",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-05.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-05.preview.jpg",
+    "sha256": "b1481df110f62b302dc22894c5f3a86e062299363e8c64ad47fccbc135266389"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "the-hound-of-the-baskervilles-04",
+  "file": "img/holmes/the-hound-of-the-baskervilles-04.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Hound of the Baskervilles — Chapter 4. Sir Henry Baskerville. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Our breakfast table was cleared early, and Holmes waited in his dressing-gown for the promised interview. Our clients were punctual to their appointment, for the clock had just struck ten when Dr. Mortimer was shown up, followed by the young baronet. The latter was a small, alert, dark-eyed man about thirty years of age, very sturdily built, with thick black eyebrows and a strong, pugnacious face. He wore a ruddy-tinted tweed suit and had the weather-beaten appearance of one who has spent most of his time in the open air, and yet there was something in his steady eye and the quiet assurance of his bearing which indicated the gentleman. “This is Sir Henry Baskerville,” said Dr. Mortimer. “Why, yes,” said he, “and the strange thing is, Mr. Sherlock Holmes, that if my friend here had not proposed coming round to you this morning I should hav",
+  "sha256": "c71af8e7ad940eeb0f0cb9a6338cf1e3a1aadf4dc5e21d6a6b3c5f9f5c44c14e",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "393bf421d7ccfe5f68d0aab7ad78519e6e74b75539b1545a395ee16056e9ea5f",
+  "masterFile": "assets/source-holmes-art/the-hound-of-the-baskervilles-04.png",
+  "preview": {
+    "file": "img/holmes/the-hound-of-the-baskervilles-04.preview.jpg",
+    "sha256": "1e6bd24cf606392aa4c864baa54a07f36d058b9ca6f2e651c71c8b1be1de94a8"
+  }
+}

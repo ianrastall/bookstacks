@@ -1,0 +1,16 @@
+{
+  "slug": "a-study-in-scarlet-14",
+  "file": "img/holmes/a-study-in-scarlet-14.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, A Study in Scarlet — CHAPTER VII. THE CONCLUSION.. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: We had all been warned to appear before the magistrates upon the Thursday; but when the Thursday came there was no occasion for our testimony. A higher Judge had taken the matter in hand, and Jefferson Hope had been summoned before a tribunal where strict justice would be meted out to him. On the very night after his capture the aneurism burst, and he was found in the morning stretched upon the floor of the cell, with a placid smile upon his face, as though he had been able in his dying moments to look back upon a useful life, and on work well done. “Gregson and Lestrade will be wild about his death,” Holmes remarked, as we chatted it over next evening. “Where will their grand advertisement be now?” “I don’t see that they had very much to do with his capture,” I answered. “What you do in this world is a matter of no consequence,” returned",
+  "sha256": "cb81cecc31807065884c221cf3f1ec26ce8dbd9cf9b4f3cc55843f7191d21f46",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "719fdbcc868e9b5bf867b4f2f4983596131a18a7be93c734b0a6642fe97f8eab",
+  "masterFile": "assets/source-holmes-art/a-study-in-scarlet-14.png",
+  "preview": {
+    "file": "img/holmes/a-study-in-scarlet-14.preview.jpg",
+    "sha256": "25743ae51ad5629bbf4e7b956b870d32f3540bdf43b37b436e754756b91cd0c6"
+  }
+}

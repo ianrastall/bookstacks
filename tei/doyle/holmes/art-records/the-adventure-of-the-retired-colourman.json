@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-retired-colourman",
+  "file": "img/holmes/the-adventure-of-the-retired-colourman.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Retired Colourman. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Sherlock Holmes was in a melancholy and philosophic mood that morning. His alert practical nature was subject to such reactions. \"Did you see him?\" he asked. \"You mean the old fellow who has just gone out?\" \"Precisely.\" \"Yes, I met him at the door.\" \"What did you think of him?\" \"A pathetic, futile, broken creature.\" \"Exactly, Watson. Pathetic and futile. But is not all life pathetic and futile? Is not his story a microcosm of the whole? We reach. We grasp. And what is left in our hands at the end? A shadow. Or worse than a shadow—misery.\" \"Is he one of your clients?\" \"Well, I suppose I may call him so. He has been sent on by the Yard. Just as medical men occasionally send their incurables to a quack. They argue that they can do nothing more, and that whatever happens the patient can be no worse than he is.\" \"What is the matter?\" Holmes to",
+  "sha256": "8f4a46d27b7a165389dc11f1a8925fc8aee26a707f17f8a66e3ddb4160861efa",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "9383c21d728bf75dd72b3829a34e5ecfc396e48277b4d3e611bb6a3a4285d35a",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-retired-colourman.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-retired-colourman.preview.jpg",
+    "sha256": "4d68d352b3cb2940602e9889d749175fe15ef81f0f2260fe3ea06f37ca21d6f9"
+  }
+}

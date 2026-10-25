@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-dying-detective",
+  "file": "img/holmes/the-adventure-of-the-dying-detective.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Dying Detective. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: MRS. HUDSON, the landlady of Sherlock Holmes, was a long-suffering woman. Not only was her first-floor flat invaded at all hours by throngs of singular and often undesirable characters, but her remarkable lodger showed an eccentricity and irregularity in his life which must have sorely tried her patience. His incredible untidiness, his addiction to music at strange hours, his occasional revolver practice within doors, his weird and often malodorous scientific experiments, and the atmosphere of violence and danger which hung around him made him the very worst tenant in London. On the other hand, his payments were princely. I have no doubt that the house might have been purchased at the price which Holmes paid for his rooms during the years that I was with him. The landlady stood in the deepest awe of him, and never dared to interfere with ",
+  "sha256": "312e479b9e391864a8ee57086da14601f7cb422af01da4901de348df5c79b2d6",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "0b911a18f897527389bc0a457d1111d36c092dec53d58c2f756dfb1771c5daef",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-dying-detective.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-dying-detective.preview.jpg",
+    "sha256": "f7a290e4a7e47e725cf0e9ba0ffe7bb3f35a077bf5324f63fa3a7b58f19aa2e9"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "the-sign-of-four-05",
+  "file": "img/holmes/the-sign-of-four-05.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Sign of Four — Chapter V The Tragedy of Pondicherry Lodge. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: It was nearly eleven o’clock when we reached this final stage of our night’s adventures. We had left the damp fog of the great city behind us, and the night was fairly fine. A warm wind blew from the westward, and heavy clouds moved slowly across the sky, with half a moon peeping occasionally through the rifts. It was clear enough to see for some distance, but Thaddeus Sholto took down one of the side-lamps from the carriage to give us a better light upon our way. Pondicherry Lodge stood in its own grounds, and was girt round with a very high stone wall topped with broken glass. A single narrow iron-clamped door formed the only means of entrance. On this our guide knocked with a peculiar postman-like rat-tat. “Who is there?” cried a gruff voice from within. “It is I, McMurdo. You surely know my knock by this time.” There was a grumbling s",
+  "sha256": "3210f709bd7a596996ddff7f4528df3f2e472b57fe3d54287812e54a0fe3c11b",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "938aa4ef67fe71f772fad30804e42242c9c608e935bbb3805b71077d54c40855",
+  "masterFile": "assets/source-holmes-art/the-sign-of-four-05.png",
+  "preview": {
+    "file": "img/holmes/the-sign-of-four-05.preview.jpg",
+    "sha256": "b7de298407aede3781d907b372dab8020f0e7a5a0fbd2bf7d826b420a256fefb"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-devils-foot",
+  "file": "img/holmes/the-adventure-of-the-devils-foot.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Devil's Foot. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: IN recording from time to time some of the curious experiences and interesting recollections which I associate with my long and intimate friendship with Mr. Sherlock Holmes, I have continually been faced by difficulties caused by his own aversion to publicity. To his sombre and cynical spirit all popular applause was always abhorrent, and nothing amused him more at the end of a successful case than to hand over the actual exposure to some orthodox official, and to listen with a mocking smile to the general chorus of misplaced congratulation. It was indeed, this attitude upon the part of my friend, and certainly not any lack of interesting material which has caused me of late years to lay very few of my records before the public. My participation in some of his adventures was always a privilege which entailed discretion and reticence upon ",
+  "sha256": "5806c83594ba6f50a6b49f1e24815e85c1a38df339b56f9fb438cd1b93e35d20",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "7bf2c64ae19962584f4e309621389a2b99ceb0ec60dde6d1b249651151cb8bd8",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-devils-foot.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-devils-foot.preview.jpg",
+    "sha256": "491add29aaee49d8e2b517207f585fa9486edfbb462a216073430d9e7f8a0f55"
+  }
+}

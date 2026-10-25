@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-08",
+  "file": "img/holmes/the-valley-of-fear-08.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter I The Man. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: It was the fourth of February in the year 1875. It had been a severe winter, and the snow lay deep in the gorges of the Gilmerton Mountains. The steam ploughs had, however, kept the railroad open, and the evening train which connects the long line of coal-mining and iron-working settlements was slowly groaning its way up the steep gradients which lead from Stagville on the plain to Vermissa, the central township which lies at the head of Vermissa Valley. From this point the track sweeps downward to Bartons Crossing, Helmdale, and the purely agricultural county of Merton. It was a single track railroad; but at every siding—and they were numerous—long lines of trucks piled with coal and iron ore told of the hidden wealth which had brought a rude population and a bustling life to this most desolate corner of the United States of America. For",
+  "sha256": "cc12935a2f25a635e799878b1c8622f7cf52358d58ef2e534c9cdcbab0193d65",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "ed553c87907c864ec8734f6123a8358fa76e4d42c3eb15aa5760ffa52065c139",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-08.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-08.preview.jpg",
+    "sha256": "968e099446c0fb1c35fc492b1e0f59b38275146c1144079ac5e9453f1f3190d5"
+  }
+}

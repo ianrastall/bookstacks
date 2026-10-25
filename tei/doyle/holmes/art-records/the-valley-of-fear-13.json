@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-13",
+  "file": "img/holmes/the-valley-of-fear-13.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter VI Danger. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: It was the height of the reign of terror. McMurdo, who had already been appointed Inner Deacon, with every prospect of some day succeeding McGinty as Bodymaster, was now so necessary to the councils of his comrades that nothing was done without his help and advice. The more popular he became, however, with the Freemen, the blacker were the scowls which greeted him as he passed along the streets of Vermissa. In spite of their terror the citizens were taking heart to band themselves together against their oppressors. Rumours had reached the lodge of secret gatherings in the Herald office and of distribution of firearms among the law-abiding people. But McGinty and his men were undisturbed by such reports. They were numerous, resolute, and well armed. Their opponents were scattered and powerless. It would all end, as it had done in the past,",
+  "sha256": "36764030a5a5fc11845a93cd1af064e9660a427246018221e9767654df81c317",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "0ae8f358e0d294eb2de79891c373656da4d933f64f25fb9b8bc840f964d9e447",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-13.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-13.preview.jpg",
+    "sha256": "f35c9ef552e91321c2cdd0464fed9ec8b05bfd73c401b235c7a71317acb5d894"
+  }
+}

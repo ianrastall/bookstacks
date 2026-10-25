@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-sussex-vampire",
+  "file": "img/holmes/the-adventure-of-the-sussex-vampire.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Sussex Vampire. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Holmes had read carefully a note which the last post had brought him. Then, with the dry chuckle which was his nearest approach to a laugh, he tossed it over to me. \"For a mixture of the modern and the mediæval, of the practical and of the wildly fanciful, I think this is surely the limit,\" said he. \"What do you make of it, Watson?\" I read as follows: 46, OLD JEWRY, 19 Vampires. SIR,— Our client, Mr. Robert Ferguson, of Ferguson and Muirhead, tea brokers, of Mincing Lane, has made some inquiry from us in a communication of even date concerning vampires. As our firm specializes entirely upon the assessment of machinery the matter hardly comes within our purview, and we have therefore recommended Mr. Ferguson to call upon you and lay the matter before you. We have not forgotten your successful action in the case of Matilda Briggs. We are, S",
+  "sha256": "bba62e0eb19c959edc897a759455a86350123e818965345b1d09b71b6680f414",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "8cc4826ac41bb4aa3ed5074a2b80bed509f78034f57f853515ae3e6193c80037",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-sussex-vampire.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-sussex-vampire.preview.jpg",
+    "sha256": "0c761fa23f82aa6ecabdd2541ee7d1bbc1e7f6c54cb17e847bcf9ee1118dc44c"
+  }
+}

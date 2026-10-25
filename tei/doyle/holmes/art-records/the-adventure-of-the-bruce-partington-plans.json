@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-bruce-partington-plans",
+  "file": "img/holmes/the-adventure-of-the-bruce-partington-plans.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Bruce-Partington Plans. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: IN the third week of November, in the year 1895, a dense yellow fog settled down upon London. From the Monday to the Thursday I doubt whether it was ever possible from our windows in Baker Street to see the loom of the opposite houses. The first day Holmes had spent in cross-indexing his huge book of references. The second and third had been patiently occupied upon a subject which he had recently made his hobby—the music of the Middle Ages. But when, for the fourth time, after pushing back our chairs from breakfast we saw the greasy, heavy brown swirl still drifting past us and condensing in oily drops upon the window-panes, my comrade’s impatient and active nature could endure this drab existence no longer. He paced restlessly about our sitting-room in a fever of suppressed energy, biting his nails, tapping the furniture, and chafing aga",
+  "sha256": "5d2a3f3b04267ce6fa5456d071c4cbd28278be9f775da349cfcbe6327b1e9b49",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "9370dfb0a50a661d153ee7f12ff2c7fc2ec558eca14821dd10b2db8309e9a45c",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-bruce-partington-plans.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-bruce-partington-plans.preview.jpg",
+    "sha256": "66c2eeb51f92cd4ea2a3da24a3793e469c2b2d3a5120f79aa9caabd9658d6498"
+  }
+}

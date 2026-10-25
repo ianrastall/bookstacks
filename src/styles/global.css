@@ -17,7 +17,7 @@
   --reader-scale: 1;
   --serif-font: Constantia, "Georgia Pro", Georgia, "Times New Roman", Times, serif;
   --sans-font: "Segoe UI", Calibri, Arial, sans-serif;
-  --chapter-sidebar-width: 13rem;
+  --chapter-sidebar-width: clamp(18rem, 24vw, 20rem);
 }
 
 [data-reader-serif='classic'] { --serif-font: Constantia, "Georgia Pro", Georgia, "Times New Roman", Times, serif; }

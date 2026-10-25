@@ -1,0 +1,16 @@
+{
+  "slug": "the-hound-of-the-baskervilles-07",
+  "file": "img/holmes/the-hound-of-the-baskervilles-07.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Hound of the Baskervilles — Chapter 7. The Stapletons of Merripit House. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: The fresh beauty of the following morning did something to efface from our minds the grim and grey impression which had been left upon both of us by our first experience of Baskerville Hall. As Sir Henry and I sat at breakfast the sunlight flooded in through the high mullioned windows, throwing watery patches of colour from the coats of arms which covered them. The dark panelling glowed like bronze in the golden rays, and it was hard to realise that this was indeed the chamber which had struck such a gloom into our souls upon the evening before. “I guess it is ourselves and not the house that we have to blame!” said the baronet. “We were tired with our journey and chilled by our drive, so we took a grey view of the place. Now we are fresh and well, so it is all cheerful once more.” “And yet it was not entirely a question of imagination,” ",
+  "sha256": "c874075c7ac68c5534bae5d9dc6efac0cd2c7a00d688f2922b2c5cfb0e727803",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "f1dacadd9a01ad66c5ab5777e1d13f801d59eb93616906381cf6be5323c2ad50",
+  "masterFile": "assets/source-holmes-art/the-hound-of-the-baskervilles-07.png",
+  "preview": {
+    "file": "img/holmes/the-hound-of-the-baskervilles-07.preview.jpg",
+    "sha256": "cad79a754677294faf8947d3fb931fcbf79f2079004991137393db8a262f7b60"
+  }
+}

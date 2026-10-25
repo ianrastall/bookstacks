@@ -1,0 +1,16 @@
+{
+  "slug": "the-hound-of-the-baskervilles-15",
+  "file": "img/holmes/the-hound-of-the-baskervilles-15.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Hound of the Baskervilles — Chapter 15. A Retrospection. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: It was the end of November, and Holmes and I sat, upon a raw and foggy night, on either side of a blazing fire in our sitting-room in Baker Street. Since the tragic upshot of our visit to Devonshire he had been engaged in two affairs of the utmost importance, in the first of which he had exposed the atrocious conduct of Colonel Upwood in connection with the famous card scandal of the Nonpareil Club, while in the second he had defended the unfortunate Mme. Montpensier from the charge of murder which hung over her in connection with the death of her step-daughter, Mlle. Carére, the young lady who, as it will be remembered, was found six months later alive and married in New York. My friend was in excellent spirits over the success which had attended a succession of difficult and important cases, so that I was able to induce him to discuss t",
+  "sha256": "23da9db662c89618cb9a17a115bebf7668d36a988123dd3733441dff504c4fd7",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "34293939e4197e3e810765641678690ea412bf2d723069ace83f95330517222d",
+  "masterFile": "assets/source-holmes-art/the-hound-of-the-baskervilles-15.png",
+  "preview": {
+    "file": "img/holmes/the-hound-of-the-baskervilles-15.preview.jpg",
+    "sha256": "71454db8a2810a44144a8a0754ebe8b04229f5708852e32b33974323e7ac963a"
+  }
+}

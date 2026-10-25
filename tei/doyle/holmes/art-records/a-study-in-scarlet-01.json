@@ -1,0 +1,16 @@
+{
+  "slug": "a-study-in-scarlet-01",
+  "file": "img/holmes/a-study-in-scarlet-01.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, A Study in Scarlet — CHAPTER I. MR. SHERLOCK HOLMES.. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: In the year 1878 I took my degree of Doctor of Medicine of the University of London, and proceeded to Netley to go through the course prescribed for surgeons in the army. Having completed my studies there, I was duly attached to the Fifth Northumberland Fusiliers as Assistant Surgeon. The regiment was stationed in India at the time, and before I could join it, the second Afghan war had broken out. On landing at Bombay, I learned that my corps had advanced through the passes, and was already deep in the enemy’s country. I followed, however, with many other officers who were in the same situation as myself, and succeeded in reaching Candahar in safety, where I found my regiment, and at once entered upon my new duties. The campaign brought honours and promotion to many, but for me it had nothing but misfortune and disaster. I was removed fro",
+  "sha256": "ac7eaf912bbdb6a07b87f3356409d2473de65b18fcf2b7d744714fecd2ec5b14",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "673dc373c90b4c1afb065cc0f1cc5ba02f8cf9d90cb58d03b0eb7adc0542184b",
+  "masterFile": "assets/source-holmes-art/a-study-in-scarlet-01.png",
+  "preview": {
+    "file": "img/holmes/a-study-in-scarlet-01.preview.jpg",
+    "sha256": "21eb5fbba48ef1303ba69e16aa243ff50cd553391f3b6d5e31c2b0a528f8b0dc"
+  }
+}

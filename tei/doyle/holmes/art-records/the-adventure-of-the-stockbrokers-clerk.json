@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-stockbrokers-clerk",
+  "file": "img/holmes/the-adventure-of-the-stockbrokers-clerk.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Stockbroker's Clerk. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Shortly after my marriage I had bought a connection in the Paddington district. Old Mr. Farquhar, from whom I purchased it, had at one time an excellent general practice; but his age, and an affliction of the nature of St. Vitus’s dance from which he suffered, had very much thinned it. The public not unnaturally goes on the principle that he who would heal others must himself be whole, and looks askance at the curative powers of the man whose own case is beyond the reach of his drugs. Thus as my predecessor weakened his practice declined, until when I purchased it from him it had sunk from twelve hundred to little more than three hundred a year. I had confidence, however, in my own youth and energy, and was convinced that in a very few years the concern would be as flourishing as ever. For three months after taking over the practice I was",
+  "sha256": "534b9cedd7c047c9b7f7876a5bcb387d1ec00f007a864b24a35083280cd260e3",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "ce92e657d891cb208de28e94790a1d38f0902d1bc07d3e0bddbb7e8b3fb8a80d",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-stockbrokers-clerk.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-stockbrokers-clerk.preview.jpg",
+    "sha256": "b41838e08d92bcee2dd0a710c6c9c490aecbcafa5c2cc73be3a8d9669132ad04"
+  }
+}

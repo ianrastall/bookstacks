@@ -1,0 +1,16 @@
+{
+  "slug": "the-sign-of-four-01",
+  "file": "img/holmes/the-sign-of-four-01.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. One Victorian book illustration for chapter 1, The Science of Deduction, in Arthur Conan Doyle's The Sign of Four. Scene: Sherlock Holmes seated at a Baker Street worktable examines a gentleman's pocket watch through a small magnifying glass, studying scratches near the watch keyhole, while Dr Watson watches with interest. A violin case and books rest nearby. A calm scene of observation and reasoning. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching, cross-hatching and stippling, black ink on clean ivory white. Landscape composition, period clothing and furniture. No text, no border, no color, no modern objects.",
+  "sha256": "07aa2775c4b68a95df8cb93c690fc056e6169405ea2aad158f9f654d1a1e06ec",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "2be0518b6a00a1934639cd16cefb4e15d7f110d8d288e1fc9afb40821ac00ba3",
+  "masterFile": "assets/source-holmes-art/the-sign-of-four-01.png",
+  "preview": {
+    "file": "img/holmes/the-sign-of-four-01.preview.jpg",
+    "sha256": "1f6c5cb37f48becdc427aa74288bb83de41ad84911f7fc19e055bb71632db962"
+  }
+}

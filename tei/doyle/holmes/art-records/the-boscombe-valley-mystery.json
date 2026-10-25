@@ -1,0 +1,16 @@
+{
+  "slug": "the-boscombe-valley-mystery",
+  "file": "img/holmes/the-boscombe-valley-mystery.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Boscombe Valley Mystery. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: WE were seated at breakfast one morning, my wife and I, when the maid brought in a telegram. It was from Sherlock Holmes, and ran in this way: “Have you a couple of days to spare? Have just been wired for from the West of England in connection with Boscombe Valley tragedy. Shall be glad if you will come with me. Air and scenery perfect. Leave Paddington by the 11.15.” “What do you say, dear?” said my wife, looking across at me. “Will you go?” “I really don’t know what to say. I have a fairly long list at present.” “Oh, Anstruther would do your work for you. You have been looking a little pale lately. I think that the change would do you good, and you are always so interested in Mr. Sherlock Holmes’s cases.” “I should be ungrateful if I were not, seeing what I gained through one of them,” I answered. “But if I am to go, I must pack at once",
+  "sha256": "7dc519f49199c47b0ee9648d43a584d2db4bbe07d24abc1503421a072bb16ce2",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "06df2cd8f8f73a9bd4931267378fee7a53e5a75442f4c94f3396b43ebe1df8ac",
+  "masterFile": "assets/source-holmes-art/the-boscombe-valley-mystery.png",
+  "preview": {
+    "file": "img/holmes/the-boscombe-valley-mystery.preview.jpg",
+    "sha256": "9912bf314333a5a25d442395bd41da3ca1f47eceb4378d6877723064a275f2d7"
+  }
+}

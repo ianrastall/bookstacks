@@ -1,0 +1,16 @@
+{
+  "slug": "the-hound-of-the-baskervilles-12",
+  "file": "img/holmes/the-hound-of-the-baskervilles-12.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Hound of the Baskervilles — Chapter 12. Death on the Moor. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: For a moment or two I sat breathless, hardly able to believe my ears. Then my senses and my voice came back to me, while a crushing weight of responsibility seemed in an instant to be lifted from my soul. That cold, incisive, ironical voice could belong to but one man in all the world. “Holmes!” I cried—“Holmes!” “Come out,” said he, “and please be careful with the revolver.” I stooped under the rude lintel, and there he sat upon a stone outside, his grey eyes dancing with amusement as they fell upon my astonished features. He was thin and worn, but clear and alert, his keen face bronzed by the sun and roughened by the wind. In his tweed suit and cloth cap he looked like any other tourist upon the moor, and he had contrived, with that catlike love of personal cleanliness which was one of his characteristics, that his chin should be as smo",
+  "sha256": "74694704519c95aec61471d6fb662ab54126ad26efa572b2c1168937f6ad7339",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "1c19b52e798c5842a478b928d6ccbde19de5046ed0a17d6fbe95181dacac0757",
+  "masterFile": "assets/source-holmes-art/the-hound-of-the-baskervilles-12.png",
+  "preview": {
+    "file": "img/holmes/the-hound-of-the-baskervilles-12.preview.jpg",
+    "sha256": "a6d7e12db040198de3b4ba87e6777a9466351458eb37547261c40fffd3087b18"
+  }
+}

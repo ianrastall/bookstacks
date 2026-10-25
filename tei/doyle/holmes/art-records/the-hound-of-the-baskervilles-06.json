@@ -1,0 +1,16 @@
+{
+  "slug": "the-hound-of-the-baskervilles-06",
+  "file": "img/holmes/the-hound-of-the-baskervilles-06.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Hound of the Baskervilles — Chapter 6. Baskerville Hall. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: Sir Henry Baskerville and Dr. Mortimer were ready upon the appointed day, and we started as arranged for Devonshire. Mr. Sherlock Holmes drove with me to the station and gave me his last parting injunctions and advice. “I will not bias your mind by suggesting theories or suspicions, Watson,” said he; “I wish you simply to report facts in the fullest possible manner to me, and you can leave me to do the theorizing.” “What sort of facts?” I asked. “Anything which may seem to have a bearing however indirect upon the case, and especially the relations between young Baskerville and his neighbours or any fresh particulars concerning the death of Sir Charles. I have made some inquiries myself in the last few days, but the results have, I fear, been negative. One thing only appears to be certain, and that is that Mr. James Desmond, who is the nex",
+  "sha256": "0c98e36bba63e2804f16ad4f0c6b2aa293d5ffadb1e5539c12e13a8d3ab00a64",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "ffe44ff4f97ac877ea8403901243a65428bb6e681df34afe4d57582e84f66f32",
+  "masterFile": "assets/source-holmes-art/the-hound-of-the-baskervilles-06.png",
+  "preview": {
+    "file": "img/holmes/the-hound-of-the-baskervilles-06.preview.jpg",
+    "sha256": "d4d12141f125cc7cc9f1436b9b110ac60fcdb9f7c54ae586da08b3f888171242"
+  }
+}

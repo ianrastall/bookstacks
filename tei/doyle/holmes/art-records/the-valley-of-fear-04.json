@@ -1,0 +1,16 @@
+{
+  "slug": "the-valley-of-fear-04",
+  "file": "img/holmes/the-valley-of-fear-04.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Valley of Fear — Chapter IV Darkness. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: At three in the morning the chief Sussex detective, obeying the urgent call from Sergeant Wilson of Birlstone, arrived from headquarters in a light dog-cart behind a breathless trotter. By the five-forty train in the morning he had sent his message to Scotland Yard, and he was at the Birlstone station at twelve o’clock to welcome us. White Mason was a quiet, comfortable-looking person in a loose tweed suit, with a clean-shaved, ruddy face, a stoutish body, and powerful bandy legs adorned with gaiters, looking like a small farmer, a retired gamekeeper, or anything upon earth except a very favourable specimen of the provincial criminal officer. “A real downright snorter, Mr. MacDonald!” he kept repeating. “We’ll have the pressmen down like flies when they understand it. I’m hoping we will get our work done before they get poking their noses",
+  "sha256": "2ff3468fb25142030b8b5cb27fb173c156a09d661163000e5643ca0533f2e4b1",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "ecf4b28cf4e4e6ae5ca3511fa7f8965b5336201b5e91fc6c5f6121bf2c3086cf",
+  "masterFile": "assets/source-holmes-art/the-valley-of-fear-04.png",
+  "preview": {
+    "file": "img/holmes/the-valley-of-fear-04.preview.jpg",
+    "sha256": "d3086dd767ae3af53d09fc42b36f53b4169d5d7212ceb8429e8ff4da191c32ac"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-final-problem",
+  "file": "img/holmes/the-adventure-of-the-final-problem.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Final Problem. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: It is with a heavy heart that I take up my pen to write these the last words in which I shall ever record the singular gifts by which my friend Mr. Sherlock Holmes was distinguished. In an incoherent and, as I deeply feel, an entirely inadequate fashion, I have endeavoured to give some account of my strange experiences in his company from the chance which first brought us together at the period of the “Study in Scarlet,” up to the time of his interference in the matter of the “Naval Treaty”—an interference which had the unquestionable effect of preventing a serious international complication. It was my intention to have stopped there, and to have said nothing of that event which has created a void in my life which the lapse of two years has done little to fill. My hand has been forced, however, by the recent letters in which Colonel James",
+  "sha256": "a407b8627caae5c0d8bf66b6a2b0c4cd22c9d4026edc555d039e7094432cbdcc",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "479f5a371a85de13305c42a9adb4ed94b4802105db0241796b75de7bbe56cf88",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-final-problem.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-final-problem.preview.jpg",
+    "sha256": "9afe347f493a29fa98731ebd037aefd3755ecfa290beadc02d20260630127bfc"
+  }
+}

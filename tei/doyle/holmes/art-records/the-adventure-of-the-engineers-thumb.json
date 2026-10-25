@@ -1,0 +1,16 @@
+{
+  "slug": "the-adventure-of-the-engineers-thumb",
+  "file": "img/holmes/the-adventure-of-the-engineers-thumb.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-25",
+  "prompt": "Use case: illustration-story. Asset: one book sidebar illustration for Arthur Conan Doyle, The Adventure of the Engineer's Thumb. Nineteenth-century steel engraving matching the Bookstacks Poe plates: extremely fine black parallel hatching and cross-hatching, stippled detail like currency engraving and Victorian encyclopedia figure plates. Black ink on clean ivory white, no color, no gray wash, no text, no border, no modern elements. Landscape composition, restrained atmospheric mystery. Illustrate a concrete scene or significant object corresponding to this specific story or chapter. Keep the Victorian period or the period of the chapter's retrospective setting. Use the following opening passage only to inform scene selection; do not put its words in the image: OF all the problems which have been submitted to my friend Mr. Sherlock Holmes for solution during the years of our intimacy, there were only two which I was the means of introducing to his notice—that of Mr. Hatherley’s thumb, and that of Colonel Warburton’s madness. Of these the latter may have afforded a finer field for an acute and original observer, but the other was so strange in its inception and so dramatic in its details, that it may be the more worthy of being placed upon record, even if it gave my friend fewer openings for those deductive methods of reasoning by which he achieved such remarkable results. The story has, I believe, been told more than once in the newspapers, but, like all such narratives, its effect is much less striking when set forth in a single half-column of print than when the facts slowly evolve before your",
+  "sha256": "3945c9fb816e6e63e85236e6b6af2e44624cc1f8c56779539c382108f15b1b9c",
+  "width": 1200,
+  "height": 800,
+  "masterSha256": "78338bb38e8422d02a53892bad7185a3300e605ab39734b47f7199dfbf0f48dd",
+  "masterFile": "assets/source-holmes-art/the-adventure-of-the-engineers-thumb.png",
+  "preview": {
+    "file": "img/holmes/the-adventure-of-the-engineers-thumb.preview.jpg",
+    "sha256": "fa97d013d3c9fb49566c3e9c0d07fedb194121be0da8c824484afd1268472c05"
+  }
+}
