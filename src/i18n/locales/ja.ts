@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "EPUB を読む",
+  epubError: "EPUB を読み込めませんでした。",
   pdfPage: "ページ",
   pdfFind: "本の中を検索",
   pdfError: "PDFを読み込めません。",

@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "Baca EPUB",
+  epubError: "EPUB tidak dapat dimuatkan.",
   pdfPage: "Halaman",
   pdfFind: "Cari dalam buku",
   pdfError: "PDF tidak dapat dimuatkan.",

@@ -1,0 +1,79 @@
+{
+  "source_sha256": "aeabfed73604758159d9b9373c7b32bc5fcf484dcf0a6de844057b674c69e160",
+  "href": "/downloads/epub/doyle/doyle_a-study-in-scarlet_eng.epub",
+  "revision": "92776d88cab5c7a98e2ab12d5ac9d2958ad82c0fec9b2f1ccc04c2a6a52f78b0",
+  "language": "en",
+  "sections": [
+    {
+      "path": "part-1/chapter-1",
+      "href": "chapter-0001.xhtml",
+      "title": "Chapter I. Mr. Sherlock Holmes."
+    },
+    {
+      "path": "part-1/chapter-2",
+      "href": "chapter-0002.xhtml",
+      "title": "Chapter II. The Science of Deduction."
+    },
+    {
+      "path": "part-1/chapter-3",
+      "href": "chapter-0003.xhtml",
+      "title": "Chapter III. The Lauriston Gardens Mystery"
+    },
+    {
+      "path": "part-1/chapter-4",
+      "href": "chapter-0004.xhtml",
+      "title": "Chapter IV. What John Rance Had to Tell."
+    },
+    {
+      "path": "part-1/chapter-5",
+      "href": "chapter-0005.xhtml",
+      "title": "Chapter V. Our Advertisement Brings a Visitor."
+    },
+    {
+      "path": "part-1/chapter-6",
+      "href": "chapter-0006.xhtml",
+      "title": "Chapter VI. Tobias Gregson Shows What He Can Do."
+    },
+    {
+      "path": "part-1/chapter-7",
+      "href": "chapter-0007.xhtml",
+      "title": "Chapter VII. Light in the Darkness."
+    },
+    {
+      "path": "part-2/chapter-1",
+      "href": "chapter-0008.xhtml",
+      "title": "Chapter I. On the Great Alkali Plain."
+    },
+    {
+      "path": "part-2/chapter-2",
+      "href": "chapter-0009.xhtml",
+      "title": "Chapter II. The Flower of Utah."
+    },
+    {
+      "path": "part-2/chapter-3",
+      "href": "chapter-0010.xhtml",
+      "title": "Chapter III. John Ferrier Talks with the Prophet."
+    },
+    {
+      "path": "part-2/chapter-4",
+      "href": "chapter-0011.xhtml",
+      "title": "Chapter IV. A Flight for Life."
+    },
+    {
+      "path": "part-2/chapter-5",
+      "href": "chapter-0012.xhtml",
+      "title": "Chapter V. The Avenging Angels."
+    },
+    {
+      "path": "part-2/chapter-6",
+      "href": "chapter-0013.xhtml",
+      "title": "Chapter VI. A Continuation of the Reminiscences of John Watson, M.D."
+    },
+    {
+      "path": "part-2/chapter-7",
+      "href": "chapter-0014.xhtml",
+      "title": "Chapter VII. The Conclusion."
+    }
+  ],
+  "bytes": 1811329
+}

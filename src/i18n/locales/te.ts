@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "EPUB చదవండి",
+  epubError: "EPUB లోడ్ కాలేదు.",
   pdfPage: "పేజీ",
   pdfFind: "పుస్తకంలో వెతకండి",
   pdfError: "PDF లోడ్ కాలేదు.",

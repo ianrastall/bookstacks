@@ -1,6 +1,8 @@
 import type { Message } from '../types';
 
 const en = {
+  readEpub: "Read EPUB",
+  epubError: "The EPUB could not be loaded.",
   pdfPage: "Page",
   pdfFind: "Find in book",
   pdfError: "Unable to load PDF.",

@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "קריאת EPUB",
+  epubError: "לא ניתן לטעון את ה־EPUB.",
   pdfPage: "עמוד",
   pdfFind: "חיפוש בספר",
   pdfError: "לא ניתן לטעון את ה-PDF.",

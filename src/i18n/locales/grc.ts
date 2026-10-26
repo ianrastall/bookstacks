@@ -2,6 +2,8 @@ import type { Messages } from '../types';
 
 // Ancient Greek. Modern Greek is the separate `el` catalogue.
 export default {
+  readEpub: "Ἀνάγνωσις EPUB",
+  epubError: "Τὸ EPUB οὐ δύναται ἀναφορτωθῆναι.",
   pdfPage: "Σελίς",
   pdfFind: "Ζήτησις ἐν τῷ βιβλίῳ",
   pdfError: "Τὸ PDF οὐ δύναται φορτωθῆναι.",

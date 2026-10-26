@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "خواندن EPUB",
+  epubError: "بارگیری EPUB ممکن نشد.",
   pdfPage: "صفحه",
   pdfFind: "جستجو در کتاب",
   pdfError: "بارگیری PDF ممکن نشد.",

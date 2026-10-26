@@ -7,6 +7,7 @@
     "dev": "astro dev",
     "build": "astro check && astro build",
     "exports": "python scripts/build_exports.py --all",
+    "epubs": "node scripts/publish_epubs.mjs",
     "exports:sample": "python scripts/build_exports.py --file tei/shakespeare/shakespeare_alls-well-that-ends-well_fra.xml",
     "preview": "astro preview",
     "check": "astro check",
@@ -15,7 +16,8 @@
     "audit": "npm audit --audit-level=high"
   },
   "dependencies": {
-    "@xmldom/xmldom": "0.9.12"
+    "@xmldom/xmldom": "0.9.12",
+    "fflate": "0.8.3"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
@@ -25,6 +27,7 @@
     "astro": "7.4.2",
     "material-icons": "1.13.14",
     "typescript": "6.0.3",
+    "vite": "8.3.5",
     "vitest": "4.1.12"
   },
   "engines": {

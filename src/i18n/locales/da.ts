@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "Læs EPUB",
+  epubError: "EPUB-filen kunne ikke indlæses.",
   pdfPage: "Side",
   pdfFind: "Søg i bogen",
   pdfError: "PDF kunne ikke indlæses.",

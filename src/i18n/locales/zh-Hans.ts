@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "阅读 EPUB",
+  epubError: "无法加载 EPUB。",
   pdfPage: "页",
   pdfFind: "在书中查找",
   pdfError: "无法加载 PDF。",

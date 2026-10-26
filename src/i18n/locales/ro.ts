@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "Citește EPUB",
+  epubError: "Fișierul EPUB nu a putut fi încărcat.",
   pdfPage: "Pagină",
   pdfFind: "Caută în carte",
   pdfError: "PDF-ul nu poate fi încărcat.",

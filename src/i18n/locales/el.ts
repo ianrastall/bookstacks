@@ -2,6 +2,8 @@ import type { Messages } from '../types';
 
 // Modern Greek. Ancient Greek is the separate `grc` catalogue.
 export default {
+  readEpub: "Ανάγνωση EPUB",
+  epubError: "Δεν ήταν δυνατή η φόρτωση του EPUB.",
   pdfPage: "Σελίδα",
   pdfFind: "Αναζήτηση στο βιβλίο",
   pdfError: "Αδυναμία φόρτωσης PDF.",

@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "Soma EPUB",
+  epubError: "EPUB haikuweza kupakiwa.",
   pdfPage: "Ukurasa",
   pdfFind: "Tafuta katika kitabu",
   pdfError: "PDF haikuweza kupakiwa.",

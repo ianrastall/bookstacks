@@ -128,3 +128,9 @@ pieces, and *The Story of the Lost Special*. They share 115 new engraving-style
 plates. The original editions, reader URLs, TEI and supplied PDFs remain
 available. See [the collection source and chronology record](docs/holmes-collections.md)
 for editorial placements, preservation checks, and the explicit offline importer.
+
+The first embedded EPUB reader and reflowable export template are available for
+*A Study in Scarlet* and *The Chronological Sherlock Holmes*. One EPUB file
+supports both appearances and retains source formatting and ebook footnotes.
+Generation is an explicit offline command, separate from site and PDF builds.
+See [EPUB reading and publication](docs/epub-reading.md).

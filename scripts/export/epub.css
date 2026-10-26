@@ -1,0 +1,26 @@
+/* Reflowable Bookstacks template. Reading systems may override these defaults. */
+@font-face{font-family:Bookstacks;src:url('../fonts/NewCM10-Regular.otf')}
+@font-face{font-family:Bookstacks;src:url('../fonts/NewCM10-Italic.otf');font-style:italic}
+@font-face{font-family:Bookstacks;src:url('../fonts/NewCM10-Bold.otf');font-weight:bold}
+@font-face{font-family:Bookstacks;src:url('../fonts/NewCM10-BoldItalic.otf');font-style:italic;font-weight:bold}
+:root{color-scheme:light dark;--paper:#fff;--ink:#24201d;--muted:#5f5851;--accent:#6b2636;--rule:#bcb5ad}
+@media(prefers-color-scheme:dark){:root{--paper:#171614;--ink:#f1ece3;--muted:#beb5a9;--accent:#d79ba8;--rule:#5f5851}}
+html{background:var(--paper);color:var(--ink);font:1em/1.65 Bookstacks,Georgia,serif;overflow-wrap:break-word}
+body{margin:0 auto;padding:1em;max-width:42em}h1,h2,h3,h4,h5,h6{line-height:1.25;break-after:avoid;margin:1.8em 0 .8em}h1{font-size:1.7em;margin-top:0}
+p{margin:0}.tei-paragraph{text-indent:1.5em}.tei-first-paragraph,.tei-no-indent,.tei-align-center,.tei-align-right{text-indent:0}
+.context{color:var(--muted);font-size:.85em;margin-bottom:.5em}.tei-align-center{text-align:center}.tei-align-right{text-align:right}
+.tei-preformatted{white-space:pre-line}.tei-cipher{font-family:monospace;white-space:pre-wrap}.tei-letter{margin:1.25em 0;padding-inline-start:1.5em;text-indent:0}
+.tei-subheading{text-align:center}.tei-quote-delimited::before,.tei-quote-delimited::after{content:none}.tei-smallcaps{font-variant:small-caps}.tei-letterspaced{letter-spacing:.14em}
+blockquote,.tei-epigraph{margin:1.5em 1em}blockquote p{text-indent:0}.tei-foreign,.tei-stage{font-style:italic}.tei-stage-name,.tei-stage-bracket,.tei-stage-scene-introduction{font-style:normal}
+.tei-line-group{margin:1.4em 0 1.4em 1.5em}.tei-line{display:block}.tei-speech{margin:1.35em 0}.tei-speech>.tei-paragraph{text-indent:0}.tei-speech>.tei-line-group{margin:0}
+.tei-speech .tei-line{padding-inline-start:1.5em;text-indent:-1.5em}.tei-speaker,.tei-label,.tei-cast-role{font-weight:bold}.tei-speaker{text-transform:uppercase}
+.tei-stage-entrance,.tei-stage-setting{text-align:center;margin:.9em 0}.tei-stage-exit{text-align:right;margin:.9em 0}
+.tei-cast-list{margin:1em 0}.tei-cast-item{margin:.35em 0}.tei-opener{margin-bottom:1em}.tei-closer,.tei-postscript{margin-top:1em}
+.tei-signed,.tei-dateline{text-align:right}.tei-floating-text{border:1px solid var(--rule);padding:1em;margin:1.5em 0}
+a{color:var(--accent)}.table-scroll{overflow-x:auto}table{border-collapse:collapse;max-width:100%}td{border:1px solid var(--rule);padding:.4em}
+img{max-width:100%;height:auto}figure{margin:1.5em 0;text-align:center}figcaption{font-size:.85em;color:var(--muted);line-height:1.45}
+.tei-inline-graphic{display:inline-block;max-height:3em;vertical-align:middle}.tei-graphic:not(.tei-inline-graphic){display:block;margin:auto}
+.footnotes{border-top:1px solid var(--rule);margin-top:2em;font-size:.85em}.footnotes aside{margin:1em 0}.footnotes p{text-indent:0}
+.publication-record p{margin:.6em 0}.publication-record ul{padding-inline-start:1.5em}.noteref{text-decoration:none}.noteref sup{font-size:.75em}
+.font-license{white-space:pre-wrap;font-size:.8em;overflow-wrap:anywhere}
+:lang(zh-Hans){line-break:strict;font-family:'Noto Serif CJK SC','Songti SC',serif}:lang(ar),:lang(fa),:lang(ur),:lang(he){font-family:serif}

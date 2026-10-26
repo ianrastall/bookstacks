@@ -1,5 +1,6 @@
 // Render PDF pages directly into the existing reading column.
 import '../styles/pdf-text-layer.css';
+import {readingMode,type ReadingMode} from './reading-mode';
 interface PdfFile {theme:string;href:string;revision:string}
 interface Outline {title:string;dest:string|unknown[]|null;items:Outline[]}
 interface PdfPage {getViewport(options:{scale:number}):{width:number;height:number};render(options:unknown):{promise:Promise<void>};getTextContent():Promise<{items:Array<{str?:string}>}>}
@@ -19,7 +20,6 @@ function loadLibrary(){
 }
 for(const panel of document.querySelectorAll<HTMLElement>('[data-pdf-files]')){
   const files:PdfFile[]=JSON.parse(panel.dataset.pdfFiles!);
-  const online=document.querySelector<HTMLElement>('[data-online-content]')!;
   const host=panel.querySelector<HTMLElement>('[data-pdf-page-host]')!;
   const input=panel.querySelector<HTMLInputElement>('[data-pdf-page]')!;
   const count=panel.querySelector<HTMLOutputElement>('[data-pdf-count]')!;
@@ -94,18 +94,11 @@ for(const panel of document.querySelectorAll<HTMLElement>('[data-pdf-files]')){
     }catch(cause){if(request===version){error.hidden=false;console.error('PDF rendering failed',cause);}}
     finally{if(request===version)loading.hidden=true;}
   }
-  function setMode(value:string,changeUrl=true){
-    mode=value==='pdf'?'pdf':'online';root.dataset.readingMode=mode;online.hidden=mode==='pdf';panel.hidden=mode!=='pdf';
-    if(mode==='pdf')document.querySelector<HTMLButtonElement>('.reader-expanded .reader-fullscreen')?.click();
-    const title=document.querySelector<HTMLElement>('[data-reader-title]');
-    if(title)title.textContent=(mode==='pdf'?title.dataset.pdfTitle:title.dataset.onlineTitle)??'';
-    document.querySelectorAll<HTMLElement>('[data-online-only]').forEach(node=>node.hidden=mode==='pdf');
-    document.querySelectorAll<HTMLElement>('[data-pdf-only]').forEach(node=>node.hidden=mode!=='pdf');
-    document.querySelectorAll<HTMLButtonElement>('[data-reading-mode]').forEach(button=>{button.disabled=false;button.setAttribute('aria-pressed',String(button.dataset.readingMode===mode));});
-    if(changeUrl){const url=new URL(location.href);if(mode==='pdf')url.searchParams.set('view','pdf');else url.searchParams.delete('view');if(url.hash==='#pdf-reader')url.hash='';history.replaceState(null,'',url);}
+  function setMode(value:ReadingMode){
+    mode=value;
     if(mode==='pdf')void render();else{version++;searchVersion++;}
   }
-  document.querySelectorAll<HTMLButtonElement>('[data-reading-mode]').forEach(button=>button.addEventListener('click',()=>setMode(button.dataset.readingMode!)));
+  window.addEventListener('bookstacks:reading-mode',event=>setMode((event as CustomEvent<ReadingMode>).detail));
   previous.addEventListener('click',()=>{page--;void render();});next.addEventListener('click',()=>{page++;void render();});
   input.addEventListener('change',()=>{const value=Number(input.value);if(Number.isSafeInteger(value)){page=value;void render();}});
   input.addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();input.dispatchEvent(new Event('change'));}});
@@ -124,6 +117,5 @@ for(const panel of document.querySelectorAll<HTMLElement>('[data-pdf-files]')){
   });
   new ResizeObserver(()=>{if(mode==='pdf'&&Math.abs(host.clientWidth-lastWidth)>1)void render();}).observe(host);
   new MutationObserver(()=>{if(mode==='pdf')void render();}).observe(root,{attributes:true,attributeFilter:['data-theme']});
-  window.addEventListener('popstate',()=>setMode(new URLSearchParams(location.search).get('view')==='pdf'?'pdf':'online',false));
-  setMode(new URLSearchParams(location.search).get('view')==='pdf'||location.hash==='#pdf-reader'?'pdf':'online',false);
+  setMode(readingMode());
 }

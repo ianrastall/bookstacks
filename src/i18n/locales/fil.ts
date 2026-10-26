@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "Basahin ang EPUB",
+  epubError: "Hindi ma-load ang EPUB.",
   pdfPage: "Pahina",
   pdfFind: "Hanapin sa aklat",
   pdfError: "Hindi ma-load ang PDF.",

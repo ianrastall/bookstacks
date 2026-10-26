@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "EPUB oku",
+  epubError: "EPUB yüklenemedi.",
   pdfPage: "Sayfa",
   pdfFind: "Kitapta ara",
   pdfError: "PDF yüklenemedi.",

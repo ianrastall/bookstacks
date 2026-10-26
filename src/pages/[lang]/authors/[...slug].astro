@@ -4,6 +4,7 @@ import T from '../../../components/InterfaceText.astro';
 import TocTree from '../../../components/TocTree.astro';
 import EditionDownloads from '../../../components/EditionDownloads.astro';
 import PdfReader from '../../../components/PdfReader.astro';
+import EpubReader from '../../../components/EpubReader.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import {
   editionForLocale,
@@ -11,6 +12,7 @@ import {
   localizedEditionHref,
   localizedUnitHref,
   pdfReadingHref,
+  epubReadingHref,
   hasEmbeddedPdf,
   type Author,
   type Edition,
@@ -101,6 +103,7 @@ const description = page.kind === 'author'
           <div class="edition-actions">
             {page.edition.units[0] && <a class="btn btn-primary btn-compact" href={localizedUnitHref(page.work, page.edition, page.edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span><T locale={locale} k="readOnline" /></a>}
             {hasEmbeddedPdf(page.edition) && <a class="btn btn-secondary btn-compact reader-start-pdf" href={pdfReadingHref(page.work,page.edition)}><T locale={locale} k="readPdf" /></a>}
+            {page.edition.epub && <a class="btn btn-secondary btn-compact" href={epubReadingHref(page.work,page.edition)}><T locale={locale} k="readEpub" /></a>}
             <a class="btn btn-secondary btn-compact" href="#downloads"><span class="material-icons" aria-hidden="true">download</span><T locale={locale} k="downloads" /></a>
           </div>
         </header>
@@ -147,6 +150,7 @@ const description = page.kind === 'author'
         <div class="reader-main" data-reader-surface>
           <article id="reader-online" data-online-content lang={page.edition.code} dir={editionDir} translate="no" class="reader-content" set:html={page.unit.html} />
           <PdfReader author={page.author} edition={page.edition} locale={locale} unitTitle={page.unit.title} unitContext={page.unit.context} />
+          <EpubReader edition={page.edition} locale={locale} unitPath={page.unit.path} />
         </div>
         <aside class="chapter-sidebar" aria-label={t('readingControls')} data-i18n-aria-label="readingControls">
           <details class="reader-controls panel" open><summary><T locale={locale} k="readingControls" /></summary>
@@ -161,9 +165,10 @@ const description = page.kind === 'author'
                 </ul>
               </details>
             )}
-            {hasEmbeddedPdf(page.edition) && <div class="reading-mode" role="group" aria-label={t('readingControls')} data-i18n-aria-label="readingControls">
+            {(hasEmbeddedPdf(page.edition)||page.edition.epub) && <div class="reading-mode" role="group" aria-label={t('readingControls')} data-i18n-aria-label="readingControls">
               <button type="button" data-reading-mode="online" aria-pressed="true" aria-controls="reader-online" disabled><T locale={locale} k="readOnline" /></button>
-              <button type="button" data-reading-mode="pdf" aria-pressed="false" aria-controls="pdf-reader" disabled><T locale={locale} k="readPdf" /></button>
+              {hasEmbeddedPdf(page.edition)&&<button type="button" data-reading-mode="pdf" aria-pressed="false" aria-controls="pdf-reader" disabled><T locale={locale} k="readPdf" /></button>}
+              {page.edition.epub&&<button type="button" data-reading-mode="epub" aria-pressed="false" aria-controls="epub-reader" disabled><T locale={locale} k="readEpub" /></button>}
             </div>}
             <button type="button" class="reader-fullscreen" aria-pressed="false" data-online-only disabled><T locale={locale} k="fullscreen" /></button>
             <div class="reader-display" data-online-only>

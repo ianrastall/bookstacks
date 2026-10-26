@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "Číst EPUB",
+  epubError: "EPUB se nepodařilo načíst.",
   pdfPage: "Strana",
   pdfFind: "Hledat v knize",
   pdfError: "PDF nelze načíst.",

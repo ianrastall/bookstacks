@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "EPUB 읽기",
+  epubError: "EPUB을 불러올 수 없습니다.",
   pdfPage: "페이지",
   pdfFind: "책에서 찾기",
   pdfError: "PDF를 불러올 수 없습니다.",

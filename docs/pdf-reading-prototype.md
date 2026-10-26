@@ -92,10 +92,8 @@ https://mozilla.github.io/pdf.js/getting_started/.
 
 ## EPUB follow-up
 
-EPUB export is separate future work. The intended publication is one reflowable
-EPUB package per edition, generated directly from canonical TEI with its source
-credits, notes, language and artwork. Its XHTML/CSS can support both site themes;
-separate light/dark EPUB files are unnecessary. The embedded EPUB reader should
-follow the same site appearance setting and manage contents, saved location and
-chapter navigation. Downloaded copies use the ebook application's appearance
-controls. PDF remains the fixed-layout option; online reading remains available.
+The EPUB template and first two publications are described in
+[EPUB reading](epub-reading.md). Each has one reflowable package for both site
+themes and an embedded reader in the same column. Export and validation remain
+explicit offline steps. PDF remains the fixed-layout option; online reading
+remains available.

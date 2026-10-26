@@ -8,9 +8,11 @@ import { EDITION_LANGUAGES, isEditionLanguage, type EditionLanguage as Locale } 
 import '../i18n/catalogues';
 import { text as interfaceText } from './interface';
 import publicationData from '../data/pdf-publications.json';
+import epubPublicationData from '../data/epub-publications.json';
 
 const PUBLICATION_URL = 'https://ianrastall.github.io/bookstacks-pdf/books/';
 const PUBLICATION_INDEX = publicationData as Record<string, { source_sha256: string; variants: PdfVariant[] }>;
+const EPUB_INDEX = epubPublicationData as Record<string,EpubPublication>;
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';
@@ -191,6 +193,7 @@ export interface Edition {
   pdfFile?: string;
   pdfHref?: string;
   pdfVariants?: PdfVariant[];
+  epub?: EpubPublication;
   kind: string;
   unitKind: string;
   units: ReadingUnit[];
@@ -204,6 +207,15 @@ export interface PdfVariant {
   href: string;
   file: string;
   revision: string;
+}
+
+export interface EpubPublication {
+  source_sha256:string;
+  href:string;
+  revision:string;
+  language:string;
+  sections:Array<{path:string;href:string;title:string}>;
+  bytes:number;
 }
 
 export interface ReadingUnit {
@@ -374,6 +386,11 @@ export function pdfReadingHref(work: Pick<Work, 'authorSlug' | 'slug'>, edition:
   return `${start ? localizedUnitHref(work, edition, start) : localizedEditionHref(work, edition)}?view=pdf`;
 }
 
+export function epubReadingHref(work: Pick<Work,'authorSlug'|'slug'>,edition:Pick<Edition,'code'|'units'>):string {
+  const start=edition.units[0];
+  return `${start?localizedUnitHref(work,edition,start):localizedEditionHref(work,edition)}?view=epub`;
+}
+
 export function editionForLocale(work: Pick<Work, 'editions'>, locale: Locale): Edition | undefined {
   return work.editions.find((edition) => edition.code === locale);
 }
@@ -421,6 +438,13 @@ function parseEdition(filePath: string): ParsedEdition {
   const repositoryPdfPath = path.join(path.dirname(filePath), pdfName);
   const generatedPdfPath = path.join(EXPORT_ROOT, authorSlug, stem, pdfName);
   const publication = PUBLICATION_INDEX[stem];
+  const epub=EPUB_INDEX[stem];
+  if(epub&&process.env.BOOKSTACKS_BUILD_EPUB!=='1'){
+    if(epub.source_sha256!==createHash('sha256').update(fs.readFileSync(filePath)).digest('hex'))throw new Error(`EPUB publication source does not match canonical TEI: ${fileName}`);
+    if(!epub.href.startsWith('/downloads/epub/')||epub.href.includes('..'))throw new Error(`Invalid EPUB publication URL: ${fileName}`);
+    const physical=path.join(process.cwd(),'public',epub.href);
+    if(!fs.existsSync(physical)||createHash('sha256').update(fs.readFileSync(physical)).digest('hex')!==epub.revision)throw new Error(`EPUB publication checksum mismatch: ${fileName}`);
+  }
   if (publication && publication.source_sha256 !== createHash('sha256').update(fs.readFileSync(filePath)).digest('hex')) {
     throw new Error(`PDF publication source does not match canonical TEI: ${fileName}`);
   }
@@ -565,6 +589,7 @@ function parseEdition(filePath: string): ParsedEdition {
     pdfFile: preferredPdf?.file ?? (pdfHref ? pdfName : undefined),
     pdfHref,
     pdfVariants,
+    epub,
     kind,
     unitKind,
     units,

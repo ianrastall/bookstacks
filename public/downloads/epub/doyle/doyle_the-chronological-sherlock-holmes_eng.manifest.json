@@ -1,0 +1,584 @@
+{
+  "source_sha256": "6bcd16139f89a9d2a7abf53d71d1c5c46663cc25d6253718d1e4d0e352fd1c31",
+  "href": "/downloads/epub/doyle/doyle_the-chronological-sherlock-holmes_eng.epub",
+  "revision": "ccdb4be29c574c01c5b9f6bb5ea19f7cb50b33b868e3f3984409961259e04e23",
+  "language": "en",
+  "sections": [
+    {
+      "path": "story-the-gloria-scott",
+      "href": "chapter-0001.xhtml",
+      "title": "The Adventure of the Gloria Scott"
+    },
+    {
+      "path": "story-the-musgrave-ritual",
+      "href": "chapter-0002.xhtml",
+      "title": "The Adventure of the Musgrave Ritual"
+    },
+    {
+      "path": "part-stud/part-1/chapter-1",
+      "href": "chapter-0003.xhtml",
+      "title": "Chapter I. Mr. Sherlock Holmes."
+    },
+    {
+      "path": "part-stud/part-1/chapter-2",
+      "href": "chapter-0004.xhtml",
+      "title": "Chapter II. The Science of Deduction."
+    },
+    {
+      "path": "part-stud/part-1/chapter-3",
+      "href": "chapter-0005.xhtml",
+      "title": "Chapter III. The Lauriston Gardens Mystery"
+    },
+    {
+      "path": "part-stud/part-1/chapter-4",
+      "href": "chapter-0006.xhtml",
+      "title": "Chapter IV. What John Rance Had to Tell."
+    },
+    {
+      "path": "part-stud/part-1/chapter-5",
+      "href": "chapter-0007.xhtml",
+      "title": "Chapter V. Our Advertisement Brings a Visitor."
+    },
+    {
+      "path": "part-stud/part-1/chapter-6",
+      "href": "chapter-0008.xhtml",
+      "title": "Chapter VI. Tobias Gregson Shows What He Can Do."
+    },
+    {
+      "path": "part-stud/part-1/chapter-7",
+      "href": "chapter-0009.xhtml",
+      "title": "Chapter VII. Light in the Darkness."
+    },
+    {
+      "path": "part-stud/part-2/chapter-1",
+      "href": "chapter-0010.xhtml",
+      "title": "Chapter I. On the Great Alkali Plain."
+    },
+    {
+      "path": "part-stud/part-2/chapter-2",
+      "href": "chapter-0011.xhtml",
+      "title": "Chapter II. The Flower of Utah."
+    },
+    {
+      "path": "part-stud/part-2/chapter-3",
+      "href": "chapter-0012.xhtml",
+      "title": "Chapter III. John Ferrier Talks with the Prophet."
+    },
+    {
+      "path": "part-stud/part-2/chapter-4",
+      "href": "chapter-0013.xhtml",
+      "title": "Chapter IV. A Flight for Life."
+    },
+    {
+      "path": "part-stud/part-2/chapter-5",
+      "href": "chapter-0014.xhtml",
+      "title": "Chapter V. The Avenging Angels."
+    },
+    {
+      "path": "part-stud/part-2/chapter-6",
+      "href": "chapter-0015.xhtml",
+      "title": "Chapter VI. A Continuation of the Reminiscences of John Watson, M.D."
+    },
+    {
+      "path": "part-stud/part-2/chapter-7",
+      "href": "chapter-0016.xhtml",
+      "title": "Chapter VII. The Conclusion."
+    },
+    {
+      "path": "story-the-speckled-band",
+      "href": "chapter-0017.xhtml",
+      "title": "The Adventure of the Speckled Band"
+    },
+    {
+      "path": "story-the-resident-patient",
+      "href": "chapter-0018.xhtml",
+      "title": "The Adventure of the Resident Patient"
+    },
+    {
+      "path": "story-the-noble-bachelor",
+      "href": "chapter-0019.xhtml",
+      "title": "The Adventure of the Noble Bachelor"
+    },
+    {
+      "path": "story-the-second-stain",
+      "href": "chapter-0020.xhtml",
+      "title": "The Adventure of the Second Stain"
+    },
+    {
+      "path": "story-the-reigate-squire",
+      "href": "chapter-0021.xhtml",
+      "title": "The Adventure of the Reigate Squire"
+    },
+    {
+      "path": "story-a-scandal-in-bohemia",
+      "href": "chapter-0022.xhtml",
+      "title": "A Scandal in Bohemia"
+    },
+    {
+      "path": "story-man-with-the-twisted-lip",
+      "href": "chapter-0023.xhtml",
+      "title": "The Man with the Twisted Lip"
+    },
+    {
+      "path": "story-the-five-orange-pips",
+      "href": "chapter-0024.xhtml",
+      "title": "The Five Orange Pips"
+    },
+    {
+      "path": "story-a-case-of-identity",
+      "href": "chapter-0025.xhtml",
+      "title": "A Case of Identity"
+    },
+    {
+      "path": "story-the-red-headed-league",
+      "href": "chapter-0026.xhtml",
+      "title": "The Red-Headed League"
+    },
+    {
+      "path": "story-the-dying-detective",
+      "href": "chapter-0027.xhtml",
+      "title": "The Adventure of the Dying Detective"
+    },
+    {
+      "path": "story-the-blue-carbuncle",
+      "href": "chapter-0028.xhtml",
+      "title": "The Adventure of the Blue Carbuncle"
+    },
+    {
+      "path": "part-vall/part-1/chapter-1",
+      "href": "chapter-0029.xhtml",
+      "title": "Chapter I the Warning"
+    },
+    {
+      "path": "part-vall/part-1/chapter-2",
+      "href": "chapter-0030.xhtml",
+      "title": "Chapter II Sherlock Holmes Discourses"
+    },
+    {
+      "path": "part-vall/part-1/chapter-3",
+      "href": "chapter-0031.xhtml",
+      "title": "Chapter III the Tragedy of Birlstone"
+    },
+    {
+      "path": "part-vall/part-1/chapter-4",
+      "href": "chapter-0032.xhtml",
+      "title": "Chapter IV Darkness"
+    },
+    {
+      "path": "part-vall/part-1/chapter-5",
+      "href": "chapter-0033.xhtml",
+      "title": "Chapter V the People of the Drama"
+    },
+    {
+      "path": "part-vall/part-1/chapter-6",
+      "href": "chapter-0034.xhtml",
+      "title": "Chapter VI a Dawning Light"
+    },
+    {
+      "path": "part-vall/part-1/chapter-7",
+      "href": "chapter-0035.xhtml",
+      "title": "Chapter VII the Solution"
+    },
+    {
+      "path": "part-vall/part-2/chapter-1",
+      "href": "chapter-0036.xhtml",
+      "title": "Chapter I the Man"
+    },
+    {
+      "path": "part-vall/part-2/chapter-2",
+      "href": "chapter-0037.xhtml",
+      "title": "Chapter II the Bodymaster"
+    },
+    {
+      "path": "part-vall/part-2/chapter-3",
+      "href": "chapter-0038.xhtml",
+      "title": "Chapter III Lodge 341, Vermissa"
+    },
+    {
+      "path": "part-vall/part-2/chapter-4",
+      "href": "chapter-0039.xhtml",
+      "title": "Chapter IV the Valley of Fear"
+    },
+    {
+      "path": "part-vall/part-2/chapter-5",
+      "href": "chapter-0040.xhtml",
+      "title": "Chapter V the Darkest Hour"
+    },
+    {
+      "path": "part-vall/part-2/chapter-6",
+      "href": "chapter-0041.xhtml",
+      "title": "Chapter VI Danger"
+    },
+    {
+      "path": "part-vall/part-2/chapter-7",
+      "href": "chapter-0042.xhtml",
+      "title": "Chapter VII the Trapping of Birdy Edwards"
+    },
+    {
+      "path": "part-vall/epilogue-1",
+      "href": "chapter-0043.xhtml",
+      "title": "Epilogue"
+    },
+    {
+      "path": "story-the-yellow-face",
+      "href": "chapter-0044.xhtml",
+      "title": "The Adventure of the Yellow Face"
+    },
+    {
+      "path": "story-the-greek-interpreter",
+      "href": "chapter-0045.xhtml",
+      "title": "The Adventure of the Greek Interpreter"
+    },
+    {
+      "path": "part-sign/chapter-1",
+      "href": "chapter-0046.xhtml",
+      "title": "Chapter I the Science of Deduction"
+    },
+    {
+      "path": "part-sign/chapter-2",
+      "href": "chapter-0047.xhtml",
+      "title": "Chapter II the Statement of the Case"
+    },
+    {
+      "path": "part-sign/chapter-3",
+      "href": "chapter-0048.xhtml",
+      "title": "Chapter III in Quest of a Solution"
+    },
+    {
+      "path": "part-sign/chapter-4",
+      "href": "chapter-0049.xhtml",
+      "title": "Chapter IV the Story of the Bald-Headed Man"
+    },
+    {
+      "path": "part-sign/chapter-5",
+      "href": "chapter-0050.xhtml",
+      "title": "Chapter V the Tragedy of Pondicherry Lodge"
+    },
+    {
+      "path": "part-sign/chapter-6",
+      "href": "chapter-0051.xhtml",
+      "title": "Chapter VI Sherlock Holmes Gives a Demonstration"
+    },
+    {
+      "path": "part-sign/chapter-7",
+      "href": "chapter-0052.xhtml",
+      "title": "Chapter VII the Episode of the Barrel"
+    },
+    {
+      "path": "part-sign/chapter-8",
+      "href": "chapter-0053.xhtml",
+      "title": "Chapter VIII the Baker Street Irregulars"
+    },
+    {
+      "path": "part-sign/chapter-9",
+      "href": "chapter-0054.xhtml",
+      "title": "Chapter IX a Break in the Chain"
+    },
+    {
+      "path": "part-sign/chapter-10",
+      "href": "chapter-0055.xhtml",
+      "title": "Chapter X the End of the Islander"
+    },
+    {
+      "path": "part-sign/chapter-11",
+      "href": "chapter-0056.xhtml",
+      "title": "Chapter XI the Great Agra Treasure"
+    },
+    {
+      "path": "part-sign/chapter-12",
+      "href": "chapter-0057.xhtml",
+      "title": "Chapter XII the Strange Story of Jonathan Small"
+    },
+    {
+      "path": "part-houn/chapter-1",
+      "href": "chapter-0058.xhtml",
+      "title": "Chapter 1. Mr. Sherlock Holmes"
+    },
+    {
+      "path": "part-houn/chapter-2",
+      "href": "chapter-0059.xhtml",
+      "title": "Chapter 2. The Curse of the Baskervilles"
+    },
+    {
+      "path": "part-houn/chapter-3",
+      "href": "chapter-0060.xhtml",
+      "title": "Chapter 3. The Problem"
+    },
+    {
+      "path": "part-houn/chapter-4",
+      "href": "chapter-0061.xhtml",
+      "title": "Chapter 4. Sir Henry Baskerville"
+    },
+    {
+      "path": "part-houn/chapter-5",
+      "href": "chapter-0062.xhtml",
+      "title": "Chapter 5. Three Broken Threads"
+    },
+    {
+      "path": "part-houn/chapter-6",
+      "href": "chapter-0063.xhtml",
+      "title": "Chapter 6. Baskerville Hall"
+    },
+    {
+      "path": "part-houn/chapter-7",
+      "href": "chapter-0064.xhtml",
+      "title": "Chapter 7. The Stapletons of Merripit House"
+    },
+    {
+      "path": "part-houn/chapter-8",
+      "href": "chapter-0065.xhtml",
+      "title": "Chapter 8. First Report of Dr. Watson"
+    },
+    {
+      "path": "part-houn/chapter-9",
+      "href": "chapter-0066.xhtml",
+      "title": "Chapter 9. The Light upon the Moor [Second Report of Dr. Watson]"
+    },
+    {
+      "path": "part-houn/chapter-10",
+      "href": "chapter-0067.xhtml",
+      "title": "Chapter 10. Extract from the Diary of Dr. Watson"
+    },
+    {
+      "path": "part-houn/chapter-11",
+      "href": "chapter-0068.xhtml",
+      "title": "Chapter 11. The Man on the Tor"
+    },
+    {
+      "path": "part-houn/chapter-12",
+      "href": "chapter-0069.xhtml",
+      "title": "Chapter 12. Death on the Moor"
+    },
+    {
+      "path": "part-houn/chapter-13",
+      "href": "chapter-0070.xhtml",
+      "title": "Chapter 13. Fixing the Nets"
+    },
+    {
+      "path": "part-houn/chapter-14",
+      "href": "chapter-0071.xhtml",
+      "title": "Chapter 14. The Hound of the Baskervilles"
+    },
+    {
+      "path": "part-houn/chapter-15",
+      "href": "chapter-0072.xhtml",
+      "title": "Chapter 15. A Retrospection"
+    },
+    {
+      "path": "story-the-copper-beeches",
+      "href": "chapter-0073.xhtml",
+      "title": "The Adventure of the Copper Beeches"
+    },
+    {
+      "path": "story-boscombe-valley-mystery",
+      "href": "chapter-0074.xhtml",
+      "title": "The Boscombe Valley Mystery"
+    },
+    {
+      "path": "story-the-stockbrokers-clerk",
+      "href": "chapter-0075.xhtml",
+      "title": "The Adventure of the Stockbroker's Clerk"
+    },
+    {
+      "path": "story-the-naval-treaty",
+      "href": "chapter-0076.xhtml",
+      "title": "The Adventure of the Naval Treaty"
+    },
+    {
+      "path": "story-the-cardboard-box",
+      "href": "chapter-0077.xhtml",
+      "title": "The Adventure of the Cardboard Box"
+    },
+    {
+      "path": "story-the-engineers-thumb",
+      "href": "chapter-0078.xhtml",
+      "title": "The Adventure of the Engineer's Thumb"
+    },
+    {
+      "path": "story-the-crooked-man",
+      "href": "chapter-0079.xhtml",
+      "title": "The Adventure of the Crooked Man"
+    },
+    {
+      "path": "story-the-field-bazaar",
+      "href": "chapter-0080.xhtml",
+      "title": "The Field Bazaar"
+    },
+    {
+      "path": "story-wisteria-lodge",
+      "href": "chapter-0081.xhtml",
+      "title": "The Adventure of Wisteria Lodge"
+    },
+    {
+      "path": "story-lost-special",
+      "href": "chapter-0082.xhtml",
+      "title": "The Story of the Lost Special"
+    },
+    {
+      "path": "story-silver-blaze",
+      "href": "chapter-0083.xhtml",
+      "title": "The Adventure of Silver Blaze"
+    },
+    {
+      "path": "story-the-beryl-coronet",
+      "href": "chapter-0084.xhtml",
+      "title": "The Adventure of the Beryl Coronet"
+    },
+    {
+      "path": "story-the-final-problem",
+      "href": "chapter-0085.xhtml",
+      "title": "The Adventure of the Final Problem"
+    },
+    {
+      "path": "story-the-empty-house",
+      "href": "chapter-0086.xhtml",
+      "title": "The Adventure of the Empty House"
+    },
+    {
+      "path": "story-the-golden-pince-nez",
+      "href": "chapter-0087.xhtml",
+      "title": "The Adventure of the Golden Pince-Nez"
+    },
+    {
+      "path": "story-the-three-students",
+      "href": "chapter-0088.xhtml",
+      "title": "The Adventure of the Three Students"
+    },
+    {
+      "path": "story-the-solitary-cyclist",
+      "href": "chapter-0089.xhtml",
+      "title": "The Adventure of the Solitary Cyclist"
+    },
+    {
+      "path": "story-black-peter",
+      "href": "chapter-0090.xhtml",
+      "title": "The Adventure of Black Peter"
+    },
+    {
+      "path": "story-the-norwood-builder",
+      "href": "chapter-0091.xhtml",
+      "title": "The Adventure of the Norwood Builder"
+    },
+    {
+      "path": "story-bruce-partington-plans",
+      "href": "chapter-0092.xhtml",
+      "title": "The Adventure of the Bruce-Partington Plans"
+    },
+    {
+      "path": "story-the-veiled-lodger",
+      "href": "chapter-0093.xhtml",
+      "title": "The Adventure of the Veiled Lodger"
+    },
+    {
+      "path": "story-the-sussex-vampire",
+      "href": "chapter-0094.xhtml",
+      "title": "The Adventure of the Sussex Vampire"
+    },
+    {
+      "path": "story-missing-three-quarter",
+      "href": "chapter-0095.xhtml",
+      "title": "The Adventure of the Missing Three-Quarter"
+    },
+    {
+      "path": "story-the-abbey-grange",
+      "href": "chapter-0096.xhtml",
+      "title": "The Adventure of the Abbey Grange"
+    },
+    {
+      "path": "story-the-devils-foot",
+      "href": "chapter-0097.xhtml",
+      "title": "The Adventure of the Devil's Foot"
+    },
+    {
+      "path": "story-the-dancing-men",
+      "href": "chapter-0098.xhtml",
+      "title": "The Adventure of the Dancing Men"
+    },
+    {
+      "path": "story-the-retired-colourman",
+      "href": "chapter-0099.xhtml",
+      "title": "The Adventure of the Retired Colourman"
+    },
+    {
+      "path": "story-charles-milverton",
+      "href": "chapter-0100.xhtml",
+      "title": "The Adventure of Charles Augustus Milverton"
+    },
+    {
+      "path": "story-the-six-napoleons",
+      "href": "chapter-0101.xhtml",
+      "title": "The Adventure of the Six Napoleons"
+    },
+    {
+      "path": "story-thor-bridge",
+      "href": "chapter-0102.xhtml",
+      "title": "The Problem of Thor Bridge"
+    },
+    {
+      "path": "story-the-priory-school",
+      "href": "chapter-0103.xhtml",
+      "title": "The Adventure of the Priory School"
+    },
+    {
+      "path": "story-watson-learned-the-trick",
+      "href": "chapter-0104.xhtml",
+      "title": "How Watson Learned the Trick"
+    },
+    {
+      "path": "story-shoscombe-old-place",
+      "href": "chapter-0105.xhtml",
+      "title": "The Adventure of Shoscombe Old Place"
+    },
+    {
+      "path": "story-the-three-garridebs",
+      "href": "chapter-0106.xhtml",
+      "title": "The Adventure of the Three Garridebs"
+    },
+    {
+      "path": "story-lady-frances-carfax",
+      "href": "chapter-0107.xhtml",
+      "title": "The Disappearance of Lady Frances Carfax"
+    },
+    {
+      "path": "story-the-illustrious-client",
+      "href": "chapter-0108.xhtml",
+      "title": "The Adventure of the Illustrious Client"
+    },
+    {
+      "path": "story-the-red-circle",
+      "href": "chapter-0109.xhtml",
+      "title": "The Adventure of the Red Circle"
+    },
+    {
+      "path": "story-the-mazarin-stone",
+      "href": "chapter-0110.xhtml",
+      "title": "The Adventure of the Mazarin Stone"
+    },
+    {
+      "path": "story-the-blanched-soldier",
+      "href": "chapter-0111.xhtml",
+      "title": "The Adventure of the Blanched Soldier"
+    },
+    {
+      "path": "story-the-three-gables",
+      "href": "chapter-0112.xhtml",
+      "title": "The Adventure of the Three Gables"
+    },
+    {
+      "path": "story-the-creeping-man",
+      "href": "chapter-0113.xhtml",
+      "title": "The Adventure of the Creeping Man"
+    },
+    {
+      "path": "story-the-lions-mane",
+      "href": "chapter-0114.xhtml",
+      "title": "The Adventure of the Lion's Mane"
+    },
+    {
+      "path": "story-his-last-bow",
+      "href": "chapter-0115.xhtml",
+      "title": "His Last Bow"
+    }
+  ],
+  "bytes": 22895010
+}

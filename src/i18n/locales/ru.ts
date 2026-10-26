@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "Читать EPUB",
+  epubError: "Не удалось загрузить EPUB.",
   pdfPage: "Страница",
   pdfFind: "Поиск в книге",
   pdfError: "Не удалось загрузить PDF.",

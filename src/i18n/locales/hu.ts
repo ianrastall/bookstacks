@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "EPUB olvasása",
+  epubError: "Az EPUB nem tölthető be.",
   pdfPage: "Oldal",
   pdfFind: "Keresés a könyvben",
   pdfError: "A PDF nem tölthető be.",

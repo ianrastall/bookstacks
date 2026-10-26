@@ -34,6 +34,7 @@ const pdfHref = editionPdfHref(author, edition);
         <span class="material-icons" aria-hidden="true">code</span>TEI XML
       </a>
       <PdfLinks author={author} edition={edition} locale={locale} />
+      {edition.epub&&<a class="btn btn-secondary btn-compact" href={`${edition.epub.href}?revision=${edition.epub.revision}`} download={edition.epub.href.split('/').pop()}>EPUB</a>}
     </div>
   </div>
 </article>

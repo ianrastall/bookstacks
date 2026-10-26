@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "EPUB পড়ুন",
+  epubError: "EPUB লোড করা যায়নি।",
   pdfPage: "পৃষ্ঠা",
   pdfFind: "বইয়ে খুঁজুন",
   pdfError: "PDF লোড করা যায়নি।",

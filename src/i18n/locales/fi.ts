@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "Lue EPUB",
+  epubError: "EPUB-tiedostoa ei voitu ladata.",
   pdfPage: "Sivu",
   pdfFind: "Hae kirjasta",
   pdfError: "PDF:n lataaminen epäonnistui.",

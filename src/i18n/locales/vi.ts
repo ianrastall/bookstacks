@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readEpub: "Đọc EPUB",
+  epubError: "Không thể tải EPUB.",
   pdfPage: "Trang",
   pdfFind: "Tìm trong sách",
   pdfError: "Không thể tải PDF.",
