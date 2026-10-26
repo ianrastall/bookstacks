@@ -42,7 +42,8 @@ for(const panel of document.querySelectorAll<HTMLElement>('[data-pdf-files]')){
   const file=()=>files.find(file=>file.theme===root.dataset.theme)??files[0];
   async function documentFor(file:PdfFile):Promise<PdfDocument>{
     if(!documents.has(file.href)){
-      const loading=loadLibrary().then(pdfjs=>pdfjs.getDocument({url:file.href,standardFontDataUrl:'/vendor/pdfjs/web/standard_fonts/',cMapUrl:'/vendor/pdfjs/web/cmaps/',cMapPacked:true,wasmUrl:'/vendor/pdfjs/web/wasm/',useSystemFonts:false}).promise);
+      const publicationUrl=new URL(file.href,location.href);publicationUrl.searchParams.set('revision',file.revision);
+      const loading=loadLibrary().then(pdfjs=>pdfjs.getDocument({url:publicationUrl.href,standardFontDataUrl:'/vendor/pdfjs/web/standard_fonts/',cMapUrl:'/vendor/pdfjs/web/cmaps/',cMapPacked:true,wasmUrl:'/vendor/pdfjs/web/wasm/',useSystemFonts:false}).promise);
       documents.set(file.href,loading);void loading.catch(()=>documents.delete(file.href));
     }
     return documents.get(file.href)!;

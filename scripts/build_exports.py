@@ -859,6 +859,11 @@ def latex_document(
 \setCJKfallbackfamilyfont{\CJKrmdefault}{BabelStoneHan.ttf}
 \newfontfamily\bookstackscjksymbol{NotoSerifCJKsc-Regular.otf}
 """ if needs_cjk(edition) else ''
+    if cjk_setup and edition.locale != 'zh-Hans':
+        # Incidental Han characters also load xeCJK in Western editions. Its
+        # full-width quote classes otherwise split contractions visually and
+        # replace the Latin font's opening/closing quotation marks.
+        cjk_setup += '\\xeCJKDeclareCharClass{Default}{"2018,"2019,"201C,"201D}\n'
     canonical_url = edition.canonical_url
     return rf"""\documentclass[11pt,twoside,openany]{{memoir}}
 \usepackage{{fontspec}}

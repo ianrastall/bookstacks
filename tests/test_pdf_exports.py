@@ -62,6 +62,19 @@ class ScarletExportTests(unittest.TestCase):
         self.assertIn(r'\ne', exports.latex_escape('≠'))
         self.assertIn(r'\nobreak{}', exports.latex_escape('\u2060'))
 
+    def test_incidental_han_preserves_western_apostrophe_metrics(self):
+        edition = exports.parse_edition(ROOT / 'tei/doyle/doyle_the-chronological-sherlock-holmes_eng.xml')
+        self.assertTrue(exports.needs_cjk(edition))
+        document = exports.latex_document(edition, '', 'regular.otf', 'italic.otf', 'bold.otf', 'bolditalic.otf')
+        self.assertIn(r'\xeCJKDeclareCharClass{Default}{"2018,"2019,"201C,"201D}', document)
+
+    def test_chinese_retains_its_punctuation_classes(self):
+        self.edition.locale = 'zh-Hans'
+        self.edition.root.text = '汉'
+        document = exports.latex_document(self.edition, '', 'regular.otf', 'italic.otf', 'bold.otf', 'bolditalic.otf')
+        self.assertIn(r'\usepackage[AutoFallBack=true]{xeCJK}', document)
+        self.assertNotIn(r'\xeCJKDeclareCharClass{Default}', document)
+
 
 if __name__ == "__main__":
     unittest.main()

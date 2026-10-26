@@ -71,6 +71,14 @@ sized for the printed page and compressed without modifying their source files.
 Unresolvable historical image references retain the canonical figure description;
 source acquisition and TEI repair are separate work.
 
+Western editions containing incidental Han characters retain Latin font metrics
+for curly quotes and apostrophes. Otherwise xeCJK treats those marks as Chinese
+punctuation, visibly separating contractions even when extracted text contains
+no spaces. Chinese editions retain their normal punctuation classes. Review
+rendered contractions as well as extracted text when changing font fallbacks.
+The reader requests each PDF with its publication checksum to refresh cached
+files after an explicit PDF update.
+
 The index command checks all PDF checksums against their manifests, verifies
 canonical source checksums, compares every page's extracted text and requires
 matching page counts within each light/dark pair. Each PDF must stay below
