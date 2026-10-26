@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Sayfa",
+  pdfFind: "Kitapta ara",
+  pdfError: "PDF yüklenemedi.",
+  pdfNoMatches: "Eşleşme yok.",
   readOnline: "Çevrimiçi oku",
   readPdf: "PDF oku",
   siteDescription: 'Kamu malı edebiyattan seçilmiş bir kütüphane.',

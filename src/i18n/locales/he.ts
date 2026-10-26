@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "עמוד",
+  pdfFind: "חיפוש בספר",
+  pdfError: "לא ניתן לטעון את ה-PDF.",
+  pdfNoMatches: "אין תוצאות.",
   readOnline: "קריאה מקוונת",
   readPdf: "קריאת PDF",
   siteDescription: 'ספרייה נבחרת של ספרות בנחלת הכלל.',

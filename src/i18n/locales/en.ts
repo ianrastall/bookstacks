@@ -1,6 +1,10 @@
 import type { Message } from '../types';
 
 const en = {
+  pdfPage: "Page",
+  pdfFind: "Find in book",
+  pdfError: "Unable to load PDF.",
+  pdfNoMatches: "No matches.",
   readOnline: "Read online",
   readPdf: "Read PDF",
   siteDescription: 'A curated library of public-domain literature.',

@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Oldal",
+  pdfFind: "Keresés a könyvben",
+  pdfError: "A PDF nem tölthető be.",
+  pdfNoMatches: "Nincs találat.",
   readOnline: "Olvasás online",
   readPdf: "PDF olvasása",
   siteDescription: 'Közkincsnek számító irodalom válogatott könyvtára.',

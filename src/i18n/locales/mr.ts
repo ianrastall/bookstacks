@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "पृष्ठ",
+  pdfFind: "पुस्तकात शोधा",
+  pdfError: "PDF लोड होऊ शकला नाही.",
+  pdfNoMatches: "जुळणारे परिणाम नाहीत.",
   readOnline: "ऑनलाइन वाचा",
   readPdf: "PDF वाचा",
   siteDescription: 'सार्वजनिक क्षेत्रातील साहित्याचे निवडक ग्रंथालय.',

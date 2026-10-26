@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Сторінка",
+  pdfFind: "Пошук у книзі",
+  pdfError: "Не вдалося завантажити PDF.",
+  pdfNoMatches: "Збігів немає.",
   readOnline: "Читати онлайн",
   readPdf: "Читати PDF",
   siteDescription: 'Добірна бібліотека літератури суспільного надбання.',

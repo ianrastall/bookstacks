@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Side",
+  pdfFind: "Søk i boken",
+  pdfError: "Kunne ikke laste PDF.",
+  pdfNoMatches: "Ingen treff.",
   readOnline: "Les på nett",
   readPdf: "Les PDF",
   siteDescription: 'Et utvalgt bibliotek med litteratur som ikke lenger er vernet av opphavsrett.',

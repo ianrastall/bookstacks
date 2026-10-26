@@ -369,6 +369,11 @@ export function localizedUnitHref(work: Pick<Work, 'authorSlug' | 'slug'>, editi
   return `${localizedEditionHref(work, edition)}/${unit.path}`;
 }
 
+export function pdfReadingHref(work: Pick<Work, 'authorSlug' | 'slug'>, edition: Pick<Edition, 'code' | 'units'>): string {
+  const start = edition.units[0];
+  return `${start ? localizedUnitHref(work, edition, start) : localizedEditionHref(work, edition)}?view=pdf`;
+}
+
 export function editionForLocale(work: Pick<Work, 'editions'>, locale: Locale): Edition | undefined {
   return work.editions.find((edition) => edition.code === locale);
 }

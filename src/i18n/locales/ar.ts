@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "الصفحة",
+  pdfFind: "البحث في الكتاب",
+  pdfError: "تعذر تحميل PDF.",
+  pdfNoMatches: "لا توجد نتائج.",
   readOnline: "القراءة على الويب",
   readPdf: "قراءة PDF",
   siteDescription: 'مكتبة مختارة من الأدب في الملك العام.',

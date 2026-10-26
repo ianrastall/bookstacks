@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "صفحه",
+  pdfFind: "جستجو در کتاب",
+  pdfError: "بارگیری PDF ممکن نشد.",
+  pdfNoMatches: "نتیجه‌ای یافت نشد.",
   readOnline: "خواندن آنلاین",
   readPdf: "خواندن PDF",
   siteDescription: 'کتابخانه‌ای گزیده از ادبیات مالکیت عمومی.',

@@ -3,13 +3,18 @@
 Bookstacks offers two reading modes for every canonical edition:
 
 - **Read online** opens the existing HTML reader with reflow and adjustable text.
-- **Read PDF** opens a PDF.js widget within the edition page, with fixed layout,
+- **Read PDF** changes the same chapter reading column to PDF.js, with fixed layout,
   search, outline, text selection and saved physical page position.
 
 The library, author pages, edition pages and chapter controls expose these
 choices. Existing HTML chapter URLs, editions, interface locales and source
-language metadata remain unchanged. The embedded PDF follows the site theme;
-its own Theme control changes the same Settings > Appearance preference.
+language metadata remain unchanged. `view=pdf` selects the PDF rendering on
+the existing reader route; the online text remains available through its mode
+button. The sidebar and site navigation stay in place. PDF pages use the normal
+document scroll and column width; there is no iframe, nested application shell
+or automatically entered fullscreen view. Existing book-page `#pdf-reader`
+links forward to the inline reader without changing the edition.
+The embedded PDF follows Settings > Appearance > Theme.
 Switching variants preserves the physical page. Saved PDF positions are keyed
 by the pair's checksums and kept separate from HTML chapter positions.
 
@@ -18,13 +23,12 @@ by the pair's checksums and kept separate from HTML chapter positions.
 Canonical TEI and the Astro site live in `ianrastall/bookstacks`. Generated
 PDFs and publication manifests live in `ianrastall/bookstacks-pdf`, hosted at
 `https://ianrastall.github.io/bookstacks-pdf/`. The PDF viewer's application and
-worker remain bundled with Bookstacks. Only the PDF bytes come from the
+display library and worker remain bundled with Bookstacks. Only the PDF bytes come from the
 publication host; readers remain at `bookstacks.org`.
 
 This separates the publication set from the main site's Pages size budget.
-The publication host exposes the CORS headers needed by PDF.js. Its narrowly
-scoped origin exception allows only that repository's `books/` path, in
-addition to same-origin PDFs. Arbitrary external PDFs remain rejected.
+The publication host exposes the CORS headers needed by PDF.js. The renderer
+loads only the edition URLs supplied by the validated publication snapshot.
 
 The site's `src/data/pdf-publications.json` is a committed manifest snapshot.
 Each entry identifies the edition through its source filename and SHA-256,

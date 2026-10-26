@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Strana",
+  pdfFind: "Hledat v knize",
+  pdfError: "PDF nelze načíst.",
+  pdfNoMatches: "Žádné shody.",
   readOnline: "Číst online",
   readPdf: "Číst PDF",
   siteDescription: 'Výběrová knihovna volně dostupné literatury.',

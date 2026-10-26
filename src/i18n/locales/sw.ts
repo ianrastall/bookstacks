@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Ukurasa",
+  pdfFind: "Tafuta katika kitabu",
+  pdfError: "PDF haikuweza kupakiwa.",
+  pdfNoMatches: "Hakuna matokeo.",
   readOnline: "Soma mtandaoni",
   readPdf: "Soma PDF",
   siteDescription: 'Maktaba teule ya fasihi isiyo na hakimiliki.',

@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Halaman",
+  pdfFind: "Cari dalam buku",
+  pdfError: "PDF tidak dapat dimuat.",
+  pdfNoMatches: "Tidak ada hasil.",
   readOnline: "Baca daring",
   readPdf: "Baca PDF",
   siteDescription: 'Perpustakaan pilihan karya sastra domain publik.',

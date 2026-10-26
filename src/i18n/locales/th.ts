@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "หน้า",
+  pdfFind: "ค้นหาในหนังสือ",
+  pdfError: "ไม่สามารถโหลด PDF ได้",
+  pdfNoMatches: "ไม่พบผลลัพธ์",
   readOnline: "อ่านออนไลน์",
   readPdf: "อ่าน PDF",
   siteDescription: 'ห้องสมุดคัดสรรวรรณกรรมสาธารณสมบัติ',

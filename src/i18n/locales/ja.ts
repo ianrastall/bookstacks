@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "ページ",
+  pdfFind: "本の中を検索",
+  pdfError: "PDFを読み込めません。",
+  pdfNoMatches: "一致する項目はありません。",
   readOnline: "オンラインで読む",
   readPdf: "PDFで読む",
   siteDescription: 'パブリックドメイン文学の選定ライブラリ。',

@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Страница",
+  pdfFind: "Поиск в книге",
+  pdfError: "Не удалось загрузить PDF.",
+  pdfNoMatches: "Совпадений нет.",
   readOnline: "Читать онлайн",
   readPdf: "Читать PDF",
   siteDescription: 'Избранная библиотека литературы общественного достояния.',

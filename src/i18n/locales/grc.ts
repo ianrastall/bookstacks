@@ -2,6 +2,10 @@ import type { Messages } from '../types';
 
 // Ancient Greek. Modern Greek is the separate `el` catalogue.
 export default {
+  pdfPage: "Σελίς",
+  pdfFind: "Ζήτησις ἐν τῷ βιβλίῳ",
+  pdfError: "Τὸ PDF οὐ δύναται φορτωθῆναι.",
+  pdfNoMatches: "Οὐδὲν εὑρέθη.",
   readOnline: "Ἀνάγνωσις ἐν τῷ ἱστῷ",
   readPdf: "Ἀνάγνωσις PDF",
   siteDescription: 'Βιβλιοθήκη ἐκλεκτῶν δημοσίων συγγραμμάτων.',

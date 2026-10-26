@@ -130,3 +130,11 @@ has a pair in the separate `ianrastall/bookstacks-pdf` publication repository.
 Its Pages host serves the PDF bytes; PDF.js stays embedded on Bookstacks. The
 main repository commits a source-checksummed manifest snapshot, rather than
 copying the enlarged publication set into the site's Pages artifact.
+
+The reading layout was subsequently corrected to use the same content column
+for HTML and PDF. `view=pdf` selects PDF rendering on the existing chapter route;
+the mode buttons replace the rendered surface in place while preserving site
+navigation, sidebar, HTML chapter content and the saved PDF page. PDF.js now
+renders the page directly with a selectable text layer, page/contents/search
+controls and normal site scrolling. The separate iframe reader is no longer
+used. Legacy edition-page PDF anchors forward to the appropriate reader route.

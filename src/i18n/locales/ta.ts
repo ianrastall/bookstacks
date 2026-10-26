@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "பக்கம்",
+  pdfFind: "நூலில் தேடு",
+  pdfError: "PDFஐ ஏற்ற முடியவில்லை.",
+  pdfNoMatches: "பொருத்தங்கள் இல்லை.",
   readOnline: "இணையத்தில் படிக்கவும்",
   readPdf: "PDF படிக்கவும்",
   siteDescription: 'பொது உரிமைப் பரப்பிலுள்ள இலக்கியங்களின் தேர்ந்தெடுக்கப்பட்ட நூலகம்.',

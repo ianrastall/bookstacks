@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Página",
+  pdfFind: "Buscar no livro",
+  pdfError: "Não foi possível carregar o PDF.",
+  pdfNoMatches: "Nenhum resultado.",
   readOnline: "Ler online",
   readPdf: "Ler PDF",
   siteDescription: 'Uma biblioteca selecionada de literatura em domínio público.',

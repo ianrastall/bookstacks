@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "页",
+  pdfFind: "在书中查找",
+  pdfError: "无法加载 PDF。",
+  pdfNoMatches: "没有匹配结果。",
   readOnline: "在线阅读",
   readPdf: "阅读 PDF",
   siteDescription: '精选公版文学图书馆。',

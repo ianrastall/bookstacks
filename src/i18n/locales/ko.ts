@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "페이지",
+  pdfFind: "책에서 찾기",
+  pdfError: "PDF를 불러올 수 없습니다.",
+  pdfNoMatches: "검색 결과가 없습니다.",
   readOnline: "온라인으로 읽기",
   readPdf: "PDF 읽기",
   siteDescription: '퍼블릭 도메인 문학을 엄선한 도서관.',

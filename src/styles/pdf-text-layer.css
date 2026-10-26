@@ -1,0 +1,12 @@
+/* Text-layer rules adapted from Mozilla PDF.js, Apache-2.0. */
+.reader-main{min-width:0;width:100%;}
+.reading-mode{display:flex;gap:8px;flex-wrap:wrap;margin-block:12px;}
+.reading-mode button[aria-pressed=true]{background:var(--accent);color:var(--on-accent);border-color:var(--accent);}
+.pdf-rendered-page{position:relative;line-height:0;}
+.pdf-rendered-page canvas{display:block;}
+.pdf-text-layer{position:absolute;inset:0;overflow:clip;text-align:initial;line-height:1;letter-spacing:normal;word-spacing:normal;text-size-adjust:none;forced-color-adjust:none;transform-origin:0 0;--min-font-size:1;--text-scale-factor:calc(var(--total-scale-factor)*var(--min-font-size));--min-font-size-inv:calc(1/var(--min-font-size));}
+.pdf-text-layer :is(span,br){color:transparent;position:absolute;white-space:pre;cursor:text;transform-origin:0 0;user-select:text;}
+.pdf-text-layer>:not(.markedContent),.pdf-text-layer .markedContent span:not(.markedContent){z-index:1;--font-height:0;font-size:calc(var(--text-scale-factor)*var(--font-height));--scale-x:1;--rotate:0deg;transform:rotate(var(--rotate)) scaleX(var(--scale-x)) scale(var(--min-font-size-inv));}
+.pdf-text-layer .markedContent{display:contents;}
+.pdf-text-layer ::selection{background:color-mix(in srgb,var(--accent),transparent 60%);color:transparent;}
+.pdf-text-layer .pdf-find-match{background:color-mix(in srgb,var(--accent),transparent 60%);}

@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "صفحہ",
+  pdfFind: "کتاب میں تلاش کریں",
+  pdfError: "PDF لوڈ نہیں ہو سکی۔",
+  pdfNoMatches: "کوئی نتیجہ نہیں ملا۔",
   readOnline: "آن لائن پڑھیں",
   readPdf: "PDF پڑھیں",
   siteDescription: 'عوامی ملکیت کے ادب کی ایک منتخب لائبریری۔',

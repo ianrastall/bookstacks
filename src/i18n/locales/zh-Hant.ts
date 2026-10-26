@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "頁",
+  pdfFind: "在書中尋找",
+  pdfError: "無法載入 PDF。",
+  pdfNoMatches: "沒有相符結果。",
   readOnline: "線上閱讀",
   readPdf: "閱讀 PDF",
   siteDescription: '精選公版文學圖書館。',

@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Trang",
+  pdfFind: "Tìm trong sách",
+  pdfError: "Không thể tải PDF.",
+  pdfNoMatches: "Không có kết quả.",
   readOnline: "Đọc trực tuyến",
   readPdf: "Đọc PDF",
   siteDescription: 'Thư viện tuyển chọn văn học thuộc phạm vi công cộng.',

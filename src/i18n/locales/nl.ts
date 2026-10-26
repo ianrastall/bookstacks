@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Pagina",
+  pdfFind: "Zoeken in het boek",
+  pdfError: "PDF kan niet worden geladen.",
+  pdfNoMatches: "Geen resultaten.",
   readOnline: "Online lezen",
   readPdf: "PDF lezen",
   siteDescription: 'Een zorgvuldig samengestelde bibliotheek van literatuur uit het publieke domein.',

@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Pagină",
+  pdfFind: "Caută în carte",
+  pdfError: "PDF-ul nu poate fi încărcat.",
+  pdfNoMatches: "Niciun rezultat.",
   readOnline: "Citește online",
   readPdf: "Citește PDF",
   siteDescription: 'O bibliotecă selectată de literatură din domeniul public.',

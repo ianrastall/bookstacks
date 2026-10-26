@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Sivu",
+  pdfFind: "Hae kirjasta",
+  pdfError: "PDF:n lataaminen epäonnistui.",
+  pdfNoMatches: "Ei osumia.",
   readOnline: "Lue verkossa",
   readPdf: "Lue PDF",
   siteDescription: 'Valikoitu kirjasto tekijänoikeuksista vapaata kirjallisuutta.',

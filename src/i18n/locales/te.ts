@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "పేజీ",
+  pdfFind: "పుస్తకంలో వెతకండి",
+  pdfError: "PDF లోడ్ కాలేదు.",
+  pdfNoMatches: "ఫలితాలు లేవు.",
   readOnline: "ఆన్‌లైన్‌లో చదవండి",
   readPdf: "PDF చదవండి",
   siteDescription: 'ప్రజా సామ్యంలో ఉన్న సాహిత్యం యొక్క ఎంపిక చేసిన గ్రంథాలయం.',

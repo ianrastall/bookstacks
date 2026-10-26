@@ -2,6 +2,10 @@ import type { Messages } from '../types';
 
 // Modern Greek. Ancient Greek is the separate `grc` catalogue.
 export default {
+  pdfPage: "Σελίδα",
+  pdfFind: "Αναζήτηση στο βιβλίο",
+  pdfError: "Αδυναμία φόρτωσης PDF.",
+  pdfNoMatches: "Δεν βρέθηκαν αποτελέσματα.",
   readOnline: "Ανάγνωση στο διαδίκτυο",
   readPdf: "Ανάγνωση PDF",
   siteDescription: 'Μια επιλεγμένη βιβλιοθήκη λογοτεχνίας κοινού κτήματος.',

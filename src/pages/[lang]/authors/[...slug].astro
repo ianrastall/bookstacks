@@ -10,6 +10,7 @@ import {
   getLibrary,
   localizedEditionHref,
   localizedUnitHref,
+  pdfReadingHref,
   hasEmbeddedPdf,
   type Author,
   type Edition,
@@ -83,7 +84,6 @@ const description = page.kind === 'author'
         </div>
       </div>
       <p class="edition-note"><T locale={locale} k="editionStructureNote" /></p>
-      <PdfReader author={page.author} edition={page.edition} locale={locale} />
       {page.edition.sourceDescription && (
         <aside class="edition-source-note">
           <strong><T locale={locale} k="sources" /></strong>
@@ -100,7 +100,7 @@ const description = page.kind === 'author'
           </div>
           <div class="edition-actions">
             {page.edition.units[0] && <a class="btn btn-primary btn-compact" href={localizedUnitHref(page.work, page.edition, page.edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span><T locale={locale} k="readOnline" /></a>}
-            {hasEmbeddedPdf(page.edition) && <a class="btn btn-secondary btn-compact" href="#pdf-reader"><T locale={locale} k="readPdf" /></a>}
+            {hasEmbeddedPdf(page.edition) && <a class="btn btn-secondary btn-compact reader-start-pdf" href={pdfReadingHref(page.work,page.edition)}><T locale={locale} k="readPdf" /></a>}
             <a class="btn btn-secondary btn-compact" href="#downloads"><span class="material-icons" aria-hidden="true">download</span><T locale={locale} k="downloads" /></a>
           </div>
         </header>
@@ -123,6 +123,14 @@ const description = page.kind === 'author'
         )}
       </article>
       <EditionDownloads author={page.author} work={page.work} edition={page.edition} locale={locale} />
+      <script>
+        const pdfStart=document.querySelector<HTMLAnchorElement>('.reader-start-pdf');
+        if(pdfStart&&location.hash==='#pdf-reader'){
+          const target=new URL(pdfStart.href);
+          for(const [key,value] of new URL(location.href).searchParams)if(key!=='view')target.searchParams.set(key,value);
+          location.replace(target.href);
+        }
+      </script>
     </section>
   )}
 
@@ -132,11 +140,14 @@ const description = page.kind === 'author'
         <nav class="chapter-breadcrumbs" aria-label={t('contents')} data-i18n-aria-label="contents">
           <a href="/"><T locale={locale} k="library" /></a><span>/</span><a href={`/authors/${page.author.slug}`}>{page.author.name}</a><span>/</span><a href={localizedEditionHref(page.work, page.edition)}>{page.edition.sourceTitle}</a>
         </nav>
-        <p lang={page.edition.code} dir={editionDir} translate="no" class="reader-context">{page.unit.context.join(' · ')}</p>
-        <h1 lang={page.edition.code} dir={editionDir} translate="no">{page.unit.title}</h1>
+        <p lang={page.edition.code} dir={editionDir} translate="no" class="reader-context" data-online-only>{page.unit.context.join(' · ')}</p>
+        <h1 lang={page.edition.code} dir={editionDir} translate="no" data-reader-title data-online-title={page.unit.title} data-pdf-title={page.edition.sourceTitle}>{page.unit.title}</h1>
       </header>
       <div class="chapter-layout">
-        <article lang={page.edition.code} dir={editionDir} translate="no" class="reader-content" set:html={page.unit.html} />
+        <div class="reader-main" data-reader-surface>
+          <article id="reader-online" data-online-content lang={page.edition.code} dir={editionDir} translate="no" class="reader-content" set:html={page.unit.html} />
+          <PdfReader author={page.author} edition={page.edition} locale={locale} unitTitle={page.unit.title} unitContext={page.unit.context} />
+        </div>
         <aside class="chapter-sidebar" aria-label={t('readingControls')} data-i18n-aria-label="readingControls">
           <details class="reader-controls panel" open><summary><T locale={locale} k="readingControls" /></summary>
             <strong lang={page.edition.code} dir={editionDir} translate="no">{page.edition.sourceTitle}</strong>
@@ -150,9 +161,12 @@ const description = page.kind === 'author'
                 </ul>
               </details>
             )}
-            <button type="button" class="reader-fullscreen" aria-pressed="false" disabled><T locale={locale} k="fullscreen" /></button>
-            {hasEmbeddedPdf(page.edition) && <a class="btn btn-secondary btn-compact" href={`${localizedEditionHref(page.work, page.edition)}#pdf-reader`}><T locale={locale} k="readPdf" /></a>}
-            <div class="reader-display">
+            {hasEmbeddedPdf(page.edition) && <div class="reading-mode" role="group" aria-label={t('readingControls')} data-i18n-aria-label="readingControls">
+              <button type="button" data-reading-mode="online" aria-pressed="true" aria-controls="reader-online" disabled><T locale={locale} k="readOnline" /></button>
+              <button type="button" data-reading-mode="pdf" aria-pressed="false" aria-controls="pdf-reader" disabled><T locale={locale} k="readPdf" /></button>
+            </div>}
+            <button type="button" class="reader-fullscreen" aria-pressed="false" data-online-only disabled><T locale={locale} k="fullscreen" /></button>
+            <div class="reader-display" data-online-only>
               <span><T locale={locale} k="textWidth" /></span>
               <button type="button" data-reader-action="narrow" aria-label={t('narrowText')} data-i18n-aria-label="narrowText">−</button>
               <button type="button" data-reader-action="wide" aria-label={t('widenText')} data-i18n-aria-label="widenText">+</button>
@@ -160,7 +174,7 @@ const description = page.kind === 'author'
               <button type="button" data-reader-action="smaller" dir="ltr" aria-label={t('decreaseText')} data-i18n-aria-label="decreaseText">A−</button>
               <button type="button" data-reader-action="larger" dir="ltr" aria-label={t('increaseText')} data-i18n-aria-label="increaseText">A+</button>
             </div>
-            <div class="reader-font-controls">
+            <div class="reader-font-controls" data-online-only>
               <label class="reader-font-picker">
                 <span><T locale={locale} k="serifCascade" /></span>
                 <select data-reader-font="serif" dir="ltr" autocomplete="off" aria-describedby="reader-font-note">
@@ -188,13 +202,13 @@ const description = page.kind === 'author'
               <p class="reader-font-note" id="reader-font-note"><T locale={locale} k="fontNote" /></p>
             </div>
           </details>
-          <nav class="chapter-navigation" aria-label={t('readingOrder')} data-i18n-aria-label="readingOrder">
+          <nav class="chapter-navigation" data-online-only aria-label={t('readingOrder')} data-i18n-aria-label="readingOrder">
             {page.unit.previousPath ? <a class="btn btn-secondary chapter-nav-button" rel="prev" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.previousPath}`}><span class="material-icons directional-icon" aria-hidden="true">arrow_back</span><T locale={locale} k="previous" /></a> : <span class="btn btn-secondary chapter-nav-button is-disabled"><T locale={locale} k="previous" /></span>}
             <a class="btn btn-secondary chapter-nav-button" href={localizedEditionHref(page.work, page.edition)}><span class="material-icons" aria-hidden="true">list</span><T locale={locale} k="contents" /></a>
             {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.nextPath}`}><T locale={locale} k="next" /><span class="material-icons directional-icon" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled"><T locale={locale} k="next" /></span>}
           </nav>
           {page.unit.illustration && (
-            <figure class="reader-illustration tei-engraving" lang={page.edition.code} dir={editionDir} translate="no">
+            <figure class="reader-illustration tei-engraving" data-online-only lang={page.edition.code} dir={editionDir} translate="no">
               <img class="tei-graphic" src={page.unit.illustration.previewSrc ?? page.unit.illustration.src} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
             </figure>
           )}

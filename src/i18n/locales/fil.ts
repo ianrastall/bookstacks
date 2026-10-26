@@ -1,6 +1,10 @@
 import type { Messages } from '../types';
 
 export default {
+  pdfPage: "Pahina",
+  pdfFind: "Hanapin sa aklat",
+  pdfError: "Hindi ma-load ang PDF.",
+  pdfNoMatches: "Walang tugma.",
   readOnline: "Magbasa online",
   readPdf: "Magbasa ng PDF",
   siteDescription: 'Isang piniling aklatan ng panitikang nasa pampublikong domain.',

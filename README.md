@@ -44,10 +44,13 @@ their URLs remain supported. See the
 for the offline export command and embedded PDF.js reader details.
 
 Every edition offers **Read online** for reflowing HTML and **Read PDF** for
-the fixed PDF layout. PDF.js is bundled locally and loads only when opened.
+the fixed PDF layout in the same reading column. The format switch preserves
+the chapter route and surrounding site navigation/sidebar. PDF.js renders the
+PDF page directly into the content area, with no nested reader application.
+The `view=pdf` query selects that rendering; existing book-page `#pdf-reader`
+links forward to the same edition's reader. PDF.js loads only when selected.
 It provides search, text selection, bookmarks and page navigation. The viewer
-follows Settings > Appearance > Theme. Changing theme inside the PDF reader
-changes that same site setting and preserves the current PDF page. PDF page
+follows Settings > Appearance > Theme and preserves the current PDF page. PDF page
 position is saved independently of HTML reading position.
 
 The library homepage, author pages, book pages and chapter controls provide
