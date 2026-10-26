@@ -1,16 +1,15 @@
 ---
 import T from './InterfaceText.astro';
-import { editionPdfHref, type Author, type Edition } from '../lib/library';
+import { editionPdfHref, isEmbeddablePdfHref, type Author, type Edition } from '../lib/library';
 import type { Locale } from '../lib/i18n';
 interface Props { author: Author; edition: Edition; locale: Locale }
 const { author, edition, locale } = Astro.props;
 const legacy = editionPdfHref(author, edition);
-// Release assets remain downloadable; PDF.js fetches only same-origin files.
-const localVariants = edition.pdfVariants?.filter(pdf => pdf.href.startsWith('/')) ?? [];
-const files = localVariants.length ? localVariants : legacy?.startsWith('/') ? [{ theme: 'dark', href: legacy, revision: legacy }] : [];
+const localVariants = edition.pdfVariants?.filter(pdf => isEmbeddablePdfHref(pdf.href)) ?? [];
+const files = localVariants.length ? localVariants : legacy && isEmbeddablePdfHref(legacy) ? [{ theme: 'dark', href: legacy, revision: legacy }] : [];
 ---
 {files.length > 0 && <details id="pdf-reader" class="pdf-reader edition-panel" data-pdf-files={JSON.stringify(files)}>
-  <summary><T locale={locale} k="startReading" /> · PDF</summary>
+  <summary><T locale={locale} k="readPdf" /></summary>
   <div class="pdf-reader-controls">
     {files.length > 1 && <label><T locale={locale} k="theme" /> <select data-pdf-theme aria-label="PDF" disabled>
       {files.map(pdf => <option value={pdf.theme}><T locale={locale} k={pdf.theme === 'light' ? 'themeLight' : 'themeDark'} /></option>)}

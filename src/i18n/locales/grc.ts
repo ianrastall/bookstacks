@@ -2,6 +2,8 @@ import type { Messages } from '../types';
 
 // Ancient Greek. Modern Greek is the separate `el` catalogue.
 export default {
+  readOnline: "Ἀνάγνωσις ἐν τῷ ἱστῷ",
+  readPdf: "Ἀνάγνωσις PDF",
   siteDescription: 'Βιβλιοθήκη ἐκλεκτῶν δημοσίων συγγραμμάτων.',
   skipToContent: 'Ἐπὶ τὸ περιεχόμενον',
   library: 'Βιβλιοθήκη',

@@ -10,6 +10,7 @@ import {
   getLibrary,
   localizedEditionHref,
   localizedUnitHref,
+  hasEmbeddedPdf,
   type Author,
   type Edition,
   type ReadingUnit,
@@ -98,7 +99,8 @@ const description = page.kind === 'author'
             <p><T locale={locale} k="readingUnitCount" args={[page.edition.units.length]} /></p>
           </div>
           <div class="edition-actions">
-            {page.edition.units[0] && <a class="btn btn-primary btn-compact" href={localizedUnitHref(page.work, page.edition, page.edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span><T locale={locale} k="startReading" /></a>}
+            {page.edition.units[0] && <a class="btn btn-primary btn-compact" href={localizedUnitHref(page.work, page.edition, page.edition.units[0])}><span class="material-icons" aria-hidden="true">auto_stories</span><T locale={locale} k="readOnline" /></a>}
+            {hasEmbeddedPdf(page.edition) && <a class="btn btn-secondary btn-compact" href="#pdf-reader"><T locale={locale} k="readPdf" /></a>}
             <a class="btn btn-secondary btn-compact" href="#downloads"><span class="material-icons" aria-hidden="true">download</span><T locale={locale} k="downloads" /></a>
           </div>
         </header>
@@ -149,6 +151,7 @@ const description = page.kind === 'author'
               </details>
             )}
             <button type="button" class="reader-fullscreen" aria-pressed="false" disabled><T locale={locale} k="fullscreen" /></button>
+            {hasEmbeddedPdf(page.edition) && <a class="btn btn-secondary btn-compact" href={`${localizedEditionHref(page.work, page.edition)}#pdf-reader`}><T locale={locale} k="readPdf" /></a>}
             <div class="reader-display">
               <span><T locale={locale} k="textWidth" /></span>
               <button type="button" data-reader-action="narrow" aria-label={t('narrowText')} data-i18n-aria-label="narrowText">−</button>

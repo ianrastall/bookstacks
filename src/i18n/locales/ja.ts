@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "オンラインで読む",
+  readPdf: "PDFで読む",
   siteDescription: 'パブリックドメイン文学の選定ライブラリ。',
   skipToContent: '本文へ移動',
   library: 'ライブラリ',

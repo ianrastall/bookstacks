@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Soma mtandaoni",
+  readPdf: "Soma PDF",
   siteDescription: 'Maktaba teule ya fasihi isiyo na hakimiliki.',
   skipToContent: 'Ruka hadi maudhui',
   library: 'Maktaba',

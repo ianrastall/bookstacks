@@ -7,6 +7,10 @@ import { headingTitleCase, normalizeHeadingNode } from './headings';
 import { EDITION_LANGUAGES, isEditionLanguage, type EditionLanguage as Locale } from './i18n';
 import '../i18n/catalogues';
 import { text as interfaceText } from './interface';
+import publicationData from '../data/pdf-publications.json';
+
+const PUBLICATION_URL = 'https://ianrastall.github.io/bookstacks-pdf/books/';
+const PUBLICATION_INDEX = publicationData as Record<string, { source_sha256: string; variants: PdfVariant[] }>;
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';
@@ -384,6 +388,14 @@ export function editionPdfHref(
   return edition.pdfHref ?? `/tei/${author.slug}/${edition.pdfFile}`;
 }
 
+export function hasEmbeddedPdf(edition: Pick<Edition, 'pdfVariants' | 'pdfHref'>): boolean {
+  return Boolean(edition.pdfVariants?.some(pdf => isEmbeddablePdfHref(pdf.href)) || (edition.pdfHref && isEmbeddablePdfHref(edition.pdfHref)));
+}
+
+export function isEmbeddablePdfHref(href: string): boolean {
+  return href.startsWith('/') || href.startsWith(PUBLICATION_URL);
+}
+
 function findXmlFiles(root: string): string[] {
   if (!fs.existsSync(root)) throw new Error(`TEI directory not found: ${root}`);
   return fs.readdirSync(root, { withFileTypes: true })
@@ -403,8 +415,12 @@ function parseEdition(filePath: string): ParsedEdition {
   const [, authorSlug, workSlug, fileLanguage] = match;
   const repositoryPdfPath = path.join(path.dirname(filePath), pdfName);
   const generatedPdfPath = path.join(EXPORT_ROOT, authorSlug, stem, pdfName);
-  const pdfVariants: PdfVariant[] = [];
-  for (const theme of ['light', 'dark'] as const) {
+  const publication = PUBLICATION_INDEX[stem];
+  if (publication && publication.source_sha256 !== createHash('sha256').update(fs.readFileSync(filePath)).digest('hex')) {
+    throw new Error(`PDF publication source does not match canonical TEI: ${fileName}`);
+  }
+  const pdfVariants: PdfVariant[] = publication ? publication.variants : [];
+  if (!publication) for (const theme of ['light', 'dark'] as const) {
     const file = `${stem}-${theme}.pdf`;
     const local = path.join(path.dirname(filePath), file);
     const exported = path.join(EXPORT_ROOT, authorSlug, stem, file);

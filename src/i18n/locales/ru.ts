@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Читать онлайн",
+  readPdf: "Читать PDF",
   siteDescription: 'Избранная библиотека литературы общественного достояния.',
   skipToContent: 'Перейти к содержанию',
   library: 'Библиотека',

@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Läs online",
+  readPdf: "Läs PDF",
   siteDescription: 'Ett utvalt bibliotek med litteratur som inte längre skyddas av upphovsrätt.',
   skipToContent: 'Hoppa till innehållet',
   library: 'Bibliotek',

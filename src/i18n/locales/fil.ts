@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Magbasa online",
+  readPdf: "Magbasa ng PDF",
   siteDescription: 'Isang piniling aklatan ng panitikang nasa pampublikong domain.',
   skipToContent: 'Lumaktaw sa nilalaman',
   library: 'Aklatan',

@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "خواندن آنلاین",
+  readPdf: "خواندن PDF",
   siteDescription: 'کتابخانه‌ای گزیده از ادبیات مالکیت عمومی.',
   skipToContent: 'رفتن به محتوا',
   library: 'کتابخانه',

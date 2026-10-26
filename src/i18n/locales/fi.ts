@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Lue verkossa",
+  readPdf: "Lue PDF",
   siteDescription: 'Valikoitu kirjasto tekijänoikeuksista vapaata kirjallisuutta.',
   skipToContent: 'Siirry sisältöön',
   library: 'Kirjasto',

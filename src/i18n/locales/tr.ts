@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Çevrimiçi oku",
+  readPdf: "PDF oku",
   siteDescription: 'Kamu malı edebiyattan seçilmiş bir kütüphane.',
   skipToContent: 'İçeriğe geç',
   library: 'Kütüphane',

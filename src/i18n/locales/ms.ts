@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Baca dalam talian",
+  readPdf: "Baca PDF",
   siteDescription: 'Perpustakaan pilihan karya sastera domain awam.',
   skipToContent: 'Langkau ke kandungan',
   library: 'Perpustakaan',

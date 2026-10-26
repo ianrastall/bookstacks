@@ -15,11 +15,13 @@ import re
 import shutil
 import subprocess
 import sys
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
 from pypdf import PdfReader
+from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,6 +35,11 @@ BOLD_ITALIC_FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NewCM10-BoldItalic.
 SMALL_FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NewCM08-Regular.otf"
 SMALL_ITALIC_FONT_PATH = ROOT / "src" / "assets" / "fonts" / "NewCM08-Italic.otf"
 AUTHOR_PROFILES_PATH = ROOT / "src" / "data" / "author-profiles.json"
+CJK_FONT_PATH = ROOT / '.tools' / 'cjk' / 'NotoSerifCJKsc-Regular.otf'
+CJK_BOLD_FONT_PATH = ROOT / '.tools' / 'cjk' / 'NotoSerifCJKsc-Bold.otf'
+CJK_RARE_FONT_PATH = ROOT / '.tools' / 'cjk' / 'BabelStoneHan.ttf'
+FALLBACK_FONT_PATH = ROOT / 'src/assets/fonts/NotoSerif.ttf'
+SYMBOL_FONT_PATH = ROOT / '.tools/symbols/NotoSansSymbols2-Regular.ttf'
 XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 XML_LANG = "{http://www.w3.org/XML/1998/namespace}lang"
 
@@ -40,6 +47,7 @@ AUTHOR_PROFILES: dict[str, dict[str, str]] = json.loads(AUTHOR_PROFILES_PATH.rea
 PUBLISHED_AUTHORS = set(AUTHOR_PROFILES)
 
 LANGUAGES = {
+    "zho": {"code": "zh-Hans", "name": "简体中文", "contents": "目录", "note": "注"},
     "eng": {"code": "en", "name": "English", "contents": "Contents", "note": "Note"},
     "fra": {"code": "fr", "name": "Français", "contents": "Sommaire", "note": "Note"},
     "spa": {"code": "es", "name": "Español", "contents": "Índice", "note": "Nota"},
@@ -134,6 +142,11 @@ class Edition:
 
 def local_name(element: ET.Element) -> str:
     return element.tag.rsplit("}", 1)[-1]
+
+
+def needs_cjk(edition: Edition) -> bool:
+    value = edition.author + edition.title + ''.join(edition.root.itertext())
+    return any(char == '─' or 0x2E80 <= ord(char) <= 0x9FFF or 0x20000 <= ord(char) <= 0x3FFFF for char in value)
 
 
 def clean(value: str | None) -> str:
@@ -312,12 +325,18 @@ def parse_edition(source: Path) -> Edition:
     publication_date_node = first_direct(publication_stmt, "date") if publication_stmt is not None else None
     source_desc = first_descendant(root, "sourceDesc")
     source_monograph = first_descendant(source_desc, "monogr") if source_desc is not None else None
+    if source_monograph is None and source_desc is not None:
+        source_monograph = first_descendant(source_desc, 'bibl')
     source_parts: list[str] = []
     if source_monograph is not None:
         for source_name in ("title", "publisher", "date"):
             source_value = element_text(first_descendant(source_monograph, source_name))
             if source_value and source_value not in source_parts:
                 source_parts.append(source_value)
+        for node in source_monograph.iter():
+            link = node.get('target', '') if local_name(node) == 'ref' else element_text(node) if local_name(node) == 'idno' else ''
+            if link.startswith(('https://', 'http://')) and link not in source_parts:
+                source_parts.append(link)
     identifier = root.get(XML_ID) or source.stem.replace("_", "-")
     return Edition(
         source=source,
@@ -498,6 +517,22 @@ class LatexRenderer:
             if caption is None:
                 caption = first_descendant(node, "head")
             content = element_text(caption)
+            graphic = first_descendant(node, 'graphic')
+            if graphic is not None and graphic.get('url'):
+                image_source = (self.edition.source.parent / graphic.get('url')).resolve()
+                if image_source.is_relative_to(TEI_ROOT.resolve()) and image_source.is_file():
+                    image_dir = TMP_ROOT / self.edition.stem / 'images'
+                    image_dir.mkdir(parents=True, exist_ok=True)
+                    image_path = image_dir / (hashlib.sha256(str(image_source).encode()).hexdigest()[:16] + '.jpg')
+                    if not image_path.exists():
+                        with Image.open(image_source) as picture:
+                            picture.thumbnail((1400, 1400), Image.Resampling.LANCZOS)
+                            matte = Image.new('RGBA', picture.size, '#ffffff' if PDF_THEME == 'paper' else '#171614')
+                            matte.alpha_composite(picture.convert('RGBA'))
+                            matte.convert('RGB').save(image_path, quality=90, optimize=True)
+                    path = image_path.as_posix()
+                    description = f'\\par\\smallskip{{\\footnotesize {latex_escape(content)}\\par}}' if content else ''
+                    return '\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\centering\n' + rf'\includegraphics[width=\linewidth,height=.6\textheight,keepaspectratio]{{\detokenize{{{path}}}}}' + description + '\n\\end{minipage}\\par\\medskip'
             return f"\\begin{{bookstacksstage}}{latex_escape(content)}\\end{{bookstacksstage}}" if content else ""
         if name in {"pb", "milestone", "fw", "metamark", "certainty", "shift"}:
             return ""
@@ -664,9 +699,13 @@ def latex_escape(value: str) -> str:
     replacements = {
         "\\": r"\textbackslash{}", "&": r"\&", "%": r"\%", "$": r"\$", "#": r"\#",
         "_": r"\_", "{": r"\{", "}": r"\}", "~": r"\textasciitilde{}", "^": r"\textasciicircum{}",
-        "\u0092": "’", "√": r"\ensuremath{\surd}", "≠": "", "⏑": r"\ensuremath{\smile}",
+        "\u0092": "’", "√": r"\ensuremath{\surd}", "≠": r"\ensuremath{\ne}", "⏑": r"\ensuremath{\smile}",
         "〈": r"\ensuremath{\langle}", "〉": r"\ensuremath{\rangle}", "\uf00f": "", "（": "(", "）": ")",
     }
+    replacements.update({char: '{\\bookstacksfallback ' + char + '}' for char in '―⸺⸻'})
+    replacements['☛'] = r'{\bookstackssymbol ☛}'
+    replacements['\u2060'] = r'\nobreak{}'
+    replacements['─'] = r'{\bookstackscjksymbol ─}'
     return "".join(replacements.get(character, character) for character in value)
 
 
@@ -814,6 +853,12 @@ def latex_document(
 \definecolor{bookmuted}{HTML}{5F5851}
 \definecolor{bookaccent}{HTML}{6B2636}
 """ if PDF_THEME == "paper" else ""
+    cjk_setup = r"""
+\usepackage[AutoFallBack=true]{xeCJK}
+\setCJKmainfont{NotoSerifCJKsc-Regular.otf}[BoldFont={NotoSerifCJKsc-Bold.otf},ItalicFont={NotoSerifCJKsc-Regular.otf}]
+\setCJKfallbackfamilyfont{\CJKrmdefault}{BabelStoneHan.ttf}
+\newfontfamily\bookstackscjksymbol{NotoSerifCJKsc-Regular.otf}
+""" if needs_cjk(edition) else ''
     canonical_url = edition.canonical_url
     return rf"""\documentclass[11pt,twoside,openany]{{memoir}}
 \usepackage{{fontspec}}
@@ -823,6 +868,10 @@ def latex_document(
   BoldItalicFont={{{bold_italic_font_filename}}}
 ]
 \usepackage[{language}]{{babel}}
+{cjk_setup}
+\usepackage{{graphicx}}
+\newfontfamily\bookstacksfallback{{NotoSerif.ttf}}
+\newfontfamily\bookstackssymbol{{NotoSansSymbols2-Regular.ttf}}
 \usepackage{{microtype}}
 \usepackage{{amssymb}}
 \usepackage{{xcolor}}
@@ -997,6 +1046,16 @@ def edition_fingerprint(edition: Edition) -> str:
     for path in inputs:
         digest.update(path.relative_to(ROOT).as_posix().encode("utf-8"))
         digest.update(path.read_bytes())
+    for path in (FALLBACK_FONT_PATH, SYMBOL_FONT_PATH):
+        digest.update(path.read_bytes())
+    if needs_cjk(edition):
+        for path in (CJK_FONT_PATH, CJK_BOLD_FONT_PATH, CJK_RARE_FONT_PATH):
+            digest.update(path.read_bytes())
+    for node in edition.root.iter():
+        if local_name(node) == 'graphic' and node.get('url'):
+            path = (edition.source.parent / node.get('url')).resolve()
+            if path.is_relative_to(TEI_ROOT.resolve()) and path.is_file():
+                digest.update(path.read_bytes())
     return digest.hexdigest()
 
 
@@ -1049,6 +1108,11 @@ def build_edition(edition: Edition) -> dict[str, object]:
         SMALL_ITALIC_FONT_PATH,
     ):
         shutil.copy2(font_path, latex_dir / font_path.name)
+    for font_path in (FALLBACK_FONT_PATH, SYMBOL_FONT_PATH):
+        shutil.copy2(font_path, latex_dir / font_path.name)
+    if needs_cjk(edition):
+        for font_path in (CJK_FONT_PATH, CJK_BOLD_FONT_PATH, CJK_RARE_FONT_PATH):
+            shutil.copy2(font_path, latex_dir / font_path.name)
     tex_path = latex_dir / f"{edition.stem}.tex"
     tex_path.write_text(
         latex_document(
@@ -1064,6 +1128,9 @@ def build_edition(edition: Edition) -> dict[str, object]:
     )
     tectonic = find_tectonic()
     run([tectonic, "--keep-logs", "--outdir", str(latex_dir), tex_path.name], cwd=latex_dir)
+    log = tex_path.with_suffix('.log').read_text(encoding='utf-8', errors='replace')
+    if 'Missing character:' in log:
+        raise RuntimeError('Missing PDF glyphs: ' + '\n'.join(line for line in log.splitlines() if 'Missing character:' in line)[:2000])
     compiled_pdf = latex_dir / f"{edition.stem}.pdf"
     pdf_path = edition.output_dir / edition.output_name
     shutil.copy2(compiled_pdf, pdf_path)
@@ -1079,6 +1146,7 @@ def build_edition(edition: Edition) -> dict[str, object]:
         "pdf_theme": PDF_THEME,
         "canonical_url": edition.canonical_url,
         "source_tei": edition.source.name,
+        "source_sha256": sha256(edition.source),
         "generator_fingerprint": fingerprint,
         "validations": validations,
         "files": [{"name": pdf_path.name, "bytes": pdf_path.stat().st_size, "sha256": sha256(pdf_path)}],
@@ -1108,6 +1176,16 @@ def source_files(arguments: argparse.Namespace) -> list[Path]:
     return files
 
 
+def build_themes(source: Path, themes: tuple[str, ...]) -> list[dict[str, object]]:
+    global PDF_THEME
+    edition = parse_edition(source)
+    results = []
+    for theme in themes:
+        PDF_THEME = theme
+        results.append(build_edition(edition))
+    return results
+
+
 def main() -> int:
     global PDF_THEME, EXPORT_BOTH_THEMES
     for stream in (sys.stdout, sys.stderr):
@@ -1118,6 +1196,7 @@ def main() -> int:
     parser.add_argument("--file", action="append", help="Build one TEI file (relative to the repository or absolute).")
     parser.add_argument("--all", action="store_true", help="Build every published TEI edition (the default when --file is omitted).")
     parser.add_argument("--theme", choices=("dark", "paper", "both"), default="dark", help="PDF appearance. Filenames include -light or -dark; 'both' generates the pair; default: dark.")
+    parser.add_argument('--workers', type=int, default=1, choices=range(1, 9), help='Independent edition export processes (1-8).')
     arguments = parser.parse_args()
     EXPORT_BOTH_THEMES = arguments.theme == "both"
     themes = ("paper", "dark") if EXPORT_BOTH_THEMES else (arguments.theme,)
@@ -1126,6 +1205,22 @@ def main() -> int:
     CHANGED_ASSETS.clear()
     files = source_files(arguments)
     manifests: list[dict[str, object]] = []
+    if arguments.workers > 1:
+        failures = []
+        with ProcessPoolExecutor(max_workers=arguments.workers) as pool:
+            futures = {pool.submit(build_themes, source, themes): source for source in files}
+            for index, future in enumerate(as_completed(futures), 1):
+                source = futures[future]
+                try:
+                    manifests.extend(future.result())
+                    print(f'[{index}/{len(files)}] {source.stem}: ready', flush=True)
+                except Exception as error:
+                    failures.append({'source': str(source), 'error': str(error)})
+                    print(f'[{index}/{len(files)}] {source.stem}: FAILED: {error}', flush=True)
+        (OUTPUT_ROOT / '_export-report.json').write_text(json.dumps({'completed': len(manifests), 'failures': failures}, indent=2), encoding='utf-8')
+        assets = [str(Path(m['source_tei']).stem) for m in manifests]
+        (OUTPUT_ROOT / '_changed-assets.json').write_text(json.dumps(sorted(str(p.relative_to(OUTPUT_ROOT)).replace('\\', '/') for p in OUTPUT_ROOT.rglob('*.pdf') if p.stem.rsplit('-', 1)[0] in assets), indent=2), encoding='utf-8')
+        return 1 if failures else 0
     for index, source in enumerate(files, 1):
         edition = parse_edition(source)
         for theme in themes:

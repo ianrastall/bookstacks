@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "অনলাইনে পড়ুন",
+  readPdf: "PDF পড়ুন",
   siteDescription: 'পাবলিক ডোমেইন সাহিত্যের একটি নির্বাচিত গ্রন্থাগার।',
   skipToContent: 'মূল বিষয়বস্তুতে যান',
   library: 'গ্রন্থাগার',

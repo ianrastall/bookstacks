@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "線上閱讀",
+  readPdf: "閱讀 PDF",
   siteDescription: '精選公版文學圖書館。',
   skipToContent: '跳至正文',
   library: '圖書館',

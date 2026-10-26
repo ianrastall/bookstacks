@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "آن لائن پڑھیں",
+  readPdf: "PDF پڑھیں",
   siteDescription: 'عوامی ملکیت کے ادب کی ایک منتخب لائبریری۔',
   skipToContent: 'مواد پر جائیں',
   library: 'لائبریری',

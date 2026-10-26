@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "ऑनलाइन वाचा",
+  readPdf: "PDF वाचा",
   siteDescription: 'सार्वजनिक क्षेत्रातील साहित्याचे निवडक ग्रंथालय.',
   skipToContent: 'मजकुराकडे जा',
   library: 'ग्रंथालय',

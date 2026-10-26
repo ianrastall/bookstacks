@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "קריאה מקוונת",
+  readPdf: "קריאת PDF",
   siteDescription: 'ספרייה נבחרת של ספרות בנחלת הכלל.',
   skipToContent: 'דילוג לתוכן',
   library: 'ספרייה',

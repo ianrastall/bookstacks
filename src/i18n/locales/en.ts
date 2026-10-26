@@ -1,6 +1,8 @@
 import type { Message } from '../types';
 
 const en = {
+  readOnline: "Read online",
+  readPdf: "Read PDF",
   siteDescription: 'A curated library of public-domain literature.',
   skipToContent: 'Skip to content',
   library: 'Library',

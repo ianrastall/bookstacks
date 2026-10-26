@@ -4,6 +4,7 @@ dist/
 .tools/
 tmp/
 output/
+/publications/
 /assets/
 .DS_Store
 Thumbs.db

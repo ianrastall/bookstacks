@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "القراءة على الويب",
+  readPdf: "قراءة PDF",
   siteDescription: 'مكتبة مختارة من الأدب في الملك العام.',
   skipToContent: 'تخطَّ إلى المحتوى',
   library: 'المكتبة',

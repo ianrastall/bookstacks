@@ -43,12 +43,29 @@ their URLs remain supported. See the
 [Scarlet proof and PDF reader feasibility](docs/pdf-reading-prototype.md)
 for the offline export command and embedded PDF.js reader details.
 
-On edition pages with a local PDF, expand **Start reading · PDF** to read it
-without leaving the page. PDF.js is bundled locally and loads only when opened.
+Every edition offers **Read online** for reflowing HTML and **Read PDF** for
+the fixed PDF layout. PDF.js is bundled locally and loads only when opened.
 It provides search, text selection, bookmarks and page navigation. The viewer
-initially follows Settings > Appearance > Theme, with a separate PDF theme
-choice when both files exist. PDF page position is saved independently of HTML
-reading position. Release-hosted PDFs remain direct downloads.
+follows Settings > Appearance > Theme. Changing theme inside the PDF reader
+changes that same site setting and preserves the current PDF page. PDF page
+position is saved independently of HTML reading position.
+
+The library homepage, author pages, book pages and chapter controls provide
+the two reading choices. Named PDF pairs are published independently in
+[bookstacks-pdf](https://github.com/ianrastall/bookstacks-pdf), with their
+versioned catalogue snapshot in `src/data/pdf-publications.json`. PDF.js fetches
+those files into the book page using the publication host's CORS support.
+The site build verifies each indexed source checksum against canonical TEI;
+it does not run PDF generation or download the PDF corpus into the Pages bundle.
+Existing local and release PDF URLs remain supported for older links.
+
+For the explicit offline publication workflow, install `requirements-exports.txt`
+and `requirements-publications.txt`, run `python scripts/setup_pdf_fonts.py`,
+set `BOOKSTACKS_EXPORT_ROOT` to `../bookstacks-pdf/books`, then run
+`python scripts/build_exports.py --all --theme both --workers 4` and
+`python scripts/index_pdf_publications.py`. Publish the PDF repository before
+committing the matching website snapshot. The font resources are hash-pinned;
+canonical XML, notes, languages and available artwork remain source inputs.
 
 ## Languages
 

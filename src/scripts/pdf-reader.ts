@@ -21,7 +21,6 @@ for (const panel of document.querySelectorAll<HTMLDetailsElement>('[data-pdf-fil
   const pageKey = `bookstacks-pdf-page:${files.map(file => file.revision).join(':')}`;
   const savedPage = Number(read(pageKey));
   let page = Number.isSafeInteger(savedPage) && savedPage > 0 ? savedPage : 1;
-  let explicitTheme = read('bookstacks-pdf-theme');
   let active: PdfFile;
   let loaded = false;
   const viewer = () => (frame.contentWindow as ViewerWindow | null)?.PDFViewerApplication;
@@ -46,7 +45,7 @@ for (const panel of document.querySelectorAll<HTMLDetailsElement>('[data-pdf-fil
     })) doc.documentElement.style.setProperty(target, styles.getPropertyValue(source));
   }
   function open(force = false) {
-    const desired = explicitTheme || root.dataset.theme;
+    const desired = root.dataset.theme;
     const file = files.find(file => file.theme === desired) ?? files[0];
     if (choice) { choice.value = file.theme; choice.disabled = false; }
     download.href = file.href;
@@ -88,9 +87,14 @@ for (const panel of document.querySelectorAll<HTMLDetailsElement>('[data-pdf-fil
     });
   });
   choice?.addEventListener('change', () => {
-    explicitTheme = choice.value;
-    save('bookstacks-pdf-theme', explicitTheme);
-    open();
+    const siteTheme = document.querySelector<HTMLSelectElement>('#theme-choice');
+    if (siteTheme) {
+      siteTheme.value = choice.value;
+      siteTheme.dispatchEvent(new Event('change', { bubbles: true }));
+    } else {
+      root.dataset.theme = choice.value;
+      save('bookstacks-theme', choice.value);
+    }
   });
   panel.addEventListener('toggle', () => {
     if (panel.open) {

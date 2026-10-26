@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "온라인으로 읽기",
+  readPdf: "PDF 읽기",
   siteDescription: '퍼블릭 도메인 문학을 엄선한 도서관.',
   skipToContent: '본문으로 건너뛰기',
   library: '도서관',

@@ -56,6 +56,12 @@ class ScarletExportTests(unittest.TestCase):
             self.assertEqual(release_tag(Path(f'doyle/edition/doyle_a-study-in-scarlet_eng{suffix}.pdf')), 'publications-en-a-m')
             self.assertEqual(release_tag(Path(f'austen/edition/austen_emma_fra{suffix}.pdf')), 'publications-fr')
 
+    def test_uncommon_punctuation_and_math_keep_visible_glyphs(self):
+        self.assertIn('―', exports.latex_escape('―'))
+        self.assertIn('☛', exports.latex_escape('☛'))
+        self.assertIn(r'\ne', exports.latex_escape('≠'))
+        self.assertIn(r'\nobreak{}', exports.latex_escape('\u2060'))
+
 
 if __name__ == "__main__":
     unittest.main()

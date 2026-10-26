@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Číst online",
+  readPdf: "Číst PDF",
   siteDescription: 'Výběrová knihovna volně dostupné literatury.',
   skipToContent: 'Přejít na obsah',
   library: 'Knihovna',

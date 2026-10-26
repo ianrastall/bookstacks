@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Olvasás online",
+  readPdf: "PDF olvasása",
   siteDescription: 'Közkincsnek számító irodalom válogatott könyvtára.',
   skipToContent: 'Ugrás a tartalomra',
   library: 'Könyvtár',

@@ -9,10 +9,14 @@ The generic distribution is self-hosted here. Source maps and Mozilla's sample
 PDF are omitted. viewer.html has a Bookstacks title. The application configures
 the viewer before initialization via webviewerloaded; application integration
 is in src/scripts/pdf-reader.ts. It supplies the selected edition URL, interface
-locale, theme tokens, and page restoration. No external PDF rendering service
-or CDN is used. PDF scripting and annotation editing are disabled for this
+locale, theme tokens, and page restoration. The file-origin check in viewer.mjs
+also allows `https://ianrastall.github.io/bookstacks-pdf/books/`, the dedicated
+Bookstacks publication host, whose PDFs are fetched with CORS. Other external
+origins retain Mozilla's rejection behavior. No external PDF rendering service
+is used. PDF scripting and annotation editing are disabled for this
 reading interface; download, print, search, outline, text selection and keyboard
 navigation remain provided by PDF.js.
 
 For upgrades, replace the distribution from a pinned Mozilla release, retain
-this record and the title change, and rerun the embedded reader browser tests.
+this record, the title change and the narrowly scoped origin exception, and
+rerun the embedded reader browser tests.

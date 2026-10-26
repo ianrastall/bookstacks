@@ -1,75 +1,89 @@
-# PDF proof and reader feasibility
+# PDF reading and publication
 
-The first proof uses the standalone English edition of *A Study in Scarlet*,
-`tei/doyle/doyle_a-study-in-scarlet_eng.xml`. Its source is Project Gutenberg
-244. This is the original standalone edition, not an extract from either
-illustrated Holmes collection. The canonical XML is unchanged.
+Bookstacks offers two reading modes for every canonical edition:
 
-## Reproduce the proof
+- **Read online** opens the existing HTML reader with reflow and adjustable text.
+- **Read PDF** opens a PDF.js widget within the edition page, with fixed layout,
+  search, outline, text selection and saved physical page position.
 
-Install `requirements-exports.txt` and Tectonic, then run in PowerShell:
+The library, author pages, edition pages and chapter controls expose these
+choices. Existing HTML chapter URLs, editions, interface locales and source
+language metadata remain unchanged. The embedded PDF follows the site theme;
+its own Theme control changes the same Settings > Appearance preference.
+Switching variants preserves the physical page. Saved PDF positions are keyed
+by the pair's checksums and kept separate from HTML chapter positions.
+
+## Repositories and hosting
+
+Canonical TEI and the Astro site live in `ianrastall/bookstacks`. Generated
+PDFs and publication manifests live in `ianrastall/bookstacks-pdf`, hosted at
+`https://ianrastall.github.io/bookstacks-pdf/`. The PDF viewer's application and
+worker remain bundled with Bookstacks. Only the PDF bytes come from the
+publication host; readers remain at `bookstacks.org`.
+
+This separates the publication set from the main site's Pages size budget.
+The publication host exposes the CORS headers needed by PDF.js. Its narrowly
+scoped origin exception allows only that repository's `books/` path, in
+addition to same-origin PDFs. Arbitrary external PDFs remain rejected.
+
+The site's `src/data/pdf-publications.json` is a committed manifest snapshot.
+Each entry identifies the edition through its source filename and SHA-256,
+with named light/dark URLs and PDF checksums. A source mismatch fails the site
+build. The publication repository's root manifest also records source commit,
+canonical edition identity, text language, page counts and extracted-text
+checksums. Old supplied PDFs and direct URLs remain available.
+
+## Explicit offline publication
+
+Install Tectonic plus `requirements-exports.txt` and
+`requirements-publications.txt`, then run from the source repository:
 
 ```powershell
-$env:BOOKSTACKS_EXPORT_ROOT = "$PWD/output/pdf"
-python scripts/build_exports.py --file tei/doyle/doyle_a-study-in-scarlet_eng.xml --theme both
+python scripts/setup_pdf_fonts.py
+$env:BOOKSTACKS_EXPORT_ROOT = 'D:/jupiter/bookstacks-pdf/books'
+python scripts/build_exports.py --all --theme both --workers 4
+python scripts/index_pdf_publications.py
+python D:/jupiter/bookstacks-pdf/scripts/build_site.py
 ```
 
-The PDFs and individual checksum manifests appear below
-`output/pdf/doyle/doyle_a-study-in-scarlet_eng/`. The filenames end in
-`_eng-light.pdf` and `_eng-dark.pdf`; each has its own `.manifest.json`.
-This review directory is outside the site's published downloads. No site build
-or deployment invokes the exporter. Use `--theme paper` or `--theme dark`
-to generate only one variant. Omit BOOKSTACKS_EXPORT_ROOT to write explicit
-offline exports into the publishable `public/downloads/` directory.
-The theme participates in the export cache fingerprint.
+For an individual edition, replace `--all` with
+`--file tei/doyle/doyle_a-study-in-scarlet_eng.xml`. Both filenames retain the
+normal edition stem and append `-light.pdf` or `-dark.pdf`. Each has its own
+checksum manifest. The default exporter theme remains dark; `--theme paper`
+generates the light variant alone.
 
-Both proofs retain the existing 6 × 9-inch format and New Computer Modern
-type. The light version has white reading pages; the dark version has warm
-dark pages and light text. Both retain the dark cover. Source credits, rights,
-edition identity, the editorial footnote and closing verse are preserved.
-Contents and PDF bookmarks include both parts and all fourteen chapters.
-The exporter now handles nested verse stanzas, which previously disappeared.
+Publish the PDF repository and verify its Pages deployment before publishing
+the website's matching manifest snapshot. Neither deployment regenerates TEI
+or PDFs. `scripts/export/fonts.json` pins the open font resources by source URL
+and checksum; fonts are fetched only for the explicit export pipeline.
+The publication repository keeps exporter snapshots and font provenance.
 
-## Embedded PDF reader
+## Validation and scope
 
-Reading the PDF within the book page is feasible on the existing static host.
-It needs no conversion service or recurring server. Generate and validate
-the publication separately, then let the page load that edition's PDF.
+The exporter retains the 6 × 9-inch format and New Computer Modern typography,
+with Chinese and symbol font fallbacks. Source credits, rights, editorial notes,
+verse and available documentary/illustration assets are retained. Images are
+sized for the printed page and compressed without modifying their source files.
+Unresolvable historical image references retain the canonical figure description;
+source acquisition and TEI repair are separate work.
 
-The implementation embeds a self-hosted Mozilla PDF.js 6.4.299 viewer in a
-same-origin iframe. This is the PDF.js HTML application, not the browser's
-native PDF plugin. The user stays at the edition page. Version, license and
-upgrade notes live in `public/vendor/pdfjs/README.md`. All viewer resources
-are served locally. Source documentation:
-<https://mozilla.github.io/pdf.js/getting_started/>.
+The index command checks all PDF checksums against their manifests, verifies
+canonical source checksums, compares every page's extracted text and requires
+matching page counts within each light/dark pair. Each PDF must stay below
+GitHub's individual file limit, and the publication deployment checks the
+aggregate Pages size budget. Representative pages are rendered for visual QA,
+including both themes, Chinese, Greek, Cyrillic, notes, verse and illustrations.
 
-Implemented behavior:
+The PDF.js distribution, license and upgrade notes are recorded in
+`public/vendor/pdfjs/README.md`. Its upstream documentation is at
+https://mozilla.github.io/pdf.js/getting_started/.
 
-- Offer Start reading · PDF on the selected edition page when a local PDF exists.
-- Retain Download PDF and TEI XML as explicit separate actions.
-- Offer both Light PDF and Dark PDF. Use the site's appearance as the initial
-  reader preference, allow a separate explicit PDF choice, and preserve the
-  page when switching between matching versions. PDF colors are fixed within
-  each file; do not simulate dark mode by inverting the light PDF.
-- Load the viewer only when selected; retain the existing reader URLs.
-- Use same-origin published PDFs first. Release-hosted files need a separate
-  CORS check before they can be fetched by PDF.js; a direct Open PDF link is
-  the fallback rather than assuming all existing PDF URLs are embeddable.
-- Key saved PDF page by the pair's checksums. A regenerated PDF can have
-  different pagination. Keep HTML chapter positions separate.
-- Keep viewer controls in the interface locale and the book in its edition
-  language. Interface changes must not choose another edition.
-- Preserve the HTML reader for adjustable text, narrow screens and access
-  needs. A fixed PDF page does not inherit HTML font or theme controls.
+## EPUB follow-up
 
-The standalone Scarlet edition ships with both named PDFs. Existing locally
-published PDFs also gain an embedded viewer; older unsuffixed PDFs retain their
-original links. The site already supports Light and Dark under Settings >
-Appearance > Theme and remembers that choice. The PDF viewer's controls follow
-the site's interface locale independently of the edition language. A separate
-explicit PDF appearance preference is remembered; otherwise PDF selection
-follows the site's theme. Switching variants preserves the current PDF page.
-Search, outline, keyboard controls and selectable text come from the full
-PDF.js viewer; scripting and annotation editing are disabled for this reader.
-
-EPUB export remains future work. No corpus-wide PDF regeneration is performed.
+EPUB export is separate future work. The intended publication is one reflowable
+EPUB package per edition, generated directly from canonical TEI with its source
+credits, notes, language and artwork. Its XHTML/CSS can support both site themes;
+separate light/dark EPUB files are unnecessary. The embedded EPUB reader should
+follow the same site appearance setting and manage contents, saved location and
+chapter navigation. Downloaded copies use the ebook application's appearance
+controls. PDF remains the fixed-layout option; online reading remains available.

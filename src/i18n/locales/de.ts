@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Online lesen",
+  readPdf: "PDF lesen",
   siteDescription: 'Eine ausgewählte Bibliothek gemeinfreier Literatur.',
   skipToContent: 'Zum Inhalt springen',
   library: 'Bibliothek',

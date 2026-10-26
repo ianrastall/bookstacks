@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "Đọc trực tuyến",
+  readPdf: "Đọc PDF",
   siteDescription: 'Thư viện tuyển chọn văn học thuộc phạm vi công cộng.',
   skipToContent: 'Chuyển đến nội dung',
   library: 'Thư viện',

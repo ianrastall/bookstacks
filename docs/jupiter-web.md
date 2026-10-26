@@ -121,3 +121,12 @@ while the text layer retains the book language. PDF reading positions are keyed
 by file revision and remain separate from HTML chapter positions. Site builds
 and deployment still do not regenerate PDFs or canonical TEI. See
 [the export and reader record](pdf-reading-prototype.md) for commands and scope.
+
+The full rollout supersedes the initial separate PDF preference: the embedded
+PDF now uses the site's Light/Dark setting, and its theme control updates the
+site setting. Read online and Read PDF are explicit, translated options in the
+catalogue, author pages, book pages and chapter reader. Every canonical edition
+has a pair in the separate `ianrastall/bookstacks-pdf` publication repository.
+Its Pages host serves the PDF bytes; PDF.js stays embedded on Bookstacks. The
+main repository commits a source-checksummed manifest snapshot, rather than
+copying the enlarged publication set into the site's Pages artifact.

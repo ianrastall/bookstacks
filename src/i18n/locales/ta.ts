@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "இணையத்தில் படிக்கவும்",
+  readPdf: "PDF படிக்கவும்",
   siteDescription: 'பொது உரிமைப் பரப்பிலுள்ள இலக்கியங்களின் தேர்ந்தெடுக்கப்பட்ட நூலகம்.',
   skipToContent: 'உள்ளடக்கத்திற்குச் செல்',
   library: 'நூலகம்',

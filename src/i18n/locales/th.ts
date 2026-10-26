@@ -1,6 +1,8 @@
 import type { Messages } from '../types';
 
 export default {
+  readOnline: "อ่านออนไลน์",
+  readPdf: "อ่าน PDF",
   siteDescription: 'ห้องสมุดคัดสรรวรรณกรรมสาธารณสมบัติ',
   skipToContent: 'ข้ามไปยังเนื้อหา',
   library: 'ห้องสมุด',
