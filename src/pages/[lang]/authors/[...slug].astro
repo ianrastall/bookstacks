@@ -3,6 +3,7 @@ import AuthorPage from '../../../components/AuthorPage.astro';
 import T from '../../../components/InterfaceText.astro';
 import TocTree from '../../../components/TocTree.astro';
 import EditionDownloads from '../../../components/EditionDownloads.astro';
+import PdfReader from '../../../components/PdfReader.astro';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import {
   editionForLocale,
@@ -81,6 +82,7 @@ const description = page.kind === 'author'
         </div>
       </div>
       <p class="edition-note"><T locale={locale} k="editionStructureNote" /></p>
+      <PdfReader author={page.author} edition={page.edition} locale={locale} />
       {page.edition.sourceDescription && (
         <aside class="edition-source-note">
           <strong><T locale={locale} k="sources" /></strong>

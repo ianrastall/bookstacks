@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { DOMParser } from '@xmldom/xmldom';
 import authorProfileData from '../data/author-profiles.json';
 import { headingTitleCase, normalizeHeadingNode } from './headings';
@@ -185,12 +186,20 @@ export interface Edition {
   sourceLinks: Array<{ label: string; href: string }>;
   pdfFile?: string;
   pdfHref?: string;
+  pdfVariants?: PdfVariant[];
   kind: string;
   unitKind: string;
   units: ReadingUnit[];
   toc: TocNode[];
   persons: RegistryEntry[];
   places: RegistryEntry[];
+}
+
+export interface PdfVariant {
+  theme: 'light' | 'dark';
+  href: string;
+  file: string;
+  revision: string;
 }
 
 export interface ReadingUnit {
@@ -394,11 +403,24 @@ function parseEdition(filePath: string): ParsedEdition {
   const [, authorSlug, workSlug, fileLanguage] = match;
   const repositoryPdfPath = path.join(path.dirname(filePath), pdfName);
   const generatedPdfPath = path.join(EXPORT_ROOT, authorSlug, stem, pdfName);
-  const pdfHref = fs.existsSync(repositoryPdfPath)
+  const pdfVariants: PdfVariant[] = [];
+  for (const theme of ['light', 'dark'] as const) {
+    const file = `${stem}-${theme}.pdf`;
+    const local = path.join(path.dirname(filePath), file);
+    const exported = path.join(EXPORT_ROOT, authorSlug, stem, file);
+    const physical = fs.existsSync(local) ? local : fs.existsSync(exported) ? exported : undefined;
+    const released = RELEASE_PDF_HREFS[file];
+    if (physical || released) pdfVariants.push({ theme, file,
+      href: physical ? physical === local ? `/tei/${authorSlug}/${file}` : `/downloads/${authorSlug}/${stem}/${file}` : released,
+      revision: physical ? createHash('sha256').update(fs.readFileSync(physical)).digest('hex') : released,
+    });
+  }
+  const preferredPdf = pdfVariants.find(pdf => pdf.theme === 'dark') ?? pdfVariants[0];
+  const pdfHref = preferredPdf?.href ?? (fs.existsSync(repositoryPdfPath)
     ? `/tei/${authorSlug}/${pdfName}`
     : fs.existsSync(generatedPdfPath)
       ? `/downloads/${authorSlug}/${stem}/${pdfName}`
-      : RELEASE_PDF_HREFS[pdfName];
+      : RELEASE_PDF_HREFS[pdfName]);
   const language = LANGUAGE_DATA[fileLanguage] ?? { code: fileLanguage, name: fileLanguage };
   const locale: Locale = isEditionLanguage(language.code) ? language.code : 'en';
   const source = fs.readFileSync(filePath, 'utf8');
@@ -519,8 +541,9 @@ function parseEdition(filePath: string): ParsedEdition {
     sourceFile: fileName,
     sourceDescription,
     sourceLinks,
-    pdfFile: pdfHref ? pdfName : undefined,
+    pdfFile: preferredPdf?.file ?? (pdfHref ? pdfName : undefined),
     pdfHref,
+    pdfVariants,
     kind,
     unitKind,
     units,

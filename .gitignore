@@ -3,6 +3,7 @@ dist/
 .astro/
 .tools/
 tmp/
+output/
 /assets/
 .DS_Store
 Thumbs.db

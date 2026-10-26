@@ -1,5 +1,6 @@
 ---
 import T from './InterfaceText.astro';
+import PdfLinks from './PdfLinks.astro';
 import {
   editionPdfHref,
   editionTeiHref,
@@ -32,11 +33,7 @@ const pdfHref = editionPdfHref(author, edition);
       <a class:list={['btn', 'btn-compact', pdfHref ? 'btn-secondary' : 'btn-primary']} href={editionTeiHref(author, edition)} download={edition.sourceFile}>
         <span class="material-icons" aria-hidden="true">code</span>TEI XML
       </a>
-      {pdfHref && (
-        <a class="btn btn-primary btn-compact" href={pdfHref} download={edition.pdfFile}>
-          <span class="material-icons" aria-hidden="true">picture_as_pdf</span>PDF
-        </a>
-      )}
+      <PdfLinks author={author} edition={edition} locale={locale} />
     </div>
   </div>
 </article>

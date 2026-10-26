@@ -88,6 +88,8 @@ BLOCK_NAMES = {
     "opener", "closer", "postscript", "epigraph", "salute", "signed", "dateline", "trailer",
 }
 CHANGED_ASSETS: list[Path] = []
+PDF_THEME = "dark"
+EXPORT_BOTH_THEMES = False
 
 
 @dataclass
@@ -120,6 +122,14 @@ class Edition:
     @property
     def output_dir(self) -> Path:
         return OUTPUT_ROOT / self.author_slug / self.stem
+
+    @property
+    def output_name(self) -> str:
+        return f"{self.stem}-{'light' if PDF_THEME == 'paper' else 'dark'}.pdf"
+
+    @property
+    def manifest_path(self) -> Path:
+        return self.output_dir / self.output_name.replace('.pdf', '.manifest.json')
 
 
 def local_name(element: ET.Element) -> str:
@@ -441,6 +451,13 @@ class LatexRenderer:
                 "\\end{bookstacksstage}"
             ) if content else ""
         if name == "lg":
+            # Stanzas can themselves be line groups; retain their order and
+            # separation rather than dropping every nested line.
+            if any(local_name(child) == "lg" for child in node):
+                return "\n\\smallskip\n".join(
+                    self.render_block(child, depth) for child in node
+                    if local_name(child) in {"l", "lg"}
+                )
             lines = [content for line in direct_children(node, "l") if (content := self.inline_content(line).strip())]
             return "\\begin{verse}\n" + " \\\\\n".join(lines) + "\n\\end{verse}" if lines else ""
         if name == "l":
@@ -786,7 +803,17 @@ def latex_document(
     contents = latex_escape(str(LANGUAGES.get(edition.tei_language, LANGUAGES["eng"])["contents"]))
     # Keep the contents page at the primary reading divisions (books, acts,
     # chapters). Deep section lists become unreadable in heavily annotated TEI.
-    toc_depth = 0
+    toc_depth = 1 if any(
+        local_name(node) == "div" and node.get("type") == "part"
+        and any(local_name(child) == "div" and child.get("type") == "chapter" for child in node)
+        for node in edition.root.iter()
+    ) else 0
+    paper_colors = r"""
+\definecolor{booknight}{HTML}{FFFFFF}
+\definecolor{booklight}{HTML}{24201D}
+\definecolor{bookmuted}{HTML}{5F5851}
+\definecolor{bookaccent}{HTML}{6B2636}
+""" if PDF_THEME == "paper" else ""
     canonical_url = edition.canonical_url
     return rf"""\documentclass[11pt,twoside,openany]{{memoir}}
 \usepackage{{fontspec}}
@@ -902,6 +929,7 @@ def latex_document(
 
 \begin{{document}}
 {cover_tex(edition)}
+{paper_colors}
 \pagecolor{{booknight}}
 \color{{booklight}}
 \makeatletter
@@ -953,6 +981,7 @@ def sha256(path: Path) -> str:
 
 def edition_fingerprint(edition: Edition) -> str:
     digest = hashlib.sha256()
+    digest.update(PDF_THEME.encode("utf-8"))
     inputs = [
         edition.source,
         Path(__file__).resolve(),
@@ -975,7 +1004,7 @@ def cached_edition(
     edition: Edition,
     fingerprint: str,
 ) -> dict[str, object] | None:
-    manifest_path = edition.output_dir / "manifest.json"
+    manifest_path = edition.manifest_path
     if not manifest_path.is_file():
         return None
     try:
@@ -984,7 +1013,7 @@ def cached_edition(
         return None
     if manifest.get("generator_fingerprint") != fingerprint:
         return None
-    if not (edition.output_dir / f"{edition.stem}.pdf").is_file():
+    if not (edition.output_dir / edition.output_name).is_file():
         return None
     return manifest
 
@@ -1036,7 +1065,7 @@ def build_edition(edition: Edition) -> dict[str, object]:
     tectonic = find_tectonic()
     run([tectonic, "--keep-logs", "--outdir", str(latex_dir), tex_path.name], cwd=latex_dir)
     compiled_pdf = latex_dir / f"{edition.stem}.pdf"
-    pdf_path = edition.output_dir / compiled_pdf.name
+    pdf_path = edition.output_dir / edition.output_name
     shutil.copy2(compiled_pdf, pdf_path)
     validations: dict[str, object] = {"pdf": validate_pdf(pdf_path)}
 
@@ -1047,13 +1076,14 @@ def build_edition(edition: Edition) -> dict[str, object]:
         "title": edition.title,
         "author": edition.author,
         "language": edition.locale,
+        "pdf_theme": PDF_THEME,
         "canonical_url": edition.canonical_url,
         "source_tei": edition.source.name,
         "generator_fingerprint": fingerprint,
         "validations": validations,
         "files": [{"name": pdf_path.name, "bytes": pdf_path.stat().st_size, "sha256": sha256(pdf_path)}],
     }
-    manifest_path = edition.output_dir / "manifest.json"
+    manifest_path = edition.manifest_path
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     CHANGED_ASSETS.append(pdf_path)
     return manifest
@@ -1079,6 +1109,7 @@ def source_files(arguments: argparse.Namespace) -> list[Path]:
 
 
 def main() -> int:
+    global PDF_THEME, EXPORT_BOTH_THEMES
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8", errors="replace")
@@ -1086,7 +1117,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--file", action="append", help="Build one TEI file (relative to the repository or absolute).")
     parser.add_argument("--all", action="store_true", help="Build every published TEI edition (the default when --file is omitted).")
+    parser.add_argument("--theme", choices=("dark", "paper", "both"), default="dark", help="PDF appearance. Filenames include -light or -dark; 'both' generates the pair; default: dark.")
     arguments = parser.parse_args()
+    EXPORT_BOTH_THEMES = arguments.theme == "both"
+    themes = ("paper", "dark") if EXPORT_BOTH_THEMES else (arguments.theme,)
     TMP_ROOT.mkdir(parents=True, exist_ok=True)
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     CHANGED_ASSETS.clear()
@@ -1094,8 +1128,10 @@ def main() -> int:
     manifests: list[dict[str, object]] = []
     for index, source in enumerate(files, 1):
         edition = parse_edition(source)
-        print(f"[{index}/{len(files)}] {edition.title} ({edition.locale})", flush=True)
-        manifests.append(build_edition(edition))
+        for theme in themes:
+            PDF_THEME = theme
+            print(f"[{index}/{len(files)}] {edition.title} ({edition.locale}, {theme})", flush=True)
+            manifests.append(build_edition(edition))
     changed_path = OUTPUT_ROOT / "_changed-assets.json"
     changed_path.write_text(
         json.dumps([path.relative_to(OUTPUT_ROOT).as_posix() for path in CHANGED_ASSETS], indent=2) + "\n",

@@ -1,0 +1,15 @@
+---
+import T from './InterfaceText.astro';
+import { editionPdfHref, type Author, type Edition } from '../lib/library';
+import type { Locale } from '../lib/i18n';
+interface Props { author: Author; edition: Edition; locale: Locale }
+const { author, edition, locale } = Astro.props;
+const variants = edition.pdfVariants ?? [];
+const legacy = editionPdfHref(author, edition);
+---
+{variants.length ? variants.map(pdf => (
+  <a class="btn btn-primary btn-compact" href={pdf.href} download={pdf.file}>
+    <span class="material-icons" aria-hidden="true">picture_as_pdf</span>
+    <T locale={locale} k={pdf.theme === 'light' ? 'themeLight' : 'themeDark'} /> PDF
+  </a>
+)) : legacy && <a class="btn btn-primary btn-compact" href={legacy} download={edition.pdfFile}><span class="material-icons" aria-hidden="true">picture_as_pdf</span>PDF</a>}

@@ -20,7 +20,7 @@ def release_tag(relative: Path) -> str:
     if relative.parts[0] == "corpus":
         return "publications-corpus"
     language_source = relative.parent.name if relative.name == "manifest.json" else relative.name
-    match = re.search(r"_(eng|fra|spa|grc|rus)(?:\.|$)", language_source)
+    match = re.search(r"_(eng|fra|spa|grc|rus)(?:-(?:light|dark))?(?:\.|$)", language_source)
     if not match:
         raise ValueError(f"Cannot determine publication language from {relative}")
     language = match.group(1)

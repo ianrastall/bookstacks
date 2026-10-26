@@ -24,13 +24,31 @@ tei/austen/austen_emma_eng.xml
 tei/austen/austen_emma_eng.pdf
 ```
 
-PDF links resolve in this order:
+Legacy unsuffixed PDF links resolve in this order:
 
 1. a PDF committed beside its TEI file under `tei/<author>/`;
 2. exporter output committed under `public/downloads/<author>/<edition>/<edition>.pdf` (the current source of most published PDFs, served at `/downloads/...`);
 3. a matching asset in a `publications-*` GitHub release, indexed by `scripts/index_release_pdfs.mjs` before the deployment build.
 
 The site build and deployment never regenerate the corpus or PDFs. `scripts/build_exports.py` remains available for explicitly invoked local PDF creation; neither `npm run build` nor the deployment workflow runs it, and its output is published only when it is committed.
+
+The exporter supports `--theme paper` for white reading pages while retaining
+the existing dark cover; the default remains `--theme dark`. Use `--theme both`
+to create `<edition>-light.pdf` and `<edition>-dark.pdf` in one run, with separate
+checksum manifests beside them. Both variants are discovered beside the XML
+or under `public/downloads/<author>/<edition>/`, with indexed release variants
+as a download fallback. Named variants take precedence in the interface;
+existing unsuffixed PDFs and
+their URLs remain supported. See the
+[Scarlet proof and PDF reader feasibility](docs/pdf-reading-prototype.md)
+for the offline export command and embedded PDF.js reader details.
+
+On edition pages with a local PDF, expand **Start reading · PDF** to read it
+without leaving the page. PDF.js is bundled locally and loads only when opened.
+It provides search, text selection, bookmarks and page navigation. The viewer
+initially follows Settings > Appearance > Theme, with a separate PDF theme
+choice when both files exist. PDF page position is saved independently of HTML
+reading position. Release-hosted PDFs remain direct downloads.
 
 ## Languages
 
