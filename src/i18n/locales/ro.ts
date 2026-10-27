@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Citește EPUB",
-  epubError: "Fișierul EPUB nu a putut fi încărcat.",
   pdfPage: "Pagină",
   pdfFind: "Caută în carte",
   pdfError: "PDF-ul nu poate fi încărcat.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Pagini preliminare',
   backMatter: 'Pagini finale',
   downloadEdition: 'Descărcați această ediție',
-  downloadFormatsNote: 'Descărcați sursa TEI a oricărei ediții. Fișierul PDF este oferit doar când depozitul conține fișierul corespunzător.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Fișiere',
   people: 'Persoane',
   places: 'Locuri',

@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Читать EPUB",
-  epubError: "Не удалось загрузить EPUB.",
   pdfPage: "Страница",
   pdfFind: "Поиск в книге",
   pdfError: "Не удалось загрузить PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Начальные материалы',
   backMatter: 'Заключительные материалы',
   downloadEdition: 'Скачать это издание',
-  downloadFormatsNote: 'Для каждого издания доступен исходный файл TEI. PDF предлагается только тогда, когда соответствующий файл есть в репозитории.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Файлы',
   people: 'Люди',
   places: 'Места',

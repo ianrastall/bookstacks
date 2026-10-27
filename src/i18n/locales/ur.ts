@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB پڑھیں",
-  epubError: "EPUB لوڈ نہیں ہو سکا۔",
   pdfPage: "صفحہ",
   pdfFind: "کتاب میں تلاش کریں",
   pdfError: "PDF لوڈ نہیں ہو سکی۔",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'ابتدائی حصہ',
   backMatter: 'اختتامی حصہ',
   downloadEdition: 'یہ ایڈیشن ڈاؤن لوڈ کریں',
-  downloadFormatsNote: 'کسی بھی ایڈیشن کا TEI ماخذ ڈاؤن لوڈ کریں۔ PDF صرف اسی وقت پیش کی جاتی ہے جب ریپوزیٹری میں متعلقہ فائل موجود ہو۔',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'فائلیں',
   people: 'اشخاص',
   places: 'مقامات',

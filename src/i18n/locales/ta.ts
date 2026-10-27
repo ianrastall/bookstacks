@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB படிக்க",
-  epubError: "EPUB ஏற்ற முடியவில்லை.",
   pdfPage: "பக்கம்",
   pdfFind: "நூலில் தேடு",
   pdfError: "PDFஐ ஏற்ற முடியவில்லை.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'முன்பகுதி',
   backMatter: 'பின்பகுதி',
   downloadEdition: 'இந்தப் பதிப்பைப் பதிவிறக்கு',
-  downloadFormatsNote: 'எந்தப் பதிப்பின் TEI மூலத்தையும் பதிவிறக்கலாம். களஞ்சியத்தில் பொருந்தும் கோப்பு இருந்தால் மட்டுமே PDF வழங்கப்படும்.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'கோப்புகள்',
   people: 'நபர்கள்',
   places: 'இடங்கள்',

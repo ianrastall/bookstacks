@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Läs EPUB",
-  epubError: "EPUB-filen kunde inte läsas in.",
   pdfPage: "Sida",
   pdfFind: "Sök i boken",
   pdfError: "Kunde inte läsa in PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Inledande sidor',
   backMatter: 'Avslutande sidor',
   downloadEdition: 'Ladda ned den här utgåvan',
-  downloadFormatsNote: 'Ladda ned TEI-källan för valfri utgåva. En PDF erbjuds bara när arkivet innehåller en matchande fil.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Filer',
   people: 'Personer',
   places: 'Platser',

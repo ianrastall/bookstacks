@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Les EPUB",
-  epubError: "EPUB-filen kunne ikke lastes inn.",
   pdfPage: "Side",
   pdfFind: "Søk i boken",
   pdfError: "Kunne ikke laste PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Innledende sider',
   backMatter: 'Avsluttende sider',
   downloadEdition: 'Last ned denne utgaven',
-  downloadFormatsNote: 'Last ned TEI-kilden for en hvilken som helst utgave. PDF tilbys bare når repositoriet inneholder en tilsvarende fil.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Filer',
   people: 'Personer',
   places: 'Steder',

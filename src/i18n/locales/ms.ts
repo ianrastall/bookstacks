@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Baca EPUB",
-  epubError: "EPUB tidak dapat dimuatkan.",
   pdfPage: "Halaman",
   pdfFind: "Cari dalam buku",
   pdfError: "PDF tidak dapat dimuatkan.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Bahagian awal',
   backMatter: 'Bahagian akhir',
   downloadEdition: 'Muat turun edisi ini',
-  downloadFormatsNote: 'Muat turun sumber TEI bagi mana-mana edisi. PDF hanya disediakan apabila repositori mengandungi fail yang sepadan.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Fail',
   people: 'Tokoh',
   places: 'Tempat',

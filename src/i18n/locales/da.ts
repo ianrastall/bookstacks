@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Læs EPUB",
-  epubError: "EPUB-filen kunne ikke indlæses.",
   pdfPage: "Side",
   pdfFind: "Søg i bogen",
   pdfError: "PDF kunne ikke indlæses.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Indledende sider',
   backMatter: 'Afsluttende sider',
   downloadEdition: 'Download denne udgave',
-  downloadFormatsNote: 'Download TEI-kilden til enhver udgave. En PDF tilbydes kun, når arkivet indeholder en tilsvarende fil.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Filer',
   people: 'Personer',
   places: 'Steder',

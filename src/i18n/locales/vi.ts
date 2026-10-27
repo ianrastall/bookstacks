@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Đọc EPUB",
-  epubError: "Không thể tải EPUB.",
   pdfPage: "Trang",
   pdfFind: "Tìm trong sách",
   pdfError: "Không thể tải PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Phần đầu sách',
   backMatter: 'Phần cuối sách',
   downloadEdition: 'Tải xuống ấn bản này',
-  downloadFormatsNote: 'Tải xuống nguồn TEI của bất kỳ ấn bản nào. Chỉ cung cấp PDF khi kho mã có tệp tương ứng.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Tệp',
   people: 'Nhân vật',
   places: 'Địa điểm',

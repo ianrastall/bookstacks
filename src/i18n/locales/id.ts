@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Baca EPUB",
-  epubError: "EPUB tidak dapat dimuat.",
   pdfPage: "Halaman",
   pdfFind: "Cari dalam buku",
   pdfError: "PDF tidak dapat dimuat.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Bagian awal',
   backMatter: 'Bagian akhir',
   downloadEdition: 'Unduh edisi ini',
-  downloadFormatsNote: 'Unduh sumber TEI untuk edisi mana pun. PDF hanya tersedia jika repositori berisi berkas yang sesuai.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Berkas',
   people: 'Tokoh',
   places: 'Tempat',

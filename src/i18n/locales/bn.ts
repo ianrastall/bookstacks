@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB পড়ুন",
-  epubError: "EPUB লোড করা যায়নি।",
   pdfPage: "পৃষ্ঠা",
   pdfFind: "বইয়ে খুঁজুন",
   pdfError: "PDF লোড করা যায়নি।",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'প্রারম্ভিক অংশ',
   backMatter: 'পরিশিষ্ট',
   downloadEdition: 'এই সংস্করণ ডাউনলোড করুন',
-  downloadFormatsNote: 'যেকোনো সংস্করণের TEI উৎস ডাউনলোড করুন। রিপোজিটরিতে মিলে যাওয়া ফাইল থাকলেই কেবল PDF দেওয়া হয়।',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'ফাইল',
   people: 'ব্যক্তি',
   places: 'স্থান',

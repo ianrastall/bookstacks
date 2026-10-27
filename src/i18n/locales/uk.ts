@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Читати EPUB",
-  epubError: "Не вдалося завантажити EPUB.",
   pdfPage: "Сторінка",
   pdfFind: "Пошук у книзі",
   pdfError: "Не вдалося завантажити PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Вступні матеріали',
   backMatter: 'Завершальні матеріали',
   downloadEdition: 'Завантажити це видання',
-  downloadFormatsNote: 'Для кожного видання доступне джерело TEI. PDF пропонується лише тоді, коли відповідний файл є в репозиторії.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Файли',
   people: 'Особи',
   places: 'Місця',

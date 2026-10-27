@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB 읽기",
-  epubError: "EPUB을 불러올 수 없습니다.",
   pdfPage: "페이지",
   pdfFind: "책에서 찾기",
   pdfError: "PDF를 불러올 수 없습니다.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: '앞부분',
   backMatter: '뒷부분',
   downloadEdition: '이 판본 다운로드',
-  downloadFormatsNote: '모든 판본의 TEI 원본을 다운로드할 수 있습니다. PDF는 저장소에 해당 파일이 있을 때만 제공됩니다.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: '파일',
   people: '인물',
   places: '장소',

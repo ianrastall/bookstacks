@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB lezen",
-  epubError: "Het EPUB-bestand kon niet worden geladen.",
   pdfPage: "Pagina",
   pdfFind: "Zoeken in het boek",
   pdfError: "PDF kan niet worden geladen.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Voorwerk',
   backMatter: 'Nawerk',
   downloadEdition: 'Deze editie downloaden',
-  downloadFormatsNote: 'Download de TEI-bron van elke editie. Een pdf wordt alleen aangeboden als de repository een bijbehorend bestand bevat.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Bestanden',
   people: 'Personen',
   places: 'Plaatsen',

@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "קריאת EPUB",
-  epubError: "לא ניתן לטעון את ה־EPUB.",
   pdfPage: "עמוד",
   pdfFind: "חיפוש בספר",
   pdfError: "לא ניתן לטעון את ה-PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'עמודי פתיחה',
   backMatter: 'נספחים',
   downloadEdition: 'הורדת מהדורה זו',
-  downloadFormatsNote: 'אפשר להוריד את מקור ה־TEI של כל מהדורה. קובץ PDF מוצע רק כאשר המאגר כולל קובץ תואם.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'קבצים',
   people: 'אישים',
   places: 'מקומות',

@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB を読む",
-  epubError: "EPUB を読み込めませんでした。",
   pdfPage: "ページ",
   pdfFind: "本の中を検索",
   pdfError: "PDFを読み込めません。",
@@ -48,7 +46,7 @@ export default {
   frontMatter: '前付',
   backMatter: '後付',
   downloadEdition: 'この版をダウンロード',
-  downloadFormatsNote: 'どの版も TEI ソースをダウンロードできます。PDF はリポジトリに対応するファイルがある場合のみ提供されます。',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'ファイル',
   people: '人物',
   places: '地名',

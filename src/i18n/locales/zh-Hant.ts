@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "閱讀 EPUB",
-  epubError: "無法載入 EPUB。",
   pdfPage: "頁",
   pdfFind: "在書中尋找",
   pdfError: "無法載入 PDF。",
@@ -48,7 +46,7 @@ export default {
   frontMatter: '卷首',
   backMatter: '卷末',
   downloadEdition: '下載此版本',
-  downloadFormatsNote: '每個版本均提供 TEI 原始檔；僅在有對應檔案時提供 PDF。',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: '檔案',
   people: '人物',
   places: '地點',

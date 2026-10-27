@@ -1,8 +1,6 @@
 import type { Message } from '../types';
 
 const en = {
-  readEpub: "Read EPUB",
-  epubError: "The EPUB could not be loaded.",
   pdfPage: "Page",
   pdfFind: "Find in book",
   pdfError: "Unable to load PDF.",
@@ -48,7 +46,7 @@ const en = {
   frontMatter: 'Front matter',
   backMatter: 'Back matter',
   downloadEdition: 'Download this edition',
-  downloadFormatsNote: 'Download the TEI source for any edition. A PDF is offered only when a matching file is included in the repository.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Files',
   people: 'People',
   places: 'Places',

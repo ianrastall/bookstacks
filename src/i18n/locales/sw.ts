@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Soma EPUB",
-  epubError: "EPUB haikuweza kupakiwa.",
   pdfPage: "Ukurasa",
   pdfFind: "Tafuta katika kitabu",
   pdfError: "PDF haikuweza kupakiwa.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Sehemu za mwanzo',
   backMatter: 'Sehemu za mwisho',
   downloadEdition: 'Pakua toleo hili',
-  downloadFormatsNote: 'Pakua chanzo cha TEI cha toleo lolote. PDF hutolewa tu pale hazina ina faili inayolingana.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Faili',
   people: 'Watu',
   places: 'Mahali',

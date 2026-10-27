@@ -93,7 +93,8 @@ https://mozilla.github.io/pdf.js/getting_started/.
 ## EPUB follow-up
 
 The EPUB template and first two publications are described in
-[EPUB reading](epub-reading.md). Each has one reflowable package for both site
-themes and an embedded reader in the same column. Export and validation remain
+[EPUB downloads](epub-reading.md). Each has one reflowable package with light
+and dark styling, available as a download for ebook apps and devices. Online and
+PDF remain the site reading modes. Export and validation remain
 explicit offline steps. PDF remains the fixed-layout option; online reading
 remains available.

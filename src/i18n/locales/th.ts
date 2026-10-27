@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "อ่าน EPUB",
-  epubError: "ไม่สามารถโหลด EPUB ได้",
   pdfPage: "หน้า",
   pdfFind: "ค้นหาในหนังสือ",
   pdfError: "ไม่สามารถโหลด PDF ได้",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'ส่วนนำ',
   backMatter: 'ส่วนท้าย',
   downloadEdition: 'ดาวน์โหลดฉบับนี้',
-  downloadFormatsNote: 'ดาวน์โหลดต้นฉบับ TEI ได้ทุกฉบับ จะมี PDF ให้เฉพาะเมื่อคลังเก็บมีไฟล์ที่ตรงกันเท่านั้น',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'ไฟล์',
   people: 'บุคคล',
   places: 'สถานที่',

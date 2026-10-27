@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Číst EPUB",
-  epubError: "EPUB se nepodařilo načíst.",
   pdfPage: "Strana",
   pdfFind: "Hledat v knize",
   pdfError: "PDF nelze načíst.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Úvodní části',
   backMatter: 'Závěrečné části',
   downloadEdition: 'Stáhnout toto vydání',
-  downloadFormatsNote: 'Stáhněte si zdroj TEI libovolného vydání. PDF je k dispozici jen tehdy, když repozitář obsahuje odpovídající soubor.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Soubory',
   people: 'Osoby',
   places: 'Místa',

@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "خواندن EPUB",
-  epubError: "بارگیری EPUB ممکن نشد.",
   pdfPage: "صفحه",
   pdfFind: "جستجو در کتاب",
   pdfError: "بارگیری PDF ممکن نشد.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'بخش‌های آغازین',
   backMatter: 'پیوست‌ها',
   downloadEdition: 'بارگیری این ویرایش',
-  downloadFormatsNote: 'منبع TEI هر ویرایش را بارگیری کنید. فایل PDF فقط وقتی ارائه می‌شود که فایل متناظر در مخزن موجود باشد.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'فایل‌ها',
   people: 'اشخاص',
   places: 'مکان‌ها',

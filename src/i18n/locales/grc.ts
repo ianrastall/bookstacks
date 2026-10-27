@@ -2,8 +2,6 @@ import type { Messages } from '../types';
 
 // Ancient Greek. Modern Greek is the separate `el` catalogue.
 export default {
-  readEpub: "Ἀνάγνωσις EPUB",
-  epubError: "Τὸ EPUB οὐ δύναται ἀναφορτωθῆναι.",
   pdfPage: "Σελίς",
   pdfFind: "Ζήτησις ἐν τῷ βιβλίῳ",
   pdfError: "Τὸ PDF οὐ δύναται φορτωθῆναι.",
@@ -49,7 +47,7 @@ export default {
   frontMatter: 'Προοίμιον',
   backMatter: 'Ἐπίλογος',
   downloadEdition: 'Τὴν ἔκδοσιν καταφορτῶσαι',
-  downloadFormatsNote: 'Τὴν πηγὴν TEI ἑκάστης ἐκδόσεως κατάφορτωσον. PDF παρέχεται μόνον ἐὰν τὸ ἀντίστοιχον ἀρχεῖον ἐν τῇ ἀποθήκῃ ὑπάρχῃ.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Ἀρχεῖα',
   people: 'Πρόσωπα',
   places: 'Τόποι',

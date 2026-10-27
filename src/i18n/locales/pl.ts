@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Czytaj EPUB",
-  epubError: "Nie udało się wczytać pliku EPUB.",
   pdfPage: "Strona",
   pdfFind: "Szukaj w książce",
   pdfError: "Nie można wczytać PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Część wstępna',
   backMatter: 'Część końcowa',
   downloadEdition: 'Pobierz to wydanie',
-  downloadFormatsNote: 'Pobierz źródło TEI dowolnego wydania. Plik PDF jest dostępny tylko wtedy, gdy repozytorium zawiera odpowiedni plik.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Pliki',
   people: 'Osoby',
   places: 'Miejsca',

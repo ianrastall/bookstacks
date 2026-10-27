@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB oku",
-  epubError: "EPUB yüklenemedi.",
   pdfPage: "Sayfa",
   pdfFind: "Kitapta ara",
   pdfError: "PDF yüklenemedi.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Ön kısım',
   backMatter: 'Arka kısım',
   downloadEdition: 'Bu baskıyı indir',
-  downloadFormatsNote: 'Her baskının TEI kaynağını indirebilirsiniz. PDF yalnızca depoda eşleşen bir dosya varsa sunulur.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Dosyalar',
   people: 'Kişiler',
   places: 'Yerler',

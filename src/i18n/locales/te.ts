@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB చదవండి",
-  epubError: "EPUB లోడ్ కాలేదు.",
   pdfPage: "పేజీ",
   pdfFind: "పుస్తకంలో వెతకండి",
   pdfError: "PDF లోడ్ కాలేదు.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'ప్రారంభ భాగం',
   backMatter: 'అనుబంధాలు',
   downloadEdition: 'ఈ సంచికను డౌన్‌లోడ్ చేయండి',
-  downloadFormatsNote: 'ఏ సంచిక TEI మూలాన్నైనా డౌన్‌లోడ్ చేయవచ్చు. రిపోజిటరీలో సరిపోలే ఫైల్ ఉన్నప్పుడే PDF అందించబడుతుంది.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'ఫైళ్లు',
   people: 'వ్యక్తులు',
   places: 'ప్రదేశాలు',

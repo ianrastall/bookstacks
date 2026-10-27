@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AuthorPortrait from './AuthorPortrait.astro';
-import { getCatalogueLibrary, localizedEditionHref, localizedUnitHref, pdfReadingHref, epubReadingHref, hasEmbeddedPdf, type Author } from '../lib/library';
+import { getCatalogueLibrary, localizedEditionHref, localizedUnitHref, pdfReadingHref, hasEmbeddedPdf, type Author } from '../lib/library';
 import T from './InterfaceText.astro';
 import { editionDirection, editionLanguageName, type Locale } from '../lib/i18n';
 interface Props { author: Author; locale?: Locale }
@@ -21,7 +21,6 @@ const catalogueAuthor = getCatalogueLibrary().authors.find(item => item.slug ===
      <div class="book-reading-links">
        {edition.units[0] && <a href={localizedUnitHref(work,edition,edition.units[0])}><T locale={locale} k="readOnline" /></a>}
        {hasEmbeddedPdf(edition) && <a href={pdfReadingHref(work,edition)}><T locale={locale} k="readPdf" /></a>}
-       {edition.epub && <a href={epubReadingHref(work,edition)}><T locale={locale} k="readEpub" /></a>}
      </div>
     </li>)}</ul>
    </article>)}

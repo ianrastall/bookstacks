@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Lue EPUB",
-  epubError: "EPUB-tiedostoa ei voitu ladata.",
   pdfPage: "Sivu",
   pdfFind: "Hae kirjasta",
   pdfError: "PDF:n lataaminen epäonnistui.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Alkusivut',
   backMatter: 'Loppusivut',
   downloadEdition: 'Lataa tämä laitos',
-  downloadFormatsNote: 'Lataa minkä tahansa laitoksen TEI-lähde. PDF on tarjolla vain, jos tietovarastossa on vastaava tiedosto.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Tiedostot',
   people: 'Henkilöt',
   places: 'Paikat',

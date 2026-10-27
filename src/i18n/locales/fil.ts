@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Basahin ang EPUB",
-  epubError: "Hindi ma-load ang EPUB.",
   pdfPage: "Pahina",
   pdfFind: "Hanapin sa aklat",
   pdfError: "Hindi ma-load ang PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Mga paunang bahagi',
   backMatter: 'Mga huling bahagi',
   downloadEdition: 'I-download ang edisyong ito',
-  downloadFormatsNote: 'I-download ang TEI source ng anumang edisyon. May PDF lamang kapag may katugmang file sa repository.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Mga file',
   people: 'Mga tao',
   places: 'Mga lugar',

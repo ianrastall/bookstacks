@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "قراءة EPUB",
-  epubError: "تعذّر تحميل EPUB.",
   pdfPage: "الصفحة",
   pdfFind: "البحث في الكتاب",
   pdfError: "تعذر تحميل PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'الصفحات التمهيدية',
   backMatter: 'الملاحق',
   downloadEdition: 'نزّل هذا الإصدار',
-  downloadFormatsNote: 'نزّل مصدر TEI لأي إصدار. لا يُتاح ملف PDF إلا عندما يحتوي المستودع على ملف مطابق.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'الملفات',
   people: 'الأشخاص',
   places: 'الأماكن',

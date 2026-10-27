@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "Leggi EPUB",
-  epubError: "Impossibile caricare l’EPUB.",
   pdfPage: "Pagina",
   pdfFind: "Cerca nel libro",
   pdfError: "Impossibile caricare il PDF.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Parti iniziali',
   backMatter: 'Parti finali',
   downloadEdition: 'Scarica questa edizione',
-  downloadFormatsNote: 'Scarica la fonte TEI di qualsiasi edizione. Il PDF è disponibile solo se il repository contiene il file corrispondente.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'File',
   people: 'Persone',
   places: 'Luoghi',

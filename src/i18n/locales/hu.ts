@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB olvasása",
-  epubError: "Az EPUB nem tölthető be.",
   pdfPage: "Oldal",
   pdfFind: "Keresés a könyvben",
   pdfError: "A PDF nem tölthető be.",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'Előzéklapok',
   backMatter: 'Függelék',
   downloadEdition: 'A kiadás letöltése',
-  downloadFormatsNote: 'Bármely kiadás TEI-forrása letölthető. PDF csak akkor érhető el, ha a tárház tartalmazza a megfelelő fájlt.',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'Fájlok',
   people: 'Személyek',
   places: 'Helyek',

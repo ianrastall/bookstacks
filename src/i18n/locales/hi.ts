@@ -1,8 +1,6 @@
 import type { Messages } from '../types';
 
 export default {
-  readEpub: "EPUB पढ़ें",
-  epubError: "EPUB लोड नहीं हो सका।",
   pdfPage: "पृष्ठ",
   pdfFind: "पुस्तक में खोजें",
   pdfError: "PDF लोड नहीं हो सका।",
@@ -48,7 +46,7 @@ export default {
   frontMatter: 'प्रारंभिक सामग्री',
   backMatter: 'परिशिष्ट',
   downloadEdition: 'यह संस्करण डाउनलोड करें',
-  downloadFormatsNote: 'किसी भी संस्करण का TEI स्रोत डाउनलोड करें। PDF केवल तभी उपलब्ध होता है जब रिपॉज़िटरी में संबंधित फ़ाइल हो।',
+  downloadFormatsNote: 'TEI XML · PDF · EPUB',
   files: 'फ़ाइलें',
   people: 'व्यक्ति',
   places: 'स्थान',
