@@ -20,7 +20,7 @@ test('Christie sketches sit below the right navigation and source diagrams remai
   for (const theme of ['light', 'dark']) {
     await page.evaluate(theme => document.documentElement.dataset.theme = theme, theme);
     await sketch.scrollIntoViewIfNeeded();
-    await expect(sketch).toHaveCSS('mix-blend-mode', theme === 'light' ? 'multiply' : 'normal');
+    await expect(sketch).toHaveCSS('mix-blend-mode', theme === 'light' ? 'multiply' : 'screen');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
     await page.screenshot({ path: `tmp/christie-reader-mobile-${theme}.png` });
   }

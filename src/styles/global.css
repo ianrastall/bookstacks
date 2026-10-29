@@ -671,7 +671,7 @@ button, input, select { font: inherit; }
   box-shadow: var(--shadow);
   font-family: var(--serif-font);
   font-size: calc(1.15rem * var(--reader-scale));
-  line-height: 1.85;
+  line-height: 1.55;
 }
 
 [data-reader-family='sans'] .reader-content { font-family: var(--sans-font); }
@@ -680,14 +680,22 @@ button, input, select { font: inherit; }
 }
 
 .reader-content p { margin: 0; }
-.reader-content .tei-paragraph { text-indent: 1.5em; }
+.reader-content .tei-paragraph {
+  text-indent: 1.5em;
+  text-align: justify;
+  text-align-last: start;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  orphans: 2;
+  widows: 2;
+}
 .reader-content .tei-first-paragraph { text-indent: 0; }
 .reader-content .tei-no-indent { text-indent: 0; }
-.reader-content .tei-align-center { text-align: center; text-indent: 0; }
-.reader-content .tei-align-right { text-align: right; text-indent: 0; }
-.reader-content .tei-preformatted { white-space: pre-line; }
+.reader-content .tei-align-center { text-align: center; text-align-last: center; text-indent: 0; }
+.reader-content .tei-align-right { text-align: right; text-align-last: right; text-indent: 0; }
+.reader-content .tei-preformatted { white-space: pre-line; text-align: start; hyphens: none; }
 .reader-content .tei-letter { margin: 1.25em 0; padding-inline-start: 1.5em; text-indent: 0; }
-.reader-content .tei-subheading { margin-top: 1.8em; text-align: center; }
+.reader-content .tei-subheading { margin: 1.5em 0 .75em; text-align: center; font-size: 1em; font-weight: 400; }
 .reader-content .tei-blockquote .tei-paragraph { text-indent: 0; }
 .tei-quote-delimited::before,
 .tei-quote-delimited::after { content: none; }
@@ -696,8 +704,13 @@ button, input, select { font: inherit; }
 .reader-content h3,
 .reader-content h4,
 .reader-content h5,
-.reader-content h6 { margin: 1.8em 0 0.75em; font-family: var(--sans-font); line-height: 1.25; }
-.reader-content blockquote { margin: 1.5rem 0; padding-inline-start: 1rem; border-inline-start: 3px solid var(--border); color: var(--muted); }
+.reader-content h6 { margin: 1.8em 0 0.75em; font-family: inherit; line-height: 1.25; }
+.reader-content blockquote { margin: 1.25em 1.5em; padding: 0; border: 0; color: inherit; font-size: .95em; }
+.reader-content .tei-scene-break { width: 5em; margin: 1.5em auto; border: 0; border-top: 1px solid var(--muted); }
+@media (max-width: 600px) {
+  .reader-content .tei-paragraph:where(:not(.tei-align-center, .tei-align-right)) { text-align: start; }
+  .reader-content blockquote { margin-inline: 1em; }
+}
 
 .chapter-sidebar { position: sticky; top: 1rem; }
 .panel { padding: 1rem; border: 1px solid var(--border); border-radius: 8px; background: var(--panel); }
@@ -805,7 +818,7 @@ button, input, select { font: inherit; }
   line-height: 1.4;
   text-transform: uppercase;
 }
-.reader-content .tei-speech > .tei-paragraph { text-indent: 0; }
+.reader-content .tei-speech > .tei-paragraph { text-indent: 0; text-align: start; hyphens: none; }
 .reader-content .tei-speech > .tei-paragraph + .tei-paragraph { margin-top: 0.65em; }
 .tei-speech > .tei-line-group { margin: 0; }
 .tei-speech > .tei-line-group + .tei-line-group { margin-top: 0.65em; }
@@ -849,6 +862,8 @@ button, input, select { font: inherit; }
   margin: 0 auto;
   border-radius: 4px;
 }
+.reader-content .tei-graphic:not(.tei-inline-graphic) { margin-block: 1.25em; }
+.reader-content .tei-figure .tei-graphic { margin-block: 0; }
 .tei-figure figcaption {
   max-width: 36rem;
   margin: 0.65rem auto 0;
@@ -856,24 +871,29 @@ button, input, select { font: inherit; }
   font: 0.78rem/1.45 var(--sans-font);
 }
 
-/* Fade the plate into any reader surface on all four sides. Blending removes
-   the paper color inside the vignette; the mask also softens dense edge marks. */
+/* In dark mode, invert paper to black and screen it away. In light mode,
+   multiply removes the paper. The same four-edge mask softens dense marks. */
 .tei-engraving .tei-graphic {
   border-radius: 0;
   mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent),
     linear-gradient(to bottom, transparent, black 12%, black 88%, transparent);
   mask-composite: intersect;
-  filter: grayscale(1);
-  mix-blend-mode: normal;
+  filter: grayscale(1) contrast(1.2) invert(1);
+  mix-blend-mode: screen;
+  opacity: .82;
 }
 [data-theme='light'] .tei-engraving .tei-graphic {
   filter: grayscale(1);
   mix-blend-mode: multiply;
+  opacity: 1;
 }
 .reader-content .tei-cipher {
   white-space: pre-wrap;
   font-family: ui-monospace, monospace;
   font-size: 0.8em;
+  text-align: start;
+  text-indent: 0;
+  hyphens: none;
 }
 .reader-illustration { margin: 1.5rem 0 0; }
 .reader-content .tei-inline-graphic { display: inline-block; max-height: 1.6em; vertical-align: middle; margin: 0 0.15em; border-radius: 0; }
@@ -889,7 +909,7 @@ button, input, select { font: inherit; }
   .reader-illustration { width: min(18rem, 100%); margin: 1rem auto; }
 }
 @media (forced-colors: active) {
-  .tei-engraving .tei-graphic { filter: none; mix-blend-mode: normal; }
+  .tei-engraving .tei-graphic { filter: none; mix-blend-mode: normal; opacity: 1; }
 }
 
 @media (max-width: 960px) {

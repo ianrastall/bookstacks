@@ -824,6 +824,7 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     case 'head':
       return `<h${Math.min(6, headingLevel)}>${children()}</h${Math.min(6, headingLevel)}>`;
     case 'p': {
+      if (!text() && !descendants(node, 'graphic').length && !descendants(node, 'lb').length) return '';
       const rend = `${node.getAttribute?.('rend') ?? ''} ${node.getAttribute?.('style') ?? ''}`.toLowerCase();
       const firstClass = isFirstParagraph(node) ? ' tei-first-paragraph' : '';
       const rendClasses = [
@@ -895,8 +896,9 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
       if (id && entities.referencedNoteIds.has(id)) return '';
       return renderInlineNote(node, entities, headingLevel, context);
     }
-    case 'pb':
     case 'milestone':
+      return node.getAttribute('unit') === 'section' ? '<hr class="tei-scene-break" />' : '';
+    case 'pb':
       return '';
     case 'lb':
       return '<br />';
@@ -928,7 +930,9 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     case 'role':
       return `<span class="tei-cast-role">${children()}</span>`;
     case 'label':
-      return `<span class="tei-label">${children()}</span>`;
+      return ['div', 'body', 'quote', 'ab'].includes(node.parentNode?.localName)
+        ? `<h${Math.min(6, headingLevel)} class="tei-subheading">${children()}</h${Math.min(6, headingLevel)}>`
+        : `<span class="tei-label">${children()}</span>`;
     case 'ref': {
       const target = cleanText(node.getAttribute?.('target'));
       const note = target.startsWith('#') ? entities.notes.get(target.slice(1)) : undefined;
@@ -1008,9 +1012,21 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
 }
 
 function isFirstParagraph(node: any): boolean {
-  for (const sibling of directElementChildren(node.parentNode)) {
-    if (sibling === node) return true;
-    if (sibling.localName === 'p') return false;
+  for (let sibling = node.previousSibling; sibling; sibling = sibling.previousSibling) {
+    if (sibling.nodeType !== 1) continue;
+    const name = sibling.localName;
+    if (['pb', 'note', 'fw'].includes(name)) continue;
+    if (name === 'figure' && sibling.getAttribute('type') === 'engraving') continue;
+    if (name === 'milestone' && sibling.getAttribute('unit') !== 'section') continue;
+    if (name === 'p' && /\b(?:subheading|blockquote|letter|preformatted|cipher)\b/i.test(
+      `${sibling.getAttribute('rend') ?? ''} ${sibling.getAttribute('style') ?? ''}`,
+    )) return true;
+    if (name === 'p' && !cleanText(sibling.textContent)) {
+      if (descendants(sibling, 'graphic').length || descendants(sibling, 'lb').length) return true;
+      continue;
+    }
+    if (['ab', 'seg'].includes(name) && !cleanText(sibling.textContent) && !descendants(sibling, 'graphic').length) continue;
+    return name !== 'p';
   }
   return true;
 }

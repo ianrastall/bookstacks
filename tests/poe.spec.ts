@@ -14,7 +14,7 @@ test('Poe plates load and fade into both reading appearances, with Pym in the sa
   expect(style.composite).toContain('intersect');
   for (const theme of ['light', 'dark']) {
     await page.evaluate(theme => document.documentElement.dataset.theme = theme, theme);
-    await expect(image).toHaveCSS('mix-blend-mode', theme === 'light' ? 'multiply' : 'normal');
+    await expect(image).toHaveCSS('mix-blend-mode', theme === 'light' ? 'multiply' : 'screen');
     await image.scrollIntoViewIfNeeded();
     await page.screenshot({ path: `tmp/poe/reader-${theme}.png` });
   }
