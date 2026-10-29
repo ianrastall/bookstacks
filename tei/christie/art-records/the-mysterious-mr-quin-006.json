@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-006",
+  "file": "img/the-mysterious-mr-quin-006.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — The World's End. Scene context, do not reproduce words: Mr. Satterthwaite had come to Corsica because of the Duchess. It was out of his beat. On the Riviera he was sure of his comforts, and to be comfortable meant a lot to Mr. Satterthwaite. But though he liked his comfort, he also liked a Duchess. In his way, a harmless, gentlemanly, old-fashioned way, Mr. Satterthwaite was a snob. He liked the best people. And the Duchess of Leith was a very authentic Duchess. She was the daughter of a duke as well as the wife of one. For the rest, she was rather a shabby-looking old lady, a good deal given to black bead trimmings on her clothes. She had quantities of diamonds in old-fashioned settings, and she wore them as her mother before her had worn them: pinned all over her indiscriminately. Someone had suggested once that the Duchess stood in the middle of the room while her maid flung brooches at her haphazard. She subscribed generously to charities, and looked well after her tenants and dependents, but was extremely mean over small sums. She cadg",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 720,
+  "sha256": "9335b06bc5e4bd2e37a8fd962a90fa8ebac1ee43c9c498d38f52becfb42ae7fc",
+  "masterSha256": "9a24616247f0b18082d21be3cdcab7e43c7badfb6e65f266b70ccc54f9bba37b",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-006.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-006.preview.jpg",
+    "sha256": "9305c6a61487e22efdd328cee6e6eb30d33899bfe2fef4f83f6554f4be2ab507"
+  }
+}

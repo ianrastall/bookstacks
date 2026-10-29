@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-012",
+  "file": "img/the-mysterious-mr-quin-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — Harlequin's Lane. Scene context, do not reproduce words: Mr. Satterthwaite was never quite sure what took him to stay with the Denmans. They were not of his kind—that is to say, they belonged neither to the great world, nor to the more interesting artistic circles. They were Philistines, and dull Philistines at that. Mr. Satterthwaite had met them first at Biarritz, had accepted an invitation to stay with them, had come, had been bored, and yet strangely enough had come again and yet again. Why? He was asking himself that question on this twenty-first of June, as he sped out of London in his Rolls Royce. John Denman was a man of forty, a solid, well-established figure, respected in the business world. His friends were not Mr. Satterthwaite's friends, his ideas even less so. He was a man clever in his own line but devoid of imagination outside it. Why am I doing this thing? Mr. Satterthwaite asked himself once more—and the only answer that came seemed to him so vague and so inherently preposterous that he almost put it aside. For the only rea",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "5c611668dee8dd4a0cddc34fd58fbec98fbc4c3af0236f17aae575d94a578216",
+  "masterSha256": "ea65eb2b2056e403700b9447d78c7114367ec4e1ce3919127b4a403ce4bb672b",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-012.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-012.preview.jpg",
+    "sha256": "b404cf1e98423ab918b2624f793d41685e86ce22aae6be1709de9d3fc03c97a2"
+  }
+}

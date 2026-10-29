@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-010",
+  "file": "img/murder-at-the-vicarage-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 10. Scene context, do not reproduce words: His remarks on the subject of Miss Marple as we left the house were far from complimentary. \"I really believe that wizened-up old maid thinks she knows everything there is to know. And hardly been out of this village all her life. Preposterous. What can she know of life?\" I said mildly that, though doubtless Miss Marple knew next to nothing of life with a capital L, she knew practically everything that went on in St. Mary Mead. Melchett admitted that grudgingly. She was a valuable witness—particularly valuable from Mrs. Protheroe's point of view. \"I suppose there's no doubt about what she says, eh?\" \"If Miss Marple says she had no pistol with her, you can take it for granted that it is so,\" I said. \"If there was the least possibility of such a thing, Miss Marple would have been on to it like a knife.\" \"That's true enough. We'd better go and have a look at the studio.\" The so-called studio was a mere rough shed with a skylight. There were no windows, and the door was the only means of e",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "9cc2ac438572de412b52b27fc0bd6ef8d7c7950daf3ff1202c0aef75d17e900b",
+  "masterSha256": "3e816bb70968de6ebf62c32c8ec22ef4360d1615ceea2aa433af98541da93553",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-010.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-010.preview.jpg",
+    "sha256": "23599ea35fd3f120846fa4fcb9808f4a7c4acc6867651f03ccbec1cab629c225"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-032",
+  "file": "img/the-man-in-the-brown-suit-032.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXXI. Scene context, do not reproduce words: Pagett has arrived. He is in a blue funk of course. Suggested at once that we should go off to Pretoria. Then, when I had told him kindly but firmly that we were going to remain here, he went to the other extreme, wished he had his rifle here, and began bucking about some bridge he guarded during the Great War. A railway bridge at Little Puddecombe junction, or something of that sort. I soon cut that short by telling him to unpack the big typewriter. I thought that that would keep him employed for some time, because the typewriter was sure to have gone wrong—it always does—and he would have to take it somewhere to be mended. But I had forgotten Pagett’s powers of being in the right. “I’ve already unpacked all the cases, Sir Eustace. The typewriter is in perfect condition.” “What do you mean—all the cases?” “The two small cases as well.” “I wish you wouldn’t be so officious, Pagett. Those small cases were no business of yours. They belong to Mrs. Blair.” Pagett looked crestfallen. He ha",
+  "width": 1200,
+  "height": 800,
+  "sha256": "09b88a9eaac0024dd12d61911614bba26409986413200bd4a9567c1d71d65950",
+  "masterSha256": "79a20ade4536c7a8180fc4972a0786aa3f030373e4c741f02c52f52fe3e60bff",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-032.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-032.preview.jpg",
+    "sha256": "745a93820909f0a0894a1fb44b45c0b1de129602fc6b40ca7e085f33efeec724"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-003",
+  "file": "img/the-murder-on-the-links-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 3At the Villa Geneviève. Scene context, do not reproduce words: In a moment Poirot had leapt from the car, his eyes blazing with excitement. He caught the man by the shoulder. “What is that you say? Murdered? When? How?” The sergent de ville drew himself up. “I cannot answer any questions, monsieur.” “True. I comprehend.” Poirot reflected for a minute. “The Commissary of Police, he is without doubt within?” “Yes, monsieur.” Poirot took out a card, and scribbled a few words on it. “Voilà! Will you have the goodness to see that this card is sent in to the commissary at once?” The man took it and, turning his head over his shoulder, whistled. In a few seconds a comrade joined him and was handed Poirot’s message. There was a wait of some minutes, and then a short stout man with a huge moustache came bustling down to the gate. The sergent de ville saluted and stood aside. “My dear M. Poirot,” cried the new-comer, “I am delighted to see you. Your arrival is most opportune.” Poirot’s face had lighted up. “M. Bex! This is indeed a pleasure.” He turned to m",
+  "width": 1200,
+  "height": 800,
+  "sha256": "376c1ea06a532aab3fcca0163dc7b2e72d2a1809214d5949a209f8d25216b330",
+  "masterSha256": "bcc6cae9235666d45245527a1a4667fc881258dcf8d7bc9c0c65c863df7110d9",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-003.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-003.preview.jpg",
+    "sha256": "a2d474e82ecbfa3b180150217446fd158603e4dea6396b8bce2840d4403c46dc"
+  },
+  "useCase": "illustration-story"
+}

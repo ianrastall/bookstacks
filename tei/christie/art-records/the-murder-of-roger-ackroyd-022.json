@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-022",
+  "file": "img/the-murder-of-roger-ackroyd-022.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XXII. URSULA’S STORY. Scene context, do not reproduce words: For a moment or two the girl looked mutely at Poirot. Then, her reserve breaking down completely, she nodded her head once, and burst into an outburst of sobs. Caroline pushed past me, and putting her arm round the girl, patted her on the shoulder. “There, there, my dear,” she said soothingly, “it will be all right. You’ll see—everything will be all right.” Buried under curiosity and scandal-mongering there is a lot of kindness in Caroline. For the moment, even the interest of Poirot’s revelation was lost in the sight of the girl’s distress. Presently Ursula sat up and wiped her eyes. “This is very weak and silly of me,” she said. “No, no, my child,” said Poirot kindly. “We can all realize the strain of this last week.” “It must have been a terrible ordeal,” I said. “And then to find that you knew,” continued Ursula. “How did you know? Was it Ralph who told you?” Poirot shook his head. “You know what brought me to you to-night,” went on the girl. “This——” She held out a crumpled piece ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "317db4c4f0b72539e2b6877b8f3fff3151a4df7aee220ea6a7b873099d45b193",
+  "masterSha256": "05296e60434092f695eeb46d0848cd622faf212341253dfc1fa284689240754e",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-022.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-022.preview.jpg",
+    "sha256": "1a9556e517880774d0386207f74144325e1a901ae773545d7f44730bf1757579"
+  },
+  "useCase": "illustration-story"
+}

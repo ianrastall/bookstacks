@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-001",
+  "file": "img/the-man-in-the-brown-suit-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — PROLOGUE. Scene context, do not reproduce words: Nadina, the Russian dancer who had taken Paris by storm, swayed to the sound of the applause, bowed and bowed again. Her narrow black eyes narrowed themselves still more, the long line of her scarlet mouth curved faintly upwards. Enthusiastic Frenchmen continued to beat the ground appreciatively as the curtain fell with a swish, hiding the reds and blues and magentas of the bizarre décors. In a swirl of blue and orange draperies the dancer left the stage. A bearded gentleman received her enthusiastically in his arms. It was the Manager. “Magnificent, petite, magnificent,” he cried. “To-night you have surpassed yourself.” He kissed her gallantly on both cheeks in a somewhat matter-of-fact manner. Madame Nadina accepted the tribute with the ease of long habit and passed on to her dressing-room, where bouquets were heaped carelessly everywhere, marvellous garments of futuristic design hung on pegs, and the air was hot and sweet with the scent of the massed blossoms and with more sophistic",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8811c9bbf767c4c5bee8efcd22bb938c3007273894bd324f9c343a610738bc6f",
+  "masterSha256": "6d9de979ce86ed61c828cc72e388764e60e6a015d7aea98284963ca28455f491",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-001.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-001.preview.jpg",
+    "sha256": "4a404ec921ddb5ee6982f2211a5ff595dd02643cc4a6d02bcdd31bdf4286a3f7"
+  },
+  "useCase": "illustration-story"
+}

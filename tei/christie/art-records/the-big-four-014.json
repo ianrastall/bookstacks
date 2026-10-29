@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-014",
+  "file": "img/the-big-four-014.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 14. THE PEROXIDE BLONDE. Scene context, do not reproduce words: I was very disappointed with the results of Poirot's bomb attack on the premises in Chinatown. To begin with, the leader of the gang had escaped. When Japp's men rushed up in response to Poirot's whistle they found four Chinamen unconscious in the hall, but the man who had threatened me with death was not among them. I remembered afterwards that when I was forced out on to the doorstep, to decoy Poirot into the house, this man had kept well in the background. Presumably he was out of the danger zone of the gas bomb, and made good his escape by one of the many exits which we afterwards discovered. From the four who remained in our hands we learnt nothing. The fullest investigation by the police failed to bring to light anything to connect them with the Big Four. They were ordinary low-class residents of the district, and they professed bland ignorance of the name Li Chang Yen. A Chinese gentleman had hired them for service in the house by the waterside, and they knew nothing whatever of",
+  "width": 1200,
+  "height": 800,
+  "sha256": "04376be62acca55b2e9a296ad2a4068f4a618178a43d6f48d44541f83186d319",
+  "masterSha256": "398616f1904cdf151473d203406e78a6d8433d02aeb221be2c31fd42381525de",
+  "masterFile": "assets/source-christie-art/the-big-four-014.png",
+  "preview": {
+    "file": "img/the-big-four-014.preview.jpg",
+    "sha256": "0ad6fb229cfe86dad1cd3dfdc5917983c6d8a736c9d86cb247254b1b7a25ea0b"
+  },
+  "useCase": "illustration-story"
+}

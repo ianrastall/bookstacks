@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-005",
+  "file": "img/the-big-four-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 5. DISAPPEARANCE OF A SCIENTIST. Scene context, do not reproduce words: Personally, I don't think that, even when a jury had acquitted Robert Grant, alias Biggs, of the murder of Jonathan Whalley, Inspector Meadows was entirely convinced of his innocence. The case which he had built up against Grant—the man's record, the jade which he had stolen, the boots which fitted the footprints so exactly—was to his matter-of-fact mind too complete to be easily upset; but Poirot, compelled much against his inclination to give evidence, convinced the jury. Two witnesses were produced who had seen a butcher's cart drive up to the bungalow on that Monday morning, and the local butcher testified that his cart only called there on Wednesdays and Fridays. A woman was actually found who, when questioned, remembered seeing the butcher's man leaving the bungalow, but she could furnish no useful description of him. The only impression he seemed to have left on her mind was that he was clean-shaven, of medium height, and looked exactly like a butcher's man. At this description ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "f96b723186aa99d592b200b1442635464ebc72b1ee9e2d36d2c7b1da63af0c94",
+  "masterSha256": "8ee9f5f930e92fd31f6f5cea9d73edffc7ef2383fd83c1f035ea194c1c3b3962",
+  "masterFile": "assets/source-christie-art/the-big-four-005.png",
+  "preview": {
+    "file": "img/the-big-four-005.preview.jpg",
+    "sha256": "d8d4bb9895631eadb2f37ca0f4f74baff322254da16ddf61c303e58080662e6b"
+  },
+  "useCase": "illustration-story"
+}

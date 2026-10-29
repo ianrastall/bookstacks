@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-020",
+  "file": "img/partners-in-crime-020.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XX. The Clergyman's Daughter. Scene context, do not reproduce words: \"I wish,\" said Tuppence, roaming moodily round the office, \"that we could befriend a clergyman's daughter.\" \"Why?\" asked Tommy. \"You may have forgotten the fact, but I was once a clergyman's daughter myself. I remember what it was like. Hence this altruistic urge—this spirit of thoughtful consideration for others—this—\" \"You are getting ready to be Roger Sheringham, I see,\" said Tommy. \"If you will allow me to make a criticism, you talk quite as much as he does, but not nearly so well.\" \"On the contrary,\" said Tuppence, \"there is a feminine subtlety about my conversation, a je ne sais quoi, that no gross male could ever attain to. I have, moreover, powers unknown to my prototype—do I mean prototype? Words are such uncertain things, they so often sound well but mean the opposite of what one thinks they do.\" \"Go on,\" said Tommy kindly. \"I was. I was only pausing to take breath. Touching these powers, it is my wish to-day to assist a clergyman's daughter. You will see, Tommy, the first pe",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "dfe05d2bbaadcd601e6c148e980c35e6c2e475e4a5c1d624feed2f2323f83890",
+  "masterSha256": "1137b35e502cb7519041bbd00e132da896c02c005f5f5af2f6195c01108c8d6d",
+  "masterFile": "assets/source-christie-art/partners-in-crime-020.png",
+  "preview": {
+    "file": "img/partners-in-crime-020.preview.jpg",
+    "sha256": "c41ea0b9f099aebfde742d13e2f0d7ebe635fe61e5cb96a1f64f2eb2fdc020ff"
+  }
+}

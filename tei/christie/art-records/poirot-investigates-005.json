@@ -1,0 +1,17 @@
+{
+  "slug": "poirot-investigates-005",
+  "file": "img/poirot-investigates-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Poirot Investigates — V. The Million Dollar Bond Robbery. Scene context, do not reproduce words: “What a number of bond robberies there have been lately!” I observed one morning, laying aside the newspaper. “Poirot, let us forsake the science of detection, and take to crime instead!” “You are on the—how do you say it?—get-rich-quick tack, eh, mon ami?” “Well, look at this last coup, the million dollars’ worth of Liberty Bonds which the London and Scottish Bank were sending to New York, and which disappeared in such a remarkable manner on board the Olympia.” “If it were not for the mal de mer, and the difficulty of practising the so excellent method of Laverguier for a longer time than the few hours of crossing the channel, I should delight to voyage myself on one of these big liners,” murmured Poirot dreamily. “Yes, indeed,” I said enthusiastically. “Some of them must be perfect palaces; the swimming-baths, the lounges, the restaurant, the palm courts—really, it must be hard to believe that one is on the sea.” “Me, I always know when I am on the sea,” said Poirot sadly. “And all t",
+  "width": 1200,
+  "height": 800,
+  "sha256": "f86e99560b9807fb30970b06c11412ece0d2a378f46611206b15bca907f0a157",
+  "masterSha256": "a98dd7ae85591cc8c898193c477215c39b97bd01608fd6a0d886c4de568de855",
+  "masterFile": "assets/source-christie-art/poirot-investigates-005.png",
+  "preview": {
+    "file": "img/poirot-investigates-005.preview.jpg",
+    "sha256": "210c1b93072b20c4f1b47f1ed00c1edf03eb3feaa221164c6d75269af15dee7b"
+  },
+  "useCase": "illustration-story"
+}

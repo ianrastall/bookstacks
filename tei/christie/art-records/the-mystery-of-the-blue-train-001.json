@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-001",
+  "file": "img/the-mystery-of-the-blue-train-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 1. The Man with the White Hair. Scene context, do not reproduce words: It was close on midnight when a man crossed the Place de la Concorde. In spite of the handsome fur coat which garbed his meagre form, there was something essentially weak and paltry about him. A little man with a face like a rat. A man, one would say, who could never play a conspicuous part, or rise to prominence in any sphere. And yet, in leaping to such a conclusion, an onlooker would have been wrong. For this man, negligible and inconspicuous as he seemed, played a prominent part in the destiny of the world. In an Empire where rats ruled, he was the king of the rats. Even now, an Embassy awaited his return. But he had business to do first—business of which the Embassy was not officially cognizant. His face gleamed white and sharp in the moonlight. There was the least hint of a curve in the thin nose. His father had been a Polish Jew, a journeyman tailor. It was business such as his father would have loved that took him abroad to-night. He came to the Seine, crossed it, and entered o",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "01fa499c14a642738f4133e93df23072353af4d306f07b26f0df79dae876d63b",
+  "masterSha256": "e9bb84123510f077ed4ffb785f63da59bf350b2944a12a2c0910df44a3e06bee",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-001.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-001.preview.jpg",
+    "sha256": "cbc2d80c013b78a60a3f96d883498577cd50b7db0f650c01a8d4e46e34b1d401"
+  }
+}

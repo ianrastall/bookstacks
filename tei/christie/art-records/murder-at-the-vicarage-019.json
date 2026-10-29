@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-019",
+  "file": "img/murder-at-the-vicarage-019.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 19. Scene context, do not reproduce words: \"Very glad to have met you,\" said Lawrence. \"Come to my place.\" We turned in at the little rustic gate, went up the path, and he drew a key from his pocket and inserted it in the lock. \"You keep the door locked now,\" I observed. \"Yes.\" He laughed rather bitterly. \"Case of stable door when the steed is gone, eh? It is rather like that. You know, padre,\" he held the door open and I passed inside, \"there's something about all this business that I don't like. It's too much of—how shall I put it?—an inside job. Someone knew about that pistol of mine. That means that the murderer, whoever he was, must have actually been in this house—perhaps even had a drink with me.\" \"Not necessarily,\" I objected. \"The whole village of St. Mary Mead probably knows exactly where you keep your tooth brush and what kind of tooth powder you use.\" \"But why should it interest them?\" \"I don't know,\" I said, \"but it does. If you change your shaving cream it will be a topic of conversation.\" \"They must be very hard ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "63bd04354b38d40cc583e3c87ae87748848d531a838fd25369fbd63da319ad47",
+  "masterSha256": "b11e1ca3e04f81338fbed8035f22351fd0d1950a7fd1190a78612a82196a7af5",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-019.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-019.preview.jpg",
+    "sha256": "0a40ecd7bd75dd01e374884f129ceeef48bd03c1e45cd92893bc52fffd422943"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-017",
+  "file": "img/partners-in-crime-017.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XVII. The House Of Lurking Death. Scene context, do not reproduce words: \"What—\" began Tuppence, and then stopped. She had just entered the private office of Mr. Blunt from the adjoining one marked \"Clerks,\" and was surprised to behold her lord and master with his eye riveted to the private peep hole into the outer office. \"Ssh,\" said Tommy, warningly. \"Didn't you hear the buzzer? It's a girl—rather a nice girl—in fact she looks to me a frightfully nice girl. Albert is telling her all that tosh about my being engaged with Scotland Yard.\" \"Let me see,\" demanded Tuppence. Somewhat unwillingly, Tommy moved aside. Tuppence in her turn glued her eye to the peep hole. \"She's not bad,\" admitted Tuppence. \"And her clothes are simply the latest shout.\" \"She's perfectly lovely,\" said Tommy. \"She's like those girls Mason writes about—you know, frightfully sympathetic, and beautiful, and distinctly intelligent without being too saucy. I think, yes—I certainly think—I shall be the great Hanaud this morning.\" \"Hm,\" said Tuppence. \"If there is one detective out of all the",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "238c32fe1b8e4792ad00001d271f6aed8442012be3684892292b6178cd38b18f",
+  "masterSha256": "d3f7685ad0c7a6e781673f40304214e187c3652cf5e0ae8e2a89a002c14674e1",
+  "masterFile": "assets/source-christie-art/partners-in-crime-017.png",
+  "preview": {
+    "file": "img/partners-in-crime-017.preview.jpg",
+    "sha256": "14a22a3eb4a05c8542d9947f4f183a4a20d458cd7361b805539c22131db944c1"
+  }
+}

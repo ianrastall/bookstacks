@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-002",
+  "file": "img/the-murder-on-the-links-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 2An Appeal for Help. Scene context, do not reproduce words: It was five minutes past nine when I entered our joint sitting-room for breakfast on the following morning. My friend Poirot, exact to the minute as usual, was just tapping the shell of his second egg. He beamed upon me as I entered. “You have slept well, yes? You have recovered from the crossing so terrible? It is a marvel, almost you are exact this morning. Pardon, but your tie is not symmetrical. Permit that I rearrange him.” Elsewhere, I have described Hercule Poirot. An extraordinary little man! Height, five feet four inches, egg-shaped head carried a little to one side, eyes that shone green when he was excited, stiff military moustache, air of dignity immense! He was neat and dandified in appearance. For neatness of any kind, he had an absolute passion. To see an ornament set crooked, or a speck of dust, or a slight disarray in one’s attire, was torture to the little man until he could ease his feelings by remedying the matter. “Order” and “Method” were his gods. He had a certai",
+  "width": 1200,
+  "height": 800,
+  "sha256": "62bedf49b47e490110512301a11de67b74333e7316fc9a776948fa915d8d4b88",
+  "masterSha256": "09a1be3c0cb2f5132fcfdf7760c336a416cafd35f2b633eba078f7141f676e2f",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-002.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-002.preview.jpg",
+    "sha256": "c0d919fbccaa822d8896b3a411ad6d380c8cf94e47e358be7b49cac59c592497"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-017",
+  "file": "img/the-man-in-the-brown-suit-017.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XVI. Scene context, do not reproduce words: I got an opportunity of tackling Colonel Race on the following morning. The auction of the sweep had just been concluded, and we walked up and down the deck together. “How’s the gipsy this morning? Longing for land and her caravan?” I shook my head. “Now that the sea is behaving so nicely, I feel I should like to stay on it for ever and ever.” “What enthusiasm!” “Well, isn’t it lovely this morning?” We leant together over the rail. It was a glassy calm. The sea looked as though it had been oiled. There were great patches of colour on it, blue, pale green, emerald, purple and deep orange, like a cubist picture. There was an occasional flash of silver that showed the flying fish. The air was moist and warm, almost sticky. Its breath was like a perfumed caress. “That was a very interesting story you told us last night,” I said, breaking the silence. “Which one?” “The one about the diamonds.” “I believe women are always interested in diamonds.” “Of course we are. By the way, what became of",
+  "width": 1200,
+  "height": 800,
+  "sha256": "b3a509c79046cc30effb17dcb83f5ae05b75cfff0b281434776d626788086c9d",
+  "masterSha256": "c299f14e41f63cf36d215de667746c9ad8d08e790103b8683ff1bac9275ae562",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-017.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-017.preview.jpg",
+    "sha256": "2031a5514b39f2a12e778e928f1c305d585df68bbb777817df6f2a1674fc4795"
+  },
+  "useCase": "illustration-story"
+}

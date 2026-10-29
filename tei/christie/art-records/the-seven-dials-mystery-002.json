@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-002",
+  "file": "img/the-seven-dials-mystery-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter II. Scene context, do not reproduce words: Concerning Alarum Clocks \"Now where shall we put them?\" Dinner was over. Lady Coote had been once more detailed for duty. Sir Oswald had unexpectedly come to the rescue by suggesting bridge—not that suggesting is the right word. Sir Oswald, as became one of \"Our Captains of Industry\" (No. 7 of Series I), merely expressed a preference and those around him hastened to accommodate themselves to the great man's wishes. Rupert Bateman and Sir Oswald were partners against Lady Coote and Gerald Wade, which was a very happy arrangement. Sir Oswald played bridge, like he did everything else, extremely well, and liked a partner to correspond. Bateman was as efficient a bridge player as he was a secretary. Both of them confined themselves strictly to the matter in hand, merely uttering in curt short barks, \"Two no trumps,\" \"Double,\" \"Three spades.\" Lady Coote and Gerald Wade were amiable and discursive and the young man never failed to say at the conclusion of each hand, \"I say, partner, you play",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "b6f375f7d30471d297c73da78064a20bb27fe39e25dbfd017fca2c8a5f2e82b0",
+  "masterSha256": "a92234e62031cddd8b4ba7126eaca5e0f0ec0f0c2025d50268a1d1af1d5b8ff4",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-002.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-002.preview.jpg",
+    "sha256": "51587ce74aadd2c2db3011b209d50c0fa82a6560367d9f549ebb63e2e3e91671"
+  }
+}

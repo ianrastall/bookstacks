@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-009",
+  "file": "img/the-big-four-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 9. THE YELLOW JASMINE MYSTERY. Scene context, do not reproduce words: It was all very well for Poirot to say that we were acquiring information all the time and gaining an insight into our adversaries' minds—I felt myself that I required some more tangible success than this. Since we had come into contact with the Big Four, they had committed two murders, abducted Halliday, and had been within an ace of killing Poirot and myself; whereas so far we had hardly scored a point in the game. Poirot treated my complaints lightly. \"So far, Hastings,\" he said, \"they laugh. That is true, but you have a proverb, have you not: 'He laughs best who laughs at the end'? And at the end, mon ami, you shall see. \"You must remember, too,\" he added, \"that we deal with no ordinary criminal, but with the second greatest brain in the world.\" I forbore to pander to his conceit by asking the obvious question. I knew the answer, at least I knew what Poirot's answer would be, and instead I tried without success to elicit some information as to what steps he was taking to track down",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "4a2e9b286a1ae4163ef6a7e941d2a664ba1b9a4eed91107929064cbcab6ea28e",
+  "masterSha256": "151d2b68385bdff913a7458b1b45073d3d76bc3880443f76903e778786daeef7",
+  "masterFile": "assets/source-christie-art/the-big-four-009.png",
+  "preview": {
+    "file": "img/the-big-four-009.preview.jpg",
+    "sha256": "0be5d043847613edfdd7b14c726e0c8ca4cef4c9b71fd9ee1a2e2d2ddf1e1a94"
+  }
+}

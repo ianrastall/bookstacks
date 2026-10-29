@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-011",
+  "file": "img/the-mystery-of-the-blue-train-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 11. Murder. Scene context, do not reproduce words: Katherine wakened the next morning to brilliant sunshine. She went along to breakfast early, but met none of her acquaintances of the day before. When she returned to her compartment it had just been restored to its day-time appearance by the conductor, a dark man with a drooping moustache and melancholy face. \"Madame is fortunate,\" he said; \"the sun shines. It is always a great disappointment to passengers when they arrive on a grey morning.\" \"I should have been disappointed, certainly,\" said Katherine. The man prepared to depart. \"We are rather late, Madame,\" he said. \"I will let you know just before we get to Nice.\" Katherine nodded. She sat by the window, entranced by the sunlit panorama. The palm trees, the deep blue of the sea, the bright yellow mimosa came with all the charm of novelty to the woman who for fourteen years had known only the drab winters of England. When they arrived at Cannes, Katherine got out and walked up and down the platform. She was curious about the lady i",
+  "width": 1200,
+  "height": 800,
+  "sha256": "112ad729e765e8b77979fdcf4b7373325a97032df1c8fcbbd05208ea1ca778ed",
+  "masterSha256": "f0e3c9c02a14f17d50a82fe70738f476bf8d92d39650a85884d65dc300492494",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-011.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-011.preview.jpg",
+    "sha256": "fbf6210b877f43e7c900079d64efdd14e215eb41886fc40320135966241a50d2"
+  },
+  "useCase": "illustration-story"
+}

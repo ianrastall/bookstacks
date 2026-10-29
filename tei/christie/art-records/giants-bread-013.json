@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-013",
+  "file": "img/giants-bread-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 4. Scene context, do not reproduce words: \"We want another man,\" said Mrs. Vereker. Her eyebrows, slightly enhanced by art, drew together in a straight line as she frowned. \"It's too annoying young Wetherill failing us,\" she added. Nell nodded apathetically. She was sitting on the arm of a chair, not yet dressed. Her golden hair hung in a stream over the pale pink kimono she was wearing. She looked very lovely and very young and defenseless. Mrs. Vereker, sitting at her inlaid desk, frowned still more and bit the end of her penholder thoughtfully. The hardness that had always been noticeable was now accentuated and, as it were, crystallized. This was a woman who had battled steadily and unceasingly through life and was now engaged in a supreme struggle. She lived in a house the rent of which she could not afford to pay and she dressed her daughter in clothes she could not afford to buy. She got things on credit—not, like some others, by cajolery, but by sheer driving power. She never appealed to her creditors, she browbeat the",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "37de8ea32da75d67ed83a7525ce0d2c266d982b84f00e51e0d23fb42301bd612",
+  "masterSha256": "419ad95d96b0133b88205683c21a36e858be4cda8292f6c5a3bfb5cd9f492cee",
+  "masterFile": "assets/source-christie-art/giants-bread-013.png",
+  "preview": {
+    "file": "img/giants-bread-013.preview.jpg",
+    "sha256": "903d19a0166428b0567ddeebf19eee6c72fba29464944cb6159666db01892a16"
+  }
+}

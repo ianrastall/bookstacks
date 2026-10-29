@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-001",
+  "file": "img/the-mysterious-mr-quin-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — The Coming of Mr. Quin. Scene context, do not reproduce words: It was New Year's Eve. The elder members of the house party at Royston were assembled in the big hall. Mr. Satterthwaite was glad that the young people had gone to bed. He was not fond of young people in herds. He thought them uninteresting and crude. They lacked subtlety and as life went on he had become increasingly fond of subtleties. Mr. Satterthwaite was sixty-two—a little bent, dried-up man with a peering face oddly elflike, and an intense and inordinate interest in other people's lives. All his life, so to speak, he had sat in the front row of the stalls watching various dramas of human nature unfold before him. His role had always been that of the onlooker. Only now, with old age holding him in its clutch, he found himself increasingly critical of the drama submitted to him. He demanded now something a little out of the common. There was no doubt that he had a flair for these things. He knew instinctively when the elements of drama were at hand. Like a war horse, he sniffed the",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "22700330ab76ee0a35182f0c7fcf665b36d5e80fa996d4cb094c63209421eaff",
+  "masterSha256": "73ac1d6c537e934d87e60065efe3089711374f78dde86d481ddc47bfb1281e2c",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-001.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-001.preview.jpg",
+    "sha256": "cf6f5730ae0f1d4aa561a5315be6ae41a58fa64db6a922e52803a0391aef04d9"
+  }
+}

@@ -63,7 +63,7 @@ It is an editorial judgment, not a ranking by download counts.
 | Next | Frederick Douglass — `douglass-frederick.png` | *Narrative of the Life of Frederick Douglass, an American Slave* | A short, major autobiographical work; retain prefatory documents with clear attribution. |
 | Next | W. E. B. Du Bois — `du-bois-w-e-b.png` | *The Souls of Black Folk* | Adds essays and social thought; preserve musical epigraphs. |
 | Next | Franz Kafka — `kafka-franz.png` | *The Metamorphosis* | A concise modern European entry; German text and English translation are separate acquisitions. |
-| Next | Agatha Christie — `christie-agatha.png` | *The Mysterious Affair at Styles* | Complements Doyle and Poe. Select an eligible early work/edition; do not assume the whole catalogue is reusable. |
+| Added 28 October 2026 | Agatha Christie — `christie-agatha.png` | 14 books and three periodical stories | 363 new chapter/story sketches. See [the Christie edition record](christie-editions.md) for the pinned sources and edition distinctions. |
 | Following | Nikolai Gogol — `gogol-nikolai.png` | *The Overcoat*, *The Nose*, *Diary of a Madman* in a selected volume; then *Dead Souls* | A bridge between Russian fiction and Poe’s grotesque/supernatural vein. |
 | Following | Nathaniel Hawthorne — `hawthorne-nathaniel.png` | *The Scarlet Letter*; selected tales later | Early American fiction and psychological allegory. |
 | Following | Victor Hugo — `hugo-victor.png` | *The Hunchback of Notre-Dame*; *Les Misérables* later | Adds French originals and substantial translated fiction; preserve edition/translation identity. |

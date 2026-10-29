@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-022",
+  "file": "img/the-seven-dials-mystery-022.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXII. Scene context, do not reproduce words: The Countess Radzky's Story The Countess's return to consciousness was very different from that of Jimmy Thesiger. It was more prolonged and infinitely more artistic. Artistic was Bundle's word. She had been zealous in her ministrations—largely consisting of the application of cold water—and the Countess had instantly responded, passing a white, bewildered hand across her brow and murmuring faintly. It was at this point that Bill, at last relieved from his duties with telephone and doctors, had come bustling into the room and had instantly proceeded to make (in Bundle's opinion) a most regrettable idiot of himself. He had hung over the Countess with a concerned and anxious face and had addressed a series of singularly idiotic remarks to her: \"I say, Countess. It's all right. It's really all right. Don't try to talk. It's bad for you. Just lie still. You'll be all right in a minute. It'll all come back to you. Don't say anything till you're quite all right. Take your time. Just lie stil",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "eeba382041b3dcd706bc8d2953657b5c65ad72ba8d125c336cdaf2cde425e065",
+  "masterSha256": "6e43e04970509f2f0e6fb60ce59b5a05d796a5c2fc7c7af32aa2248421a47c42",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-022.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-022.preview.jpg",
+    "sha256": "d927be67be16b51c11d35b4a21b769c5a12e81b424aca4797070f0c5513d3ffa"
+  }
+}

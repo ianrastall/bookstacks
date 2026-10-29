@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-019",
+  "file": "img/partners-in-crime-019.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XIX. The Unbreakable Alibi. Scene context, do not reproduce words: Tommy and Tuppence were busy sorting correspondence. Tuppence gave an exclamation and handed a letter across to Tommy. \"A new client,\" she said importantly. \"Ha!\" said Tommy. \"What do we deduce from this letter, Watson? Nothing much, except the somewhat obvious fact that Mr.—er—Montgomery Jones is not one of the world's best spellers, thereby proving that he has been expensively educated.\" \"Montgomery Jones?\" said Tuppence. \"Now what do I know about a Montgomery Jones? Oh, yes, I have got it now. I think Janet St. Vincent mentioned him. His mother was Lady Aileen Montgomery, very crusty and high church, with gold crosses and things, and she married a man called Jones who is immensely rich.\" \"In fact the same old story,\" said Tommy. \"Let me see, what time does this Mr. M. J. wish to see us? Ah, eleven thirty.\" At eleven thirty precisely a very tall young man with an amiable and ingenuous countenance entered the outer office and addressed himself to Albert, the office boy. \"Look here—I s",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a088cc710ceb865038b8a2ab51b4c36e5541417100167e70cd87520e4a789c6e",
+  "masterSha256": "dc5744616565cc1f220a8db71d1d7d7ab1e879b075dae1bb6324863ddd064092",
+  "masterFile": "assets/source-christie-art/partners-in-crime-019.png",
+  "preview": {
+    "file": "img/partners-in-crime-019.preview.jpg",
+    "sha256": "d2600aa675e122be05bd651b028629939334e806765d20928aca1ceffaf57a8e"
+  }
+}

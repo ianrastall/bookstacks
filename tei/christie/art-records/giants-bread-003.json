@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-003",
+  "file": "img/giants-bread-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 2. Scene context, do not reproduce words: Winnie the nursemaid was going away. It all happened very suddenly. The other servants whispered together. Winnie cried. She cried and cried. Nurse gave her what she called a Talking To and after that Winnie cried more than ever. There was something terrible about Nurse; she seemed larger than usual and she crackled more. Winnie, Vernon knew, was going away because of Father. He accepted that fact without any particular interest or curiosity. Nursemaids did sometimes go away because of Father. His mother was shut in her room. She too was crying. Vernon could hear her through the door. She did not send for him and it did not occur to him to go to her. Indeed he was vaguely relieved. He hated the noise of crying, the gulping sound, the long-drawn sniffs, and it always happened so close to your ears. People who were crying always hugged you. Vernon hated those kinds of noises close to his ears. There was nothing in the world he hated more than the wrong sort of noise. It made you feel all",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0872547531cf7e920c3743f4d319edef999d845f3f164f73d1ee3804447afb8c",
+  "masterSha256": "4bc6cb1f9f879398904f88dfbff7f9b2b74048669808c62a73f6467bb9038742",
+  "masterFile": "assets/source-christie-art/giants-bread-003.png",
+  "preview": {
+    "file": "img/giants-bread-003.preview.jpg",
+    "sha256": "f311eae0bedb4cd7dcd06daec7c5ad7d0f6dcf2a0dd60a807e5e97506d2a2723"
+  }
+}

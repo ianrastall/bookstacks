@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-025",
+  "file": "img/giants-bread-025.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 1. Scene context, do not reproduce words: In the yard of the county hotel in Wiltsbury two chauffeurs were busy with cars. George Green finished his work on the interior of the big Daimler, wiped his hands on a bit of oily rag, and stood upright with a sigh of satisfaction. He was a cheerful young fellow and was smiling now because he was pleased with himself for locating the trouble and dealing with it. He strolled along to where his fellow chauffeur was completing the toilet of a Minerva. The latter looked up. \"Hullo, George. You through? Your boss is a Yank, isn't he? What's he like?\" \"He's all right. Fussy, though. Won't go more than forty.\" \"Well, thank your stars you don't drive for a woman,\" said the other. His name was Evans. \"Always changing their minds. And no idea of the proper times for meals. Picnic lunches as often as not—and you know what that means, a hard-boiled egg and a leaf of lettuce.\" Green sat down on an adjacent barrel. \"Why don't you chuck it?\" \"Not so easy to get another job these days,\" said Evans. \"",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c8b860c1999d822c3f6e68159e4db611ddcb2f7c516daf3c7e904aa28f598152",
+  "masterSha256": "b226d12e9f6ca091937986e852703fcbae6753fbc732a51b99aa70e37c528e86",
+  "masterFile": "assets/source-christie-art/giants-bread-025.png",
+  "preview": {
+    "file": "img/giants-bread-025.preview.jpg",
+    "sha256": "6c4727bf193e6e121ccf0264909a1a594a75b56d22ce13d13d9737556be6b21b"
+  }
+}

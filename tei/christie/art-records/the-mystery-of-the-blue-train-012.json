@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-012",
+  "file": "img/the-mystery-of-the-blue-train-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 12. At the Villa Marguerite. Scene context, do not reproduce words: \"Then you were really in the thick of it all!\" said Lady Tamplin enviously. \"My dear, how thrilling!\" She opened her china blue eyes very wide and gave a little sigh. \"A real murder,\" said Mr. Evans gloatingly. \"Of course Chubby had no idea of anything of the kind,\" went on Lady Tamplin; \"he simply could not imagine why the police wanted you. My dear, what an opportunity! I think, you know—yes, I certainly think something might be made out of this.\" A calculating look rather marred the ingenuousness of the blue eyes. Katherine felt slightly uncomfortable. They were just finishing lunch, and she looked in turn at the three people sitting round the table. Lady Tamplin, full of practical schemes; Mr. Evans, beaming with naïve appreciation, and Lenox with a queer crooked smile on her dark face. \"Marvellous luck,\" murmured Chubby; \"I wish I could have gone along with you—and seen—all the exhibits.\" His tone was wistful and childlike. Katherine said nothing. The police had laid no injunction",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "fe9e8ab989e62a6d2016b5575272b457bbd077aaf02bcc0514b9f6b4b06a7918",
+  "masterSha256": "0e408f183622b29d257c0665efdac59efabde73b4a1132a8b21c1d94ea202585",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-012.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-012.preview.jpg",
+    "sha256": "ed01b606a56d4536ea369e7941a3ae05d251d2fb0a7f5f4ac59563a000652a96"
+  }
+}

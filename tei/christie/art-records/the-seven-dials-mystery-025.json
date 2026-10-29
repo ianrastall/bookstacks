@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-025",
+  "file": "img/the-seven-dials-mystery-025.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXV. Scene context, do not reproduce words: Jimmy Lays His Plans Jimmy Thesiger was feeling depressed. Avoiding George, whom he suspected of being ready to tackle him on serious subjects, he stole quietly away after lunch. Proficient as he was in details of the Santa Fé boundary dispute, he had no wish to stand an examination on it this minute. Presently what he hoped would happen came to pass. Loraine Wade, also unaccompanied, strolled down one of the shady garden paths. In a moment Jimmy was by her side. They walked for some minutes in silence and then Jimmy said tentatively: \"Loraine?\" \"Yes?\" \"Look here, I'm a bad chap at putting things—but what about it? What's wrong with getting a special license and being married and living together happy ever afterwards?\" Loraine displayed no embarrassment at this surprising proposal. Instead she threw back her head and laughed frankly. \"Don't laugh at a chap,\" said Jimmy reproachfully. \"I can't help it. You were so funny.\" \"Loraine—you are a little devil.\" \"I'm not. I'm what's called a t",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "36d6cff0842986ab431b4b817441fc6f1802d51a54f950d31130af1f366b06c4",
+  "masterSha256": "7569f67d1e6e2dcb23c8e6b852b2e0085b08219925fe529647b6f955219bf92f",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-025.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-025.preview.jpg",
+    "sha256": "1c92ed49bca93441878823296ab0422921d314ebdf6ea6111740c72bfd7340c0"
+  }
+}

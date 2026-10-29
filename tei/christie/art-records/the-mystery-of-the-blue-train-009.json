@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-009",
+  "file": "img/the-mystery-of-the-blue-train-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 9. An Offer Refused. Scene context, do not reproduce words: It was rarely that Derek Kettering allowed his temper to get the better of him. An easy-going insouciance was his chief characteristic, and it had stood him in good stead in more than one tight corner. Even now, by the time he had left Mirelle's flat, he had cooled down. He had need of coolness. The corner he was in now was a tighter one than he had ever been in before, and unforeseen factors had arisen with which, for the moment, he did not know how to deal. He strolled along deep in thought. His brow was furrowed, and there was none of the easy, jaunty manner which sat so well upon him. Various possibilities floated through his mind. It might have been said of Derek Kettering that he was less of a fool than he looked. He saw several roads that he might take—one in particular. If he shrank from it, it was for the moment only. Desperate ills need desperate remedies. He had gauged his father-in-law correctly. A war between Derek Kettering and Rufus Van Aldin could end only one way. Dere",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "935ed813d66c5eaf0fe3ee4e1c5660427e7c214c4d39603b98a627f6ceeeda55",
+  "masterSha256": "94d60b787d55f3656194725c6c5ae74eccadca99e303425cd5e8d1830b69a89f",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-009.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-009.preview.jpg",
+    "sha256": "54cacf229f8b795e158040a3ecc9007e065c0fd1aa46fd19182ec489744a2343"
+  }
+}

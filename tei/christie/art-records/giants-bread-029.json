@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-029",
+  "file": "img/giants-bread-029.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 5. Scene context, do not reproduce words: \"Sebastian!\" Joe started up in bed, then fell back weakly. She stared unbelievingly. Sebastian, big, fur-coated, calm, and omniscient, smiled placidly down at her. There was no sign in his face of the sudden pang her appearance had given him. Joe—poor little Joe! Her hair had grown—it was arranged in two short plaits, one over each shoulder. Her face was horribly thin, with a high hectic flush on each cheek bone. The bones of her shoulders showed through her thin nightdress. She looked like a feverish child. There was something childlike in her surprise, in her pleasure, in her eager questioning. The nurse had left them. Sebastian sat down by the bed and took Joe's thin hand in his. \"Vernon wired me. I didn't wait for him. I caught the first boat.\" \"To come to me?\" \"Of course.\" \"Dear Sebastian!\" Tears came into her eyes. Sebastian was alarmed and went on hastily: \"Not that I shan't do a bit of business while I am over. I often come over on business, and as a matter of fact I can do one",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a83a726a1e18bc3bfed06cc6a7653b2850eeb4103ad7f7de5f653d3f518a6ca6",
+  "masterSha256": "a7b959db58b3e85bb981de1a892ee3deea38d0236e08d79e297717d972aff73c",
+  "masterFile": "assets/source-christie-art/giants-bread-029.png",
+  "preview": {
+    "file": "img/giants-bread-029.preview.jpg",
+    "sha256": "5c660bcd62bb6099c7fb962d18c11a257b5182fa2b2ac99857f870d08f38d7dd"
+  }
+}

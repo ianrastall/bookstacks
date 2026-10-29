@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-010",
+  "file": "img/the-mysterious-affair-at-styles-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER X. THE ARREST. Scene context, do not reproduce words: To my extreme annoyance, Poirot was not in, and the old Belgian who answered my knock informed me that he believed he had gone to London. I was dumbfounded. What on earth could Poirot be doing in London! Was it a sudden decision on his part, or had he already made up his mind when he parted from me a few hours earlier? I retraced my steps to Styles in some annoyance. With Poirot away, I was uncertain how to act. Had he foreseen this arrest? Had he not, in all probability, been the cause of it? Those questions I could not resolve. But in the meantime what was I to do? Should I announce the arrest openly at Styles, or not? Though I did not acknowledge it to myself, the thought of Mary Cavendish was weighing on me. Would it not be a terrible shock to her? For the moment, I set aside utterly any suspicions of her. She could not be implicated—otherwise I should have heard some hint of it. Of course, there was no possibility of being able permanently to conceal Dr. Bauerstein’s arrest from h",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3dd95a90e87862d9d0faaac7eb02d4027885d63d4ff686d27f05e7e3aa57f3f3",
+  "masterSha256": "9dadd690665fcc08601aa2d7870e313c6d964611587997f088cc5a27e5c07c16",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-010.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-010.preview.jpg",
+    "sha256": "608dbbdfac275109996deff74e18d9f48b4e77282f75f2344501ba96a85be446"
+  },
+  "useCase": "illustration-story"
+}

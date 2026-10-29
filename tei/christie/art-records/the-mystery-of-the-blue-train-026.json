@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-026",
+  "file": "img/the-mystery-of-the-blue-train-026.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 26. A Warning. Scene context, do not reproduce words: \"And so it is,\" said Poirot, \"that we are the good friends and have no secrets from each other.\" Katherine turned her head to look at him. There was something in his voice, some undercurrent of seriousness, which she had not heard before. They were sitting in the gardens of Monte Carlo. Katherine had come over with her friends, and they had run into Knighton and Poirot almost immediately on arrival. Lady Tamplin had seized upon Knighton and had overwhelmed him with reminiscences, most of which Katherine had a faint suspicion were invented. They had moved away together, Lady Tamplin with her hand on the young man's arm. Knighton had thrown a couple of glances back over his shoulder, and Poirot's eyes twinkled a little as he saw them. \"Of course we are friends,\" said Katherine. \"From the beginning we have been sympathetic to each other,\" mused Poirot. \"When you told me that a 'Roman Policier' occurs in real life.\" \"And I was right, was I not?\" he challenged her, with an emphatic forefing",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "d36d61382314d69eced32c2b8bde0c1e637043febca2101e73ba889e7f7b42ec",
+  "masterSha256": "87de94b8e905dff52bd965ac407d53caff36ecb6c43cad84d93ee38d5b7891fd",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-026.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-026.preview.jpg",
+    "sha256": "9310747aa7051cc2d3198eaa062d13e8c3cd8dc880aa9c700a8cd08e0510351c"
+  }
+}

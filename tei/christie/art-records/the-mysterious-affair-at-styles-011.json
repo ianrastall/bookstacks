@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-011",
+  "file": "img/the-mysterious-affair-at-styles-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER XI. THE CASE FOR THE PROSECUTION. Scene context, do not reproduce words: The trial of John Cavendish for the murder of his stepmother took place two months later. Of the intervening weeks I will say little, but my admiration and sympathy went out unfeignedly to Mary Cavendish. She ranged herself passionately on her husband’s side, scorning the mere idea of his guilt, and fought for him tooth and nail. I expressed my admiration to Poirot, and he nodded thoughtfully. “Yes, she is of those women who show at their best in adversity. It brings out all that is sweetest and truest in them. Her pride and her jealousy have——” “Jealousy?” I queried. “Yes. Have you not realized that she is an unusually jealous woman? As I was saying, her pride and jealousy have been laid aside. She thinks of nothing but her husband, and the terrible fate that is hanging over him.” He spoke very feelingly, and I looked at him earnestly, remembering that last afternoon, when he had been deliberating whether or not to speak. With his tenderness for “a woman’s happiness,” I felt glad that",
+  "width": 1200,
+  "height": 800,
+  "sha256": "33d5593e1c24d9df4b74c514ae043915ca781d3b9afed8e92823f62d0a757881",
+  "masterSha256": "7587440ac55f27a691cc9032194abda7f0e5c29ea7bc00be497eacad0722d93b",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-011.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-011.preview.jpg",
+    "sha256": "fd196b61aac45885dbedd749849053244d6e5dcd3b985d1515b54dcada70986d"
+  },
+  "useCase": "illustration-story"
+}

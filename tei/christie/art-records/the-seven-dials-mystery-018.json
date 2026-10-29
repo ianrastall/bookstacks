@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-018",
+  "file": "img/the-seven-dials-mystery-018.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XVIII. Scene context, do not reproduce words: Jimmy's Adventures Our chronicle must here split into three separate and distinct portions. The night was to prove an eventful one and each of the three persons involved saw it from his or her own individual angle. We will begin with that pleasant and engaging youth, Mr. Jimmy Thesiger, at a moment when he has at last exchanged final good-nights with his fellow conspirator, Bill Eversleigh. \"Don't forget,\" said Bill, \"3 A.M. If you're still alive, that is,\" he added kindly. \"I may be an ass,\" said Jimmy, with rancorous remembrance of the remark Bundle had repeated to him, \"but I'm not nearly so much of an ass as I look.\" \"That's what you said about Gerry Wade,\" said Bill slowly. \"Do you remember? And that very night he—\" \"Shut up, you damned fool,\" said Jimmy. \"Haven't you got any tact?\" \"Of course I've got tact,\" said Bill. \"I'm a budding diplomatist. All diplomatists have tact.\" \"Ah!\" said Jimmy. \"You must be still in what they call the larval stage.\" \"I can't get over Bundle,\" said ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "211bfc9a56af17da53d5712c937e446801fd73cec4ae201751b11dfd81da0b94",
+  "masterSha256": "abd94369d9f174134014df0462f71e6a714eaf35a63aa2df9c2a56e3b384ad63",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-018.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-018.preview.jpg",
+    "sha256": "63c2bc6ea99d76614b707904cd1fd525da1414cc43e6606776f807e5adafc963"
+  }
+}

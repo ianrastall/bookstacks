@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-026",
+  "file": "img/the-murder-of-roger-ackroyd-026.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XXVI. AND NOTHING BUT THE TRUTH. Scene context, do not reproduce words: There was a dead silence for a minute and a half. Then I laughed. “You’re mad,” I said. “No,” said Poirot placidly. “I am not mad. It was the little discrepancy in time that first drew my attention to you—right at the beginning.” “Discrepancy in time?” I queried, puzzled. “But yes. You will remember that every one agreed—you yourself included—that it took five minutes to walk from the lodge to the house—less if you took the short cut to the terrace. But you left the house at ten minutes to nine—both by your own statement and that of Parker, and yet it was nine o’clock as you passed through the lodge gates. It was a chilly night—not an evening a man would be inclined to dawdle; why had you taken ten minutes to do a five-minutes’ walk? All along I realized that we had only your statement for it that the study window was ever fastened. Ackroyd asked you if you had done so—he never looked to see. Supposing, then, that the study window was unfastened? Would there be time in that ten minutes",
+  "width": 1200,
+  "height": 800,
+  "sha256": "fac6f24119f1cce5a77b7c42a6fdb34968096154fd93b0d60574d8677562d7ac",
+  "masterSha256": "5dc72d7f9a71dd5ad3e16b33946bace9ea6dac8b5e5efd2da0c945da92799dac",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-026.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-026.preview.jpg",
+    "sha256": "6bdb1567c9410e4e50d0085bc7dbb2b1f8384336deec862132e5d929bde933d2"
+  },
+  "useCase": "illustration-story"
+}

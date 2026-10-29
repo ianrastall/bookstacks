@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-001",
+  "file": "img/the-murder-of-roger-ackroyd-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER I. DR. SHEPPARD AT THE BREAKFAST TABLE. Scene context, do not reproduce words: Mrs. Ferrars died on the night of the 16th–17th September—a Thursday. I was sent for at eight o’clock on the morning of Friday the 17th. There was nothing to be done. She had been dead some hours. It was just a few minutes after nine when I reached home once more. I opened the front door with my latch-key, and purposely delayed a few moments in the hall, hanging up my hat and the light overcoat that I had deemed a wise precaution against the chill of an early autumn morning. To tell the truth, I was considerably upset and worried. I am not going to pretend that at that moment I foresaw the events of the next few weeks. I emphatically did not do so. But my instinct told me that there were stirring times ahead. From the dining-room on my left there came the rattle of tea-cups and the short, dry cough of my sister Caroline. “Is that you, James?” she called. An unnecessary question, since who else could it be? To tell the truth, it was precisely my sister Caroline who was the cause of my f",
+  "width": 1200,
+  "height": 800,
+  "sha256": "f351f7c9aea5c88b6c4173d5eed3bfeb362518b74893e234806ffefcf77f6ddb",
+  "masterSha256": "c42a9b716fc052ea54f6e653e680c72fa06babad32d3255019d6c3244ad3a7c3",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-001.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-001.preview.jpg",
+    "sha256": "fc3448574f4db63d67d96d44bd79d7c56cb1becf84222aa8d750821eca43384b"
+  },
+  "useCase": "illustration-story"
+}

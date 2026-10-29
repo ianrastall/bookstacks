@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-014",
+  "file": "img/the-murder-of-roger-ackroyd-014.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XIV. MRS. ACKROYD. Scene context, do not reproduce words: After the evening talk I have just chronicled, the affair seemed to me to enter on a different phase. The whole thing can be divided into two parts, each clear and distinct from the other. Part I. ranges from Ackroyd’s death on the Friday evening to the following Monday night. It is the straight-forward narrative of what occurred, as presented to Hercule Poirot. I was at Poirot’s elbow the whole time. I saw what he saw. I tried my best to read his mind. As I know now, I failed in this latter task. Though Poirot showed me all his discoveries—as, for instance, the gold wedding-ring—he held back the vital and yet logical impressions that he formed. As I came to know later, this secrecy was characteristic of him. He would throw out hints and suggestions, but beyond that he would not go. As I say, up till the Monday evening, my narrative might have been that of Poirot himself. I played Watson to his Sherlock. But after Monday our ways diverged. Poirot was busy on his own account. I got to h",
+  "width": 1200,
+  "height": 800,
+  "sha256": "d072a526316c06fa40e76b98492869f01c15bebfd062f125c4e6f78c3f3bf927",
+  "masterSha256": "66a46e0ed5402bd456c2b3ed745ef852a245b0e3d880c00d232b88100e1e5f08",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-014.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-014.preview.jpg",
+    "sha256": "b4b7b2547135f549824490428bc1c21b004505f74b988edefc5f88c287b09ec3"
+  },
+  "useCase": "illustration-story"
+}

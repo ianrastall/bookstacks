@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-034",
+  "file": "img/the-mystery-of-the-blue-train-034.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 34. The Blue Train Again. Scene context, do not reproduce words: \"The Millionaire's Train,\" as it is sometimes called, swung round a curve of line at what seemed a dangerous speed. Van Aldin, Knighton, and Poirot sat together in silence. Knighton and Van Aldin had two compartments connecting with each other, as Ruth Kettering and her maid had had on the fateful journey. Poirot's own compartment was further along the coach. The journey was a painful one for Van Aldin, recalling as it did the most agonizing memories. Poirot and Knighton conversed occasionally in low tones without disturbing him. When, however, the train had completed its slow journey round the ceinture and reached the Gare de Lyon, Poirot became suddenly galvanized into activity. Van Aldin realized that part of his object in travelling by the train had been to attempt to reconstruct the crime. Poirot himself acted every part. He was in turn the maid, hurriedly shut into her own compartment, Mrs. Kettering, recognizing her husband with surprise and a trace of anxiety, and Derek Ketteri",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 600,
+  "sha256": "a536fb22de02ae2394ec00c7b4d8e5d90d99ee1e48b5c0b172d3b13b5863e71c",
+  "masterSha256": "d8b990e8ceed70020864c777873e71bcb13a1cfade825e3c7de2a66bda30c339",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-034.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-034.preview.jpg",
+    "sha256": "a2ab2f57bed58bac3d5866aa6baf405a00eeab633b542233f01d50028fb14c7d"
+  }
+}

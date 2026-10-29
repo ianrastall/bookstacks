@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-001",
+  "file": "img/the-mysterious-affair-at-styles-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create a single landscape book illustration, fine black pen-and-ink engraving on ivory paper, delicate parallel hatching and stipple, soft open edges fading into blank paper, no border, lettering or caption. Agatha Christie, The Mysterious Affair at Styles, chapter 1: a wounded young British officer arriving at a peaceful English country house in summer 1916, broad Tudor facade and garden, a motorcar beside the gravel drive. Period accurate clothing and architecture, restrained literary sketch, no modern objects. Save the image as a project asset.",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ac00f88c796e2b7b99e35ec0533029fc41d93bd9db86231d86b495a40e1a15b1",
+  "masterSha256": "783524ea7b5693f4939ac8f51f90489fb828543bdc44b5d1a6523376dd5b7f12",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-001.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-001.preview.jpg",
+    "sha256": "d0ef6a66d50ac4d353b16bb963f3c2115e80ec36f5d590454708e0eacb1319f0"
+  },
+  "useCase": "illustration-story"
+}

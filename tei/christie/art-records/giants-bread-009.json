@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-009",
+  "file": "img/giants-bread-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 8. Scene context, do not reproduce words: The friendship with Sebastian Levinne prospered and throve apace. Half the zest of it lay in the secrecy that had to be adopted. Vernon's mother would have been horrified if she had guessed at anything of the kind. The Levinnes would certainly not have been horrified—but their gratification might have led to equally dire results. School time passed on leaden wings for poor Joe, cooped up with a daily governess who arrived every morning and who subtly disapproved of her outspoken and rebellious pupil. Joe lived only for the holidays. As soon as they came she and Vernon would set off to a secret meeting place where there was a convenient gap in a hedge. They had invented a code of whistles and many unnecessary signals. Sometimes Sebastian would be there before time—lying on the bracken, his yellow face and jutting ears looking strangely at variance with his knickerbocker suit. They played games, but they also talked—how they talked! Sebastian told them stories of Russia. They learned of ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "01eb78531418c770921f18e5c8a6ab3770ed662e3186a1f16c49fb75f0f6e32d",
+  "masterSha256": "bf6c5321c809a6f3392f52a129312801d400fbbe7b43588a5b536d4b1276d4d0",
+  "masterFile": "assets/source-christie-art/giants-bread-009.png",
+  "preview": {
+    "file": "img/giants-bread-009.preview.jpg",
+    "sha256": "1385fae3e8754f1eb4a1ed4029bd84311b4e01b49d8c3b5a4856e15134edd51c"
+  }
+}

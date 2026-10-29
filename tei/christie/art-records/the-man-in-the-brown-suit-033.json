@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-033",
+  "file": "img/the-man-in-the-brown-suit-033.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXXII. Scene context, do not reproduce words: I had great trouble with Suzanne. She argued, she pleaded, she even wept before she would let me carry out my plan. But in the end I got my own way. She promised to carry out my instructions to the letter and came down to the station to bid me a tearful farewell. I arrived at my destination the following morning early. I was met by a short black-bearded Dutchman whom I had never seen before. He had a car waiting and we drove off. There was a queer booming in the distance, and I asked him what it was. “Guns,” he answered laconically. So there was fighting going on in Jo’burg! I gathered that our objective was a spot somewhere in the suburbs of the city. We turned and twisted and made several detours to get there, and every minute the guns were nearer. It was an exciting time. At last we stopped before a somewhat ramshackle building. The door was opened by a Kafir boy. My guide signed to me to enter. I stood irresolute in the dingy square hall. The man passed me and threw open a door. “T",
+  "width": 1200,
+  "height": 800,
+  "sha256": "9200e24717eec42d2ed092cc58e2ed8adf8ac748cb9cdee60262964924ad81db",
+  "masterSha256": "aba55d16a97e2c96de1165d746f9719fbebd57cd8c0c69fad7976ddb23045cb3",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-033.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-033.preview.jpg",
+    "sha256": "6251afa67ccc8b1cf27ef2820dbd1b33cf0a20052e968a8c092e97812b2535e5"
+  },
+  "useCase": "illustration-story"
+}

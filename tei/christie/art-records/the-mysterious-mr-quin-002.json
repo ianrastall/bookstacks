@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-002",
+  "file": "img/the-mysterious-mr-quin-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — The Shadow on the Glass. Scene context, do not reproduce words: \"Listen to this,\" said Lady Cynthia Drage. She read aloud from the journal she held in her hand. \"'Mr. and Mrs. Unkerton are entertaining a party at Greenways House this week. Among the guests are Lady Cynthia Drage, Mr. and Mrs. Richard Scott, Major Porter, D.S.O., Mrs. Staverton, Captain Allenson, and Mr. Satterthwaite.'\" \"It's as well,\" remarked Lady Cynthia, casting away the paper, \"to know what we're in for. But they have made a mess of things!\" Her companion, that same Mr. Satterthwaite whose name figured at the end of the list of guests, looked at her interrogatively. It had been said that if Mr. Satterthwaite was found at the houses of those rich who had newly arrived, it was a sign either that the cooking was unusually good, or that a drama of human life was to be enacted there. Mr. Satterthwaite was abnormally interested in the comedies and tragedies of his fellow men. Lady Cynthia, who was a middle-aged woman, with a hard face and a liberal allowance of makeup, tapped him sm",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "b4a33f365673b0769fd93daba29dead61eec4b5c3e185860b38ce62175ae0b21",
+  "masterSha256": "4512b61a6f2977f8ea7d28eb585dcd8dfeb2d9abb7787e35bf3abe63d457f9be",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-002.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-002.preview.jpg",
+    "sha256": "f451d6891fe8b16e114e029c8edc35249b47f7cbcebcd32c2040d2a6934bebf3"
+  }
+}

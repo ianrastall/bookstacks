@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-021",
+  "file": "img/giants-bread-021.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 1. Scene context, do not reproduce words: It was six months later that Sebastian Levinne had a note from Joe. Sebastian read and reread the brief note. He was at his mother's house on a few days' leave, so it had reached him with no delay. Across the breakfast table he was conscious of his mother's eyes watching him, and he marvelled as he had often done before, at the quickness of her maternal apprehension. She read his face, which most people found so inscrutable, as easily as he read the note in his hand. When she spoke it was in ordinary commonplace tones. \"Some more marmalade, dear?\" she said. \"No, thanks, Mother.\" He answered the spoken question first, then went on to the unspoken one of which he was so keenly conscious. \"It's from Joe.\" \"Joe,\" said Mrs. Levinne. Her voice expressed nothing. \"She's in London.\" There was a pause. \"I see,\" said Mrs. Levinne. Still her voice expressed nothing. But Sebastian was aware of a whole tumult of feeling. It was the same to him as though his mother had burst out: \"My son, my son! An",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a7b6af2ddb82d2398bf01d262143ab15e6e101d05ab6c30e0247b11e4b8fab22",
+  "masterSha256": "1675bb48cc85739949d1abcdc34b9a76193b95cac62f59193a90a054f0a63c5b",
+  "masterFile": "assets/source-christie-art/giants-bread-021.png",
+  "preview": {
+    "file": "img/giants-bread-021.preview.jpg",
+    "sha256": "cc415928a9299a49690e8dfd2a5d795bdb50e58c8712bf3441d4e46d95fb9111"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-013",
+  "file": "img/partners-in-crime-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XIII. The Crackler. Scene context, do not reproduce words: \"Tuppence,\" said Tommy, \"we shall have to move into a much larger office.\" \"Nonsense,\" said Tuppence. \"You mustn't get swollen headed and think you are a millionaire just because you solved two or three twopenny halfpenny cases with the aid of the most amazing luck.\" \"What some call luck, others call skill.\" \"Of course if you really think you are Sherlock Holmes, Thorndyke, McCarty and the Brothers Okewood all rolled into one there is no more to be said. Personally I would much rather have luck on my side than all the skill in the world.\" \"Perhaps there is something in that,\" conceded Tommy. \"All the same, Tuppence, we do need a larger office.\" \"Why?\" \"The Classics,\" said Tommy. \"We need several hundreds of yards of extra book shelf if Edgar Wallace is to be properly represented.\" \"We haven't had an Edgar Wallace case yet.\" \"I am afraid we never shall,\" said Tommy. \"If you notice he never does give the amateur sleuth much of a chance. It is all stern Scotland Yard kind of stuff—the rea",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "1e72aba105e4ee87905198999861447c13fed309bb25ef6fc8e290bf1347fd2d",
+  "masterSha256": "ec5105bd344730d85ff5c80d42b7596df5854c6fe74af1d03880e6af6707143b",
+  "masterFile": "assets/source-christie-art/partners-in-crime-013.png",
+  "preview": {
+    "file": "img/partners-in-crime-013.preview.jpg",
+    "sha256": "f910627a0a36ebc1d77554440c6e994cf76e1e434f2ec89c523b8c999ed1e7da"
+  }
+}

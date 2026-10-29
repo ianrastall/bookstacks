@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-024",
+  "file": "img/the-murder-of-roger-ackroyd-024.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XXIV. RALPH PATON’S STORY. Scene context, do not reproduce words: It was a very uncomfortable minute for me. I hardly took in what happened next, but there were exclamations and cries of surprise! When I was sufficiently master of myself to be able to realize what was going on, Ralph Paton was standing by his wife, her hand in his, and he was smiling across the room at me. Poirot, too, was smiling, and at the same time shaking an eloquent finger at me. “Have I not told you at least thirty-six times that it is useless to conceal things from Hercule Poirot?” he demanded. “That in such a case he finds out?” He turned to the others. “One day, you remember, we held a little séance about a table—just the six of us. I accused the other five persons present of concealing something from me. Four of them gave up their secret. Dr. Sheppard did not give up his. But all along I have had my suspicions. Dr. Sheppard went to the Three Boars that night hoping to find Ralph. He did not find him there; but supposing, I said to myself, that he met him in the street on h",
+  "width": 1200,
+  "height": 800,
+  "sha256": "03a7ddf094fd8ab0b82717e58f1de04f59c3d571401a1848ba5a7bacb4885e9d",
+  "masterSha256": "0de8cdaa0004d32868e28e5e40e7a8f1a9bd311d60990e37e4a166f15b30a23f",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-024.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-024.preview.jpg",
+    "sha256": "3d121cf74b54d530f0c299f1cc6688f925f7c61e1cd8eda17329be54ace5b067"
+  },
+  "useCase": "illustration-story"
+}

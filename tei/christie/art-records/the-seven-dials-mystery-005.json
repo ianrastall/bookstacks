@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-005",
+  "file": "img/the-seven-dials-mystery-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter V. Scene context, do not reproduce words: The Man in the Road \"Father,\" said Bundle, opening the door of Lord Caterham's special sanctum and putting her head in, \"I'm going up to town in the Hispano. I can't stand the monotony down here any longer.\" \"We only got home yesterday,\" complained Lord Caterham. \"I know. It seems like a hundred years. I'd forgotten how dull the country could be.\" \"I don't agree with you,\" said Lord Caterham. \"It's peaceful, that's what it is—peaceful. And extremely comfortable. I appreciate getting back to Tredwell more than I can tell you. That man studies my comfort in the most marvellous manner. Somebody came round only this morning to know if they could hold a tally for girl guides here—\" \"A rally,\" interrupted Bundle. \"Rally or tally—it's all the same. Some silly word meaning nothing whatever. But it would have put me in a very awkward position—having to refuse—in fact, I probably shouldn't have refused. But Tredwell got me out of it. I've forgotten what he said—something damned ingenious which c",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "88b73e325c871e0db13ac6c913f4eaf646c287ed3ae252392f772fb4b5943497",
+  "masterSha256": "3924705aa3135f8b6f9faa156f7c0ccd4f779ea360a4eedffacc8310a66ac9f7",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-005.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-005.preview.jpg",
+    "sha256": "3bcfb41b273d217ea16eb46683e3b9535493c2c7b3c51e51c07475ca153419c7"
+  }
+}

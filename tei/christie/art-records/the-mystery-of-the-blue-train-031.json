@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-031",
+  "file": "img/the-mystery-of-the-blue-train-031.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 31. Mr. Aarons Lunches. Scene context, do not reproduce words: \"Ah!\" said Mr. Joseph Aarons, appreciatively. He took a long draught from his tankard, set it down with a sigh, wiped the froth from his lips, and beamed across the table at his host, Monsieur Hercule Poirot. \"Give me,\" said Mr. Aarons, \"a good Porterhouse steak and a tankard of something worth drinking, and any one can have your French fallals and whatnots, your ordoovres and your omelettes and your little bits of quail. Give me,\" he reiterated, \"a Porterhouse steak.\" Poirot, who had just complied with this request, smiled sympathetically. \"Not that there is much wrong with a steak and kidney pudding,\" continued Mr. Aarons. \"Apple tart? Yes, I will take apple tart, thank you, Miss, and a jug of cream.\" The meal proceeded. Finally, with a long sigh, Mr. Aarons laid down his spoon and fork preparatory to toying with some cheese before turning his mind to other matters. \"There was a little matter of business I think you said, Monsieur Poirot,\" he remarked. \"Anything I can do to help you ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "936ffc2ab9167361a9a6d33871dfd55df02ad862ec537fa90cfd55498ed5da4d",
+  "masterSha256": "8c204c9cbec10599edde910081ed6df09c39696cec9b8e83c3a5c3e4dd67514f",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-031.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-031.preview.jpg",
+    "sha256": "d5416e53d7c45269ea284a7e36e070575907a51544be3b7f80a5e0a662e41b1e"
+  }
+}

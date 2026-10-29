@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-005",
+  "file": "img/the-man-in-the-brown-suit-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER IV. Scene context, do not reproduce words: Nobody came forward to identify the dead woman. The inquest elicited the following facts. Shortly after one o’clock on January 8th, a well-dressed woman with a slight foreign accent had entered the offices of Messrs. Butler and Park, house-agents, in Knightsbridge. She explained that she wanted to rent or purchase a house on the Thames within easy reach of London. The particulars of several were given to her, including those of the Mill House. She gave the name of Mrs. de Castina and her address as the Ritz, but there proved to be no one of that name staying there, and the hotel people failed to identify the body. Mrs. James, the wife of Sir Eustace Pedler’s gardener, who acted as caretaker to the Mill House and inhabited the small lodge opening on the main road, gave evidence. About three o’clock that afternoon, a lady came to see over the house. She produced an order from the house-agents, and, as was the usual custom, Mrs. James gave her the keys of the house. It was situated at som",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ebe6f2c99442be40fbb37673febe4f15bb943f272fc5a244415202abcd8269da",
+  "masterSha256": "1f1810809f02f283f90e3da8292de5ec2eaa9cb225d7c0bda64c697e3b737d1f",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-005.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-005.preview.jpg",
+    "sha256": "8fcb925275b4c6b6cf7ef04b838e009bc214d7ae8e0b811e3d31a80da6e779de"
+  },
+  "useCase": "illustration-story"
+}

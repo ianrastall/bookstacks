@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-004",
+  "file": "img/giants-bread-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 3. Scene context, do not reproduce words: A new nursemaid came, a thin white girl with protruding eyes. Her name was Isabel, but she was called Susan as being More Suitable. This puzzled Vernon very much. He asked Nurse for an explanation. \"There are names that are suitable to the gentry, Master Vernon, and names that are suitable for servants. That's all there is to it.\" \"Then why is her real name Isabel?\" \"There are people who when they christen their children set themselves up to ape their betters.\" The word \"ape\" had a distracting influence on Vernon. Apes were monkeys. Did people christen their children at the Zoo? \"I thought people were christened in church.\" \"So they are, Master Vernon.\" Very puzzling. Why was everything so puzzling? Why were things more puzzling than they used to be? Why did one person tell you one thing and another person something quite different? \"Nurse, how do babies come?\" \"You've asked me that before, Master Vernon. The little angels bring them in the night through the window.\" \"That Am-am-am——\" ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ef33fb3926ac99b814e3793d192a238dde11518ce331bfeedbba034c2afb4836",
+  "masterSha256": "993359faaeeceefaf9258d1363d83831543ac5a2a2a0843d05a5cf8f461a42d0",
+  "masterFile": "assets/source-christie-art/giants-bread-004.png",
+  "preview": {
+    "file": "img/giants-bread-004.preview.jpg",
+    "sha256": "2ada3eb5c2ed285da89f63f2906f76a56ff970062ac632b04fd3f014721357af"
+  }
+}

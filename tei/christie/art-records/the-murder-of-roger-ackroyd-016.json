@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-016",
+  "file": "img/the-murder-of-roger-ackroyd-016.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XVI. AN EVENING AT MAH JONG. Scene context, do not reproduce words: That night we had a little Mah Jong party. This kind of simple entertainment is very popular in King’s Abbot. The guests arrive in goloshes and waterproofs after dinner. They partake of coffee and later of cake, sandwiches, and tea. On this particular night our guests were Miss Ganett, and Colonel Carter, who lives near the church. A good deal of gossip is handed round at these evenings, sometimes seriously interfering with the game in progress. We used to play bridge—chatty bridge of the worst description. We find Mah Jong much more peaceful. The irritated demand as to why on earth your partner did not lead a certain card is entirely done away with, and though we still express criticisms frankly, there is not the same acrimonious spirit. “Very cold evening, eh, Sheppard?” said Colonel Carter, standing with his back to the fire. Caroline had taken Miss Ganett to her own room, and was there assisting her to disentangle herself from her many wraps. “Reminds me of the Afghan passes.” “Ind",
+  "width": 1200,
+  "height": 800,
+  "sha256": "e86755dd94abf720ef8aae55799810915e58d784210f0e21e85a7dcb01833701",
+  "masterSha256": "80194286848f5068ddd0eba17dbb2b7a7d8143f87aa9fa42b9b3f863f019b4a1",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-016.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-016.preview.jpg",
+    "sha256": "11c1001ac9b9a1fbd69b3dcc41c7ce7845640e798492d84a53f44af87552b645"
+  },
+  "useCase": "illustration-story"
+}

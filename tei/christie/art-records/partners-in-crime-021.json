@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-021",
+  "file": "img/partners-in-crime-021.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XXI. The Red House. Scene context, do not reproduce words: \"Well,\" said Tommy, looking out of the window of the Crown and Anchor, \"here we are at Toad in the Hole—or whatever this blasted village is called.\" \"Let us review the case,\" said Tuppence. \"By all means,\" said Tommy. \"To begin with, getting my say in first, I suspect the invalid mother!\" \"Why?\" \"My dear Tuppence, grant that this poltergeist business is all a put up job, got up in order to persuade the girl to sell the house, someone must have thrown the things about. Now the girl said everyone was at dinner—but if the mother is a thoroughgoing invalid, she'd be upstairs in her room.\" \"If she was an invalid she could hardly throw furniture about.\" \"Ah! but she wouldn't be a real invalid. She'd be shamming.\" \"Why?\" \"There you have me,\" confessed her husband. \"I was really going on the well known principle of suspecting the most unlikely person.\" \"You always make fun of everything,\" said Tuppence severely. \"There must be something that makes these people so anxious to get hold of the hou",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "dc8d43e10a047c61279e828d0074fdf1513db4eda4343ac93c491a94eff77bd7",
+  "masterSha256": "15dc10cee85aeb8901913c383d49d215131d720d2876cdc6033f0d4b94240110",
+  "masterFile": "assets/source-christie-art/partners-in-crime-021.png",
+  "preview": {
+    "file": "img/partners-in-crime-021.preview.jpg",
+    "sha256": "9f55bb2133030dd0f0c1b620ebc08044aa79a1b8c75e9610a8b107b6322f586c"
+  }
+}

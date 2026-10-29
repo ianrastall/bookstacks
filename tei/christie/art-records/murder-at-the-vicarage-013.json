@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-013",
+  "file": "img/murder-at-the-vicarage-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 13. Scene context, do not reproduce words: I hardly thought it likely that Mrs. Price Ridley had anything so dramatic in view, but I did wonder what had taken her to the police station. Had she really got evidence of importance, or that she thought of importance, to offer? At any rate we should soon know. We found Mrs. Price Ridley talking at a high rate of speed to a somewhat bewildered looking police constable. That she was extremely indignant I knew from the way the bow in her hat was trembling. Mrs. Price Ridley wears what, I believe, are known as \"Hats for Matrons\"—they make a specialty of them in our adjacent town of Much Benham. They perch easily on a superstructure of hair and are somewhat overweighted with large bows of ribbon. Griselda is always threatening to get a Matron's hat. Mrs. Price Ridley paused in her flow of words upon our entrance. \"Mrs. Price Ridley?\" inquired Colonel Melchett, lifting his hat. \"Let me introduce Colonel Melchett to you, Mrs. Price Ridley,\" I said. \"Colonel Melchett is our Chief Constable.",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0d6b26f2de79657873cc46c22310f7dd19816421185f0bb171e06214bf823196",
+  "masterSha256": "83a5c1cf3cf6a2c5410c87dea449e6c606c5569d03d10ec3f7c0b281aba52827",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-013.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-013.preview.jpg",
+    "sha256": "4abeb56aca5072c94c312f519b3ec2c2b7a76b92e50afe7c4faa47dcb55fd2e7"
+  }
+}

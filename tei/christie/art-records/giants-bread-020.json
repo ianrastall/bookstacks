@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-020",
+  "file": "img/giants-bread-020.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 4. Scene context, do not reproduce words: On a day in July Sebastian Levinne walked along the Embankment in the direction of Jane's flat. It was a day more suggestive of early spring than of summer. A cold wind blew the dust in his face and made him blink. There was a change visible in Sebastian. He had grown perceptibly older. There was very little of the boy about him now—there never had been much. He had always had that curious maturity of outlook which is the Semitic inheritance. As he walked along now, frowning to himself and pondering, he would easily have been taken for a man over thirty. Jane herself opened the door of the flat to him. She spoke in a low unusually husky voice. \"Vernon's out. He couldn't wait for you. You said three, you know, and it's past four now.\" \"I was kept. Just as well, perhaps. I'm never quite sure of the best way of dealing with Vernon's nerves.\" \"Don't tell me any fresh crises have arisen? I couldn't bear it.\" \"Oh! you'll get used to them. I've had to. What's the matter with your voice, Jane?",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "30c93359d2eb48f677fdac4cf2b2d7bb9fef1332ac6cb55729978d99ee585397",
+  "masterSha256": "ac52705cc00e365fe4c5412ca727729ad62038d15c6bfaedb4ae911e95ce5971",
+  "masterFile": "assets/source-christie-art/giants-bread-020.png",
+  "preview": {
+    "file": "img/giants-bread-020.preview.jpg",
+    "sha256": "8cd4d890e80e48f99dde3a94cb7b6d723bf1cc03005ca4bfee1c0b4518133226"
+  }
+}

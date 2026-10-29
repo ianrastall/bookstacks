@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-029",
+  "file": "img/the-man-in-the-brown-suit-029.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXVIII. Scene context, do not reproduce words: As I remarked once before, I am essentially a man of peace. I yearn for a quiet life—and that’s just the one thing I don’t seem able to have. I am always in the middle of storms and alarms. The relief of getting away from Pagett with his incessant nosing out of intrigues was enormous, and Miss Pettigrew is certainly a useful creature. Although there is nothing of the houri about her, one or two of her accomplishments are invaluable. It is true that I had a touch of liver at Bulawayo and behaved like a bear in consequence, but I had had a disturbed night in the train. At 3 a.m. an exquisitely dressed young man looking like a musical-comedy hero of the Wild West entered my compartment and asked where I was going. Disregarding my first murmur of “Tea—and for God’s sake don’t put sugar in it,” he repeated his question, laying stress on the fact that he was not a waiter but an Immigration officer. I finally succeeded in satisfying him that I was suffering from no infectious disease, that I ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "7388e4d146df03948c23f8ef35919c3818c5c93bec1f88f16af5a58954ab441e",
+  "masterSha256": "9390721422d74b840b81989f2e0377be86ddaec6a5bf8d0bc96da532ea40765d",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-029.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-029.preview.jpg",
+    "sha256": "4e9a00fa6f36306cb3849a8069b3ffafbff686dbe5cbcd87d33b770f37491561"
+  },
+  "useCase": "illustration-story"
+}

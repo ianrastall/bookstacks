@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-007",
+  "file": "img/the-mystery-of-the-blue-train-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 7. Letters. Scene context, do not reproduce words: Mrs. Harfield, having written so far fluently, came to a dead stop, held up by what has proved an insuperable difficulty to many other people—namely, the difficulty of expressing oneself fluently in the third person. After a minute or two of hesitation, Mrs. Harfield tore up the sheet of notepaper and started afresh. Again Mrs. Harfield came to a stop. Once more the letter was consigned to the wastepaper-basket. It was not until four false starts had been made that Mrs. Harfield at last produced an epistle that satisfied her. It was duly sealed and stamped and addressed to Miss Katherine Grey, Little Crampton, St. Mary Mead, Kent, and it lay beside that lady's plate on the following morning at breakfast-time in company with a more important looking communication in a long blue envelope. Katherine Grey opened Mrs. Harfield's letter first. The finished production ran as follows: Katherine Grey read the letter through, smiled a little, and read it a second time. Her face as she laid the l",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "be2bfcba43706a234ee08224b28d8e85c84f726bd632567c4ab4a63bbbad284a",
+  "masterSha256": "f6421478dc13c49d7fb46fa32224936720da51b6e1b2aafde4fa82d3f9b2e252",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-007.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-007.preview.jpg",
+    "sha256": "03b0b1ccc281c0c798ce7bcc5070bbd3f79f9c3ff6f08556d3b14df7cea38ca5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-016",
+  "file": "img/giants-bread-016.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 7. Scene context, do not reproduce words: August was a difficult month for Vernon. Nell and her mother were in Dinard. He wrote to her and she to him, but her letters told him little or nothing of what he wanted to know. She was having a gay time, he gathered, and enjoying herself though longing for Vernon to be there. Vernon's work was of the purely routine order. It required little intelligence. You needed to be careful and methodical, that was all. His mind, free from other distractions, swung back to its secret love, music. He had formed the idea of writing an opera and had taken for his theme the half-forgotten fairy story of his youth. It was now bound up in his mind with Nell—the whole strength of his love for her flowed into this new channel. He worked feverishly. Nell's words about his living comfortably with his mother had rankled, and he had insisted on having rooms of his own. The ones he had found were very cheap, but they gave him an unexpected sense of freedom. At Carey Lodge he would never have been able to con",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "39872ec455d42517362b968e308d2a3deddd79c6345514a22d5be033bbc6f050",
+  "masterSha256": "35ac28d54aeb029e31b451b7c2cb3bc7d6be03211c464937d071beb70abb7b97",
+  "masterFile": "assets/source-christie-art/giants-bread-016.png",
+  "preview": {
+    "file": "img/giants-bread-016.preview.jpg",
+    "sha256": "e7bcadb24f821fa7d2119bc945bbdf9ebd2ab0e00ac477eadadb761594158466"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-031",
+  "file": "img/the-seven-dials-mystery-031.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXXI. Scene context, do not reproduce words: The Seven Dials Very slowly Bundle returned to consciousness. She was aware of a dark, spinning blackness, the centre of which was a violent, throbbing ache. Punctuating this were sounds. A voice that she knew very well saying the same thing over and over again. The blackness spun less violently. The ache was now definitely located as being in Bundle's own head. And she was sufficiently herself to take an interest in what the voice was saying. \"Darling, darling Bundle. Oh, darling Bundle. She's dead; I know she's dead. Oh, my darling. Bundle, darling, darling Bundle. I do love you so. Bundle—darling—darling—\" Bundle lay quite still with her eyes shut. But she was now fully conscious. Bill's arms held her closely. \"Bundle, darling—Oh, dearest, darling Bundle. Oh, my dear love. Oh, Bundle—Bundle. What shall I do? Oh, darling one—my Bundle—my own dearest, sweetest Bundle. Oh, God, what shall I do? I've killed her. I've killed her.\" Reluctantly—very reluctantly—Bundle spoke. \"No, you haven",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3d65a4ba786d486b9883ee72bad7f9b559dbe2d2208257a8fe35dceb3a2fa255",
+  "masterSha256": "9d0ce14edee96f6083c4eb9e5bae16560c1a5fb9f5a2b94d94915b69cf56743b",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-031.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-031.preview.jpg",
+    "sha256": "fb1e2cfa0ce2555c36946f1ca9b7448aac9fb4625fa6a111357d3089b800648f"
+  }
+}

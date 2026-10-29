@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-019",
+  "file": "img/the-murder-of-roger-ackroyd-019.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XIX. FLORA ACKROYD. Scene context, do not reproduce words: As I was returning from my round the following morning, I was hailed by Inspector Raglan. I pulled up, and the inspector mounted on the step. “Good-morning, Dr. Sheppard,” he said. “Well, that alibi is all right enough.” “Charles Kent’s?” “Charles Kent’s. The barmaid at the Dog and Whistle, Sally Jones, she remembers him perfectly. Picked out his photograph from among five others. It was just a quarter to ten when he came into the bar, and the Dog and Whistle is well over a mile from Fernly Park. The girl mentions that he had a lot of money on him—she saw him take a handful of notes out of his pocket. Rather surprised her, it did, seeing the class of fellow he was, with a pair of boots clean dropping off him. That’s where that forty pounds went right enough.” “The man still refuses to give an account of his visit to Fernly?” “Obstinate as a mule he is. I had a chat with Hayes at Liverpool over the wire this morning.” “Hercule Poirot says he knows the reason the man went there that nigh",
+  "width": 1200,
+  "height": 800,
+  "sha256": "dc31dc612509d994b95b73a15afde9258677eecee62be32768cbc5a9f6af911e",
+  "masterSha256": "7f338f6c50b2234560978855c075ef9d2c1cb279e5eee8f982c9e881f0db3947",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-019.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-019.preview.jpg",
+    "sha256": "c5f634806d8d0463e69b2ed336d4e64dbbe331c28fc622d859e1fc17eab893b7"
+  },
+  "useCase": "illustration-story"
+}

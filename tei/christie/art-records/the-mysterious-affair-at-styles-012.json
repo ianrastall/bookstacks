@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-012",
+  "file": "img/the-mysterious-affair-at-styles-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER XII. THE LAST LINK. Scene context, do not reproduce words: Poirot’s abrupt departure had intrigued us all greatly. Sunday morning wore away, and still he did not reappear. But about three o’clock a ferocious and prolonged hooting outside drove us to the window, to see Poirot alighting from a car, accompanied by Japp and Summerhaye. The little man was transformed. He radiated an absurd complacency. He bowed with exaggerated respect to Mary Cavendish. “Madame, I have your permission to hold a little réunion in the salon? It is necessary for everyone to attend.” Mary smiled sadly. “You know, Monsieur Poirot, that you have carte blanche in every way.” “You are too amiable, madame.” Still beaming, Poirot marshalled us all into the drawing-room, bringing forward chairs as he did so. “Miss Howard—here. Mademoiselle Cynthia. Monsieur Lawrence. The good Dorcas. And Annie. Bien! We must delay our proceedings a few minutes until Mr. Inglethorp arrives. I have sent him a note.” Miss Howard rose immediately from her seat. “If that man comes into the house,",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3009d7015eeafa2ad96c7fec6340d8387f543dfd9a27aaeb671e23cc3ed95165",
+  "masterSha256": "68e9b4725acb4f8edff56fa5afc43449254d567ac56c9159f7488d4d0d6b2b26",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-012.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-012.preview.jpg",
+    "sha256": "99b41a7ff038c4c4bd43528ca5bdddabce21145afd30b1d3bec74edf418879d8"
+  },
+  "useCase": "illustration-story"
+}

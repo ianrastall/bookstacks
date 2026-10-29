@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-010",
+  "file": "img/the-seven-dials-mystery-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter X. Scene context, do not reproduce words: Bundle Visits Scotland Yard Now it may be said at once that in the foregoing conversation each one of the three participants had, as it were, held something in reserve. That \"Nobody tells everything\" is a very true motto. It may be questioned, for instance, if Loraine Wade was perfectly sincere in her account of the motives which had led her to seek out Jimmy Thesiger. In the same way, Jimmy Thesiger himself had various ideas and plans connected with the forthcoming party at George Lomax's which he had no intention of revealing to—say, Bundle. And Bundle herself had a fully-fledged plan which she proposed to put into immediate execution and which she had said nothing whatever about. On leaving Jimmy Thesiger's rooms, she drove to Scotland Yard, where she asked to see Superintendent Battle. Superintendent Battle was rather a big man. He worked almost entirely on cases of a delicate political nature. On such a case he had come to Chimneys four years ago, and Bundle was frankly trading on",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ba7b7307e43e6e62cc1f9be1e6d5004e0544a7bb70c064599cb27d094c77ec18",
+  "masterSha256": "7d12a5d564fa92b876ce00f4c37e2aba7d52e59155018bd2dae6ec0cc900c30c",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-010.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-010.preview.jpg",
+    "sha256": "54576f824952673a90ce0a7ec663ffe85cb14483659f35918299c7b86c26fca3"
+  }
+}

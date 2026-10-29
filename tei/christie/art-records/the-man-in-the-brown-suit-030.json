@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-030",
+  "file": "img/the-man-in-the-brown-suit-030.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXIX. Scene context, do not reproduce words: There is something about the state of things here that is not at all healthy. To use the well-known phrase that I have so often read, we are all living on the edge of a volcano. Bands of strikers, or so-called strikers, patrol the streets and scowl at one in a murderous fashion. They are picking out the bloated capitalists ready for when the massacres begin, I suppose. You can’t ride in a taxi—if you do, strikers pull you out again. And the hotels hint pleasantly that when the food gives out they will fling you out on the mat! I met Reeves, my labour friend of the Kilmorden, last night. He has cold feet worse than any man I ever saw. He’s like all the rest of these people, they make inflammatory speeches of enormous length, solely for political purposes, and then wish they hadn’t. He’s busy now going about and saying he didn’t really do it. When I met him, he was just off to Cape Town, where he meditates making a three days’ speech in Dutch, vindicating himself, and pointing out that t",
+  "width": 1200,
+  "height": 800,
+  "sha256": "e2379c381d804c9935cc47dec5df41284daa01aeb0b2650eae0b513481ed12a0",
+  "masterSha256": "1c3c097ce794eaf196a5d417e71b0e61dac3c4dc513e1a644d80d11b3f88e3b0",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-030.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-030.preview.jpg",
+    "sha256": "d0b6ae7269e94137f78b5be7298c97b6a5126cd046901a17fc38804c9fcd9ab3"
+  },
+  "useCase": "illustration-story"
+}

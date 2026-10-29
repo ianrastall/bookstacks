@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-024",
+  "file": "img/murder-at-the-vicarage-024.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 24. Scene context, do not reproduce words: I returned to the Vicarage to find Hawes waiting for me in my study. He was pacing up and down nervously, and when I entered the room he started as though he had been shot. \"You must excuse me,\" he said, wiping his forehead. \"My nerves are all to pieces lately.\" \"My dear fellow,\" I said, \"you positively must get away for a change. We shall have you breaking down altogether, and that will never do.\" \"I can't desert my post. No, that is a thing I will never do.\" \"It's not a case of desertion. You are ill. I'm sure Haydock would agree with me.\" \"Haydock—Haydock. What kind of a doctor is he? An ignorant country practitioner.\" \"I think you're unfair to him. He has always been considered a very able man in his profession.\" \"Oh! perhaps. Yes, I daresay. But I don't like him. However, that's not what I came to say. I came to ask you if you would be kind enough to preach tonight instead of me. I—I really do not feel equal to it.\" \"Why, certainly. I will take the service for you.\" \"No, no. I wis",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "268ab0d8a9d722279ec798ab9180b81703e91bfa41d6ec1551e8ca48698e25da",
+  "masterSha256": "7f4e92ee8a89eeadf5fbc486049dcf83e52dc3ec2e86d715709c946a81d86aad",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-024.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-024.preview.jpg",
+    "sha256": "617191d28be267d1476c0d7718cc3edf96df9b6d62c22d1c540e75c11510f32b"
+  }
+}

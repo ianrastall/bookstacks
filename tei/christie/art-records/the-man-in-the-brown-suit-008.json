@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-008",
+  "file": "img/the-man-in-the-brown-suit-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER VII. Scene context, do not reproduce words: Shaking off the feelings that oppressed me, I went quickly upstairs. I had no difficulty in finding the room of the tragedy. On the day the body was discovered it had rained heavily, and large muddy boots had trampled the uncarpeted floor in every direction. I wondered if the murderer had left any footmarks the previous day. It was likely that the police would be reticent on the subject if he had, but on consideration I decided it was unlikely. The weather had been fine and dry. There was nothing of interest about the room. It was almost square with two big bay windows, plain white walls and a bare floor, the boards being stained round the edges where the carpet had ceased. I searched it carefully, but there was not so much as a pin lying about. The gifted young detective did not seem likely to discover a neglected clue. I had brought with me a pencil and notebook. There did not seem much to note, but I duly dotted down a brief sketch of the room to cover my disappointment at the failu",
+  "width": 1200,
+  "height": 800,
+  "sha256": "76704346aaf633f9ffda1fb3faba37245d210d40b29382e02484a62486d7491d",
+  "masterSha256": "2fa047282201208ef015815e370cdff906fe3408745c2a6c74c2e1345e4d076a",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-008.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-008.preview.jpg",
+    "sha256": "363583d913d3f2f34988e68387087c114633158943d27df2a5eeb872d5e60931"
+  },
+  "useCase": "illustration-story"
+}

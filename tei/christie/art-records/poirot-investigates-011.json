@@ -1,0 +1,17 @@
+{
+  "slug": "poirot-investigates-011",
+  "file": "img/poirot-investigates-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Poirot Investigates — XI. The Case of the Missing Will. Scene context, do not reproduce words: The problem presented to us by Miss Violet Marsh made rather a pleasant change from our usual routine work. Poirot had received a brisk and business-like note from the lady asking for an appointment, and he had replied asking her to call upon him at eleven o’clock the following day. She arrived punctually—a tall, handsome young woman, plainly but neatly dressed, with an assured and business-like manner. Clearly a young woman who meant to get on in the world. I am not a great admirer of the so-called New Woman myself, and, in spite of her good looks, I was not particularly prepossessed in her favour. “My business is of a somewhat unusual nature, Monsieur Poirot,” she began, after she had accepted a chair. “I had better begin at the beginning and tell you the whole story.” “If you please, mademoiselle.” “I am an orphan. My father was one of two brothers, sons of a small yeoman farmer in Devonshire. The farm was a poor one, and the elder brother, Andrew, emigrated to Australia, where he d",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c59f34ac37cb03a2a5a10ae982b07d3ca8e6a149d674e2f4291a44b6573fa1e9",
+  "masterSha256": "e77042f50ee1b06110f376d83a18715277c22de519bbe5a9efae765defee4f93",
+  "masterFile": "assets/source-christie-art/poirot-investigates-011.png",
+  "preview": {
+    "file": "img/poirot-investigates-011.preview.jpg",
+    "sha256": "3f8c58bcbb0d3f10032c5fb4478f7369410b0daa710f84ed63e38aeb64cd0bcb"
+  },
+  "useCase": "illustration-story"
+}

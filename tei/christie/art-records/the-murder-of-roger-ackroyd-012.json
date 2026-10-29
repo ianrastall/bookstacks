@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-012",
+  "file": "img/the-murder-of-roger-ackroyd-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XII. ROUND THE TABLE. Scene context, do not reproduce words: A joint inquest was held on Monday. I do not propose to give the proceedings in detail. To do so would only be to go over the same ground again and again. By arrangement with the police, very little was allowed to come out. I gave evidence as to the cause of Ackroyd’s death and the probable time. The absence of Ralph Paton was commented on by the coroner, but not unduly stressed. Afterwards, Poirot and I had a few words with Inspector Raglan. The inspector was very grave. “It looks bad, Mr. Poirot,” he said. “I’m trying to judge the thing fair and square. I’m a local man, and I’ve seen Captain Paton many times in Cranchester. I’m not wanting him to be the guilty one—but it’s bad whichever way you look at it. If he’s innocent, why doesn’t he come forward? We’ve got evidence against him, but it’s just possible that that evidence could be explained away. Then why doesn’t he give an explanation?” A lot more lay behind the inspector’s words than I knew at the time. Ralph’s description had b",
+  "width": 1200,
+  "height": 800,
+  "sha256": "e5ba739b9db32d2df89a19753fadaf86f8701233cba781cdc332e36c8ed0ee0c",
+  "masterSha256": "9793823e6f93002740eec0571ee666326a10348127117265bd9f529e877ffef5",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-012.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-012.preview.jpg",
+    "sha256": "0d30a75fb552d51e0715dfa03c2d5e9d4fb66fab578c332de19fb0662801b6a8"
+  },
+  "useCase": "illustration-story"
+}

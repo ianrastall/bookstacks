@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-022",
+  "file": "img/partners-in-crime-022.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XXII. The Ambassador's Boots. Scene context, do not reproduce words: \"My dear fellow, my dear fellow,\" said Tuppence and waved a heavily buttered muffin. Tommy looked at her for a minute or two, then a broad grin spread over his face and he murmured. \"We do have to be so very careful.\" \"That's right,\" said Tuppence delighted. \"You guessed. I am the famous Dr. Fortune and you are Superintendent Bell.\" \"Why are you being Reginald Fortune?\" \"Well really because I feel like a lot of hot butter.\" \"That is the pleasant side of it,\" said Tommy. \"But there is another. You will have to examine horribly smashed faces and very extra dead bodies a good deal.\" In answer Tuppence threw across a letter. Tommy's eyebrows rose in astonishment. \"Randolph Wilmott, the American Ambassador. I wonder what he wants.\" \"We shall know to-morrow at eleven o'clock.\" Punctually to the time named, Mr. Randolph Wilmott, United States Ambassador to the Court of St. James, was ushered into Mr. Blunt's office. He cleared his throat and commenced speaking in a deliberate and characterist",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "cfecc19ef2d4bbeabcb942fd827f0342557cd85639ec372a5b9dc49c9934f224",
+  "masterSha256": "d9ca3e8a5af8de05ba51dde4903a3dde1dcea7960239851b674e9f760d798e8d",
+  "masterFile": "assets/source-christie-art/partners-in-crime-022.png",
+  "preview": {
+    "file": "img/partners-in-crime-022.preview.jpg",
+    "sha256": "813aaeefafb92981eff3aab73549fec64788d94ada3ac7bb7f635dda8575a081"
+  }
+}

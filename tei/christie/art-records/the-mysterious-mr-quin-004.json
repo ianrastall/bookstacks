@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-004",
+  "file": "img/the-mysterious-mr-quin-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — The Sign in the Sky. Scene context, do not reproduce words: The judge was finishing his charge to the jury: \"Now, gentlemen, I have almost finished what I want to say to you. There is evidence for you to consider as to whether this case is plainly made out against this man so that you may say he is guilty of the murder of Vivien Barnaby. You have had the evidence of the servants as to the time the shot was fired. They have one and all agreed upon it. You have had the evidence of the letter written to the defendant by Vivien Barnaby on the morning of that same day, Friday, September 23rd, a letter which the defense has not attempted to deny. You have had evidence that the prisoner first denied having been at Deering Hill, and later, after evidence had been given by the police, admitted he had. You will draw your own conclusions from that denial. This is not a case of direct evidence. You will have to come to your own conclusions on the subject of motive—of means—of opportunity. The contention of the defense is that some person unknown entered th",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "1bbdaa4e8b5629d141753b5ac6b1300a5d4ea892a7b5960886410e1ca00758bf",
+  "masterSha256": "82767c6016ff5528461a0d3af222dc6f25cb5105d8f0a52d110c202ee4d159ff",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-004.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-004.preview.jpg",
+    "sha256": "2e87f9e0b24d7a945c2eb2242740062a9ee48916328b198121b4f45886a975a6"
+  }
+}

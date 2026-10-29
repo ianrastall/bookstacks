@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-018",
+  "file": "img/the-man-in-the-brown-suit-018.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XVII. Scene context, do not reproduce words: It is really the greatest relief to get off the Kilmorden. The whole time that I was on board I was conscious of being surrounded by a network of intrigue. To put the lid on everything, Guy Pagett must needs engage in a drunken brawl the last night. It is all very well to explain it away, but that is what it actually amounts to. What else would you think if a man comes to you with a lump the size of an egg on the side of his head and an eye coloured all the tints of the rainbow? Of course Pagett would insist on trying to be mysterious about the whole thing. According to him, you would think his black eye was the direct result of his devotion to my interests. His story was extraordinarily vague and rambling, and it was a long time before I could make head or tail of it. To begin with, it appears he caught sight of a man behaving suspiciously. Those are Pagett’s words. He has taken them straight from the pages of a German Spy Story. What he means by a man behaving suspiciously he doesn’t",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0139aa1f0333a227d33d445b134402ae3ea1309476676500b6b68fac033dd087",
+  "masterSha256": "ad793d54a17cd4383969c6e39819df9fbb3a2f582d1ad803c4b5962d8eb748b9",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-018.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-018.preview.jpg",
+    "sha256": "0a216769a860a64a196ef53ce5ad0dbbc2f8abb7470f3d8f124d343c6d189e6a"
+  },
+  "useCase": "illustration-story"
+}

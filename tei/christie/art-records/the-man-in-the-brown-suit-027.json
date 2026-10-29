@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-027",
+  "file": "img/the-man-in-the-brown-suit-027.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXVI. Scene context, do not reproduce words: “You are right. My real name is Harry Lucas. My father was a retired soldier who came out to farm in Rhodesia. He died when I was in my second year at Cambridge.” “Were you fond of him?” I asked suddenly. “I—don’t know.” Then he flushed and went on with sudden vehemence: “Why do I say that? I did love my father. We said bitter things to each other the last time I saw him, and we had many rows over my wildness and my debts, but I cared for the old man. I know how much now—when it’s too late,” he continued more quietly. “It was at Cambridge that I met the other fellow——” “Young Eardsley?” “Yes—young Eardsley. His father, as you know, was one of South Africa’s most prominent men. We drifted together at once, my friend and I. We had our love of South Africa in common and we both had a taste for the untrodden places of the world. After he left Cambridge, Eardsley had a final quarrel with his father. The old man had paid his debts twice, he refused to do so again. There was a bitter scene be",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0698ac4ea7ee0d60c24b4dc3b1c04733f9dfcbe25ce7541dc10967c4d6464125",
+  "masterSha256": "6ef46656e790313c64f532dc9ed84ed75e4feb0768a3576aba570587b8cc843e",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-027.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-027.preview.jpg",
+    "sha256": "5d6e85971af21bf6c1b448840da4e3aaa159f84786e9519a46670ca5000d4f01"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-006",
+  "file": "img/partners-in-crime-006.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter VI. The Adventure of the Sinister Stranger (continued). Scene context, do not reproduce words: \"Better not go in just yet,\" said Dymchurch as he and Tommy hurried into Haleham Street. \"You've got the key all right?\" Tommy nodded. \"Then what about a bite of dinner? It's early, but there's a little place here right opposite. We'll get a table by the window, so that we can watch the place all the time.\" They had a very welcome little meal, in the manner the detective had suggested. Tommy found Inspector Dymchurch quite an entertaining companion. Most of his official work had lain amongst international spies, and he had tales to tell which astonished his simple listener. They remained in the little Restaurant until eight o'clock when Dymchurch suggested a move. \"It's quite dark now, sir,\" he explained. \"We shall be able to slip in without anyone being the wiser.\" It was, as he said, quite dark. They crossed the road, looked quickly up and down the deserted street, and slipped inside the entrance. Then they mounted the stairs, and Tommy inserted his key in the lock of the outer offic",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "06798bbb130c9ef75c9b381a9048ec6de78074816f5a4f74029de37569362029",
+  "masterSha256": "718e0995018638382b1113ad7b3763470bd717a65792adc15b396630def49592",
+  "masterFile": "assets/source-christie-art/partners-in-crime-006.png",
+  "preview": {
+    "file": "img/partners-in-crime-006.preview.jpg",
+    "sha256": "dc47730c6a5c063efeacac4e9fe7493d2b533aa175e78e88aff951004ff8f25b"
+  }
+}

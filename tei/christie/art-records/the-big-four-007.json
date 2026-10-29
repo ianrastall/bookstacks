@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-007",
+  "file": "img/the-big-four-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 7. THE RADIUM THIEVES. Scene context, do not reproduce words: On the night of his release, Halliday slept in the room next to ours at the hotel, and all night long I heard him moaning and protesting in his sleep. Undoubtedly his experience in the villa had broken his nerve, and in the morning we failed completely to extract any information from him. He would only repeat his statement about the unlimited power at the disposal of the Big Four, and his assurance of the vengeance which would follow if he talked. After lunch he departed to rejoin his wife in England, but Poirot and I remained behind in Paris. I was all for energetic proceedings of some kind or other, and Poirot's quiescence annoyed me. \"For Heaven's sake, Poirot,\" I urged, \"let us be up and at them.\" \"Admirable, mon ami, admirable! Up where, and at whom? Be precise, I beg of you.\" \"At the Big Four, of course.\" \"Cela va sans dire. But how would you set about it?\" \"The police,\" I hazarded doubtfully. Poirot smiled. \"They would accuse us of romancing. We have nothing to go upon—nothing w",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "11367301eaf7ef3e85eba60a5a5099bf30f13117c8f0a8cdf047de27964c71ad",
+  "masterSha256": "fb8b3f9b69a8e64c3d8e6981543b4be63a94eb06e6303466a9433856ac86bdce",
+  "masterFile": "assets/source-christie-art/the-big-four-007.png",
+  "preview": {
+    "file": "img/the-big-four-007.preview.jpg",
+    "sha256": "492d3803806e1ff96f3a3818e324455962d9681552a646c6f0ffdce835dc67e4"
+  }
+}

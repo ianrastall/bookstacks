@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-010",
+  "file": "img/the-mystery-of-the-blue-train-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 10. On the Blue Train. Scene context, do not reproduce words: \"Dad!\" Mrs. Kettering started violently. Her nerves were not completely under control this morning. Very perfectly dressed in a long mink coat and a little hat of Chinese lacquer red, she had been walking along the crowded platform of Victoria deep in thought, and her father's sudden appearance and hearty greeting had an unlooked-for effect upon her. \"Why, Ruth, how you jumped!\" \"I didn't expect to see you, I suppose, Dad. You said good-bye to me last night and said you had a conference this morning.\" \"So I have,\" said Van Aldin, \"but you are more to me than any number of darned conferences. I came to take a last look at you, since I am not going to see you for some time.\" \"That is very sweet of you, Dad. I wish you were coming too.\" \"What would you say if I did?\" The remark was merely a joking one. He was surprised to see the quick colour flame in Ruth's cheeks. For a moment he almost thought he saw dismay flash out of her eyes. She laughed uncertainly and nervously. \"Just for a momen",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c7a77a5fa672961ff3b3681453cabbaef16db17965588d9bfa7f574f5bf5f561",
+  "masterSha256": "03fec581489ddaa08af1c90ba049f812345daf34b64a3a704fac6aafab38d11b",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-010.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-010.preview.jpg",
+    "sha256": "ae09c3e5f56a06c0e7f37fbf02adb67292d91902ac9819fc4d3bbb28787fd9b2"
+  }
+}

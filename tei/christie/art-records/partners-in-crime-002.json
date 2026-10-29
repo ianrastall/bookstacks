@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-002",
+  "file": "img/partners-in-crime-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter II. A Pot of Tea. Scene context, do not reproduce words: Mr. and Mrs. Beresford took possession of the offices of the International Detective Agency a few days later. They were on the second floor of a somewhat dilapidated building in Bloomsbury. In the small outer office, Albert relinquished the rôle of a Long Island butler, and took up that of office boy, a part which he played to perfection. A paper bag of sweets, inky hands, and a tousled head was his conception of the character. From the outer office, two doors led into inner offices. On one door was painted the legend \"Clerks.\" On the other \"Private.\" Behind the latter was a small comfortable room furnished with an immense businesslike desk, a lot of artistically labelled files, all empty, and some solid leather-seated chairs. Behind the desk sat the pseudo Mr. Blunt trying to look as though he had run a detective agency all his life. A telephone, of course, stood at his elbow. Tuppence and he had rehearsed several good telephone effects, and Albert also had his instructions. In the ad",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "017e68ffae072b848efcf271d61eaa010df8cf8d74604b26df7f41f2704e70c7",
+  "masterSha256": "e13ea3d29eef844bb6b8408ad248a40405735bc40886eb4c05f51a0752dfe7fc",
+  "masterFile": "assets/source-christie-art/partners-in-crime-002.png",
+  "preview": {
+    "file": "img/partners-in-crime-002.preview.jpg",
+    "sha256": "2d8e5a026153d5438daf01828a66556defe2fe12c7708a4288df9f8086ff84db"
+  }
+}

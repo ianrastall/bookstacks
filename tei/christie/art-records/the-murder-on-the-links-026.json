@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-026",
+  "file": "img/the-murder-on-the-links-026.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 26I Receive a Letter. Scene context, do not reproduce words: “My Friend: “You will know all when you get this. Nothing that I can say will move Bella. She has gone out to give herself up. I am tired out with struggling. “You will know now that I deceived you, that where you gave me trust I repaid you with lies. It will seem, perhaps, indefensible to you, but I should like, before I go out of your life for ever, to show you just how it all came about. If I knew that you forgave me, it would make life easier for me. It wasn’t for myself I did it—that’s the only thing I can put forward to say for myself. “I’ll begin from the day I met you in the boat train from Paris. I was uneasy then about Bella. She was just desperate about Jack Renauld, she’d have lain down on the ground for him to walk on, and when he began to change, and to stop writing so often, she began getting in a state. She got it into her head that he was keen on another girl—and of course, as it turned out afterwards, she was quite right there. She’d made up her mind to go to their Vi",
+  "width": 1200,
+  "height": 800,
+  "sha256": "14eb2668847dd5ca990f0e2ea6cc31d49eeb25ed68b01c5d1827d1560f95e58d",
+  "masterSha256": "d83964d8e86f9ff4197e019a467e2997f86a810e4f4d9c517335b2a84b2bebc1",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-026.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-026.preview.jpg",
+    "sha256": "96aec933b26da114c01d4bab2d2167b76afdbdff54cc36db4c718f2e4c79a476"
+  },
+  "useCase": "illustration-story"
+}

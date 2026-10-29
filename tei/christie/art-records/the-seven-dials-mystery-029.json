@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-029",
+  "file": "img/the-seven-dials-mystery-029.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXIX. Scene context, do not reproduce words: Singular Behaviour Of George Lomax \"Mr. Lomax is here, my lord.\" Lord Caterham started violently, for, absorbed in the intricacies of what not to do with the left wrist, he had not heard the butler approach over the soft turf. He looked at Tredwell more in sorrow than in anger. \"I told you at breakfast, Tredwell, that I should be particularly engaged this morning.\" \"Yes, my lord, but—\" \"Go and tell Mr. Lomax that you have made a mistake, that I am out in the village, that I am laid up with the gout, or, if all else fails, that I am dead.\" \"Mr. Lomax, my lord, has already caught sight of your lordship when driving up the drive.\" Lord Caterham sighed deeply. \"He would. Very well, Tredwell, I am coming.\" In a manner highly characteristic, Lord Caterham was always most genial when his feelings were in reality the reverse. He greeted George now with a heartiness quite unparalleled. \"My dear fellow, my dear fellow. Delighted to see you. Absolutely delighted. Sit down. Have a drink. Well, wel",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "1cb3bdfc1c66e7cef4a0c9803720a68ad0d647d52f8b1c056ba96c410a6f6a73",
+  "masterSha256": "350267a2c552e63cedb7ee680f4b4bd2fc56d9fabdd77cdc46513f318e8dce11",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-029.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-029.preview.jpg",
+    "sha256": "c0f1c01b2ecdf8982b60777e22a195b1d8d48975eebc83ad5dc9bc7bb3a5f17a"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-032",
+  "file": "img/the-seven-dials-mystery-032.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXXII. Scene context, do not reproduce words: Bundle is Dumfounded \"That's right,\" said Battle, as Mosgorovsky leapt up and came round to Bundle. \"Get a chair for her. It's been a bit of a shock, I can see.\" Bundle sank down on a chair. She felt limp and faint with surprise. Battle went on talking in a quiet, comfortable way wholly characteristic of him. \"You didn't expect to see me, Lady Eileen. No, and no more did some of the others sitting round this table. Mr. Mosgorovsky's been my lieutenant in a manner of speaking. He's been in the know all along. But most of the others have taken their orders blindly from him.\" Still Bundle said no word. She was—a most unusual state of affairs for her—simply incapable of speech. Battle nodded at her comprehendingly, seeming to understand the state of her feelings. \"You'll have to get rid of one or two preconceived ideas of yours, I'm afraid, Lady Eileen. About this society, for instance—I know it's common enough in books—a secret organization of criminals with a mysterious super-criminal at",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "2e61e19c338313966954b97401c9b27eda38f5e08ef743aa31638ac364e1e662",
+  "masterSha256": "096493e47d3fd8c269dfd4aec1c0346061728b95a5663ee8b843dedab8a5f6e7",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-032.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-032.preview.jpg",
+    "sha256": "71d8e66abbc44631b350687ad51275d761d43d3a251ddc2180ef02b805d9a6c8"
+  }
+}

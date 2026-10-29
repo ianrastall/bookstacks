@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-006",
+  "file": "img/the-murder-of-roger-ackroyd-006.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER VI. THE TUNISIAN DAGGER. Scene context, do not reproduce words: I met the inspector just coming from the door which led into the kitchen quarters. “How’s the young lady, doctor?” “Coming round nicely. Her mother’s with her.” “That’s good. I’ve been questioning the servants. They all declare that no one has been to the back door to-night. Your description of that stranger was rather vague. Can’t you give us something more definite to go upon?” “I’m afraid not,” I said regretfully. “It was a dark night, you see, and the fellow had his coat collar well pulled up and his hat squashed down over his eyes.” “H’m,” said the inspector. “Looked as though he wanted to conceal his face. Sure it was no one you know?” I replied in the negative, but not as decidedly as I might have done. I remembered my impression that the stranger’s voice was not unfamiliar to me. I explained this rather haltingly to the inspector. “It was a rough, uneducated voice, you say?” I agreed, but it occurred to me that the roughness had been of an almost exaggerated quality. If, as the",
+  "width": 1200,
+  "height": 800,
+  "sha256": "30711af97884a70e38b71ac0ecff32ad349d7db692001cb5d3a458d6c7302d56",
+  "masterSha256": "dd71b19212d5617995f4310ea892accaec4af8e9362729d063086878fc608279",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-006.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-006.preview.jpg",
+    "sha256": "087368710282b4acfd9b6c6feb42cefcdf5ed23cb58e20ce33de20913a4c431d"
+  },
+  "useCase": "illustration-story"
+}

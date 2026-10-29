@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-001",
+  "file": "img/giants-bread-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — Prologue. Scene context, do not reproduce words: It was the opening night of London's new National Opera House and consequently an occasion. Royalty was there. The Press were there. The fashionable were there in large quantities. Even the musical, by hook and by crook, had managed to be there—mostly very high up in the final tier of seats under the roof. The musical composition given was The Giant, a new work by a hitherto unknown composer, Boris Groen. In the interval after the first part of the performance a listener might have collected the following scraps of conversation: \"Quite divine, darling.\" \"They say it's simply the—the—the latest!! Everything out of tune on purpose ... and you have to read Einstein in order to understand it....\" \"Yes, dear, I shall tell everyone it's too marvellous. But, privately, it does make one's head ache!\" \"Why can't they open a British opera house with a decent British composer? All this Russian tomfoolery!\" Thus a peppery colonel. \"Quite so,\" drawled his companion. \"But, you see, there are no Brit",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "965dd5afb9aa8a01659e51e7e85aa1fb5e39e5bf6b3af15440c12834a8488b5d",
+  "masterSha256": "5ed69537ca9ce73e3f705a05714675d7e5e7f5d43b8eeb3b6fdd57d47c6cd4ee",
+  "masterFile": "assets/source-christie-art/giants-bread-001.png",
+  "preview": {
+    "file": "img/giants-bread-001.preview.jpg",
+    "sha256": "89aebbf0f77cc6fed93d5ae3ca9e040b9d195b7c8a6887cd7a52983fa1d731b5"
+  }
+}

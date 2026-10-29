@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-005",
+  "file": "img/the-mystery-of-the-blue-train-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 5. A Useful Gentleman. Scene context, do not reproduce words: Rufus Van Aldin had just finished the sparse breakfast of coffee and dry toast, which was all he ever allowed himself, when Knighton entered the room. \"Mr. Goby is below, sir, waiting to see you.\" The millionaire glanced at the clock. It was just half-past nine. \"All right,\" he said curtly. \"He can come up.\" A minute or two later, Mr. Goby entered the room. He was a small, elderly man, shabbily dressed, with eyes that looked carefully all round the room, and never at the person he was addressing. \"Good morning, Goby,\" said the millionaire. \"Take a chair.\" \"Thank you, Mr. Van Aldin.\" Mr. Goby sat down with his hands on his knees, and gazed earnestly at the radiator. \"I have got a job for you.\" \"Yes, Mr. Van Aldin?\" \"My daughter is married to the Hon. Derek Kettering, as you may perhaps know.\" Mr. Goby transferred his gaze from the radiator to the left-hand drawer of the desk, and permitted a deprecating smile to pass over his face. Mr. Goby knew a great many things, but he always hated ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ed2c983d84040ae8cebe8bd170baacfbfe32b39c08771f9f9ffb4704addb6236",
+  "masterSha256": "d9b72562ef9ef6ea939dbc2a2f3a82e415617278c6c09258cb83f265f52a5d09",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-005.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-005.preview.jpg",
+    "sha256": "86e3f5ba957a3c18bafa0df735f4be3f76a707642c1cf82ddc4ba2139fec576a"
+  }
+}

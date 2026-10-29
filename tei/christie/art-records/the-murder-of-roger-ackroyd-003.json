@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-003",
+  "file": "img/the-murder-of-roger-ackroyd-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER III. THE MAN WHO GREW VEGETABLE MARROWS. Scene context, do not reproduce words: I told Caroline at lunch time that I should be dining at Fernly. She expressed no objection—on the contrary—— “Excellent,” she said. “You’ll hear all about it. By the way, what is the trouble with Ralph?” “With Ralph?” I said, surprised; “there’s isn’t any.” “Then why is he staying at the Three Boars instead of at Fernly Park?” I did not for a minute question Caroline’s statement that Ralph Paton was staying at the local inn. That Caroline said so was enough for me. “Ackroyd told me he was in London,” I said. In the surprise of the moment I departed from my valuable rule of never parting with information. “Oh!” said Caroline. I could see her nose twitching as she worked on this. “He arrived at the Three Boars yesterday morning,” she said. “And he’s still there. Last night he was out with a girl.” That did not surprise me in the least. Ralph, I should say, is out with a girl most nights of his life. But I did rather wonder that he chose to indulge in the pastime in King’s Abbot instead ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3ec5d630ae0e8171afd38cfd824ad3cb0f4552a7f5481aeccfb7e312b74d24a6",
+  "masterSha256": "68c63987738702b96236680fcd85ddaac86832eeace05f758974dc574671b65d",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-003.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-003.preview.jpg",
+    "sha256": "1eaa30c973df72a57b6904e4905a3f233116f0e7fffea1b2ee282ee5f88c1bf3"
+  },
+  "useCase": "illustration-story"
+}

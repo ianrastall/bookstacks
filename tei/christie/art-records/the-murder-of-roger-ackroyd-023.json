@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-023",
+  "file": "img/the-murder-of-roger-ackroyd-023.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XXIII. POIROT’S LITTLE REUNION. Scene context, do not reproduce words: “And now,” said Caroline, rising, “that child is coming upstairs to lie down. Don’t you worry, my dear. M. Poirot will do everything he can for you—be sure of that.” “I ought to go back to Fernly,” said Ursula uncertainly. But Caroline silenced her protests with a firm hand. “Nonsense. You’re in my hands for the time being. You’ll stay here for the present, anyway—eh, M. Poirot?” “It will be the best plan,” agreed the little Belgian. “This evening I shall want mademoiselle—I beg her pardon, madame—to attend my little reunion. Nine o’clock at my house. It is most necessary that she should be there.” Caroline nodded, and went with Ursula out of the room. The door shut behind them. Poirot dropped down into a chair again. “So far, so good,” he said. “Things are straightening themselves out.” “They’re getting to look blacker and blacker against Ralph Paton,” I observed gloomily. Poirot nodded. “Yes, that is so. But it was to be expected, was it not?” I looked at him, slightly puzzled by the",
+  "width": 1200,
+  "height": 800,
+  "sha256": "2c396f02b7af8e5fbf51551403e5460cd6a5ce44a9c5607bd10e4643e0ac886f",
+  "masterSha256": "172e994dbeae51a37c3f20d94abbaf51bfc8a9574cb4aeab39cd90fa61b2f995",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-023.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-023.preview.jpg",
+    "sha256": "e85ab0a70ed39b49315be78b4052007d333f725919931cde472059623afea53a"
+  },
+  "useCase": "illustration-story"
+}

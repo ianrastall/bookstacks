@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-009",
+  "file": "img/partners-in-crime-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter IX. The Case of the Missing Lady. Scene context, do not reproduce words: The buzzer on Mr. Blunt's desk—(International Detective Agency, Manager, Theodore Blunt)—uttered its warning call. Tommy and Tuppence both flew to their respective peepholes which commanded a view of the outer office. There it was Albert's business to delay the prospective clients with various artistic devices. \"I will see, sir,\" he was saying. \"But I'm afraid Mr. Blunt is very busy just at present. He is engaged with Scotland Yard on the phone just now.\" \"I'll wait,\" said the visitor. \"I haven't got a card with me, but my name is Gabriel Stavansson.\" The client was a magnificent specimen of manhood, standing over six feet high. His face was bronzed and weather beaten, and the extraordinary blue of his eyes made an almost startling contrast to the brown skin. Tommy swiftly made up his mind. He put on his hat, picked up some gloves, and opened the door. He paused on the threshold. \"This gentleman is waiting to see you, Mr. Blunt,\" said Albert. A quick frown passed over Tommy's face. He ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "21be5dc46a4ced1f9f641b36201439a6978e41af28662d5af17d71286473f5ca",
+  "masterSha256": "05ef69da7705a9f7300901bf3419854e57ac335c5a7096c58343123d170516ad",
+  "masterFile": "assets/source-christie-art/partners-in-crime-009.png",
+  "preview": {
+    "file": "img/partners-in-crime-009.preview.jpg",
+    "sha256": "150b5c0cf020c45f234c8c3bc3c4a9501ec6934ffeca9ac557a33c447ae086ce"
+  }
+}

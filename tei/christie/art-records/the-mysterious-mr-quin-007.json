@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-007",
+  "file": "img/the-mysterious-mr-quin-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — The Voice in the Dark. Scene context, do not reproduce words: \"I am a little worried about Margery,\" said Lady Stranleigh. \"My girl, you know,\" she added. She sighed pensively. \"It makes one feel terribly old to have a grown-up daughter.\" Mr. Satterthwaite, who was the recipient of these confidences, rose to the occasion gallantly. \"No one could believe it possible,\" he declared with a little bow. \"Flatterer,\" said Lady Stranleigh, but she said it vaguely and it was clear that her mind was elsewhere. Mr. Satterthwaite looked at the slender white-clad figure in some admiration. The Cannes sunshine was searching, but Lady Stranleigh came through the test very well. At a distance the youthful effect was really extraordinary. One almost wondered if she were grown up or not. Mr. Satterthwaite, who knew everything, knew that it was perfectly possible for Lady Stranleigh to have grown-up grandchildren. She represented the extreme triumph of art over nature. Her figure was marvelous, her complexion was marvelous. She had enriched many beauty parlors and ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "abd2fabbddeabee9420a527156f62e2595df593feec40c8f03605ef9edd1e1a0",
+  "masterSha256": "e2455eff3c9d71ed7ec043d4ebdae8b859ce10c523f5adc707d528d56e965ffb",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-007.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-007.preview.jpg",
+    "sha256": "67d7e02e0961cadf985304599e37bd33466357cc3fec489411e0d0d53d476c83"
+  }
+}

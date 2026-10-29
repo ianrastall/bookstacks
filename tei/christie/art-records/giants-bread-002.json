@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-002",
+  "file": "img/giants-bread-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 1. Scene context, do not reproduce words: There were only three people of real importance in Vernon's world: Nurse, God, and Mr. Green. There were, of course, the nursemaids. Winnie, the present one, and behind her Jane and Annie and Sarah and Gladys. Those were all the ones that Vernon could remember, but there were lots more. Nursery maids never stayed long because they couldn't get on with Nurse. They hardly counted in Vernon's world. There was also a kind of twin deity called Mummy-Daddy mentioned by Vernon in his prayers and also connected with going down to dessert. They were shadowy figures, rather beautiful and wonderful—especially Mummy—but they again did not belong to the real world—Vernon's world. The things in Vernon's world were very real indeed. There was the drugget on the nursery floor, for instance. It was of green and white stripes and rather scrubbly to bare knees, and in one corner of it was a hole which Vernon used surreptitiously to make bigger by working his fingers round in it. There were the nursery wa",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c7f3b32dea1e014675f5896e1191afc3d796347cd45eb5c8854f438da2f63f88",
+  "masterSha256": "377d72420f1fcf37c23f289653e2fc335884f01b74f783b6bab536d2fdba43e3",
+  "masterFile": "assets/source-christie-art/giants-bread-002.png",
+  "preview": {
+    "file": "img/giants-bread-002.preview.jpg",
+    "sha256": "e7c99601cbe71bac45e79406ec6bb923c90bcded4d7c149abfa4ca070e350cce"
+  }
+}

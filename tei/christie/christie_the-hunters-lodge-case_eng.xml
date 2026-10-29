@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="christie_the-hunters-lodge-case_eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">The Hunter’s Lodge Case</title>
+        <author>Agatha Christie</author>
+        <respStmt>
+          <resp>Electronic source transcription</resp>
+          <name>Roger Frank and Sue Clark</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding and new AI-generated engraving-style sketches</resp>
+          <name>Bookstacks, with OpenAI image generation</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0">Bookstacks illustrated English edition of Project Gutenberg 67160</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Bookstacks</publisher>
+        <date when="2026-10-28">2026-10-28</date>
+        <availability status="free">
+          <p>The source text is public domain in the United States, as identified by Project Gutenberg. Source terms and contributor credits remain at the linked source. New sketches are AI-generated interpretations, not historical illustrations.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="source-description">Complete English text from Project Gutenberg 67160. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch. This is the periodical transcription, kept distinct from the collection version. Transcriber’s Note: This story appeared in the June, 1924 issue of The Blue Book Magazine.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <ref type="source" target="https://www.gutenberg.org/ebooks/67160">Project Gutenberg 67160</ref>
+          <idno type="source-file-sha256">e81da85416772a66b387da1329493f5ce667e077731139545fe271286f637e5f</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <div type="story" n="1" xml:id="the-hunters-lodge-case-001">
+        <head>The Hunter’s Lodge Case</head>
+        <figure type="engraving">
+          <graphic url="img/the-hunters-lodge-case-001.jpg"/>
+          <figDesc>An engraving-style sketch for The Hunter’s Lodge Case, The Hunter’s Lodge Case.</figDesc>
+        </figure>
+        <p xml:id="p-00001">“After all,” murmured Poirot, “it is possible that I shall not die
+this time.”</p>
+        <p xml:id="p-00002">Coming from a convalescent influenza patient, I hailed the remark as
+showing a beneficial optimism. I myself had been the first sufferer
+from the disease. Poirot in his turn had gone down. He was now sitting
+up in bed, propped up with pillows.</p>
+        <p xml:id="p-00003">“Yes, yes,” my little friend continued. “Once more shall I be myself
+again, the great Hercule Poirot, the terror of evildoers! Figure to
+yourself, <hi rend="italic">mon ami</hi>, that I have a little paragraph to myself in
+<hi rend="italic">Society Gossip</hi>. But yes! Here it is!</p>
+        <p xml:id="p-00004">“‘Go it, criminals—all out! Hercule Poirot,—and believe me, girls,
+he’s some Hercules!—our own pet society detective can’t get a grip on
+you. ’Cause why? ’Cause he’s got <hi rend="italic">la grippe</hi> himself!’”</p>
+        <p xml:id="p-00005">I laughed.</p>
+        <p xml:id="p-00006">“Good for you, Poirot. You are becoming quite a public character. And
+fortunately you haven’t missed anything of particular interest during
+this time.”</p>
+        <p xml:id="p-00007">“That is true. The few cases I have had to decline did not fill me
+with any regret.”</p>
+        <p xml:id="p-00008">Our landlady stuck her head in at the door.</p>
+        <p xml:id="p-00009">“There’s a gentleman downstairs. Says he must see M. Poirot or you,
+Captain. Seeing as he was in a great to-do,—and with all that quite
+the gentleman,—I brought up ’is card.”</p>
+        <p xml:id="p-00010">She handed me the bit of pasteboard. “‘Hon. Roger Havering,’” I read.</p>
+        <p xml:id="p-00011">Poirot motioned with his head toward the bookcase, and I obediently
+pulled forth the “Who’s Who.” Poirot took it from me and scanned the
+pages rapidly.</p>
+        <p xml:id="p-00012">“Second son of fifth Baron Windsor. Married 1913 Zoe, fourth daughter
+of William Crabb.”</p>
+        <p xml:id="p-00013">“H’m,” I said. “I rather fancy that’s the girl who used to act at the
+Frivolity—only she called herself Zoe Carrisbrook. I remember she
+married some young man about town just before the war.”</p>
+        <p xml:id="p-00014">“Would it interest you, Hastings, to go down and hear what our
+visitor’s particular trouble is? Make him all my excuses.”</p>
+        <p xml:id="p-00015">Roger Havering was a man of about forty, well set up and of smart
+appearance.</p>
+        <p xml:id="p-00016">His face, however, was haggard, and he was evidently laboring under
+great agitation.</p>
+        <p xml:id="p-00017">“Captain Hastings? You are M. Poirot’s partner, I understand. It is
+imperative that he should come with me to Derbyshire today.”</p>
+        <p xml:id="p-00018">“I’m afraid that’s impossible,” I replied. “Poirot is ill in
+bed—influenza.”</p>
+        <p xml:id="p-00019">His face fell.</p>
+        <p xml:id="p-00020">“Dear me, that is a great blow to me.”</p>
+        <p xml:id="p-00021">“The matter on which you want to consult him is serious?”</p>
+        <p xml:id="p-00022">“My God, yes! My uncle, the best friend I have in the world, was
+foully murdered last night.”</p>
+        <p xml:id="p-00023">“Here in London?”</p>
+        <p xml:id="p-00024">“No, in Derbyshire. I was in town and received a telegram from my wife
+this morning. Immediately upon its receipt I determined to come round
+and beg M. Poirot to undertake the case.”</p>
+        <p xml:id="p-00025">“If you will excuse me a minute,” I said, struck by a sudden idea.</p>
+        <p xml:id="p-00026">I rushed upstairs, and in few brief words acquainted Poirot with the
+situation. He took any further words out of my mouth.</p>
+        <p xml:id="p-00027">“I see—I see. You want to go yourself, is it not so? Well, why not?
+You should know my methods by now. All I ask is that you should report
+to me fully every day, and follow implicitly any instructions I may
+wire you.”</p>
+        <p xml:id="p-00028">To this I willingly agreed, and an hour later I was sitting opposite
+Mr. Havering in a first-class carriage on the Midland Railway,
+speeding rapidly away from London.</p>
+        <p xml:id="p-00029">“To begin with, Captain Hastings, you must understand that Hunter’s
+Lodge, where we are going, and where the tragedy took place, is only a
+small shooting-box in the heart of the Derbyshire moors. Our real home
+is near Newmarket, and we usually rent a flat in town for the season.
+Hunter’s Lodge is looked after by a housekeeper who is quite capable
+of doing all we need when we run down for an occasional week-end. Of
+course, during the shooting season, we take down some of our own
+servants from Newmarket.</p>
+        <p xml:id="p-00030">“My uncle, Mr. Harrington Pace (as you may know, my mother was a Miss
+Pace of New York), has for the last three years made his home with us.
+He never got on well with my father, or my elder brother, and I
+suspect that my being somewhat of a prodigal son myself rather
+increased than diminished his affection toward me. Of course, I am a
+poor man, and my uncle was a rich one—in other words, he paid the
+piper! But though exacting in many ways, he was not really hard to get
+on with, and we all three lived very harmoniously together.</p>
+        <p xml:id="p-00031">“Two days ago my uncle, rather wearied with some recent gayeties of
+ours in town, suggested that we should run down to Derbyshire for a
+day or two. My wife telegraphed to Mrs. Middleton, the housekeeper,
+and we went down that same afternoon. Yesterday evening I was forced
+to return to town, but my wife and my uncle remained on. This morning
+I received this telegram.”</p>
+        <p xml:id="p-00032">He handed it over to me, and I read:</p>
+        <quote>
+          <quote>
+<p xml:id="p-00033">Come at once. Uncle Harrington murdered last night. Bring good detective
+if you can, but do come.</p>
+<p xml:id="p-00034">Zoe.</p>
+</quote>
+        </quote>
+        <p xml:id="p-00035">“Then as yet you know no details?”</p>
+        <p xml:id="p-00036">“No, I suppose it will be in the evening papers. Without doubt the
+police are in charge.”</p>
+        <p xml:id="p-00037">It was about three o’clock when we arrived at the little station of
+Elmer’s Dale. From there a five-mile drive brought us to a small gray
+stone building in the midst of the rugged moors.</p>
+        <p xml:id="p-00038">“A lonely place,” I observed.</p>
+        <p xml:id="p-00039">Havering nodded.</p>
+        <p xml:id="p-00040">“I shall try and get rid of it. I could never live here again.”</p>
+        <p xml:id="p-00041">We unlatched the gate and were walking up the narrow path to the oak
+door when a familiar figure emerged and came to meet us.</p>
+        <p xml:id="p-00042">“Japp!” I ejaculated.</p>
+        <p xml:id="p-00043">The Scotland Yard Inspector grinned at me in a friendly fashion before
+addressing my companion.</p>
+        <p xml:id="p-00044">“Mr. Havering, I think? I’ve been sent down from London to take charge
+of this case, and I’d like a word with you, if I may, sir.”</p>
+        <p xml:id="p-00045">“My wife——”</p>
+        <p xml:id="p-00046">“I’ve seen your good lady, sir—and the housekeeper. I won’t keep you a
+moment, but I’m anxious to get back to the village now that I’ve seen
+all there is to see here.”</p>
+        <p xml:id="p-00047">“I know nothing as yet as to what—”</p>
+        <p xml:id="p-00048">“Ex-actly,” said Japp soothingly. “But there are just one or two
+little points I’d like your opinion about all the same. Captain
+Hastings, here, he knows me, and he’ll go on up to the house and tell
+them you’re coming.”</p>
+        <p xml:id="p-00049">I went on to the house. I rang the bell, as Japp had closed the door
+behind him. After some moments it was opened to me by a middle-aged
+woman in black.</p>
+        <p xml:id="p-00050">“Mr. Havering will be here in a moment,” I explained. “He has been
+detained by the Inspector. I have come down with him from London to
+look into the case. Perhaps you can tell me briefly what occurred last
+night?”</p>
+        <p xml:id="p-00051">“Come inside, sir.” She closed the door behind me, and we stood in the
+dimly lighted hall. “It was after dinner last night, sir, that the man
+came. He asked to see Mr. Pace, sir, and seeing that he spoke the same
+way, I thought it was an American gentleman friend of Mr. Pace’s, and
+I showed him into the gun-room, and then went to tell Mr. Pace. He
+wouldn’t give no name, which of course was a bit odd, now I come to
+think of it.</p>
+        <p xml:id="p-00052">“I told Mr. Pace, and he seemed puzzled, like, but he said to the
+mistress: ‘Excuse me, Zoe, while I just see what this fellow wants.’
+He went off to the gun-room, and I went back to the kitchen, but after
+a while I heard loud voices, as if they were quarreling, and I came
+out into the hall. At the same time, the mistress she comes out too,
+and just then there was a shot and then a dreadful silence. We both
+ran to the gun-room door, but it was locked, and we had to go round to
+the window. It was open, and there inside was Mr. Pace, all shot and
+bleeding.”</p>
+        <p xml:id="p-00053">“What became of the man?”</p>
+        <p xml:id="p-00054">“He must have got away through the window, sir, before we got to it.”</p>
+        <p xml:id="p-00055">“And then?”</p>
+        <p xml:id="p-00056">“Mrs. Havering sent me to fetch the police. Five miles to walk, it
+was. They came back with me; and the constable, he stayed all night;
+and this morning the police gentleman from London arrived.”</p>
+        <p xml:id="p-00057">“What was this man like who called to see Mr. Pace?”</p>
+        <p xml:id="p-00058">The housekeeper reflected.</p>
+        <p xml:id="p-00059">“He had a black beard, sir, and was about middle-aged, and had on a
+light overcoat. Beyond the fact that he spoke like an American, I
+didn’t notice much about him.”</p>
+        <p xml:id="p-00060">“I see. Now, I wonder if I can see Mrs. Havering?”</p>
+        <p xml:id="p-00061">“She’s upstairs, sir. Shall I tell her?”</p>
+        <p xml:id="p-00062">“If you please. Tell her that Mr. Havering is outside with Inspector
+Japp, and that the gentleman he has brought back with him from London
+is anxious to speak to her as soon as possible.”</p>
+        <p xml:id="p-00063">“Very good, sir.”</p>
+        <p xml:id="p-00064">I was in a fever of impatience to get at all the facts. Japp had two
+or three hours start of me, and his anxiety to be gone made me keen to
+be close at his heels.</p>
+        <p xml:id="p-00065">Mrs. Havering did not keep me waiting long. In a few minutes I heard a
+light step descending the stairs, and looked up to see a very handsome
+young woman coming toward me. She wore a flame-colored jumper, that
+set off the slender boyishness of her figure. On her dark head was a
+little hat of flame-colored leather. Even the present tragedy could
+not dim the vitality of her personality.</p>
+        <p xml:id="p-00066">I introduced myself, and she nodded in quick comprehension.</p>
+        <p xml:id="p-00067">“Of course I have often heard of you and your colleague, M. Poirot.
+You have done some wonderful things together, haven’t you? It was very
+clever of my husband to get you so promptly. Now, will you ask me
+questions? That is the easiest way, isn’t it, of getting to know all
+you want to about this dreadful affair?”</p>
+        <p xml:id="p-00068">“Thank you, Mrs. Havering. Now, what time was it that this man
+arrived?”</p>
+        <p xml:id="p-00069">“It must have been just before nine o’clock. We had finished dinner,
+and were sitting over our coffee and cigarettes.”</p>
+        <p xml:id="p-00070">“Your husband had already left for London?”</p>
+        <p xml:id="p-00071">“Yes, he went up by the six-fifteen.”</p>
+        <p xml:id="p-00072">“Did he go by car to the station, or did he walk?”</p>
+        <p xml:id="p-00073">“Our own car isn’t down here. One came out from the garage in Elmer’s
+Dale to fetch him in time for the train.”</p>
+        <p xml:id="p-00074">“Was Mr. Pace quite his usual self?”</p>
+        <p xml:id="p-00075">“Absolutely—most normal in every way.”</p>
+        <p xml:id="p-00076">“Now, can you describe this visitor at all?”</p>
+        <p xml:id="p-00077">“I’m afraid not. I didn’t see him. Mrs. Middleton showed him straight
+into the gun-room and then came to tell my uncle.”</p>
+        <p xml:id="p-00078">“What did your uncle say?”</p>
+        <p xml:id="p-00079">“He seemed rather annoyed, but went off at once. It was about five
+minutes later that I heard the sound of raised voices. I ran out into
+the hall, and almost collided with Mrs. Middleton. Then we heard the
+shot. The gun-room door was locked on the inside, and we had to go
+round the house to the window. Of course that took some time, and the
+murderer had been able to get well away. My poor uncle”—her voice
+faltered—“had been shot through the head. I saw at once that he was
+dead, and I sent Mrs. Middleton for the police straight away. I was
+careful to touch nothing in the room but to leave it exactly as I
+found it.”</p>
+        <p xml:id="p-00080">I nodded approval.</p>
+        <p xml:id="p-00081">“Now, as to the weapon?”</p>
+        <p xml:id="p-00082">“Well, I can make a guess at it, Captain Hastings. A pair of revolvers
+of my husband’s were mounted upon the wall. One of them is missing. I
+pointed this out to the police, and they took the other one away with
+them. When they have extracted the bullet, I suppose they will know
+for certain.”</p>
+        <p xml:id="p-00083">“May I go to the gun-room?”</p>
+        <p xml:id="p-00084">“Certainly. The police have finished with it. But the body has been
+removed.”</p>
+        <p xml:id="p-00085">She accompanied me to the scene of the crime. At that moment Havering
+entered the hall, and with a quick apology, his wife ran to him. I was
+left to undertake my investigations alone.</p>
+        <p xml:id="p-00086">I may as well confess at once that they were rather disappointing. In
+detective-novels, clues abound, but here I could find nothing that
+struck me as out of the ordinary except a large bloodstain on the
+carpet where I judged the dead man had fallen. I examined everything
+with painstaking care and took a couple of pictures of the room with
+my little camera, which I had brought with me. I also examined the
+ground outside the window, but it appeared to have been so heavily
+trampled that I judged it was useless to waste time over it. Now I had
+seen all that Hunter’s Lodge had to show me. I must go back to Elmer’s
+Dale and get into touch with Japp. Accordingly I took leave of the
+Haverings, and was driven off in the car that had brought us up from
+the station.</p>
+        <p xml:id="p-00087">Japp I found at the Matlock Arms, and he took me forthwith to see the
+body. Harrington Pace was a small, spare, cleanshaven man, typically
+American in appearance. He had been shot through the back of the head,
+and the revolver had been discharged at close quarters.</p>
+        <p xml:id="p-00088">“Turned away for a moment,” remarked Japp, “and the other fellow
+snatched up a revolver and shot him. The one Mrs. Havering handed over
+to us was fully loaded, and I suppose the other one was also. Curious
+what darn fool things people do. Fancy keeping two loaded revolvers
+hanging up on your wall!”</p>
+        <p xml:id="p-00089">“What do you think of the case?” I asked as we left the gruesome
+chamber behind us.</p>
+        <p xml:id="p-00090">“Well, I’d got my eye on Havering to begin with.... Oh, yes,”—noting
+my exclamation of astonishment,—“Havering has one or two shady
+incidents in his past. When he was a boy at Oxford, there was some
+funny business about the signature on one of his father’s checks. All
+hushed up, of course. Then he’s pretty heavily in debt now, and
+they’re the kind of debts he wouldn’t like to go to his uncle about;
+whereas you may be sure the uncle’s will would be in his favor. Yes,
+I’d got my eye on him, and that’s why I wanted to speak to him before
+he saw his wife; but their statements dovetail all right, and I’ve
+been to the station, and there’s no doubt whatever that he left by the
+six-fifteen. That gets up to London about ten-thirty. He went straight
+to his club, he says, and if that’s confirmed all right—why, he
+couldn’t have been shooting his uncle here at nine o’clock in a black
+beard!”</p>
+        <p xml:id="p-00091">“Ah, yes—I was going to ask you what you thought about that beard?”</p>
+        <p xml:id="p-00092">Japp winked.</p>
+        <p xml:id="p-00093">“I think it grew pretty fast—grew in the five miles from Elmer’s Dale
+to Hunter’s Lodge. Americans that I’ve met are mostly clean shaven. I
+questioned the housekeeper first, and then her mistress, and their
+stories agree all right; but I’m sorry Mrs. Havering didn’t get a look
+at the fellow. She’s a smart woman, and she might have noticed
+something that would set us on the track.”</p>
+        <p xml:id="p-00094">I sat down and wrote a minute and lengthy account to Poirot. I was
+able to add various further items of information before I posted the
+letter.</p>
+        <p xml:id="p-00095">The bullet had been extracted and was proved to have been fired from a
+revolver identical in size to the one held by the police. Furthermore,
+Mr. Havering’s movements on the night in question had been checked and
+verified, and it was proved beyond doubt that he had actually arrived
+in London by the train in question. And thirdly, a sensational
+development had occurred. A city gentleman, living at Ealing, on
+crossing Haven Green to get to the District Railway station that
+morning, had observed a brown paper parcel stuck between the railings.
+Opening it, he found that it contained a revolver. He handed the
+parcel over to the local police station, and before night it was
+proved to be the one we were in search of, the fellow to that given us
+by Mrs. Havering. One bullet had been fired from it.</p>
+        <p xml:id="p-00096">All this I added to my report. A wire from Poirot arrived while I was
+at breakfast the following morning:</p>
+        <quote>
+          <quote>
+<p xml:id="p-00097">Of course black-bearded man was not Havering. Only you or Japp would
+have such an idea. Wire me description of housekeeper and what clothes
+she wore this morning. Same of Mrs. Havering. Do not waste time taking
+photographs of interiors. They are underexposed and not in the least
+artistic.</p>
+
+</quote>
+        </quote>
+        <p xml:id="p-00098">It seemed to me that Poirot’s style was unnecessarily facetious. I
+also fancied he was a shade jealous of my position on the spot, with
+full facilities for handling the case. His request for a description
+of the clothes worn by the two women appeared to me to be simply
+ridiculous, but I complied as well as I, a mere man, was able to. At
+eleven a reply wire came from Poirot:</p>
+        <quote>
+          <quote>
+<p xml:id="p-00099">Advise Japp arrest housekeeper before it is too late.</p>
+
+</quote>
+        </quote>
+        <p xml:id="p-00100">Dumfounded, I took the wire to Japp. He swore softly under his breath.</p>
+        <p xml:id="p-00101">“He’s the goods, M. Poirot! If he says so, there’s something in it.
+And I hardly noticed the woman! I don’t know that I can go so far as
+arresting her, but I’ll have her watched. We’ll go up right away and
+take another look at her.”</p>
+        <p xml:id="p-00102">But it was too late. Mrs. Middleton, that quiet, middle-aged woman,
+who had appeared so normal and respectable, had vanished into thin
+air. Her box had been left behind. It contained only ordinary wearing
+apparel. There was no clue in it to her identity, or as to her
+whereabouts.</p>
+        <p xml:id="p-00103">From Mrs. Havering we elicited all the facts we could.</p>
+        <p xml:id="p-00104">“I engaged her about three weeks ago, when Mrs. Emery, our former
+housekeeper, left. She came to me from Mrs. Selboume’s Agency in Mount
+St.—a very well-known place. I get all my servants from there. They
+sent several women to see me, but this Mrs. Middleton seemed much the
+nicest, and had splendid references. I engaged her on the spot, and
+notified the Agency of the fact. I can’t believe that there was
+anything wrong with her. She was such a nice, quiet woman.”</p>
+        <p xml:id="p-00105">The thing was certainly a mystery.</p>
+        <p xml:id="p-00106">While it was clear that the woman herself could not have committed the
+crime, since at the moment the shot was fired Mrs. Havering was with
+her in the hall, nevertheless she must have some connection with the
+murder, or why should she suddenly take to her heels and bolt?</p>
+        <p xml:id="p-00107">I wired the latest development to Poirot, and suggested returning to
+London and making inquiries at Selbourne’s Agency. Poirot’s reply was
+prompt:</p>
+        <quote>
+          <quote>
+<p xml:id="p-00108">Useless to inquire at Agency. They will never have heard of her. Find
+out what vehicle took her up to Hunter’s Lodge when she first arrived
+there.</p>
+
+</quote>
+        </quote>
+        <p xml:id="p-00109">Though mystified, I was obedient. The means of transport in Elmer’s
+Dale were limited. The local garage had two cars, and there were two
+station flies. None of these had been requisitioned on the date in
+question. I may also mention that inquiries at the Agency in London
+bore out Poirot’s prognostication. No such woman as “Mrs. Middleton”
+had ever been on their books. They had received the Hon. Mrs.
+Havering’s application for a housekeeper, and had sent her various
+applicants for the post. When she sent them the engagement fee, she
+omitted to mention which woman she had selected.</p>
+        <p xml:id="p-00110">
+It is suggested that the reader pause in his perusal of the story at this
+point, make his own solution of the mystery—and then see how close he
+comes to that of the author—<hi rend="italic">The Editors</hi>.</p>
+        <p xml:id="p-00111">Somewhat crestfallen, I returned to London. I found Poirot established
+in an armchair by the fire. He greeted me with much affection.</p>
+        <p xml:id="p-00112">“<hi rend="italic">Mon ami Hastings!</hi> But how glad I am to see you! Veritably I have
+for you a great affection! And you have enjoyed yourself? You have run
+to and fro with the good Japp? You have interrogated and investigated
+to your heart’s content?”</p>
+        <p xml:id="p-00113">“Poirot,” I cried, “the thing’s a dark mystery! It will never be
+solved.”</p>
+        <p xml:id="p-00114">“It is true that we are not likely to cover ourselves with glory over
+it.”</p>
+        <p xml:id="p-00115">“No, indeed. It’s a hard nut to crack.”</p>
+        <p xml:id="p-00116">“Oh, as far as that goes, me, I am very good at cracking the nuts! A
+veritable squirrel! It is not that which embarrasses me. I know well
+enough who killed Mr. Harrington Pace.”</p>
+        <p xml:id="p-00117">“You know? How did you find out?”</p>
+        <p xml:id="p-00118">“Your illuminating answers to my wires supplied me with the truth.....
+See here, Hastings, let us examine the facts methodically and in
+order. Mr. Harrington Pace is a man with a considerable fortune which
+at his death will doubtless pass to his nephew—point number one. His
+nephew is known to be desperately hard up—point number two. His nephew
+is also known to be—shall we say a man of loose moral fiber? Point
+number three!”</p>
+        <p xml:id="p-00119">“But  Roger Havering is proved to have journeyed straight up to
+London.”</p>
+        <p xml:id="p-00120">“<hi rend="italic">Précisément!</hi> And therefore, as Mr. Havering left Elmer’s Dale at
+six-fifteen, and since Mr. Pace cannot have been killed before he left
+(or the doctor would have spotted the time of the crime as being given
+wrongly when he examined the body), we conclude, quite rightly, that
+Mr. Havering did <hi rend="italic">not</hi> shoot his uncle. But there is a Mrs. Havering,
+Hastings.”</p>
+        <p xml:id="p-00121">“Impossible! The housekeeper was with her when the shot was fired.”</p>
+        <p xml:id="p-00122">“Ah, yes, the housekeeper. But she has disappeared.”</p>
+        <p xml:id="p-00123">“She will be found.”</p>
+        <p xml:id="p-00124">“I think not. There is something peculiarly elusive about that
+housekeeper—don’t you think so? It struck me at once.”</p>
+        <p xml:id="p-00125">“She played her part, I suppose, and then got out in the nick of
+time.”</p>
+        <p xml:id="p-00126">“And what was her part?”</p>
+        <p xml:id="p-00127">“Well—I presume to admit her confederate, the black-bearded man.”</p>
+        <p xml:id="p-00128">“Oh, no, that was not her part. Her part was what you have just
+mentioned, to provide an alibi for Mrs. Havering at the moment the
+shot was fired. And no one will ever find her, <hi rend="italic">mon ami</hi>, because she
+does not exist! ‘There’s no sech person,’ as your so great Shakespeare
+says.”</p>
+        <p xml:id="p-00129">“It was Dickens,” I murmured, smiling. “But what do you mean, Poirot?”</p>
+        <p xml:id="p-00130">“I mean that Zoe Havering was an actress before her marriage, that you
+and Japp only saw the housekeeper in a dark hall, a dim, middle-aged
+figure in black with a faint, subdued voice, and finally that neither
+you, nor Japp, nor the local police whom the housekeeper fetched, ever
+saw Mrs. Middleton and her mistress at one and the same time. It was a
+child’s play for that clever and daring woman. On the pretext of
+summoning her mistress, she runs upstairs, slips on a bright jumper
+and a hat with black curls attached which she jams down over the gray
+transformation. A few deft touches, and the make-up is removed; a
+slight dusting of rouge, and the brilliant Zoe Havering comes down
+with her clear ringing voice.”</p>
+        <p xml:id="p-00131">“But the revolver that was found at Ealing? Mrs. Havering could not
+have placed it there?”</p>
+        <p xml:id="p-00132">“No, that was Roger Havering’s job—but it was a mistake on their part.
+It put me on the right track. A man who has committed a murder with a
+revolver which he found on the spot would fling it away at once; he
+would not carry it up to London with him. No, the motive was clear;
+the criminals wished to focus the interest of the police on a spot far
+removed from Derbyshire; they were anxious to get the police away as
+soon as possible from the vicinity of Hunter’s Lodge. Of course, the
+revolver found at Ealing was not the one with which Mr. Pace was shot.
+Roger Havering discharged one shot from it, brought it up to London,
+went straight to his club to establish his alibi, then went quickly
+out to Ealing by the District Railway, a matter of about twenty
+minutes only, placed the parcel where it was found and so back to
+town. That charming creature his wife, quietly shoots Mr. Pace after
+dinner—you remember he was shot from behind? Another significant
+point, that! She reloads the revolver and puts it back in its place,
+and then starts off with her desperate little comedy.”</p>
+        <p xml:id="p-00133">“It’s incredible,” I murmured, fascinated. “And yet—”</p>
+        <p xml:id="p-00134">“And yet it is true. <hi rend="italic">Bien sûr</hi>, my friend, it is true! But to bring
+that precious pair to justice, that is another matter. Well, Japp must
+do what he can—I have written him fully; but I very much fear,
+Hastings, that we shall be obliged to leave them to Fate—or <hi rend="italic">le bon
+Dieu</hi>—whichever you prefer.”</p>
+        <p xml:id="p-00135">“The wicked flourish like a green bay tree,” I reminded him.</p>
+        <p xml:id="p-00136">“But at a price, Hastings, always at a price, <hi rend="italic">croyez moi</hi>!”</p>
+        <p xml:id="p-00137">Poirot’s forebodings were confirmed. Japp, though convinced of the
+truth of his theory, was unable to get together the necessary evidence
+to insure a conviction. Mr. Pace’s huge fortune passed into the hands
+of his murderers. Nevertheless, Nemesis did overtake them, and when I
+read in the paper that the Hon. Roger and Mrs. Havering were among
+those killed in the crashing of the Air Mail to Paris, I knew that
+Justice was satisfied.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

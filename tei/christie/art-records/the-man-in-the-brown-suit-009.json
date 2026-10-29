@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-009",
+  "file": "img/the-man-in-the-brown-suit-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER VIII. Scene context, do not reproduce words: It is an extraordinary thing that I never seem to get any peace. I am a man who likes a quiet life. I like my Club, my rubber of Bridge, a well-cooked meal, a sound wine. I like England in the summer, and the Riviera in the winter. I have no desire to participate in sensational happenings. Sometimes, in front of a good fire, I do not object to reading about them in the newspaper. But that is as far as I am willing to go. My object in life is to be thoroughly comfortable. I have devoted a certain amount of thought, and a considerable amount of money, to further that end. But I cannot say that I always succeed. If things do not actually happen to me, they happen round me, and frequently, in spite of myself, I become involved. I hate being involved. All this because Guy Pagett came into my bedroom this morning with a telegram in his hand and a face as long as a mute at a funeral. Guy Pagett is my secretary, a zealous, painstaking, hard-working fellow, admirable in every respect. I know no",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8547e6b67be26b8a44a0a67a3b7d624b208e2baccb514d9339c02e2fb3d31145",
+  "masterSha256": "fc02a7a8b5aaebcc1d8ec6f78bb395b919dc2626fb104946f2b2152d868dfc22",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-009.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-009.preview.jpg",
+    "sha256": "7930a67abdd1f7ebbaf7ed17e39d5a5a8f7eb4d2a63b2c766392b1cf48774d70"
+  },
+  "useCase": "illustration-story"
+}

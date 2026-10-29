@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-005",
+  "file": "img/murder-at-the-vicarage-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 5. Scene context, do not reproduce words: It was nearer seven than half past six when I approached the Vicarage gate on my return. Before I reached it, it swung open and Lawrence Redding came out. He stopped dead on seeing me and I was immediately struck by his appearance. He looked like a man who was on the point of going mad. His eyes stared in a peculiar manner; he was deathly white, and he was shaking and twitching all over. I wondered for a moment whether he could have been drinking, but repudiated the idea immediately. \"Hullo,\" I said, \"have you been to see me again? Sorry I was out. Come back now. I've got to see Protheroe about some accounts—but I daresay we shan't be long.\" \"Protheroe,\" he said. He began to laugh. \"Protheroe? You're going to see Protheroe? Oh! you'll see Protheroe all right. Oh! my God—yes.\" I stared. Instinctively I stretched out a hand towards him. He drew sharply aside. \"No,\" he almost cried out. \"I've got to get away—to think. I've got to think. I must think.\" He broke into a run and vanished rapi",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "cd1c67d32576370a293505fe006eff0ca99439cee2c0c28b7383f17db96ef6e3",
+  "masterSha256": "2f4fee415a8b8aa00362b4a7114924850ee8167ea8ed058e1342ee8c30825de3",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-005.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-005.preview.jpg",
+    "sha256": "363fe89200bea3b35bcc0495fa87f86f6ee54decc65ef95a60025961423fe75a"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-023",
+  "file": "img/giants-bread-023.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 3. Scene context, do not reproduce words: A memorial service was held for Vernon in the little old church at Abbotsford under the shadow of Abbots Puissants, as it had been held for his father. The two last of the Deyres were not to lie in the family vault. One in South Africa, one in France. In Nell's memory afterward the proceedings seemed shadowed by the monumental bulk of Mrs. Levinne—a vast matriarchal figure dwarfing everything else. She herself had to bite her lips not to laugh hysterically. The whole thing was so funny somehow—so unlike Vernon. Her mother was there, elegant and aloof. Uncle Sydney was there, in black broadcloth, restraining himself from jingling his money with great difficulty, and with a suitable \"mourner's\" face. Myra Deyre was there in heavy crape, weeping copiously and unrestrainedly. But it was Mrs. Levinne who dominated the proceedings. She came back with them afterward to the sitting room at the inn, identifying herself with the family. \"Poor dear boy—poor dear gallant boy! I've always thought o",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0e249fd7316fa547a35edcc0b108301a91bc2c777f82c4399e242fc5dfff1491",
+  "masterSha256": "baf42d5d42eb658ea48f768f26f2d3088b5cb28e53b58a035d3b1655134755dd",
+  "masterFile": "assets/source-christie-art/giants-bread-023.png",
+  "preview": {
+    "file": "img/giants-bread-023.preview.jpg",
+    "sha256": "9baee86e5bffa99d3451866cab405e297fc992f1d57a131b654d7bc04462fd97"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-007",
+  "file": "img/the-seven-dials-mystery-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter VII. Scene context, do not reproduce words: Bundle Pays a Call Getting hold of Bill presented few difficulties. Bundle motored up to town on the following morning—this time without adventures by the way—and rang him up. Bill responded with alacrity, and made various suggestions as to lunch, tea, dinner and dancing. All of which suggestions Bundle turned down as made. \"In a day or two, I'll come and frivol with you, Bill. But for the moment I'm up on business.\" \"Oh,\" said Bill. \"What a beastly bore.\" \"It's not that kind,\" said Bundle. \"It's anything but boring. Bill, do you know anyone called Jimmy Thesiger.\" \"Of course. So do you.\" \"No, I don't,\" said Bundle. \"Yes, you do. You must. Everyone knows old Jimmy.\" \"Sorry,\" said Bundle. \"Just for once I don't seem to be everyone.\" \"Oh! but you must know Jimmy—pink-faced chap. Looks a bit of an ass. But really he's got as many brains as I have.\" \"You don't say so,\" said Bundle. \"He must feel a bit top heavy when he walks about.\" \"Was that meant for sarcasm?\" \"It was a feeble effort at ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "af4ae21676db87a9f60687cfd7aaca219e68dcd5261ed1c8bab6750533527a3c",
+  "masterSha256": "90bc0dd015986076549b03b6862d08de2a175f195ad7990900d675ff024cd065",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-007.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-007.preview.jpg",
+    "sha256": "30a433073b775486840fd0751e72ff2d89a0e21f844eda35f8884497e32cdf34"
+  }
+}

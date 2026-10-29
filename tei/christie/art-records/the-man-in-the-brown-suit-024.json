@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-024",
+  "file": "img/the-man-in-the-brown-suit-024.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXIII. Scene context, do not reproduce words: I thoroughly enjoyed the journey up to Rhodesia. There was something new and exciting to see every day. First the wonderful scenery of the Hex river valley, then the desolate grandeur of the Karoo, and finally that wonderful straight stretch of line in Bechuanaland, and the perfectly adorable toys the natives brought to sell. Suzanne and I were nearly left behind at each station—if you could call them stations. It seemed to me that the train just stopped whenever it felt like it, and no sooner had it done so than a horde of natives materialized out of the empty landscape, holding up mealie bowls and sugar canes and fur karosses and adorable carved wooden animals. Suzanne began at once to make a collection of the latter. I imitated her example—most of them cost a “tiki” (threepence) and each was different. There were giraffes and tigers and snakes and a melancholy looking eland and absurd little black warriors. We enjoyed ourselves enormously. Sir Eustace tried to restrain us—but in vai",
+  "width": 1200,
+  "height": 800,
+  "sha256": "1fd270a7876583ce68552778187a924e19f3d8d83e6e173a07a07af58071d491",
+  "masterSha256": "bd23d4cd0ddb2514ead981353b6913e84654020e3f986956e0b3fbb3bb6842bd",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-024.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-024.preview.jpg",
+    "sha256": "e8d46e361c80cc830d41b8fa5e17eabba2994e92a9b5dfe8e650f981adc2e82e"
+  },
+  "useCase": "illustration-story"
+}

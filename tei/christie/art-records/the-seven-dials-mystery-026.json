@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-026",
+  "file": "img/the-seven-dials-mystery-026.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXVI. Scene context, do not reproduce words: Mainly About Golf \"That friend of yours is a nice girl, Bundle,\" said Lord Caterham. Loraine had been at Chimneys for nearly a week, and had earned the high opinion of her host—mainly because of the charming readiness she had shown to be instructed in the science of the mashie shot. Bored by his winter abroad, Lord Caterham had taken up golf. He was an execrable player and in consequence was profoundly enthusiastic over the game. He spent most of his mornings lofting mashie shots over various shrubs and bushes—or, rather, essaying to loft them, hacking large bits out of the velvety turf and generally reducing MacDonald to despair. \"We must lay out a little course,\" said Lord Caterham, addressing a daisy. \"A sporting little course. Now then, just watch this one, Bundle. Off the right knee, slow back, keep the head still and use the wrists.\" The ball, heavily topped, scudded across the lawn and disappeared into the unfathomed depths of a great bank of rhododendrons. \"Curious,\" said Lord ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "945bacf5acb6f783c167c719d74ea3d6ee66be40713dd0d1f78da96c607d8381",
+  "masterSha256": "bc5177f9f750ab4623f352939eaec7608b4db55d407f9d5fb6cf4422a8bb85b5",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-026.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-026.preview.jpg",
+    "sha256": "8d0ade74bb063888e57b433986908a82d7c1e9d22c69aa8dd098fe0ee0ddf829"
+  }
+}

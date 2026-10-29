@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-031",
+  "file": "img/murder-at-the-vicarage-031.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 31. Scene context, do not reproduce words: Colonel Melchett and I both stared at her. \"A trap? What kind of a trap?\" Miss Marple was a little diffident, but it was clear that she had a plan fully outlined. \"Supposing Mr. Redding were to be rung up on the telephone and warned.\" Colonel Melchett smiled. \"'All is discovered. Fly!' That's an old wheeze, Miss Marple. Not that it isn't often successful! But I think in this case young Redding is too downy a bird to be caught that way.\" \"It would have to be something specific. I quite realize that,\" said Miss Marple. \"I would suggest—this is just a mere suggestion—that the warning should come from somebody who is known to have rather unusual views on these matters. Dr. Haydock's conversation would lead anyone to suppose that he might view such a thing as murder from an unusual angle. If he were to hint that somebody—Mrs. Sadler—or one of her children—had actually happened to see the transposing of the cachets—well—of course if Mr. Redding is an innocent man, that statement will mean no",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "9200592348daf260c856c71fe2464c6331310df966259aa07427b9befcbb98c5",
+  "masterSha256": "a55696bf556dcb53e3013470ad6aa36e43cd9d748408107ae85f00dfc045394f",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-031.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-031.preview.jpg",
+    "sha256": "f415c25ba5c59af3c20b970992512480f45b784f24b5ee5f135d3ed3d9ea3796"
+  }
+}

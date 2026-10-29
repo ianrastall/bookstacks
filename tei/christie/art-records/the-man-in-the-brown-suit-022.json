@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-022",
+  "file": "img/the-man-in-the-brown-suit-022.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXI. Scene context, do not reproduce words: I had no further difficulty in carrying out my plans. I found a small hotel in a back street, got a room there, paid a deposit as I had no luggage with me, and went placidly to bed. On the following morning I was up early and went out into the town to purchase a modest wardrobe. My idea was to do nothing until after the departure of the eleven-o’clock train to Rhodesia with most of the party on board. Pagett was not likely to indulge in any nefarious activities until he had got rid of them. Accordingly I took a tram out of the town and proceeded to enjoy a country walk. It was comparatively cool, and I was glad to stretch my legs after the long voyage and my close confinement at Muizenberg. A lot hinges on small things. My shoe-lace came untied, and I stopped to do it up. The road had just turned a corner, and as I was bending over the offending shoe a man came right round and almost walked into me. He lifted his hat, murmuring an apology, and went on. It struck me at the time that his",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3e325ad7e6d639b312316aabbc4de224d5a05853386c44fd55b2711021705844",
+  "masterSha256": "a25f18699f1e48397df56123c8d238244ecbe2e3f7247600991280e59c522bb4",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-022.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-022.preview.jpg",
+    "sha256": "391ed86f0ba181d9a2ca3db31b032c86a83ac79e3f17481efbfd73aebd324c65"
+  },
+  "useCase": "illustration-story"
+}

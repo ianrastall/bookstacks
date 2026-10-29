@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-007",
+  "file": "img/the-murder-of-roger-ackroyd-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER VII. I LEARN MY NEIGHBOR’S PROFESSION. Scene context, do not reproduce words: On the following morning I hurried unforgivably over my round. My excuse can be that I had no very serious cases to attend. On my return Caroline came into the hall to greet me. “Flora Ackroyd is here,” she announced in an excited whisper. “What?” I concealed my surprise as best I could. “She’s very anxious to see you. She’s been here half an hour.” Caroline led the way into our small sitting-room, and I followed. Flora was sitting on the sofa by the window. She was in black and she sat nervously twisting her hands together. I was shocked by the sight of her face. All the color had faded away from it. But when she spoke her manner was as composed and resolute as possible. “Dr. Sheppard, I have come to ask you to help me.” “Of course he’ll help you, my dear,” said Caroline. I don’t think Flora really wished Caroline to be present at the interview. She would, I am sure, have infinitely preferred to speak to me privately. But she also wanted to waste no time, so she made the best of it. “",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a234d2d1b2d136fccc2ceb8b514094878ff3c5248c371dbfc3ed6f3a6129b644",
+  "masterSha256": "0d4f94fc08e6522ae6ff2214d332dc09b6599f46b74bba870b7831a35cea975e",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-007.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-007.preview.jpg",
+    "sha256": "b38867778ee86f7f2a1c91b92bae35bbcfe05f4e26049a29ae2922200431df7e"
+  },
+  "useCase": "illustration-story"
+}

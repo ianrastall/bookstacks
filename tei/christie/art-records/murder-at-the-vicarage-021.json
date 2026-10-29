@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-021",
+  "file": "img/murder-at-the-vicarage-021.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 21. Scene context, do not reproduce words: I cannot say that I have at any time a great admiration for Mr. Raymond West. He is, I know, supposed to be a brilliant novelist, and has made quite a name as a poet. His poems have no capital letters in them, which is, I believe, the essence of modernity. His books are about unpleasant people leading lives of surpassing dullness. He has a tolerant affection for \"Aunt Jane,\" whom he alludes to in her presence as a \"survival.\" She listens to his talk with a flattering interest, and if there is sometimes an amused twinkle in her eye I am sure he never notices it. He fastened on Griselda at once with flattering abruptness. They discussed modern plays, and from there went on to modern schemes of decoration. Griselda affects to laugh at Raymond West, but she is, I think, susceptible to his conversation. During my (dull) conversation with Miss Marple, I heard at intervals the reiteration \"buried as you are down here.\" It began at last to irritate me. I said suddenly: \"I suppose you consider ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8aa1cccdd6016fa5b880e6c75f8c793b7ff58bb85300f1ca83989117f46c1817",
+  "masterSha256": "77941e8d708471cd7a248b7bd264e5ad57deb77c3d912bb6911ee99855ae6867",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-021.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-021.preview.jpg",
+    "sha256": "01d8eb4aee34c378f8dd3b7d14a0cb428cb311e3b120b6334f3eaef142ba4b08"
+  }
+}

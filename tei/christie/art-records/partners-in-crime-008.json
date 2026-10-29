@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-008",
+  "file": "img/partners-in-crime-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter VIII. The Gentleman Dressed in Newspaper. Scene context, do not reproduce words: It was after three o'clock when, weary and sick at heart, the husband and wife reached home. Several hours passed before Tuppence could sleep. She lay tossing from side to side, seeing always that flower like face with the horror stricken eyes. The dawn was coming in through the shutters when Tuppence finally dropped off to sleep. After the excitement, she slept heavily and dreamlessly. It was broad daylight when she awoke to find Tommy, up and dressed, standing by the bedside, shaking her gently by the arm. \"Wake up, old thing. Inspector Marriot and another man are here and want to see you.\" \"What time is it?\" \"Just on eleven. I'll get Alice to bring you your tea right away.\" \"Yes, do. Tell Inspector Marriot I'll be there in ten minutes.\" A quarter of an hour later, Tuppence came hurrying into the sitting room. Inspector Marriot who was sitting looking very straight and solemn, rose to greet her. \"Good morning, Mrs. Beresford. This is Sir Arthur Merivale.\" Tuppence shook hands with a ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "4f6c9947d260d870c5a2f06b427742491e6aafcc547ea537a1c96d92c77d1104",
+  "masterSha256": "f8f8cacee09f80afe849fa196ab33a7a113fb46884e5d8098534e08ad4fa8e62",
+  "masterFile": "assets/source-christie-art/partners-in-crime-008.png",
+  "preview": {
+    "file": "img/partners-in-crime-008.preview.jpg",
+    "sha256": "f4b06e5d7eaba3ddceed46b90ac1cf69c898170ff15a110960dcfafbe117b058"
+  }
+}

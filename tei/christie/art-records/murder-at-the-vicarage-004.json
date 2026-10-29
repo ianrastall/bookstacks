@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-004",
+  "file": "img/murder-at-the-vicarage-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 4. Scene context, do not reproduce words: I had entirely forgotten that we had asked Lawrence Redding to dinner that night. When Griselda burst in and scolded me, pointing out that it lacked two minutes to dinner time, I was quite taken aback. \"I hope everything will be all right,\" Griselda called up the stairs after me. \"I've thought over what you said at lunch, and I've really thought of some quite good things to eat.\" I may say, in passing, that our evening meal amply bore out Griselda's assertion that things went much worse when she tried than when she didn't. The menu was ambitious in conception, and Mary seemed to have taken a perverse pleasure in seeing how best she could alternate undercooking and overcooking. Some oysters which Griselda had ordered, and which would seem to be beyond the reach of incompetence, we were unfortunately not able to sample, as we had nothing in the house to open them with—an omission which was discovered only when the moment for eating them arrived. I had rather doubted whether Lawrence Redd",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a8feebd25fd2d97e70e81de523dad459734bd21658227f61aad0c6708a215fb1",
+  "masterSha256": "4740690ec3f77d8cc840ddaefa432a405a129208c94100e776863894b3e990c0",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-004.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-004.preview.jpg",
+    "sha256": "783f0698fd31682664990f458f902e2ef310f62efe59be3b53721d422061804c"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-006",
+  "file": "img/the-man-in-the-brown-suit-006.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER V. Scene context, do not reproduce words: In the first heat of indignation I found my next step unexpectedly easy to tackle. I had had a half-formed plan in my head when I went into Scotland Yard. One to be carried out if my interview there was unsatisfactory (it had been profoundly unsatisfactory). That is, if I had the nerve to go through with it. Things that one would shrink from attempting normally are easily tackled in a flush of anger. Without giving myself time to reflect, I walked straight to the house of Lord Nasby. Lord Nasby was the millionaire owner of the Daily Budget. He owned other papers—several of them, but the Daily Budget was his special child. It was as the owner of the Daily Budget that he was known to every householder in the United Kingdom. Owing to the fact that an itinerary of the great man’s daily proceedings had just been published, I knew exactly where to find him at this moment. It was his hour for dictating to his secretary in his own house. I did not, of course, suppose that any young woman who c",
+  "width": 1200,
+  "height": 800,
+  "sha256": "6beacf388ecb6e51da7807652b049acb845ec9effab96c06c2276b84dca5c82a",
+  "masterSha256": "f972376ec65f33857a194c9be4069140395c470b901f0a215e8991a91aa9dfbe",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-006.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-006.preview.jpg",
+    "sha256": "b98b95d369b0578fc1be69f324c3f1b67958e07cd97096a0198724ef2f78158a"
+  },
+  "useCase": "illustration-story"
+}

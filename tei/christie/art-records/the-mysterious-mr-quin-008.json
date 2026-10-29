@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-008",
+  "file": "img/the-mysterious-mr-quin-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — The Face of Helen. Scene context, do not reproduce words: Mr. Satterthwaite was at the opera and sat alone in his big box on the first tier. Outside the door was a printed card bearing his name. An appreciator and a connoisseur of all the arts, Mr. Satterthwaite was especially fond of good music and was a regular subscriber to Covent Garden every year, reserving a box for Tuesdays and Fridays throughout the season. But it was not often that he sat in it alone. He was a gregarious little gentleman, and he liked filling his box with the élite of the great world to which he belonged, and also with the aristocracy of the artistic world, in which he was equally at home. He was alone tonight because a countess had disappointed him. The Countess, besides being a beautiful and celebrated woman, was also a good mother. Her children had been attacked by that common and distressing disease, the mumps, and the Countess remained at home in tearful confabulation with exquisitely starched nurses. Her husband, who had supplied her with the aforementioned chi",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "b49ac5e0fc2782729d3140df1b829148b278b710065fdc009bd1f0a2da8aa060",
+  "masterSha256": "b7f357140e755ab3db51ee2738dcb98b82aeb673e7b80b89244d23eeacea292e",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-008.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-008.preview.jpg",
+    "sha256": "a6bbdf2c814e19f9d3dddf7a9e978cb2712a90b4855a8db169a2b3ab85f93e40"
+  }
+}

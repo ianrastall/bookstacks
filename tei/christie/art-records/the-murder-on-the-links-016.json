@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-016",
+  "file": "img/the-murder-on-the-links-016.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 16The Beroldy Case. Scene context, do not reproduce words: Some twenty years or so before the opening of the present story, Monsieur Arnold Beroldy, a native of Lyons, arrived in Paris accompanied by his pretty wife and their little daughter, a mere babe. Monsieur Beroldy was a junior partner in a firm of wine merchants, a stout middle-aged man, fond of the good things of life, devoted to his charming wife, and altogether unremarkable in every way. The firm in which Monsieur Beroldy was a partner was a small one, and although doing well, it did not yield a large income to the junior partner. The Beroldys had a small apartment and lived in a very modest fashion to begin with. But unremarkable though Monsieur Beroldy might be, his wife was plentifully gilded with the brush of Romance. Young and good looking, and gifted withal with a singular charm of manner, Madame Beroldy at once created a stir in the quarter, especially when it began to be whispered that some interesting mystery surrounded her birth. It was rumoured that she was the illegitima",
+  "width": 1200,
+  "height": 800,
+  "sha256": "bc8307fae50bbc87cf2024aeb3c585bac7d32d5557918a35cde814ac435e7d66",
+  "masterSha256": "e7ac167c00ae9b119d12b9d5695311f1c54caef1563056f8a095e93bbb6f06d1",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-016.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-016.preview.jpg",
+    "sha256": "cfb43ddfebe35770fbcfcad7d851d5c7cebe43c3f99cb18d203f58ba9f10ef6c"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-027",
+  "file": "img/murder-at-the-vicarage-027.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 27. Scene context, do not reproduce words: Griselda and Dennis had not yet returned. I realized that the most natural thing would have been for me to go up to the house with Miss Marple and fetch them home. Both she and I had been so entirely taken up with our preoccupation over the mystery that we had forgotten anybody existed in the world except ourselves. I was just standing in the hall, wondering whether I would not even now go over and join them, when the door bell rang. I crossed over to it. I saw there was a letter in the box and, presuming that this was the cause of the ring, I took it out. As I did so, however, the bell rang again, and I shoved the letter hastily into my pocket and opened the front door. It was Colonel Melchett. \"Hullo, Clement. I'm on my way home from town in the car. Thought I'd just look in and see if you could give me a drink.\" \"Delighted,\" I said. \"Come into the study.\" He pulled off the leather coat that he was wearing and followed me into the study. I fetched the whisky and soda and two glasses.",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ef7aa9463be7219f1998856402da4cd55c1f39775a8e216eda8da5ed046e7ecd",
+  "masterSha256": "e673ab65f6a9b56e68f4f72545dde29fa46d226856ff182ed729f9e8a1505fa3",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-027.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-027.preview.jpg",
+    "sha256": "59da10aed714a25da91937c322f33dd68217b484dfedfe50617e9d8ee67affaa"
+  }
+}

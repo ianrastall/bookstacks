@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-005",
+  "file": "img/the-mysterious-affair-at-styles-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER V. “IT ISN’T STRYCHNINE, IS IT?”. Scene context, do not reproduce words: “Where did you find this?” I asked Poirot, in lively curiosity. “In the waste-paper basket. You recognise the handwriting?” “Yes, it is Mrs. Inglethorp’s. But what does it mean?” Poirot shrugged his shoulders. “I cannot say—but it is suggestive.” A wild idea flashed across me. Was it possible that Mrs. Inglethorp’s mind was deranged? Had she some fantastic idea of demoniacal possession? And, if that were so, was it not also possible that she might have taken her own life? I was about to expound these theories to Poirot, when his own words distracted me. “Come,” he said, “now to examine the coffee-cups!” “My dear Poirot! What on earth is the good of that, now that we know about the cocoa?” “Oh, là là! That miserable cocoa!” cried Poirot flippantly. He laughed with apparent enjoyment, raising his arms to heaven in mock despair, in what I could not but consider the worst possible taste. “And, anyway,” I said, with increasing coldness, “as Mrs. Inglethorp took her coffee upstairs with her,",
+  "width": 1200,
+  "height": 800,
+  "sha256": "501c530a591f9ff28155def585205a4bdd9f82d24fc37c8adb0b028187f46f97",
+  "masterSha256": "274760b93530d1afaf2fc8fda159852bd43b186690f688056d12ab3c6b33d716",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-005.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-005.preview.jpg",
+    "sha256": "e0d0f4d5f61526b2ef63d8dd59c44da24db1c4bc08ae8616ae290ac6ecad7acc"
+  },
+  "useCase": "illustration-story"
+}

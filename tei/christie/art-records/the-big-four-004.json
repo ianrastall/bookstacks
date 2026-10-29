@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-004",
+  "file": "img/the-big-four-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 4. THE IMPORTANCE OF A LEG OF MUTTON. Scene context, do not reproduce words: The inspector drew a key from his pocket and unlocked the door of Granite Bungalow. The day had been fine and dry, so our feet were not likely to leave any prints; nevertheless, we wiped them carefully on the mat before entering. A woman came up out of the gloom and spoke to the Inspector, and he turned aside. Then he spoke over his shoulder. \"Have a good look round, Mr. Poirot, and see all there is to be seen. I'll be back in about ten minutes. By the way, here's Grant's boot. I brought it along with me for you to compare the impressions.\" We went into the living-room, and the sound of the Inspector's footsteps died away outside. Ingles was attracted immediately by some Chinese curios on a table in the corner, and went over to examine them. He seemed to take no interest in Poirot's doings. I, on the other hand, watched him with breathless interest. The floor was covered with a dark-green linoleum which was ideal for showing up footprints. A door at the farther end led into the small k",
+  "width": 1200,
+  "height": 800,
+  "sha256": "7792c849db4e6d3022701af0ef757897ce034cc9735b6dddb5a40c49aca3abab",
+  "masterSha256": "fa644c9ae649a9a413cdc1e8c6014262c635d1c70176b8b3c5f61a288e65af60",
+  "masterFile": "assets/source-christie-art/the-big-four-004.png",
+  "preview": {
+    "file": "img/the-big-four-004.preview.jpg",
+    "sha256": "fb12446189a4147698b362f050df9114eebba5a3531f4ba7fdbb28252e7bbe4d"
+  },
+  "useCase": "illustration-story"
+}

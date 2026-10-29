@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-013",
+  "file": "img/the-murder-on-the-links-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 13The Girl with the Anxious Eyes. Scene context, do not reproduce words: We lunched with an excellent appetite. I understood well enough that Poirot did not wish to discuss the tragedy where we could so easily be overheard. But, as is usual when one topic fills the mind to the exclusion of everything else, no other subject of interest seemed to present itself. For a while we ate in silence, and then Poirot observed maliciously: “Eh bien! And your indiscretions! You recount them not?” I felt myself blushing. “Oh, you mean this morning?” I endeavoured to adopt a tone of absolute nonchalance. But I was no match for Poirot. In a very few minutes he had extracted the whole story from me, his eyes twinkling as he did so. “Tiens! A story of the most romantic. What is her name, this charming young lady?” I had to confess that I did not know. “Still more romantic! The first rencontre in the train from Paris, the second here. Journeys end in lovers’ meetings, is not that the saying?” “Don’t be an ass, Poirot.” “Yesterday it was Mademoiselle Daubreuil, today it is Mad",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3bb580bdaf9e4f2afb2f60578be4357eaab19129a148f286d9d5c52239a7eedd",
+  "masterSha256": "d59a76564d51438c36cea371629b17adb69aecff08886c78669d871ea9d49be8",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-013.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-013.preview.jpg",
+    "sha256": "a4f33de2532ba4fb4d72633bb39f195a59fecad07cd83a671dcf39e0da505a84"
+  },
+  "useCase": "illustration-story"
+}

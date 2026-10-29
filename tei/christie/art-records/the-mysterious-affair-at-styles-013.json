@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-013",
+  "file": "img/the-mysterious-affair-at-styles-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER XIII. POIROT EXPLAINS. Scene context, do not reproduce words: “Poirot, you old villain,” I said, “I’ve half a mind to strangle you! What do you mean by deceiving me as you have done?” We were sitting in the library. Several hectic days lay behind us. In the room below, John and Mary were together once more, while Alfred Inglethorp and Miss Howard were in custody. Now at last, I had Poirot to myself, and could relieve my still burning curiosity. Poirot did not answer me for a moment, but at last he said: “I did not deceive you, mon ami. At most, I permitted you to deceive yourself.” “Yes, but why?” “Well, it is difficult to explain. You see, my friend, you have a nature so honest, and a countenance so transparent, that—enfin, to conceal your feelings is impossible! If I had told you my ideas, the very first time you saw Mr. Alfred Inglethorp that astute gentleman would have—in your so expressive idiom—‘smelt a rat’! And then, bonjour to our chances of catching him!” “I think that I have more diplomacy than you give me credit for.” “My friend,” bes",
+  "width": 1200,
+  "height": 800,
+  "sha256": "6ec6aec9ca33376129dfde0b7d1e0b3502d934afbb96139d84094900c9a4e483",
+  "masterSha256": "46c1fdaa1f60d07f52b2b00b454de8e51a5f2d9e4b0fb6e70e28d455ac1a7a57",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-013.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-013.preview.jpg",
+    "sha256": "90ece588d544a7c49e3fed3bb8d870129a515733fc4c9bbac8746c64b5297325"
+  },
+  "useCase": "illustration-story"
+}

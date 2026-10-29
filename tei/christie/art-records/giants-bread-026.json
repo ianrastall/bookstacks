@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-026",
+  "file": "img/giants-bread-026.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 2. Scene context, do not reproduce words: Sebastian Levinne was in his office going into the details of a ticklish contract when a telegram was brought to him. He opened it carelessly, for he received forty or fifty telegrams a day. After he had read it he held it in his hand, looking at it. Then he crumpled it up, slipped it into his pocket, and spoke to Lewis, his right-hand man. \"Get on with this thing as best you can,\" he said curtly. \"I'm called out of town.\" He took no heed of the protestations that arose, but left the room. He paused to tell his secretary to see to the cancelling of various appointments and then went home, packed a bag, and took a taxi to Waterloo. There he unfolded the telegram again and read it: It was a proof of his confidence and respect for Jane that he never hesitated. He trusted Jane as he trusted no one else in the world. If Jane said a thing was urgent, it was urgent. He obeyed the summons without wasting a thought of regret on the necessary complications it would cause. For no one else in the ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "fbc9cf549c986e41c2c292a57b9f9a3a5f88d47725ca7f45212b6211b951d927",
+  "masterSha256": "8c185eefdd93298b758e2f9ee58c83b9631af87d08d9df4f60f6c5832ad6bf11",
+  "masterFile": "assets/source-christie-art/giants-bread-026.png",
+  "preview": {
+    "file": "img/giants-bread-026.preview.jpg",
+    "sha256": "7b5bf40d455642490ed6ce0701e8d022a5d837bf07738c049c5cf6a9525b136e"
+  }
+}

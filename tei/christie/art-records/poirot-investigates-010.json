@@ -1,0 +1,17 @@
+{
+  "slug": "poirot-investigates-010",
+  "file": "img/poirot-investigates-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Poirot Investigates — X. The Adventure of the Italian Nobleman. Scene context, do not reproduce words: Poirot and I had many friends and acquaintances of an informal nature. Amongst these was to be numbered Dr. Hawker, a near neighbour of ours, and a member of the medical profession. It was the genial doctor’s habit to drop in sometimes of an evening and have a chat with Poirot, of whose genius he was an ardent admirer. The doctor himself, frank and unsuspicious to the last degree, admired the talents so far removed from his own. On one particular evening in early June, he arrived about half-past eight and settled down to a comfortable discussion on the cheery topic of the prevalence of arsenical poisoning in crimes. It must have been about a quarter of an hour later when the door of our sitting-room flew open, and a distracted female precipitated herself into the room. “Oh, doctor, you’re wanted! Such a terrible voice. It gave me a turn, it did indeed.” I recognized in our new visitor Dr. Hawker’s housekeeper, Miss Rider. The doctor was a bachelor, and lived in a gloomy old house a few",
+  "width": 1200,
+  "height": 800,
+  "sha256": "28c6323cb04040c712d24e3bbf394809186449103bbd15c6af31128a16fe0143",
+  "masterSha256": "65421ab7fe74ab5031debf31ad4fc1b73c565fc4e9aa61f2c4ad4eda0e12c79b",
+  "masterFile": "assets/source-christie-art/poirot-investigates-010.png",
+  "preview": {
+    "file": "img/poirot-investigates-010.preview.jpg",
+    "sha256": "bbee6991a0c61756388281fde5266810399704a5b131e66daafa6a1443d0e889"
+  },
+  "useCase": "illustration-story"
+}

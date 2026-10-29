@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-023",
+  "file": "img/murder-at-the-vicarage-023.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 23. Scene context, do not reproduce words: On the way back, I proposed to Griselda that we should make a detour and go round by the barrow. I was anxious to see if the police were at work and, if so, what they had found. Griselda, however, had things to do at home, so I was left to make the expedition on my own. I found Constable Hurst in charge of operations. \"No sign so far, sir,\" he reported, \"and yet it stands to reason that this is the only place for a cache.\" His use of the word cache puzzled me for the moment, as he pronounced it catch, but his real meaning occurred to me almost at once. \"Whatimeantersay is, sir, where else could the young woman be going, starting into the wood by that path? It leads to Old Hall, and it leads here, and that's about all.\" \"I suppose,\" I said, \"that Inspector Slack would disdain such a simple course as asking the young lady straight out.\" \"Anxious not to put the wind up her,\" said Hurst. \"Anything she writes to Stone or he writes to her may throw light on things—once she knows we're on to ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "88b7f7e304eaa0d34afc4818c6a81c345e1f94e715ad2b4b57c224f0badd46e0",
+  "masterSha256": "7c6d8f47217832d7ee45260ba92c9528c48c55bb95784290000cced54b35857e",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-023.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-023.preview.jpg",
+    "sha256": "7b9b12718e6cac126478002aa3ba784f45aaaa9d29283ebcbc7c90ec2e2f983b"
+  }
+}

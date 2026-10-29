@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-024",
+  "file": "img/giants-bread-024.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 4. Scene context, do not reproduce words: In the town of A—— in Holland, not far from the German frontier, is an inconspicuous inn. Here on a certain evening in 1917 a dark young man with a haggard face pushed open the door and in very halting Dutch asked for a lodging for the night. He breathed hard and his eyes were restless. Anna Schlieder, the fat proprietress of the inn, looked at him attentively up and down in her usual deliberate way before she replied. Then she told him that he could have a room. Her daughter Freda took him up to it. When she came back her mother said laconically: \"English—escaped prisoner.\" Freda nodded but said nothing. Her china-blue eyes were soft and sentimental. She had reasons of her own for taking an interest in the English. Presently she again mounted the stairs and knocked on the door. She went in on top of the knock, which as a matter of fact the young man had not heard. He was so sunk in a stupor of exhaustion that external sounds and happenings had hardly any meaning for him. For days and ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "6cbfcad4f305f54f2fdaef3c77be9efaad2dfca362af1b86960a8e2b57157e7a",
+  "masterSha256": "3c4a82784a5ba01d5aa85ddea8ee33f9f330c9d9c8aada517430c4b3aced9d4e",
+  "masterFile": "assets/source-christie-art/giants-bread-024.png",
+  "preview": {
+    "file": "img/giants-bread-024.preview.jpg",
+    "sha256": "9aae34ae3b79d554f87d8caaac7ddf307a11c1416829b6e7716f28fd29180ecc"
+  }
+}

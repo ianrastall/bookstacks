@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-022",
+  "file": "img/the-mystery-of-the-blue-train-022.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 22. M. Papopolous Breakfasts. Scene context, do not reproduce words: M. Papopolous was at breakfast. Opposite him sat his daughter, Zia. There was a knock at the sitting-room door, and a chasseur entered with a card which he brought to Mr. Papopolous. The latter scrutinized it, raised his eyebrows, and passed it over to his daughter. \"Ah!\" said M. Papopolous, scratching his left ear thoughtfully, \"Hercule Poirot. I wonder now.\" Father and daughter looked at each other. \"I saw him yesterday at the tennis,\" said M. Papopolous. \"Zia, I hardly like this.\" \"He was very useful to you once,\" his daughter reminded him. \"That is true,\" acknowledged M. Papopolous; \"also he has retired from active work, so I hear.\" These interchanges between father and daughter had passed in their own language. Now M. Papopolous turned to the chasseur and said in French: \"Faites monter ce monsieur.\" A few minutes later Hercule Poirot, exquisitely attired, and swinging a cane with a jaunty air, entered the room. \"My dear M. Papopolous.\" \"My dear M. Poirot.\" \"And Mademoiselle Zia.\" ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0723312a240fde9c048a4e6428dc2c022207614a597eb1d7151cd222a4fd220b",
+  "masterSha256": "2fd4fe438f46913aab7135474731650d10b1141d54030bee195a6d7e9f49155c",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-022.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-022.preview.jpg",
+    "sha256": "db3db87bdc55f10f00eaa37f3d47585bf84dafad07ec4ce6e8c890051357c09b"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-025",
+  "file": "img/the-mystery-of-the-blue-train-025.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 25. Defiance. Scene context, do not reproduce words: As Derek Kettering passed the car, Mirelle leant out. \"Dereek—I must speak to you for a moment—\" But, lifting his hat, Derek passed straight on without stopping. When he got back to his hotel, the concierge detached himself from his wooden pen and accosted him. \"A gentleman is waiting to see you, Monsieur.\" \"Who is it?\" asked Derek. \"He did not give me his name, Monsieur, but he said his business with you was important, and that he would wait.\" \"Where is he?\" \"In the little salon, Monsieur. He preferred it to the lounge he said, as being more private.\" Derek nodded, and turned his steps in that direction. The small salon was empty except for the visitor, who rose and bowed with easy foreign grace as Derek entered. As it chanced, Derek had seen the Comte de la Roche only once, but found no difficulty in recognizing that aristocratic nobleman, and he frowned angrily. Of all the consummate impertinence! \"The Comte de la Roche, is it not?\" he said. \"I am afraid you have wasted your time in",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "f248e3c910b48b9a96838c1f41ee4117a363721469cff5f2be885c9011a63469",
+  "masterSha256": "b5805e8196458b8dc2306dbebc1f9c7b232abd41362cdb73ba9e926d9f8b1eb6",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-025.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-025.preview.jpg",
+    "sha256": "951b977443733e7673997aa4437dd6e518b1a4bf4b65ce510bde10dccf2ee4b2"
+  }
+}

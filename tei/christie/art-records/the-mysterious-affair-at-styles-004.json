@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-004",
+  "file": "img/the-mysterious-affair-at-styles-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER IV. POIROT INVESTIGATES. Scene context, do not reproduce words: The house which the Belgians occupied in the village was quite close to the park gates. One could save time by taking a narrow path through the long grass, which cut off the detours of the winding drive. So I, accordingly, went that way. I had nearly reached the lodge, when my attention was arrested by the running figure of a man approaching me. It was Mr. Inglethorp. Where had he been? How did he intend to explain his absence? He accosted me eagerly. “My God! This is terrible! My poor wife! I have only just heard.” “Where have you been?” I asked. “Denby kept me late last night. It was one o’clock before we’d finished. Then I found that I’d forgotten the latch-key after all. I didn’t want to arouse the household, so Denby gave me a bed.” “How did you hear the news?” I asked. “Wilkins knocked Denby up to tell him. My poor Emily! She was so self-sacrificing—such a noble character. She over-taxed her strength.” A wave of revulsion swept over me. What a consummate hypocrite the man was! “I",
+  "width": 1200,
+  "height": 800,
+  "sha256": "18a4152801868e13735b0605fb472b7b971ff5379f952ba492473761b9317d03",
+  "masterSha256": "0a8ad06299ab1a52625ca4b767fcb1efd7f9fd87cf0142739b233319b13d785b",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-004.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-004.preview.jpg",
+    "sha256": "5c6f0112166a0b7f9db921fcfef6d08f9b8e900f6068040bddd601b98d7f86e3"
+  },
+  "useCase": "illustration-story"
+}

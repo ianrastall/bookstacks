@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-017",
+  "file": "img/the-murder-on-the-links-017.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 17We Make Further Investigations. Scene context, do not reproduce words: I have set down the Beroldy case in full. Of course all the details did not present themselves to my memory as I have recounted them here. Nevertheless, I recalled the case fairly accurately. It had attracted a great deal of interest at the time, and had been fully reported by the English papers, so that it did not need much effort of memory on my part to recollect the salient details. Just for the moment, in my excitement, it seemed to clear up the whole matter. I admit that I am impulsive, and Poirot deplores my custom of jumping to conclusions, but I think I had some excuse in this instance. The remarkable way in which this discovery justified Poirot’s point of view struck me at once. “Poirot,” I said, “I congratulate you. I see everything now.” “If that is indeed the truth, I congratulate you, mon ami. For as a rule you are not famous for seeing—eh, is it not so?” I felt a little annoyed. “Come now, don’t rub it in. You’ve been so confoundedly mysterious all along with your hints a",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8f01d0c4501acc057a89d80edae9be9d0cddeb4f5a2809855974f9fab476d64b",
+  "masterSha256": "44791757f0d7174553b426536ab553d4ebd02051f67cb07ea2bb0601ff9e7d2e",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-017.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-017.preview.jpg",
+    "sha256": "3ae6764e607581513365e67dfff1eae9658cee73e166c32781c651184bdeb678"
+  },
+  "useCase": "illustration-story"
+}

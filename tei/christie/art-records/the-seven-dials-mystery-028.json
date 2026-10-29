@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-028",
+  "file": "img/the-seven-dials-mystery-028.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXVIII. Scene context, do not reproduce words: Suspicions It was just on the appointed hour of twelve o'clock that Bundle and Loraine entered the park gates, having left the Hispano at an adjacent garage. Lady Coote greeted the two girls with surprise, but distinct pleasure, and immediately pressed them to stay to lunch. O'Rourke, who had been reclining in an immense arm-chair, began at once to talk with great animation to Loraine, who was listening with half an ear to Bundle's highly technical explanation of the mechanical troubles which had affected the Hispano. \"And we said,\" ended Bundle, \"how marvellous that the brute should have broken down just here! Last time it happened was on a Sunday at a place called Little Spedlington under the Hill. And it lived up to its name, I can tell you.\" \"That would be a grand name on the films,\" remarked O'Rourke. \"Birthplace of the simple country maiden,\" suggested Socks. \"I wonder now,\" said Lady Coote, \"where Mr. Thesiger is?\" \"He's in the billiard-room, I think,\" said Socks. \"I'll fetch hi",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ad635d1963cdf97886f8b1ee208824cc5e6d4e20558385c794ecc4af1712160d",
+  "masterSha256": "55c15b638321750aa795333a63cf6e29bc26aca57f8e11565b41aca92863fcec",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-028.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-028.preview.jpg",
+    "sha256": "5a501d191046b50f4864c6a07735a8546f7e1a3d311b4e2748b84650e73d87f8"
+  }
+}

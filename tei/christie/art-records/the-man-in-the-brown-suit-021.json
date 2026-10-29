@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-021",
+  "file": "img/the-man-in-the-brown-suit-021.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XX. Scene context, do not reproduce words: I drove to the hotel. There was no one in the lounge that I knew. I ran upstairs and tapped on Suzanne’s door. Her voice bade me “come in.” When she saw who it was she literally fell on my neck. “Anne, dear, where have you been? I’ve been worried to death about you. What have you been doing?” “Having adventures,” I replied. “Episode III of ‘The Perils of Pamela.’” I told her the whole story. She gave vent to a deep sigh when I finished. “Why do these things always happen to you?” she demanded plaintively. “Why does no one gag me and bind me hand and foot?” “You wouldn’t like it if they did,” I assured her. “To tell you the truth, I’m not nearly so keen on having adventures myself as I was. A little of that sort of thing goes a long way.” Suzanne seemed unconvinced. An hour or two of gagging and binding would have changed her views quickly enough. Suzanne likes thrills, but she hates being uncomfortable. “And what are we all doing now?” she asked. “I don’t quite know,” I said thoughtful",
+  "width": 1200,
+  "height": 800,
+  "sha256": "4b8616960eb8b555c8110828e0275b8f2cd0bcc82b01b910af09e3d9302c23a0",
+  "masterSha256": "1b8a64bc9989d289764793288969a2b16f116aaf99faeb0fcd72e4c1e2d200b8",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-021.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-021.preview.jpg",
+    "sha256": "b2ed5f9c4c10e6541a9cd17317f2115b67bfd26dd78de48c1111d3026e115dfb"
+  },
+  "useCase": "illustration-story"
+}

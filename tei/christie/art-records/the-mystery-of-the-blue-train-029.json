@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-029",
+  "file": "img/the-mystery-of-the-blue-train-029.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 29. A Letter From Home. Scene context, do not reproduce words: Katherine read this characteristic epistle through twice, then she laid it down and stared out of her bedroom window across the blue waters of the Mediterranean. She felt a curious lump in her throat. A sudden wave of longing for St. Mary Mead swept over her. So full of familiar, everyday, stupid little things—and yet—home. She felt very inclined to lay her head down on her arms and indulge in a real good cry. Lenox, coming in at the moment, saved her. \"Hello, Katherine,\" said Lenox. \"I say—what is the matter?\" \"Nothing,\" said Katherine, grabbing up Miss Viner's letter and thrusting it into her handbag. \"You looked rather queer,\" said Lenox. \"I say—I hope you don't mind—I rang up your detective friend, M. Poirot, and asked him to lunch with us in Nice. I said you wanted to see him, as I thought he might not come for me.\" \"Did you want to see him then?\" asked Katherine. \"Yes,\" said Lenox. \"I have rather lost my heart to him. I never met a man before whose eyes were really green like a c",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8362abe0ec9e5b8b23f30e96107e2961e62d287a18882dcd6280b4c73d74af88",
+  "masterSha256": "fb70a520c88ea20e05390b47bef5626fcfc3338dd72ba803135eff790f56ab24",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-029.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-029.preview.jpg",
+    "sha256": "70b722b1b54d8116960b7d7581f50e3a5d4154bf423fe8ab386d41c2d4dd536b"
+  }
+}

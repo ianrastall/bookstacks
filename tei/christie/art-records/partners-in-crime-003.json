@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-003",
+  "file": "img/partners-in-crime-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter III. The Affair of the Pink Pearl. Scene context, do not reproduce words: \"What on earth are you doing?\" demanded Tuppence, as she entered the inner sanctum of the International Detective Agency—(Slogan—Blunt's Brilliant Detectives) and discovered her lord and master prone on the floor in a sea of books. Tommy struggled to his feet. \"I was trying to arrange these books on the top shelf of that cupboard,\" he complained. \"And the damned chair gave way.\" \"What are they, anyway?\" asked Tuppence, picking up a volume. \"'The Hound of the Baskervilles.' I wouldn't mind reading that again some time.\" \"You see the idea?\" said Tommy, dusting himself with care. \"Half hours with the Great Masters—that sort of thing. You see, Tuppence, I can't help feeling that we are more or less amateurs at this business—of course amateurs in one sense we cannot help being, but it would do no harm to acquire the technique, so to speak. These books are detective stories by the leading masters of the art. I intend to try different styles, and compare results.\" \"H'm,\" said Tuppence. \"I oft",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "5eef39689ef13ad5ba9f9f98608304699a2548f3cc110e1f469f487245748842",
+  "masterSha256": "1ffa19939ec07bd4985d76545f1be9db7077bd28d7fadd0778ff3f344051c341",
+  "masterFile": "assets/source-christie-art/partners-in-crime-003.png",
+  "preview": {
+    "file": "img/partners-in-crime-003.preview.jpg",
+    "sha256": "3e4b7766658468ca9f0c2189dec4f0562be86df03f96c42f972d4c00d4cd47c5"
+  }
+}

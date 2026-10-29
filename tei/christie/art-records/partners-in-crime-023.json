@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-023",
+  "file": "img/partners-in-crime-023.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XXIII. The Man Who Was No. 16. Scene context, do not reproduce words: Tommy and Tuppence were closeted with the Chief in his private room. His commendation had been warm and sincere. \"You have succeeded admirably. Thanks to you we have laid our hands on no less than five very interesting personages, and from them we have received much valuable information. Meanwhile I learn from a creditable source that headquarters in Moscow have taken alarm at the failure of their agents to report. I think, that in spite of all our precautions, they have begun to suspect that all is not well at what I may call the distributing centre—the office of Mr. Theodore Blunt—the International Detective Bureau.\" \"Well,\" said Tommy. \"I suppose they were bound to tumble to it sometime or other, sir.\" \"As you say, it was only to be expected. But I am a little worried—about Mrs. Tommy.\" \"I can look after her all right, sir,\" said Tommy, at exactly the same minute as Tuppence said, \"I can take care of myself.\" \"H'm,\" said Mr. Carter. \"Excessive self-confidence was always a characteri",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "def721aefed99644225c65eaee2532b3843f9b598a5a0affbb42049248229f2d",
+  "masterSha256": "f24b2a9a2369dbe1add3e682356b8a170a6949c5f988634f509c811d2c7f71c5",
+  "masterFile": "assets/source-christie-art/partners-in-crime-023.png",
+  "preview": {
+    "file": "img/partners-in-crime-023.preview.jpg",
+    "sha256": "8bdd6cde057a9228860015f408ac8c076809ba5f19ee842c07a80e0b5fde3f98"
+  }
+}

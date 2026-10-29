@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-010",
+  "file": "img/the-mysterious-mr-quin-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — The Bird With the Broken Wing. Scene context, do not reproduce words: Mr. Satterthwaite looked out of the window. It was raining steadily. He shivered. Very few country houses, he reflected, were really properly heated. It cheered him to think that in a few hours' time he would be speeding toward London. Once one had passed sixty years of age, London was really much the best place. He was feeling a little old and pathetic. Most of the members of the house party were so young. Four of them had just gone off into the library to do table turning. They had invited him to accompany them but he had declined. He failed to derive any amusement from the monotonous counting of the letters of the alphabet and the usual meaningless jumble of letters that resulted. Yes, London was the best place for him. He was glad that he had declined Madge Keeley's invitation when she had rung up to invite him over to Laidell half an hour ago. An adorable young person, certainly, but London was best. Mr. Satterthwaite shivered again and remembered that the fire in the library was ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "d6c07468dfa8cede881b365d53dd55ff188476ab4ed6b31842defa58fdc86da4",
+  "masterSha256": "ebbe3b005e9db2ac6b09e6fa1bd84f8e0bce7b0d559116ba04749eedad3ecda8",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-010.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-010.preview.jpg",
+    "sha256": "f182ceadfd59f79f45a2829c7dea0142f07dd2dd8f754c60d24847e3fac990cf"
+  }
+}

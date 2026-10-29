@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-010",
+  "file": "img/partners-in-crime-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter X. Blindman's Buff. Scene context, do not reproduce words: \"Right,\" said Tommy, and replaced the receiver on its hook. Then he turned to Tuppence. \"That was the Chief. Seems to have got the wind up about us. It appears that the parties we're after have got wise to the fact that I'm not the genuine Mr. Theodore Blunt. We're to expect excitements at any minute. The Chief begs you as a favor to go home and stay at home, and not mix yourself up in it any more. Apparently the hornet's nest we've stirred up is bigger than anyone imagined.\" \"All that about my going home is nonsense,\" said Tuppence decidedly. \"Who is going to look after you if I go home? Besides, I like excitement. Business hasn't been very brisk just lately.\" \"Well, one can't have murders and robberies every day,\" said Tommy. \"Be reasonable. Now my idea is this. When business is slack, we ought to do a certain amount of home exercises every day.\" \"Lie on our backs and wave our feet in the air? That sort of thing?\" \"Don't be so literal in your interpretation. When I say exercises, I m",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "e5df952b5219ab4c2a1e14d744ee03a72258eafd8c529f8dcb925ef3420df136",
+  "masterSha256": "2639d5236f1a0e0423c188ec7d6cae1a2342a5155c8d25d1eb3b25d5d1840617",
+  "masterFile": "assets/source-christie-art/partners-in-crime-010.png",
+  "preview": {
+    "file": "img/partners-in-crime-010.preview.jpg",
+    "sha256": "0743fef6966dafba9d2ec59a360fdb32733ebdea5733d94a9ba3062cc1892110"
+  }
+}

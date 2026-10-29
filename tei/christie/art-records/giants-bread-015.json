@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-015",
+  "file": "img/giants-bread-015.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 6. Scene context, do not reproduce words: Nell was relieved by her mother's attitude. She had feared recriminations, reproaches. Insensibly she always shrank from harsh words or any kind of scene. Sometimes she thought to herself bitterly: \"I'm a coward. I can't stand up to things.\" She was definitely afraid of her mother. She had been dominated by her always, from the first moment she could remember. Mrs. Vereker had the hard imperious character which can rule most weaker natures with whom it comes in contact. And Nell was the more easily subdued because she understood well enough that her mother loved her and that it was because of that love that she was so determined that Nell should have the happiness out of life that she herself had failed to get. So Nell was immeasurably relieved when her mother uttered no reproaches, merely observed: \"If you're determined to be foolish, well, there it is. Most girls have some little love affair or other which comes to nothing in the end. I haven't much patience with this sentimental non",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "84e6fb225ef78f9ff27094e5f9c3cc5aa9daec6b9de942b2c256446840d517f3",
+  "masterSha256": "fde7f001bf3cbf5a9ed2f2cf2d0c619859e5b135249bc6a0f333b345f998c4de",
+  "masterFile": "assets/source-christie-art/giants-bread-015.png",
+  "preview": {
+    "file": "img/giants-bread-015.preview.jpg",
+    "sha256": "f367d040553db3af9ff4c9c4e24cda56a231fd8a99c26c484a0c61879722f72c"
+  }
+}

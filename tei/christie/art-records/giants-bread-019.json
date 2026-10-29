@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-019",
+  "file": "img/giants-bread-019.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 3. Scene context, do not reproduce words: At last \"The Princess in the Tower\" was finished. Vernon suffered from a tremendous wave of reaction. The whole thing was rotten—hopeless. Best to chuck it into the fire. Nell's sweetness and encouragement were like manna to him at this time. She had that wonderful instinct for always saying the words he longed to hear. But for her, as he constantly told her, he would have given way to despair long ago. He had seen less of Jane during the winter. She had been on tour with the English Opera Company part of the time. When she sang in Electra in Birmingham, he went down for it. He was tremendously impressed—loved both the music and Jane's impersonation of Electra. That ruthless will, that determined: \"Say naught but dance on!\" She gave the impression of being more spirit than flesh. He was conscious that her voice was really too weak for the part, but somehow it didn't seem to matter. She was Electra—that fanatical fiery spirit of relentless doom. He stayed a few days with his mother—days",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "5d77741cf51a6de39da8fa55f623f54419473cad0673bc1bbdd6098847e64931",
+  "masterSha256": "711b41bf6364821c289d2756e57f885ce1cd58d108cf50e6de1f3aa8fae313da",
+  "masterFile": "assets/source-christie-art/giants-bread-019.png",
+  "preview": {
+    "file": "img/giants-bread-019.preview.jpg",
+    "sha256": "bfbf88ef6bd3d1accfda1a357b8711c983a227c2239a668f617815e31d4cab2d"
+  }
+}

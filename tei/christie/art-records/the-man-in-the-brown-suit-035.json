@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-035",
+  "file": "img/the-man-in-the-brown-suit-035.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXXIV. Scene context, do not reproduce words: We were not able to return to Johannesburg that night. The shells were coming over pretty fast, and I gathered that we were now more or less cut off, owing to the rebels having obtained possession of a new part of the suburbs. Our place of refuge was a farm some twenty miles or so from Johannesburg—right out on the veld. I was dropping with fatigue. All the excitement and anxiety of the last two days had left me little better than a limp rag. I kept repeating to myself, without being able to believe it, that our troubles were really over. Harry and I were together and we should never be separated again. Yet all through I was conscious of some barrier between us—a constraint on his part, the reason of which I could not fathom. Sir Eustace had been driven off in an opposite direction accompanied by a strong guard. He waved his hand airily to us on departing. I came out on to the stoep early on the following morning and looked across the veld in the direction of Johannesburg. I could see ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "70dbff1cda9864026e185ae005dc6372be1fa27e2823e04d389d3b9cf804fd9c",
+  "masterSha256": "fb99d5ef1d3f8df100e11950adca0dc19efc64fcf5ec1102637eb6df38651cc1",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-035.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-035.preview.jpg",
+    "sha256": "60a5f7a89e58959e73c41d27e6cacd09fa1ed4ceda76e684cb1415ca1e777f28"
+  },
+  "useCase": "illustration-story"
+}

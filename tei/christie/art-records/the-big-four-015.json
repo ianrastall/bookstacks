@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-015",
+  "file": "img/the-big-four-015.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 15. THE TERRIBLE CATASTROPHE. Scene context, do not reproduce words: It was after the tragic death of Miss Flossie Monro that I began to be aware of a change in Poirot. Up to now, his invincible confidence in himself had stood the test. But it seemed as though, at last, the long strain was beginning to tell. His manner was grave and brooding, and his nerves were on edge. In these days he was as jumpy as a cat. He avoided all discussion of the Big Four as far as possible, and seemed to throw himself into his ordinary work with almost his old ardour. Nevertheless, I knew that he was secretly active in the big matter. Extraordinary-looking Slavs were constantly calling to see him, and though he vouchsafed no explanation as to these mysterious activities, I realised that he was building some new defence or weapon of opposition with the help of these somewhat repulsive-looking foreigners. Once, purely by chance, I happened to see the entries in his pass-book—he had asked me to verify some small item—and I noticed the paying out of a huge sum—a huge sum even ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "5ed6472d1a4b728d9d9651348ece752183fd76349e7222b59ecda0a719b8a433",
+  "masterSha256": "e3d49fc10df9337e44f577553dc556b0929f1b3be44a6b40b0671a4f0deb722a",
+  "masterFile": "assets/source-christie-art/the-big-four-015.png",
+  "preview": {
+    "file": "img/the-big-four-015.preview.jpg",
+    "sha256": "6aef231a90e0b92206f846c41d36ef0c5aedfff51fc2f6a411b3746cd9482a20"
+  }
+}

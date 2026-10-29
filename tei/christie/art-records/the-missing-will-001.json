@@ -1,0 +1,17 @@
+{
+  "slug": "the-missing-will-001",
+  "file": "img/the-missing-will-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Missing Will — The Missing Will. Scene context, do not reproduce words: The problem presented to us by Miss Violet Marsh made a rather pleasant change from our usual routine work. Poirot had received a brisk and businesslike note from the lady asking for an appointment, and he had replied, asking her to call upon him at eleven o’clock the following day. She arrived punctually—a tall, handsome young woman, plainly but neatly dressed, with an assured and businesslike manner—clearly, a young woman who meant to get on in the world. I am not a great admirer of the so-called New Woman myself, and in spite of her good looks, I was not particularly prepossessed in her favor. “My business is of a somewhat unusual nature, M. Poirot,” she began, after she had accepted a chair. “I had better begin at the beginning and tell you the whole story.” “If you please, mademoiselle.” “I am an orphan. My father was one of two brothers, sons of a small yeoman farmer in Devonshire. The farm was a poor one, and the eldest brother, Andrew, emigrated to Australia, where he did very ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "61f66a855dd2fd9468ffe0213cb4658729c99f3c8f57c499976dfa986037b976",
+  "masterSha256": "b83533d99aced52c5f95f08e5de8823e29f5af8814ce3cc54561e2021e15589c",
+  "masterFile": "assets/source-christie-art/the-missing-will-001.png",
+  "preview": {
+    "file": "img/the-missing-will-001.preview.jpg",
+    "sha256": "1c6548072a88a116ccfdd22a698e1d5cfba6e3899406877bdb371bf2e20cc0ce"
+  }
+}

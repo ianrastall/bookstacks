@@ -1,0 +1,17 @@
+{
+  "slug": "poirot-investigates-009",
+  "file": "img/poirot-investigates-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Poirot Investigates — IX. The Disappearance of Mr. Davenheim. Scene context, do not reproduce words: Poirot and I were expecting our old friend Inspector Japp of Scotland Yard to tea. We were sitting round the tea-table awaiting his arrival. Poirot had just finished carefully straightening the cups and saucers which our landlady was in the habit of throwing, rather than placing, on the table. He had also breathed heavily on the metal teapot, and polished it with a silk handkerchief. The kettle was on the boil, and a small enamel saucepan beside it contained some thick, sweet chocolate which was more to Poirot’s palate than what he described as “your English poison.” A sharp “rat-tat” sounded below, and a few minutes afterwards Japp entered briskly. “Hope I’m not late,” he said as he greeted us. “To tell the truth, I was yarning with Miller, the man who’s in charge of the Davenheim case.” I pricked up my ears. For the last three days the papers had been full of the strange disappearance of Mr. Davenheim, senior partner of Davenheim and Salmon, the well-known bankers and financiers. On ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "23ebfdef0c6bca84a9a2bf5f3e7f596ef86d700a812a86c915e0af291d38d591",
+  "masterSha256": "ea0efc86e6b2c4754340bfd4aeaffe9c72f92a46d5bd6b443defb3b4a58ff227",
+  "masterFile": "assets/source-christie-art/poirot-investigates-009.png",
+  "preview": {
+    "file": "img/poirot-investigates-009.preview.jpg",
+    "sha256": "749e7e6a782ed386fcb05ed13195541c58b6da4f71bf79a8264510cb3fa3a1a8"
+  },
+  "useCase": "illustration-story"
+}

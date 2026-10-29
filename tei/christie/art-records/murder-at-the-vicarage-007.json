@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-007",
+  "file": "img/murder-at-the-vicarage-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 7. Scene context, do not reproduce words: Colonel Melchett is a dapper little man with a habit of snorting suddenly and unexpectedly. He has red hair and rather keen, bright-blue eyes. \"Good morning, Vicar,\" he said. \"Nasty business, eh? Poor old Protheroe. Not that I liked him. I didn't. Nobody did for that matter. Nasty bit of work for you, too. Hope it hasn't upset your Missus?\" I said Griselda had taken it very well. \"That's lucky. Rotten thing to happen in one's house. I must say I'm surprised at young Redding—doing it the way he did. No sort of consideration for anyone's feelings.\" A wild desire to laugh came over me, but Colonel Melchett evidently saw nothing odd in the idea of a murderer being considerate, so I held my peace. \"I must say I was rather taken aback when I heard the fellow had marched in and given himself up,\" continued Colonel Melchett, dropping on to a chair. \"How did it happen, exactly?\" \"Last night. About ten o'clock. Fellow rolls in, throws down a pistol and says, 'Here I am. I did it.' Just like that",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0a3b97f9815d78f736e2a88468cd784cb8ace3abe8882c6115a27383d00de354",
+  "masterSha256": "1d2cfdad3541bccdf878c8576a67bb64b1f2f357356af6f6409a91bae4c69417",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-007.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-007.preview.jpg",
+    "sha256": "8258e8f2e375ae9fbee22315a0d1de48a9504f6a857bbd14cd2f69a800c2ac18"
+  }
+}

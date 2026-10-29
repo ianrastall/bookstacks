@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-017",
+  "file": "img/murder-at-the-vicarage-017.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 17. Scene context, do not reproduce words: Inspector Slack came round to see me the following morning. He is, I think, thawing towards me. In time, he may forget the incident of the clock. \"Well, sir,\" he greeted me. \"I've traced that telephone call that you received.\" \"Indeed?\" I said eagerly. \"It's rather odd. It was put through from the North Lodge of Old Hall. Now that Lodge is empty; the lodgekeepers have been pensioned off, and the new lodgekeepers aren't in yet. The place was empty and convenient—a window at the back was open. No finger prints on the instrument itself—it had been wiped clean. That's suggestive.\" \"How do you mean?\" \"I mean that it shows that call was put through deliberately to get you out of the way. Therefore the murder was carefully planned in advance. If it had been just a harmless practical joke, the fingerprints wouldn't have been wiped off so carefully.\" \"No, I see that.\" \"It also shows that the murderer was well acquainted with Old Hall and its surroundings. It wasn't Mrs. Protheroe who put that c",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "509c2129c73244605d88ea888d57b6d25927e07351aedadbc5dcb995c6d5664f",
+  "masterSha256": "1b7b06abdf57f27b0308d8a482730320078625dec5593303541f1ed8baa9eb18",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-017.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-017.preview.jpg",
+    "sha256": "3ee76cdf9b06fc9eb631a20691584e868779e9c4b9b480d9461b148ea3445f4a"
+  }
+}

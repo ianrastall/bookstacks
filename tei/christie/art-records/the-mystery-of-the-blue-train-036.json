@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-036",
+  "file": "img/the-mystery-of-the-blue-train-036.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 36. By the Sea. Scene context, do not reproduce words: The mimosa was nearly over. The scent of it in the air was faintly unpleasant. There were pink geraniums twining along the balustrade of Lady Tamplin's villa, and masses of carnations below sent up a sweet, heavy perfume. The Mediterranean was at its bluest. Poirot sat on the terrace with Lenox Tamplin. He had just finished telling her the same story he had told to Van Aldin two days before. Lenox had listened to him with absorbed attention, her brows knitted and her eyes sombre. When he had finished she said simply: \"And Derek?\" \"He was released yesterday.\" \"And he has gone—where?\" \"He left Nice last night.\" \"For St. Mary Mead?\" \"Yes, for St. Mary Mead.\" There was a pause. \"I was wrong about Katherine,\" said Lenox. \"I thought she did not care.\" \"She is very reserved. She trusts no one.\" \"She might have trusted me,\" said Lenox, with a shade of bitterness. \"Yes,\" said Poirot gravely, \"she might have trusted you. But Mademoiselle Katherine has spent a great deal of her life listening, an",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "2d3edd24e77ec583d0324f165b7702ce860e67ba7904ff645358d241d6ce0fd2",
+  "masterSha256": "22d3841d74e998f74f3f7002193f5e7f1fcc0e16bce0da99c518d968f6599110",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-036.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-036.preview.jpg",
+    "sha256": "c08eef940cdce696d46bcaa3aca561d567b28035de333a8871c24165ec850544"
+  }
+}

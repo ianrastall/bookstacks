@@ -61,6 +61,14 @@ const AUTHOR_PROFILES = Object.fromEntries(
 ) as Record<string, Omit<Author, 'works'>>;
 
 const WORK_TITLES: Record<string, string> = {
+  'giants-bread': 'Giants’ Bread',
+  'murder-at-the-vicarage': 'Murder at the Vicarage',
+  'partners-in-crime': 'Partners in Crime',
+  'the-hunters-lodge-case': 'The Hunter’s Lodge Case',
+  'the-man-in-the-brown-suit': 'The Man in the Brown Suit',
+  'the-murder-on-the-links': 'The Murder on the Links',
+  'the-mysterious-affair-at-styles': 'The Mysterious Affair at Styles',
+  'the-mysterious-mr-quin': 'The Mysterious Mr. Quin',
   'collected-works-of-mystery-and-horror': 'Collected Works of Mystery and Horror',
   'call-to-arms': 'Call to Arms',
   'journey-to-the-west': 'Journey to the West',

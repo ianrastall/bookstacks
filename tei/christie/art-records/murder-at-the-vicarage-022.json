@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-022",
+  "file": "img/murder-at-the-vicarage-022.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 22. Scene context, do not reproduce words: Inspector Slack's orders, once I had got him on the telephone, were brief and emphatic. Nothing was to \"get about.\" In particular, Miss Cram was not to be alarmed. In the meantime, a search was to be instituted for the suitcase in the neighbourhood of the barrow. Griselda and I returned home very excited over this new development. We could not say much with Dennis present, as we had faithfully promised Inspector Slack to breathe no word to anybody. In any case, Dennis was full of his own troubles. He came into my study and began fingering things and shuffling his feet and looking thoroughly embarrassed. \"What is it, Dennis?\" I said at last. \"Uncle Len. I don't want to go to sea.\" I was astonished. The boy had been so very decided about his career up to now. \"But you were so keen on it.\" \"Yes, but I've changed my mind.\" \"What do you want to do?\" \"I want to go into finance.\" I was even more surprised. \"What do you mean—finance?\" \"Just that. I want to go into the City.\" \"But my dear boy, ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "f80da7789b56e3f457b19becc70755abfd0dc0b3133682b229757f6fe865def7",
+  "masterSha256": "be9a5b3778b6884ad0322af8818b78db5bb11f8a195b11648020f55593d53c3f",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-022.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-022.preview.jpg",
+    "sha256": "e149c7453e8ccc403f10f4413ff5acd342767c73ca2ad86d8339a61a67ca7984"
+  }
+}

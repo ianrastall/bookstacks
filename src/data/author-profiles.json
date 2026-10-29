@@ -5,6 +5,7 @@
   "bronte-charlotte": { "name": "Charlotte Brontë", "dates": "1816-1855", "portrait": "bronte-charlotte.png" },
   "bronte-emily": { "name": "Emily Brontë", "dates": "1818-1848", "portrait": "bronte-emily.png" },
   "chesterton-g-k": { "name": "G. K. Chesterton", "dates": "1874-1936", "portrait": "chesterton-g-k.png" },
+  "christie": { "name": "Agatha Christie", "dates": "1890-1976", "portrait": "christie-agatha.png" },
   "dickens": { "name": "Charles Dickens", "dates": "1812-1870", "portrait": "dickens-charles.png" },
   "dostoevsky": { "name": "Fyodor Dostoevsky", "dates": "1821-1881", "portrait": "dostoevsky-fyodor.png" },
   "doyle": { "name": "Arthur Conan Doyle", "dates": "1859-1930", "portrait": "doyle-arthur-conan.png" },

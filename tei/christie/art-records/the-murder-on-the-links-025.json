@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-025",
+  "file": "img/the-murder-on-the-links-025.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 25An Unexpected Dénouement. Scene context, do not reproduce words: We were present the following morning at the examination of Jack Renauld. Short as the time had been, I was shocked at the change that had taken place in the young prisoner. His cheeks had fallen in, there were deep black circles round his eyes, and he looked haggard and distraught, as one who had wooed sleep in vain for several nights. He betrayed no emotion at seeing us. The prisoner and his counsel, Maître Grosíer, were accommodated with chairs. A formidable guard with resplendent sabre stood before the door. The patient greffier sat at his desk. The examination began. “Renauld,” began the magistrate, “do you deny that you were in Merlinville on the night of the crime?” Jack did not reply at once, then he said with a hesitancy of manner which was piteous: “I—I—told you that I was in Cherbourg.” Maître Grosíer frowned and sighed. I realized at once that Jack Renauld was obstinately bent on conducting his own case as he wished, to the despair of his legal representative. The magistrat",
+  "width": 1200,
+  "height": 800,
+  "sha256": "eb13adf4c561d8521deb2e5ad633ff44c41167a5451bfe74c431c8c0732f419c",
+  "masterSha256": "1400e519e974d40d6aa872109b117326040de7a401c9c60b2564a3cbcc725562",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-025.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-025.preview.jpg",
+    "sha256": "411017f1726966e6e7799de3508716cd7040a97ed675882bd559d81a6ce32a85"
+  },
+  "useCase": "illustration-story"
+}

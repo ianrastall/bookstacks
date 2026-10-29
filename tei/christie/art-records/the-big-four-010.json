@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-010",
+  "file": "img/the-big-four-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 10. WE INVESTIGATE AT CROFTLANDS. Scene context, do not reproduce words: The Scotland Yard Inspector was, indeed, waiting on the platform, and greeted us warmly. \"Well, Moosior Poirot, this is good. Thought you'd like to be let in on this. Tip-top mystery, isn't it?\" I read this aright as showing Japp to be completely puzzled and hoping to pick up a pointer from Poirot. Japp had a car waiting, and we drove up in it to Croftlands. It was a square, white house, quite unpretentious, and covered with creepers, including the starry yellow jasmine. Japp looked up at it as we did. \"Must have been balmy to go writing that, poor old cove,\" he remarked. \"Hallucinations, perhaps, and thought he was outside.\" Poirot was smiling at him. \"Which was it, my good Japp?\" he asked; \"accident or murder?\" The Inspector seemed a little embarrassed by the question. \"Well, if it weren't for that curry business, I'd be for accident every time. There's no sense in holding a live man's head in the fire—why, he'd scream the house down.\" \"Ah!\" said Poirot in a low voice. \"Fool that I h",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "869329e17322ccaec78534de0aea0fc8dad4d2ad53176732bccffb231568fb7d",
+  "masterSha256": "6249fdd644abfab38c78b662687921dc5ed7c1ffe1284054b8d8641ae227ce4d",
+  "masterFile": "assets/source-christie-art/the-big-four-010.png",
+  "preview": {
+    "file": "img/the-big-four-010.preview.jpg",
+    "sha256": "3df31d6f0e12b6a6f43127e443fd6ae263bb736e4eafbac81a03aa1087eaebc3"
+  }
+}

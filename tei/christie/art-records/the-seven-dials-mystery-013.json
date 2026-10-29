@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-013",
+  "file": "img/the-seven-dials-mystery-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XIII. Scene context, do not reproduce words: The Seven Dials Club Bundle reached 14 Hunstanton Street about 6 P.M. At that hour, as she rightly judged, the Seven Dials Club was a dead spot. Bundle's aim was a simple one. She intended to get hold of the ex-footman Alfred. She was convinced that once she had got hold of him the rest would be easy. Bundle had a simple autocratic method of dealing with retainers. It seldom failed, and she saw no reason why it should fail now. The only thing of which she was not certain was how many people inhabited the club premises. Naturally she wished to disclose her presence to as few people as possible. Whilst she was hesitating as to her best line of attack, the problem was solved for her in a singularly easy fashion. The door of No. 14 opened and Alfred himself came out. \"Good-afternoon, Alfred,\" said Bundle pleasantly. Alfred jumped. \"Oh! good-afternoon, your ladyship. I—I didn't recognize your ladyship just for a moment.\" Paying a tribute in her own mind to her maid's clothing, Bundle procee",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8fa73a93632ed37e6ca828bede07e3ed30f5717cda846a1fa600843bfda17ec8",
+  "masterSha256": "227549ae70c4b11118bbf5dc99db64f5fbe9f898e8f7f426a88f740ad787d8db",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-013.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-013.preview.jpg",
+    "sha256": "0a66fd1d50c29804495dd8ff86c34fdf7591f686b829f86238bd02cca51a8cc4"
+  }
+}

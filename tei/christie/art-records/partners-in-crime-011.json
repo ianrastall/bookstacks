@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-011",
+  "file": "img/partners-in-crime-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XI. The Man in the Mist. Scene context, do not reproduce words: Tommy was not pleased with life. Blunt's Brilliant Detectives had met with a reverse, distressing to their pride if not to their pockets. Called in professionally to elucidate the mystery of a stolen pearl necklace at Adlington Hall, Adlington, Blunt's Brilliant Detectives had failed to make good. Whilst Tommy, hard on the track of a gambling Countess, was tracking her in the disguise of a Roman Catholic Priest, and Tuppence was \"getting off\" with a nephew of the house on the golf links, the local Inspector of Police had unemotionally arrested the second footman who proved to be a thief well known at headquarters and who admitted his guilt without making any bones about it. Tommy and Tuppence, therefore, had withdrawn with what dignity they could muster, and were at the present moment solacing themselves with cocktails at the Grand Adlington Hotel. Tommy still wore his clerical disguise. \"Hardly a Father Brown touch, that,\" he remarked gloomily. \"And yet I've got just the right kind of",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "06c46ab64548c313f3e6927fdd2e45375c34755f89d9a9d27faedb5effa73a24",
+  "masterSha256": "d424e002cc9a3dac74cfe78b46d898fc7b6c2394960babac0feaffee9c4da308",
+  "masterFile": "assets/source-christie-art/partners-in-crime-011.png",
+  "preview": {
+    "file": "img/partners-in-crime-011.preview.jpg",
+    "sha256": "4b634c7776635697897a7e0d1805e216941abac540fd85f04a48f1fcff60e691"
+  }
+}

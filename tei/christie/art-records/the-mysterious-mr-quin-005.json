@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-005",
+  "file": "img/the-mysterious-mr-quin-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — The Soul of the Croupier. Scene context, do not reproduce words: Mr. Satterthwaite was enjoying the sunshine on the terrace at Monte Carlo. Every year regularly, on the second Sunday in January, Mr. Satterthwaite left England for the Riviera. He was far more punctual than any swallow. In the month of April he returned to England. May and June he spent in London, and had never been known to miss Ascot. He left town after the Eton and Harrow match, paying a few country-house visits before repairing to Deauville or Le Touquet. Shooting-parties occupied most of September and October, and he usually spent a couple of months in town to wind up the year. He knew everybody, and it may safely be said that everybody knew him. This morning he was frowning. The blue of the sea was admirable, the gardens were, as always, a delight, but the people disappointed him—he thought them an ill-dressed, shoddy crowd. Some, of course, were gamblers, doomed souls who could not keep away. Those Mr. Satterthwaite tolerated. They were a necessary background. But he missed the",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "08e7711806ee31ad34632252414c6b2fef64c7232955f84555932f35fa9288dd",
+  "masterSha256": "8e8db3b594d068a87ed7e916f7e26ef2b3b9210fc8e57bec1fbbc2151f4c5d85",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-005.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-005.preview.jpg",
+    "sha256": "07e3ae5290da8e21b55e3c7600b204ca3c559338c23d53ccbbee21db07c73774"
+  }
+}

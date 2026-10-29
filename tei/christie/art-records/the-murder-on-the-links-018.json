@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-018",
+  "file": "img/the-murder-on-the-links-018.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 18Giraud Acts. Scene context, do not reproduce words: “By the way, Poirot,” I said, as we walked along the hot white road, “I’ve got a bone to pick with you. I dare say you meant well, but really it was no business of yours to go mouching round to the Hôtel du Phare without letting me know.” Poirot shot a quick sidelong glance at me. “And how did you know I had been there?” he inquired. Much to my annoyance I felt the colour rising in my cheeks. “I happened to look in in passing,” I explained with as much dignity as I could muster. I rather feared Poirot’s banter, but to my relief, and somewhat to my surprise, he only shook his head with a rather unusual gravity. “If I have offended your susceptibilities in any way, I demand pardon of you. You will understand better soon. But, believe me, I have striven to concentrate all my energies on the case.” “Oh, it’s all right,” I said, mollified by the apology. “I know it’s only that you have my interests at heart. But I can take care of myself all right.” Poirot seemed to be about to say somethin",
+  "width": 1200,
+  "height": 800,
+  "sha256": "12b03587b2feb61cbdc9a0d3ece4b0884ecd0edad71ff4ade809b1f2a251276b",
+  "masterSha256": "2eb54f3421255ccbe51ab0c4b95aafa52fd0a003012a409b7b876fd3979e4704",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-018.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-018.preview.jpg",
+    "sha256": "26877530c898bdc9fd586cff801dec687abef295f9cd497214869577862f5bc9"
+  },
+  "useCase": "illustration-story"
+}

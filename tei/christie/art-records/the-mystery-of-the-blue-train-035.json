@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-035",
+  "file": "img/the-mystery-of-the-blue-train-035.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 35. Explanations. Scene context, do not reproduce words: \"Explanations?\" Poirot smiled. He was sitting opposite the millionaire at a luncheon table in the latter's private suite at the Negresco. Facing him was a relieved but very puzzled man. Poirot leant back in his chair, lit one of his tiny cigarettes, and stared reflectively at the ceiling. \"Yes, I will give you explanations. It began with the one point that puzzled me. You know what that point was? The disfigured face. It is not an uncommon thing to find when investigating a crime and it rouses an immediate question, the question of identity. That naturally was the first thing that occurred to me. Was the dead woman really Mrs. Kettering? But that line led me nowhere, for Miss Grey's evidence was positive and very reliable, so I put that idea aside. The dead woman was Ruth Kettering.\" \"When did you first begin to suspect the maid?\" \"Not for some time, but one peculiar little point drew my attention to her. The cigarette case found in the railway carriage and which she told us was one wh",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "da1967825e96b3145c9effa6ef905d2d5cc9d81b066f797df8a218bf36ae2391",
+  "masterSha256": "053efb6831461178dcea153f3e20f533900101d7996eec87ce8d09a4dbe9d793",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-035.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-035.preview.jpg",
+    "sha256": "4c950f2d691c2a44a129606855cfb06f9c93e28fe04092763c7ec5a9acfc55f5"
+  }
+}

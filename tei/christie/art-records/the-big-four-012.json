@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-012",
+  "file": "img/the-big-four-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 12. THE BAITED TRAP. Scene context, do not reproduce words: It was mid-January—a typical English winter day in London, damp and dirty. Poirot and I were sitting in two chairs well drawn up to the fire. I was aware of my friend looking at me with a quizzical smile, the meaning of which I could not fathom. \"A penny for your thoughts,\" I said lightly. \"I was thinking, my friend, that at midsummer, when you first arrived, you told me that you proposed to be in this country for a couple of months only.\" \"Did I say that?\" I asked, rather awkwardly. \"I don't remember.\" Poirot's smile broadened. \"You did, mon ami. Since then, you have changed your plan, is it not so?\" \"Er—yes, I have.\" \"And why is that?\" \"Dash it all, Poirot, you don't think I'm going to leave you all alone when you're up against a thing like the 'Big Four,' do you?\" Poirot nodded gently. \"Just as I thought. You are a staunch friend, Hastings. It is to serve me that you remain on here. And your wife—little Cinderella as you call her, what does she say?\" \"I haven't gone into details, of",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "00497ccf54d9ead002403a7d48356fd031909d39ccec5af9d2c0bcfe71404046",
+  "masterSha256": "982e49f78e13b7fe4ebda622b0a2d272b47df3ac7131931589f1263b59797282",
+  "masterFile": "assets/source-christie-art/the-big-four-012.png",
+  "preview": {
+    "file": "img/the-big-four-012.preview.jpg",
+    "sha256": "fbd5b05cebe98c6cf069b4d0982649192bf2d568b3eb7b2ca1c7911f53026d4c"
+  }
+}

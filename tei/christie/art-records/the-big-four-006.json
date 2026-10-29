@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-006",
+  "file": "img/the-big-four-006.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 6. THE WOMAN ON THE STAIRS. Scene context, do not reproduce words: That was all that could be elicited from Mrs. Halliday. We hurried back to London, and the following day saw us en route for the Continent. With rather a rueful smile, Poirot observed:—- \"This Big Four, they make me to bestir myself, mon ami. I run up and down, all over the ground, like our old friend 'the human foxhound.'\" \"Perhaps you'll meet him in Paris,\" I said, knowing that he referred to a certain Giraud, one of the most trusted detectives of the Sureté, whom he had met on a previous occasion. Poirot made a grimace. \"I devoutly hope not. He loved me not, that one.\" \"Won't it be a very difficult task?\" I asked. \"To find out what an unknown Englishman did on an evening two months ago?\" \"Very difficult, mon ami. But, as you know well, difficulties rejoice the heart of Hercule Poirot.\" \"You think the Big Four kidnapped him?\" Poirot nodded. Our inquiries necessarily went over old ground, and we learnt little to add to what Mrs. Halliday had already told us. Poirot had a lengthy inter",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0ada0530880b844f4a0af31dfcdf6ae3f5a2cf2f18b1621a6bf4c4f4e442afbf",
+  "masterSha256": "3797eab381ea7adbcb7e85f3989a6c8362cdd4bbf98f635d6c60798b54a0988b",
+  "masterFile": "assets/source-christie-art/the-big-four-006.png",
+  "preview": {
+    "file": "img/the-big-four-006.preview.jpg",
+    "sha256": "25dd412defae4b4757e0afb34eea9153a0825cef4ad7ae8162626333e8063fbc"
+  },
+  "useCase": "illustration-story"
+}

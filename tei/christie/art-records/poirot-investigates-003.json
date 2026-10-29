@@ -1,0 +1,17 @@
+{
+  "slug": "poirot-investigates-003",
+  "file": "img/poirot-investigates-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Poirot Investigates — III. The Adventure of the Cheap Flat. Scene context, do not reproduce words: So far, in the cases which I have recorded, Poirot’s investigations have started from the central fact, whether murder or robbery, and have proceeded from thence by a process of logical deduction to the final triumphant unravelling. In the events I am now about to chronicle, a remarkable chain of circumstances led from the apparently trivial incidents which first attracted Poirot’s attention to the sinister happenings which completed a most unusual case. I had been spending the evening with an old friend of mine, Gerald Parker. There had been, perhaps, about half a dozen people there besides my host and myself, and the talk fell, as it was bound to do sooner or later wherever Parker found himself, on the subject of house-hunting in London. Houses and flats were Parker’s special hobby. Since the end of the War, he had occupied at least half a dozen different flats and maisonnettes. No sooner was he settled anywhere than he would light unexpectedly upon a new find, and would forthwith de",
+  "width": 1200,
+  "height": 800,
+  "sha256": "7b8061743703d4c912d855e10af2393f9ca2061d5da919104afae191b6a84256",
+  "masterSha256": "2c0a75896df01aa8d9f361a44d40f72bdef9cd112652f5a0318300874e5969ec",
+  "masterFile": "assets/source-christie-art/poirot-investigates-003.png",
+  "preview": {
+    "file": "img/poirot-investigates-003.preview.jpg",
+    "sha256": "8759d1c1b7fb11d9f44a88d40ef4c72b944982bfe525ed86e29feecc838849be"
+  },
+  "useCase": "illustration-story"
+}

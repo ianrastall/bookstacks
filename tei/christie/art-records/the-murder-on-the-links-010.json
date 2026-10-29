@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-010",
+  "file": "img/the-murder-on-the-links-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 10Gabriel Stonor. Scene context, do not reproduce words: The man who entered the room was a striking figure. Very tall, with a well knit athletic frame, and a deeply bronzed face and neck, he dominated the assembly. Even Giraud seemed anaemic beside him. When I knew him better I realized that Gabriel Stonor was quite an unusual personality. English by birth, he had knocked about all over the world. He had shot big game in Africa, travelled in Korea, ranched in California, and traded in the South Sea Islands. He had been secretary to a New York railway magnate, and had spent a year encamped in the desert with a friendly tribe of Arabs. His unerring eye picked out M. Hautet. “The examining magistrate in charge of the case? Pleased to meet you, M. le juge. This is a terrible business. How’s Mrs. Renauld? Is she bearing up fairly well? It must have been an awful shock to her.” “Terrible, terrible,” said M. Hautet. “Permit me to introduce M. Bex—our commissary of police, M. Giraud of the Sûreté. This gentleman is M. Hercule Poirot. M. Renauld sen",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3c71156344f6b487cba3fad4e357cca33aabfbbecbce70021d37409bf8446244",
+  "masterSha256": "addd28e24e6c56b4b2e56195b58074dcb70adebcfa20fbb2132bca2e4d89ff99",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-010.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-010.preview.jpg",
+    "sha256": "d3dcd55e27bcda68f5fdf2d8344a9b4439155faa9206305efac5e8d7431538fb"
+  },
+  "useCase": "illustration-story"
+}

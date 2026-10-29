@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-016",
+  "file": "img/murder-at-the-vicarage-016.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 16. Scene context, do not reproduce words: As I went out, I ran into Haydock on the doorstep. He glanced sharply after Slack, who was just passing through the gate, and demanded: \"Has he been questioning her?\" \"Yes.\" \"He's been civil, I hope?\" Civility, to my mind, is an art which Inspector Slack has never learnt, but I presumed that according to his own lights, civil he had been, and anyway I didn't want to upset Haydock any further. He was looking worried and upset as it was. So I said he had been quite civil. Haydock nodded and passed on into the house, and I went on down the village street where I soon caught up with the Inspector. I fancy that he was walking slowly on purpose. Much as he dislikes me, he is not the man to let dislike stand in the way of acquiring any useful information. \"Do you know anything about the lady?\" he asked me point-blank. I said I knew nothing whatever. \"She's never said anything about why she came here to live?\" \"No.\" \"Yet you go and see her?\" \"It is one of my duties to call on my parishioners,\"",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8388a2814f033741135694d6844c239361a545af9342ca4d5822bd1bd6d82c66",
+  "masterSha256": "333823b67d3d5271b0cb1e3a2e18fea2fee0c2333475196380545b0a02354369",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-016.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-016.preview.jpg",
+    "sha256": "c435d357d5a30e1aaf306aeec18827ca73e7fb383c0d27a96609eb79b76b6d53"
+  }
+}

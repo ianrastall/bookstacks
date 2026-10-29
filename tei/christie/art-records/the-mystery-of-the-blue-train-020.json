@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-020",
+  "file": "img/the-mystery-of-the-blue-train-020.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 20. Katherine Makes a Friend. Scene context, do not reproduce words: On the following morning Katherine and Lenox were sitting on the terrace of the Villa Marguerite. Something in the nature of a friendship was springing up between them, despite the difference in age. But for Lenox, Katherine would have found life at the Villa Marguerite quite intolerable. The Kettering case was the topic of the moment. Lady Tamplin frankly exploited her guest's connection with the affair for all it was worth. The most persistent rebuffs that Katherine could administer quite failed to pierce Lady Tamplin's self-esteem. Lenox adopted a detached attitude, seemingly amused at her mother's manœuvres, and yet with a sympathetic understanding of Katherine's feelings. The situation was not helped by Chubby, whose naïve delight was unquenchable, and who introduced Katherine to all and sundry as: \"This is Miss Grey. You know that Blue Train business? She was in it up to the ears! Had a long talk with Ruth Kettering a few hours before the murder! Bit of luck for her, eh?\" A few r",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8a9c68a8daa3404f1bf9252e5bfb7eebcf770a06481b1239962a9d336772bc7d",
+  "masterSha256": "d8e299d50366f26de7450f4ad5bb1ad7601f047af90fab4c1cd34ac19571941d",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-020.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-020.preview.jpg",
+    "sha256": "dd76cd2495728c6abb4a2fde61db9bf3f4c7a5b92953da0842262f968a8fb3e9"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-018",
+  "file": "img/the-big-four-018.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 18. IN THE FELSENLABYRYNTH. Scene context, do not reproduce words: I could not have been unconscious more than a minute. I came to myself being hustled along between two men. They had me under each arm, supporting my weight, and there was a gag in my mouth. It was pitch dark, but I gathered that we were not outside, but passing through the hotel. All round I could hear people shouting and demanding in every known language what had happened to the lights. My captors swung me down some stairs. We passed along a basement passage, then through a door and out into the open again through a glass door at the back of the hotel. In another moment we had gained the shelter of the pine trees. I had caught a glimpse of another figure in a similar plight to myself, and realised that Poirot, too, was a victim of this bold coup. By sheer audacity, Number Four had won the day. He had employed, I gathered, an instant æsthetic, probably ethyl chloride—breaking a small bulb of it under our noses. Then, in the confusion of the darkness, his accomplices, who had probably ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "7ece09cdb65e35c0cdcaec6d1ffdd9172d11dae1a14a1caf65a03fef4d55ff80",
+  "masterSha256": "d5993c6450bd8e9896f40918ab2bdb37db2289eec4d0a022b17b896bd3f3f574",
+  "masterFile": "assets/source-christie-art/the-big-four-018.png",
+  "preview": {
+    "file": "img/the-big-four-018.preview.jpg",
+    "sha256": "111da498b8ba7f167e387877e4b04648c74e5aa3a1197f1133720c7468845a3b"
+  }
+}

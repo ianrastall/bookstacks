@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-020",
+  "file": "img/murder-at-the-vicarage-020.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 20. Scene context, do not reproduce words: When I got back to the Vicarage I found that we were in the middle of a domestic crisis. Griselda met me in the hall and, with tears in her eyes, dragged me into the drawing room. \"She's going.\" \"Who's going?\" \"Mary. She's given notice.\" I really could not take the announcement in a tragic spirit. \"Well,\" I said, \"we'll have to get another servant.\" It seemed to me a perfectly reasonable thing to say. When one servant goes, you get another. I was at a loss to understand Griselda's look of reproach. \"Len—you are absolutely heartless. You don't care.\" I didn't. In fact, I felt almost lighthearted at the prospect of no more burnt puddings and undercooked vegetables. \"I'll have to look about for a girl, and find one, and train her,\" continued Griselda in a voice of acute self-pity. \"Is Mary trained?\" I said. \"Of course she is.\" \"I suppose,\" I said, \"that somebody has heard her address us as 'sir' or 'ma'am,' and has immediately wrested her from us as a paragon. All I can say is, they'll be",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a67c00a096ac73798d072fc80bf2fa87cd2e87d46295b6b1732dd6b31a62b14a",
+  "masterSha256": "ac4b5ba5639fa58786031146849b5d512a4cd189763067b051d14eaf2cae8b67",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-020.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-020.preview.jpg",
+    "sha256": "dc166325a8bbfa2d181b9e4221de36f11319ed9028307aeffe950c18a499dccc"
+  }
+}

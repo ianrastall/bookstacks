@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-016",
+  "file": "img/partners-in-crime-016.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XVI. The Sunningdale Mystery (continued). Scene context, do not reproduce words: \"Of course,\" murmured Tommy, \"I saw at once where the hitch in this particular case lay, and just where the police were going astray.\" \"Yes?\" said Tuppence eagerly. Tommy shook his head sadly. \"I wish I did. Tuppence, it's dead easy being the Old Man in the Corner up to a certain point. But the solution beats me. Who did murder the beggar? I don't know.\" He took some more newspaper cuttings out of his pocket. \"Further exhibits. Mr. Hollaby. His son. Mrs. Sessle. Doris Evans.\" Tuppence pounced on the last, and looked at it for some time. \"She didn't murder him anyway,\" she remarked at last. \"Not with a hat pin.\" \"Why this certainty?\" \"A Lady Molly touch. She's got bobbed hair. Only one woman in twenty uses hat pins nowadays, anyway—long hair or short. Hats fit tight and pull on—there's no need for such a thing.\" \"Still, she might have had one by her.\" \"My dear boy, we don't keep them as heirlooms! What on earth should she have brought a hat pin down to Sunningdale for?\" \"Then it must ha",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 720,
+  "sha256": "c26cef9e107c4f5e89969f81486902e8454ad0a4469260b631afb7879d42a966",
+  "masterSha256": "21bb8a563c842ef72b05c3395290465f84f0c00289ab2d67ab434b45c9d880eb",
+  "masterFile": "assets/source-christie-art/partners-in-crime-016.png",
+  "preview": {
+    "file": "img/partners-in-crime-016.preview.jpg",
+    "sha256": "65a3693e3b460d913de7a8e6c0913dbfaf73d0cdb7df5eb32dbab194592e87e8"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-026",
+  "file": "img/the-man-in-the-brown-suit-026.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXV. Scene context, do not reproduce words: I came to myself slowly and painfully. I was conscious of an aching head and a shooting pain down my left arm when I tried to move, and everything seemed dream-like and unreal. Nightmare visions floated before me. I felt myself falling—falling again. Once Harry Rayburn’s face seemed to come to me out of the mist. Almost I imagined it real. Then it floated away again, mocking me. Once, I remember, some one put a cup to my lips and I drank. A black face grinned into mine—a devil’s face, I thought it, and screamed out. Then dreams again—long troubled dreams in which I vainly sought Harry Rayburn to warn him—warn him—what of? I did not know myself. But there was some danger—some great danger—and I alone could save him. Then darkness again, merciful darkness, and real sleep. I woke at last myself again. The long nightmare was over. I remembered perfectly everything that had happened, my hurried flight from the hotel to meet Harry, the man in the shadows and that last terrible moment of fall",
+  "width": 1200,
+  "height": 800,
+  "sha256": "02e356f44af642cea26e623345926a40dc060579b8adbb82fe78e79e5656b6af",
+  "masterSha256": "3e4419106035774eecfe5aeceb1439d546fa06f98f19c5b66785aea2c663b819",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-026.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-026.preview.jpg",
+    "sha256": "219a0fa186524b1b15a334f6b2042495f826673a54ddabe119b618304f6c0c17"
+  },
+  "useCase": "illustration-story"
+}

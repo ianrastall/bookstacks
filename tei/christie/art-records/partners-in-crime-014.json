@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-014",
+  "file": "img/partners-in-crime-014.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XIV. The Crackler (continued). Scene context, do not reproduce words: Making the acquaintance of the Laidlaws proved an easy affair. Tommy and Tuppence, young, well dressed, eager for life and with apparently money to burn, were soon made free of that particular coterie in which the Laidlaws had their being. Major Laidlaw was a tall fair man, typically English in appearance, with a hearty sportsmanlike manner, slightly belied by the hard lines round his eyes and the occasional quick sideways glance that assorted oddly with his supposed character. He was a very dexterous card player, and Tommy noticed that when the stakes were high he seldom rose from the table a loser. Marguerite Laidlaw was quite a different proposition. She was a charming creature, with the slenderness of a wood nymph and the face of a Greuze picture. Her dainty broken English was fascinating, and Tommy felt that it was no wonder most men were her slaves. She seemed to take a great fancy to Tommy from the first, and playing his part, he allowed himself to be swept into her train. \"My T",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "5f65ccf0c6e52eb5631f2a0a1b1220e84f5f5cd62bbf9ff7a23c161b84218c9e",
+  "masterSha256": "325ba4747c2a352bc99a7f3b7a7382331a219b24090b1c3a8ea9dae727ea9f84",
+  "masterFile": "assets/source-christie-art/partners-in-crime-014.png",
+  "preview": {
+    "file": "img/partners-in-crime-014.preview.jpg",
+    "sha256": "ae6523d17d600c38a48a2ef2b7f44286b6973f49dfbc5cab2d7ef479434d7abd"
+  }
+}

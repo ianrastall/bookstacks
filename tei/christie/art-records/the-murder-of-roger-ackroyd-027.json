@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-027",
+  "file": "img/the-murder-of-roger-ackroyd-027.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XXVII. APOLOGIA. Scene context, do not reproduce words: Five a.m. I am very tired—but I have finished my task. My arm aches from writing. A strange end to my manuscript. I meant it to be published some day as the history of one of Poirot’s failures! Odd, how things pan out. All along I’ve had a premonition of disaster, from the moment I saw Ralph Paton and Mrs. Ferrars with their heads together. I thought then that she was confiding in him; as it happened I was quite wrong there, but the idea persisted even after I went into the study with Ackroyd that night, until he told me the truth. Poor old Ackroyd. I’m always glad that I gave him a chance. I urged him to read that letter before it was too late. Or let me be honest—didn’t I subconsciously realize that with a pig-headed chap like him, it was my best chance of getting him not to read it? His nervousness that night was interesting psychologically. He knew danger was close at hand. And yet he never suspected me. The dagger was an afterthought. I’d brought up a very handy little weapon of m",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ed51438317cd823b8b2d8d437eaa90a06a5ce6c7e695a19281a483f7769345a1",
+  "masterSha256": "d9575a331364fc6b8089e57d827c36a8993180bc3d9cd60cc44804f7723befc3",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-027.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-027.preview.jpg",
+    "sha256": "3dac1133cfa8e9b0e0d82f4f0060f6b1400195f751bcb5e2bdab21c328d9ed66"
+  },
+  "useCase": "illustration-story"
+}

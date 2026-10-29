@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-031",
+  "file": "img/the-man-in-the-brown-suit-031.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXX. Scene context, do not reproduce words: As soon as I got to Kimberley I wired to Suzanne. She joined me there with the utmost dispatch, heralding her arrival with telegrams sent off en route. I was awfully surprised to find that she really was fond of me—I thought I had been just a new sensation, but she positively fell on my neck and wept when we met. When we had recovered from our emotion a little, I sat down on the bed and told her the whole story from A to Z. “You always did suspect Colonel Race,” she said thoughtfully, when I had finished. “I didn’t until the night you disappeared. I liked him so much all along and thought he would make such a nice husband for you. Oh, Anne, dear, don’t be cross, but how do you know that this young man of yours is telling the truth? You believe every word he says.” “Of course I do,” I cried indignantly. “But what is there in him that attracts you so? I don’t see that there’s anything in him at all except his rather reckless good looks and his modern Sheik-cum-Stone-Age love-making.” I p",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a083daee92c2f00ed65cb1662d1bc2632cf4bffcd154a3d8bb254e7362dfa09d",
+  "masterSha256": "37ed53f3d8d2894a68f0944dc0f51be8846b9764249b4f79284a5ffb585b6e6a",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-031.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-031.preview.jpg",
+    "sha256": "32c1e2a3a1763020fbf121397c7fcdd1aa367f465318d420cfc0a631e9254c12"
+  },
+  "useCase": "illustration-story"
+}

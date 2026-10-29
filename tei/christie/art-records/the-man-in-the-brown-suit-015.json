@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-015",
+  "file": "img/the-man-in-the-brown-suit-015.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XIV. Scene context, do not reproduce words: It was on the night of the Fancy Dress dance that I decided that the time had come for me to confide in some one. So far I had played a lone hand and rather enjoyed it. Now suddenly everything was changed. I distrusted my own judgment and for the first time a feeling of loneliness and desolation crept over me. I sat on the edge of my bunk, still in my gipsy dress, and considered the situation. I thought first of Colonel Race. He had seemed to like me. He would be kind, I was sure. And he was no fool. Yet, as I thought it over, I wavered. He was a man of commanding personality. He would take the whole matter out of my hands. And it was my mystery! There were other reasons, too, which I would hardly acknowledge to myself, but which made it inadvisable to confide in Colonel Race. Then I thought of Mrs. Blair. She, too, had been kind to me. I did not delude myself into the belief that that really meant anything. It was probably a mere whim of the moment. All the same, I had it in my power ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "41318aaa17939098158aad984877ec048b807d7b6316df8daa8fa520cbc7ceb0",
+  "masterSha256": "a54a8c7c0f2d1e9b3f45f5f4e5aff3e9cf1ff4ea45185918441120019155873c",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-015.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-015.preview.jpg",
+    "sha256": "79943b96469d9b9fd076ea9f093445c33e65b4ff2dc9190af1f0531f263ca52b"
+  },
+  "useCase": "illustration-story"
+}

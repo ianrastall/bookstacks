@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-018",
+  "file": "img/partners-in-crime-018.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XVIII. The House of Lurking Death (continued). Scene context, do not reproduce words: \"Tuppence, I say, Tuppence, come here.\" It was breakfast time the next morning. Tuppence hurried out of her bedroom and into the dining-room. Tommy was striding up and down, the open newspaper in his hand. \"What's the matter?\" Tommy wheeled round, and shoved the paper into her hand, pointing to the headlines. MYSTERIOUS POISONING CASE DEATHS FROM FIG SANDWICHES Tuppence read on. This mysterious outbreak of ptomaine poisoning had occurred at Thurnly Grange. The deaths so far reported were those of Miss Lois Hargreaves, the owner of the house, and the parlormaid, Esther Quant. A Captain Radclyffe and a Miss Logan were reported to be still seriously ill. The cause of the outbreak was supposed to be some fig paste used in sandwiches, since another lady, a Miss Chilcott, who had not partaken of these, was reported to be quite well. \"We must get down there at once,\" said Tommy. \"That girl! That perfectly ripping girl! Why the devil didn't I go straight down there with her yesterday?\" \"If you",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "d7faa4ea993c533ce8d2e06abb9d39388c427828fda2dc47e4a025dab6e0aaeb",
+  "masterSha256": "da56c99583feed39fd24c8f837803f11a54fc92bc4538cf0fe0f821735e3315a",
+  "masterFile": "assets/source-christie-art/partners-in-crime-018.png",
+  "preview": {
+    "file": "img/partners-in-crime-018.preview.jpg",
+    "sha256": "83e4130f9457ee05856d96b367b1b69d51bf602e8f6f61e9778b7610f72d387d"
+  }
+}

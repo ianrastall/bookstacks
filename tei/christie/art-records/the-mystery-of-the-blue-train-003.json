@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-003",
+  "file": "img/the-mystery-of-the-blue-train-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 3. Heart of Fire. Scene context, do not reproduce words: Rufus Van Aldin passed through the revolving doors of the Savoy, and walked to the reception desk. The desk clerk smiled a respectful greeting. \"Pleased to see you back again, Mr. Van Aldin,\" he said. The American millionaire nodded his head in a casual greeting. \"Everything all right?\" he asked. \"Yes, sir. Major Knighton is upstairs in the suite now.\" Van Aldin nodded again. \"Any mail?\" he vouchsafed. \"They have all been sent up, Mr. Van Aldin. Oh! wait a minute.\" He dived into a pigeon hole, and produced a letter. \"Just come this minute,\" he explained. Rufus Van Aldin took the letter from him, and as he saw the handwriting, a woman's flowing hand, his face was suddenly transformed. The harsh contours of it softened, and the hard line of his mouth relaxed. He looked a different man. He walked across to the lift with the letter in his hand and the smile still on his lips. In the drawing-room of his suite, a young man was sitting at a desk nimbly sorting correspondence with the ease bor",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ec6811defe0609c3291ebbae4b64a007d2c9702766ea62b8f15ff84b56165f42",
+  "masterSha256": "c2540e394f8acdc31f3e4d70c9bfa62437fc3548f5482d25fbc76fbec95a7559",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-003.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-003.preview.jpg",
+    "sha256": "5c0b8cdde82567e2a5d79be4bfa3531d37fd0a4c53c98926fda346f5e8cc18b8"
+  }
+}

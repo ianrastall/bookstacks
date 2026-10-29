@@ -1,0 +1,17 @@
+{
+  "slug": "poirot-investigates-002",
+  "file": "img/poirot-investigates-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Poirot Investigates — II. The Tragedy at Marsdon Manor. Scene context, do not reproduce words: I had been called away from town for a few days, and on my return found Poirot in the act of strapping up his small valise. “A la bonne heure, Hastings. I feared you would not have returned in time to accompany me.” “You are called away on a case, then?” “Yes, though I am bound to admit that, on the face of it, the affair does not seem promising. The Northern Union Insurance Company have asked me to investigate the death of a Mr. Maltravers who a few weeks ago insured his life with them for the large sum of fifty thousand pounds.” “Yes?” I said, much interested. “There was, of course, the usual suicide clause in the policy. In the event of his committing suicide within a year the premiums would be forfeited. Mr. Maltravers was duly examined by the Company’s own doctor, and although he was a man slightly past the prime of life was passed as being in quite sound health. However, on Wednesday last—the day before yesterday—the body of Mr. Maltravers was found in the grounds of his house in",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8139a9a5472ae93c2f12f9cc31d50330ac1cd8bc43d15b66ffbe5e3a661cc31d",
+  "masterSha256": "85fd41a5aeda3e31edd8bb9020f53ecef430c481690a22d7e12f3085b5b4971c",
+  "masterFile": "assets/source-christie-art/poirot-investigates-002.png",
+  "preview": {
+    "file": "img/poirot-investigates-002.preview.jpg",
+    "sha256": "2c321476ad7f9110e46a67477dc61b913986a24d6d9042efc05f14626f471394"
+  },
+  "useCase": "illustration-story"
+}

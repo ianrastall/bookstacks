@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-013",
+  "file": "img/the-mystery-of-the-blue-train-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 13. Van Aldin Gets a Telegram. Scene context, do not reproduce words: On the afternoon of the 15th of February a thick yellow fog had settled down on London. Rufus Van Aldin was in his suite at the Savoy and was making the most of the atmospheric conditions by working double time. Knighton was overjoyed. He had found it difficult of late to get his employer to concentrate on the matters in hand. When he had ventured to urge certain courses, Van Aldin had put him off with a curt word. But now Van Aldin seemed to be throwing himself into work with redoubled energy, and the secretary made the most of his opportunities. Always tactful, he plied the spur so unobtrusively that Van Aldin never suspected it. Yet in the middle of this absorption in business matters, one little fact lay at the back of Van Aldin's mind. A chance remark of Knighton's, uttered by the secretary in all unconsciousness, had given rise to it. It now festered unseen, gradually reaching further and further forward into Van Aldin's consciousness, until at last, in spite of himself, he had t",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "4dd942f6898ef7d992a3cc65eef5cd9e2d94a37d000c0c69fd924986dab1cb3b",
+  "masterSha256": "bb4cee0b92c8e61aededf2685c151a494c0424701ac663bb5fafd85f2a9c5bac",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-013.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-013.preview.jpg",
+    "sha256": "8ebcb99840b994f0251d8c6d440b4cf6fd5a99ac9a5f1e1870885319c2e9b3bc"
+  }
+}

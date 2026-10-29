@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-008",
+  "file": "img/the-mystery-of-the-blue-train-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 8. Lady Tamplin Writes a Letter. Scene context, do not reproduce words: \"Well,\" said Lady Tamplin, \"well.\" She laid down the continental Daily Mail and stared out across the blue waters of the Mediterranean. A branch of golden mimosa, hanging just above her head, made an effective frame for a very charming picture. A golden-haired, blue-eyed lady in a very becoming negligee. That the golden hair owed something to art, as did the pink-and-white complexion, was undeniable, but the blue of the eyes was Nature's gift, and at forty-four Lady Tamplin could still rank as a beauty. Charming as she looked, Lady Tamplin was, for once, not thinking of herself. That is to say, she was not thinking of her appearance. She was intent on graver matters. Lady Tamplin was a well-known figure on the Riviera, and her parties at the Villa Marguerite were justly celebrated. She was a woman of considerable experience, and had had four husbands. The first had been merely an indiscretion, and so was seldom referred to by the lady. He had had the good sense to die with commendable ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a207d585c86ff13425112ec781123c6d043ceaebb4d2732e40ca6c396a948004",
+  "masterSha256": "0cb7b8b2e6c9a532b6c5b3f7f48eabf13d7624904b04cee81c6b5f507ceed3d2",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-008.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-008.preview.jpg",
+    "sha256": "5dedd27793cee1eaba44791fd5133b9ba357962090557c5dfe708ebbeb55a18b"
+  }
+}

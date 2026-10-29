@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-009",
+  "file": "img/the-mysterious-affair-at-styles-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER IX. DR. BAUERSTEIN. Scene context, do not reproduce words: I had had no opportunity as yet of passing on Poirot’s message to Lawrence. But now, as I strolled out on the lawn, still nursing a grudge against my friend’s high-handedness, I saw Lawrence on the croquet lawn, aimlessly knocking a couple of very ancient balls about, with a still more ancient mallet. It struck me that it would be a good opportunity to deliver my message. Otherwise, Poirot himself might relieve me of it. It was true that I did not quite gather its purport, but I flattered myself that by Lawrence’s reply, and perhaps a little skillful cross-examination on my part, I should soon perceive its significance. Accordingly I accosted him. “I’ve been looking for you,” I remarked untruthfully. “Have you?” “Yes. The truth is, I’ve got a message for you—from Poirot.” “Yes?” “He told me to wait until I was alone with you,” I said, dropping my voice significantly, and watching him intently out of the corner of my eye. I have always been rather good at what is called, I believe, crea",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ace00d0375150b02b07b72e32877eecc375d430b00d3cf87d82996dced14c51c",
+  "masterSha256": "94d6324747e5a588e637de8d8efcbfc6c65327b1db3f198929b8eec03de22af2",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-009.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-009.preview.jpg",
+    "sha256": "3876fbf94bfa52ba804312c5afadc990ddb7302170aebe4c64aeb72045b0109f"
+  },
+  "useCase": "illustration-story"
+}

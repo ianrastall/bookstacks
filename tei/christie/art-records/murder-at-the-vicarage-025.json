@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-025",
+  "file": "img/murder-at-the-vicarage-025.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 25. Scene context, do not reproduce words: I found it hard to shake off the impression left by the anonymous letter. Pitch soils. However, I gathered up the other three letters, glanced at my watch and started out. I wondered very much what this might be that had \"come to the knowledge\" of three ladies simultaneously. I took it to be the same piece of news. In this, I was to realize that my psychology was at fault. I cannot pretend that my calls took me past the police station. My feet gravitated there of their own accord. I was anxious to know whether Inspector Slack had returned from Old Hall. I found that he had and, further, that Miss Cram had returned with him. The fair Gladys was seated in the police station carrying off matters with a high hand. She denied absolutely having taken the suitcase to the woods. \"Just because one of these gossiping old cats has nothing better to do than look out of her window all night, you go and pitch upon me. She's been mistaken once, remember, when she said she saw me at the end of the lan",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "9bc3f0322c86eaa9972ce472ddb0f645afd45cecf07852f593cf59587c529180",
+  "masterSha256": "2de55c1de35ed2356f61460e9c646b6bbf1f6e4007505e1c418b81bc072b2e0c",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-025.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-025.preview.jpg",
+    "sha256": "ecb64b7ad41d464aedd10ba1ab63e6a741772c5ec593808ee7cbb8d1036da22d"
+  }
+}

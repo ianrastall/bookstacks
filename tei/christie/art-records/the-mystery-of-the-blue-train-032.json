@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-032",
+  "file": "img/the-mystery-of-the-blue-train-032.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 32. Katherine and Poirot Compare Notes. Scene context, do not reproduce words: \"You have changed, Mademoiselle,\" said Poirot suddenly. He and Katherine were seated opposite each other at a small table at the Savoy. \"Yes, you have changed,\" he continued. \"In what way?\" \"Mademoiselle, these nuances are difficult to express.\" \"I am older.\" \"Yes, you are older. And by that I do not mean that the wrinkles and the crows' feet are coming. When I first saw you, Mademoiselle, you were a looker-on at life. You had the quiet, amused look of one who sits back in the stalls and watches the play.\" \"And now?\" \"Now, you no longer watch. It is an absurd thing, perhaps, that I say here, but you have the wary look of a fighter who is playing a difficult game.\" \"My old lady is difficult sometimes,\" said Katherine, with a smile; \"but I can assure you that I don't engage in deadly contests with her. You must go down and see her some day, Monsieur Poirot. I think you are one of the people who would appreciate her pluck and her spirit.\" There was a silence while the waiter deftly served",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3b9bd1bb7ccbcd1409c3a24f06ee9eaa761158b6c1caf744e99c62e291d52ae6",
+  "masterSha256": "1dc6617fd6622cee6574973c2387419fc27bc480d7b9a26ffc5ebc8b08467125",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-032.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-032.preview.jpg",
+    "sha256": "eabb686d1be3a59b48ec6874ee7077017fdb348d2ef2cdca1a11fa9669a7ecfb"
+  }
+}

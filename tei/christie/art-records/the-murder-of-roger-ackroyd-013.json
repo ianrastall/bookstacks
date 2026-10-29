@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-013",
+  "file": "img/the-murder-of-roger-ackroyd-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XIII. THE GOOSE QUILL. Scene context, do not reproduce words: That evening, at Poirot’s request, I went over to his house after dinner. Caroline saw me depart with visible reluctance. I think she would have liked to have accompanied me. Poirot greeted me hospitably. He had placed a bottle of Irish whisky (which I detest) on a small table, with a soda water siphon and a glass. He himself was engaged in brewing hot chocolate. It was a favorite beverage of his, I discovered later. He inquired politely after my sister, whom he declared to be a most interesting woman. “I’m afraid you’ve been giving her a swelled head,” I said dryly. “What about Sunday afternoon?” He laughed and twinkled. “I always like to employ the expert,” he remarked obscurely, but he refused to explain the remark. “You got all the local gossip anyway,” I remarked. “True, and untrue.” “And a great deal of valuable information,” he added quietly. “Such as——?” He shook his head. “Why not have told me the truth?” he countered. “In a place like this, all Ralph Paton’s doings were bound",
+  "width": 1200,
+  "height": 800,
+  "sha256": "88864365f6240b2dcd034e3b0fadad91d4db7eaa1231cdb9017b3b5fe7612a38",
+  "masterSha256": "5b415296a439e864d2762e5575ccdef7643dae1918b3e882b4692c03c6128e52",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-013.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-013.preview.jpg",
+    "sha256": "39e1fa56bcb2344a43ec634ab6fdaab11c3950f2abd5da2816a434d1e6c0b5f1"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-011",
+  "file": "img/the-murder-of-roger-ackroyd-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XI. POIROT PAYS A CALL. Scene context, do not reproduce words: I was slightly nervous when I rang the bell at Marby Grange the following afternoon. I wondered very much what Poirot expected to find out. He had entrusted the job to me. Why? Was it because, as in the case of questioning Major Blunt, he wished to remain in the background? The wish, intelligible in the first case, seemed to me quite meaningless here. My meditations were interrupted by the advent of a smart parlormaid. Yes, Mrs. Folliott was at home. I was ushered into a big drawing-room, and looked round me curiously as I waited for the mistress of the house. A large bare room, some good bits of old china, and some beautiful etchings, shabby covers and curtains. A lady’s room in every sense of the term. I turned from the inspection of a Bartolozzi on the wall as Mrs. Folliott came into the room. She was a tall woman, with untidy brown hair, and a very winning smile. “Dr. Sheppard,” she said hesitatingly. “That is my name,” I replied. “I must apologize for calling upon you like this, b",
+  "width": 1200,
+  "height": 800,
+  "sha256": "9e2dc8fcab73a1c087b2a5857220f61d1cd6c5b30190dc143bf51c27bc1e8365",
+  "masterSha256": "dacd4ec54ba04eb5078e2ed44306a8903539891cde2b1e0214935521d62155f9",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-011.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-011.preview.jpg",
+    "sha256": "20d2bfc11a981feaacc3bb861df1d7cdc7fe973ea2b528b29bde9d0181b242e5"
+  },
+  "useCase": "illustration-story"
+}

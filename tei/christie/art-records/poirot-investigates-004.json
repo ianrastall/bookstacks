@@ -1,0 +1,17 @@
+{
+  "slug": "poirot-investigates-004",
+  "file": "img/poirot-investigates-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Poirot Investigates — IV. The Mystery of Hunter’s Lodge. Scene context, do not reproduce words: “After all,” murmured Poirot, “it is possible that I shall not die this time.” Coming from a convalescent influenza patient, I hailed the remark as showing a beneficial optimism. I myself had been the first sufferer from the disease. Poirot in his turn had gone down. He was now sitting up in bed, propped up with pillows, his head muffled in a woollen shawl, and was slowly sipping a particularly noxious tisane which I had prepared according to his directions. His eye rested with pleasure upon a neatly graduated row of medicine bottles which adorned the mantelpiece. “Yes, yes,” my little friend continued. “Once more shall I be myself again, the great Hercule Poirot, the terror of evil-doers! Figure to yourself, mon ami, that I have a little paragraph to myself in Society Gossip. But yes! Here it is! ‘Go it—criminals—all out! Hercule Poirot—and believe me, girls, he’s some Hercules!—our own pet society detective can’t get a grip on you. ’Cause why? ’Cause he’s got la grippe himself’!” I l",
+  "width": 1200,
+  "height": 800,
+  "sha256": "92bc0e0123ccccb480f958ad3b8ff24ab9c09f3b164c96be6e3304e0089c9be1",
+  "masterSha256": "c6da787e96f27581977b076e38cca616b7455c311b7336f5c2a88493330af37c",
+  "masterFile": "assets/source-christie-art/poirot-investigates-004.png",
+  "preview": {
+    "file": "img/poirot-investigates-004.preview.jpg",
+    "sha256": "12ca51bdc74a5ce8553edcfeb34057e2d8ec5b551cf15f4f3df965b8ab47ac50"
+  },
+  "useCase": "illustration-story"
+}

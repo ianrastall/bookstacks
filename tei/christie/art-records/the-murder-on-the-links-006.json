@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-006",
+  "file": "img/the-murder-on-the-links-006.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 6The Scene of the Crime. Scene context, do not reproduce words: Between them, the doctor and M. Hautet carried the unconscious woman into the house. The commissary looked after them, shaking his head. “Pauvre femme,” he murmured to himself. “The shock was too much for her. Well, well, we can do nothing. Now, M. Poirot, shall we visit the place where the crime was committed?” “If you please, M. Bex.” We passed through the house, and out by the front door. Poirot had looked up at the staircase in passing, and shook his head in a dissatisfied manner. “It is to me incredible that the servants heard nothing. The creaking of that staircase, with three people descending it, would awaken the dead!” “It was the middle of the night, remember. They were sound asleep by then.” But Poirot continued to shake his head as though not fully accepting the explanation. On the sweep of the drive, he paused, looking up at the house. “What moved them in the first place to try if the front door were open? It was a most unlikely thing that it should be. It was far more pro",
+  "width": 1200,
+  "height": 800,
+  "sha256": "eeb2b8699a120991bf471e240395a6610c9c216c4092adefb0095b193635482e",
+  "masterSha256": "7c6b4f8752d136673da7f83e0e28345b0e68c0b8ca2d8f27d2af3dcef8f25e60",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-006.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-006.preview.jpg",
+    "sha256": "cd00912a6b1a96962b89aa138da4881f79a31318ab4fb45917d056ff58920faf"
+  },
+  "useCase": "illustration-story"
+}

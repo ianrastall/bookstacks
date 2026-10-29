@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-021",
+  "file": "img/the-murder-on-the-links-021.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 21Hercule Poirot on the Case!. Scene context, do not reproduce words: In a measured voice, Poirot began his exposition. “It seems strange to you, mon ami, that a man should plan his own death? So strange, that you prefer to reject the truth as fantastic, and to revert to a story that is in reality ten times more impossible. Yes, M. Renauld planned his own death, but there is one detail that perhaps escapes you—he did not intend to die.” I shook my head, bewildered. “But no, it is all most simple really,” said Poirot kindly. “For the crime that M. Renauld proposed a murderer was not necessary, as I told you, but a body was. Let us reconstruct, seeing events this time from a different angle. “Georges Conneau flies from justice—to Canada. There, under an assumed name he marries, and finally acquires a vast fortune in South America. But there is a nostalgia upon him for his own country. Twenty years have elapsed, he is considerably changed in appearance, besides being a man of such eminence that no one is likely to connect him with a fugitive from justice ma",
+  "width": 1200,
+  "height": 800,
+  "sha256": "2dc86a33b98d6d4cac52ab9753d410cf433ea137a75bd6112b2db3d6ed53b023",
+  "masterSha256": "a9714d06786e6140a79d028662b7e8c5d5b936ab5b69efa756fab70fa6ebaf97",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-021.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-021.preview.jpg",
+    "sha256": "1e3a9fd1f4f9be057cfe77727e825ec695846c5cfb95a0c1e9a505239a18ae8c"
+  },
+  "useCase": "illustration-story"
+}

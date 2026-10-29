@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-017",
+  "file": "img/the-big-four-017.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 17. NUMBER FOUR WINS A TRICK. Scene context, do not reproduce words: From our quiet retreat in the Ardennes we watched the progress of affairs in the great world. We were plentifully supplied with newspapers, and every day Poirot received a bulky envelope, evidently containing some kind of report. He never showed these reports to me, but I could usually tell from his manner whether its contents had been satisfactory or otherwise. He never wavered in his belief that our present plan was the only one likely to be crowned by success. \"As a minor point, Hastings,\" he remarked one day, \"I was in continual fear of your death lying at my door. And that rendered me nervous—like a cat upon the jumps, as you say. But now I am well satisfied. Even if they discover that the Captain Hastings who landed in South America is an imposter (and I do not think they will discover it, they are not likely to send an agent out there who knows you personally), they will only believe that you are trying to circumvent them in some clever manner of your own, and will pay no seriou",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "60a4577b24cd6a166407391016d1d36f583393f08ce8d97ba7fa3645938d4607",
+  "masterSha256": "e0bdef4e9a4a6bd1f07bde896554278d41f2d9e73ea0f9f69558995e8867e64e",
+  "masterFile": "assets/source-christie-art/the-big-four-017.png",
+  "preview": {
+    "file": "img/the-big-four-017.preview.jpg",
+    "sha256": "141087f1484e7e8513330c6763207c3ce1b0fa87b08d9049913de58bd05a2fba"
+  }
+}

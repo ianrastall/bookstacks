@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-011",
+  "file": "img/the-mysterious-mr-quin-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — The Man From the Sea. Scene context, do not reproduce words: Mr. Satterthwaite was feeling old. That might not have been surprising since, in the estimation of many people, he was old. Careless youths said to their partners, \"Old Satterthwaite? Oh! he must be a hundred—or at any rate about eighty.\" And even the kindest of girls said indulgently, \"Oh! Satterthwaite. Yes, he's quite old. He must be sixty.\" Which was almost worse, since he was sixty-nine. In his own view, however, he was not old. Sixty-nine was an interesting age—an age of infinite possibilities—an age when at last the experience of a lifetime was beginning to tell. But to feel old—that was different—a tired, discouraged state of mind when one was inclined to ask oneself depressing questions. What was he, after all? A little dried-up, elderly man, with neither chick nor child, with no human belongings, only a valuable art collection which seemed at the moment strangely unsatisfying. No one to care whether he lived or died— At this point in his meditations Mr. Satterthwaite pulled h",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a32f9fbe6260dbca569f4188e66263541e548518f6e3e355ff335321ded2891d",
+  "masterSha256": "6280ae4229c8ace4842a66d67c335678bf69c2948e1696350e7ee4a8229dca4e",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-011.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-011.preview.jpg",
+    "sha256": "37865dbec42758e94545d58d07d860c15fff2cf10cdce200e81ed2a7f68dcb0d"
+  }
+}

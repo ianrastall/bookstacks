@@ -108,11 +108,18 @@ TEI notes are rendered as numbered, keyboard-accessible popovers in the web read
 
 See `tei/README.md` for corpus provenance and validation details.
 
-## Author coverage and Poe
+## Author coverage and illustrated additions
+
+The Agatha Christie catalogue includes 14 books and three standalone periodical
+stories from Project Gutenberg, with 363 new engraving-style sketches, one
+for every chapter, prologue or story page beneath the right-hand navigation.
+The approved author portrait and original textual figures are preserved.
+See [the Christie source and edition record](docs/christie-editions.md).
 
 The [author coverage review](docs/author-coverage-and-additions.md) records the
 existing authors, gaps in their coverage, and proposed starting volumes for all
-40 initially unused author portraits. Only Poe is added in this change.
+40 initially unused author portraits. That review accompanied the Poe addition;
+the Christie editions are documented separately above.
 
 Poe’s *Collected Works of Mystery and Horror* contains 34 shorter works and the
 complete *Narrative of Arthur Gordon Pym of Nantucket*, with 36 new AI-generated

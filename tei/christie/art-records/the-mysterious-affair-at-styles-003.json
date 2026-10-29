@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-003",
+  "file": "img/the-mysterious-affair-at-styles-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER III. THE NIGHT OF THE TRAGEDY. Scene context, do not reproduce words: To make this part of my story clear, I append the following plan of the first floor of Styles. The servants’ rooms are reached through the door B. They have no communication with the right wing, where the Inglethorps’ rooms were situated. It seemed to be the middle of the night when I was awakened by Lawrence Cavendish. He had a candle in his hand, and the agitation of his face told me at once that something was seriously wrong. “What’s the matter?” I asked, sitting up in bed, and trying to collect my scattered thoughts. “We are afraid my mother is very ill. She seems to be having some kind of fit. Unfortunately she has locked herself in.” “I’ll come at once.” I sprang out of bed; and, pulling on a dressing-gown, followed Lawrence along the passage and the gallery to the right wing of the house. John Cavendish joined us, and one or two of the servants were standing round in a state of awe-stricken excitement. Lawrence turned to his brother. “What do you think we had better do?” Never, ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "abe4b03d7fd6efc8e69ddcb632112225bda1c0a4bb8308717bd46e27974fd3f6",
+  "masterSha256": "157df3c77bb4942eda15d7784f2877dc8fb0c5b3a34149547a687dca24cdcae8",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-003.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-003.preview.jpg",
+    "sha256": "c264d7c6e63e702b3f1adb8e1d13762f52b3f34c56e5d124e6546d8dc91929bc"
+  },
+  "useCase": "illustration-story"
+}

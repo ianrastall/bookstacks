@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-023",
+  "file": "img/the-mystery-of-the-blue-train-023.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 23. A New Theory. Scene context, do not reproduce words: It was exactly eleven o'clock when Poirot presented himself at Van Aldin's hotel. He found the millionaire alone. \"You are punctual, M. Poirot,\" he said, with a smile, as he rose to greet the detective. \"I am always punctual,\" said Poirot. \"The exactitude—always do I observe it. Without order and method—\" He broke off. \"Ah, but it is possible that I have said these things to you before. Let us come at once to the object of my visit.\" \"Your little idea?\" \"Yes, my little idea.\" Poirot smiled. \"First of all, Monsieur. I should like to interview once more the maid, Ada Mason. She is here?\" \"Yes, she's here.\" \"Ah!\" Van Aldin looked at him curiously. He rang the bell, and a messenger was dispatched to find Mason. Poirot greeted her with his usual politeness, which was never without effect on that particular class. \"Good afternoon, Mademoiselle,\" he said cheerfully. \"Be seated, will you not, if Monsieur permits.\" \"Yes, yes, sit down, my girl,\" said Van Aldin. \"Thank you, sir,\" said Mason prim",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "5ff27b2fcd472d315979e77e1cb7f7ef323d41c9d9d162053c63b4be23f91ca5",
+  "masterSha256": "da5b371fa626928eb379bd83278d4252af9f325fa62289f0562363b4c049e789",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-023.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-023.preview.jpg",
+    "sha256": "83eacf8278d6321626b821399f987c9efce0a09d980109cead43eb86e097b38e"
+  }
+}

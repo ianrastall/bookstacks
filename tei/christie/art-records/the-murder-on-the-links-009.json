@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-009",
+  "file": "img/the-murder-on-the-links-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 9M. Giraud Finds Some Clues. Scene context, do not reproduce words: In the Salon I found the examining magistrate busily interrogating the old gardener Auguste. Poirot and the commissary, who were both present, greeted me respectively with a smile and a polite bow. I slipped quietly into a seat. M. Hautet was painstaking and meticulous in the extreme, but did not succeed in eliciting anything of importance. The gardening gloves Auguste admitted to be his. He wore them when handling a certain species of primula plant which was poisonous to some people. He could not say when he had worn them last. Certainly he had not missed them. Where were they kept? Sometimes in one place, sometimes in another. The spade was usually to be found in the small tool shed. Was it locked? Of course it was locked. Where was the key kept? Parbleu, it was in the door of course! There was nothing of value to steal. Who would have expected a party of bandits, of assassins? Such things did not happen in Madame la Vicomtesse’s time. M. Hautet signifying that he had finished with h",
+  "width": 1200,
+  "height": 800,
+  "sha256": "6a26325a532eea2bbdceef57e5666fabafad8bf5bcc8a2f3a100c8fc20169e5c",
+  "masterSha256": "363539a46d83eb2e181284fe55c03d6299bdb331a776b96a0c6392df2e971b75",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-009.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-009.preview.jpg",
+    "sha256": "d587c2c896cb3a00d05746e42814025bee801a633a43b32fd475fd3fd81aafa5"
+  },
+  "useCase": "illustration-story"
+}

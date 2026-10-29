@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-005",
+  "file": "img/the-murder-of-roger-ackroyd-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER V. MURDER. Scene context, do not reproduce words: I got out the car in next to no time, and drove rapidly to Fernly. Jumping out, I pulled the bell impatiently. There was some delay in answering, and I rang again. Then I heard the rattle of the chain and Parker, his impassivity of countenance quite unmoved, stood in the open doorway. I pushed past him into the hall. “Where is he?” I demanded sharply. “I beg your pardon, sir?” “Your master. Mr. Ackroyd. Don’t stand there staring at me, man. Have you notified the police?” “The police, sir? Did you say the police?” Parker stared at me as though I were a ghost. “What’s the matter with you, Parker? If, as you say, your master has been murdered——” A gasp broke from Parker. “The master? Murdered? Impossible, sir!” It was my turn to stare. “Didn’t you telephone to me, not five minutes ago, and tell me that Mr. Ackroyd had been found murdered?” “Me, sir? Oh! no indeed, sir. I wouldn’t dream of doing such a thing.” “Do you mean to say it’s all a hoax? That there’s nothing the matter with Mr. Ac",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3452472643b0a583ead40c73f56c1a235b2825af69030b1761cc0ce5498892ce",
+  "masterSha256": "57a396c626155b9cdee224ee2d6df2f3eb3702e7adff6ac8479b95273dc37c37",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-005.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-005.preview.jpg",
+    "sha256": "4cf603a624c47526c1a541fe9e050ea85f4b385c426b2c5ff5b38e4956d17b00"
+  },
+  "useCase": "illustration-story"
+}

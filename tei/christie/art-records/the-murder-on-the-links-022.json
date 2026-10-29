@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-022",
+  "file": "img/the-murder-on-the-links-022.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 22I Find Love. Scene context, do not reproduce words: For a moment or two I sat as though frozen, the photograph still in my hand. Then, summoning all my courage to appear unmoved, I handed it back. At the same time, I stole a quick glance at Poirot. Had he noticed anything? But to my relief he did not seem to be observing me. Anything unusual in my manner had certainly escaped him. He rose briskly to his feet. “We have no time to lose. We must make our departure with all despatch. All is well—the sea it will be calm!” In the bustle of departure, I had no time for thinking, but once on board the boat, secure from Poirot’s observation (he, as usual, was “practising the method most excellent of Laverguier”) I pulled myself together, and attacked the facts dispassionately. How much did Poirot know? Was he aware that my acquaintance of the train and Bella Duveen were one and the same? Why had he gone to the Hôtel du Phare? On my behalf as I had believed? Or had I only fatuously thought so, and was this visit undertaken with a deeper and more ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "26645c7c62268eec1dd821ffa2dbf10142f6e3134ab115a45e78b39addafe337",
+  "masterSha256": "1c0d671dc0733c37760d60c03cd8f190f38053cba6aa1cd67db95e7f9b6a92e6",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-022.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-022.preview.jpg",
+    "sha256": "9026e665177a7bc9767298ca0a478575b0d2248c7ddd5ce587c6affb6590ec72"
+  },
+  "useCase": "illustration-story"
+}

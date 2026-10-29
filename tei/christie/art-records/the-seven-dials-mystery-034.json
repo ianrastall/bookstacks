@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-034",
+  "file": "img/the-seven-dials-mystery-034.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXXIV. Scene context, do not reproduce words: Lord Caterham Approves \"Father,\" said Bundle, \"I've got to break a piece of news to you. You're going to lose me.\" \"Nonsense,\" said Lord Caterham. \"Don't tell me that you're suffering from galloping consumption or a weak heart or anything like that, because I simply don't believe it.\" \"It's not death,\" said Bundle. \"It's marriage.\" \"Very nearly as bad,\" said Lord Caterham. \"I suppose I shall have to come to the wedding, all dressed up in tight, uncomfortable clothes, and give you away. And Lomax may think it necessary to kiss me in the vestry.\" \"Good heavens! You don't think I'm going to marry George, do you?\" cried Bundle. \"Well, something like that seemed to be in the wind last time I saw you,\" said her father. \"Yesterday morning, you know.\" \"I'm going to be married to someone a hundred times nicer than George,\" said Bundle. \"I hope so, I'm sure,\" said Lord Caterham. \"But one never knows. I don't feel you're really a good judge of character, Bundle. You told me that young Thesiger wa",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "4e26afa6b66c9393ce1add4b8d891e69a610a194fb448070aeb414df1e371648",
+  "masterSha256": "9e9a2d3c6eb1bc8e087cbd72199277f42d682ce05bca81823dfe14bbc9a8e8b6",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-034.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-034.preview.jpg",
+    "sha256": "d9f2c0e1435a5bd849fa7f11e39af055fd30e7c6e3b688bbcbda87f4cbb2fab9"
+  }
+}

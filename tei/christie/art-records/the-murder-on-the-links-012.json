@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-012",
+  "file": "img/the-murder-on-the-links-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 12Poirot Elucidates Certain Points. Scene context, do not reproduce words: “Why did you measure that overcoat?” I asked, with some curiosity, as we walked down the hot white road at a leisurely pace. “Parbleu! to see how long it was,” replied my friend imperturbably. I was vexed. Poirot’s incurable habit of making a mystery out of nothing never failed to irritate me. I relapsed into silence, and followed a train of thought of my own. Although I had not noticed them specially at the time, certain words Mrs. Renauld had addressed to her son now recurred to me, fraught with a new significance. “So you did not sail?” she had said, and then had added: “After all, it does not matter—now.” What had she meant by that? The words were enigmatical—significant. Was it possible that she knew more than we supposed? She had denied all knowledge of the mysterious mission with which her husband was to have entrusted his son. But was she really less ignorant than she pretended? Could she enlighten us if she chose, and was her silence part of a carefully thought out and preconc",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0cd193859dd36da1fe52fab9aa4c93bc5a5bcb98b88701d509e92c83f8878b86",
+  "masterSha256": "2773d22dd627a8172ee525d6997d722aa898a18ce1af298d0c6e799a2a75d5f0",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-012.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-012.preview.jpg",
+    "sha256": "42eda63f10f3d1aaa48a785b341c7c412f9af476ce210fa4696d465a1ab06d0c"
+  },
+  "useCase": "illustration-story"
+}

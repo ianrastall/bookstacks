@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-027",
+  "file": "img/giants-bread-027.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 3. Scene context, do not reproduce words: Two days later Sebastian came to Abbots Puissants. The butler was not sure that Mrs. Chetwynd could see him. She was lying down. Sebastian gave his name and said he was sure Mrs. Chetwynd would see him. He was shown into the drawing room to wait. The room seemed empty and silent but unusually luxurious—very different from what it had looked in his childish days. He thought to himself, \"It was a real house then,\" and wondered what exactly he meant by that. He got it presently. Now it suggested, very faintly, a museum. Everything was beautifully arranged, and harmonized perfectly. Every piece that was not perfect had been replaced by one that was. All the carpets and covers and hangings were new. \"And they must have cost a pretty penny,\" thought Sebastian appreciatively, and priced them with a fair degree of accuracy. He always knew the cost of things. He was interrupted in this salutary exercise by the door opening. Nell came in, a pink colour in her cheeks and her hand outstretched. \"S",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "806d2383e93e5c8f41c63c3efcfe046ef1cc9f96f65db22da76c48a8366a652b",
+  "masterSha256": "786f277923ed79a1edb10fe3d9f3f8c9b9a9b1d6db124bbe6e47ce494373556a",
+  "masterFile": "assets/source-christie-art/giants-bread-027.png",
+  "preview": {
+    "file": "img/giants-bread-027.preview.jpg",
+    "sha256": "68022d2606b21c75f6ed81012c26221edc3f482ef68defe97ab99f80b8cbdb15"
+  }
+}

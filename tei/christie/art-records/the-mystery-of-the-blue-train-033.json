@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-033",
+  "file": "img/the-mystery-of-the-blue-train-033.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 33. A New Theory. Scene context, do not reproduce words: \"Monsieur Poirot wants to see you, sir.\" \"Damn the fellow!\" said Van Aldin. Knighton remained sympathetically silent. Van Aldin got up from his chair and paced up and down. \"I suppose you have seen the cursed newspapers this morning?\" \"I have glanced at them, sir.\" \"Still at it hammer and tongs?\" \"I am afraid so, sir.\" The millionaire sat down again and pressed his hand to his forehead. \"If I had had an idea of this,\" he groaned. \"I wish to God I had never got that little Belgian to ferret out the truth. Find Ruth's murderer—that was all I thought about.\" \"You wouldn't have liked your son-in-law to go scot free?\" Van Aldin sighed. \"I would have preferred to take the law into my own hands.\" \"I don't think that would have been a very wise proceeding, sir.\" \"All the same—are you sure the fellow wants to see me?\" \"Yes, Mr. Van Aldin. He is very urgent about it.\" \"Then I suppose he will have to. He can come along this morning if he likes.\" It was a very fresh and debonair Poirot who was ush",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "01107d34df13736b17c578282b4beeb0610f89be4995f87356df23896029c1fd",
+  "masterSha256": "fe83e0fa28b60e4c20d89a7ddb48d98486624157dde6e4a91e85bd7f6823506c",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-033.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-033.preview.jpg",
+    "sha256": "5aaedd8a3288729ccdec9350810c5a01fa5790ff8a3fc66b6209d9f492f1355f"
+  }
+}

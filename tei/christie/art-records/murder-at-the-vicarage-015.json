@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-015",
+  "file": "img/murder-at-the-vicarage-015.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 15. Scene context, do not reproduce words: Hawes' appearance distressed me very much. His hands were shaking and his face kept twitching nervously. In my opinion he should have been in bed, and I told him so. He insisted that he was perfectly well. \"I assure you, sir, I never felt better. Never in my life.\" This was so obviously wide of the truth that I hardly knew how to answer. I have a certain admiration for a man who will not give in to illness, but Hawes was carrying the thing rather too far. \"I called to tell you how sorry I was—that such a thing should happen in the Vicarage.\" \"Yes,\" I said. \"It's not very pleasant.\" \"It's terrible—quite terrible. It seems they haven't arrested Mr. Redding after all?\" \"No. That was a mistake. He made—er—rather a foolish statement.\" \"And the police are now quite convinced that he is innocent?\" \"Perfectly.\" \"Why is that, may I ask? Is it—I mean, do they suspect anyone else?\" I should never have suspected that Hawes would take such a keen interest in the details of a murder case. Perhaps it",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "cce70008014fc17bbce35992e9e20338e5709d812c587986fcdb65304a8a3a80",
+  "masterSha256": "f968fb1425617e75882602a50577eb617b4990bf22343b179618ab3f781d36ae",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-015.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-015.preview.jpg",
+    "sha256": "e079cd57e188f3521709b6ba2cdb17a73a0c0c56b53d4fc587d80d50ecbe991d"
+  }
+}

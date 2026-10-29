@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-002",
+  "file": "img/the-big-four-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 2. THE MAN FROM THE ASYLUM. Scene context, do not reproduce words: Fortunately the train had stopped near a station. A short walk brought us to a garage where we were able to obtain a car, and half an hour later we were spinning rapidly back to London. Then, and not till then, did Poirot deign to satisfy my curiosity. \"You do not see? No more did I. But I see now. Hastings, I was being got out of the way.\" \"What!\" \"Yes. Very cleverly. Both the place and the method were chosen with great knowledge and acumen. They were afraid of me.\" \"Who were?\" \"Those four geniuses who have banded themselves together to work outside the law. A Chinaman, an American, a Frenchwoman, and—another. Pray the good God we arrive back in time, Hastings.\" \"You think there is danger to our visitor?\" \"I am sure of it.\" Mrs. Pearson greeted us on arrival. Brushing aside her ecstasies of astonishment on beholding Poirot, we asked for information. It was reassuring. No one had called, and our guest had not made any sign. With a sigh of relief we went up to the rooms. Poirot crossed ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "51795edfeb904f3b0ee2be1157e13d7c4d573a996581eaaecbf460356ef9ba52",
+  "masterSha256": "18b2ebfc2245b2a5d82978f503af0e89073dd4cc20d00c67a2de9f650d77a594",
+  "masterFile": "assets/source-christie-art/the-big-four-002.png",
+  "preview": {
+    "file": "img/the-big-four-002.preview.jpg",
+    "sha256": "7e3261f3cc1e96231e1a2f1d3dea02a40a5bf0d22680b1dbc670eba184ee786e"
+  }
+}

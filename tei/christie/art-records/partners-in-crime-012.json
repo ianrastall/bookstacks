@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-012",
+  "file": "img/partners-in-crime-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter XII. The Man in the Mist (continued). Scene context, do not reproduce words: Tommy and Tuppence stared at each other in bewilderment. \"Well,\" said Tommy, \"something's happened in that house to scare our friend Reilly pretty badly.\" Tuppence drew her finger absently across the gate post. \"He must have put his hand on some wet red paint somewhere,\" she said idly. \"H'm,\" said Tommy. \"I think we'd better go inside rather quickly. I don't understand this business.\" In the doorway of the house a white capped maid servant was standing, almost speechless with indignation. \"Did you ever see the likes of that now, Father,\" she burst out, as Tommy ascended the steps. \"That fellow comes here, asks for the young lady, rushes upstairs without how or by your leave. She lets out a screech like a wild cat—and what wonder, poor pretty dear, and straightway he comes rushing down again, with the white face on him, like one who's seen a ghost. What will be the meaning of it all?\" \"Who are you talking with at the front door, Ellen?\" demanded a sharp voice from the interior of the ha",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "24eea0bb8b1e2c2dac51797dafb7915eca94d60d9fad3cdc6daec49bbf317597",
+  "masterSha256": "b61509fcd5b0ea11c75b0639d2450eda9cda71c70c0492161f7ae0239ae13442",
+  "masterFile": "assets/source-christie-art/partners-in-crime-012.png",
+  "preview": {
+    "file": "img/partners-in-crime-012.preview.jpg",
+    "sha256": "fd2b2e0039bdb1205b6bb86168e9ac99765668a37abf27c08efcba2d683d7b8f"
+  }
+}

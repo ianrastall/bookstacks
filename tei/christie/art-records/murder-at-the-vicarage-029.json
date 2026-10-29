@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-029",
+  "file": "img/murder-at-the-vicarage-029.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 29. Scene context, do not reproduce words: I don't know how long I sat there—only a few minutes in reality, I suppose. Yet it seemed as though an eternity had passed when I heard the door open and, turning my head, looked up to see Melchett entering the room. He stared at Hawes asleep in his chair, then turned to me. \"What's this, Clement? What does it all mean?\" Of the two letters in my hand I selected one and passed it to him. He read it aloud in a low voice. He looked at me questioningly. At this point the writing tailed off in an undistinguishable scrawl where death had overtaken the writer's hand. Melchett drew a deep breath, then looked at Hawes. \"So that's the solution! The one man we never even considered. And remorse drove him to confess!\" \"He's been very queer lately,\" I said. Suddenly Melchett strode across to the sleeping man with a sharp exclamation. He seized him by the shoulder and shook him, at first gently, then with increasing violence. \"He's not asleep! He's drugged! What's the meaning of this?\" His eye went ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "fef80ec6279962c5643e9d405451977a4d85e745bfa20eda94231e8fb1549331",
+  "masterSha256": "97bc069a41300a801571b8f78f22303ba361d686969ab73eddd0ebf0b7f2321c",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-029.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-029.preview.jpg",
+    "sha256": "c7f3f69138b11b155b61e1f786b6c953ad6835f35091e33d22232fcb7508ab0b"
+  }
+}

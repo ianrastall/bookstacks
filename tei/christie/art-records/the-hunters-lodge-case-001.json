@@ -1,0 +1,17 @@
+{
+  "slug": "the-hunters-lodge-case-001",
+  "file": "img/the-hunters-lodge-case-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Hunter’s Lodge Case — The Hunter’s Lodge Case. Scene context, do not reproduce words: “After all,” murmured Poirot, “it is possible that I shall not die this time.” Coming from a convalescent influenza patient, I hailed the remark as showing a beneficial optimism. I myself had been the first sufferer from the disease. Poirot in his turn had gone down. He was now sitting up in bed, propped up with pillows. “Yes, yes,” my little friend continued. “Once more shall I be myself again, the great Hercule Poirot, the terror of evildoers! Figure to yourself, mon ami, that I have a little paragraph to myself in Society Gossip. But yes! Here it is! “‘Go it, criminals—all out! Hercule Poirot,—and believe me, girls, he’s some Hercules!—our own pet society detective can’t get a grip on you. ’Cause why? ’Cause he’s got la grippe himself!’” I laughed. “Good for you, Poirot. You are becoming quite a public character. And fortunately you haven’t missed anything of particular interest during this time.” “That is true. The few cases I have had to decline did not fill me with any regret.” O",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "9b6c854a46c4b359daf513ca6235e15c0478374b83ce201c163587cc667c578f",
+  "masterSha256": "8238cd4d6c431d6d8e4a85bbf18e57fdb3817a3d3dd7ca0170e2feb8efbc13be",
+  "masterFile": "assets/source-christie-art/the-hunters-lodge-case-001.png",
+  "preview": {
+    "file": "img/the-hunters-lodge-case-001.preview.jpg",
+    "sha256": "993b0bb0ecbbcb3c0b8145a57bacf20dd022452f620c608ca5ed3deed29cf479"
+  }
+}

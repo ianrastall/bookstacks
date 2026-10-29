@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-003",
+  "file": "img/the-big-four-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 3. WE HEAR MORE ABOUT LI CHANG YEN. Scene context, do not reproduce words: For a day or two after our visit from the fake Asylum attendant I was in some hopes that he might return, and I refused to leave the flat even for a moment. As far as I could see, he had no reason to suspect that we had penetrated his disguise. He might, I thought, return and try to remove the body, but Poirot scoffed at my reasoning. \"Mon ami,\" he said, \"if you wish you may wait in to put salt on the little bird's tail, but for me I do not waste my time so.\" \"Well then, Poirot,\" I argued, \"why did he run the risk of coming at all. If he intended to return later for the body, I can see some point in his visit. He would at least be removing the evidence against himself; as it is, he does not seem to have gained anything.\" Poirot shrugged his most Gallic shrug. \"But you do not see with the eyes of Number Four, Hastings,\" he said. \"You talk of evidence, but what evidence have we against him? True, we have a body, but we have no proof even that the man was murdered—prussic acid, when inhal",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8aadecec694c19aed0c598ea8a6e3651533d86819defab2337eb7b463e252e75",
+  "masterSha256": "70da887025d463a10c585e7712cb6184c7af3eb1e1af4eb88ea1432662fc98fe",
+  "masterFile": "assets/source-christie-art/the-big-four-003.png",
+  "preview": {
+    "file": "img/the-big-four-003.preview.jpg",
+    "sha256": "80c473f25d1a43b682336412e68cd2970f032bfcda84da07d48880df1a11baa7"
+  }
+}

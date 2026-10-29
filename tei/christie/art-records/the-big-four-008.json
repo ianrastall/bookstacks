@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-008",
+  "file": "img/the-big-four-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 8. IN THE HOUSE OF THE ENEMY. Scene context, do not reproduce words: After our adventure in the villa at Passy we returned post haste to London. Several letters were awaiting Poirot. He read one of them with a curious smile, and then handed it to me. \"Read this, mon ami.\" I turned first to the signature, \"Abe Ryland,\" and recalled Poirot's words: \"the richest man in the world.\" Mr. Ryland's letter was curt and incisive. He expressed himself as profoundly dissatisfied with the reasons Poirot had given for withdrawing from the South American proposition at the last moment. \"This gives one furiously to think, does it not?\" said Poirot. \"I suppose it's only natural he should be a bit ratty.\" \"No, no, you comprehend not. Remember the words of Mayerling, the man who took refuge here—only to die by the hands of his enemies. 'Number Two is represented by an S with two lines through it—the sign for a dollar, also by two stripes and a star. It may be conjectured therefore that he is an American subject, and that he represents the power of wealth.' Add to those wo",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "fb9e909b18fdf8220edf7f08f8d8d7935539aa3f899a43ea1d4d13862410e0e0",
+  "masterSha256": "5702e9f0fe805b2a7a7435454cc58d2eb09b127c713334a0c9f4c201c602fe9e",
+  "masterFile": "assets/source-christie-art/the-big-four-008.png",
+  "preview": {
+    "file": "img/the-big-four-008.preview.jpg",
+    "sha256": "e6cc8f3db0c79a03b3d1e0591cdf0f783799bf73c5d53b4ff5cb302c3e7ff215"
+  }
+}

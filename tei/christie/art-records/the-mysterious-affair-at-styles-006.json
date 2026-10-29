@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-006",
+  "file": "img/the-mysterious-affair-at-styles-006.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER VI. THE INQUEST. Scene context, do not reproduce words: In the interval before the inquest, Poirot was unfailing in his activity. Twice he was closeted with Mr. Wells. He also took long walks into the country. I rather resented his not taking me into his confidence, the more so as I could not in the least guess what he was driving at. It occurred to me that he might have been making inquiries at Raikes’s farm; so, finding him out when I called at Leastways Cottage on Wednesday evening, I walked over there by the fields, hoping to meet him. But there was no sign of him, and I hesitated to go right up to the farm itself. As I walked away, I met an aged rustic, who leered at me cunningly. “You’m from the Hall, bain’t you?” he asked. “Yes. I’m looking for a friend of mine whom I thought might have walked this way.” “A little chap? As waves his hands when he talks? One of them Belgies from the village?” “Yes,” I said eagerly. “He has been here, then?” “Oh, ay, he’s been here, right enough. More’n once too. Friend of yours, is he? Ah, you gentlem",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ecb5eb48db4f7e4eb79e9730be3aa3d7ecf2ac0f153905a01490066a668099b3",
+  "masterSha256": "9d7608bde065a17117b0c0d7dfac18616141f657172a950ea94b20f5b663cf01",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-006.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-006.preview.jpg",
+    "sha256": "5c78e978dcfd97472c1bb6635b5a5c9f7ea163d4c893f9dc744dce1519b3f36a"
+  },
+  "useCase": "illustration-story"
+}

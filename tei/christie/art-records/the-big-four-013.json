@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-013",
+  "file": "img/the-big-four-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 13. THE MOUSE WALKS IN. Scene context, do not reproduce words: Not often in a life-time does a man stand on the edge of eternity, but when I spoke those words in that East End cellar I was perfectly certain that they were my last words on earth. I braced myself for the shock of those black, rushing waters beneath, and experienced in advance the horror of that breath-choking fall. But to my surprise a low laugh fell on my ears. I opened my eyes. Obeying a sign from the man on the divan, my two jailers brought me back to my old seat facing him. \"You are a brave man, Captain Hastings,\" he said. \"We of the East appreciate bravery. I may say that I expected you to act as you have done. That brings us to the appointed second act of our little drama. Death for yourself you have faced—will you face death for another?\" \"What do you mean?\" I asked hoarsely, a horrible fear creeping over me. \"Surely you have not forgotten the lady who is in our power—the Rose of the Garden.\" I stared at him in dumb agony. \"I think, Captain Hastings, that you will write that ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c9fb2c25822f1e6b44b5d7353f7c178a9adf7a79767481b572b791cb2b307637",
+  "masterSha256": "44c824ee94f7f97b21a46bd49ea56583f84f54e4646631bd9abf5fd74d046ea3",
+  "masterFile": "assets/source-christie-art/the-big-four-013.png",
+  "preview": {
+    "file": "img/the-big-four-013.preview.jpg",
+    "sha256": "bc8be53c763ff7ca75b2c10371a45a5413bb4f29f70fd0a617a64316975cc054"
+  },
+  "useCase": "illustration-story"
+}

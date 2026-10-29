@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-015",
+  "file": "img/the-murder-of-roger-ackroyd-015.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XV. GEOFFREY RAYMOND. Scene context, do not reproduce words: I was to have a further proof that day of the success of Poirot’s tactics. That challenge of his had been a subtle touch born of his knowledge of human nature. A mixture of fear and guilt had wrung the truth from Mrs. Ackroyd. She was the first to react. That afternoon when I returned from seeing my patients, Caroline told me that Geoffrey Raymond had just left. “Did he want to see me?” I asked, as I hung up my coat in the hall. Caroline was hovering by my elbow. “It was M. Poirot he wanted to see,” she said. “He’d just come from The Larches. M. Poirot was out. Mr. Raymond thought that he might be here, or that you might know where he was.” “I haven’t the least idea.” “I tried to make him wait,” said Caroline, “but he said he would call back at The Larches in half an hour, and went away down the village. A great pity, because M. Poirot came in practically the minute after he left.” “Came in here?” “No, to his own house.” “How do you know?” “The side window,” said Caroline briefly. It s",
+  "width": 1200,
+  "height": 800,
+  "sha256": "01cc9a46ca7393298d82f14e22093d51efebfb84c3180432635072f5b0a573a7",
+  "masterSha256": "d35f07bf2b543f825474cf7b50cf873058fdd1f7a365abc92c23acd486dc060d",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-015.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-015.preview.jpg",
+    "sha256": "64965da593302b33614158a4f265c663e6576d31dca1284a16b3e226e847550a"
+  },
+  "useCase": "illustration-story"
+}

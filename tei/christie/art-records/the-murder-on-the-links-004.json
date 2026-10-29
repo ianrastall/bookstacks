@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-004",
+  "file": "img/the-murder-on-the-links-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 4The Letter Signed “Bella”. Scene context, do not reproduce words: Françoise had left the room. The magistrate was drumming thoughtfully on the table. “M. Bex,” he said at length, “here we have directly conflicting testimony. Which are we to believe, Françoise or Denise?” “Denise,” said the commissary decidedly. “It was she who let the visitor in. Françoise is old and obstinate, and has evidently taken a dislike to Madame Daubreuil. Besides, our own knowledge tends to show that Renauld was entangled with another woman.” “Tiens!” cried M. Hautet. “We have forgotten to inform M. Poirot of that.” He searched amongst the papers on the table, and finally handed the one he was in search of to my friend. “This letter, M. Poirot, we found in the pocket of the dead man’s overcoat.” Poirot took it and unfolded it. It was somewhat worn and crumbled, and was written in English in a rather unformed hand: “My dearest one:” Why have you not written for so long? You do love me still, don’t you? Your letters lately have been so different, cold and strange, and now thi",
+  "width": 1200,
+  "height": 800,
+  "sha256": "73c7b7fce040e449c88e1e232fe99d6206be46932b525226fd9fa611cff235b3",
+  "masterSha256": "5e540a06090116f0343622cee1fc1e6b8b9e7711ab72326a16e129c722634203",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-004.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-004.preview.jpg",
+    "sha256": "0e4ebcc277b362413d2cb06dbf3efe5c1b9134499860d8ec2655f3930a4169da"
+  },
+  "useCase": "illustration-story"
+}

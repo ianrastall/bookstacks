@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-011",
+  "file": "img/the-seven-dials-mystery-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XI. Scene context, do not reproduce words: Dinner with Bill Bundle set out to keep her appointment with Bill on the following evening full of expectation. Bill greeted her with every sign of elation. \"Bill really is rather nice,\" thought Bundle to herself. \"Just like a large, clumsy dog that wags its tail when it's pleased to see you.\" The large dog was uttering short staccato yelps of comment and information. \"You look tremendously fit, Bundle. I can't tell you how pleased I am to see you. I've ordered oysters—you do like oysters, don't you? And how's everything? What did you want to go mouldering about abroad so long? Were you having a very gay time?\" \"No, deadly,\" said Bundle. \"Perfectly foul. Old diseased colonels creeping about in the sun, and active, wizened spinsters running libraries and churches.\" \"Give me England,\" said Bill. \"I bar this foreign business—except Switzerland. Switzerland's all right. I'm thinking of going this Christmas. Why don't you come along?\" \"I'll think of it,\" said Bundle. \"What have you been doi",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "2d4e0580dad7e9c648bc2d586e14c9300cd30150ec7403213a0d9dae6bbc0c1b",
+  "masterSha256": "fb397c19483b6c2573ff8d03822a958d6638b321b9c2992a5fa5097be5adc335",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-011.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-011.preview.jpg",
+    "sha256": "00f0b8ed4577664d8349ac9e00e770e9eee8ab6aab843fb1c371e6029ac8097f"
+  }
+}

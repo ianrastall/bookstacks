@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-012",
+  "file": "img/the-man-in-the-brown-suit-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XI. Scene context, do not reproduce words: There were no further excitements that night. I had breakfast in bed and got up late the next morning. Mrs. Blair hailed me as I came on deck. “Good-morning, Gipsy girl, sit down here by me. You look as though you hadn’t slept well.” “Why do you call me that?” I asked, as I sat down obediently. “Do you mind? It suits you somehow. I’ve called you that in my own mind from the beginning. It’s the gipsy element in you that makes you so different from any one else. I decided in my own mind that you and Colonel Race were the only two people on board who wouldn’t bore me to death to talk to.” “That’s funny,” I said, “I thought the same about you—only it’s more understandable in your case. You’re—you’re such an exquisitely finished product.” “Not badly put,” said Mrs. Blair, nodding her head. “Tell me all about yourself, Gipsy girl. Why are you going to South Africa?” I told her something about Papa’s life work. “So you’re Charles Beddingfeld’s daughter? I thought you weren’t a mere provincial",
+  "width": 1200,
+  "height": 800,
+  "sha256": "fd25e1600949605eefa0837896b7a8eea56a6b6eacabc8b5deabd09b4db3237b",
+  "masterSha256": "19040459dfbd0cefd29cb298c7e1502cf9de8fd1f47b6727bea4b8bac60ec9a0",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-012.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-012.preview.jpg",
+    "sha256": "bab67dcd781fa6c48775a32db4ad3833935f9a49a33d8cacb98a743883fc43f0"
+  },
+  "useCase": "illustration-story"
+}

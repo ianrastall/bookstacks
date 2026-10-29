@@ -1,0 +1,17 @@
+{
+  "slug": "poirot-investigates-001",
+  "file": "img/poirot-investigates-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Poirot Investigates — I. The Adventure of “The Western Star”. Scene context, do not reproduce words: I was standing at the window of Poirot’s rooms looking out idly on the street below. “That’s queer,” I ejaculated suddenly beneath my breath. “What is, mon ami?” asked Poirot placidly, from the depths of his comfortable chair. “Deduce, Poirot, from the following facts! Here is a young lady, richly dressed—fashionable hat, magnificent furs. She is coming along slowly, looking up at the houses as she goes. Unknown to her, she is being shadowed by three men and a middle-aged woman. They have just been joined by an errand boy who points after the girl, gesticulating as he does so. What drama is this being played? Is the girl a crook, and are the shadowers detectives preparing to arrest her? Or are they the scoundrels, and are they plotting to attack an innocent victim? What does the great detective say?” “The great detective, mon ami, chooses, as ever, the simplest course. He rises to see for himself.” And my friend joined me at the window. In a minute he gave vent to an amused chuckle. “A",
+  "width": 1200,
+  "height": 800,
+  "sha256": "f65ad0a50a517d5cfd712e64d758a26795546875bc0f17a5b98bb1ed09fc8a87",
+  "masterSha256": "0305fc160486852cf615dd77244b27294b20bfba8141948c50a5f908c33fe073",
+  "masterFile": "assets/source-christie-art/poirot-investigates-001.png",
+  "preview": {
+    "file": "img/poirot-investigates-001.preview.jpg",
+    "sha256": "65beb57ef820c5bc413be7b1c4fa957046895d14dc2409beff7651a899ca5ddd"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-002",
+  "file": "img/the-mysterious-affair-at-styles-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER II. THE 16TH AND 17TH OF JULY. Scene context, do not reproduce words: I had arrived at Styles on the 5th of July. I come now to the events of the 16th and 17th of that month. For the convenience of the reader I will recapitulate the incidents of those days in as exact a manner as possible. They were elicited subsequently at the trial by a process of long and tedious cross-examinations. I received a letter from Evelyn Howard a couple of days after her departure, telling me she was working as a nurse at the big hospital in Middlingham, a manufacturing town some fifteen miles away, and begging me to let her know if Mrs. Inglethorp should show any wish to be reconciled. The only fly in the ointment of my peaceful days was Mrs. Cavendish’s extraordinary, and, for my part, unaccountable preference for the society of Dr. Bauerstein. What she saw in the man I cannot imagine, but she was always asking him up to the house, and often went off for long expeditions with him. I must confess that I was quite unable to see his attraction. The 16th of July fell on a Mond",
+  "width": 1200,
+  "height": 800,
+  "sha256": "246fdd971e6865bdaec0bb3fd4274299489aa5291380a69b28d3a3d1d712fd89",
+  "masterSha256": "8872a23f8aae7c971d77931fa8cfbc1702b59be79b5b00573ae405a3e6471eb1",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-002.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-002.preview.jpg",
+    "sha256": "b9ef4159d31ae1626e6965a381bb217422632a0e41d089dfda378b5f4a8c6444"
+  },
+  "useCase": "illustration-story"
+}

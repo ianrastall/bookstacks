@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-002",
+  "file": "img/the-man-in-the-brown-suit-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER I. Scene context, do not reproduce words: Everybody has been at me, right and left, to write this story from the great (represented by Lord Nasby) to the small (represented by our late maid of all work, Emily, whom I saw when I was last in England. “Lor’, miss, what a beyewtiful book you might make out of it all—just like the pictures!”). I’ll admit that I’ve certain qualifications for the task. I was mixed up in the affair from the very beginning, I was in the thick of it all through, and I was triumphantly “in at the death.” Very fortunately, too, the gaps that I cannot supply from my own knowledge are amply covered by Sir Eustace Pedler’s diary, of which he has kindly begged me to make use. So here goes. Anne Beddingfeld starts to narrate her adventures. I’d always longed for adventures. You see, my life had such a dreadful sameness. My father, Professor Beddingfeld, was one of England’s greatest living authorities on Primitive Man. He really was a genius—every one admits that. His mind dwelt in Palaeolithic times, and the ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "fb6f7bfd6d803cfa00884e3473f7b94ad12bb403ce3d12591915b4535a569812",
+  "masterSha256": "05902b9ce80048a1bd222ababcc60a1f4c91e737b8f07a544b46796da75870af",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-002.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-002.preview.jpg",
+    "sha256": "34f9b82732b04d0315b1be7a27ed8beda42f467a0c2fa2cb6f3087d2ac987aad"
+  },
+  "useCase": "illustration-story"
+}

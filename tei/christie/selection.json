@@ -1,0 +1,358 @@
+[
+  {
+    "id": "69087",
+    "title": "The Murder of Roger Ackroyd",
+    "credits": "Emmanuel Ackerman, Robert Tonsing and the Online Distributed Proofreading Team at www.pgdp.net (This book was produced from images made available by the HathiTrust Digital Library.)",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/69087/pg69087-images.html",
+    "sha256": "5ce650160d72357980250c55661bb51bf27a66e4c08340f31084ee526ee5228b",
+    "slug": "the-murder-of-roger-ackroyd",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 69087",
+    "description": "Complete English text from Project Gutenberg 69087. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 27,
+    "figures": [
+      {
+        "source": "images/i061.jpg",
+        "url": "https://www.gutenberg.org/cache/epub/69087/images/i061.jpg",
+        "file": "img/source-69087-i061.jpg",
+        "sha256": "8f175adb30108b19f6b19d77c96e882fde58436d3623b7c939655e2e23daffd2"
+      },
+      {
+        "source": "images/i089.jpg",
+        "url": "https://www.gutenberg.org/cache/epub/69087/images/i089.jpg",
+        "file": "img/source-69087-i089.jpg",
+        "sha256": "86d8f9f906915df9b8c64dae7a7e15807d9dc4aab830e3075af62290861860fe"
+      }
+    ],
+    "frontXpaths": [
+      "//div[@class=\"chapter center smcap\"]"
+    ]
+  },
+  {
+    "id": "863",
+    "title": "The Mysterious Affair at Styles",
+    "credits": "Charles Keller",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/863/pg863-images.html",
+    "sha256": "0ba66e9a250fa3ec8a16ff4f33a4b810af502b64c7458fe9870cd3a561272cee",
+    "slug": "the-mysterious-affair-at-styles",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 863",
+    "description": "Complete English text from Project Gutenberg 863. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 13,
+    "figures": [
+      {
+        "source": "images/ill_001.png",
+        "url": "https://www.gutenberg.org/cache/epub/863/images/ill_001.png",
+        "file": "img/source-863-ill_001.png",
+        "sha256": "6552280f73215c2efe383fd7456930c213dca6fe042435587fb3b8b574504317"
+      },
+      {
+        "source": "images/ill_002.png",
+        "url": "https://www.gutenberg.org/cache/epub/863/images/ill_002.png",
+        "file": "img/source-863-ill_002.png",
+        "sha256": "62f00916962266698eaa5f7f9378c6efdec4fc2765771c893361079d1cf479d3"
+      },
+      {
+        "source": "images/ill_003.png",
+        "url": "https://www.gutenberg.org/cache/epub/863/images/ill_003.png",
+        "file": "img/source-863-ill_003.png",
+        "sha256": "d2e8a3b519dc3926d68a4c5df413ca0f8583629b9d86071a88d33813fa3e2104"
+      },
+      {
+        "source": "images/ill_004.png",
+        "url": "https://www.gutenberg.org/cache/epub/863/images/ill_004.png",
+        "file": "img/source-863-ill_004.png",
+        "sha256": "f402ed8f06d7f05dbd6fea3174099b3ffdb77f476691cb643e4f44d16def5637"
+      }
+    ],
+    "frontXpaths": []
+  },
+  {
+    "id": "65238",
+    "title": "The Secret of Chimneys",
+    "credits": "Mark C. Orton, Shaun Mudd and the Online Distributed Proofreading Team at www.pgdp.net",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/65238/pg65238-images.html",
+    "sha256": "83fb982d5e4132d89933a6a170318bcf0e013007279afaf93f93fb2633cee37b",
+    "slug": "the-secret-of-chimneys",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 65238",
+    "description": "Complete English text from Project Gutenberg 65238. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 31,
+    "figures": [],
+    "frontXpaths": [
+      "//div[@class=\"chapter\"][starts-with(normalize-space(.),\"To Punkie\")]"
+    ]
+  },
+  {
+    "id": "1155",
+    "title": "The Secret Adversary",
+    "credits": "Charles Keller and David Widger",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/1155/pg1155-images.html",
+    "sha256": "d9015d54367fdb70d00e292f930d21d06340bada9c9ee797f88339e18a862bf0",
+    "slug": "the-secret-adversary",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 1155",
+    "description": "Complete English text from Project Gutenberg 1155. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 29,
+    "figures": [],
+    "frontXpaths": [
+      "//div[@class=\"chapter\"][starts-with(normalize-space(.),\"TO ALL THOSE\")]"
+    ]
+  },
+  {
+    "id": "61262",
+    "title": "Poirot Investigates",
+    "credits": "Produced by an anonymous Project Gutenberg volunteer.",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/61262/pg61262-images.html",
+    "sha256": "4808219152636f03809d3b6757a2c5b938bec0b87b1aa01bc10a7f62a2a5a3fb",
+    "slug": "poirot-investigates",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 61262",
+    "description": "Complete English text from Project Gutenberg 61262. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 11,
+    "figures": [
+      {
+        "source": "images/sketch.jpg",
+        "url": "https://www.gutenberg.org/cache/epub/61262/images/sketch.jpg",
+        "file": "img/source-61262-sketch.jpg",
+        "sha256": "3cf97ce5bce4c190d588c09afc32a189d2f2518976b2c0d408241d18b5c1c4eb"
+      }
+    ],
+    "frontXpaths": []
+  },
+  {
+    "id": "58866",
+    "title": "The Murder on the Links",
+    "credits": "Alex Cabal Alex Cabal",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/58866/pg58866-images.html",
+    "sha256": "297574d5e5b8e3e242cad0bfea390d6d3b09c765849c5773475db3fca4594a69",
+    "slug": "the-murder-on-the-links",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 58866",
+    "description": "Complete English text from Project Gutenberg 58866. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 28,
+    "figures": [],
+    "frontXpaths": [
+      "//div[@class=\"chapter\"][starts-with(normalize-space(.),\"TO MY HUSBAND\")]"
+    ]
+  },
+  {
+    "id": "61168",
+    "title": "The Man in the Brown Suit",
+    "credits": "an anonymous Project Gutenberg volunteer",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/61168/pg61168-images.html",
+    "sha256": "b54ad337def2a031a865b355143d6bff919334c9ffae41f9835b619f494c413e",
+    "slug": "the-man-in-the-brown-suit",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 61168",
+    "description": "Complete English text from Project Gutenberg 61168. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 37,
+    "figures": [
+      {
+        "source": "images/clue.jpg",
+        "url": "https://www.gutenberg.org/cache/epub/61168/images/clue.jpg",
+        "file": "img/source-61168-clue.jpg",
+        "sha256": "999e1fef22c6e1f915c60cbe02af3de90768264da253301b459deb9af18c524f"
+      }
+    ],
+    "frontXpaths": [
+      "//div[@class=\"linemedium\"]"
+    ]
+  },
+  {
+    "id": "70114",
+    "title": "The Big Four",
+    "credits": "Greg Weeks, Mary Meehan and the Online Distributed Proofreading Team at www.pgdp.net",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/70114/pg70114-images.html",
+    "sha256": "1be44e1424d76d974a01b962b4df150dc8a81b826a987462926438045aeb3bd0",
+    "slug": "the-big-four",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 70114",
+    "description": "Complete English text from Project Gutenberg 70114. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 18,
+    "figures": [],
+    "frontXpaths": []
+  },
+  {
+    "id": "72824",
+    "title": "The Mystery of the Blue Train",
+    "credits": "Greg Weeks, Mary Meehan and the Online Distributed Proofreading Team at www.pgdp.net",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/72824/pg72824-images.html",
+    "sha256": "55208e88d9dc204081daaa487357e7d94d77544147437466079f3f956d462b26",
+    "slug": "the-mystery-of-the-blue-train",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 72824",
+    "description": "Complete English text from Project Gutenberg 72824. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 36,
+    "figures": [],
+    "frontXpaths": [
+      "//div[@class=\"titlepage\"]/p[last()]",
+      "//h2[.=\"Cast of Characters\"]",
+      "//h2[.=\"Cast of Characters\"]/following-sibling::p[following-sibling::h2[.=\"The Mystery of the Blue Train\"]]"
+    ]
+  },
+  {
+    "id": "75288",
+    "title": "The Seven Dials Mystery",
+    "credits": "Greg Weeks, Mary Meehan and the Online Distributed Proofreading Team at www.pgdp.net",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/75288/pg75288-images.html",
+    "sha256": "b9b3c25465c92cfc5182a1a7596e2e9d8215b81205448a45ccb931fc6bd7c5f1",
+    "slug": "the-seven-dials-mystery",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 75288",
+    "description": "Complete English text from Project Gutenberg 75288. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 34,
+    "figures": [],
+    "frontXpaths": []
+  },
+  {
+    "id": "67173",
+    "title": "The Missing Will",
+    "credits": "Roger Frank and Sue Clark",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/67173/pg67173-images.html",
+    "sha256": "12ff6aa5c68e981ddfe1e1cc03221370258762ef4c11c4c68e38abe73e4d90d4",
+    "slug": "the-missing-will",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 67173",
+    "description": "Complete English text from Project Gutenberg 67173. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch. This is the periodical transcription, kept distinct from the collection version. Transcriber’s Note: This story appeared in the January, 1925 issue of The Blue Book Magazine.",
+    "sections": 1,
+    "figures": [],
+    "frontXpaths": []
+  },
+  {
+    "id": "66446",
+    "title": "The Plymouth Express Affair",
+    "credits": "Roger Frank and Sue Clark",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/66446/pg66446-images.html",
+    "sha256": "9ed677ee5b6aae5669b50e768fbcf6bec36a13b1686447a73f7e49ed10d5c1bd",
+    "slug": "the-plymouth-express-affair",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 66446",
+    "description": "Complete English text from Project Gutenberg 66446. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch. This is the periodical transcription, kept distinct from the collection version. Transcriber’s Note: This story appeared in the January 1924 issue of The Blue Book Magazine.",
+    "sections": 1,
+    "figures": [
+      {
+        "source": "images/illus-001.jpg",
+        "url": "https://www.gutenberg.org/cache/epub/66446/images/illus-001.jpg",
+        "file": "img/source-66446-illus-001.jpg",
+        "sha256": "f5dcc28e33e4dd8d1e9a47289048556a9a5f4fa40d12074f1ea81803018ae9a5"
+      }
+    ],
+    "frontXpaths": [
+      "//body/div[.//img][1]",
+      "//body/blockquote[1]"
+    ]
+  },
+  {
+    "id": "67160",
+    "title": "The Hunter’s Lodge Case",
+    "credits": "Roger Frank and Sue Clark",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/67160/pg67160-images.html",
+    "sha256": "e81da85416772a66b387da1329493f5ce667e077731139545fe271286f637e5f",
+    "slug": "the-hunters-lodge-case",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 67160",
+    "description": "Complete English text from Project Gutenberg 67160. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch. This is the periodical transcription, kept distinct from the collection version. Transcriber’s Note: This story appeared in the June, 1924 issue of The Blue Book Magazine.",
+    "sections": 1,
+    "figures": [],
+    "frontXpaths": []
+  },
+  {
+    "id": "78084",
+    "title": "The Mysterious Mr. Quin",
+    "credits": "Greg Weeks, Mary Meehan and the Online Distributed Proofreading Team at www.pgdp.net",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/78084/pg78084-images.html",
+    "sha256": "1b298c8e3f73fba7d8ddc05f21350dafb7d6fa85c23b46a567fa9679ead46155",
+    "slug": "the-mysterious-mr-quin",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 78084",
+    "description": "Complete English text from Project Gutenberg 78084. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "storyIds": [
+      "The_Coming_of_Mr_Quin",
+      "The_Shadow_on_the_Glass",
+      "At_the_Bells_and_Motley",
+      "The_Sign_in_the_Sky",
+      "The_Soul_of_the_Croupier",
+      "The_Worlds_End",
+      "The_Voice_in_the_Dark",
+      "The_Face_of_Helen",
+      "The_Dead_Harlequin",
+      "The_Bird_With_the_Broken_Wing",
+      "The_Man_From_the_Sea",
+      "Harlequins_Lane"
+    ],
+    "sections": 12,
+    "figures": [],
+    "frontXpaths": []
+  },
+  {
+    "id": "78220",
+    "title": "Murder at the Vicarage",
+    "credits": "Greg Weeks, Mary Meehan and the Online Distributed Proofreading Team at www.pgdp.net",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/78220/pg78220-images.html",
+    "sha256": "c902e29fbbb6071267ffcc04d20a76e381c7e86a32ff7d8292d2be680602075b",
+    "slug": "murder-at-the-vicarage",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 78220",
+    "description": "Complete English text from Project Gutenberg 78220. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 32,
+    "figures": [
+      {
+        "source": "images/illus1.jpg",
+        "url": "https://www.gutenberg.org/cache/epub/78220/images/illus1.jpg",
+        "file": "img/source-78220-illus1.jpg",
+        "sha256": "cc6957b6b7d48e53cb60410daf9646d44804249a690bb191ea77eecf15df8fe3"
+      },
+      {
+        "source": "images/illus2.jpg",
+        "url": "https://www.gutenberg.org/cache/epub/78220/images/illus2.jpg",
+        "file": "img/source-78220-illus2.jpg",
+        "sha256": "e495c3cb4b7ea4439d84fa261c1805e9cff89d23187e782ea2d96198b3ce1442"
+      },
+      {
+        "source": "images/illus3.jpg",
+        "url": "https://www.gutenberg.org/cache/epub/78220/images/illus3.jpg",
+        "file": "img/source-78220-illus3.jpg",
+        "sha256": "62c3c9876ab28c1d41c3a6ab201ff379bd6ec8063abc4b038fe3e0fab7d83bf0"
+      }
+    ],
+    "frontXpaths": [
+      "//div[@class=\"titlepage\"]/p[last()]"
+    ]
+  },
+  {
+    "id": "78342",
+    "title": "Partners in Crime",
+    "credits": "Greg Weeks, Mary Meehan and the Online Distributed Proofreading Team at www.pgdp.net",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/78342/pg78342-images.html",
+    "sha256": "76c7b65e793b7832a81491421cfb1d76d6bd15753c03380a0102b0a0075e716d",
+    "slug": "partners-in-crime",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 78342",
+    "description": "Complete English text from Project Gutenberg 78342. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch.",
+    "sections": 23,
+    "figures": [],
+    "frontXpaths": []
+  },
+  {
+    "id": "78262",
+    "title": "Giants’ Bread",
+    "credits": "Greg Weeks, Mary Meehan and the Online Distributed Proofreading Team at www.pgdp.net",
+    "copyright": "Public domain in the USA.",
+    "url": "https://www.gutenberg.org/cache/epub/78262/pg78262-images.html",
+    "sha256": "f466f8a5b16c1c696fe2aaaba9968989087ba83b009e20b4e3b93ee5fbb2eee0",
+    "slug": "giants-bread",
+    "edition": "Bookstacks illustrated English edition of Project Gutenberg 78262",
+    "description": "Complete English text from Project Gutenberg 78262. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch. Published under Christie’s pseudonym Mary Westmacott; retained under Agatha Christie in the unified author catalogue.",
+    "bookTitles": [
+      "Book I — Abbots Puissants",
+      "Book II — Nell",
+      "Book III — Jane",
+      "Book IV — War",
+      "Book V — George Green"
+    ],
+    "sections": 29,
+    "figures": [],
+    "frontXpaths": []
+  }
+]

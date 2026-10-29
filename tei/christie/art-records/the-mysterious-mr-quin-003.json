@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-mr-quin-003",
+  "file": "img/the-mysterious-mr-quin-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Mr. Quin — At the Bells and Motley. Scene context, do not reproduce words: Mr. Satterthwaite was annoyed. Altogether it had been an unfortunate day. They had started late; they had taken the wrong turning and lost themselves amid the wilds of Salisbury Plain. Now it was close on eight o'clock; they were still a matter of forty miles from Marswick Manor, whither they were bound, and a puncture had supervened to render matters still more trying. Mr. Satterthwaite, looking like some small bird whose plumage had been ruffled, walked up and down in front of the village garage while his chauffeur conversed in hoarse undertones with the local expert. \"Half an hour at least,\" said that worthy, pronouncing judgment. \"And lucky at that,\" supplemented Masters, the chauffeur. \"More like three quarters if you ask me.\" \"What is this—place, anyway?\" demanded Mr. Satterthwaite fretfully. Being a little gentleman considerate of the feelings of others, he substituted the word \"place\" for \"Godforsaken hole\" which had first risen to his lips. \"Kirtlington Mallet.\" Mr. Satterthwa",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a479d66226d57dbf59b0d9b21aae0c14a6dfb78813ea68aa20969f5be4058e66",
+  "masterSha256": "82db6c8282aa316d70ed576674219639eec0b7643ae489dc3b58970bfbbcdf70",
+  "masterFile": "assets/source-christie-art/the-mysterious-mr-quin-003.png",
+  "preview": {
+    "file": "img/the-mysterious-mr-quin-003.preview.jpg",
+    "sha256": "3da8ceb4f9c7dc5a46c702bac5c796b3940f070a99ee5661cf19c205f0274dad"
+  }
+}

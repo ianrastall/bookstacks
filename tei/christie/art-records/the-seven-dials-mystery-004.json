@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-004",
+  "file": "img/the-seven-dials-mystery-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter IV. Scene context, do not reproduce words: A Letter \"Inconsiderate, that's what I call it,\" said Lord Caterham. He spoke in a gentle, plaintive voice and seemed pleased with the adjective he had found. \"Yes, distinctly inconsiderate. I often find these self-made men are inconsiderate. Very possibly that is why they amass such large fortunes.\" He looked mournfully out over his ancestral acres, of which he had to-day regained possession. His daughter, Lady Eileen Brent, known to her friends and society in general as \"Bundle,\" laughed. \"You'll certainly never amass a large fortune,\" she observed dryly, \"though you didn't do so badly out of old Coote, sticking him for this place. What was he like? Presentable?\" \"One of those large men,\" said Lord Caterham, shuddering slightly, \"with a red square face and iron-grey hair. Powerful, you know. What they call a forceful personality. The kind of a man you'd get if a steam-roller were turned into a human being.\" \"Rather tiring?\" suggested Bundle sympathetically. \"Frightfully tiring, full ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "29ce31210811ea79a705cf0c24cef1fdadd29fb03505631fb361b8374c552f9d",
+  "masterSha256": "0418d1e838216a7878e8c0221fff328f51e066f6166a541b56ae448b9488f917",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-004.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-004.preview.jpg",
+    "sha256": "1b5eec35d22dc5cd7ad8203e9ca7314e7b2b7e923441bca47489a572f74f84bf"
+  }
+}

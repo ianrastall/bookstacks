@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-015",
+  "file": "img/the-seven-dials-mystery-015.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XV. Scene context, do not reproduce words: The Inquest Bundle reached home about 6 A.M. She was up and dressed by half-past nine, and rang up Jimmy Thesiger on the telephone. The promptitude of his reply somewhat surprised her, till he explained that he was going down to attend the inquest. \"So am I,\" said Bundle. \"And I've got a lot to tell you.\" \"Well, suppose you let me drive you down and we can talk on the way. How about that?\" \"All right. But allow a bit extra because you'll have to take me to Chimneys. The Chief Constable's picking me up there.\" \"Why?\" \"Because he's a kind man,\" said Bundle. \"So am I,\" said Jimmy. \"Very kind.\" \"Oh! you—you're an ass,\" said Bundle. \"I heard somebody say so last night.\" \"Who?\" \"To be strictly accurate—a Russian Jew. No, it wasn't. It was—\" But an indignant protest drowned her words. \"I may be an ass,\" said Jimmy. \"I daresay I am—but I won't have Russian Jews saying so. What were you doing last night, Bundle?\" \"That's what I'm going to talk about,\" said Bundle. \"Good-bye for the moment.\" She",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "1f023ec018420e20bc004f250d77fbf9a537f23f24978374a7def95c33b01455",
+  "masterSha256": "b9bf05c78e5482ebb0a82107e85051c47ca009dc2672b1bcdbb4c82fd5d3fb51",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-015.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-015.preview.jpg",
+    "sha256": "e689a301320fd5b52fb07bce52acb6cb90384b3fefa4f9ab4e4dcc8342dd4a31"
+  }
+}

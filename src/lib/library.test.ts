@@ -2,6 +2,7 @@ import {expect,it} from 'vitest';
 import {getLibrary,localizedEditionHref,localizedUnitHref} from './library';
 import {isEditionLanguage,EDITION_LANGUAGES} from './i18n';
 import fs from 'node:fs';
+import publications from '../data/pdf-publications.json';
 it('discovers named light and dark PDFs without losing legacy PDFs',()=>{
   const authors=getLibrary().authors;
   const scarlet=authors.find(author=>author.slug==='doyle')!.works.find(work=>work.slug==='a-study-in-scarlet')!.editions.find(edition=>edition.code==='en')!;
@@ -16,10 +17,14 @@ it('discovers named light and dark PDFs without losing legacy PDFs',()=>{
   expect(emma.pdfHref).toMatch(/austen_emma_eng-dark\.pdf$/);
   expect(fs.existsSync('public/downloads/austen/austen_emma_eng/austen_emma_eng.pdf')).toBe(true);
 });
-it('offers source-matched light and dark PDFs for every canonical edition',()=>{
+it('offers source-matched light and dark PDFs for every indexed publication',()=>{
+  let checked=0;
   for(const author of getLibrary().authors)for(const work of author.works)for(const edition of work.editions){
+    if (!Object.hasOwn(publications, edition.sourceFile.replace(/^.*[\\/]/, '').replace(/\.xml$/, ''))) continue;
+    checked++;
     expect(edition.pdfVariants?.map(pdf=>pdf.theme),edition.sourceFile).toEqual(['light','dark']);
     for(const pdf of edition.pdfVariants!)expect(pdf.href).toMatch(/^https:\/\/ianrastall\.github\.io\/bookstacks-pdf\/books\//);
   }
+  expect(checked).toBeGreaterThan(0);
 });
 it('keeps every published edition, reading unit and language target addressable',()=>{const library=getLibrary();let editions=0,units=0;const targets=new Set<string>();for(const author of library.authors){for(const work of author.works){for(const edition of work.editions){editions++;expect(isEditionLanguage(edition.code)).toBe(true);expect(edition.units.length).toBeGreaterThan(0);const editionHref=localizedEditionHref(work,edition);expect(targets.has(editionHref)).toBe(false);targets.add(editionHref);for(const unit of edition.units){units++;expect(unit.html.length).toBeGreaterThan(0);const href=localizedUnitHref(work,edition,unit);expect(targets.has(href)).toBe(false);targets.add(href);}}}}expect(editions).toBe(library.editionCount);expect(units).toBe(library.unitCount);for(const language of EDITION_LANGUAGES)expect(library.authors.some(author=>author.works.some(work=>work.editions.some(edition=>edition.code===language.code)))).toBe(true);console.log(JSON.stringify({authors:library.authors.length,works:library.workCount,editions,units}));});

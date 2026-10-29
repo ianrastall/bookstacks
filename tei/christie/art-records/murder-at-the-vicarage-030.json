@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-030",
+  "file": "img/murder-at-the-vicarage-030.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 30. Scene context, do not reproduce words: We stared at her. I really think that for a moment or two we really believed she was out of her mind. The accusation seemed so utterly preposterous. Colonel Melchett was the first to speak. He spoke kindly and with a kind of pitying tolerance. \"That is absurd, Miss Marple,\" he said. \"Young Redding has been completely cleared.\" \"Naturally,\" said Miss Marple. \"He saw to that.\" \"On the contrary,\" said Colonel Melchett drily, \"he did his best to get himself accused of the murder.\" \"Yes,\" said Miss Marple. \"He took us all in that way—myself as much as anyone else. You will remember, dear Mr. Clement, that I was quite taken aback when I heard Mr. Redding had confessed to the crime. It upset all my ideas and made me think him innocent—when up to then I had felt convinced that he was guilty.\" \"Then it was Lawrence Redding you suspected?\" \"I know that in books it is always the most unlikely person. But I never find that rule applies in real life. There it is so often the obvious that is true. M",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "801b0b79d4c7c0197f2f24f98276810fb1a964c6516866f6481e4867587c6b4b",
+  "masterSha256": "3d2d2b0a1115861138e8e60275605eb75ad92c1b06fe4a48be1b41e2f3bc9be0",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-030.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-030.preview.jpg",
+    "sha256": "d0109707e6e548d75d358bd967301b9748bbc2d3b973b9d4ee1ee706007d180c"
+  }
+}

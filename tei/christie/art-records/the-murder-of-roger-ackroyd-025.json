@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-025",
+  "file": "img/the-murder-of-roger-ackroyd-025.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XXV. THE WHOLE TRUTH. Scene context, do not reproduce words: A slight gesture from Poirot enjoined me to stay behind the rest. I obeyed, going over to the fire and thoughtfully stirring the big logs on it with the toe of my boot. I was puzzled. For the first time I was absolutely at sea as to Poirot’s meaning. For a moment I was inclined to think that the scene I had just witnessed was a gigantic piece of bombast—that he had been what he called “playing the comedy” with a view to making himself interesting and important. But, in spite of myself, I was forced to believe in an underlying reality. There had been real menace in his words—a certain indisputable sincerity. But I still believed him to be on entirely the wrong tack. When the door shut behind the last of the party he came over to the fire. “Well, my friend,” he said quietly, “and what do you think of it all?” “I don’t know what to think,” I said frankly. “What was the point? Why not go straight to Inspector Raglan with the truth instead of giving the guilty person this elaborate warning?",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0d919ad5ce2c47d36d454bb2f82842e2f17ffee7017410ac3a09d8f699eb42eb",
+  "masterSha256": "2e75b186aa0bdafc3dda4b3c901af55dc564dbf910a9545fb7df0a98c4e351f3",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-025.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-025.preview.jpg",
+    "sha256": "49d3323de647f08cb1076b980e4be086ce558e0146427eb73eb6ea97a2e2b315"
+  },
+  "useCase": "illustration-story"
+}

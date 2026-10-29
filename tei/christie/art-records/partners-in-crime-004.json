@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-004",
+  "file": "img/partners-in-crime-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter IV. The Affair of the Pink Pearl (continued). Scene context, do not reproduce words: Tuppence watched him drive off in the car with a faint misgiving. Tommy was very sure—she herself was not so sure. There were one or two things she did not quite understand. She was still standing by the window, watching the road, when she saw a man leave the shelter of a gateway opposite, cross the road and ring the bell. In a flash Tuppence was out of the room and down the stairs. Gladys Hill, the parlormaid, was emerging from the back part of the house, but Tuppence motioned her back authoritatively. Then she went to the front door and opened it. A lanky young man with ill-fitting clothes, and eager dark eyes was standing on the step. He hesitated a moment, and then said, \"Is Miss Kingston Bruce in?\" \"Will you come inside?\" said Tuppence. She stood aside to let him enter, closing the door. \"Mr. Rennie, I think?\" she said sweetly. He shot a quick glance at her. \"Er—yes.\" \"Will you come in here, please?\" She opened the study door. The room was empty, and Tuppence entered it after him,",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ab915f976de98ef4b4b97b833e8f3c60ec36feefd82af6e56bae85f9f5e23173",
+  "masterSha256": "7cf8bf6de57ccebed27b6f47535095c94b6e4cb70d4163796d96065582d6bba4",
+  "masterFile": "assets/source-christie-art/partners-in-crime-004.png",
+  "preview": {
+    "file": "img/partners-in-crime-004.preview.jpg",
+    "sha256": "06d2cf91f75641f791a8fd31b2b49819cba9f5b4b2c8cdf127d046673ac4b431"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-019",
+  "file": "img/the-man-in-the-brown-suit-019.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XVIII. Scene context, do not reproduce words: I don’t suppose that as long as I live I shall forget my first sight of Table Mountain. I got up frightfully early and went out on deck. I went right up to the boat deck, which I believe is a heinous offence, but I decided to dare something in the cause of solitude. We were just steaming into Table Bay. There were fleecy white clouds hovering above Table Mountain, and nestling on the slopes below, right down to the sea, was the sleeping town, gilded and bewitched by the morning sunlight. It made me catch my breath and have that curious hungry pain inside that seizes one sometimes when one comes across something that’s extra beautiful. I’m not very good at expressing these things, but I knew well enough that I had found, if only for a fleeting moment, the thing that I had been looking for ever since I left Little Hampsly. Something new, something hitherto undreamed of, something that satisfied my aching hunger for romance. Perfectly silently, or so it seemed to me, the Kilmorden glided ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "bd2d2a2b36636c5b888d38d9d529929383341d2f60ef8d1ce5c2aad5c4161c98",
+  "masterSha256": "da9eaf955a01e34935d4d4d51aceff5555cb11c841d74b870023035486a3dec7",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-019.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-019.preview.jpg",
+    "sha256": "ced0aa0b851f4b2255d8313841a4f5f0123ae6d56ccc912b77b6cd36a5428290"
+  },
+  "useCase": "illustration-story"
+}

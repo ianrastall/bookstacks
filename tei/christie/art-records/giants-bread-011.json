@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-011",
+  "file": "img/giants-bread-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 2. Scene context, do not reproduce words: Carey Lodge was the name of Myra's house. It was about eight miles from Birmingham. A subtle depression always weighed down Vernon's spirits as he got near Carey Lodge. He hated the house, hated its solid comfort, its thick bright-red carpets, its lounge hall, the carefully selected sporting prints that hung in the dining room, the superabundance of knick-knacks that filled the drawing room. And yet, was it so much those things he hated as the facts that stood behind them? He questioned himself, trying for the first time to be honest with himself. Wasn't it the truth that he hated his mother being so at home there, so placidly content? He liked to think of her in terms of Abbots Puissants—liked to think of her as being, like himself, an exile. And she wasn't! Abbots Puissants had been to her what a foreign kingdom might be to a queen consort. She had felt important there, and pleased with herself. It had been new and exciting. But it hadn't been home. Myra greeted her son with extravag",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c839f946db8c5477ea0602b285ee3ad09413896202c2be3d12485d531a23e0d5",
+  "masterSha256": "4cb9849d3e03965aa29e7bb926b6988ff699808e08b5ace221f29bf70a03099f",
+  "masterFile": "assets/source-christie-art/giants-bread-011.png",
+  "preview": {
+    "file": "img/giants-bread-011.preview.jpg",
+    "sha256": "7f8d7e31b6968b0a88ffc39d1cd9b7113a009351319998b32976195ef83a3366"
+  }
+}

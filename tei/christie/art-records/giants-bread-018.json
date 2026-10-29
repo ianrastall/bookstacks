@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-018",
+  "file": "img/giants-bread-018.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 2. Scene context, do not reproduce words: Nell was back in London. Vernon came up to see her the day after her return. She noticed the change in him at once. He looked haggard, excited. He said abruptly: \"Nell, I'm going to chuck Birmingham.\" \"What?\" \"Listen while I tell you....\" He talked eagerly, excitedly. His music—he'd got to give himself up to it. He told her of the opera. \"Listen, Nell. This is you—in your tower—with your golden hair hanging down and shining—shining in the sun.\" He went to the piano, began to play, explaining as he did so. \"Violins—you see—and this is all for harps ... and these are the round jewels....\" He played what seemed to Nell to be a series of rather ugly discords. She privately thought it all hideous. Perhaps it would sound differently played by an orchestra. But she loved him—and because she loved him, everything he did must be right. She smiled and said: \"It's lovely, Vernon.\" \"Do you really like it, Nell? Oh! sweetheart—you are so wonderful. You always understand. You're so sweet about every",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "d1d3aebf65a877b1fd50bc808162c41466037af109b41b5e8ea77e6c46250135",
+  "masterSha256": "22d705df8b21f0a93df16bc1fce12293189ca3b57e38504e26ccab25999a7190",
+  "masterFile": "assets/source-christie-art/giants-bread-018.png",
+  "preview": {
+    "file": "img/giants-bread-018.preview.jpg",
+    "sha256": "c38bdbba9f06d05a372a16c97431375d573e98f179bb5596569759cefcb72740"
+  }
+}

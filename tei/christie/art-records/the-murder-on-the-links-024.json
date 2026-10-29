@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-024",
+  "file": "img/the-murder-on-the-links-024.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 24“Save Him!”. Scene context, do not reproduce words: We crossed from England by the evening boat, and the following morning saw us in Saint-Omer, whither Jack Renauld had been taken. Poirot lost no time in visiting M. Hautet. As he did not seem disposed to make any objections to my accompanying him, I bore him company. After various formalities and preliminaries, we were conducted to the examining magistrate’s room. He greeted us cordially. “I was told that you had returned to England, M. Poirot. I am glad to find that such is not the case.” “It is true that I went there, M. le juge, but it was only for a flying visit. A side issue, but one that I fancied might repay investigation.” “And it did—eh?” Poirot shrugged his shoulders. M. Hautet nodded, sighing. “We must resign ourselves, I fear. That animal Giraud, his manners are abominable, but he is undoubtedly clever! Not much chance of that one making a mistake.” “You think not, M. le juge?” It was the examining magistrate’s turn to shrug his shoulders. “Eh bien, speaking frankly—in conf",
+  "width": 1200,
+  "height": 800,
+  "sha256": "1d17eedaaba7eb76cccc9b8e4e14fc681c342f9133fd40905aff4d08c2620d22",
+  "masterSha256": "492bac569f22bd0bd88cc60790f48274483987959eef48cbc67d1d00f443f955",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-024.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-024.preview.jpg",
+    "sha256": "d2b6f78b70f33cdb8b6604efa341805d996faa34924f830ef0e63ce7c0f74d73"
+  },
+  "useCase": "illustration-story"
+}

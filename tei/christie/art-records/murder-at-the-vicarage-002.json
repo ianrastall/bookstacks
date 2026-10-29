@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-002",
+  "file": "img/murder-at-the-vicarage-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 2. Scene context, do not reproduce words: Griselda is a very irritating woman. On leaving the luncheon table, I had felt myself to be in a good mood for preparing a really forceful address for the Church of England Men's Society. Now I felt restless and disturbed. Just when I was really settling down to it, Lettice Protheroe drifted in. I use the word \"drifted\" advisedly. I have read novels in which young people are described as bursting with energy—joie de vivre, the magnificent vitality of youth. Personally, all the young people I come across have the air of amiable wraiths. Lettice was particularly wraith-like this afternoon. She is a pretty girl, very tall and fair and completely vague. She drifted through the French window, absently pulled off the yellow beret she was wearing, and murmured vaguely with a kind of far-away surprise. \"Oh! It's you.\" There is a path from Old Hall through the woods which comes out by our garden gate, so that most people coming from there come in at that gate and up to the study window instead ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "943ed7ffd58cceef189bf7ae97799407b9899b5f9af94c3b04ca11916892f045",
+  "masterSha256": "db73efa57777b1567f98b1e065f94a2434454861d5109d0a6d9385564e7c2e88",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-002.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-002.preview.jpg",
+    "sha256": "96968315f9daead78d2f98ba17ed8762a45b18e760d3dd0d532b76aaf5f47077"
+  }
+}

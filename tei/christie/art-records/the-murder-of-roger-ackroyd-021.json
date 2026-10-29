@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-021",
+  "file": "img/the-murder-of-roger-ackroyd-021.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XXI. THE PARAGRAPH IN THE PAPER. Scene context, do not reproduce words: Caroline, of course, had not failed to see Miss Russell come to the surgery door. I had anticipated this, and had ready an elaborate account of the lady’s bad knee. But Caroline was not in a cross-questioning mood. Her point of view was that she knew what Miss Russell had really come for and that I didn’t. “Pumping you, James,” said Caroline. “Pumping you in the most shameless manner, I’ve not a doubt. It’s no good interrupting. I dare say you hadn’t the least idea she was doing it even. Men are so simple. She knows that you are in M. Poirot’s confidence, and she wants to find out things. Do you know what I think, James?” “I couldn’t begin to imagine. You think so many extraordinary things.” “It’s no good being sarcastic. I think Miss Russell knows more about Mr. Ackroyd’s death than she is prepared to admit.” Caroline leaned back triumphantly in her chair. “Do you really think so?” I said absently. “You are very dull to-day, James. No animation about you. It’s that liver of yours.” Ou",
+  "width": 1200,
+  "height": 800,
+  "sha256": "b8b7a4572f6d17dbc28c6e12c65e139562b49e35448fba562bab9d408c75ee4e",
+  "masterSha256": "6dbe9d742b061e481a762cb841afac9794abae75f6ae693775af9e54798d1062",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-021.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-021.preview.jpg",
+    "sha256": "f7984f6e747cbdf7322b493ef1cb3ffc446701cb81ce96f6a6540c6d39af35dc"
+  },
+  "useCase": "illustration-story"
+}

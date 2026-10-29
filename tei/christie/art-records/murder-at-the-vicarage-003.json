@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-003",
+  "file": "img/murder-at-the-vicarage-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 3. Scene context, do not reproduce words: \"Nasty old cat,\" said Griselda as soon as the door was closed. She made a face in the direction of the departing visitors and then looked at me and laughed. \"Len, do you really suspect me of having an affair with Lawrence Redding?\" \"My dear, of course not.\" \"But you thought Miss Marple was hinting at it. And you rose to my defence simply beautifully. Like—like an angry tiger.\" A momentary uneasiness assailed me. A clergyman of the Church of England ought never to put himself in the position of being described as an angry tiger. However, I trusted that Griselda exaggerated. \"I felt the occasion could not pass without a protest,\" I said. \"But Griselda, I wish you would be a little more careful in what you say.\" \"Do you mean the cannibal story?\" she asked. \"Or the suggestion that Lawrence was painting me in the nude? If they only knew that he was painting me in a thick cloak with a very high fur collar—the sort of thing that you could go quite purely to see the Pope in—not a bit of sinful",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "28a7a151b3cbf7218c5ecdcc14fdf2523d22bfd43feedb0d09876d25029a64e0",
+  "masterSha256": "9462da972a737a94b592763a9653c24dc2970a5bb907b00293214269b9efdec4",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-003.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-003.preview.jpg",
+    "sha256": "ab0e25eefbed0355a0c2ff6c646daa9759fa74c2dc27f1538d771f6217f4b632"
+  }
+}

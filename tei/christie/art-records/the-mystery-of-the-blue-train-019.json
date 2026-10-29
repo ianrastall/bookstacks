@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-019",
+  "file": "img/the-mystery-of-the-blue-train-019.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 19. An Unexpected Visitor. Scene context, do not reproduce words: The Comte de la Roche had just finished déjeuner, consisting of an omelette fines herbes, an entrecôte Béarnaise, and a Savarin au Rhum. Wiping his fine black moustache delicately with his table napkin, the Comte rose from the table. He passed through the salon of the villa, noting with appreciation the few objets d'art which were carelessly scattered about. The Louis XV snuff-box, the satin shoe worn by Marie Antoinette, and the other historic trifles were part of the Comte's mise en scène. They were, he would explain to his fair visitors, heirlooms in his family. Passing through on to the terrace, the Comte looked out on the Mediterranean with an unseeing eye. He was in no mood for appreciating the beauties of scenery. A fully matured scheme had been rudely brought to naught, and his plans had to be cast afresh. Stretching himself out in a basket chair, a cigarette held between his white fingers, the Comte pondered deeply. Presently Hippolyte, his man-servant, brought out coffee and ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "68dcf0dca92bd051b379305f402fec0bb6c8a8547dc4256aa215368e9d058e30",
+  "masterSha256": "d137be16a8378bb27d554c61fea8e7266caed37104233952042e346bddcf159d",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-019.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-019.preview.jpg",
+    "sha256": "ca887d8857152ef74b00523acb1f581a9552dbd8e98c2566abab3b85e9992779"
+  }
+}

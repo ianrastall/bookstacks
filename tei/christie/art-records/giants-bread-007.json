@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-007",
+  "file": "img/giants-bread-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 6. Scene context, do not reproduce words: If Vernon had been capable of summing up the events of the next few years, he could best have done it in one word—scenes! Everlasting and ever-recurring scenes. And he began to notice a curious phenomenon. After each scene his mother looked larger and his father looked smaller. Emotional storms of reproach and invective exhilarated Myra mentally and physically. She emerged from them refreshed; soothed—full of good will toward all the world. With Walter Deyre it was the opposite. He withdrew into himself, every sensitive fibre in his nature shrinking from the onslaught. The faint polite sarcasm that was his weapon of defence never failed to goad his wife to the utmost fury. His quiet weary self-control exasperated her as nothing else could have done. Not that she was lacking for very real grounds of complaint. Walter Deyre spent less and less time at Abbots Puissants. When he did return his eyes had baggy pouches under them and his hand shook. He took little notice of Vernon, and yet th",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "f8bf2bd9e383840a38bfe32efde516f6f2ea811873e6ef7f5a844324ba34ad86",
+  "masterSha256": "04578e3ea76fe9d8018d046e2ef7fc5784ba2f574412b7b19c7df6920026e1ad",
+  "masterFile": "assets/source-christie-art/giants-bread-007.png",
+  "preview": {
+    "file": "img/giants-bread-007.preview.jpg",
+    "sha256": "a6e9a9a8f8ac58e7598148394f11e7b3f5bc1bb3992d3e06200507a119347a8d"
+  }
+}

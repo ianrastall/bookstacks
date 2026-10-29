@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-017",
+  "file": "img/the-murder-of-roger-ackroyd-017.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XVII. PARKER. Scene context, do not reproduce words: It occurred to me the next morning that under the exhilaration produced by Tin-ho, or the Perfect Winning, I might have been slightly indiscreet. True, Poirot had not asked me to keep the discovery of the ring to myself. On the other hand, he had said nothing about it whilst at Fernly, and as far as I knew, I was the only person aware that it had been found. I felt distinctly guilty. The fact was by now spreading through King’s Abbot like wildfire. I was expecting wholesale reproaches from Poirot any minute. The joint funeral of Mrs. Ferrars and Roger Ackroyd was fixed for eleven o’clock. It was a melancholy and impressive ceremony. All the party from Fernly were there. After it was over, Poirot, who had also been present, took me by the arm, and invited me to accompany him back to The Larches. He was looking very grave, and I feared that my indiscretion of the night before had got round to his ears. But it soon transpired that his thoughts were occupied by something of a totally diffe",
+  "width": 1200,
+  "height": 800,
+  "sha256": "e0037f8df0062850d81116694ddc9c8c6e9b91981e48fc3de9a0cc1a0de32671",
+  "masterSha256": "3d4808882d1b286a09d34b40a24d8943808964b0bafa09e72ca73ce9c86bc12f",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-017.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-017.preview.jpg",
+    "sha256": "c3b862c5f56a924518aa1c9ac496573615471ebf644aa28e6abaaf57f537304f"
+  },
+  "useCase": "illustration-story"
+}

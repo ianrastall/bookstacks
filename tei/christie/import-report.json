@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "69087",
+    "title": "The Murder of Roger Ackroyd",
+    "sections": [
+      {
+        "slug": "the-murder-of-roger-ackroyd-001",
+        "title": "CHAPTER I. DR. SHEPPARD AT THE BREAKFAST TABLE",
+        "blocks": 64,
+        "normalized_text_sha256": "57677c77df6c1323697d58efcf6975d4e5abaa3a3ff7ce5cac5a5798cd737f5e"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-002",
+        "title": "CHAPTER II. WHO’S WHO IN KING’S ABBOT",
+        "blocks": 58,
+        "normalized_text_sha256": "2f181ac317d13795eef07168f97504e98d5a80ffdf1fa7eb5548b3fc7ef5c6da"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-003",
+        "title": "CHAPTER III. THE MAN WHO GREW VEGETABLE MARROWS",
+        "blocks": 156,
+        "normalized_text_sha256": "0f3d779edcb5f1d68f9a687e55774d57ddec284fecb1e4f42ab78b1ef368ac5f"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-004",
+        "title": "CHAPTER IV. DINNER AT FERNLY",
+        "blocks": 186,
+        "normalized_text_sha256": "853fc7d6bd761b66bb7697769c4e98b038d8b6ae29a9eab55403da12c6428925"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-005",
+        "title": "CHAPTER V. MURDER",
+        "blocks": 207,
+        "normalized_text_sha256": "60a6a5dfeb76651ee282c68116e9750e5135ffa6f57cf11361eed1bbb20f80b0"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-006",
+        "title": "CHAPTER VI. THE TUNISIAN DAGGER",
+        "blocks": 119,
+        "normalized_text_sha256": "e488c112cf86b74819d6b1bbee413b92220682a767130ce8f0ccadd4f9ff4a82"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-007",
+        "title": "CHAPTER VII. I LEARN MY NEIGHBOR’S PROFESSION",
+        "blocks": 213,
+        "normalized_text_sha256": "528a0b02f60a8b19aa8790a058391b82397f9761e868fbc22087d0b6839d97af"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-008",
+        "title": "CHAPTER VIII. INSPECTOR RAGLAN IS CONFIDENT",
+        "blocks": 148,
+        "normalized_text_sha256": "0c48415349a4d54df2436e7b8652c1c69fed6cfa40cbc3df475e52470e14bb38"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-009",
+        "title": "CHAPTER IX. THE GOLDFISH POND",
+        "blocks": 165,
+        "normalized_text_sha256": "87ae33071b7ee0e67a657a99c1591e692107f15e6c9ca371064731ff955d9f64"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-010",
+        "title": "CHAPTER X. THE PARLORMAID",
+        "blocks": 247,
+        "normalized_text_sha256": "3bbb664afbf28ec57bed1b8f9860af3c9e33d1576595152827d226fd635a9e29"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-011",
+        "title": "CHAPTER XI. POIROT PAYS A CALL",
+        "blocks": 112,
+        "normalized_text_sha256": "cc313f018b84a31283ee0ec59bd2a06ae78e741c7d9f2068e42484fdaef24cb7"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-012",
+        "title": "CHAPTER XII. ROUND THE TABLE",
+        "blocks": 113,
+        "normalized_text_sha256": "5b08018b46e74e501d4184fcc6dd3ee0b4730e1148efbeda12282113348f4d74"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-013",
+        "title": "CHAPTER XIII. THE GOOSE QUILL",
+        "blocks": 99,
+        "normalized_text_sha256": "d50e09d76243e01d7f13234dc9bf43036b890f6d23178de1f7229d9912230629"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-014",
+        "title": "CHAPTER XIV. MRS. ACKROYD",
+        "blocks": 132,
+        "normalized_text_sha256": "102392ee6cad6768a3afc495a6021990ede113126596ffa8d8411bcb7402ddd2"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-015",
+        "title": "CHAPTER XV. GEOFFREY RAYMOND",
+        "blocks": 148,
+        "normalized_text_sha256": "e6b8d02b53091889d31f7757ab6a730f5e3616fe748d33f5f3769b1565ed1504"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-016",
+        "title": "CHAPTER XVI. AN EVENING AT MAH JONG",
+        "blocks": 129,
+        "normalized_text_sha256": "12d1c324bd77c11d73d40298becccc4f0d6cf5d397f62dbe4677e9a9d16e676b"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-017",
+        "title": "CHAPTER XVII. PARKER",
+        "blocks": 169,
+        "normalized_text_sha256": "b88435295ec2a39d223f60bc4550242ab17b9b3a33ec0fa752d1b2773c366814"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-018",
+        "title": "CHAPTER XVIII. CHARLES KENT",
+        "blocks": 89,
+        "normalized_text_sha256": "286781ebb57bcb6e486d2e74acf0b31c5b9bfd0be4d0fbe3d887691f1c639853"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-019",
+        "title": "CHAPTER XIX. FLORA ACKROYD",
+        "blocks": 126,
+        "normalized_text_sha256": "5701c14138be190b6e4dd32a9878deb06ac31a0457eab2517b8705b5467093d4"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-020",
+        "title": "CHAPTER XX. MISS RUSSELL",
+        "blocks": 139,
+        "normalized_text_sha256": "d725413c36d8b9f6b05228d3caa65cdd111384c23547ce328c62f63c1c2c4961"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-021",
+        "title": "CHAPTER XXI. THE PARAGRAPH IN THE PAPER",
+        "blocks": 90,
+        "normalized_text_sha256": "9424aef4ab98aeb0c59cffb75688a0631b7aead7b05b01f448fd88aae09a16cc"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-022",
+        "title": "CHAPTER XXII. URSULA’S STORY",
+        "blocks": 90,
+        "normalized_text_sha256": "69bf001bcf4d9aa974d3cf1f2d50654365b62e97381c69c51bfe2ba8ed9cd1bf"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-023",
+        "title": "CHAPTER XXIII. POIROT’S LITTLE REUNION",
+        "blocks": 152,
+        "normalized_text_sha256": "04cc46f4d4abd79c8f2c75f82d01664824de1eeb2d54b534a3c366bd5c569233"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-024",
+        "title": "CHAPTER XXIV. RALPH PATON’S STORY",
+        "blocks": 41,
+        "normalized_text_sha256": "6859b7a7007e3973e260cd115f6f097432e76d8e33089e0f53e76cbb829ad5ab"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-025",
+        "title": "CHAPTER XXV. THE WHOLE TRUTH",
+        "blocks": 50,
+        "normalized_text_sha256": "6e96e444fab3d273b646895699e24eae52747e29224df7688ab58a81490e53d7"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-026",
+        "title": "CHAPTER XXVI. AND NOTHING BUT THE TRUTH",
+        "blocks": 25,
+        "normalized_text_sha256": "a68addcf31920e6bb744c0fce99dd874968dbe90eb33d7733236158af7d26021"
+      },
+      {
+        "slug": "the-murder-of-roger-ackroyd-027",
+        "title": "CHAPTER XXVII. APOLOGIA",
+        "blocks": 23,
+        "normalized_text_sha256": "1d1aeb80584bf700eaa292200e527399510243c9dd7297aee9a69c70241e1887"
+      }
+    ]
+  },
+  {
+    "id": "863",
+    "title": "The Mysterious Affair at Styles",
+    "sections": [
+      {
+        "slug": "the-mysterious-affair-at-styles-001",
+        "title": "CHAPTER I. I GO TO STYLES",
+        "blocks": 156,
+        "normalized_text_sha256": "f087ddad6ec0e16d378e44dbdf41821a6a235de26ab60b32ed5ccc33ed871889"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-002",
+        "title": "CHAPTER II. THE 16TH AND 17TH OF JULY",
+        "blocks": 106,
+        "normalized_text_sha256": "88b11d2c4c7522eef0db640e0e65cef892a843d825b84d29e57c89601253b2fc"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-003",
+        "title": "CHAPTER III. THE NIGHT OF THE TRAGEDY",
+        "blocks": 83,
+        "normalized_text_sha256": "ba461fa76547084a06f6d9b58613daed5b43440082e456072fc6a9e05e8b36bc"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-004",
+        "title": "CHAPTER IV. POIROT INVESTIGATES",
+        "blocks": 297,
+        "normalized_text_sha256": "97b7ac55fecf96d0b37f87ddd2a2ec96817c6808094cc3848116e99ec187546f"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-005",
+        "title": "CHAPTER V. “IT ISN’T STRYCHNINE, IS IT?”",
+        "blocks": 411,
+        "normalized_text_sha256": "b35b1d110bb56d6fc7ca084c55e622ff00ae786a6398eab545b020c2a4433563"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-006",
+        "title": "CHAPTER VI. THE INQUEST",
+        "blocks": 198,
+        "normalized_text_sha256": "5a5ee3c55469d726dfb2f55cf55c612d63a4a977d7a0eafe86bc178eba211772"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-007",
+        "title": "CHAPTER VII. POIROT PAYS HIS DEBTS",
+        "blocks": 143,
+        "normalized_text_sha256": "5010bbcffe9e446dc98e27605366dfb2b11644dfde5cb0d8768222cc41ca1b27"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-008",
+        "title": "CHAPTER VIII. FRESH SUSPICIONS",
+        "blocks": 220,
+        "normalized_text_sha256": "ebe585a540efc9884cd39527f2ccded6726b975e9d1a5cdd401df11d7caed017"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-009",
+        "title": "CHAPTER IX. DR. BAUERSTEIN",
+        "blocks": 223,
+        "normalized_text_sha256": "4a96a2ef1f530e77bcb72a5abc867cf419c751f36275d96cbb0cbb9314619a98"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-010",
+        "title": "CHAPTER X. THE ARREST",
+        "blocks": 239,
+        "normalized_text_sha256": "8629eb44e7143fb21021ecb5e83df4ea57bbbf929da4316ce7b6bf2fe1360c56"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-011",
+        "title": "CHAPTER XI. THE CASE FOR THE PROSECUTION",
+        "blocks": 256,
+        "normalized_text_sha256": "a50c58f6914b7d8ccc82bd30ad93b6f1246a42829bd335cfcb0cdee0978feaf2"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-012",
+        "title": "CHAPTER XII. THE LAST LINK",
+        "blocks": 74,
+        "normalized_text_sha256": "3e6b9f3aa058ecc5e301ea2c0d9f62469f53d2046cbe500a49f3d8f2ca36fd55"
+      },
+      {
+        "slug": "the-mysterious-affair-at-styles-013",
+        "title": "CHAPTER XIII. POIROT EXPLAINS",
+        "blocks": 139,
+        "normalized_text_sha256": "f8500cd750f2fac84464ac3d5c48f56fbfcd205a848e71848c50053464c0fd96"
+      }
+    ]
+  },
+  {
+    "id": "65238",
+    "title": "The Secret of Chimneys",
+    "sections": [
+      {
+        "slug": "the-secret-of-chimneys-001",
+        "title": "1 Anthony Cade Signs on",
+        "blocks": 139,
+        "normalized_text_sha256": "1c417a3b995484fdddd395cfb54cb3533f22e42b37d303d9cfaec0ebf3171fb0"
+      },
+      {
+        "slug": "the-secret-of-chimneys-002",
+        "title": "2 A Lady in Distress",
+        "blocks": 116,
+        "normalized_text_sha256": "e04133f863b6a9de1d904d2d89c3205a2621b3874fce1e3b79fab589cc6b9396"
+      },
+      {
+        "slug": "the-secret-of-chimneys-003",
+        "title": "3 Anxiety in High Places",
+        "blocks": 86,
+        "normalized_text_sha256": "4c989cb81a59d04556a5b07d3a43963ec1430e025299384e293aecb2fccf5cfa"
+      },
+      {
+        "slug": "the-secret-of-chimneys-004",
+        "title": "4 Introducing a Very Charming Lady",
+        "blocks": 85,
+        "normalized_text_sha256": "5a43ac6c4d8658301c4909497dd6c34af1e2e5b51d7eb4a85aa535b62abfc0d8"
+      },
+      {
+        "slug": "the-secret-of-chimneys-005",
+        "title": "5 First Night in London",
+        "blocks": 147,
+        "normalized_text_sha256": "e5f13b93b9b3c5b518764f1db65da4cfc6fd90cc8356ae6589b4c8800aafc702"
+      },
+      {
+        "slug": "the-secret-of-chimneys-006",
+        "title": "6 The Gentle Art of Blackmail",
+        "blocks": 167,
+        "normalized_text_sha256": "af9151313cb05c9b84d50ac8cef951f3140783e855034c67e318920b8af78322"
+      },
+      {
+        "slug": "the-secret-of-chimneys-007",
+        "title": "7 Mr. McGrath Refuses an Invitation",
+        "blocks": 95,
+        "normalized_text_sha256": "501b73f1fc2bc42b7f15ed34ef5d2ae331767c351737d804f53a46e5b1a5c226"
+      },
+      {
+        "slug": "the-secret-of-chimneys-008",
+        "title": "8 A Dead Man",
+        "blocks": 105,
+        "normalized_text_sha256": "cc2c87a88a8439efc6e71107e8d06b836907cc9af3fd4f4c0b2a59167e663612"
+      },
+      {
+        "slug": "the-secret-of-chimneys-009",
+        "title": "9 Anthony Disposes of a Body",
+        "blocks": 113,
+        "normalized_text_sha256": "ca0fda3adb2806636edd99e5d4abb470f2656c0748a2c9299a9626fd7df8114d"
+      },
+      {
+        "slug": "the-secret-of-chimneys-010",
+        "title": "10 Chimneys",
+        "blocks": 158,
+        "normalized_text_sha256": "524091a098b0d46cf031f56f26aaee6ae3001490b5751b052b61692bf4b3f784"
+      },
+      {
+        "slug": "the-secret-of-chimneys-011",
+        "title": "11 Superintendent Battle Arrives",
+        "blocks": 89,
+        "normalized_text_sha256": "2acc796bbb3f79285f6cf4680f6b286c14ee080750d1dc0a8ece9e363ff3071c"
+      },
+      {
+        "slug": "the-secret-of-chimneys-012",
+        "title": "12 Anthony Tells His Story",
+        "blocks": 136,
+        "normalized_text_sha256": "9f1eae0cf1860dbe54e7fa1836548dd87a9b565ebbf8554be8b7f4ce0a33dd4a"
+      },
+      {
+        "slug": "the-secret-of-chimneys-013",
+        "title": "13 The American Visitor",
+        "blocks": 77,
+        "normalized_text_sha256": "3ae7eceeeb9f82511187e0125ab35381d5a39992afb1dadf2942ee45a0eb81e3"
+      },
+      {
+        "slug": "the-secret-of-chimneys-014",
+        "title": "14 Mainly Political and Financial",
+        "blocks": 126,
+        "normalized_text_sha256": "d13ab3b96676d263aa3150c40c272a09a7e6adac157bf04e5846fa60d635a069"
+      },
+      {
+        "slug": "the-secret-of-chimneys-015",
+        "title": "15 The French Stranger",
+        "blocks": 164,
+        "normalized_text_sha256": "8b05fa0cf870855fbf98937fb9ff6a6784826bfe16692024bd6159387e9e1c18"
+      },
+      {
+        "slug": "the-secret-of-chimneys-016",
+        "title": "16 Tea in the Schoolroom",
+        "blocks": 197,
+        "normalized_text_sha256": "3445c8780182f60bed1335febf2cd80db8bd3d27b442343e60f5c2381f3d87d0"
+      },
+      {
+        "slug": "the-secret-of-chimneys-017",
+        "title": "17 A Midnight Adventure",
+        "blocks": 98,
+        "normalized_text_sha256": "b260b21f25535146d8c8b416f78657e94c3187c450a476b8ecea521a7b1defeb"
+      },
+      {
+        "slug": "the-secret-of-chimneys-018",
+        "title": "18 Second Midnight Adventure",
+        "blocks": 157,
+        "normalized_text_sha256": "f1fb56d48e9e1a0e4cac0329852835ef46290d8695fca84d5c3b2de36a47e7e0"
+      },
+      {
+        "slug": "the-secret-of-chimneys-019",
+        "title": "19 Secret History",
+        "blocks": 118,
+        "normalized_text_sha256": "9d71dd737981ba35098260b5fffbf5a54057f68ff488ed5b96d5081f7da5b745"
+      },
+      {
+        "slug": "the-secret-of-chimneys-020",
+        "title": "20 Battle and Anthony Confer",
+        "blocks": 85,
+        "normalized_text_sha256": "f3b7ce2b8239b0723fbd901fb9c61cdd71496262558e280ba8f6dc615350a943"
+      },
+      {
+        "slug": "the-secret-of-chimneys-021",
+        "title": "21 Mr. Isaacstein’s Suit-case",
+        "blocks": 168,
+        "normalized_text_sha256": "cd53c27f607666c65e925b90142631f5c71541e70135f3170e552afd133b464a"
+      },
+      {
+        "slug": "the-secret-of-chimneys-022",
+        "title": "22 The Red Signal",
+        "blocks": 199,
+        "normalized_text_sha256": "b1e1cdb9cca767c291872c1e730e6f9022cc8b15421e24a8729cd897cccef18a"
+      },
+      {
+        "slug": "the-secret-of-chimneys-023",
+        "title": "23 Encounter in the Rose Garden",
+        "blocks": 147,
+        "normalized_text_sha256": "efe529cb835b482a61510f2dfca4fbbee5184f443e2517647f7a8e7547b001a3"
+      },
+      {
+        "slug": "the-secret-of-chimneys-024",
+        "title": "24 The House at Dover",
+        "blocks": 96,
+        "normalized_text_sha256": "c1918cc9869949d3055ce188d2060f527f7472fd0bad3507e6fdfd5fc58cd87d"
+      },
+      {
+        "slug": "the-secret-of-chimneys-025",
+        "title": "25 Tuesday Night at Chimneys",
+        "blocks": 113,
+        "normalized_text_sha256": "405114215b72b1638726e4b96c9386bdedbbcc6a63fa60fc01cc0d6124119cc7"
+      },
+      {
+        "slug": "the-secret-of-chimneys-026",
+        "title": "26 The 13th of October",
+        "blocks": 90,
+        "normalized_text_sha256": "a1e46fe6f18471655b76d4452ce8e87468597c9a144734e461efdc6913b09c8f"
+      },
+      {
+        "slug": "the-secret-of-chimneys-027",
+        "title": "27 The 13th of October (contd.)",
+        "blocks": 131,
+        "normalized_text_sha256": "a03ff31d030d00c99c7235953c1556e35b15b86d219c2361edac3e6ce35e8fd4"
+      },
+      {
+        "slug": "the-secret-of-chimneys-028",
+        "title": "28 King Victor",
+        "blocks": 49,
+        "normalized_text_sha256": "e93ff285a278bd40ab797c59db63ea7d84340cc2d33b4a279f177ad048489c23"
+      },
+      {
+        "slug": "the-secret-of-chimneys-029",
+        "title": "29 Further Explanations",
+        "blocks": 59,
+        "normalized_text_sha256": "11f2c8856d7125abd926072f237e891b1a996174392ceb16d406b94a73af4a99"
+      },
+      {
+        "slug": "the-secret-of-chimneys-030",
+        "title": "30 Anthony Signs on for a New Job",
+        "blocks": 88,
+        "normalized_text_sha256": "fb8335c1d2d00aa90a4c223d3ee4d7b17863e04ecd18e5ee3a3dc24a8a7e5504"
+      },
+      {
+        "slug": "the-secret-of-chimneys-031",
+        "title": "31 Sundry Details",
+        "blocks": 31,
+        "normalized_text_sha256": "3bb4f2b7e90fed059793cd47520010f17bb573bbef190113b2649747adccb61b"
+      }
+    ]
+  },
+  {
+    "id": "1155",
+    "title": "The Secret Adversary",
+    "sections": [
+      {
+        "slug": "the-secret-adversary-001",
+        "title": "PROLOGUE",
+        "blocks": 24,
+        "normalized_text_sha256": "8c224186feeef76a65cf6d0117f104e2ef9b8e664a7504d25766a32f0d22d084"
+      },
+      {
+        "slug": "the-secret-adversary-002",
+        "title": "CHAPTER I. THE YOUNG ADVENTURERS, LTD.",
+        "blocks": 117,
+        "normalized_text_sha256": "b2482a2fa13da489c4396ef396810ac710e59871df5b35b582b25b4ef2b85f0c"
+      },
+      {
+        "slug": "the-secret-adversary-003",
+        "title": "CHAPTER II. MR. WHITTINGTON’S OFFER",
+        "blocks": 122,
+        "normalized_text_sha256": "9d89a44955a8cdcc4e23754f9c67c3e7d54f3eb252a41e8f51ddb40c787a3929"
+      },
+      {
+        "slug": "the-secret-adversary-004",
+        "title": "CHAPTER III. A SET BACK",
+        "blocks": 101,
+        "normalized_text_sha256": "c76c50e01109e0cf72be281a926796b24783289d13ddc1d41d8b9e2dce46418b"
+      },
+      {
+        "slug": "the-secret-adversary-005",
+        "title": "CHAPTER IV. WHO IS JANE FINN?",
+        "blocks": 108,
+        "normalized_text_sha256": "c1120fedc55fdbec67a966d8bb2b5fb8bc918aa1d453178f8c2b94d2e61cc00a"
+      },
+      {
+        "slug": "the-secret-adversary-006",
+        "title": "CHAPTER V. MR. JULIUS P. HERSHEIMMER",
+        "blocks": 80,
+        "normalized_text_sha256": "9e9a1be9f767483f8d7235583eeb074f7f33a7fa07a7424219739fce11c798fd"
+      },
+      {
+        "slug": "the-secret-adversary-007",
+        "title": "CHAPTER VI. A PLAN OF CAMPAIGN",
+        "blocks": 114,
+        "normalized_text_sha256": "78b908384a2719102510704d2c79609999644428309f000539470fd75c68e832"
+      },
+      {
+        "slug": "the-secret-adversary-008",
+        "title": "CHAPTER VII. THE HOUSE IN SOHO",
+        "blocks": 50,
+        "normalized_text_sha256": "e24f439b4226664a36344922c691a3d0ea871fb57512a16dc57a50598f19ee36"
+      },
+      {
+        "slug": "the-secret-adversary-009",
+        "title": "CHAPTER VIII. THE ADVENTURES OF TOMMY",
+        "blocks": 107,
+        "normalized_text_sha256": "c5eb8e590a29dac40336f110071af239571b2aa40286346e0009458c9951fb64"
+      },
+      {
+        "slug": "the-secret-adversary-010",
+        "title": "CHAPTER IX. TUPPENCE ENTERS DOMESTIC SERVICE",
+        "blocks": 110,
+        "normalized_text_sha256": "f061b6917b2c19a2220d396bdcb45fe85f0aa7bba7a12617479eab0099b2aa04"
+      },
+      {
+        "slug": "the-secret-adversary-011",
+        "title": "CHAPTER X. ENTER SIR JAMES PEEL EDGERTON",
+        "blocks": 91,
+        "normalized_text_sha256": "18806eafd37a741d34ffc0eb53d88980c053be668590bec380a5d39bf9cf9f43"
+      },
+      {
+        "slug": "the-secret-adversary-012",
+        "title": "CHAPTER XI. JULIUS TELLS A STORY",
+        "blocks": 101,
+        "normalized_text_sha256": "4c4a6608201fea0e6c48b283b4921173681a373cbdf4dadf2391ab689840e5ca"
+      },
+      {
+        "slug": "the-secret-adversary-013",
+        "title": "CHAPTER XII. A FRIEND IN NEED",
+        "blocks": 235,
+        "normalized_text_sha256": "2fecae1ce7130e0eb37627060c03506d4ab9924e889f2ff5e5045d95e04a207f"
+      },
+      {
+        "slug": "the-secret-adversary-014",
+        "title": "CHAPTER XIII. THE VIGIL",
+        "blocks": 152,
+        "normalized_text_sha256": "36fa1dbb1d906f3509bd39f32fe9f781a6994dd6ffa7c80e3327eb47656be871"
+      },
+      {
+        "slug": "the-secret-adversary-015",
+        "title": "CHAPTER XIV. A CONSULTATION",
+        "blocks": 100,
+        "normalized_text_sha256": "3959afd6ce58e97e351390f4e700f0905a6f87b01c14f3721c403bdea7087daa"
+      },
+      {
+        "slug": "the-secret-adversary-016",
+        "title": "CHAPTER XV. TUPPENCE RECEIVES A PROPOSAL",
+        "blocks": 118,
+        "normalized_text_sha256": "ae6b9fd2b925289d81df6a0f9d3ccb5b682ee3b8c799c3928990b15c2feebc7a"
+      },
+      {
+        "slug": "the-secret-adversary-017",
+        "title": "CHAPTER XVI. FURTHER ADVENTURES OF TOMMY",
+        "blocks": 134,
+        "normalized_text_sha256": "5091909a8d282fbf692d16bc7dd57b39b96c4986efa61f9e1ebfb7cb33ea7ab6"
+      },
+      {
+        "slug": "the-secret-adversary-018",
+        "title": "CHAPTER XVII. ANNETTE",
+        "blocks": 185,
+        "normalized_text_sha256": "3f5c8b9d7f12226b73d48b9794970225a798076e90faa882184c674f5ea0e448"
+      },
+      {
+        "slug": "the-secret-adversary-019",
+        "title": "CHAPTER XVIII. THE TELEGRAM",
+        "blocks": 190,
+        "normalized_text_sha256": "ef3d212ef7d2485081ba37d24a7386a0c3d75db8066fa1c6d44fde8906be9d6d"
+      },
+      {
+        "slug": "the-secret-adversary-020",
+        "title": "CHAPTER XIX. JANE FINN",
+        "blocks": 135,
+        "normalized_text_sha256": "9f3f8b70dfedadaa8b920c35309155b4a83da6edc5d67554661bec67802dcdb9"
+      },
+      {
+        "slug": "the-secret-adversary-021",
+        "title": "CHAPTER XX. TOO LATE",
+        "blocks": 93,
+        "normalized_text_sha256": "a9c300f22e2ebe73659fd2a5b60bbac9ad8f5875b037bbb673bc9d1a06fb6cbb"
+      },
+      {
+        "slug": "the-secret-adversary-022",
+        "title": "CHAPTER XXI. TOMMY MAKES A DISCOVERY",
+        "blocks": 77,
+        "normalized_text_sha256": "273d121121fb11fec7bcbc680f8062115ef621ea01fd7efe8f2ef43b80b8ce67"
+      },
+      {
+        "slug": "the-secret-adversary-023",
+        "title": "CHAPTER XXII. IN DOWNING STREET",
+        "blocks": 75,
+        "normalized_text_sha256": "6a6013045c09699943c3cf99e8f677a950d793e3f781221ba59c21b95fc006ca"
+      },
+      {
+        "slug": "the-secret-adversary-024",
+        "title": "CHAPTER XXIII. A RACE AGAINST TIME",
+        "blocks": 69,
+        "normalized_text_sha256": "7948390273380060276643fa5939acb90545a9661f431244150ec4f6594ba4a3"
+      },
+      {
+        "slug": "the-secret-adversary-025",
+        "title": "CHAPTER XXIV. JULIUS TAKES A HAND",
+        "blocks": 178,
+        "normalized_text_sha256": "3936d2d5cc70ff01d5d6255dbafa8d4e3c79fb1d85b2b70390b5445337cc85ef"
+      },
+      {
+        "slug": "the-secret-adversary-026",
+        "title": "CHAPTER XXV. JANE’S STORY",
+        "blocks": 125,
+        "normalized_text_sha256": "ea71a37823b6cb04607709d533dda9537ab9de7ffdef25b5486e1898c95b099b"
+      },
+      {
+        "slug": "the-secret-adversary-027",
+        "title": "CHAPTER XXVI. MR. BROWN",
+        "blocks": 57,
+        "normalized_text_sha256": "6866c00d6eeca306e3d3da95aeb36023ef536b9c32e8b6358ac2ed291267add5"
+      },
+      {
+        "slug": "the-secret-adversary-028",
+        "title": "CHAPTER XXVII. A SUPPER PARTY AT THE SAVOY",
+        "blocks": 92,
+        "normalized_text_sha256": "475f231550c16c277d3acfe731a682704021ea50905ce3ade1e11f0cd3a08143"
+      },
+      {
+        "slug": "the-secret-adversary-029",
+        "title": "CHAPTER XXVIII. AND AFTER",
+        "blocks": 71,
+        "normalized_text_sha256": "233bc522ed76214f42b993448117e16d688765f77c847127125ec3666373f454"
+      }
+    ]
+  },
+  {
+    "id": "61262",
+    "title": "Poirot Investigates",
+    "sections": [
+      {
+        "slug": "poirot-investigates-001",
+        "title": "I. The Adventure of “The Western Star”",
+        "blocks": 287,
+        "normalized_text_sha256": "295c7f64860b497de79a0b63b9d8660c8db4deb3584dd9bbac95f40b9194e1c2"
+      },
+      {
+        "slug": "poirot-investigates-002",
+        "title": "II. The Tragedy at Marsdon Manor",
+        "blocks": 180,
+        "normalized_text_sha256": "15c4051765e8bd66c774aa5b33faf3fe1a8388ad4fed3d79583ca44fd3ec7540"
+      },
+      {
+        "slug": "poirot-investigates-003",
+        "title": "III. The Adventure of the Cheap Flat",
+        "blocks": 180,
+        "normalized_text_sha256": "820733a35c56d3d2dd664e0e255ec2cff2b46f22a57a7a25b2739a4894329752"
+      },
+      {
+        "slug": "poirot-investigates-004",
+        "title": "IV. The Mystery of Hunter’s Lodge",
+        "blocks": 134,
+        "normalized_text_sha256": "381cb8e60a2d9d6cfc6052b53dc48c9f45c477ccc1e84c01e2412f065aae06b7"
+      },
+      {
+        "slug": "poirot-investigates-005",
+        "title": "V. The Million Dollar Bond Robbery",
+        "blocks": 120,
+        "normalized_text_sha256": "e6aaac782eba756add7c837e4e2c05a9722e2bab6532739510f904dd600a9520"
+      },
+      {
+        "slug": "poirot-investigates-006",
+        "title": "VI. The Adventure of the Egyptian Tomb",
+        "blocks": 180,
+        "normalized_text_sha256": "288696774c0810312535aaf8c818ca77323fbe93a9a97142057ef4c4cfb55174"
+      },
+      {
+        "slug": "poirot-investigates-007",
+        "title": "VII. The Jewel Robbery at the Grand Metropolitan",
+        "blocks": 253,
+        "normalized_text_sha256": "0962f6f22602204cd00e34e80f7e254ccd338df928b2c33958ef12f69c86f4af"
+      },
+      {
+        "slug": "poirot-investigates-008",
+        "title": "VIII. The Kidnapped Prime Minister",
+        "blocks": 240,
+        "normalized_text_sha256": "1a80d73dddf49c7ea01d0bd8add26c1df259fb154f4ef179dac7139dac5cebed"
+      },
+      {
+        "slug": "poirot-investigates-009",
+        "title": "IX. The Disappearance of Mr. Davenheim",
+        "blocks": 162,
+        "normalized_text_sha256": "cc2fcc58e6ff4eacecc029d77565cbdba6a5b607791c788385feb94208bc94f7"
+      },
+      {
+        "slug": "poirot-investigates-010",
+        "title": "X. The Adventure of the Italian Nobleman",
+        "blocks": 138,
+        "normalized_text_sha256": "d00042effc0f393281c86c937e09ea3df4ea68e1f75f0c2f8a79e8283025143f"
+      },
+      {
+        "slug": "poirot-investigates-011",
+        "title": "XI. The Case of the Missing Will",
+        "blocks": 95,
+        "normalized_text_sha256": "5a402eba2ec460cece7c4332d206fd21bda5b67ec246e8bb58bdc39693ee12f6"
+      }
+    ]
+  },
+  {
+    "id": "58866",
+    "title": "The Murder on the Links",
+    "sections": [
+      {
+        "slug": "the-murder-on-the-links-001",
+        "title": "1A Fellow Traveller",
+        "blocks": 73,
+        "normalized_text_sha256": "6c01f23857f66cbcbe77860020f581e35397e0db8c470bdbc8c9478b7773acd9"
+      },
+      {
+        "slug": "the-murder-on-the-links-002",
+        "title": "2An Appeal for Help",
+        "blocks": 137,
+        "normalized_text_sha256": "19d3996ee0f272a89e467bfaf20f7652e2b68ff8a32f50a5aa7fba04bb15ab5f"
+      },
+      {
+        "slug": "the-murder-on-the-links-003",
+        "title": "3At the Villa Geneviève",
+        "blocks": 143,
+        "normalized_text_sha256": "35eb6904598eecef204cb21632417db6ceab3b17630b1b8a8c1975b7e2fc45aa"
+      },
+      {
+        "slug": "the-murder-on-the-links-004",
+        "title": "4The Letter Signed “Bella”",
+        "blocks": 94,
+        "normalized_text_sha256": "54a4afeeb129f59603c7257d292fbe254376b14852d7441b471c5c16cfee45fe"
+      },
+      {
+        "slug": "the-murder-on-the-links-005",
+        "title": "5Mrs. Renauld’s Story",
+        "blocks": 125,
+        "normalized_text_sha256": "d3e0fb784a75381d5a453a32891f0308e311195be76d3ae45305ca2865f6bdfa"
+      },
+      {
+        "slug": "the-murder-on-the-links-006",
+        "title": "6The Scene of the Crime",
+        "blocks": 75,
+        "normalized_text_sha256": "90ab655d2abdef967fdaabea86b0ed9cd3c0d0e6e5ef254aaa1ce17e87704cda"
+      },
+      {
+        "slug": "the-murder-on-the-links-007",
+        "title": "7The Mysterious Madame Daubreuil",
+        "blocks": 155,
+        "normalized_text_sha256": "84f17217de6217ded029117219093791d1c70b9dda2bd6cfd9dedde3073be3e2"
+      },
+      {
+        "slug": "the-murder-on-the-links-008",
+        "title": "8An Unexpected Meeting",
+        "blocks": 121,
+        "normalized_text_sha256": "d31d35e86ca5fa8485d064ba968ebab8deacbeb34bb576d88346b39ea3153805"
+      },
+      {
+        "slug": "the-murder-on-the-links-009",
+        "title": "9M. Giraud Finds Some Clues",
+        "blocks": 90,
+        "normalized_text_sha256": "8971b6d6bd72ab268424485052c36045fd0f76ecf64de6d6c301d5be8abba8a7"
+      },
+      {
+        "slug": "the-murder-on-the-links-010",
+        "title": "10Gabriel Stonor",
+        "blocks": 95,
+        "normalized_text_sha256": "fb86f247379002ca4e6d65804be3327686b97afcc372a05880a01af671239ef0"
+      },
+      {
+        "slug": "the-murder-on-the-links-011",
+        "title": "11Jack Renauld",
+        "blocks": 154,
+        "normalized_text_sha256": "21419c1351496ad2ba981869c374e268d8e9db1f614c590b4791e141a2212767"
+      },
+      {
+        "slug": "the-murder-on-the-links-012",
+        "title": "12Poirot Elucidates Certain Points",
+        "blocks": 86,
+        "normalized_text_sha256": "d83d38f583acd9e503d9239329e18d80be6a8f889f552c1845fc5856bbf9bf21"
+      },
+      {
+        "slug": "the-murder-on-the-links-013",
+        "title": "13The Girl with the Anxious Eyes",
+        "blocks": 115,
+        "normalized_text_sha256": "dffa5f75dd2c97051dcf4c3213ec1e07c5ac8f7a2dbb3f2af7c75191bb6bfc37"
+      },
+      {
+        "slug": "the-murder-on-the-links-014",
+        "title": "14The Second Body",
+        "blocks": 95,
+        "normalized_text_sha256": "a90b3e5259d874a3a1f0dbd16275b866575b13e86447321cc34ba8fe053d130b"
+      },
+      {
+        "slug": "the-murder-on-the-links-015",
+        "title": "15A Photograph",
+        "blocks": 90,
+        "normalized_text_sha256": "e92930de861547bd0f2d66625e22a95ae78be7093086c0496737536a032c0c2c"
+      },
+      {
+        "slug": "the-murder-on-the-links-016",
+        "title": "16The Beroldy Case",
+        "blocks": 17,
+        "normalized_text_sha256": "fdcb2170f0e19a235cf660b83372cde0ddc38becd92af0ca9ed33f09723e32ce"
+      },
+      {
+        "slug": "the-murder-on-the-links-017",
+        "title": "17We Make Further Investigations",
+        "blocks": 89,
+        "normalized_text_sha256": "4623046455042e4a981f991ef574165177324199712ba5d5445450960c09e863"
+      },
+      {
+        "slug": "the-murder-on-the-links-018",
+        "title": "18Giraud Acts",
+        "blocks": 78,
+        "normalized_text_sha256": "51ae721e70abf87f0c7dcddb3bcacdc37382a43b67bff817fe1a23e2757c84da"
+      },
+      {
+        "slug": "the-murder-on-the-links-019",
+        "title": "19I Use My Grey Cells",
+        "blocks": 61,
+        "normalized_text_sha256": "8988b86aafaab9d6bcdaeeae0f792209a671aac47f172fa0e67f134914053fdd"
+      },
+      {
+        "slug": "the-murder-on-the-links-020",
+        "title": "20An Amazing Statement",
+        "blocks": 113,
+        "normalized_text_sha256": "bcef78af9cb37d75072a42c02d0f5bcd6bf6381d5199322aa425e87b8180467c"
+      },
+      {
+        "slug": "the-murder-on-the-links-021",
+        "title": "21Hercule Poirot on the Case!",
+        "blocks": 47,
+        "normalized_text_sha256": "f8fe731cc98f26c7b45728a86a9c4714863d5700b5f90a28c16ff111a8908e97"
+      },
+      {
+        "slug": "the-murder-on-the-links-022",
+        "title": "22I Find Love",
+        "blocks": 96,
+        "normalized_text_sha256": "9b17f8ae6d764810343d36a3e3acf63c7dc606dc4f3ab646a8b456124aff7e4b"
+      },
+      {
+        "slug": "the-murder-on-the-links-023",
+        "title": "23Difficulties Ahead",
+        "blocks": 32,
+        "normalized_text_sha256": "d13ad45e996284c433304319fcc9b92bd54eb2383b67ba6e88290c16b6a491bd"
+      },
+      {
+        "slug": "the-murder-on-the-links-024",
+        "title": "24“Save Him!”",
+        "blocks": 112,
+        "normalized_text_sha256": "b6a5e7865de3540385cf2a5e1ce040ea4ef9595af5d98b2e5d13383cb4c17786"
+      },
+      {
+        "slug": "the-murder-on-the-links-025",
+        "title": "25An Unexpected Dénouement",
+        "blocks": 54,
+        "normalized_text_sha256": "d895847354c6fc23ae7a74fc633808e63a6e3018551bfe05ec1ca5ba113a5412"
+      },
+      {
+        "slug": "the-murder-on-the-links-026",
+        "title": "26I Receive a Letter",
+        "blocks": 27,
+        "normalized_text_sha256": "122928c0fad875fff55057a17a7fa68ddc49e582aa02734ca309ab6baa97e824"
+      },
+      {
+        "slug": "the-murder-on-the-links-027",
+        "title": "27Jack Renauld’s Story",
+        "blocks": 151,
+        "normalized_text_sha256": "6f89e451d2b9f7980d29c0de7035cadd52891f8157f7be2b277cf8694f0da2e7"
+      },
+      {
+        "slug": "the-murder-on-the-links-028",
+        "title": "28Journey’s End",
+        "blocks": 100,
+        "normalized_text_sha256": "58500869a349f5e60cd8f33408a24785f0a17c468e1e9964f8dc4c83888c25dc"
+      }
+    ]
+  },
+  {
+    "id": "61168",
+    "title": "The Man in the Brown Suit",
+    "sections": [
+      {
+        "slug": "the-man-in-the-brown-suit-001",
+        "title": "PROLOGUE",
+        "blocks": 68,
+        "normalized_text_sha256": "d333be9e0d624f05ed0c394d1d25e39ce42db2ec967286f2db50b9b3b5976269"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-002",
+        "title": "CHAPTER I",
+        "blocks": 36,
+        "normalized_text_sha256": "af282bd2a4022fe8649e59f21313a577d2464b38fb82d3f3594c34282e2384ef"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-003",
+        "title": "CHAPTER II",
+        "blocks": 52,
+        "normalized_text_sha256": "26040fdee2a15c03b1b69abb7feaf1f4483f6972869e5c4cd8c2d2dfa707c9ca"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-004",
+        "title": "CHAPTER III",
+        "blocks": 40,
+        "normalized_text_sha256": "dd12cc59429896ad194a438f76f885c763c76f3afcb1eb96d9238d864de26d98"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-005",
+        "title": "CHAPTER IV",
+        "blocks": 54,
+        "normalized_text_sha256": "92510313298bb8d58801440e858371f185e78b999f0c04e0831ef29c3b6cf39d"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-006",
+        "title": "CHAPTER V",
+        "blocks": 35,
+        "normalized_text_sha256": "05e01f21068cb22d0b0bacff609ee534355215fa28e054b241dee72916cc5c00"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-007",
+        "title": "CHAPTER VI",
+        "blocks": 60,
+        "normalized_text_sha256": "b4222017994cc6bf97fb6519271607fcc35cdcb95898bda357681ccc99646d86"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-008",
+        "title": "CHAPTER VII",
+        "blocks": 28,
+        "normalized_text_sha256": "a220db8d40b3d7d132ea79106726baa601feb0064551508d8d4999f72d6d4a4c"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-009",
+        "title": "CHAPTER VIII",
+        "blocks": 85,
+        "normalized_text_sha256": "c4db70cc5bcd238741be7f4fe47e215c146e376350ca8258c30619aa4e592635"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-010",
+        "title": "CHAPTER IX",
+        "blocks": 119,
+        "normalized_text_sha256": "dde1c45f3b4deca3632205b40a579e0cf3f17787c8f335e452e2aadb14d42a98"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-011",
+        "title": "CHAPTER X",
+        "blocks": 60,
+        "normalized_text_sha256": "fef147a11a5ca174595a72f65d25d9a98a89276bc2d39bac38601e8fe7cfd94a"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-012",
+        "title": "CHAPTER XI",
+        "blocks": 79,
+        "normalized_text_sha256": "91990002ebf002aa0e0b38daadbfe0dc8879810709018a73e3a31d6639069411"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-013",
+        "title": "CHAPTER XII",
+        "blocks": 76,
+        "normalized_text_sha256": "996b776d9976cda657b068d09c2c79c658c1f6bcff287894e8536eabd2dfe77c"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-014",
+        "title": "CHAPTER XIII",
+        "blocks": 54,
+        "normalized_text_sha256": "8a7fca1cfb9ef40dea616747817e746708d87e0fe0e613930fe3aa90e86751ea"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-015",
+        "title": "CHAPTER XIV",
+        "blocks": 91,
+        "normalized_text_sha256": "1caacd077c1a634b4f24dcca9c047007e81ae515be31938df877bd3f5340e469"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-016",
+        "title": "CHAPTER XV",
+        "blocks": 77,
+        "normalized_text_sha256": "003775642568a862376fc37ace0c6d6cb35dd284eb4bc740fafb734f155ad1cb"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-017",
+        "title": "CHAPTER XVI",
+        "blocks": 133,
+        "normalized_text_sha256": "7de0a2f513f8a6ed198012839b5a94854e0b06ef39d22a44ec72822b50800d71"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-018",
+        "title": "CHAPTER XVII",
+        "blocks": 66,
+        "normalized_text_sha256": "b88ca2e72cc28d61ea359d36aa2a71f2dd9057849df43e4fb1e9eab6ebdd892e"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-019",
+        "title": "CHAPTER XVIII",
+        "blocks": 60,
+        "normalized_text_sha256": "93569d01998496d9e6825cbff231f23ec2eedc53d6753df16a21c136323f3c2b"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-020",
+        "title": "CHAPTER XIX",
+        "blocks": 76,
+        "normalized_text_sha256": "1342d5835fdeab5b4b55504c8a0839c072c27a4fe17dbe7fb4011698d5c51115"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-021",
+        "title": "CHAPTER XX",
+        "blocks": 129,
+        "normalized_text_sha256": "6871165ba50635f1dde832c446cc26a452cb0a91d0be32590e2f51993225449b"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-022",
+        "title": "CHAPTER XXI",
+        "blocks": 50,
+        "normalized_text_sha256": "538e685f2e4de9e61db0313a4de719342b8df8057b59ae2dd04b622c3993cf04"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-023",
+        "title": "CHAPTER XXII",
+        "blocks": 42,
+        "normalized_text_sha256": "2a6182ad269a1b6ee315f62b55fb932188b547582baced8f22f7339a97fe87cb"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-024",
+        "title": "CHAPTER XXIII",
+        "blocks": 30,
+        "normalized_text_sha256": "4ff5e36aeaf9610f3d6e5365ac079f75796e3129cc19719a49b36fb5d36ef700"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-025",
+        "title": "CHAPTER XXIV",
+        "blocks": 128,
+        "normalized_text_sha256": "432b6fc1325da8a942ae6ffb81965632995ae14dc65606f7167bbd7a3b1aaae5"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-026",
+        "title": "CHAPTER XXV",
+        "blocks": 126,
+        "normalized_text_sha256": "997acd7d79d323770f9395fd14705b3593b1ae0950b2477364e3cdbe7f94b760"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-027",
+        "title": "CHAPTER XXVI",
+        "blocks": 39,
+        "normalized_text_sha256": "6d41c0a1122077edbb902458ce50bb63bd6044f8dc100ac43960e95f1a1d7617"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-028",
+        "title": "CHAPTER XXVII",
+        "blocks": 90,
+        "normalized_text_sha256": "87ae359f32fc2abef34606dacf6f1d7d65ca2513b6760d937c7a2184f763d070"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-029",
+        "title": "CHAPTER XXVIII",
+        "blocks": 39,
+        "normalized_text_sha256": "05dd86de6767d6c2ca62db897a2c99ed112df69673c21f0f78d173d45e959a44"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-030",
+        "title": "CHAPTER XXIX",
+        "blocks": 82,
+        "normalized_text_sha256": "0aaef63510254c0f72a1765664690304f999ddbb0d4a7f1e8e6fc678c56451bc"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-031",
+        "title": "CHAPTER XXX",
+        "blocks": 67,
+        "normalized_text_sha256": "d87f7b3fbb1b7357494efa80411fc45812b1bece7dcd8a49ca31a81c73c5cb0f"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-032",
+        "title": "CHAPTER XXXI",
+        "blocks": 98,
+        "normalized_text_sha256": "ec0a2168ea057016f60a4c21978e3d7c73aae33348f459983cfaf02f0026cc3f"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-033",
+        "title": "CHAPTER XXXII",
+        "blocks": 126,
+        "normalized_text_sha256": "6c90becb3b9b2e789dc10f8f6f6a2c7b3e23cb56741a572f425560712508d202"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-034",
+        "title": "CHAPTER XXXIII",
+        "blocks": 65,
+        "normalized_text_sha256": "aa4e05d9df93eb6fc7907c70f8edec0f1bc05afa4e0c481c30e01b9b6cc6da8b"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-035",
+        "title": "CHAPTER XXXIV",
+        "blocks": 58,
+        "normalized_text_sha256": "e2e347a8a28e9dbd7476dadfb271925da661265facbd252d8d223c3129d02ed6"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-036",
+        "title": "CHAPTER XXXV",
+        "blocks": 50,
+        "normalized_text_sha256": "09bd29fc20bd8044029db119a33d66895f088c8ec4f701c231f9da073a4bec0b"
+      },
+      {
+        "slug": "the-man-in-the-brown-suit-037",
+        "title": "CHAPTER XXXVI",
+        "blocks": 26,
+        "normalized_text_sha256": "cb1658de638dc9fb11f4f701728f9a7e9edea402e707bed7e5fe765414fa5ac7"
+      }
+    ]
+  },
+  {
+    "id": "70114",
+    "title": "The Big Four",
+    "sections": [
+      {
+        "slug": "the-big-four-001",
+        "title": "1. THE UNEXPECTED GUEST",
+        "blocks": 101,
+        "normalized_text_sha256": "fe6a8fc5925205f372340b44140b049828134afa96a71a3ab8a3d8685924ac67"
+      },
+      {
+        "slug": "the-big-four-002",
+        "title": "2. THE MAN FROM THE ASYLUM",
+        "blocks": 81,
+        "normalized_text_sha256": "52083bb7b157263797312912dccadacd9b48bc7afad56f9a51bc5233a7f4d47a"
+      },
+      {
+        "slug": "the-big-four-003",
+        "title": "3. WE HEAR MORE ABOUT LI CHANG YEN",
+        "blocks": 84,
+        "normalized_text_sha256": "e2071803b3c4b3df93b22cfb29ea1c6248fcd8b5f1174ebb3f832deacff374b0"
+      },
+      {
+        "slug": "the-big-four-004",
+        "title": "4. THE IMPORTANCE OF A LEG OF MUTTON",
+        "blocks": 95,
+        "normalized_text_sha256": "9f236db0e5ae11a03b846294008f3b00a3bad3592e86281c8206a4382ff24d74"
+      },
+      {
+        "slug": "the-big-four-005",
+        "title": "5. DISAPPEARANCE OF A SCIENTIST",
+        "blocks": 70,
+        "normalized_text_sha256": "95fa5b5df3260d8a8f63df5a27942cf6dd913e5cb8f505758c0b41a825c7f783"
+      },
+      {
+        "slug": "the-big-four-006",
+        "title": "6. THE WOMAN ON THE STAIRS",
+        "blocks": 111,
+        "normalized_text_sha256": "5ace82a6d321347f892f0c76a249b10122b0c9ab8a466616105da6f8e38fd771"
+      },
+      {
+        "slug": "the-big-four-007",
+        "title": "7. THE RADIUM THIEVES",
+        "blocks": 140,
+        "normalized_text_sha256": "095a037d010fd134ea7e746d2fc15666f6b0de3bf6825201f4e2b299ce996c86"
+      },
+      {
+        "slug": "the-big-four-008",
+        "title": "8. IN THE HOUSE OF THE ENEMY",
+        "blocks": 113,
+        "normalized_text_sha256": "8dbc4ca71c3159c77d6a1dfb44a2ac6bb8569475dc330650d400e22ced39a7df"
+      },
+      {
+        "slug": "the-big-four-009",
+        "title": "9. THE YELLOW JASMINE MYSTERY",
+        "blocks": 63,
+        "normalized_text_sha256": "df58d8906eb592ddf3682236d37aac80dcf4cc4870e36640756834b8d788d259"
+      },
+      {
+        "slug": "the-big-four-010",
+        "title": "10. WE INVESTIGATE AT CROFTLANDS",
+        "blocks": 94,
+        "normalized_text_sha256": "d5a696f46f8142857e72897c70e455413c9fc339ddac04e4e130639f212c5d52"
+      },
+      {
+        "slug": "the-big-four-011",
+        "title": "11. A CHESS PROBLEM",
+        "blocks": 208,
+        "normalized_text_sha256": "cc731064d2c204dcc628b0fc6ec60376856257775622568894353d905fb665fa"
+      },
+      {
+        "slug": "the-big-four-012",
+        "title": "12. THE BAITED TRAP",
+        "blocks": 100,
+        "normalized_text_sha256": "a0d9d6d95532aee249348787d91b8b42e36fa3b5fe9071bc0be83e8089852824"
+      },
+      {
+        "slug": "the-big-four-013",
+        "title": "13. THE MOUSE WALKS IN",
+        "blocks": 95,
+        "normalized_text_sha256": "442bd7b47b6bbe7024698e029bac08a1893350dad737bba2ff4399b8eda9264b"
+      },
+      {
+        "slug": "the-big-four-014",
+        "title": "14. THE PEROXIDE BLONDE",
+        "blocks": 145,
+        "normalized_text_sha256": "28fd39f15385362007d60762be92d59e36c66a6aa9ea2b4861d61ef532f6e0c1"
+      },
+      {
+        "slug": "the-big-four-015",
+        "title": "15. THE TERRIBLE CATASTROPHE",
+        "blocks": 160,
+        "normalized_text_sha256": "df96430add4e3ce564957db29926e5063513d2ca97beecce5b8249005948b8f0"
+      },
+      {
+        "slug": "the-big-four-016",
+        "title": "16. THE DYING CHINAMAN",
+        "blocks": 109,
+        "normalized_text_sha256": "5caf6f1b8f9dfe3e16b6d239d25240a15443a1d1942c541a681ad343cb041d83"
+      },
+      {
+        "slug": "the-big-four-017",
+        "title": "17. NUMBER FOUR WINS A TRICK",
+        "blocks": 102,
+        "normalized_text_sha256": "e719652b556b25539837c9d8ad04b0652ff0f9c89ae39b737f784f3c97cbf528"
+      },
+      {
+        "slug": "the-big-four-018",
+        "title": "18. IN THE FELSENLABYRYNTH",
+        "blocks": 113,
+        "normalized_text_sha256": "aaf08713770cc704ede60ca082533e3d88909ff28998a703dd716ff4fe95e696"
+      }
+    ]
+  },
+  {
+    "id": "72824",
+    "title": "The Mystery of the Blue Train",
+    "sections": [
+      {
+        "slug": "the-mystery-of-the-blue-train-001",
+        "title": "1. The Man with the White Hair",
+        "blocks": 94,
+        "normalized_text_sha256": "e4606960992dce4be6945bb7756d606f9156f39d1efb988060a66bee53e421f0"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-002",
+        "title": "2. M. le Marquis",
+        "blocks": 63,
+        "normalized_text_sha256": "14470c0eada59f2df7e87b6c51b13b1ba1d3e9d54ef3faa34af666924e8cc559"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-003",
+        "title": "3. Heart of Fire",
+        "blocks": 65,
+        "normalized_text_sha256": "18a76c2446142651f1572869bd4bfba3a9fb279027b52c9b7ce2d8544638c5bf"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-004",
+        "title": "4. In Curzon Street",
+        "blocks": 103,
+        "normalized_text_sha256": "c3b245bd8958db691dedd8d38b36121a81b010a0bdfb184185b0f67be663eb4c"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-005",
+        "title": "5. A Useful Gentleman",
+        "blocks": 148,
+        "normalized_text_sha256": "eaed52f3f38e12160c4ee3f7ce306279f48d92ee1d964340c2efe540367ea4ef"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-006",
+        "title": "6. Mirelle",
+        "blocks": 103,
+        "normalized_text_sha256": "ceb02f3436e65c27f599bfb07700810978018b01e7674fe0f226462655ffcb9c"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-007",
+        "title": "7. Letters",
+        "blocks": 95,
+        "normalized_text_sha256": "16618bc423c47069e0dc0e180ce25ca6d28602f41c3b4b5525f1fd99c12d486a"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-008",
+        "title": "8. Lady Tamplin Writes a Letter",
+        "blocks": 74,
+        "normalized_text_sha256": "1c970ac6c932e71d0c35286674443f4f62b0038641bb801dfbeb7a06f5204af8"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-009",
+        "title": "9. An Offer Refused",
+        "blocks": 69,
+        "normalized_text_sha256": "0f5e8806a161a8f5c9282346ceeb5591655489e7f5cd304ddf572d1de9b8f77d"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-010",
+        "title": "10. On the Blue Train",
+        "blocks": 118,
+        "normalized_text_sha256": "a6bbad8f4bc0fefb84adce2f2933563fbfb0c1209bf358e6d6ef5700426b6bf6"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-011",
+        "title": "11. Murder",
+        "blocks": 158,
+        "normalized_text_sha256": "11b60bc293354c2c6b5c6dbf85ddea42c75308a829851ed4f01a88dcfeb386c3"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-012",
+        "title": "12. At the Villa Marguerite",
+        "blocks": 73,
+        "normalized_text_sha256": "bad6e66fe1ff0eab36b43cbbd6ee98289701677b12d01c88ceff63f607563da1"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-013",
+        "title": "13. Van Aldin Gets a Telegram",
+        "blocks": 63,
+        "normalized_text_sha256": "ee8eb1b30c3b303a2894cd45892f171f3938335adc60ef494d3c2b02df54fd2d"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-014",
+        "title": "14. Ada Mason's Story",
+        "blocks": 64,
+        "normalized_text_sha256": "8051c84045010ff7ba8dae0ba2cc6d212d22fde8c89bdd2087acfd20d8f6d43f"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-015",
+        "title": "15. The Comte de la Roche",
+        "blocks": 75,
+        "normalized_text_sha256": "44009c345cb8c1f46156ede1cd955ef8a44f65197acd3a2cbb51d5274f357d14"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-016",
+        "title": "16. Poirot Discusses the Case",
+        "blocks": 129,
+        "normalized_text_sha256": "bbc530d0bdea4d60ce6a172273e6ad555360f79c3c7a0554e596d8d2d3e459a8"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-017",
+        "title": "17. An Aristocratic Gentleman",
+        "blocks": 149,
+        "normalized_text_sha256": "23630c5d4d8732132491bc87fe9881ba65defda74355e9f70b8cf075da7f614d"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-018",
+        "title": "18. Derek Lunches",
+        "blocks": 47,
+        "normalized_text_sha256": "27977b005cd98af6dec3af05ce5960cd556c99630ed690293b33c3bd169314d7"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-019",
+        "title": "19. An Unexpected Visitor",
+        "blocks": 92,
+        "normalized_text_sha256": "103bfd1ac8aaf52a6a74c64f2ff5222a6f19433b8b06e00d26e94467dfbb3156"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-020",
+        "title": "20. Katherine Makes a Friend",
+        "blocks": 75,
+        "normalized_text_sha256": "3c36284f28e4b2107249add9c1543d88ec8fa1f5b91b4dc68f010a0f91d41488"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-021",
+        "title": "21. At the Tennis",
+        "blocks": 134,
+        "normalized_text_sha256": "63d92ea5513301d29518acd6a6b82994141a70ff4834af8a86c36753182f9341"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-022",
+        "title": "22. M. Papopolous Breakfasts",
+        "blocks": 88,
+        "normalized_text_sha256": "2ef4720e9d97063ee941426b6df22ad2bf62797f8d68c0b63ae2ba6d6a1ff568"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-023",
+        "title": "23. A New Theory",
+        "blocks": 60,
+        "normalized_text_sha256": "77a40bd0c07659d13454c357a73c89932f0799a5c9ea476bbb985881789a9b7d"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-024",
+        "title": "24. Poirot Gives Advice",
+        "blocks": 83,
+        "normalized_text_sha256": "6b04ed1ac5ce2309c11041439f4f6dd3c248d60e22a97c6b348e189737aa21d8"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-025",
+        "title": "25. Defiance",
+        "blocks": 104,
+        "normalized_text_sha256": "8ca8ac14f641a688ba8eee09e7228660d448aacbe711501668c862ac23598b3b"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-026",
+        "title": "26. A Warning",
+        "blocks": 88,
+        "normalized_text_sha256": "c07d61a855ea4826cc8ee34dacbe4cecdb3bd4339cbaa635734e663a6c3b5edd"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-027",
+        "title": "27. Interview with Mirelle",
+        "blocks": 170,
+        "normalized_text_sha256": "5025fb18df4d3170d6fc22d3b697c4845968f80c911ced725ccfbbc0bebcfd0f"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-028",
+        "title": "28. Poirot Plays the Squirrel",
+        "blocks": 151,
+        "normalized_text_sha256": "62741535136761e073f6c62d20b4aa3bd579f95c9f70ac8275482c9deb6c6313"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-029",
+        "title": "29. A Letter From Home",
+        "blocks": 133,
+        "normalized_text_sha256": "4fe3fbdb0f96c9cba3958a56209415d0a139849bfc4c25114101eac721b61241"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-030",
+        "title": "30. Miss Viner Gives Judgment",
+        "blocks": 66,
+        "normalized_text_sha256": "3524a4b9183c75c5482772b591161f4d45fd05b3b05dbf7cf37a6cb10bd8eb85"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-031",
+        "title": "31. Mr. Aarons Lunches",
+        "blocks": 48,
+        "normalized_text_sha256": "8d649fe8603f5835b494f8320a282c24fd3dfb36ddfa782f2d6f8388320dc986"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-032",
+        "title": "32. Katherine and Poirot Compare Notes",
+        "blocks": 85,
+        "normalized_text_sha256": "615b7cbb54199fee91da9071209031083136d7fcc2a479d1bcf7b8c0eb16b10a"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-033",
+        "title": "33. A New Theory",
+        "blocks": 59,
+        "normalized_text_sha256": "51938483aed510ce9c6f6755ae335582cd6028d5d78b937eef2573ef78b3a00d"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-034",
+        "title": "34. The Blue Train Again",
+        "blocks": 54,
+        "normalized_text_sha256": "30e680517b0ec12299e236b0306e4ebe89945861a2c68fc56fb2408fe146a1e2"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-035",
+        "title": "35. Explanations",
+        "blocks": 63,
+        "normalized_text_sha256": "c235a2898f096f576bd88fe2b1f15c350237993456e2891f307f3135018b994a"
+      },
+      {
+        "slug": "the-mystery-of-the-blue-train-036",
+        "title": "36. By the Sea",
+        "blocks": 30,
+        "normalized_text_sha256": "fc6c00aaa64ed11d9ed6224160f08b2291fea3a6a6ba351a27fb9e8998f2c28e"
+      }
+    ]
+  },
+  {
+    "id": "75288",
+    "title": "The Seven Dials Mystery",
+    "sections": [
+      {
+        "slug": "the-seven-dials-mystery-001",
+        "title": "Chapter I",
+        "blocks": 137,
+        "normalized_text_sha256": "414b103d1c3349c7b4c342e3738cf596ceb19da24fbd906a4e2b985cb5742417"
+      },
+      {
+        "slug": "the-seven-dials-mystery-002",
+        "title": "Chapter II",
+        "blocks": 73,
+        "normalized_text_sha256": "95cce15d539de6119198f7a5a8b6e03deea5ead31a485800e8333b347d17436d"
+      },
+      {
+        "slug": "the-seven-dials-mystery-003",
+        "title": "Chapter III",
+        "blocks": 182,
+        "normalized_text_sha256": "af3c07dbecbeb25c04e6e9feb6da061da5adc28750362dcc1a9b36b333eb0a33"
+      },
+      {
+        "slug": "the-seven-dials-mystery-004",
+        "title": "Chapter IV",
+        "blocks": 86,
+        "normalized_text_sha256": "b56a29dce9423d639489f45c80ef624486443145d9b4ca6ebb520ce2852bd029"
+      },
+      {
+        "slug": "the-seven-dials-mystery-005",
+        "title": "Chapter V",
+        "blocks": 68,
+        "normalized_text_sha256": "0936ab368a99b58680a2f6ce8b75a38a7ad57181ff28df75fd1b2af4ab652f48"
+      },
+      {
+        "slug": "the-seven-dials-mystery-006",
+        "title": "Chapter VI",
+        "blocks": 86,
+        "normalized_text_sha256": "f6adb2fed93e51f2092fe26a8a3b2fd0f30b68592297c907d893197af712e24b"
+      },
+      {
+        "slug": "the-seven-dials-mystery-007",
+        "title": "Chapter VII",
+        "blocks": 92,
+        "normalized_text_sha256": "4cf79bcce6fdb75239ba731ac0c229aa5ebd6e044de73ff684de23344d913197"
+      },
+      {
+        "slug": "the-seven-dials-mystery-008",
+        "title": "Chapter VIII",
+        "blocks": 100,
+        "normalized_text_sha256": "f82c49c8e41b62709d6569e087a1288849225f6fcc7d27a4c60bad3a7de23b1f"
+      },
+      {
+        "slug": "the-seven-dials-mystery-009",
+        "title": "Chapter IX",
+        "blocks": 120,
+        "normalized_text_sha256": "81f537855eb00796353e9562df01bdd0e1d1cff6bd8eeaf0b2d1ad57992b7123"
+      },
+      {
+        "slug": "the-seven-dials-mystery-010",
+        "title": "Chapter X",
+        "blocks": 93,
+        "normalized_text_sha256": "85896d0e8021a1a79ae596601ef26af16d4cc7c3d94d308aa5d8407eff2781e2"
+      },
+      {
+        "slug": "the-seven-dials-mystery-011",
+        "title": "Chapter XI",
+        "blocks": 116,
+        "normalized_text_sha256": "55675994d7e48dc8c576a0cc49f978a0ae3d0bb97e2135a588de28bf67f2d2fe"
+      },
+      {
+        "slug": "the-seven-dials-mystery-012",
+        "title": "Chapter XII",
+        "blocks": 129,
+        "normalized_text_sha256": "73076ea1f23da48a0726b3e56c0c525f856f78e5cb8e189325eb7e69dd1b9cb7"
+      },
+      {
+        "slug": "the-seven-dials-mystery-013",
+        "title": "Chapter XIII",
+        "blocks": 97,
+        "normalized_text_sha256": "e57623b97770c20ac27592f03a741183707e726a0e3752bb7ec5bccf16b1bbbc"
+      },
+      {
+        "slug": "the-seven-dials-mystery-014",
+        "title": "Chapter XIV",
+        "blocks": 98,
+        "normalized_text_sha256": "85c9ea642381bbd484c68c4945e729a25f71adbe4258ee5d7d36b8dcb1ec449f"
+      },
+      {
+        "slug": "the-seven-dials-mystery-015",
+        "title": "Chapter XV",
+        "blocks": 102,
+        "normalized_text_sha256": "ed1291a1fa5cebb2631ff3b02bd72894af5f72b27d3268250f76d4016c181191"
+      },
+      {
+        "slug": "the-seven-dials-mystery-016",
+        "title": "Chapter XVI",
+        "blocks": 92,
+        "normalized_text_sha256": "146c545ec55964ec2400b44ea574187ccc83c2502c110ebe0f231857ec8f2960"
+      },
+      {
+        "slug": "the-seven-dials-mystery-017",
+        "title": "Chapter XVII",
+        "blocks": 110,
+        "normalized_text_sha256": "a4d23538e0f49add921d364e961b3bfa6114f56708547d3f0260c7dddbcfe67d"
+      },
+      {
+        "slug": "the-seven-dials-mystery-018",
+        "title": "Chapter XVIII",
+        "blocks": 57,
+        "normalized_text_sha256": "2d1de50e1fdd05a35c9a96b56b638d4f79f129efcdb07d685785566b754ebe9f"
+      },
+      {
+        "slug": "the-seven-dials-mystery-019",
+        "title": "Chapter XIX",
+        "blocks": 55,
+        "normalized_text_sha256": "bca3b85f293fa2b396a43883b4ff2ae1d10edb9dca28869dc5e7ecd752cab6e7"
+      },
+      {
+        "slug": "the-seven-dials-mystery-020",
+        "title": "Chapter XX",
+        "blocks": 89,
+        "normalized_text_sha256": "1d285d488d45da4bc2511a5580940f10a747faa7e0b886a71dcd048ed11573db"
+      },
+      {
+        "slug": "the-seven-dials-mystery-021",
+        "title": "Chapter XXI",
+        "blocks": 121,
+        "normalized_text_sha256": "ebc1bafc7642d60fc565b5416b7d2e9b9ab0c4214957da913dd6dd12ea1b967d"
+      },
+      {
+        "slug": "the-seven-dials-mystery-022",
+        "title": "Chapter XXII",
+        "blocks": 123,
+        "normalized_text_sha256": "d538c5db756252ac24b4e103124eb6d0c7238c5e7ff2b3c033ee0b506198736c"
+      },
+      {
+        "slug": "the-seven-dials-mystery-023",
+        "title": "Chapter XXIII",
+        "blocks": 111,
+        "normalized_text_sha256": "72cf96f4c6df3586a1256b5a22f92f18831590645ee2419e2e5109a06c8c2631"
+      },
+      {
+        "slug": "the-seven-dials-mystery-024",
+        "title": "Chapter XXIV",
+        "blocks": 90,
+        "normalized_text_sha256": "7e3bee7b44443caafa6dbab7e2067b2ec7c30b0eed6db02a8cde3a542b32ab1c"
+      },
+      {
+        "slug": "the-seven-dials-mystery-025",
+        "title": "Chapter XXV",
+        "blocks": 134,
+        "normalized_text_sha256": "17fd535e80f5743420b53dc4ed15a3ac2ecdc4775c517baf6ec0407cd1a42c6a"
+      },
+      {
+        "slug": "the-seven-dials-mystery-026",
+        "title": "Chapter XXVI",
+        "blocks": 51,
+        "normalized_text_sha256": "cf2812a00f929c076ae7f35e01bbbab5a2b093e1d2b620c1eeb37e62e244d489"
+      },
+      {
+        "slug": "the-seven-dials-mystery-027",
+        "title": "Chapter XXVII",
+        "blocks": 76,
+        "normalized_text_sha256": "b309feab748bd307653819644a251002ba0a4b7480309b44ef5b9cd7c41c56d0"
+      },
+      {
+        "slug": "the-seven-dials-mystery-028",
+        "title": "Chapter XXVIII",
+        "blocks": 114,
+        "normalized_text_sha256": "6d1204d5b5e5ffebceef9517c2c80b996035d527360a86927646217318250216"
+      },
+      {
+        "slug": "the-seven-dials-mystery-029",
+        "title": "Chapter XXIX",
+        "blocks": 116,
+        "normalized_text_sha256": "9b139f09cd5f97792f74406ee7ca83678e2cf7d3817dec7ac81f4e61e9ae59ce"
+      },
+      {
+        "slug": "the-seven-dials-mystery-030",
+        "title": "Chapter XXX",
+        "blocks": 114,
+        "normalized_text_sha256": "82c57977f64b7b6e007006f652a643aeef49a02826984268df3fa771e890f2ad"
+      },
+      {
+        "slug": "the-seven-dials-mystery-031",
+        "title": "Chapter XXXI",
+        "blocks": 84,
+        "normalized_text_sha256": "35c34fbb67197380e006a8e0bb6c1eb7e3ca63fb4807646541b0489c6900ae8c"
+      },
+      {
+        "slug": "the-seven-dials-mystery-032",
+        "title": "Chapter XXXII",
+        "blocks": 25,
+        "normalized_text_sha256": "8b06be90ac440a2f9eae6492c41b8f077cea95193a116878b1485113d9d2ae13"
+      },
+      {
+        "slug": "the-seven-dials-mystery-033",
+        "title": "Chapter XXXIII",
+        "blocks": 70,
+        "normalized_text_sha256": "b0b92a4521b5fbfcc32bea9b02646ca45809ee1e41837f463092ecaff46643a4"
+      },
+      {
+        "slug": "the-seven-dials-mystery-034",
+        "title": "Chapter XXXIV",
+        "blocks": 20,
+        "normalized_text_sha256": "8d098276e4d04445173a4d97079ad63030db1b3773a4979d0fa612b0573ba81e"
+      }
+    ]
+  },
+  {
+    "id": "67173",
+    "title": "The Missing Will",
+    "sections": [
+      {
+        "slug": "the-missing-will-001",
+        "title": "The Missing Will",
+        "blocks": 93,
+        "normalized_text_sha256": "68f700106ff7105b430d46f51b9015727c57d682db870e01ebbf31c549455829"
+      }
+    ]
+  },
+  {
+    "id": "66446",
+    "title": "The Plymouth Express Affair",
+    "sections": [
+      {
+        "slug": "the-plymouth-express-affair-001",
+        "title": "The Plymouth Express Affair",
+        "blocks": 194,
+        "normalized_text_sha256": "a0721e982e481f0a4056e31ed67b7ee1eaf2b828af185ad321d21e9f0f004e91"
+      }
+    ]
+  },
+  {
+    "id": "67160",
+    "title": "The Hunter’s Lodge Case",
+    "sections": [
+      {
+        "slug": "the-hunters-lodge-case-001",
+        "title": "The Hunter’s Lodge Case",
+        "blocks": 136,
+        "normalized_text_sha256": "ba02206c900d8f863c38e28346d60875b3f61ef0e4e56871f85f90ca9c8b571d"
+      }
+    ]
+  },
+  {
+    "id": "78084",
+    "title": "The Mysterious Mr. Quin",
+    "sections": [
+      {
+        "slug": "the-mysterious-mr-quin-001",
+        "title": "The Coming of Mr. Quin",
+        "blocks": 198,
+        "normalized_text_sha256": "387fef6577a7f105ea1fe7164ec6b30891e75800c36715e32825adb6312d6286"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-002",
+        "title": "The Shadow on the Glass",
+        "blocks": 247,
+        "normalized_text_sha256": "65540f9bac909430d7af74298cb7f772109d143d2c7794c357373a557cd94c9a"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-003",
+        "title": "At the Bells and Motley",
+        "blocks": 203,
+        "normalized_text_sha256": "d5b8d90bb8fff5bee13bd4289582e8e916299c280eaf38fb24df8f144230d0ef"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-004",
+        "title": "The Sign in the Sky",
+        "blocks": 184,
+        "normalized_text_sha256": "90f16eb1215c5b741719e11fe821cf0207658b57aea880332b4261a804dc18d3"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-005",
+        "title": "The Soul of the Croupier",
+        "blocks": 195,
+        "normalized_text_sha256": "0c977b2f9e396484410d469b4e0b281031f84c8b0a618161e3a733b7169d83f8"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-006",
+        "title": "The World's End",
+        "blocks": 265,
+        "normalized_text_sha256": "18c0195cefe54eddbbf73f2ed89774ce33bf318b069cfd1ee8452d359529bae3"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-007",
+        "title": "The Voice in the Dark",
+        "blocks": 208,
+        "normalized_text_sha256": "1142776c825b5c1d7831c194bb74f5d211bedcffcdf24e4932eb50638b915b08"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-008",
+        "title": "The Face of Helen",
+        "blocks": 182,
+        "normalized_text_sha256": "7459e5be7b0ba7718c3cc9ce121bc80183269eaa883bb80e9924b102c98f0da3"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-009",
+        "title": "The Dead Harlequin",
+        "blocks": 266,
+        "normalized_text_sha256": "06836be887d5d5115b23bb6f874b00074ba1eceb7aef32a0e03262f12b8e1aa0"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-010",
+        "title": "The Bird With the Broken Wing",
+        "blocks": 275,
+        "normalized_text_sha256": "b383c9a2c9847fffb1a8e5a85dae77f54d5df9eb5502f452a806813b4b40ece4"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-011",
+        "title": "The Man From the Sea",
+        "blocks": 271,
+        "normalized_text_sha256": "ba8229a58a24a9ac1733aa22fca2228796d9f436b6607704d65d431ffebbcd81"
+      },
+      {
+        "slug": "the-mysterious-mr-quin-012",
+        "title": "Harlequin's Lane",
+        "blocks": 312,
+        "normalized_text_sha256": "6d0e8d22364abc2f412e39030668efeadd51af63d85044897f1f08c286b8568c"
+      }
+    ]
+  },
+  {
+    "id": "78220",
+    "title": "Murder at the Vicarage",
+    "sections": [
+      {
+        "slug": "murder-at-the-vicarage-001",
+        "title": "Chapter 1",
+        "blocks": 65,
+        "normalized_text_sha256": "2578d7f121c01f0fca2516b4e2f51abdbd62b091fbb2b5603407d7c179ca306d"
+      },
+      {
+        "slug": "murder-at-the-vicarage-002",
+        "title": "Chapter 2",
+        "blocks": 125,
+        "normalized_text_sha256": "2dd0607a0dacf35b1ab2f2203c6c313d10c0d7f090041c6ed6c64a9c9dd2f832"
+      },
+      {
+        "slug": "murder-at-the-vicarage-003",
+        "title": "Chapter 3",
+        "blocks": 99,
+        "normalized_text_sha256": "33cae43396840637434db47253c6135c1f90a20fc03734b440fd901e0c1dd130"
+      },
+      {
+        "slug": "murder-at-the-vicarage-004",
+        "title": "Chapter 4",
+        "blocks": 97,
+        "normalized_text_sha256": "1bb96671043ec36075c45e59c97de460cab38f8072f4b6cf9da131d04207a845"
+      },
+      {
+        "slug": "murder-at-the-vicarage-005",
+        "title": "Chapter 5",
+        "blocks": 112,
+        "normalized_text_sha256": "cc60d19bb355900de98c1d35d5dce9711193a4d9d857bd8ecd53b3d7067cf52c"
+      },
+      {
+        "slug": "murder-at-the-vicarage-006",
+        "title": "Chapter 6",
+        "blocks": 132,
+        "normalized_text_sha256": "50c884edb9bd59b7d67297662a573dbd9f4295df5b62134ecef7f2dc652a3bae"
+      },
+      {
+        "slug": "murder-at-the-vicarage-007",
+        "title": "Chapter 7",
+        "blocks": 50,
+        "normalized_text_sha256": "43fb502ba9e35837fb6385844aaf855bac81675a78d1f123218b91ddfba9eca9"
+      },
+      {
+        "slug": "murder-at-the-vicarage-008",
+        "title": "Chapter 8",
+        "blocks": 134,
+        "normalized_text_sha256": "30ce848f315107791ab376f63c972cff50bd549af069c19dc50911c473edc626"
+      },
+      {
+        "slug": "murder-at-the-vicarage-009",
+        "title": "Chapter 9",
+        "blocks": 93,
+        "normalized_text_sha256": "c841f9b83fd94c39ca1466dd036f0436a9fafc3cb6f20f9e8d4269814f410b7e"
+      },
+      {
+        "slug": "murder-at-the-vicarage-010",
+        "title": "Chapter 10",
+        "blocks": 102,
+        "normalized_text_sha256": "cc79116d58099936a68d891d1bc1730882a83fe19302b46460f5c9e49c2aa0f4"
+      },
+      {
+        "slug": "murder-at-the-vicarage-011",
+        "title": "Chapter 11",
+        "blocks": 96,
+        "normalized_text_sha256": "b28903e5bd12e08351ac8aaef99f63d7f1b58cefee97da9f58decd059622f2ba"
+      },
+      {
+        "slug": "murder-at-the-vicarage-012",
+        "title": "Chapter 12",
+        "blocks": 185,
+        "normalized_text_sha256": "04dc7285df8bff4a4540384f9e39a8a7d560785cee3c0c06d0ebda0ed14d9ee4"
+      },
+      {
+        "slug": "murder-at-the-vicarage-013",
+        "title": "Chapter 13",
+        "blocks": 104,
+        "normalized_text_sha256": "e8ce5046c02bdb3ad17a6ef1598fa811d571e98bd8ed0565b11375470aff3859"
+      },
+      {
+        "slug": "murder-at-the-vicarage-014",
+        "title": "Chapter 14",
+        "blocks": 91,
+        "normalized_text_sha256": "f5e4e19a55c9badf768f827a867becf6cbc47dfb7c131eb67da5b3bb74c45800"
+      },
+      {
+        "slug": "murder-at-the-vicarage-015",
+        "title": "Chapter 15",
+        "blocks": 154,
+        "normalized_text_sha256": "788bf18d20418b692355ca44449f4924c178c586133f616f03a1dc2ec0998509"
+      },
+      {
+        "slug": "murder-at-the-vicarage-016",
+        "title": "Chapter 16",
+        "blocks": 196,
+        "normalized_text_sha256": "9d5f687473953b5f5052811ae4577566e7278551fe8e5ac07fe23531a521be8f"
+      },
+      {
+        "slug": "murder-at-the-vicarage-017",
+        "title": "Chapter 17",
+        "blocks": 79,
+        "normalized_text_sha256": "59a8bdf55714e8634d34dcd9e9eef0163c77995f9f3b5d727292d6dc90289567"
+      },
+      {
+        "slug": "murder-at-the-vicarage-018",
+        "title": "Chapter 18",
+        "blocks": 76,
+        "normalized_text_sha256": "349522861e1fcf3b85491174475fc1e10701584310787f2d141d3ef3f67c1bcb"
+      },
+      {
+        "slug": "murder-at-the-vicarage-019",
+        "title": "Chapter 19",
+        "blocks": 120,
+        "normalized_text_sha256": "2b1254877ffd4e57fe20d9a13bad864a7d60727f18bff8e5cf226b4dcb985744"
+      },
+      {
+        "slug": "murder-at-the-vicarage-020",
+        "title": "Chapter 20",
+        "blocks": 84,
+        "normalized_text_sha256": "a31dbed90c3ec30322b538056480efaa56fb62f8548f6012b5b257a6beb4b502"
+      },
+      {
+        "slug": "murder-at-the-vicarage-021",
+        "title": "Chapter 21",
+        "blocks": 70,
+        "normalized_text_sha256": "11554328282dcea91122195245d38088a6e56580a775bca5817eb5ed7f5261ef"
+      },
+      {
+        "slug": "murder-at-the-vicarage-022",
+        "title": "Chapter 22",
+        "blocks": 186,
+        "normalized_text_sha256": "8853a183a3078a29ecc336a27ba13026292ae19d4b12c3da6c4a6866d5a54b3e"
+      },
+      {
+        "slug": "murder-at-the-vicarage-023",
+        "title": "Chapter 23",
+        "blocks": 89,
+        "normalized_text_sha256": "c952fe048d93d699c55b10383d387c3c6b595c953fb292da84cf9eb4edaa9a07"
+      },
+      {
+        "slug": "murder-at-the-vicarage-024",
+        "title": "Chapter 24",
+        "blocks": 96,
+        "normalized_text_sha256": "2d5ebcd846a07c3d5c748ef86d5a9b074a65069c65e0103b306ee8707d325371"
+      },
+      {
+        "slug": "murder-at-the-vicarage-025",
+        "title": "Chapter 25",
+        "blocks": 192,
+        "normalized_text_sha256": "aaae2ef1c7cbb0db7e2e33a387e5bcf508e47f6ab157d31088c239fcff4a0f15"
+      },
+      {
+        "slug": "murder-at-the-vicarage-026",
+        "title": "Chapter 26",
+        "blocks": 128,
+        "normalized_text_sha256": "858545e3d93b9adbfb0b89de183968728b83a6df0cb0b08c5abe562d3ba3fbee"
+      },
+      {
+        "slug": "murder-at-the-vicarage-027",
+        "title": "Chapter 27",
+        "blocks": 54,
+        "normalized_text_sha256": "f3cbf99c743567e09d8e3eccf7245625e0cc824801761cd8485b9b1ca9acbeec"
+      },
+      {
+        "slug": "murder-at-the-vicarage-028",
+        "title": "Chapter 28",
+        "blocks": 35,
+        "normalized_text_sha256": "cbffbc9b9cf364a7db8d188a44a7cce1be4b7a36c31213fd8316e0fc33a0600d"
+      },
+      {
+        "slug": "murder-at-the-vicarage-029",
+        "title": "Chapter 29",
+        "blocks": 86,
+        "normalized_text_sha256": "8243f108537bf4c3f29a4d91350b44692b31a8e67fb77001dbe2c9367ae4806c"
+      },
+      {
+        "slug": "murder-at-the-vicarage-030",
+        "title": "Chapter 30",
+        "blocks": 73,
+        "normalized_text_sha256": "22d1d5b9e85c47d58ee90f1b2914a5229025d226b5c6d5d9157ade44cd99b04f"
+      },
+      {
+        "slug": "murder-at-the-vicarage-031",
+        "title": "Chapter 31",
+        "blocks": 32,
+        "normalized_text_sha256": "15e371836e098e9391678be17c01a8026ed2116e1722eecb2a165b97ab3b0759"
+      },
+      {
+        "slug": "murder-at-the-vicarage-032",
+        "title": "Chapter 32",
+        "blocks": 50,
+        "normalized_text_sha256": "e1d2c435db2a81253e42581fa8825d60df372ce68213f530dca2df73397a717d"
+      }
+    ]
+  },
+  {
+    "id": "78342",
+    "title": "Partners in Crime",
+    "sections": [
+      {
+        "slug": "partners-in-crime-001",
+        "title": "Chapter I. A Fairy in the Flat",
+        "blocks": 96,
+        "normalized_text_sha256": "beebf026ffcc5200327a5ffc2a2edce61bbef1ae7970c09dc4f831dd750c252b"
+      },
+      {
+        "slug": "partners-in-crime-002",
+        "title": "Chapter II. A Pot of Tea",
+        "blocks": 152,
+        "normalized_text_sha256": "90c0dbb385862048b55e718f2a456ac43f52dc7b1072f39d2a728932e195080a"
+      },
+      {
+        "slug": "partners-in-crime-003",
+        "title": "Chapter III. The Affair of the Pink Pearl",
+        "blocks": 165,
+        "normalized_text_sha256": "10eeeb68c9cc30309da78ae92ae51bee2d8504cb63df483dbc921e07da25b04d"
+      },
+      {
+        "slug": "partners-in-crime-004",
+        "title": "Chapter IV. The Affair of the Pink Pearl (continued)",
+        "blocks": 68,
+        "normalized_text_sha256": "481b4a7b69b1f79d6eeab0540f2446f1bc7eba7fd5f601ea020265d965cdf7e5"
+      },
+      {
+        "slug": "partners-in-crime-005",
+        "title": "Chapter V. The Adventure of the Sinister Stranger",
+        "blocks": 123,
+        "normalized_text_sha256": "19287dafba3fbcbb508046bfe7b08113b341742d50e14738aefd30d8291dbf16"
+      },
+      {
+        "slug": "partners-in-crime-006",
+        "title": "Chapter VI. The Adventure of the Sinister Stranger (continued)",
+        "blocks": 87,
+        "normalized_text_sha256": "bccc11a1e12d56fac8ed955e2a396f0a61f8e18bf5f0f8bfe4ccb64087e13300"
+      },
+      {
+        "slug": "partners-in-crime-007",
+        "title": "Chapter VII. Finessing The King",
+        "blocks": 98,
+        "normalized_text_sha256": "331d6ce209572c1062d964b64405632201e160895086dfe71b87cc46b22ba369"
+      },
+      {
+        "slug": "partners-in-crime-008",
+        "title": "Chapter VIII. The Gentleman Dressed in Newspaper",
+        "blocks": 112,
+        "normalized_text_sha256": "118b8c4ec0507c35209d84e8857fea8cc96c320f353f51f34aa801f385640a97"
+      },
+      {
+        "slug": "partners-in-crime-009",
+        "title": "Chapter IX. The Case of the Missing Lady",
+        "blocks": 177,
+        "normalized_text_sha256": "c6994b7d242d793d25b1b732404f6d59ee9d1d7a4835c197ad28ac4e7d90d317"
+      },
+      {
+        "slug": "partners-in-crime-010",
+        "title": "Chapter X. Blindman's Buff",
+        "blocks": 156,
+        "normalized_text_sha256": "48c365a3a1aae000f010a90f009dfdae0d067b7df38a14755496c3dbf80815d2"
+      },
+      {
+        "slug": "partners-in-crime-011",
+        "title": "Chapter XI. The Man in the Mist",
+        "blocks": 107,
+        "normalized_text_sha256": "9b20a698bc48629637d383cb8c7dbb0d830a60223b9a31c9c2c1ae100c6a854b"
+      },
+      {
+        "slug": "partners-in-crime-012",
+        "title": "Chapter XII. The Man in the Mist (continued)",
+        "blocks": 101,
+        "normalized_text_sha256": "ffec4604f2b524cf3084dc24449ddd9e390bc2db913ffef35747cacac1777715"
+      },
+      {
+        "slug": "partners-in-crime-013",
+        "title": "Chapter XIII. The Crackler",
+        "blocks": 69,
+        "normalized_text_sha256": "85715685073ed51aebf0a5fa65804de1922d20ad67d37a752794f3f8beca229d"
+      },
+      {
+        "slug": "partners-in-crime-014",
+        "title": "Chapter XIV. The Crackler (continued)",
+        "blocks": 115,
+        "normalized_text_sha256": "93239f24b696f0e4b6e07d2f93b34c6ccc2befd66e5391140a43bfa3dc679105"
+      },
+      {
+        "slug": "partners-in-crime-015",
+        "title": "Chapter XV. The Sunningdale Mystery",
+        "blocks": 54,
+        "normalized_text_sha256": "77cfce46cffee0a2d2074cba73434b522103d90521e1c6f11ea792469efa2d29"
+      },
+      {
+        "slug": "partners-in-crime-016",
+        "title": "Chapter XVI. The Sunningdale Mystery (continued)",
+        "blocks": 72,
+        "normalized_text_sha256": "6aa2f395dee56457e3bdbc7023b860cfe55c0691ce685a526cf2b2235df68877"
+      },
+      {
+        "slug": "partners-in-crime-017",
+        "title": "Chapter XVII. The House Of Lurking Death",
+        "blocks": 86,
+        "normalized_text_sha256": "328831d2fa0afae08f270a11a87b3570d04b59c70c3b489afcc2b75542b659d9"
+      },
+      {
+        "slug": "partners-in-crime-018",
+        "title": "Chapter XVIII. The House of Lurking Death (continued)",
+        "blocks": 174,
+        "normalized_text_sha256": "7b97f7645e4db4537978c34459a131b5b9b11e2dadac058824caa9d69dafa7f4"
+      },
+      {
+        "slug": "partners-in-crime-019",
+        "title": "Chapter XIX. The Unbreakable Alibi",
+        "blocks": 241,
+        "normalized_text_sha256": "ddc92ad4e1bb59c5753954fefe8eaa6dff6bf80d660d468f5f8cb74419d9634d"
+      },
+      {
+        "slug": "partners-in-crime-020",
+        "title": "Chapter XX. The Clergyman's Daughter",
+        "blocks": 64,
+        "normalized_text_sha256": "c0be2d85bfe8542cc880e6839ca5102c90e8c299d3ae3be4f360f513b497e421"
+      },
+      {
+        "slug": "partners-in-crime-021",
+        "title": "Chapter XXI. The Red House",
+        "blocks": 141,
+        "normalized_text_sha256": "f8ce8733b90bc33a53e4cf5d13bb36cdfb4f5a71dbb4e7a387538d8ea49ca709"
+      },
+      {
+        "slug": "partners-in-crime-022",
+        "title": "Chapter XXII. The Ambassador's Boots",
+        "blocks": 210,
+        "normalized_text_sha256": "a8926c895db7dad8e7cac6e8d022c336ec98cf6502d6aae8933e5113f56a618d"
+      },
+      {
+        "slug": "partners-in-crime-023",
+        "title": "Chapter XXIII. The Man Who Was No. 16",
+        "blocks": 231,
+        "normalized_text_sha256": "114281b8d6d508e9ed0c6ce861f768f632b868e556a1fceaebe1dbabc9534896"
+      }
+    ]
+  },
+  {
+    "id": "78262",
+    "title": "Giants’ Bread",
+    "sections": [
+      {
+        "slug": "giants-bread-001",
+        "title": "Prologue",
+        "blocks": 78,
+        "normalized_text_sha256": "fd2a7df131b234c50fc655a50f0c7823007f0a564fbdb0755975e08846f3a730"
+      },
+      {
+        "slug": "giants-bread-002",
+        "title": "chapter 1",
+        "blocks": 53,
+        "normalized_text_sha256": "d25d140d7800cccc3c5140c3275503b02c5196ede87f26a4d9188c40e5670d11"
+      },
+      {
+        "slug": "giants-bread-003",
+        "title": "chapter 2",
+        "blocks": 56,
+        "normalized_text_sha256": "195ebe6c838266acfbdb63e6d39c6dd4a4ad0112761a8ad22fa22c6bfdeb7c5c"
+      },
+      {
+        "slug": "giants-bread-004",
+        "title": "chapter 3",
+        "blocks": 122,
+        "normalized_text_sha256": "c96e53574ac456cab62742caeefc10e008af27780314e881f6017aea8f10e4d2"
+      },
+      {
+        "slug": "giants-bread-005",
+        "title": "chapter 4",
+        "blocks": 171,
+        "normalized_text_sha256": "55ad77314ca62bc98e7fff4661e791bc9e683d1fae7c8c1b3ce2e96c1b9efc64"
+      },
+      {
+        "slug": "giants-bread-006",
+        "title": "chapter 5",
+        "blocks": 102,
+        "normalized_text_sha256": "c6dacb37d328de1bff53c31f7caab1419d074e814c22fc1e45e8adef30befe44"
+      },
+      {
+        "slug": "giants-bread-007",
+        "title": "chapter 6",
+        "blocks": 165,
+        "normalized_text_sha256": "b6c5f8e184e3b4932488ba84dd1ab0080da801557522a7f39baebb35fa79db84"
+      },
+      {
+        "slug": "giants-bread-008",
+        "title": "chapter 7",
+        "blocks": 242,
+        "normalized_text_sha256": "a6d0a612e43e75651c30c1108ee33122405eb1386f5d84d66a8f67b9d83f372d"
+      },
+      {
+        "slug": "giants-bread-009",
+        "title": "chapter 8",
+        "blocks": 104,
+        "normalized_text_sha256": "c116acd09cf62483ef0bb4916106d258c4d223a1ddf72190439b9857e0cc169e"
+      },
+      {
+        "slug": "giants-bread-010",
+        "title": "chapter 1",
+        "blocks": 175,
+        "normalized_text_sha256": "8ed2abe641ad2dbac51e26825785b2abf0cb9201431e6bead79650307441062a"
+      },
+      {
+        "slug": "giants-bread-011",
+        "title": "chapter 2",
+        "blocks": 94,
+        "normalized_text_sha256": "c823cef8aa5dd9fa79f14260b3a09d6caf43f1ba414ce792b88ce3681a08d58b"
+      },
+      {
+        "slug": "giants-bread-012",
+        "title": "chapter 3",
+        "blocks": 198,
+        "normalized_text_sha256": "409448271fa98ff5b54bb93386188be5fcc9c8327940f253d514fde26878ac0c"
+      },
+      {
+        "slug": "giants-bread-013",
+        "title": "chapter 4",
+        "blocks": 130,
+        "normalized_text_sha256": "5beeb82207eb69f416c9f7e597d0755c425baef8a0196062c75a52bdc6f83201"
+      },
+      {
+        "slug": "giants-bread-014",
+        "title": "chapter 5",
+        "blocks": 169,
+        "normalized_text_sha256": "bba76ee824369937decd2e87eb8572d6c2b90b22016d8918977229308c80c68e"
+      },
+      {
+        "slug": "giants-bread-015",
+        "title": "chapter 6",
+        "blocks": 71,
+        "normalized_text_sha256": "342668a14765b4a4b9825b7a5c435afdfb6d31d55085618f10bda1c03de08e51"
+      },
+      {
+        "slug": "giants-bread-016",
+        "title": "chapter 7",
+        "blocks": 111,
+        "normalized_text_sha256": "757a14479a9df69b2cd390719e8f24fb65e8b4f5f767cf66e227be6b59944ebb"
+      },
+      {
+        "slug": "giants-bread-017",
+        "title": "chapter 1",
+        "blocks": 152,
+        "normalized_text_sha256": "c676441db364ba50baa56a85173585ed45a3ead17a9e638b166b13266c6feb0b"
+      },
+      {
+        "slug": "giants-bread-018",
+        "title": "chapter 2",
+        "blocks": 189,
+        "normalized_text_sha256": "ea1d2f5ce9e5dcb26bdc6c8d04dcbe677c9b5a97c0301ca52e690c937c309d64"
+      },
+      {
+        "slug": "giants-bread-019",
+        "title": "chapter 3",
+        "blocks": 183,
+        "normalized_text_sha256": "36c5458d24d47b1e00a5aee0a8ffd172800742ccdd2486d5b05556849d4fa521"
+      },
+      {
+        "slug": "giants-bread-020",
+        "title": "chapter 4",
+        "blocks": 200,
+        "normalized_text_sha256": "f215dcb7a7023d559a9b715e6183c58d1ca729883db6f67a166a59b2161f0d5d"
+      },
+      {
+        "slug": "giants-bread-021",
+        "title": "chapter 1",
+        "blocks": 158,
+        "normalized_text_sha256": "e42f8b15abc81bf0b8e09122b03089d37dd6a3fcaae02743f2e586b0f5e57c14"
+      },
+      {
+        "slug": "giants-bread-022",
+        "title": "chapter 2",
+        "blocks": 234,
+        "normalized_text_sha256": "a8f3ba78c86d871644910c3bef5d2766fb25143ed231bc744eb66fe1cc8a58b6"
+      },
+      {
+        "slug": "giants-bread-023",
+        "title": "chapter 3",
+        "blocks": 136,
+        "normalized_text_sha256": "65d905846ab58d42d1c2b3c03e62a563931a12d680aa5b5802a6e19ef5929b18"
+      },
+      {
+        "slug": "giants-bread-024",
+        "title": "chapter 4",
+        "blocks": 65,
+        "normalized_text_sha256": "ada2d79d5c298b17ebbddba585e188977e33535e7c564ad912a917fb6d0992c1"
+      },
+      {
+        "slug": "giants-bread-025",
+        "title": "chapter 1",
+        "blocks": 190,
+        "normalized_text_sha256": "059a9240114337bb162ddb1e80d57f4b400392fbb1f2e37877e553e6009bf410"
+      },
+      {
+        "slug": "giants-bread-026",
+        "title": "chapter 2",
+        "blocks": 308,
+        "normalized_text_sha256": "4fcae4f35659987de3ff4bd37682f9597602bccfae5dce665095f405d44d5b7b"
+      },
+      {
+        "slug": "giants-bread-027",
+        "title": "chapter 3",
+        "blocks": 155,
+        "normalized_text_sha256": "07502251d92c00d5e13cdcb0375535436155e01362f96dab78b80065f79be5bd"
+      },
+      {
+        "slug": "giants-bread-028",
+        "title": "chapter 4",
+        "blocks": 73,
+        "normalized_text_sha256": "f2b86f15dc9e43e9ac656636da61e2b2cc4268142f6659a9814f270154a6bcc8"
+      },
+      {
+        "slug": "giants-bread-029",
+        "title": "chapter 5",
+        "blocks": 201,
+        "normalized_text_sha256": "0acfad1307c2b5e7325482bc94007e5fa936b45301c520d18eca35a03a4bf4fa"
+      }
+    ]
+  }
+]

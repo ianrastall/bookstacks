@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-020",
+  "file": "img/the-murder-on-the-links-020.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 20An Amazing Statement. Scene context, do not reproduce words: The next moment Poirot embraced me warmly. “Enfin! You have arrived. And all by yourself. It is superb! Continue your reasoning. You are right. Decidedly we have done wrong to forget Georges Conneau.” I was so flattered by the little man’s approval that I could hardly continue. But at last I collected my thoughts and went on. “Georges Conneau disappeared twenty years ago, but we have no reason to believe that he is dead.” “Aucunement,” agreed Poirot. “Proceed.” “Therefore we will assume that he is alive.” “Exactly.” “Or that he was alive until recently.” “De mieux en mieux!” “We will presume,” I continued, my enthusiasm rising, “that he has fallen on evil days. He has become a criminal, an apache, a tramp—a what you will. He chances to come to Merlinville. There he finds the woman he has never ceased to love.” “Eh eh! The sentimentality,” warned Poirot. “Where one hates one also loves,” I quoted or misquoted. “At any rate he finds her there, living under an assumed name. But she has a ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "80468518c17822538d5bc67dadbc86012c9eba0f9bee944bf895fc1c6d602d87",
+  "masterSha256": "95c945e18da66e2c270bed0ad086220d7e2578615b1cdf0c195592a9787b8140",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-020.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-020.preview.jpg",
+    "sha256": "592c30addab47d8ba2fcc4746a80982c9bac2a78be6b24d2c5e6a180bea4850a"
+  },
+  "useCase": "illustration-story"
+}

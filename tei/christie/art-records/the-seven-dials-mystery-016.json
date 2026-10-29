@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-016",
+  "file": "img/the-seven-dials-mystery-016.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XVI. Scene context, do not reproduce words: The House Party at the Abbey Bundle drove over to Wyvern Abbey just in time for tea on Friday afternoon. George Lomax came forward to welcome her with considerable empressement. \"My dear Eileen,\" he said, \"I can't tell you how pleased I am to see you here. You must forgive my not having invited you when I asked your father, but to tell the truth I never dreamed that a party of this kind would appeal to you. I was both—er—surprised and—er—delighted when Lady Caterham told me of your—er—interest in—er—politics.\" \"I wanted to come so much,\" said Bundle in a simple, ingenuous manner. \"Mrs. Macatta will not arrive till the later train,\" explained George. \"She was speaking at a meeting in Manchester last night. Do you know Thesiger? Quite a young fellow, but a remarkable grasp of foreign politics. One would hardly suspect it from his appearance.\" \"I know Mr. Thesiger,\" said Bundle, and she shook hands solemnly with Jimmy, whom she observed had parted his hair in the middle in the endeavour t",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "96e7f33972178963250ebfcfb29ba7d58e4ae68f651b6d1ef580a552cd7d7b13",
+  "masterSha256": "cd123479ec92a0f56ea42a2e7125bf44232e01601aa224a4d429880863242015",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-016.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-016.preview.jpg",
+    "sha256": "d7d82da70508ad9a3d76f4df58181f77d4f815f7cf9cdc52075950602d4b335f"
+  }
+}

@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="christie_the-plymouth-express-affair_eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">The Plymouth Express Affair</title>
+        <author>Agatha Christie</author>
+        <respStmt>
+          <resp>Electronic source transcription</resp>
+          <name>Roger Frank and Sue Clark</name>
+        </respStmt>
+        <respStmt>
+          <resp>TEI encoding and new AI-generated engraving-style sketches</resp>
+          <name>Bookstacks, with OpenAI image generation</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0">Bookstacks illustrated English edition of Project Gutenberg 66446</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Bookstacks</publisher>
+        <date when="2026-10-28">2026-10-28</date>
+        <availability status="free">
+          <p>The source text is public domain in the United States, as identified by Project Gutenberg. Source terms and contributor credits remain at the linked source. New sketches are AI-generated interpretations, not historical illustrations.</p>
+        </availability>
+      </publicationStmt>
+      <notesStmt>
+        <note type="source-description">Complete English text from Project Gutenberg 66446. Source wording, emphasis and documentary figures are retained. Each chapter or story has a new AI-generated engraving-style sidebar sketch. This is the periodical transcription, kept distinct from the collection version. Transcriber’s Note: This story appeared in the January 1924 issue of The Blue Book Magazine.</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <ref type="source" target="https://www.gutenberg.org/ebooks/66446">Project Gutenberg 66446</ref>
+          <idno type="source-file-sha256">9ed677ee5b6aae5669b50e768fbcf6bec36a13b1686447a73f7e49ed10d5c1bd</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <div type="story" n="1" xml:id="the-plymouth-express-affair-001">
+        <head>The Plymouth Express Affair</head>
+        <figure type="engraving">
+          <graphic url="img/the-plymouth-express-affair-001.jpg"/>
+          <figDesc>An engraving-style sketch for The Plymouth Express Affair, The Plymouth Express Affair.</figDesc>
+        </figure>
+        <ab>
+<graphic url="img/source-66446-illus-001.jpg" n="[Illustration]"/>
+</ab>
+        <quote>
+          <quote>
+<p xml:id="p-00001">
+    “The little gray cells,” so often referred to by the great detective
+    Hercule Poirot, certainly get in their fine-work in this intriguing
+    mystery story by an exceptionally talented writer.
+  </p>
+</quote>
+        </quote>
+        <p xml:id="p-00002">Alec Simpson, R. N., stepped from the platform at Newton Abbot into a
+first-class compartment of the Plymouth Express. A porter followed him
+with a heavy suitcase. He was about to swing it up to the rack, but
+the young sailor stopped him.</p>
+        <p xml:id="p-00003">“No—leave it on the seat. I’ll put it up later. Here you are.”</p>
+        <p xml:id="p-00004">“Thank you, sir.” The porter, generously tipped, withdrew.</p>
+        <p xml:id="p-00005">Doors banged; a stentorian voice shouted: “Plymouth only. Change for
+Torquay. Plymouth next stop.” Then a whistle blew, and the train drew
+slowly out of the station.</p>
+        <p xml:id="p-00006">Lieutenant Simpson had the carriage to himself. The December air was
+chilly, and he pulled up the window. Then he sniffed vaguely, and
+frowned. What a smell there was! Reminded him of that time in
+hospital, and the operation on his leg. Yes, chloroform; that was it!</p>
+        <p xml:id="p-00007">He let the window down again, changing his seat to one with its back
+to the engine. He pulled a pipe out of his pocket and lit it. For a
+little time he sat inactive, looking out into the night and smoking.</p>
+        <p xml:id="p-00008">At last he roused himself, and opening the suitcase, took out some
+papers and magazines, then closed the suitcase again and endeavored to
+shove it under the opposite seat—without success. Some hidden obstacle
+resisted it. He shoved harder with rising impatience, but it still
+stuck out halfway into the carriage.</p>
+        <p xml:id="p-00009">“Why the devil wont it go in?” he muttered, and hauling it out
+completely, he stooped down and peered under the seat....</p>
+        <p xml:id="p-00010">A moment later a cry rang out into the night, and the great train came
+to an unwilling halt in obedience to the imperative jerking of the
+communication-cord.</p>
+        <p xml:id="p-00011">“Mon ami,” said Poirot. “You have, I know, been deeply interested in
+this mystery of the Plymouth Express. Read this.”</p>
+        <p xml:id="p-00012">I picked up the note he flicked across the table to me. It was brief
+and to the point.</p>
+        <quote>
+          <ab>
+<ab>Dear Sir:</ab>
+<ab>I shall be obliged if you will call upon me at your earliest
+convenience.</ab>
+<ab>
+Yours faithfully,</ab>
+<ab>
+Ebenezer Halliday.</ab>
+</ab>
+        </quote>
+        <p xml:id="p-00013">The connection was not clear to my mind, and I looked inquiringly at
+Poirot. For answer he took up the newspaper and read aloud:</p>
+        <p xml:id="p-00014">“‘A sensational discovery was made last night. A young naval officer
+returning to Plymouth found under the seat of his compartment, the
+body of a woman, stabbed through the heart. The officer at once pulled
+the communication-cord, and the train was brought to a standstill. The
+woman who was about thirty years of age, and richly dressed, has not
+yet been identified.’</p>
+        <p xml:id="p-00015">“And later we have this: ‘The woman found dead in the Plymouth Express
+has been identified as the Honorable Mrs. Rupert Carrington.’ You see
+now, my friend? Or if you do not, I will add this. Mrs. Rupert
+Carrington was, before her marriage, Flossie Halliday, daughter of old
+man Halliday, the steel king of America.”</p>
+        <p xml:id="p-00016">“And he has sent for you? Splendid!”</p>
+        <p xml:id="p-00017">“I did him a little service in the past—an affair of bearer bonds. And
+once, when I was in Paris for a royal visit, I had Mademoiselle
+Flossie pointed out to me. <hi rend="italic">La jolie petite pensionnaire!</hi> She had the
+<hi rend="italic">jolie dot</hi> too! It caused trouble. She nearly made a bad affair.”</p>
+        <p xml:id="p-00018">“How was that?”</p>
+        <p xml:id="p-00019">“A certain Count de la Rochefour. <hi rend="italic">Un bien mauvais sujet!</hi> A bad hat,
+as you would say. An adventurer pure and simple, who knew how to
+appeal to a romantic young girl. Luckily her father got wind of it in
+time. He took her back to America in haste. I heard of her marriage
+some years later, but I know nothing of her husband.”</p>
+        <p xml:id="p-00020">“H’m,” I said. “The Honorable Rupert Carrington is no beauty, by all
+accounts. He’d pretty well run through his own money on the turf, and
+I should imagine old man Halliday’s dollars came along in the nick of
+time. I should say that for a good-looking, well-mannered, utterly
+unscrupulous young scoundrel, it would be hard to find his match!”</p>
+        <p xml:id="p-00021">“Ah, the poor little lady! <hi rend="italic">Elle n’est pas bien tombée!</hi>”</p>
+        <p xml:id="p-00022">“I fancy he made it pretty obvious at once that it was her money, and
+not she, that had attracted him. I believe they drifted apart almost
+at once. I have heard rumors lately that there was to be a definite
+legal separation.”</p>
+        <p xml:id="p-00023">“Old man Halliday is no fool. He would tie up her money pretty tight.”</p>
+        <p xml:id="p-00024">“I dare say. Anyway, I know as a fact that the Honorable Rupert is
+said to be extremely hard up.”</p>
+        <p xml:id="p-00025">“Ah-ha! I wonder—”</p>
+        <p xml:id="p-00026">“You wonder what?”</p>
+        <p xml:id="p-00027">“My good friend, do not jump down my throat like that. You are
+interested, I see. Supposing you accompany me to see Mr. Halliday.
+There is a taxi stand at the corner.”</p>
+        <p xml:id="p-00028">A very few minutes sufficed to whirl us to the superb house in Park
+Lane rented by the American magnate. We were shown into the library,
+and almost immediately we were joined by a large, stout man, with
+piercing eyes and an aggressive chin.</p>
+        <p xml:id="p-00029">“M. Poirot?” said Mr. Halliday. “I guess I don’t need to tell you what
+I want you for. You’ve read the papers, and I’m never one to let the
+grass grow under my feet. I happened to hear you were in London, and I
+remembered the good work you did over those bonds. Never forget a
+name. I’ve got the pick of Scotland Yard, but I’ll have my own man as
+well. Money no object. All the dollars were made for my little
+girl—and now she’s gone, I’ll spend my last cent to catch the damned
+scoundrel that did it! See? So it’s up to you to deliver the goods.”</p>
+        <p xml:id="p-00030">Poirot bowed.</p>
+        <p xml:id="p-00031">“I accept, monsieur, all the more willingly that I saw your daughter
+in Paris several times. And now I will ask you to tell me the
+circumstances of her journey to Plymouth and any other details that
+seem to you to bear upon the case.”</p>
+        <p xml:id="p-00032">“Well, to begin with,” responded Halliday, “she wasn’t going to
+Plymouth. She was going to join a house-party at Avonmead Court, the
+Duchess of Swansea’s place. She left London by the twelve-fourteen
+from Paddington, arriving at Bristol (where she had to change) at
+two-fifty. The principal Plymouth expresses, of course, run via
+Westbury, and do not go near Bristol at all. The twelve-fourteen does
+a nonstop run to Bristol, afterward stopping at Weston, Taunton,
+Exeter and Newton Abbot. My daughter traveled alone in her carriage,
+which was reserved as far as Bristol, her maid being in a third-class
+carriage in the next coach.”</p>
+        <p xml:id="p-00033">Poirot nodded, and Mr. Halliday went on: “The party at Avonmead Court
+was to be a very gay one, with several balls, and in consequence my
+daughter had with her nearly all her jewels—amounting in value
+perhaps, to about a hundred thousand dollars.”</p>
+        <p xml:id="p-00034">“<hi rend="italic">Un moment</hi>,” interrupted Poirot. “Who had charge of the jewels? Your
+daughter, or the maid?”</p>
+        <p xml:id="p-00035">“My daughter always took charge of them herself, carrying them in a
+small blue morocco case.”</p>
+        <p xml:id="p-00036">“Continue, monsieur.”</p>
+        <p xml:id="p-00037">“At Bristol the maid, Jane Mason, collected her mistress’ dressing-bag
+and wraps, which were with her, and came to the door of Flossie’s
+compartment. To her intense surprise, my daughter told her that she
+was not getting out at Bristol, but was going on farther. She directed
+Mason to get out the luggage and put it in the cloak-room. She could
+have tea in the refreshment-room, but she was to wait at the station
+for her mistress, who would return to Bristol by an up-train in the
+course of the afternoon. The maid, although very much astonished, did
+as she was told. She put the luggage in the cloak-room and had some
+tea. But up-train after up-train came in, and her mistress did not
+appear. After the arrival of the last train, she left the luggage
+where it was, and went to a hotel near the station for the night. This
+morning she read of the tragedy, and returned to town by the first
+available train.”</p>
+        <p xml:id="p-00038">“Is there nothing to account for your daughter’s sudden change of
+plan?”</p>
+        <p xml:id="p-00039">“Well, there is this: According to Jane Mason, at Bristol, Flossie was
+no longer alone in her carriage. There was a man in it who stood
+looking out of the farther window so that she could not see his face.”</p>
+        <p xml:id="p-00040">“The train was a corridor one, of course?”</p>
+        <p xml:id="p-00041">“Yes.”</p>
+        <p xml:id="p-00042">“Which side was the corridor?”</p>
+        <p xml:id="p-00043">“On the platform side. My daughter was standing in the corridor as she
+talked to Mason.”</p>
+        <p xml:id="p-00044">“And there is no doubt in your mind—excuse me!” He got up, and
+carefully straightened the inkstand which was a little askew. “<hi rend="italic">Je
+vous demande pardon</hi>,” he continued, reseating himself. “It affects my
+nerves to see anything crooked. Strange, is it not? I was saying,
+monsieur, that there is no doubt in your mind, as to this probably
+unexpected meeting being the cause of your daughter’s sudden change of
+plan?”</p>
+        <p xml:id="p-00045">“It seems the only reasonable supposition.”</p>
+        <p xml:id="p-00046">“You have no idea as to who the gentleman in question might be?”</p>
+        <p xml:id="p-00047">The millionaire hesitated for a moment, and then replied.</p>
+        <p xml:id="p-00048">“No—I do not know at all.”</p>
+        <p xml:id="p-00049">“Now—as to the discovery of the body?”</p>
+        <p xml:id="p-00050">“It was discovered by a young naval officer who at once gave the
+alarm. There was a doctor on the train. He examined the body. She had
+been first chloroformed, and then stabbed. He gave it as his opinion
+that she had been dead about four hours, so it must have been done not
+long after leaving Bristol. —Probably between there and Weston,
+possibly between Weston and Taunton.”</p>
+        <p xml:id="p-00051">“And the jewel-case.”</p>
+        <p xml:id="p-00052">“The jewel-case, M. Poirot, was missing.”</p>
+        <p xml:id="p-00053">“One thing more, monsieur. Your daughter’s fortune—to whom does it
+pass at her death?”</p>
+        <p xml:id="p-00054">“Flossie made a will soon after her marriage, leaving everything to
+her husband.” He hesitated for a minute, and then went on: “I may as
+well tell you, Monsieur Poirot, that I regard my son-in-law as an
+unprincipled scoundrel, and that, by my advice, my daughter was on the
+eve of freeing herself from him by legal means—no difficult matter. I
+settled her money upon her in such a way that he could not touch it
+during her lifetime, but although they have lived entirely apart for
+some years, she has frequently acceded to his demands for money,
+rather than face an open scandal. However, I was determined to put an
+end to this, and at last Flossie agreed, and my lawyers were
+instructed to take proceedings.”</p>
+        <p xml:id="p-00055">“And where is Monsieur Carrington?”</p>
+        <p xml:id="p-00056">“In town. I believe he was away in the country yesterday, but he
+returned last night.”</p>
+        <p xml:id="p-00057">Poirot considered a little while. Then he said: “I think that is all,
+monsieur.”</p>
+        <p xml:id="p-00058">“You would like to see the maid, Jane Mason?”</p>
+        <p xml:id="p-00059">“If you please.”</p>
+        <p xml:id="p-00060">Halliday rang the bell, and gave a short order to the footman. A few
+minutes later Jane Mason entered the room, a respectable,
+hard-featured woman, as emotionless in the face of tragedy as only a
+good servant can be.</p>
+        <p xml:id="p-00061">“You will permit me to put a few questions? Your mistress, she was
+quite as usual before starting yesterday morning? Not excited or
+flurried?”</p>
+        <p xml:id="p-00062">“Oh, no sir!”</p>
+        <p xml:id="p-00063">“But at Bristol she was quite different?”</p>
+        <p xml:id="p-00064">“Yes sir, regular upset—so nervous she didn’t seem to know what she
+was saying.”</p>
+        <p xml:id="p-00065">“What did she say exactly?”</p>
+        <p xml:id="p-00066">“Well sir, as near as I can remember, she said: ‘Mason, I’ve got to
+alter my plans. Something has happened—I mean, I’m not getting out
+here after all. I must go on. Get out the luggage and put it in the
+cloak-room; then have some tea, and wait for me in the station.’</p>
+        <p xml:id="p-00067">“‘Wait for you here, ma’am?’ I asked.</p>
+        <p xml:id="p-00068">“‘Yes, yes. Don’t leave the station. I shall return by a later train.
+I don’t know when. It mayn’t be until quite late.’</p>
+        <p xml:id="p-00069">“‘Very well, ma’am,’ I says. It wasn’t my place to ask questions, but
+I thought it very strange.”</p>
+        <p xml:id="p-00070">“It was unlike your mistress, eh?”</p>
+        <p xml:id="p-00071">“Very unlike her, sir.”</p>
+        <p xml:id="p-00072">“What did you think?”</p>
+        <p xml:id="p-00073">“Well sir, I thought it was to do with the gentleman in the carriage.
+She didn’t speak to him, but she turned round once or twice as though
+to ask him if she was doing right.”</p>
+        <p xml:id="p-00074">“But you didn’t see the gentleman’s face?”</p>
+        <p xml:id="p-00075">“No sir; he stood with his back to me all the time.”</p>
+        <p xml:id="p-00076">“Can you describe him at all?”</p>
+        <p xml:id="p-00077">“He had on a light fawn overcoat, and a traveling cap. He was tall and
+slender, like, and the back of his head was dark.”</p>
+        <p xml:id="p-00078">“You didn’t know him?”</p>
+        <p xml:id="p-00079">“Oh, no, I don’t think so, sir.”</p>
+        <p xml:id="p-00080">“It was not your master, Mr. Carrington, by any chance?”</p>
+        <p xml:id="p-00081">Mason looked rather startled.</p>
+        <p xml:id="p-00082">“Oh! I don’t think so, sir!”</p>
+        <p xml:id="p-00083">“But you are not <hi rend="italic">sure</hi>?”</p>
+        <p xml:id="p-00084">“It was about the master’s build, sir—but I never thought of it being
+him. We so seldom saw him. I couldn’t say it <hi rend="italic">wasn’t</hi> him!”</p>
+        <p xml:id="p-00085">Poirot picked up a pin from the carpet, and frowned at it severely;
+then he continued: “Would it be possible for the man to have entered
+the train at Bristol before you reached the carriage?”</p>
+        <p xml:id="p-00086">Mason considered.</p>
+        <p xml:id="p-00087">“Yes sir, I think it would. My compartment was very crowded, and it
+was some minutes before I could get out—and then there was a very
+large crowd on the platform, and that delayed me too. But he’d only
+have had a minute or two to speak to the mistress, that way. I took it
+for granted that he’d come along the corridor.”</p>
+        <p xml:id="p-00088">“That is more probable, certainly.”</p>
+        <p xml:id="p-00089">He paused, still frowning.</p>
+        <p xml:id="p-00090">“You know how the mistress was dressed, sir?”</p>
+        <p xml:id="p-00091">“The papers give a few details, but I would like you to confirm them.”</p>
+        <p xml:id="p-00092">“She was wearing a white fox fur toque, sir, with a white spotted
+veil, and a blue frieze coat and skirt—the shade of blue they call
+electric.”</p>
+        <p xml:id="p-00093">“H’m, rather striking.”</p>
+        <p xml:id="p-00094">“Yes,” remarked Halliday. “Inspector Japp is in hopes that that may
+help us to fix the spot where the crime took place. Anyone who saw her
+would remember her.”</p>
+        <p xml:id="p-00095">“<hi rend="italic">Précisément!</hi> —Thank you, mademoiselle.” The maid left the room.</p>
+        <p xml:id="p-00096">“Well!” Poirot got up briskly. “That is all I can do here—except,
+monsieur, that I would ask you to tell me everything—but
+<hi rend="italic">everything</hi>!”</p>
+        <p xml:id="p-00097">“I have done so.”</p>
+        <p xml:id="p-00098">“You are sure?”</p>
+        <p xml:id="p-00099">“Absolutely.”</p>
+        <p xml:id="p-00100">“Then there is nothing more to be said. I must decline the case.”</p>
+        <p xml:id="p-00101">“Why?”</p>
+        <p xml:id="p-00102">“Because you have not been frank with me.”</p>
+        <p xml:id="p-00103">“I assure you—”</p>
+        <p xml:id="p-00104">“No, you are keeping something back.”</p>
+        <p xml:id="p-00105">There was a moment’s pause, and then Halliday drew a paper from his
+pocket and handed it to my friend.</p>
+        <p xml:id="p-00106">“I guess that’s what you’re after, Monsieur Poirot—though how you know
+about it fairly gets my goat!”</p>
+        <p xml:id="p-00107">Poirot smiled, and unfolded the paper. It was a letter written in thin
+sloping handwriting. Poirot read it aloud.</p>
+        <quote>
+          <quote>
+<p xml:id="p-00108">“‘Chère Madame:</p>
+<p xml:id="p-00109">“‘It is with infinite pleasure that I look forward to the felicity of
+meeting you again. After your so amiable reply to my letter, I can
+hardly restrain my impatience. I have never forgotten those days in
+Paris. It is most cruel that you should be leaving London tomorrow.
+However, before very long, and perhaps sooner than you think, I shall
+have the joy of beholding once more the lady whose image has ever
+reigned supreme in my heart.</p>
+<p xml:id="p-00110">“‘Believe, chère madame, all the assurances of my most devoted and
+unaltered sentiments—</p>
+<p xml:id="p-00111">“‘Armand de la Rochefour.’”</p>
+</quote>
+        </quote>
+        <p xml:id="p-00112">Poirot handed the letter back to Halliday with a bow.</p>
+        <p xml:id="p-00113">“I fancy, monsieur, that you did not know that your daughter intended
+renewing her acquaintance with the Count de la Rochefour?”</p>
+        <p xml:id="p-00114">“It came as a thunderbolt to me! I found this letter in my daughter’s
+handbag. As you probably know, Monsieur Poirot, this so-called count
+is an adventurer of the worst type.”</p>
+        <p xml:id="p-00115">Poirot nodded.</p>
+        <p xml:id="p-00116">“But what I want to know is how you knew of the existence of this
+letter?”</p>
+        <p xml:id="p-00117">My friend smiled. “Monsieur, I did not. But to track footmarks, and
+recognize cigarette-ash is not sufficient for a detective. He must
+also be a good psychologist! I knew that you disliked and mistrusted
+your son-in-law. He benefits by your daughter’s death; the maid’s
+description of the mysterious man bears a sufficient resemblance to
+him. Yet you are not keen on his track! Why? Surely because your
+suspicions lie in another direction. Therefore you were keeping
+something back.”</p>
+        <p xml:id="p-00118">“You’re right, Monsieur Poirot. I was sure of Rupert’s guilt until I
+found this letter. It unsettled me horribly.”</p>
+        <p xml:id="p-00119">“Yes. The Count says: ‘Before very long, and perhaps sooner than you
+think.’ Obviously he would not want to wait until you should get wind
+of his reappearance. Was it he who traveled down from London by the
+twelve-fourteen, and came along the corridor to your daughter’s
+compartment? The Count de la Rochefour is also, if I remember rightly,
+tall and dark!”</p>
+        <p xml:id="p-00120">The millionaire nodded.</p>
+        <p xml:id="p-00121">“Well, monsieur, I will wish you good day. Scotland Yard, has, I
+presume, a list of the jewels?”</p>
+        <p xml:id="p-00122">“Yes, I believe Inspector Japp is here now if you would like to see
+him.”</p>
+        <p xml:id="p-00123">Japp was an old friend of ours, and greeted Poirot with a sort of
+affectionate contempt.</p>
+        <p xml:id="p-00124">“And how are you, monsieur? No bad feeling between us, though we
+<hi rend="italic">have</hi> got our different ways of looking at things. How are the
+‘little gray cells,’ eh? Going strong?”</p>
+        <p xml:id="p-00125">Poirot beamed upon him. “They function, my good Japp; assuredly they
+do!”</p>
+        <p xml:id="p-00126">“Then that’s all right. Think it was the Honorable Rupert, or a crook?
+We’re keeping an eye on all the regular places, of course. We shall
+know if the shiners are disposed of, and of course whoever did it
+isn’t going to keep them to admire their sparkle. Not likely! I’m
+trying to find out where Rupert Carrington was yesterday. Seems a bit
+of a mystery about it. I’ve got a man watching him.”</p>
+        <p xml:id="p-00127">“A great precaution, but perhaps a day late,” suggested Poirot gently.</p>
+        <p xml:id="p-00128">“You always will have your joke, Monsieur Poirot. Well, I’m off to
+Paddington. Bristol, Weston, Taunton, that’s my beat. So long.”</p>
+        <p xml:id="p-00129">“You will come round and see me this evening, and tell me the result?”</p>
+        <p xml:id="p-00130">“Sure thing, if I’m back.”</p>
+        <p xml:id="p-00131">“That good Inspector believes in matter in motion,” murmured Poirot as
+our friend departed. “He travels; he measures footprints; he collects
+mud and cigarette-ash! He is extremely busy! He is zealous beyond
+words! And if I mentioned psychology to him, do you know what he would
+do, my friend? He would smile! He would say to himself: ‘Poor old
+Poirot! He ages! He grows senile!’ Japp is the ‘younger generation
+knocking on the door.’ And <hi rend="italic">ma foi!</hi> They are so busy knocking that
+they do not notice that the door is open!”</p>
+        <p xml:id="p-00132">“And what are you going to do?”</p>
+        <p xml:id="p-00133">“As we have <hi rend="italic">carte blanche</hi>, I shall expend threepence in ringing up
+the Ritz—where you may have noticed our Count is staying. After that,
+as my feet are a little damp, and I have sneezed twice, I shall return
+to my rooms and make myself a <hi rend="italic">tisano</hi> over the spirit lamp!”</p>
+        <p xml:id="p-00134">I did not see Poirot again until the following morning. I found him
+placidly finishing his breakfast.</p>
+        <p xml:id="p-00135">“Well?” I inquired eagerly. “What has happened?”</p>
+        <p xml:id="p-00136">“Nothing.”</p>
+        <p xml:id="p-00137">“But Japp?”</p>
+        <p xml:id="p-00138">“I have not seen him.”</p>
+        <p xml:id="p-00139">“The Count?”</p>
+        <p xml:id="p-00140">“He left the Ritz the day before yesterday.”</p>
+        <p xml:id="p-00141">“The day of the murder?”</p>
+        <p xml:id="p-00142">“Yes.”</p>
+        <p xml:id="p-00143">“Then that settles it! Rupert Carrington is cleared.”</p>
+        <p xml:id="p-00144">“Because the Count de la Rochefour has left the Ritz? You go too fast,
+my friend.”</p>
+        <p xml:id="p-00145">“Anyway, he must be followed, arrested! But what could be his motive?”</p>
+        <p xml:id="p-00146">“One hundred thousand dollars’ worth of jewelry is a very good motive
+for anyone. No, the question to my mind is: why kill her? Why not
+simply steal the jewels? She would not prosecute.”</p>
+        <p xml:id="p-00147">“Why not?”</p>
+        <p xml:id="p-00148">“Because she is a woman, <hi rend="italic">mon ami</hi>. She once loved this man. Therefore
+she would suffer her loss in silence. And the Count, who is an
+extremely good psychologist where women are concerned,—hence his
+successes,—would know that perfectly well! On the other hand, if
+Rupert Carrington killed her, why take the jewels, which would
+incriminate him fatally?”</p>
+        <p xml:id="p-00149">“As a blind.”</p>
+        <p xml:id="p-00150">“Perhaps you are right, my friend. Ah, here is Japp! I recognize his
+knock.”</p>
+        <p xml:id="p-00151">The Inspector was beaming good-humoredly.</p>
+        <p xml:id="p-00152">“Morning, Poirot. Only just got back. I’ve done some good work! And
+you?”</p>
+        <p xml:id="p-00153">“Me, I have arranged my ideas,” replied Poirot placidly.</p>
+        <p xml:id="p-00154">Japp laughed heartily.</p>
+        <p xml:id="p-00155">“Old chap’s getting on in years,” he observed beneath his breath to
+me. “That wont do for us young folk,” he said aloud.</p>
+        <p xml:id="p-00156">“<hi rend="italic">Quel dommage?</hi>” Poirot inquired.</p>
+        <p xml:id="p-00157">“Well, do you want to hear what I’ve done?”</p>
+        <p xml:id="p-00158">“You permit me to make a guess? You have found the knife with which
+the crime was committed by the side of the line between Weston and
+Taunton, and you have interviewed the paper-boy who spoke to Mrs.
+Carrington at Weston!”</p>
+        <p xml:id="p-00159">Japp’s jaw fell. “How on earth did you know? Don’t tell me it was
+those almighty ‘little gray cells’ of yours!”</p>
+        <p xml:id="p-00160">“I am glad you admit for once that they are <hi rend="italic">all mighty</hi>! Tell me, did
+she give the paper-boy a shilling for himself?”</p>
+        <p xml:id="p-00161">“No, it was half a crown!” Japp recovered his temper and grinned.
+“Pretty extravagant, these rich Americans!”</p>
+        <p xml:id="p-00162">“And in consequence the boy did not forget her?”</p>
+        <p xml:id="p-00163">“Not he. Half-crowns don’t come his way every day. She hailed him and
+bought two magazines. One had a picture of a girl in blue on the
+cover. ‘That’ll match me,’ she said. Oh! he remembered her perfectly.
+Well, that was enough for me. By the doctor’s evidence, the crime
+<hi rend="italic">must</hi> have been committed before Taunton. I guessed they’d throw the
+knife away at once, and I walked down the line looking for it; and
+sure enough, there it was. I made inquiries at Taunton about our man,
+but of course it’s a big station, and it wasn’t likely they’d notice
+him. He probably got back to London by a later train.”</p>
+        <p xml:id="p-00164">Poirot nodded. “Very likely.”</p>
+        <p xml:id="p-00165">“But I found another bit of news when I got back. They’re passing the
+jewels, all right! That large emerald was pawned last night—by one of
+the regular lot. Who do you think it was?”</p>
+        <p xml:id="p-00166">“I don’t know—except that he was a short man.”</p>
+        <p xml:id="p-00167">Japp stared. “Well, you’re right there. He’s short enough. It was Red
+Narky.”</p>
+        <p xml:id="p-00168">“Who on earth is Red Narky?” I asked.</p>
+        <p xml:id="p-00169">“A particularly sharp jewel-thief, sir. And not one to stick at
+murder. Usually works with a woman—Gracie Kidd; but she doesn’t seem
+to be in it this time—unless she’s got off to Holland with the rest of
+the swag.”</p>
+        <p xml:id="p-00170">“You’ve arrested Narky?”</p>
+        <p xml:id="p-00171">“Sure thing. But mind you, it’s the other man we want—the man who went
+down with Mrs. Carrington in the train. He was the one who planned the
+job, right enough. But Narky wont squeal on a pal.”</p>
+        <p xml:id="p-00172">I noticed that Poirot’s eyes had become very green.</p>
+        <p xml:id="p-00173">“I think,” he said gently, “that I can find Narky’s pal for you, all
+right.”</p>
+        <p xml:id="p-00174">“One of your little ideas, eh?” Japp eyed Poirot sharply. “Wonderful
+how you manage to deliver the goods sometimes, at your age and all.
+Devil’s own luck, of course.”</p>
+        <p xml:id="p-00175">“Perhaps, perhaps,” murmured my friend. “Hastings, my hat. And the
+brush. So! My galoshes if it still rains! We must not undo the good
+work of that <hi rend="italic">tisano</hi>. Au revoir, Japp!”</p>
+        <p xml:id="p-00176">“Good luck to you, Poirot.”</p>
+        <p xml:id="p-00177">Poirot hailed the first taxi we met, and directed the driver to Park
+Lane.</p>
+        <p xml:id="p-00178">When we drew up before Halliday’s house, he skipped out nimbly, paid
+the driver and rang the bell. To the footman who opened the door he
+made a request in a low voice, and we were immediately taken upstairs.
+We went up to the top of the house, and were shown into a small neat
+bedroom.</p>
+        <p xml:id="p-00179">Poirot’s eyes roved round the room and fastened themselves on a small
+black trunk. He knelt in front of it, scrutinized the labels on it,
+and took a small twist of wire from his pocket.</p>
+        <p xml:id="p-00180">“Ask Mr. Halliday if he will be so kind as to mount to me here,” he
+said over his shoulder to the footman.</p>
+        <p xml:id="p-00181">
+(It is suggested that the reader pause in his perusal of the story at
+this point, make his own solution of the mystery—and then see how
+close he comes to that of the author.—The Editors.)</p>
+        <p xml:id="p-00182">The man departed, and Poirot gently coaxed the lock of the trunk with
+a practiced hand. In a few minutes the lock gave, and he raised the
+lid of the trunk. Swiftly he began rummaging among the clothes it
+contained, flinging them out on the floor.</p>
+        <p xml:id="p-00183">There was a heavy step on the stairs, and Halliday entered the room.</p>
+        <p xml:id="p-00184">“What in hell are you doing here?” he demanded, staring.</p>
+        <p xml:id="p-00185">“I was looking, monsieur, for <hi rend="italic">this</hi>.” Poirot withdrew from the trunk
+a coat and skirt of bright blue frieze, and a small toque of white fox
+fur.</p>
+        <p xml:id="p-00186">“What are you doing with my trunk?” I turned to see that the maid,
+Jane Mason, had just entered the room.</p>
+        <p xml:id="p-00187">“If you will just shut the door, Hastings. Thank you. Yes, and stand
+with your back against it. Now, Mr. Halliday, let me introduce you to
+Grace Kidd, otherwise Jane Mason, who will shortly rejoin her
+accomplice, Red Narky, under the kind escort of Japp.”</p>
+        <p xml:id="p-00188">“It was of the most simple.” Poirot waved a deprecating hand, then
+helped himself to more caviare. It is not every day that one lunches
+with a millionaire.</p>
+        <p xml:id="p-00189">“It was the maid’s insistence on the clothes that her mistress was
+wearing that first struck me. Why was she so anxious that our
+attention should be directed to them? I reflected that we had only the
+maid’s word for the mysterious man in the carriage at Bristol. As far
+as the doctor’s evidence went, Mrs. Carrington might easily have been
+murdered <hi rend="italic">before</hi> reaching Bristol. But if so, then the maid must be
+an accomplice. And if she were an accomplice, she would not wish this
+point to rest on her evidence alone. The clothes Mrs. Carrington was
+wearing were of a striking nature. A maid usually has a good deal of
+choice as to what her mistress shall wear. Now if, after Bristol,
+anyone saw a lady in a bright blue coat and skirt, and a fur toque, he
+will be quite ready to swear he has seen Mrs. Carrington.</p>
+        <p xml:id="p-00190">“I began to reconstruct. The maid would provide herself with duplicate
+clothes. She and her accomplice chloroform and stab Mrs. Carrington
+between London and Bristol, probably taking advantage of a tunnel. Her
+body is rolled under the seat; the maid takes her place. At Weston she
+must make herself noticed. How? In all probability, a newspaper-boy
+will be selected. She will insure his remembering her by giving him a
+large tip. She also drew his attention to the color of her dress by a
+remark about one of the magazines. After leaving Weston, she throws
+the knife out of the window to mark the place where the crime
+presumably occurred, and changes her clothes, or buttons a long
+mackintosh over them. At Taunton she leaves the train and returns to
+Bristol as soon as possible, where her accomplice has duly left the
+luggage in the cloak-room. He hands over the ticket and himself
+returns to London. She waits on the platform, carrying out her rôle,
+goes to a hotel for the night and returns to town in the morning
+exactly as she said.</p>
+        <p xml:id="p-00191">“When Japp returned from his expedition, he confirmed all my
+deductions. He also told me that a well-known crook was passing the
+jewels. I knew that whoever it was would be the exact opposite of the
+man Jane Mason described. When I heard that it was Red Narky, who
+always worked with Gracie Kidd—well, I knew just where to find her.”</p>
+        <p xml:id="p-00192">“And the Count?”</p>
+        <p xml:id="p-00193">“The more I thought of it, the more I was convinced that he had
+nothing to do with it. That gentleman is much too careful of his own
+skin to risk murder. It would be out of keeping with his character.”</p>
+        <p xml:id="p-00194">“Well, Monsieur Poirot,” said Halliday. “I owe you a big debt. And the
+check I write after lunch wont go near to settling it.”</p>
+        <p xml:id="p-00195">Poirot smiled modestly, and murmured to me: “The good Japp, he shall
+get the official credit, all right, but though he has got his Gracie
+Kidd, I think that I, as the Americans say, have got his goat!”</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-017",
+  "file": "img/the-mystery-of-the-blue-train-017.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 17. An Aristocratic Gentleman. Scene context, do not reproduce words: \"You have been to the Riviera before, Georges?\" said Poirot to his valet the following morning. George was an intensely English, rather wooden-faced individual. \"Yes, sir. I was here two years ago when I was in the service of Lord Edward Frampton.\" \"And to-day,\" murmured his master, \"you are here with Hercule Poirot. How one mounts in the world!\" The valet made no reply to this observation. After a suitable pause he asked: \"The brown lounge suit, sir? The wind is somewhat chilly to-day.\" \"There is a grease spot on the waistcoat,\" objected Poirot. \"A morceau of filet de sole à la Jeannette alighted there when I was lunching at the Ritz last Tuesday.\" \"There is no spot there now, sir,\" said George reproachfully. \"I have removed it.\" \"Très bien!\" said Poirot. \"I am pleased with you, Georges.\" \"Thank you, sir.\" There was a pause, and then Poirot murmured dreamily: \"Supposing, my good Georges, that you had been born in the same social sphere as your late master, Lord Edward Frampton—that, p",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "01b222add41323984717aec1e276ef0694f2be77f8b9a881b36a38ffb1ce106f",
+  "masterSha256": "e7b59f9a25713cc2e4f801a1852f4a9d5992bb9d18e635cb4097df4a1e2c910d",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-017.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-017.preview.jpg",
+    "sha256": "9c96dbdf7d6c3a4608ecef29b16cf0dd2270692dfe406c420c99f0453aa308db"
+  }
+}

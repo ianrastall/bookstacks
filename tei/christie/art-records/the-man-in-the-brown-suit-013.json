@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-013",
+  "file": "img/the-man-in-the-brown-suit-013.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XII. Scene context, do not reproduce words: There is something to be said for life on board ship. It is peaceful. My grey hairs fortunately exempt me from the indignities of bobbing for apples, running up and down the deck with potatoes and eggs, and the more painful sports of “Brother Bill” and Bolster Bar. What amusement people can find in these painful proceedings has always been a mystery to me. But there are many fools in the world. One praises God for their existence and keeps out of their way. Fortunately I am an excellent sailor. Pagett, poor fellow, is not. He began turning green as soon as we were out of the Solent. I presume my other so-called secretary is also sea-sick. At any rate he has not yet made his appearance. But perhaps it is not sea-sickness, but high diplomacy. The great thing is that I have not been worried by him. On the whole, the people on board are a mangy lot. Only two decent Bridge players and one decent-looking woman—Mrs. Clarence Blair. I’ve met her in town of course. She is one of the only women ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ccc1f8aef6f4000b5647f1c5a08bfffe4fd186fb55193b616973bcff06b235cc",
+  "masterSha256": "c16bcebd5adf16eae140edd9722092a3d849e3fc2eadd7e2143b4cff2ae82476",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-013.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-013.preview.jpg",
+    "sha256": "56b5f7b7012b1a94c3d44dafbcdb6ca5fedef8e61ac3883f7d31009d9e3af46c"
+  },
+  "useCase": "illustration-story"
+}

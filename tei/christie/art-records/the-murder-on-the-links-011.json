@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-011",
+  "file": "img/the-murder-on-the-links-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 11Jack Renauld. Scene context, do not reproduce words: What the next development of the conversation would have been, I cannot say, for at that moment the door was thrown violently open, and a tall young man strode into the room. Just for a moment I had the uncanny sensation that the dead man had come to life again. Then I realized that this dark head was untouched with grey, and that, in point of fact, it was a mere boy who now burst in among us with so little ceremony. He went straight to Mrs. Renauld with an impetuosity that took no heed of the presence of others. “Mother!” “Jack!” With a cry she folded him in her arms. “My dearest! But what brings you here? You were to sail on the Anzora from Cherbourg two days ago?” Then, suddenly recalling to herself the presence of others, she turned with a certain dignity, “My son, messieurs.” “Aha!” said M. Hautet, acknowledging the young man’s bow. “So you did not sail on the Anzora?” “No, monsieur. As I was about to explain, the Anzora was detained twenty-four hours through engine trouble. I sho",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c6b89ed2f2160d3f5321f6ed2075cc628bd6985e0144cc76adc7377e538dd067",
+  "masterSha256": "dad8156579c743ff1eead51757d910b15520d085d80c9a8d2d2afcc9147db437",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-011.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-011.preview.jpg",
+    "sha256": "6ce1ab8dfc53284a6cae9bac2ca76cbb260789141f83e30a35872ba3890d203a"
+  },
+  "useCase": "illustration-story"
+}

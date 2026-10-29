@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-008",
+  "file": "img/giants-bread-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 7. Scene context, do not reproduce words: Two months after his father sailed for South Africa Vernon went to school. It had been Walter Deyre's wish and arrangement, and Myra, at the moment, was disposed to regard any wish of his as law. He was her soldier and her hero, and everything else was forgotten. She was thoroughly happy at this time. Knitting socks for the soldiers, urging on energetic campaigns of \"white feather,\" sympathizing and talking with other women whose husbands had also gone to fight the wicked ungrateful Boers. She felt exquisite pangs parting with Vernon. Her darling—her baby—to go so far away from her. What sacrifices mothers had to make! But it had been his father's wish. Poor darling, he was sure to be most terribly homesick! She couldn't bear to think of it. But Vernon was not homesick. He had no real passionate attachment to his mother. All his life he was to be fondest of her when away from her. His escape from her emotional atmosphere was felt by him as a relief. He had a good temperament for school",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0b237cd09e440de7362c56fc212c77912a161073f71746ef3d5bf9587d85894a",
+  "masterSha256": "0df9eec3563fc0e8e4c8338d88f67acfe6971c0b611cf5a7dd7e30c8eb1135ec",
+  "masterFile": "assets/source-christie-art/giants-bread-008.png",
+  "preview": {
+    "file": "img/giants-bread-008.preview.jpg",
+    "sha256": "4f7efb72b2c1274324114d1aed91382fcd96b0d65d1684efb9c5be769d8f4008"
+  }
+}

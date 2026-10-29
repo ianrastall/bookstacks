@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-037",
+  "file": "img/the-man-in-the-brown-suit-037.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXXVI. Scene context, do not reproduce words: That was two years ago. We still live on the island. Before me, on the rough wooden table, is the letter that Suzanne wrote me. Dear Babes in the Wood—Dear Lunatics in Love, I’m not surprised—not at all. All the time we’ve been talking Paris and frocks I felt that it wasn’t a bit real—that you’d vanish into the blue some day to be married over the tongs in the good old gipsy fashion. But you are a couple of lunatics! This idea of renouncing a vast fortune is absurd. Colonel Race wanted to argue the matter, but I have persuaded him to leave the argument to time. He can administer the estate for Harry—and none better. Because, after all, honeymoons don’t last forever—you’re not here, Anne, so I can safely say that without having you fly out at me like a little wild-cat—Love in the wilderness will last a good while, but one day you will suddenly begin to dream of houses in Park Lane, sumptuous furs, Paris frocks, the largest thing in motors and the latest thing in perambulators, French ma",
+  "width": 1200,
+  "height": 800,
+  "sha256": "096d8a1a4e9d9e60a651b92d6cabcac16857757eae9afe2501e968d46f227702",
+  "masterSha256": "ef738500734e1a72d1ebacb79447fad84d837885b46a9365c1ddb461219fc087",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-037.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-037.preview.jpg",
+    "sha256": "3f0ee63b4ec14cc36c19626b36b660c49df85a117862bbf44287b74d735d4da8"
+  },
+  "useCase": "illustration-story"
+}

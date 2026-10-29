@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-002",
+  "file": "img/the-murder-of-roger-ackroyd-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER II. WHO’S WHO IN KING’S ABBOT. Scene context, do not reproduce words: Before I proceed further with what I said to Caroline and what Caroline said to me, it might be as well to give some idea of what I should describe as our local geography. Our village, King’s Abbot, is, I imagine, very much like any other village. Our big town is Cranchester, nine miles away. We have a large railway station, a small post office, and two rival “General Stores.” Able-bodied men are apt to leave the place early in life, but we are rich in unmarried ladies and retired military officers. Our hobbies and recreations can be summed up in the one word, “gossip.” There are only two houses of any importance in King’s Abbot. One is King’s Paddock, left to Mrs. Ferrars by her late husband. The other, Fernly Park, is owned by Roger Ackroyd. Ackroyd has always interested me by being a man more impossibly like a country squire than any country squire could really be. He reminds one of the red-faced sportsmen who always appeared early in the first act of an old-fashioned musical comedy",
+  "width": 1200,
+  "height": 800,
+  "sha256": "38942d62edb4ddf8f213b5157feb97fd214131252718f4462f80231bf469ac75",
+  "masterSha256": "fb2564397a53c9adbf3f4b84ea38cca783b7586393870fddc92cdf88a3f2187d",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-002.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-002.preview.jpg",
+    "sha256": "4abf4e062217d52e56de5f4e836206b4dfbba2bddcefa5f81f158fe56905c5ca"
+  },
+  "useCase": "illustration-story"
+}

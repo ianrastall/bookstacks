@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-018",
+  "file": "img/the-mystery-of-the-blue-train-018.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 18. Derek Lunches. Scene context, do not reproduce words: Derek Kettering went straight to the Negresco, where he ordered a couple of cocktails and disposed of them rapidly; then he stared moodily out over the dazzling blue sea. He noted the passers-by mechanically—a damned dull crowd, badly dressed, and painfully uninteresting; one hardly ever saw anything worth while nowadays. Then he corrected this last impression rapidly, as a woman placed herself at a table a little distance away from him. She was wearing a marvellous confection of orange and black, with a little hat that shaded her face. He ordered a third cocktail; again he stared out to sea, and then suddenly he started. A well-known perfume assailed his nostrils, and he looked up to see the orange-and-black lady standing beside him. He saw her face now, and recognized her. It was Mirelle. She was smiling that insolent, seductive smile he knew so well. \"Dereek!\" she murmured. \"You are pleased to see me, no?\" She dropped into a seat the other side of the table. \"But welcome me, then, s",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "73407a05a7067d7680e2646eb8ed004d3268e9dbf6014fc6cb3e3bfd42a07c28",
+  "masterSha256": "33edbb9559f63b8df80cabefae3f6bc320d814f47e0c6772d46648110aed5daa",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-018.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-018.preview.jpg",
+    "sha256": "00c5d0971951ab0678f470e05de65a8f9fe045ce1c377b133d69ea39d0370be1"
+  }
+}

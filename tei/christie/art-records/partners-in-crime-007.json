@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-007",
+  "file": "img/partners-in-crime-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter VII. Finessing The King. Scene context, do not reproduce words: It was a wet Wednesday in the offices of the International Detective Agency. Tuppence let the Daily Leader fall idly from her hand. \"Do you know what I've been thinking, Tommy?\" \"It's impossible to say,\" replied her husband. \"You think of so many things, and you think of them all at once.\" \"I think it's time we went dancing again.\" Tommy picked up the Daily Leader hastily. \"Our advertisement looks well,\" he remarked, his head on one side. \"Blunt's Brilliant Detectives. Do you realise, Tuppence, that you and you alone are Blunt's Brilliant Detectives? There's glory for you, as Humpty Dumpty would say.\" \"I was talking about dancing.\" \"There's a curious point that I have observed about newspapers. I wonder if you have ever noticed it. Take these three copies of the Daily Leader. Can you tell me how they differ one from the other?\" Tuppence took them with some curiosity. \"It seems fairly easy,\" she remarked witheringly. \"One is to-day's, one is yesterday's, and one is the day before's.\" \"P",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c1770faa1a3537656a0ca7ec87654afa7895151bda598601f66f2761d32a2419",
+  "masterSha256": "8b8c0cf766d21fd3d793443fc22eeac43b71de61e0bc9b2d5eb69da27a7060bd",
+  "masterFile": "assets/source-christie-art/partners-in-crime-007.png",
+  "preview": {
+    "file": "img/partners-in-crime-007.preview.jpg",
+    "sha256": "76b68a5bd6cd6922d8f997be20fe8b879899d93659e8ab499c8e34cab94fcd31"
+  }
+}

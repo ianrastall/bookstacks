@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-006",
+  "file": "img/murder-at-the-vicarage-006.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 6. Scene context, do not reproduce words: We puzzled over the business of the clock for some time, but we could make nothing of it. Griselda said I ought to make another effort and tell Inspector Slack about it, but on that point I was feeling what I can only describe as \"mulish.\" Inspector Slack had been abominably and most unnecessarily rude. I was looking forward to a moment when I could produce my valuable contribution and effect his discomfiture. I would then say in a tone of mild reproach: \"If you had only listened to me, Inspector Slack—\" I expected that he would at least speak to me before he left the house, but to our surprise we learned from Mary that he had departed, having locked up the study door and issued orders that no one was to attempt to enter the room. Griselda suggested going up to Old Hall. \"It will be so awful for Anne Protheroe—with the police and everything,\" she said. \"Perhaps I might be able to do something for her.\" I cordially approved of this plan, and Griselda set off with instructions that she w",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "7ff0688ee8898e7732d809a08e8d02022553494987560e4d8a1f007e578f2e99",
+  "masterSha256": "2fa0bb3a1487799b6f263cbb0e483320f9f05486b9b5976214b4c19500ef55ea",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-006.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-006.preview.jpg",
+    "sha256": "3c7e3a5cb0fffd97e8de2a2f5a8bdb1979c497c968c4561643b5bae66ec9c128"
+  }
+}

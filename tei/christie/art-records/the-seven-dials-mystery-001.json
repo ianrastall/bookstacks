@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-001",
+  "file": "img/the-seven-dials-mystery-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter I. Scene context, do not reproduce words: On Early Rising That amiable youth, Jimmy Thesiger, came racing down the big staircase at Chimneys two steps at a time. So precipitate was his descent that he collided with Tredwell, the stately butler, just as the latter was crossing the hall bearing a fresh supply of hot coffee. Owing to the marvellous presence of mind and masterly agility of Tredwell, no casualty occurred. \"Sorry,\" apologized Jimmy. \"I say, Tredwell, am I the last down?\" \"No, sir, Mr. Wade has not come down yet.\" \"Good,\" said Jimmy, and entered the breakfast-room. The room was empty save for his hostess, and her reproachful gaze gave Jimmy the same feeling of discomfort he always experienced on catching the eye of a defunct codfish exposed on a fishmonger's slab. Yet, hang it all, why should the woman look at him like that? To come down at a punctual nine-thirty when staying in a country house simply wasn't done. To be sure, it was now a quarter past eleven which was, perhaps, the outside limit, but even then— \"Afra",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "6a3c0b3d315974e2dcc813154173d3b888a3913fa16545d24c0c5343439cbdfe",
+  "masterSha256": "44d6ed2ed84dc960af27662b8c2f93b13325897cd86d9d5211818eb7f74d45a2",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-001.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-001.preview.jpg",
+    "sha256": "f0fbfd9d8675275a2121b1fa540c347fbc0cf88cc596da7a0fbf4571d730059d"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-005",
+  "file": "img/the-murder-on-the-links-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 5Mrs. Renauld’s Story. Scene context, do not reproduce words: We found M. Hautet awaiting us in the hall, and we all proceeded upstairs together, Françoise marching ahead to show us the way. Poirot went up in a zigzag fashion which puzzled me, until he whispered with a grimace: “No wonder the servants heard M. Renauld mounting the stairs; not a board of them but creaks fit to wake the dead!” At the head of the staircase, a small passage branched off. “The servants’ quarters,” explained Bex. We continued along a corridor, and Françoise tapped on the last door to the right of it. A faint voice bade us enter, and we passed into a large sunny apartment looking out towards the sea, which showed blue and sparkling about a quarter of a mile distant. On a couch, propped up with cushions, and attended by Dr. Durand, lay a tall, striking-looking woman. She was middle-aged, and her once dark hair was now almost entirely silvered, but the intense vitality and strength of her personality would have made itself felt anywhere. You knew at once that you were in ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "7c99700f03f1ce9a64147649db22b65537c7a1069f5a28a3ad37659c68f35c1e",
+  "masterSha256": "f8dadd37c849cb3cb91f731a05114e1233013d7daab261b493fc87957c6328b4",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-005.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-005.preview.jpg",
+    "sha256": "01dbd2d78004c700e7b0bb53fdc5ba8e6322d93ba217df01f9fade20da90a0f2"
+  },
+  "useCase": "illustration-story"
+}

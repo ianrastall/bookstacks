@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-011",
+  "file": "img/the-big-four-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 11. A CHESS PROBLEM. Scene context, do not reproduce words: Poirot and I often dined at a small restaurant in Soho. We were there one evening, when we observed a friend at an adjacent table. It was Inspector Japp, and as there was room at our table, he came and joined us. It was some time since either of us had seen him. \"Never do you stop in to see us nowadays,\" declared Poirot reproachfully. \"Not since the affair of the Yellow Jasmine have we met, and that is nearly a month ago.\" \"I've been up north—that's why. How are things with you? Big Four still going strong—eh?\" Poirot shook a finger at him reproachfully. \"Ah! you mock yourself at me—but the Big Four—they exist.\" \"Oh! I don't doubt that—but they're not the hub of the universe, as you make out.\" \"My friend, you are very much mistaken. The greatest power for evil in the world to-day is this 'Big Four.' To what end they are tending, no one knows, but there has never been another such criminal organisation. The finest brain in China at the head of it, an American millionaire, and a French w",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c3a17e76b9bce0f64a780cbd9f90e71db85538114f3db55195d1dc266c6285a5",
+  "masterSha256": "b8e297fb12ba35965713ca21d42dea443eafbf05f8d5c54e8ce3904d6bd64857",
+  "masterFile": "assets/source-christie-art/the-big-four-011.png",
+  "preview": {
+    "file": "img/the-big-four-011.preview.jpg",
+    "sha256": "2266c34ce4f92f3e361c651abb679c6891013b04a5add8f69625244de5962072"
+  },
+  "useCase": "illustration-story"
+}

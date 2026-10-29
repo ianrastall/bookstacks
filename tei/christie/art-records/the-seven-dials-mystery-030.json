@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-030",
+  "file": "img/the-seven-dials-mystery-030.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXX. Scene context, do not reproduce words: An Urgent Summons Loraine, playing with a small and delectable puppy, was somewhat surprised when Bundle rejoined her after an absence of twenty minutes, in a breathless state and with an indescribable expression on her face. \"Whoof,\" said Bundle, sinking on to a garden seat. \"Whoof.\" \"What's the matter?\" asked Loraine, looking at her curiously. \"George is the matter—George Lomax.\" \"What's he been doing?\" \"Proposing to me. It was awful. He spluttered and he stuttered, but he would go through with it—he must have learnt it out of a book, I think. There was no stopping him. Oh, how I hate men who splutter! And, unfortunately, I didn't know the reply.\" \"You must have known what you wanted to do.\" \"Naturally I'm not going to marry an apoplectic idiot like George. What I mean is, I didn't know the correct reply from the book of etiquette. I could only just say flatly: 'No, I won't.' What I ought to have said was something about being very sensible of the honour he had done me and so on and ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 720,
+  "sha256": "31b77a87ae3b057aa5861da25835aa23aae6726152ab23e15c5bdc88bea72512",
+  "masterSha256": "af58239d5d3868e36ac0bb46107fd5c4aac88f8d956fab1313ce3273799349f0",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-030.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-030.preview.jpg",
+    "sha256": "0d893d24cbc29863fa540fb5c15c7814249d5adcb0c9ea6dd1b3935610e65f43"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-018",
+  "file": "img/the-murder-of-roger-ackroyd-018.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XVIII. CHARLES KENT. Scene context, do not reproduce words: Half an hour later saw Poirot, myself, and Inspector Raglan in the train on the way to Liverpool. The inspector was clearly very excited. “We may get a line on the blackmailing part of the business, if on nothing else,” he declared jubilantly. “He’s a rough customer, this fellow, by what I heard over the phone. Takes dope, too. We ought to find it easy to get what we want out of him. If there was the shadow of a motive, nothing’s more likely than that he killed Mr. Ackroyd. But in that case, why is young Paton keeping out of the way? The whole thing’s a muddle—that’s what it is. By the way, M. Poirot, you were quite right about those fingerprints. They were Mr. Ackroyd’s own. I had rather the same idea myself, but I dismissed it as hardly feasible.” I smiled to myself. Inspector Raglan was so very plainly saving his face. “As regards this man,” said Poirot, “he is not yet arrested, eh?” “No, detained under suspicion.” “And what account does he give of himself?” “Precious little,” said ",
+  "width": 1200,
+  "height": 800,
+  "sha256": "206b282ee74ad2251469b66c2d45172b28d74ee1326dd08425b7b0f0aff568f3",
+  "masterSha256": "a8387c099f731b65dc47a6046a935ed8ea7458cc69a7edf6f3716f88af90421a",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-018.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-018.preview.jpg",
+    "sha256": "1798f2edddf4f0214b0883a7552839e7327fe3aedb6e3369c4959a90f78afcd6"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-016",
+  "file": "img/the-big-four-016.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 16. THE DYING CHINAMAN. Scene context, do not reproduce words: Even now I can hardly bear to write of those days in March. Poirot—the unique, the inimitable Hercule Poirot—dead! There was a particularly diabolical touch in the disarranged match-box, which was certain to catch his eye, and which he would hasten to rearrange—and thereby touch off the explosion. That, as a matter of fact, it was I who actually precipitated the catastrophe never ceased to fill me with unavailing remorse. It was, as Doctor Ridgeway said, a perfect miracle that I had not been killed, but had escaped with a slight concussion. Although it had seemed to me as though I regained consciousness almost immediately, it was in reality over twenty-four hours before I came back to life. It was not until the evening of the day following that I was able to stagger feebly into an adjoining room, and view with deep emotion the plain elm coffin which held the remains of one of the most marvellous men this world has ever known. From the very first moment of regaining consciousness I had ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "2728c50b450904b3ec58e8aac8996dd0233bd14c14ed12c465b2de3bf674ea80",
+  "masterSha256": "d4c7d40b4d3e691afb23c1b35359f7c5ceeab755c2c454555183c9895464c116",
+  "masterFile": "assets/source-christie-art/the-big-four-016.png",
+  "preview": {
+    "file": "img/the-big-four-016.preview.jpg",
+    "sha256": "e8f6b3720a4057d8354fd3e1d724440c7bd3ad16decd1213942360e65daf22fc"
+  }
+}

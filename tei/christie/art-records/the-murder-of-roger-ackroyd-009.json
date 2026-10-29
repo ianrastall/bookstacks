@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-009",
+  "file": "img/the-murder-of-roger-ackroyd-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER IX. THE GOLDFISH POND. Scene context, do not reproduce words: We walked back to the house together. There was no sign of the inspector. Poirot paused on the terrace and stood with his back to the house, slowly turning his head from side to side. “Une belle propriété,” he said at last appreciatively. “Who inherits it?” His words gave me almost a shock. It is an odd thing, but until that moment the question of inheritance had never come into my head. Poirot watched me keenly. “It is a new idea to you, that,” he said at last. “You had not thought of it before—eh?” “No,” I said truthfully. “I wish I had.” He looked at me again curiously. “I wonder just what you mean by that,” he said thoughtfully. “Ah! no,” as I was about to speak. “Inutile! You would not tell me your real thought.” “Every one has something to hide,” I quoted, smiling. “Exactly.” “You still believe that?” “More than ever, my friend. But it is not easy to hide things from Hercule Poirot. He has a knack of finding out.” He descended the steps of the Dutch garden as he spoke. “Let us wa",
+  "width": 1200,
+  "height": 800,
+  "sha256": "90875b3e72d2547293cc0ced342b261d596ff9757536849a84bef7e6f4ce6f52",
+  "masterSha256": "1b64582e52ac70a7d63da7c86cc0c8899f16912cf178a8fb919d38cb3edf9f56",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-009.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-009.preview.jpg",
+    "sha256": "ca74704922b5667627a46c164b528afa3c2928ed36cc98263c054038693dcdf8"
+  },
+  "useCase": "illustration-story"
+}

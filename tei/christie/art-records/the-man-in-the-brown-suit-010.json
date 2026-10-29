@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-010",
+  "file": "img/the-man-in-the-brown-suit-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER IX. Scene context, do not reproduce words: It is most undignified for a heroine to be sea-sick. In books the more it rolls and tosses, the better she likes it. When everybody else is ill, she alone staggers along the deck, braving the elements and positively rejoicing in the storm. I regret to say that at the first roll the Kilmorden gave, I turned pale and hastened below. A sympathetic stewardess received me. She suggested dry toast and ginger ale. I remained groaning in my cabin for three days. Forgotten was my quest. I had no longer any interest in solving mysteries. I was a totally different Anne to the one who had rushed back to the South Kensington square so jubilantly from the shipping office. I smile now as I remember my abrupt entry into the drawing-room. Mrs. Flemming was alone there. She turned her head as I entered. “Is that you, Anne, my dear? There is something I want to talk over with you.” “Yes?” I said, curbing my impatience. “Miss Emery is leaving me.” Miss Emery was the governness. “As you have not yet succee",
+  "width": 1200,
+  "height": 800,
+  "sha256": "14282bf0d02089c2d7735dc1845b4c575b77798fa78995930196b1affc85780f",
+  "masterSha256": "8f8f7036708081a3d429555852df0dd554e2ed5204e76cc0e951b4c2d0d2dcfe",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-010.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-010.preview.jpg",
+    "sha256": "d78f8f5cccec920743f8ed0e23caea9f3b5c41c73e0467747c8d9ddde6f6189f"
+  },
+  "useCase": "illustration-story"
+}

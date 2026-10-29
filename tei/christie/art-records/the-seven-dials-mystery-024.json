@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-024",
+  "file": "img/the-seven-dials-mystery-024.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXIV. Scene context, do not reproduce words: Bundle Wonders There was no doubt that Superintendent Battle was taken aback. He fingered his chin thoughtfully. \"Sir Oswald is right, Battle,\" said George. \"This is the man. Any hope of catching him?\" \"There may be, sir. It certainly looks—well, suspicious. Of course the man may turn up again—at Chimneys, I mean.\" \"Do you think it likely?\" \"No, it isn't,\" confessed Battle. \"Yes, it certainly looks as though Bauer were the man. But I can't quite see how he got in and out of these grounds unobserved.\" \"I have already told you my opinion of the men you posted,\" said George. \"Hopelessly inefficient—I don't want to blame you, Superintendent, but—\" His pause was eloquent. \"Ah, well,\" said Battle lightly, \"my shoulders are broad.\" He shook his head and sighed. \"I must get to the telephone at once. Excuse me, gentlemen. I'm sorry, Mr. Lomax—I feel I've rather bungled this business. But it's been puzzling, more puzzling than you know.\" He strode hurriedly from the room. \"Come into the garden,\"",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "5530a7e735682f5c4bcc6eb777062eacc3ac918021959bf637aa484ef7350cd7",
+  "masterSha256": "85ca329aa9e6fad3bde8640f40df675a3bb48b2a4ea804e766ca5f6680c35fc3",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-024.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-024.preview.jpg",
+    "sha256": "56c59118c42fa74476fdaf09788d6831d9001181519f82bde3cdf2b410b2670e"
+  }
+}

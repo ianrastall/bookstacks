@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-034",
+  "file": "img/the-man-in-the-brown-suit-034.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXXIII. Scene context, do not reproduce words: I was not summoned to Sir Eustace’s presence until late in the afternoon. Eleven-o’clock tea and a substantial lunch had been served to me in my own apartment, and I felt fortified for further conflict. Sir Eustace was alone. He was walking up and down the room, and there was a gleam in his eye and a restlessness in his manner which did not escape me. He was exultant about something. There was a subtle change in his manner towards me. “I have news for you. Your young man is on his way. He will be here in a few minutes. Moderate your transports—I have something more to say. You attempted to deceive me this morning. I warned you that you would be wise to stick to the truth, and up to a certain point you obeyed me. Then you ran off the rails. You attempted to make me believe that the diamonds were in Harry Rayburn’s possession. At the time, I accepted your statement because it facilitated my task—the task of inducing you to decoy Harry Rayburn here. But, my dear Anne, the diamonds have be",
+  "width": 1200,
+  "height": 800,
+  "sha256": "eee5d059c632661946dfd54d6af2b40acba035541a6bab36921abf56aa92c60f",
+  "masterSha256": "4de8d20b81ec0ee215de6320fbad755afc5da1bfa8c582ed9ca8a9b6e9962b75",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-034.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-034.preview.jpg",
+    "sha256": "d93d8fef4ad8333be48279948a9dd2947c16ed57a1ae54c618fc43373c4467f9"
+  },
+  "useCase": "illustration-story"
+}

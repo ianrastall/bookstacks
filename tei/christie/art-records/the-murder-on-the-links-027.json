@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-027",
+  "file": "img/the-murder-on-the-links-027.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 27Jack Renauld’s Story. Scene context, do not reproduce words: “Congratulations, M. Jack,” said Poirot, wringing the lad warmly by the hand. Young Renauld had come to us as soon as he was liberated—before starting for Merlinville to rejoin Marthe and his mother. Stonor accompanied him. His heartiness was in strong contrast to the lad’s wan looks. It was plain that the boy was on the verge of a nervous breakdown. Although delivered from the immediate peril that was hanging over him, the circumstances of his release were too painful to let him feel full relief. He smiled mournfully at Poirot, and said in a low voice: “I went through it to protect her, and now it’s all no use!” “You could hardly expect the girl to accept the price of your life,” remarked Stonor dryly. “She was bound to come forward when she saw you heading straight for the guillotine.” “Eh ma foi! and you were heading for it too!” added Poirot, with a slight twinkle. “You would have had Maître Grosíer’s death from rage on your conscience if you had gone on.” “He was a well meaning as",
+  "width": 1200,
+  "height": 800,
+  "sha256": "b8a6a3514e3813920e409e88054a4db8aeddb2d61d9a00b3dcd33d20978c3410",
+  "masterSha256": "6611b4649ca275156698834855d2e2492a21af018b68efaf974c4d70470df5b0",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-027.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-027.preview.jpg",
+    "sha256": "41c2c543f4f8062b4889a1020de5bf2411cedf15983a0c9d2e7eb025ba2df7ad"
+  },
+  "useCase": "illustration-story"
+}

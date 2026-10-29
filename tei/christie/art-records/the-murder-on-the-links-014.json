@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-014",
+  "file": "img/the-murder-on-the-links-014.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 14The Second Body. Scene context, do not reproduce words: Waiting for no more, I turned and ran up the path to the shed. The two men on guard there stood aside to let me pass and, filled with excitement, I entered. The light was dim, the place was a mere rough wooden erection to keep old pots and tools in. I had entered impetuously, but on the threshold I checked myself, fascinated by the spectacle before me. Giraud was on his hands and knees, a pocket torch in his hand with which he was examining every inch of the ground. He looked up with a frown at my entrance, then his face relaxed a little in a sort of good-humoured contempt. “Ah, c’est l’Anglais! Enter then. Let us see what you can make of this affair.” Rather stung by his tone, I stooped my head, and passed in. “There he is,” said Giraud, flashing his torch to the far corner. I stepped across. The dead man lay straight upon his back. He was of medium height, swarthy of complexion, and possibly about fifty years of age. He was neatly dressed in a dark blue suit, well cut and probably ma",
+  "width": 1200,
+  "height": 800,
+  "sha256": "f05fa23087d3b070d66e990ce1f131ff9a87929f8fdeb080312ec75beb56f906",
+  "masterSha256": "e1aa30c7a7c5b2dfb7d075fa6b91219312a0fdc5039d0ccba86d8e948773a997",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-014.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-014.preview.jpg",
+    "sha256": "2d6741e0e3a002825b27a46980fdf89deecec8bfa763cafb8fa52125e4b62254"
+  },
+  "useCase": "illustration-story"
+}

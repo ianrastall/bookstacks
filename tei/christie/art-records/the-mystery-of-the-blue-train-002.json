@@ -1,0 +1,17 @@
+{
+  "slug": "the-mystery-of-the-blue-train-002",
+  "file": "img/the-mystery-of-the-blue-train-002.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mystery of the Blue Train — 2. M. le Marquis. Scene context, do not reproduce words: The man with the white hair continued on his course, unhurried, and seemingly indifferent to his surroundings. He took a side turning to the right and another one to the left. Now and then he hummed a little air to himself. Suddenly he stopped dead and listened intently. He had heard a certain sound. It might have been the bursting of a tyre or it might have been—a shot. A curious smile played round his lips for a minute. Then he resumed his leisurely walk. On turning a corner he came upon a scene of some activity. A representative of the law was making notes in a pocket-book, and one or two late passers-by had collected on the spot. To one of these the man with the white hair made a polite request for information. \"Something has been happening, yes?\" \"Mais oui, Monsieur. Two apaches set upon an elderly American gentleman.\" \"They did him no injury?\" \"No, indeed.\" The man laughed. \"The American, he had a revolver in his pocket, and before they could attack him, he fired shots so closely",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a09455edfcda75ed3c3a3f5e73852e867f9d45370b5f28363457478cb9eee5cd",
+  "masterSha256": "b705342326cb6e53bed6356019f5e89f3454e2fde6e68d0b5fe9bb824bde6726",
+  "masterFile": "assets/source-christie-art/the-mystery-of-the-blue-train-002.png",
+  "preview": {
+    "file": "img/the-mystery-of-the-blue-train-002.preview.jpg",
+    "sha256": "a173f52173d7cc274b9a70e468e33d548640eb15dae66f178fdf451f6ff2fc4c"
+  }
+}

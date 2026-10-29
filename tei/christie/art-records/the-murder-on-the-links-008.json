@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-008",
+  "file": "img/the-murder-on-the-links-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 8An Unexpected Meeting. Scene context, do not reproduce words: We were up at the Villa betimes next morning. The man on guard at the gate did not bar our way this time. Instead, he respectfully saluted us, and we passed on to the house. The maid Léonie was just coming down the stairs, and seemed not averse to the prospect of a little conversation. Poirot inquired after the health of Mrs. Renauld. Léonie shook her head. “She is terribly upset, la pauvre dame! She will eat nothing—but nothing! And she is as pale as a ghost. It is heartrending to see her. Ah, par exemple, it is not I who would grieve like that for a man who had deceived me with another woman!” Poirot nodded sympathetically. “What you say is very just, but what will you? The heart of a woman who loves will forgive many blows. Still, undoubtedly there must have been many scenes of recrimination between them in the last few months?” Again Léonie shook her head. “Never, monsieur. Never have I heard Madame utter a word of protest—of reproach, even! She had the temper and disposition of an",
+  "width": 1200,
+  "height": 800,
+  "sha256": "36b4ea20b497d7a19902bc384e5c5370d90a831d5dc51f198e03b814095c9fe7",
+  "masterSha256": "28cf89ea65be3d84b266a2b35996aea3134cc7baa85655f08f2b3ce0d4c4aef0",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-008.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-008.preview.jpg",
+    "sha256": "68d6a7ef7580b96812b0827e72d9fa81f4ed9c5adacc2fc60bba7fe85e039d80"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-big-four-001",
+  "file": "img/the-big-four-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Big Four — 1. THE UNEXPECTED GUEST. Scene context, do not reproduce words: I have met people who enjoy a channel crossing; men who can sit calmly in their deck-chairs and, on arrival, wait until the boat is moored, then gather their belongings together without fuss and disembark. Personally, I can never manage this. From the moment I get on board I feel that the time is too short to settle down to anything. I move my suit-cases from one spot to another, and if I go down to the saloon for a meal, I bolt my food with an uneasy feeling that the boat may arrive unexpectedly whilst I am below. Perhaps all this is merely a legacy from one's short leaves in the war, when it seemed a matter of such importance to secure a place near the gangway, and to be amongst the first to disembark lest one should waste precious minutes of one's three or five days' leave. On this particular July morning, as I stood by the rail and watched the white cliffs of Dover drawing nearer, I marvelled at the passengers who could sit calmly in their chairs and never even raise their eyes for",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "473b1afbfaabf3d03c7681bc0a274a0b6c5aa0b303360fed7cb0590b206ca2d7",
+  "masterSha256": "8049aa0ed7f9ee5e72bce0405c1d787f39dab1e2b98d7e04bda707abd0961e8f",
+  "masterFile": "assets/source-christie-art/the-big-four-001.png",
+  "preview": {
+    "file": "img/the-big-four-001.preview.jpg",
+    "sha256": "ca84a656af361eac48d5b75097942dd3f3a531e6dc497fdd31f0ae7610348e01"
+  }
+}

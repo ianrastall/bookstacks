@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-003",
+  "file": "img/the-man-in-the-brown-suit-003.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER II. Scene context, do not reproduce words: Every one was very kind to me. Dazed as I was, I appreciated that. I felt no overwhelming grief. Papa had never loved me, I knew that well enough. If he had, I might have loved him in return. No, there had not been love between us, but we had belonged together, and I had looked after him, and had secretly admired his learning and his uncompromising devotion to science. And it hurt me that Papa should have died just when the interest of life was at its height for him. I should have felt happier if I could have buried him in a cave, with paintings of reindeer and flint implements, but the force of public opinion constrained a neat tomb (with marble slab) in our hideous local churchyard. The vicar’s consolations, though well meant, did not console me in the least. It took some time to dawn upon me that the thing I had always longed for—freedom—was at last mine. I was an orphan, and practically penniless, but free. At the same time I realized the extraordinary kindness of all these good pe",
+  "width": 1200,
+  "height": 800,
+  "sha256": "21064e660568759138ddcc9ba9ef4a39cff6240e39c9cc6a92c54dc49a602af2",
+  "masterSha256": "2d83b22b2ea5f62eb4084e9f9f5eb01f1bc6eeee9a93cbea39f0ecceb45921a8",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-003.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-003.preview.jpg",
+    "sha256": "6c16285805ede86f36d64cba649d4114cfe383cdf4856154056c956046ecc1aa"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-007",
+  "file": "img/the-man-in-the-brown-suit-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER VI. Scene context, do not reproduce words: I went home with a feeling of exultation. My scheme had succeeded far better than I could possibly have hoped. Lord Nasby had been positively genial. It only now remained for me to “Make good,” as he expressed it. Once locked in my own room, I took out my precious piece of paper and studied it attentively. Here was the clue to the mystery. To begin with, what did the figures represent? There were five of them, and a dot after the first two. “Seventeen—one hundred and twenty-two,” I murmured. That did not seem to lead to anything. Next I added them up. That is often done in works of fiction and leads to surprising deductions. “One and seven make eight and one is nine and two are eleven and two are thirteen.” Thirteen! Fateful number! Was this a warning to me to leave the whole thing alone? Very possibly. Anyway, except as a warning, it seemed to be singularly useless. I declined to believe that any conspirator would take that way of writing thirteen in real life. If he meant thirteen, h",
+  "width": 1200,
+  "height": 800,
+  "sha256": "641c53c201be39f7872fad56e598f18e0c659b7fa8a6cb27ccfbed4e1722adbc",
+  "masterSha256": "2257322272ac8b30616e09359520bbbf40a1c716ed9e5717d5c1df4db6af06ec",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-007.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-007.preview.jpg",
+    "sha256": "789b1148c6b824acbb2627ba0798456e57d1e3161699aadd2b7a65a956dc1212"
+  },
+  "useCase": "illustration-story"
+}

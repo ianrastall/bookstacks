@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-028",
+  "file": "img/murder-at-the-vicarage-028.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 28. Scene context, do not reproduce words: I hurried down the village street. It was eleven o'clock, and at eleven o'clock on a Sunday night the whole village of St. Mary Mead might be dead. I saw, however, a light in a first floor window as I passed, and, realizing that Hawes was still up, I stopped and rang the door bell. After what seemed a long time, Hawes' landlady, Mrs. Sadler, laboriously unfastened two bolts, a chain, and turned a key, and peered out at me suspiciously. \"Why, it's Vicar!\" she exclaimed. \"Good evening,\" I said. \"I want to see Mr. Hawes. I see there's a light in the window, so he's up still.\" \"That may be. I've not seen him since I took up his supper. He's had a quiet evening—no one to see him, and he's not been out.\" I nodded, and, passing her, went quickly up the stairs. Hawes has a bedroom and sitting room on the first floor. I passed into the latter. Hawes was lying back in a long chair asleep. My entrance did not wake him. An empty cachet box and a glass of water, half full, stood beside him. On the ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "a9d3b0c54b53f15c56165ef38c379653ae639188ed61e886bb92c1220f379702",
+  "masterSha256": "55b92a95a79898e62d9a674fff511c8e8f6084d98d62ab2b3d66a0afee9ab2c9",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-028.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-028.preview.jpg",
+    "sha256": "37d3eef4c0ae9fa7133371d2edfb245305798dd760fbd8ff8451d4d4252ba9e5"
+  }
+}

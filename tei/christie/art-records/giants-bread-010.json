@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-010",
+  "file": "img/giants-bread-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 1. Scene context, do not reproduce words: The room was full of cigarette smoke. It eddied and drifted about, forming a thin blue haze. Through it came the sound of three voices occupied with the betterment of the human race and the encouragement of art—especially art that defied all known conventions. Sebastian Levinne, leaning back against the ornate marble mantelpiece of his mother's town house, spoke didactically, gesticulating with the long yellow hand that held his cigarette. The tendency to lisp was still there, but very faint. His yellow Mongolian face, his surprised-looking ears, were much the same as they had been at eleven years old. At twenty-two he was the same Sebastian, sure of himself, perspective, with the same love of beauty and the same unemotional and unerring sense of values. In front of him, reclining in two immense leather-covered arm chairs, were Vernon and Joe. Very much alike these two, cast in the same sharply accentuated black and white mould. But, as of old, Joe's was the more aggressive personality",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0f8e48e72ed4705615d5c0a91885f33c518f165443b8f7937505d733828e7b7d",
+  "masterSha256": "4f98bd16937a61aa6abf7930277d9ac075a4fd56b32ec8aac1ec0516026fd15c",
+  "masterFile": "assets/source-christie-art/giants-bread-010.png",
+  "preview": {
+    "file": "img/giants-bread-010.preview.jpg",
+    "sha256": "098003b91a0ad1ed8483f3e7a368d272b3d1b765f0cac6ac55a3fd4737614ffb"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-027",
+  "file": "img/the-seven-dials-mystery-027.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXVII. Scene context, do not reproduce words: Nocturnal Adventure Jimmy Thesiger arrived at Letherbury on a sunny autumn afternoon and was greeted affectionately by Lady Coote and with cold dislike by Sir Oswald. Aware of the keen match-making eye of Lady Coote upon him, Jimmy took pains to make himself extremely agreeable to Socks Daventry. O'Rourke was there in excellent spirits. He was inclined to be official and secretive about the mysterious events at the Abbey, about which Socks catechized him freely, but his official reticence took a novel form—namely that of embroidering the tale of events in such a fantastic manner that nobody could possibly guess what the truth might have been. \"Four masked men with revolvers? Is that really so?\" demanded Socks severely. \"Ah! I'm remembering now that there was the round half dozen of them to hold me down and force the stuff down my throat. Sure, and I thought it was poison, and I done for entirely.\" \"And what was stolen, or what did they try and steal?\" \"What else but the crown jewels of",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "69d8de9b9e3ca9158507843002a7c7fa7a597bb731b84b64c9c4a26cfeef547c",
+  "masterSha256": "b7fade172ebed70d0a2376b0b54fe1f1d10c4aac09585f17e8dc5f1bd28c2aa6",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-027.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-027.preview.jpg",
+    "sha256": "c4ae9580c7e5c075dbc80f418a7d65efeb66334a6a95dca4be6e147be6b36f27"
+  }
+}

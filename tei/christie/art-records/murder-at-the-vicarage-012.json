@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-012",
+  "file": "img/murder-at-the-vicarage-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 12. Scene context, do not reproduce words: I was summoned to the study when Lawrence Redding arrived. He looked haggard, and, I thought, suspicious. Colonel Melchett greeted him with something approaching cordiality. \"We want to ask you a few questions—here, on the spot,\" he said. Lawrence sneered slightly. \"Isn't that a French idea? Reconstruction of the crime?\" \"My dear boy,\" said Colonel Melchett. \"Don't take that tone with us. Are you aware that someone else has also confessed to committing the crime which you pretend to have committed?\" The effect of these words on Lawrence was painful and immediate. \"S-s-omeone else?\" he stammered. \"Who—who?\" \"Mrs. Protheroe,\" said Colonel Melchett, watching him. \"Absurd. She never did it. She couldn't have. It's impossible.\" Melchett interrupted him. \"Strangely enough, we did not believe her story. Neither, I may say, do we believe yours. Dr. Haydock says positively that the murder could not have been committed at the time you say it was.\" \"Dr. Haydock says that?\" \"Yes; so, you see, you ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0f385e3b1c61c0df3ba7f7183c4de1ef2abba9705d381dc2665874b6fc692341",
+  "masterSha256": "cad49e49f27604cddbccfdf5ca2dd4b8c11db482e916c6a049b9772af404991c",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-012.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-012.preview.jpg",
+    "sha256": "15668e8466e3416f0b90aa491ead4179b3ca48c76b6d03962fb7caa1504d1e75"
+  }
+}

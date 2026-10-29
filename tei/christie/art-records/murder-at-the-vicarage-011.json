@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-011",
+  "file": "img/murder-at-the-vicarage-011.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 11. Scene context, do not reproduce words: I saw at a glance that Colonel Melchett and Inspector Slack had not been seeing eye to eye about the case. Melchett looked flushed and annoyed, and the Inspector looked sulky. \"I'm sorry to say,\" said Melchett, \"that Inspector Slack doesn't agree with me in considering young Redding innocent.\" \"If he didn't do it, what does he go and say he did it for?\" asked Slack sceptically. \"Mrs. Protheroe acted in an exactly similar fashion, remember, Slack.\" \"That's different. She's a woman, and women act in that silly way. I'm not saying she did it, for a moment. She heard he was accused, and she trumped up a story. I'm used to that sort of game. You wouldn't believe the fool things I've known women do. But Redding's different. He's got his head screwed on all right. And if he admits he did it, well, I say he did do it. It's his pistol—you can't get away from that. And, thanks to this business of Mrs. Protheroe, we know the motive. That was the weak point before, but now we know it—why, the whol",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "306b4a4d6ecbbaa3b522b15ae90951e04ecda466b0ad8bad1127ac4a26794c9a",
+  "masterSha256": "ff2b5840081473ad0f339d782a4713db8dcd601231c20ec7f5730b367062ecda",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-011.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-011.preview.jpg",
+    "sha256": "645f498e3ba9f76515fcccf5e03000bbb625efed211afe1fdc293203e0206263"
+  }
+}

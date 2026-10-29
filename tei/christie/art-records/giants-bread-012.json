@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-012",
+  "file": "img/giants-bread-012.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 3. Scene context, do not reproduce words: \"Do you mind just going over that once more, Mr. Flemming?\" \"Willingly.\" Precise, dry, even, word after word fell from the old lawyer's lips. His meaning was clear and unmistakable! Too much so! It didn't leave a loophole for doubt. Vernon listened. His face was very white, his hands grasped the arms of the chair in which he was sitting. It couldn't be true—it couldn't! And yet, after all, hadn't Mr. Flemming said very much the same, years ago? Yes, but then there had been the magic words \"twenty-one\" to look forward to. \"Twenty-one\" which by a blessed miracle was to make everything right. Instead of which: \"Mind you, the position is infinitely improved from what it was at the time of your father's death, but it is no good pretending we are out of the wood. The mortgage....\" Surely, surely, they had never mentioned a mortgage? Well, it wouldn't have been much use, he supposed, to a boy of nine. No good trying to get round it. The plain truth was that he couldn't afford to live at Abbot",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0a4c92b99acc6be089725ff3a122bbf37d8c0290b41ae26a5aa6dc0e7d3a0fd9",
+  "masterSha256": "188fb3295002a3f10f0174f2b01f8e97283e3d82c7e0812c9fa4263f9d755864",
+  "masterFile": "assets/source-christie-art/giants-bread-012.png",
+  "preview": {
+    "file": "img/giants-bread-012.preview.jpg",
+    "sha256": "7b2134dbb5e4b8ff87ce8926a6f39dee2d4b721e6944cf7fbd368e3b0b93fbdb"
+  }
+}

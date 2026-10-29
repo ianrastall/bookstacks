@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-008",
+  "file": "img/murder-at-the-vicarage-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 8. Scene context, do not reproduce words: We were rather silent on our way down to the police station. Haydock drew behind a little and murmured to me. \"You know I don't like the look of this. I don't like it. There's something here we don't understand.\" He looked thoroughly worried and upset. Inspector Slack was at the police station, and presently we found ourselves face to face with Lawrence Redding. He looked pale and strained but quite composed—marvellously so, I thought, considering the circumstances. Melchett snorted and hummed, obviously nervous. \"Look here, Redding,\" he said. \"I understand you made a statement to Inspector Slack here. You state you went to the Vicarage at approximately a quarter to seven, found Protheroe there, quarrelled with him, shot him and came away. I'm not reading it over to you, but that's the gist of it.\" \"Yes.\" \"I'm going to ask you a few questions. You've already been told that you needn't answer them unless you choose. Your solicitor—\" Lawrence interrupted. \"I've nothing to hide. I killed ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0d2e64e73da95f12598df252e2ca5027e18febf9cfb042858557074cd64dc8c0",
+  "masterSha256": "9bb57498992cdd2a88cbb5f671395728ab187bf76d5aa4824850e5719fae8b30",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-008.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-008.preview.jpg",
+    "sha256": "1d8077d6e06d8369ed5023354927dbf541cd98b8ec4fa403ff18abd56ef5eb5a"
+  }
+}

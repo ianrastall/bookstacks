@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-009",
+  "file": "img/murder-at-the-vicarage-009.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 9. Scene context, do not reproduce words: After leaving a message at the police station, the Chief Constable announced his intention of paying a visit to Miss Marple. \"You'd better come with me, Vicar,\" he said. \"I don't want to give a member of your flock hysterics. So lend the weight of your soothing presence.\" I smiled. For all her fragile appearance, Miss Marple is capable of holding her own with any policeman or chief constable in existence. \"What's she like?\" asked the Colonel as we rang the bell. \"Anything she says to be depended upon or otherwise?\" I considered the matter. \"I think she is quite dependable,\" I said cautiously. \"That is, in so far as she is talking of what she has actually seen. Beyond that, of course, when you get on to what she thinks—well, that is another matter. She has a powerful imagination, and systematically thinks the worst of everyone.\" \"The typical elderly spinster, in fact,\" said Melchett with a laugh. \"Well, I ought to know the breed by now. Gad, the tea parties down here!\" We were admitted ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "e46fa06a9cfde284efe46da13956cba319f87560d8954bcfb4430829f2a9862a",
+  "masterSha256": "45c91e2f98821d0bf5b91fad2b0041e63bc680732a541d4200ba7812cae91158",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-009.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-009.preview.jpg",
+    "sha256": "b804667f9c4e655c35e9e61183b6905591aed0397191e7a09bae545de0882e68"
+  }
+}

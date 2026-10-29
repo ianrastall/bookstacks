@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-005",
+  "file": "img/giants-bread-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 4. Scene context, do not reproduce words: Vernon woke, after a long time, to find himself in bed. It was, of course, the natural place to be when you woke up, but what wasn't natural was to have a great hump sticking up in front of you in the bed. It was whilst he was staring at this that someone spoke to him. That someone was Dr. Coles, whom Vernon knew quite well. \"Well, well,\" said Dr. Coles, \"and how are we feeling?\" Vernon didn't know how Dr. Coles was feeling. He himself was feeling rather sick and said so. \"I dare say, I dare say,\" said Dr. Coles. \"And I think I hurt somewhere,\" said Vernon. \"I think I hurt very much.\" \"I dare say, I dare say,\" said Dr. Coles again—not very helpfully, Vernon thought. \"Perhaps I'd feel better if I got up,\" said Vernon. \"Can I get up?\" \"Not just now, I'm afraid,\" said the doctor. \"You see, you've had a fall.\" \"Yes,\" said Vernon. \"The Beast came after me.\" \"Eh? What's that? The Beast? What Beast?\" \"Nothing,\" said Vernon. \"A dog, I expect,\" said the doctor. \"Jumped at the wall and barked. Y",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "4cc7edb5322abfa78cb1eb4c6a702e8a0c0706ef53fab5847bc2b78dbdc5fc91",
+  "masterSha256": "dfef85d4fb62715ab7f88210e9c33645877bbb862ad01dff16bbe8f60dbc983c",
+  "masterFile": "assets/source-christie-art/giants-bread-005.png",
+  "preview": {
+    "file": "img/giants-bread-005.preview.jpg",
+    "sha256": "9980406ae13d56d172250171d3b9f03709bac105be2e72030b36b17af474e74a"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-010",
+  "file": "img/the-murder-of-roger-ackroyd-010.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER X. THE PARLORMAID. Scene context, do not reproduce words: We found Mrs. Ackroyd in the hall. With her was a small dried-up little man, with an aggressive chin and sharp gray eyes, and “lawyer” written all over him. “Mr. Hammond is staying to lunch with us,” said Mrs. Ackroyd. “You know Major Blunt, Mr. Hammond? And dear Dr. Sheppard—also a close friend of poor Roger’s. And, let me see——” She paused, surveying Hercule Poirot in some perplexity. “This is M. Poirot, mother,” said Flora. “I told you about him this morning.” “Oh! yes,” said Mrs. Ackroyd vaguely. “Of course, my dear, of course. He is to find Ralph, is he not?” “He is to find out who killed uncle,” said Flora. “Oh! my dear,” cried her mother. “Please! My poor nerves. I am a wreck this morning, a positive wreck. Such a dreadful thing to happen. I can’t help feeling that it must have been an accident of some kind. Roger was so fond of handling queer curios. His hand must have slipped, or something.” This theory was received in polite silence. I saw Poirot edge up to the lawyer, and sp",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ea69870ebfd3eafbae610f4dc1586f1e09c01870598a3876893010fffa9eea3d",
+  "masterSha256": "a5e17ecfbc6c50f69b9a533e0dc4392b38b93a10555afc43b3164a2e5536d540",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-010.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-010.preview.jpg",
+    "sha256": "c12e3608c3558b75af4bf6089bec2ef393c235a95775be59042631d854c1c301"
+  },
+  "useCase": "illustration-story"
+}

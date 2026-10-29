@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-001",
+  "file": "img/murder-at-the-vicarage-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 1. Scene context, do not reproduce words: It is difficult to know quite where to begin this story, but I have fixed my choice on a certain Wednesday at luncheon at the Vicarage. The conversation, though in the main irrelevant to the matter in hand, yet contained one or two suggestive incidents which influenced later developments. I had just finished carving some boiled beef (remarkably tough by the way), and on resuming my seat I remarked, in a spirit most unbecoming to my cloth, that anyone who murdered Colonel Protheroe would be doing the world at large a service. My young nephew, Dennis, said instantly: \"That'll be remembered against you when the old boy is found bathed in blood. Mary will give evidence, won't you, Mary? And describe how you brandished the carving knife in a vindictive manner.\" Mary, who is in service at the Vicarage as a stepping stone to better things and higher wages, merely said, in a loud businesslike voice, \"Greens,\" and thrust a cracked dish at him in a truculent manner. My wife said in a sympathetic",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "8995457bea645e63d6e4b6f6662ca62bd1a7835f22f638c62f213c4b5c63cfd7",
+  "masterSha256": "050bb4a9e8a6eb21a74417620011b66a56d0583507af22397513393fbb3f44d7",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-001.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-001.preview.jpg",
+    "sha256": "0f6f4f5d4009c4350dfca1c5aac3390b70d1b2a02254012f1d34c1ee0caca5bb"
+  }
+}

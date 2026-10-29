@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-017",
+  "file": "img/giants-bread-017.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 1. Scene context, do not reproduce words: Jane Harding had a flat at the top of a block of mansions overlooking the river in Chelsea. Here, on the evening following the party, came Sebastian Levinne. \"I've fixed it up, Jane,\" he said. \"Radmaager is coming here to see you sometime to-morrow. He prefers to do that, it seems.\" \"'Come, tell me how you live, he cried,'\" quoted Jane. \"Well, I'm living very nicely and respectably, entirely alone! Do you want something to eat, Sebastian?\" \"If there is anything?\" \"There are scrambled eggs and mushrooms, anchovy toast and black coffee if you'll sit here peaceably while I get them.\" She put the cigarette box and the matches beside him and left the room. In a quarter of an hour the meal was ready. \"I like coming to see you, Jane,\" said Sebastian. \"You never treat me as a bloated young Jew to whom only the flesh pots of the Savoy would make appeal.\" Jane smiled without speaking. Presently she said: \"I like your girl, Sebastian.\" \"Joe?\" \"Yes, Joe.\" Sebastian said gruffly: \"What—what do you ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "d0cc1aa30af07bf611374ccefc0ec5436d39cc9ec6580b148e12d7c84105ced9",
+  "masterSha256": "c50719b097aec63f454ace095193707ea6afcea80eb1794aff4d61fb4a8c715e",
+  "masterFile": "assets/source-christie-art/giants-bread-017.png",
+  "preview": {
+    "file": "img/giants-bread-017.preview.jpg",
+    "sha256": "3723e725bb3b709ea47cc13fee544f998d17683a29ed8be038215d2dc58f83aa"
+  }
+}

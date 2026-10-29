@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-025",
+  "file": "img/the-man-in-the-brown-suit-025.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XXIV. Scene context, do not reproduce words: We arrived at Bulawayo early on Saturday morning. I was disappointed in the place. It was very hot, and I hated the hotel. Also Sir Eustace was what I can only describe as thoroughly sulky. I think it was all our wooden animals that annoyed him—especially the big giraffe. It was a colossal giraffe with an impossible neck, a mild eye and a dejected tail. It had character. It had charm. A controversy was already arising as to whom it belonged—me or Suzanne. We had each contributed a tiki to its purchase. Suzanne advanced the claims of seniority and the married state, I stuck to the position that I had been the first to behold its beauty. In the meantime, I must admit, it occupied a good deal of this three-dimensional space of ours. To carry forty-nine wooden animals, all of awkward shape, and all of extremely brittle wood, is somewhat of a problem. Two porters were laden with a bunch of animals each—and one promptly dropped a ravishing group of ostriches and broke their heads off. Warned",
+  "width": 1200,
+  "height": 800,
+  "sha256": "ddcc4cc29b31a7e63a2ecc8be2e8255a53245515fc47b292c32673fe99e85361",
+  "masterSha256": "15c6d93b6190599f90c37eb21d89a1f4dc018e8531ace2760b8cc2b545fefb7c",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-025.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-025.preview.jpg",
+    "sha256": "4b625d44a969d3961a5c618bdad19576fcf98c6c63e1e17087d628e767dffcb5"
+  },
+  "useCase": "illustration-story"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-023",
+  "file": "img/the-seven-dials-mystery-023.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XXIII. Scene context, do not reproduce words: Superintendent Battle In Charge It was ten o'clock on the following morning. The sun poured in through the windows of the library, where Superintendent Battle had been at work since six. On a summons from him, George Lomax, Sir Oswald Coote and Jimmy Thesiger had just joined him, having repaired the fatigues of the night with a substantial breakfast. Jimmy's arm was in a sling, but he bore little other trace of the night's affray. The Superintendent eyed all three of them benevolently, somewhat with the air of a kindly curator explaining a museum to little boys. On the table beside him were various objects, neatly labelled. Amongst them Jimmy recognized Leopold. \"Ah, Superintendent,\" said George, \"I have been anxious to know how you have progressed. Have you caught the man?\" \"He'll take a lot of catching, he will,\" said the Superintendent easily. His failure in that respect did not appear to rankle with him. George Lomax did not look particularly well pleased. He detested levity of any",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "9627b8aa264f435783b269ea686c07e46d0cfc00234acd84a0db8648f72acd01",
+  "masterSha256": "e7474a936ae4b7968ebe9fdb5b75dca8e6c34fd159f386253054b1142af7f560",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-023.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-023.preview.jpg",
+    "sha256": "f1de76cb27ae7a019b35d0194a974f9ec714a707af4721d845a091b4b4514c0e"
+  }
+}

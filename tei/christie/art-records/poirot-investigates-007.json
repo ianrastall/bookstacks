@@ -1,0 +1,17 @@
+{
+  "slug": "poirot-investigates-007",
+  "file": "img/poirot-investigates-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Poirot Investigates — VII. The Jewel Robbery at the Grand Metropolitan. Scene context, do not reproduce words: “Poirot,” I said, “a change of air would do you good.” “You think so, mon ami?” “I am sure of it.” “Eh—eh?” said my friend, smiling. “It is all arranged, then?” “You will come?” “Where do you propose to take me?” “Brighton. As a matter of fact, a friend of mine in the City put me on to a very good thing, and—well, I have money to burn, as the saying goes. I think a week-end at the Grand Metropolitan would do us all the good in the world.” “Thank you, I accept most gratefully. You have the good heart to think of an old man. And the good heart, it is in the end worth all the little grey cells. Yes, yes, I who speak to you am in danger of forgetting that sometimes.” I did not quite relish the implication. I fancy that Poirot is sometimes a little inclined to underestimate my mental capacities. But his pleasure was so evident that I put my slight annoyance aside. “Then, that’s all right,” I said hastily. Saturday evening saw us dining at the Grand Metropolitan in the midst of a gay throng.",
+  "width": 1200,
+  "height": 800,
+  "sha256": "11f10be9394ce912da95a9aa3e460b26e24d0cc0fa14f625f86d839570261b60",
+  "masterSha256": "e03f466821a5a41e7d4878e46decae18db2ef40b3bbbca462e04a5d9ee67db26",
+  "masterFile": "assets/source-christie-art/poirot-investigates-007.png",
+  "preview": {
+    "file": "img/poirot-investigates-007.preview.jpg",
+    "sha256": "1a36325dcc441d8b90a47ad5ac5fd6e212bbef8cd7ae65e8dd89005bb3f09d3e"
+  },
+  "useCase": "illustration-story"
+}

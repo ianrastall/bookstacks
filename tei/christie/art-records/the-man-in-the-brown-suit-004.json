@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-004",
+  "file": "img/the-man-in-the-brown-suit-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER III. Scene context, do not reproduce words: In the succeeding weeks I was a good deal bored. Mrs. Flemming and her friends seemed to me to be supremely uninteresting. They talked for hours of themselves and their children and of the difficulties of getting good milk for the children and of what they said to the Dairy when the milk wasn’t good. Then they would go on to servants, and the difficulties of getting good servants and of what they had said to the woman at the Registry Office and of what the woman at the Registry Office had said to them. They never seemed to read the papers or to care about what went on in the world. They disliked travelling—everything was so different to England. The Riviera was all right, of course, because one met all one’s friends there. I listened and contained myself with difficulty. Most of these women were rich. The whole wide beautiful world was theirs to wander in and they deliberately stayed in dirty dull London and talked about milkmen and servants! I think now, looking back, that I was perha",
+  "width": 1200,
+  "height": 800,
+  "sha256": "911c62f9f6154b79a7e39bddf933dcd8cc656c3a81755c4830164034f6bed231",
+  "masterSha256": "af5dcce1087772a2097f69ba21af0eac572b32b4b02bc2c2465c8ef5a407587f",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-004.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-004.preview.jpg",
+    "sha256": "e658de9b0f11e7468d0a6f544794f57dcb77dbc3ad3e8773020c4f813d7af0fe"
+  },
+  "useCase": "illustration-story"
+}

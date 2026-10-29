@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-001",
+  "file": "img/partners-in-crime-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter I. A Fairy in the Flat. Scene context, do not reproduce words: Mrs. Thomas Beresford shifted her position on the divan and looked gloomily out of the window of the flat. The prospect was not an extended one, consisting solely of a small block of flats on the other side of the road. Mrs. Beresford sighed and then yawned. \"I wish,\" she said, \"something would happen.\" Her husband looked up reprovingly. \"Be careful, Tuppence, this craving for vulgar sensation alarms me.\" Tuppence sighed and closed her eyes dreamily. \"So Tommy and Tuppence were married,\" she chanted, \"and lived happily ever afterwards. And six years later they were still living together happily ever afterwards. It is extraordinary,\" she said, \"how different everything always is from what you think it is going to be.\" \"A very profound statement, Tuppence. But not original. Eminent poets and still more eminent divines have said it before—and, if you will excuse me saying so, have said it better.\" \"Six years ago,\" continued Tuppence, \"I would have sworn that with sufficient money to buy t",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "4d0514740f690a6459de2f4cd8f879bdab386fa95878ee61a1938a6c66998975",
+  "masterSha256": "5135dbd77b040e050a56d8194ac8f5da8800fb369b2902434410d509261755a9",
+  "masterFile": "assets/source-christie-art/partners-in-crime-001.png",
+  "preview": {
+    "file": "img/partners-in-crime-001.preview.jpg",
+    "sha256": "7d8a243652da33272a66332e9290eef9bff1a9aff2ff60e488c3132c3ee7343d"
+  }
+}

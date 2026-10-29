@@ -1,0 +1,17 @@
+{
+  "slug": "the-seven-dials-mystery-017",
+  "file": "img/the-seven-dials-mystery-017.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Seven Dials Mystery — Chapter XVII. Scene context, do not reproduce words: After Dinner George was not a believer in modern innovations. The Abbey was innocent of anything so up to date as central heating. Consequently, when the ladies entered the drawing-room after dinner, the temperature of the room was woefully inadequate to the needs of modern evening clothes. The fire that burnt in the well-burnished steel grate became as a magnet. The three women huddled round it. \"Brrrrrrrrrrrr!\" said the Countess, a fine, exotic, foreign sound. \"The days are drawing in,\" said Lady Coote, and drew a flowered atrocity of a scarf closer about her ample shoulders. \"Why on earth doesn't George have the house properly heated?\" said Bundle. \"You English, you never heat your houses,\" said the Countess. She took out her long cigarette holder and began to smoke. \"That grate is old-fashioned,\" said Lady Coote. \"The heat goes up the chimney instead of into the room.\" \"Oh!\" said the Countess. There was a pause. The Countess was so plainly bored by her company that conversation bec",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "5f77b0a67841450921099afc4733bb7ed90dc5dc729e7b28682799b00a594cd3",
+  "masterSha256": "2fbcec1d7f33938cd026f0e05af33361c598a2856d674237dfb35e6c47303edf",
+  "masterFile": "assets/source-christie-art/the-seven-dials-mystery-017.png",
+  "preview": {
+    "file": "img/the-seven-dials-mystery-017.preview.jpg",
+    "sha256": "447651aafc57f053dd5db47ae7d1237a997489d20ae6a6a984fb95cd2ebeaad5"
+  }
+}

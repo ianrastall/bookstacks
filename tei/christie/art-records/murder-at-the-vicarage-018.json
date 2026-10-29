@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-018",
+  "file": "img/murder-at-the-vicarage-018.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 18. Scene context, do not reproduce words: The inquest was held that afternoon (Saturday) at two o'clock at the Blue Boar. The local excitement was, I need hardly say, tremendous. There had been no murder in St. Mary Mead for at least fifteen years. And to have someone like Colonel Protheroe murdered actually in the Vicarage study is such a feast of sensation as rarely falls to the lot of a village population. Various comments floated to my ears which I was probably not meant to hear. \"There's Vicar. Look pale, don't he? I wonder if he had a hand in it. 'Twas done at Vicarage, after all.\" \"How can you, Mary Adams? And him visiting Henry Abbott at the time.\" \"Ah! but they do say him and the Colonel had words. There's Mary Hill. Giving herself airs, she is, on account of being in service there. Hush, here's coroner.\" The coroner was Dr. Roberts of our adjoining town of Much Benham. He cleared his throat, adjusted his eyeglasses, and looked important. To recapitulate all the evidence would be merely tiresome. Lawrence Redding gave",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "46dd9ea27485a8c874e30822fee0024a96b2cdc4bdcd4475c34237400c7a6b09",
+  "masterSha256": "836ec0cb8f33a6fba0c1f2169dbbcfeaaf5e946065c5a7a174444b5adeafe577",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-018.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-018.preview.jpg",
+    "sha256": "5dfa988414822ae0cfe5541ef8f67ad69e15fdcbee90a9902cf277b1d9338b3c"
+  }
+}

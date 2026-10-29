@@ -1,0 +1,17 @@
+{
+  "slug": "the-plymouth-express-affair-001",
+  "file": "img/the-plymouth-express-affair-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Plymouth Express Affair — The Plymouth Express Affair. Scene context, do not reproduce words: Alec Simpson, R. N., stepped from the platform at Newton Abbot into a first-class compartment of the Plymouth Express. A porter followed him with a heavy suitcase. He was about to swing it up to the rack, but the young sailor stopped him. “No—leave it on the seat. I’ll put it up later. Here you are.” “Thank you, sir.” The porter, generously tipped, withdrew. Doors banged; a stentorian voice shouted: “Plymouth only. Change for Torquay. Plymouth next stop.” Then a whistle blew, and the train drew slowly out of the station. Lieutenant Simpson had the carriage to himself. The December air was chilly, and he pulled up the window. Then he sniffed vaguely, and frowned. What a smell there was! Reminded him of that time in hospital, and the operation on his leg. Yes, chloroform; that was it! He let the window down again, changing his seat to one with its back to the engine. He pulled a pipe out of his pocket and lit it. For a little time he sat inactive, looking out into the night and smoking. ",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "c20d9fcf01103c520acc2fa9c2f48e9c9517714e0761c9535fadb8a734e32eab",
+  "masterSha256": "c27af2857ac6731f3b19c6b27ee4c54d919243cc1351d3b1169f468432717183",
+  "masterFile": "assets/source-christie-art/the-plymouth-express-affair-001.png",
+  "preview": {
+    "file": "img/the-plymouth-express-affair-001.preview.jpg",
+    "sha256": "6f82b9da01176108a06e6af2396cf7090a5ce7154244c79f3f6830a714b80795"
+  }
+}

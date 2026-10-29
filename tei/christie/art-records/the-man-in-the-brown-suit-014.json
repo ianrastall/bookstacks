@@ -1,0 +1,17 @@
+{
+  "slug": "the-man-in-the-brown-suit-014",
+  "file": "img/the-man-in-the-brown-suit-014.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Man in the Brown Suit — CHAPTER XIII. Scene context, do not reproduce words: It has been a curious evening. The only costume that fitted me in the barber’s emporium was that of a Teddy Bear. I don’t mind playing bears with some nice young girls on a winter’s evening in England—but it’s hardly an ideal costume for the equator. However, I created a good deal of merriment, and won first prize for “brought on board”—an absurd term for a costume hired for the evening. Still as nobody seemed to have the least idea whether they were made or brought, it didn’t matter. Mrs. Blair refused to dress up. Apparently she is at one with Pagett on the matter. Colonel Race followed her example. Anne Beddingfeld had concocted a gipsy costume for herself, and looked extraordinarily well. Pagett said he had a headache and didn’t appear. To replace him I asked a quaint little fellow called Reeves. He’s a prominent member of the South African Labour party. Horrible little man, but I want to keep in with him, as he gives me information that I need. I want to understand this Rand busin",
+  "width": 1200,
+  "height": 800,
+  "sha256": "1bbcaf9f3b12802cd27fd421f4e5a0246b6cda1f414ffe5703c4e7a9d28804e0",
+  "masterSha256": "5cae97ed0baf15b712d23f1c5ca865aac23fea28d31fdbb34d00af1febb24fe3",
+  "masterFile": "assets/source-christie-art/the-man-in-the-brown-suit-014.png",
+  "preview": {
+    "file": "img/the-man-in-the-brown-suit-014.preview.jpg",
+    "sha256": "12e6e2dfada5bd5daad054145a3662b903081e3455c153bd9dd7befd40c535e2"
+  },
+  "useCase": "illustration-story"
+}

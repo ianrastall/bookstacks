@@ -1,0 +1,17 @@
+{
+  "slug": "partners-in-crime-005",
+  "file": "img/partners-in-crime-005.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Partners in Crime — Chapter V. The Adventure of the Sinister Stranger. Scene context, do not reproduce words: \"It's been a darned dull day,\" said Tommy, and yawned widely. \"Nearly tea time,\" said Tuppence and also yawned. Business was not brisk in the International Detective Agency. The eagerly expected letter from the ham merchant had not arrived and bona fide cases were not forthcoming. Albert, the office boy, entered with a sealed package which he laid on the table. \"The Mystery of the Sealed Packet,\" murmured Tommy. \"Did it contain the fabulous pearls of the Russian Grand Duchess? Or was it an infernal machine destined to blow Blunt's Brilliant Detectives to pieces?\" \"As a matter of fact,\" said Tuppence, tearing open the package, \"it's my wedding present to Francis Haviland. Rather nice, isn't it?\" Tommy took a slender silver cigarette case from her outstretched hand, noted the inscription engraved in her own handwriting: Francis from Tuppence, opened and shut the case, and nodded approvingly. \"You do throw your money about, Tuppence,\" he remarked. \"I'll have one like it, only in gold, for",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "91d71e241a5134167c94ea759bebc811f5463f9d6922a67da6d1e25b1f77b455",
+  "masterSha256": "fca0f108e84e9c9870aadf3fa7385b9797072c6bb4976b017e467a96d0c32466",
+  "masterFile": "assets/source-christie-art/partners-in-crime-005.png",
+  "preview": {
+    "file": "img/partners-in-crime-005.preview.jpg",
+    "sha256": "0885714def9f0918b5d1abc97d0e89e77ad6389fe770c12beea3dff5fd32a01e"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-008",
+  "file": "img/the-mysterious-affair-at-styles-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER VIII. FRESH SUSPICIONS. Scene context, do not reproduce words: There was a moment’s stupefied silence. Japp, who was the least surprised of any of us, was the first to speak. “My word,” he cried, “you’re the goods! And no mistake, Mr. Poirot! These witnesses of yours are all right, I suppose?” “Voilà! I have prepared a list of them—names and addresses. You must see them, of course. But you will find it all right.” “I’m sure of that.” Japp lowered his voice. “I’m much obliged to you. A pretty mare’s nest arresting him would have been.” He turned to Inglethorp. “But, if you’ll excuse me, sir, why couldn’t you say all this at the inquest?” “I will tell you why,” interrupted Poirot. “There was a certain rumour——” “A most malicious and utterly untrue one,” interrupted Alfred Inglethorp in an agitated voice. “And Mr. Inglethorp was anxious to have no scandal revived just at present. Am I right?” “Quite right.” Inglethorp nodded. “With my poor Emily not yet buried, can you wonder I was anxious that no more lying rumours should be started.” “Between you a",
+  "width": 1200,
+  "height": 800,
+  "sha256": "34d6bbef3eb483e1e7f3c26380658e9e8bf17898ac2143662caeecefffd65db8",
+  "masterSha256": "e98a2e5dc4f02a1fe70bfe1bf8317e6032a3dbdb60b851eeb8a6ddf2c00769b0",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-008.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-008.preview.jpg",
+    "sha256": "5849d82abf684dc5190cd73484e71d57319268a1cecdcacd6d265ca9eceb9500"
+  },
+  "useCase": "illustration-story"
+}

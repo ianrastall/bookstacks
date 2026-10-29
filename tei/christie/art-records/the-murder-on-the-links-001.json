@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-on-the-links-001",
+  "file": "img/the-murder-on-the-links-001.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder on the Links — 1A Fellow Traveller. Scene context, do not reproduce words: I believe that a well-known anecdote exists to the effect that a young writer, determined to make the commencement of his story forcible and original enough to catch and rivet the attention of the most blasé of editors, penned the following sentence: “ ‘Hell!’ said the Duchess.” Strangely enough, this tale of mine opens in much the same fashion. Only the lady who gave utterance to the exclamation was not a Duchess! It was a day in early June. I had been transacting some business in Paris and was returning by the morning service to London where I was still sharing rooms with my old friend, the Belgian ex-detective, Hercule Poirot. The Calais express was singularly empty—in fact, my own compartment held only one other traveller. I had made a somewhat hurried departure from the hotel and was busy assuring myself that I had duly collected all my traps when the train started. Up till then I had hardly noticed my companion, but I was now violently recalled to the fact of her existence. Jumpi",
+  "width": 1200,
+  "height": 600,
+  "sha256": "d9ad8c2eb159981c4998d79f664c3b01bd9ee739faf4d7e85cb87eb0c422e48e",
+  "masterSha256": "79ca9c6dfc7adcd043a1e27a7747567dc53a289f9bc0010a68a4b1c77f989658",
+  "masterFile": "assets/source-christie-art/the-murder-on-the-links-001.png",
+  "preview": {
+    "file": "img/the-murder-on-the-links-001.preview.jpg",
+    "sha256": "9711b5d9ee0705ffdb21dc5cc6c397b50b18a5662cbaa518b2baf8dbfcfdf1fa"
+  },
+  "useCase": "illustration-story"
+}

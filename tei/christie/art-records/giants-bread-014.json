@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-014",
+  "file": "img/giants-bread-014.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 5. Scene context, do not reproduce words: \"Then you can't love me!\" \"Oh! but Vernon, I do. If you'd only try and understand.\" They faced each other desperately, bewildered by this sudden rift between them—by the queer unexpected vagaries of life. One minute they had been so near that each thought even had seemed to be shared by the other. Now they were poles apart, angry and hurt by the other's lack of comprehension. Nell turned away with a little gesture of despair and sank down on a chair. Why was it all like this? Why couldn't things stay as they ought to be, as you had felt they were going to be for ever? That evening at Ranelagh—and the night afterward when she had lain awake wrapped in a happy dream. Enough that night just to know that she was loved. Why, even her mother's scathing words had failed to upset her. They had come from so far away. The couldn't penetrate that shining web of misty dream. She had wakened up happy the next morning. Her mother had been pleasant, had said nothing more. Wrapped in her secret though",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "71bf7bd4fcc16e0ac12ec568ff5d6c8237edb081f5a9480e0535553260dd8382",
+  "masterSha256": "1af6fafca40061a079da22c72b806ff1683c9a38019171935886fc0e860b76ab",
+  "masterFile": "assets/source-christie-art/giants-bread-014.png",
+  "preview": {
+    "file": "img/giants-bread-014.preview.jpg",
+    "sha256": "384bd61aba8cc3104163199d93693a6d2aee4fe2aaacc82f095db8fedbe6bf46"
+  }
+}

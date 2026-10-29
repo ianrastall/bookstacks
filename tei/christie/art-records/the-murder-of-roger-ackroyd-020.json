@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-020",
+  "file": "img/the-murder-of-roger-ackroyd-020.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER XX. MISS RUSSELL. Scene context, do not reproduce words: Inspector Raglan had received a bad jolt. He was not deceived by Blunt’s valiant lie any more than we had been. Our way back to the village was punctuated by his complaints. “This alters everything, this does. I don’t know whether you’ve realized it, Monsieur Poirot?” “I think so, yes, I think so,” said Poirot. “You see, me, I have been familiar with the idea for some time.” Inspector Raglan, who had only had the idea presented to him a short half-hour ago, looked at Poirot unhappily, and went on with his discoveries. “Those alibis now. Worthless! Absolutely worthless. Got to start again. Find out what every one was doing from nine-thirty onwards. Nine-thirty—that’s the time we’ve got to hang on to. You were quite right about the man Kent—we don’t release him yet awhile. Let me see now—nine-forty-five at the Dog and Whistle. He might have got there in a quarter of an hour if he ran. It’s just possible that it was his voice Mr. Raymond heard talking to Mr. Ackroyd—asking for money which",
+  "width": 1200,
+  "height": 800,
+  "sha256": "0785533176d7a95a69c6812ea7b590999f97741b44ed5f67e4077b143e3d2e82",
+  "masterSha256": "f9bd49f5e726dcc706841d7967816275d182954dc6a4e500ad4f4ac1d16e90a8",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-020.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-020.preview.jpg",
+    "sha256": "dc7269ac21ed0fba3472ce6aa041c7ae50b81a68fb6d1e4bb1ac5ed3b8a0815f"
+  },
+  "useCase": "illustration-story"
+}

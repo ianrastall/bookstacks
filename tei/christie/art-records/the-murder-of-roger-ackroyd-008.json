@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-008",
+  "file": "img/the-murder-of-roger-ackroyd-008.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER VIII. INSPECTOR RAGLAN IS CONFIDENT. Scene context, do not reproduce words: We looked at each other. “You’ll have inquiries made at the station, of course?” I said. “Naturally, but I’m not over sanguine as to the result. You know what that station is like.” I did. King’s Abbot is a mere village, but its station happens to be an important junction. Most of the big expresses stop there, and trains are shunted, re-sorted, and made up. It has two or three public telephone boxes. At that time of night three local trains come in close upon each other, to catch the connection with the express for the north which comes in at 10.19 and leaves at 10.23. The whole place is in a bustle, and the chances of one particular person being noticed telephoning or getting into the express are very small indeed. “But why telephone at all?” demanded Melrose. “That is what I find so extraordinary. There seems no rhyme or reason in the thing.” Poirot carefully straightened a china ornament on one of the bookcases. “Be sure there was a reason,” he said over his shoulder. “But what reas",
+  "width": 1200,
+  "height": 800,
+  "sha256": "d5e161a5c790cb9b14ad12cba98c63356b3b731445ef73a0ada0d07e5fb9ba8c",
+  "masterSha256": "4f8bb41262b2daf473da16c7b389bc6dae28cf4f161ace8b6831a2c2b897517c",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-008.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-008.preview.jpg",
+    "sha256": "62ce32ed4e7c5eee13750f811334500113faef3eb22b225b43faee3842b91472"
+  },
+  "useCase": "illustration-story"
+}

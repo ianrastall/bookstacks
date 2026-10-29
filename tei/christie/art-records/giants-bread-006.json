@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-006",
+  "file": "img/giants-bread-006.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 5. Scene context, do not reproduce words: The years from five to nine remained somewhat dim in Vernon's memory. Things changed—but so gradually as not to matter. Nurse did not return to her reign over the nursery. Her mother had had a stroke and was quite helpless and she was obliged to remain and look after her. Instead, a Miss Robbins was installed as nursery governess. A creature so extraordinarily colourless that Vernon could never afterward even recall what she looked like. He must have become somewhat out of hand under her régime for he was sent to school just after his eighth birthday. On his first holidays he found his cousin Josephine installed. On her few visits to Abbots Puissants, Nina had never brought her small daughter with her. Indeed her visits had become rarer and rarer. Vernon, knowing things without thinking about them, as children do, was perfectly well aware of two facts. One, that his father did not like Uncle Sydney but was always exceedingly polite to him. Two, that his mother did not like Aunt Nina an",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "3bef0d33643c8a9ed105b06a47ae3662f98749b023c1a8059adbb61154383d37",
+  "masterSha256": "a994969e085ab2abdb3116753d48edb7c19dddf564479ed1123641bb9710445c",
+  "masterFile": "assets/source-christie-art/giants-bread-006.png",
+  "preview": {
+    "file": "img/giants-bread-006.preview.jpg",
+    "sha256": "88b87f7e3418bd9b985dfd714a986fca859b39f48a342ad44a7200dc271fbfed"
+  }
+}

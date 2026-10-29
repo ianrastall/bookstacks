@@ -1,0 +1,17 @@
+{
+  "slug": "murder-at-the-vicarage-026",
+  "file": "img/murder-at-the-vicarage-026.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Murder at the Vicarage — Chapter 26. Scene context, do not reproduce words: I was in a strange mood when I mounted the pulpit that night. The church was unusually full. I cannot believe that it was the prospect of Hawes preaching which had attracted so many. Hawes' sermons are dull and dogmatic. And if the news had got round that I was preaching instead, that would not have attracted them either. For my sermons are dull and scholarly. Neither, I am afraid, can I attribute it to devotion. Everybody had come, I concluded, to see who else was there, and possibly to exchange a little gossip in the church porch afterwards. Haydock was in church, which is unusual, and also Lawrence Redding. And, to my surprise, beside Lawrence I saw the white strained face of Hawes. Anne Protheroe was there, but she usually attends Evensong on Sundays, though I had hardly thought she would today. I was far more surprised to see Lettice. Church-going was compulsory on Sunday morning—Colonel Protheroe was adamant on that point—but I had never seen Lettice at evening service before. Gl",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "45f48bc56aaf9b8ae9c2706131cfb6465898053989da2b327b2f0ce6adbddb7e",
+  "masterSha256": "bd645a60c1707c01b6e85f304a1a9b25c5c706a10c4acda72b4662aced91a542",
+  "masterFile": "assets/source-christie-art/murder-at-the-vicarage-026.png",
+  "preview": {
+    "file": "img/murder-at-the-vicarage-026.preview.jpg",
+    "sha256": "dfc8abb31069270aa98e22ecaa9540e42827b970b4e5a75a5a29e54b7eba5d66"
+  }
+}

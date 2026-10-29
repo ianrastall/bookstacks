@@ -1,0 +1,17 @@
+{
+  "slug": "the-mysterious-affair-at-styles-007",
+  "file": "img/the-mysterious-affair-at-styles-007.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Mysterious Affair at Styles — CHAPTER VII. POIROT PAYS HIS DEBTS. Scene context, do not reproduce words: As we came out of the Stylites Arms, Poirot drew me aside by a gentle pressure of the arm. I understood his object. He was waiting for the Scotland Yard men. In a few moments, they emerged, and Poirot at once stepped forward, and accosted the shorter of the two. “I fear you do not remember me, Inspector Japp.” “Why, if it isn’t Mr. Poirot!” cried the Inspector. He turned to the other man. “You’ve heard me speak of Mr. Poirot? It was in 1904 he and I worked together—the Abercrombie forgery case—you remember, he was run down in Brussels. Ah, those were great days, moosier. Then, do you remember ‘Baron’ Altara? There was a pretty rogue for you! He eluded the clutches of half the police in Europe. But we nailed him in Antwerp—thanks to Mr. Poirot here.” As these friendly reminiscences were being indulged in, I drew nearer, and was introduced to Detective-Inspector Japp, who, in his turn, introduced us both to his companion, Superintendent Summerhaye. “I need hardly ask what you are doing h",
+  "width": 1200,
+  "height": 800,
+  "sha256": "816b68709b870ed8c3042e8aa1bc19777424df5c6edd03129555a3b34d76d654",
+  "masterSha256": "b4e68d271aedeaa09dd45a5f25cb8f378c7af21384a4322786fb4420045adbaf",
+  "masterFile": "assets/source-christie-art/the-mysterious-affair-at-styles-007.png",
+  "preview": {
+    "file": "img/the-mysterious-affair-at-styles-007.preview.jpg",
+    "sha256": "1dd379e56e76d03b1463059823c322d218c056507266c91ceec6a91de42aa4e7"
+  },
+  "useCase": "illustration-story"
+}

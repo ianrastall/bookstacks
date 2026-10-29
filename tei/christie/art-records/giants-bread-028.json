@@ -1,0 +1,17 @@
+{
+  "slug": "giants-bread-028",
+  "file": "img/giants-bread-028.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. Giants’ Bread — chapter 4. Scene context, do not reproduce words: \"Miss Harding to see you, madam.\" Nell started. Twenty-four hours had elapsed since her interview with Vernon. She had thought it was finished. And now Jane! She was afraid of Jane. She might refuse to see her. She said: \"Show her up here.\" It was more private up here in her own sitting room. What a long time it was waiting. Had Jane gone away again? No, here she was. She looked very tall. Nell cowered down on the sofa. Jane had a wicked face—she had always thought so. There was a look on her face now as of an avenging Fury. The butler left the room. Jane stood towering over Nell. Then she flung back her head and laughed. \"Don't forget to ask me to the christening,\" she said. Nell flinched. She said haughtily: \"I don't know what you mean?\" \"It's a family secret at present, is it? Nell, you damned little liar, you're not going to have a child. I don't believe you ever will have a child—too much risk and pain. What made you think of telling Vernon such a peculiarly damnable lie?\" Nell sa",
+  "useCase": "illustration-story",
+  "width": 1200,
+  "height": 800,
+  "sha256": "da2735beae489c6fc162fa7611c7fc598b5e3709dd9673f99a65b7c2e17623e7",
+  "masterSha256": "2cb308cfc049134f134cf20c8a062e087c10fd231e537effe7cf8afdade9359a",
+  "masterFile": "assets/source-christie-art/giants-bread-028.png",
+  "preview": {
+    "file": "img/giants-bread-028.preview.jpg",
+    "sha256": "c2cfed664de3078f1c184ae420b2087cb44f9766b489348e967787fbe6621b68"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "the-murder-of-roger-ackroyd-004",
+  "file": "img/the-murder-of-roger-ackroyd-004.jpg",
+  "generationTool": "OpenAI built-in image_gen",
+  "date": "2026-10-28",
+  "prompt": "Create one landscape literary sidebar sketch. Fine black pen-and-ink steel engraving, delicate parallel hatching, crosshatching and stipple on clean ivory paper, open edges fading to blank paper. No border, captions, lettering, colour or modern objects. Depict a concrete scene or object from this specific Agatha Christie chapter/story; accurate early twentieth century period, no spoilers beyond the excerpt. The Murder of Roger Ackroyd — CHAPTER IV. DINNER AT FERNLY. Scene context, do not reproduce words: It was just a few minutes before half-past seven when I rang the front door bell of Fernly Park. The door was opened with admirable promptitude by Parker, the butler. The night was such a fine one that I had preferred to come on foot. I stepped into the big square hall and Parker relieved me of my overcoat. Just then Ackroyd’s secretary, a pleasant young fellow by the name of Raymond, passed through the hall on his way to Ackroyd’s study, his hands full of papers. “Good-evening, doctor. Coming to dine? Or is this a professional call?” The last was in allusion to my black bag, which I had laid down on the oak chest. I explained that I expected a summons to a confinement case at any moment, and so had come out prepared for an emergency call. Raymond nodded, and went on his way, calling over his shoulder:— “Go into the drawing-room. You know the way. The ladies will be down in a minute. I must just take these papers to Mr. Ackroyd, and I’ll tell him you’re here.” On Raymond’s appearance P",
+  "width": 1200,
+  "height": 800,
+  "sha256": "335e2d8c3f06b23fbf08a00b022c41921876be10cc331ff668f20765d7976ffc",
+  "masterSha256": "821832c764bbb9702a65217b7e431b42de937aaa8d70cd8390392b0c1bf0f837",
+  "masterFile": "assets/source-christie-art/the-murder-of-roger-ackroyd-004.png",
+  "preview": {
+    "file": "img/the-murder-of-roger-ackroyd-004.preview.jpg",
+    "sha256": "c0da6f3d0d0a85c053a2e3ae406d93c00124d056c15f56b664b49bb7f70a970d"
+  },
+  "useCase": "illustration-story"
+}
