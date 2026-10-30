@@ -1,0 +1,14 @@
+{
+  "wordCharacters": "A-Za-zÀ-ÖØ-öø-ÿĀ-ž0-9",
+  "excludeNames": ["all", "both", "exeunt", "exit", "enter", "scene", "act", "ils", "elles", "tous", "toutes", "il", "elle", "les", "le", "la", "un", "une", "et", "y", "and", "todos", "todas", "salen", "sale", "entra", "entran"],
+  "entrance": {
+    "en": "(?:^|[.;—-])\\s*(?:enter|re-enter|reenter)\\b",
+    "fr": "(?:^|[.;—-])\\s*(?:(?:il|elle|ils|elles)\\s+)?(?:entre|entrent|rentre|rentrent|revient|reviennent|reparaît|reparaissent|paraît|paraissent|arrive|arrivent|survient|surviennent)\\b(?!\\s+que\\b)|^@(?:\\s*(?:,|et)\\s*@)*\\s+(?:entre|entrent|rentre|rentrent|revient|reviennent|reparaît|reparaissent|paraît|paraissent|arrive|arrivent)\\b",
+    "es": "(?:^|[.;—-])\\s*(?:entra|entran|sale|salen|aparece|aparecen|vuelve|vuelven)\\b"
+  },
+  "exit": {
+    "en": "^(?:exit|exeunt)\\b",
+    "fr": "(?:^|[.;—-])\\s*(?:(?:ils|elles|tous|toutes|il|elle)\\s+)?(?:sort|sortent|se retire|se retirent|s['’]en va|s['’]en vont)\\b|^@(?:\\s*(?:,|et)\\s*@)*\\s+(?:sort|sortent|se retire|se retirent|s['’]en va|s['’]en vont)\\b",
+    "es": "^(?:vase|vanse|váse|vánse|retírase|retíranse|se retira|se retiran)\\b|^@(?:\\s*(?:,|y)\\s*@)*\\s+(?:se retira|se retiran|se van)\\b"
+  }
+}

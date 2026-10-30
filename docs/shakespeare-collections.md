@@ -100,7 +100,7 @@ PDF generation and publication remain explicit, separate operations.
 
 ## Publication checks
 
-The new French edition has separately generated 142-page light and dark PDFs,
+The initial French edition had separately generated 142-page light and dark PDFs,
 with identical extracted text and pagination. Cover, publication record, verse,
 notes and ending pages were visually inspected. The publication record names
 both playwrights, Hugo, the 1866 print source and the recorded transcription.
@@ -110,6 +110,10 @@ prints source URLs without French typographic spacing inside the address.
 It also preserves stage directions that interrupt a verse group, retaining
 the verse on both sides of the direction.
 These changes apply to future explicit PDF exports; existing PDFs are preserved.
+
+The later [Shakespeare layout rollout](drama-layout.md) supersedes the initial
+PDF typography and page counts, applying Ian's entrance, exit and speech-direction
+rules to both the reader and the Shakespeare PDF publications.
 
 The corrected PDF publication is committed in `ianrastall/bookstacks-pdf` at
 `578a0d6`. Both hosted PDF checksums were verified after its successful Pages deployment.

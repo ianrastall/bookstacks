@@ -832,6 +832,12 @@ button, input, select { font: inherit; }
 .tei-stage .tei-entity { border-bottom: 0; }
 .tei-stage .tei-entity,
 .tei-stage-name { font-style: normal; text-transform: uppercase; }
+.tei-drama-stage { font-style: italic; text-indent: 0; }
+.tei-drama-stage.tei-stage-block { display: block; margin: 0.9em 0; }
+.tei-drama-stage.tei-stage-entrance,
+.tei-drama-stage.tei-stage-setting { text-align: center; text-align-last: center; }
+.tei-drama-stage.tei-stage-exit { text-align: right; text-align-last: right; }
+.tei-drama-stage .tei-stage-name { font-style: normal; font-variant: normal; text-transform: uppercase; }
 .tei-cast-list { margin: 1em 0; }
 .reader-content .tei-cast-item { margin: 0.35em 0; text-indent: 0; }
 .tei-cast-role { font-weight: 700; text-transform: uppercase; }

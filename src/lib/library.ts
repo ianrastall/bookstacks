@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { DOMParser } from '@xmldom/xmldom';
 import authorProfileData from '../data/author-profiles.json';
 import { headingTitleCase, normalizeHeadingNode } from './headings';
+import { dramaLayout,prepareDrama,stageClone,type DramaLayout } from './drama';
 import { EDITION_LANGUAGES, isEditionLanguage, type EditionLanguage as Locale } from './i18n';
 import '../i18n/catalogues';
 import { text as interfaceText } from './interface';
@@ -262,6 +263,7 @@ interface EntityMaps {
   places: Map<string, RegistryEntry>;
   notes: Map<string, any>;
   referencedNoteIds: Set<string>;
+  drama?: DramaLayout;
 }
 
 interface RenderContext {
@@ -516,6 +518,10 @@ function parseEdition(filePath: string): ParsedEdition {
     if (!sourceLinks.some(link => link.href === href)) sourceLinks.push({ label: `Project Gutenberg #${match[1]}`, href });
   }
   const entities = parseRegistries(document);
+  if(authorSlug==='shakespeare'){
+    entities.drama=dramaLayout(fileName,createHash('sha256').update(source).digest('hex'),language.code);
+    prepareDrama(document,entities.drama);
+  }
   const text = descendants(document, 'text')[0];
   if (!text) throw new Error(`No TEI text element in ${fileName}`);
 
@@ -884,6 +890,29 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
       return `<div class="tei-speaker">${escapeHtml(label)}.</div>`;
     }
     case 'stage': {
+      if(entities.drama){
+        const kind=node.getAttribute('data-bookstacks-stage-kind')||'business';
+        const block=['entrance','exit','setting'].includes(kind);
+        const inlineParent=['p','l','hi','seg'].includes(node.parentNode?.localName);
+        const tag=block&&!inlineParent?'div':'span';
+        const layout=entities.drama;
+        function stagePart(part:any):string {
+          if(part.nodeType===3||part.nodeType===4){
+            const value=String(part.nodeValue??'');let result='',offset=0;
+            for(const match of value.matchAll(layout.names)){
+              result+=escapeHtml(value.slice(offset,match.index));
+              result+=`<span class="tei-stage-name">${escapeHtml(match[0].toLocaleUpperCase(layout.locale))}</span>`;
+              offset=match.index!+match[0].length;
+            }
+            return result+escapeHtml(value.slice(offset));
+          }
+          if(part.nodeType!==1)return '';
+          if(['note','ref','lb'].includes(part.localName))return renderNode(part,entities,headingLevel,context);
+          return directChildNodes(part).map(stagePart).join('');
+        }
+        const content=directChildNodes(stageClone(node)).map(stagePart).join('');
+        return `<${tag} class="tei-stage tei-drama-stage tei-stage-${escapeAttr(kind)}${block?' tei-stage-block':''}">[${normalizeInlineSpacing(content)}]</${tag}>`;
+      }
       const stageType = slugify(cleanText(node.getAttribute?.('type'))) || 'direction';
       const stageRend = cleanText(node.getAttribute?.('rend')).toLowerCase();
       const isSceneIntroduction = /\bscene-introduction\b/.test(stageRend);
@@ -954,6 +983,7 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     case 'lg':
       return `<div class="tei-line-group">${children()}</div>`;
     case 'l':
+      if(entities.drama&&/^[=_*\-]{3,}$/.test(text()))return '<hr class="tei-scene-break" />';
       return `<span class="tei-line">${children()}</span>`;
     case 'castList':
       return `<div class="tei-cast-list" role="list">${children()}</div>`;

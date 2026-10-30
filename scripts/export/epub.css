@@ -12,6 +12,7 @@ p{margin:0}.tei-paragraph{text-indent:1.5em}.tei-first-paragraph,.tei-no-indent,
 .tei-preformatted{white-space:pre-line}.tei-cipher{font-family:monospace;white-space:pre-wrap}.tei-letter{margin:1.25em 0;padding-inline-start:1.5em;text-indent:0}
 .tei-subheading{text-align:center}.tei-quote-delimited::before,.tei-quote-delimited::after{content:none}.tei-smallcaps{font-variant:small-caps}.tei-letterspaced{letter-spacing:.14em}
 blockquote,.tei-epigraph{margin:1.5em 1em}blockquote p{text-indent:0}.tei-foreign,.tei-stage{font-style:italic}.tei-stage-name,.tei-stage-bracket,.tei-stage-scene-introduction{font-style:normal}
+.tei-drama-stage{font-style:italic;text-indent:0}.tei-drama-stage.tei-stage-block{display:block;margin:.9em 0}.tei-drama-stage.tei-stage-entrance,.tei-drama-stage.tei-stage-setting{text-align:center;text-align-last:center}.tei-drama-stage.tei-stage-exit{text-align:right;text-align-last:right}.tei-drama-stage .tei-stage-name{font-style:normal;font-variant:normal;text-transform:uppercase}
 .tei-line-group{margin:1.4em 0 1.4em 1.5em}.tei-line{display:block}.tei-speech{margin:1.35em 0}.tei-speech>.tei-paragraph{text-indent:0}.tei-speech>.tei-line-group{margin:0}
 .tei-speech .tei-line{padding-inline-start:1.5em;text-indent:-1.5em}.tei-speaker,.tei-label,.tei-cast-role{font-weight:bold}.tei-speaker{text-transform:uppercase}
 .tei-stage-entrance,.tei-stage-setting{text-align:center;margin:.9em 0}.tei-stage-exit{text-align:right;margin:.9em 0}

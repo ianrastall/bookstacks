@@ -56,7 +56,7 @@ it('renders the visited French Richard II scene with stage directions and its tr
   expect(scene.html).toContain('La trompette sonne pour demander un pourparler');
   expect(scene.html).not.toContain('tei-speaker">(L.');
   expect(scene.html).toContain('Fanfares.--Ils sortent.');
-  expect(scene.html).toContain('forteresse.--Fanfare.--Richard');
+  expect(scene.html.replace(/<[^>]*>/g,'')).toContain('forteresse.--Fanfare.--RICHARD');
   expect(scene.html).toContain('Le jeu de mots entre civil et uncivil');
   expect(scene.previousPath).toBe('act-3/scene-2');
   expect(scene.nextPath).toBe('act-3/scene-4');

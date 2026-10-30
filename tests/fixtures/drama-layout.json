@@ -1,0 +1,16 @@
+[
+  {"language":"en","text":"Enter Theseus and Hippolyta.","declared":"entrance","expected":"entrance"},
+  {"language":"en","text":"Exit Philostrate.","declared":"exit","expected":"exit"},
+  {"language":"en","text":"[Aside.]","declared":"","expected":"business"},
+  {"language":"fr","text":"(Hélène entre.)","declared":"business","expected":"entrance"},
+  {"language":"fr","text":"Musique. Entre Hymen portant une torche allumée.","declared":"business","expected":"entrance"},
+  {"language":"fr","text":"(Thésée et Hippolyte sortent avec leur suite.)","declared":"business","expected":"exit"},
+  {"language":"fr","text":"Fanfares.--Ils sortent.","declared":"business","expected":"exit"},
+  {"language":"fr","text":"Il s’écarte.","declared":"business","expected":"business"},
+  {"language":"fr","text":"Il le regarde sortir.","declared":"business","expected":"business"},
+  {"language":"fr","text":"(Puck revient.)","declared":"business","expected":"entrance"},
+  {"language":"fr","text":"Il paraît que le prologue est ancien.","declared":"business","expected":"business"},
+  {"language":"es","text":"Entran ORLANDO y ADAM.","declared":"setting","expected":"setting"},
+  {"language":"es","text":"Vase ORLANDO.","declared":"business","expected":"exit"},
+  {"language":"es","text":"Dándole una cadena de su cuello","declared":"business","expected":"business"}
+]

@@ -22,6 +22,8 @@ from xml.etree import ElementTree as ET
 
 from pypdf import PdfReader
 from PIL import Image
+from copy import deepcopy
+from drama_layout import DramaLayout, stage_clone
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -383,21 +385,24 @@ class LatexRenderer:
 
     def __init__(self, edition: Edition):
         self.edition = edition
+        self.root=deepcopy(edition.root)
+        self.drama=DramaLayout(edition.source,edition.locale) if edition.author_slug=='shakespeare' else None
+        if self.drama:self.drama.prepare(self.root)
         self.notes = {
             node.get(XML_ID): node
-            for node in edition.root.iter()
+            for node in self.root.iter()
             if local_name(node) == "note" and node.get(XML_ID)
         }
         self.referenced_note_ids = {
             target[1:]
-            for node in edition.root.iter()
+            for node in self.root.iter()
             if local_name(node) == "ref"
             for target in [clean(node.get("target"))]
             if target.startswith("#") and target[1:] in self.notes
         }
 
     def render(self) -> str:
-        text = first_descendant(self.edition.root, "text")
+        text = first_descendant(self.root, "text")
         if text is None:
             raise ValueError(f"No TEI text in {self.edition.source}")
         areas = {local_name(area): area for area in direct_children(text)}
@@ -470,6 +475,7 @@ class LatexRenderer:
                 r"\end{bookstacksspeech}"
             )
         if name == "stage":
+            if self.drama:return self.drama_stage(node)
             content = self.inline_content(node).strip()
             return (
                 "\\begin{bookstacksstage}\n"
@@ -479,7 +485,9 @@ class LatexRenderer:
         if name == "lg":
             # A song can be interrupted by directions or contain nested stanzas.
             # Flush each run of verse before rendering the intervening block.
-            if any(local_name(child) != "l" for child in node):
+            def ornament(child):
+                return self.drama and re.fullmatch(r'[=_*\-]{3,}',element_text(child))
+            if any(local_name(child) != "l" or ornament(child) for child in node):
                 parts: list[str] = []
                 run: list[str] = []
                 def flush_verse() -> None:
@@ -487,7 +495,7 @@ class LatexRenderer:
                         parts.append("\\begin{verse}\n" + " \\\\\n".join(run) + "\n\\end{verse}")
                         run.clear()
                 for child in node:
-                    if local_name(child) == 'l':
+                    if local_name(child) == 'l' and not ornament(child):
                         if content := self.inline_content(child).strip(): run.append(content)
                     else:
                         flush_verse()
@@ -497,6 +505,8 @@ class LatexRenderer:
             lines = [content for line in direct_children(node, "l") if (content := self.inline_content(line).strip())]
             return "\\begin{verse}\n" + " \\\\\n".join(lines) + "\n\\end{verse}" if lines else ""
         if name == "l":
+            if self.drama and re.fullmatch(r'[=_*\-]{3,}',element_text(node)):
+                return r'\par\smallskip\noindent\rule{\linewidth}{.35pt}\par\smallskip'
             content = self.inline_content(node).strip()
             return f"{content} \\\\" if content else ""
         if name == "castList":
@@ -620,6 +630,7 @@ class LatexRenderer:
 
     def inline(self, node: ET.Element, *, split_spoken: bool = False) -> str:
         name = local_name(node)
+        if name=='stage' and self.drama:return self.drama_stage(node)
         # Notes may contain quoted examples of their own.  Those remain
         # inline even when the surrounding body paragraph is dialogue.  A
         # quotation nested inside one spoken utterance is likewise inline.
@@ -673,6 +684,30 @@ class LatexRenderer:
         if name == "add":
             return f"\\uline{{{content}}}"
         return content
+
+    def drama_stage(self,node: ET.Element) -> str:
+        assert self.drama is not None
+        def characters(value):
+            value=value or '';parts=[];cursor=0
+            for match in self.drama.names.finditer(value):
+                parts.append(self.text(value[cursor:match.start()]))
+                parts.append(r'\textnormal{'+latex_escape(match[0].upper())+'}')
+                cursor=match.end()
+            parts.append(self.text(value[cursor:]))
+            return ''.join(parts)
+        def content(element):
+            result=characters(element.text)
+            for child in element:
+                result+=self.inline(child) if local_name(child) in {'note','ref','lb'} else content(child)
+                result+=characters(child.tail)
+            return result
+        value=content(stage_clone(node)).strip()
+        value=re.sub(r'^\s*(?:\\\\\s*)+','',value)
+        value=re.sub(r'(?:\s*\\\\\s*){2,}',lambda _:r' \\ ',value)
+        value=re.sub(r'(?:\s*\\\\)+\s*$','',value)
+        kind=node.get('data-bookstacks-stage-kind') or self.drama.kind(node)
+        command='bookstacksexit' if kind=='exit' else 'bookstacksentrance' if kind in {'entrance','setting'} else 'bookstacksinlinestage'
+        return '\\'+command+'{'+value+'}'
 
     def note_reference(self, note: ET.Element) -> str:
         content = self.inline_content(note).strip()
@@ -998,6 +1033,8 @@ def latex_document(
   {{\begin{{quote}}\small\itshape\color{{bookmuted}}}}
   {{\end{{quote}}}}
 \newcommand{{\bookstacksinlinestage}}[1]{{\textit{{[#1]}}}}
+\newcommand{{\bookstacksentrance}}[1]{{\par\begingroup\parindent=0pt\centering\itshape\addvspace{{.6\baselineskip}}[#1]\par\endgroup\addvspace{{.6\baselineskip}}}}
+\newcommand{{\bookstacksexit}}[1]{{\par\begingroup\parindent=0pt\raggedleft\itshape\addvspace{{.6\baselineskip}}[#1]\par\endgroup\addvspace{{.6\baselineskip}}}}
 \newcommand{{\bookstacksdialogue}}[1]{{\par\indent\ignorespaces #1\unskip}}
 \newcommand{{\bookstacksnote}}[1]{{\footnote{{\color{{booklight}}#1}}\color{{booklight}}\mbox{{}}}}
 \newenvironment{{bookstackscast}}
@@ -1076,6 +1113,9 @@ def edition_fingerprint(edition: Edition) -> str:
     for path in inputs:
         digest.update(path.relative_to(ROOT).as_posix().encode("utf-8"))
         digest.update(path.read_bytes())
+    if edition.author_slug=='shakespeare':
+        for relative in ['scripts/drama_layout.py','src/data/drama-layout-rules.json','src/data/drama-layout-index.json']:
+            digest.update((ROOT/relative).read_bytes())
     for path in (FALLBACK_FONT_PATH, SYMBOL_FONT_PATH):
         digest.update(path.read_bytes())
     if needs_cjk(edition):
