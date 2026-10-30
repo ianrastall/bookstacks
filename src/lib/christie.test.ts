@@ -17,8 +17,12 @@ it('publishes all pinned Christie editions with complete navigation and original
     expect(work.editions).toHaveLength(1);
     const edition = work.editions[0];
     expect(edition.code).toBe('en');
-    expect(edition.pdfVariants ?? []).toHaveLength(0);
-    expect(edition.pdfHref).toBeUndefined();
+    expect(edition.pdfVariants?.map(pdf => pdf.theme)).toEqual(['light', 'dark']);
+    for (const pdf of edition.pdfVariants!) {
+      expect(pdf.file).toBe(`${edition.sourceFile.replace(/\.xml$/, '')}-${pdf.theme}.pdf`);
+      expect(pdf.revision).toMatch(/^[a-f0-9]{64}$/);
+    }
+    expect(edition.pdfHref).toBe(edition.pdfVariants!.find(pdf => pdf.theme === 'dark')!.href);
     expect(edition.units).toHaveLength(item.sections);
     expect(edition.sourceLinks.some(source => source.href === `https://www.gutenberg.org/ebooks/${item.id}`)).toBe(true);
     for (const unit of edition.units) {
