@@ -22,6 +22,8 @@ class ScarletExportTests(unittest.TestCase):
         self.assertIn('1866', edition.source_citation)
         self.assertIn('oldid=15966643', edition.source_citation)
         self.assertIn(r'\hyphenpenalty=10000', exports.cover_tex(edition))
+        self.assertIn(r'\mbox{Parents}', exports.cover_tex(edition))
+        self.assertIn(r'\url{https://fr.wikisource.org/?oldid=15966643}', exports.publication_page_tex(edition))
 
     def test_nested_closing_verse_is_preserved(self):
         body = exports.LatexRenderer(self.edition).render()

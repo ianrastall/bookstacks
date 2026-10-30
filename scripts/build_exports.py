@@ -717,7 +717,7 @@ def latex_escape(value: str) -> str:
 
 
 def cover_tex(edition: Edition) -> str:
-    title = latex_escape(edition.title)
+    title = ' '.join(r'\mbox{' + latex_escape(word) + '}' for word in edition.title.split())
     author = latex_escape(edition.author)
     language = latex_escape(edition.language_name)
     return rf"""
@@ -766,7 +766,15 @@ def publication_page_tex(edition: Edition) -> str:
     translator = latex_escape(edition.translator)
     publication_date = latex_escape(edition.publication_date)
     edition_statement = latex_escape(edition.edition_statement)
-    source_citation = latex_escape(edition.source_citation)
+    # URL punctuation must bypass French typographic spacing and remain clickable.
+    source_citation = ''
+    cursor = 0
+    for match in re.finditer(r'https?://\S+', edition.source_citation):
+        source_citation += latex_escape(edition.source_citation[cursor:match.start()])
+        url = match.group().replace('\\', '%5C').replace('{', '%7B').replace('}', '%7D')
+        source_citation += r'\url{' + url + '}'
+        cursor = match.end()
+    source_citation += latex_escape(edition.source_citation[cursor:])
     identifier = latex_escape(edition.identifier)
     license_text = latex_escape(edition.license_text)
     public_domain_note = ""
