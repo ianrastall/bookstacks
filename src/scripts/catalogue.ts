@@ -1,5 +1,5 @@
 import { currentLocale, text } from '../lib/interface';
-import { matchesSearch, preferredBookLanguage } from '../lib/catalogue';
+import { matchesSearch } from '../lib/catalogue';
 
 const get = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 const search = get<HTMLInputElement>('book-search');
@@ -10,12 +10,9 @@ const rows = [...document.querySelectorAll<HTMLTableRowElement>('[data-book-row]
 const params = new URLSearchParams(location.search);
 search.value = params.get('q') || '';
 author.value = params.get('author') || '';
-// An explicit All languages choice must survive reloads, even if the browser
-// preference matches one of the edition languages.
+// Only an explicit catalogue choice filters edition languages.
 const requestedLanguage = params.get('language');
-language.value = requestedLanguage === null
- ? preferredBookLanguage(navigator.languages?.length ? navigator.languages : [navigator.language])
- : requestedLanguage === 'all' ? '' : requestedLanguage;
+language.value = requestedLanguage === 'all' ? '' : requestedLanguage || '';
 let savedSize: string | null = null;
 try { savedSize = localStorage.getItem('bookstacks-page-size'); } catch { /* Optional storage. */ }
 const requestedSize = params.get('size') ?? savedSize ?? '16';

@@ -42,10 +42,10 @@ test('catalogue and book text are available without JavaScript',async({browser})
 test('phone footnotes stay within the viewport',async({page})=>{await page.setViewportSize({width:320,height:900});await page.goto('/en/authors/aristotle/poetics/chapter-1');await page.locator('.tei-note-ref').first().click();const note=page.locator('.tei-note-popover:visible');await expect(note).toBeVisible();const box=await note.boundingBox();expect(box!.x).toBeGreaterThanOrEqual(0);expect(box!.x+box!.width).toBeLessThanOrEqual(320);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);});
 
 
-test('browser language initializes the book filter while the catalogue stays unified',async({browser})=>{
+test('browser language selects the interface while all book languages remain visible',async({browser})=>{
  const context=await browser.newContext({locale:'fr-CA'});const page=await context.newPage();
  await page.goto('http://127.0.0.1:4323/');await expect(page.locator('html')).toHaveAttribute('lang','fr');
- await expect(page.locator('h1')).toHaveText('Bibliothèque');await expect(page.locator('#book-language')).toHaveValue('fr');
+ await expect(page.locator('h1')).toHaveText('Bibliothèque');await expect(page.locator('#book-language')).toHaveValue('');
  await expect(page.locator('[data-book-row]')).toHaveCount(269);await expect(page.locator('.library-languages')).toHaveCount(0);
  await page.locator('.library-nav a[href="/downloads"]').click();await expect(page.locator('h1')).toHaveText('Téléchargements');await expect(page.locator('[data-download-table] tbody tr')).toHaveCount(278);
  await context.close();
@@ -154,9 +154,10 @@ test('page size combines with filters, restores from URL and remembers all langu
  await page.goto('/?language=all');await expect(page.locator('#book-page-size')).toHaveValue('all');
 });
 
-test('interface overrides never change the initial browser book preference or explicit filter', async ({browser}) => {
+test('interface overrides preserve all languages and explicit book filters', async ({browser}) => {
  const context=await browser.newContext({locale:'fr-CA'});const page=await context.newPage();
- await page.goto('http://127.0.0.1:4323/?ui=ru');await expect(page.locator('#book-language')).toHaveValue('fr');
+ await page.goto('http://127.0.0.1:4323/?ui=ru');await expect(page.locator('#book-language')).toHaveValue('');
+ await page.locator('#book-language').selectOption('fr');
  await page.locator('#interface-language').selectOption('en');await expect(page.locator('#book-language')).toHaveValue('fr');
  await page.goto('http://127.0.0.1:4323/?language=all');await expect(page.locator('#book-language')).toHaveValue('');
  await context.close();

@@ -84,10 +84,11 @@ const description = page.kind === 'author'
         </div>
       </div>
       <p class="edition-note"><T locale={locale} k="editionStructureNote" /></p>
-      {page.edition.sourceDescription && (
+      {(page.edition.sourceDescription || page.edition.sourceCredits.length > 0 || page.edition.sourceLinks.length > 0) && (
         <aside class="edition-source-note">
           <strong><T locale={locale} k="sources" /></strong>
-          <p lang={page.edition.code} dir={editionDir} translate="no">{page.edition.sourceDescription}</p>
+          {page.edition.sourceDescription && <p lang={page.edition.sourceDescriptionLanguage} translate="no">{page.edition.sourceDescription}</p>}
+          {page.edition.sourceCredits.length > 0 && <ul class="edition-source-credits" translate="no">{page.edition.sourceCredits.map(credit => <li>{credit}</li>)}</ul>}
           <ul>{page.edition.sourceLinks.map((source) => <li><a href={source.href}>{source.label}</a></li>)}</ul>
         </aside>
       )}

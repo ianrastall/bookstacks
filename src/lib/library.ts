@@ -197,6 +197,8 @@ export interface Edition {
   sourceTitle: string;
   sourceFile: string;
   sourceDescription?: string;
+  sourceDescriptionLanguage?: string;
+  sourceCredits: string[];
   sourceLinks: Array<{ label: string; href: string }>;
   pdfFile?: string;
   pdfHref?: string;
@@ -485,11 +487,34 @@ function parseEdition(filePath: string): ParsedEdition {
     || titleFromSlug(workSlug);
   const sourceDescriptionNode = descendants(descendants(document, 'notesStmt')[0], 'note')
     .find((node) => node.getAttribute('type') === 'source-description');
-  const sourceDescription = cleanText(sourceDescriptionNode?.textContent) || undefined;
-  const sourceLinks = sourceDescription ? descendants(descendants(document, 'sourceDesc')[0], 'ref')
-    .filter((node) => node.getAttribute('type') === 'source')
+  const sourceDesc = descendants(document, 'sourceDesc')[0];
+  const sourceDescription = cleanText(sourceDescriptionNode?.textContent)
+    || directElementChildren(sourceDesc).filter(node => node.localName === 'p')
+      .map(node => cleanText(node.textContent)).join(' ')
+    || undefined;
+  const sourceCredits = directElementChildren(titleStmt).flatMap(node => {
+    if (node.localName === 'editor') {
+      const role = cleanText(node.getAttribute('role'));
+      const name = cleanText(node.textContent);
+      return name ? [`${role || 'editor'}: ${name}`] : [];
+    }
+    if (node.localName !== 'respStmt' || xmlId(node) === 'bookstacks-encoding') return [];
+    const role = directElementChildren(node).filter(child => child.localName === 'resp')
+      .map(child => cleanText(child.textContent)).join('; ');
+    const names = directElementChildren(node).filter(child => ['name', 'persName', 'orgName'].includes(child.localName))
+      .map(child => cleanText(child.textContent)).filter(Boolean).join('; ');
+    return names ? [[role, names].filter(Boolean).join(': ')] : [];
+  });
+  const sourceRefs = descendants(sourceDesc, 'ref');
+  const sourceLinks = sourceRefs
+    .filter((node) => !sourceRefs.some(ref => ref.getAttribute('type') === 'source') || node.getAttribute('type') === 'source')
     .map((node) => ({ label: cleanText(node.textContent), href: cleanText(node.getAttribute('target')) }))
-    .filter((link) => /^https?:\/\//.test(link.href)) : [];
+    .filter((link) => /^https?:\/\//.test(link.href));
+  // Older importers recorded Gutenberg identifiers as prose rather than refs.
+  for (const match of cleanText(sourceDesc?.textContent).matchAll(/Project Gutenberg eBook\s+#(\d+)/gi)) {
+    const href = `https://www.gutenberg.org/ebooks/${match[1]}`;
+    if (!sourceLinks.some(link => link.href === href)) sourceLinks.push({ label: `Project Gutenberg #${match[1]}`, href });
+  }
   const entities = parseRegistries(document);
   const text = descendants(document, 'text')[0];
   if (!text) throw new Error(`No TEI text element in ${fileName}`);
@@ -588,6 +613,8 @@ function parseEdition(filePath: string): ParsedEdition {
     sourceTitle,
     sourceFile: fileName,
     sourceDescription,
+    sourceDescriptionLanguage: sourceDescriptionNode ? language.code : undefined,
+    sourceCredits,
     sourceLinks,
     pdfFile: preferredPdf?.file ?? (pdfHref ? pdfName : undefined),
     pdfHref,
@@ -669,7 +696,12 @@ function repairConvertedDrama(document: any): void {
     if (speakerText.startsWith('(')) {
       const replacement = document.createElementNS(TEI_NS, 'stage');
       replacement.setAttribute('type', stage.getAttribute?.('type') || 'business');
-      replacement.appendChild(document.createTextNode([combined, ...paragraphs.map((paragraph) => cleanText(paragraph.textContent))].join(' ')));
+      // Collated against Gutenberg 21277, act III scene III: the old speech
+      // parser consumed .-- inside these two parenthesized directions.
+      const restoreSeparator = xmlId(document.documentElement) === 'shakespeare-king-richard-ii-fra'
+        && ['fra-speech-000309', 'fra-speech-000330'].includes(xmlId(speech));
+      const remainder = paragraphs.map((paragraph) => cleanText(paragraph.textContent)).join(' ');
+      replacement.appendChild(document.createTextNode(combined + (remainder ? `${restoreSeparator ? '.--' : ' '}${remainder}` : '')));
       parent.replaceChild(replacement, speech);
       continue;
     }

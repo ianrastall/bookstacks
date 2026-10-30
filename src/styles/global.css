@@ -81,7 +81,7 @@ html:lang(ko) body { font-family: "Noto Sans CJK KR", "Noto Sans KR", "Malgun Go
   line-height: 1.6;
 }
 .author-portrait.author-monogram { display: grid; place-items: center; font-size: clamp(4rem, 10vw, 8rem); color: #332a29; aspect-ratio: 1; }
-.edition-source-note { margin: 1.5rem 0; padding: 1rem 1.2rem; border-inline-start: 3px solid var(--accent); background: var(--panel-muted); line-height: 1.7; }
+.edition-source-note { margin: 1.5rem 0; padding: 1rem 1.2rem; border-inline-start: 3px solid var(--accent); background: var(--panel-muted); line-height: 1.7; overflow-wrap: anywhere; }
 .edition-source-note p { margin: 0.5rem 0; }
 .edition-source-note ul { margin: 0.5rem 0 0; padding-inline-start: 1.3rem; }
 

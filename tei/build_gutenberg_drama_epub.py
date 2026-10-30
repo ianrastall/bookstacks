@@ -337,6 +337,10 @@ def uppercase_role_prefix(value: str) -> str | None:
 
 def speech_prefix(element: etree._Element) -> tuple[str, str, int] | None:
     raw = "".join(element.itertext())
+    # Parenthesized directions can contain the same .-- separator as speech.
+    # Keep the entire direction, including punctuation and inline markup.
+    if raw.lstrip().startswith("("):
+        return None
     separators = [(raw.find("—"), 1), (raw.find("--"), 2)]
     separators = [(position, length) for position, length in separators if position >= 0]
     if not separators:

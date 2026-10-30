@@ -108,6 +108,16 @@ Only the active font menu has a selected cascade. Missing, invalid or blocked
 session storage falls back safely; controls continue to work for the current page.
 This supersedes the per-chapter font reset described in the earlier correction.
 
+## Translation review and catalogue default, 29 October 2026
+
+The catalogue again starts with all book languages, independently of browser
+and interface preferences. Only an explicit book-language filter narrows the
+library. This supersedes the initial browser-based filter described above.
+Older TEI translator/source credits are now visible on edition pages. Two
+stage-direction separators in French Richard II are restored in the display
+DOM, and the importer preserves parenthesized directions on future imports.
+See [the translation review](translation-review.md) for scope and source gaps.
+
 ## Embedded PDF reading, 26 October 2026
 
 Edition pages with same-origin PDFs now offer an embedded, self-hosted PDF.js

@@ -3,6 +3,30 @@ import {getLibrary,localizedEditionHref,localizedUnitHref} from './library';
 import {isEditionLanguage,EDITION_LANGUAGES} from './i18n';
 import fs from 'node:fs';
 import publications from '../data/pdf-publications.json';
+it('exposes translation credits and source references from older TEI headers',()=>{
+  const authors=getLibrary().authors;
+  const french=authors.find(a=>a.slug==='shakespeare')!.works.find(w=>w.slug==='king-richard-ii')!.editions.find(e=>e.code==='fr')!;
+  expect(french.sourceCredits).toContain('French translation: François Guizot');
+  expect(french.sourceDescription).toContain('Project Gutenberg eBook #21277');
+  expect(french.sourceLinks).toContainEqual({label:'Project Gutenberg #21277',href:'https://www.gutenberg.org/ebooks/21277'});
+  const spanish=authors.find(a=>a.slug==='austen')!.works.find(w=>w.slug==='sense-and-sensibility')!.editions.find(e=>e.code==='es')!;
+  expect(spanish.sourceCredits).toContain('translator: Anónima');
+  expect(spanish.sourceLinks.some(s=>s.href==='https://es.wikisource.org/wiki/Sentido_y_sensibilidad')).toBe(true);
+  const plato=authors.find(a=>a.slug==='plato')!.works.find(w=>w.slug==='theaetetus')!.editions.find(e=>e.code==='en')!;
+  expect(plato.sourceCredits).toContain('translator: Harold North Fowler');
+  expect(plato.sourceLinks.some(s=>s.href==='https://archive.org/details/b2900049x_0007')).toBe(true);
+});
+it('renders the visited French Richard II scene with stage directions and its translator note',()=>{
+  const edition=getLibrary().authors.find(a=>a.slug==='shakespeare')!.works.find(w=>w.slug==='king-richard-ii')!.editions.find(e=>e.code==='fr')!;
+  const scene=edition.units.find(u=>u.path==='act-3/scene-3')!;
+  expect(scene.html).toContain('La trompette sonne pour demander un pourparler');
+  expect(scene.html).not.toContain('tei-speaker">(L.');
+  expect(scene.html).toContain('Fanfares.--Ils sortent.');
+  expect(scene.html).toContain('forteresse.--Fanfare.--Richard');
+  expect(scene.html).toContain('Le jeu de mots entre civil et uncivil');
+  expect(scene.previousPath).toBe('act-3/scene-2');
+  expect(scene.nextPath).toBe('act-3/scene-4');
+});
 it('discovers named light and dark PDFs without losing legacy PDFs',()=>{
   const authors=getLibrary().authors;
   const scarlet=authors.find(author=>author.slug==='doyle')!.works.find(work=>work.slug==='a-study-in-scarlet')!.editions.find(edition=>edition.code==='en')!;
