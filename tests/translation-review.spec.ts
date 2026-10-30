@@ -8,6 +8,10 @@ test('the French Shakespeare set includes Hugo’s complete Two Noble Kinsmen',a
  await expect(page.locator('.reader-content')).toHaveAttribute('lang','fr');
  await expect(page.locator('.tei-line-group')).not.toHaveCount(0);
  await expect(page.locator('.reader-content')).toContainText('Roses, dénuées d’épines aiguës');
+ await expect(page.locator('.reader-content')).toContainText('Le cortége jette des fleurs.');
+ await expect(page.locator('.reader-content')).not.toContainText('::::::::');
+ await page.goto('/fr/authors/shakespeare/the-two-noble-kinsmen/prologue-01?ui=en');
+ await expect(page.locator('.reader-content')).toContainText('pensée irréalisable');
  await page.goto('/fr/authors/shakespeare/the-two-noble-kinsmen/epilogue-01?ui=en');
  await page.locator('.tei-note-ref').first().click();
  await expect(page.locator('.tei-note-popover:visible')).toContainText('La légende de');

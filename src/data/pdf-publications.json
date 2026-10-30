@@ -3808,19 +3808,19 @@
     ]
   },
   "shakespeare_the-two-noble-kinsmen_fra": {
-    "source_sha256": "b29661950a8b561c98227af042abc1542955de6fe21624c72015c314c1dd4751",
+    "source_sha256": "99d26628040364d9ab4ecd88895a014aea474d2a3e4fbe99a00bfb31f52e8495",
     "variants": [
       {
         "theme": "light",
         "file": "shakespeare_the-two-noble-kinsmen_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-noble-kinsmen_fra/shakespeare_the-two-noble-kinsmen_fra-light.pdf",
-        "revision": "71ac0b0baedb740fb5bdfd04ca826623c9f5028d3eb72eb85bb889889a5c71d0"
+        "revision": "cd897086aa05cba7520160337216fb751df21d33e9b6e456632aed76bb9734ef"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-two-noble-kinsmen_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-noble-kinsmen_fra/shakespeare_the-two-noble-kinsmen_fra-dark.pdf",
-        "revision": "6ecfea51025940f082b06ec5c1267ca17914b80057675b728934e58ccef3062a"
+        "revision": "12e2ea6cac33738e01375f711ab9f6de759d6a1431df95a3df4fb3f431106c01"
       }
     ]
   },

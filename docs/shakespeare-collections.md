@@ -107,10 +107,12 @@ both playwrights, Hugo, the 1866 print source and the recorded transcription.
 The exporter now recognizes translation responsibility statements as well as
 translator editor elements, retains coauthors, prevents broken cover words and
 prints source URLs without French typographic spacing inside the address.
+It also preserves stage directions that interrupt a verse group, retaining
+the verse on both sides of the direction.
 These changes apply to future explicit PDF exports; existing PDFs are preserved.
 
-The PDF publication is maintained in `ianrastall/bookstacks-pdf`.
-Hosted PDF checksums are verified after its successful Pages deployment.
+The corrected PDF publication is committed in `ianrastall/bookstacks-pdf` at
+`578a0d6`. Both hosted PDF checksums were verified after its successful Pages deployment.
 The matching website index adds only this edition. Unrelated local PDF edits
 were excluded; publication validation checked their committed originals.
 
