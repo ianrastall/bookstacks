@@ -460,7 +460,7 @@ class LatexRenderer:
                 and re.fullmatch(r"[=_*\-]{3,}", element_text(node))
             ):
                 return r"\par\smallskip\noindent\rule{\textwidth}{.35pt}\par\smallskip"
-            return f"{content}\\par" if content else ""
+            return f"\\color{{booklight}} {content}\\par" if content else ""
         if name == "sp":
             speaker = first_direct(node, "speaker")
             label = element_text(speaker).rstrip(".") if speaker is not None else ""
@@ -1027,14 +1027,14 @@ def latex_document(
 }}
 
 \newenvironment{{bookstacksspeech}}[1]
-  {{\par\Needspace{{4\baselineskip}}\addvspace{{.55\baselineskip}}\noindent\textsc{{#1}}\par\nobreak\smallskip\begin{{adjustwidth}}{{1.5em}}{{0pt}}\noindent\ignorespaces}}
-  {{\end{{adjustwidth}}\par}}
+  {{\par\color{{booklight}}\Needspace{{4\baselineskip}}\addvspace{{.55\baselineskip}}\noindent\textsc{{#1}}\par\nobreak\smallskip\begin{{adjustwidth}}{{1.5em}}{{0pt}}\color{{booklight}}\noindent\ignorespaces}}
+  {{\end{{adjustwidth}}\par\color{{booklight}}}}
 \newenvironment{{bookstacksstage}}
   {{\begin{{quote}}\small\itshape\color{{bookmuted}}}}
   {{\end{{quote}}}}
 \newcommand{{\bookstacksinlinestage}}[1]{{\textit{{[#1]}}}}
-\newcommand{{\bookstacksentrance}}[1]{{\par\begingroup\parindent=0pt\centering\itshape\addvspace{{.6\baselineskip}}[#1]\par\endgroup\addvspace{{.6\baselineskip}}}}
-\newcommand{{\bookstacksexit}}[1]{{\par\begingroup\parindent=0pt\raggedleft\itshape\addvspace{{.6\baselineskip}}[#1]\par\endgroup\addvspace{{.6\baselineskip}}}}
+\newcommand{{\bookstacksentrance}}[1]{{\par\begingroup\color{{booklight}}\parindent=0pt\centering\itshape\addvspace{{.6\baselineskip}}[#1]\par\endgroup\addvspace{{.6\baselineskip}}}}
+\newcommand{{\bookstacksexit}}[1]{{\par\begingroup\color{{booklight}}\parindent=0pt\raggedleft\itshape\addvspace{{.6\baselineskip}}[#1]\par\endgroup\addvspace{{.6\baselineskip}}}}
 \newcommand{{\bookstacksdialogue}}[1]{{\par\indent\ignorespaces #1\unskip}}
 \newcommand{{\bookstacksnote}}[1]{{\footnote{{\color{{booklight}}#1}}\color{{booklight}}\mbox{{}}}}
 \newenvironment{{bookstackscast}}

@@ -69,6 +69,14 @@ have identical extracted text and page counts.
 
 PDFs are generated in `tmp/drama-pdf-staging/books`. The PDF publication is
 assembled in the isolated `tmp/drama-publication` checkout, preserving local
-edits in the main `bookstacks-pdf` working directory. Only the Shakespeare
-publication files and the publication manifest are updated. Verify that
+edits in the main `bookstacks-pdf` working directory. The Shakespeare PDFs and
+the 17 previously missing Christie pairs are updated, together with their
+publication manifests. Verify that
 repository's Pages deployment before publishing the website's matching index.
+
+The final PDF pass also restores the theme foreground explicitly after notes
+and at speech/paragraph boundaries. This prevents TeX color state from leaving
+black text on dark pages. `scripts/check_pdf_contrast.py` inspects PDF text
+objects across the newly generated dark editions; it excludes images and
+invisible text. Catalogue publication additionally verifies source checksums,
+PDF checksums, page counts, and equal extracted text for every light/dark pair.
