@@ -80,3 +80,9 @@ black text on dark pages. `scripts/check_pdf_contrast.py` inspects PDF text
 objects across the newly generated dark editions; it excludes images and
 invisible text. Catalogue publication additionally verifies source checksums,
 PDF checksums, page counts, and equal extracted text for every light/dark pair.
+
+Final checks: 68 site unit tests and 16 Python layout/export tests passed.
+All 102 newly generated dark editions passed the text-object contrast check.
+All 279 catalogue pairs (558 PDFs) passed publication validation.
+The final website build produced 24,911 pages with zero diagnostics; all 64
+browser checks passed, including actual right-edge cue geometry at 320 pixels.

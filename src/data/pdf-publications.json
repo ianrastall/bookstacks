@@ -509,6 +509,295 @@
       }
     ]
   },
+  "christie_giants-bread_eng": {
+    "source_sha256": "1574ba28a32b20ffaaedb012b0e533825d7a0677e0fc249b84d90975ad9996f4",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_giants-bread_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_giants-bread_eng/christie_giants-bread_eng-light.pdf",
+        "revision": "47a5a4b4a08ea82d134f88441829185f188c98e6d4e8cb7a92f75ff720b7ffa0"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_giants-bread_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_giants-bread_eng/christie_giants-bread_eng-dark.pdf",
+        "revision": "da2c6225a602d40d1a6d760943edd56797edc8232154801bc8cb9d5e37d8965c"
+      }
+    ]
+  },
+  "christie_murder-at-the-vicarage_eng": {
+    "source_sha256": "0bf5fdf540b303e98931bad68898c31a57807161b2a694859eb164abec89b813",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_murder-at-the-vicarage_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_murder-at-the-vicarage_eng/christie_murder-at-the-vicarage_eng-light.pdf",
+        "revision": "f1dee928a7c31bd2cc900b12046788cf4b93b7ffb059cabe43cefceca61fd929"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_murder-at-the-vicarage_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_murder-at-the-vicarage_eng/christie_murder-at-the-vicarage_eng-dark.pdf",
+        "revision": "6078e3069e22392d303a80ed844927281af4e66efcbfea42d8999aa128209565"
+      }
+    ]
+  },
+  "christie_partners-in-crime_eng": {
+    "source_sha256": "fb7ff77c880bbdead24d8a57b23666f126ae5d87b3afc9d40fea2be182b76e15",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_partners-in-crime_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_partners-in-crime_eng/christie_partners-in-crime_eng-light.pdf",
+        "revision": "5b76a1573c3cd0fa871660773a5deeb2d2e7ee4b0a78bd8df4ba91a224357fe4"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_partners-in-crime_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_partners-in-crime_eng/christie_partners-in-crime_eng-dark.pdf",
+        "revision": "9a2adfcec4b799a8258018d0129fa6c59bc9f772a2f8711735ed32df8c270a91"
+      }
+    ]
+  },
+  "christie_poirot-investigates_eng": {
+    "source_sha256": "907f1dcc0892730296b765b46f9a5766ac04db07cadb510866641c1075fb6f05",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_poirot-investigates_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_poirot-investigates_eng/christie_poirot-investigates_eng-light.pdf",
+        "revision": "d9ed389e4768f4f24191e847804a691652e108d48dce12ac5d7c7656c9318cc2"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_poirot-investigates_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_poirot-investigates_eng/christie_poirot-investigates_eng-dark.pdf",
+        "revision": "5f641d605bd7ec71c4ab259fd1931292b67cbc509a59facbb8c0581b3dd4edf3"
+      }
+    ]
+  },
+  "christie_the-big-four_eng": {
+    "source_sha256": "0ccd3e492f9566e4fc08014d7a40c92ea8dfe940fa1706ad43d1c3e5029bd83a",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-big-four_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-big-four_eng/christie_the-big-four_eng-light.pdf",
+        "revision": "ea631481c28dd9cea8332e3ec1a9c8b15d908e2b0c8b26f9e5d987b3b0026076"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-big-four_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-big-four_eng/christie_the-big-four_eng-dark.pdf",
+        "revision": "d4ab4741a53ddf001e761e1032a68ee04d281382f9fb3ca734d5f7270be2dabf"
+      }
+    ]
+  },
+  "christie_the-hunters-lodge-case_eng": {
+    "source_sha256": "7e234e9998bab6dd9a64bf88924a7b50e0b1e219848df71a409070890d22d8a7",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-hunters-lodge-case_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-hunters-lodge-case_eng/christie_the-hunters-lodge-case_eng-light.pdf",
+        "revision": "d6fb5430f088f539fe903815558c4e72635174a2e1dec285a0d22f2ec1bb75bd"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-hunters-lodge-case_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-hunters-lodge-case_eng/christie_the-hunters-lodge-case_eng-dark.pdf",
+        "revision": "eac907cdd85d1ad6a988e0ef5405d64fe9c20a992af232bcc308bd54999df23d"
+      }
+    ]
+  },
+  "christie_the-man-in-the-brown-suit_eng": {
+    "source_sha256": "3e4c9d0f9d1cefcbd99a2f42297d24efbcac92cde5e2e48f519f0e0009459aee",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-man-in-the-brown-suit_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-man-in-the-brown-suit_eng/christie_the-man-in-the-brown-suit_eng-light.pdf",
+        "revision": "0877ba762c8944d5a0dee023493fe99f28e6e28fcd085129cfe421579989a0d4"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-man-in-the-brown-suit_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-man-in-the-brown-suit_eng/christie_the-man-in-the-brown-suit_eng-dark.pdf",
+        "revision": "0b3997a0e6e5947140768f39798552dbe51e3d0e440f6f3a90e6234ef98d85c4"
+      }
+    ]
+  },
+  "christie_the-missing-will_eng": {
+    "source_sha256": "5a2f4cfdbf613239633696861063f9ef6678c1b061b791a84e97305cddbaa1b5",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-missing-will_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-missing-will_eng/christie_the-missing-will_eng-light.pdf",
+        "revision": "6debec49230ddfe627d4c670419dd331d54af6407247ca03593abc068943ff1e"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-missing-will_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-missing-will_eng/christie_the-missing-will_eng-dark.pdf",
+        "revision": "b3f8d1b2ec960be8c84b20d29b329fed2aa16b6f2ca8b3c2725c4152d159d7d4"
+      }
+    ]
+  },
+  "christie_the-murder-of-roger-ackroyd_eng": {
+    "source_sha256": "496d13d0e3063e366e1dc3813c5651dc29552f9ddc35d6a8d00ad0966ecf3f62",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-murder-of-roger-ackroyd_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-murder-of-roger-ackroyd_eng/christie_the-murder-of-roger-ackroyd_eng-light.pdf",
+        "revision": "cd1b3dac57381aff81910047de422e2e456e5a64f8df0198926287bd639498f5"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-murder-of-roger-ackroyd_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-murder-of-roger-ackroyd_eng/christie_the-murder-of-roger-ackroyd_eng-dark.pdf",
+        "revision": "36a75cb63245e6834445d41cffa854d99be4329a40832b315b1ed3948bc9be47"
+      }
+    ]
+  },
+  "christie_the-murder-on-the-links_eng": {
+    "source_sha256": "442af7899c9a557ce00c06bd2aaa5b4c63dc23e2b5fec98dbe5da578d8062bd0",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-murder-on-the-links_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-murder-on-the-links_eng/christie_the-murder-on-the-links_eng-light.pdf",
+        "revision": "416412eedbb88d0119045c55d309ddb9a62fc94b70e7460f97a6bfcca96baf21"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-murder-on-the-links_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-murder-on-the-links_eng/christie_the-murder-on-the-links_eng-dark.pdf",
+        "revision": "f999f98656bcbdf7e6e12a2f615e9e0f808745650110dd46f65b8722d4960c9d"
+      }
+    ]
+  },
+  "christie_the-mysterious-affair-at-styles_eng": {
+    "source_sha256": "aba01155045346997a11039ea053bf81996bede7e1ad8a9c5366a3b5866bf129",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-mysterious-affair-at-styles_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-mysterious-affair-at-styles_eng/christie_the-mysterious-affair-at-styles_eng-light.pdf",
+        "revision": "1cf85c41d8b603f48bc75db61f646a4aa4c19f3b8fef6aefe1f48afe5627d9b9"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-mysterious-affair-at-styles_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-mysterious-affair-at-styles_eng/christie_the-mysterious-affair-at-styles_eng-dark.pdf",
+        "revision": "2fb7241616839d311a5dd900b51459b573724ec60f20bd17ff14002b2798a374"
+      }
+    ]
+  },
+  "christie_the-mysterious-mr-quin_eng": {
+    "source_sha256": "247317bb1c1a90e2e8e961f70147f81241e70f9d9ffe5fb07ee1f0010988a551",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-mysterious-mr-quin_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-mysterious-mr-quin_eng/christie_the-mysterious-mr-quin_eng-light.pdf",
+        "revision": "981603e0ffe86bc72bf261b14a9a3257d72e69ff9a15fa594b636f447e44bb6a"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-mysterious-mr-quin_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-mysterious-mr-quin_eng/christie_the-mysterious-mr-quin_eng-dark.pdf",
+        "revision": "ccc188b230928fc1ecd7350591f7ece158c60557c6c2f78e911128228e171a91"
+      }
+    ]
+  },
+  "christie_the-mystery-of-the-blue-train_eng": {
+    "source_sha256": "0d8058bd74f2002e8f2f45faeba62f6b1a973139dbd32c33a66524ce47786134",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-mystery-of-the-blue-train_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-mystery-of-the-blue-train_eng/christie_the-mystery-of-the-blue-train_eng-light.pdf",
+        "revision": "5866e41d36ead104990da17267b4f7240d9db2d1870ad5d081912fe0f5b84601"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-mystery-of-the-blue-train_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-mystery-of-the-blue-train_eng/christie_the-mystery-of-the-blue-train_eng-dark.pdf",
+        "revision": "76bbf33d0b258a9d22e995913112f8a5a13a91c7571cd20d51ec383f42d7d1d3"
+      }
+    ]
+  },
+  "christie_the-plymouth-express-affair_eng": {
+    "source_sha256": "bd1487d12951f091515456d2c34994e242c9a54f9fd541936ac36b71b1c9483e",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-plymouth-express-affair_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-plymouth-express-affair_eng/christie_the-plymouth-express-affair_eng-light.pdf",
+        "revision": "3e06ff208394b0204b8ae3207e757986661be989904252c9f4ad6486d315b5bb"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-plymouth-express-affair_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-plymouth-express-affair_eng/christie_the-plymouth-express-affair_eng-dark.pdf",
+        "revision": "30314db81935d1a046122e22fa71ebc0566b43b0437d9391b7524582e961986c"
+      }
+    ]
+  },
+  "christie_the-secret-adversary_eng": {
+    "source_sha256": "0e460721f234b07af5ce8834f38f72130dfecdc019a78471e9f3d57bcc0f4458",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-secret-adversary_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-secret-adversary_eng/christie_the-secret-adversary_eng-light.pdf",
+        "revision": "44191c79b6b5d29d3f1d89341800fadd2da88b65d7185c45d85519b54e7796c5"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-secret-adversary_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-secret-adversary_eng/christie_the-secret-adversary_eng-dark.pdf",
+        "revision": "8b1714d164028b7022397f2160c6b76d0dbffd586c91722376c14b71f8d3f98d"
+      }
+    ]
+  },
+  "christie_the-secret-of-chimneys_eng": {
+    "source_sha256": "d251857013f3ffd9222b57d99d2bafc1740acf839285c93df88fb7891723834b",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-secret-of-chimneys_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-secret-of-chimneys_eng/christie_the-secret-of-chimneys_eng-light.pdf",
+        "revision": "7b2652a6ab7fd755d458aa7378fcc71045e94bd97fe9225d62b045e550baa936"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-secret-of-chimneys_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-secret-of-chimneys_eng/christie_the-secret-of-chimneys_eng-dark.pdf",
+        "revision": "b17cd3aa61be6c7797563c7037214812d71ee3df40e4292f72843e9fb5e9d932"
+      }
+    ]
+  },
+  "christie_the-seven-dials-mystery_eng": {
+    "source_sha256": "d0120b7c5f3bf0c59fa25ffde79e6173c9092452ca90ade450e35507684974c4",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "christie_the-seven-dials-mystery_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-seven-dials-mystery_eng/christie_the-seven-dials-mystery_eng-light.pdf",
+        "revision": "c194e62f10449563a1e82723a0164d8bc3998df91a4caf6982fdf4d640cb4f68"
+      },
+      {
+        "theme": "dark",
+        "file": "christie_the-seven-dials-mystery_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-seven-dials-mystery_eng/christie_the-seven-dials-mystery_eng-dark.pdf",
+        "revision": "1fb57af950abf1b7139a58e0a754eba23552d920e9f217007fd22d21a4c3acf5"
+      }
+    ]
+  },
   "dickens_a-christmas-carol_eng": {
     "source_sha256": "6ffe07519a363cbe004581966dda9bc80d46637c062ece2913a3e48e5f8de9a9",
     "variants": [
@@ -2556,13 +2845,13 @@
         "theme": "light",
         "file": "shakespeare_a-midsummer-nights-dream_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_a-midsummer-nights-dream_eng/shakespeare_a-midsummer-nights-dream_eng-light.pdf",
-        "revision": "e9b65ff5295fffe1abd0591ee29de3b7f435a5c26f6df248f0b1a4d6a3be9061"
+        "revision": "757668ee15442a7ebe85487605381b11d62d4a346748523691e699f7613466ed"
       },
       {
         "theme": "dark",
         "file": "shakespeare_a-midsummer-nights-dream_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_a-midsummer-nights-dream_eng/shakespeare_a-midsummer-nights-dream_eng-dark.pdf",
-        "revision": "13ea6dfb5afed572eadef04a630a582b4b3b3d23e4adb638a407e6e5e3947f8d"
+        "revision": "59cf4d92df3a95575106f4d7b7b53392682a42d68f3c86db55cc455e1b170daf"
       }
     ]
   },
@@ -2573,13 +2862,13 @@
         "theme": "light",
         "file": "shakespeare_a-midsummer-nights-dream_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_a-midsummer-nights-dream_fra/shakespeare_a-midsummer-nights-dream_fra-light.pdf",
-        "revision": "4fc832f408335c5cb58b5084d082bea192dee2b2d0985a45959dd320285bc1fe"
+        "revision": "6de57f88cb49f7388d74c12e11f4eb65da90cda75cdd7df2ada00f40347ee87c"
       },
       {
         "theme": "dark",
         "file": "shakespeare_a-midsummer-nights-dream_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_a-midsummer-nights-dream_fra/shakespeare_a-midsummer-nights-dream_fra-dark.pdf",
-        "revision": "55c1c852bb082fb0158e139ca193ea72e01c65ec3f2ff279a0551345d98188a2"
+        "revision": "dd5ea0ebd81af95f0d1d17de02442ebc34bf2ce30a1b168d6da3a6251b660eb7"
       }
     ]
   },
@@ -2590,13 +2879,13 @@
         "theme": "light",
         "file": "shakespeare_alls-well-that-ends-well_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_alls-well-that-ends-well_eng/shakespeare_alls-well-that-ends-well_eng-light.pdf",
-        "revision": "8e96ff10fa20114ea3e12ede4844f3e4ca04c4faf9820f547ac178c96ae38cae"
+        "revision": "ee8ef507bbbeb0202c455a2876b691bca63b36d8f68731a471e06fd68be6a7a2"
       },
       {
         "theme": "dark",
         "file": "shakespeare_alls-well-that-ends-well_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_alls-well-that-ends-well_eng/shakespeare_alls-well-that-ends-well_eng-dark.pdf",
-        "revision": "69614116875c7bdcea6ab27b8d505888bb4993414d553cfc1fc19d2438638451"
+        "revision": "6f6662aeb6f52b70c9f1ed3baa7ad3ee9d88854c375d7da316fef870b8e05bd2"
       }
     ]
   },
@@ -2607,13 +2896,13 @@
         "theme": "light",
         "file": "shakespeare_alls-well-that-ends-well_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_alls-well-that-ends-well_fra/shakespeare_alls-well-that-ends-well_fra-light.pdf",
-        "revision": "d826379bba0ab1f251734e04c53a2aa31d9a695315d68e5d777a8708da6be352"
+        "revision": "8bf36094b13fd6b46ffa2537cab9d56cb0a5565ad3c151953be2ea5a2092a451"
       },
       {
         "theme": "dark",
         "file": "shakespeare_alls-well-that-ends-well_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_alls-well-that-ends-well_fra/shakespeare_alls-well-that-ends-well_fra-dark.pdf",
-        "revision": "a2738b586ef4080a1df071ca4f951898a37fdeaaa2626c50401b87cb62831d37"
+        "revision": "7f3f63e83c899853294dfaf0b6e4401ed79954b4055be2b4f8517a7a2c9c5ff0"
       }
     ]
   },
@@ -2624,13 +2913,13 @@
         "theme": "light",
         "file": "shakespeare_antony-and-cleopatra_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_antony-and-cleopatra_eng/shakespeare_antony-and-cleopatra_eng-light.pdf",
-        "revision": "42d42860b78a24200a92061b58c67d623129522c2bb97e4651a5f30780114ba0"
+        "revision": "29cabacbfea3354412419b7ffc71941fb2a70100fb9d4710ec21ba9eb6af24f8"
       },
       {
         "theme": "dark",
         "file": "shakespeare_antony-and-cleopatra_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_antony-and-cleopatra_eng/shakespeare_antony-and-cleopatra_eng-dark.pdf",
-        "revision": "80ce1dd9ba97936971f39d985b93bac3199d106cf7758cad87ed803cac08c9b0"
+        "revision": "05ba94a714bc5c8e0ee79d1ed15708cbc9c5bfb9634ae4673c924b6932691ec1"
       }
     ]
   },
@@ -2641,13 +2930,13 @@
         "theme": "light",
         "file": "shakespeare_antony-and-cleopatra_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_antony-and-cleopatra_fra/shakespeare_antony-and-cleopatra_fra-light.pdf",
-        "revision": "ce8c5295a21a77635422e58eead9d67453a66f40d702a92eab3d2301ea7d2bc4"
+        "revision": "d385a613775f0860b6abb0f01d514538d233d8c3f4c0c5cf0bed963959a98718"
       },
       {
         "theme": "dark",
         "file": "shakespeare_antony-and-cleopatra_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_antony-and-cleopatra_fra/shakespeare_antony-and-cleopatra_fra-dark.pdf",
-        "revision": "c6b55d38dad3e9eadbfc2871a80177594474efd3f7b1f63c9ae023ab32407a41"
+        "revision": "e2b405e835c136d2b0852128e2f9dc8c3c11941300b173bf8a6ec63bd9faf279"
       }
     ]
   },
@@ -2658,13 +2947,13 @@
         "theme": "light",
         "file": "shakespeare_as-you-like-it_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_as-you-like-it_eng/shakespeare_as-you-like-it_eng-light.pdf",
-        "revision": "d32117b832c8f3f69617a5c985b70a1fae0b26d878dbb1b94a76097ad4a1687b"
+        "revision": "6b82d73e15152af2e2b22ce93cf0f2ffef2956a7956085492bce3fcd5d021566"
       },
       {
         "theme": "dark",
         "file": "shakespeare_as-you-like-it_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_as-you-like-it_eng/shakespeare_as-you-like-it_eng-dark.pdf",
-        "revision": "6d232a08295837baa3fbf29114e1ebe3d6c004bcd36eaa19ebc15bfb338185d6"
+        "revision": "c7fb80acd77aba233ac88ff9a79976215607122ee49869c957f5f895752e6298"
       }
     ]
   },
@@ -2675,13 +2964,13 @@
         "theme": "light",
         "file": "shakespeare_as-you-like-it_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_as-you-like-it_fra/shakespeare_as-you-like-it_fra-light.pdf",
-        "revision": "8ace57b982aacccbc3cf72170b11486b4ea707bb592b792b467c9fd1236d1f10"
+        "revision": "cf2ca560d8c1d28ae4a5b3db72db1fbed2d1e39b44732e7fb87deb3cc9245f39"
       },
       {
         "theme": "dark",
         "file": "shakespeare_as-you-like-it_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_as-you-like-it_fra/shakespeare_as-you-like-it_fra-dark.pdf",
-        "revision": "ef87da85d6c24ae476c88d95400cd8fad1b4066bb0540e28c0b368a040e3352f"
+        "revision": "534401364bd9c065454ee4b349097f03e0dec23a1ce3ffe5c86404b5173d4e25"
       }
     ]
   },
@@ -2692,13 +2981,13 @@
         "theme": "light",
         "file": "shakespeare_as-you-like-it_spa-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_as-you-like-it_spa/shakespeare_as-you-like-it_spa-light.pdf",
-        "revision": "2463204f25c965df4901b3e3bbd49c239cb89d9eb3dd3b79d83c3946fd156b99"
+        "revision": "7b2d3a1817b2ca6ca52326c701073286cf49f9008b57fb02d829642da0fe3b5e"
       },
       {
         "theme": "dark",
         "file": "shakespeare_as-you-like-it_spa-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_as-you-like-it_spa/shakespeare_as-you-like-it_spa-dark.pdf",
-        "revision": "5c46d0e63bfa160a42466af3dbaa3193358df9ba1e37be1eeabfec1986be1110"
+        "revision": "46449a79aba6f5914901f32d412bff9d331b39670495184eb33d41b08a425382"
       }
     ]
   },
@@ -2709,13 +2998,13 @@
         "theme": "light",
         "file": "shakespeare_coriolanus_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_coriolanus_eng/shakespeare_coriolanus_eng-light.pdf",
-        "revision": "011fceb03960a911c790b91b67cba9f38f946cc5676d47a586cd31e19a41203d"
+        "revision": "e5c07b4950c918f8c3fca192a95b353531494e9e6c7e1e68c1a3d004874b5430"
       },
       {
         "theme": "dark",
         "file": "shakespeare_coriolanus_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_coriolanus_eng/shakespeare_coriolanus_eng-dark.pdf",
-        "revision": "e20c3a9a991fc2192cbb7a3e5c792f93ba4cc1a368600e96ead3cf42a4d5e8f3"
+        "revision": "66ef202e5bf7ea29faed0300bf0c02c3931cfe00998810d81264e6da6bba7e2f"
       }
     ]
   },
@@ -2726,13 +3015,13 @@
         "theme": "light",
         "file": "shakespeare_coriolanus_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_coriolanus_fra/shakespeare_coriolanus_fra-light.pdf",
-        "revision": "aadd5c957ed27b204d36313d553bf31e1d161fb1e810ae2c0e5375a3da8a2340"
+        "revision": "d9685835733fd647e4333f86539b68f22729ea4da107ea31da9ccf2b5dae18f8"
       },
       {
         "theme": "dark",
         "file": "shakespeare_coriolanus_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_coriolanus_fra/shakespeare_coriolanus_fra-dark.pdf",
-        "revision": "8389c9dc129c5a786a599aad79571beca81d5b88ac38e2123d567c63fd9947a9"
+        "revision": "9d945d504edd7a7e12781e9563219db953d099bcf9c9693a971cc229dc236418"
       }
     ]
   },
@@ -2743,13 +3032,13 @@
         "theme": "light",
         "file": "shakespeare_cymbeline_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_cymbeline_eng/shakespeare_cymbeline_eng-light.pdf",
-        "revision": "1ebc22489d793c26ec4122324b7e19cb75ed743705bd0ef4883c084aca6399b2"
+        "revision": "610c1104feedd403e0f820731cb8dde26ccaecd50f446b27ad011c5d798428fc"
       },
       {
         "theme": "dark",
         "file": "shakespeare_cymbeline_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_cymbeline_eng/shakespeare_cymbeline_eng-dark.pdf",
-        "revision": "c1307da13d5f7acbb489a9381c94af5304f8727da8206864b00ab1812de7a8e5"
+        "revision": "9b8878e176a3c7929c6b1d07c937f35eda50f6c6abdf935820d54b495fb9174a"
       }
     ]
   },
@@ -2760,13 +3049,13 @@
         "theme": "light",
         "file": "shakespeare_cymbeline_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_cymbeline_fra/shakespeare_cymbeline_fra-light.pdf",
-        "revision": "70cac01e3fcd92c2374bb32400dae007dc98357c8c91f3326ce948d7c90e7e29"
+        "revision": "4d809bde0645a1c3eed4954c2644f33dc896b7b6b02100d3aa9d70e1ba964f67"
       },
       {
         "theme": "dark",
         "file": "shakespeare_cymbeline_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_cymbeline_fra/shakespeare_cymbeline_fra-dark.pdf",
-        "revision": "179f1f5b93d1b14b4306bcda1068a4c52a0914fb7b33d5b75c3feb1953081b58"
+        "revision": "d216c83b8406d21278ba27d050ae55ff8f372a6e9298fd80849c78407a760379"
       }
     ]
   },
@@ -2777,13 +3066,13 @@
         "theme": "light",
         "file": "shakespeare_hamlet_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_hamlet_eng/shakespeare_hamlet_eng-light.pdf",
-        "revision": "664413a615468e89052eba0eabd3eb419d59bafb0e3898992bf2b816ad118328"
+        "revision": "fb0aaf747b66a848b6e848085b3b009d2a3e858a0af4472405b8243d59b268d2"
       },
       {
         "theme": "dark",
         "file": "shakespeare_hamlet_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_hamlet_eng/shakespeare_hamlet_eng-dark.pdf",
-        "revision": "f235227afe033ca173fe73991d14f216e4350b8a0d30fc05d0b059e8946dde94"
+        "revision": "0028e2a71e2c524f7415780d691e5b593a45126473386f2bcb84cca6a61b059f"
       }
     ]
   },
@@ -2794,13 +3083,13 @@
         "theme": "light",
         "file": "shakespeare_hamlet_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_hamlet_fra/shakespeare_hamlet_fra-light.pdf",
-        "revision": "7f7478bbc7436b65334c5f2625b832dfb043ea5f9849bed87cffbe9c618899cc"
+        "revision": "cd11b4adb223e8e0bc56683157e137b79505bb2e24137bad6e9d12a2ca21813a"
       },
       {
         "theme": "dark",
         "file": "shakespeare_hamlet_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_hamlet_fra/shakespeare_hamlet_fra-dark.pdf",
-        "revision": "9720b5c4fac8be71243850aa0509d05c792785f1a22732708773aa6890b70075"
+        "revision": "e7044b797b85c74a8e0a28a6f0be61722631803e04a95aa304bc238372163722"
       }
     ]
   },
@@ -2811,13 +3100,13 @@
         "theme": "light",
         "file": "shakespeare_hamlet_spa-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_hamlet_spa/shakespeare_hamlet_spa-light.pdf",
-        "revision": "f8d2a3aea14242654cc646af1978406d10a585ea8d31ba799ffc6ce8456836de"
+        "revision": "66438ca7067f0317c75e0acfe0e5c72be222827cf576cf2e5315afc8920d6850"
       },
       {
         "theme": "dark",
         "file": "shakespeare_hamlet_spa-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_hamlet_spa/shakespeare_hamlet_spa-dark.pdf",
-        "revision": "53a2b81cfd9c7d8c6d08ea0d72a1f45649d0b1f3b2005ff7bf460e315cd3ebf6"
+        "revision": "a7b4e59fddd669449b8f71b46c667f642d311a2791957651a837d3408c44f2b9"
       }
     ]
   },
@@ -2828,13 +3117,13 @@
         "theme": "light",
         "file": "shakespeare_julius-caesar_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_julius-caesar_eng/shakespeare_julius-caesar_eng-light.pdf",
-        "revision": "f37ffe83443cfab66c6e8c7660f7311725c135f4bcb271c58c098b06fa4837e1"
+        "revision": "e47a900c4923199cb44e68b59e39888320b26813729190f803f9e40c688004a0"
       },
       {
         "theme": "dark",
         "file": "shakespeare_julius-caesar_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_julius-caesar_eng/shakespeare_julius-caesar_eng-dark.pdf",
-        "revision": "38b2f9a3c712e724d027aec9b0c747bea994c693d9ec0e2e3735dba7388cc943"
+        "revision": "02162e4f2b484fc6da97d9665b240d71041131875c3e412288a4e582c18e0bb1"
       }
     ]
   },
@@ -2845,13 +3134,13 @@
         "theme": "light",
         "file": "shakespeare_julius-caesar_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_julius-caesar_fra/shakespeare_julius-caesar_fra-light.pdf",
-        "revision": "3bf787e44db4975a86d46533b131f1024f08706ba398cc8499f8d0bd4eb802ee"
+        "revision": "f5e13389a1586b933888355448931748258a0e92c461515edb364b2dff680cb7"
       },
       {
         "theme": "dark",
         "file": "shakespeare_julius-caesar_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_julius-caesar_fra/shakespeare_julius-caesar_fra-dark.pdf",
-        "revision": "93f1affc10a72bd974abbe89ed971514e2cf381905838390a5bc55e2cac7b96b"
+        "revision": "e05f7e71e4db98e7f1fe41a7c74b05e59bcc0465463fd714fd0cec918514b3bc"
       }
     ]
   },
@@ -2862,13 +3151,13 @@
         "theme": "light",
         "file": "shakespeare_julius-caesar_spa-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_julius-caesar_spa/shakespeare_julius-caesar_spa-light.pdf",
-        "revision": "21f7125110296e793382304aa15fb299f9e18607a6e3527f80be342516084306"
+        "revision": "65325c9c8064d223d4e0be3ea80d4e54bab13bab3f7b3bd6a32e55ae9312ba7e"
       },
       {
         "theme": "dark",
         "file": "shakespeare_julius-caesar_spa-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_julius-caesar_spa/shakespeare_julius-caesar_spa-dark.pdf",
-        "revision": "cea326b921fa89fd3f096345e60cd74c630569bff95960273d718b7121070d2e"
+        "revision": "c3eab9363469237776698a05104532f6910527e015ed10380e6bbb51cf4f90ab"
       }
     ]
   },
@@ -2879,13 +3168,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-iv-part-1_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-iv-part-1_eng/shakespeare_king-henry-iv-part-1_eng-light.pdf",
-        "revision": "d8aa3359c836886d28ea22f520c166625ddc46b6503d79e03a0209fa9e03c73a"
+        "revision": "569afd749031857ef221395464ac28928fd4c74b3a669a59c3be8352acca8a3b"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-iv-part-1_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-iv-part-1_eng/shakespeare_king-henry-iv-part-1_eng-dark.pdf",
-        "revision": "585855f2575ef39f66b46a1882cb59133f2c92c98ffd39c295444616d207ab5f"
+        "revision": "a414a6c911f41a551e2f430267e3a9cbaf854be0da6fe6f45097d918b9799d3e"
       }
     ]
   },
@@ -2896,13 +3185,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-iv-part-1_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-iv-part-1_fra/shakespeare_king-henry-iv-part-1_fra-light.pdf",
-        "revision": "7387a2a565be1465f8a8c9a9d8dcf35e413b4d8009fd676073a1701375de770b"
+        "revision": "3fa01c319728ec233eb8b071c59dc963d567b923a0d4548bc36f9002d7ce08f2"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-iv-part-1_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-iv-part-1_fra/shakespeare_king-henry-iv-part-1_fra-dark.pdf",
-        "revision": "bbe354194eda7b38da6408aac279605bf9902369a08b98d05d4508d5cfe98870"
+        "revision": "d8623dbaa9dc70a295d60ad32763409a59105875236cfe89e5ecf19b98404700"
       }
     ]
   },
@@ -2913,13 +3202,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-iv-part-2_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-iv-part-2_eng/shakespeare_king-henry-iv-part-2_eng-light.pdf",
-        "revision": "9d0f6118c94522d49f3319fe92cdd3bcf045016258782047897cdd13aa1c55cc"
+        "revision": "1ea532f9a032c6c45a4a8f7e21ad41938f75a9a8b99c00c5d604866c21e16beb"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-iv-part-2_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-iv-part-2_eng/shakespeare_king-henry-iv-part-2_eng-dark.pdf",
-        "revision": "04a7b3721afe120eecca8dc48fe92f427d49b29835bdef92a1095c1a4c710e59"
+        "revision": "b395a9d230245899dea2c756b943a3d80618430bd290128560853cf8ee0c3a7b"
       }
     ]
   },
@@ -2930,13 +3219,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-iv-part-2_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-iv-part-2_fra/shakespeare_king-henry-iv-part-2_fra-light.pdf",
-        "revision": "a82361b1591a1b6322b909a2d92220fe09a90dbceb772a81ee13bbfbe9c2aa20"
+        "revision": "2e84b2ad6c47c41170e8a557aa63c8fa8dd8ff3480ea438e04b35ee2b7044278"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-iv-part-2_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-iv-part-2_fra/shakespeare_king-henry-iv-part-2_fra-dark.pdf",
-        "revision": "bbc1084500b113a6c199bc339f6d5111ad7ebb9fa79108c2b74d11bbae1e2d64"
+        "revision": "209e812dd50079b74591481c1dbd82be7af167b00ca65199f6665e503016f304"
       }
     ]
   },
@@ -2947,13 +3236,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-v_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-v_eng/shakespeare_king-henry-v_eng-light.pdf",
-        "revision": "ee75e1e0c28b301bcc56139df2b539f8445824815ace77d17d807952a4b5bcbd"
+        "revision": "89a635cc5a2cf19b5edcfd21b18b970401a442b0fefc005ebb2244ec8e942dba"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-v_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-v_eng/shakespeare_king-henry-v_eng-dark.pdf",
-        "revision": "b0e9659030d9d94fcceeb64778ed14dcff610dac865d3066f499c2f6a6188431"
+        "revision": "faf3e9dc802679f1559885e794f4d123b55f5f55a15a6999f16267b8ffc1e6f8"
       }
     ]
   },
@@ -2964,13 +3253,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-v_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-v_fra/shakespeare_king-henry-v_fra-light.pdf",
-        "revision": "34df663bf9e45c520104a2aefb094bf6ed7f8e5a6d3c9edcb75ae31b40dc65ad"
+        "revision": "1753bf3b2b63bd07ffb63b7877de93cb205885b4424df18c11aa8a253d6ec067"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-v_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-v_fra/shakespeare_king-henry-v_fra-dark.pdf",
-        "revision": "72a4724859b06d4bbbc1510e8f798818aa6b316dab07c8e91963503dba8fc018"
+        "revision": "fef0bb7c83c61f58342a4717b9446066ca2ba5fcd5481027f57432a4a4550c73"
       }
     ]
   },
@@ -2981,13 +3270,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-vi-part-1_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-1_eng/shakespeare_king-henry-vi-part-1_eng-light.pdf",
-        "revision": "4542a291e33d6156d8feb180acf906bb5078956e1de9a90ae3b8a6043a1f27c4"
+        "revision": "863af0c1b58e4b6fe1fef0988ab25cb68c62de1315cc9f095a31d1748ea1ae37"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-vi-part-1_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-1_eng/shakespeare_king-henry-vi-part-1_eng-dark.pdf",
-        "revision": "ab305b977e250395ae334329013b6061562d73602027d28f58e443b4cfdc08a8"
+        "revision": "4e407732d81742aed084c5ca929e06b55d68bf02e04047acd81dddc78747265f"
       }
     ]
   },
@@ -2998,13 +3287,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-vi-part-1_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-1_fra/shakespeare_king-henry-vi-part-1_fra-light.pdf",
-        "revision": "cd2ae8be6fd84407bf19176070f701ffb2146f10c0e3dd7860b7501705dfd1c0"
+        "revision": "b14374016d889621c7debb448316ffe013cd5d64906ee4b44c75ad2a6fdfc588"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-vi-part-1_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-1_fra/shakespeare_king-henry-vi-part-1_fra-dark.pdf",
-        "revision": "71d9b8f0d4064faf2c0a09a05b3dacc1354d9e9b2dd8cdad243573a10c0ecdd3"
+        "revision": "b5de2a5660ef77402e40ef60278e64f75b4ce72cc4ed093d3e8d69ec8a058849"
       }
     ]
   },
@@ -3015,13 +3304,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-vi-part-2_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-2_eng/shakespeare_king-henry-vi-part-2_eng-light.pdf",
-        "revision": "db09c0ad8e6b4287dec7e8df056f13832a1b20d734c2754c1fac7e358151fa86"
+        "revision": "43c6f53b49d840e003670e4d7e473fc4f18b144fa99fadd5bf80e133baa585d4"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-vi-part-2_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-2_eng/shakespeare_king-henry-vi-part-2_eng-dark.pdf",
-        "revision": "e1a6a510680f2b1602b62adae4b3ef8adcd83dd2c5b789158c61f8035a442aa4"
+        "revision": "58dafaea1a3f3b6ee8decf791ddea3b56d022cc3b6ac82828b4bab7cf4f6ca67"
       }
     ]
   },
@@ -3032,13 +3321,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-vi-part-2_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-2_fra/shakespeare_king-henry-vi-part-2_fra-light.pdf",
-        "revision": "a7308f08930d0c42ac654cdc664d37c6604000a2407cbfca4f41cbd77c20e502"
+        "revision": "dd542e32516ebcf6447ea7055aedbebcb4facf6efcb6b8b5c8ffbacf619e28f8"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-vi-part-2_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-2_fra/shakespeare_king-henry-vi-part-2_fra-dark.pdf",
-        "revision": "ca274639375a477999ea3167e145bc7c9be0e2044580ca10bfc58bbbf1be4034"
+        "revision": "af50ca737ebce4d720de0283df993e1b45bfd16d3f015265aa055f05b0b31236"
       }
     ]
   },
@@ -3049,13 +3338,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-vi-part-3_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-3_eng/shakespeare_king-henry-vi-part-3_eng-light.pdf",
-        "revision": "ad0c283556af88c96d5065c64209220206e1bf2ad83d41627746134fc3e48142"
+        "revision": "98725dca27850636b05618acb443c16658ce82a50dc59818c6aac7c028ffdb08"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-vi-part-3_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-3_eng/shakespeare_king-henry-vi-part-3_eng-dark.pdf",
-        "revision": "9c595e8910c772cc9ece15cdaa8ec4b48e9e79cdf711d807ab0eb3576ac7fa39"
+        "revision": "38e0f5fc3da59bee90a9c46e6878c1d1d5bf379389dd4eb6c6ef63bfe66efc41"
       }
     ]
   },
@@ -3066,13 +3355,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-vi-part-3_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-3_fra/shakespeare_king-henry-vi-part-3_fra-light.pdf",
-        "revision": "4df41e108744187589ca9a655e9ddac82887b4049beae8b250a6a68572984a93"
+        "revision": "8f9da97c24145b081c034b92ddf47c020450f9482a018146d78bbd075b2411a2"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-vi-part-3_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-vi-part-3_fra/shakespeare_king-henry-vi-part-3_fra-dark.pdf",
-        "revision": "7449c58d01cfdb2a9230e61e75f4cbbf8cf08a2d5d7cce31e3ebf6368b93922c"
+        "revision": "2ef5293595e2c13598b3bd042b17558fa8e72d5c1208dc1048696b7c311fe7c8"
       }
     ]
   },
@@ -3083,13 +3372,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-viii_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-viii_eng/shakespeare_king-henry-viii_eng-light.pdf",
-        "revision": "ce1c32ca3423519a390f8924639b97c9d2fb7621279ef199dc53c90b3e2debf3"
+        "revision": "cec7b608a824b8704210b91c61c854cd7cbf43c4c74a2c61d1d636dd30db5d12"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-viii_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-viii_eng/shakespeare_king-henry-viii_eng-dark.pdf",
-        "revision": "aee884b310ae10402f2f961b4dc38afec0e6b372ba01e6a0a6500924cb056eb1"
+        "revision": "3abbcbc626636dc66676ea04f6041f348c549a20175b947b25a8ff5d3d6ebf21"
       }
     ]
   },
@@ -3100,13 +3389,13 @@
         "theme": "light",
         "file": "shakespeare_king-henry-viii_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-viii_fra/shakespeare_king-henry-viii_fra-light.pdf",
-        "revision": "bbb71171adbb63a190385a4fa89a2fbfb3ff5e966dd3892af01d7af441371dae"
+        "revision": "6190517588f7026afc4feab10522544e4bcca2b83ce0c2d6831c3321de8838e7"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-henry-viii_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-henry-viii_fra/shakespeare_king-henry-viii_fra-dark.pdf",
-        "revision": "c20864e4e19eb6be30bfc5e7ba1d52b7bc6f5405a1bc0f30117e7bdb9d68459e"
+        "revision": "9341855df4739a616859899846cc5a3f4f979186e3dc9afce35590e94e052d94"
       }
     ]
   },
@@ -3117,13 +3406,13 @@
         "theme": "light",
         "file": "shakespeare_king-john_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-john_eng/shakespeare_king-john_eng-light.pdf",
-        "revision": "410648e56a5898a412720bd311d670a0766cd02d27aa45f98a91370a0b09bc09"
+        "revision": "71f2051520a9fdcc0ad5aaecc049a62d5fffb22ed70ce8e8c291f29690c6fff2"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-john_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-john_eng/shakespeare_king-john_eng-dark.pdf",
-        "revision": "ef0d48487ab901301ac0830ffefd7556b2e96f32f7435e2c6786e1a19c60e96b"
+        "revision": "0174cd2da9ef74535680483e5a07bf27065075c889df3410c369c4cb2d6f513d"
       }
     ]
   },
@@ -3134,13 +3423,13 @@
         "theme": "light",
         "file": "shakespeare_king-john_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-john_fra/shakespeare_king-john_fra-light.pdf",
-        "revision": "bdd1a97a7e1105cfe4f090f48f9fd9674edd8d3c6722015dfbc1c5b2a2c494a4"
+        "revision": "32371fb04b9399cf4aba357b3bb1ac624e2d1117b57f31ead8909c37d2fcb536"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-john_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-john_fra/shakespeare_king-john_fra-dark.pdf",
-        "revision": "81b08741451971687cfd0e3a672a461960256d12209df4a88d8ed1c6abb0ae30"
+        "revision": "18684f2053e32c1d10e5bda862db3eb2c0e97d1f35038410a14a1abf740ff660"
       }
     ]
   },
@@ -3151,13 +3440,13 @@
         "theme": "light",
         "file": "shakespeare_king-lear_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-lear_eng/shakespeare_king-lear_eng-light.pdf",
-        "revision": "f6becbef6bd2bf1af5c8d1aeb36298fa8931372939018451ee99eecd9d3c5347"
+        "revision": "10d07c7c15acf4c429083a516d0e047a49664783bbc887004f60e812af5993d0"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-lear_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-lear_eng/shakespeare_king-lear_eng-dark.pdf",
-        "revision": "db5dac304d00d43dbcc7f85aca6aa6b28f678a23a76a77646dc5a7129afba8a6"
+        "revision": "ba6fec8ab6cf519009c45b06703bca15df5a8dad8edda44969b56efc6fafcda8"
       }
     ]
   },
@@ -3168,13 +3457,13 @@
         "theme": "light",
         "file": "shakespeare_king-lear_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-lear_fra/shakespeare_king-lear_fra-light.pdf",
-        "revision": "e4e0e3cba3ccf5b475681ac59d949ba5d388e3c3b803cd56c28d585937e4ba60"
+        "revision": "6c720caa0f2632b51111196cc07272d1e18ccc15d98ad9e2e1b57f474c9aa499"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-lear_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-lear_fra/shakespeare_king-lear_fra-dark.pdf",
-        "revision": "fa361ef10a72c6d2a6dfe576598ea5a42fac7f0d17569d175858ee5d42133041"
+        "revision": "c8cc7d9112886ee5b5d6f6b02d28e0936ce5ed7d4bf71e028cd8b6361fd3b531"
       }
     ]
   },
@@ -3185,13 +3474,13 @@
         "theme": "light",
         "file": "shakespeare_king-richard-ii_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-ii_eng/shakespeare_king-richard-ii_eng-light.pdf",
-        "revision": "e8f0190c63f4ec066b8e7805039d9db3dc9af76e789536d54c7550eea20b31d6"
+        "revision": "90e33fabcaae186bd3efe1af129083ecad9c60c86d97255ce4dc84b8a3e530dd"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-richard-ii_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-ii_eng/shakespeare_king-richard-ii_eng-dark.pdf",
-        "revision": "c301af60ec22fc306d9645264905445f12aa65ca148d13462de6a0eea98f24b1"
+        "revision": "0da3db06b5b2c4aa00a83e94d85464fa79cb9812c58376be4811a9e20b3a565d"
       }
     ]
   },
@@ -3202,13 +3491,13 @@
         "theme": "light",
         "file": "shakespeare_king-richard-ii_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-ii_fra/shakespeare_king-richard-ii_fra-light.pdf",
-        "revision": "69e68186e3ff0e677a006f19440405c9df0f23ec0b89b4125a33ed5545a8c82f"
+        "revision": "e5e13f62450f1545af2c276a926b1527b2e16dd330e098636aab28789df0da0b"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-richard-ii_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-ii_fra/shakespeare_king-richard-ii_fra-dark.pdf",
-        "revision": "d605195d77e97eac9c9637809c4378b986991a528ff2940c8bc4710f4c31b3d3"
+        "revision": "365acb4d006cce86ae4db3fac1d52cb37ae23f10d655b7909824016bd73fe917"
       }
     ]
   },
@@ -3219,13 +3508,13 @@
         "theme": "light",
         "file": "shakespeare_king-richard-iii_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-iii_eng/shakespeare_king-richard-iii_eng-light.pdf",
-        "revision": "634c9d62154a760ff2a30f178fca1d07dc0daff125a5fb4dc290d03191a3fa68"
+        "revision": "7133a25e30725b51fe008e8e76907e047e882e7aa00103257544c9894feb65c7"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-richard-iii_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-iii_eng/shakespeare_king-richard-iii_eng-dark.pdf",
-        "revision": "80405c870355de7c26b59bd0e9a94acb05bdc6cb30cacada97643330e1913c39"
+        "revision": "e49288bd1cdaec4345f9f8dd7032eb85a76a0d207418f66b4bd239799a0223fe"
       }
     ]
   },
@@ -3236,13 +3525,13 @@
         "theme": "light",
         "file": "shakespeare_king-richard-iii_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-iii_fra/shakespeare_king-richard-iii_fra-light.pdf",
-        "revision": "cbcf7424022f097ffb516120148a0f5ab01efff192b1b5a78f044ef351c9967d"
+        "revision": "79d6d90764a917e2a8ea42dbbe43c30df3fae32f33a5064bf6e69f0000de35b0"
       },
       {
         "theme": "dark",
         "file": "shakespeare_king-richard-iii_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-iii_fra/shakespeare_king-richard-iii_fra-dark.pdf",
-        "revision": "1dc565245b3038b53793ab6c481350a91dca6033ee9c2676a97b5a37efe96f25"
+        "revision": "2174f1dbbca4bd922a0601e6c7f96ad82eb25c715f9376c9579d73169abe5b3b"
       }
     ]
   },
@@ -3253,13 +3542,13 @@
         "theme": "light",
         "file": "shakespeare_loves-labours-lost_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_loves-labours-lost_eng/shakespeare_loves-labours-lost_eng-light.pdf",
-        "revision": "8b8ee9957359be343cb0b16ac93d28ad31e94a95b53bea1417dbec3cef6f6183"
+        "revision": "1493832ebd38170bc35b2af02f8d27b8888c6314c9e61d013cc2d72f5c64d159"
       },
       {
         "theme": "dark",
         "file": "shakespeare_loves-labours-lost_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_loves-labours-lost_eng/shakespeare_loves-labours-lost_eng-dark.pdf",
-        "revision": "44943d00b1b523313bb88d1371cc12fbbe7b084bd71b76e04937113570831753"
+        "revision": "1ecb72413c8f3a5568be69a6119081e2db36e71526f7ae117d7dacf14c184ec8"
       }
     ]
   },
@@ -3270,13 +3559,13 @@
         "theme": "light",
         "file": "shakespeare_loves-labours-lost_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_loves-labours-lost_fra/shakespeare_loves-labours-lost_fra-light.pdf",
-        "revision": "734e103c6e1b5089e34423ab3c94a82738122825766ea60cf3c5dbaf1537e96f"
+        "revision": "ac628dc78e1fb58c8d4634757f727782ebf3ad88f835f327d503d721c252fb85"
       },
       {
         "theme": "dark",
         "file": "shakespeare_loves-labours-lost_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_loves-labours-lost_fra/shakespeare_loves-labours-lost_fra-dark.pdf",
-        "revision": "cd736554fd978e8286912ae308ade03abec9e07d6668578c9a3d4d8f90b0ea48"
+        "revision": "8e3b30f5079ac4de8317303ae9a0f898f85e01bd4aa3523180273137f5b0915a"
       }
     ]
   },
@@ -3287,13 +3576,13 @@
         "theme": "light",
         "file": "shakespeare_macbeth_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_macbeth_eng/shakespeare_macbeth_eng-light.pdf",
-        "revision": "d7e41b8b773d1737197543da37269b20177d10d737b009a1a2fcce7a4494db16"
+        "revision": "ca385e5a3d6ef8aaf6ecc2c337d70e1eb9829dde5c8930c24a027dcb72b8f5d4"
       },
       {
         "theme": "dark",
         "file": "shakespeare_macbeth_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_macbeth_eng/shakespeare_macbeth_eng-dark.pdf",
-        "revision": "a2034f63c68ad2f0275b12750bd1193d15a75cccb6f3dd374acc08dfc454768c"
+        "revision": "2d95bd618821d7514bc4dea84ee2878a670b907a7ac19ab442c1c2fec3b2ebc6"
       }
     ]
   },
@@ -3304,13 +3593,13 @@
         "theme": "light",
         "file": "shakespeare_macbeth_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_macbeth_fra/shakespeare_macbeth_fra-light.pdf",
-        "revision": "5f57fb8073827c0f2070f3c98af5ace06eb5ca55ff92d837b0817534ca0fc682"
+        "revision": "8b87fa774cb715083e96e4b1918a52d6245b4c4e4edd039b0af47700b5cc6bbb"
       },
       {
         "theme": "dark",
         "file": "shakespeare_macbeth_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_macbeth_fra/shakespeare_macbeth_fra-dark.pdf",
-        "revision": "3463b4ebdc6d4b23ffeb6c1ebd1785813be417c2217fdf00d3e892b0c2a38d3d"
+        "revision": "988298f9f1d2a9722cf1e2c3eb21962267fa8f1032ac19232a29e6a4bff30d20"
       }
     ]
   },
@@ -3321,13 +3610,13 @@
         "theme": "light",
         "file": "shakespeare_macbeth_spa-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_macbeth_spa/shakespeare_macbeth_spa-light.pdf",
-        "revision": "051bb28683359b163879f85197a3bd470fa9bcd12b6dfb11178f75fe7123ac4e"
+        "revision": "47cb18406014765801d3c9c614af06278645579f88305d702e006ff803b5b9e4"
       },
       {
         "theme": "dark",
         "file": "shakespeare_macbeth_spa-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_macbeth_spa/shakespeare_macbeth_spa-dark.pdf",
-        "revision": "e1986958f5ac18ac651c5a98d82eb0d31ec535c8928945f1c06501d1d0ad7cb5"
+        "revision": "7c4b109a3e9caa87040d811679055c4aeecd96dc0d940bbc948c7b95e9918445"
       }
     ]
   },
@@ -3338,13 +3627,13 @@
         "theme": "light",
         "file": "shakespeare_measure-for-measure_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_measure-for-measure_eng/shakespeare_measure-for-measure_eng-light.pdf",
-        "revision": "48dd4162e47f71efd2cf2e8ca9b3675999e7d7129ad541af3737ce60a859a359"
+        "revision": "24e2eb080f52dfb76a0561a987de55a44e285eae67c16ea910d6a56fdcb7d4c2"
       },
       {
         "theme": "dark",
         "file": "shakespeare_measure-for-measure_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_measure-for-measure_eng/shakespeare_measure-for-measure_eng-dark.pdf",
-        "revision": "6ac8881df2010d6f559ed4548a117226de8976494df9fe5ac3391b899ada7faf"
+        "revision": "c0320beaecf07de36b1d350926dd8ec471fc479cfa721a2336ea3cb75e0c04a2"
       }
     ]
   },
@@ -3355,13 +3644,13 @@
         "theme": "light",
         "file": "shakespeare_measure-for-measure_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_measure-for-measure_fra/shakespeare_measure-for-measure_fra-light.pdf",
-        "revision": "5ba2ebc60603344491df641985278e39521d627b1f32c6dc0154f2ac84afc86f"
+        "revision": "917fbb10c863ebd35088d74f1dd8f3a48eda6e21c5326fd843db0d5f54901d0a"
       },
       {
         "theme": "dark",
         "file": "shakespeare_measure-for-measure_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_measure-for-measure_fra/shakespeare_measure-for-measure_fra-dark.pdf",
-        "revision": "5632274c7d745b1bce665ebf5bd7fb64f3f501e988a91fc52ed7811b572cd9ce"
+        "revision": "99d1af0836db37f72de13f02205371c6b873274a5f55537c021b9150778c0b1d"
       }
     ]
   },
@@ -3372,13 +3661,13 @@
         "theme": "light",
         "file": "shakespeare_much-ado-about-nothing_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_much-ado-about-nothing_eng/shakespeare_much-ado-about-nothing_eng-light.pdf",
-        "revision": "0633894cf237b97735c1fbaed49fafa180833077ca1df424d25fb60f15eb87cc"
+        "revision": "7ad69527bbe2e335bf72d0dd3e9f3559e64814ae33afd6db9420731a2dbcf6fd"
       },
       {
         "theme": "dark",
         "file": "shakespeare_much-ado-about-nothing_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_much-ado-about-nothing_eng/shakespeare_much-ado-about-nothing_eng-dark.pdf",
-        "revision": "a41e5dca115bcc4730fa474bf945aa08080c403546c032c0b1bdad6e1266bb05"
+        "revision": "454a160afa91a1f0020182dbb9b427759e4446596ad5f25d7419c6027ad78566"
       }
     ]
   },
@@ -3389,13 +3678,13 @@
         "theme": "light",
         "file": "shakespeare_much-ado-about-nothing_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_much-ado-about-nothing_fra/shakespeare_much-ado-about-nothing_fra-light.pdf",
-        "revision": "7839fc65b6f7390ecf8162d49fa3df2f260f0caa788f0c38852a0360dd50d4ca"
+        "revision": "6a43399958206030c411f330774a03b717524653b5865195abd656a61081aaad"
       },
       {
         "theme": "dark",
         "file": "shakespeare_much-ado-about-nothing_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_much-ado-about-nothing_fra/shakespeare_much-ado-about-nothing_fra-dark.pdf",
-        "revision": "524333b995f8aa9340a96866cb0b6de7508ae1f18761f96d9e977e6c607095b8"
+        "revision": "63cff5a06da35302f7c6c10b26968e8596445f6ba0f56b8b9611f4dfe5019b99"
       }
     ]
   },
@@ -3406,13 +3695,13 @@
         "theme": "light",
         "file": "shakespeare_othello_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_othello_eng/shakespeare_othello_eng-light.pdf",
-        "revision": "fa109c1047a5610a3d634cea7f7270ac1294a650b32390e71625cdd6ffc45c57"
+        "revision": "f8c48cbaa746129692416d0a54c223fa1792204783dd34ae3a1d44e3f7916d3d"
       },
       {
         "theme": "dark",
         "file": "shakespeare_othello_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_othello_eng/shakespeare_othello_eng-dark.pdf",
-        "revision": "14cbe678e173c5afd470ee14411c85ff765b6ed126118612e288baa65558a203"
+        "revision": "b18df30159059eed1c364073177dc519b8ad940b815cf7869b709e9702532aae"
       }
     ]
   },
@@ -3423,13 +3712,13 @@
         "theme": "light",
         "file": "shakespeare_othello_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_othello_fra/shakespeare_othello_fra-light.pdf",
-        "revision": "5cb33dd57b362dca9f2bc361c8c7c3ed91d90143742f8a6e3531cebd89ead885"
+        "revision": "c326b444cc43e117a8607bd9e6acea2fc99c768cb18c021d76b53ab95c64265e"
       },
       {
         "theme": "dark",
         "file": "shakespeare_othello_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_othello_fra/shakespeare_othello_fra-dark.pdf",
-        "revision": "c1379d902a20e19097465e9233f47bfe4cb16746909d842dfa00d66c60c54b4b"
+        "revision": "336d04b9de5f57c82f6952d0de907ac47337c2ed9d40f1e3bc89f1a792513ca4"
       }
     ]
   },
@@ -3440,13 +3729,13 @@
         "theme": "light",
         "file": "shakespeare_othello_spa-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_othello_spa/shakespeare_othello_spa-light.pdf",
-        "revision": "9a1f4d23f0c5a13b8d4acefcdaeed76835627b67a1a3864c373b6b2741acc6e9"
+        "revision": "4369847467d60e39f91f2726743748e8139475342ec00f393922f40915b8bc40"
       },
       {
         "theme": "dark",
         "file": "shakespeare_othello_spa-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_othello_spa/shakespeare_othello_spa-dark.pdf",
-        "revision": "bab03a3d8156ec9befe9e9997379165a09d6cb01e0ea4590d490e518c920a6a6"
+        "revision": "bf0bd2f51bb492407057c8ec1a6436a6d0707281cff6961b674d0ead083f3653"
       }
     ]
   },
@@ -3457,13 +3746,13 @@
         "theme": "light",
         "file": "shakespeare_pericles-prince-of-tyre_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_pericles-prince-of-tyre_eng/shakespeare_pericles-prince-of-tyre_eng-light.pdf",
-        "revision": "0daa82fd2657922620910f3ffe29a8f3c17914f600e2f5bc5f2d708544d58dab"
+        "revision": "70b295f175a4295fa53a7e232967b8b21d332c9f994f2e874d9eaae52c57e505"
       },
       {
         "theme": "dark",
         "file": "shakespeare_pericles-prince-of-tyre_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_pericles-prince-of-tyre_eng/shakespeare_pericles-prince-of-tyre_eng-dark.pdf",
-        "revision": "d13b7bbf273116afb04eec21e5599ed11f77097693d483a720bdaf6ed0e9c6f2"
+        "revision": "0d590e3d57a21fb1f3d3bbf40dc5168a71b7b882604650638bc3fde826a0ec36"
       }
     ]
   },
@@ -3474,13 +3763,13 @@
         "theme": "light",
         "file": "shakespeare_pericles-prince-of-tyre_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_pericles-prince-of-tyre_fra/shakespeare_pericles-prince-of-tyre_fra-light.pdf",
-        "revision": "609d423c0300096eac29b1951c7f3d957da16ed580ae24f96cfa31597e57416a"
+        "revision": "b858a33e6619378a43fa07f9bc5e62430c77912190234e9f6e6d4584370e4209"
       },
       {
         "theme": "dark",
         "file": "shakespeare_pericles-prince-of-tyre_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_pericles-prince-of-tyre_fra/shakespeare_pericles-prince-of-tyre_fra-dark.pdf",
-        "revision": "b60e518753a76e757e925a632a891d1e709dbfbc357f9d36f9af48e5a544ec4b"
+        "revision": "a297012cd8d671a63139fb387d3715f0b1595c1922acdfa2dcb5b9c7fed2013e"
       }
     ]
   },
@@ -3491,13 +3780,13 @@
         "theme": "light",
         "file": "shakespeare_romeo-and-juliet_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_romeo-and-juliet_eng/shakespeare_romeo-and-juliet_eng-light.pdf",
-        "revision": "ed9ffc137fb759826512d531622bf718810ae0dd1da21a2f0027604fe785eb90"
+        "revision": "f4609066ae28fccbb49ed8e5d14a8650ae75e8b29b52b56d77b167ad5dbf67c4"
       },
       {
         "theme": "dark",
         "file": "shakespeare_romeo-and-juliet_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_romeo-and-juliet_eng/shakespeare_romeo-and-juliet_eng-dark.pdf",
-        "revision": "f1dfa53e19c89d842c545912bb668546a892040920fe46e35b3c8581879369ca"
+        "revision": "5bafe34207e72b3a7e8c46578faa1c26a58e1c03993bcdbb67b457541923f709"
       }
     ]
   },
@@ -3508,13 +3797,13 @@
         "theme": "light",
         "file": "shakespeare_romeo-and-juliet_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_romeo-and-juliet_fra/shakespeare_romeo-and-juliet_fra-light.pdf",
-        "revision": "c2746cdb97a30437d9474a943825bfddb7640e57c49bb173bd62570d73d5ceb5"
+        "revision": "10dabbf3463364b5d1d2e24ef368deb86d77e5a2232b9823394d522ec6e2b590"
       },
       {
         "theme": "dark",
         "file": "shakespeare_romeo-and-juliet_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_romeo-and-juliet_fra/shakespeare_romeo-and-juliet_fra-dark.pdf",
-        "revision": "092bd20b92e1c0924cdcf52f16dcded331bd4a7a16bb931a84cdf0e6bf1360d5"
+        "revision": "22ecb791feeebe461567d4566eb98fd3fce494b0e6147ffbb3844744deb2010a"
       }
     ]
   },
@@ -3525,13 +3814,13 @@
         "theme": "light",
         "file": "shakespeare_romeo-and-juliet_spa-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_romeo-and-juliet_spa/shakespeare_romeo-and-juliet_spa-light.pdf",
-        "revision": "2cb57c227f3e3328fb81703bf8a3787200a6882c2a243283d0f008fb84e90838"
+        "revision": "ab0253ee0c967762f6dfba3b0a930de0a6f0ed214f87ac2cb59c34d571dd50e4"
       },
       {
         "theme": "dark",
         "file": "shakespeare_romeo-and-juliet_spa-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_romeo-and-juliet_spa/shakespeare_romeo-and-juliet_spa-dark.pdf",
-        "revision": "7ea5dbb44c277af36fbe9a49ec648a92835b4cb6691b8519008ac77d707b57e0"
+        "revision": "fcec822b4fcc39bec7d4b9e29bef58745fa7665255bbc20f4b9dec20967149e9"
       }
     ]
   },
@@ -3542,13 +3831,13 @@
         "theme": "light",
         "file": "shakespeare_the-comedy-of-errors_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-comedy-of-errors_eng/shakespeare_the-comedy-of-errors_eng-light.pdf",
-        "revision": "f625df80c0739f42d65e590ddd4e18a0ed2b7844a2d6a699375e97c8a7a02005"
+        "revision": "705560033c4df02919d175d5bbc2f97e6bb09399eac73cf99f89eb7e409765b8"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-comedy-of-errors_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-comedy-of-errors_eng/shakespeare_the-comedy-of-errors_eng-dark.pdf",
-        "revision": "43f452b98c3b363bd5d5fc5334f10914cbab202fdd2dcb9fae848f2fe236382a"
+        "revision": "5a4b1628c2ce12d4143ff1f951f1ace52dc6b74b6c4d6288cdf155a3aaec8c7b"
       }
     ]
   },
@@ -3559,13 +3848,13 @@
         "theme": "light",
         "file": "shakespeare_the-comedy-of-errors_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-comedy-of-errors_fra/shakespeare_the-comedy-of-errors_fra-light.pdf",
-        "revision": "b2ea900a878f133eef52d4b5fc5e0a725de1eba8c09587db4693ce16094271e7"
+        "revision": "705922b7d9263a0763eb83904909668c3b69d12ce5c6065c1fbb301d3529413a"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-comedy-of-errors_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-comedy-of-errors_fra/shakespeare_the-comedy-of-errors_fra-dark.pdf",
-        "revision": "a75f89157462f86bc0e99a2b2ab9f8bbfb210fdbfefb08124bc49aaf5f8aebbb"
+        "revision": "c632c8d524f66bea9fd432adff37195ba16b9e877d4254a89c86bc15ba89e842"
       }
     ]
   },
@@ -3576,13 +3865,13 @@
         "theme": "light",
         "file": "shakespeare_the-comedy-of-errors_spa-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-comedy-of-errors_spa/shakespeare_the-comedy-of-errors_spa-light.pdf",
-        "revision": "362e1aee5d28d5e8a34860f6645a33ecb92ba5964147404e27109387f2bfb38c"
+        "revision": "1029d42020c8845d482498006ea5433ed94a4679ca6c60af194806f6f97f2ad6"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-comedy-of-errors_spa-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-comedy-of-errors_spa/shakespeare_the-comedy-of-errors_spa-dark.pdf",
-        "revision": "6d22182062df73f902e7369d8500f9e76212a21ba5ee740929e04670508c3249"
+        "revision": "9ad3539f2062eb6ae4befe11854134b0c40207708b4d2b5e4d3ccfa99e73db75"
       }
     ]
   },
@@ -3593,13 +3882,13 @@
         "theme": "light",
         "file": "shakespeare_the-merchant-of-venice_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merchant-of-venice_eng/shakespeare_the-merchant-of-venice_eng-light.pdf",
-        "revision": "9805b5133fb4e76782d19e931993cf1fd6bc3109c00d610dec78ca76abeb9446"
+        "revision": "ab982c22854d29d80ded1f98e8a821fdfc4faf9101a1a535587c996c2fb45d82"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-merchant-of-venice_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merchant-of-venice_eng/shakespeare_the-merchant-of-venice_eng-dark.pdf",
-        "revision": "f47847ced9d8c7bcddd511b511f80896aa77796c5a30d4e052bc153b9b180679"
+        "revision": "a0d8c0e4780d3b413b938c8054130a98615db9ccc467f693061b76eac7589d30"
       }
     ]
   },
@@ -3610,13 +3899,13 @@
         "theme": "light",
         "file": "shakespeare_the-merchant-of-venice_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merchant-of-venice_fra/shakespeare_the-merchant-of-venice_fra-light.pdf",
-        "revision": "425f594a91432d88d2f4185e982c6adcdb67a3713f419be503544760f3b97a5b"
+        "revision": "e7dd1edbefbbb7c0d3010e08221237949ba6e6f6a1aaa045c0027ad290590d95"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-merchant-of-venice_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merchant-of-venice_fra/shakespeare_the-merchant-of-venice_fra-dark.pdf",
-        "revision": "4f48c2df1b17743355ec01315cda34a915ee03b5c2bb7cc0d687509b4ce949b9"
+        "revision": "6680fd8993e125c95b95fd9df7ca0b741e747aadaab52202146188c1c212f6b2"
       }
     ]
   },
@@ -3627,13 +3916,13 @@
         "theme": "light",
         "file": "shakespeare_the-merchant-of-venice_spa-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merchant-of-venice_spa/shakespeare_the-merchant-of-venice_spa-light.pdf",
-        "revision": "3f8f82d9dea0bd01869f479aab7a9545ebf93c39de45db4aa51de63e481e368f"
+        "revision": "868af6fc59eec97af254bfd152f28d6b827130815a0b7f05b8f5413b016abafa"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-merchant-of-venice_spa-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merchant-of-venice_spa/shakespeare_the-merchant-of-venice_spa-dark.pdf",
-        "revision": "7c8d459635c8738a2a50c539a99cd7233d999c149a036e603189b2922f470494"
+        "revision": "139cc0f46379aa9b9d0df4bf1eb9db4fa71a2fddce33668ea211ed193cc7c064"
       }
     ]
   },
@@ -3644,13 +3933,13 @@
         "theme": "light",
         "file": "shakespeare_the-merry-wives-of-windsor_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merry-wives-of-windsor_eng/shakespeare_the-merry-wives-of-windsor_eng-light.pdf",
-        "revision": "086bdbce7d2d3ea622f81d67173ea3906f01cfb9e527e2f2dd8029d7ca1a4a3d"
+        "revision": "1824d5152fdb5edbbf6fd040985b2dfc63d2ea98744c112cb056c4dbdee0b526"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-merry-wives-of-windsor_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merry-wives-of-windsor_eng/shakespeare_the-merry-wives-of-windsor_eng-dark.pdf",
-        "revision": "3b71aef2150d3c94c082db9fab2decf9f6c4b9e9eabe89b6171c6d15892edd13"
+        "revision": "b29c4e37fb42fecf0fb450e4015ccb7a8799aa0f9ef1cb58f4a796eedc6d0fe2"
       }
     ]
   },
@@ -3661,13 +3950,13 @@
         "theme": "light",
         "file": "shakespeare_the-merry-wives-of-windsor_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merry-wives-of-windsor_fra/shakespeare_the-merry-wives-of-windsor_fra-light.pdf",
-        "revision": "39265d4c49bdcad3c95254b7af25e6c473bd7d4dacb49f2edc139f0aeba0d496"
+        "revision": "1e7b92c80e2b22d975dd6d47263e974a22d41894df3aa06c50a4cc169941cf3a"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-merry-wives-of-windsor_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merry-wives-of-windsor_fra/shakespeare_the-merry-wives-of-windsor_fra-dark.pdf",
-        "revision": "69e4c587c8871ef8e1c2fad3977134a9c7b35b71cb5ed74a560b321058c8189f"
+        "revision": "929cdc28995a76a2a8f58e00696d60897928e0c24f64592df327086b29b65281"
       }
     ]
   },
@@ -3678,13 +3967,13 @@
         "theme": "light",
         "file": "shakespeare_the-merry-wives-of-windsor_spa-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merry-wives-of-windsor_spa/shakespeare_the-merry-wives-of-windsor_spa-light.pdf",
-        "revision": "6fca19d69dbe695d7f13714b6b22f954c80e29439cce45007d4ece7bc5470d46"
+        "revision": "bd79887bee3712f8cdf5912e1e2ae9b3af2e131cfcf83cbe74b09c4d2ff2a376"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-merry-wives-of-windsor_spa-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-merry-wives-of-windsor_spa/shakespeare_the-merry-wives-of-windsor_spa-dark.pdf",
-        "revision": "1ca9829999fa8d0ef45680f8b2fb749115656d9ecb1e07d3fb94712a0244cbd2"
+        "revision": "c578c71b0dc4eac00a1f739faf1ec218af88c2b7fbc94c2b19d1c28f82aa2177"
       }
     ]
   },
@@ -3695,13 +3984,13 @@
         "theme": "light",
         "file": "shakespeare_the-taming-of-the-shrew_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-taming-of-the-shrew_eng/shakespeare_the-taming-of-the-shrew_eng-light.pdf",
-        "revision": "ff6ed6d262cf11ccdd9771df13b3d42e600163d42e654961f9f863509469410f"
+        "revision": "796772cb90962d054b42b9f9f37f4e541f2f8167d0f93a60af28de68be852323"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-taming-of-the-shrew_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-taming-of-the-shrew_eng/shakespeare_the-taming-of-the-shrew_eng-dark.pdf",
-        "revision": "146a8bcfbbaaa7ec39b6860b0b672ca94a41d2b600c49ac29dc4b448eb183577"
+        "revision": "785f6fc6a37d1ab6f22e8329f61088660fe5336a681fee673872aea35525a0b1"
       }
     ]
   },
@@ -3712,13 +4001,13 @@
         "theme": "light",
         "file": "shakespeare_the-taming-of-the-shrew_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-taming-of-the-shrew_fra/shakespeare_the-taming-of-the-shrew_fra-light.pdf",
-        "revision": "98ecd28348b019c48cc67884152b3db7c38deab0b07f0dc15c676c9cea8fb014"
+        "revision": "7161783581bbb64ea7d5bd0e626e66d8681bf3c5925f6ec8de4df1bb3e42c3e6"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-taming-of-the-shrew_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-taming-of-the-shrew_fra/shakespeare_the-taming-of-the-shrew_fra-dark.pdf",
-        "revision": "8acc2180885c6ac66677ee691e539eac0e0705e2699f3c4b74a62018fc7e74b0"
+        "revision": "d531d0a27f87590a1195feff3a9690cb5a6d614df4670b71328656031162d423"
       }
     ]
   },
@@ -3729,13 +4018,13 @@
         "theme": "light",
         "file": "shakespeare_the-tempest_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-tempest_eng/shakespeare_the-tempest_eng-light.pdf",
-        "revision": "ea1b0d87aaca6bc264221ba3e7d3089f233ad91289a8a4968a867a2616da9b16"
+        "revision": "2ce1fd659921af10dfcfa441e93ade0c10e00b200d6638eef41d2f6e54e51504"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-tempest_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-tempest_eng/shakespeare_the-tempest_eng-dark.pdf",
-        "revision": "929d06a2f2b27daa56de61ffc8c31e3f3fcfa0ec04158e3bf936582e50c5dd2f"
+        "revision": "264ad1c9c9bf29a7d0654e5262e29e5c60a884e3bcd23aaa07ff185191d1caa6"
       }
     ]
   },
@@ -3746,13 +4035,13 @@
         "theme": "light",
         "file": "shakespeare_the-tempest_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-tempest_fra/shakespeare_the-tempest_fra-light.pdf",
-        "revision": "a87f40a7cfe23f4e2504d3db15f2b4d079e31ea5121eee5eb2b69995c607d04a"
+        "revision": "3c4875bb661cc54a96a739f78b82282899b6d41e38d13bdbd8a190e48ede005e"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-tempest_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-tempest_fra/shakespeare_the-tempest_fra-dark.pdf",
-        "revision": "ee0db152458176c7cd49fee4cf72a90a6cf0f9d7d25e051d104a18f3db238da6"
+        "revision": "ace0b07de21af8c431409ea277726f4a1ae61b13ad3dc805060b804a7040e841"
       }
     ]
   },
@@ -3763,13 +4052,13 @@
         "theme": "light",
         "file": "shakespeare_the-two-gentlemen-of-verona_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-gentlemen-of-verona_eng/shakespeare_the-two-gentlemen-of-verona_eng-light.pdf",
-        "revision": "a9a12ac844a92dbe513378c47083b45f5fde266b4f4710d91e0d79c8cabaf9dd"
+        "revision": "c7808722ef2028b13b383d02c26eb780f78b8eec70c59fb9892716b89e6c45db"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-two-gentlemen-of-verona_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-gentlemen-of-verona_eng/shakespeare_the-two-gentlemen-of-verona_eng-dark.pdf",
-        "revision": "6dbffcc72bd006d3d6cc455e5bf4e44db58da696e21783b9d92b6c1250f2648c"
+        "revision": "c80cdbf393ff2941be12c6387e62beed3971cc1026b0f04b85046bcaee1f7c22"
       }
     ]
   },
@@ -3780,13 +4069,13 @@
         "theme": "light",
         "file": "shakespeare_the-two-gentlemen-of-verona_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-gentlemen-of-verona_fra/shakespeare_the-two-gentlemen-of-verona_fra-light.pdf",
-        "revision": "325bcfa96eab0bc250031d6c44bdfa1ce5e69b20d99504417b51d087b27e5135"
+        "revision": "9feca4f8c16a134d4cbe064681561ec2006c369f2689c1afdc9385c4a2d64252"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-two-gentlemen-of-verona_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-gentlemen-of-verona_fra/shakespeare_the-two-gentlemen-of-verona_fra-dark.pdf",
-        "revision": "16dba9f96f8364b61f1cc48b9500a4f41d98ed7365ba24e3a6187e40c3455bab"
+        "revision": "bdcc591a24a17546ffe4fa48b0ab569bcbda737d6eb7352a6d0142f6f7d5776e"
       }
     ]
   },
@@ -3797,13 +4086,13 @@
         "theme": "light",
         "file": "shakespeare_the-two-noble-kinsmen_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-noble-kinsmen_eng/shakespeare_the-two-noble-kinsmen_eng-light.pdf",
-        "revision": "de2a106dc3fbb9ea457c50294fd194ce8ec13924fb02ff4b92f8671655d3f3df"
+        "revision": "b40e3e132b778500a482272d5df7bd721eda66b43e7ca85daa136be59dbcf841"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-two-noble-kinsmen_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-noble-kinsmen_eng/shakespeare_the-two-noble-kinsmen_eng-dark.pdf",
-        "revision": "eb6daf5c83e7ef5e07c76795f27440311fecdbc82f114497f4a7dc863539a133"
+        "revision": "530e73404269e8fdcae72add5c73aa508a76c56eaa2e9575f00bf3f41d63c5f9"
       }
     ]
   },
@@ -3814,13 +4103,13 @@
         "theme": "light",
         "file": "shakespeare_the-two-noble-kinsmen_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-noble-kinsmen_fra/shakespeare_the-two-noble-kinsmen_fra-light.pdf",
-        "revision": "cd897086aa05cba7520160337216fb751df21d33e9b6e456632aed76bb9734ef"
+        "revision": "7ed7eeaa327d5f7ea52b2e31e08ab1389f1972698c8c57a428184e2235dba001"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-two-noble-kinsmen_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-noble-kinsmen_fra/shakespeare_the-two-noble-kinsmen_fra-dark.pdf",
-        "revision": "12e2ea6cac33738e01375f711ab9f6de759d6a1431df95a3df4fb3f431106c01"
+        "revision": "a2a8829cf6eea8159c66378cb5ded59b01d0d06dd7d82b4d767a5cc325a8e32f"
       }
     ]
   },
@@ -3831,13 +4120,13 @@
         "theme": "light",
         "file": "shakespeare_the-winters-tale_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-winters-tale_eng/shakespeare_the-winters-tale_eng-light.pdf",
-        "revision": "b525c57b4a977f1a405cd92712e2879a1ad6c8671b703a29b171a4ac629b872b"
+        "revision": "0f357b43078279d6ae42f85dfa68fc624365369299646a3ecea1d7c88faca1de"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-winters-tale_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-winters-tale_eng/shakespeare_the-winters-tale_eng-dark.pdf",
-        "revision": "18c383ec88bf228ad91c7f010e7f1a6c480e6a6d8a87144537915731d7607237"
+        "revision": "81b26b4c275bd787d3e74b976980fb23fc897dc28e019c7092c599a45f57fd95"
       }
     ]
   },
@@ -3848,13 +4137,13 @@
         "theme": "light",
         "file": "shakespeare_the-winters-tale_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-winters-tale_fra/shakespeare_the-winters-tale_fra-light.pdf",
-        "revision": "0fb889960fe593390abd1feede3d748a78296df28a4e258eda9559d9497db562"
+        "revision": "07b4bbc7bdf747b8816730150692b9b871ede7f2eb0838e4522835b376df4dd3"
       },
       {
         "theme": "dark",
         "file": "shakespeare_the-winters-tale_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-winters-tale_fra/shakespeare_the-winters-tale_fra-dark.pdf",
-        "revision": "cdf67fededd47740e4249fdd228dcb50bffa11df5170abf68fb917a9327def7a"
+        "revision": "c60e9f4a75b09a9df97634970faf482a4112891f8d6ccd21c6c2b339b750e288"
       }
     ]
   },
@@ -3865,13 +4154,13 @@
         "theme": "light",
         "file": "shakespeare_timon-of-athens_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_timon-of-athens_eng/shakespeare_timon-of-athens_eng-light.pdf",
-        "revision": "ae0b53b32e3eb8aa77a7d71428abdedd2d6c2044342d26c2d146a2aaad7a649b"
+        "revision": "283ed2be1dd04f95831e1507dac76f254f4292db7ac4234232863f1f95c9f385"
       },
       {
         "theme": "dark",
         "file": "shakespeare_timon-of-athens_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_timon-of-athens_eng/shakespeare_timon-of-athens_eng-dark.pdf",
-        "revision": "5cd2a85407b0ffad075b841a0345745611e884ef0ac7ef89fbb1429899a00cbf"
+        "revision": "2a4ea4ac0f8dfb5327219a3f049e2161f3eadb808aaf8b0e28e63cd866857ede"
       }
     ]
   },
@@ -3882,13 +4171,13 @@
         "theme": "light",
         "file": "shakespeare_timon-of-athens_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_timon-of-athens_fra/shakespeare_timon-of-athens_fra-light.pdf",
-        "revision": "18eccc1c6c0ba59d84ff6c5cf08ef5ebbfb5e55d57a1c28d302a283a6777052a"
+        "revision": "5d9407bd12a224ded0fcb483b1fb33bb8e3ca97e8aac7fb9c626696574a3f3de"
       },
       {
         "theme": "dark",
         "file": "shakespeare_timon-of-athens_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_timon-of-athens_fra/shakespeare_timon-of-athens_fra-dark.pdf",
-        "revision": "3dc5b3117bac17ca3611e848b7bdc7e97049fcf3559e307d35d5f859418401fa"
+        "revision": "5039d77b15726486020e805013ec24ad81ef10d4d492e0e4b6bf4e7e7cd4c8c5"
       }
     ]
   },
@@ -3899,13 +4188,13 @@
         "theme": "light",
         "file": "shakespeare_titus-andronicus_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_titus-andronicus_eng/shakespeare_titus-andronicus_eng-light.pdf",
-        "revision": "81de878ded4c58dd886e40a3e5963f62fd4842b8f5ca73b606a999c0de49ab75"
+        "revision": "e5f4f4989561b95284b12031ea69b1f3ebe969ad87025de0620bd3da0b2c75a4"
       },
       {
         "theme": "dark",
         "file": "shakespeare_titus-andronicus_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_titus-andronicus_eng/shakespeare_titus-andronicus_eng-dark.pdf",
-        "revision": "871ac08d39aee0450d689ca8d825cc390cea0562c2243c8319239f85b7649093"
+        "revision": "42633feee4d93ce702427e7f7a5f49fb8b651f451659733d9988c672f38fe8ed"
       }
     ]
   },
@@ -3916,13 +4205,13 @@
         "theme": "light",
         "file": "shakespeare_titus-andronicus_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_titus-andronicus_fra/shakespeare_titus-andronicus_fra-light.pdf",
-        "revision": "d991a41f2b0177d979ea117577ba7e6f6135941b781d0a365ae45e694f57d2ab"
+        "revision": "a17471d276c9b9e5c858e778def9a968b51f4e1a36aca9b2b43325ffc6105f8b"
       },
       {
         "theme": "dark",
         "file": "shakespeare_titus-andronicus_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_titus-andronicus_fra/shakespeare_titus-andronicus_fra-dark.pdf",
-        "revision": "df99b252d99e8af33fa151901fca65d5da57040d41162ca61266078a2e2e8312"
+        "revision": "c6f407dd8fbfb56c244720c6474e086406172ace231297d623c4a361ff8f801a"
       }
     ]
   },
@@ -3933,13 +4222,13 @@
         "theme": "light",
         "file": "shakespeare_troilus-and-cressida_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_troilus-and-cressida_eng/shakespeare_troilus-and-cressida_eng-light.pdf",
-        "revision": "c3d21d44f2daaf629202c05f5cfcdd779488abb1f21b93cadc1743f8c30cba6d"
+        "revision": "1333bc2bfc290e59c9c674a96ee60314b336cc9efa5b55e8fc9fedf9a6c59fae"
       },
       {
         "theme": "dark",
         "file": "shakespeare_troilus-and-cressida_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_troilus-and-cressida_eng/shakespeare_troilus-and-cressida_eng-dark.pdf",
-        "revision": "5bd50599325e57696fd455d22bc278ed9b144b47df0807519b9d2194613f9f36"
+        "revision": "a893076875af7c5be4c47a64048b281b30817039c0b0645dd107112923496019"
       }
     ]
   },
@@ -3950,13 +4239,13 @@
         "theme": "light",
         "file": "shakespeare_troilus-and-cressida_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_troilus-and-cressida_fra/shakespeare_troilus-and-cressida_fra-light.pdf",
-        "revision": "7c72b54dcfdf47f2abb11319b7c70eec1525a4de19bf104a06f4bfde3e67b5c9"
+        "revision": "cdcae0a3adc9adf4369700d3d0de43f6ea5c862ee80a8c49bd1ffe2c32c0bee7"
       },
       {
         "theme": "dark",
         "file": "shakespeare_troilus-and-cressida_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_troilus-and-cressida_fra/shakespeare_troilus-and-cressida_fra-dark.pdf",
-        "revision": "85c05dc2a118c08c2630fdbff87835c9afc91326309163cffe8ad2130b6bcb43"
+        "revision": "1c8d40abb9548d081fb937d6f998b9ad04bfa6451ae5bcebd2e684ec8840527d"
       }
     ]
   },
@@ -3967,13 +4256,13 @@
         "theme": "light",
         "file": "shakespeare_twelfth-night_eng-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_twelfth-night_eng/shakespeare_twelfth-night_eng-light.pdf",
-        "revision": "2cdfe5172e79d71dfcffc5a9f4dcf22a3591c74ed4e45bad3392da2d95be109a"
+        "revision": "5e7516f49cd05ca404b4affbef176eaa3f7b5e4391cebb2b4ceacb3256d19f75"
       },
       {
         "theme": "dark",
         "file": "shakespeare_twelfth-night_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_twelfth-night_eng/shakespeare_twelfth-night_eng-dark.pdf",
-        "revision": "e5dc7253da21c77f9646595c4453fdd2a3b6f2e2981a1cfcb3c065efc37ecfa4"
+        "revision": "919d27bf4ab6c69784a1c8094320ada047e83ac7b545ad1b30b6846157a6bac1"
       }
     ]
   },
@@ -3984,13 +4273,13 @@
         "theme": "light",
         "file": "shakespeare_twelfth-night_fra-light.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_twelfth-night_fra/shakespeare_twelfth-night_fra-light.pdf",
-        "revision": "cb57a2b54da2f1715996f18e92a5f41e0eb3beb013ad30e24b24a2a0deffd42a"
+        "revision": "d19f02bc74aa7ebe295a9139e50670bf3a9ad25ab73776e888911495ecc2dda1"
       },
       {
         "theme": "dark",
         "file": "shakespeare_twelfth-night_fra-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_twelfth-night_fra/shakespeare_twelfth-night_fra-dark.pdf",
-        "revision": "ff85fb9f5397399d93956a96cd12f997e731ccefc7a417af8a3bc4f5c21323dc"
+        "revision": "f3d2a9ecde25234b71ec9d3b1001fd57bdc01f0f95b88196e1b43e1aa1fa112e"
       }
     ]
   },

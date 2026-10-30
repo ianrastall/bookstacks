@@ -90,6 +90,17 @@ The PDF.js distribution, license and upgrade notes are recorded in
 `public/vendor/pdfjs/README.md`. Its upstream documentation is at
 https://mozilla.github.io/pdf.js/getting_started/.
 
+## Catalogue completion, 29 October 2026
+
+The Shakespeare layout update regenerates all 85 current Shakespeare pairs.
+A catalogue audit also found 17 Christie editions without light/dark pairs;
+Ian authorized generating those alongside this update. The publication target
+is complete: all 279 canonical editions have a pair, for 558 PDFs. All pairs
+passed source/PDF checksum, text and pagination validation. The committed
+publication is 891,230,036 PDF bytes, below the configured Pages size budget.
+Generation is an explicit offline
+step and remains separate from website deployment.
+
 ## EPUB follow-up
 
 The EPUB template and first two publications are described in
