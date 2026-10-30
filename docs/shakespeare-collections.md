@@ -46,7 +46,16 @@ backlinks are omitted. Displayed historical wording and transcription
 corrections are retained. The source labels the text proofread, pending a
 second validation; this import is not a fresh scholarly collation of the scans.
 
-The importer verifies the complete literary character sequence, source order,
+Three print pages were also inspected directly. Two transcription defects were
+corrected: `pensée sable` restores the word `irréalisable`, split `irréali-` /
+`sable` across pp. 231–232; eight literal wiki indentation colons before
+`Le cortége jette des fleurs.` are omitted, and that text is encoded as a
+stage direction interrupting the song, as on p. 233. The source record includes
+the original and corrected readings and checksums of the three saved scan pages.
+These are targeted collations, not a complete scan-by-scan review of the play.
+
+The importer verifies the complete literary character sequence after those
+two explicit corrections, source order,
 five acts with 5/5/6/3/4 scenes, all 835 source speaker labels, seven verse
 passages, prologue, epilogue and three linked notes. French scene divisions
 are retained even where they differ from English. XML schema and project
@@ -100,8 +109,8 @@ translator editor elements, retains coauthors, prevents broken cover words and
 prints source URLs without French typographic spacing inside the address.
 These changes apply to future explicit PDF exports; existing PDFs are preserved.
 
-The PDF publication is committed in `ianrastall/bookstacks-pdf` at `452b24d`.
-Both hosted PDF checksums were verified after its successful Pages deployment.
+The PDF publication is maintained in `ianrastall/bookstacks-pdf`.
+Hosted PDF checksums are verified after its successful Pages deployment.
 The matching website index adds only this edition. Unrelated local PDF edits
 were excluded; publication validation checked their committed originals.
 

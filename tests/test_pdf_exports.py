@@ -24,6 +24,14 @@ class ScarletExportTests(unittest.TestCase):
         self.assertIn(r'\hyphenpenalty=10000', exports.cover_tex(edition))
         self.assertIn(r'\mbox{Parents}', exports.cover_tex(edition))
         self.assertIn(r'\url{https://fr.wikisource.org/?oldid=15966643}', exports.publication_page_tex(edition))
+        body = exports.LatexRenderer(edition).render()
+        self.assertIn('irréalisable', body)
+        self.assertNotIn('::::::::', body)
+        before = body.index('En ravissant leurs sens')
+        direction = body.index('Le cortége jette des fleurs.')
+        after = body.index('Que pas un ange de l’azur')
+        self.assertLess(before, direction)
+        self.assertLess(direction, after)
 
     def test_nested_closing_verse_is_preserved(self):
         body = exports.LatexRenderer(self.edition).render()

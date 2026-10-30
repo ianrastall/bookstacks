@@ -32,6 +32,10 @@ it('retains the Hugo Kinsmen edition hierarchy, verse, collaborators and linked 
   const epilogue=edition.units.find(unit=>unit.path==='epilogue-01')!.html;
   expect(epilogue).toContain('tei-note-ref');
   expect(epilogue).toContain('La légende de');
+  expect(edition.units.find(unit=>unit.path==='prologue-01')!.html).toContain('irréalisable');
+  const opening=edition.units.find(unit=>unit.path==='act-1/scene-1')!.html;
+  expect(opening).not.toContain('::::::::');
+  expect(opening).toContain('Le cortége jette des fleurs.');
 });
 it('exposes translation credits and source references from older TEI headers',()=>{
   const authors=getLibrary().authors;

@@ -56,6 +56,24 @@ def clean_source(root):
     return root
 
 
+def apply_reviewed_corrections(roots):
+    """Two corrections collated with printed pages 231–233; no global rewrites."""
+    restored = removed = 0
+    for paragraph in roots[0].xpath('./p'):
+        if not text(paragraph).startswith('Une pièce nouvelle et une virginité'):
+            continue
+        for marker in paragraph.iter():
+            if marker.tail and marker.tail.startswith('sable —'):
+                marker.tail = 'irréali' + marker.tail
+                restored += 1
+    for marker in roots[0].xpath('.//div[@class="poem"]//span'):
+        if marker.tail and marker.tail.startswith(':::::::: Le cortége jette des fleurs.'):
+            marker.tail = marker.tail.removeprefix(':::::::: ')
+            removed += 1
+    if (restored, removed) != (1, 1):
+        raise ValueError(f'Reviewed correction boundaries changed: {restored}, {removed}')
+
+
 class Importer:
     def __init__(self, record):
         self.record = record
@@ -131,7 +149,8 @@ class Importer:
             p = tei('p'); p.append(tei('ref', label, target=href, type='source')); source.append(p)
         desc.append(source); header.append(desc)
         encoding = tei('encodingDesc'); project = tei('projectDesc')
-        project.append(tei('p', 'Scan-backed text containers converted in source order. All literary characters are verified against the snapshot after whitespace normalization. Acts, scenes, speaker labels, stage directions, verse line breaks, inline typography, title/cast matter, prologue, epilogue and translator notes are retained. Decorative images, page markers and website controls are omitted. No alignment with another language is imposed.'))
+        project.append(tei('p', 'Scan-backed text containers converted in source order. All literary characters are verified against the snapshot after whitespace normalization and the two documented scan-collated corrections below. Acts, scenes, speaker labels, stage directions, verse line breaks, inline typography, title/cast matter, prologue, epilogue and translator notes are retained. Decorative images, page markers and website controls are omitted. No alignment with another language is imposed.'))
+        project.append(tei('p', 'Collated corrections: the prologue restores irréalisable from irréali- at the end of printed page 231 and sable at the start of page 232; the transcription had lost the first part. On page 233, Le cortége jette des fleurs. is a stage direction within the song; eight literal Wikisource indentation colons are omitted and the direction is encoded as stage. No literary wording is otherwise changed.'))
         encoding.append(project); header.append(encoding)
         profile = tei('profileDesc'); usage = tei('langUsage'); usage.append(tei('language', 'French', ident=r['language'])); profile.append(usage); header.append(profile)
         revision = tei('revisionDesc'); revision.append(tei('change', 'Imported from the recorded Wikisource snapshot; verified complete source text, hierarchy and note targets.', when=r['import_date'], who='#bookstacks-encoding')); header.append(revision)
@@ -150,12 +169,21 @@ class Importer:
         group = self.node('lg')
         # Preserve all inline markup while splitting at explicit source breaks.
         line = self.node('l')
+        def append_line():
+            if not text(line): return
+            if text(line) == 'Le cortége jette des fleurs.':
+                direction = self.node('stage', type='business')
+                direction.text = line.text
+                for child in list(line): direction.append(child)
+                group.append(direction)
+            else:
+                group.append(line)
         def walk(element, output):
             nonlocal line
             append_text(output, element.text)
             for child in element:
                 if etree.QName(child).localname == 'lb':
-                    if text(line): group.append(line)
+                    append_line()
                     line = self.node('l'); output = line
                 else:
                     # Source poem typography is inline; keep nested emphasis.
@@ -166,7 +194,7 @@ class Importer:
         for p in source:
             if p.tag != 'p': raise ValueError('Unexpected poem wrapper')
             scratch = tei('seg'); self.inline(p, scratch); walk(scratch, line)
-            if text(line): group.append(line)
+            append_line()
             line = self.node('l')
         target.append(group)
 
@@ -251,9 +279,13 @@ def main():
     for record in records:
         raw = gzip.decompress((ROOT / record['snapshot']).read_bytes())
         if hashlib.sha256(raw).hexdigest() != record['sha256']: raise ValueError('Snapshot hash mismatch')
+        for scan in record.get('collation_scans', []):
+            if hashlib.sha256((ROOT / scan['snapshot']).read_bytes()).hexdigest() != scan['sha256']:
+                raise ValueError(f'Collation scan hash mismatch: {scan["printed_page"]}')
         source = html.fromstring(raw.decode('utf-8'))
         roots = [clean_source(root) for root in source.xpath('//div[@class="prp-pages-output"]')]
         if len(roots) != 2: raise ValueError('Expected play and note containers')
+        apply_reviewed_corrections(roots)
         document = Importer(record).build(roots)
         acts = document.findall('.//{' + TEI + '}div[@type="act"]')
         scenes = [len(a.findall('./{' + TEI + '}div[@type="scene"]')) for a in acts]

@@ -53,7 +53,8 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Scan-backed text containers converted in source order. All literary characters are verified against the snapshot after whitespace normalization. Acts, scenes, speaker labels, stage directions, verse line breaks, inline typography, title/cast matter, prologue, epilogue and translator notes are retained. Decorative images, page markers and website controls are omitted. No alignment with another language is imposed.</p>
+        <p>Scan-backed text containers converted in source order. All literary characters are verified against the snapshot after whitespace normalization and the two documented scan-collated corrections below. Acts, scenes, speaker labels, stage directions, verse line breaks, inline typography, title/cast matter, prologue, epilogue and translator notes are retained. Decorative images, page markers and website controls are omitted. No alignment with another language is imposed.</p>
+        <p>Collated corrections: the prologue restores irréalisable from irréali- at the end of printed page 231 and sable at the start of page 232; the transcription had lost the first part. On page 233, Le cortége jette des fleurs. is a stage direction within the song; eight literal Wikisource indentation colons are omitted and the direction is encoded as stage. No literary wording is otherwise changed.</p>
       </projectDesc>
     </encodingDesc>
     <profileDesc>
@@ -223,7 +224,7 @@ le premier son qu’entendra cet enfant est le bruit du sifflet,
 — loin de moi l’absurde fumier de cet écrivain — qui flétrit
 mes lauriers et ravale mes œuvres fameuses — au-dessous
 de <hi rend="italic">Robin Hood</hi> ! » C’est avec cette crainte que nous
-paraissons. — À dire vrai, ce serait une pensée  <seg/>sable — et trop ambitieuse que d’aspirer à l’égaler. — Faibles comme nous le sommes, ayant presque perdu le souffle à nager — dans cette eau profonde, tendez-nous seulement — vos mains secourables, et nous <seg rend="coquille">louvoierons</seg>, — et nous tâcherons de nous sauver. Vous entendrez — des scènes qui, toutes inférieures qu’elles sont à l’art de Chaucer, sembleront encore — mériter un déplacement de deux heures. Paix à ses os ! — Joie à vous !… Si cette pièce ne chasse pas — pour un moment l’ennui de chez nous, nous considérerons — nos insuccès comme tellement accablants que nous devrons renoncer.
+paraissons. — À dire vrai, ce serait une pensée  <seg/>irréalisable — et trop ambitieuse que d’aspirer à l’égaler. — Faibles comme nous le sommes, ayant presque perdu le souffle à nager — dans cette eau profonde, tendez-nous seulement — vos mains secourables, et nous <seg rend="coquille">louvoierons</seg>, — et nous tâcherons de nous sauver. Vous entendrez — des scènes qui, toutes inférieures qu’elles sont à l’art de Chaucer, sembleront encore — mériter un déplacement de deux heures. Paix à ses os ! — Joie à vous !… Si cette pièce ne chasse pas — pour un moment l’ennui de chez nous, nous considérerons — nos insuccès comme tellement accablants que nous devrons renoncer.
 </p>
         <p xml:id="fra-p-000031">Fanfare.</p>
       </div>
@@ -265,8 +266,8 @@ Vous tous, enfants suaves de la chère nature,</l>
 <seg/>Étendez-vous aux pieds des fiancés,</l>
             <l xml:id="fra-l-000018">
 <seg/>En ravissant leurs sens !</l>
-            <l xml:id="fra-l-000019">
-<seg/>:::::::: Le cortége jette des fleurs.</l>
+            <stage type="business" xml:id="fra-stage-000003">
+<seg/>Le cortége jette des fleurs.</stage>
             <l xml:id="fra-l-000020">
 Que pas un ange de l’azur,</l>
             <l xml:id="fra-l-000021">
@@ -287,17 +288,17 @@ Ne viennent pas se percher ni chanter sur notre maison nuptiale,</l>
 <seg/>Mais s’envolent loin d’ici.
 </l>
           </lg>
-          <stage type="business" xml:id="fra-stage-000003">Entrent <seg rend="sc">trois reines</seg>, en noir, voiles souillés, couronnes impériales. La première reine se prosterne aux pieds de <seg rend="sc">Thésée</seg> ; la seconde aux pieds d’<seg rend="sc">Hippolyte</seg> ; la troisième devant <seg rend="sc">Émilie</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000004">Entrent <seg rend="sc">trois reines</seg>, en noir, voiles souillés, couronnes impériales. La première reine se prosterne aux pieds de <seg rend="sc">Thésée</seg> ; la seconde aux pieds d’<seg rend="sc">Hippolyte</seg> ; la troisième devant <seg rend="sc">Émilie</seg>.</stage>
           <sp xml:id="fra-sp-000001">
             <speaker>première reine</speaker>
-            <stage type="business" xml:id="fra-stage-000004">, à Thésée.</stage>
+            <stage type="business" xml:id="fra-stage-000005">, à Thésée.</stage>
             <p xml:id="fra-p-000032">— Au nom de la pitié et de la vraie noblesse, — écoutez-moi,
 exaucez-moi.
 </p>
           </sp>
           <sp xml:id="fra-sp-000002">
             <speaker>seconde reine</speaker>
-            <stage type="business" xml:id="fra-stage-000005">, à Hippolyte.</stage>
+            <stage type="business" xml:id="fra-stage-000006">, à Hippolyte.</stage>
             <p xml:id="fra-p-000033">Au nom de votre mère, — et si vous désirez que de vos
 entrailles fécondes naisse une belle famille, — écoutez-moi,
 exaucez-moi.
@@ -305,7 +306,7 @@ exaucez-moi.
           </sp>
           <sp xml:id="fra-sp-000003">
             <speaker>troisième reine</speaker>
-            <stage type="business" xml:id="fra-stage-000006">, à Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000007">, à Émilie.</stage>
             <p xml:id="fra-p-000034">— Pour l’amour de celui que Jupiter a prédestiné — à
 l’honneur de votre lit, au nom — de la virginité pure, plaidez
 pour nous — et pour nos détresses. Cette bonne action —
@@ -385,7 +386,7 @@ et faire surgir — en vous notre sauveur !
 la Bellone casquée, — et priez pour moi, votre soldat… Je
 suis troublé !
 </p>
-            <stage type="business" xml:id="fra-stage-000007">Il s’écarte.</stage>
+            <stage type="business" xml:id="fra-stage-000008">Il s’écarte.</stage>
           </sp>
           <sp xml:id="fra-sp-000012">
             <speaker>deuxième reine.</speaker>
@@ -424,7 +425,7 @@ Laissons-le réfléchir ; — je vais lui parler tout à l’heure.
           </sp>
           <sp xml:id="fra-sp-000014">
             <speaker>TROISIÈME REINE</speaker>
-            <stage type="business" xml:id="fra-stage-000008">, à Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000009">, à Émilie.</stage>
             <p xml:id="fra-p-000045">Oh ! ma prière était — restée glacée, mais, dissoute enfin
 au feu de la douleur, — elle fond en larmes : ainsi le chagrin
 auquel l’expression manque — éclate en sanglots plus
@@ -575,7 +576,7 @@ me suis tiré — ou que j’ai à affronter dans l’avenir.
             <p xml:id="fra-p-000063">C’est proclamer plus haut encore — que notre cause
 sera abandonnée.
 </p>
-            <stage type="business" xml:id="fra-stage-000009">Montrant Hippolyte.</stage>
+            <stage type="business" xml:id="fra-stage-000010">Montrant Hippolyte.</stage>
             <p xml:id="fra-p-000064">Quand ses bras, — capables d’enchaîner Jupiter loin du
 synode des dieux, t’enlaceront — à la clarté tutélaire de
 la lune, oh ! quand — les cerises jumelles de sa bouche laisseront
@@ -592,7 +593,7 @@ banquet.
           </sp>
           <sp xml:id="fra-sp-000033">
             <speaker>HIPPOLYTE</speaker>
-            <stage type="business" xml:id="fra-stage-000010">, s’agenouillant, à Thésée.</stage>
+            <stage type="business" xml:id="fra-stage-000011">, s’agenouillant, à Thésée.</stage>
             <p xml:id="fra-p-000065">Bien qu’il soit peu probable que — vous éprouviez de
 tels transports, vous serez peut-être contrarié — que j’appuie
 une pareille requête ; mais je crois — que, si, par une
@@ -610,13 +611,13 @@ rendre service à ces pauvres reines.
           </sp>
           <sp xml:id="fra-sp-000034">
             <speaker>TOUTES LES REINES</speaker>
-            <stage type="business" xml:id="fra-stage-000011">, à Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000012">, à Émilie.</stage>
             <p xml:id="fra-p-000066">Oh ! vite à l’aide ! — notre cause réclame votre génuflexion.
 </p>
           </sp>
           <sp xml:id="fra-sp-000035">
             <speaker>ÉMILIE</speaker>
-            <stage type="business" xml:id="fra-stage-000012">, à Thésée.</stage>
+            <stage type="business" xml:id="fra-stage-000013">, à Thésée.</stage>
             <p xml:id="fra-p-000067">Si vous n’accordez pas à ma sœur — sa requête avec le
 même zèle, — le même empressement, la même générosité
 qu’elle — met à vous l’adresser, jamais à l’avenir je n’aurai
@@ -632,26 +633,26 @@ de faire — ce que vous me demandez à genoux. Pirithoüs,
 succès et pour mon retour ; n’omettez rien — dans cette cérémonie
 urgente. Reines, — suivez votre soldat.
 </p>
-            <stage type="business" xml:id="fra-stage-000013">À Artésius.</stage>
+            <stage type="business" xml:id="fra-stage-000014">À Artésius.</stage>
             <p xml:id="fra-p-000069">Vous, partez, comme je vous l’ai dit, — et venez nous
 rejoindre sur la plage d’Aulis avec — les forces que vous
 pourrez lever ; nous trouverons là — des troupes en réserve
 pour une affaire — plus grave.
 </p>
-            <stage type="business" xml:id="fra-stage-000014">Sort Artêsius.</stage>
-            <stage type="business" xml:id="fra-stage-000015">À Hippolyte.</stage>
+            <stage type="business" xml:id="fra-stage-000015">Sort Artêsius.</stage>
+            <stage type="business" xml:id="fra-stage-000016">À Hippolyte.</stage>
             <p xml:id="fra-p-000070">Puisque notre mot d’ordre est la hâte, — j’imprime ce
 baiser sur ta lèvre groseille ; — ma mie, garde-le comme un
 gage de moi.
 </p>
-            <stage type="business" xml:id="fra-stage-000016">Au cortége.</stage>
+            <stage type="business" xml:id="fra-stage-000017">Au cortége.</stage>
             <p xml:id="fra-p-000071">Mettez-vous en marche ; — je veux vous voir partir.
 </p>
-            <stage type="business" xml:id="fra-stage-000017">Tous se dirigent vers le temple, excepté <seg rend="sc">Thésée</seg>, <seg rend="sc">Pirithoüs</seg> et les <seg rend="sc">trois reines</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000018">Tous se dirigent vers le temple, excepté <seg rend="sc">Thésée</seg>, <seg rend="sc">Pirithoüs</seg> et les <seg rend="sc">trois reines</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000037">
             <speaker>THÈSÈE</speaker>
-            <stage type="business" xml:id="fra-stage-000018">, reprenant.</stage>
+            <stage type="business" xml:id="fra-stage-000019">, reprenant.</stage>
             <p xml:id="fra-p-000072">— Adieu, ma charmante sœur ! Pirithoüs, — fais  <seg/>célébrer scrupuleusement la fête ; qu’on ne l’écourte pas d’une
 heure.
 </p>
@@ -696,13 +697,13 @@ fois subjugués par les sens, — nous perdons notre dignité
 humaine. Courage, mesdames ! — Nous allons chercher
 pour vous des consolations !
 </p>
-            <stage type="business" xml:id="fra-stage-000019">Fanfares. Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000020">Fanfares. Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="2" xml:id="fra-div-000006">
           <head>SCÈNE II.</head>
-          <stage type="business" xml:id="fra-stage-000020">[Thèbes. Un palais.]</stage>
-          <stage type="business" xml:id="fra-stage-000021">Entrent <seg rend="sc">Palémon</seg> et <seg rend="sc">Arcite</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000021">[Thèbes. Un palais.]</stage>
+          <stage type="business" xml:id="fra-stage-000022">Entrent <seg rend="sc">Palémon</seg> et <seg rend="sc">Arcite</seg>.</stage>
           <sp xml:id="fra-sp-000044">
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000079">— Cher Palémon, toi qui m’es plus cher par l’affection
@@ -814,7 +815,7 @@ forfaits ont assourdi — les oreilles de la justice céleste : les
 cris des veuves — leur redescendent à la gorge, sans
 obtenir — des dieux l’audience qui leur est due… Valérius !
 </p>
-            <stage type="business" xml:id="fra-stage-000022"><seg rend="sc">Valérius</seg> entre.</stage>
+            <stage type="business" xml:id="fra-stage-000023"><seg rend="sc">Valérius</seg> entre.</stage>
           </sp>
           <sp xml:id="fra-sp-000054">
             <speaker>valérius.</speaker>
@@ -882,13 +883,13 @@ sur qui — doit tomber le coup fatal ?
 — quand nous devrons tout savoir ; et marchons — au signal
 de notre destinée.
 </p>
-            <stage type="business" xml:id="fra-stage-000023">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000024">Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="3" xml:id="fra-div-000007">
           <head>SCÈNE III.</head>
-          <stage type="business" xml:id="fra-stage-000024">[Devant une porte d’Athènes.]</stage>
-          <stage type="business" xml:id="fra-stage-000025">Entrent <seg rend="sc">Pirithoüs</seg>, <seg rend="sc">Hippolyte</seg> et <seg rend="sc">Émilie</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000025">[Devant une porte d’Athènes.]</stage>
+          <stage type="business" xml:id="fra-stage-000026">Entrent <seg rend="sc">Pirithoüs</seg>, <seg rend="sc">Hippolyte</seg> et <seg rend="sc">Émilie</seg>.</stage>
           <sp xml:id="fra-sp-000063">
             <speaker>pirithoüs.</speaker>
             <p xml:id="fra-p-000098">Pas plus loin !
@@ -909,7 +910,7 @@ bon capitaine.
             <p xml:id="fra-p-000100">Bien que je sache — que son océan n’a pas besoin de
 ma pauvre goutte, je veux — qu’elle lui porte son tribut.
 </p>
-            <stage type="business" xml:id="fra-stage-000026">À Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000027">À Émilie.</stage>
             <p xml:id="fra-p-000101">Ma précieuse enfant, — que ces sentiments exquis, que
 le ciel infuse — à ses créatures les mieux trempées, continuent
 de trôner — dans votre cher cœur.
@@ -941,7 +942,7 @@ femmelette, nous — vous retiendrions ici à jamais.
             <p xml:id="fra-p-000104">Que la paix soit avec vous, — comme je vole à cette
 guerre qui alors n’aura plus — rien à réclamer !
 </p>
-            <stage type="business" xml:id="fra-stage-000027">Il sort.</stage>
+            <stage type="business" xml:id="fra-stage-000028">Il sort.</stage>
           </sp>
           <sp xml:id="fra-sp-000069">
             <speaker>èmilie.</speaker>
@@ -1050,13 +1051,13 @@ cœur.
             <p xml:id="fra-p-000113">Je ne suis pas — contre votre croyance ; mais je garde la
 mienne.
 </p>
-            <stage type="business" xml:id="fra-stage-000028">Elles sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000029">Elles sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="4" xml:id="fra-div-000008">
           <head>SCÈNE IV.</head>
-          <stage type="business" xml:id="fra-stage-000029">[Le champ de bataille devant Thèbes.]</stage>
-          <stage type="business" xml:id="fra-stage-000030">
+          <stage type="business" xml:id="fra-stage-000030">[Le champ de bataille devant Thèbes.]</stage>
+          <stage type="business" xml:id="fra-stage-000031">
             <seg rend="alinea">On sonne la charge derrière la scène ; puis une retraite. Fanfare, Alors entre <seg rend="sc">Thésée</seg> vainqueur ; <seg rend="sc">les trois reines</seg> vont à sa rencontre, et se prosternent devant lui la face contre terre. <seg rend="sc">Arcite</seg> et <seg rend="sc">Palémon</seg> sont parmi les prisonniers.</seg>
           </stage>
           <sp xml:id="fra-sp-000078">
@@ -1088,7 +1089,7 @@ réintégrer — dans vos dignités et achever l’œuvre — que
 notre hâte laisse imparfaite… Sur ce, adieu, — et que les
 yeux favorables du ciel se fixent sur vous !
 </p>
-            <stage type="business" xml:id="fra-stage-000031">Les reines sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000032">Les reines sortent.</stage>
             <p xml:id="fra-p-000118">Quels sont ces prisonniers ?
 </p>
           </sp>
@@ -1147,14 +1148,14 @@ connu les alarmes, les violences, les exigences de l’amitié,
 maîtresse, — le désir de la liberté, devenu fébrile et furieux,
 — m’a assigné pour but un idéal que la nature ne peut  <seg/>atteindre — sans bien des sacrifices, sans bien des défaillances de volonté, — sans bien des efforts de raison… Pour l’amour de moi, — au nom du grand Apollon, que nos meilleurs médecins — déploient leur plus profonde science ! Entrons dans la ville ; — puis, quand nous aurons groupé tout ce qui est dispersé, nous volerons à Athènes — en avant de notre armée.
 </p>
-            <stage type="business" xml:id="fra-stage-000032">Fanfare. Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000033">Fanfare. Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="5" xml:id="fra-div-000009">
           <head>SCÈNE V.</head>
-          <stage type="business" xml:id="fra-stage-000033">[Une plaine près de Thèbes.]</stage>
-          <stage type="business" xml:id="fra-stage-000034">Entrent <seg rend="sc">les trois reines</seg>, avec les cercueils de leurs royaux chevaliers, en solennité funèbre.</stage>
-          <stage type="business" xml:id="fra-stage-000035">CHANT.</stage>
+          <stage type="business" xml:id="fra-stage-000034">[Une plaine près de Thèbes.]</stage>
+          <stage type="business" xml:id="fra-stage-000035">Entrent <seg rend="sc">les trois reines</seg>, avec les cercueils de leurs royaux chevaliers, en solennité funèbre.</stage>
+          <stage type="business" xml:id="fra-stage-000036">CHANT.</stage>
           <lg xml:id="fra-lg-000003">
             <l xml:id="fra-l-000031">Apportez les urnes et les parfums.</l>
             <l xml:id="fra-l-000032">
@@ -1198,7 +1199,7 @@ mille chemins différents pour un même but inéluctable. <seg/>
             <p xml:id="fra-p-000128">— Ce monde est une cité pleine de rues divergentes ; —
 et la mort est la place publique où chacune se rencontre.
 </p>
-            <stage type="business" xml:id="fra-stage-000036">Elles sortent par divers côtés.</stage>
+            <stage type="business" xml:id="fra-stage-000037">Elles sortent par divers côtés.</stage>
           </sp>
         </div>
       </div>
@@ -1206,8 +1207,8 @@ et la mort est la place publique où chacune se rencontre.
         <head>ACTE II</head>
         <div type="scene" n="1" xml:id="fra-div-000011">
           <head>SCÈNE I.</head>
-          <stage type="business" xml:id="fra-stage-000037">[Athènes Un jardin que domine la fenêtre d’une prison.]</stage>
-          <stage type="business" xml:id="fra-stage-000038">Entrent <seg rend="sc">le geôlier</seg> et <seg rend="sc">le galant</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000038">[Athènes Un jardin que domine la fenêtre d’une prison.]</stage>
+          <stage type="business" xml:id="fra-stage-000039">Entrent <seg rend="sc">le geôlier</seg> et <seg rend="sc">le galant</seg>.</stage>
           <sp xml:id="fra-sp-000092">
             <speaker>le geôlier.</speaker>
             <p xml:id="fra-p-000129">Je ne puis me déposséder que de peu, ma vie durant ;
@@ -1239,7 +1240,7 @@ sera fait, je donne mon consentement.
             <speaker>le galant.</speaker>
             <p xml:id="fra-p-000132">Je l’ai, monsieur. <seg/>
 </p>
-            <stage type="business" xml:id="fra-stage-000039">Entre <seg rend="sc">la fille du geôlier</seg>, traînant des nattes de jonc.</stage>
+            <stage type="business" xml:id="fra-stage-000040">Entre <seg rend="sc">la fille du geôlier</seg>, traînant des nattes de jonc.</stage>
             <p xml:id="fra-p-000133">La voici qui vient.
 </p>
           </sp>
@@ -1318,7 +1319,7 @@ pour être ainsi consolée.
             <p xml:id="fra-p-000143">Le duc en personne est venu pendant la nuit secrètement,
 ainsi qu’eux-mêmes. Pour quelle raison, je l’ignore.
 </p>
-            <stage type="business" xml:id="fra-stage-000040"><seg rend="sc">Palémon</seg> et <seg rend="sc">Arcite</seg> paraissent à la fenêtre de la prison <seg>(<ref target="#OCSH_16_bas_14">14</ref>)</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000041"><seg rend="sc">Palémon</seg> et <seg rend="sc">Arcite</seg> paraissent à la fenêtre de la prison <seg>(<ref target="#OCSH_16_bas_14">14</ref>)</seg>.</stage>
             <p xml:id="fra-p-000144">Tenez, les voilà. C’est Arcite qui regarde dehors.
 </p>
           </sp>
@@ -1340,7 +1341,7 @@ vue !
             <p xml:id="fra-p-000147">C’est une fête de les regarder. Seigneur ! quelle différence
 entre les hommes !
 </p>
-            <stage type="business" xml:id="fra-stage-000041">Le geôlier, sa fille et le galant sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000042">Le geôlier, sa fille et le galant sortent.</stage>
           </sp>
           <sp xml:id="fra-sp-000109">
             <speaker>palémon.</speaker>
@@ -1534,7 +1535,7 @@ jamais. <seg/>
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000165">Avant notre mort, c’est impossible !
 </p>
-            <stage type="business" xml:id="fra-stage-000042"><seg rend="sc">Émilie</seg> et sa <seg rend="sc">suivante</seg> entrent dans le jardin.</stage>
+            <stage type="business" xml:id="fra-stage-000043"><seg rend="sc">Émilie</seg> et sa <seg rend="sc">suivante</seg> entrent dans le jardin.</stage>
             <p xml:id="fra-p-000166">— Et, après la mort, nos âmes seront admises — parmi
 celles qui aiment éternellement. Continuez, seigneur !
 </p>
@@ -1558,7 +1559,7 @@ lui-même : n’y avait-il pas alors assez de jeunes filles ?
           </sp>
           <sp xml:id="fra-sp-000130">
             <speaker>ARCITE</speaker>
-            <stage type="business" xml:id="fra-stage-000043">, à Palémon.</stage>
+            <stage type="business" xml:id="fra-stage-000044">, à Palémon.</stage>
             <p xml:id="fra-p-000170">— De grâce, poursuivez.
 </p>
           </sp>
@@ -1569,7 +1570,7 @@ lui-même : n’y avait-il pas alors assez de jeunes filles ?
           </sp>
           <sp xml:id="fra-sp-000132">
             <speaker>ÉMILIE</speaker>
-            <stage type="business" xml:id="fra-stage-000044">, à la suivante.</stage>
+            <stage type="business" xml:id="fra-stage-000045">, à la suivante.</stage>
             <p xml:id="fra-p-000172">Peut-être avaient-elles toutes le cœur dur.
 </p>
           </sp>
@@ -1606,7 +1607,7 @@ pourtant !
           </sp>
           <sp xml:id="fra-sp-000139">
             <speaker>ARCITE</speaker>
-            <stage type="business" xml:id="fra-stage-000045">, à Palémon.</stage>
+            <stage type="business" xml:id="fra-stage-000046">, à Palémon.</stage>
             <p xml:id="fra-p-000179">Voulez-vous continuer, cousin ?
 </p>
           </sp>
@@ -1635,7 +1636,7 @@ celles-ci. — C’est une jolie couleur : cela ne ferait-il pas
           </sp>
           <sp xml:id="fra-sp-000144">
             <speaker>ARCITE</speaker>
-            <stage type="business" xml:id="fra-stage-000046">, à Palémon.</stage>
+            <stage type="business" xml:id="fra-stage-000047">, à Palémon.</stage>
             <p xml:id="fra-p-000184">— Cousin ! cousin ! Qu’avez-vous, seigneur ? Eh bien,
 Palémon ?
 </p>
@@ -1667,7 +1668,7 @@ Palémon ?
           </sp>
           <sp xml:id="fra-sp-000150">
             <speaker>ÉMILIE</speaker>
-            <stage type="business" xml:id="fra-stage-000047">, à la suivante.</stage>
+            <stage type="business" xml:id="fra-stage-000048">, à la suivante.</stage>
             <p xml:id="fra-p-000190">De toutes les fleurs, — il me semble que la rose est la
 plus belle.
 </p>
@@ -1701,7 +1702,7 @@ honneur, répugnerait — à prendre exemple sur elle.
           </sp>
           <sp xml:id="fra-sp-000155">
             <speaker>ARCITE</speaker>
-            <stage type="business" xml:id="fra-stage-000048">, à Palémon.</stage>
+            <stage type="business" xml:id="fra-stage-000049">, à Palémon.</stage>
             <p xml:id="fra-p-000195">— Elle est merveilleusement belle !
 </p>
           </sp>
@@ -1736,7 +1737,7 @@ verrons à quel point l’art peut approcher de ces couleurs.
             <speaker>émilie.</speaker>
             <p xml:id="fra-p-000201">Eh bien, fais un accord.
 </p>
-            <stage type="business" xml:id="fra-stage-000049">Elle sort avec la suivante.</stage>
+            <stage type="business" xml:id="fra-stage-000050">Elle sort avec la suivante.</stage>
           </sp>
           <sp xml:id="fra-sp-000162">
             <speaker>palémon.</speaker>
@@ -1963,7 +1964,7 @@ faible. — Mettre ma tête à cette fenêtre ! J’y ferai passer tout
 mon corps, — et je sauterai dans le jardin, la première fois
 que je la verrai, — et je tomberai dans ses bras pour t’exaspérer.
 </p>
-            <stage type="business" xml:id="fra-stage-000050">Entre <seg rend="sc">le geôlier</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000051">Entre <seg rend="sc">le geôlier</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000198">
             <speaker>palémon.</speaker>
@@ -2002,7 +2003,7 @@ près du duc. — Pourquoi ? je ne le sais pas encore.
             <p xml:id="fra-p-000244">— Prince Palémon, je dois pour quelque temps vous
 enlever — la compagnie de votre beau cousin.
 </p>
-            <stage type="business" xml:id="fra-stage-000051">Il sort avec Arcite.</stage>
+            <stage type="business" xml:id="fra-stage-000052">Il sort avec Arcite.</stage>
           </sp>
           <sp xml:id="fra-sp-000205">
             <speaker>palémon.</speaker>
@@ -2025,7 +2026,7 @@ pas céleste, je la ferais, du moins, — approcher tellement
 des divinités qu’elles en seraient jalouses ; — et alors
 je suis sûr qu’elle m’aimerait.
 </p>
-            <stage type="business" xml:id="fra-stage-000052">Entre <seg rend="sc">le geôlier</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000053">Entre <seg rend="sc">le geôlier</seg>.</stage>
             <p xml:id="fra-p-000246">Eh bien, gardien ? — où est Arcite ?
 </p>
           </sp>
@@ -2140,13 +2141,13 @@ te heurter !… Oh ! ma dame, — si jamais tu as senti ce que
 c’est qu’un chagrin, — songe combien je souffre. Allons,
 qu’on m’enterre à présent.
 </p>
-            <stage type="business" xml:id="fra-stage-000053">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000054">Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="2" xml:id="fra-div-000012">
           <head>SCÈNE II.</head>
-          <stage type="business" xml:id="fra-stage-000054">[À travers champs.]</stage>
-          <stage type="business" xml:id="fra-stage-000055">Entre <seg rend="sc">Arcite</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000055">[À travers champs.]</stage>
+          <stage type="business" xml:id="fra-stage-000056">Entre <seg rend="sc">Arcite</seg>.</stage>
           <sp xml:id="fra-sp-000224">
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000265">— Banni du royaume ! c’est un bienfait, — une grâce
@@ -2171,8 +2172,8 @@ sauvera, — ou consommera ma perte ; des deux manières,
 je suis satisfait : — je la verrai, je l’approcherai, ou je cesserai
 d’être.
 </p>
-            <stage type="business" xml:id="fra-stage-000056">Il se met à l’écart.</stage>
-            <stage type="business" xml:id="fra-stage-000057">Entrent <seg rend="sc">quatre campagnards</seg> ; le premier qui paraît est couronné
+            <stage type="business" xml:id="fra-stage-000057">Il se met à l’écart.</stage>
+            <stage type="business" xml:id="fra-stage-000058">Entrent <seg rend="sc">quatre campagnards</seg> ; le premier qui paraît est couronné
 de fleurs.</stage>
           </sp>
           <sp xml:id="fra-sp-000225">
@@ -2288,7 +2289,7 @@ notre représentation. En avant, enfants, et ferme !
           </sp>
           <sp xml:id="fra-sp-000243">
             <speaker>ARCITE</speaker>
-            <stage type="business" xml:id="fra-stage-000058">, s’avançant.</stage>
+            <stage type="business" xml:id="fra-stage-000059">, s’avançant.</stage>
             <p xml:id="fra-p-000284">— Permettez, mes honnêtes amis !… Où allez-vous, je
 vous prie ?
 </p>
@@ -2362,11 +2363,11 @@ pour ça.
 aux pruneaux ! fi donc ! — Lui, lutter ! Il est bon à rôtir des
 œufs. Allons, partons, enfants !
 </p>
-            <stage type="business" xml:id="fra-stage-000059">Les campagnards sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000060">Les campagnards sortent.</stage>
           </sp>
           <sp xml:id="fra-sp-000257">
             <speaker>ARCITE</speaker>
-            <stage type="business" xml:id="fra-stage-000060">, seul.</stage>
+            <stage type="business" xml:id="fra-stage-000061">, seul.</stage>
             <p xml:id="fra-p-000298">— Voici une occasion qui s’offre — et que je n’eusse pas
 osé souhaiter. J’ai été exercé à la lutte ; — les meilleurs juges
 m’y trouvent excellent ; et, à la course, — moins rapide
@@ -2377,13 +2378,13 @@ sera pas ceint de couronnes, — et si le bonheur ne m’élèvera
 pas jusqu’à une région — où je pourrai vivre sous ses
 yeux ?
 </p>
-            <stage type="business" xml:id="fra-stage-000061">Il sort.</stage>
+            <stage type="business" xml:id="fra-stage-000062">Il sort.</stage>
           </sp>
         </div>
         <div type="scene" n="3" xml:id="fra-div-000013">
           <head>SCÈNE III.</head>
-          <stage type="business" xml:id="fra-stage-000062">[Athènes La prison.]</stage>
-          <stage type="business" xml:id="fra-stage-000063">Entre <seg rend="sc">la fille ou geôlier</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000063">[Athènes La prison.]</stage>
+          <stage type="business" xml:id="fra-stage-000064">Entre <seg rend="sc">la fille ou geôlier</seg>.</stage>
           <sp xml:id="fra-sp-000258">
             <speaker>la fille du geôlier.</speaker>
             <p xml:id="fra-p-000299">— Pourquoi faut-il que j’aime ce gentilhomme ? Il y a
@@ -2416,18 +2417,18 @@ comprendre que je l’aime ? — Car je voudrais tant qu’il fût
 dirait donc la loi ?… — Qu’importent la loi et la famille ! je
 le ferai, — cette nuit, ou demain. Il m’aimera !
 </p>
-            <stage type="business" xml:id="fra-stage-000064">Elle sort.</stage>
+            <stage type="business" xml:id="fra-stage-000065">Elle sort.</stage>
           </sp>
         </div>
         <div type="scene" n="4" xml:id="fra-div-000014">
           <head>SCÈNE IV.</head>
-          <stage type="business" xml:id="fra-stage-000065">[Une grande place.]</stage>
-          <stage type="business" xml:id="fra-stage-000066">
+          <stage type="business" xml:id="fra-stage-000066">[Une grande place.]</stage>
+          <stage type="business" xml:id="fra-stage-000067">
             <seg rend="alinea">Courte fanfare de cornets. Acclamations. Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Pirithoüs</seg>, <seg rend="sc">Émilie</seg>, <seg rend="sc">Arcite</seg> déguisé, portant une couronne ; puis des campagnards.</seg>
           </stage>
           <sp xml:id="fra-sp-000259">
             <speaker>THÉSÉE</speaker>
-            <stage type="business" xml:id="fra-stage-000067">, à Arcite.</stage>
+            <stage type="business" xml:id="fra-stage-000068">, à Arcite.</stage>
             <p xml:id="fra-p-000300">Vous avez fait des prouesses ; je n’ai pas vu, — depuis
 Hercule, un homme ayant des muscles plus fermes. — Qui <seg/>que vous soyez, vous êtes le meilleur coureur, le meilleur
 lutteur — que puissent reconnaître ces temps.
@@ -2561,12 +2562,12 @@ votre voyage, — et vous ne perdrez pas vos souhaits… Pirithoüs,
             <speaker>pirithoüs.</speaker>
             <p xml:id="fra-p-000323">Merci, Thésée !
 </p>
-            <stage type="business" xml:id="fra-stage-000068">À Arcite.</stage>
+            <stage type="business" xml:id="fra-stage-000069">À Arcite.</stage>
             <p xml:id="fra-p-000324">— Qui que vous soyez, vous êtes à moi ; et je vous consacre
 — au plus noble service, à cette dame, — à cette jeune
 vierge radieuse. <seg/>
 </p>
-            <stage type="business" xml:id="fra-stage-000069">Il montre Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000070">Il montre Émilie.</stage>
             <p xml:id="fra-p-000325">Veuillez rendre hommage à ses perfections. — Vous avez
 aujourd’hui par vos prouesses honoré son beau jour de naissance,
 — et il vous est dû de lui appartenir ; baisez sa jolie
@@ -2577,7 +2578,7 @@ main, monsieur.
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000326">— Monsieur, vous êtes un noble donateur.
 </p>
-            <stage type="business" xml:id="fra-stage-000070">À Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000071">À Émilie.</stage>
             <p xml:id="fra-p-000327">Très-chère beauté, — laissez-moi sceller ainsi l’engagement
 de ma foi. Si jamais votre serviteur, — votre très-indigne
 créature, vous offense, — commandez-lui de mourir,
@@ -2607,7 +2608,7 @@ bête.
           </sp>
           <sp xml:id="fra-sp-000287">
             <speaker>THÉSÉE</speaker>
-            <stage type="business" xml:id="fra-stage-000071">, à Hippolyte.</stage>
+            <stage type="business" xml:id="fra-stage-000072">, à Hippolyte.</stage>
             <p xml:id="fra-p-000331">Chère, il faut vous préparer ; — et vous, Émilie, et vous,
 ami, et tous. — Demain, dès l’aube, nous célébrerons —
 Mai fleuri dans le bois de Diane… Servez bien, monsieur,
@@ -2643,13 +2644,13 @@ sage.
             <speaker>émilie.</speaker>
             <p xml:id="fra-p-000335">Oui, je l’espère, seigneur, trop sage pour cela.
 </p>
-            <stage type="business" xml:id="fra-stage-000072">Fanfare. Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000073">Fanfare. Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="5" xml:id="fra-div-000015">
           <head>SCÈNE V.</head>
-          <stage type="business" xml:id="fra-stage-000073">[Une salle dans la prison.]</stage>
-          <stage type="business" xml:id="fra-stage-000074">Entre <seg rend="sc">la fille du geôlier</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000074">[Une salle dans la prison.]</stage>
+          <stage type="business" xml:id="fra-stage-000075">Entre <seg rend="sc">la fille du geôlier</seg>.</stage>
           <sp xml:id="fra-sp-000292">
             <speaker>la fille du geôlier.</speaker>
             <p xml:id="fra-p-000336">— Que tous les ducs et tous les démons rugissent, — il
@@ -2690,7 +2691,7 @@ embrasser l’homme qu’ils chercheront. Adieu, mon père.
 — et vous serez vite réduit à vous garder vous-même.
 Maintenant, à lui !
 </p>
-            <stage type="business" xml:id="fra-stage-000075">Elle sort.</stage>
+            <stage type="business" xml:id="fra-stage-000076">Elle sort.</stage>
           </sp>
         </div>
       </div>
@@ -2698,9 +2699,9 @@ Maintenant, à lui !
         <head>ACTE III</head>
         <div type="scene" n="1" xml:id="fra-div-000017">
           <head>SCÈNE I.</head>
-          <stage type="business" xml:id="fra-stage-000076">[Un hallier.]</stage>
-          <stage type="business" xml:id="fra-stage-000077">Fanfares de cornets sur plusieurs points. Rumeurs et cris comme ceux de la foule à la fête de Mai.</stage>
-          <stage type="business" xml:id="fra-stage-000078">Entre <seg rend="sc">Arcite</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000077">[Un hallier.]</stage>
+          <stage type="business" xml:id="fra-stage-000078">Fanfares de cornets sur plusieurs points. Rumeurs et cris comme ceux de la foule à la fête de Mai.</stage>
+          <stage type="business" xml:id="fra-stage-000079">Entre <seg rend="sc">Arcite</seg>.</stage>
           <sp xml:id="fra-sp-000293">
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000337">— Le duc a perdu Hippolyte ; chacun a pris — un chemin
@@ -2732,7 +2733,7 @@ n’effleure de son souffle, et — que j’entends son langage,
 que je vis sous ses yeux, oh ! petit cousin, — quelle
 colère te saisirait !
 </p>
-            <stage type="business" xml:id="fra-stage-000079"><seg rend="sc">Palémon</seg>, sortant d’un buisson, paraît chargé de chaînes, et montre le poing à Arcite.</stage>
+            <stage type="business" xml:id="fra-stage-000080"><seg rend="sc">Palémon</seg>, sortant d’un buisson, paraît chargé de chaînes, et montre le poing à Arcite.</stage>
           </sp>
           <sp xml:id="fra-sp-000294">
             <speaker>palémon.</speaker>
@@ -2842,7 +2843,7 @@ qu’Arcite — pour avoir tant de hardiesse en une telle affaire.
           </sp>
           <sp xml:id="fra-sp-000305">
             <speaker>ARCITE</speaker>
-            <stage type="business" xml:id="fra-stage-000080">, ouvrant les bras à Palémon.</stage>
+            <stage type="business" xml:id="fra-stage-000081">, ouvrant les bras à Palémon.</stage>
             <p xml:id="fra-p-000349">Bien-aimé Palémon…
 </p>
           </sp>
@@ -2853,7 +2854,7 @@ offre seulement que je le fais, monsieur ; quant à
 votre personne, — je ne puis, sans hypocrisie, lui souhaiter
 — rien de plus que l’entaille de mon épée.
 </p>
-            <stage type="business" xml:id="fra-stage-000081">Fanfare de cors.</stage>
+            <stage type="business" xml:id="fra-stage-000082">Fanfare de cors.</stage>
           </sp>
           <sp xml:id="fra-sp-000307">
             <speaker>arcite.</speaker>
@@ -2880,7 +2881,7 @@ un dur langage : quand j’éperonne — mon cheval, je ne le
 gronde pas ; la sérénité et la colère — n’ont chez moi qu’un
 visage.
 </p>
-            <stage type="business" xml:id="fra-stage-000082">Sons du cor.</stage>
+            <stage type="business" xml:id="fra-stage-000083">Sons du cor.</stage>
             <p xml:id="fra-p-000354">Écoutez, monsieur ! on appelle — au banquet les convives
 épars ; vous devez supposer — que j’ai là un office.
 </p>
@@ -2919,13 +2920,13 @@ voir un soleil — qui fortifie tout ce qu’il voit ; vous avez là
 — un avantage sur moi ; mais jouissez-en — jusqu’à ce
 que je puisse imposer mon remède. Adieu !
 </p>
-            <stage type="business" xml:id="fra-stage-000083">Ils se séparent.</stage>
+            <stage type="business" xml:id="fra-stage-000084">Ils se séparent.</stage>
           </sp>
         </div>
         <div type="scene" n="2" xml:id="fra-div-000018">
           <head>SCÈNE II.</head>
-          <stage type="business" xml:id="fra-stage-000084">[Un carrefour dans la forêt.]</stage>
-          <stage type="business" xml:id="fra-stage-000085">Entre <seg rend="sc">la fille du geôlier</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000085">[Un carrefour dans la forêt.]</stage>
+          <stage type="business" xml:id="fra-stage-000086">Entre <seg rend="sc">la fille du geôlier</seg>.</stage>
           <sp xml:id="fra-sp-000315">
             <speaker>la fille du geôlier.</speaker>
             <p xml:id="fra-p-000360">— Il s’est mépris sur le fourré que je lui indiquais, et il
@@ -2966,18 +2967,18 @@ annonce l’aube ! Chacun a fait son office, — excepté
 moi qui ai échoué ; mais toute la question, — c’est d’en
 finir.
 </p>
-            <stage type="business" xml:id="fra-stage-000086">Elle sort.</stage>
+            <stage type="business" xml:id="fra-stage-000087">Elle sort.</stage>
           </sp>
         </div>
         <div type="scene" n="3" xml:id="fra-div-000019">
           <head>SCÈNE III.</head>
-          <stage type="business" xml:id="fra-stage-000087">[Le hallier.]</stage>
-          <stage type="business" xml:id="fra-stage-000088">Entre <seg rend="sc">Arcite</seg> avec des aliments, du vin et des limes.</stage>
+          <stage type="business" xml:id="fra-stage-000088">[Le hallier.]</stage>
+          <stage type="business" xml:id="fra-stage-000089">Entre <seg rend="sc">Arcite</seg> avec des aliments, du vin et des limes.</stage>
           <sp xml:id="fra-sp-000316">
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000361">— Je dois être près de l’endroit… Holà ! cousin Palémon !
 </p>
-            <stage type="business" xml:id="fra-stage-000089">Paraît <seg rend="sc">Palémon</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000090">Paraît <seg rend="sc">Palémon</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000317">
             <speaker>palémon.</speaker>
@@ -3016,7 +3017,7 @@ peur de vous. Asseyez-vous ; et, une fois pour toutes, — renonçons
 nous notre vieille réputation, — bavarder comme des niais
 ou des lâches !… À votre santé !
 </p>
-            <stage type="business" xml:id="fra-stage-000090">Il boit.</stage>
+            <stage type="business" xml:id="fra-stage-000091">Il boit.</stage>
           </sp>
           <sp xml:id="fra-sp-000323">
             <speaker>palémon.</speaker>
@@ -3106,7 +3107,7 @@ vin : cette fois, Arcite, aux belles — que nous avons connues
 dans le temps !… À la fille du seigneur intendant ! — Vous
 la rappelez-vous ?
 </p>
-            <stage type="business" xml:id="fra-stage-000091">Il lui tend la coupe.</stage>
+            <stage type="business" xml:id="fra-stage-000092">Il lui tend la coupe.</stage>
           </sp>
           <sp xml:id="fra-sp-000338">
             <speaker>arcite.</speaker>
@@ -3168,7 +3169,7 @@ fables en circulation. Vous allez boire à sa santé ?
 les jeunes gens allaient à la chasse, et il y avait un bois, —
 et il y avait un gros hêtre ; et là aboutit une histoire…
 </p>
-            <stage type="business" xml:id="fra-stage-000092">Soupirant.</stage>
+            <stage type="business" xml:id="fra-stage-000093">Soupirant.</stage>
             <p xml:id="fra-p-000394">— Hé ! bo !
 </p>
           </sp>
@@ -3228,19 +3229,19 @@ de rien.
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000404">Je n’écoute plus rien.
 </p>
-            <stage type="business" xml:id="fra-stage-000093">Il sort.</stage>
+            <stage type="business" xml:id="fra-stage-000094">Il sort.</stage>
           </sp>
           <sp xml:id="fra-sp-000359">
             <speaker>palémon.</speaker>
             <p xml:id="fra-p-000405">S’il tient parole, il est mort.
 </p>
-            <stage type="business" xml:id="fra-stage-000094">Il sort.</stage>
+            <stage type="business" xml:id="fra-stage-000095">Il sort.</stage>
           </sp>
         </div>
         <div type="scene" n="4" xml:id="fra-div-000020">
           <head>SCÈNE IV.</head>
-          <stage type="business" xml:id="fra-stage-000095">[Une autre partie du bois.]</stage>
-          <stage type="business" xml:id="fra-stage-000096">Entre la <seg rend="sc">fille du geôlier</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000096">[Une autre partie du bois.]</stage>
+          <stage type="business" xml:id="fra-stage-000097">Entre la <seg rend="sc">fille du geôlier</seg>.</stage>
           <sp xml:id="fra-sp-000360">
             <speaker>la fille du geôlier.</speaker>
             <p xml:id="fra-p-000406">— J’ai bien froid ; et aussi toutes les étoiles ont disparu, —
@@ -3261,7 +3262,7 @@ Et mon père ! — Vingt contre un qu’il sera balancé
 en un tour de main — demain matin, je n’en dirai pas
 un mot.
 </p>
-            <stage type="business" xml:id="fra-stage-000097">Elle chante.</stage>
+            <stage type="business" xml:id="fra-stage-000098">Elle chante.</stage>
             <lg xml:id="fra-lg-000004">
               <l xml:id="fra-l-000041">Car je couperaî ma cotte verte à un pied au-dessus du genou,</l>
               <l xml:id="fra-l-000042">
@@ -3280,13 +3281,13 @@ Et j’émonderai mes tresses blondes d’un pouce au-dessous de mon œil.</l>
 où appuyer ma poitrine ! Autrement je vais ronfler comme
 une toupie.
 </p>
-            <stage type="business" xml:id="fra-stage-000098">Elle sort.</stage>
+            <stage type="business" xml:id="fra-stage-000099">Elle sort.</stage>
           </sp>
         </div>
         <div type="scene" n="5" xml:id="fra-div-000021">
           <head>SCÈNE V.</head>
-          <stage type="business" xml:id="fra-stage-000099">[Une clairière.]</stage>
-          <stage type="business" xml:id="fra-stage-000100">
+          <stage type="business" xml:id="fra-stage-000100">[Une clairière.]</stage>
+          <stage type="business" xml:id="fra-stage-000101">
             <seg rend="alinea">Entrent <seg rend="sc">Gerrold</seg>, quatre <seg rend="sc">campagnards</seg> déguisés en danseurs moresques (un d’eux figurant le Bavien), <seg rend="sc">cinq filles</seg> et un <seg rend="sc">joueur de tambourin</seg>.</seg>
           </stage>
           <sp xml:id="fra-sp-000361">
@@ -3449,11 +3450,11 @@ triste et pitoyable nullité !
 dépend, — nous morfondre là à pisser sur des orties !…
 — Va ton chemin, je me souviendrai de toi, je t’arrangerai.
 </p>
-            <stage type="business" xml:id="fra-stage-000101">Entre <seg rend="sc">la fille du geôlier</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000102">Entre <seg rend="sc">la fille du geôlier</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000385">
             <speaker>LA FILLE DU GEÔLIER</speaker>
-            <stage type="business" xml:id="fra-stage-000102">, chantant.</stage>
+            <stage type="business" xml:id="fra-stage-000103">, chantant.</stage>
             <lg xml:id="fra-lg-000005">
               <l xml:id="fra-l-000049">Le <hi rend="italic">George</hi> est descendu du sud,</l>
               <l xml:id="fra-l-000050">
@@ -3539,7 +3540,7 @@ qui joue — à <hi rend="italic">quipassa</hi> avec des grelots et des osselets
             <p xml:id="fra-p-000440">Allez, emmenez-la, — et induisez-la bonnement à se
 taire.
 </p>
-            <stage type="business" xml:id="fra-stage-000103">
+            <stage type="business" xml:id="fra-stage-000104">
               <seg rend="lang-la">Atque opus exegi, quod nec Jovis ira, nec ignis.</seg>
             </stage>
             <p xml:id="fra-p-000441">— En avant la musique, et faites-la entrer en danse !
@@ -3547,7 +3548,7 @@ taire.
           </sp>
           <sp xml:id="fra-sp-000395">
             <speaker>DEUXIÈME CAMPAGNARD</speaker>
-            <stage type="business" xml:id="fra-stage-000104">, à la fille du geôlier.</stage>
+            <stage type="business" xml:id="fra-stage-000105">, à la fille du geôlier.</stage>
             <p xml:id="fra-p-000442">Allons, fillette, santons ! <seg/>
 </p>
           </sp>
@@ -3567,10 +3568,10 @@ taire.
 — J’entends les cors. Laissez-moi méditer un peu, — et attention
 à votre entrée !
 </p>
-            <stage type="business" xml:id="fra-stage-000105">Tous sortent excepté Gerrold.</stage>
+            <stage type="business" xml:id="fra-stage-000106">Tous sortent excepté Gerrold.</stage>
             <p xml:id="fra-p-000446">Que Pallas m’inspire !
 </p>
-            <stage type="business" xml:id="fra-stage-000106">Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Pirithoüs</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Émilie</seg>, <seg rend="sc">Arcite</seg>, et leur suite.</stage>
+            <stage type="business" xml:id="fra-stage-000107">Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Pirithoüs</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Émilie</seg>, <seg rend="sc">Arcite</seg>, et leur suite.</stage>
           </sp>
           <sp xml:id="fra-sp-000399">
             <speaker>thésée.</speaker>
@@ -3594,7 +3595,7 @@ taire.
           </sp>
           <sp xml:id="fra-sp-000403">
             <speaker>THÉSÉE</speaker>
-            <stage type="business" xml:id="fra-stage-000107">, à Gerrold.</stage>
+            <stage type="business" xml:id="fra-stage-000108">, à Gerrold.</stage>
             <p xml:id="fra-p-000451">— Eh bien, monsieur, poursuivez ; nous allons nous édifier.
 — Mesdames, asseyez-vous. Nous ferons une halte.
 </p>
@@ -3657,7 +3658,7 @@ danse. — Dis oui, et tous vont s’avancer sur-le-champ.
             <speaker>gerrold.</speaker>
             <p xml:id="fra-p-000457">— <hi rend="italic">Intrate, filii !</hi> En avant, et trémoussez-vous. <seg/>
 </p>
-            <stage type="business" xml:id="fra-stage-000108">Entrent les campagnards, les villageoises, etc. Tous dansent la danse morisque.</stage>
+            <stage type="business" xml:id="fra-stage-000109">Entrent les campagnards, les villageoises, etc. Tous dansent la danse morisque.</stage>
             <lg xml:id="fra-lg-000006">
               <l xml:id="fra-l-000065">Dames, si nous avons été gais,</l>
               <l xml:id="fra-l-000066">
@@ -3726,16 +3727,16 @@ Puissent-ils le tuer sans encombre,</l>
 Et que les dames en mangent les daintiers !
 </l>
             </lg>
-            <stage type="business" xml:id="fra-stage-000109">Fanfares.</stage>
+            <stage type="business" xml:id="fra-stage-000110">Fanfares.</stage>
             <p xml:id="fra-p-000464">Allons, notre fortune à tous est faite ! — <hi rend="italic"><seg rend="lang-la">Dii deœque omnes</seg></hi>. Vous avez dansé supérieurement, fillettes.
 </p>
-            <stage type="business" xml:id="fra-stage-000110">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000111">Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="6" xml:id="fra-div-000022">
           <head>SCÈNE VI.</head>
-          <stage type="business" xml:id="fra-stage-000111">[Le hallier.]</stage>
-          <stage type="business" xml:id="fra-stage-000112">Paraît <seg rend="sc">Palémon</seg>, sortant d’un buisson.</stage>
+          <stage type="business" xml:id="fra-stage-000112">[Le hallier.]</stage>
+          <stage type="business" xml:id="fra-stage-000113">Paraît <seg rend="sc">Palémon</seg>, sortant d’un buisson.</stage>
           <sp xml:id="fra-sp-000417">
             <speaker>palémon.</speaker>
             <p xml:id="fra-p-000465">Voici à peu près l’heure où mon cousin s’est engagé —
@@ -3754,7 +3755,7 @@ aura refusée, — je le tuerai, pour peu qu’elle tienne dans
 ma main. C’est justice. — Que l’amour et la fortune m’assistent…
 Ah ! bonjour !
 </p>
-            <stage type="business" xml:id="fra-stage-000113">Entre <seg rend="sc">Arcite</seg>, avec des armures et des épées.</stage>
+            <stage type="business" xml:id="fra-stage-000114">Entre <seg rend="sc">Arcite</seg>, avec des armures et des épées.</stage>
           </sp>
           <sp xml:id="fra-sp-000418">
             <speaker>arcite.</speaker>
@@ -3854,13 +3855,13 @@ de soldat, — je ne vous épargnerai pas.
 que j’aime — avec toute la légitimité de l’affection, — je te
 réglerai largement ton compte !… Je prends celle-ci.
 </p>
-            <stage type="business" xml:id="fra-stage-000114">Il choisit une armure.</stage>
+            <stage type="business" xml:id="fra-stage-000115">Il choisit une armure.</stage>
           </sp>
           <sp xml:id="fra-sp-000432">
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000480">À moi donc celle-là. — Je vais d’abord vous armer.
 </p>
-            <stage type="business" xml:id="fra-stage-000115">Il revêt Palémon de l’armure.</stage>
+            <stage type="business" xml:id="fra-stage-000116">Il revêt Palémon de l’armure.</stage>
           </sp>
           <sp xml:id="fra-sp-000433">
             <speaker>palémon.</speaker>
@@ -4054,7 +4055,7 @@ mon honneur me secondent !
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000514">— Et moi, mon amour !
 </p>
-            <stage type="business" xml:id="fra-stage-000116">Ils saluent de différentes manières, puis s’avancent et s’arrêtent face à face.</stage>
+            <stage type="business" xml:id="fra-stage-000117">Ils saluent de différentes manières, puis s’avancent et s’arrêtent face à face.</stage>
             <p xml:id="fra-p-000515">Reste-t-il encore quelque chose à dire ?
 </p>
           </sp>
@@ -4093,7 +4094,7 @@ cousin !
             <speaker>palémon.</speaker>
             <p xml:id="fra-p-000520">Adieu, Arcite !
 </p>
-            <stage type="business" xml:id="fra-stage-000117">Ils se battent. Bruit de cor au loin. Ils s’arrêtent.</stage>
+            <stage type="business" xml:id="fra-stage-000118">Ils se battent. Bruit de cor au loin. Ils s’arrêtent.</stage>
           </sp>
           <sp xml:id="fra-sp-000472">
             <speaker>arcite.</speaker>
@@ -4153,8 +4154,8 @@ de notre fin. — Défends ta vie.
             <speaker>palémon.</speaker>
             <p xml:id="fra-p-000528">Veille bien sur la tienne, Arcite.
 </p>
-            <stage type="business" xml:id="fra-stage-000118">Ils recommencent le combat. Fanfare.</stage>
-            <stage type="business" xml:id="fra-stage-000119">Entrent. <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Émilie</seg>, <seg rend="sc">Pirithoüs</seg>, et leur suite.</stage>
+            <stage type="business" xml:id="fra-stage-000119">Ils recommencent le combat. Fanfare.</stage>
+            <stage type="business" xml:id="fra-stage-000120">Entrent. <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Émilie</seg>, <seg rend="sc">Pirithoüs</seg>, et leur suite.</stage>
           </sp>
           <sp xml:id="fra-sp-000480">
             <speaker>thésée.</speaker>
@@ -4257,13 +4258,13 @@ mes genoux prendre racine en terre. — Secondez-moi,
 chère sœur ! Pour un acte si vertueux, — les influences de
 toutes les femmes seront avec nous. — Très-royal frère !
 </p>
-            <stage type="business" xml:id="fra-stage-000120">Elle s’agenouille.</stage>
+            <stage type="business" xml:id="fra-stage-000121">Elle s’agenouille.</stage>
           </sp>
           <sp xml:id="fra-sp-000489">
             <speaker>hippolyte.</speaker>
             <p xml:id="fra-p-000538">Seigneur, par le lien de notre mariage !
 </p>
-            <stage type="business" xml:id="fra-stage-000121">Elle s’agenouille.</stage>
+            <stage type="business" xml:id="fra-stage-000122">Elle s’agenouille.</stage>
           </sp>
           <sp xml:id="fra-sp-000490">
             <speaker>émilie.</speaker>
@@ -4295,12 +4296,12 @@ vous ai jamais charmé !
           </sp>
           <sp xml:id="fra-sp-000495">
             <speaker>pirithoüs</speaker>
-            <stage type="business" xml:id="fra-stage-000122">, s’agenouillant.</stage>
+            <stage type="business" xml:id="fra-stage-000123">, s’agenouillant.</stage>
             <p xml:id="fra-p-000544">Eh bien, je m’y joins aussi… — Par toute notre amitié,
 seigneur, par tous nos dangers, — par tout ce qu’au monde
 vous aimez le mieux, la guerre et cette charmante dame !
 </p>
-            <stage type="business" xml:id="fra-stage-000123">Il montre Hippolyte.</stage>
+            <stage type="business" xml:id="fra-stage-000124">Il montre Hippolyte.</stage>
           </sp>
           <sp xml:id="fra-sp-000496">
             <speaker>émilie.</speaker>
@@ -4518,7 +4519,7 @@ et les soldats chanteront mon épitaphe.
           </sp>
           <sp xml:id="fra-sp-000526">
             <speaker>THÉSÉE</speaker>
-            <stage type="business" xml:id="fra-stage-000124">, à Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000125">, à Émilie.</stage>
             <p xml:id="fra-p-000575">Faites donc votre choix.
 </p>
           </sp>
@@ -4588,7 +4589,7 @@ l’heure fixée, et tenez votre engagement.
 triomphe, je l’établis ici ; — quant au vaincu, je verserai
 des larmes sur son cercueil.
 </p>
-            <stage type="business" xml:id="fra-stage-000125">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000126">Ils sortent.</stage>
           </sp>
         </div>
       </div>
@@ -4596,8 +4597,8 @@ des larmes sur son cercueil.
         <head>ACTE IV</head>
         <div type="scene" n="1" xml:id="fra-div-000024">
           <head>SCÈNE I.</head>
-          <stage type="business" xml:id="fra-stage-000126">[Athènes. La cour de la prison.]</stage>
-          <stage type="business" xml:id="fra-stage-000127">Entrent <seg rend="sc">le geôlier</seg> et <seg rend="sc">un ami</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000127">[Athènes. La cour de la prison.]</stage>
+          <stage type="business" xml:id="fra-stage-000128">Entrent <seg rend="sc">le geôlier</seg> et <seg rend="sc">un ami</seg>.</stage>
           <sp xml:id="fra-sp-000537">
             <speaker>le geôlier.</speaker>
             <p xml:id="fra-p-000586">— Ne savez-vous rien de plus ? Est-ce qu’on n’a rien dit
@@ -4619,7 +4620,7 @@ noble, — mettait la moitié de son cœur. J’espère donc —
 que tout finira bien. D’ailleurs je n’ai rien ouï dire — de
 vous, ni de l’évasion.
 </p>
-            <stage type="business" xml:id="fra-stage-000128">Entre <seg rend="sc">un deuxième ami</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000129">Entre <seg rend="sc">un deuxième ami</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000539">
             <speaker>le geôlier.</speaker>
@@ -4691,11 +4692,11 @@ bonnes, je ne le sais pas.
             <speaker>premier ami.</speaker>
             <p xml:id="fra-p-000599">On le saura plus tard. <seg/>
 </p>
-            <stage type="business" xml:id="fra-stage-000129">Entre <seg rend="sc">le galant</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000130">Entre <seg rend="sc">le galant</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000551">
             <speaker>LE GALANT</speaker>
-            <stage type="business" xml:id="fra-stage-000130">, au geôlier.</stage>
+            <stage type="business" xml:id="fra-stage-000131">, au geôlier.</stage>
             <p xml:id="fra-p-000600">— Hélas ! monsieur, où est votre fille ?
 </p>
           </sp>
@@ -4877,12 +4878,12 @@ elle a été arrêtée, — elle est tombée, et c’est à grand’peine
 qu’elle a été emmenée ; je les ai laissés avec elle, — et je
 suis venu tout vous dire. Les voici !
 </p>
-            <stage type="business" xml:id="fra-stage-000131">Entrent <seg rend="sc">la fille du geôlier</seg>, <seg rend="sc">le frère du geôlier</seg> et autres.</stage>
+            <stage type="business" xml:id="fra-stage-000132">Entrent <seg rend="sc">la fille du geôlier</seg>, <seg rend="sc">le frère du geôlier</seg> et autres.</stage>
           </sp>
           <sp xml:id="fra-sp-000576">
             <speaker>la fille du geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000132">, chantant.</stage>
-            <stage type="business" xml:id="fra-stage-000133">Puissiez-vous ne plus jamais jouir de la lumière, etc.</stage>
+            <stage type="business" xml:id="fra-stage-000133">, chantant.</stage>
+            <stage type="business" xml:id="fra-stage-000134">Puissiez-vous ne plus jamais jouir de la lumière, etc.</stage>
             <p xml:id="fra-p-000625">— N’est-ce pas là une belle chanson ?
 </p>
           </sp>
@@ -4926,12 +4927,12 @@ suis venu tout vous dire. Les voici !
             <speaker>la fille du geôlier.</speaker>
             <p xml:id="fra-p-000633">— Apportez-la de très-bonne heure ; autrement, je  <seg/>serais sortie — pour appeler les filles et payer les ménestrels ; — car je dois perdre ma virginité au chant du coq ; — autrement elle ne fructifiera jamais.
 </p>
-            <stage type="business" xml:id="fra-stage-000134">Fredonnant.</stage>
-            <stage type="business" xml:id="fra-stage-000135">Oh ! charmant ! oh ! bien-aimé, etc.</stage>
+            <stage type="business" xml:id="fra-stage-000135">Fredonnant.</stage>
+            <stage type="business" xml:id="fra-stage-000136">Oh ! charmant ! oh ! bien-aimé, etc.</stage>
           </sp>
           <sp xml:id="fra-sp-000585">
             <speaker>le frère du geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000136">, au geôlier.</stage>
+            <stage type="business" xml:id="fra-stage-000137">, au geôlier.</stage>
             <p xml:id="fra-p-000634">— Il faut que vous preniez la chose en patience.
 </p>
           </sp>
@@ -4958,7 +4959,7 @@ ouï parler — d’un jeune Palémon ?
           </sp>
           <sp xml:id="fra-sp-000590">
             <speaker>le geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000137">, à son frère.</stage>
+            <stage type="business" xml:id="fra-stage-000138">, à son frère.</stage>
             <p xml:id="fra-p-000639">C’est l’amour !
 </p>
           </sp>
@@ -5044,7 +5045,7 @@ heures, une fois en train.
           </sp>
           <sp xml:id="fra-sp-000604">
             <speaker>la fille du geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000138">, à son père.</stage>
+            <stage type="business" xml:id="fra-stage-000139">, à son père.</stage>
             <p xml:id="fra-p-000653">— Approchez ; vous êtes un homme sage, vous.
 </p>
           </sp>
@@ -5127,15 +5128,15 @@ votre sifflet, maître ?
             <speaker>la fille du geôlier.</speaker>
             <p xml:id="fra-p-000668">Mets le cap dessus, maître, vire de bord.
 </p>
-            <stage type="business" xml:id="fra-stage-000139">Chantant.</stage>
-            <stage type="business" xml:id="fra-stage-000140">Quand Cynthia avec sa lumière empruntée…</stage>
-            <stage type="business" xml:id="fra-stage-000141">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000140">Chantant.</stage>
+            <stage type="business" xml:id="fra-stage-000141">Quand Cynthia avec sa lumière empruntée…</stage>
+            <stage type="business" xml:id="fra-stage-000142">Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="2" xml:id="fra-div-000025">
           <head>SCÈNE II.</head>
-          <stage type="business" xml:id="fra-stage-000142">[Dans le palais.]</stage>
-          <stage type="business" xml:id="fra-stage-000143">Entre <seg rend="sc">Émilie</seg>, tenant deux portraits.</stage>
+          <stage type="business" xml:id="fra-stage-000143">[Dans le palais.]</stage>
+          <stage type="business" xml:id="fra-stage-000144">Entre <seg rend="sc">Émilie</seg>, tenant deux portraits.</stage>
           <sp xml:id="fra-sp-000620">
             <speaker>émilie.</speaker>
             <p xml:id="fra-p-000669">— Pourtant je pourrais fermer ces blessures ; sans cela,
@@ -5145,7 +5146,7 @@ doivent pas succomber pour moi. Il ne faut pas que leurs
 mères éplorées, — suivant les cendres mortellement froides
 de leurs fils, — maudissent ma cruauté.
 </p>
-            <stage type="business" xml:id="fra-stage-000144">Elle regarde le portrait d’Arcite.</stage>
+            <stage type="business" xml:id="fra-stage-000145">Elle regarde le portrait d’Arcite.</stage>
             <p xml:id="fra-p-000670">Ciel bon ! — quel doux visage que celui d’Arcite ! Si la
 sage nature, — avec ses dons les plus précieux, avec toutes
 les beautés — qu’elle prodigue à la naissance des nobles
@@ -5169,7 +5170,7 @@ terne, — il est basané et chétif, il a l’œil aussi morne — <seg/>que s�
 en lui pas de mouvement, pas de vivacité ; — il n’a rien
 de cette pénétrante animation, pas même un sourire.
 </p>
-            <stage type="business" xml:id="fra-stage-000145">Elle regarde le portrait de Palémon.</stage>
+            <stage type="business" xml:id="fra-stage-000146">Elle regarde le portrait de Palémon.</stage>
             <p xml:id="fra-p-000671">— Pourtant ce que nous appelons imperfection peut plaire
 chez lui : — Narcisse était un triste enfant, mais il était céleste…
 — Oh ! qui pourrait connaître les détours du caprice
@@ -5190,7 +5191,7 @@ l’heure demandé — qui j’aimais, j’aurais nommé frénétiquement
 Arcite ; — et si ma sœur me faisait la même demande
 maintenant, je préférerais Palémon.
 </p>
-            <stage type="business" xml:id="fra-stage-000146">Elle compare les deux portraits.</stage>
+            <stage type="business" xml:id="fra-stage-000147">Elle compare les deux portraits.</stage>
             <p xml:id="fra-p-000672">— Mettons-les tous les deux l’un près de l’autre… Maintenant,
 mon frère, faites-moi la demande… — Hélas ! je ne
 sais que dire… Maintenant faites-la-moi, chère sœur…
@@ -5198,7 +5199,7 @@ sais que dire… Maintenant faites-la-moi, chère sœur…
 — qui, entre deux hochets d’un charme égal, — ne peut
 faire de choix, mais crie pour les avoir tous deux !
 </p>
-            <stage type="business" xml:id="fra-stage-000147">Entre <seg rend="sc">un gentilhomme</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000148">Entre <seg rend="sc">un gentilhomme</seg>.</stage>
             <p xml:id="fra-p-000673">— Eh bien, monsieur ? <seg/>
 </p>
           </sp>
@@ -5228,14 +5229,14 @@ amants, — les plus nobles, les meilleurs qui aient jamais
 — fait la joie d’une mère, soit sacrifiée — à ma malheureuse
 beauté !
 </p>
-            <stage type="business" xml:id="fra-stage-000148">Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Pirithoüs</seg> et leur suite.</stage>
+            <stage type="business" xml:id="fra-stage-000149">Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Pirithoüs</seg> et leur suite.</stage>
           </sp>
           <sp xml:id="fra-sp-000625">
             <speaker>THÈSÊE</speaker>
-            <stage type="business" xml:id="fra-stage-000149">, s’avançant.</stage>
+            <stage type="business" xml:id="fra-stage-000150">, s’avançant.</stage>
             <p xml:id="fra-p-000678">Introduisez-les — au plus vite ! Il me tarde de les voir.
 </p>
-            <stage type="business" xml:id="fra-stage-000150">À Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000151">À Émilie.</stage>
             <p xml:id="fra-p-000679">— Vos deux amants rivaux sont revenus, — accompagnés
 de leurs beaux chevaliers. Maintenant, ma charmante sœur,
 — il va falloir aimer l’un des deux.
@@ -5261,11 +5262,11 @@ l’autre ne succombât prématurément à cause de moi.
             <speaker>le gentilhomme.</speaker>
             <p xml:id="fra-p-000683">Et moi. <seg/>
 </p>
-            <stage type="business" xml:id="fra-stage-000151">Entre <seg rend="sc">un messager</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000152">Entre <seg rend="sc">un messager</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000630">
             <speaker>thésée</speaker>
-            <stage type="business" xml:id="fra-stage-000152">, au messager.</stage>
+            <stage type="business" xml:id="fra-stage-000153">, au messager.</stage>
             <p xml:id="fra-p-000684">— D’où venez-vous, monsieur ?
 </p>
           </sp>
@@ -5428,10 +5429,10 @@ Il le faut.
           </sp>
           <sp xml:id="fra-sp-000649">
             <speaker>thésée</speaker>
-            <stage type="business" xml:id="fra-stage-000153">, à Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000154">, à Émilie.</stage>
             <p xml:id="fra-p-000703">— Vous avez acéré leur bravoure avec votre beauté.
 </p>
-            <stage type="business" xml:id="fra-stage-000154">À Pirithoüs.</stage>
+            <stage type="business" xml:id="fra-stage-000155">À Pirithoüs.</stage>
             <p xml:id="fra-p-000704">Honorable ami, — je vous livre le champ clos ; veuillez
 l’ordonner, — en disposant les personnes qui doivent l’occuper.
 </p>
@@ -5458,13 +5459,13 @@ soyez royal.
             <p xml:id="fra-p-000708">— Va, pauvre fille, pleure. Quel que soit le vainqueur, —
 il perdra un noble cousin pour tes péchés.
 </p>
-            <stage type="business" xml:id="fra-stage-000155">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000156">Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="3" xml:id="fra-div-000026">
           <head>SCÈNE III.</head>
-          <stage type="business" xml:id="fra-stage-000156">[La prison.]</stage>
-          <stage type="business" xml:id="fra-stage-000157">Entrent <seg rend="sc">le geôlier</seg>, <seg rend="sc">le galant</seg> et <seg rend="sc">le docteur</seg>.</stage>
+          <stage type="business" xml:id="fra-stage-000157">[La prison.]</stage>
+          <stage type="business" xml:id="fra-stage-000158">Entrent <seg rend="sc">le geôlier</seg>, <seg rend="sc">le galant</seg> et <seg rend="sc">le docteur</seg>.</stage>
           <sp xml:id="fra-sp-000654">
             <speaker>le docteur.</speaker>
             <p xml:id="fra-p-000709">Son égarement est plus grand à certaines époques de la
@@ -5480,7 +5481,7 @@ incohérent qui l’occupe, elle le larde de ce nom :
 Palémon ! Elle en farcit toute chose, l’assaisonne de toute
 façon.
 </p>
-            <stage type="business" xml:id="fra-stage-000158">Entre <seg rend="sc">la fille du geôlier</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000159">Entre <seg rend="sc">la fille du geôlier</seg>.</stage>
             <p xml:id="fra-p-000711">Tenez, la voici qui vient ! Vous allez voir son état.
 </p>
           </sp>
@@ -5565,8 +5566,8 @@ L’autre : <hi rend="italic">Quel feu !</hi> Celle-ci crie : <hi rend="itali
 <hi rend="italic">ça derrière la tapisserie ?</hi> et alors elle pousse un hurlement ;
 celle-là maudit son galant et le pavillon de son jardin.
 </p>
-            <stage type="business" xml:id="fra-stage-000159">Chantant.</stage>
-            <stage type="business" xml:id="fra-stage-000160">Je serai fidèle, mon étoile, ma destinée, etc.</stage>
+            <stage type="business" xml:id="fra-stage-000160">Chantant.</stage>
+            <stage type="business" xml:id="fra-stage-000161">Je serai fidèle, mon étoile, ma destinée, etc.</stage>
           </sp>
           <sp xml:id="fra-sp-000666">
             <speaker>le geôlier.</speaker>
@@ -5592,7 +5593,7 @@ vu Palémon ?
           </sp>
           <sp xml:id="fra-sp-000670">
             <speaker>le geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000161">, montrant le galant.</stage>
+            <stage type="business" xml:id="fra-stage-000162">, montrant le galant.</stage>
             <p xml:id="fra-p-000726">J’ai eu naguère, monsieur, la pleine espérance qu’elle
 avait fixé son affection sur ce gentleman, mon ami.
 </p>
@@ -5638,7 +5639,7 @@ entre les diverses phases de ce projet, donner mes
 soins. Mettons-le à exécution ; et hâtons-en le succès qui,
 n’en doutez pas, ramènera le bien-être.
 </p>
-            <stage type="business" xml:id="fra-stage-000162">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000163">Ils sortent.</stage>
           </sp>
         </div>
       </div>
@@ -5646,8 +5647,8 @@ n’en doutez pas, ramènera le bien-être.
         <head>ACTE V</head>
         <div type="scene" n="1" xml:id="fra-div-000028">
           <head>SCÈNE I.</head>
-          <stage type="business" xml:id="fra-stage-000163">[Une place sur laquelle sont disposés les autels de Mars, de Vénus et Diane.]</stage>
-          <stage type="business" xml:id="fra-stage-000164">Fanfares. Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Pirithoüs</seg>, <seg rend="sc">Hippolyte</seg> et leur suite.</stage>
+          <stage type="business" xml:id="fra-stage-000164">[Une place sur laquelle sont disposés les autels de Mars, de Vénus et Diane.]</stage>
+          <stage type="business" xml:id="fra-stage-000165">Fanfares. Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Pirithoüs</seg>, <seg rend="sc">Hippolyte</seg> et leur suite.</stage>
           <sp xml:id="fra-sp-000673">
             <speaker>thésée.</speaker>
             <p xml:id="fra-p-000729">— Maintenant, qu’ils entrent, et qu’ils offrent — aux
@@ -5658,7 +5659,7 @@ dominent ! N’omettons rien de ce qui est dû. — Ils ont une
 noble tâche à remplir, ceux qui veulent honorer — les
 puissances dont ils sont aimés. <seg/>
 </p>
-            <stage type="business" xml:id="fra-stage-000165">Fanfares de cors. Entrent <seg rend="sc">Palémon</seg>, <seg rend="sc">Arcite</seg> et leurs chevaliers.</stage>
+            <stage type="business" xml:id="fra-stage-000166">Fanfares de cors. Entrent <seg rend="sc">Palémon</seg>, <seg rend="sc">Arcite</seg> et leurs chevaliers.</stage>
           </sp>
           <sp xml:id="fra-sp-000674">
             <speaker>pirithoüs.</speaker>
@@ -5682,7 +5683,7 @@ des dieux, combattez pour la justice ! — Je vous laisse
             <speaker>pirithoüs.</speaker>
             <p xml:id="fra-p-000732">Que l’honneur couronne le plus digne !
 </p>
-            <stage type="business" xml:id="fra-stage-000166">Tous sortent, excepté <seg rend="sc">Palémon</seg>, <seg rend="sc">Arcite</seg> et leurs chevaliers.</stage>
+            <stage type="business" xml:id="fra-stage-000167">Tous sortent, excepté <seg rend="sc">Palémon</seg>, <seg rend="sc">Arcite</seg> et leurs chevaliers.</stage>
           </sp>
           <sp xml:id="fra-sp-000677">
             <speaker>palémon.</speaker>
@@ -5726,7 +5727,7 @@ t’embrasser, cousin ! — C’est pour la dernière fois.
             <speaker>arcite.</speaker>
             <p xml:id="fra-p-000738">Adieu, monsieur.
 </p>
-            <stage type="business" xml:id="fra-stage-000167">Sortent Palémon et ses chevaliers, </stage>
+            <stage type="business" xml:id="fra-stage-000168">Sortent Palémon et ses chevaliers, </stage>
             <p xml:id="fra-p-000739">— Chevaliers, parents, amis, vous qui vous sacrifiez pour
 moi, — vrais adorateurs de Mars dont l’esprit — dissipe en
 vous les germes de la frayeur et l’appréhension même — qui
@@ -5742,7 +5743,7 @@ adressées à celui qui fait du champ de bataille une cuve —
 d’où déborde le sang humain ; secondez-moi, — et inclinez
 vos âmes vers lui.
 </p>
-            <stage type="business" xml:id="fra-stage-000168">Ils se prosternent devant la statue de Mars.</stage>
+            <stage type="business" xml:id="fra-stage-000169">Ils se prosternent devant la statue de Mars.</stage>
             <p xml:id="fra-p-000740">— Ô puissant, qui par ton pouvoir as changé — en pourpre
 le vert Neptune, toi dont l’approche — est annoncée
 par des comètes, toi dont les dévastations dans les plaines
@@ -5755,7 +5756,7 @@ jeune de ceux qui suivent ton tambour, — initie-moi à l’art <seg/>de la gue
 ta gloire et être, grâce à toi, — salué vainqueur de la journée !
 Donne-moi, grand Mars, — quelque gage de ta faveur !
 </p>
-            <stage type="business" xml:id="fra-stage-000169">Ici, ils se prosternent de nouveau la face contre terre ; on entend un cliquetis d’armures, accompagné d’un rapide coup de tonnerre, ressemblant au fracas d’une bataille ; sur quoi tous se lèvent et s’inclinent devant l’autel.</stage>
+            <stage type="business" xml:id="fra-stage-000170">Ici, ils se prosternent de nouveau la face contre terre ; on entend un cliquetis d’armures, accompagné d’un rapide coup de tonnerre, ressemblant au fracas d’une bataille ; sur quoi tous se lèvent et s’inclinent devant l’autel.</stage>
             <p xml:id="fra-p-000741">Ô grand correcteur des énormités des temps, — qui précipites
 les états pourris, suprême arbitre — des titres poudreux
 et surannés, qui avec des saignées soulages — la
@@ -5763,8 +5764,8 @@ terre malade, et guéris le monde — de sa pléthore de peuples,
 j’accepte — tes signes comme un heureux augure, et
 en ton nom — je marche hardiment à mon dessein. Partons !
 </p>
-            <stage type="business" xml:id="fra-stage-000170">Ils sortent.</stage>
-            <stage type="business" xml:id="fra-stage-000171">Entrent <seg rend="sc">Palémon</seg> et ses chevaliers. Ils se prestement devant l’autel de Vénus, puis se relèvent.</stage>
+            <stage type="business" xml:id="fra-stage-000171">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000172">Entrent <seg rend="sc">Palémon</seg> et ses chevaliers. Ils se prestement devant l’autel de Vénus, puis se relèvent.</stage>
           </sp>
           <sp xml:id="fra-sp-000683">
             <speaker>palémon.</speaker>
@@ -5776,7 +5777,7 @@ magnanime noblesse fait de ma cause — votre hasard personnel !
 À la déesse Vénus — recommandons notre entreprise,
 et implorons — sa protection pour notre parti.
 </p>
-            <stage type="business" xml:id="fra-stage-000172">Ils s’agenouillent.</stage>
+            <stage type="business" xml:id="fra-stage-000173">Ils s’agenouillent.</stage>
             <p xml:id="fra-p-000743">— Salut, reine souveraine des secrets, toi qui as le pouvoir
 — d’arracher à sa furie le plus farouche tyran — pour le
 jeter pleurant aux pieds d’une fille, toi qui peux — avec une
@@ -5828,7 +5829,7 @@ tendre déesse, — donne-moi la victoire dans
 cette lutte où se débat — le mérite (lu véritable amour, et
 honore-moi d’un signe — de ta haute faveur.
 </p>
-            <stage type="business" xml:id="fra-stage-000173">Ici on entend une musique, et l’on voit voltiger des colombes. Tous se prestement la face contre terre, puis se mettent à genoux.</stage>
+            <stage type="business" xml:id="fra-stage-000174">Ici on entend une musique, et l’on voit voltiger des colombes. Tous se prestement la face contre terre, puis se mettent à genoux.</stage>
             <p xml:id="fra-p-000744">— Ô toi qui règnes sur les cœurs mortels — de onze à
 quatre-vingt-dix ans, toi qui as pour parc ce monde — et
 nos hordes pour gibier, je te remercie — de ce gage propice !
@@ -5837,8 +5838,8 @@ tout entier d’assurance — pour cette entreprise. Relevons-nous,
 et — inclinons-nous devant la déesse ! Le temps
 marche.
 </p>
-            <stage type="business" xml:id="fra-stage-000174">Ils s’inclinent et sortent.</stage>
-            <stage type="business" xml:id="fra-stage-000175">Doux accords de flageolets. Entre <seg rend="sc">Émilie</seg>, les cheveux sur les épaules ; sur la tête une guirlande d’épis ; une jeune fille en blanc, ayant des fleurs dans les cheveux, tient la queue de sa robe ; une autre porte devant elle un encensoir d’argent, en forme de biche, remplie d’encens et de parfums, qu’elle dépose sur l’autel ; elle se retire ; Émilie y met te feu ; puis toutes s’inclinent et s’agenouillent.</stage>
+            <stage type="business" xml:id="fra-stage-000175">Ils s’inclinent et sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000176">Doux accords de flageolets. Entre <seg rend="sc">Émilie</seg>, les cheveux sur les épaules ; sur la tête une guirlande d’épis ; une jeune fille en blanc, ayant des fleurs dans les cheveux, tient la queue de sa robe ; une autre porte devant elle un encensoir d’argent, en forme de biche, remplie d’encens et de parfums, qu’elle dépose sur l’autel ; elle se retire ; Émilie y met te feu ; puis toutes s’inclinent et s’agenouillent.</stage>
           </sp>
           <sp xml:id="fra-sp-000684">
             <speaker>émilie.</speaker>
@@ -5865,7 +5866,7 @@ qui m’aime le mieux — et qui a le plus de titres,
 que celui-là — m’enlève ma couronne d’épis ; sinon, permets
 — que je conserve dans ta légion — mon rang et ma dignité.
 </p>
-            <stage type="business" xml:id="fra-stage-000176">Ici l’encensoir disparaît sous l’autel, et à la place s’élève un rosier
+            <stage type="business" xml:id="fra-stage-000177">Ici l’encensoir disparaît sous l’autel, et à la place s’élève un rosier
 portant une seule rose.</stage>
             <p xml:id="fra-p-000746">— Voyez ce que la souveraine du flux et du reflux — fait
 surgir par sa sainte puissance — des entrailles même de son
@@ -5873,7 +5874,7 @@ autel sacré ! Rien qu’une rose ! — Si je suis bien inspirée,
 ce combat sera la ruine — de ces deux braves chevaliers,
 et moi, fleur vierge, — je croîtrai solitaire sur ma tige.
 </p>
-            <stage type="business" xml:id="fra-stage-000177">Ici des instruments font entendre un son aigu, et la rose tombe
+            <stage type="business" xml:id="fra-stage-000178">Ici des instruments font entendre un son aigu, et la rose tombe
 de l’arbre.</stage>
             <p xml:id="fra-p-000747">— La fleur est tombée ; — l’arbre descend ! Ô maîtresse, —
 voilà que tu me congédies ; je serai cueillie, — je le crois ;
@@ -5881,13 +5882,13 @@ je ne connais pas ton intime volonté ; — démasque ton
 mystère !… J’espère qu’elle est satisfaite ; — ses signes
 étaient favorables.
 </p>
-            <stage type="business" xml:id="fra-stage-000178">Elles saluent et sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000179">Elles saluent et sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="2" xml:id="fra-div-000029">
           <head>SCÈNE II.</head>
-          <stage type="business" xml:id="fra-stage-000179">[La prison.]</stage>
-          <stage type="business" xml:id="fra-stage-000180">Entrent <seg rend="sc">le docteur</seg>, <seg rend="sc">le geôlier</seg>. et <seg rend="sc">le galant</seg>, habillé comme Palémon.</stage>
+          <stage type="business" xml:id="fra-stage-000180">[La prison.]</stage>
+          <stage type="business" xml:id="fra-stage-000181">Entrent <seg rend="sc">le docteur</seg>, <seg rend="sc">le geôlier</seg>. et <seg rend="sc">le galant</seg>, habillé comme Palémon.</stage>
           <sp xml:id="fra-sp-000685">
             <speaker>le docteur.</speaker>
             <p xml:id="fra-p-000748">— Le conseil que je vous ai donné lui a-t-il fait du
@@ -5996,7 +5997,7 @@ devant elle.
             <p xml:id="fra-p-000765">Je vais lui dire — que son Palémon l’attend. Mais, docteur,
 — il me semble que vous avez tort pourtant.
 </p>
-            <stage type="business" xml:id="fra-stage-000181">Il sort.</stage>
+            <stage type="business" xml:id="fra-stage-000182">Il sort.</stage>
           </sp>
           <sp xml:id="fra-sp-000703">
             <speaker>le docteur.</speaker>
@@ -6046,11 +6047,11 @@ monsieur ?
             <speaker>le docteur.</speaker>
             <p xml:id="fra-p-000774">— Vous verrez. La voici ; je vous en prie, accommodez-la.
 </p>
-            <stage type="business" xml:id="fra-stage-000182">Entrent <seg rend="sc">le geôlier</seg>, <seg rend="sc">la fille du geôlier</seg> et une compagne.</stage>
+            <stage type="business" xml:id="fra-stage-000183">Entrent <seg rend="sc">le geôlier</seg>, <seg rend="sc">la fille du geôlier</seg> et une compagne.</stage>
           </sp>
           <sp xml:id="fra-sp-000712">
             <speaker>le geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000183">, à sa fille.</stage>
+            <stage type="business" xml:id="fra-stage-000184">, à sa fille.</stage>
             <p xml:id="fra-p-000775">— Venez ; votre amoureux Palémon vous attend, mon
 enfant ; — et voilà déjà une grande heure qu’il est ici pour
 vous voir.
@@ -6164,7 +6165,7 @@ d’un meunier ; il causera sa mort.
           </sp>
           <sp xml:id="fra-sp-000731">
             <speaker>le geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000184">, à sa fille.</stage>
+            <stage type="business" xml:id="fra-stage-000185">, à sa fille.</stage>
             <p xml:id="fra-p-000794">— Faites la révérence ; voici votre amoureux qui s’avance.
 </p>
           </sp>
@@ -6187,7 +6188,7 @@ d’ici au bout du monde, mes maîtres ?
           </sp>
           <sp xml:id="fra-sp-000735">
             <speaker>la fille du geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000185">, au galant.</stage>
+            <stage type="business" xml:id="fra-stage-000186">, au galant.</stage>
             <p xml:id="fra-p-000798">Voulez-vous y aller avec moi ?
 </p>
           </sp>
@@ -6250,17 +6251,17 @@ n’ai rien — que cette pauvre jupe et deux grosses chemises.
             <speaker>le galant.</speaker>
             <p xml:id="fra-p-000809">Quand vous voudrez.
 </p>
-            <stage type="business" xml:id="fra-stage-000186">Il l’embrasse.</stage>
+            <stage type="business" xml:id="fra-stage-000187">Il l’embrasse.</stage>
           </sp>
           <sp xml:id="fra-sp-000747">
             <speaker>le geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000187">, au galant.</stage>
+            <stage type="business" xml:id="fra-stage-000188">, au galant.</stage>
             <p xml:id="fra-p-000810">— Ah ! messire, vous êtes bien gourmand.
 </p>
           </sp>
           <sp xml:id="fra-sp-000748">
             <speaker>le galant</speaker>
-            <stage type="business" xml:id="fra-stage-000188">, à la fille du geôlier.</stage>
+            <stage type="business" xml:id="fra-stage-000189">, à la fille du geôlier.</stage>
             <p xml:id="fra-p-000811">— Pourquoi essuyez-vous mon baiser ?
 </p>
           </sp>
@@ -6288,7 +6289,7 @@ Palémon — ait fait un si bon choix.
           </sp>
           <sp xml:id="fra-sp-000753">
             <speaker>la fille du geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000189">, au geôlier.</stage>
+            <stage type="business" xml:id="fra-stage-000190">, au geôlier.</stage>
             <p xml:id="fra-p-000816">Et vous, le croyez-vous aussi ?
 </p>
           </sp>
@@ -6306,7 +6307,7 @@ Hélas ! pauvre poulet, — on l’a bien fait pâlir avec la maigre
 chère et le mauvais logement, — mais je le rétablirai à force
 de baisers.
 </p>
-            <stage type="business" xml:id="fra-stage-000190">Entre un <seg rend="sc">messager</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000191">Entre un <seg rend="sc">messager</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000756">
             <speaker>le messager.</speaker>
@@ -6337,7 +6338,7 @@ cette joute.
           </sp>
           <sp xml:id="fra-sp-000761">
             <speaker>le geôlier</speaker>
-            <stage type="business" xml:id="fra-stage-000191">, montrant sa fille au docteur.</stage>
+            <stage type="business" xml:id="fra-stage-000192">, montrant sa fille au docteur.</stage>
             <p xml:id="fra-p-000824">Comment l’avez-vous trouvée ?
 </p>
           </sp>
@@ -6346,7 +6347,7 @@ cette joute.
             <p xml:id="fra-p-000825">— Je vous garantis que dans trois ou quatre jours — je
 l’aurai rétablie.
 </p>
-            <stage type="business" xml:id="fra-stage-000192">Au galant.</stage>
+            <stage type="business" xml:id="fra-stage-000193">Au galant.</stage>
             <p xml:id="fra-p-000826">Vous, vous ne devez pas la quitter ; — entretenez-la
 toujours dans ce sens-là. <seg/>
 </p>
@@ -6363,7 +6364,7 @@ toujours dans ce sens-là. <seg/>
           </sp>
           <sp xml:id="fra-sp-000765">
             <speaker>la galant</speaker>
-            <stage type="business" xml:id="fra-stage-000193">, à la fille du geôlier.</stage>
+            <stage type="business" xml:id="fra-stage-000194">, à la fille du geôlier.</stage>
             <p xml:id="fra-p-000829">— Venez, mignonne, nous allons dîner ; — et puis nous
 jouerons aux cartes.
 </p>
@@ -6395,13 +6396,13 @@ jouerons aux cartes.
           </sp>
           <sp xml:id="fra-sp-000771">
             <speaker>le docteur</speaker>
-            <stage type="business" xml:id="fra-stage-000194">, au galant.</stage>
+            <stage type="business" xml:id="fra-stage-000195">, au galant.</stage>
             <p xml:id="fra-p-000835">Acceptez son offre.
 </p>
           </sp>
           <sp xml:id="fra-sp-000772">
             <speaker>le galant</speaker>
-            <stage type="business" xml:id="fra-stage-000195">, à la fille du geôlier.</stage>
+            <stage type="business" xml:id="fra-stage-000196">, à la fille du geôlier.</stage>
             <p xml:id="fra-p-000836">— Oui, certes.
 </p>
           </sp>
@@ -6419,13 +6420,13 @@ jouerons aux cartes.
             <speaker>la fille du geôlier.</speaker>
             <p xml:id="fra-p-000839">Si vous me faites mal, amour, je crierai.
 </p>
-            <stage type="business" xml:id="fra-stage-000196">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000197">Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="3" xml:id="fra-div-000030">
           <head>SCÈNE III.</head>
-          <stage type="business" xml:id="fra-stage-000197">[Le vestibule du palais ducal.]</stage>
-          <stage type="business" xml:id="fra-stage-000198">Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Émilie</seg>, <seg rend="sc">Pirithoüs</seg> et leur suite.</stage>
+          <stage type="business" xml:id="fra-stage-000198">[Le vestibule du palais ducal.]</stage>
+          <stage type="business" xml:id="fra-stage-000199">Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Émilie</seg>, <seg rend="sc">Pirithoüs</seg> et leur suite.</stage>
           <sp xml:id="fra-sp-000776">
             <speaker>émilie.</speaker>
             <p xml:id="fra-p-000840">— Je n’irai pas plus loin. <seg/>
@@ -6450,7 +6451,7 @@ mes regards — du terrible spectacle qu’ils peuvent éviter.
           </sp>
           <sp xml:id="fra-sp-000779">
             <speaker>PIRITHOÜS</speaker>
-            <stage type="business" xml:id="fra-stage-000199">, à Thésée.</stage>
+            <stage type="business" xml:id="fra-stage-000200">, à Thésée.</stage>
             <p xml:id="fra-p-000843">Sire, mon bon seigneur, — votre sœur ne veut pas aller
 plus loin.
 </p>
@@ -6460,7 +6461,7 @@ plus loin.
             <p xml:id="fra-p-000844">Oh ! elle le doit. — Elle verra dans leur réalité des exploits
 glorieux — qui feront merveille un jour, rien qu’en peinture.
 </p>
-            <stage type="business" xml:id="fra-stage-000200">À Émilie.</stage>
+            <stage type="business" xml:id="fra-stage-000201">À Émilie.</stage>
             <p xml:id="fra-p-000845">En présence de ce drame — que la nature elle-même
 va composer et jouer, la conviction — doit être scellée à la
 fois de la vue et de l’ouïe. Il faut que vous soyez présente.
@@ -6529,7 +6530,7 @@ mari avant vous-même, — dans l’éclair d’un instant. Celui
 des deux que les dieux — reconnaissent pour le plus digne,
 je les prie — de vous l’accorder.
 </p>
-            <stage type="business" xml:id="fra-stage-000201">Sortent Thésée, Hippolyte, Pirithoüs, etc.</stage>
+            <stage type="business" xml:id="fra-stage-000202">Sortent Thésée, Hippolyte, Pirithoüs, etc.</stage>
           </sp>
           <sp xml:id="fra-sp-000790">
             <speaker>èmilie.</speaker>
@@ -6547,7 +6548,7 @@ triste — et la tristesse gai. Ces humeurs sombres qui —
 s’attachent si fâcheusement à d’autres, en lui — demeurent
 gracieuses.
 </p>
-            <stage type="business" xml:id="fra-stage-000202">Fanfares de cors. Les trompettes sonnent la charge.</stage>
+            <stage type="business" xml:id="fra-stage-000203">Fanfares de cors. Les trompettes sonnent la charge.</stage>
             <p xml:id="fra-p-000856">— Écoutez comme ces éperons de la vaillance excitent
 — les princes à l’épreuve ! Arcite peut m’obtenir ; — et
 pourtant Palémon peut blesser Arcite jusqu’à — déparer
@@ -6560,8 +6561,8 @@ même ; il vaut beaucoup mieux — que je ne sois pas là.
 Oh ! mieux vaudrait n’être jamais née — qu’être la cause
 d’un pareil malheur.
 </p>
-            <stage type="business" xml:id="fra-stage-000203">Fanfares. On crie : Vive Palémon ! </stage>
-            <stage type="business" xml:id="fra-stage-000204">Entre <seg rend="sc">un serviteur</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000204">Fanfares. On crie : Vive Palémon ! </stage>
+            <stage type="business" xml:id="fra-stage-000205">Entre <seg rend="sc">un serviteur</seg>.</stage>
             <p xml:id="fra-p-000857">Qui à l’avantage ?
 </p>
           </sp>
@@ -6577,7 +6578,7 @@ le triomphe et le succès, et il est — sans aucun
 doute le premier des hommes… Je t’en prie, cours — et
 rapporte-moi ce qui se passe.
 </p>
-            <stage type="business" xml:id="fra-stage-000205">Fanfares. Cris de : Vive Palémon ! </stage>
+            <stage type="business" xml:id="fra-stage-000206">Fanfares. Cris de : Vive Palémon ! </stage>
           </sp>
           <sp xml:id="fra-sp-000793">
             <speaker>le serviteur.</speaker>
@@ -6588,8 +6589,8 @@ rapporte-moi ce qui se passe.
             <speaker>émilie.</speaker>
             <p xml:id="fra-p-000861">— Cours et informe-toi.
 </p>
-            <stage type="business" xml:id="fra-stage-000206">Le serviteur sort.</stage>
-            <stage type="business" xml:id="fra-stage-000207">Elle tire de son sein le portrait d’Arcite et le regarde.</stage>
+            <stage type="business" xml:id="fra-stage-000207">Le serviteur sort.</stage>
+            <stage type="business" xml:id="fra-stage-000208">Elle tire de son sein le portrait d’Arcite et le regarde.</stage>
             <p xml:id="fra-p-000862">Tu as donc perdu, mon pauvre serviteur ! — J’ai constamment
 porté ton portrait à ma droite, — celui de Palémon
 à gauche. Pourquoi ? Je ne sais pas ; — je n’avais pas
@@ -6597,11 +6598,11 @@ de but en les plaçant ainsi ; c’est le hasard qui l’a voulu.
 — Du côté gauche est le cœur : Palémon — avait la meilleure
 chance.
 </p>
-            <stage type="business" xml:id="fra-stage-000208">Acclamations et cris. Fanfare de cors.</stage>
+            <stage type="business" xml:id="fra-stage-000209">Acclamations et cris. Fanfare de cors.</stage>
             <p xml:id="fra-p-000863">Cette explosion de clameurs — est assurément la fin du
 combat.
 </p>
-            <stage type="business" xml:id="fra-stage-000209">Rentre <seg rend="sc">le serviteur</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000210">Rentre <seg rend="sc">le serviteur</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000795">
             <speaker>le serviteur.</speaker>
@@ -6621,7 +6622,7 @@ la noblesse spéciale à chacun d’eux donne déjà — le désavantage
 de l’infériorité et de l’insuffisance — à toute femme
 existante.
 </p>
-            <stage type="business" xml:id="fra-stage-000210">Fanfare. Cris de : Vive Arcite ! </stage>
+            <stage type="business" xml:id="fra-stage-000211">Fanfare. Cris de : Vive Arcite ! </stage>
             <p xml:id="fra-p-000866">Nouvelle ovation ! — Est-ce toujours Palémon ?
 </p>
           </sp>
@@ -6635,7 +6636,7 @@ existante.
             <p xml:id="fra-p-000868">— Je t’en prie, fais attention aux cris. — Tiens les deux
 oreilles aux écoutes.
 </p>
-            <stage type="business" xml:id="fra-stage-000211">Fanfare. Acclamations. Cris de : Arcite ! Victoire ! </stage>
+            <stage type="business" xml:id="fra-stage-000212">Fanfare. Acclamations. Cris de : Arcite ! Victoire ! </stage>
           </sp>
           <sp xml:id="fra-sp-000799">
             <speaker>le serviteur.</speaker>
@@ -6657,7 +6658,7 @@ ne savais pas — pourquoi je croyais cela. Notre raisonnement
 n’est pas prophète, — tandis que notre fantaisie l’est
 souvent. Les voici qui arrivent… — Hélas ! pauvre Palémon !
 </p>
-            <stage type="business" xml:id="fra-stage-000212">Fanfare. Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Pirithoüs</seg>, <seg rend="sc">Arcite</seg> vainqueur,
+            <stage type="business" xml:id="fra-stage-000213">Fanfare. Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Pirithoüs</seg>, <seg rend="sc">Arcite</seg> vainqueur,
 et la suite.</stage>
           </sp>
           <sp xml:id="fra-sp-000801">
@@ -6696,7 +6697,7 @@ pouvait être juge entre les deux. Longtemps — il en a été
 de même entre ces cousins, et c’est à grand’peine qu’enfin
 les cieux — ont fait de l’un d’eux le vainqueur.
 </p>
-            <stage type="business" xml:id="fra-stage-000213">À Arcite.</stage>
+            <stage type="business" xml:id="fra-stage-000214">À Arcite.</stage>
             <p xml:id="fra-p-000874">Portez avec joie — la couronne que vous avez gagnée.
 Quant aux vaincus, — appliquez-leur immédiatement notre
 sentence, car je sais — que la vie leur est à charge ; que l’arrêt
@@ -6728,13 +6729,13 @@ d’aveuglés !
             <speaker>thésée.</speaker>
             <p xml:id="fra-p-000877">Il en doit être ainsi.
 </p>
-            <stage type="business" xml:id="fra-stage-000214">Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000215">Ils sortent.</stage>
           </sp>
         </div>
         <div type="scene" n="4" xml:id="fra-div-000031">
           <head>SCÈNE IV.</head>
-          <stage type="business" xml:id="fra-stage-000215">[La place de l’exécution. Un billot préparé.]</stage>
-          <stage type="business" xml:id="fra-stage-000216">Entrent <seg rend="sc">Palémon</seg> et ses <seg rend="sc">chevaliers</seg> garrottés, <seg rend="sc">le geôlier</seg>, le bourreau et des gardes.</stage>
+          <stage type="business" xml:id="fra-stage-000216">[La place de l’exécution. Un billot préparé.]</stage>
+          <stage type="business" xml:id="fra-stage-000217">Entrent <seg rend="sc">Palémon</seg> et ses <seg rend="sc">chevaliers</seg> garrottés, <seg rend="sc">le geôlier</seg>, le bourreau et des gardes.</stage>
           <sp xml:id="fra-sp-000807">
             <speaker>palémon.</speaker>
             <p xml:id="fra-p-000878">— Il y a bien des hommes vivants qui ont survécu — à
@@ -6769,7 +6770,7 @@ l’emportent pas sur nous — d’un atome d’honneur.
           </sp>
           <sp xml:id="fra-sp-000810">
             <speaker>TROISIÈME CHEVALIER</speaker>
-            <stage type="business" xml:id="fra-stage-000217">, désignant le billot.</stage>
+            <stage type="business" xml:id="fra-stage-000218">, désignant le billot.</stage>
             <p xml:id="fra-p-000881">Allons, qui commence ?
 </p>
           </sp>
@@ -6778,7 +6779,7 @@ l’emportent pas sur nous — d’un atome d’honneur.
             <p xml:id="fra-p-000882">— Celui-là même qui vous a conduits à ce banquet, doit
 — y goûter avant vous tous.
 </p>
-            <stage type="business" xml:id="fra-stage-000218">Au geôlier.</stage>
+            <stage type="business" xml:id="fra-stage-000219">Au geôlier.</stage>
             <p xml:id="fra-p-000883">Ah ! ah ! mon ami, mon ami, — votre charmante fille
 m’a donné un jour la liberté ; — vous allez me la voir perdre
 pour toujours… Comment va-t-elle, je vous prie ? —
@@ -6799,7 +6800,7 @@ aise. Ce sera le dernier bonheur — dont je me serai réjoui ;
 je t’en prie, dis-lui cela ; — recommande-moi à elle, et,
 pour arrondir sa dot, — offre-lui ceci.
 </p>
-            <stage type="business" xml:id="fra-stage-000219">Il lui donne sa bourse.</stage>
+            <stage type="business" xml:id="fra-stage-000220">Il lui donne sa bourse.</stage>
           </sp>
           <sp xml:id="fra-sp-000814">
             <speaker>premier chevalier.</speaker>
@@ -6822,7 +6823,7 @@ m’a rendu des services — que je ne puis payer ni apprécier
             <speaker>tous les chevaliers.</speaker>
             <p xml:id="fra-p-000889">— Faites-lui nos compliments.
 </p>
-            <stage type="business" xml:id="fra-stage-000220">Ils donnent leurs bourses au geôlier.</stage>
+            <stage type="business" xml:id="fra-stage-000221">Ils donnent leurs bourses au geôlier.</stage>
           </sp>
           <sp xml:id="fra-sp-000818">
             <speaker>le geôlier.</speaker>
@@ -6835,7 +6836,7 @@ reconnaissante !
             <p xml:id="fra-p-000891">Adieu ! et puisse ma vie être maintenant aussi courte —
 que ce salut suprême !
 </p>
-            <stage type="business" xml:id="fra-stage-000221">Il se place sur le billot.</stage>
+            <stage type="business" xml:id="fra-stage-000222">Il se place sur le billot.</stage>
           </sp>
           <sp xml:id="fra-sp-000820">
             <speaker>premier chevalier.</speaker>
@@ -6849,13 +6850,13 @@ que ce salut suprême !
             <p xml:id="fra-p-000894">Cris derrière le théâtre.</p>
             <p xml:id="fra-p-000895">Vite !… Sauvez-les !… Arrêtez !
 </p>
-            <stage type="business" xml:id="fra-stage-000222">Entre en hâte <seg rend="sc">un messager</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000223">Entre en hâte <seg rend="sc">un messager</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000822">
             <speaker>le messager.</speaker>
             <p xml:id="fra-p-000896">Arrêtez, arrêtez ! Oh ! arrêtez, arrêtez, arrêtez !
 </p>
-            <stage type="business" xml:id="fra-stage-000223">Entre en hâte <seg rend="sc">Pirithoüs</seg>.</stage>
+            <stage type="business" xml:id="fra-stage-000224">Entre en hâte <seg rend="sc">Pirithoüs</seg>.</stage>
           </sp>
           <sp xml:id="fra-sp-000823">
             <speaker>pirithoüs.</speaker>
@@ -6919,7 +6920,7 @@ du vainqueur — lui tombe alors de la tête, et immédiatement
 encore, — mais il est comme le vaisseau qui ne flotte que <seg/>pour être englouti — par la prochaine lame. Il désire beaucoup
 échanger avec vous quelques mots. Tenez, le voici !
 </p>
-            <stage type="business" xml:id="fra-stage-000224">Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Émilie</seg>, <seg rend="sc">Arcite</seg>, porté dans une chaise.</stage>
+            <stage type="business" xml:id="fra-stage-000225">Entrent <seg rend="sc">Thésée</seg>, <seg rend="sc">Hippolyte</seg>, <seg rend="sc">Émilie</seg>, <seg rend="sc">Arcite</seg>, porté dans une chaise.</stage>
           </sp>
           <sp xml:id="fra-sp-000828">
             <speaker>palémon.</speaker>
@@ -6937,10 +6938,10 @@ Tends-moi la main ; — adieu ! J’ai compté ma dernière
 heure. J’ai été infidèle, — mais jamais traître. Pardonne-moi,
 cousin ! — Un baiser de la belle Émilie !
 </p>
-            <stage type="business" xml:id="fra-stage-000225">Il l’embrasse.</stage>
+            <stage type="business" xml:id="fra-stage-000226">Il l’embrasse.</stage>
             <p xml:id="fra-p-000904">C’est fait. — Prends-la, je meurs.
 </p>
-            <stage type="business" xml:id="fra-stage-000226">Il expire.</stage>
+            <stage type="business" xml:id="fra-stage-000227">Il expire.</stage>
           </sp>
           <sp xml:id="fra-sp-000830">
             <speaker>palémon.</speaker>
@@ -6965,7 +6966,7 @@ et, tant que je vivrai, — je consacrerai ce jour à te pleurer.
 première fois ; c’est ici même — que je vous ai séparés.
 Rendons grâces — aux dieux de ce que vous vivez.
 </p>
-            <stage type="business" xml:id="fra-stage-000227">Montrant Arcite.</stage>
+            <stage type="business" xml:id="fra-stage-000228">Montrant Arcite.</stage>
             <p xml:id="fra-p-000909">— Il a joué son rôle, et, bien que trop court, — il l’a
 bien rempli. Votre existence est prolongée, et — la rosée des
 bénédictions du ciel vous inonde. — La puissante Vénus
@@ -7009,7 +7010,7 @@ reconnaissants — de ce qui est, et abandonnons à votre
 arbitrage — ce qui est au-dessus de nos discussions ! Partons,
 — et conformons-nous aux circonstances.
 </p>
-            <stage type="business" xml:id="fra-stage-000228">Fanfare. Ils sortent.</stage>
+            <stage type="business" xml:id="fra-stage-000229">Fanfare. Ils sortent.</stage>
           </sp>
         </div>
       </div>

@@ -23,6 +23,40 @@
       6,
       3,
       4
+    ],
+    "collated_corrections": [
+      {
+        "location": "Prologue, printed pages 231–232",
+        "transcription": "pensée sable",
+        "corrected": "pensée irréalisable",
+        "reason": "The transcription omitted irréali- at the end of printed page 231."
+      },
+      {
+        "location": "Act I scene I, printed page 233",
+        "transcription": ":::::::: Le cortége jette des fleurs.",
+        "corrected": "Le cortége jette des fleurs.",
+        "reason": "Literal wiki indentation colons are absent from the scan; encode the text as a stage direction interrupting the song."
+      }
+    ],
+    "collation_scans": [
+      {
+        "printed_page": 231,
+        "snapshot": "sources/shakespeare/collation-page231.jpg",
+        "sha256": "2196315c75617a0a3372d46501b9a95a48b04a1e2c74ce850681a8da99a8030c",
+        "url": "https://fr.wikisource.org/wiki/Page:Shakespeare,_apocryphes_-_Œuvres_complètes,_traduction_Hugo,_Pagnerre,_1866,_tome_1.djvu/229"
+      },
+      {
+        "printed_page": 232,
+        "snapshot": "sources/shakespeare/collation-page232.jpg",
+        "sha256": "5fea2f45fd94b5df20b1f5ace840e5430bc06fadb0502dd78fa55e7da37b999a",
+        "url": "https://fr.wikisource.org/wiki/Page:Shakespeare,_apocryphes_-_Œuvres_complètes,_traduction_Hugo,_Pagnerre,_1866,_tome_1.djvu/230"
+      },
+      {
+        "printed_page": 233,
+        "snapshot": "sources/shakespeare/collation-page233.jpg",
+        "sha256": "0ba7f049c2ba142c7245a7b249eb017a2c15379fb48ccb3d74c26e87d4de19f7",
+        "url": "https://fr.wikisource.org/wiki/Page:Shakespeare,_apocryphes_-_Œuvres_complètes,_traduction_Hugo,_Pagnerre,_1866,_tome_1.djvu/231"
+      }
     ]
   }
 ]

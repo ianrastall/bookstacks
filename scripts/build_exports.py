@@ -477,13 +477,23 @@ class LatexRenderer:
                 "\\end{bookstacksstage}"
             ) if content else ""
         if name == "lg":
-            # Stanzas can themselves be line groups; retain their order and
-            # separation rather than dropping every nested line.
-            if any(local_name(child) == "lg" for child in node):
-                return "\n\\smallskip\n".join(
-                    self.render_block(child, depth) for child in node
-                    if local_name(child) in {"l", "lg"}
-                )
+            # A song can be interrupted by directions or contain nested stanzas.
+            # Flush each run of verse before rendering the intervening block.
+            if any(local_name(child) != "l" for child in node):
+                parts: list[str] = []
+                run: list[str] = []
+                def flush_verse() -> None:
+                    if run:
+                        parts.append("\\begin{verse}\n" + " \\\\\n".join(run) + "\n\\end{verse}")
+                        run.clear()
+                for child in node:
+                    if local_name(child) == 'l':
+                        if content := self.inline_content(child).strip(): run.append(content)
+                    else:
+                        flush_verse()
+                        parts.append(self.render_block(child, depth))
+                flush_verse()
+                return '\n\\smallskip\n'.join(part for part in parts if part)
             lines = [content for line in direct_children(node, "l") if (content := self.inline_content(line).strip())]
             return "\\begin{verse}\n" + " \\\\\n".join(lines) + "\n\\end{verse}" if lines else ""
         if name == "l":
