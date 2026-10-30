@@ -6,6 +6,11 @@ translation is wrong or that engagement represents reading.
 
 ## Existing workflow
 
+Follow-up: the [Shakespeare collection record](shakespeare-collections.md)
+supersedes this first pass's acquisition status. The French set now contains
+all 38 checklist plays; Spanish remains incomplete. Counts below describe the
+initial review before that addition.
+
 Literary translations are imported from identified editions into separate
 canonical TEI files. They retain their translators, source hierarchies, notes,
 language identities and reader routes. This differs from translating interface
@@ -71,6 +76,9 @@ translation is imported in this first review.
    The [BnF Ritz record](https://catalogue.bnf.fr/ark:/12148/cb34684124v)
    describes a 1982 translation; it is bibliographic evidence, not reuse
    permission. Do not invent a Guizot edition to fill the gap.
+   **Resolved in the follow-up:** Hugo's 1866 complete translation was found
+   and imported with its own attribution, structure and notes; see the
+   collection record above.
 
 For each acquisition, pin the reviewed source and provenance, verify all
 literary blocks/notes and structural boundaries, validate TEI, then check its

@@ -117,6 +117,13 @@ python tei/build_spanish_austen_epubs.py --source-dir assets/source-epub --outpu
   Five accompanying poetry volumes—*Venus and Adonis*, *The Rape of Lucrece*,
   *A Lover's Complaint*, the *Sonnets*, and *The Passionate Pilgrim*—are
   explicitly excluded because they are not plays.
+- The French set is completed by Hugo's *Les Deux Nobles Parents* (*The Two
+  Noble Kinsmen*), imported independently from a committed, source-pinned
+  Wikisource snapshot. It retains Shakespeare/Fletcher authorship and Hugo's
+  notes. Rebuild with `python tei/build_wikisource_shakespeare.py`, or add
+  `--verify-only` to check reproducibility without writing. See
+  [the collection record](../docs/shakespeare-collections.md) for the complete
+  language checklist and Spanish acquisition work.
 - Seven Henry James novels are generated from the root-level
   `james-henry_*_en.xml` files. Their volume, book, chapter, preface, paragraph,
   poetry, inline typography, and source metadata structures are retained.

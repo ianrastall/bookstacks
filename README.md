@@ -76,6 +76,8 @@ Bookstacks keeps two kinds of language separate.
 
 See the [translation review and acquisition queue](docs/translation-review.md)
 for the October traffic-led checks, corrections and remaining source gaps.
+The [Shakespeare collection record](docs/shakespeare-collections.md) tracks the
+complete English and French 38-play sets and the remaining Spanish gaps.
 
 - **Edition language** is the language of a literary text: English, French, Spanish, Ancient Greek, Russian or Simplified Chinese. Reading routes begin with it (`/fr/authors/...`). It is edition metadata and an optional catalogue filter.
 - **Interface language** is the language of the site's controls. Forty interface locales are available: Arabic, Bengali, Czech, Danish, German, Modern Greek, English, Spanish, Persian, Finnish, Filipino, French, Ancient Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Marathi, Malay, Norwegian Bokmål, Dutch, Polish, Portuguese (Brazil and Portugal), Romanian, Russian, Swedish, Swahili, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Simplified and Traditional Chinese.

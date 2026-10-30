@@ -13,6 +13,16 @@ class ScarletExportTests(unittest.TestCase):
     def setUp(self):
         self.edition = exports.parse_edition(ROOT / "tei/doyle/doyle_a-study-in-scarlet_eng.xml")
 
+    def test_collaborator_translator_and_source_survive_drama_export(self):
+        edition = exports.parse_edition(ROOT / 'tei/shakespeare/shakespeare_the-two-noble-kinsmen_fra.xml')
+        self.assertIn('William Shakespeare', edition.author)
+        self.assertIn('John Fletcher', edition.author)
+        self.assertEqual(edition.translator, 'François-Victor Hugo')
+        self.assertIn('Pagnerre', edition.source_citation)
+        self.assertIn('1866', edition.source_citation)
+        self.assertIn('oldid=15966643', edition.source_citation)
+        self.assertIn(r'\hyphenpenalty=10000', exports.cover_tex(edition))
+
     def test_nested_closing_verse_is_preserved(self):
         body = exports.LatexRenderer(self.edition).render()
         first = body.index("Populus me sibilat, at mihi plaudo")

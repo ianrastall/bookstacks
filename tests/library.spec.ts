@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 test.beforeEach(async({page})=>{await page.route('https://www.googletagmanager.com/**',r=>r.abort());await page.route('https://fonts.googleapis.com/**',r=>r.abort());});
 for(const locale of ['en','fr','es','grc','ru','zh-Hans']) test(`library, edition and reading workflow: ${locale}`,async({page})=>{
- const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/'+locale+'?ui='+locale);await expect(page.locator('html')).toHaveAttribute('lang',locale);await expect(page.locator('[data-book-row]')).toHaveCount(269);await page.locator('.library-nav a[href="/authors"]').click();await expect(page.locator('.author-card')).toHaveCount(20);
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/'+locale+'?ui='+locale);await expect(page.locator('html')).toHaveAttribute('lang',locale);await expect(page.locator('[data-book-row]')).toHaveCount(270);await page.locator('.library-nav a[href="/authors"]').click();await expect(page.locator('.author-card')).toHaveCount(20);
  for(const width of [1440,1024,768,390,320]){await page.setViewportSize({width,height:900});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`library overflow ${width}`).toBe(true);}
  await page.locator('.author-card').first().click();await page.locator('.book-card-main').first().click();await expect(page.locator('.toc-tree')).toBeVisible();await page.locator('.edition-actions a').first().click();await expect(page.locator('.reader-content')).toBeVisible();
  for(const width of [1440,1024,768,390,320]){await page.setViewportSize({width,height:900});await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),{message:`reader overflow ${width}`}).toBe(true);}
@@ -46,8 +46,8 @@ test('browser language selects the interface while all book languages remain vis
  const context=await browser.newContext({locale:'fr-CA'});const page=await context.newPage();
  await page.goto('http://127.0.0.1:4323/');await expect(page.locator('html')).toHaveAttribute('lang','fr');
  await expect(page.locator('h1')).toHaveText('Bibliothèque');await expect(page.locator('#book-language')).toHaveValue('');
- await expect(page.locator('[data-book-row]')).toHaveCount(269);await expect(page.locator('.library-languages')).toHaveCount(0);
- await page.locator('.library-nav a[href="/downloads"]').click();await expect(page.locator('h1')).toHaveText('Téléchargements');await expect(page.locator('[data-download-table] tbody tr')).toHaveCount(278);
+ await expect(page.locator('[data-book-row]')).toHaveCount(270);await expect(page.locator('.library-languages')).toHaveCount(0);
+ await page.locator('.library-nav a[href="/downloads"]').click();await expect(page.locator('h1')).toHaveText('Téléchargements');await expect(page.locator('[data-download-table] tbody tr')).toHaveCount(279);
  await context.close();
 });
 
@@ -107,7 +107,7 @@ test('browser preferences select interface locales beyond the edition languages'
   const context=await browser.newContext({locale:preference});const page=await context.newPage();
   await page.goto('http://127.0.0.1:4323/');await expect(page.locator('html')).toHaveAttribute('lang',locale);
   await expect(page.locator('h1')).toHaveText(heading);await expect(page.locator('#interface-language')).toHaveValue('auto');
-  await expect(page.locator('[data-book-row]')).toHaveCount(269);await context.close();
+  await expect(page.locator('[data-book-row]')).toHaveCount(270);await context.close();
  }
 });
 
@@ -127,7 +127,7 @@ test('right-to-left interfaces keep edition text left-to-right',async({page})=>{
 test('localized homepages for every interface locale work without JavaScript',async({browser})=>{
  const context=await browser.newContext({javaScriptEnabled:false});const page=await context.newPage();
  await page.goto('http://127.0.0.1:4323/de');await expect(page.locator('html')).toHaveAttribute('lang','de');await expect(page.locator('h1')).toHaveText('Bibliothek');
- expect(await page.locator('[data-book-row]').count()).toBe(269);
+ expect(await page.locator('[data-book-row]').count()).toBe(270);
  await page.goto('http://127.0.0.1:4323/ar');await expect(page.locator('html')).toHaveAttribute('dir','rtl');await expect(page.locator('h1')).toHaveText('المكتبة');
  await expect(page.locator('.book-title').first()).toHaveAttribute('dir','ltr');
  expect(await page.locator('link[rel="alternate"][hreflang]').count()).toBe(41);
@@ -144,13 +144,13 @@ test('page size combines with filters, restores from URL and remembers all langu
  await expect(page.locator('#book-page')).toHaveText('1 / 5');
  await page.reload();await expect(page.locator('#book-page-size')).toHaveValue('64');
  await page.locator('#book-page-size').selectOption('all');
- await expect(page.locator('[data-book-row]:visible')).toHaveCount(269);
+ await expect(page.locator('[data-book-row]:visible')).toHaveCount(270);
  await expect(page.locator('#book-pagination')).toBeHidden();
  await page.locator('#book-language').selectOption('zh-Hans');
  await expect(page.locator('[data-book-row]:visible')).toHaveCount(3);
  await page.locator('#book-language').selectOption('');await page.reload();
  await expect(page.locator('#book-language')).toHaveValue('');
- await expect(page.locator('[data-book-row]:visible')).toHaveCount(269);
+ await expect(page.locator('[data-book-row]:visible')).toHaveCount(270);
  await page.goto('/?language=all');await expect(page.locator('#book-page-size')).toHaveValue('all');
 });
 

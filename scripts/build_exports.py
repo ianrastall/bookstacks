@@ -306,8 +306,6 @@ def parse_edition(source: Path) -> Edition:
     root = ET.parse(source).getroot()
     title_stmt = first_descendant(root, "titleStmt")
     title_node = first_direct(title_stmt, "title") if title_stmt is not None else None
-    author_node = first_descendant(title_stmt, "author") if title_stmt is not None else None
-    author_name_node = first_descendant(author_node, "persName") if author_node is not None else None
     publication_stmt = first_descendant(root, "publicationStmt")
     availability_node = first_direct(publication_stmt, "availability") if publication_stmt is not None else None
     license_node = first_descendant(availability_node, "licence") if availability_node is not None else None
@@ -320,6 +318,19 @@ def parse_edition(source: Path) -> Edition:
         ),
         None,
     ) if title_stmt is not None else None
+    translator = element_text(translator_node)
+    if not translator and title_stmt is not None:
+        names = []
+        for responsibility in direct_children(title_stmt, 'respStmt'):
+            role = element_text(first_direct(responsibility, 'resp')).lower()
+            if 'translat' in role or 'traduction' in role:
+                names.extend(element_text(node) for node in direct_children(responsibility)
+                             if local_name(node) in {'name', 'persName', 'orgName'} and element_text(node))
+        translator = '; '.join(dict.fromkeys(names))
+    authors = [person_name_text(node) for node in direct_children(title_stmt, 'author')] if title_stmt is not None else []
+    author = canonical_author_text(author_slug, authors[0] if authors else author_slug.replace('_', ' ').title())
+    if len(authors) > 1:
+        author += '; ' + '; '.join(authors[1:])
     edition_stmt = first_descendant(root, "editionStmt")
     edition_node = first_descendant(edition_stmt, "edition") if edition_stmt is not None else None
     publication_date_node = first_direct(publication_stmt, "date") if publication_stmt is not None else None
@@ -346,12 +357,8 @@ def parse_edition(source: Path) -> Edition:
         locale=str(language["code"]),
         language_name=str(language["name"]),
         title=element_text(title_node) or work_slug.replace("-", " ").title(),
-        author=canonical_author_text(
-            author_slug,
-            person_name_text(author_name_node if author_name_node is not None else author_node)
-            or author_slug.replace("-", " ").title(),
-        ),
-        translator=element_text(translator_node),
+        author=author,
+        translator=translator,
         edition_statement=element_text(edition_node),
         publication_date=(
             element_text(publication_date_node)
@@ -735,7 +742,7 @@ def cover_tex(edition: Edition) -> str:
     ([xshift=.19\paperwidth,yshift=-.165\paperheight]current page.north west) circle (1.8pt);
   \node[anchor=west,align=left,text width=.65\paperwidth,text=booklight]
     at ([xshift=.19\paperwidth,yshift=.10\paperheight]current page.west)
-    {{\fontsize{{28}}{{33}}\selectfont {title}}};
+    {{\fontsize{{28}}{{33}}\selectfont\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000 {title}}};
   \draw[bookaccent,line width=.7pt]
     ([xshift=.19\paperwidth,yshift=-.045\paperheight]current page.west)
     -- ([xshift=.29\paperwidth,yshift=-.045\paperheight]current page.west);
