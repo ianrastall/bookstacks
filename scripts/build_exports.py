@@ -346,6 +346,9 @@ def parse_edition(source: Path) -> Edition:
             source_value = element_text(first_descendant(source_monograph, source_name))
             if source_value and source_value not in source_parts:
                 source_parts.append(source_value)
+        for note in direct_children(source_monograph, 'note'):
+            if note.get('type') == 'source-attribution' and (value := element_text(note)):
+                source_parts.append(value)
         for node in source_monograph.iter():
             link = node.get('target', '') if local_name(node) == 'ref' else element_text(node) if local_name(node) == 'idno' else ''
             if link.startswith(('https://', 'http://')) and link not in source_parts:
@@ -432,10 +435,17 @@ class LatexRenderer:
         name = local_name(node)
         if name == "head":
             return ""
+        if name == 'titlePage':
+            # Source title pages have their own page style, rather than inheriting
+            # the contents page's running head before the next front-matter unit.
+            content = self.render_container(node, depth)
+            return r'\thispagestyle{empty}\vspace*{\fill}\begin{center}' + '\n' + content + '\n' + r'\end{center}\vspace*{\fill}\clearpage'
         if name == "div":
             head = first_direct(node, "head")
             supplied_title = element_text(head)
             division_type = clean(node.get("subtype") or node.get("type")).lower()
+            if not supplied_title and division_type == 'publication-note':
+                supplied_title = {'es': 'Nota a esta edición digital', 'fr': 'Note sur cette édition numérique'}.get(self.edition.locale, 'Note on this digital edition')
             if not supplied_title and division_type in {"translation", "edition"}:
                 return self.render_container(node, depth)
             if not supplied_title and division_type not in SYNTHETIC_HEADING_TYPES:
@@ -515,6 +525,7 @@ class LatexRenderer:
             items = [
                 f"\\item {content}"
                 for item in direct_children(node, "castItem")
+                if 'oculto' not in item.get('ana', '').split()
                 if (content := self.inline_content(item).strip())
             ]
             listing = "\\begin{bookstackscast}\n" + "\n".join(items) + "\n\\end{bookstackscast}" if items else ""
@@ -669,7 +680,9 @@ class LatexRenderer:
         if name == "stage":
             return f"\\bookstacksinlinestage{{{content}}}"
         if name == "lb":
-            return r"\\"
+            # A movement cue can end the paragraph before a source line break.
+            # TeX cannot break a line while already in vertical mode.
+            return r"\ifhmode\\\fi{}"
         if name in {"pb", "milestone", "graphic", "fw", "metamark", "certainty", "shift"}:
             return ""
         if name == "gap":

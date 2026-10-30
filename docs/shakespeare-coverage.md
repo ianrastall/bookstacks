@@ -17,9 +17,9 @@
 | King Henry VI, Part 3 | [Read](https://bookstacks.org/en/authors/shakespeare/king-henry-vi-part-3) | [Read](https://bookstacks.org/fr/authors/shakespeare/king-henry-vi-part-3) | Pending |
 | King Henry VIII | [Read](https://bookstacks.org/en/authors/shakespeare/king-henry-viii) | [Read](https://bookstacks.org/fr/authors/shakespeare/king-henry-viii) | Pending |
 | King John | [Read](https://bookstacks.org/en/authors/shakespeare/king-john) | [Read](https://bookstacks.org/fr/authors/shakespeare/king-john) | Pending |
-| King Lear | [Read](https://bookstacks.org/en/authors/shakespeare/king-lear) | [Read](https://bookstacks.org/fr/authors/shakespeare/king-lear) | Pending |
+| King Lear | [Read](https://bookstacks.org/en/authors/shakespeare/king-lear) | [Read](https://bookstacks.org/fr/authors/shakespeare/king-lear) | [Read](https://bookstacks.org/es/authors/shakespeare/king-lear) |
 | King Richard II | [Read](https://bookstacks.org/en/authors/shakespeare/king-richard-ii) | [Read](https://bookstacks.org/fr/authors/shakespeare/king-richard-ii) | Pending |
-| King Richard III | [Read](https://bookstacks.org/en/authors/shakespeare/king-richard-iii) | [Read](https://bookstacks.org/fr/authors/shakespeare/king-richard-iii) | Pending |
+| King Richard III | [Read](https://bookstacks.org/en/authors/shakespeare/king-richard-iii) | [Read](https://bookstacks.org/fr/authors/shakespeare/king-richard-iii) | [Read](https://bookstacks.org/es/authors/shakespeare/king-richard-iii) |
 | Love's Labour's Lost | [Read](https://bookstacks.org/en/authors/shakespeare/loves-labours-lost) | [Read](https://bookstacks.org/fr/authors/shakespeare/loves-labours-lost) | Pending |
 | Macbeth | [Read](https://bookstacks.org/en/authors/shakespeare/macbeth) | [Read](https://bookstacks.org/fr/authors/shakespeare/macbeth) | [Read](https://bookstacks.org/es/authors/shakespeare/macbeth) |
 | Measure for Measure | [Read](https://bookstacks.org/en/authors/shakespeare/measure-for-measure) | [Read](https://bookstacks.org/fr/authors/shakespeare/measure-for-measure) | Pending |

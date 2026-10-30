@@ -1,0 +1,64 @@
+[
+  {
+    "id": "0647",
+    "slug": "king-lear",
+    "upstream_commit": "0a965a5a7eed95e20d19e5608776bc1153bbe5eb",
+    "snapshot": "sources/shakespeare/EMOTHE0647_ElReyLear.xml.gz",
+    "sha256": "8082cb2386e62b07650da0f903f8787a0e2c6d414e3be75f379c44bba7358150",
+    "source_url": "https://gitlab.com/emothe/emothe-research-project/-/blob/0a965a5a7eed95e20d19e5608776bc1153bbe5eb/EMOTHE%20TEI-XML%20files/EMOTHE0647_ElReyLear.xml",
+    "edition_url": "https://emothe.uv.es/biblioteca/textosEMOTHE/EMOTHE0647_ElReyLear.php",
+    "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "import_date": "2026-10-30",
+    "source_description": "El Rey Lear, traducción de Cipriano Montoliu. Barcelona: Miguel Seguí, 1908, vol. 1, pp. 166–244. Edición digital EMOTHE (2023), codificada por Jesús Tronch Pérez, con modernización ortográfica en colaboración con Rosa Durá Celma. Se conserva íntegro el texto digital y su nota editorial. CC BY-NC-ND 4.0: uso no comercial, sin adaptación literaria. Bookstacks normaliza únicamente el formato TEI para su lectura y descarga; no cambia las palabras del texto.",
+    "scenes_per_act": [
+      5,
+      4,
+      7,
+      7,
+      3
+    ],
+    "counts": {
+      "sp": 1067,
+      "speaker": 1067,
+      "p": 1073,
+      "stage": 380,
+      "lg": 20,
+      "l": 103,
+      "castItem": 32,
+      "seg": 16,
+      "lb": 117
+    },
+    "encoder": "Jesús Tronch Pérez"
+  },
+  {
+    "id": "0703",
+    "slug": "king-richard-iii",
+    "upstream_commit": "0a965a5a7eed95e20d19e5608776bc1153bbe5eb",
+    "snapshot": "sources/shakespeare/EMOTHE0703_RicardoIii.xml.gz",
+    "sha256": "1181a98a3c1efc3923f4b827be3f079822d7ce96764d81667d472e9da6e58bf8",
+    "source_url": "https://gitlab.com/emothe/emothe-research-project/-/blob/0a965a5a7eed95e20d19e5608776bc1153bbe5eb/EMOTHE%20TEI-XML%20files/EMOTHE0703_RicardoIii.xml",
+    "edition_url": "https://emothe.uv.es/biblioteca/textosEMOTHE/EMOTHE0703_RicardoIii.php",
+    "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "import_date": "2026-10-30",
+    "source_description": "Ricardo III, traducción de John D. Sanderson. La tragedia del rey Ricardo III. Alicante: Aguaclara, 1998. Edición digital EMOTHE, codificada por David J. Amelang. Se conserva íntegro el texto proporcionado por el traductor, incluida la nota sobre los paréntesis que señalan omisiones para el montaje de John Strasberg (1998). CC BY-NC-ND 4.0: uso no comercial, sin adaptación literaria. Bookstacks normaliza únicamente el formato TEI para su lectura y descarga; no cambia las palabras del texto.",
+    "scenes_per_act": [
+      4,
+      4,
+      7,
+      5,
+      5
+    ],
+    "counts": {
+      "sp": 1078,
+      "speaker": 1078,
+      "p": 1079,
+      "stage": 239,
+      "lg": 0,
+      "l": 0,
+      "castItem": 65,
+      "seg": 16,
+      "lb": 13
+    },
+    "encoder": "David J. Amelang"
+  }
+]

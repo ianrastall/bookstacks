@@ -11,8 +11,9 @@ completed; no placeholders or substituted English texts stand in for translation
 The [reviewed checklist](../src/data/shakespeare-plays.json) contains the 38
 surviving plays in the [Folger list](https://folgerpedia.folger.edu/William_Shakespeare%27s_plays),
 including *Pericles* and *The Two Noble Kinsmen*. Every play has a separate
-English TEI file and a separate French TEI file. Spanish currently has nine
-files, with 29 still to acquire. See the [per-play coverage table](shakespeare-coverage.md).
+English TEI file and a separate French TEI file. Spanish currently has 11
+files, with 27 still to acquire. See the [per-play coverage table](shakespeare-coverage.md)
+and the [30 October Spanish additions](spanish-shakespeare.md).
 
 The 38-play scope is explicit, not a claim that attribution is settled for
 every surviving Elizabethan play. *Edward III* is an additional acquisition
@@ -76,7 +77,7 @@ English and French, preserving the separate language filenames and reader units.
 
 ## Spanish acquisition work
 
-The goal is 38 complete editions, retaining the existing nine rather than
+The goal is 38 complete editions, retaining the original nine rather than
 replacing them with an unverified omnibus. Initial checks found only those nine
 plays in Gutenberg's [Spanish Shakespeare holdings](https://www.gutenberg.org/browse/languages/es).
 The Spanish Wikisource author page is a bibliography, not a collection of 38
@@ -97,6 +98,11 @@ For each candidate: establish full-play coverage, source/translator/reuse terms,
 inspect the actual text, preserve notes and structural boundaries, validate every
 literary block against the source, then publish the distinct TEI and reader.
 PDF generation and publication remain explicit, separate operations.
+
+On 30 October, Montoliu's *El Rey Lear* and Sanderson's *Ricardo III* were
+added from source-pinned EMOTHE XML under their stated CC BY-NC-ND 4.0 terms.
+Their complete texts and editorial notes are preserved with technical format
+normalization only. See the [source and verification record](spanish-shakespeare.md).
 
 ## Publication checks
 

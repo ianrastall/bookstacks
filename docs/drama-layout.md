@@ -10,8 +10,8 @@ editions:
 - Directions belonging to a character stay inline in that character's part,
   including directions before the first words or after the last words.
 
-The rules apply to all 85 current Shakespeare editions: 38 English, 38 French
-and nine Spanish. Character labels are collected separately for each edition;
+The rules apply to all 87 current Shakespeare editions: 38 English, 38 French
+and 11 Spanish. Character labels are collected separately for each edition;
 one language's names or scene divisions are never substituted for another's.
 
 ## Presentation and source boundaries

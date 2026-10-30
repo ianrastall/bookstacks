@@ -4741,5 +4741,39 @@
         "revision": "9521c01e3b47fbd68a707576321fc6921378fc105b3b32b6d1e51f200a94ba55"
       }
     ]
+  },
+  "shakespeare_king-lear_spa": {
+    "source_sha256": "785a1635eaf21b9aa6db708e55b4eccc4330107bf8a14bb4c162d2bc0ce76194",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "shakespeare_king-lear_spa-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-lear_spa/shakespeare_king-lear_spa-light.pdf",
+        "revision": "f1c94758310b606fc9be0e3547293628dae434515779cfe69dc5b29a7e7ff033"
+      },
+      {
+        "theme": "dark",
+        "file": "shakespeare_king-lear_spa-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-lear_spa/shakespeare_king-lear_spa-dark.pdf",
+        "revision": "d17da2a98a8dd1ee2c0bc748e0fd93d9164030e1fb06a24f64bf2d5d087fbdfb"
+      }
+    ]
+  },
+  "shakespeare_king-richard-iii_spa": {
+    "source_sha256": "c3ba084747607c26c64c738d044b8eebb8d3d6e8c15f409b81fc9510a7392d32",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "shakespeare_king-richard-iii_spa-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-iii_spa/shakespeare_king-richard-iii_spa-light.pdf",
+        "revision": "c5f13eb646c8941535136823c81adfef6a38c7880a3670a96723acda2cce0d1c"
+      },
+      {
+        "theme": "dark",
+        "file": "shakespeare_king-richard-iii_spa-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_king-richard-iii_spa/shakespeare_king-richard-iii_spa-dark.pdf",
+        "revision": "aac0e68b0c02011efef6c13be42a5b61dc7d23a5caf19138e67e4820c59ed3b1"
+      }
+    ]
   }
 }

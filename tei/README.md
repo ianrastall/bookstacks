@@ -124,6 +124,12 @@ python tei/build_spanish_austen_epubs.py --source-dir assets/source-epub --outpu
   `--verify-only` to check reproducibility without writing. See
   [the collection record](../docs/shakespeare-collections.md) for the complete
   language checklist and Spanish acquisition work.
+- Two additional Spanish Shakespeare editions, Montoliu's *El Rey Lear* and
+  Sanderson's *Ricardo III*, retain the complete source-pinned EMOTHE texts,
+  editorial notes and CC BY-NC-ND 4.0 terms. Technical TEI normalization is an
+  explicit offline operation: `python tei/build_emothe_shakespeare.py`.
+  Add `--verify-only` to check reproducibility without writing. See the
+  [Spanish source record](../docs/spanish-shakespeare.md).
 - Seven Henry James novels are generated from the root-level
   `james-henry_*_en.xml` files. Their volume, book, chapter, preface, paragraph,
   poetry, inline typography, and source metadata structures are retained.

@@ -13,6 +13,21 @@ class ScarletExportTests(unittest.TestCase):
     def setUp(self):
         self.edition = exports.parse_edition(ROOT / "tei/doyle/doyle_a-study-in-scarlet_eng.xml")
 
+    def test_spanish_emothe_credits_licence_and_analytical_cast(self):
+        for slug, translator, encoder in [
+            ('king-lear', 'Montoliu, Cipriano', 'Jesús Tronch Pérez'),
+            ('king-richard-iii', 'Sanderson, John D.', 'David J. Amelang'),
+        ]:
+            edition = exports.parse_edition(ROOT / f'tei/shakespeare/shakespeare_{slug}_spa.xml')
+            self.assertEqual(edition.translator, translator)
+            self.assertIn(encoder, edition.source_citation)
+            self.assertIn('Oleza, Joan et al.', edition.source_citation)
+            self.assertIn('creativecommons.org/licenses/by-nc-nd/4.0/', edition.source_citation)
+            body = exports.LatexRenderer(edition).render()
+            self.assertNotIn('Alb-Corn', body)
+            self.assertNotIn(r'\item FANTASMA DE ENRIQUE IV', body)
+            self.assertIn(r'\bookstacksentrance', body)
+
     def test_collaborator_translator_and_source_survive_drama_export(self):
         edition = exports.parse_edition(ROOT / 'tei/shakespeare/shakespeare_the-two-noble-kinsmen_fra.xml')
         self.assertIn('William Shakespeare', edition.author)

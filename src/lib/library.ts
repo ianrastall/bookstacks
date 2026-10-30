@@ -988,6 +988,8 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     case 'castList':
       return `<div class="tei-cast-list" role="list">${children()}</div>`;
     case 'castItem':
+      // EMOTHE retains analytical character IDs that are absent from the printed cast.
+      if (cleanText(node.getAttribute('ana')).split(/\s+/).includes('oculto')) return '';
       return `<p class="tei-cast-item" role="listitem">${children()}</p>`;
     case 'role':
       return `<span class="tei-cast-role">${children()}</span>`;
