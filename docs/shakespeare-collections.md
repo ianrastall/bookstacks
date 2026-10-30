@@ -88,3 +88,25 @@ For each candidate: establish full-play coverage, source/translator/reuse terms,
 inspect the actual text, preserve notes and structural boundaries, validate every
 literary block against the source, then publish the distinct TEI and reader.
 PDF generation and publication remain explicit, separate operations.
+
+## Publication checks
+
+The new French edition has separately generated 142-page light and dark PDFs,
+with identical extracted text and pagination. Cover, publication record, verse,
+notes and ending pages were visually inspected. The publication record names
+both playwrights, Hugo, the 1866 print source and the recorded transcription.
+The exporter now recognizes translation responsibility statements as well as
+translator editor elements, retains coauthors, prevents broken cover words and
+prints source URLs without French typographic spacing inside the address.
+These changes apply to future explicit PDF exports; existing PDFs are preserved.
+
+The PDF publication is committed in `ianrastall/bookstacks-pdf` at `452b24d`.
+Both hosted PDF checksums were verified after its successful Pages deployment.
+The matching website index adds only this edition. Unrelated local PDF edits
+were excluded; publication validation checked their committed originals.
+
+Validation includes all 85 Shakespeare TEI files, reproducible snapshot import,
+the coverage audit, 63 TypeScript unit tests (including the two new collection
+checks), nine PDF-export regression tests, and the 24,911-page Astro build with
+no check errors or warnings. All 60 browser checks passed. They cover the French verse and note
+links and preserve the French edition when the interface changes to Spanish.

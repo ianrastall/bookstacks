@@ -3807,6 +3807,23 @@
       }
     ]
   },
+  "shakespeare_the-two-noble-kinsmen_fra": {
+    "source_sha256": "b29661950a8b561c98227af042abc1542955de6fe21624c72015c314c1dd4751",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "shakespeare_the-two-noble-kinsmen_fra-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-noble-kinsmen_fra/shakespeare_the-two-noble-kinsmen_fra-light.pdf",
+        "revision": "71ac0b0baedb740fb5bdfd04ca826623c9f5028d3eb72eb85bb889889a5c71d0"
+      },
+      {
+        "theme": "dark",
+        "file": "shakespeare_the-two-noble-kinsmen_fra-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/shakespeare/shakespeare_the-two-noble-kinsmen_fra/shakespeare_the-two-noble-kinsmen_fra-dark.pdf",
+        "revision": "6ecfea51025940f082b06ec5c1267ca17914b80057675b728934e58ccef3062a"
+      }
+    ]
+  },
   "shakespeare_the-winters-tale_eng": {
     "source_sha256": "e5ba9ceaf7985b24ce898ea6f471d85a128b6dc6de997ac8f28022ef28a97651",
     "variants": [
