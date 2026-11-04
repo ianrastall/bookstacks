@@ -1,5 +1,20 @@
 import { expect, test } from '@playwright/test';
 
+test('chapter epigraphs are inset and the prose after them starts flush left', async ({ page }) => {
+  await page.goto('/en/authors/eliot/middlemarch/book-1/chapter-1');
+  const epigraph = page.locator('.reader-content .tei-epigraph').first();
+  const paragraph = epigraph.locator('p').first();
+  await expect(paragraph).toHaveCSS('font-style', 'italic');
+  await expect(paragraph).toHaveCSS('text-align', 'left');
+  const insets = await epigraph.evaluate(element => {
+    const style = getComputedStyle(element);
+    const size = parseFloat(style.fontSize);
+    return [parseFloat(style.marginLeft) / size, parseFloat(style.marginRight) / size];
+  });
+  expect(insets).toEqual([2, 2]);
+  await expect(epigraph.locator('+ p')).toHaveCSS('text-indent', '0px');
+});
+
 test('book paragraphs, internal headings and scene breaks follow prose typography', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto('/en/authors/christie/giants-bread/book-1/chapter-1');

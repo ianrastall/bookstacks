@@ -17,7 +17,7 @@ export function stageKind(value:string,declared:string,layout:DramaLayout):strin
 }
 const elements=(node:any)=>Array.from(node.childNodes??[]).filter((n:any)=>n.nodeType===1) as any[];
 function cueText(node:any):string{
- if(node.nodeType===3)return node.nodeValue??'';
+ if(node.nodeType===3||node.nodeType===4)return node.nodeValue??'';
  if(['note','ref'].includes(node.localName))return '';
  return Array.from(node.childNodes??[]).map(cueText).join('');
 }
@@ -37,14 +37,86 @@ function stageParts(stage:any):any[]{
  return parts.length>1?parts:[stage];
 }
 function target(node:any,last=false):any {
- if(node.localName==='p')return node;
+ if(['p','l','ab'].includes(node.localName))return node;
  if(node.localName==='lg'){
   const lines=Array.from(node.getElementsByTagNameNS('*','l')) as any[];
   return last?lines.at(-1):lines[0];
  }
 }
+
+// Some editions encode directions inside a speech as italicized parentheses.
+function prepareInlineDirections(document: any): void {
+ for (const speech of Array.from(document.getElementsByTagNameNS('*', 'sp')) as any[]) {
+  for (const line of Array.from(speech.getElementsByTagNameNS('*', '*')) as any[]) {
+   if (!['p', 'ab', 'l'].includes(line.localName)) continue;
+   for (const child of elements(line)) {
+    if (child.localName !== 'emph' && !(child.localName === 'hi' && /\bitalic\b/i.test(child.getAttribute('rend')))) continue;
+    const before = child.previousSibling;
+    const after = child.nextSibling;
+    const opening = before?.nodeType === 3 && before.nodeValue.match(/\(\s*$/u)?.[0];
+    const closing = after?.nodeType === 3 && after.nodeValue.match(/^\s*\)/u)?.[0];
+    if (!opening || !closing) continue;
+    const stage = document.createElementNS(child.namespaceURI, 'stage');
+    stage.appendChild(document.createTextNode(opening));
+    while (child.firstChild) stage.appendChild(child.firstChild);
+    stage.appendChild(document.createTextNode(closing));
+    before.nodeValue = before.nodeValue.slice(0, -opening.length);
+    after.nodeValue = after.nodeValue.slice(closing.length);
+    line.replaceChild(stage, child);
+   }
+  }
+ }
+}
+
+function markSongs(document: any, layout: DramaLayout): void {
+ const label = new RegExp(rules.songLabel, 'iu');
+ const singing = new RegExp(rules.singing[layout.locale], 'iu');
+ const lyric = (node: any) => ['p', 'ab', 'lg', 'l'].includes(node.localName);
+ const mark = (node: any) => node.setAttribute('data-bookstacks-song', 'true');
+ const cue = (node: any) => cueText(node).trim().replace(/^[\[(]|[\])](?=[.]?$)/gu, '').trim();
+ const isCue = (node: any): boolean => {
+  if (node.localName === 'stage') {
+   return singing.test(cue(node).replace(layout.names, '@'));
+  }
+  const children = elements(node);
+  return ['p', 'l', 'ab', 'sp'].includes(node.localName) && children.some(isCue)
+   && children.every(child => ['speaker', 'note', 'ref'].includes(child.localName) || isCue(child))
+   && Array.from(node.childNodes as ArrayLike<any>).every(child => ![3, 4].includes(child.nodeType) || !child.nodeValue?.trim());
+ };
+ for (const parent of Array.from(document.getElementsByTagNameNS('*', '*')) as any[]) {
+  if (!['div', 'sp'].includes(parent.localName)) continue;
+  let song = false;
+  for (const child of elements(parent)) {
+   const name = child.localName;
+   if (name === 'pb') continue;
+   if ((lyric(child) || ['head', 'speaker', 'stage'].includes(name)) && label.test(cue(child))) {
+    song = true;
+    continue;
+   }
+   if (isCue(child)) {
+    song = true;
+    continue;
+   }
+   if (lyric(child)) {
+    const explicit = ['song', 'lyric'].includes(child.getAttribute('type'));
+    const opening = name === 'lg' ? elements(child)[0] : child;
+    const first = opening && Array.from(opening.childNodes as ArrayLike<any>)
+     .find(part => part.nodeType === 1 || part.nodeValue?.trim());
+    const startsWithCue = first?.nodeType === 1 && isCue(first);
+    if (startsWithCue) song = true;
+    if (song || explicit || startsWithCue) mark(child);
+    continue;
+   }
+   if (song && name === 'sp') {
+    for (const part of elements(child).filter(lyric)) mark(part);
+   }
+   song = false;
+  }
+ }
+}
 /** Move only directions already attributed to a speech into its prose/verse. */
 export function prepareDrama(document:any,layout:DramaLayout):void {
+ prepareInlineDirections(document);
  const stages=Array.from(document.getElementsByTagNameNS('*','stage')) as any[];
  for(const stage of stages){
   const parts=stageParts(stage),declared=stage.getAttribute('type')??'';
@@ -81,11 +153,12 @@ export function prepareDrama(document:any,layout:DramaLayout):void {
   }
   append();
  }
+ markSongs(document, layout);
 }
 /** Strip source wrapper punctuation in a clone, retaining all markup and note links. */
 export function stageClone(node:any):any {
  const clone=node.cloneNode(true);const leaves:any[]=[];
- function collect(n:any){if(n.nodeType===3)leaves.push(n);else if(!['note','ref'].includes(n.localName))for(const c of Array.from(n.childNodes??[]))collect(c);}
+ function collect(n:any){if(n.nodeType===3||n.nodeType===4)leaves.push(n);else if(!['note','ref'].includes(n.localName))for(const c of Array.from(n.childNodes??[]))collect(c);}
  collect(clone);const nonempty=leaves.filter(n=>n.nodeValue?.trim());
  const first=nonempty[0],last=nonempty.at(-1);
  if(first&&last){

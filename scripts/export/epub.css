@@ -11,10 +11,16 @@ p{margin:0}.tei-paragraph{text-indent:1.5em}.tei-first-paragraph,.tei-no-indent,
 .context{color:var(--muted);font-size:.85em;margin-bottom:.5em}.tei-align-center{text-align:center}.tei-align-right{text-align:right}
 .tei-preformatted{white-space:pre-line}.tei-cipher{font-family:monospace;white-space:pre-wrap}.tei-letter{margin:1.25em 0;padding-inline-start:1.5em;text-indent:0}
 .tei-subheading{text-align:center}.tei-quote-delimited::before,.tei-quote-delimited::after{content:none}.tei-smallcaps{font-variant:small-caps}.tei-letterspaced{letter-spacing:.14em}
-blockquote,.tei-epigraph{margin:1.5em 1em}blockquote p{text-indent:0}.tei-foreign,.tei-stage{font-style:italic}.tei-stage-name,.tei-stage-bracket,.tei-stage-scene-introduction{font-style:normal}
+blockquote{margin:1.5em 1em}blockquote p{text-indent:0}.tei-foreign,.tei-stage{font-style:italic}.tei-stage-name,.tei-stage-bracket,.tei-stage-scene-introduction{font-style:normal}
 .tei-drama-stage{font-style:italic;text-indent:0}.tei-drama-stage.tei-stage-block{display:block;margin:.9em 0}.tei-drama-stage.tei-stage-entrance,.tei-drama-stage.tei-stage-setting{text-align:center;text-align-last:center}.tei-drama-stage.tei-stage-exit{text-align:right;text-align-last:right}.tei-drama-stage .tei-stage-name{font-style:normal;font-variant:normal;text-transform:uppercase}
-.tei-line-group{margin:1.4em 0 1.4em 1.5em}.tei-line{display:block}.tei-speech{margin:1.35em 0}.tei-speech>.tei-paragraph{text-indent:0}.tei-speech>.tei-line-group{margin:0}
-.tei-speech .tei-line{padding-inline-start:1.5em;text-indent:-1.5em}.tei-speaker,.tei-label,.tei-cast-role{font-weight:bold}.tei-speaker{text-transform:uppercase}
+.tei-line-group{margin:1.65em 0}.tei-line-group .tei-line-group,.tei-speech>.tei-line-group{margin:0}
+.tei-line{display:block;padding-inline-start:min(var(--tei-line-indent,0ch),40%);text-indent:0}
+.tei-line-group+.tei-line-group,.tei-line-group>.tei-line+.tei-line-group,.tei-line-group>.tei-line-group+.tei-line{margin-block-start:1.65em}
+.tei-speech{margin:1.35em 0}.tei-speech>.tei-paragraph{text-indent:0}
+.tei-speaker,.tei-label,.tei-cast-role{font-weight:bold}.tei-speaker,.tei-cast-role{font-style:normal;text-transform:uppercase}
+.tei-inset{margin:1.65em 2em;font-style:italic}.tei-inset,.tei-inset p,.tei-inset blockquote{text-align:left;text-indent:0}
+.tei-inset blockquote,.tei-inset .tei-line-group{margin-inline:0}.tei-speech>.tei-song{margin-inline:2em}
+.tei-speaker+.tei-song{margin-block-start:0}.tei-song+.tei-song{margin-block-start:1.65em}
 .tei-stage-entrance,.tei-stage-setting{text-align:center;margin:.9em 0}.tei-stage-exit{text-align:right;margin:.9em 0}
 .tei-cast-list{margin:1em 0}.tei-cast-item{margin:.35em 0}.tei-opener{margin-bottom:1em}.tei-closer,.tei-postscript{margin-top:1em}
 .tei-signed,.tei-dateline{text-align:right}.tei-floating-text{border:1px solid var(--rule);padding:1em;margin:1.5em 0}

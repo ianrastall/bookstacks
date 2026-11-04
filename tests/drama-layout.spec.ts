@@ -11,6 +11,10 @@ for(const locale of ['en','fr'])test(`Shakespeare movement cues have distinct al
   await expect(cue).toHaveCSS('text-align-last',align);
   await expect(cue).toHaveCSS('font-style','italic');
   await expect(cue).toHaveText(/^\[[\s\S]*\]$/);
+  for (const bracket of await cue.locator('.tei-stage-bracket').all()) {
+   await expect(bracket).toHaveCSS('font-style','normal');
+  }
+  await expect(cue.locator('.tei-stage-bracket')).toHaveCount(2);
   const name=cue.locator('.tei-stage-name').first();
   await expect(name).toHaveCSS('font-style','normal');
   const label=(await name.textContent())!;expect(label).toBe(label.toLocaleUpperCase(locale));
@@ -40,6 +44,7 @@ test('Hugo entrances are centered and directions belong to the character’s par
  await expect(direction).toHaveText('[à THÉSÉE.]');
  await expect(direction).toHaveCSS('display','inline');
  await expect(direction).toHaveCSS('font-style','italic');
+ await expect(direction.locator('.tei-stage-bracket').first()).toHaveCSS('font-style','normal');
  await expect(direction.locator('.tei-stage-name')).toHaveCSS('font-style','normal');
 });
 
@@ -50,4 +55,22 @@ test('Spanish scene introductions italicize the words around character names',as
  await expect(cue).toHaveCSS('text-align','center');
  await expect(cue).toContainText('Entran ORLANDO y ADAM');
  await expect(cue.locator('.tei-stage-name').filter({hasText:'ORLANDO'})).toHaveCSS('font-style','normal');
+});
+
+test('a labeled song has symmetric insets and follows its upright speaker label', async ({ page }) => {
+ await page.goto('/en/authors/shakespeare/as-you-like-it/act-05/scene-03?ui=en');
+ const song = page.locator('.tei-song').filter({ hasText: 'It was a lover and his lass' });
+ const speaker = page.locator('.tei-speaker').filter({ hasText: /^PAGES$/ });
+ await expect(speaker).toHaveCSS('font-style', 'normal');
+ await expect(speaker).toHaveCSS('margin-bottom', '0px');
+ await expect(song).toHaveCSS('font-style', 'italic');
+ await expect(song).toHaveCSS('text-align', 'left');
+ await expect(song).toHaveCSS('margin-top', '0px');
+ const insets = await song.evaluate(element => {
+  const style = getComputedStyle(element);
+  const size = parseFloat(style.fontSize);
+  return [parseFloat(style.marginLeft) / size, parseFloat(style.marginRight) / size];
+ });
+ expect(insets).toEqual([2, 2]);
+ await expect(song.locator('.tei-line').first()).toHaveCSS('padding-inline-start', '0px');
 });

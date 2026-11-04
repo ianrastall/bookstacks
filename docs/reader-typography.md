@@ -6,6 +6,10 @@ Opening paragraphs and paragraphs following headings, scene breaks, quotations
 or source figures are flush left. Empty source paragraphs and page markers do
 not introduce phantom paragraph spacing or restart indentation.
 
+The online reader and PDF exporter set epigraphs, epigrams and chapter
+arguments in left-aligned italic text in a centered block inset 2em on both
+sides. The prose immediately after one starts flush left.
+
 Prose is justified with automatic hyphenation and a flush final line on wider
 screens. At 600px and below it uses a ragged trailing edge to avoid large gaps
 in narrow lines. Explicit source alignment, verse lineation, preformatted text,
@@ -18,8 +22,7 @@ vertical bar or muted color.
 These choices follow the distinction between paragraph indents and paragraph
 spacing in [Practical Typography](https://practicaltypography.com/first-line-indents.html)
 and the [W3C paragraph indentation example](https://www.w3.org/Style/Examples/007/indent.en).
-They affect HTML presentation only; canonical TEI, source wording and published
-PDFs are unchanged. PDF export remains a separate publication command.
+PDF export runs through a separate publication command.
 
 Engraving plates use grayscale inversion and screen blending in dark mode:
 the original light paper becomes black and blends away, while the ink becomes

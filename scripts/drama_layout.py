@@ -36,7 +36,60 @@ class DramaLayout:
             if re.search(RULES[kind][self.locale],value,re.I):return kind
         return 'business'
 
+    def mark_songs(self, root):
+        label = re.compile(RULES['songLabel'], re.I)
+        singing = re.compile(RULES['singing'][self.locale], re.I)
+        lyric = {'p', 'ab', 'lg', 'l'}
+
+        def cue(node):
+            return re.sub(r'^[\[(]|[\])](?=[.]?$)', '', cue_text(node).strip()).strip()
+
+        def is_cue(node):
+            name = local(node)
+            if name == 'stage':
+                return bool(singing.fullmatch(self.names.sub('@', cue(node))))
+            return (
+                name in {'p', 'ab', 'l', 'sp'}
+                and not (node.text or '').strip()
+                and any(is_cue(child) for child in node)
+                and all(
+                    not (child.tail or '').strip()
+                    and (local(child) in {'speaker', 'note', 'ref'} or is_cue(child))
+                    for child in node
+                )
+            )
+
+        for parent in root.iter():
+            if local(parent) not in {'div', 'sp'}:
+                continue
+            song = False
+            for child in parent:
+                name = local(child)
+                if name == 'pb':
+                    continue
+                if name in lyric | {'head', 'speaker', 'stage'} and label.fullmatch(cue(child)):
+                    song = True
+                elif is_cue(child):
+                    song = True
+                elif name in lyric:
+                    opening = next(iter(child), None) if name == 'lg' else child
+                    starts_with_cue = (
+                        opening is not None and not (opening.text or '').strip()
+                        and len(opening) and is_cue(opening[0])
+                    )
+                    if starts_with_cue:
+                        song = True
+                    if song or child.get('type') in {'song', 'lyric'} or starts_with_cue:
+                        child.set('data-bookstacks-song', 'true')
+                else:
+                    if song and name == 'sp':
+                        for part in child:
+                            if local(part) in lyric:
+                                part.set('data-bookstacks-song', 'true')
+                    song = False
+
     def prepare(self,root):
+        prepare_inline_directions(root)
         parents={child:parent for parent in root.iter() for child in parent}
         for stage in list(root.iter(f'{{{TEI}}}stage')):
             parts=stage_parts(stage);declared=stage.get('type','')
@@ -59,7 +112,7 @@ class DramaLayout:
                         division.remove(child);previous.append(child);continue
                 previous=child
         def target(node,last=False):
-            if local(node)=='p':return node
+            if local(node) in {'p','ab','l'}:return node
             if local(node)=='lg':
                 lines=list(node.iter(f'{{{TEI}}}l'))
                 if lines:return lines[-1] if last else lines[0]
@@ -86,6 +139,7 @@ class DramaLayout:
                     pending.clear();previous=target(child,True)
                 else:append_pending()
             append_pending()
+        self.mark_songs(root)
         # A block exit embedded in a verse line must leave the verse environment
         # before using paragraph alignment commands in the PDF renderer.
         for group in root.iter(f'{{{TEI}}}lg'):
@@ -102,6 +156,34 @@ class DramaLayout:
                 if ''.join(fragment.itertext()).strip():parts.append(fragment)
                 group.remove(line)
                 for offset,part in enumerate(parts):group.insert(position+offset,part)
+
+
+def prepare_inline_directions(root):
+    """Recognize imported directions in italicized parentheses inside speeches."""
+    for speech in root.iter(f'{{{TEI}}}sp'):
+        for line in speech.iter():
+            if local(line) not in {'p', 'ab', 'l'}:
+                continue
+            owner, attribute = line, 'text'
+            for child in line:
+                italic = local(child) == 'emph' or (
+                    local(child) == 'hi' and re.search(r'\bitalic\b', child.get('rend', ''), re.I)
+                )
+                if italic:
+                    before = getattr(owner, attribute) or ''
+                    after = child.tail or ''
+                    opening = re.search(r'\(\s*$', before)
+                    closing = re.match(r'\s*\)', after)
+                    if opening and closing:
+                        setattr(owner, attribute, before[:opening.start()])
+                        child.tag = f'{{{TEI}}}stage'
+                        child.text = opening[0] + (child.text or '')
+                        child.tail = after[closing.end():]
+                        if len(child):
+                            child[-1].tail = (child[-1].tail or '') + closing[0]
+                        else:
+                            child.text += closing[0]
+                owner, attribute = child, 'tail'
 
 
 def stage_clone(node):

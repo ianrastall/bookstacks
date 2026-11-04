@@ -53,7 +53,7 @@ class ScarletExportTests(unittest.TestCase):
         first = body.index("Populus me sibilat, at mihi plaudo")
         second = body.index("Ipse domi simul ac nummos contemplor in arca.")
         self.assertLess(first, second)
-        self.assertIn(r"\begin{verse}", body)
+        self.assertIn(r"\begin{bookstacksverse}", body)
 
     def test_contents_include_chapters_within_parts(self):
         document = exports.latex_document(self.edition, "", "regular.otf", "italic.otf", "bold.otf", "bolditalic.otf")

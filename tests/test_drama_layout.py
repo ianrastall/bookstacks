@@ -41,6 +41,26 @@ class DramaLayoutTests(unittest.TestCase):
         self.assertIn(r'\bookstacksinlinestage{à \textnormal{THÉSÉE}.}',body)
         self.assertNotIn(r'\begin{bookstacksstage}',body)
 
+    def test_song_spacing_indentation_and_embedded_direction(self):
+        edition = parse_edition(ROOT/'tei/shakespeare/shakespeare_as-you-like-it_spa.xml')
+        renderer = LatexRenderer(edition)
+        root = ET.fromstring(
+            '<div xmlns="http://www.tei-c.org/ns/1.0"><sp><speaker>Amiens</speaker>'
+            '<p>Primero. (<hi rend="italic">A Orlando.</hi>) Ahora.</p>'
+            '<lg><l>Canción.</l></lg><lg><l>Un verso.</l><l rend="indent-6">Otro.</l></lg>'
+            '<lg><l>Otro verso.</l></lg></sp>'
+            '<stage type="exit">Vase Orlando.<lb/></stage></div>'
+        )
+        renderer.drama.prepare(root)
+        result = renderer.render_container(root, 0)
+        self.assertIn(r'\begin{bookstacksdramaspeech}{AMIENS}', result)
+        self.assertIn(r'Primero. \bookstacksinlinestage{A \textnormal{ORLANDO}.} Ahora.', result)
+        self.assertEqual(result.count(r'\begin{bookstacksinset}'), 2)
+        self.assertIn(r'\bookstacksverseline{0}{Un verso.}', result)
+        self.assertIn(r'\bookstacksverseline{6}{Otro.}', result)
+        self.assertIn(r'\par\addvspace{\baselineskip}', result)
+        self.assertIn(r'\bookstacksexit{Vase \textnormal{ORLANDO}.}', result)
+
     def test_source_delimiters_and_notes_survive(self):
         stage=ET.fromstring('<stage>(Exit <name>Theseus</name>.)<ref target="#note">1</ref></stage>')
         result=stage_clone(stage)

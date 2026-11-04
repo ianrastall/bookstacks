@@ -95,11 +95,16 @@ SYNTHETIC_HEADING_TYPES = {
 
 BLOCK_NAMES = {
     "div", "p", "sp", "lg", "castList", "list", "table", "figure", "floatingText",
-    "opener", "closer", "postscript", "epigraph", "salute", "signed", "dateline", "trailer",
+    "opener", "closer", "postscript", "epigraph", "epigram", "argument", "salute", "signed", "dateline", "trailer",
 }
+INSET_TYPES = {"epigraph", "epigram", "argument"}
 CHANGED_ASSETS: list[Path] = []
 PDF_THEME = "dark"
 EXPORT_BOTH_THEMES = False
+
+
+def rendition(node: ET.Element) -> str:
+    return f"{node.get('rend', '')} {node.get('style', '')}".lower()
 
 
 @dataclass
@@ -423,16 +428,46 @@ class LatexRenderer:
             parts.append(self.render_container(text, 0))
         return "\n".join(part for part in parts if part.strip()).strip() + "\n"
 
-    def render_container(self, parent: ET.Element, depth: int) -> str:
-        return "\n".join(
-            rendered
-            for child in direct_children(parent)
-            for rendered in [self.render_block(child, depth)]
-            if rendered.strip()
-        )
+    def render_container(self, parent: ET.Element, depth: int, *, in_inset: bool = False) -> str:
+        parts = []
+        previous = ""
+        for child in direct_children(parent):
+            name = local_name(child)
+            kind = name
+            if child.get("data-bookstacks-song"):
+                kind = "song-line" if name == "l" else "song"
+            elif clean(child.get("subtype") or child.get("type")).lower() in INSET_TYPES:
+                kind = "inset"
+            elif name in {"p", "ab"} and re.search(
+                r"\b(?:subheading|blockquote|letter|preformatted|cipher)\b", rendition(child)
+            ):
+                kind = "special-paragraph"
+            if name == "head":
+                previous = ""
+            rendered = self.render_block(child, depth, continued=previous in {"p", "ab"}, in_inset=in_inset)
+            if not rendered.strip():
+                continue
+            if (previous in {"lg", "l"} and kind in {"lg", "l"} and (previous, kind) != ("l", "l")
+                or previous == kind == "song"):
+                parts.append(r"\par\addvspace{\baselineskip}")
+            parts.append(rendered)
+            previous = kind
+        return "\n".join(parts)
 
-    def render_block(self, node: ET.Element, depth: int) -> str:
+    def render_block(
+        self, node: ET.Element, depth: int, *, continued: bool = False, in_inset: bool = False
+    ) -> str:
         name = local_name(node)
+        division_type = clean(node.get("subtype") or node.get("type")).lower()
+        song = bool(node.get("data-bookstacks-song"))
+        if not in_inset and (song or name in INSET_TYPES or division_type in INSET_TYPES):
+            content = self.render_block(node, depth, in_inset=True)
+            if not content:
+                return ""
+            space = "" if song else r"\par\medskip"
+            return f"{space}\\begin{{bookstacksinset}}\n{content}\n\\end{{bookstacksinset}}{space}"
+        if name in INSET_TYPES or in_inset and name in {"q", "quote"}:
+            return self.render_container(node, depth, in_inset=True) or self.inline_content(node).strip()
         if name == "head":
             return ""
         if name == 'titlePage':
@@ -443,22 +478,15 @@ class LatexRenderer:
         if name == "div":
             head = first_direct(node, "head")
             supplied_title = element_text(head)
-            division_type = clean(node.get("subtype") or node.get("type")).lower()
             if not supplied_title and division_type == 'publication-note':
                 supplied_title = {'es': 'Nota a esta edición digital', 'fr': 'Note sur cette édition numérique'}.get(self.edition.locale, 'Note on this digital edition')
             if not supplied_title and division_type in {"translation", "edition"}:
-                return self.render_container(node, depth)
+                return self.render_container(node, depth, in_inset=in_inset)
             if not supplied_title and division_type not in SYNTHETIC_HEADING_TYPES:
-                return self.render_container(node, depth)
+                return self.render_container(node, depth, in_inset=in_inset)
             title = supplied_title or self.division_label(node)
             heading = self.heading(title, depth)
-            content = self.render_container(node, depth + 1)
-            first_content = next(
-                (child for child in direct_children(node) if local_name(child) != "head"),
-                None,
-            )
-            if first_content is not None and local_name(first_content) in {"p", "ab"}:
-                content = r"\noindent " + content
+            content = self.render_container(node, depth + 1, in_inset=in_inset)
             return f"{heading}\n{content}".strip()
         if name in {"p", "ab"}:
             # Dialogue editions such as Plato's mark each utterance as
@@ -470,20 +498,26 @@ class LatexRenderer:
                 and re.fullmatch(r"[=_*\-]{3,}", element_text(node))
             ):
                 return r"\par\smallskip\noindent\rule{\textwidth}{.35pt}\par\smallskip"
-            return f"\\color{{booklight}} {content}\\par" if content else ""
+            if not content:
+                return ""
+            if re.search(r"\bsubheading\b", rendition(node)):
+                return f"\\begin{{center}}{content}\\end{{center}}"
+            no_indent = in_inset or not continued or re.search(r"\b(?:noindent|notindent)\b", rendition(node))
+            prefix = r"\noindent " if no_indent else ""
+            return f"\\color{{booklight}} {prefix}{content}\\par"
         if name == "sp":
             speaker = first_direct(node, "speaker")
-            label = element_text(speaker).rstrip(".") if speaker is not None else ""
-            content = "\n".join(
-                self.render_block(child, depth)
-                for child in direct_children(node)
-                if local_name(child) != "speaker"
-            )
+            label = element_text(speaker)
+            environment = "bookstacksdramaspeech" if self.drama else "bookstacksspeech"
+            label = label.upper() if self.drama else label.rstrip(".")
+            content = self.render_container(node, depth, in_inset=in_inset)
             return (
-                f"\\begin{{bookstacksspeech}}{{{latex_escape(label)}}}\n"
+                f"\\begin{{{environment}}}{{{latex_escape(label)}}}\n"
                 f"{content}\n"
-                r"\end{bookstacksspeech}"
+                f"\\end{{{environment}}}"
             )
+        if name == "speaker":
+            return ""
         if name == "stage":
             if self.drama:return self.drama_stage(node)
             content = self.inline_content(node).strip()
@@ -493,32 +527,14 @@ class LatexRenderer:
                 "\\end{bookstacksstage}"
             ) if content else ""
         if name == "lg":
-            # A song can be interrupted by directions or contain nested stanzas.
-            # Flush each run of verse before rendering the intervening block.
-            def ornament(child):
-                return self.drama and re.fullmatch(r'[=_*\-]{3,}',element_text(child))
-            if any(local_name(child) != "l" or ornament(child) for child in node):
-                parts: list[str] = []
-                run: list[str] = []
-                def flush_verse() -> None:
-                    if run:
-                        parts.append("\\begin{verse}\n" + " \\\\\n".join(run) + "\n\\end{verse}")
-                        run.clear()
-                for child in node:
-                    if local_name(child) == 'l' and not ornament(child):
-                        if content := self.inline_content(child).strip(): run.append(content)
-                    else:
-                        flush_verse()
-                        parts.append(self.render_block(child, depth))
-                flush_verse()
-                return '\n\\smallskip\n'.join(part for part in parts if part)
-            lines = [content for line in direct_children(node, "l") if (content := self.inline_content(line).strip())]
-            return "\\begin{verse}\n" + " \\\\\n".join(lines) + "\n\\end{verse}" if lines else ""
+            content = self.render_container(node, depth, in_inset=in_inset)
+            return f"\\begin{{bookstacksverse}}\n{content}\n\\end{{bookstacksverse}}" if content else ""
         if name == "l":
             if self.drama and re.fullmatch(r'[=_*\-]{3,}',element_text(node)):
                 return r'\par\smallskip\noindent\rule{\linewidth}{.35pt}\par\smallskip'
             content = self.inline_content(node).strip()
-            return f"{content} \\\\" if content else ""
+            indent = re.search(r"\bindent-(\d{1,2})\b", node.get("rend", ""))
+            return f"\\bookstacksverseline{{{int(indent[1]) if indent else 0}}}{{{content}}}" if content else ""
         if name == "castList":
             head = first_direct(node, "head")
             title = self.heading(element_text(head), depth) if head is not None else ""
@@ -541,7 +557,7 @@ class LatexRenderer:
             return f"\\begin{{{environment}}}\n" + "\n".join(items) + f"\n\\end{{{environment}}}" if items else ""
         if name == "table":
             return self.render_table(node)
-        if name in {"quote", "q", "epigraph"}:
+        if name in {"quote", "q"}:
             content = self.render_container(node, depth) or self.inline_content(node).strip()
             return f"\\begin{{quote}}\n{content}\n\\end{{quote}}" if content else ""
         if name in {"opener", "closer", "postscript", "floatingText"}:
@@ -572,10 +588,12 @@ class LatexRenderer:
                     description = f'\\par\\smallskip{{\\footnotesize {latex_escape(content)}\\par}}' if content else ''
                     return '\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\centering\n' + rf'\includegraphics[width=\linewidth,height=.6\textheight,keepaspectratio]{{\detokenize{{{path}}}}}' + description + '\n\\end{minipage}\\par\\medskip'
             return f"\\begin{{bookstacksstage}}{latex_escape(content)}\\end{{bookstacksstage}}" if content else ""
+        if name == "milestone" and node.get("unit") == "section":
+            return r"\par\smallskip\noindent\rule{\linewidth}{.35pt}\par\smallskip"
         if name in {"pb", "milestone", "fw", "metamark", "certainty", "shift"}:
             return ""
         if name in BLOCK_NAMES or any(local_name(child) in BLOCK_NAMES for child in direct_children(node)):
-            return self.render_container(node, depth)
+            return self.render_container(node, depth, in_inset=in_inset)
         content = self.inline_content(node).strip()
         return f"{content}\\par" if content else ""
 
@@ -662,15 +680,17 @@ class LatexRenderer:
             return content
         if name in {"emph", "foreign", "title", "bibl"}:
             return f"\\emph{{{content}}}"
+        if name == "role" and self.drama:
+            return f"\\textup{{\\MakeUppercase{{{content}}}}}"
         if name == "hi":
-            rendition = f"{node.get('rend', '')} {node.get('style', '')}".lower()
-            if "bold" in rendition:
+            style = rendition(node)
+            if "bold" in style:
                 return f"\\textbf{{{content}}}"
-            if "sup" in rendition:
+            if "sup" in style:
                 return f"\\textsuperscript{{{content}}}"
-            if "sub" in rendition:
+            if "sub" in style:
                 return f"\\textsubscript{{{content}}}"
-            if "small" in rendition:
+            if "small" in style:
                 return f"\\textsc{{{content}}}"
             return f"\\emph{{{content}}}"
         if is_spoken and split_spoken:
@@ -711,7 +731,13 @@ class LatexRenderer:
         def content(element):
             result=characters(element.text)
             for child in element:
-                result+=self.inline(child) if local_name(child) in {'note','ref','lb'} else content(child)
+                name = local_name(child)
+                if name == 'lb':
+                    result += r' \\ '
+                elif name in {'note', 'ref'}:
+                    result += self.inline(child)
+                else:
+                    result += content(child)
                 result+=characters(child.tail)
             return result
         value=content(stage_clone(node)).strip()
@@ -1042,12 +1068,25 @@ def latex_document(
 \newenvironment{{bookstacksspeech}}[1]
   {{\par\color{{booklight}}\Needspace{{4\baselineskip}}\addvspace{{.55\baselineskip}}\noindent\textsc{{#1}}\par\nobreak\smallskip\begin{{adjustwidth}}{{1.5em}}{{0pt}}\color{{booklight}}\noindent\ignorespaces}}
   {{\end{{adjustwidth}}\par\color{{booklight}}}}
+\newenvironment{{bookstacksdramaspeech}}[1]
+  {{\par\color{{booklight}}\Needspace{{3\baselineskip}}\addvspace{{.65\baselineskip}}\noindent\textup{{\textbf{{#1}}}}\par\nobreak\setlength{{\parindent}}{{0pt}}}}
+  {{\par\color{{booklight}}}}
+\newenvironment{{bookstacksinset}}
+  {{\par\advance\leftskip by 2em\advance\rightskip by 2em plus 1fil\itshape\setlength{{\parindent}}{{0pt}}\ignorespaces}}
+  {{\par}}
+\newenvironment{{bookstacksverse}}
+  {{\par\advance\rightskip by 0pt plus 1fil\hyphenpenalty=10000}}
+  {{\par}}
+\newlength{{\bookstackscharwidth}}
+\newcommand{{\bookstacksverseline}}[2]{{\par\begingroup
+  \settowidth{{\bookstackscharwidth}}{{0}}\advance\leftskip by #1\bookstackscharwidth
+  \noindent #2\par\endgroup}}
 \newenvironment{{bookstacksstage}}
   {{\begin{{quote}}\small\itshape\color{{bookmuted}}}}
   {{\end{{quote}}}}
-\newcommand{{\bookstacksinlinestage}}[1]{{\textit{{[#1]}}}}
-\newcommand{{\bookstacksentrance}}[1]{{\par\begingroup\color{{booklight}}\parindent=0pt\centering\itshape\addvspace{{.6\baselineskip}}[#1]\par\endgroup\addvspace{{.6\baselineskip}}}}
-\newcommand{{\bookstacksexit}}[1]{{\par\begingroup\color{{booklight}}\parindent=0pt\raggedleft\itshape\addvspace{{.6\baselineskip}}[#1]\par\endgroup\addvspace{{.6\baselineskip}}}}
+\newcommand{{\bookstacksinlinestage}}[1]{{\textup{{[}}\textit{{#1}}\textup{{]}}}}
+\newcommand{{\bookstacksentrance}}[1]{{\par\begingroup\color{{booklight}}\parindent=0pt\centering\addvspace{{.6\baselineskip}}\bookstacksinlinestage{{#1}}\par\endgroup\addvspace{{.6\baselineskip}}}}
+\newcommand{{\bookstacksexit}}[1]{{\par\begingroup\color{{booklight}}\parindent=0pt\raggedleft\addvspace{{.6\baselineskip}}\bookstacksinlinestage{{#1}}\par\endgroup\addvspace{{.6\baselineskip}}}}
 \newcommand{{\bookstacksdialogue}}[1]{{\par\indent\ignorespaces #1\unskip}}
 \newcommand{{\bookstacksnote}}[1]{{\footnote{{\color{{booklight}}#1}}\color{{booklight}}\mbox{{}}}}
 \newenvironment{{bookstackscast}}

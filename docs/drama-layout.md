@@ -1,14 +1,17 @@
 # Shakespeare layout
 
-Ian confirmed these rules on 29 October 2026 for both the online reader and PDF
+Ian confirmed these rules on 4 November 2026 for both the online reader and PDF
 editions:
 
-- Entrances are centered and enclosed in square brackets. Direction text is
-  italic; character names are upright uppercase.
-- Exits are right-aligned, with italic direction text and upright uppercase
-  character names. They use the same square-bracket convention.
+- Entrances are centered and exits are right-aligned. Both use italic
+  direction text, upright square brackets and upright uppercase character names.
 - Directions belonging to a character stay inline in that character's part,
   including directions before the first words or after the last words.
+- Speaker labels are upright uppercase directly above the speech with zero
+  space below the label. Cast labels use upright uppercase where tagged.
+- Songs use italic, left-aligned text in a centered block inset by 2em on
+  each side. Verse lines are flush left unless the source marks an indent.
+  Leave a blank line between stanzas.
 
 The rules apply to all 87 current Shakespeare editions: 38 English, 38 French
 and 11 Spanish. Character labels are collected separately for each edition;
@@ -41,6 +44,13 @@ source-pinned character labels in `src/data/drama-layout-rules.json` and
 `src/data/drama-layout-index.json`. Stage markup containing a whole sentence
 marked as a name no longer forces the whole sentence into upright uppercase.
 Inline notes and source references are preserved.
+
+The formatter recognizes parenthesized italic directions inside speeches in
+legacy imports. Song styling follows explicit song types, standalone song
+labels and unambiguous singing cues in English, French and Spanish. A source
+that records lyrics as a single paragraph still displays that paragraph.
+Recovering missing line and stanza divisions requires comparison with the
+source edition.
 
 After an explicit new or corrected Shakespeare TEI import, refresh the derived
 character index before checking the site or exporting PDFs:

@@ -830,6 +830,8 @@ function divisionLabel(div: any, segmentCache: Map<any, string>, locale: Locale)
   return headingTitleCase(ordinal ? `${displayKind(kind, locale)} ${ordinal}` : displayKind(kind, locale), locale);
 }
 
+const insetTypes = ['epigraph', 'epigram', 'argument'];
+
 function renderDivision(div: any, entities: EntityMaps, locale: Locale, assetBase: string): string {
   const context: RenderContext = { locale, noteIndex: 0, assetBase };
   let html = '';
@@ -837,7 +839,7 @@ function renderDivision(div: any, entities: EntityMaps, locale: Locale, assetBas
     if (child.nodeType === 1 && child.localName === 'head') continue;
     html += renderNode(child, entities, 2, context);
   }
-  return html;
+  return insetTypes.includes(kindOf(div)) ? `<div class="tei-inset">${html}</div>` : html;
 }
 
 function renderNode(node: any, entities: EntityMaps, headingLevel: number, context: RenderContext): string {
@@ -852,12 +854,14 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
   const text = () => cleanText(node.textContent);
   const lang = node.getAttribute?.('xml:lang') || node.getAttributeNS?.(XML_NS, 'lang');
   const langAttr = lang ? ` lang="${escapeAttr(lang)}"` : '';
+  const inset = insetTypes.includes(name) || insetTypes.includes(kindOf(node));
+  const song = node.getAttribute?.('data-bookstacks-song') === 'true' ? ' tei-song tei-inset' : '';
 
   switch (name) {
     case 'div': {
       const kind = kindOf(node);
       const content = directChildNodes(node).map((child) => renderNode(child, entities, headingLevel + 1, context)).join('');
-      return `<section class="tei-division tei-${escapeAttr(slugify(kind))}">${content}</section>`;
+      return `<section class="tei-division tei-${escapeAttr(slugify(kind))}${inset ? ' tei-inset' : ''}">${content}</section>`;
     }
     case 'head':
       return `<h${Math.min(6, headingLevel)}>${children()}</h${Math.min(6, headingLevel)}>`;
@@ -873,7 +877,7 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
         /\bcipher\b/.test(rend) && 'tei-cipher',
         /\bletter\b/.test(rend) && 'tei-letter',
       ].filter(Boolean).join(' ');
-      const classAttr = `tei-paragraph${firstClass}${rendClasses ? ` ${rendClasses}` : ''}`;
+      const classAttr = `tei-paragraph${firstClass}${rendClasses ? ` ${rendClasses}` : ''}${song || (inset ? ' tei-inset' : '')}`;
       if (/\bsubheading\b/.test(rend)) {
         const level = Math.min(6, headingLevel);
         return `<h${level} class="tei-subheading">${children()}</h${level}>`;
@@ -883,17 +887,21 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
       }
       return `<p class="${classAttr}">${children()}</p>`;
     }
+    case 'ab':
+      return song || inset ? `<div class="${song.trim() || 'tei-inset'}">${children()}</div>` : children();
     case 'sp':
       return `<section class="tei-speech">${children()}</section>`;
     case 'speaker': {
-      const label = text().replace(/[.\s]+$/u, '').toLocaleUpperCase();
-      return `<div class="tei-speaker">${escapeHtml(label)}.</div>`;
+      const label = entities.drama
+        ? text().toLocaleUpperCase(entities.drama.locale)
+        : text().replace(/[.\s]+$/u, '').toLocaleUpperCase() + '.';
+      return `<div class="tei-speaker">${escapeHtml(label)}</div>`;
     }
     case 'stage': {
       if(entities.drama){
         const kind=node.getAttribute('data-bookstacks-stage-kind')||'business';
         const block=['entrance','exit','setting'].includes(kind);
-        const inlineParent=['p','l','hi','seg'].includes(node.parentNode?.localName);
+        const inlineParent=['p','ab','l','hi','seg'].includes(node.parentNode?.localName);
         const tag=block&&!inlineParent?'div':'span';
         const layout=entities.drama;
         function stagePart(part:any):string {
@@ -910,8 +918,9 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
           if(['note','ref','lb'].includes(part.localName))return renderNode(part,entities,headingLevel,context);
           return directChildNodes(part).map(stagePart).join('');
         }
-        const content=directChildNodes(stageClone(node)).map(stagePart).join('');
-        return `<${tag} class="tei-stage tei-drama-stage tei-stage-${escapeAttr(kind)}${block?' tei-stage-block':''}">[${normalizeInlineSpacing(content)}]</${tag}>`;
+        const content=normalizeInlineSpacing(directChildNodes(stageClone(node)).map(stagePart).join(''))
+          .trim().replace(/^(?:<br \/>\s*)+|(?:\s*<br \/>)+$/gu, '');
+        return `<${tag} class="tei-stage tei-drama-stage tei-stage-${escapeAttr(kind)}${block?' tei-stage-block':''}"><span class="tei-stage-bracket">[</span>${content}<span class="tei-stage-bracket">]</span></${tag}>`;
       }
       const stageType = slugify(cleanText(node.getAttribute?.('type'))) || 'direction';
       const stageRend = cleanText(node.getAttribute?.('rend')).toLowerCase();
@@ -937,6 +946,7 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     }
     case 'q':
     case 'quote': {
+      if (inset) return `<div class="tei-inset">${children()}</div>`;
       const block = directElementChildren(node).some((child) => ['p', 'lg', 'sp'].includes(child.localName));
       if (block) return `<blockquote>${children()}</blockquote>`;
       const delimited = hasPairedDelimiters(text(), [['“', '”'], ['‘', '’'], ['«', '»'], ['„', '“'], ['"', '"'], ["'", "'"]]);
@@ -981,10 +991,13 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
       return `<em>${children()}</em>`;
     }
     case 'lg':
-      return `<div class="tei-line-group">${children()}</div>`;
-    case 'l':
+      return `<div class="tei-line-group${song || (inset ? ' tei-inset' : '')}">${children()}</div>`;
+    case 'l': {
       if(entities.drama&&/^[=_*\-]{3,}$/.test(text()))return '<hr class="tei-scene-break" />';
-      return `<span class="tei-line">${children()}</span>`;
+      const indent = (node.getAttribute('rend') || '').match(/\bindent-(\d{1,2})\b/u)?.[1];
+      const style = indent ? ` style="--tei-line-indent: ${Number(indent)}ch"` : '';
+      return `<span class="tei-line${song}"${style}>${children()}</span>`;
+    }
     case 'castList':
       return `<div class="tei-cast-list" role="list">${children()}</div>`;
     case 'castItem':
@@ -1046,8 +1059,11 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
     case 'opener':
     case 'closer':
     case 'postscript':
-    case 'epigraph':
       return `<div class="tei-${name.toLowerCase()}">${children()}</div>`;
+    case 'epigraph':
+    case 'epigram':
+    case 'argument':
+      return `<div class="tei-${name} tei-inset">${children()}</div>`;
     case 'salute':
     case 'signed':
     case 'dateline':

@@ -1,6 +1,12 @@
 {
   "wordCharacters": "A-Za-zÀ-ÖØ-öø-ÿĀ-ž0-9",
   "excludeNames": ["all", "both", "exeunt", "exit", "enter", "scene", "act", "ils", "elles", "tous", "toutes", "il", "elle", "les", "le", "la", "un", "une", "et", "y", "and", "todos", "todas", "salen", "sale", "entra", "entran"],
+  "songLabel": "^(?:song|the song|chant|chant funèbre|chanson|canto|canci[oó]n)[.:]?$",
+  "singing": {
+    "en": "^(?:(?:he|she|they|@)\\s+)?sings?(?:\\s+(?:a\\s+)?song)?[.:]?$",
+    "fr": "^(?:(?:il|elle|ils|elles|@)\\s+)?chant(?:e|ent)[.:]?$",
+    "es": "^(?:@\\s+)?(?:canta|cantan|cantando)[.:]?$"
+  },
   "entrance": {
     "en": "(?:^|[.;—-])\\s*(?:enter|re-enter|reenter)\\b",
     "fr": "(?:^|[.;—-])\\s*(?:(?:il|elle|ils|elles)\\s+)?(?:entre|entrent|rentre|rentrent|revient|reviennent|reparaît|reparaissent|paraît|paraissent|arrive|arrivent|survient|surviennent)\\b(?!\\s+que\\b)|^@(?:\\s*(?:,|et)\\s*@)*\\s+(?:entre|entrent|rentre|rentrent|revient|reviennent|reparaît|reparaissent|paraît|paraissent|arrive|arrivent)\\b",
