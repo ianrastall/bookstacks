@@ -13,7 +13,13 @@
       "width": 640,
       "height": 427,
       "sha256": "542f89c1b09229fef5964a342f1dc54ee06f1061f1f6941b17b1cae56d64611a",
-      "masterSha256": "d23d77f4ea0e0453495ac5fef2b5932211ff3e6305e78d60980549743daf3722"
+      "masterSha256": "d23d77f4ea0e0453495ac5fef2b5932211ff3e6305e78d60980549743daf3722",
+      "photo": {
+        "file": "img/as-you-like-it/arden-photo.jpg",
+        "prompt": "Generate a landscape 3:2 photographic interpretation for Bookstacks, in the same naturalistic style as a still from a restrained period film of Shakespeare's As You Like It. Muted earth colors with natural light, believable Elizabethan wardrobe and anatomy, lightly textured realism, medium-wide composition legible in a small reader sidebar. No lettering, frame, watermark, or modern objects. A quiet, empty footpath winds under ancient oaks in the Forest of Arden. Ferns in the foreground, a distant opening with soft daylight. No people, no animals, no buildings. Establishing view that can accompany several short scenes.",
+        "sha256": "9032ea586aa565b46e115a3740bcf0c7d2d5713c0fea056e81849c81525f3805",
+        "masterSha256": "36efa0bf328ea4929faf1252de842e4a2188c9993873f5e52d9a4712150178a6"
+      }
     },
     "orchard": {
       "file": "img/as-you-like-it/orchard.jpg",
@@ -26,7 +32,13 @@
       "width": 640,
       "height": 427,
       "sha256": "6b8f77b03cc0bd3d721215ce726a514e5a93cf2ae7709ca42d76e4ccd0166c92",
-      "masterSha256": "8a14477806e201f6b971407d46800482f3cf5ee3ec3a6aed0cdd21311145f7d3"
+      "masterSha256": "8a14477806e201f6b971407d46800482f3cf5ee3ec3a6aed0cdd21311145f7d3",
+      "photo": {
+        "file": "img/as-you-like-it/orchard-photo.jpg",
+        "prompt": "Generate a landscape 3:2 photographic interpretation for Bookstacks, in the same naturalistic style as a still from a restrained period film of Shakespeare's As You Like It. Muted earth colors with natural light, believable Elizabethan wardrobe and anatomy, lightly textured realism, medium-wide composition legible in a small reader sidebar. No lettering, frame, watermark, or modern objects. Act I scene 1. Orlando, a bareheaded young man with short dark curls and a plain dark doublet and white collar, confronts his older brother Oliver beside a low stone wall in an apple orchard. The elderly grey-bearded servant Adam, in a simple wool cap, watches from beside a tree. A tense conversation, no fight.",
+        "sha256": "febd3abe8ac59b25bf9f2c35d519f6e170ed0f5fbfe1f3dad96df4b9683a49f6",
+        "masterSha256": "b04ce4654d63cc732677fa34dffd70e97024d814572b03b5367b6f2a3f9644fb"
+      }
     },
     "wrestling": {
       "file": "img/as-you-like-it/wrestling.jpg",
@@ -39,7 +51,13 @@
       "width": 640,
       "height": 427,
       "sha256": "a264eff096a815bbd1e71a422b2b3d27cfbe6a8045ef52d23004696df4aba3fa",
-      "masterSha256": "0cce86843a4c348521fabef3afc8f7e5a3348deb7f8cb2b891861088e81cca81"
+      "masterSha256": "0cce86843a4c348521fabef3afc8f7e5a3348deb7f8cb2b891861088e81cca81",
+      "photo": {
+        "file": "img/as-you-like-it/wrestling-photo.jpg",
+        "prompt": "Generate a landscape 3:2 photographic interpretation for Bookstacks, in the same naturalistic style as a still from a restrained period film of Shakespeare's As You Like It. Muted earth colors with natural light, believable Elizabethan wardrobe and anatomy, lightly textured realism, medium-wide composition legible in a small reader sidebar. No lettering, frame, watermark, or modern objects. Act I scene 2. An open-air wrestling contest on a lawn before the duke's palace. Orlando, a lean young man in plain linen shirtsleeves, grapples with Charles, the bigger wrestler, in a clear standing wrestling hold. Rosalind and Celia, two young noblewomen, watch anxiously from the side, with subdued courtiers farther back.",
+        "sha256": "ec2ac5003586a7a62736e85894e1175915d9d25b22d84ae36b9992d37e8b5894",
+        "masterSha256": "49aa5ba8525487a84edbd67fcde64b304832abeeb8cad51a50032be70a305b25"
+      }
     },
     "banishment": {
       "file": "img/as-you-like-it/banishment.jpg",
@@ -52,7 +70,13 @@
       "width": 640,
       "height": 427,
       "sha256": "43fdc8f507d3531675a154105dda1e2b06d3fff97de58e8553962b5d69c651cd",
-      "masterSha256": "78692c989df50bfa546ce7556ec18de3f7a5b7ac3e31a8a8c6cc39ac5e629770"
+      "masterSha256": "78692c989df50bfa546ce7556ec18de3f7a5b7ac3e31a8a8c6cc39ac5e629770",
+      "photo": {
+        "file": "img/as-you-like-it/banishment-photo.jpg",
+        "prompt": "Generate a landscape 3:2 photographic interpretation for Bookstacks, in the same naturalistic style as a still from a restrained period film of Shakespeare's As You Like It. Muted earth colors with natural light, believable Elizabethan wardrobe and anatomy, lightly textured realism, medium-wide composition legible in a small reader sidebar. No lettering, frame, watermark, or modern objects. Act I scene 3. Duke Frederick, in a dark court doublet and fur-lined robe, orders Rosalind to leave. She faces him upright as her cousin Celia reaches protectively toward her. A sparsely furnished stone palace chamber with soft window light. Three clear figures, restrained expressions.",
+        "sha256": "54c62f90a230531ee7e15a427a5d6b044357fee683f408b510b77b0dcc5188c5",
+        "masterSha256": "12cd2ea22ab21a718f471cddfe74b831e27ac22a5f77c4b0836c86ff4fa8414d"
+      }
     },
     "exiled-duke": {
       "file": "img/as-you-like-it/exiled-duke.jpg",

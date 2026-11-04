@@ -40,8 +40,8 @@ it('illustrates every As You Like It reader page in its edition language', () =>
     }
   }
   expect(files.size).toBe(19);
-  expect(photoFiles.size).toBe(15);
-  expect(photoPages).toBe(43);
+  expect(photoFiles.size).toBe(19);
+  expect(photoPages).toBe(74);
   for (const asset of Object.values(asYouLikeItArt.assets)) {
     const bytes = fs.readFileSync(`tei/shakespeare/${asset.file}`);
     expect(createHash('sha256').update(bytes).digest('hex')).toBe(asset.sha256);

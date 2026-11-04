@@ -209,21 +209,30 @@ const description = page.kind === 'author'
             {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.nextPath}`}><T locale={locale} k="next" /><span class="material-icons directional-icon" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled"><T locale={locale} k="next" /></span>}
           </nav>
           {page.unit.illustration && (
-            <figure class="reader-illustration tei-engraving" data-online-only lang={page.edition.code} dir={editionDir} translate="no">
+            <figure class="reader-illustration tei-engraving" data-has-photo={page.unit.illustration.photo ? '' : undefined} data-online-only lang={page.edition.code} dir={editionDir} translate="no">
               <img class="tei-graphic" src={page.unit.illustration.previewSrc ?? page.unit.illustration.src} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
             </figure>
           )}
           {page.unit.illustration?.photo && (
-            <details class="reader-illustration-variant" data-online-only lang={page.edition.code} dir={editionDir} translate="no">
-              <summary>{page.unit.illustration.photo.label}</summary>
-              <img src={page.unit.illustration.photo.src} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
-            </details>
+            <figure class="tei-figure reader-illustration reader-photo" data-online-only lang={page.edition.code} dir={editionDir} translate="no">
+              <img class="tei-graphic" src={page.unit.illustration.photo.src} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
+              <figcaption>{page.unit.illustration.photo.label}</figcaption>
+            </figure>
           )}
         </aside>
       </div>
       <script>
         import { currentLocale, text } from '../../../lib/interface';
         const readerRoot = document.documentElement;
+        const photo = document.querySelector<HTMLImageElement>('.reader-photo img');
+        if (photo) {
+          const showSketch = () => {
+            document.querySelector('[data-has-photo]')?.removeAttribute('data-has-photo');
+            photo.closest('figure')?.remove();
+          };
+          photo.addEventListener('error', showSketch, { once: true });
+          if (photo.complete && photo.currentSrc && !photo.naturalWidth) showSketch();
+        }
         const controls=document.querySelector<HTMLDetailsElement>('.reader-controls')!;
         const compact=matchMedia('(max-width:760px)');controls.open=!compact.matches;compact.addEventListener('change',()=>controls.open=!compact.matches);
         const readSetting=(key:string)=>{try{return localStorage.getItem(key);}catch{return null;}};

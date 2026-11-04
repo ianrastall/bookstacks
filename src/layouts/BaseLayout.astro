@@ -37,6 +37,7 @@ const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
       try {
         const root=document.documentElement;
         root.dataset.theme=localStorage.getItem('bookstacks-theme') === 'light' ? 'light' : 'dark';
+        root.dataset.illustrations=localStorage.getItem('bookstacks-illustrations') === 'photos' ? 'photos' : 'sketches';
         const old=localStorage.getItem('bookstacks-palette');
         const palettes={blue:'#3f6178',green:'#527052',red:'#8d4b46',orange:'#93672e',indigo:'#5c577f',brown:'#765b43',coral:'#9c514b'};
         let accent=localStorage.getItem('bookstacks-accent');

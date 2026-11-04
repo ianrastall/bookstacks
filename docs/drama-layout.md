@@ -63,10 +63,11 @@ plate has alternative text in all three edition languages. The record pins
 placements to the TEI source and keeps the original generation prompts and
 image checksums.
 
-Fifteen AI-generated photographic interpretations from the first pass are
-available in a disclosure below the corresponding engravings. The language
-editions share those files where the scene matches. The photographs retain
-their color in either reader theme.
+Settings → Appearance → Illustrations lets readers choose Sketches or Photos.
+The choice is saved in the browser. Photos appear in the same sidebar position
+as sketches and retain their color in either theme. When a photo is unavailable,
+the sketch appears. *As You Like It* has both versions for all 19 plates, shared
+across the editions.
 
 After an explicit new or corrected Shakespeare TEI import, refresh the derived
 character index before checking the site or exporting PDFs:
