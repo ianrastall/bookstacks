@@ -110,6 +110,24 @@ class ScarletExportTests(unittest.TestCase):
         self.assertIn(r'\usepackage[AutoFallBack=true]{xeCJK}', document)
         self.assertNotIn(r'\xeCJKDeclareCharClass{Default}', document)
 
+    def test_unicode_source_url_is_safe_inside_the_publication_table(self):
+        edition = exports.parse_edition(ROOT / 'tei/lu-xun/lu-xun_call-to-arms_zho.xml')
+        record = exports.publication_page_tex(edition)
+        self.assertIn(r'\url{https://zh.wikisource.org/wiki/Index:\%E9\%AD\%AF', record)
+
+    def test_first_spoken_paragraph_starts_without_indent(self):
+        edition = exports.parse_edition(ROOT / 'tei/plato/plato_gorgias_eng.xml')
+        body = exports.LatexRenderer(edition).render()
+        self.assertIn(r'\bookstacksopeningdialogue{', body)
+        self.assertIn(r'\bookstacksdialogue{', body)
+
+    def test_parallel_cast_columns_can_continue_onto_the_next_page(self):
+        edition = exports.parse_edition(ROOT / 'tei/shakespeare/shakespeare_antony-and-cleopatra_fra.xml')
+        body = exports.LatexRenderer(edition).render()
+        cast = body.split(r'\begin{longtable}', 1)[1].split(r'\end{longtable}', 1)[0]
+        self.assertIn('MARC-ANTOINE', cast)
+        self.assertIn('MESSAGERS ET SERVITEURS.', cast)
+
 
 if __name__ == "__main__":
     unittest.main()

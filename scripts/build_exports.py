@@ -17,7 +17,9 @@ import subprocess
 import sys
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import dataclass
+from itertools import zip_longest
 from pathlib import Path
+from urllib.parse import quote
 from xml.etree import ElementTree as ET
 
 from pypdf import PdfReader
@@ -503,6 +505,9 @@ class LatexRenderer:
             if re.search(r"\bsubheading\b", rendition(node)):
                 return f"\\begin{{center}}{content}\\end{{center}}"
             no_indent = in_inset or not continued or re.search(r"\b(?:noindent|notindent)\b", rendition(node))
+            if no_indent and content.startswith(r"\bookstacksdialogue{"):
+                content = content.replace(r"\bookstacksdialogue{", r"\bookstacksopeningdialogue{", 1)
+                no_indent = False
             prefix = r"\noindent " if no_indent else ""
             return f"\\color{{booklight}} {prefix}{content}\\par"
         if name == "sp":
@@ -624,6 +629,23 @@ class LatexRenderer:
         return f"{label} {number}" if number and not number.lower().startswith("urn:") else label
 
     def render_table(self, node: ET.Element) -> str:
+        source_rows = direct_children(node, "row")
+        if len(source_rows) == 1:
+            cells = direct_children(source_rows[0], "cell")
+            # Some imported cast lists store an entire column in one cell,
+            # with explicit line breaks aligning it with the other columns.
+            scopes = [cell[0] if len(cell) == 1 and local_name(cell[0]) == "seg" else cell for cell in cells]
+            breaks = [len(direct_children(scope, "lb")) for scope in scopes]
+            if max(breaks, default=0) >= 20 and all(
+                count == sum(local_name(part) == "lb" for part in cell.iter())
+                for count, cell in zip(breaks, cells)
+            ):
+                columns = [
+                    [line.strip() for line in self.inline_content(cell).split(r"\ifhmode\\\fi{}")]
+                    for cell in cells
+                ]
+                return self.render_parallel_table(columns)
+
         # ``lb`` normally renders as ``\\``, but inside tabularx that token
         # ends the entire row—even when it occurs inside formatting such as
         # ``\textsc{...}``.  Use a paragraph-mode line break within cells.
@@ -632,7 +654,7 @@ class LatexRenderer:
 
         rows = [
             [cell_content(cell) for cell in direct_children(row, "cell")]
-            for row in direct_children(node, "row")
+            for row in source_rows
         ]
         rows = [row for row in rows if row]
         if not rows:
@@ -648,6 +670,15 @@ class LatexRenderer:
             "\\toprule\n" + "\n".join(lines) + "\n\\bottomrule\n"
             "\\end{tabularx}"
         )
+
+    def render_parallel_table(self, columns: list[list[str]]) -> str:
+        columns = [column for column in columns if any(column)]
+        if not columns:
+            return ""
+        width = rf"\dimexpr\linewidth/{len(columns)}-2\tabcolsep\relax"
+        spec = rf">{{\raggedright\arraybackslash}}p{{{width}}}" * len(columns)
+        rows = [" & ".join(row) + r" \\" for row in zip_longest(*columns, fillvalue="")]
+        return "\n".join([rf"\begin{{longtable}}{{{spec}}}", r"\toprule", *rows, r"\bottomrule", r"\end{longtable}"])
 
     def inline_content(self, node: ET.Element, *, split_spoken: bool = False) -> str:
         result = self.text(node.text)
@@ -855,7 +886,9 @@ def publication_page_tex(edition: Edition) -> str:
     cursor = 0
     for match in re.finditer(r'https?://\S+', edition.source_citation):
         source_citation += latex_escape(edition.source_citation[cursor:match.start()])
-        url = match.group().replace('\\', '%5C').replace('{', '%7B').replace('}', '%7D')
+        # Encode Unicode URL characters and protect percent signs while the
+        # tabularx publication record reads the cell contents.
+        url = quote(match.group(), safe=":/?#[]@!$&'()*+,;=%").replace('%', r'\%')
         source_citation += r'\url{' + url + '}'
         cursor = match.end()
     source_citation += latex_escape(edition.source_citation[cursor:])
@@ -984,6 +1017,7 @@ def latex_document(
 \usepackage{{hyperref}}
 \usepackage{{booktabs}}
 \usepackage{{tabularx}}
+\usepackage{{longtable}}
 \usepackage{{array}}
 \usepackage{{changepage}}
 \usepackage{{enumitem}}
@@ -1088,6 +1122,7 @@ def latex_document(
 \newcommand{{\bookstacksentrance}}[1]{{\par\begingroup\color{{booklight}}\parindent=0pt\centering\addvspace{{.6\baselineskip}}\bookstacksinlinestage{{#1}}\par\endgroup\addvspace{{.6\baselineskip}}}}
 \newcommand{{\bookstacksexit}}[1]{{\par\begingroup\color{{booklight}}\parindent=0pt\raggedleft\addvspace{{.6\baselineskip}}\bookstacksinlinestage{{#1}}\par\endgroup\addvspace{{.6\baselineskip}}}}
 \newcommand{{\bookstacksdialogue}}[1]{{\par\indent\ignorespaces #1\unskip}}
+\newcommand{{\bookstacksopeningdialogue}}[1]{{\par\noindent\ignorespaces #1\unskip}}
 \newcommand{{\bookstacksnote}}[1]{{\footnote{{\color{{booklight}}#1}}\color{{booklight}}\mbox{{}}}}
 \newenvironment{{bookstackscast}}
   {{\begin{{itemize}}[leftmargin=2em,label={{}},itemsep=.35em]}}
