@@ -97,6 +97,10 @@ test('As You Like It shares plates across editions and accounts for the French s
 
 test('the photographic interpretation opens by keyboard below the engraving', async ({ page }) => {
  await page.goto('/fr/authors/shakespeare/as-you-like-it/act-3/scene-3?ui=en');
+ await page.evaluate(() => document.documentElement.dataset.theme = 'dark');
+ const engraving = page.locator('.reader-illustration img');
+ await expect(engraving).toHaveCSS('filter', 'grayscale(1)');
+ await expect(engraving).toHaveCSS('mix-blend-mode', 'normal');
  const variant = page.locator('.reader-illustration + .reader-illustration-variant');
  const summary = variant.locator('summary');
  const photo = variant.locator('img');

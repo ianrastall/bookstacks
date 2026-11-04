@@ -44,7 +44,7 @@ test('book paragraphs, internal headings and scene breaks follow prose typograph
   await expect(sceneBreak.locator('+ p')).toHaveCSS('text-indent', '0px');
 });
 
-test('dark sketches remove the paper instead of displaying a white vignette', async ({ page }) => {
+test('sketches keep dark ink on light paper in both themes', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto('/en/authors/christie/the-mysterious-affair-at-styles/chapter-3');
   const diagram = page.locator('.reader-content img').first();
@@ -54,9 +54,8 @@ test('dark sketches remove the paper instead of displaying a white vignette', as
   await expect.poll(() => image.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
   for (const theme of ['dark', 'light']) {
     await page.evaluate(theme => document.documentElement.dataset.theme = theme, theme);
-    await expect(image).toHaveCSS('mix-blend-mode', theme === 'dark' ? 'screen' : 'multiply');
-    const filter = await image.evaluate(el => getComputedStyle(el).filter);
-    expect(filter.includes('invert(1)')).toBe(theme === 'dark');
+    await expect(image).toHaveCSS('mix-blend-mode', theme === 'dark' ? 'normal' : 'multiply');
+    await expect(image).toHaveCSS('filter', 'grayscale(1)');
     await page.screenshot({ path: `tmp/sketch-${theme}-desktop.png` });
     await page.setViewportSize({ width: 390, height: 844 });
     await image.scrollIntoViewIfNeeded();

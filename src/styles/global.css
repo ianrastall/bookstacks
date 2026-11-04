@@ -892,21 +892,16 @@ button, input, select { font: inherit; }
   font: 0.78rem/1.45 var(--sans-font);
 }
 
-/* In dark mode, invert paper to black and screen it away. In light mode,
-   multiply removes the paper. The same four-edge mask softens dense marks. */
+/* Keep the ink dark in both themes and soften the edges of the paper. */
 .tei-engraving .tei-graphic {
   border-radius: 0;
   mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent),
     linear-gradient(to bottom, transparent, black 12%, black 88%, transparent);
   mask-composite: intersect;
-  filter: grayscale(1) contrast(1.2) invert(1);
-  mix-blend-mode: screen;
-  opacity: .82;
+  filter: grayscale(1);
 }
 [data-theme='light'] .tei-engraving .tei-graphic {
-  filter: grayscale(1);
   mix-blend-mode: multiply;
-  opacity: 1;
 }
 .reader-content .tei-cipher {
   white-space: pre-wrap;
@@ -934,7 +929,7 @@ button, input, select { font: inherit; }
   .reader-illustration-variant { width: min(18rem, 100%); margin-inline: auto; }
 }
 @media (forced-colors: active) {
-  .tei-engraving .tei-graphic { filter: none; mix-blend-mode: normal; opacity: 1; }
+  .tei-engraving .tei-graphic { filter: none; mix-blend-mode: normal; }
 }
 
 @media (max-width: 960px) {
