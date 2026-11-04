@@ -213,6 +213,12 @@ const description = page.kind === 'author'
               <img class="tei-graphic" src={page.unit.illustration.previewSrc ?? page.unit.illustration.src} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
             </figure>
           )}
+          {page.unit.illustration?.photo && (
+            <details class="reader-illustration-variant" data-online-only lang={page.edition.code} dir={editionDir} translate="no">
+              <summary>{page.unit.illustration.photo.label}</summary>
+              <img src={page.unit.illustration.photo.src} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
+            </details>
+          )}
         </aside>
       </div>
       <script>

@@ -919,6 +919,9 @@ button, input, select { font: inherit; }
 .reader-illustration { margin: 1.5rem 0 0; }
 .reader-content .tei-inline-graphic { display: inline-block; max-height: 1.6em; vertical-align: middle; margin: 0 0.15em; border-radius: 0; }
 .reader-illustration .tei-graphic { width: 100%; height: auto; }
+.reader-illustration-variant { margin: 0.75rem 0 0; }
+.reader-illustration-variant summary { color: var(--accent); cursor: pointer; font-size: 0.85rem; }
+.reader-illustration-variant img { display: block; width: 100%; height: auto; margin-top: 0.75rem; border-radius: 4px; }
 @media (min-width: 961px) {
   .chapter-sidebar:has(.reader-illustration) {
     max-height: calc(100dvh - 2rem);
@@ -928,6 +931,7 @@ button, input, select { font: inherit; }
 }
 @media (max-width: 760px) {
   .reader-illustration { width: min(18rem, 100%); margin: 1rem auto; }
+  .reader-illustration-variant { width: min(18rem, 100%); margin-inline: auto; }
 }
 @media (forced-colors: active) {
   .tei-engraving .tei-graphic { filter: none; mix-blend-mode: normal; opacity: 1; }

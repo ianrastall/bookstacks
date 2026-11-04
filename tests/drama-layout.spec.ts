@@ -94,3 +94,25 @@ test('As You Like It shares plates across editions and accounts for the French s
   await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.naturalWidth)).toBe(640);
  }
 });
+
+test('the photographic interpretation opens by keyboard below the engraving', async ({ page }) => {
+ await page.goto('/fr/authors/shakespeare/as-you-like-it/act-3/scene-3?ui=en');
+ const variant = page.locator('.reader-illustration + .reader-illustration-variant');
+ const summary = variant.locator('summary');
+ const photo = variant.locator('img');
+ await expect(variant).toHaveAttribute('lang', 'fr');
+ await expect(summary).toHaveText('Interprétation photographique (générée par IA)');
+ await expect(photo).toBeHidden();
+ await summary.focus();
+ await page.keyboard.press('Space');
+ await expect(photo).toBeVisible();
+ await expect(photo).toHaveAttribute('src', /rosalind-reading-photo\.jpg$/);
+ await expect(photo).toHaveAttribute('alt', /Rosalinde.*poème/);
+ await expect(photo).toHaveCSS('filter', 'none');
+ await photo.scrollIntoViewIfNeeded();
+ await expect.poll(() => photo.evaluate((element: HTMLImageElement) => element.naturalWidth)).toBe(640);
+ await page.keyboard.press('Space');
+ await expect(photo).toBeHidden();
+ await page.goto('/es/authors/shakespeare/as-you-like-it/act-2/scene-2?ui=en');
+ await expect(page.locator('.reader-illustration-variant')).toHaveCount(0);
+});

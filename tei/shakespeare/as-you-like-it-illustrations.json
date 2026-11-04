@@ -65,7 +65,13 @@
       "width": 640,
       "height": 427,
       "sha256": "a9c6e7240a85d3f953424a0d8db2f63f38dac904a368fa6773fb4645b1845743",
-      "masterSha256": "67013f6a64f59b270a3a43576aacecb7b418b5342868f26388e821e9b527ecae"
+      "masterSha256": "67013f6a64f59b270a3a43576aacecb7b418b5342868f26388e821e9b527ecae",
+      "photo": {
+        "file": "img/as-you-like-it/exiled-duke-photo.jpg",
+        "sceneBrief": "Act II scene 1. In the Forest of Arden, the exiled Duke Senior, a dignified grey-bearded older man in a rough forester cloak, speaks calmly to three companions around a mossy oak. Brisk wind in their cloaks and dry leaves, unostentatious woodland life. No hunting or weapons in action.",
+        "sha256": "33abe5ea3001ba5b92bb3866a0d9f837ddf380f121462ee8cc6e3c174284679f",
+        "masterSha256": "e3f5feccd36009823c1e604db93714fd62bcec02ae95abc649e2ff664d413907"
+      }
     },
     "adams-offer": {
       "file": "img/as-you-like-it/adams-offer.jpg",
@@ -78,7 +84,13 @@
       "width": 640,
       "height": 427,
       "sha256": "ef2e7bf3ad67458bea0cc5c2cdf0d968d5ae195ca03b09e28fa6077bf98446ce",
-      "masterSha256": "945a8f125650991578136e237cf6336902a5d95ab8e81276fe058c1f55573adb"
+      "masterSha256": "945a8f125650991578136e237cf6336902a5d95ab8e81276fe058c1f55573adb",
+      "photo": {
+        "file": "img/as-you-like-it/adams-offer-photo.jpg",
+        "sceneBrief": "Act II scene 3. At the rough stone threshold of Oliver's house, elderly white-bearded servant Adam in a plain cap puts his little leather savings purse into young Orlando's hands, warning him to flee. Orlando is dark-haired and wears a modest dark doublet and open white collar. Gesture of loyalty, low lantern glow rendered with hatching.",
+        "sha256": "58df930097ab9bc5eb93aac7c43467dd1d035d69af5b1187025aa9bdb6eaac86",
+        "masterSha256": "fdfca8bbc9a1802e8771fd46fded789a1daf43635588f1b1aa5146ba73780502"
+      }
     },
     "shepherds": {
       "file": "img/as-you-like-it/shepherds.jpg",
@@ -91,7 +103,13 @@
       "width": 640,
       "height": 427,
       "sha256": "6ef36f5e1403d6ea86abfd71ca2ff389fd2bb4e08578476e1fd0e630f23e6af3",
-      "masterSha256": "53a5f6e2064cdb8b9c7dd3bc843859816ded0b1963911f588b14aadba0007419"
+      "masterSha256": "53a5f6e2064cdb8b9c7dd3bc843859816ded0b1963911f588b14aadba0007419",
+      "photo": {
+        "file": "img/as-you-like-it/shepherds-photo.jpg",
+        "sceneBrief": "Act II scene 4. Disguised as Ganymede in a featherless boy's cap, short dark doublet and breeches, Rosalind arrives in Arden with Celia in a plain shepherdess dress and the lanky jester Touchstone in a simple soft fool's cap. Older shepherd Corin greets them, a few sheep beyond the clearing. Quiet first encounter.",
+        "sha256": "a6084032167f21e107b338ebaa8f3d72767d1b21729232098ccda3c41c325920",
+        "masterSha256": "79346e20542a0e38047c1448f2b0ff84d8b9b81e6e39f3d764cd363837db3cd7"
+      }
     },
     "greenwood-song": {
       "file": "img/as-you-like-it/greenwood-song.jpg",
@@ -104,7 +122,13 @@
       "width": 640,
       "height": 427,
       "sha256": "981652fb742117b06a3113397bedad462f1008b9742d10b3afc05ffd4352e74f",
-      "masterSha256": "f32089fbaae14fd177319e53e7c4c302e131d43a3b5d5d0603f0b4bf5c852510"
+      "masterSha256": "f32089fbaae14fd177319e53e7c4c302e131d43a3b5d5d0603f0b4bf5c852510",
+      "photo": {
+        "file": "img/as-you-like-it/greenwood-song-photo.jpg",
+        "sceneBrief": "Act II scene 5. Amiens, a bearded forester gentleman, sings unaccompanied under a spreading oak, one hand raised with the verse. Melancholy Jaques, slender, dark-cloaked and slightly older, listens at the base of the tree, two forest companions in the middle distance. Keep the scene spare and pastoral.",
+        "sha256": "18d5f55b89424b320aa8542afc9cb2a38772b213e660d89b3465294d001ebd22",
+        "masterSha256": "2e26bb2b0ecc98cf307975ddb7585c7dd9fc53f79bf243631c7b89289fab6a55"
+      }
     },
     "forest-banquet": {
       "file": "img/as-you-like-it/forest-banquet.jpg",
@@ -117,7 +141,13 @@
       "width": 640,
       "height": 427,
       "sha256": "4e76ad9e840844ef96d639be320100fb3f7dd94343d1b9d9e39ae8962a707db2",
-      "masterSha256": "8cc61ee8b2083a68118966c6c1184c7848bdbbcc6ce5a9a2929b3ccf608d99cd"
+      "masterSha256": "8cc61ee8b2083a68118966c6c1184c7848bdbbcc6ce5a9a2929b3ccf608d99cd",
+      "photo": {
+        "file": "img/as-you-like-it/forest-banquet-photo.jpg",
+        "sceneBrief": "Act II scene 7. In a forest clearing, hungry young Orlando with short dark curls and open white collar stands beside a plain wooden feast table, his drawn sword held low and safely pointed at the earth. An elderly grey-bearded Duke Senior offers an open welcoming hand; two seated foresters look on. Bread and a jug on the table. No combat, no blood.",
+        "sha256": "555c64b6cc6c45a00460d5770a0c5d5fc047adeba8f5dbabee980989c4081937",
+        "masterSha256": "bea418170f27fb1cd4e09abc98626f88b8cb0ef9e93789d6f46d9a4a8cffb579"
+      }
     },
     "poems-on-trees": {
       "file": "img/as-you-like-it/poems-on-trees.jpg",
@@ -130,7 +160,13 @@
       "width": 640,
       "height": 427,
       "sha256": "1e31d5213063b8a4a0cdceda500f2192fd0ed99832af3bc89d536c7e6fc1f1b8",
-      "masterSha256": "a4c88635a9e7b481df625c21f507dc0baf34f769a3cdbaf6aaca7a721bde60c2"
+      "masterSha256": "a4c88635a9e7b481df625c21f507dc0baf34f769a3cdbaf6aaca7a721bde60c2",
+      "photo": {
+        "file": "img/as-you-like-it/poems-on-trees-photo.jpg",
+        "sceneBrief": "Act III scene 2. Young Orlando, short dark curls, dark doublet and open white collar, fastens a small sheet of love verse to the bark of an Arden tree with both hands. A few other sheets on distant trunks. The sheets have only faint indistinct strokes, with no legible text. Intimate private action against a spacious landscape.",
+        "sha256": "27401b7874e590e47b111512408f072e47bb0baa25afcbdba194317781fa2d06",
+        "masterSha256": "25d81a7679738e93987f077d3c858d31cb2314f861fce9d7b61dac11b09a15a0"
+      }
     },
     "rosalind-reading": {
       "file": "img/as-you-like-it/rosalind-reading.jpg",
@@ -143,7 +179,13 @@
       "width": 640,
       "height": 427,
       "sha256": "20bdcc79928d8373f18a9c34c0c4b5005e781bf87bc9ec1ad189445dabd9599d",
-      "masterSha256": "3f4caa4937581b43f1f27abb7b35c130bcd825875f0b40edb7db64a3f7527196"
+      "masterSha256": "3f4caa4937581b43f1f27abb7b35c130bcd825875f0b40edb7db64a3f7527196",
+      "photo": {
+        "file": "img/as-you-like-it/rosalind-reading-photo.jpg",
+        "sceneBrief": "French Act III scene 3. Rosalind disguised as the boy Ganymede, in a featherless dark cap, short doublet and breeches, reads one of Orlando's poems from a small sheet beneath the trees. Celia in a simple light shepherdess dress approaches with another sheet. No legible writing. Amused surprise in the body language.",
+        "sha256": "5615606ef29ec2488cef3fffdce795d1aa481da9e5333720b9ac3d2e37d22d96",
+        "masterSha256": "f72971131e28a26b9d45db33fc289d781b273b10952f9909e34e41e798ef7617"
+      }
     },
     "country-wedding": {
       "file": "img/as-you-like-it/country-wedding.jpg",
@@ -156,7 +198,13 @@
       "width": 640,
       "height": 427,
       "sha256": "25b61040ca211c64503ab9bbc7fa52ff52b1c8ce5094be03d7dbd379680e77c6",
-      "masterSha256": "bfe895bcf3a261ae5f4443bde6b97cdffb8d8b10f8aee2826d14600dbcc71ecd"
+      "masterSha256": "bfe895bcf3a261ae5f4443bde6b97cdffb8d8b10f8aee2826d14600dbcc71ecd",
+      "photo": {
+        "file": "img/as-you-like-it/country-wedding-photo.jpg",
+        "sceneBrief": "Act III, Touchstone's attempted country wedding. A lanky witty court jester in a plain soft fool's cap stands beside Audrey, a countrywoman in a simple bodice and cap. A solemn village parson in a black cloak faces them. Jaques watches discreetly a few paces away. Open woodland path, a wry encounter, no ceremony completed.",
+        "sha256": "0e15b7004b4fd4725f20a745d0eacc18ad824da57eb7c42218411d8446dd5023",
+        "masterSha256": "da86ad75ad62746bd312f53aae754461eca88022a174002390a30844ee96f092"
+      }
     },
     "cottage": {
       "file": "img/as-you-like-it/cottage.jpg",
@@ -169,7 +217,13 @@
       "width": 640,
       "height": 427,
       "sha256": "2e14a867eac2c3f5c53d601ea491386f99bc383b02651c130d80ba5d5f0bca7b",
-      "masterSha256": "489a894e7195f97644366f41c52ec12b0de1dbbbada5e04810318c38609e0bd3"
+      "masterSha256": "489a894e7195f97644366f41c52ec12b0de1dbbbada5e04810318c38609e0bd3",
+      "photo": {
+        "file": "img/as-you-like-it/cottage-photo.jpg",
+        "sceneBrief": "Act III. At a modest cottage in Arden, Rosalind, dressed as Ganymede in a featherless boy's cap, dark doublet and breeches, talks with Celia in a plain shepherdess dress. Elderly shepherd Corin approaches with his crook and calls their attention to something off the path. Stone cottage, thatched roof and oak at medium distance.",
+        "sha256": "e7ad8c1bd17eb6beb1eb7ca72e3591c6435db8f0b91ea598c6278a7a5eff5dab",
+        "masterSha256": "d8fceb6ee29e80e9d4099f03bc424ce1662b7b686d3b96d1438a2fd12aca7ca1"
+      }
     },
     "phoebe": {
       "file": "img/as-you-like-it/phoebe.jpg",
@@ -182,7 +236,13 @@
       "width": 640,
       "height": 427,
       "sha256": "d7572d8e85093d80d1e9a5411dd1af9bf77d78a29f1f4ad0e539e3788ed51cb7",
-      "masterSha256": "f5e58d26271f3413d26210c2d1b8a2265251d68d78fa55cb1b53b32fdf848eff"
+      "masterSha256": "f5e58d26271f3413d26210c2d1b8a2265251d68d78fa55cb1b53b32fdf848eff",
+      "photo": {
+        "file": "img/as-you-like-it/phoebe-photo.jpg",
+        "sceneBrief": "Act III. Shepherd Silvius appeals to Phoebe, a proud young shepherdess in a plain bonnet who turns her face away. Rosalind, disguised as Ganymede in a dark doublet, breeches and featherless boy's cap, steps forward and addresses her frankly. Forest clearing; no touching, distinct silhouettes, lightly humorous.",
+        "sha256": "f7d17c12e29bbe50b731957da04fd914a3871e66c80aadc91c2fb549f0299a5d",
+        "masterSha256": "f2c27cfdd5a7b6972a005d06c1785ee321910d7dc07b229d540e6ab17e4c0a80"
+      }
     },
     "mock-wooing": {
       "file": "img/as-you-like-it/mock-wooing.jpg",
@@ -195,7 +255,13 @@
       "width": 640,
       "height": 427,
       "sha256": "fcb6eeff10e05ea453727304d9ccf10a45e710a19f92a6ff4e6a28c5bc1c093e",
-      "masterSha256": "49d34501861ccc3ff9df39933552119a087cdeeab68081b0bebda5ea73f90bf3"
+      "masterSha256": "49d34501861ccc3ff9df39933552119a087cdeeab68081b0bebda5ea73f90bf3",
+      "photo": {
+        "file": "img/as-you-like-it/mock-wooing-photo.jpg",
+        "sceneBrief": "Act IV scene 1. Orlando, dark curls, dark doublet and white open collar, practices wooing with Rosalind disguised as Ganymede, who wears a featherless boy's cap, short dark doublet and breeches. They face one another with playful formality, seated Celia in a plain shepherdess dress watches with amusement. Arden oak in a softly shaded clearing.",
+        "sha256": "f03013f1b0afd56b4a9bef5de369f9ab8f332adfc0ecd477ca3c425b7abd60c2",
+        "masterSha256": "6154d9f33f362a48e5fea47249ab3d74a99cfaf85c52e2dba787a531f0d25b41"
+      }
     },
     "bloody-napkin": {
       "file": "img/as-you-like-it/bloody-napkin.jpg",
@@ -208,7 +274,13 @@
       "width": 640,
       "height": 427,
       "sha256": "c484b7974b94561f38da8cef4069a2c3a3582d15e75b7548d020d298a52d30b7",
-      "masterSha256": "d22c5229bd0a1f449e25be056d83490fbaba8a6e96d087fcbf2db397415c094f"
+      "masterSha256": "d22c5229bd0a1f449e25be056d83490fbaba8a6e96d087fcbf2db397415c094f",
+      "photo": {
+        "file": "img/as-you-like-it/bloody-napkin-photo.jpg",
+        "sceneBrief": "Act IV scene 3. In Arden, the reformed Oliver presents a small light handkerchief with one small dark stain to Rosalind in a boy's featherless cap and doublet. Rosalind weakens and Celia in shepherdess dress supports her shoulders. Three clearly separate figures, faces and gesture readable. No wounds, no gore.",
+        "sha256": "71ff18fa6d8b593078f37687ffb3d2b73089ff3cb9f5f9f95eb777e3248e6293",
+        "masterSha256": "ad2f21085c93e255082d0bdf2944458e307f99d341d128c1bd938b6e65b6a7d3"
+      }
     },
     "william": {
       "file": "img/as-you-like-it/william.jpg",
@@ -221,7 +293,13 @@
       "width": 640,
       "height": 427,
       "sha256": "d84c9d9a89cde5c4bfd9ed0767ca0c4fc72e85ad728fa081b77796cc69c75d7b",
-      "masterSha256": "2bd0da68c57445dc4ed75875b4906951153cb694e1b189f8bc7d7d6ab158b1d5"
+      "masterSha256": "2bd0da68c57445dc4ed75875b4906951153cb694e1b189f8bc7d7d6ab158b1d5",
+      "photo": {
+        "file": "img/as-you-like-it/william-photo.jpg",
+        "sceneBrief": "Act V scene 1. On an Arden footpath, the lanky jester Touchstone in a simple soft fool's cap questions William, a shy young countryman holding a plain felt cap. Audrey in a simple country bodice and bonnet watches with a wry expression. The verbal rivalry is comic and gentle. Three distinct silhouettes.",
+        "sha256": "3ca934081b4f91276a154d9007e8dbaefd54d28be6bd9abdbd15e53e4e36b122",
+        "masterSha256": "68604b9a5cf0799e095319045c9eb69a5b560c2301029705ee85203bc1866289"
+      }
     },
     "forest-promises": {
       "file": "img/as-you-like-it/forest-promises.jpg",
@@ -234,7 +312,13 @@
       "width": 640,
       "height": 427,
       "sha256": "c6202cd296b39b9d5fc79db66654ad171bfe94ce8c9d50861494963ddcc65f69",
-      "masterSha256": "b13faccf4afb11f55016b3b59502149a1af1b6e920b270aa20d03de57987776a"
+      "masterSha256": "b13faccf4afb11f55016b3b59502149a1af1b6e920b270aa20d03de57987776a",
+      "photo": {
+        "file": "img/as-you-like-it/forest-promises-photo.jpg",
+        "sceneBrief": "Act V scene 2. In a quiet forest glade, Orlando with dark curls and an open white collar listens while Rosalind, still dressed as Ganymede in a featherless cap and short doublet, makes a promise with an open palm. Phoebe and shepherd Silvius wait a little apart. Arrange four distinct figures in a shallow arc, no touching.",
+        "sha256": "1019b304e28fe9c48ec7c04d64adfa1d0b97bd3cd5afbe0b1273555d04dcfd7a",
+        "masterSha256": "2fd38b4f37c1384a4d60f329ac2779fc8cda4f1b85e9daa711b9930684898885"
+      }
     },
     "forest-finale": {
       "file": "img/as-you-like-it/forest-finale.jpg",
@@ -247,7 +331,13 @@
       "width": 640,
       "height": 427,
       "sha256": "787b5e2c04f77701c985bf93113519ab7aee88724bb33f81efa728027dd7b03e",
-      "masterSha256": "9d0c8d21e2c6f3e4bb8019a51ea911036730650b780c6a164f91cb3eb15432b5"
+      "masterSha256": "9d0c8d21e2c6f3e4bb8019a51ea911036730650b780c6a164f91cb3eb15432b5",
+      "photo": {
+        "file": "img/as-you-like-it/forest-finale-photo.jpg",
+        "sceneBrief": "Act V scene 4. At the reconciliation and weddings in the Forest of Arden, Rosalind, now in a modest light Elizabethan gown without a disguise, steps forward beside young Orlando in a dark doublet and open white collar. Grey-bearded Duke Senior welcomes them with both arms open. A few couples witness them in the mid-distance. Pastoral stage tableau, warm and restrained, no fantastical effects.",
+        "sha256": "5d4756bfb2c8bc6a4e97065b7ff0137bfaa5962b01ede89cb49876e4e66d6155",
+        "masterSha256": "50dbbccc90843d11b1a31cdf467913f0446c1cf0bca9f92850590b0411504719"
+      }
     }
   },
   "editions": {
@@ -340,5 +430,10 @@
         "act-5/scene-4": "forest-finale"
       }
     }
+  },
+  "photoLabel": {
+    "en": "Photographic interpretation (AI-generated)",
+    "fr": "Interprétation photographique (générée par IA)",
+    "es": "Interpretación fotográfica (generada por IA)"
   }
 }

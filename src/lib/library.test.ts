@@ -25,18 +25,30 @@ it('illustrates every As You Like It reader page in its edition language', () =>
     .works.find(work => work.slug === 'as-you-like-it')!;
   expect(work.editions).toHaveLength(3);
   const files = new Set<string>();
+  const photoFiles = new Set<string>();
+  let photoPages = 0;
   for (const edition of work.editions) {
     const plan = asYouLikeItArt.editions[edition.sourceFile as keyof typeof asYouLikeItArt.editions];
     expect(edition.units.map(unit => unit.path).sort()).toEqual(Object.keys(plan.pages).sort());
     for (const unit of edition.units) {
       expect(unit.illustration?.description, unit.path).toBeTruthy();
       files.add(unit.illustration!.src);
+      if (unit.illustration?.photo) {
+        photoPages++;
+        photoFiles.add(unit.illustration.photo.src);
+      }
     }
   }
   expect(files.size).toBe(19);
+  expect(photoFiles.size).toBe(15);
+  expect(photoPages).toBe(43);
   for (const asset of Object.values(asYouLikeItArt.assets)) {
     const bytes = fs.readFileSync(`tei/shakespeare/${asset.file}`);
     expect(createHash('sha256').update(bytes).digest('hex')).toBe(asset.sha256);
+    if ('photo' in asset) {
+      const photo = fs.readFileSync(`tei/shakespeare/${asset.photo.file}`);
+      expect(createHash('sha256').update(photo).digest('hex')).toBe(asset.photo.sha256);
+    }
   }
 });
 it('retains the Hugo Kinsmen edition hierarchy, verse, collaborators and linked translator notes',()=>{
