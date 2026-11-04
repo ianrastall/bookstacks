@@ -70,14 +70,15 @@ Checks cover centered entrances, right-aligned exits, one square-bracket pair,
 italic surrounding words, upright uppercase names, inline speech directions,
 joined imported cues and preserved note links. A full-corpus check compares
 the entire character sequence and order before/after preparation, ignoring
-whitespace, for all 85 editions.
+whitespace, for all 87 editions.
 
 Browser checks cover English and French movement cues, the Hugo edition's
 speech directions, Spanish introductions, and a 320-pixel viewport. PDF samples
 are rendered for visual inspection, and each published light/dark pair must
 have identical extracted text and page counts.
 
-PDFs are generated in `tmp/drama-pdf-staging/books`. The PDF publication is
+For the 29 October publication, PDFs were generated in
+`tmp/drama-pdf-staging/books`. That PDF publication was
 assembled in the isolated `tmp/drama-publication` checkout, preserving local
 edits in the main `bookstacks-pdf` working directory. The Shakespeare PDFs and
 the 17 previously missing Christie pairs are updated, together with their
