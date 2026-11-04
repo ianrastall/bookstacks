@@ -10,10 +10,15 @@ import '../i18n/catalogues';
 import { text as interfaceText } from './interface';
 import publicationData from '../data/pdf-publications.json';
 import epubPublicationData from '../data/epub-publications.json';
+import asYouLikeItArt from '../../tei/shakespeare/as-you-like-it-illustrations.json';
 
 const PUBLICATION_URL = 'https://ianrastall.github.io/bookstacks-pdf/books/';
 const PUBLICATION_INDEX = publicationData as Record<string, { source_sha256: string; variants: PdfVariant[] }>;
 const EPUB_INDEX = epubPublicationData as Record<string,EpubPublication>;
+const SIDEBAR_ART: Record<string, {
+  assets: Record<string, { file: string; alt: Partial<Record<Locale, string>> }>;
+  editions: Record<string, { sourceSha256: string; pages: Record<string, string> }>;
+}> = { 'shakespeare/as-you-like-it': asYouLikeItArt };
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';
@@ -476,6 +481,11 @@ function parseEdition(filePath: string): ParsedEdition {
   const language = LANGUAGE_DATA[fileLanguage] ?? { code: fileLanguage, name: fileLanguage };
   const locale: Locale = isEditionLanguage(language.code) ? language.code : 'en';
   const source = fs.readFileSync(filePath, 'utf8');
+  const artPlan = SIDEBAR_ART[`${authorSlug}/${workSlug}`];
+  const artEdition = artPlan?.editions[fileName];
+  if (artEdition && artEdition.sourceSha256 !== createHash('sha256').update(source).digest('hex')) {
+    throw new Error(`Review the sidebar illustration placements for ${fileName}`);
+  }
   const document = new DOMParser().parseFromString(source, 'application/xml');
   const parseError = descendants(document, 'parsererror')[0];
   if (parseError) throw new Error(`Invalid XML in ${fileName}: ${cleanText(parseError.textContent)}`);
@@ -583,7 +593,7 @@ function parseEdition(filePath: string): ParsedEdition {
     const previewPath = imagePath.endsWith('.png')
       ? imagePath.replace(/\.png$/, '.jpg')
       : imagePath.replace(/\.jpe?g$/, '.preview.jpg');
-    const illustration = graphic && /^img\/[A-Za-z0-9._/-]+$/.test(imagePath) && !imagePath.includes('..')
+    const sourceIllustration = graphic && /^img\/[A-Za-z0-9._/-]+$/.test(imagePath) && !imagePath.includes('..')
       ? {
         src: `/tei/${authorSlug}/${imagePath}`,
         previewSrc: previewPath !== imagePath && fs.existsSync(path.join(path.dirname(filePath), previewPath))
@@ -591,6 +601,15 @@ function parseEdition(filePath: string): ParsedEdition {
         description: cleanText(directElementChildren(figure).find((node) => node.localName === 'figDesc')?.textContent),
       }
       : undefined;
+    const assetId = artEdition?.pages[pathValue];
+    const asset = assetId ? artPlan.assets[assetId] : undefined;
+    const description = asset?.alt[locale];
+    if (artEdition && (!asset || !description)) {
+      throw new Error(`Missing sidebar illustration for ${fileName} at ${pathValue}`);
+    }
+    const illustration = sourceIllustration ?? (asset && description
+      ? { src: `/tei/${authorSlug}/${asset.file}`, description }
+      : undefined);
     units.push({
       path: pathValue,
       segments: finalSegments,

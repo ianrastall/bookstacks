@@ -52,6 +52,17 @@ that records lyrics as a single paragraph still displays that paragraph.
 Recovering missing line and stanza divisions requires comparison with the
 source edition.
 
+## Sidebar illustrations
+
+Illustration sets are prepared one play at a time. For *As You Like It*, the
+[placement and art record](../tei/shakespeare/as-you-like-it-illustrations.json)
+maps all English, French, and Spanish reading pages to shared files. The
+Forest of Arden plate covers brief scenes and supplementary pages. The French
+Act III scene split has its own placement for Rosalind reading a poem. Each
+plate has alternative text in all three edition languages. The record pins
+placements to the TEI source and keeps the original generation prompts and
+image checksums.
+
 After an explicit new or corrected Shakespeare TEI import, refresh the derived
 character index before checking the site or exporting PDFs:
 

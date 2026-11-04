@@ -74,3 +74,23 @@ test('a labeled song has symmetric insets and follows its upright speaker label'
  expect(insets).toEqual([2, 2]);
  await expect(song.locator('.tei-line').first()).toHaveCSS('padding-inline-start', '0px');
 });
+
+test('As You Like It shares plates across editions and accounts for the French scene split', async ({ page }) => {
+ const cases = [
+  ['en', 'act-01/scene-01', 'orchard', /orchard/],
+  ['es', 'act-1/scene-1', 'orchard', /huerto/],
+  ['fr', 'act-3/scene-3', 'rosalind-reading', /Rosalinde.*poème/],
+  ['es', 'act-2/scene-2', 'arden', /sendero/],
+ ] as const;
+ await page.setViewportSize({ width: 390, height: 844 });
+ for (const [locale, route, plate, alt] of cases) {
+  await page.goto(`/${locale}/authors/shakespeare/as-you-like-it/${route}?ui=en`);
+  const figure = page.locator('.chapter-sidebar .chapter-navigation + .reader-illustration');
+  await expect(figure).toHaveAttribute('lang', locale);
+  const image = figure.locator('img');
+  await expect(image).toHaveAttribute('src', `/tei/shakespeare/img/as-you-like-it/${plate}.jpg`);
+  await expect(image).toHaveAttribute('alt', alt);
+  await image.scrollIntoViewIfNeeded();
+  await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.naturalWidth)).toBe(640);
+ }
+});

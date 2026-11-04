@@ -1,0 +1,344 @@
+{
+  "generationTool": "OpenAI built-in image generation",
+  "date": "2026-11-04",
+  "assets": {
+    "arden": {
+      "file": "img/as-you-like-it/arden.jpg",
+      "alt": {
+        "en": "An oak-lined path through the Forest of Arden.",
+        "fr": "Un sentier bordé de chênes dans la forêt des Ardennes.",
+        "es": "Un sendero entre robles en el bosque de Ardenas."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: A quiet empty path in the Forest of Arden, old oaks curving over a clearing and a narrow footpath, distant opening in the trees, a few ferns. No figures. This is the unobtrusive recurring plate for brief scenes and front matter.",
+      "width": 640,
+      "height": 427,
+      "sha256": "542f89c1b09229fef5964a342f1dc54ee06f1061f1f6941b17b1cae56d64611a",
+      "masterSha256": "d23d77f4ea0e0453495ac5fef2b5932211ff3e6305e78d60980549743daf3722"
+    },
+    "orchard": {
+      "file": "img/as-you-like-it/orchard.jpg",
+      "alt": {
+        "en": "Orlando confronts Oliver in an orchard while Adam watches.",
+        "fr": "Orlando affronte Olivier dans un verger sous le regard d’Adam.",
+        "es": "Orlando se enfrenta a Oliverio en un huerto mientras Adam observa."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act I scene 1. Orlando, a bareheaded young gentleman in a dark doublet with light collar, argues in a country orchard with his older brother Oliver, a lean man in a finely tailored dark doublet. Faithful elderly servant Adam, grey-bearded in a plain cap, watches. Apple branches and a low stone wall. A tense conversation, no physical violence.",
+      "width": 640,
+      "height": 427,
+      "sha256": "6b8f77b03cc0bd3d721215ce726a514e5a93cf2ae7709ca42d76e4ccd0166c92",
+      "masterSha256": "8a14477806e201f6b971407d46800482f3cf5ee3ec3a6aed0cdd21311145f7d3"
+    },
+    "wrestling": {
+      "file": "img/as-you-like-it/wrestling.jpg",
+      "alt": {
+        "en": "Orlando wrestles Charles as Rosalind and Celia watch.",
+        "fr": "Orlando lutte avec Charles sous les yeux de Rosalinde et de Célie.",
+        "es": "Orlando lucha con Carlos ante la mirada de Rosalinda y Celia."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act I scene 2. At an open-air court wrestling match, athletic Orlando in plain shirtsleeves grapples with the larger wrestler Charles. Rosalind and Celia watch anxiously at one side; Duke Frederick and court spectators are small behind. Depict a credible standing wrestling hold with anatomically clear hands and bodies.",
+      "width": 640,
+      "height": 427,
+      "sha256": "a264eff096a815bbd1e71a422b2b3d27cfbe6a8045ef52d23004696df4aba3fa",
+      "masterSha256": "0cce86843a4c348521fabef3afc8f7e5a3348deb7f8cb2b891861088e81cca81"
+    },
+    "banishment": {
+      "file": "img/as-you-like-it/banishment.jpg",
+      "alt": {
+        "en": "Duke Frederick orders Rosalind to leave as Celia stands beside her.",
+        "fr": "Le duc Frédéric ordonne à Rosalinde de partir en présence de Célie.",
+        "es": "El duque Federico ordena a Rosalinda que se marche, con Celia a su lado."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act I scene 3. Duke Frederick stands issuing his order in a plain stone palace chamber, his raised palm firm. Rosalind, a young noblewoman, faces him upright. Celia, her cousin, reaches protectively toward Rosalind. Keep the figures distinct and avoid melodrama.",
+      "width": 640,
+      "height": 427,
+      "sha256": "43fdc8f507d3531675a154105dda1e2b06d3fff97de58e8553962b5d69c651cd",
+      "masterSha256": "78692c989df50bfa546ce7556ec18de3f7a5b7ac3e31a8a8c6cc39ac5e629770"
+    },
+    "exiled-duke": {
+      "file": "img/as-you-like-it/exiled-duke.jpg",
+      "alt": {
+        "en": "The exiled duke speaks to his companions beneath an oak.",
+        "fr": "Le duc en exil parle à ses compagnons sous un chêne.",
+        "es": "El duque desterrado habla con sus compañeros bajo un roble."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act II scene 1. In the Forest of Arden, the exiled Duke Senior, a dignified grey-bearded older man in a rough forester cloak, speaks calmly to three companions around a mossy oak. Brisk wind in their cloaks and dry leaves, unostentatious woodland life. No hunting or weapons in action.",
+      "width": 640,
+      "height": 427,
+      "sha256": "a9c6e7240a85d3f953424a0d8db2f63f38dac904a368fa6773fb4645b1845743",
+      "masterSha256": "67013f6a64f59b270a3a43576aacecb7b418b5342868f26388e821e9b527ecae"
+    },
+    "adams-offer": {
+      "file": "img/as-you-like-it/adams-offer.jpg",
+      "alt": {
+        "en": "Adam offers his purse to Orlando at Oliver’s door.",
+        "fr": "Adam tend sa bourse à Orlando devant la maison d’Olivier.",
+        "es": "Adam ofrece su bolsa a Orlando ante la puerta de Oliverio."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act II scene 3. At the rough stone threshold of Oliver's house, elderly white-bearded servant Adam in a plain cap puts his little leather savings purse into young Orlando's hands, warning him to flee. Orlando is dark-haired and wears a modest dark doublet and open white collar. Gesture of loyalty, low lantern glow rendered with hatching.",
+      "width": 640,
+      "height": 427,
+      "sha256": "ef2e7bf3ad67458bea0cc5c2cdf0d968d5ae195ca03b09e28fa6077bf98446ce",
+      "masterSha256": "945a8f125650991578136e237cf6336902a5d95ab8e81276fe058c1f55573adb"
+    },
+    "shepherds": {
+      "file": "img/as-you-like-it/shepherds.jpg",
+      "alt": {
+        "en": "Corin greets the disguised Rosalind, Celia, and Touchstone in Arden.",
+        "fr": "Corin accueille Rosalinde déguisée, Célie et Touchstone dans la forêt.",
+        "es": "Corino recibe a Rosalinda disfrazada, Celia y Piedra de Toque en el bosque."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act II scene 4. Disguised as Ganymede in a featherless boy's cap, short dark doublet and breeches, Rosalind arrives in Arden with Celia in a plain shepherdess dress and the lanky jester Touchstone in a simple soft fool's cap. Older shepherd Corin greets them, a few sheep beyond the clearing. Quiet first encounter.",
+      "width": 640,
+      "height": 427,
+      "sha256": "6ef36f5e1403d6ea86abfd71ca2ff389fd2bb4e08578476e1fd0e630f23e6af3",
+      "masterSha256": "53a5f6e2064cdb8b9c7dd3bc843859816ded0b1963911f588b14aadba0007419"
+    },
+    "greenwood-song": {
+      "file": "img/as-you-like-it/greenwood-song.jpg",
+      "alt": {
+        "en": "Amiens sings beneath an oak while Jaques listens.",
+        "fr": "Amiens chante sous un chêne tandis que Jacques écoute.",
+        "es": "Amiens canta bajo un roble mientras Jaques escucha."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act II scene 5. Amiens, a bearded forester gentleman, sings unaccompanied under a spreading oak, one hand raised with the verse. Melancholy Jaques, slender, dark-cloaked and slightly older, listens at the base of the tree, two forest companions in the middle distance. Keep the scene spare and pastoral.",
+      "width": 640,
+      "height": 427,
+      "sha256": "981652fb742117b06a3113397bedad462f1008b9742d10b3afc05ffd4352e74f",
+      "masterSha256": "f32089fbaae14fd177319e53e7c4c302e131d43a3b5d5d0603f0b4bf5c852510"
+    },
+    "forest-banquet": {
+      "file": "img/as-you-like-it/forest-banquet.jpg",
+      "alt": {
+        "en": "The exiled duke welcomes Orlando at a table in the forest.",
+        "fr": "Le duc en exil accueille Orlando à une table dans la forêt.",
+        "es": "El duque desterrado recibe a Orlando junto a una mesa en el bosque."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act II scene 7. In a forest clearing, hungry young Orlando with short dark curls and open white collar stands beside a plain wooden feast table, his drawn sword held low and safely pointed at the earth. An elderly grey-bearded Duke Senior offers an open welcoming hand; two seated foresters look on. Bread and a jug on the table. No combat, no blood.",
+      "width": 640,
+      "height": 427,
+      "sha256": "4e76ad9e840844ef96d639be320100fb3f7dd94343d1b9d9e39ae8962a707db2",
+      "masterSha256": "8cc61ee8b2083a68118966c6c1184c7848bdbbcc6ce5a9a2929b3ccf608d99cd"
+    },
+    "poems-on-trees": {
+      "file": "img/as-you-like-it/poems-on-trees.jpg",
+      "alt": {
+        "en": "Orlando fastens a poem to a tree in Arden.",
+        "fr": "Orlando accroche un poème à un arbre dans la forêt.",
+        "es": "Orlando cuelga un poema de un árbol en el bosque."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act III scene 2. Young Orlando, short dark curls, dark doublet and open white collar, fastens a small sheet of love verse to the bark of an Arden tree with both hands. A few other sheets on distant trunks. The sheets have only faint indistinct strokes, with no legible text. Intimate private action against a spacious landscape.",
+      "width": 640,
+      "height": 427,
+      "sha256": "1e31d5213063b8a4a0cdceda500f2192fd0ed99832af3bc89d536c7e6fc1f1b8",
+      "masterSha256": "a4c88635a9e7b481df625c21f507dc0baf34f769a3cdbaf6aaca7a721bde60c2"
+    },
+    "rosalind-reading": {
+      "file": "img/as-you-like-it/rosalind-reading.jpg",
+      "alt": {
+        "en": "Rosalind, disguised as Ganymede, reads a poem as Celia approaches.",
+        "fr": "Rosalinde, déguisée en Ganymède, lit un poème tandis que Célie s’approche.",
+        "es": "Rosalinda, disfrazada de Ganímedes, lee un poema mientras se acerca Celia."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: French Act III scene 3. Rosalind disguised as the boy Ganymede, in a featherless dark cap, short doublet and breeches, reads one of Orlando's poems from a small sheet beneath the trees. Celia in a simple light shepherdess dress approaches with another sheet. No legible writing. Amused surprise in the body language.",
+      "width": 640,
+      "height": 427,
+      "sha256": "20bdcc79928d8373f18a9c34c0c4b5005e781bf87bc9ec1ad189445dabd9599d",
+      "masterSha256": "3f4caa4937581b43f1f27abb7b35c130bcd825875f0b40edb7db64a3f7527196"
+    },
+    "country-wedding": {
+      "file": "img/as-you-like-it/country-wedding.jpg",
+      "alt": {
+        "en": "Touchstone and Audrey meet a parson while Jaques looks on.",
+        "fr": "Touchstone et Audrey rencontrent un curé sous le regard de Jacques.",
+        "es": "Piedra de Toque y Tomasa se reúnen con un cura mientras Jaques observa."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act III, Touchstone's attempted country wedding. A lanky witty court jester in a plain soft fool's cap stands beside Audrey, a countrywoman in a simple bodice and cap. A solemn village parson in a black cloak faces them. Jaques watches discreetly a few paces away. Open woodland path, a wry encounter, no ceremony completed.",
+      "width": 640,
+      "height": 427,
+      "sha256": "25b61040ca211c64503ab9bbc7fa52ff52b1c8ce5094be03d7dbd379680e77c6",
+      "masterSha256": "bfe895bcf3a261ae5f4443bde6b97cdffb8d8b10f8aee2826d14600dbcc71ecd"
+    },
+    "cottage": {
+      "file": "img/as-you-like-it/cottage.jpg",
+      "alt": {
+        "en": "Corin approaches Rosalind and Celia near a woodland cottage.",
+        "fr": "Corin s’approche de Rosalinde et de Célie près d’une cabane dans la forêt.",
+        "es": "Corino se acerca a Rosalinda y Celia junto a una cabaña en el bosque."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act III. At a modest cottage in Arden, Rosalind, dressed as Ganymede in a featherless boy's cap, dark doublet and breeches, talks with Celia in a plain shepherdess dress. Elderly shepherd Corin approaches with his crook and calls their attention to something off the path. Stone cottage, thatched roof and oak at medium distance.",
+      "width": 640,
+      "height": 427,
+      "sha256": "2e14a867eac2c3f5c53d601ea491386f99bc383b02651c130d80ba5d5f0bca7b",
+      "masterSha256": "489a894e7195f97644366f41c52ec12b0de1dbbbada5e04810318c38609e0bd3"
+    },
+    "phoebe": {
+      "file": "img/as-you-like-it/phoebe.jpg",
+      "alt": {
+        "en": "Silvius pleads with Phoebe as Rosalind steps forward.",
+        "fr": "Sylvius supplie Phébé tandis que Rosalinde s’avance.",
+        "es": "Silvio suplica a Febe mientras Rosalinda se adelanta."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act III. Shepherd Silvius appeals to Phoebe, a proud young shepherdess in a plain bonnet who turns her face away. Rosalind, disguised as Ganymede in a dark doublet, breeches and featherless boy's cap, steps forward and addresses her frankly. Forest clearing; no touching, distinct silhouettes, lightly humorous.",
+      "width": 640,
+      "height": 427,
+      "sha256": "d7572d8e85093d80d1e9a5411dd1af9bf77d78a29f1f4ad0e539e3788ed51cb7",
+      "masterSha256": "f5e58d26271f3413d26210c2d1b8a2265251d68d78fa55cb1b53b32fdf848eff"
+    },
+    "mock-wooing": {
+      "file": "img/as-you-like-it/mock-wooing.jpg",
+      "alt": {
+        "en": "Orlando practices wooing with the disguised Rosalind as Celia watches.",
+        "fr": "Orlando fait la cour à Rosalinde déguisée sous les yeux de Célie.",
+        "es": "Orlando ensaya su cortejo con Rosalinda disfrazada mientras Celia observa."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act IV scene 1. Orlando, dark curls, dark doublet and white open collar, practices wooing with Rosalind disguised as Ganymede, who wears a featherless boy's cap, short dark doublet and breeches. They face one another with playful formality, seated Celia in a plain shepherdess dress watches with amusement. Arden oak in a softly shaded clearing.",
+      "width": 640,
+      "height": 427,
+      "sha256": "fcb6eeff10e05ea453727304d9ccf10a45e710a19f92a6ff4e6a28c5bc1c093e",
+      "masterSha256": "49d34501861ccc3ff9df39933552119a087cdeeab68081b0bebda5ea73f90bf3"
+    },
+    "bloody-napkin": {
+      "file": "img/as-you-like-it/bloody-napkin.jpg",
+      "alt": {
+        "en": "Oliver shows a stained handkerchief as Celia supports Rosalind.",
+        "fr": "Olivier montre un mouchoir taché tandis que Célie soutient Rosalinde.",
+        "es": "Oliverio muestra un pañuelo manchado mientras Celia sostiene a Rosalinda."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act IV scene 3. In Arden, the reformed Oliver presents a small light handkerchief with one small dark stain to Rosalind in a boy's featherless cap and doublet. Rosalind weakens and Celia in shepherdess dress supports her shoulders. Three clearly separate figures, faces and gesture readable. No wounds, no gore.",
+      "width": 640,
+      "height": 427,
+      "sha256": "c484b7974b94561f38da8cef4069a2c3a3582d15e75b7548d020d298a52d30b7",
+      "masterSha256": "d22c5229bd0a1f449e25be056d83490fbaba8a6e96d087fcbf2db397415c094f"
+    },
+    "william": {
+      "file": "img/as-you-like-it/william.jpg",
+      "alt": {
+        "en": "Touchstone questions William on a woodland path as Audrey watches.",
+        "fr": "Touchstone questionne William sur un sentier sous les yeux d’Audrey.",
+        "es": "Piedra de Toque interroga a Guillermo en un sendero mientras Tomasa observa."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act V scene 1. On an Arden footpath, the lanky jester Touchstone in a simple soft fool's cap questions William, a shy young countryman holding a plain felt cap. Audrey in a simple country bodice and bonnet watches with a wry expression. The verbal rivalry is comic and gentle. Three distinct silhouettes.",
+      "width": 640,
+      "height": 427,
+      "sha256": "d84c9d9a89cde5c4bfd9ed0767ca0c4fc72e85ad728fa081b77796cc69c75d7b",
+      "masterSha256": "2bd0da68c57445dc4ed75875b4906951153cb694e1b189f8bc7d7d6ab158b1d5"
+    },
+    "forest-promises": {
+      "file": "img/as-you-like-it/forest-promises.jpg",
+      "alt": {
+        "en": "The disguised Rosalind speaks with Orlando while Phoebe and Silvius wait.",
+        "fr": "Rosalinde déguisée parle à Orlando tandis que Phébé et Sylvius attendent.",
+        "es": "Rosalinda disfrazada habla con Orlando mientras Febe y Silvio esperan."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act V scene 2. In a quiet forest glade, Orlando with dark curls and an open white collar listens while Rosalind, still dressed as Ganymede in a featherless cap and short doublet, makes a promise with an open palm. Phoebe and shepherd Silvius wait a little apart. Arrange four distinct figures in a shallow arc, no touching.",
+      "width": 640,
+      "height": 427,
+      "sha256": "c6202cd296b39b9d5fc79db66654ad171bfe94ce8c9d50861494963ddcc65f69",
+      "masterSha256": "b13faccf4afb11f55016b3b59502149a1af1b6e920b270aa20d03de57987776a"
+    },
+    "forest-finale": {
+      "file": "img/as-you-like-it/forest-finale.jpg",
+      "alt": {
+        "en": "Rosalind steps forward beside Orlando as the duke welcomes them.",
+        "fr": "Rosalinde s’avance aux côtés d’Orlando, que le duc accueille.",
+        "es": "Rosalinda se adelanta junto a Orlando y el duque los recibe."
+      },
+      "prompt": "Use case: illustration-story. Bookstacks chapter-sidebar plate for Shakespeare's As You Like It. Landscape 3:2. Fine late nineteenth-century book engraving on clean pale ivory paper, monochrome black ink, fine parallel hatching, cross-hatching and sparse stipple. Elizabethan stage wardrobe and simple readable shapes, framed at medium distance, central action legible at a 260-pixel thumbnail. Softly open edges, no border, no lettering, no typography, no watermark, no modern objects. Scene: Act V scene 4. At the reconciliation and weddings in the Forest of Arden, Rosalind, now in a modest light Elizabethan gown without a disguise, steps forward beside young Orlando in a dark doublet and open white collar. Grey-bearded Duke Senior welcomes them with both arms open. A few couples witness them in the mid-distance. Pastoral stage tableau, warm and restrained, no fantastical effects.",
+      "width": 640,
+      "height": 427,
+      "sha256": "787b5e2c04f77701c985bf93113519ab7aee88724bb33f81efa728027dd7b03e",
+      "masterSha256": "9d0c8d21e2c6f3e4bb8019a51ea911036730650b780c6a164f91cb3eb15432b5"
+    }
+  },
+  "editions": {
+    "shakespeare_as-you-like-it_eng.xml": {
+      "sourceSha256": "f5985dbfe15052e95e42c19fd543dcae6c86dd721fbb5b38323a16d93f56b8f6",
+      "pages": {
+        "front-01": "arden",
+        "epilogue-01": "arden",
+        "act-01/scene-01": "orchard",
+        "act-01/scene-02": "wrestling",
+        "act-01/scene-03": "banishment",
+        "act-02/scene-01": "exiled-duke",
+        "act-02/scene-02": "arden",
+        "act-02/scene-03": "adams-offer",
+        "act-02/scene-04": "shepherds",
+        "act-02/scene-05": "greenwood-song",
+        "act-02/scene-06": "arden",
+        "act-02/scene-07": "forest-banquet",
+        "act-03/scene-01": "arden",
+        "act-03/scene-02": "poems-on-trees",
+        "act-03/scene-03": "country-wedding",
+        "act-03/scene-04": "cottage",
+        "act-03/scene-05": "phoebe",
+        "act-04/scene-01": "mock-wooing",
+        "act-04/scene-02": "arden",
+        "act-04/scene-03": "bloody-napkin",
+        "act-05/scene-01": "william",
+        "act-05/scene-02": "forest-promises",
+        "act-05/scene-03": "arden",
+        "act-05/scene-04": "forest-finale"
+      }
+    },
+    "shakespeare_as-you-like-it_fra.xml": {
+      "sourceSha256": "eb0d3b988c0266409f37b8b1ed0a19cf5ee3132beb759b3c7ae65e210aac55ef",
+      "pages": {
+        "introduction-01": "arden",
+        "title-page-01": "arden",
+        "title-page-02": "arden",
+        "act-1/scene-1": "orchard",
+        "act-1/scene-2": "wrestling",
+        "act-1/scene-3": "banishment",
+        "act-2/scene-1": "exiled-duke",
+        "act-2/scene-2": "arden",
+        "act-2/scene-3": "adams-offer",
+        "act-2/scene-4": "shepherds",
+        "act-2/scene-5": "greenwood-song",
+        "act-2/scene-6": "arden",
+        "act-2/scene-7": "forest-banquet",
+        "act-3/scene-1": "arden",
+        "act-3/scene-2": "poems-on-trees",
+        "act-3/scene-3": "rosalind-reading",
+        "act-3/scene-4": "country-wedding",
+        "act-3/scene-5": "cottage",
+        "act-3/scene-6": "phoebe",
+        "act-4/scene-1": "mock-wooing",
+        "act-4/scene-2": "arden",
+        "act-4/scene-3": "bloody-napkin",
+        "act-5/scene-1": "william",
+        "act-5/scene-2": "forest-promises",
+        "act-5/scene-3": "arden",
+        "act-5/scene-4": "forest-finale"
+      }
+    },
+    "shakespeare_as-you-like-it_spa.xml": {
+      "sourceSha256": "8a786753291bd10f7f86ccd0290743ed1141d07a51a7e1ea06a52a9e9b076b0e",
+      "pages": {
+        "characters-01": "arden",
+        "title-page-01": "arden",
+        "act-1/scene-1": "orchard",
+        "act-1/scene-2": "wrestling",
+        "act-1/scene-3": "banishment",
+        "act-2/scene-1": "exiled-duke",
+        "act-2/scene-2": "arden",
+        "act-2/scene-3": "adams-offer",
+        "act-2/scene-4": "shepherds",
+        "act-2/scene-5": "greenwood-song",
+        "act-2/scene-6": "arden",
+        "act-2/scene-7": "forest-banquet",
+        "act-3/scene-1": "arden",
+        "act-3/scene-2": "poems-on-trees",
+        "act-3/scene-3": "country-wedding",
+        "act-3/scene-4": "cottage",
+        "act-3/scene-5": "phoebe",
+        "act-4/scene-1": "mock-wooing",
+        "act-4/scene-2": "arden",
+        "act-4/scene-3": "bloody-napkin",
+        "act-5/scene-1": "william",
+        "act-5/scene-2": "forest-promises",
+        "act-5/scene-3": "arden",
+        "act-5/scene-4": "forest-finale"
+      }
+    }
+  }
+}

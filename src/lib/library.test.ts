@@ -4,6 +4,8 @@ import {isEditionLanguage,EDITION_LANGUAGES} from './i18n';
 import fs from 'node:fs';
 import publications from '../data/pdf-publications.json';
 import shakespearePlays from '../data/shakespeare-plays.json';
+import { createHash } from 'node:crypto';
+import asYouLikeItArt from '../../tei/shakespeare/as-you-like-it-illustrations.json';
 it('keeps complete, separate English and French Shakespeare collections',()=>{
   const works=getLibrary().authors.find(author=>author.slug==='shakespeare')!.works;
   expect(shakespearePlays).toHaveLength(38);
@@ -16,6 +18,25 @@ it('keeps complete, separate English and French Shakespeare collections',()=>{
       expect(editions[0].sourceFile).toBe(`shakespeare_${play.slug}_${suffix}.xml`);
       expect(editions[0].units.length).toBeGreaterThan(5);
     }
+  }
+});
+it('illustrates every As You Like It reader page in its edition language', () => {
+  const work = getLibrary().authors.find(author => author.slug === 'shakespeare')!
+    .works.find(work => work.slug === 'as-you-like-it')!;
+  expect(work.editions).toHaveLength(3);
+  const files = new Set<string>();
+  for (const edition of work.editions) {
+    const plan = asYouLikeItArt.editions[edition.sourceFile as keyof typeof asYouLikeItArt.editions];
+    expect(edition.units.map(unit => unit.path).sort()).toEqual(Object.keys(plan.pages).sort());
+    for (const unit of edition.units) {
+      expect(unit.illustration?.description, unit.path).toBeTruthy();
+      files.add(unit.illustration!.src);
+    }
+  }
+  expect(files.size).toBe(19);
+  for (const asset of Object.values(asYouLikeItArt.assets)) {
+    const bytes = fs.readFileSync(`tei/shakespeare/${asset.file}`);
+    expect(createHash('sha256').update(bytes).digest('hex')).toBe(asset.sha256);
   }
 });
 it('retains the Hugo Kinsmen edition hierarchy, verse, collaborators and linked translator notes',()=>{
