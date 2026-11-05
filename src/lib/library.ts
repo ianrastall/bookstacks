@@ -11,14 +11,15 @@ import { text as interfaceText } from './interface';
 import publicationData from '../data/pdf-publications.json';
 import epubPublicationData from '../data/epub-publications.json';
 import asYouLikeItArt from '../../tei/shakespeare/as-you-like-it-illustrations.json';
+import holmesPhotoData from '../../tei/doyle/holmes/photo-companions.json';
 
 const PUBLICATION_URL = 'https://ianrastall.github.io/bookstacks-pdf/books/';
 const PUBLICATION_INDEX = publicationData as Record<string, { source_sha256: string; variants: PdfVariant[] }>;
 const EPUB_INDEX = epubPublicationData as Record<string,EpubPublication>;
+const HOLMES_PHOTOS: Partial<Record<string, { file: string }>> = holmesPhotoData.photos;
 const SIDEBAR_ART: Record<string, {
   assets: Record<string, { file: string; alt: Partial<Record<Locale, string>>; photo?: { file: string } }>;
   editions: Record<string, { sourceSha256: string; pages: Record<string, string> }>;
-  photoLabel?: Partial<Record<Locale, string>>;
 }> = { 'shakespeare/as-you-like-it': asYouLikeItArt };
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
@@ -241,7 +242,7 @@ export interface ReadingUnit {
   title: string;
   context: string[];
   html: string;
-  illustration?: { src: string; previewSrc?: string; description: string; photo?: { src: string; label: string } };
+  illustration?: { src: string; previewSrc?: string; description: string; photoSrc?: string };
   previousPath?: string;
   nextPath?: string;
 }
@@ -608,12 +609,9 @@ function parseEdition(filePath: string): ParsedEdition {
     if (artEdition && (!asset || !description)) {
       throw new Error(`Missing sidebar illustration for ${fileName} at ${pathValue}`);
     }
-    const photoLabel = artPlan?.photoLabel?.[locale];
-    const photo = asset?.photo && photoLabel
-      ? { src: `/tei/${authorSlug}/${asset.photo.file}`, label: photoLabel }
-      : undefined;
+    const photoFile = sourceIllustration ? HOLMES_PHOTOS[sourceIllustration.src]?.file : asset?.photo?.file;
     const illustration = sourceIllustration ?? (asset && description
-      ? { src: `/tei/${authorSlug}/${asset.file}`, description, photo }
+      ? { src: `/tei/${authorSlug}/${asset.file}`, description }
       : undefined);
     units.push({
       path: pathValue,
@@ -621,7 +619,9 @@ function parseEdition(filePath: string): ParsedEdition {
       title,
       context,
       html: renderDivision(div, entities, locale, `/tei/${authorSlug}`),
-      illustration,
+      illustration: illustration && photoFile
+        ? { ...illustration, photoSrc: `/tei/${authorSlug}/${photoFile}` }
+        : illustration,
     });
   }
 

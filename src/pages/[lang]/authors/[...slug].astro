@@ -209,14 +209,13 @@ const description = page.kind === 'author'
             {page.unit.nextPath ? <a class="btn btn-primary chapter-nav-button" rel="next" href={`${localizedEditionHref(page.work, page.edition)}/${page.unit.nextPath}`}><T locale={locale} k="next" /><span class="material-icons directional-icon" aria-hidden="true">arrow_forward</span></a> : <span class="btn btn-primary chapter-nav-button is-disabled"><T locale={locale} k="next" /></span>}
           </nav>
           {page.unit.illustration && (
-            <figure class="reader-illustration tei-engraving" data-has-photo={page.unit.illustration.photo ? '' : undefined} data-online-only lang={page.edition.code} dir={editionDir} translate="no">
+            <figure class="reader-illustration tei-engraving" data-has-photo={page.unit.illustration.photoSrc ? '' : undefined} data-online-only lang={page.edition.code} dir={editionDir} translate="no">
               <img class="tei-graphic" src={page.unit.illustration.previewSrc ?? page.unit.illustration.src} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
             </figure>
           )}
-          {page.unit.illustration?.photo && (
-            <figure class="tei-figure reader-illustration reader-photo" data-online-only lang={page.edition.code} dir={editionDir} translate="no">
-              <img class="tei-graphic" src={page.unit.illustration.photo.src} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
-              <figcaption>{page.unit.illustration.photo.label}</figcaption>
+          {page.unit.illustration?.photoSrc && (
+            <figure class="reader-illustration reader-photo" data-online-only lang={page.edition.code} dir={editionDir} translate="no">
+              <img class="tei-graphic" src={page.unit.illustration.photoSrc} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
             </figure>
           )}
         </aside>

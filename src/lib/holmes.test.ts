@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { DOMParser } from '@xmldom/xmldom';
 import { expect, it } from 'vitest';
 import { getCatalogueLibrary, getLibrary, localizedUnitHref } from './library';
+import photoData from '../../tei/doyle/holmes/photo-companions.json';
 
 const selection = JSON.parse(fs.readFileSync('tei/doyle/holmes/selection.json', 'utf8'));
 const reports = JSON.parse(fs.readFileSync('tei/doyle/holmes/import-report.json', 'utf8'));
@@ -37,6 +38,13 @@ it('collects exactly the same 63 works in publication and career orders without 
   expect(reports[0].order.at(-1)).toBe('the-adventure-of-shoscombe-old-place');
   expect(reports[1].order[0]).toBe('the-adventure-of-the-gloria-scott');
   expect(reports[1].order.at(-1)).toBe('his-last-bow');
+  const photoPairs = Object.entries(photoData.photos);
+  expect(photoPairs).toHaveLength(4);
+  const expectedPhotos = Object.fromEntries(photoPairs.map(([sketch, photo]) => {
+    const bytes = fs.readFileSync(`tei/doyle/${photo.file}`);
+    expect(createHash('sha256').update(bytes).digest('hex')).toBe(photo.sha256);
+    return [sketch, `/tei/doyle/${photo.file}`];
+  }));
   for (const [index, field] of ['publication', 'career'].entries()) {
     const dates = reports[index].order.map((slug: string) => selection.stories.find((s: { slug: string }) => s.slug === slug)[field]);
     expect(dates).toEqual([...dates].sort());
@@ -61,6 +69,10 @@ it('collects exactly the same 63 works in publication and career orders without 
       expect(localizedUnitHref(work, edition, unit)).toContain(`/en/authors/doyle/${work.slug}/`);
     }
     expect(new Set(edition.units.map(unit => unit.illustration!.src)).size).toBe(115);
+    const photos = edition.units.flatMap(({ illustration }) =>
+      illustration?.photoSrc ? [[illustration.src, illustration.photoSrc]] : []);
+    expect(photos).toHaveLength(4);
+    expect(Object.fromEntries(photos)).toEqual(expectedPhotos);
     expect(edition.sourceLinks.some(link => link.href.includes('gutenberg.org'))).toBe(true);
   }
   for (const [filename, hash] of Object.entries(selection.sources)) {

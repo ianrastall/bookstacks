@@ -27,3 +27,27 @@ test('Holmes catalogue replacements retain legacy readers and a wider illustrate
   await page.goto('/en/authors/doyle/a-study-in-scarlet/part-1/chapter-1');
   await expect(page.locator('.reader-content')).toContainText('Doctor of Medicine');
 });
+
+test('both Holmes collections share the color counterpart for the same story', async ({ page }) => {
+  const root = '/en/authors/doyle';
+  const complete = `${root}/the-complete-sherlock-holmes`;
+  await page.goto(`${complete}/story-a-scandal-in-bohemia?ui=en`);
+  await page.locator('#appearance-open').click();
+  await page.getByLabel('Illustrations', { exact: true }).selectOption('photos');
+  await page.keyboard.press('Escape');
+  const sketch = page.locator('.reader-illustration.tei-engraving');
+  const photo = page.locator('.reader-photo img');
+  for (const order of ['complete', 'chronological']) {
+    await page.goto(`${root}/the-${order}-sherlock-holmes/story-a-scandal-in-bohemia?ui=en`);
+    await expect(sketch).toBeHidden();
+    await expect(photo).toBeVisible();
+    await expect(photo).toHaveAttribute('src', '/tei/doyle/img/holmes/a-scandal-in-bohemia-photo.jpg');
+    await expect(photo).toHaveAttribute('alt', /Irene Adler/);
+    await photo.scrollIntoViewIfNeeded();
+    await expect.poll(() => photo.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBe(640);
+    await expect(page.locator('.reader-photo figcaption')).toHaveCount(0);
+  }
+  await page.goto(`${complete}/story-the-five-orange-pips?ui=en`);
+  await expect(sketch).toBeVisible();
+  await expect(photo).toHaveCount(0);
+});

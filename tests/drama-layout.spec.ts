@@ -105,7 +105,7 @@ test('the saved photo preference replaces the sketch and falls back where needed
  const variant = page.locator('.reader-photo');
  const photo = variant.locator('img');
  await expect(variant).toHaveAttribute('lang', 'fr');
- await expect(variant.locator('figcaption')).toHaveText('Interprétation photographique (générée par IA)');
+ await expect(variant.locator('figcaption')).toHaveCount(0);
  await expect(photo).toBeHidden();
  await page.locator('#appearance-open').click();
  const setting = page.getByLabel('Illustrations', { exact: true });

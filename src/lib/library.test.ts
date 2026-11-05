@@ -33,9 +33,9 @@ it('illustrates every As You Like It reader page in its edition language', () =>
     for (const unit of edition.units) {
       expect(unit.illustration?.description, unit.path).toBeTruthy();
       files.add(unit.illustration!.src);
-      if (unit.illustration?.photo) {
+      if (unit.illustration?.photoSrc) {
         photoPages++;
-        photoFiles.add(unit.illustration.photo.src);
+        photoFiles.add(unit.illustration.photoSrc);
       }
     }
   }

@@ -1,0 +1,34 @@
+{
+  "generationTool": "OpenAI built-in image generation",
+  "date": "2026-11-04",
+  "photos": {
+    "/tei/doyle/img/holmes/a-scandal-in-bohemia.jpg": {
+      "file": "img/holmes/a-scandal-in-bohemia-photo.jpg",
+      "reference": "img/holmes/a-scandal-in-bohemia.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The input is a scene and composition reference only. Make the result look like a naturalistic live-action still from a restrained 1890s period drama, with real people, period-accurate wardrobe, soft natural lighting, muted but visible colors and realistic material textures. Landscape 3:2, readable as a small sidebar image. No drawn lines, hatching, sepia or monochrome, lettering, borders, watermarks, or modern objects. Irene Adler in a light ivory late-Victorian gown holds a small portrait photograph up beside an ornate dressing-table mirror. Sherlock Holmes watches from a chair at the right, mostly in shadow. Cool London light through the window, warm deep-red curtains and dark wood. Any reflected pose matches the subject.",
+      "sha256": "9a8261646379524bc9fccafc712dac2628c99d63149474d0fffd63e0070ebc7f",
+      "masterSha256": "ac3e41088096aa96a2bbd7239f41788eca7c55ac1cca9767ecebbedf377cda1d"
+    },
+    "/tei/doyle/img/holmes/the-red-headed-league.jpg": {
+      "file": "img/holmes/the-red-headed-league-photo.jpg",
+      "reference": "img/holmes/the-red-headed-league.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The input is a scene and composition reference only. Make the result look like a naturalistic live-action still from a restrained 1890s period drama, with real people, period-accurate wardrobe, soft natural lighting, muted but visible colors and realistic material textures. Landscape 3:2, readable as a small sidebar image. No drawn lines, hatching, sepia or monochrome, lettering, borders, watermarks, or modern objects. A stout older client with conspicuously red hair and a black bowler on his lap speaks to Holmes, standing beside a chair in Baker Street. Watson watches from a near chair. Three men only. Muted green and brown furnishings, red hair clearly legible, daylight through a sash window.",
+      "sha256": "c1d128ff244fa549ab89a3731369a9bfd78ecfa5d7b282c7e4286de3046d13d1",
+      "masterSha256": "10e98aff756c1e554e81042e606cb0a344e9b8fd65be28102e3ece9992bd2be4"
+    },
+    "/tei/doyle/img/holmes/a-case-of-identity.jpg": {
+      "file": "img/holmes/a-case-of-identity-photo.jpg",
+      "reference": "img/holmes/a-case-of-identity.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The input is a scene and composition reference only. Make the result look like a naturalistic live-action still from a restrained 1890s period drama, with real people, period-accurate wardrobe, soft natural lighting, muted but visible colors and realistic material textures. Landscape 3:2, readable as a small sidebar image. No drawn lines, hatching, sepia or monochrome, lettering, borders, watermarks, or modern objects. Holmes and Watson converse in separate armchairs on either side of the fire in their furnished Baker Street sitting room. Holmes gestures with one hand, Watson listens. Pipe and loose papers on a foreground table, books and an overcast London window in the background.",
+      "sha256": "e15ae56d772b61923dd5c1de1ffcaa73ebcfb501bb7281ea65a13a8e70d4dfa4",
+      "masterSha256": "3c0ba9f8cac6916db74ac038817c8896640d386d3eda421e61c0bc99041588de"
+    },
+    "/tei/doyle/img/holmes/the-boscombe-valley-mystery.jpg": {
+      "file": "img/holmes/the-boscombe-valley-mystery-photo.jpg",
+      "reference": "img/holmes/the-boscombe-valley-mystery.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The input is a scene and composition reference only. Make the result look like a naturalistic live-action still from a restrained 1890s period drama, with real people, period-accurate wardrobe, soft natural lighting, muted but visible colors and realistic material textures. Landscape 3:2, readable as a small sidebar image. No drawn lines, hatching, sepia or monochrome, lettering, borders, watermarks, or modern objects. At breakfast Watson reads a small telegram beside his wife while a maid in a dark dress and white apron waits next to the table. White linen, teacups and a silver pot, soft morning light from a tall window. Three clearly distinct figures, the telegram's text illegible.",
+      "sha256": "ee42089a3c19016cce12374689688d02bd82d126aa89e2c2d9ea66fcb86874e0",
+      "masterSha256": "14dbcc424072d7bd682a112d6f6d68697f39bcc2dc3a73e9f9c4c85503b03e70"
+    }
+  }
+}
