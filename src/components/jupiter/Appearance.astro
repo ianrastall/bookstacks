@@ -14,7 +14,7 @@ const t=(key:string)=>text(locale,key);
   <div class="field"><label for="theme-choice"><T locale={locale} k="theme" /></label><select id="theme-choice"><option value="dark" data-i18n="themeDark">{t('themeDark')}</option><option value="light" data-i18n="themeLight">{t('themeLight')}</option></select></div>
   <div class="field">
     <label for="illustration-choice"><T locale={locale} k="illustrations" /></label>
-    <select id="illustration-choice">
+    <select id="illustration-choice" autocomplete="off">
       <option value="sketches" data-i18n="illustrationSketches">{t('illustrationSketches')}</option>
       <option value="photos" data-i18n="illustrationPhotos">{t('illustrationPhotos')}</option>
     </select>

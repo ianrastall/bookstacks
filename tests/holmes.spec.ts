@@ -51,3 +51,29 @@ test('both Holmes collections share the color counterpart for the same story', a
   await expect(sketch).toBeVisible();
   await expect(photo).toHaveCount(0);
 });
+
+test('the illustration choice follows reader links when browser storage is blocked', async ({ page }) => {
+  await page.addInitScript(() => {
+    for (const name of ['localStorage', 'sessionStorage']) {
+      Object.defineProperty(window, name, { get() { throw new DOMException('Storage blocked', 'SecurityError'); } });
+    }
+  });
+  await page.goto('/en/authors/doyle/the-complete-sherlock-holmes/story-the-five-orange-pips?ui=en');
+  const setting = page.locator('#illustration-choice');
+  const photo = page.locator('.reader-photo img');
+  await page.locator('#appearance-open').click();
+  await setting.selectOption('photos');
+  await page.keyboard.press('Escape');
+  await page.locator('.chapter-navigation a[rel="next"]').click();
+  await expect(photo).toBeVisible();
+  await expect(photo).toHaveAttribute('src', /the-man-with-the-twisted-lip-photo\.jpg$/);
+  await page.reload();
+  await expect(photo).toBeVisible();
+  await page.locator('#appearance-open').click();
+  await expect(setting).toHaveValue('photos');
+  await setting.selectOption('sketches');
+  await page.keyboard.press('Escape');
+  await page.locator('.chapter-navigation a[rel="prev"]').click();
+  await expect(photo).toBeHidden();
+  await expect(page.locator('.reader-illustration.tei-engraving')).toBeVisible();
+});

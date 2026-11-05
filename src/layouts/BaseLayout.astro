@@ -34,10 +34,16 @@ const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
     <slot name="head" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <script is:inline>
+      const root=document.documentElement;
+      const requestedIllustrations=new URLSearchParams(location.search).get('illustrations');
+      root.dataset.illustrations=requestedIllustrations === 'photos' ? 'photos' : 'sketches';
       try {
-        const root=document.documentElement;
+        if(requestedIllustrations !== 'photos' && requestedIllustrations !== 'sketches'){
+          root.dataset.illustrations=localStorage.getItem('bookstacks-illustrations') === 'photos' ? 'photos' : 'sketches';
+        }
+      } catch { /* The link can carry this choice when browser storage is unavailable. */ }
+      try {
         root.dataset.theme=localStorage.getItem('bookstacks-theme') === 'light' ? 'light' : 'dark';
-        root.dataset.illustrations=localStorage.getItem('bookstacks-illustrations') === 'photos' ? 'photos' : 'sketches';
         const old=localStorage.getItem('bookstacks-palette');
         const palettes={blue:'#3f6178',green:'#527052',red:'#8d4b46',orange:'#93672e',indigo:'#5c577f',brown:'#765b43',coral:'#9c514b'};
         let accent=localStorage.getItem('bookstacks-accent');
@@ -46,7 +52,6 @@ const canonicalPath=routePath==='/' ? '/' : routePath.replace(/\/+$/,'');
       } catch { /* Browser storage is optional. */ }
       // Font choices last for this tab's reading session, including chapter navigation.
       try {
-        const root=document.documentElement;
         if(root.dataset.readerPage==='true'){
           const [family,cascade]=(sessionStorage.getItem('bookstacks-reader-font') || '').split(':');
           const cascades={serif:['classic','charter','old-style','garamond','platform','times'],sans:['office','system','helvetica','humanist','screen','trebuchet']};

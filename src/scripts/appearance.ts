@@ -42,7 +42,15 @@ function apply() {
   radios.forEach(radio => radio.checked = radio.value === (custom ? 'custom' : 'system'));
 }
 theme.value = root.dataset.theme || 'dark';
-illustrations.value = root.dataset.illustrations || 'sketches';
+function linkedIllustrations() {
+  const value = new URLSearchParams(location.search).get('illustrations');
+  return value === 'photos' || value === 'sketches' ? value : null;
+}
+function syncIllustrations() {
+  const value = linkedIllustrations() ?? (read('bookstacks-illustrations') === 'photos' ? 'photos' : 'sketches');
+  root.dataset.illustrations = illustrations.value = value;
+}
+syncIllustrations();
 apply();
 document.querySelector<HTMLButtonElement>('#appearance-open')!.disabled = false;
 document.querySelector('#appearance-open')!.addEventListener('click', () => dialog.showModal());
@@ -51,17 +59,37 @@ dialog.addEventListener('click', event => { if (event.target === dialog) { const
 theme.addEventListener('change', () => { root.dataset.theme = theme.value; save('bookstacks-theme', theme.value); apply(); });
 illustrations.addEventListener('change', () => {
   root.dataset.illustrations = illustrations.value;
-  save('bookstacks-illustrations', illustrations.value);
+  const url = new URL(location.href);
+  try {
+    localStorage.setItem('bookstacks-illustrations', illustrations.value);
+    url.searchParams.delete('illustrations');
+    feedback.textContent = text(currentLocale() ?? 'en', 'settingsSaved');
+  } catch {
+    url.searchParams.set('illustrations', illustrations.value);
+    feedback.textContent = '';
+  }
+  if (url.href !== location.href) history.replaceState(history.state, '', url);
 });
+// Carry the choice through ordinary site links when it lives in the URL.
+document.addEventListener('click', event => {
+  const value = linkedIllustrations();
+  if (!value) return;
+  const link = (event.target as Element).closest<HTMLAnchorElement>('a[href]');
+  if (!link || link.hasAttribute('download') || link.getAttribute('href')?.startsWith('#')) return;
+  const url = new URL(link.href);
+  if (url.origin !== location.origin || /\.(xml|pdf|epub)$/i.test(url.pathname)) return;
+  url.searchParams.set('illustrations', value);
+  link.href = url.href;
+});
+window.addEventListener('pageshow', event => { if (event.persisted) syncIllustrations(); });
 picker.addEventListener('input', () => { custom = picker.value; save('bookstacks-accent', custom); apply(); });
 function reset() { custom = null; previous = ''; save('bookstacks-accent', null); save('bookstacks-palette',null); apply(); }
 radios.forEach(radio => radio.addEventListener('change', () => { if (radio.value === 'system') reset(); else { custom = picker.value; save('bookstacks-accent', custom); apply(); } }));
 document.querySelector('#accent-reset')!.addEventListener('click', reset);
-window.addEventListener('storage', () => {
+window.addEventListener('storage', event => {
   const savedTheme = read('bookstacks-theme');
   root.dataset.theme = savedTheme === 'light' ? 'light' : 'dark'; theme.value = root.dataset.theme;
-  root.dataset.illustrations = read('bookstacks-illustrations') === 'photos' ? 'photos' : 'sketches';
-  illustrations.value = root.dataset.illustrations;
+  if (event.key === 'bookstacks-illustrations' || event.key === null) syncIllustrations();
   const saved = read('bookstacks-accent'); custom = saved && /^#[0-9a-f]{6}$/i.test(saved) ? saved : null;
   previous = ''; apply();
 });
