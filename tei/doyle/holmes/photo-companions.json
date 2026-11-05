@@ -29,6 +29,62 @@
       "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The input is a scene and composition reference only. Make the result look like a naturalistic live-action still from a restrained 1890s period drama, with real people, period-accurate wardrobe, soft natural lighting, muted but visible colors and realistic material textures. Landscape 3:2, readable as a small sidebar image. No drawn lines, hatching, sepia or monochrome, lettering, borders, watermarks, or modern objects. At breakfast Watson reads a small telegram beside his wife while a maid in a dark dress and white apron waits next to the table. White linen, teacups and a silver pot, soft morning light from a tall window. Three clearly distinct figures, the telegram's text illegible.",
       "sha256": "ee42089a3c19016cce12374689688d02bd82d126aa89e2c2d9ea66fcb86874e0",
       "masterSha256": "14dbcc424072d7bd682a112d6f6d68697f39bcc2dc3a73e9f9c4c85503b03e70"
+    },
+    "/tei/doyle/img/holmes/the-five-orange-pips.jpg": {
+      "file": "img/holmes/the-five-orange-pips-photo.jpg",
+      "reference": "img/holmes/the-five-orange-pips.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The engraving is a scene and composition reference only. The output is a naturalistic live-action period-drama still with real people, plausible late-Victorian clothing, natural lighting, muted but distinct colors and realistic fabrics and materials. Landscape 3:2, composed for a small reading sidebar. No drawn lines, hatching, sepia, monochrome, captions, lettering, frame, watermark, or modern objects. Holmes and Watson study a pale envelope in the Baker Street sitting room on a stormy evening. Holmes sits examining the envelope, Watson leans over his shoulder. Exactly five small orange seeds sit on a dark tabletop beside an open document box. A low amber lamp and cool rain at the window. Keep any markings on the envelope indistinct.",
+      "sha256": "14b265191b5f09fabbe8606fcf24d08597d60f74c2019801542f2ebd46010522",
+      "masterSha256": "151247f2e4b57a8fe106c68f32ddc94174520ba5368170d8b813d9e435b901fe"
+    },
+    "/tei/doyle/img/holmes/the-man-with-the-twisted-lip.jpg": {
+      "file": "img/holmes/the-man-with-the-twisted-lip-photo.jpg",
+      "reference": "img/holmes/the-man-with-the-twisted-lip.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The engraving is a scene and composition reference only. The output is a naturalistic live-action period-drama still with real people, plausible late-Victorian clothing, natural lighting, muted but distinct colors and realistic fabrics and materials. Landscape 3:2, composed for a small reading sidebar. No drawn lines, hatching, sepia, monochrome, captions, lettering, frame, watermark, or modern objects. In Watson's late-Victorian sitting room at night, Dr Watson sits in a dark burgundy dressing gown by a warm lamp. A worried woman in an outdoor coat has just approached his chair and asks for help. A side table and books stay understated, realistic wool, green upholstery, and late-night lamplight.",
+      "sha256": "0794edccc40ec27fe4957ceb0749fa61a99af45eef96a369b9a2ecd7066700d4",
+      "masterSha256": "363c84c76735484876ec686b622315e41c8486bdca34ec18afeb6ac68ea75f94"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-blue-carbuncle.jpg": {
+      "file": "img/holmes/the-adventure-of-the-blue-carbuncle-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-blue-carbuncle.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The engraving is a scene and composition reference only. The output is a naturalistic live-action period-drama still with real people, plausible late-Victorian clothing, natural lighting, muted but distinct colors and realistic fabrics and materials. Landscape 3:2, composed for a small reading sidebar. No drawn lines, hatching, sepia, monochrome, captions, lettering, frame, watermark, or modern objects. Sherlock Holmes reclines on a dark green sofa, deep in thought, studying a battered black felt hat hung on the back of a chair in the foreground. A few loosely folded newspapers sit near the sofa. Quiet Baker Street sitting room in subdued winter daylight; hat and Holmes are both clear, with natural color.",
+      "sha256": "194a43336d4c0a64fe9d1dc2d9f7f56c82ad9063b25407981c7cfb9604cc3f54",
+      "masterSha256": "0a8b5c0eb5de08fa27c80e11aba9dc5ef9aab70cde56449001bc20056fac04ec"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-speckled-band.jpg": {
+      "file": "img/holmes/the-adventure-of-the-speckled-band-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-speckled-band.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The engraving is a scene and composition reference only. The output is a naturalistic live-action period-drama still with real people, plausible late-Victorian clothing, natural lighting, muted but distinct colors and realistic fabrics and materials. Landscape 3:2, composed for a small reading sidebar. No drawn lines, hatching, sepia, monochrome, captions, lettering, frame, watermark, or modern objects. In a dark late-Victorian country-house bedroom, Holmes enters cautiously at right holding a small shielded oil lamp at waist height. On the left are a plain bed and a thin bell rope hanging beside it. A chair and shut window make out the room in warm lamplight and cool shadows. One man, no snake or violence.",
+      "sha256": "4195d16940ce2c1955428587a5879c878d501a230f786caf79047b4055e8d6ec",
+      "masterSha256": "d86246f28c5d53d3186f33adce39ea01dd5a09a4465725498f45c73a053bd404"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-engineers-thumb.jpg": {
+      "file": "img/holmes/the-adventure-of-the-engineers-thumb-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-engineers-thumb.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The engraving is a scene and composition reference only. The output is a naturalistic live-action period-drama still with real people, plausible late-Victorian clothing, natural lighting, muted but distinct colors and realistic fabrics and materials. Landscape 3:2, composed for a small reading sidebar. No drawn lines, hatching, sepia, monochrome, captions, lettering, frame, watermark, or modern objects. Holmes carefully examines the young engineer's hand, which is already wrapped in clean linen bandaging. Watson is seated at the left, observing; the engineer sits opposite Holmes and looks apprehensive. Three men around a table in a late-Victorian sitting room, warm wood and morning light. Clean bandages, no visible wound or blood.",
+      "sha256": "ff1d0991ea61a4d4223f9657ebfd9d0e04a1f406d86edcff1bf24d2e52676abb",
+      "masterSha256": "54d0825c57dfc5192f0aed0e73214ec30d437312e48fad9ecbba37fc46c5230e"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-noble-bachelor.jpg": {
+      "file": "img/holmes/the-adventure-of-the-noble-bachelor-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-noble-bachelor.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The engraving is a scene and composition reference only. The output is a naturalistic live-action period-drama still with real people, plausible late-Victorian clothing, natural lighting, muted but distinct colors and realistic fabrics and materials. Landscape 3:2, composed for a small reading sidebar. No drawn lines, hatching, sepia, monochrome, captions, lettering, frame, watermark, or modern objects. Sherlock Holmes stands beside a Baker Street desk reading a small letter, holding it loosely in one hand. Dr Watson sits beside the table and looks up at him. Sash window behind them, warm mahogany and muted green, diffused London daylight. The letter has no legible text.",
+      "sha256": "d7d5baf75387264c3b09d2394883b05a58ebfa063abbf43bba2517a071d63b9e",
+      "masterSha256": "5a7633be2aca7798c1fc3de3bd1aee5fa7b190ff9e741ab3e7a3ee949f293553"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-beryl-coronet.jpg": {
+      "file": "img/holmes/the-adventure-of-the-beryl-coronet-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-beryl-coronet.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The engraving is a scene and composition reference only. The output is a naturalistic live-action period-drama still with real people, plausible late-Victorian clothing, natural lighting, muted but distinct colors and realistic fabrics and materials. Landscape 3:2, composed for a small reading sidebar. No drawn lines, hatching, sepia, monochrome, captions, lettering, frame, watermark, or modern objects. Seen from inside the Baker Street sitting room, Holmes and Watson watch a distressed, bareheaded older visitor approaching outside through snowy late-Victorian London. A large sash window frames a line of brick terraces and a gas lamp. Cool snow and dawn light outside, the two men and warm wood inside.",
+      "sha256": "26abe5a57b8aa5c5ac4c85acdf8904b77e64a136a83eab5b5550af889978c546",
+      "masterSha256": "c7f89f52e674b78b762816c2970ac06cd169aaefc8d1664400a6fb74bc04aaa1"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-copper-beeches.jpg": {
+      "file": "img/holmes/the-adventure-of-the-copper-beeches-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-copper-beeches.preview.jpg",
+      "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The engraving is a scene and composition reference only. The output is a naturalistic live-action period-drama still with real people, plausible late-Victorian clothing, natural lighting, muted but distinct colors and realistic fabrics and materials. Landscape 3:2, composed for a small reading sidebar. No drawn lines, hatching, sepia, monochrome, captions, lettering, frame, watermark, or modern objects. Holmes sits in an armchair at right, reading an unfolded letter while Watson leans toward him from a chair at left. Late-Victorian Baker Street sitting room with scattered papers, coal fire and a slate-gray winter window. Brown tweed, dark green upholstery, gently contrasted lamplight. No legible writing.",
+      "sha256": "fdc0d3dbfe07166a1b01c0c710862cfac9f8f36163e847b4d3f5eb956d600211",
+      "masterSha256": "c263c39fd43c31d98358f7f1fc06658b9c911a04d38a3eb4af7aea01c3e674c6"
     }
   }
 }

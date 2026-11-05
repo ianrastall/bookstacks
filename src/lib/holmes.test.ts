@@ -39,7 +39,11 @@ it('collects exactly the same 63 works in publication and career orders without 
   expect(reports[1].order[0]).toBe('the-adventure-of-the-gloria-scott');
   expect(reports[1].order.at(-1)).toBe('his-last-bow');
   const photoPairs = Object.entries(photoData.photos);
-  expect(photoPairs).toHaveLength(4);
+  const adventures = selection.stories
+    .filter((story: { source?: string }) => story.source === 'doyle_the-adventures-of-sherlock-holmes_eng.xml')
+    .map((story: { slug: string }) => `/tei/doyle/img/holmes/${story.slug}.jpg`);
+  expect(adventures).toHaveLength(12);
+  expect(Object.keys(photoData.photos)).toEqual(expect.arrayContaining(adventures));
   const expectedPhotos = Object.fromEntries(photoPairs.map(([sketch, photo]) => {
     const bytes = fs.readFileSync(`tei/doyle/${photo.file}`);
     expect(createHash('sha256').update(bytes).digest('hex')).toBe(photo.sha256);
@@ -71,7 +75,7 @@ it('collects exactly the same 63 works in publication and career orders without 
     expect(new Set(edition.units.map(unit => unit.illustration!.src)).size).toBe(115);
     const photos = edition.units.flatMap(({ illustration }) =>
       illustration?.photoSrc ? [[illustration.src, illustration.photoSrc]] : []);
-    expect(photos).toHaveLength(4);
+    expect(photos).toHaveLength(photoPairs.length);
     expect(Object.fromEntries(photos)).toEqual(expectedPhotos);
     expect(edition.sourceLinks.some(link => link.href.includes('gutenberg.org'))).toBe(true);
   }

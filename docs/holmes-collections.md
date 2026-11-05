@@ -69,7 +69,7 @@ composition, no captions or borders. JPEG plates up to 1200 pixels wide and
 640-pixel previews are delivered under `tei/doyle/img/holmes/`; the reader applies
 the same four-edge fade and appearance treatment as Poe.
 
-The first four short stories in publication order also have color photo
+All twelve stories from *The Adventures of Sherlock Holmes* have color photo
 counterparts. The two collections share the files, keyed to their common
 engravings in [the photo record](../tei/doyle/holmes/photo-companions.json).
 Readers can select Photos under Settings → Appearance → Illustrations.
