@@ -69,9 +69,10 @@ composition, no captions or borders. JPEG plates up to 1200 pixels wide and
 640-pixel previews are delivered under `tei/doyle/img/holmes/`; the reader applies
 the same four-edge fade and appearance treatment as Poe.
 
-All twelve stories from *The Adventures of Sherlock Holmes* have color photo
-counterparts. The two collections share the files, keyed to their common
-engravings in [the photo record](../tei/doyle/holmes/photo-companions.json).
+Each of the 115 engravings has one color photo counterpart generated with the
+engraving as the scene and composition reference. The two collections share the
+640-pixel JPEGs. The [photo record](../tei/doyle/holmes/photo-companions.json)
+maps each engraving to its photo and records the prompt and file hashes.
 Readers can select Photos under Settings → Appearance → Illustrations.
 
 `tei/prepare_holmes_art.py` prepares delivery formats from generated PNG

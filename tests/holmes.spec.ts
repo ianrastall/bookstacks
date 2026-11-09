@@ -48,8 +48,11 @@ test('both Holmes collections share the color counterpart for the same story', a
     await expect(page.locator('.reader-photo figcaption')).toHaveCount(0);
   }
   await page.goto(`${complete}/story-silver-blaze?ui=en`);
-  await expect(sketch).toBeVisible();
-  await expect(photo).toHaveCount(0);
+  await expect(sketch).toBeHidden();
+  await expect(photo).toBeVisible();
+  await expect(photo).toHaveAttribute('src', '/tei/doyle/img/holmes/the-adventure-of-silver-blaze-photo.jpg');
+  await photo.scrollIntoViewIfNeeded();
+  await expect.poll(() => photo.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBe(640);
 });
 
 test('the illustration choice follows reader links when browser storage is blocked', async ({ page }) => {

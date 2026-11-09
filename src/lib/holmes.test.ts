@@ -39,11 +39,8 @@ it('collects exactly the same 63 works in publication and career orders without 
   expect(reports[1].order[0]).toBe('the-adventure-of-the-gloria-scott');
   expect(reports[1].order.at(-1)).toBe('his-last-bow');
   const photoPairs = Object.entries(photoData.photos);
-  const adventures = selection.stories
-    .filter((story: { source?: string }) => story.source === 'doyle_the-adventures-of-sherlock-holmes_eng.xml')
-    .map((story: { slug: string }) => `/tei/doyle/img/holmes/${story.slug}.jpg`);
-  expect(adventures).toHaveLength(12);
-  expect(Object.keys(photoData.photos)).toEqual(expect.arrayContaining(adventures));
+  expect(photoPairs).toHaveLength(115);
+  expect(new Set(photoPairs.map(([, photo]) => photo.file)).size).toBe(photoPairs.length);
   const expectedPhotos = Object.fromEntries(photoPairs.map(([sketch, photo]) => {
     const bytes = fs.readFileSync(`tei/doyle/${photo.file}`);
     expect(createHash('sha256').update(bytes).digest('hex')).toBe(photo.sha256);

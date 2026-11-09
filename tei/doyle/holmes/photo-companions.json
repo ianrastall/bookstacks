@@ -125,6 +125,790 @@
       "prompt": "Use case: illustration-story. Create a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the scene and composition reference. Render a naturalistic, restrained late-Victorian period-drama still with realistic materials, lived-in surroundings and muted but distinct colors. Landscape 3:2, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, borders, watermarks or modern objects. The Adventure of the Musgrave Ritual. Match the engraving's unoccupied Baker Street still life from the story's opening. At left a dark wooden mantelpiece with a small period clock and several envelopes held to its center by one partly open folding pocketknife. A brass coal scuttle contains a few cigars. A single embroidered Persian slipper lies near the hearth. At right an empty green upholstered chair with a draped jacket; beyond it a violin by the tall sash window. In the foreground, the edge of a round walnut table with loose papers and a pipe. Cool daylight and warm wood make the scene feel inhabited. Keep the three signature objects visually distinct and the room uncrowded.",
       "sha256": "765830b6f1be8bc2c9ca5d498b4bef01d6c4f4887a2fe9b7e6a35dab05c2393c",
       "masterSha256": "8e22c6e70ecc3d3aac49e23886d191a054ac8ca7d8b63006afac76fc150144dd"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-reigate-squire.jpg": {
+      "file": "img/holmes/the-adventure-of-the-reigate-squire-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-reigate-squire.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a full-color photographic counterpart for the Bookstacks reader sidebar, using the supplied Bookstacks engraving as the reference for composition, subjects, and scene. Landscape 3:2. Naturalistic live-action period drama, historically plausible wardrobe and props, believable anatomy, muted but distinctly colored natural light, strong readability at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, frame, watermark or modern objects. Watson, seated at left in a dark traveling suit, visits an exhausted Holmes propped up on ivory pillows at right. Cool morning light through a tall French hotel window overlooking the river, bridge and rooftops of Lyon. Warm lamp glass and dark wood inside. Two men only.",
+      "sha256": "5471552c7f1a0622590e1f6e575092e05cee163aedd771cebfd7cfbd21cfbea6",
+      "masterSha256": "ab36c34c645209461b753430f8442a4469eea58301979dc6124a214dd41815e2"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-crooked-man.jpg": {
+      "file": "img/holmes/the-adventure-of-the-crooked-man-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-crooked-man.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a full-color photographic counterpart for the Bookstacks reader sidebar, using the supplied Bookstacks engraving as the reference for composition, subjects, and scene. Landscape 3:2. Naturalistic live-action period drama, historically plausible wardrobe and props, believable anatomy, muted but distinctly colored natural light, strong readability at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, frame, watermark or modern objects. Holmes, in his dark tweed cape with a walking stick, calls at Watson’s front door on a rainy night. Watson in a striped dressing gown stands just inside the warmly lit hall. Wet stone steps, a single gas streetlamp and a wrought iron fence along the cool street. Two men only, natural evening exposure.",
+      "sha256": "ba9e08766abd2067dd214627b80f37fa700934a74f6fc8afa15cb29badc35336",
+      "masterSha256": "c30339a692bbcf9b363df4aabf3606ef89e7f7e4707b3398d05eb1ce195dd2b8"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-resident-patient.jpg": {
+      "file": "img/holmes/the-adventure-of-the-resident-patient-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-resident-patient.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a full-color photographic counterpart for the Bookstacks reader sidebar, using the supplied Bookstacks engraving as the reference for composition, subjects, and scene. Landscape 3:2. Naturalistic live-action period drama, historically plausible wardrobe and props, believable anatomy, muted but distinctly colored natural light, strong readability at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, frame, watermark or modern objects. Four men in a Victorian bedroom. A conscious older man lies at right under an olive wool blanket, Watson sits at left near him, Holmes stands in the middle thinking, a third visitor stands at back left. Soft daylight and a clear glass medicine bottle beside the brass bed. Quiet human expressions and clear spacing.",
+      "sha256": "4126d4782756c1ef01f5127b3b478f1f9ca84cabaab3cce7ab604d61ba6879f9",
+      "masterSha256": "05503df2b43a7b40c177715e2598fcd644f41665fa8596a8ff5a6f3cfad0267e"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-greek-interpreter.jpg": {
+      "file": "img/holmes/the-adventure-of-the-greek-interpreter-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-greek-interpreter.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a full-color photographic counterpart for the Bookstacks reader sidebar, using the supplied Bookstacks engraving as the reference for composition, subjects, and scene. Landscape 3:2. Naturalistic live-action period drama, historically plausible wardrobe and props, believable anatomy, muted but distinctly colored natural light, strong readability at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, frame, watermark or modern objects. Holmes at left and mustached Watson at right converse over tea at Baker Street. Holmes sits back holding a pipe; Watson leans forward. A silver teapot, two porcelain cups and a muted rug, London rooftops beyond the tall window. A light-filled, unhurried scene with two men only.",
+      "sha256": "b37545135dd1b1bd63de0c7ac9ce5b3156c34296252e5809304a1b49b771f711",
+      "masterSha256": "bb189d41df2e110ebd93bc8233f6efd2ba38873a57fac0571d4fbb77f5169f60"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-naval-treaty.jpg": {
+      "file": "img/holmes/the-adventure-of-the-naval-treaty-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-naval-treaty.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a full-color photographic counterpart for the Bookstacks reader sidebar, using the supplied Bookstacks engraving as the reference for composition, subjects, and scene. Landscape 3:2. Naturalistic live-action period drama, historically plausible wardrobe and props, believable anatomy, muted but distinctly colored natural light, strong readability at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, frame, watermark or modern objects. Holmes stands over a table and points at a spread of period papers while Watson listens from the chair at left and a concerned uniformed man stands beside the window at right. London and the Houses of Parliament beyond the Thames. Soft daylight on brown wool, ivory papers and dull green tablecloth. Three men only; any writing is illegible.",
+      "sha256": "15df2b9e8d3840364890731b39db628d56c9594c251e19ccdb2fe9191e52dc49",
+      "masterSha256": "da52e67a16b827fcea2f0cd0e3f328161482195272234aa97ae16f60a8111098"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-final-problem.jpg": {
+      "file": "img/holmes/the-adventure-of-the-final-problem-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-final-problem.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a full-color photographic counterpart for the Bookstacks reader sidebar, using the supplied Bookstacks engraving as the reference for composition, subjects, and scene. Landscape 3:2. Naturalistic live-action period drama, historically plausible wardrobe and props, believable anatomy, muted but distinctly colored natural light, strong readability at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, frame, watermark or modern objects. Two fully clothed late-Victorian men, Holmes and Moriarty, struggle briefly on a narrow, wet rock ledge at Reichenbach Falls. Match the print's clear two-figure silhouettes, steep rock wall at left and misty waterfall and Alpine valley at right. Hands grasp coat sleeves, no blood or injury. Cold slate rock, muted pine, clean white spray, sober live-action staging.",
+      "sha256": "4a9a1549ab44415bad6da6250bb659f809cf54e7faf15a6e02baed0adf97da47",
+      "masterSha256": "7180f3bbe2679cf7cc718a9aacd4ebfde60cc0aba7fc3da5eb38f26b48336161"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-01.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-01-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-01.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER I. MR. SHERLOCK HOLMES.. On the left of a late-1870s British field camp near Kandahar, young military surgeon Watson tends to a seated soldier by a canvas tent. A fortified settlement, rough ochre foothills and distant snowy mountains.",
+      "sha256": "032fb46c9082acd086d5d1cc8d585d8d83e64f38216a09a79848a3a319f79b43",
+      "masterSha256": "c03b7a1e73edaa00159357f2bac0af67b33a0408889ec5ce0749b9b31dfe01b0"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-02.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-02-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-02.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER II. THE SCIENCE OF DEDUCTION.. Unoccupied Baker Street sitting room just after moving in. Two broad windows, old armchairs, coal fireplace and several battered travel boxes, warm daylight over worn floorboards.",
+      "sha256": "cabd4bcccc2ecedfc1132c62897ed8d730b4710ac73acce4c16a81b3f1567d7e",
+      "masterSha256": "f8d840a579ce8ab8e7ae0f0bbb800225e477cf84508c8fc2a718d29d61eb6500"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-03.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-03-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-03.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER III. THE LAURISTON GARDENS MYSTERY. Holmes sits reading a note while Watson listens from the adjacent chair. Deerstalker resting in foreground beside papers, winter daylight from the right.",
+      "sha256": "c4884d7ebe1e2bc90df9da57da9cf548da3414aac87d5088f8bad7b1548d4d3f",
+      "masterSha256": "3ead8bf4d59c855efaea732dd5adcfc3d24f02a159f15142f2afdda90c191dca"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-04.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-04-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-04.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER IV. WHAT JOHN RANCE HAD TO TELL.. Holmes crouches on the street to inspect carriage ruts in mud as Watson stands on the curb and a period cab recedes beyond them. Overcast London street.",
+      "sha256": "981db099f239c44e0477e97436881c2db140fb838f88f2ac1396009147ba58a1",
+      "masterSha256": "a267dde7434c3b47a8829e28b6668726c813f3f116e02960a3b3f116c0c852af"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-05.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-05-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-05.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER V. OUR ADVERTISEMENT BRINGS A VISITOR.. Watson lies awake on a Baker Street sofa. A faint, hazy, single reflected memory of a stern man's face in the shadow above the fireplace, subdued and dreamlike, period-drama double exposure.",
+      "sha256": "817a67ddbc62d74d2ed2510818097ffbcd1d465b403ee10a3f5dc8b182cfd787",
+      "masterSha256": "0d8a489c787f515d15ef355619acd9b631af668a2fba3153697b8ed57a4dff1f"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-06.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-06-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-06.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER VI. TOBIAS GREGSON SHOWS WHAT HE CAN DO.. Two men read a broadsheet over a desk scattered with newspapers while a third sits to the right. Muted browns and late-Victorian daylight; print remains illegible.",
+      "sha256": "b444961e79635ccaf7700925f7eebc908cff3f9b3c79434d376d7c590b0c5a25",
+      "masterSha256": "50be44964aa063bdb4117e3c109df45e28a4d1e342b8061a781477256d247634"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-07.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-07-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-07.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER VII. LIGHT IN THE DARKNESS.. Four men confer around a crowded Baker Street table. Holmes sits centered, deep in thought with his hands clasped, one man stands at left and two listen. Warm daylight and dark wool.",
+      "sha256": "d060b2e0825ecd9859b965465e37aad5c393391440af345e2456831b9082ec0e",
+      "masterSha256": "7c09cf4b813f9103457f129194a759b02cf7ac7cc51c3b08eb07c2d7401decac"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-08.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-08-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-08.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER I. ON THE GREAT ALKALI PLAIN.. Vast uninhabited high desert in the western United States. A rocky ridge and sparse sagebrush open onto an alkali plain, cliffs and distant snowy mountains. Natural blue-gray and ochre.\nRefinement: Use case: precise-object-edit. Edit the supplied photographic image for the Bookstacks illustration of The Great Alkali Plain. Remove both men entirely, along with their rifle, pack, flask, and bedroll. Restore the natural foreground scree, dry sagebrush, and rocks in the space they occupied. This is a strictly uninhabited landscape from foreground to horizon. Preserve the wide 3:2 camera framing, mountain range, enormous alkali flats, colors, cloudy daylight, and photographic textures. No people, buildings, camps, equipment, borders, captions, or lettering.",
+      "sha256": "5e20b017a887997d8578d271cae58e4bfb9eeb9bb8983757ac890394a0480baf",
+      "masterSha256": "657482247846029e1d94ed5dc995e22e9d032501c4b97a5eff13a73a3014c47a"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-09.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-09-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-09.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER II. THE FLOWER OF UTAH.. An 1840s wagon party pauses on a sagebrush hillside overlooking the Salt Lake valley. A few tired travelers stand and sit by a covered wagon, with one man pointing into the valley.",
+      "sha256": "5216e2d42ff7f5e4876faa67760ca1b49a0930db385c6ee56fa46744400e37aa",
+      "masterSha256": "130f9deacd5e95be33a4c99b7ab34ed2843c7ecaffc21012a6dbd7d040e711d3"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-10.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-10-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-10.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER III. JOHN FERRIER TALKS WITH THE PROPHET.. John Ferrier sits at a plain table in a mid-nineteenth-century Utah farmhouse, with Lucy standing beside him and touching his shoulder. Mountain town roofs through the window.\nRefinement: Use case: precise-object-edit. Edit the supplied photographic image for the Bookstacks illustration of John Ferrier and Lucy in a mid-nineteenth-century Utah farmhouse. Change only the distant view through the window. Replace the tall elaborate temple and dense town with scattered, low pioneer houses with simple roofs, plus a few distant trees. Keep the snowy Wasatch foothills behind them. Preserve John and Lucy, their faces and gestures, clothing, furniture, original 3:2 composition, color, and window light. No large religious building, tower, lettering, border, or watermark.",
+      "sha256": "fd56943ea04c6320bf4d6b697bb340dcbfec40afe0640562506539592358cf25",
+      "masterSha256": "5061947ebd4f55605dec9e48c34d1d5b0c3bb6a7989d2478b6362216cec305f5"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-11.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-11-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-11.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER IV. A FLIGHT FOR LIFE.. Three men in a rustic nineteenth-century Utah cabin, one at the open door, one in a wooden rocking chair, and one turned to the window. Plain wool, cast-iron stove, pale mountain daylight.",
+      "sha256": "e950c0d37cbce8c52553b5e47b5b5b78fd947e89dd3179cf94dcc0ebd726daba",
+      "masterSha256": "962429f77aeea78b345b4f6d3bdf116671f98bb98e31ddb4fcb7ac0734772902"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-12.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-12-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-12.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER V. THE AVENGING ANGELS.. Three riders on a narrow rocky trail above an alpine ravine. Falling rocks and a small puff of dust distant from the riders, with bright snow peaks behind. Mid-nineteenth-century American frontier.",
+      "sha256": "ac264ea579ef58447f98e985997433e231dbf10ffab277a17b41beced179ed12",
+      "masterSha256": "5aa5165ba80245674946fb66a9df595cbefaa69d2c416e3a6a3c7aec470d5ab5"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-13.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-13-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-13.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER VI. A CONTINUATION OF THE REMINISCENCES OF JOHN WATSON, M.D.. Jefferson Hope stands in a shirtsleeved waistcoat while Holmes kneels by his boots and Watson and two Victorian officials look on. A small London room. Calm, no injuries, restrained composition.",
+      "sha256": "206ea24686af4eae95d88a7e0264649bd16330760fd00593503e8d9b72c5b3ba",
+      "masterSha256": "1e841171577d869d769fb44400245c181cc37dd5106e3e1828b51bd97a0f1297"
+    },
+    "/tei/doyle/img/holmes/a-study-in-scarlet-14.jpg": {
+      "file": "img/holmes/a-study-in-scarlet-14-photo.jpg",
+      "reference": "img/holmes/a-study-in-scarlet-14.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: A Study in Scarlet — CHAPTER VII. THE CONCLUSION.. A still, fully clothed man rests on the stone floor beside a narrow cot in a Victorian cell. Barred high window casts cool diagonal light. Peaceful, distant framing, no injury or blood.",
+      "sha256": "bb7056a18b210e352eadd037d3d86d8577fc73e875c63f95ba3f3affde65cef7",
+      "masterSha256": "c7a3be65fd178343eec1aaf7fe1defc27718b740e08e63c192a1876bc19d1c2b"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-01.jpg": {
+      "file": "img/holmes/the-sign-of-four-01-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-01.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter I The Science of Deduction. Holmes and Watson seated side by side at a worktable, Holmes examining a small piece of equipment carefully. Dark leather instrument case, scattered papers and a lamp in late-Victorian Baker Street.",
+      "sha256": "4b556c6e3a061a444dc1af143ff219d25db4fd09bdd39d4b30ba122899c54b63",
+      "masterSha256": "281cc2574ccb0e3b29f68a1228ce73f6009731f8033324fe2c1f1902ff943909"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-02.jpg": {
+      "file": "img/holmes/the-sign-of-four-02-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-02.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter II The Statement of the Case. Mary Morstan stands beside the mantel at left in a modest muted lavender gown, hands loosely clasped. Holmes and Watson listen from their seats at right. Three people only.",
+      "sha256": "d298402d682fc206cf34f6d8840abdb41cf1964fcbda9a9d1b7ce25282a2f0f0",
+      "masterSha256": "4ba21de3e60238797f37393b4af49e1be44484afbd6845f8288f44230721c044"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-03.jpg": {
+      "file": "img/holmes/the-sign-of-four-03-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-03.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter III In Quest of a Solution. Holmes points to a London map spread on the table while seated Watson studies it. Worn map paper, books, brass lamp and muted curtains. No readable labels.",
+      "sha256": "0d19e23991312b1322c13cadd5212eb57a8c3be5d93313b5b623e74391d39530",
+      "masterSha256": "5e6296f7189b69dc2d86fa3f3c1fb69c1fdea8d8cd352f2b0d4729528a4d35fd"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-04.jpg": {
+      "file": "img/holmes/the-sign-of-four-04-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-04.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter IV The Story of the Bald-Headed Man. Three men stand near the threshold of a modest, lamplit Victorian room. Thaddeus Sholto stands by a plain table at right, alert and slightly anxious. Keep faces and arrangement faithful to the engraving.",
+      "sha256": "4454985217898cd3c0e696072a29a938053fc1530377b30f9af642d8bb11093c",
+      "masterSha256": "6eec7ed2783e84b782b4418c4d77e9173d803407e15f85f9f2785dc977bef8e7"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-05.jpg": {
+      "file": "img/holmes/the-sign-of-four-05-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-05.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter V The Tragedy of Pondicherry Lodge. A tall wall and its closed timber gate on a late-Victorian night. One man reaches toward the gate, one stands behind, and their period horse-drawn cab waits at left. Moon and warm lantern light.",
+      "sha256": "386a19d60750f066393c68e597814f122e5492c4c7bf575a6b1ac757d9f1648d",
+      "masterSha256": "87feed7cb94faa3c65bde56e6bf8d0179edd75886c43a99f77ce37c0fd0fac6b"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-06.jpg": {
+      "file": "img/holmes/the-sign-of-four-06-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-06.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter VI Sherlock Holmes Gives a Demonstration. Holmes raises a small lantern to an upstairs window while Watson observes from the bed at left. The clues are in the gesture and light, in a quiet unoccupied bedroom. No additional figures.",
+      "sha256": "a9470512255845298159e2bc76040986e617bd9607088c5b2196f0fc050c986f",
+      "masterSha256": "a5505f6675071ff42c6643cb7f7bf39506391e96edb6269db1eff6558d86383a"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-07.jpg": {
+      "file": "img/holmes/the-sign-of-four-07-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-07.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter VII The Episode of the Barrel. Mary Morstan and Watson sit inside an open-sided late-Victorian cab, the driver above them. Gaslit London terraces, wet cobbles, horse in profile. Copper and deep blue dusk.",
+      "sha256": "4a68c3be0b2c70aaa58dfbf666c3ef23d887114127f877fb6a67d0f1c9767961",
+      "masterSha256": "a41ac257967404b27874d704c3e4b8634eee17d47cbfe385db07009ef9102239"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-08.jpg": {
+      "file": "img/holmes/the-sign-of-four-08-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-08.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter VIII The Baker Street Irregulars. Holmes guides Toby, a small shaggy tracking dog with its nose low, past wooden barrels and crates in a muddy Victorian riverside yard. Watson follows a pace behind. Natural dog posture.",
+      "sha256": "a8fbaa7d068696fa5ebb077bc738f0ab70816152510d77828024ad31157b6b25",
+      "masterSha256": "8c7d05179ca7433151cf5bdcdf5cdc131fd61dcb0a365a98a651895780f195f8"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-09.jpg": {
+      "file": "img/holmes/the-sign-of-four-09-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-09.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter IX A Break in the Chain. Two men in armchairs at Baker Street, one reading thoughtfully beside the fire and another seen from behind. A violin at right and soft daylight at left.",
+      "sha256": "9fe7dd5b6c3be659e14e157fe4d24787545d43b1536a5089c9843062a15460af",
+      "masterSha256": "cb5a2b01f53113badb2bc84cd5b04b9be6f4759d906877a348a95a390800008b"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-10.jpg": {
+      "file": "img/holmes/the-sign-of-four-10-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-10.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter X The End of the Islander. Four Victorian men at a modest supper table with a white cloth. Holmes in the middle distance gestures as he speaks, the others listen. Period glassware and subdued lamplight.",
+      "sha256": "c3212dd45ffc20f6f9392639a861930f2ad7a1b1b369f34c375e4955309c2956",
+      "masterSha256": "9e7cefe14e745f5fe32146e12e72a57cf596bd54d5f48ece33598e6d1337cb84"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-11.jpg": {
+      "file": "img/holmes/the-sign-of-four-11-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-11.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter XI The Great Agra Treasure. A tired bearded man in a dark waistcoat sits alone inside a nineteenth-century ship's wooden cabin, an iron-bound chest to his right and gray sea visible in the porthole.",
+      "sha256": "475c8621f3eab8a5aef3216ba537e19fb13188b38568c0c965115cd1de8d24f5",
+      "masterSha256": "1b8afe9122751b5dab6bd1816d1b41c65a38575d31572198fa08ababe905e65a"
+    },
+    "/tei/doyle/img/holmes/the-sign-of-four-12.jpg": {
+      "file": "img/holmes/the-sign-of-four-12-photo.jpg",
+      "reference": "img/holmes/the-sign-of-four-12.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Sign of Four — Chapter XII The Strange Story of Jonathan Small. Five Victorian men around a table as one raises the lid of an iron-bound chest. Show the lid, faces and weathered wood as in the engraving, and keep the chest's contents unobtrusive.",
+      "sha256": "40d1b8abde06c595d4d4e0ea6fea203afe5a787dcd23b99547dee8a4fdc7a015",
+      "masterSha256": "0b887b0a29acbddf78e4b551934df7054bc339c146d74e5ff94b9f5abbce5cd7"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-01.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-01-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-01.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 1. Mr. Sherlock Holmes. Watson examines a heavy walking stick beside the Baker Street fireplace, while Holmes sits reading at the breakfast table near the window. Two men, quiet daylight.",
+      "sha256": "8e83ac2b79ad6134caf58a13010fbe232dae54163a03ed270035c62042adbb8f",
+      "masterSha256": "7bc7d50a9a01e0efc18d3a1b4ade2c1863b3e37539bd82b38c0f68a736eba279"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-02.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-02-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-02.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 2. The Curse of the Baskervilles. Seated Holmes reads from an old manuscript while tall gray-haired Dr. Mortimer stands beside him. Candlewax, dark wood and gray London window light. Illegible manuscript.",
+      "sha256": "06e0b804e3238ebdf0c3e790e4f96807b9b8051b813eb1cb27a2dc3bd11d82d4",
+      "masterSha256": "1ee2200d5a39b2d0ec03a61d48d854b1f74c49d0cbd5c15c78692b9d3b9eddfb"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-03.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-03-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-03.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 3. The Problem. Uninhabited Dartmoor in brooding daylight, a pebbled winding path through low green-brown heather and granite outcrops. Dark clouds and faint sun along the horizon.",
+      "sha256": "87dcac4412cc9a2b61f3f404d1bb8e93b393fbf8225d18cc9e328015b59a657c",
+      "masterSha256": "155f81f400073b4d12aec83045c438f5aebd2869cc6d14a4431c80014034d566"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-04.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-04-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-04.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 4. Sir Henry Baskerville. Holmes sits on the left in Baker Street, Sir Henry sits opposite in brown country clothes and Dr. Mortimer stands behind him. Warm wood and soft outdoor light.",
+      "sha256": "e5878fc1f7ee5cd2e6f42b3efd5b4a8de20a550827a4541996d652074029dbd6",
+      "masterSha256": "d10d1e32d1d4257780cf014f04c11b369e588a80b1d24fade55112b097e2dc76"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-05.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-05-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-05.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 5. Three Broken Threads. Holmes leans over an open guest register at a Victorian hotel desk, a clerk stands behind it and Watson waits at left. Brass fittings, muted stone and a staircase behind.",
+      "sha256": "dda1ddb6f03fe591c1641d8c6eb2041d9bf9e6c7e1c428fa2aa45a792d97cbfa",
+      "masterSha256": "21c0cf3fb22b8818103ce0113aaf03c986e9aa31f250b2b3a22e863c3eaaa972"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-06.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-06-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-06.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 6. Baskerville Hall. Three men meet beside a steam train and waiting carriage at a Victorian Devon station. Wet platform, sandstone and weathered iron, locomotive steam in the distance.",
+      "sha256": "8915e8e7c934f419d1b5b6ba66a1ee2608bf6299c690ef40145bb38b972b866f",
+      "masterSha256": "980c1e61fa87a6e925db8e7b9a0e852f3e78428a70db37393a7cc02db551e4c2"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-07.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-07-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-07.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 7. The Stapletons of Merripit House. Watson and Sir Henry converse at breakfast in the old hall. Tall leaded windows, stone hearth, period crockery, soft late-morning light.",
+      "sha256": "f2eae99e37333af61477bdc8a7be63b9b36b5ea8063247a77e5d4f93c153bc46",
+      "masterSha256": "c87b698a8e8ea74a23c1cc04e296fe2d3aee30c261e31a254d6ba8c9e41d9351"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-08.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-08-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-08.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 8. First Report of Dr. Watson. A lone man stands with his back to camera on the open moor, surveying granite tors and the distant stone hall. Subtle heather and clear scale in a wide shot.",
+      "sha256": "b26f3874b566a5224cfb4b117786940464fac9de958a62993c358a44a3dd55d8",
+      "masterSha256": "ff8afbb0ef7b8ca290906b6637ccbfcd504745f784ee95a42dcc358a3b5b075f"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-09.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-09-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-09.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 9. The Light upon the Moor [Second Report of Dr. Watson]. Open casement window in a dark, unoccupied country-house bedroom. A small distant light on a moorland ridge, faint dusky blue sky, cool stone and brown wool coverlet.",
+      "sha256": "3214d121663073d8cd0bc6c844f1ce025175d97c1fb7ff9a874bab37d7533126",
+      "masterSha256": "63baeb61bc869202542637ecc1588cd6ab5645e40c8abcf1377c8bc3f534ebe0"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-10.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-10-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-10.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 10. Extract from the Diary of Dr. Watson. Morning fog folds through Dartmoor and past the distant silhouette of the hall. Wet path through rocks and muted heather, natural diffuse light, no people.",
+      "sha256": "153cadcced81f8ba81e22b7e0a3d52b06e7f22243401ea39860b80e084d4699f",
+      "masterSha256": "0d3b36ca74f740886858e1c76e9f2093d10ab31b0b3ac682c2d5e69ef7e5316d"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-11.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-11-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-11.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 11. The Man on the Tor. A solitary cloaked figure stands on a granite tor above open moorland. Match the wide landscape, keeping the figure small and distinct against a pale sky.",
+      "sha256": "c13480d067126d5fc8083103dae6030a1ff9a11ddc4b50dcf11b01e31bc86cd6",
+      "masterSha256": "892660fa541ac43d09c9e90089c9190b9466c72033f11f7bc5da08bdb6520aeb"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-12.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-12-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-12.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 12. Death on the Moor. Two Victorian men at the opening of a rough stone hut, one half-emerged and one seated on a rock. Low warm heather and distant hills, two men only.",
+      "sha256": "a1a3e83749bc5406fbdeae04320e2adb0d141c3594ffe2744f1285a2c3070d5e",
+      "masterSha256": "32fdfd51c531e496f51260a50de4305c99c635fff2a87145c965b0f040ed9f9f"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-13.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-13-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-13.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 13. Fixing the Nets. Three Victorian men stand at the right of a plain farmhouse kitchen. At left a distressed woman in a clean apron lifts a handkerchief to her face. Oil lamp, warm wood and softly lit stone.",
+      "sha256": "ed7c35fd4c3f5558016d44cf97705bed6af45cedcb7e3ef6ea9d3656ff5e23a6",
+      "masterSha256": "8e068751c2f63dc6abe2da8a23a75b72a94d382473359a7d3fffe632e792e23b"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-14.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-14-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-14.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 14. The Hound of the Baskervilles. A small horse-drawn trap with two men drives away along the track across open Dartmoor in moonlight. Deep blue night with readable dark silhouettes, soft silver on damp ruts and heather.",
+      "sha256": "9c6e5d92ecf12f682a9b2c85247d0ba351440929f23cdc66232e8c44311ac016",
+      "masterSha256": "3f9fb0f649e7acf4610d8d5a12cbfd92f57bce3e4ae03de39a24fe7052a04327"
+    },
+    "/tei/doyle/img/holmes/the-hound-of-the-baskervilles-15.jpg": {
+      "file": "img/holmes/the-hound-of-the-baskervilles-15-photo.jpg",
+      "reference": "img/holmes/the-hound-of-the-baskervilles-15.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Hound of the Baskervilles — Chapter 15. A Retrospection. Holmes and Watson seated across a lit fire at Baker Street, relaxed but attentive. Light glows through the grate and reflects subtly on the mantel clock and brown wood.",
+      "sha256": "b866aceb4d78ada81685cd3853ff414e324672492d5fc8c2465e0aedcd6e95e1",
+      "masterSha256": "9ce960bbfc313d98820bc6c3186b38392579ccb6f71d8f6d8c871d0b9bab9512"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-01.jpg": {
+      "file": "img/holmes/the-valley-of-fear-01-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-01.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter I The Warning. Holmes holds a small folded note up to the light while Watson watches from the left of a breakfast table. White linen, silver tea service, gray London morning.",
+      "sha256": "3f691f97d64cb13ad11486a0af3498dff822b78794526ea9e8c45c988168464f",
+      "masterSha256": "88258f9f9f8e214e95d16c82e8c209dba03d3d29d6304a5d01c16105c4768773"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-02.jpg": {
+      "file": "img/holmes/the-valley-of-fear-02-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-02.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter II Sherlock Holmes Discourses. Holmes sits reading and thinking in an armchair while Watson leans forward. Low warm oil lamp and blue window light, papers on a low table.",
+      "sha256": "319fdee307fdf6f4d43e6b28586c3993edb6fd7704d2dec013c5da97789f352b",
+      "masterSha256": "bb282fcb1fbb13445a20dfd290631b58b3d535b53ae7dd3c2e9e6321454d4afa"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-03.jpg": {
+      "file": "img/holmes/the-valley-of-fear-03-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-03.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter III The Tragedy of Birlstone. A quiet English village of tile-roofed houses and a low stone bridge across a river, framed by branches. Pale winter sun, moss, and muted red brick.",
+      "sha256": "4de7060b15765ef2e676c97e382c7ca6cbb33d7652fc7ce5b0bed0b0888dad04",
+      "masterSha256": "102a9cdd9f9457922a25b9f6ad81f07a58d5b2f0ef80ec330cb5f88b4aaa91cc"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-04.jpg": {
+      "file": "img/holmes/the-valley-of-fear-04-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-04.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter IV Darkness. Three men meet at a damp rural British train station. A horse and trap waits at left, steam curls around a locomotive at right, late-Victorian clothes and cold gray light.",
+      "sha256": "ef8069ab955aacbf1e2888608e05c44ba817983d084e3b0ab872a7b990cd1614",
+      "masterSha256": "4caeeca4afa3592301f0525cb935fe0d64b89811446688f0fd6ac80736bc6859"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-05.jpg": {
+      "file": "img/holmes/the-valley-of-fear-05-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-05.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter V The People of the Drama. Four Victorian men in a stately dining room, one stands near the end of the table while three sit. Empty crockery, clean white linen, olive fabrics and tall windows.",
+      "sha256": "e983fe93390d565d0d21a73cd85a42172e1f666f07ac51f28c2e319cd5ef2b0a",
+      "masterSha256": "64cd86bd3fb37c8228149541a277a218338b85f149a305a565da7737bcf659ad"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-06.jpg": {
+      "file": "img/holmes/the-valley-of-fear-06-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-06.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter VI A Dawning Light. An empty formal English garden beside a manor. Clipped dark hedges, stone urn and a bench under a tree, angled natural morning light.",
+      "sha256": "f19b6f3596ec7e4a45198238f06d1141710371297be8d7f34d3caf6598683160",
+      "masterSha256": "04ab0705378d658d8f497499ad4067a8e45412a2451280a943a7bbaf557e92a3"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-07.jpg": {
+      "file": "img/holmes/the-valley-of-fear-07-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-07.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter VII The Solution. Four men gather around a plain desk as an older man reads an unfolded document. Three listen closely. Quiet daylight, legible gestures, no readable writing.",
+      "sha256": "1c9d5c644eeddcca3006afa4920cff1437db9e21fa27a0c05b0eebed5a3d53b7",
+      "masterSha256": "693ee15dd67d73a9ef804d80c804a389404a34efd3217d4750416fdece7db96b"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-08.jpg": {
+      "file": "img/holmes/the-valley-of-fear-08-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-08.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter I The Man. An 1870s steam train rounds a snowy mountain bend above an American mining settlement. Pines, wood houses, cold blue shadows and drifting dark steam.",
+      "sha256": "836e2b7850738a5e4a6d206a385dcfdee3d8c64206827467fd4b2b5086c9fb8f",
+      "masterSha256": "db977c2a9155b23650cdfb0211f9f8b6aeb6610591e3655f1a4472d7444d1d3c"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-09.jpg": {
+      "file": "img/holmes/the-valley-of-fear-09-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-09.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter II The Bodymaster. At an 1870s American lodge meeting, a young man stands beside a fireplace and addresses a group of working men seated at tables. Warm modest oil light, worn wood, no more figures than the print.",
+      "sha256": "5631606f08aa162717e416778d8ba391cbb098ddb0f9aebb8edcf6af4f682388",
+      "masterSha256": "68bc3f7212b904795fb6db89bb88efae9be795c8b651767cfe6381705dacc4ad"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-10.jpg": {
+      "file": "img/holmes/the-valley-of-fear-10-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-10.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter III Lodge 341, Vermissa. In an 1870s boarding house, a seated man studies a small object in his hand as another leans over the table. A woman waits in the doorway. Window with distant snowy hills.",
+      "sha256": "3f8740604c39a503d52e48559f24bf32d359d3327c9c2611a5324fbbac5f6421",
+      "masterSha256": "c5b56528c1640a0bc31072e38cf9a2418165d1de4d39983450b203934f139024"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-11.jpg": {
+      "file": "img/holmes/the-valley-of-fear-11-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-11.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter IV The Valley of Fear. A solitary shirtsleeved man at a table in an 1870s mining town room, reading a wide broadsheet with one hand against his forehead. Frosty window, period buildings, no legible print.",
+      "sha256": "023225eeecfb4a9c77321e9874e246c406795fe08632369344e360d8d20b292e",
+      "masterSha256": "147f8c4564928f67dc47069e4eaeaa9fe423cb507657de80eb03f16f33ce360f"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-12.jpg": {
+      "file": "img/holmes/the-valley-of-fear-12-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-12.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter V The Darkest Hour. Men in work clothes talk in a rough 1870s tavern under a single hanging lamp. One reclines in the center while another leans over the table. Muted amber and deep brown, no overt violence.",
+      "sha256": "1430eb0316ea7a1de079b53fa01676b412ff2a816f9099f3d7ca1f40e539ad00",
+      "masterSha256": "77a5710229d473d9b29c695fba25aa586c251d7dc03c7a4c5ce5c51c18322c0a"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-13.jpg": {
+      "file": "img/holmes/the-valley-of-fear-13-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-13.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter VI Danger. Two 1870s men in broad-brimmed hats stand at the corner of a timber building, observing a small group down the muddy mining-town street. Cool sky and a few oil lanterns.",
+      "sha256": "0ce63e25d45d2ba3624b7bf91ca3f3f13589cf98190f82dcf93484523a4c5a73",
+      "masterSha256": "8a2f411f78d017f591b824c3eb1b38996b7c8df6c68016a72924f99f5c929735"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-14.jpg": {
+      "file": "img/holmes/the-valley-of-fear-14-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-14.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Chapter VII The Trapping of Birdy Edwards. Three shadowed men crouch behind low bushes looking toward a lighted wooden house at night in 1870s Pennsylvania. Keep the house and dark silhouettes distinct, cool blue dusk.",
+      "sha256": "4a8c0cce92dc3bffb257b3b675cdc9252a73ddfa3eb83425ed06c1f18f954a0b",
+      "masterSha256": "808870f7893bae4ceece55c31b08adf575f91644741a3980e39b887038b9d6d5"
+    },
+    "/tei/doyle/img/holmes/the-valley-of-fear-15.jpg": {
+      "file": "img/holmes/the-valley-of-fear-15-photo.jpg",
+      "reference": "img/holmes/the-valley-of-fear-15.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Valley of Fear — Epilogue. Back in Victorian Baker Street, Holmes reads a short message gravely while Watson watches. A woman carrying a tray stands quietly in the doorway, subdued natural light.",
+      "sha256": "51b477a5c1f0e5e7f3e5900dac47103cd802e255c2cc7c6b1e87bdba235cafdc",
+      "masterSha256": "1f6c26035aec61f8ea2da92595430a691f652bfa16e1f9cd4c7aeac1a9711c43"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-empty-house.jpg": {
+      "file": "img/holmes/the-adventure-of-the-empty-house-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-empty-house.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Empty House. An unresponsive fully clothed man on the carpet of an elegant, undisturbed Victorian room. Open French window, curtains and pale afternoon light. Distant framing, no visible injury, blood or weapon.",
+      "sha256": "47ffc328d8928b094c797f9f02e6b0ab654b832c5cccaadc1de3dc716ea202e5",
+      "masterSha256": "850d640bd200b44d138d636566d7190685d18ddcb8c07e5fa2ec0bd694eab646"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-norwood-builder.jpg": {
+      "file": "img/holmes/the-adventure-of-the-norwood-builder-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-norwood-builder.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Norwood Builder. Holmes stands beside a breakfast table, one hand on a chair, as Watson looks up. Newspapers, white linen and warm daylight from a tall sash window.",
+      "sha256": "d7f4e9968e320120690f2006013ad33481256556c1fa1e244ddabdbe392674e4",
+      "masterSha256": "4d6ed10ed794eefe81acd8c73f3062cdc84fe7bf80ec23071b4bd3f254099f06"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-dancing-men.jpg": {
+      "file": "img/holmes/the-adventure-of-the-dancing-men-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-dancing-men.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Dancing Men. Holmes sits at a small chemistry bench and holds up a test tube while Watson watches. Clear glass bottles and a fine plume of vapor in Baker Street daylight.",
+      "sha256": "4e513a4242e449eb2aefa8e6ffff29c8da64200e32e850608b83e2c68dc82314",
+      "masterSha256": "c4b5d080026ad3a62f24a0fc1ccc08c0f13ccc845395c85d4d2fc27a62bb612d"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-solitary-cyclist.jpg": {
+      "file": "img/holmes/the-adventure-of-the-solitary-cyclist-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-solitary-cyclist.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Solitary Cyclist. A late-Victorian woman stands with her bicycle in a quiet English lane, while a man in a tweed cape observes from behind a low stone wall. Soft spring daylight.",
+      "sha256": "cd5b6075d9fa0fa3685eab3addd9cc5c4219ab77876014f26d8adad5bd9aba5b",
+      "masterSha256": "550b4f8790acd1e4f634133d59a003de047a09340507ac963cb3f6da1cb4a7ed"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-priory-school.jpg": {
+      "file": "img/holmes/the-adventure-of-the-priory-school-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-priory-school.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Priory School. A man lies fully clothed on the carpet by a Victorian fireplace. Holmes bends to check on him while Watson waits nearby. The moment is quiet and non-graphic.",
+      "sha256": "def6e59893a208c85de0c35f9a92acc42347ff3a9e56e884b42a4c339807d85b",
+      "masterSha256": "e70899244c003d66544f5e9566ad956ee53bac234932a12517b1234b41fb8ab3"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-black-peter.jpg": {
+      "file": "img/holmes/the-adventure-of-black-peter-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-black-peter.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of Black Peter. Holmes reads a paper seated in a Baker Street armchair, smoking a pipe, while Watson listens beside him. Desk in front with papers and brown books. Soft window light.",
+      "sha256": "d082b51f93038552db780f6d67fdf9f26516cd763da60a46af4af9f244839c68",
+      "masterSha256": "a22dcc3d2d575e94499cf8ae013a9f361aec1a23f04ac9c2a62ea737a6f2b148"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-charles-augustus-milverton.jpg": {
+      "file": "img/holmes/the-adventure-of-charles-augustus-milverton-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-charles-augustus-milverton.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of Charles Augustus Milverton. Standing beside a desk lamp, Holmes reads a small visiting card while Watson waits by the mantel. Ink-dark wool, green-shaded light, room in warm shadow.",
+      "sha256": "be72905b8564a6d20c1a00769eef2f4aba3e6879df6cf896af9f105087a5207b",
+      "masterSha256": "038bad6f3dddb935878994e5cc4546d6d18bd8ff43e6093f5caf0f211d659d93"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-six-napoleons.jpg": {
+      "file": "img/holmes/the-adventure-of-the-six-napoleons-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-six-napoleons.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Six Napoleons. Three men in Victorian armchairs at Baker Street. One speaks at left while the others listen. Newspapers on a round table; warm fireplace and deep-brown books.",
+      "sha256": "8203f3d6c61460daefcdf703dff2d8ca45d58525c1aa77bca4eb0161977d00c7",
+      "masterSha256": "131ccb10f9710d6a5273d08de8f868e5f0700f87926b4a52a2dfd5cc086f6411"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-three-students.jpg": {
+      "file": "img/holmes/the-adventure-of-the-three-students-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-three-students.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Three Students. Two Victorian men observe an Oxford-style quadrangle from an arched passage. Three small academic figures cross the far lawn. Gray stone, green leaves and quiet daytime light.",
+      "sha256": "11834dfa1c6abb56d9d74adf33fc0fefb1d85d17317be63f2e4a93a838b53729",
+      "masterSha256": "9b2526e54f4c2d4ea0a6171ed8b33f3d3c1d50399c4d92a15b9583d13aeebb8d"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-golden-pince-nez.jpg": {
+      "file": "img/holmes/the-adventure-of-the-golden-pince-nez-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-golden-pince-nez.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Golden Pince-Nez. Close foreground view of a gold pince-nez with its delicate chain resting beside stacked leather books and papers. Holmes sits out of focus near the lamp behind it. Focus clearly on the spectacles.",
+      "sha256": "3a6e270c3376e36a973e21e3142a209f5d62f7c410412b796def628e7aaaf552",
+      "masterSha256": "eecfd54194c5d67359e7317fdde94e2e8781b16ef3e705c48dcedeafe1e61488"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-missing-three-quarter.jpg": {
+      "file": "img/holmes/the-adventure-of-the-missing-three-quarter-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-missing-three-quarter.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Missing Three-Quarter. Standing Holmes holds a small telegram up in the window light as seated Watson watches. Book-lined Victorian sitting room. No legible writing.",
+      "sha256": "b8101c093cb265590dc933332b2d005b7f21dc8058b77a18b885922a6822f59f",
+      "masterSha256": "fcbc326fe3fe1efc89dda8a9ac6093fe3dda809a9a7556aac56e2911968cbf54"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-abbey-grange.jpg": {
+      "file": "img/holmes/the-adventure-of-the-abbey-grange-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-abbey-grange.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Abbey Grange. A horse-drawn Victorian cab travels on a rain-damp London road at dawn, two passengers visible through the side window, driver ahead. Gas lamps and soft stone colors.",
+      "sha256": "a73398fc854e2aeb2823794b0912a2ae090cea489e6ba1641600d8e88dd3e85c",
+      "masterSha256": "075a8fc5f4bb1560c4a9aba03bdb419c798d9967c547dbc0a5d80a42ffe44488"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-second-stain.jpg": {
+      "file": "img/holmes/the-adventure-of-the-second-stain-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-second-stain.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Second Stain. An older Holmes in a simple felt hat checks a honeycomb frame in a small apiary overlooking the Sussex hills. Natural bees, pale wooden hives and soft green countryside.",
+      "sha256": "1464d4175b9d7edef83f76f971f057087101ccabc34e9da4064c44cd4c21819d",
+      "masterSha256": "94bb2462901f2511a96c3ffd75523a87cb54963902a5a5d0f7bdf7554707aaaa"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-cardboard-box.jpg": {
+      "file": "img/holmes/the-adventure-of-the-cardboard-box-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-cardboard-box.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Cardboard Box. Holmes carefully raises the lid of a small plain cardboard box on the Baker Street table while Watson watches. Box contents are hidden by the angle and lid, window daylight and papers.",
+      "sha256": "6412ac9c0a6bc6a16867fb9f1e7019d23ac7fd2e2de8bdd863531a6db77fffa4",
+      "masterSha256": "0220ebc43bcc10f8e94acc377604820760b9e61940c73f35640a80f4331d2d4b"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-wisteria-lodge.jpg": {
+      "file": "img/holmes/the-adventure-of-wisteria-lodge-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-wisteria-lodge.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of Wisteria Lodge. Holmes stands smoking beside the fire and looks thoughtfully toward Watson, seated with his back partly to the viewer. Quiet Victorian sitting room, late-winter daylight.",
+      "sha256": "beb9b341673b500e388f944036e65137826d924150c998690cea7e3f7bb30fb4",
+      "masterSha256": "bf9cca0836f6346779ee718039ac9d270551fa7c6205f688fa8313394501fd51"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-bruce-partington-plans.jpg": {
+      "file": "img/holmes/the-adventure-of-the-bruce-partington-plans-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-bruce-partington-plans.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Bruce-Partington Plans. Holmes stands at a tall window looking out at dense London fog. Watson sits near the bookshelves and a few papers lie on a table. Muted forest-green and mahogany.",
+      "sha256": "509da45730caac383efe20aee32ec226dd0c11890a0dfa70e16a9d83cba438de",
+      "masterSha256": "c507e5b2247df834779a2d079d15a0b5a54534c918a5ea835fce545918f777c2"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-devils-foot.jpg": {
+      "file": "img/holmes/the-adventure-of-the-devils-foot-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-devils-foot.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Devil's Foot. Holmes sits near the fireplace examining a small object in his palm as Watson listens from a chair at left. Warm firelight against deep gray and green.",
+      "sha256": "b0a6bb48e9ab3fcd247d628648230a9d663f7c5520f8fe6d5a265e420b017ba5",
+      "masterSha256": "c6c80de3d411f45b778e5ef8a813741a146ae09410551cedd04512d596b582d4"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-red-circle.jpg": {
+      "file": "img/holmes/the-adventure-of-the-red-circle-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-red-circle.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Red Circle. A landlady in a muted dark dress stands near the table and speaks with Holmes, who pauses over a spread of papers. Early twentieth-century Baker Street, no legible print.",
+      "sha256": "24ab806ced1fcfabfbcd252e5183ef9fd6cc974b576101fd7c6f24d24d567ec4",
+      "masterSha256": "af8d05cbe10d3894b2dac69e69b2bbf879308fa03433e0128b1fc2b840d83715"
+    },
+    "/tei/doyle/img/holmes/the-disappearance-of-lady-frances-carfax.jpg": {
+      "file": "img/holmes/the-disappearance-of-lady-frances-carfax-photo.jpg",
+      "reference": "img/holmes/the-disappearance-of-lady-frances-carfax.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Disappearance of Lady Frances Carfax. Watson reclines with one boot on a footstool while Holmes bends to examine the sole. Quiet domestic late-Victorian room, window light and natural anatomy.",
+      "sha256": "3ba459023943570a06cf348a3a5d0965916262cf9531e57103b000b2e0b6c552",
+      "masterSha256": "ede6ada2af1ef8cc7b9d221e84509098286a780efab8e174aef34eb9727d5975"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-dying-detective.jpg": {
+      "file": "img/holmes/the-adventure-of-the-dying-detective-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-dying-detective.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Dying Detective. An ill but conscious Holmes reclines under a dark blanket near the window while Mrs. Hudson waits in the doorway. Tonic bottles, deep olive fabric and cool London light.",
+      "sha256": "76afbc954f9224e6ed983773f5c42ee52aaa79ea365c299f98318f35b86c7b06",
+      "masterSha256": "a688807e90235f3e7d7986e18b944fb955dc893c2337716f26f917a9702b5564"
+    },
+    "/tei/doyle/img/holmes/his-last-bow.jpg": {
+      "file": "img/holmes/his-last-bow-photo.jpg",
+      "reference": "img/holmes/his-last-bow.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: His Last Bow. Two Edwardian men seen from behind stand at a stone parapet overlooking the English Channel at night. A house and rocky cliff at left, moonlit sea at right. Quiet blue with warm window light.",
+      "sha256": "452ccb2caea7190e15a13caf096d393f327778b74d8f8fd66c68af56dbadefb5",
+      "masterSha256": "d4ff953ce6c40542909163a8232a11b9af1e1f180e89c0ea0989459509d56324"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-mazarin-stone.jpg": {
+      "file": "img/holmes/the-adventure-of-the-mazarin-stone-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-mazarin-stone.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Mazarin Stone. Watson sits in a cluttered Baker Street room while the young page Billy waits in the open doorway holding papers. Violin case, glass laboratoryware and antique books in muted color.",
+      "sha256": "13c514f66fc282fad642a3719dd157e3381e9d19dcaa013790f500eb5e5d1626",
+      "masterSha256": "08af5af19f068685b619e48088aa585b2047497111fb353fa774e204fc68d147"
+    },
+    "/tei/doyle/img/holmes/the-problem-of-thor-bridge.jpg": {
+      "file": "img/holmes/the-problem-of-thor-bridge-photo.jpg",
+      "reference": "img/holmes/the-problem-of-thor-bridge.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Problem of Thor Bridge. An open tin dispatch box containing carefully bundled old papers on Watson's desk. A small figure is out of focus in the hall behind. Focus on patinated metal and ivory paper.",
+      "sha256": "8cc13f77d5648eb62c34b9a504dbc6985afc49bb11ed2d1fb0aafe8d8aaa8931",
+      "masterSha256": "547c6aab80114473a135da0d554ba8371d36d77417382b15fca0127ba0114670"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-creeping-man.jpg": {
+      "file": "img/holmes/the-adventure-of-the-creeping-man-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-creeping-man.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Creeping Man. Holmes sits reading a note in a Baker Street chair while Watson leans toward him from the window side. Papers and a box in the foreground, daylight and warm dark wood.",
+      "sha256": "95368a6adeb262d47e5dd7ab7a63ce9f77b488176be413cc6dcc409a3c9986dc",
+      "masterSha256": "2584fdb8827e971253af1a0af6ae1ff81080425975a2d431b6507b1f8d9b2576"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-sussex-vampire.jpg": {
+      "file": "img/holmes/the-adventure-of-the-sussex-vampire-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-sussex-vampire.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Sussex Vampire. Holmes hands Watson a small letter across two chairs at Baker Street. Watson studies a second page. Cool window light, faded burgundy and mahogany. No visible violence or readable script.",
+      "sha256": "daa52a7e63abba5cbffcca9c5c6057c7c31524fb8c0e78c7233d9cc6568bae76",
+      "masterSha256": "d45be0e04c9459844fd061e820f5ae03023790e6a152bd3c80071af0cb66bb71"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-three-garridebs.jpg": {
+      "file": "img/holmes/the-adventure-of-the-three-garridebs-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-three-garridebs.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Three Garridebs. Holmes stands beside the mantel reading a long letter while Watson looks up from his chair at left. Blue-white window light, dark cloth, ivory paper.",
+      "sha256": "4b711c0820924feb6f2c6de8d45f918535d3876e95f504cf49488a7aac50792b",
+      "masterSha256": "a8a558aea41e7c4e478c8464ea42279fecb999530536eb48a2f0575380429b25"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-illustrious-client.jpg": {
+      "file": "img/holmes/the-adventure-of-the-illustrious-client-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-illustrious-client.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Illustrious Client. Two fully covered adult men talk from adjacent iron-framed hospital beds in a period ward. Soft daylight through tall stone arches, no visible injuries. Two primary figures.",
+      "sha256": "cfed5b57885bcc9031d4a25af81d2274c71818368bc695c1ec6e08540e3644d6",
+      "masterSha256": "b6ced82a4e2af6e152e705f2ea92448e878b61cdb2396fe41ead2b8d8692df12"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-three-gables.jpg": {
+      "file": "img/holmes/the-adventure-of-the-three-gables-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-three-gables.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Three Gables. A tall visitor in a light checked suit steps in through the Baker Street door with his hat in hand, while Holmes and Watson watch from their chairs. Calm pose, gently backlit.",
+      "sha256": "74bb74004e06f9789ec3c5d6b378acbb9bbc22e7eab33d4d66158191cc4e5219",
+      "masterSha256": "254ad5b929db8dd9f1c7c27d846fb1945aea6dafdf9441bf22f1630b29fc91c0"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-blanched-soldier.jpg": {
+      "file": "img/holmes/the-adventure-of-the-blanched-soldier-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-blanched-soldier.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Blanched Soldier. Holmes writes at a Baker Street desk with Watson seated in the background. Paper, pen, ink and dark wood, cool daylight from a tall window. No legible words.",
+      "sha256": "a5cbcc30f88cfa8b9214efde9b3f8962046ff405cdcbd9bc3e0de11740a6efcb",
+      "masterSha256": "c4991d648f3c4c2b2c9d498cf1ae27b703f93bc8d39e3c7912e85a0a1b27212f"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-lions-mane.jpg": {
+      "file": "img/holmes/the-adventure-of-the-lions-mane-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-lions-mane.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Lion's Mane. Two men on a rocky Sussex shore peer into a tide pool. Holmes points with his cane toward a translucent lion’s mane jellyfish floating just below the surface. Chalk cliffs and natural marine daylight.",
+      "sha256": "8a6a9e05567d128cb9de11120643c68d50c5c493775ba29894996a7851edf243",
+      "masterSha256": "39c12b9763383143b7aa1c5b95fd5ce939d9c636303aabdcc61f22a68682f849"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-retired-colourman.jpg": {
+      "file": "img/holmes/the-adventure-of-the-retired-colourman-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-retired-colourman.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Retired Colourman. Holmes and Watson sit at Baker Street watching an older visitor leave by the open door. The visitor wears a worn overcoat and carries his hat. Late afternoon light.",
+      "sha256": "a024dbcc923caf280f2032e4f841b07b0eeedf98a50625eab84c8d04bff6cdb2",
+      "masterSha256": "3054d71ea2b00bb7ae6c27e0d66d05d6dc408b6e90514e1669d1702a463a3a47"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-the-veiled-lodger.jpg": {
+      "file": "img/holmes/the-adventure-of-the-veiled-lodger-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-the-veiled-lodger.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of the Veiled Lodger. Holmes stands reading a letter beside a bookcase, Watson seated at left. An open case of papers on the table; gray London morning light through the window. No readable lettering.",
+      "sha256": "08e87dce49e4e8b562a47504aa6e70d1e9c7d2f0c662dc5ca32a3b8e94417bcb",
+      "masterSha256": "f5264df176eca0726e2db7cc48c7a20470978cb60f95b78a7e0babe1b5a9063a"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-shoscombe-old-place.jpg": {
+      "file": "img/holmes/the-adventure-of-shoscombe-old-place-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-shoscombe-old-place.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Adventure of Shoscombe Old Place. Holmes examines a small object through a period brass microscope while Watson leans in from the right. Glass vials, folded fabric, and dark table beside a window.",
+      "sha256": "22a768e188c0a73e4d5eb2c94a396b13b4d4b894cfbde80b3a8aacfc8a5d70be",
+      "masterSha256": "045af1e08e0b9ef7df0ac02fd8f518ba84ddfb54b91fb96091ee3ba0e332236b"
+    },
+    "/tei/doyle/img/holmes/the-field-bazaar.jpg": {
+      "file": "img/holmes/the-field-bazaar-photo.jpg",
+      "reference": "img/holmes/the-field-bazaar.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Field Bazaar. Holmes and Watson across the Baker Street breakfast table. Watson holds an open newspaper, and Holmes holds a small piece of breakfast toast while speaking. Silver tea service, gray London window light.",
+      "sha256": "0834375492d7ee4b050ec45333df5566bb502e77aa5fc90f107248590e567fdd",
+      "masterSha256": "bc930ecf341191fb85b7c2bacc0f3d65093a9ac59c06a838f551fe1dae359a51"
+    },
+    "/tei/doyle/img/holmes/the-story-of-the-lost-special.jpg": {
+      "file": "img/holmes/the-story-of-the-lost-special-photo.jpg",
+      "reference": "img/holmes/the-story-of-the-lost-special.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: The Story of the Lost Special. Victorian railway junction in a Lancashire coal district. Rails fork toward a dark mine entrance at right, colliery buildings above and faint steam in the distance. Natural grass and gray sky.",
+      "sha256": "f681023a70aba0c7a55e02bd639b19ecd103b03405db497896be856684d060b3",
+      "masterSha256": "90500a739ba0ab8d761f9663a37631079ca3435aa266b07a35c0a19f48cf57eb"
+    },
+    "/tei/doyle/img/holmes/how-watson-learned-the-trick.jpg": {
+      "file": "img/holmes/how-watson-learned-the-trick-photo.jpg",
+      "reference": "img/holmes/how-watson-learned-the-trick.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Make a new full-color photographic counterpart for the Bookstacks reader sidebar. The supplied Bookstacks engraving is the primary reference for composition, subject count, setting, gesture and framing. Reconstruct this specific scene as a restrained live-action period-drama still, with historically plausible clothes, props and architecture, believable anatomy, and realistic textures. Landscape 3:2, distinct muted colors, light suited to the reference, readable at 640 pixels wide. No hatching, sepia, monochrome, captions, legible lettering, border, watermark, or modern objects. Source scene: How Watson Learned the Trick. Watson on the left leans toward Holmes over breakfast. Holmes is holding an open newspaper and a pipe. White linen, tea service, fireplace and a sunny Baker Street window.",
+      "sha256": "fe8043047d28a7e3d5bbdd38973257c6871d85c35346c84cbcd90904482e7c97",
+      "masterSha256": "6466f04c1499b8fcd441dc43ebe2eff32c7352b30012de6784a338fb25577d59"
     }
   }
 }
