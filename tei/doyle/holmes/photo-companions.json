@@ -85,6 +85,14 @@
       "prompt": "Generate a new full-color photographic counterpart to the attached Bookstacks engraving. The engraving is a scene and composition reference only. The output is a naturalistic live-action period-drama still with real people, plausible late-Victorian clothing, natural lighting, muted but distinct colors and realistic fabrics and materials. Landscape 3:2, composed for a small reading sidebar. No drawn lines, hatching, sepia, monochrome, captions, lettering, frame, watermark, or modern objects. Holmes sits in an armchair at right, reading an unfolded letter while Watson leans toward him from a chair at left. Late-Victorian Baker Street sitting room with scattered papers, coal fire and a slate-gray winter window. Brown tweed, dark green upholstery, gently contrasted lamplight. No legible writing.",
       "sha256": "fdc0d3dbfe07166a1b01c0c710862cfac9f8f36163e847b4d3f5eb956d600211",
       "masterSha256": "c263c39fd43c31d98358f7f1fc06658b9c911a04d38a3eb4af7aea01c3e674c6"
+    },
+    "/tei/doyle/img/holmes/the-adventure-of-silver-blaze.jpg": {
+      "file": "img/holmes/the-adventure-of-silver-blaze-photo.jpg",
+      "reference": "img/holmes/the-adventure-of-silver-blaze.preview.jpg",
+      "date": "2026-11-08",
+      "prompt": "Use case: illustration-story. Asset: full-color photographic counterpart for the Bookstacks reader sidebar for Arthur Conan Doyle's The Adventure of Silver Blaze. Input image: existing Bookstacks engraving, use as the scene and composition reference. Re-create its composition as a naturalistic live-action still from a restrained late-Victorian period drama in the early 1890s. On the left, one anatomically convincing lean dark bay English thoroughbred with a distinct irregular white blaze, full body and all four legs visible among short heather. At lower right, Sherlock Holmes in a muted brown-gray tweed Inverness cape and deerstalker crouches and uses the tip of a slim wooden walking stick to indicate a hoof mark in a damp track. He looks down at the mark. In the middle distance a low weathered gray stone stable with a slate roof and a timber gate, Dartmoor's open rolling moor and a rocky granite tor behind it. Cool diffused daylight after rain, muted but visibly distinct natural colors, russet bay coat, olive grasses and heather, honest texture in wool, coat, mud and stone. Wide 3:2, medium-wide eye-level framing, horse and Holmes form clear readable silhouettes at sidebar size. Preserve space around the horse's ears and hooves and Holmes's hand. Understated period photography, no sepia, monochrome, illustration lines, vignetting, lettering, borders, watermarks, modern objects or additional foreground figures.",
+      "sha256": "dc28e8aa897e6fde4a1d6a603b70b77aea4312e90e0ebfefb4b2f5404031cd83",
+      "masterSha256": "d10cf5432d8457728e49e45d99b2dd7a987eb290e65ae3d8ffaa64fb01320594"
     }
   }
 }
