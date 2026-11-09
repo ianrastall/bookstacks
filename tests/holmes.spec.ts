@@ -12,7 +12,7 @@ test('Holmes catalogue replacements retain legacy readers and a wider illustrate
   await page.getByRole('link', { name: 'The Complete Sherlock Holmes', exact: true }).click();
   await page.locator('.edition-contents a[href*="part-stud/"]').first().click();
   await expect(page.locator('.reader-content')).toContainText('Doctor of Medicine');
-  const image = page.locator('.chapter-sidebar .reader-illustration img');
+  const image = page.locator('.chapter-sidebar .tei-engraving img');
   await expect.poll(() => image.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBeGreaterThan(0);
   const sidebar = await page.locator('.chapter-sidebar').boundingBox();
   const article = await page.locator('.reader-content').boundingBox();
@@ -51,6 +51,7 @@ test('both Holmes collections share the color counterpart for the same story', a
   await expect(sketch).toBeHidden();
   await expect(photo).toBeVisible();
   await expect(photo).toHaveAttribute('src', '/tei/doyle/img/holmes/the-adventure-of-silver-blaze-photo.jpg');
+  await expect(photo).toHaveAttribute('alt', /AI-generated color photo illustration\.$/);
   await photo.scrollIntoViewIfNeeded();
   await expect.poll(() => photo.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBe(640);
 });

@@ -215,7 +215,7 @@ const description = page.kind === 'author'
           )}
           {page.unit.illustration?.photoSrc && (
             <figure class="reader-illustration reader-photo" data-online-only lang={page.edition.code} dir={editionDir} translate="no">
-              <img class="tei-graphic" src={page.unit.illustration.photoSrc} alt={page.unit.illustration.description} width="640" height="427" loading="lazy" decoding="async" />
+              <img class="tei-graphic" src={page.unit.illustration.photoSrc} alt={page.unit.illustration.description.replace('AI-generated nineteenth-century engraving-style plate.', 'AI-generated color photo illustration.')} width="640" height="427" loading="lazy" decoding="async" />
             </figure>
           )}
         </aside>
