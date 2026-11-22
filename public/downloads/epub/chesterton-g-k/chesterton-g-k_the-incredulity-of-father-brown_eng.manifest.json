@@ -1,0 +1,59 @@
+{
+  "source_sha256": "927a01f6a43b6b08d240e5b9d802852a3e655c82e1712c2dba86b19fd7ecdf99",
+  "href": "/downloads/epub/chesterton-g-k/chesterton-g-k_the-incredulity-of-father-brown_eng.epub",
+  "revision": "b05e5c45a44833ede415d1512b985a368739cb7473c5e77c7d6a1356c7aff600",
+  "language": "en",
+  "sections": [
+    {
+      "path": "dedication-01",
+      "href": "chapter-0001.xhtml",
+      "title": "Dedication"
+    },
+    {
+      "path": "preface-01",
+      "href": "chapter-0002.xhtml",
+      "title": "Preface"
+    },
+    {
+      "path": "story-1",
+      "href": "chapter-0003.xhtml",
+      "title": "The Resurrection of Father Brown"
+    },
+    {
+      "path": "story-2",
+      "href": "chapter-0004.xhtml",
+      "title": "The Arrow of Heaven"
+    },
+    {
+      "path": "story-3",
+      "href": "chapter-0005.xhtml",
+      "title": "The Oracle of the Dog"
+    },
+    {
+      "path": "story-4",
+      "href": "chapter-0006.xhtml",
+      "title": "The Miracle of Moon Crescent"
+    },
+    {
+      "path": "story-5",
+      "href": "chapter-0007.xhtml",
+      "title": "The Curse of the Golden Cross"
+    },
+    {
+      "path": "story-6",
+      "href": "chapter-0008.xhtml",
+      "title": "The Dagger with Wings"
+    },
+    {
+      "path": "story-7",
+      "href": "chapter-0009.xhtml",
+      "title": "The Doom of the Darnaways"
+    },
+    {
+      "path": "story-8",
+      "href": "chapter-0010.xhtml",
+      "title": "The Ghost of Gideon Wise"
+    }
+  ],
+  "bytes": 1859366
+}

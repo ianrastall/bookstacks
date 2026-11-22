@@ -661,5 +661,3162 @@
       }
     ],
     "bytes": 22895010
+  },
+  "sayers_clouds-of-witness_eng": {
+    "source_sha256": "0905bd790bf49afb3834fc790ed96233d0add9bf089fb12a42031046906cdc6b",
+    "href": "/downloads/epub/sayers/sayers_clouds-of-witness_eng.epub",
+    "revision": "a675df7e47a128629bcfd86a4c4a1fb8b5a42b680e8051c402ddfbba4c3d60d7",
+    "language": "en",
+    "sections": [
+      {
+        "path": "title-page-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Clouds of Witness"
+      },
+      {
+        "path": "prologue-01",
+        "href": "chapter-0002.xhtml",
+        "title": "Prologue"
+      },
+      {
+        "path": "chapter-1",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter I. Of His Malice Aforethought"
+      },
+      {
+        "path": "chapter-2",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter II. The Green-Eyed Cat"
+      },
+      {
+        "path": "chapter-3",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter III. Mudstains and Bloodstains"
+      },
+      {
+        "path": "chapter-4",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter IV. —And His Daughter Much-Afraid"
+      },
+      {
+        "path": "chapter-5",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter V. The Rue St. Honoré and the Rue De La Paix"
+      },
+      {
+        "path": "chapter-6",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VI. Mary Quite Contrary"
+      },
+      {
+        "path": "chapter-7",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VII. The Club and the Bullet"
+      },
+      {
+        "path": "chapter-8",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter VIII. Mr. Parker Takes Notes"
+      },
+      {
+        "path": "chapter-9",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter IX. Goyles"
+      },
+      {
+        "path": "chapter-10",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter X. Nothing Abides at the Noon"
+      },
+      {
+        "path": "chapter-11",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XI. Meribah"
+      },
+      {
+        "path": "chapter-12",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XII. The Alibi"
+      },
+      {
+        "path": "chapter-13",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XIII. Manon"
+      },
+      {
+        "path": "chapter-14",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XIV. The Edge of the Axe Towards Him"
+      },
+      {
+        "path": "chapter-15",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XV. Bar Falling"
+      },
+      {
+        "path": "chapter-16",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter XVI. The Second String"
+      },
+      {
+        "path": "chapter-17",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter XVII. The Eloquent Dead"
+      },
+      {
+        "path": "chapter-18",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter XVIII. The Speech for the Defense"
+      },
+      {
+        "path": "chapter-19",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter XIX. Who Goes Home?"
+      }
+    ],
+    "bytes": 2131174
+  },
+  "sayers_lord-peter-views-the-body_eng": {
+    "source_sha256": "5729e5e51b5fb2dc6958c7da2bd7e0fa3e56f3ae425a5bcd1cb6c85c03552036",
+    "href": "/downloads/epub/sayers/sayers_lord-peter-views-the-body_eng.epub",
+    "revision": "21b9a157a3b27dd7368fc214bebf7214ffb56b7dc0996be46fa6c1ffcb6a5a43",
+    "language": "en",
+    "sections": [
+      {
+        "path": "story-1",
+        "href": "chapter-0001.xhtml",
+        "title": "The Abominable History of the Man with Copper Fingers"
+      },
+      {
+        "path": "story-2",
+        "href": "chapter-0002.xhtml",
+        "title": "The Entertaining Episode of the Article in Question"
+      },
+      {
+        "path": "story-3",
+        "href": "chapter-0003.xhtml",
+        "title": "The Fascinating Problem of Uncle Meleager’s Will"
+      },
+      {
+        "path": "story-4",
+        "href": "chapter-0004.xhtml",
+        "title": "The Fantastic Horror of the Cat in the Bag"
+      },
+      {
+        "path": "story-5",
+        "href": "chapter-0005.xhtml",
+        "title": "The Unprincipled Affair of the Practical Joker"
+      },
+      {
+        "path": "story-6",
+        "href": "chapter-0006.xhtml",
+        "title": "The Undignified Melodrama of the Bone of Contention"
+      },
+      {
+        "path": "story-7",
+        "href": "chapter-0007.xhtml",
+        "title": "The Vindictive Story of the Footsteps That Ran"
+      },
+      {
+        "path": "story-8",
+        "href": "chapter-0008.xhtml",
+        "title": "The Bibulous Business of a Matter of Taste"
+      },
+      {
+        "path": "story-9",
+        "href": "chapter-0009.xhtml",
+        "title": "The Learned Adventure of the Dragon’s Head"
+      },
+      {
+        "path": "story-10",
+        "href": "chapter-0010.xhtml",
+        "title": "The Piscatorial Farce of the Stolen Stomach"
+      },
+      {
+        "path": "story-11",
+        "href": "chapter-0011.xhtml",
+        "title": "The Unsolved Puzzle of the Man with No Face"
+      },
+      {
+        "path": "story-12",
+        "href": "chapter-0012.xhtml",
+        "title": "The Adventurous Exploit of the Cave of Ali Baba"
+      },
+      {
+        "path": "afterword-01",
+        "href": "chapter-0013.xhtml",
+        "title": "Solution to the Crossword in Uncle Mealager’s Will"
+      }
+    ],
+    "bytes": 2916228
+  },
+  "sayers_strong-poison_eng": {
+    "source_sha256": "be1df88c6c595a7d9ff01a7341249d3036bb3aeaec857c597c2004749014053e",
+    "href": "/downloads/epub/sayers/sayers_strong-poison_eng.epub",
+    "revision": "d62c8dd29568b9d4026930ef3340e8ec964c41b446ebe4913851999d72dcc776",
+    "language": "en",
+    "sections": [
+      {
+        "path": "chapter-1",
+        "href": "chapter-0001.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "chapter-2",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "chapter-3",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "chapter-4",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "chapter-5",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "chapter-6",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "chapter-7",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "chapter-8",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "chapter-9",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "chapter-10",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "chapter-11",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter XI"
+      },
+      {
+        "path": "chapter-12",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter XII"
+      },
+      {
+        "path": "chapter-13",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XIII"
+      },
+      {
+        "path": "chapter-14",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XIV"
+      },
+      {
+        "path": "chapter-15",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XV"
+      },
+      {
+        "path": "chapter-16",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XVI"
+      },
+      {
+        "path": "chapter-17",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XVII"
+      },
+      {
+        "path": "chapter-18",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter XVIII"
+      },
+      {
+        "path": "chapter-19",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter XIX"
+      },
+      {
+        "path": "chapter-20",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter XX"
+      },
+      {
+        "path": "chapter-21",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter XXI"
+      },
+      {
+        "path": "chapter-22",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter XXII"
+      },
+      {
+        "path": "chapter-23",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter XXIII"
+      }
+    ],
+    "bytes": 1902377
+  },
+  "sayers_the-unpleasantness-at-the-bellona-club_eng": {
+    "source_sha256": "f2f3934c2f7c223f049298d7d23ecdc0f1c9f61fb89ba4696334066d39095270",
+    "href": "/downloads/epub/sayers/sayers_the-unpleasantness-at-the-bellona-club_eng.epub",
+    "revision": "f6b1bc7f8fa2d690ff590ed0dd0e3d362d5baabcd40a34350c2edbe8c72270c4",
+    "language": "en",
+    "sections": [
+      {
+        "path": "prologue-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Prologue"
+      },
+      {
+        "path": "chapter-1",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter I. Old Mossy-Face"
+      },
+      {
+        "path": "chapter-2",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter II. The Queen Is Out"
+      },
+      {
+        "path": "chapter-3",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter III. Hearts Count More Than Diamonds"
+      },
+      {
+        "path": "chapter-4",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter IV. Lord Peter Leads a Club"
+      },
+      {
+        "path": "chapter-5",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter V. —And Finds the Club Suit Blocked"
+      },
+      {
+        "path": "chapter-6",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter VI. A Card of Reentry"
+      },
+      {
+        "path": "chapter-7",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VII. The Curse of Scotland"
+      },
+      {
+        "path": "chapter-8",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VIII. Lord Peter Leads Through Strength"
+      },
+      {
+        "path": "chapter-9",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter IX. Knave High"
+      },
+      {
+        "path": "chapter-10",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter X. Lord Peter Forces a Card"
+      },
+      {
+        "path": "chapter-11",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter XI. Lord Peter Clears Trumps"
+      },
+      {
+        "path": "chapter-12",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XII. Lord Peter Turns a Trick"
+      },
+      {
+        "path": "chapter-13",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XIII. Spades Are Trumps"
+      },
+      {
+        "path": "chapter-14",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XIV. Grand Slam in Spades"
+      },
+      {
+        "path": "chapter-15",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XV. Shuffle the Cards and Deal Again"
+      },
+      {
+        "path": "chapter-16",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XVI. Quadrille"
+      },
+      {
+        "path": "chapter-17",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter XVII. Parker Plays a Hand"
+      },
+      {
+        "path": "chapter-18",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter XVIII. Picture-Cards"
+      },
+      {
+        "path": "chapter-19",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter XIX. Lord Peter Plays Dummy"
+      },
+      {
+        "path": "chapter-20",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter XX. Ann Dorland Goes Misère"
+      },
+      {
+        "path": "chapter-21",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter XXI. Lord Peter Calls a Bluff"
+      },
+      {
+        "path": "chapter-22",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter XXII. The Cards on the Table"
+      },
+      {
+        "path": "chapter-23",
+        "href": "chapter-0024.xhtml",
+        "title": "Chapter XXIII. Postmortem"
+      }
+    ],
+    "bytes": 1890191
+  },
+  "sayers_unnatural-death_eng": {
+    "source_sha256": "3576def6a358773b23f95f5ca6fcf0363933ad679ae088c0e936095db1d6c970",
+    "href": "/downloads/epub/sayers/sayers_unnatural-death_eng.epub",
+    "revision": "889dd2a712f7a4690e3d5257af5fd39f7a4e64f2b255601d4e9ef2d0f58c55e4",
+    "language": "en",
+    "sections": [
+      {
+        "path": "part-1/chapter-1",
+        "href": "chapter-0001.xhtml",
+        "title": "Chapter I. Overheard"
+      },
+      {
+        "path": "part-1/chapter-2",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter II. Miching Mallecho"
+      },
+      {
+        "path": "part-1/chapter-3",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter III. A Use for Spinsters"
+      },
+      {
+        "path": "part-1/chapter-4",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter IV. A Bit Mental"
+      },
+      {
+        "path": "part-1/chapter-5",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter V. Gossip"
+      },
+      {
+        "path": "part-1/chapter-6",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter VI. Found Dead"
+      },
+      {
+        "path": "part-1/chapter-7",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter VII. Ham and Brandy"
+      },
+      {
+        "path": "part-1/chapter-8",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VIII. Concerning Crime"
+      },
+      {
+        "path": "part-1/chapter-9",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter IX. The Will"
+      },
+      {
+        "path": "part-2/chapter-10",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter X. The Will Again"
+      },
+      {
+        "path": "part-2/chapter-11",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter XI. Crossroads"
+      },
+      {
+        "path": "part-2/chapter-12",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter XII. A Tale of Two Spinsters"
+      },
+      {
+        "path": "part-2/chapter-13",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XIII. Hallelujah"
+      },
+      {
+        "path": "part-2/chapter-14",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XIV. Sharp Quillets of the Law"
+      },
+      {
+        "path": "part-2/chapter-15",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XV. Temptation of St. Peter"
+      },
+      {
+        "path": "part-2/chapter-16",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XVI. A Cast-Iron Alibi"
+      },
+      {
+        "path": "part-2/chapter-17",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XVII. The Country Lawyer’s Story"
+      },
+      {
+        "path": "part-2/chapter-18",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter XVIII. The London Lawyer’s Story"
+      },
+      {
+        "path": "part-3/chapter-19",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter XIX. Gone Away"
+      },
+      {
+        "path": "part-3/chapter-20",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter XX. Murder"
+      },
+      {
+        "path": "part-3/chapter-21",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter XXI. By What Means?"
+      },
+      {
+        "path": "part-3/chapter-22",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter XXII. A Case of Conscience"
+      },
+      {
+        "path": "part-3/chapter-23",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter XXIII. —And Smote Him, Thus"
+      },
+      {
+        "path": "appendix-01",
+        "href": "chapter-0024.xhtml",
+        "title": "Genealogical Table"
+      }
+    ],
+    "bytes": 2195012
+  },
+  "sayers_whose-body_eng": {
+    "source_sha256": "b8c1f2d191d3fe4cfe57819ce8b9df115a3d38af445481af6e4b6f04aef5f632",
+    "href": "/downloads/epub/sayers/sayers_whose-body_eng.epub",
+    "revision": "b97cb9ccd96a6fa0421e4d96dc20630dd759bd8be562ef332ea86fc97ef129b4",
+    "language": "en",
+    "sections": [
+      {
+        "path": "dedication-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Dedication"
+      },
+      {
+        "path": "chapter-1",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "chapter-2",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "chapter-3",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "chapter-4",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "chapter-5",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "chapter-6",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "chapter-7",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "chapter-8",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "chapter-9",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "chapter-10",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "chapter-11",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter XI"
+      },
+      {
+        "path": "chapter-12",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XII"
+      },
+      {
+        "path": "chapter-13",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XIII"
+      }
+    ],
+    "bytes": 1848996
+  },
+  "chesterton-g-k_the-incredulity-of-father-brown_eng": {
+    "source_sha256": "927a01f6a43b6b08d240e5b9d802852a3e655c82e1712c2dba86b19fd7ecdf99",
+    "href": "/downloads/epub/chesterton-g-k/chesterton-g-k_the-incredulity-of-father-brown_eng.epub",
+    "revision": "b05e5c45a44833ede415d1512b985a368739cb7473c5e77c7d6a1356c7aff600",
+    "language": "en",
+    "sections": [
+      {
+        "path": "dedication-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Dedication"
+      },
+      {
+        "path": "preface-01",
+        "href": "chapter-0002.xhtml",
+        "title": "Preface"
+      },
+      {
+        "path": "story-1",
+        "href": "chapter-0003.xhtml",
+        "title": "The Resurrection of Father Brown"
+      },
+      {
+        "path": "story-2",
+        "href": "chapter-0004.xhtml",
+        "title": "The Arrow of Heaven"
+      },
+      {
+        "path": "story-3",
+        "href": "chapter-0005.xhtml",
+        "title": "The Oracle of the Dog"
+      },
+      {
+        "path": "story-4",
+        "href": "chapter-0006.xhtml",
+        "title": "The Miracle of Moon Crescent"
+      },
+      {
+        "path": "story-5",
+        "href": "chapter-0007.xhtml",
+        "title": "The Curse of the Golden Cross"
+      },
+      {
+        "path": "story-6",
+        "href": "chapter-0008.xhtml",
+        "title": "The Dagger with Wings"
+      },
+      {
+        "path": "story-7",
+        "href": "chapter-0009.xhtml",
+        "title": "The Doom of the Darnaways"
+      },
+      {
+        "path": "story-8",
+        "href": "chapter-0010.xhtml",
+        "title": "The Ghost of Gideon Wise"
+      }
+    ],
+    "bytes": 1859366
+  },
+  "chesterton-g-k_the-innocence-of-father-brown_eng": {
+    "source_sha256": "50fa69d37e7c5c4362df90c8c26ec825c14021409b415c80dc7a1279e52a2507",
+    "href": "/downloads/epub/chesterton-g-k/chesterton-g-k_the-innocence-of-father-brown_eng.epub",
+    "revision": "31f6b66014286dc1f7d4978bef6130aba12a92499127f513a802c031600b9ad0",
+    "language": "en",
+    "sections": [
+      {
+        "path": "dedication-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Dedication"
+      },
+      {
+        "path": "story-1",
+        "href": "chapter-0002.xhtml",
+        "title": "The Blue Cross"
+      },
+      {
+        "path": "story-2",
+        "href": "chapter-0003.xhtml",
+        "title": "The Secret Garden"
+      },
+      {
+        "path": "story-3",
+        "href": "chapter-0004.xhtml",
+        "title": "The Queer Feet"
+      },
+      {
+        "path": "story-4",
+        "href": "chapter-0005.xhtml",
+        "title": "The Flying Stars"
+      },
+      {
+        "path": "story-5",
+        "href": "chapter-0006.xhtml",
+        "title": "The Invisible Man"
+      },
+      {
+        "path": "story-6",
+        "href": "chapter-0007.xhtml",
+        "title": "The Honour of Israel Gow"
+      },
+      {
+        "path": "story-7",
+        "href": "chapter-0008.xhtml",
+        "title": "The Wrong Shape"
+      },
+      {
+        "path": "story-8",
+        "href": "chapter-0009.xhtml",
+        "title": "The Sins of Prince Saradine"
+      },
+      {
+        "path": "story-9",
+        "href": "chapter-0010.xhtml",
+        "title": "The Hammer of God"
+      },
+      {
+        "path": "story-10",
+        "href": "chapter-0011.xhtml",
+        "title": "The Eye of Apollo"
+      },
+      {
+        "path": "story-11",
+        "href": "chapter-0012.xhtml",
+        "title": "The Sign of the Broken Sword"
+      },
+      {
+        "path": "story-12",
+        "href": "chapter-0013.xhtml",
+        "title": "The Three Tools of Death"
+      }
+    ],
+    "bytes": 1887569
+  },
+  "chesterton-g-k_the-secret-of-father-brown_eng": {
+    "source_sha256": "5ccf3840bb40f118bcec1961b1c22a751f4f071518c000a4676a5b330a9dd5ef",
+    "href": "/downloads/epub/chesterton-g-k/chesterton-g-k_the-secret-of-father-brown_eng.epub",
+    "revision": "ed3d79e693bdb2ee28c9331bc370095774ce943b7a4fcc18e8660de677368a08",
+    "language": "en",
+    "sections": [
+      {
+        "path": "dedication-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Dedication"
+      },
+      {
+        "path": "story-1",
+        "href": "chapter-0002.xhtml",
+        "title": "The Secret of Father Brown"
+      },
+      {
+        "path": "story-2",
+        "href": "chapter-0003.xhtml",
+        "title": "The Mirror of the Magistrate"
+      },
+      {
+        "path": "story-3",
+        "href": "chapter-0004.xhtml",
+        "title": "The Man with Two Beards"
+      },
+      {
+        "path": "story-4",
+        "href": "chapter-0005.xhtml",
+        "title": "The Song of the Flying Fish"
+      },
+      {
+        "path": "story-5",
+        "href": "chapter-0006.xhtml",
+        "title": "The Actor and the Alibi"
+      },
+      {
+        "path": "story-6",
+        "href": "chapter-0007.xhtml",
+        "title": "The Vanishing of Vaudrey"
+      },
+      {
+        "path": "story-7",
+        "href": "chapter-0008.xhtml",
+        "title": "The Worst Crime in the World"
+      },
+      {
+        "path": "story-8",
+        "href": "chapter-0009.xhtml",
+        "title": "The Red Moon of Meru"
+      },
+      {
+        "path": "story-9",
+        "href": "chapter-0010.xhtml",
+        "title": "The Chief Mourner of Marne"
+      },
+      {
+        "path": "story-10",
+        "href": "chapter-0011.xhtml",
+        "title": "The Secret of Flambeau"
+      }
+    ],
+    "bytes": 1844409
+  },
+  "chesterton-g-k_the-wisdom-of-father-brown_eng": {
+    "source_sha256": "f07903a97b2e1f23abb913a638a034853a038103b427abd0f035e6417cde69e5",
+    "href": "/downloads/epub/chesterton-g-k/chesterton-g-k_the-wisdom-of-father-brown_eng.epub",
+    "revision": "1ac668b7c98993a7c6a9dda7b4064ccb836154fcb413a6089f7a25bbcf578726",
+    "language": "en",
+    "sections": [
+      {
+        "path": "dedication-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Dedication"
+      },
+      {
+        "path": "story-1",
+        "href": "chapter-0002.xhtml",
+        "title": "The Absence of Mr. Glass"
+      },
+      {
+        "path": "story-2",
+        "href": "chapter-0003.xhtml",
+        "title": "The Paradise of Thieves"
+      },
+      {
+        "path": "story-3",
+        "href": "chapter-0004.xhtml",
+        "title": "The Duel of Dr. Hirsch"
+      },
+      {
+        "path": "story-4",
+        "href": "chapter-0005.xhtml",
+        "title": "The Man in the Passage"
+      },
+      {
+        "path": "story-5",
+        "href": "chapter-0006.xhtml",
+        "title": "The Mistake of the Machine"
+      },
+      {
+        "path": "story-6",
+        "href": "chapter-0007.xhtml",
+        "title": "The Head of Caesar"
+      },
+      {
+        "path": "story-7",
+        "href": "chapter-0008.xhtml",
+        "title": "The Purple Wig"
+      },
+      {
+        "path": "story-8",
+        "href": "chapter-0009.xhtml",
+        "title": "The Perishing of the Pendragons"
+      },
+      {
+        "path": "story-9",
+        "href": "chapter-0010.xhtml",
+        "title": "The God of the Gongs"
+      },
+      {
+        "path": "story-10",
+        "href": "chapter-0011.xhtml",
+        "title": "The Salad of Colonel Cray"
+      },
+      {
+        "path": "story-11",
+        "href": "chapter-0012.xhtml",
+        "title": "The Strange Crime of John Boulnois"
+      },
+      {
+        "path": "story-12",
+        "href": "chapter-0013.xhtml",
+        "title": "The Fairy Tale of Father Brown"
+      }
+    ],
+    "bytes": 1872725
+  },
+  "collins_basil_eng": {
+    "source_sha256": "5b3db03433f01b7ba30dc8a791f2dfa88948c0cad39fa46f355a2ef1770876ca",
+    "href": "/downloads/epub/collins/collins_basil_eng.epub",
+    "revision": "6389ac4dfa76a37865a64bee41d24269b6142f163ead632ba6e7bec972ab8543",
+    "language": "en",
+    "sections": [
+      {
+        "path": "dedication-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Letter of Dedication. To Charles James Ward, Esq."
+      },
+      {
+        "path": "part-1/chapter-1",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-1/chapter-2",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-1/chapter-3",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-1/chapter-4",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-1/chapter-5",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-1/chapter-6",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-1/chapter-7",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-1/chapter-8",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-1/chapter-9",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-1/chapter-10",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "part-1/chapter-11",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter XI"
+      },
+      {
+        "path": "part-1/chapter-12",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XII"
+      },
+      {
+        "path": "part-2/chapter-1",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-2/chapter-2",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-2/chapter-3",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-2/chapter-4",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-2/chapter-5",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-2/chapter-6",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-2/chapter-7",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-3/chapter-1",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-3/chapter-2",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-3/chapter-3",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-3/chapter-4",
+        "href": "chapter-0024.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-3/chapter-5",
+        "href": "chapter-0025.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-3/chapter-6",
+        "href": "chapter-0026.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-3/chapter-7",
+        "href": "chapter-0027.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-3/chapter-8",
+        "href": "chapter-0028.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "chapter-1",
+        "href": "chapter-0029.xhtml",
+        "title": "Journal"
+      },
+      {
+        "path": "epilogue-01",
+        "href": "chapter-0030.xhtml",
+        "title": "Letters in Conclusion"
+      }
+    ],
+    "bytes": 1986838
+  },
+  "collins_man-and-wife_eng": {
+    "source_sha256": "dccbda54361e92cb2c43dd9a8a315a84c5fed8dc0a67069302e094bbc708410d",
+    "href": "/downloads/epub/collins/collins_man-and-wife_eng.epub",
+    "revision": "3284bb1ad9a764760503a9b1cf57faa1ebec9c37922a872820a5aaed07525cf8",
+    "language": "en",
+    "sections": [
+      {
+        "path": "prologue-01/chapter-1",
+        "href": "chapter-0001.xhtml",
+        "title": "Chapter I. The Villa at Hampstead"
+      },
+      {
+        "path": "prologue-01/chapter-2",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter II. The March of Time"
+      },
+      {
+        "path": "book-01/part-1/chapter-1",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter I. The Owls"
+      },
+      {
+        "path": "book-01/part-1/chapter-2",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter II. The Guests"
+      },
+      {
+        "path": "book-01/part-1/chapter-3",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter III. The Discoveries"
+      },
+      {
+        "path": "book-01/part-1/chapter-4",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter IV. The Two"
+      },
+      {
+        "path": "book-01/part-1/chapter-5",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter V. The Plan"
+      },
+      {
+        "path": "book-01/part-1/chapter-6",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VI. The Suitor"
+      },
+      {
+        "path": "book-01/part-1/chapter-7",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VII. The Debt"
+      },
+      {
+        "path": "book-01/part-1/chapter-8",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter VIII. The Scandal"
+      },
+      {
+        "path": "book-01/part-2/chapter-9",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter IX. Anne"
+      },
+      {
+        "path": "book-01/part-2/chapter-10",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter X. Mr. Bishopriggs"
+      },
+      {
+        "path": "book-01/part-2/chapter-11",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XI. Sir Patrick"
+      },
+      {
+        "path": "book-01/part-2/chapter-12",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XII. Arnold"
+      },
+      {
+        "path": "book-01/part-2/chapter-13",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XIII. Blanche"
+      },
+      {
+        "path": "book-01/part-3/chapter-14",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XIV. Geoffrey as a Letter-Writer"
+      },
+      {
+        "path": "book-01/part-3/chapter-15",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XV. Geoffrey in the Marriage Market"
+      },
+      {
+        "path": "book-01/part-3/chapter-16",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter XVI. Geoffrey as a Public Character"
+      },
+      {
+        "path": "book-01/part-4/chapter-17",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter XVII. Near It"
+      },
+      {
+        "path": "book-01/part-4/chapter-18",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter XVIII. Nearer Still"
+      },
+      {
+        "path": "book-01/part-4/chapter-19",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter XIX. Close on It"
+      },
+      {
+        "path": "book-01/part-4/chapter-20",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter XX. Touching It"
+      },
+      {
+        "path": "book-01/part-4/chapter-21",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter XXI. Done!"
+      },
+      {
+        "path": "book-01/part-4/chapter-22",
+        "href": "chapter-0024.xhtml",
+        "title": "Chapter XXII. Gone"
+      },
+      {
+        "path": "book-01/part-4/chapter-23",
+        "href": "chapter-0025.xhtml",
+        "title": "Chapter XXIII. Traced"
+      },
+      {
+        "path": "book-01/part-4/chapter-24",
+        "href": "chapter-0026.xhtml",
+        "title": "Chapter XXIV. Backward"
+      },
+      {
+        "path": "book-01/part-4/chapter-25",
+        "href": "chapter-0027.xhtml",
+        "title": "Chapter XXV. Forward"
+      },
+      {
+        "path": "book-01/part-4/chapter-26",
+        "href": "chapter-0028.xhtml",
+        "title": "Chapter XXVI. Dropped"
+      },
+      {
+        "path": "book-01/part-4/chapter-27",
+        "href": "chapter-0029.xhtml",
+        "title": "Chapter XXVII. Outwitted"
+      },
+      {
+        "path": "book-01/part-4/chapter-28",
+        "href": "chapter-0030.xhtml",
+        "title": "Chapter XXVIII. Stifled"
+      },
+      {
+        "path": "book-01/part-5/chapter-29",
+        "href": "chapter-0031.xhtml",
+        "title": "Chapter XXIX. Anne Among the Lawyers"
+      },
+      {
+        "path": "book-01/part-5/chapter-30",
+        "href": "chapter-0032.xhtml",
+        "title": "Chapter XXX. Anne in the Newspapers"
+      },
+      {
+        "path": "book-01/part-6/chapter-31",
+        "href": "chapter-0033.xhtml",
+        "title": "Chapter XXXI. Seeds of the Future (First Sowing)"
+      },
+      {
+        "path": "book-01/part-6/chapter-32",
+        "href": "chapter-0034.xhtml",
+        "title": "Chapter XXXII. Seeds of the Future (Second Sowing)"
+      },
+      {
+        "path": "book-01/part-6/chapter-33",
+        "href": "chapter-0035.xhtml",
+        "title": "Chapter XXXIII. Seeds of the Future (Third Sowing)"
+      },
+      {
+        "path": "book-01/part-7/chapter-34",
+        "href": "chapter-0036.xhtml",
+        "title": "Chapter XXXIV. The Night Before"
+      },
+      {
+        "path": "book-01/part-7/chapter-35",
+        "href": "chapter-0037.xhtml",
+        "title": "Chapter XXXV. The Day"
+      },
+      {
+        "path": "book-01/part-7/chapter-36",
+        "href": "chapter-0038.xhtml",
+        "title": "Chapter XXXVI. The Truth at Last"
+      },
+      {
+        "path": "book-01/part-7/chapter-37",
+        "href": "chapter-0039.xhtml",
+        "title": "Chapter XXXVII. The Way Out"
+      },
+      {
+        "path": "book-01/part-7/chapter-38",
+        "href": "chapter-0040.xhtml",
+        "title": "Chapter XXXVIII. The News from Glasgow"
+      },
+      {
+        "path": "book-01/part-8/chapter-39",
+        "href": "chapter-0041.xhtml",
+        "title": "Chapter XXXIX. Anne Wins a Victory"
+      },
+      {
+        "path": "book-01/part-9/chapter-40",
+        "href": "chapter-0042.xhtml",
+        "title": "Chapter XL. Julius Makes Mischief"
+      },
+      {
+        "path": "book-01/part-10/chapter-41",
+        "href": "chapter-0043.xhtml",
+        "title": "Chapter XLI. Lady Lundie Does Her Duty"
+      },
+      {
+        "path": "book-01/part-11/chapter-42",
+        "href": "chapter-0044.xhtml",
+        "title": "Chapter XLII. The Smoking-Room Window"
+      },
+      {
+        "path": "book-01/part-11/chapter-43",
+        "href": "chapter-0045.xhtml",
+        "title": "Chapter XLIII. The Explosion"
+      },
+      {
+        "path": "book-01/part-12/chapter-44",
+        "href": "chapter-0046.xhtml",
+        "title": "Chapter XLIV. The Letter and the Law"
+      },
+      {
+        "path": "book-01/part-13/chapter-45",
+        "href": "chapter-0047.xhtml",
+        "title": "Chapter XLV. The Footrace"
+      },
+      {
+        "path": "book-01/part-14/chapter-46",
+        "href": "chapter-0048.xhtml",
+        "title": "Chapter XLVI. A Scotch Marriage"
+      },
+      {
+        "path": "book-01/part-15/chapter-47",
+        "href": "chapter-0049.xhtml",
+        "title": "Chapter XLVII. The Last Chance"
+      },
+      {
+        "path": "book-01/part-16/chapter-48",
+        "href": "chapter-0050.xhtml",
+        "title": "Chapter XLVIII. The Place"
+      },
+      {
+        "path": "book-01/part-16/chapter-49",
+        "href": "chapter-0051.xhtml",
+        "title": "Chapter XLIX. The Night"
+      },
+      {
+        "path": "book-01/part-16/chapter-50",
+        "href": "chapter-0052.xhtml",
+        "title": "Chapter L. The Morning"
+      },
+      {
+        "path": "book-01/part-16/chapter-51",
+        "href": "chapter-0053.xhtml",
+        "title": "Chapter LI. The Proposal"
+      },
+      {
+        "path": "book-01/part-16/chapter-52",
+        "href": "chapter-0054.xhtml",
+        "title": "Chapter LII. The Apparition"
+      },
+      {
+        "path": "book-01/part-16/chapter-53",
+        "href": "chapter-0055.xhtml",
+        "title": "Chapter LIII. What Had Happened in the Hours of Darkness?"
+      },
+      {
+        "path": "book-01/part-16/chapter-54",
+        "href": "chapter-0056.xhtml",
+        "title": "Chapter LIV. The Manuscript"
+      },
+      {
+        "path": "book-01/part-16/chapter-55",
+        "href": "chapter-0057.xhtml",
+        "title": "Chapter LV. The Signs of the End"
+      },
+      {
+        "path": "book-01/part-16/chapter-56",
+        "href": "chapter-0058.xhtml",
+        "title": "Chapter LVI. The Means"
+      },
+      {
+        "path": "book-01/part-16/chapter-57",
+        "href": "chapter-0059.xhtml",
+        "title": "Chapter LVII. The End"
+      },
+      {
+        "path": "epilogue-01/chapter-1",
+        "href": "chapter-0060.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "epilogue-01/chapter-2",
+        "href": "chapter-0061.xhtml",
+        "title": "Chapter II"
+      }
+    ],
+    "bytes": 2273381
+  },
+  "collins_no-name_eng": {
+    "source_sha256": "cb4a4ebf26945cf76a22c9946eb74137a6aca1e9fce10921165674fcd3904ee8",
+    "href": "/downloads/epub/collins/collins_no-name_eng.epub",
+    "revision": "ca7d71409e0bc12f3a4fa94facbfb7d2fb945f6c4dc4519d8148242f3d7f6a9b",
+    "language": "en",
+    "sections": [
+      {
+        "path": "dedication-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Dedication"
+      },
+      {
+        "path": "preface-01",
+        "href": "chapter-0002.xhtml",
+        "title": "Preface"
+      },
+      {
+        "path": "part-1/chapter-1",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-1/chapter-2",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-1/chapter-3",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-1/chapter-4",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-1/chapter-5",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-1/chapter-6",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-1/chapter-7",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-1/chapter-8",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-1/chapter-9",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-1/chapter-10",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "part-1/chapter-11",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XI"
+      },
+      {
+        "path": "part-1/chapter-12",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XII"
+      },
+      {
+        "path": "part-1/chapter-13",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XIII"
+      },
+      {
+        "path": "part-1/chapter-14",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XIV"
+      },
+      {
+        "path": "part-1/chapter-15",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XV"
+      },
+      {
+        "path": "part-2/chapter-1",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter I. From Norah Vanstone to Mr. Pendril"
+      },
+      {
+        "path": "part-2/chapter-2",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter II. From Miss Garth to Mr. Pendril"
+      },
+      {
+        "path": "part-2/chapter-3",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter III. From Magdalen to Norah (Enclosed in the Preceding Letter)"
+      },
+      {
+        "path": "part-2/chapter-4",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter IV. From Sergeant Bulmer (of the Detective Police) to Mr. Pendril"
+      },
+      {
+        "path": "part-2/chapter-5",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter V. Anonymous Letter Addressed to Mr. Pendril"
+      },
+      {
+        "path": "part-3/chapter-1",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-3/chapter-2",
+        "href": "chapter-0024.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-3/chapter-3",
+        "href": "chapter-0025.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-4/chapter-1",
+        "href": "chapter-0026.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-4/chapter-2",
+        "href": "chapter-0027.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-4/chapter-3",
+        "href": "chapter-0028.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-4/chapter-4",
+        "href": "chapter-0029.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-4/chapter-5",
+        "href": "chapter-0030.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-4/chapter-6",
+        "href": "chapter-0031.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-4/chapter-7",
+        "href": "chapter-0032.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-4/chapter-8",
+        "href": "chapter-0033.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-4/chapter-9",
+        "href": "chapter-0034.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-5/chapter-1",
+        "href": "chapter-0035.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-5/chapter-2",
+        "href": "chapter-0036.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-5/chapter-3",
+        "href": "chapter-0037.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-5/chapter-4",
+        "href": "chapter-0038.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-6/chapter-1",
+        "href": "chapter-0039.xhtml",
+        "title": "Chapter I. Extract from the Advertising Columns of the Times"
+      },
+      {
+        "path": "part-6/chapter-2",
+        "href": "chapter-0040.xhtml",
+        "title": "Chapter II. From Captain Wragge to Magdalen"
+      },
+      {
+        "path": "part-6/chapter-3",
+        "href": "chapter-0041.xhtml",
+        "title": "Chapter III. From Norah to Magdalen"
+      },
+      {
+        "path": "part-6/chapter-4",
+        "href": "chapter-0042.xhtml",
+        "title": "Chapter IV. From Miss Garth to Magdalen"
+      },
+      {
+        "path": "part-6/chapter-5",
+        "href": "chapter-0043.xhtml",
+        "title": "Chapter V. From Francis Clare, Jun., To Magdalen"
+      },
+      {
+        "path": "part-6/chapter-6",
+        "href": "chapter-0044.xhtml",
+        "title": "Chapter VI. From Francis Clare, Sen., To Magdalen"
+      },
+      {
+        "path": "part-6/chapter-7",
+        "href": "chapter-0045.xhtml",
+        "title": "Chapter VII. From Mrs. Wragge to Her Husband"
+      },
+      {
+        "path": "part-6/chapter-8",
+        "href": "chapter-0046.xhtml",
+        "title": "Chapter VIII. From Norah to Magdalen"
+      },
+      {
+        "path": "part-6/chapter-9",
+        "href": "chapter-0047.xhtml",
+        "title": "Chapter IX. From Magdalen to Norah"
+      },
+      {
+        "path": "part-6/chapter-10",
+        "href": "chapter-0048.xhtml",
+        "title": "Chapter X. From Magdalen to Miss Garth"
+      },
+      {
+        "path": "part-6/chapter-11",
+        "href": "chapter-0049.xhtml",
+        "title": "Chapter XI. From Magdalen to Captain Wragge"
+      },
+      {
+        "path": "part-6/chapter-12",
+        "href": "chapter-0050.xhtml",
+        "title": "Chapter XII. From Captain Wragge to Magdalen"
+      },
+      {
+        "path": "part-6/chapter-13",
+        "href": "chapter-0051.xhtml",
+        "title": "Chapter XIII. Extract from the East Suffolk Argus"
+      },
+      {
+        "path": "part-7/chapter-1",
+        "href": "chapter-0052.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-7/chapter-2",
+        "href": "chapter-0053.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-7/chapter-3",
+        "href": "chapter-0054.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-7/chapter-4",
+        "href": "chapter-0055.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-7/chapter-5",
+        "href": "chapter-0056.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-7/chapter-6",
+        "href": "chapter-0057.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-7/chapter-7",
+        "href": "chapter-0058.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-7/chapter-8",
+        "href": "chapter-0059.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-7/chapter-9",
+        "href": "chapter-0060.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-7/chapter-10",
+        "href": "chapter-0061.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "part-7/chapter-11",
+        "href": "chapter-0062.xhtml",
+        "title": "Chapter XI"
+      },
+      {
+        "path": "part-7/chapter-12",
+        "href": "chapter-0063.xhtml",
+        "title": "Chapter XII"
+      },
+      {
+        "path": "part-7/chapter-13",
+        "href": "chapter-0064.xhtml",
+        "title": "Chapter XIII"
+      },
+      {
+        "path": "part-7/chapter-14",
+        "href": "chapter-0065.xhtml",
+        "title": "Chapter XIV"
+      },
+      {
+        "path": "part-8/chapter-1",
+        "href": "chapter-0066.xhtml",
+        "title": "Chapter I. From George Bartram to Noel Vanstone"
+      },
+      {
+        "path": "part-8/chapter-2",
+        "href": "chapter-0067.xhtml",
+        "title": "Chapter II. From Norah Vanstone to Miss Garth"
+      },
+      {
+        "path": "part-8/chapter-3",
+        "href": "chapter-0068.xhtml",
+        "title": "Chapter III. From Mr. John Loscombe (Solicitor) to George Bartram, Esq."
+      },
+      {
+        "path": "part-8/chapter-4",
+        "href": "chapter-0069.xhtml",
+        "title": "Chapter IV. From Norah Vanstone to Miss Garth"
+      },
+      {
+        "path": "part-8/chapter-5",
+        "href": "chapter-0070.xhtml",
+        "title": "Chapter V. From Mrs. Lecount to Mr. De Bleriot, General Agent, London"
+      },
+      {
+        "path": "part-8/chapter-6",
+        "href": "chapter-0071.xhtml",
+        "title": "Chapter VI. From Mr. De Bleriot to Mrs. Lecount"
+      },
+      {
+        "path": "part-8/chapter-7",
+        "href": "chapter-0072.xhtml",
+        "title": "Chapter VII. From Mr. Pendril to Norah Vanstone"
+      },
+      {
+        "path": "part-8/chapter-8",
+        "href": "chapter-0073.xhtml",
+        "title": "Chapter VIII. From Norah Vanstone to Mr. Pendril"
+      },
+      {
+        "path": "part-8/chapter-9",
+        "href": "chapter-0074.xhtml",
+        "title": "Chapter IX. From Mr. De Bleriot to Mrs. Lecount"
+      },
+      {
+        "path": "part-8/chapter-10",
+        "href": "chapter-0075.xhtml",
+        "title": "Chapter X. From Miss Garth to Mr. Pendril"
+      },
+      {
+        "path": "part-8/chapter-11",
+        "href": "chapter-0076.xhtml",
+        "title": "Chapter XI. From Mrs. Lecount to Mr. De Bleriot"
+      },
+      {
+        "path": "part-8/chapter-12",
+        "href": "chapter-0077.xhtml",
+        "title": "Chapter XII. From Mr. Pendril to Miss Garth"
+      },
+      {
+        "path": "part-8/chapter-13",
+        "href": "chapter-0078.xhtml",
+        "title": "Chapter XIII. From Mr. De Bleriot to Mrs. Lecount"
+      },
+      {
+        "path": "part-8/chapter-14",
+        "href": "chapter-0079.xhtml",
+        "title": "Chapter XIV. From Mrs. Lecount to Mr. De Bleriot"
+      },
+      {
+        "path": "part-9/chapter-1",
+        "href": "chapter-0080.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-9/chapter-2",
+        "href": "chapter-0081.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-9/chapter-3",
+        "href": "chapter-0082.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-10/chapter-1",
+        "href": "chapter-0083.xhtml",
+        "title": "Chapter I. From Mrs. Noel Vanstone to Mr. Loscombe"
+      },
+      {
+        "path": "part-10/chapter-2",
+        "href": "chapter-0084.xhtml",
+        "title": "Chapter II. From Mr. Loscombe to Mrs. Noel Vanstone"
+      },
+      {
+        "path": "part-10/chapter-3",
+        "href": "chapter-0085.xhtml",
+        "title": "Chapter III. From Mrs. Noel Vanstone to Miss Garth"
+      },
+      {
+        "path": "part-10/chapter-4",
+        "href": "chapter-0086.xhtml",
+        "title": "Chapter IV. From Mr. Loscombe to Mrs. Noel Vanstone"
+      },
+      {
+        "path": "part-10/chapter-5",
+        "href": "chapter-0087.xhtml",
+        "title": "Chapter V. From Mr. Pendril to Miss Garth"
+      },
+      {
+        "path": "part-10/chapter-6",
+        "href": "chapter-0088.xhtml",
+        "title": "Chapter VI. From Mr. Loscombe to Mrs. Noel Vanstone"
+      },
+      {
+        "path": "part-10/chapter-7",
+        "href": "chapter-0089.xhtml",
+        "title": "Chapter VII. From Mrs. Noel Vanstone to Mr. Loscombe"
+      },
+      {
+        "path": "part-10/chapter-8",
+        "href": "chapter-0090.xhtml",
+        "title": "Chapter VIII. From Mr. Loscombe to Mrs. Noel Vanstone"
+      },
+      {
+        "path": "part-10/chapter-9",
+        "href": "chapter-0091.xhtml",
+        "title": "Chapter IX. From Mrs. Noel Vanstone to Mr. Loscombe"
+      },
+      {
+        "path": "part-11/chapter-1",
+        "href": "chapter-0092.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-11/chapter-2",
+        "href": "chapter-0093.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-12/chapter-1",
+        "href": "chapter-0094.xhtml",
+        "title": "Chapter I. From Miss Garth to Mr. Pendril"
+      },
+      {
+        "path": "part-12/chapter-2",
+        "href": "chapter-0095.xhtml",
+        "title": "Chapter II. From Mr. Pendril to Miss Garth"
+      },
+      {
+        "path": "part-12/chapter-3",
+        "href": "chapter-0096.xhtml",
+        "title": "Chapter III. From Admiral Bartram to Mrs. Drake (Housekeeper at St. Crux)"
+      },
+      {
+        "path": "part-12/chapter-4",
+        "href": "chapter-0097.xhtml",
+        "title": "Chapter IV. From Mrs. Drake to Admiral Bartram"
+      },
+      {
+        "path": "part-13/chapter-1",
+        "href": "chapter-0098.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-13/chapter-2",
+        "href": "chapter-0099.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-13/chapter-3",
+        "href": "chapter-0100.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-13/chapter-4",
+        "href": "chapter-0101.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-14/chapter-1",
+        "href": "chapter-0102.xhtml",
+        "title": "Chapter I. From George Bartram to Admiral Bartram"
+      },
+      {
+        "path": "part-14/chapter-2",
+        "href": "chapter-0103.xhtml",
+        "title": "Chapter II. From George Bartram to Miss Garth"
+      },
+      {
+        "path": "part-14/chapter-3",
+        "href": "chapter-0104.xhtml",
+        "title": "Chapter III. From Miss Garth to George Bartram"
+      },
+      {
+        "path": "part-14/chapter-4",
+        "href": "chapter-0105.xhtml",
+        "title": "Chapter IV. From Mrs. Drake to George Bartram"
+      },
+      {
+        "path": "part-14/chapter-5",
+        "href": "chapter-0106.xhtml",
+        "title": "Chapter V. From George Bartram to Miss Garth"
+      },
+      {
+        "path": "part-14/chapter-6",
+        "href": "chapter-0107.xhtml",
+        "title": "Chapter VI. From Mr. Loscombe to Mrs. Noel Vanstone"
+      },
+      {
+        "path": "part-14/chapter-7",
+        "href": "chapter-0108.xhtml",
+        "title": "Chapter VII. From George Bartram to Miss Garth"
+      },
+      {
+        "path": "part-14/chapter-8",
+        "href": "chapter-0109.xhtml",
+        "title": "Chapter VIII. From Mr. Loscombe to Mrs. Noel Vanstone"
+      },
+      {
+        "path": "part-14/chapter-9",
+        "href": "chapter-0110.xhtml",
+        "title": "Chapter IX. From Mrs. Ruddock (Lodging-House Keeper) to Mr. Loscombe"
+      },
+      {
+        "path": "part-14/chapter-10",
+        "href": "chapter-0111.xhtml",
+        "title": "Chapter X. From Mr. Loscombe to Mrs. Ruddock"
+      },
+      {
+        "path": "part-15/chapter-1",
+        "href": "chapter-0112.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-15/chapter-2",
+        "href": "chapter-0113.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-15/chapter-3",
+        "href": "chapter-0114.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-15/chapter-4",
+        "href": "chapter-0115.xhtml",
+        "title": "Chapter IV"
+      }
+    ],
+    "bytes": 2393931
+  },
+  "collins_the-dead-secret_eng": {
+    "source_sha256": "012d2e0fd218f40ec9d20fcdf06fe2d53d4bd47302a5b1395be91cad4be900cd",
+    "href": "/downloads/epub/collins/collins_the-dead-secret_eng.epub",
+    "revision": "e937503c9a91ab50ee1680ecd955ea6029a3dcb9213e49d70f617756dce101b9",
+    "language": "en",
+    "sections": [
+      {
+        "path": "part-1/chapter-1",
+        "href": "chapter-0001.xhtml",
+        "title": "Chapter I. The Twenty-Third of August, 1829"
+      },
+      {
+        "path": "part-1/chapter-2",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter II. The Child"
+      },
+      {
+        "path": "part-1/chapter-3",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter III. The Hiding of the Secret"
+      },
+      {
+        "path": "part-2/chapter-1",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter I. Fifteen Years After"
+      },
+      {
+        "path": "part-2/chapter-2",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter II. The Sale of Porthgenna Tower"
+      },
+      {
+        "path": "part-2/chapter-3",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter III. The Bride and Bridegroom"
+      },
+      {
+        "path": "part-3/chapter-1",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter I. Timon of London"
+      },
+      {
+        "path": "part-3/chapter-2",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter II. Will They Come?"
+      },
+      {
+        "path": "part-3/chapter-3",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter III. Mrs. Jazeph"
+      },
+      {
+        "path": "part-3/chapter-4",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter IV. The New Nurse"
+      },
+      {
+        "path": "part-3/chapter-5",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter V. A Council of Three"
+      },
+      {
+        "path": "part-3/chapter-6",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter VI. Another Surprise"
+      },
+      {
+        "path": "part-4/chapter-1",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter I. A Plot Against the Secret"
+      },
+      {
+        "path": "part-4/chapter-2",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter II. Outside the House"
+      },
+      {
+        "path": "part-4/chapter-3",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter III. Inside the House"
+      },
+      {
+        "path": "part-4/chapter-4",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter IV. Mr. Munder on the Seat of Judgment"
+      },
+      {
+        "path": "part-4/chapter-5",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter V. Mozart Plays Farewell"
+      },
+      {
+        "path": "part-5/chapter-1",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter I. An Old Friend and a New Scheme"
+      },
+      {
+        "path": "part-5/chapter-2",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter II. The Beginning of the End"
+      },
+      {
+        "path": "part-5/chapter-3",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter III. Approaching the Precipice"
+      },
+      {
+        "path": "part-5/chapter-4",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter IV. Standing on the Brink"
+      },
+      {
+        "path": "part-5/chapter-5",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter V. The Myrtle Room"
+      },
+      {
+        "path": "part-5/chapter-6",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter VI. The Telling of the Secret"
+      },
+      {
+        "path": "part-6/chapter-1",
+        "href": "chapter-0024.xhtml",
+        "title": "Chapter I. Uncle Joseph"
+      },
+      {
+        "path": "part-6/chapter-2",
+        "href": "chapter-0025.xhtml",
+        "title": "Chapter II. Waiting and Hoping"
+      },
+      {
+        "path": "part-6/chapter-3",
+        "href": "chapter-0026.xhtml",
+        "title": "Chapter III. The Story of the Past"
+      },
+      {
+        "path": "part-6/chapter-4",
+        "href": "chapter-0027.xhtml",
+        "title": "Chapter IV. The Close of Day"
+      },
+      {
+        "path": "part-6/chapter-5",
+        "href": "chapter-0028.xhtml",
+        "title": "Chapter V. Forty Thousand Pounds"
+      },
+      {
+        "path": "part-6/chapter-6",
+        "href": "chapter-0029.xhtml",
+        "title": "Chapter VI. The Dawn of a New Life"
+      }
+    ],
+    "bytes": 2027432
+  },
+  "collins_the-haunted-hotel_eng": {
+    "source_sha256": "c34eb61e3bd616bca44a6cc096a7d4ad129eb9de1d81c7d0fd0ac4407c8d1d81",
+    "href": "/downloads/epub/collins/collins_the-haunted-hotel_eng.epub",
+    "revision": "23feb0ad55e12f302f90942f968b170a3c64d544a160020b60213ad06793e9a5",
+    "language": "en",
+    "sections": [
+      {
+        "path": "dedication-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Dedication"
+      },
+      {
+        "path": "part-1/chapter-1",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-1/chapter-2",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-1/chapter-3",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-1/chapter-4",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-2/chapter-5",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-2/chapter-6",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-2/chapter-7",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-2/chapter-8",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-2/chapter-9",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-2/chapter-10",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "part-2/chapter-11",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter XI"
+      },
+      {
+        "path": "part-2/chapter-12",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XII"
+      },
+      {
+        "path": "part-3/chapter-13",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XIII"
+      },
+      {
+        "path": "part-3/chapter-14",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XIV"
+      },
+      {
+        "path": "part-3/chapter-15",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XV"
+      },
+      {
+        "path": "part-4/chapter-16",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XVI"
+      },
+      {
+        "path": "part-4/chapter-17",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter XVII"
+      },
+      {
+        "path": "part-4/chapter-18",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter XVIII"
+      },
+      {
+        "path": "part-4/chapter-19",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter XIX"
+      },
+      {
+        "path": "part-4/chapter-20",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter XX"
+      },
+      {
+        "path": "part-4/chapter-21",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter XXI"
+      },
+      {
+        "path": "part-4/chapter-22",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter XXII"
+      },
+      {
+        "path": "part-4/chapter-23",
+        "href": "chapter-0024.xhtml",
+        "title": "Chapter XXIII"
+      },
+      {
+        "path": "part-4/chapter-24",
+        "href": "chapter-0025.xhtml",
+        "title": "Chapter XXIV"
+      },
+      {
+        "path": "part-4/chapter-25",
+        "href": "chapter-0026.xhtml",
+        "title": "Chapter XXV"
+      },
+      {
+        "path": "part-4/chapter-26",
+        "href": "chapter-0027.xhtml",
+        "title": "Chapter XXVI"
+      },
+      {
+        "path": "part-4/chapter-27",
+        "href": "chapter-0028.xhtml",
+        "title": "Chapter XXVII"
+      },
+      {
+        "path": "part-4/chapter-28",
+        "href": "chapter-0029.xhtml",
+        "title": "Chapter XXVIII"
+      },
+      {
+        "path": "part-4/epilogue-01",
+        "href": "chapter-0030.xhtml",
+        "title": "Postscript"
+      }
+    ],
+    "bytes": 1865879
+  },
+  "collins_the-law-and-the-lady_eng": {
+    "source_sha256": "3937377aaf80f2221b4fd1565429aed509129ebaa5077845390dda34a190e643",
+    "href": "/downloads/epub/collins/collins_the-law-and-the-lady_eng.epub",
+    "revision": "cba82bf1cb886f5244a6bd518a71163e3a49147e993b45b57d534a7c847ebfaf",
+    "language": "en",
+    "sections": [
+      {
+        "path": "preface-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Note. Addressed to the Reader"
+      },
+      {
+        "path": "part-1/chapter-1",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter I. The Bride’s Mistake"
+      },
+      {
+        "path": "part-1/chapter-2",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter II. The Bride’s Thoughts"
+      },
+      {
+        "path": "part-1/chapter-3",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter III. Ramsgate Sands"
+      },
+      {
+        "path": "part-1/chapter-4",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter IV. On the Way Home"
+      },
+      {
+        "path": "part-1/chapter-5",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter V. The Landlady’s Discovery"
+      },
+      {
+        "path": "part-1/chapter-6",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter VI. My Own Discovery"
+      },
+      {
+        "path": "part-1/chapter-7",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VII. On the Way to the Major"
+      },
+      {
+        "path": "part-1/chapter-8",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VIII. The Friend of the Women"
+      },
+      {
+        "path": "part-1/chapter-9",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter IX. The Defeat of the Major"
+      },
+      {
+        "path": "part-1/chapter-10",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter X. The Search"
+      },
+      {
+        "path": "part-1/chapter-11",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter XI. The Return to Life"
+      },
+      {
+        "path": "part-1/chapter-12",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XII. The Scotch Verdict"
+      },
+      {
+        "path": "part-1/chapter-13",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XIII. The Man’s Decision"
+      },
+      {
+        "path": "part-1/chapter-14",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XIV. The Woman’s Answer"
+      },
+      {
+        "path": "part-2/chapter-15",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XV. The Story of the Trial. The Preliminaries"
+      },
+      {
+        "path": "part-2/chapter-16",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XVI. First Question⁠—Did the Woman Die Poisoned?"
+      },
+      {
+        "path": "part-2/chapter-17",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter XVII. Second Question⁠—Who Poisoned Her?"
+      },
+      {
+        "path": "part-2/chapter-18",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter XVIII. Third Question⁠—What Was His Motive?"
+      },
+      {
+        "path": "part-2/chapter-19",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter XIX. The Evidence for the Defense"
+      },
+      {
+        "path": "part-2/chapter-20",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter XX. The End of the Trial"
+      },
+      {
+        "path": "part-2/chapter-21",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter XXI. I See My Way"
+      },
+      {
+        "path": "part-2/chapter-22",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter XXII. The Major Makes Difficulties"
+      },
+      {
+        "path": "part-2/chapter-23",
+        "href": "chapter-0024.xhtml",
+        "title": "Chapter XXIII. My Mother-in-Law Surprises Me"
+      },
+      {
+        "path": "part-2/chapter-24",
+        "href": "chapter-0025.xhtml",
+        "title": "Chapter XXIV. Miserrimus Dexter⁠—First View"
+      },
+      {
+        "path": "part-2/chapter-25",
+        "href": "chapter-0026.xhtml",
+        "title": "Chapter XXV. Miserrimus Dexter⁠—Second View"
+      },
+      {
+        "path": "part-2/chapter-26",
+        "href": "chapter-0027.xhtml",
+        "title": "Chapter XXVI. More of My Obstinacy"
+      },
+      {
+        "path": "part-2/chapter-27",
+        "href": "chapter-0028.xhtml",
+        "title": "Chapter XXVII. Mr. Dexter at Home"
+      },
+      {
+        "path": "part-2/chapter-28",
+        "href": "chapter-0029.xhtml",
+        "title": "Chapter XXVIII. In the Dark"
+      },
+      {
+        "path": "part-2/chapter-29",
+        "href": "chapter-0030.xhtml",
+        "title": "Chapter XXIX. In the Light"
+      },
+      {
+        "path": "part-2/chapter-30",
+        "href": "chapter-0031.xhtml",
+        "title": "Chapter XXX. The Indictment of Mrs. Beauly"
+      },
+      {
+        "path": "part-2/chapter-31",
+        "href": "chapter-0032.xhtml",
+        "title": "Chapter XXXI. The Defense of Mrs. Beauly"
+      },
+      {
+        "path": "part-2/chapter-32",
+        "href": "chapter-0033.xhtml",
+        "title": "Chapter XXXII. A Specimen of My Wisdom"
+      },
+      {
+        "path": "part-2/chapter-33",
+        "href": "chapter-0034.xhtml",
+        "title": "Chapter XXXIII. A Specimen of My Folly"
+      },
+      {
+        "path": "part-2/chapter-34",
+        "href": "chapter-0035.xhtml",
+        "title": "Chapter XXXIV. Gleninch"
+      },
+      {
+        "path": "part-2/chapter-35",
+        "href": "chapter-0036.xhtml",
+        "title": "Chapter XXXV. Mr. Playmore’s Prophecy"
+      },
+      {
+        "path": "part-2/chapter-36",
+        "href": "chapter-0037.xhtml",
+        "title": "Chapter XXXVI. Ariel"
+      },
+      {
+        "path": "part-2/chapter-37",
+        "href": "chapter-0038.xhtml",
+        "title": "Chapter XXXVII. At the Bedside"
+      },
+      {
+        "path": "part-2/chapter-38",
+        "href": "chapter-0039.xhtml",
+        "title": "Chapter XXXVIII. On the Journey Back"
+      },
+      {
+        "path": "part-2/chapter-39",
+        "href": "chapter-0040.xhtml",
+        "title": "Chapter XXXIX. On the Way to Dexter"
+      },
+      {
+        "path": "part-2/chapter-40",
+        "href": "chapter-0041.xhtml",
+        "title": "Chapter XL. Nemesis at Last"
+      },
+      {
+        "path": "part-2/chapter-41",
+        "href": "chapter-0042.xhtml",
+        "title": "Chapter XLI. Mr. Playmore in a New Character"
+      },
+      {
+        "path": "part-2/chapter-42",
+        "href": "chapter-0043.xhtml",
+        "title": "Chapter XLII. More Surprises"
+      },
+      {
+        "path": "part-2/chapter-43",
+        "href": "chapter-0044.xhtml",
+        "title": "Chapter XLIII. At Last!"
+      },
+      {
+        "path": "part-2/chapter-44",
+        "href": "chapter-0045.xhtml",
+        "title": "Chapter XLIV. Our New Honeymoon"
+      },
+      {
+        "path": "part-2/chapter-45",
+        "href": "chapter-0046.xhtml",
+        "title": "Chapter XLV. The Dust-Heap Disturbed"
+      },
+      {
+        "path": "part-2/chapter-46",
+        "href": "chapter-0047.xhtml",
+        "title": "Chapter XLVI. The Crisis Deferred"
+      },
+      {
+        "path": "part-2/chapter-47",
+        "href": "chapter-0048.xhtml",
+        "title": "Chapter XLVII. The Wife’s Confession"
+      },
+      {
+        "path": "part-2/chapter-48",
+        "href": "chapter-0049.xhtml",
+        "title": "Chapter XLVIII. What Else Could I Do?"
+      },
+      {
+        "path": "part-2/chapter-49",
+        "href": "chapter-0050.xhtml",
+        "title": "Chapter XLIX. Past and Future"
+      },
+      {
+        "path": "part-2/chapter-50",
+        "href": "chapter-0051.xhtml",
+        "title": "Chapter L. The Last of the Story"
+      }
+    ],
+    "bytes": 2144666
+  },
+  "collins_the-moonstone_eng": {
+    "source_sha256": "0e954712d1f46510b5aad40b1fc283a590888878a0c1f7be6e9efbbbd548a179",
+    "href": "/downloads/epub/collins/collins_the-moonstone_eng.epub",
+    "revision": "eb6bf731130cda59e489747e99af2301482ce7b36eac78758816e079cc2540a5",
+    "language": "en",
+    "sections": [
+      {
+        "path": "prologue-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Prologue. The Storming of Seringapatam (1799)"
+      },
+      {
+        "path": "part-1/chapter-1",
+        "href": "chapter-0002.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-1/chapter-2",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-1/chapter-3",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-1/chapter-4",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-1/chapter-5",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-1/chapter-6",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-1/chapter-7",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-1/chapter-8",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-1/chapter-9",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-1/chapter-10",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "part-1/chapter-11",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter XI"
+      },
+      {
+        "path": "part-1/chapter-12",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XII"
+      },
+      {
+        "path": "part-1/chapter-13",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XIII"
+      },
+      {
+        "path": "part-1/chapter-14",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XIV"
+      },
+      {
+        "path": "part-1/chapter-15",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XV"
+      },
+      {
+        "path": "part-1/chapter-16",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XVI"
+      },
+      {
+        "path": "part-1/chapter-17",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter XVII"
+      },
+      {
+        "path": "part-1/chapter-18",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter XVIII"
+      },
+      {
+        "path": "part-1/chapter-19",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter XIX"
+      },
+      {
+        "path": "part-1/chapter-20",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter XX"
+      },
+      {
+        "path": "part-1/chapter-21",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter XXI"
+      },
+      {
+        "path": "part-1/chapter-22",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter XXII"
+      },
+      {
+        "path": "part-1/chapter-23",
+        "href": "chapter-0024.xhtml",
+        "title": "Chapter XXIII"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-1",
+        "href": "chapter-0025.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-2",
+        "href": "chapter-0026.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-3",
+        "href": "chapter-0027.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-4",
+        "href": "chapter-0028.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-5",
+        "href": "chapter-0029.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-6",
+        "href": "chapter-0030.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-7",
+        "href": "chapter-0031.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-8",
+        "href": "chapter-0032.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-2/narrative-02/chapter-1",
+        "href": "chapter-0033.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-2/narrative-02/chapter-2",
+        "href": "chapter-0034.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-2/narrative-02/chapter-3",
+        "href": "chapter-0035.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-1",
+        "href": "chapter-0036.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-2",
+        "href": "chapter-0037.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-3",
+        "href": "chapter-0038.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-4",
+        "href": "chapter-0039.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-5",
+        "href": "chapter-0040.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-6",
+        "href": "chapter-0041.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-7",
+        "href": "chapter-0042.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-8",
+        "href": "chapter-0043.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-9",
+        "href": "chapter-0044.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-10",
+        "href": "chapter-0045.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "part-2/chapter-1",
+        "href": "chapter-0046.xhtml",
+        "title": "Fourth Narrative"
+      },
+      {
+        "path": "part-2/chapter-2",
+        "href": "chapter-0047.xhtml",
+        "title": "Fifth Narrative"
+      },
+      {
+        "path": "part-2/chapter-3",
+        "href": "chapter-0048.xhtml",
+        "title": "Sixth Narrative"
+      },
+      {
+        "path": "part-2/chapter-4",
+        "href": "chapter-0049.xhtml",
+        "title": "Seventh Narrative"
+      },
+      {
+        "path": "part-2/chapter-5",
+        "href": "chapter-0050.xhtml",
+        "title": "Eighth Narrative"
+      },
+      {
+        "path": "epilogue-01/chapter-1",
+        "href": "chapter-0051.xhtml",
+        "title": "Chapter I. The Statement of Sergeant Cuff’s Man (1849)"
+      },
+      {
+        "path": "epilogue-01/chapter-2",
+        "href": "chapter-0052.xhtml",
+        "title": "Chapter II. The Statement of the Captain (1849)"
+      },
+      {
+        "path": "epilogue-01/chapter-3",
+        "href": "chapter-0053.xhtml",
+        "title": "Chapter III. The Statement of Mr. Murthwaite (1850)"
+      }
+    ],
+    "bytes": 2178892
+  },
+  "collins_the-woman-in-white_eng": {
+    "source_sha256": "8015a9b8dcd2b5d6458a9ef963bffb0edba01d4ef3d912906295859720181052",
+    "href": "/downloads/epub/collins/collins_the-woman-in-white_eng.epub",
+    "revision": "9c9ed9b8db7b9a9a5208a765aedc6f09948b557b65cc72712932772089938e5c",
+    "language": "en",
+    "sections": [
+      {
+        "path": "dedication-01",
+        "href": "chapter-0001.xhtml",
+        "title": "Dedication"
+      },
+      {
+        "path": "preface-01",
+        "href": "chapter-0002.xhtml",
+        "title": "Preface to the Present Edition"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-1",
+        "href": "chapter-0003.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-2",
+        "href": "chapter-0004.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-3",
+        "href": "chapter-0005.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-4",
+        "href": "chapter-0006.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-5",
+        "href": "chapter-0007.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-6",
+        "href": "chapter-0008.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-7",
+        "href": "chapter-0009.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-8",
+        "href": "chapter-0010.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-9",
+        "href": "chapter-0011.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-10",
+        "href": "chapter-0012.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-11",
+        "href": "chapter-0013.xhtml",
+        "title": "Chapter XI"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-12",
+        "href": "chapter-0014.xhtml",
+        "title": "Chapter XII"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-13",
+        "href": "chapter-0015.xhtml",
+        "title": "Chapter XIII"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-14",
+        "href": "chapter-0016.xhtml",
+        "title": "Chapter XIV"
+      },
+      {
+        "path": "part-1/narrative-01/chapter-15",
+        "href": "chapter-0017.xhtml",
+        "title": "Chapter XV"
+      },
+      {
+        "path": "part-1/narrative-02/chapter-1",
+        "href": "chapter-0018.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-1/narrative-02/chapter-2",
+        "href": "chapter-0019.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-1/narrative-02/chapter-3",
+        "href": "chapter-0020.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-1/narrative-02/chapter-4",
+        "href": "chapter-0021.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-1/narrative-03/chapter-1",
+        "href": "chapter-0022.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-1/narrative-03/chapter-2",
+        "href": "chapter-0023.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-1",
+        "href": "chapter-0024.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-2",
+        "href": "chapter-0025.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-3",
+        "href": "chapter-0026.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-4",
+        "href": "chapter-0027.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-5",
+        "href": "chapter-0028.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-6",
+        "href": "chapter-0029.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-7",
+        "href": "chapter-0030.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-8",
+        "href": "chapter-0031.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-9",
+        "href": "chapter-0032.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-2/narrative-01/chapter-10",
+        "href": "chapter-0033.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "part-2/chapter-1",
+        "href": "chapter-0034.xhtml",
+        "title": "The Story Continued by Frederick Fairlie, Esq., Of Limmeridge HouseThe manner in which Mr. Fairlie’s Narrative, and other Narratives that are shortly to follow it, were originally…"
+      },
+      {
+        "path": "part-2/narrative-02/chapter-1",
+        "href": "chapter-0035.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-2/narrative-02/chapter-2",
+        "href": "chapter-0036.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-1",
+        "href": "chapter-0037.xhtml",
+        "title": "Chapter I. The Narrative of Hester Pinhorn, Cook in the Service of Count Fosco"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-2",
+        "href": "chapter-0038.xhtml",
+        "title": "Chapter II. The Narrative of the Doctor"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-3",
+        "href": "chapter-0039.xhtml",
+        "title": "Chapter III. The Narrative of Jane Gould"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-4",
+        "href": "chapter-0040.xhtml",
+        "title": "Chapter IV. The Narrative of the Tombstone"
+      },
+      {
+        "path": "part-2/narrative-03/chapter-5",
+        "href": "chapter-0041.xhtml",
+        "title": "Chapter V. The Narrative of Walter Hartright"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-1",
+        "href": "chapter-0042.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-2",
+        "href": "chapter-0043.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-3",
+        "href": "chapter-0044.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-4",
+        "href": "chapter-0045.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-5",
+        "href": "chapter-0046.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-6",
+        "href": "chapter-0047.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-7",
+        "href": "chapter-0048.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-8",
+        "href": "chapter-0049.xhtml",
+        "title": "Chapter VIII"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-9",
+        "href": "chapter-0050.xhtml",
+        "title": "Chapter IX"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-10",
+        "href": "chapter-0051.xhtml",
+        "title": "Chapter X"
+      },
+      {
+        "path": "part-3/narrative-01/chapter-11",
+        "href": "chapter-0052.xhtml",
+        "title": "Chapter XI"
+      },
+      {
+        "path": "part-3/narrative-02/chapter-1",
+        "href": "chapter-0053.xhtml",
+        "title": "Chapter 1"
+      },
+      {
+        "path": "part-3/narrative-03/chapter-1",
+        "href": "chapter-0054.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-3/narrative-03/chapter-2",
+        "href": "chapter-0055.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-3/narrative-03/chapter-3",
+        "href": "chapter-0056.xhtml",
+        "title": "Chapter III"
+      },
+      {
+        "path": "part-3/narrative-03/chapter-4",
+        "href": "chapter-0057.xhtml",
+        "title": "Chapter IV"
+      },
+      {
+        "path": "part-3/narrative-03/chapter-5",
+        "href": "chapter-0058.xhtml",
+        "title": "Chapter V"
+      },
+      {
+        "path": "part-3/narrative-03/chapter-6",
+        "href": "chapter-0059.xhtml",
+        "title": "Chapter VI"
+      },
+      {
+        "path": "part-3/narrative-03/chapter-7",
+        "href": "chapter-0060.xhtml",
+        "title": "Chapter VII"
+      },
+      {
+        "path": "part-3/narrative-04/chapter-1",
+        "href": "chapter-0061.xhtml",
+        "title": "The Count’s Narrative"
+      },
+      {
+        "path": "part-3/narrative-05/chapter-1",
+        "href": "chapter-0062.xhtml",
+        "title": "Chapter I"
+      },
+      {
+        "path": "part-3/narrative-05/chapter-2",
+        "href": "chapter-0063.xhtml",
+        "title": "Chapter II"
+      },
+      {
+        "path": "part-3/narrative-05/chapter-3",
+        "href": "chapter-0064.xhtml",
+        "title": "Chapter III"
+      }
+    ],
+    "bytes": 2302394
   }
 }

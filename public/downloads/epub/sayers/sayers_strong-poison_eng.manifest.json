@@ -1,0 +1,124 @@
+{
+  "source_sha256": "be1df88c6c595a7d9ff01a7341249d3036bb3aeaec857c597c2004749014053e",
+  "href": "/downloads/epub/sayers/sayers_strong-poison_eng.epub",
+  "revision": "d62c8dd29568b9d4026930ef3340e8ec964c41b446ebe4913851999d72dcc776",
+  "language": "en",
+  "sections": [
+    {
+      "path": "chapter-1",
+      "href": "chapter-0001.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "chapter-2",
+      "href": "chapter-0002.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "chapter-3",
+      "href": "chapter-0003.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "chapter-4",
+      "href": "chapter-0004.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "chapter-5",
+      "href": "chapter-0005.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "chapter-6",
+      "href": "chapter-0006.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "chapter-7",
+      "href": "chapter-0007.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "chapter-8",
+      "href": "chapter-0008.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "chapter-9",
+      "href": "chapter-0009.xhtml",
+      "title": "Chapter IX"
+    },
+    {
+      "path": "chapter-10",
+      "href": "chapter-0010.xhtml",
+      "title": "Chapter X"
+    },
+    {
+      "path": "chapter-11",
+      "href": "chapter-0011.xhtml",
+      "title": "Chapter XI"
+    },
+    {
+      "path": "chapter-12",
+      "href": "chapter-0012.xhtml",
+      "title": "Chapter XII"
+    },
+    {
+      "path": "chapter-13",
+      "href": "chapter-0013.xhtml",
+      "title": "Chapter XIII"
+    },
+    {
+      "path": "chapter-14",
+      "href": "chapter-0014.xhtml",
+      "title": "Chapter XIV"
+    },
+    {
+      "path": "chapter-15",
+      "href": "chapter-0015.xhtml",
+      "title": "Chapter XV"
+    },
+    {
+      "path": "chapter-16",
+      "href": "chapter-0016.xhtml",
+      "title": "Chapter XVI"
+    },
+    {
+      "path": "chapter-17",
+      "href": "chapter-0017.xhtml",
+      "title": "Chapter XVII"
+    },
+    {
+      "path": "chapter-18",
+      "href": "chapter-0018.xhtml",
+      "title": "Chapter XVIII"
+    },
+    {
+      "path": "chapter-19",
+      "href": "chapter-0019.xhtml",
+      "title": "Chapter XIX"
+    },
+    {
+      "path": "chapter-20",
+      "href": "chapter-0020.xhtml",
+      "title": "Chapter XX"
+    },
+    {
+      "path": "chapter-21",
+      "href": "chapter-0021.xhtml",
+      "title": "Chapter XXI"
+    },
+    {
+      "path": "chapter-22",
+      "href": "chapter-0022.xhtml",
+      "title": "Chapter XXII"
+    },
+    {
+      "path": "chapter-23",
+      "href": "chapter-0023.xhtml",
+      "title": "Chapter XXIII"
+    }
+  ],
+  "bytes": 1902377
+}

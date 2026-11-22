@@ -1,0 +1,129 @@
+{
+  "source_sha256": "3576def6a358773b23f95f5ca6fcf0363933ad679ae088c0e936095db1d6c970",
+  "href": "/downloads/epub/sayers/sayers_unnatural-death_eng.epub",
+  "revision": "889dd2a712f7a4690e3d5257af5fd39f7a4e64f2b255601d4e9ef2d0f58c55e4",
+  "language": "en",
+  "sections": [
+    {
+      "path": "part-1/chapter-1",
+      "href": "chapter-0001.xhtml",
+      "title": "Chapter I. Overheard"
+    },
+    {
+      "path": "part-1/chapter-2",
+      "href": "chapter-0002.xhtml",
+      "title": "Chapter II. Miching Mallecho"
+    },
+    {
+      "path": "part-1/chapter-3",
+      "href": "chapter-0003.xhtml",
+      "title": "Chapter III. A Use for Spinsters"
+    },
+    {
+      "path": "part-1/chapter-4",
+      "href": "chapter-0004.xhtml",
+      "title": "Chapter IV. A Bit Mental"
+    },
+    {
+      "path": "part-1/chapter-5",
+      "href": "chapter-0005.xhtml",
+      "title": "Chapter V. Gossip"
+    },
+    {
+      "path": "part-1/chapter-6",
+      "href": "chapter-0006.xhtml",
+      "title": "Chapter VI. Found Dead"
+    },
+    {
+      "path": "part-1/chapter-7",
+      "href": "chapter-0007.xhtml",
+      "title": "Chapter VII. Ham and Brandy"
+    },
+    {
+      "path": "part-1/chapter-8",
+      "href": "chapter-0008.xhtml",
+      "title": "Chapter VIII. Concerning Crime"
+    },
+    {
+      "path": "part-1/chapter-9",
+      "href": "chapter-0009.xhtml",
+      "title": "Chapter IX. The Will"
+    },
+    {
+      "path": "part-2/chapter-10",
+      "href": "chapter-0010.xhtml",
+      "title": "Chapter X. The Will Again"
+    },
+    {
+      "path": "part-2/chapter-11",
+      "href": "chapter-0011.xhtml",
+      "title": "Chapter XI. Crossroads"
+    },
+    {
+      "path": "part-2/chapter-12",
+      "href": "chapter-0012.xhtml",
+      "title": "Chapter XII. A Tale of Two Spinsters"
+    },
+    {
+      "path": "part-2/chapter-13",
+      "href": "chapter-0013.xhtml",
+      "title": "Chapter XIII. Hallelujah"
+    },
+    {
+      "path": "part-2/chapter-14",
+      "href": "chapter-0014.xhtml",
+      "title": "Chapter XIV. Sharp Quillets of the Law"
+    },
+    {
+      "path": "part-2/chapter-15",
+      "href": "chapter-0015.xhtml",
+      "title": "Chapter XV. Temptation of St. Peter"
+    },
+    {
+      "path": "part-2/chapter-16",
+      "href": "chapter-0016.xhtml",
+      "title": "Chapter XVI. A Cast-Iron Alibi"
+    },
+    {
+      "path": "part-2/chapter-17",
+      "href": "chapter-0017.xhtml",
+      "title": "Chapter XVII. The Country Lawyer’s Story"
+    },
+    {
+      "path": "part-2/chapter-18",
+      "href": "chapter-0018.xhtml",
+      "title": "Chapter XVIII. The London Lawyer’s Story"
+    },
+    {
+      "path": "part-3/chapter-19",
+      "href": "chapter-0019.xhtml",
+      "title": "Chapter XIX. Gone Away"
+    },
+    {
+      "path": "part-3/chapter-20",
+      "href": "chapter-0020.xhtml",
+      "title": "Chapter XX. Murder"
+    },
+    {
+      "path": "part-3/chapter-21",
+      "href": "chapter-0021.xhtml",
+      "title": "Chapter XXI. By What Means?"
+    },
+    {
+      "path": "part-3/chapter-22",
+      "href": "chapter-0022.xhtml",
+      "title": "Chapter XXII. A Case of Conscience"
+    },
+    {
+      "path": "part-3/chapter-23",
+      "href": "chapter-0023.xhtml",
+      "title": "Chapter XXIII. —And Smote Him, Thus"
+    },
+    {
+      "path": "appendix-01",
+      "href": "chapter-0024.xhtml",
+      "title": "Genealogical Table"
+    }
+  ],
+  "bytes": 2195012
+}

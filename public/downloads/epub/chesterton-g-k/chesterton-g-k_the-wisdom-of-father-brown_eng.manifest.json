@@ -1,0 +1,74 @@
+{
+  "source_sha256": "f07903a97b2e1f23abb913a638a034853a038103b427abd0f035e6417cde69e5",
+  "href": "/downloads/epub/chesterton-g-k/chesterton-g-k_the-wisdom-of-father-brown_eng.epub",
+  "revision": "1ac668b7c98993a7c6a9dda7b4064ccb836154fcb413a6089f7a25bbcf578726",
+  "language": "en",
+  "sections": [
+    {
+      "path": "dedication-01",
+      "href": "chapter-0001.xhtml",
+      "title": "Dedication"
+    },
+    {
+      "path": "story-1",
+      "href": "chapter-0002.xhtml",
+      "title": "The Absence of Mr. Glass"
+    },
+    {
+      "path": "story-2",
+      "href": "chapter-0003.xhtml",
+      "title": "The Paradise of Thieves"
+    },
+    {
+      "path": "story-3",
+      "href": "chapter-0004.xhtml",
+      "title": "The Duel of Dr. Hirsch"
+    },
+    {
+      "path": "story-4",
+      "href": "chapter-0005.xhtml",
+      "title": "The Man in the Passage"
+    },
+    {
+      "path": "story-5",
+      "href": "chapter-0006.xhtml",
+      "title": "The Mistake of the Machine"
+    },
+    {
+      "path": "story-6",
+      "href": "chapter-0007.xhtml",
+      "title": "The Head of Caesar"
+    },
+    {
+      "path": "story-7",
+      "href": "chapter-0008.xhtml",
+      "title": "The Purple Wig"
+    },
+    {
+      "path": "story-8",
+      "href": "chapter-0009.xhtml",
+      "title": "The Perishing of the Pendragons"
+    },
+    {
+      "path": "story-9",
+      "href": "chapter-0010.xhtml",
+      "title": "The God of the Gongs"
+    },
+    {
+      "path": "story-10",
+      "href": "chapter-0011.xhtml",
+      "title": "The Salad of Colonel Cray"
+    },
+    {
+      "path": "story-11",
+      "href": "chapter-0012.xhtml",
+      "title": "The Strange Crime of John Boulnois"
+    },
+    {
+      "path": "story-12",
+      "href": "chapter-0013.xhtml",
+      "title": "The Fairy Tale of Father Brown"
+    }
+  ],
+  "bytes": 1872725
+}

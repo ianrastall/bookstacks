@@ -1,0 +1,329 @@
+{
+  "source_sha256": "8015a9b8dcd2b5d6458a9ef963bffb0edba01d4ef3d912906295859720181052",
+  "href": "/downloads/epub/collins/collins_the-woman-in-white_eng.epub",
+  "revision": "9c9ed9b8db7b9a9a5208a765aedc6f09948b557b65cc72712932772089938e5c",
+  "language": "en",
+  "sections": [
+    {
+      "path": "dedication-01",
+      "href": "chapter-0001.xhtml",
+      "title": "Dedication"
+    },
+    {
+      "path": "preface-01",
+      "href": "chapter-0002.xhtml",
+      "title": "Preface to the Present Edition"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-1",
+      "href": "chapter-0003.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-2",
+      "href": "chapter-0004.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-3",
+      "href": "chapter-0005.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-4",
+      "href": "chapter-0006.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-5",
+      "href": "chapter-0007.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-6",
+      "href": "chapter-0008.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-7",
+      "href": "chapter-0009.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-8",
+      "href": "chapter-0010.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-9",
+      "href": "chapter-0011.xhtml",
+      "title": "Chapter IX"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-10",
+      "href": "chapter-0012.xhtml",
+      "title": "Chapter X"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-11",
+      "href": "chapter-0013.xhtml",
+      "title": "Chapter XI"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-12",
+      "href": "chapter-0014.xhtml",
+      "title": "Chapter XII"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-13",
+      "href": "chapter-0015.xhtml",
+      "title": "Chapter XIII"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-14",
+      "href": "chapter-0016.xhtml",
+      "title": "Chapter XIV"
+    },
+    {
+      "path": "part-1/narrative-01/chapter-15",
+      "href": "chapter-0017.xhtml",
+      "title": "Chapter XV"
+    },
+    {
+      "path": "part-1/narrative-02/chapter-1",
+      "href": "chapter-0018.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-1/narrative-02/chapter-2",
+      "href": "chapter-0019.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-1/narrative-02/chapter-3",
+      "href": "chapter-0020.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-1/narrative-02/chapter-4",
+      "href": "chapter-0021.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-1/narrative-03/chapter-1",
+      "href": "chapter-0022.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-1/narrative-03/chapter-2",
+      "href": "chapter-0023.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-1",
+      "href": "chapter-0024.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-2",
+      "href": "chapter-0025.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-3",
+      "href": "chapter-0026.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-4",
+      "href": "chapter-0027.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-5",
+      "href": "chapter-0028.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-6",
+      "href": "chapter-0029.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-7",
+      "href": "chapter-0030.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-8",
+      "href": "chapter-0031.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-9",
+      "href": "chapter-0032.xhtml",
+      "title": "Chapter IX"
+    },
+    {
+      "path": "part-2/narrative-01/chapter-10",
+      "href": "chapter-0033.xhtml",
+      "title": "Chapter X"
+    },
+    {
+      "path": "part-2/chapter-1",
+      "href": "chapter-0034.xhtml",
+      "title": "The Story Continued by Frederick Fairlie, Esq., Of Limmeridge HouseThe manner in which Mr. Fairlie’s Narrative, and other Narratives that are shortly to follow it, were originally…"
+    },
+    {
+      "path": "part-2/narrative-02/chapter-1",
+      "href": "chapter-0035.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-2/narrative-02/chapter-2",
+      "href": "chapter-0036.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-2/narrative-03/chapter-1",
+      "href": "chapter-0037.xhtml",
+      "title": "Chapter I. The Narrative of Hester Pinhorn, Cook in the Service of Count Fosco"
+    },
+    {
+      "path": "part-2/narrative-03/chapter-2",
+      "href": "chapter-0038.xhtml",
+      "title": "Chapter II. The Narrative of the Doctor"
+    },
+    {
+      "path": "part-2/narrative-03/chapter-3",
+      "href": "chapter-0039.xhtml",
+      "title": "Chapter III. The Narrative of Jane Gould"
+    },
+    {
+      "path": "part-2/narrative-03/chapter-4",
+      "href": "chapter-0040.xhtml",
+      "title": "Chapter IV. The Narrative of the Tombstone"
+    },
+    {
+      "path": "part-2/narrative-03/chapter-5",
+      "href": "chapter-0041.xhtml",
+      "title": "Chapter V. The Narrative of Walter Hartright"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-1",
+      "href": "chapter-0042.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-2",
+      "href": "chapter-0043.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-3",
+      "href": "chapter-0044.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-4",
+      "href": "chapter-0045.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-5",
+      "href": "chapter-0046.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-6",
+      "href": "chapter-0047.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-7",
+      "href": "chapter-0048.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-8",
+      "href": "chapter-0049.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-9",
+      "href": "chapter-0050.xhtml",
+      "title": "Chapter IX"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-10",
+      "href": "chapter-0051.xhtml",
+      "title": "Chapter X"
+    },
+    {
+      "path": "part-3/narrative-01/chapter-11",
+      "href": "chapter-0052.xhtml",
+      "title": "Chapter XI"
+    },
+    {
+      "path": "part-3/narrative-02/chapter-1",
+      "href": "chapter-0053.xhtml",
+      "title": "Chapter 1"
+    },
+    {
+      "path": "part-3/narrative-03/chapter-1",
+      "href": "chapter-0054.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-3/narrative-03/chapter-2",
+      "href": "chapter-0055.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-3/narrative-03/chapter-3",
+      "href": "chapter-0056.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-3/narrative-03/chapter-4",
+      "href": "chapter-0057.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-3/narrative-03/chapter-5",
+      "href": "chapter-0058.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-3/narrative-03/chapter-6",
+      "href": "chapter-0059.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-3/narrative-03/chapter-7",
+      "href": "chapter-0060.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-3/narrative-04/chapter-1",
+      "href": "chapter-0061.xhtml",
+      "title": "The Count’s Narrative"
+    },
+    {
+      "path": "part-3/narrative-05/chapter-1",
+      "href": "chapter-0062.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-3/narrative-05/chapter-2",
+      "href": "chapter-0063.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-3/narrative-05/chapter-3",
+      "href": "chapter-0064.xhtml",
+      "title": "Chapter III"
+    }
+  ],
+  "bytes": 2302394
+}

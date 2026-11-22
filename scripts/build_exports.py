@@ -828,7 +828,14 @@ def latex_escape(value: str) -> str:
     replacements['☛'] = r'{\bookstackssymbol ☛}'
     replacements['\u2060'] = r'\nobreak{}'
     replacements['─'] = r'{\bookstackscjksymbol ─}'
-    return "".join(replacements.get(character, character) for character in value)
+    escaped = "".join(replacements.get(character, character) for character in value)
+    # Unicode superscript/subscript digits (vulgar fractions such as ⁷⁄₆) are not in the text font.
+    escaped = re.sub('[⁰⁴-⁹]+', lambda match: r'\textsuperscript{' + match.group().translate(SUPERSCRIPT_DIGITS) + '}', escaped)
+    return re.sub('[₀-₉]+', lambda match: r'\textsubscript{' + match.group().translate(SUBSCRIPT_DIGITS) + '}', escaped)
+
+
+SUPERSCRIPT_DIGITS = str.maketrans('⁰⁴⁵⁶⁷⁸⁹', '0456789')
+SUBSCRIPT_DIGITS = str.maketrans(''.join(chr(0x2080 + digit) for digit in range(10)), '0123456789')
 
 
 def cover_tex(edition: Edition) -> str:

@@ -1,7 +1,10 @@
 # EPUB downloads and export
 
-EPUB downloads are available for A Study in Scarlet and The Chronological
-Sherlock Holmes, on their edition pages and the Downloads page. EPUB is a
+EPUB downloads are available for A Study in Scarlet, The Chronological
+Sherlock Holmes and the eighteen Standard Ebooks editions added on
+22 November 2026 (four Father Brown collections, six Lord Peter Wimsey books
+and eight Wilkie Collins novels), on their edition pages and the Downloads
+page. EPUB is a
 download format for ebook apps and devices. Online and PDF are the two site
 reading modes. The embedded EPUB component, browser script and reading links
 have been removed. Old `view=epub` links open online reading in the same edition
@@ -38,9 +41,11 @@ with edition filenames, individual manifests and a committed
 `src/data/epub-publications.json` snapshot. `--all` can explicitly export the
 corpus; it is not part of site deployment. Vite compiles the shared TEI renderer
 and its locale catalogues for this offline command. Canonical source checksums
-and EPUB checksums are verified by the site build. The pilot files are hosted
-with the website; a larger rollout should review its Pages size budget before
-deciding whether to use a separate EPUB publication repository.
+and EPUB checksums are verified by the site build. The files are hosted
+with the website. The eighteen Standard Ebooks EPUBs add about 37 MB, bringing
+`public/downloads/epub` to about 60 MB; a catalogue-wide rollout should review
+the Pages size budget before deciding whether to use a separate EPUB
+publication repository.
 
 Validate generated files using [EPUBCheck](https://github.com/w3c/epubcheck),
 then run unit tests, build the site and run browser checks. Review actual

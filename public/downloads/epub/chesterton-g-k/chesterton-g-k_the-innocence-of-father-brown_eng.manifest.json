@@ -1,0 +1,74 @@
+{
+  "source_sha256": "50fa69d37e7c5c4362df90c8c26ec825c14021409b415c80dc7a1279e52a2507",
+  "href": "/downloads/epub/chesterton-g-k/chesterton-g-k_the-innocence-of-father-brown_eng.epub",
+  "revision": "31f6b66014286dc1f7d4978bef6130aba12a92499127f513a802c031600b9ad0",
+  "language": "en",
+  "sections": [
+    {
+      "path": "dedication-01",
+      "href": "chapter-0001.xhtml",
+      "title": "Dedication"
+    },
+    {
+      "path": "story-1",
+      "href": "chapter-0002.xhtml",
+      "title": "The Blue Cross"
+    },
+    {
+      "path": "story-2",
+      "href": "chapter-0003.xhtml",
+      "title": "The Secret Garden"
+    },
+    {
+      "path": "story-3",
+      "href": "chapter-0004.xhtml",
+      "title": "The Queer Feet"
+    },
+    {
+      "path": "story-4",
+      "href": "chapter-0005.xhtml",
+      "title": "The Flying Stars"
+    },
+    {
+      "path": "story-5",
+      "href": "chapter-0006.xhtml",
+      "title": "The Invisible Man"
+    },
+    {
+      "path": "story-6",
+      "href": "chapter-0007.xhtml",
+      "title": "The Honour of Israel Gow"
+    },
+    {
+      "path": "story-7",
+      "href": "chapter-0008.xhtml",
+      "title": "The Wrong Shape"
+    },
+    {
+      "path": "story-8",
+      "href": "chapter-0009.xhtml",
+      "title": "The Sins of Prince Saradine"
+    },
+    {
+      "path": "story-9",
+      "href": "chapter-0010.xhtml",
+      "title": "The Hammer of God"
+    },
+    {
+      "path": "story-10",
+      "href": "chapter-0011.xhtml",
+      "title": "The Eye of Apollo"
+    },
+    {
+      "path": "story-11",
+      "href": "chapter-0012.xhtml",
+      "title": "The Sign of the Broken Sword"
+    },
+    {
+      "path": "story-12",
+      "href": "chapter-0013.xhtml",
+      "title": "The Three Tools of Death"
+    }
+  ],
+  "bytes": 1887569
+}

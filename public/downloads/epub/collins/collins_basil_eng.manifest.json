@@ -1,0 +1,159 @@
+{
+  "source_sha256": "5b3db03433f01b7ba30dc8a791f2dfa88948c0cad39fa46f355a2ef1770876ca",
+  "href": "/downloads/epub/collins/collins_basil_eng.epub",
+  "revision": "6389ac4dfa76a37865a64bee41d24269b6142f163ead632ba6e7bec972ab8543",
+  "language": "en",
+  "sections": [
+    {
+      "path": "dedication-01",
+      "href": "chapter-0001.xhtml",
+      "title": "Letter of Dedication. To Charles James Ward, Esq."
+    },
+    {
+      "path": "part-1/chapter-1",
+      "href": "chapter-0002.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-1/chapter-2",
+      "href": "chapter-0003.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-1/chapter-3",
+      "href": "chapter-0004.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-1/chapter-4",
+      "href": "chapter-0005.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-1/chapter-5",
+      "href": "chapter-0006.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-1/chapter-6",
+      "href": "chapter-0007.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-1/chapter-7",
+      "href": "chapter-0008.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-1/chapter-8",
+      "href": "chapter-0009.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "part-1/chapter-9",
+      "href": "chapter-0010.xhtml",
+      "title": "Chapter IX"
+    },
+    {
+      "path": "part-1/chapter-10",
+      "href": "chapter-0011.xhtml",
+      "title": "Chapter X"
+    },
+    {
+      "path": "part-1/chapter-11",
+      "href": "chapter-0012.xhtml",
+      "title": "Chapter XI"
+    },
+    {
+      "path": "part-1/chapter-12",
+      "href": "chapter-0013.xhtml",
+      "title": "Chapter XII"
+    },
+    {
+      "path": "part-2/chapter-1",
+      "href": "chapter-0014.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-2/chapter-2",
+      "href": "chapter-0015.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-2/chapter-3",
+      "href": "chapter-0016.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-2/chapter-4",
+      "href": "chapter-0017.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-2/chapter-5",
+      "href": "chapter-0018.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-2/chapter-6",
+      "href": "chapter-0019.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-2/chapter-7",
+      "href": "chapter-0020.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-3/chapter-1",
+      "href": "chapter-0021.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-3/chapter-2",
+      "href": "chapter-0022.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-3/chapter-3",
+      "href": "chapter-0023.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-3/chapter-4",
+      "href": "chapter-0024.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-3/chapter-5",
+      "href": "chapter-0025.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-3/chapter-6",
+      "href": "chapter-0026.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-3/chapter-7",
+      "href": "chapter-0027.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-3/chapter-8",
+      "href": "chapter-0028.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "chapter-1",
+      "href": "chapter-0029.xhtml",
+      "title": "Journal"
+    },
+    {
+      "path": "epilogue-01",
+      "href": "chapter-0030.xhtml",
+      "title": "Letters in Conclusion"
+    }
+  ],
+  "bytes": 1986838
+}

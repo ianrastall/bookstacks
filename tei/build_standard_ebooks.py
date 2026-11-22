@@ -37,11 +37,16 @@ OPF = {'o': 'http://www.idpf.org/2007/opf', 'dc': 'http://purl.org/dc/elements/1
 # Standard Ebooks production pages that are not part of the literary text.
 SKIPPED = {'titlepage', 'imprint', 'halftitlepage', 'toc', 'loi', 'colophon',
            'copyright-page', 'endnotes'}
-# Structural divisions: Standard Ebooks semantic type -> TEI division type.
-DIVISIONS = {'chapter': 'chapter', 'part': 'part', 'se:short-story': 'story',
-             'prologue': 'prologue', 'epilogue': 'epilogue', 'dedication': 'dedication',
+# Structural divisions: Standard Ebooks semantic type -> TEI division type, in order of precedence
+# for sections with several types ("part prologue", "chapter z3998:diary").
+DIVISIONS = {'prologue': 'prologue', 'epilogue': 'epilogue', 'dedication': 'dedication',
              'preface': 'preface', 'foreword': 'foreword', 'afterword': 'afterword',
-             'appendix': 'appendix'}
+             'appendix': 'appendix', 'se:short-story': 'story', 'chapter': 'chapter',
+             'part': 'part', 'division': 'narrative'}
+# Subchapters (z3998:subchapter) stay inside their chapter: their numerals become subheadings,
+# since a chapter can resume after them (Man and Wife, chapter LIV).
+# An untitled-type section that groups parts (Man and Wife's "The Story").
+UNTYPED_DIVISION = 'book'
 # Untitled divisions receive the conventional English label, as in other Bookstacks editions.
 DEFAULT_HEADS = {'dedication': 'Dedication', 'prologue': 'Prologue', 'epilogue': 'Epilogue',
                  'preface': 'Preface', 'foreword': 'Foreword', 'afterword': 'Afterword',
@@ -50,10 +55,28 @@ DEFAULT_HEADS = {'dedication': 'Dedication', 'prologue': 'Prologue', 'epilogue':
 TITLE_PAGE_MATTER = {'introduction', 'epigraph'}
 VERSE = {'z3998:verse', 'z3998:song', 'z3998:poem', 'z3998:hymn'}
 RIGHT_ALIGNED = {'z3998:signature', 'z3998:sender', 'se:letter.dateline'}
+ROMAN = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100}
+
+
+def roman_value(value):
+    if not re.fullmatch(r'[IVXLC]+', value):
+        return None
+    total = 0
+    for index, char in enumerate(value):
+        number = ROMAN[char]
+        total += -number if index + 1 < len(value) and ROMAN[value[index + 1]] > number else number
+    return total
+
+
+def division_kind(section):
+    kinds = types(section)
+    if not kinds and section.get('id') and local(section) in {'section', 'article'}:
+        return UNTYPED_DIVISION
+    return next((tei_type for se_type, tei_type in DIVISIONS.items() if se_type in kinds), None)
 
 
 def tei(name, text=None, **attrs):
-    node = etree.Element(f'{{{TEI}}}{name}')
+    node = etree.Element(f'{{{TEI}}}{name}', nsmap={None: TEI} if name == 'TEI' else None)
     for key, value in attrs.items():
         node.set({'xml_id': f'{{{XML}}}id', 'xml_lang': f'{{{XML}}}lang'}.get(key, key), value)
     if text is not None:
@@ -193,8 +216,12 @@ class Book:
                 rend.append('noindent')
             if 'z3998:stage-direction' in kinds:
                 rend.append('italic')
+            if 'se:bridgehead' in kinds:
+                # Place and narrator lines under a heading, centred and italic as in the source.
+                rend += ['center', 'noindent']
+                p = sub(p, 'hi', rend='italic')
             if rend:
-                p.set('rend', ' '.join(rend))
+                (p.getparent() if 'se:bridgehead' in kinds else p).set('rend', ' '.join(rend))
             self.inline(source, p)
         elif name == 'blockquote':
             self.quote(source, target)
@@ -281,7 +308,9 @@ class Book:
         caption = source.find(f'{{{XHTML}}}caption')
         if caption is not None:
             self.inline(caption, sub(table, 'head'))
-        for tr in source.iter(f'{{{XHTML}}}tr'):
+        rows = [c for c in elements(source) if local(c) == 'tr']
+        rows += [r for g in elements(source) if local(g) in {'thead', 'tbody', 'tfoot'} for r in elements(g) if local(r) == 'tr']
+        for tr in rows:
             row = sub(table, 'row')
             for td in elements(tr):
                 cell = sub(row, 'cell', role='label' if local(td) == 'th' else 'data')
@@ -303,13 +332,17 @@ class Book:
             return None, extra, header
         head = tei('head')
         parts = elements(group) if local(group) == 'hgroup' else [group]
-        kind = DIVISIONS.get(next(iter(types(section) & DIVISIONS.keys()), ''), '')
+        kind = division_kind(section)
         for index, part in enumerate(parts):
             if index:
                 strip_trailing(head)
                 append_text(head, '. ')
             if index == 0 and kind in {'chapter'} and re.fullmatch(r'[IVXLC]+', norm(''.join(part.itertext()))):
                 append_text(head, 'Chapter ')
+            if index == 0:
+                ordinal = next((node for node in part.iter() if 'z3998:ordinal' in types(node)), None)
+                if ordinal is not None and roman_value(norm(''.join(ordinal.itertext()))):
+                    head.set('n', str(roman_value(norm(''.join(ordinal.itertext())))))
             self.inline(part, head)
         for node in head.iter():
             if node.text:
@@ -320,11 +353,13 @@ class Book:
         return head, extra, (header if header is not None else group)
 
     def division(self, section, parent, registry):
-        kinds = types(section)
-        kind = DIVISIONS[next(iter(kinds & DIVISIONS.keys()))]
+        kind = division_kind(section)
         ident = section.get('id')
         div = registry.get(ident)
         if div is None:
+            # Standard Ebooks records nesting across files with data-parent.
+            if section.get('data-parent'):
+                parent = registry[section.get('data-parent')]
             div = sub(parent, 'div', type=kind, xml_id=ident)
             registry[ident] = div
             head, extra, skip = self.heading(section)
@@ -339,7 +374,7 @@ class Book:
         for child in elements(section):
             if child is skip:
                 continue
-            if local(child) in {'section', 'article'} and types(child) & DIVISIONS.keys():
+            if local(child) in {'section', 'article'} and division_kind(child):
                 self.division(child, div, registry)
             else:
                 self.block(child, div)
@@ -364,19 +399,41 @@ class Book:
                         sub(title_page, 'head', self.item_title(), type='supplied')
                     self.blocks(section, title_page)
                     continue
-                if not kinds & DIVISIONS.keys():
+                if not division_kind(section):
                     raise ValueError(f'{self.slug}: unhandled section {kinds} in {href}')
                 self.division(section, body, registry)
         for index, p in enumerate(text.iter(f'{{{TEI}}}p'), 1):
             if p.getparent().tag != f'{{{TEI}}}note':
                 p.set(f'{{{XML}}}id', f'p-{index:05d}')
+        for note in text.iter(f'{{{TEI}}}note'):
+            for index, p in enumerate(note.findall(f'{{{TEI}}}p'), 1):
+                p.set(f'{{{XML}}}id', f'{note.get(f"{{{XML}}}id")}-p{index}')
+        for div in body.iter(f'{{{TEI}}}div'):
+            # A narrative without chapters of its own is read as a chapter.
+            if div.get('type') == 'narrative' and div.find(f'.//{{{TEI}}}div[@type="chapter"]') is None:
+                div.set('type', 'chapter')
         for kind in ('chapter', 'story', 'part'):
-            divs = [d for d in body.iter(f'{{{TEI}}}div') if d.get('type') == kind]
-            for n, div in enumerate(divs, 1):
-                div.set('n', str(n))
+            groups = {}
+            for div in body.iter(f'{{{TEI}}}div'):
+                if div.get('type') == kind:
+                    groups.setdefault(div.getparent(), []).append(div)
+            for divs in groups.values():
+                # Use the source numerals when every sibling has a distinct one; otherwise count.
+                numerals = [div.findtext(f'{{{TEI}}}head[@n]') is not None and div.find(f'{{{TEI}}}head').get('n') for div in divs]
+                use_numerals = all(numerals) and len(set(numerals)) == len(numerals)
+                for n, div in enumerate(divs, 1):
+                    div.set('n', numerals[n - 1] if use_numerals else str(n))
+        for head in body.iter(f'{{{TEI}}}head'):
+            head.attrib.pop('n', None)
         counts = {kind: sum(1 for d in body.iter(f'{{{TEI}}}div') if d.get('type') == kind) for kind in self.item['units']}
         if counts != self.item['units']:
             raise ValueError(f'{self.slug}: expected {self.item["units"]}, found {counts}')
+        for node in root.iter():
+            # Standard Ebooks marks word joiners with the deprecated U+FEFF; U+2060 is the current form.
+            if isinstance(node.tag, str) and node.text:
+                node.text = node.text.replace('\ufeff', '\u2060')
+            if node.tail:
+                node.tail = node.tail.replace('\ufeff', '\u2060')
         self.verify(text)
         return etree.ElementTree(root)
 
@@ -407,7 +464,7 @@ class Book:
             append_text_before(note)
             parent.remove(note)
         produced = squash(''.join(clone.itertext()))
-        expected = squash(''.join(source))
+        expected = squash(''.join(source).replace('\ufeff', '\u2060'))
         # Bookstacks adds "Chapter" before bare chapter numerals and ". " between heading parts.
         produced = produced.replace('Chapter', '')
         expected = expected.replace('Chapter', '')
@@ -425,7 +482,7 @@ class Book:
                     anchor.getparent().remove(anchor)
             expected_notes.append(''.join(clone.itertext()))
         produced_notes = ''.join(''.join(n.itertext()) for n in text.iter(f'{{{TEI}}}note'))
-        if len(self.notes) != self.note_count or squash(''.join(expected_notes)) != squash(produced_notes):
+        if len(self.notes) != self.note_count or squash(''.join(expected_notes).replace('﻿', '⁠')) != squash(produced_notes):
             raise ValueError(f'{self.slug}: endnote mismatch')
 
     # Header ----------------------------------------------------------------

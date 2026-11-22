@@ -569,6 +569,7 @@ function parseEdition(filePath: string): ParsedEdition {
     for (const div of allDivs.filter((candidate) => directDivChildren(candidate).length === 0)) selected.add(div);
   }
 
+  const carried = carriedContainerContent(allDivs, selected);
   const segmentCache = new Map<any, string>();
   const usedPaths = new Set<string>();
   const units: ReadingUnit[] = [];
@@ -620,7 +621,7 @@ function parseEdition(filePath: string): ParsedEdition {
       segments: finalSegments,
       title,
       context,
-      html: renderDivision(div, entities, locale, `/tei/${authorSlug}`),
+      html: renderDivision(div, entities, locale, `/tei/${authorSlug}`, carried.get(div)),
       illustration: illustration && photoFile
         ? { ...illustration, photoSrc: `/tei/${authorSlug}/${photoFile}` }
         : illustration,
@@ -858,13 +859,54 @@ function divisionLabel(div: any, segmentCache: Map<any, string>, locale: Locale)
 
 const insetTypes = ['epigraph', 'epigram', 'argument'];
 
-function renderDivision(div: any, entities: EntityMaps, locale: Locale, assetBase: string): string {
+interface CarriedContent { before: Array<{ container: any; nodes: any[] }>; after: Array<{ container: any; nodes: any[] }> }
+
+/**
+ * Containers that are not reading units can hold text outside their subdivisions, such as a
+ * part epigraph or a narrator line. That text joins the reading unit next to it in document order.
+ */
+function carriedContainerContent(allDivs: any[], selected: Set<any>): Map<any, CarriedContent> {
+  const result = new Map<any, CarriedContent>();
+  const entry = (unit: any) => {
+    let value = result.get(unit);
+    if (!value) result.set(unit, value = { before: [], after: [] });
+    return value;
+  };
+  const units = (div: any) => selected.has(div)
+    ? [div]
+    : descendants(div, 'div').filter((item) => selected.has(item) && !hasSelectedAncestor(item, selected));
+  for (const container of allDivs) {
+    if (selected.has(container) || hasSelectedAncestor(container, selected) || WRAPPER_KINDS.has(kindOf(container))) continue;
+    let pending: any[] = [];
+    let previous: any;
+    for (const child of directChildNodes(container)) {
+      if (child.nodeType === 1 && child.localName === 'div') {
+        const first = units(child)[0];
+        if (first && pending.length) {
+          entry(first).before.push({ container, nodes: pending });
+          pending = [];
+        }
+        if (first) previous = child;
+      } else if (child.nodeType === 1 ? child.localName !== 'head' : cleanText(child.nodeValue)) {
+        pending.push(child);
+      }
+    }
+    const last = previous && units(previous).at(-1);
+    if (last && pending.length) entry(last).after.push({ container, nodes: pending });
+  }
+  return result;
+}
+
+function renderDivision(div: any, entities: EntityMaps, locale: Locale, assetBase: string, carried?: CarriedContent): string {
   const context: RenderContext = { locale, noteIndex: 0, assetBase };
-  let html = '';
+  const renderCarried = (groups: CarriedContent['before']) => groups.map(({ container, nodes }) =>
+    `<section class="tei-division tei-${escapeAttr(slugify(kindOf(container)))}">${nodes.map((child) => renderNode(child, entities, 2, context)).join('')}</section>`).join('');
+  let html = renderCarried(carried?.before ?? []);
   for (const child of directChildNodes(div)) {
     if (child.nodeType === 1 && child.localName === 'head') continue;
     html += renderNode(child, entities, 2, context);
   }
+  html += renderCarried(carried?.after ?? []);
   return insetTypes.includes(kindOf(div)) ? `<div class="tei-inset">${html}</div>` : html;
 }
 
@@ -1060,8 +1102,16 @@ function renderNode(node: any, entities: EntityMaps, headingLevel: number, conte
       return `<span class="tei-sic">${children()}</span>`;
     case 'corr':
       return children();
-    case 'table':
-      return `<div class="table-scroll"><table>${children()}</table></div>`;
+    case 'table': {
+      // A table's own head is its caption; HTML does not allow headings inside a table.
+      const caption = directElementChildren(node).find((child) => child.localName === 'head');
+      const rows = directChildNodes(node).filter((child) => child !== caption)
+        .map((child) => renderNode(child, entities, headingLevel, context)).join('');
+      const captionHtml = caption
+        ? `<caption>${directChildNodes(caption).map((child) => renderNode(child, entities, headingLevel, context)).join('')}</caption>`
+        : '';
+      return `<div class="table-scroll"><table>${captionHtml}${rows}</table></div>`;
+    }
     case 'row':
       return `<tr>${children()}</tr>`;
     case 'cell':

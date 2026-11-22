@@ -1,0 +1,584 @@
+{
+  "source_sha256": "cb4a4ebf26945cf76a22c9946eb74137a6aca1e9fce10921165674fcd3904ee8",
+  "href": "/downloads/epub/collins/collins_no-name_eng.epub",
+  "revision": "ca7d71409e0bc12f3a4fa94facbfb7d2fb945f6c4dc4519d8148242f3d7f6a9b",
+  "language": "en",
+  "sections": [
+    {
+      "path": "dedication-01",
+      "href": "chapter-0001.xhtml",
+      "title": "Dedication"
+    },
+    {
+      "path": "preface-01",
+      "href": "chapter-0002.xhtml",
+      "title": "Preface"
+    },
+    {
+      "path": "part-1/chapter-1",
+      "href": "chapter-0003.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-1/chapter-2",
+      "href": "chapter-0004.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-1/chapter-3",
+      "href": "chapter-0005.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-1/chapter-4",
+      "href": "chapter-0006.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-1/chapter-5",
+      "href": "chapter-0007.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-1/chapter-6",
+      "href": "chapter-0008.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-1/chapter-7",
+      "href": "chapter-0009.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-1/chapter-8",
+      "href": "chapter-0010.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "part-1/chapter-9",
+      "href": "chapter-0011.xhtml",
+      "title": "Chapter IX"
+    },
+    {
+      "path": "part-1/chapter-10",
+      "href": "chapter-0012.xhtml",
+      "title": "Chapter X"
+    },
+    {
+      "path": "part-1/chapter-11",
+      "href": "chapter-0013.xhtml",
+      "title": "Chapter XI"
+    },
+    {
+      "path": "part-1/chapter-12",
+      "href": "chapter-0014.xhtml",
+      "title": "Chapter XII"
+    },
+    {
+      "path": "part-1/chapter-13",
+      "href": "chapter-0015.xhtml",
+      "title": "Chapter XIII"
+    },
+    {
+      "path": "part-1/chapter-14",
+      "href": "chapter-0016.xhtml",
+      "title": "Chapter XIV"
+    },
+    {
+      "path": "part-1/chapter-15",
+      "href": "chapter-0017.xhtml",
+      "title": "Chapter XV"
+    },
+    {
+      "path": "part-2/chapter-1",
+      "href": "chapter-0018.xhtml",
+      "title": "Chapter I. From Norah Vanstone to Mr. Pendril"
+    },
+    {
+      "path": "part-2/chapter-2",
+      "href": "chapter-0019.xhtml",
+      "title": "Chapter II. From Miss Garth to Mr. Pendril"
+    },
+    {
+      "path": "part-2/chapter-3",
+      "href": "chapter-0020.xhtml",
+      "title": "Chapter III. From Magdalen to Norah (Enclosed in the Preceding Letter)"
+    },
+    {
+      "path": "part-2/chapter-4",
+      "href": "chapter-0021.xhtml",
+      "title": "Chapter IV. From Sergeant Bulmer (of the Detective Police) to Mr. Pendril"
+    },
+    {
+      "path": "part-2/chapter-5",
+      "href": "chapter-0022.xhtml",
+      "title": "Chapter V. Anonymous Letter Addressed to Mr. Pendril"
+    },
+    {
+      "path": "part-3/chapter-1",
+      "href": "chapter-0023.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-3/chapter-2",
+      "href": "chapter-0024.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-3/chapter-3",
+      "href": "chapter-0025.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-4/chapter-1",
+      "href": "chapter-0026.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-4/chapter-2",
+      "href": "chapter-0027.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-4/chapter-3",
+      "href": "chapter-0028.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-4/chapter-4",
+      "href": "chapter-0029.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-4/chapter-5",
+      "href": "chapter-0030.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-4/chapter-6",
+      "href": "chapter-0031.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-4/chapter-7",
+      "href": "chapter-0032.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-4/chapter-8",
+      "href": "chapter-0033.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "part-4/chapter-9",
+      "href": "chapter-0034.xhtml",
+      "title": "Chapter IX"
+    },
+    {
+      "path": "part-5/chapter-1",
+      "href": "chapter-0035.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-5/chapter-2",
+      "href": "chapter-0036.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-5/chapter-3",
+      "href": "chapter-0037.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-5/chapter-4",
+      "href": "chapter-0038.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-6/chapter-1",
+      "href": "chapter-0039.xhtml",
+      "title": "Chapter I. Extract from the Advertising Columns of the Times"
+    },
+    {
+      "path": "part-6/chapter-2",
+      "href": "chapter-0040.xhtml",
+      "title": "Chapter II. From Captain Wragge to Magdalen"
+    },
+    {
+      "path": "part-6/chapter-3",
+      "href": "chapter-0041.xhtml",
+      "title": "Chapter III. From Norah to Magdalen"
+    },
+    {
+      "path": "part-6/chapter-4",
+      "href": "chapter-0042.xhtml",
+      "title": "Chapter IV. From Miss Garth to Magdalen"
+    },
+    {
+      "path": "part-6/chapter-5",
+      "href": "chapter-0043.xhtml",
+      "title": "Chapter V. From Francis Clare, Jun., To Magdalen"
+    },
+    {
+      "path": "part-6/chapter-6",
+      "href": "chapter-0044.xhtml",
+      "title": "Chapter VI. From Francis Clare, Sen., To Magdalen"
+    },
+    {
+      "path": "part-6/chapter-7",
+      "href": "chapter-0045.xhtml",
+      "title": "Chapter VII. From Mrs. Wragge to Her Husband"
+    },
+    {
+      "path": "part-6/chapter-8",
+      "href": "chapter-0046.xhtml",
+      "title": "Chapter VIII. From Norah to Magdalen"
+    },
+    {
+      "path": "part-6/chapter-9",
+      "href": "chapter-0047.xhtml",
+      "title": "Chapter IX. From Magdalen to Norah"
+    },
+    {
+      "path": "part-6/chapter-10",
+      "href": "chapter-0048.xhtml",
+      "title": "Chapter X. From Magdalen to Miss Garth"
+    },
+    {
+      "path": "part-6/chapter-11",
+      "href": "chapter-0049.xhtml",
+      "title": "Chapter XI. From Magdalen to Captain Wragge"
+    },
+    {
+      "path": "part-6/chapter-12",
+      "href": "chapter-0050.xhtml",
+      "title": "Chapter XII. From Captain Wragge to Magdalen"
+    },
+    {
+      "path": "part-6/chapter-13",
+      "href": "chapter-0051.xhtml",
+      "title": "Chapter XIII. Extract from the East Suffolk Argus"
+    },
+    {
+      "path": "part-7/chapter-1",
+      "href": "chapter-0052.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-7/chapter-2",
+      "href": "chapter-0053.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-7/chapter-3",
+      "href": "chapter-0054.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-7/chapter-4",
+      "href": "chapter-0055.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-7/chapter-5",
+      "href": "chapter-0056.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-7/chapter-6",
+      "href": "chapter-0057.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-7/chapter-7",
+      "href": "chapter-0058.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-7/chapter-8",
+      "href": "chapter-0059.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "part-7/chapter-9",
+      "href": "chapter-0060.xhtml",
+      "title": "Chapter IX"
+    },
+    {
+      "path": "part-7/chapter-10",
+      "href": "chapter-0061.xhtml",
+      "title": "Chapter X"
+    },
+    {
+      "path": "part-7/chapter-11",
+      "href": "chapter-0062.xhtml",
+      "title": "Chapter XI"
+    },
+    {
+      "path": "part-7/chapter-12",
+      "href": "chapter-0063.xhtml",
+      "title": "Chapter XII"
+    },
+    {
+      "path": "part-7/chapter-13",
+      "href": "chapter-0064.xhtml",
+      "title": "Chapter XIII"
+    },
+    {
+      "path": "part-7/chapter-14",
+      "href": "chapter-0065.xhtml",
+      "title": "Chapter XIV"
+    },
+    {
+      "path": "part-8/chapter-1",
+      "href": "chapter-0066.xhtml",
+      "title": "Chapter I. From George Bartram to Noel Vanstone"
+    },
+    {
+      "path": "part-8/chapter-2",
+      "href": "chapter-0067.xhtml",
+      "title": "Chapter II. From Norah Vanstone to Miss Garth"
+    },
+    {
+      "path": "part-8/chapter-3",
+      "href": "chapter-0068.xhtml",
+      "title": "Chapter III. From Mr. John Loscombe (Solicitor) to George Bartram, Esq."
+    },
+    {
+      "path": "part-8/chapter-4",
+      "href": "chapter-0069.xhtml",
+      "title": "Chapter IV. From Norah Vanstone to Miss Garth"
+    },
+    {
+      "path": "part-8/chapter-5",
+      "href": "chapter-0070.xhtml",
+      "title": "Chapter V. From Mrs. Lecount to Mr. De Bleriot, General Agent, London"
+    },
+    {
+      "path": "part-8/chapter-6",
+      "href": "chapter-0071.xhtml",
+      "title": "Chapter VI. From Mr. De Bleriot to Mrs. Lecount"
+    },
+    {
+      "path": "part-8/chapter-7",
+      "href": "chapter-0072.xhtml",
+      "title": "Chapter VII. From Mr. Pendril to Norah Vanstone"
+    },
+    {
+      "path": "part-8/chapter-8",
+      "href": "chapter-0073.xhtml",
+      "title": "Chapter VIII. From Norah Vanstone to Mr. Pendril"
+    },
+    {
+      "path": "part-8/chapter-9",
+      "href": "chapter-0074.xhtml",
+      "title": "Chapter IX. From Mr. De Bleriot to Mrs. Lecount"
+    },
+    {
+      "path": "part-8/chapter-10",
+      "href": "chapter-0075.xhtml",
+      "title": "Chapter X. From Miss Garth to Mr. Pendril"
+    },
+    {
+      "path": "part-8/chapter-11",
+      "href": "chapter-0076.xhtml",
+      "title": "Chapter XI. From Mrs. Lecount to Mr. De Bleriot"
+    },
+    {
+      "path": "part-8/chapter-12",
+      "href": "chapter-0077.xhtml",
+      "title": "Chapter XII. From Mr. Pendril to Miss Garth"
+    },
+    {
+      "path": "part-8/chapter-13",
+      "href": "chapter-0078.xhtml",
+      "title": "Chapter XIII. From Mr. De Bleriot to Mrs. Lecount"
+    },
+    {
+      "path": "part-8/chapter-14",
+      "href": "chapter-0079.xhtml",
+      "title": "Chapter XIV. From Mrs. Lecount to Mr. De Bleriot"
+    },
+    {
+      "path": "part-9/chapter-1",
+      "href": "chapter-0080.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-9/chapter-2",
+      "href": "chapter-0081.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-9/chapter-3",
+      "href": "chapter-0082.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-10/chapter-1",
+      "href": "chapter-0083.xhtml",
+      "title": "Chapter I. From Mrs. Noel Vanstone to Mr. Loscombe"
+    },
+    {
+      "path": "part-10/chapter-2",
+      "href": "chapter-0084.xhtml",
+      "title": "Chapter II. From Mr. Loscombe to Mrs. Noel Vanstone"
+    },
+    {
+      "path": "part-10/chapter-3",
+      "href": "chapter-0085.xhtml",
+      "title": "Chapter III. From Mrs. Noel Vanstone to Miss Garth"
+    },
+    {
+      "path": "part-10/chapter-4",
+      "href": "chapter-0086.xhtml",
+      "title": "Chapter IV. From Mr. Loscombe to Mrs. Noel Vanstone"
+    },
+    {
+      "path": "part-10/chapter-5",
+      "href": "chapter-0087.xhtml",
+      "title": "Chapter V. From Mr. Pendril to Miss Garth"
+    },
+    {
+      "path": "part-10/chapter-6",
+      "href": "chapter-0088.xhtml",
+      "title": "Chapter VI. From Mr. Loscombe to Mrs. Noel Vanstone"
+    },
+    {
+      "path": "part-10/chapter-7",
+      "href": "chapter-0089.xhtml",
+      "title": "Chapter VII. From Mrs. Noel Vanstone to Mr. Loscombe"
+    },
+    {
+      "path": "part-10/chapter-8",
+      "href": "chapter-0090.xhtml",
+      "title": "Chapter VIII. From Mr. Loscombe to Mrs. Noel Vanstone"
+    },
+    {
+      "path": "part-10/chapter-9",
+      "href": "chapter-0091.xhtml",
+      "title": "Chapter IX. From Mrs. Noel Vanstone to Mr. Loscombe"
+    },
+    {
+      "path": "part-11/chapter-1",
+      "href": "chapter-0092.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-11/chapter-2",
+      "href": "chapter-0093.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-12/chapter-1",
+      "href": "chapter-0094.xhtml",
+      "title": "Chapter I. From Miss Garth to Mr. Pendril"
+    },
+    {
+      "path": "part-12/chapter-2",
+      "href": "chapter-0095.xhtml",
+      "title": "Chapter II. From Mr. Pendril to Miss Garth"
+    },
+    {
+      "path": "part-12/chapter-3",
+      "href": "chapter-0096.xhtml",
+      "title": "Chapter III. From Admiral Bartram to Mrs. Drake (Housekeeper at St. Crux)"
+    },
+    {
+      "path": "part-12/chapter-4",
+      "href": "chapter-0097.xhtml",
+      "title": "Chapter IV. From Mrs. Drake to Admiral Bartram"
+    },
+    {
+      "path": "part-13/chapter-1",
+      "href": "chapter-0098.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-13/chapter-2",
+      "href": "chapter-0099.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-13/chapter-3",
+      "href": "chapter-0100.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-13/chapter-4",
+      "href": "chapter-0101.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-14/chapter-1",
+      "href": "chapter-0102.xhtml",
+      "title": "Chapter I. From George Bartram to Admiral Bartram"
+    },
+    {
+      "path": "part-14/chapter-2",
+      "href": "chapter-0103.xhtml",
+      "title": "Chapter II. From George Bartram to Miss Garth"
+    },
+    {
+      "path": "part-14/chapter-3",
+      "href": "chapter-0104.xhtml",
+      "title": "Chapter III. From Miss Garth to George Bartram"
+    },
+    {
+      "path": "part-14/chapter-4",
+      "href": "chapter-0105.xhtml",
+      "title": "Chapter IV. From Mrs. Drake to George Bartram"
+    },
+    {
+      "path": "part-14/chapter-5",
+      "href": "chapter-0106.xhtml",
+      "title": "Chapter V. From George Bartram to Miss Garth"
+    },
+    {
+      "path": "part-14/chapter-6",
+      "href": "chapter-0107.xhtml",
+      "title": "Chapter VI. From Mr. Loscombe to Mrs. Noel Vanstone"
+    },
+    {
+      "path": "part-14/chapter-7",
+      "href": "chapter-0108.xhtml",
+      "title": "Chapter VII. From George Bartram to Miss Garth"
+    },
+    {
+      "path": "part-14/chapter-8",
+      "href": "chapter-0109.xhtml",
+      "title": "Chapter VIII. From Mr. Loscombe to Mrs. Noel Vanstone"
+    },
+    {
+      "path": "part-14/chapter-9",
+      "href": "chapter-0110.xhtml",
+      "title": "Chapter IX. From Mrs. Ruddock (Lodging-House Keeper) to Mr. Loscombe"
+    },
+    {
+      "path": "part-14/chapter-10",
+      "href": "chapter-0111.xhtml",
+      "title": "Chapter X. From Mr. Loscombe to Mrs. Ruddock"
+    },
+    {
+      "path": "part-15/chapter-1",
+      "href": "chapter-0112.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-15/chapter-2",
+      "href": "chapter-0113.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-15/chapter-3",
+      "href": "chapter-0114.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-15/chapter-4",
+      "href": "chapter-0115.xhtml",
+      "title": "Chapter IV"
+    }
+  ],
+  "bytes": 2393931
+}

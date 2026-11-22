@@ -98,5 +98,85 @@
     "sha256": "4d3f5218f57bc7fb7c2c705488665296efd79360a4f0981ce27c1d9e62e62482",
     "firstPublished": "1930",
     "units": { "chapter": 23 }
+  },
+  {
+    "author": "collins",
+    "authorName": "Wilkie Collins",
+    "work": "basil",
+    "epub": "wilkie-collins_basil.epub",
+    "url": "https://standardebooks.org/ebooks/wilkie-collins/basil",
+    "sha256": "d7a22e15afcd5583d1433d798e573a6ce802a0037f989fef7055cc5e296f433a",
+    "firstPublished": "1852",
+    "units": { "part": 3, "chapter": 28 }
+  },
+  {
+    "author": "collins",
+    "authorName": "Wilkie Collins",
+    "work": "the-dead-secret",
+    "epub": "wilkie-collins_the-dead-secret.epub",
+    "url": "https://standardebooks.org/ebooks/wilkie-collins/the-dead-secret",
+    "sha256": "3c1863eca70d3f5bf4f868125f5f74154c12bb80b660141081975d000bd86c53",
+    "firstPublished": "1857",
+    "units": { "part": 6, "chapter": 29 }
+  },
+  {
+    "author": "collins",
+    "authorName": "Wilkie Collins",
+    "work": "the-woman-in-white",
+    "epub": "wilkie-collins_the-woman-in-white.epub",
+    "url": "https://standardebooks.org/ebooks/wilkie-collins/the-woman-in-white",
+    "sha256": "2c8fe08a2519a23e0f358b35cf5653fd56acca8b8ff6827f3224e34003599520",
+    "firstPublished": "1860",
+    "units": { "part": 3, "chapter": 62 }
+  },
+  {
+    "author": "collins",
+    "authorName": "Wilkie Collins",
+    "work": "no-name",
+    "epub": "wilkie-collins_no-name.epub",
+    "url": "https://standardebooks.org/ebooks/wilkie-collins/no-name",
+    "sha256": "40db0f38c9e0aa5a35a11542876e7bff57a9e336928c63ba37f05e89f073d0d9",
+    "firstPublished": "1862",
+    "units": { "part": 15, "chapter": 113 }
+  },
+  {
+    "author": "collins",
+    "authorName": "Wilkie Collins",
+    "work": "the-moonstone",
+    "epub": "wilkie-collins_the-moonstone.epub",
+    "url": "https://standardebooks.org/ebooks/wilkie-collins/the-moonstone",
+    "sha256": "cee677a13816bf7fb0d9d45a686d5b7f743fa89c05dc6598a2e1b17840b3360f",
+    "firstPublished": "1868",
+    "units": { "part": 2, "chapter": 52 }
+  },
+  {
+    "author": "collins",
+    "authorName": "Wilkie Collins",
+    "work": "man-and-wife",
+    "epub": "wilkie-collins_man-and-wife.epub",
+    "url": "https://standardebooks.org/ebooks/wilkie-collins/man-and-wife",
+    "sha256": "51b5f15a1846aa788d224c286955c74f1ca3bb67b5863351e61f79adb184b8be",
+    "firstPublished": "1870",
+    "units": { "part": 16, "chapter": 61 }
+  },
+  {
+    "author": "collins",
+    "authorName": "Wilkie Collins",
+    "work": "the-law-and-the-lady",
+    "epub": "wilkie-collins_the-law-and-the-lady.epub",
+    "url": "https://standardebooks.org/ebooks/wilkie-collins/the-law-and-the-lady",
+    "sha256": "a7b440c3b3a7222ebe4ed8c59d65488646906a47d570d0a3bbd4ad3adcece1fa",
+    "firstPublished": "1875",
+    "units": { "part": 2, "chapter": 50 }
+  },
+  {
+    "author": "collins",
+    "authorName": "Wilkie Collins",
+    "work": "the-haunted-hotel",
+    "epub": "wilkie-collins_the-haunted-hotel.epub",
+    "url": "https://standardebooks.org/ebooks/wilkie-collins/the-haunted-hotel",
+    "sha256": "7344a61a1907db97cb4ca35072c1b14e69c4076e6a8087c4e173dec3e37439a2",
+    "firstPublished": "1878",
+    "units": { "part": 4, "chapter": 28 }
   }
 ]

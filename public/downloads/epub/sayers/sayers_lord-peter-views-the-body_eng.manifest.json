@@ -1,0 +1,74 @@
+{
+  "source_sha256": "5729e5e51b5fb2dc6958c7da2bd7e0fa3e56f3ae425a5bcd1cb6c85c03552036",
+  "href": "/downloads/epub/sayers/sayers_lord-peter-views-the-body_eng.epub",
+  "revision": "21b9a157a3b27dd7368fc214bebf7214ffb56b7dc0996be46fa6c1ffcb6a5a43",
+  "language": "en",
+  "sections": [
+    {
+      "path": "story-1",
+      "href": "chapter-0001.xhtml",
+      "title": "The Abominable History of the Man with Copper Fingers"
+    },
+    {
+      "path": "story-2",
+      "href": "chapter-0002.xhtml",
+      "title": "The Entertaining Episode of the Article in Question"
+    },
+    {
+      "path": "story-3",
+      "href": "chapter-0003.xhtml",
+      "title": "The Fascinating Problem of Uncle Meleager’s Will"
+    },
+    {
+      "path": "story-4",
+      "href": "chapter-0004.xhtml",
+      "title": "The Fantastic Horror of the Cat in the Bag"
+    },
+    {
+      "path": "story-5",
+      "href": "chapter-0005.xhtml",
+      "title": "The Unprincipled Affair of the Practical Joker"
+    },
+    {
+      "path": "story-6",
+      "href": "chapter-0006.xhtml",
+      "title": "The Undignified Melodrama of the Bone of Contention"
+    },
+    {
+      "path": "story-7",
+      "href": "chapter-0007.xhtml",
+      "title": "The Vindictive Story of the Footsteps That Ran"
+    },
+    {
+      "path": "story-8",
+      "href": "chapter-0008.xhtml",
+      "title": "The Bibulous Business of a Matter of Taste"
+    },
+    {
+      "path": "story-9",
+      "href": "chapter-0009.xhtml",
+      "title": "The Learned Adventure of the Dragon’s Head"
+    },
+    {
+      "path": "story-10",
+      "href": "chapter-0010.xhtml",
+      "title": "The Piscatorial Farce of the Stolen Stomach"
+    },
+    {
+      "path": "story-11",
+      "href": "chapter-0011.xhtml",
+      "title": "The Unsolved Puzzle of the Man with No Face"
+    },
+    {
+      "path": "story-12",
+      "href": "chapter-0012.xhtml",
+      "title": "The Adventurous Exploit of the Cave of Ali Baba"
+    },
+    {
+      "path": "afterword-01",
+      "href": "chapter-0013.xhtml",
+      "title": "Solution to the Crossword in Uncle Mealager’s Will"
+    }
+  ],
+  "bytes": 2916228
+}

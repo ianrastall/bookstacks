@@ -1,0 +1,159 @@
+{
+  "source_sha256": "c34eb61e3bd616bca44a6cc096a7d4ad129eb9de1d81c7d0fd0ac4407c8d1d81",
+  "href": "/downloads/epub/collins/collins_the-haunted-hotel_eng.epub",
+  "revision": "23feb0ad55e12f302f90942f968b170a3c64d544a160020b60213ad06793e9a5",
+  "language": "en",
+  "sections": [
+    {
+      "path": "dedication-01",
+      "href": "chapter-0001.xhtml",
+      "title": "Dedication"
+    },
+    {
+      "path": "part-1/chapter-1",
+      "href": "chapter-0002.xhtml",
+      "title": "Chapter I"
+    },
+    {
+      "path": "part-1/chapter-2",
+      "href": "chapter-0003.xhtml",
+      "title": "Chapter II"
+    },
+    {
+      "path": "part-1/chapter-3",
+      "href": "chapter-0004.xhtml",
+      "title": "Chapter III"
+    },
+    {
+      "path": "part-1/chapter-4",
+      "href": "chapter-0005.xhtml",
+      "title": "Chapter IV"
+    },
+    {
+      "path": "part-2/chapter-5",
+      "href": "chapter-0006.xhtml",
+      "title": "Chapter V"
+    },
+    {
+      "path": "part-2/chapter-6",
+      "href": "chapter-0007.xhtml",
+      "title": "Chapter VI"
+    },
+    {
+      "path": "part-2/chapter-7",
+      "href": "chapter-0008.xhtml",
+      "title": "Chapter VII"
+    },
+    {
+      "path": "part-2/chapter-8",
+      "href": "chapter-0009.xhtml",
+      "title": "Chapter VIII"
+    },
+    {
+      "path": "part-2/chapter-9",
+      "href": "chapter-0010.xhtml",
+      "title": "Chapter IX"
+    },
+    {
+      "path": "part-2/chapter-10",
+      "href": "chapter-0011.xhtml",
+      "title": "Chapter X"
+    },
+    {
+      "path": "part-2/chapter-11",
+      "href": "chapter-0012.xhtml",
+      "title": "Chapter XI"
+    },
+    {
+      "path": "part-2/chapter-12",
+      "href": "chapter-0013.xhtml",
+      "title": "Chapter XII"
+    },
+    {
+      "path": "part-3/chapter-13",
+      "href": "chapter-0014.xhtml",
+      "title": "Chapter XIII"
+    },
+    {
+      "path": "part-3/chapter-14",
+      "href": "chapter-0015.xhtml",
+      "title": "Chapter XIV"
+    },
+    {
+      "path": "part-3/chapter-15",
+      "href": "chapter-0016.xhtml",
+      "title": "Chapter XV"
+    },
+    {
+      "path": "part-4/chapter-16",
+      "href": "chapter-0017.xhtml",
+      "title": "Chapter XVI"
+    },
+    {
+      "path": "part-4/chapter-17",
+      "href": "chapter-0018.xhtml",
+      "title": "Chapter XVII"
+    },
+    {
+      "path": "part-4/chapter-18",
+      "href": "chapter-0019.xhtml",
+      "title": "Chapter XVIII"
+    },
+    {
+      "path": "part-4/chapter-19",
+      "href": "chapter-0020.xhtml",
+      "title": "Chapter XIX"
+    },
+    {
+      "path": "part-4/chapter-20",
+      "href": "chapter-0021.xhtml",
+      "title": "Chapter XX"
+    },
+    {
+      "path": "part-4/chapter-21",
+      "href": "chapter-0022.xhtml",
+      "title": "Chapter XXI"
+    },
+    {
+      "path": "part-4/chapter-22",
+      "href": "chapter-0023.xhtml",
+      "title": "Chapter XXII"
+    },
+    {
+      "path": "part-4/chapter-23",
+      "href": "chapter-0024.xhtml",
+      "title": "Chapter XXIII"
+    },
+    {
+      "path": "part-4/chapter-24",
+      "href": "chapter-0025.xhtml",
+      "title": "Chapter XXIV"
+    },
+    {
+      "path": "part-4/chapter-25",
+      "href": "chapter-0026.xhtml",
+      "title": "Chapter XXV"
+    },
+    {
+      "path": "part-4/chapter-26",
+      "href": "chapter-0027.xhtml",
+      "title": "Chapter XXVI"
+    },
+    {
+      "path": "part-4/chapter-27",
+      "href": "chapter-0028.xhtml",
+      "title": "Chapter XXVII"
+    },
+    {
+      "path": "part-4/chapter-28",
+      "href": "chapter-0029.xhtml",
+      "title": "Chapter XXVIII"
+    },
+    {
+      "path": "part-4/epilogue-01",
+      "href": "chapter-0030.xhtml",
+      "title": "Postscript"
+    }
+  ],
+  "bytes": 1865879
+}

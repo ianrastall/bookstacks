@@ -23,8 +23,11 @@ it('adds the Lord Peter Wimsey books published through 1930', () => {
   expect(chapterOne.html).toContain('/tei/sayers/img/clouds-of-witness-figure-1.png');
 
   const unnatural = edition('unnatural-death');
-  expect(unnatural.units[0].title).toBe('Part I. The Medical Problem');
+  // Chapters sit inside their parts; the part epigraph opens the part's first chapter.
+  expect(unnatural.units[0].path).toBe('part-1/chapter-1');
+  expect(unnatural.units[0].context).toEqual(['Part I. The Medical Problem']);
   expect(unnatural.units[0].html).toContain('whereof it is born');
+  expect(unnatural.units[9].path).toBe('part-2/chapter-10');
   expect(unnatural.units.at(-1)!.title).toBe('Genealogical Table');
 
   const lordPeter = edition('lord-peter-views-the-body');

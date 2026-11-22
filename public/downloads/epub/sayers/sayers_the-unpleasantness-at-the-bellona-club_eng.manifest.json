@@ -1,0 +1,129 @@
+{
+  "source_sha256": "f2f3934c2f7c223f049298d7d23ecdc0f1c9f61fb89ba4696334066d39095270",
+  "href": "/downloads/epub/sayers/sayers_the-unpleasantness-at-the-bellona-club_eng.epub",
+  "revision": "f6b1bc7f8fa2d690ff590ed0dd0e3d362d5baabcd40a34350c2edbe8c72270c4",
+  "language": "en",
+  "sections": [
+    {
+      "path": "prologue-01",
+      "href": "chapter-0001.xhtml",
+      "title": "Prologue"
+    },
+    {
+      "path": "chapter-1",
+      "href": "chapter-0002.xhtml",
+      "title": "Chapter I. Old Mossy-Face"
+    },
+    {
+      "path": "chapter-2",
+      "href": "chapter-0003.xhtml",
+      "title": "Chapter II. The Queen Is Out"
+    },
+    {
+      "path": "chapter-3",
+      "href": "chapter-0004.xhtml",
+      "title": "Chapter III. Hearts Count More Than Diamonds"
+    },
+    {
+      "path": "chapter-4",
+      "href": "chapter-0005.xhtml",
+      "title": "Chapter IV. Lord Peter Leads a Club"
+    },
+    {
+      "path": "chapter-5",
+      "href": "chapter-0006.xhtml",
+      "title": "Chapter V. —And Finds the Club Suit Blocked"
+    },
+    {
+      "path": "chapter-6",
+      "href": "chapter-0007.xhtml",
+      "title": "Chapter VI. A Card of Reentry"
+    },
+    {
+      "path": "chapter-7",
+      "href": "chapter-0008.xhtml",
+      "title": "Chapter VII. The Curse of Scotland"
+    },
+    {
+      "path": "chapter-8",
+      "href": "chapter-0009.xhtml",
+      "title": "Chapter VIII. Lord Peter Leads Through Strength"
+    },
+    {
+      "path": "chapter-9",
+      "href": "chapter-0010.xhtml",
+      "title": "Chapter IX. Knave High"
+    },
+    {
+      "path": "chapter-10",
+      "href": "chapter-0011.xhtml",
+      "title": "Chapter X. Lord Peter Forces a Card"
+    },
+    {
+      "path": "chapter-11",
+      "href": "chapter-0012.xhtml",
+      "title": "Chapter XI. Lord Peter Clears Trumps"
+    },
+    {
+      "path": "chapter-12",
+      "href": "chapter-0013.xhtml",
+      "title": "Chapter XII. Lord Peter Turns a Trick"
+    },
+    {
+      "path": "chapter-13",
+      "href": "chapter-0014.xhtml",
+      "title": "Chapter XIII. Spades Are Trumps"
+    },
+    {
+      "path": "chapter-14",
+      "href": "chapter-0015.xhtml",
+      "title": "Chapter XIV. Grand Slam in Spades"
+    },
+    {
+      "path": "chapter-15",
+      "href": "chapter-0016.xhtml",
+      "title": "Chapter XV. Shuffle the Cards and Deal Again"
+    },
+    {
+      "path": "chapter-16",
+      "href": "chapter-0017.xhtml",
+      "title": "Chapter XVI. Quadrille"
+    },
+    {
+      "path": "chapter-17",
+      "href": "chapter-0018.xhtml",
+      "title": "Chapter XVII. Parker Plays a Hand"
+    },
+    {
+      "path": "chapter-18",
+      "href": "chapter-0019.xhtml",
+      "title": "Chapter XVIII. Picture-Cards"
+    },
+    {
+      "path": "chapter-19",
+      "href": "chapter-0020.xhtml",
+      "title": "Chapter XIX. Lord Peter Plays Dummy"
+    },
+    {
+      "path": "chapter-20",
+      "href": "chapter-0021.xhtml",
+      "title": "Chapter XX. Ann Dorland Goes Misère"
+    },
+    {
+      "path": "chapter-21",
+      "href": "chapter-0022.xhtml",
+      "title": "Chapter XXI. Lord Peter Calls a Bluff"
+    },
+    {
+      "path": "chapter-22",
+      "href": "chapter-0023.xhtml",
+      "title": "Chapter XXII. The Cards on the Table"
+    },
+    {
+      "path": "chapter-23",
+      "href": "chapter-0024.xhtml",
+      "title": "Chapter XXIII. Postmortem"
+    }
+  ],
+  "bytes": 1890191
+}

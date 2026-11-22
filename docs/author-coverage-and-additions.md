@@ -78,6 +78,7 @@ It is an editorial judgment, not a ranking by download counts.
 | Following | Jerome K. Jerome — `jerome-jerome-k.png` | *Three Men in a Boat* | Short comic counterweight to the existing shelf. |
 | Following | P. G. Wodehouse — `wodehouse-p-g.png` | *My Man Jeeves* | Another comic entry; source review must distinguish early eligible works from later ones. |
 | Added 22 November 2026 | Dorothy L. Sayers — `sayers-dorothy.png` | Six Lord Peter Wimsey books, 1923–1930 | See [the Standard Ebooks edition record](standard-ebooks-editions.md) for sources and the public-domain boundary. |
+| Added 22 November 2026 | Wilkie Collins — no portrait (monogram) | Eight novels, 1852–1878, including *The Woman in White* and *The Moonstone* | See [the Standard Ebooks edition record](standard-ebooks-editions.md). |
 | Following | Christopher Marlowe — `marlowe-christopher.png` | *Doctor Faustus* | Adds an Elizabethan contemporary; identify A-text/B-text rather than merging silently. |
 | Following | Samuel Taylor Coleridge — `coleridge-samuel-taylor.png` | Selected poems: *The Rime of the Ancient Mariner*, *Christabel*, *Kubla Khan* | Gothic verse adjacent to Poe, but not material for the prose-only Poe volume. |
 | Following | William Wordsworth — `wordsworth-william.png` | Selected poems or a specified *Prelude* edition | Adds Romantic poetry; do not silently combine the 1805 and 1850 *Prelude*. |
