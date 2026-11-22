@@ -492,6 +492,40 @@
       }
     ]
   },
+  "chesterton-g-k_the-incredulity-of-father-brown_eng": {
+    "source_sha256": "927a01f6a43b6b08d240e5b9d802852a3e655c82e1712c2dba86b19fd7ecdf99",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "chesterton-g-k_the-incredulity-of-father-brown_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/chesterton-g-k/chesterton-g-k_the-incredulity-of-father-brown_eng/chesterton-g-k_the-incredulity-of-father-brown_eng-light.pdf",
+        "revision": "ba36d47027f4cd167e77330331db71bc4450a6f0d784e0579b704529f6ce565c"
+      },
+      {
+        "theme": "dark",
+        "file": "chesterton-g-k_the-incredulity-of-father-brown_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/chesterton-g-k/chesterton-g-k_the-incredulity-of-father-brown_eng/chesterton-g-k_the-incredulity-of-father-brown_eng-dark.pdf",
+        "revision": "c6da37baf4734614e18234390c926790fa77407c02a1f07295bc0bc0dd659ffb"
+      }
+    ]
+  },
+  "chesterton-g-k_the-innocence-of-father-brown_eng": {
+    "source_sha256": "50fa69d37e7c5c4362df90c8c26ec825c14021409b415c80dc7a1279e52a2507",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "chesterton-g-k_the-innocence-of-father-brown_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/chesterton-g-k/chesterton-g-k_the-innocence-of-father-brown_eng/chesterton-g-k_the-innocence-of-father-brown_eng-light.pdf",
+        "revision": "a129c77c0c46fe69955506375656f005349c68f8389c45fa4f99fefdcb8efacb"
+      },
+      {
+        "theme": "dark",
+        "file": "chesterton-g-k_the-innocence-of-father-brown_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/chesterton-g-k/chesterton-g-k_the-innocence-of-father-brown_eng/chesterton-g-k_the-innocence-of-father-brown_eng-dark.pdf",
+        "revision": "2bc4ca3c3f0eab2dc982fde80006b9f92f477c8f723b4c31ee9b151f4208caac"
+      }
+    ]
+  },
   "chesterton-g-k_the-man-who-was-thursday-a-nightmare_eng": {
     "source_sha256": "96af56ac5ddb78c9aae04875ded00a79e9bb9715e4094928752ef7f33e6f75fc",
     "variants": [
@@ -506,6 +540,40 @@
         "file": "chesterton-g-k_the-man-who-was-thursday-a-nightmare_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/chesterton-g-k/chesterton-g-k_the-man-who-was-thursday-a-nightmare_eng/chesterton-g-k_the-man-who-was-thursday-a-nightmare_eng-dark.pdf",
         "revision": "67ca1b6b03621ff5d9de5e414c491ca6c2fab4f6e76903cfcab30acabe33ad1c"
+      }
+    ]
+  },
+  "chesterton-g-k_the-secret-of-father-brown_eng": {
+    "source_sha256": "5ccf3840bb40f118bcec1961b1c22a751f4f071518c000a4676a5b330a9dd5ef",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "chesterton-g-k_the-secret-of-father-brown_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/chesterton-g-k/chesterton-g-k_the-secret-of-father-brown_eng/chesterton-g-k_the-secret-of-father-brown_eng-light.pdf",
+        "revision": "f58305f2d29d3ce22551c0cb18dca5d76d9692f7683384f5268bc0d79d6fa819"
+      },
+      {
+        "theme": "dark",
+        "file": "chesterton-g-k_the-secret-of-father-brown_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/chesterton-g-k/chesterton-g-k_the-secret-of-father-brown_eng/chesterton-g-k_the-secret-of-father-brown_eng-dark.pdf",
+        "revision": "f8b179e81100738eb0ca3aae02d50071f605c95c3fe1afd8bdeb9b907c91e0d9"
+      }
+    ]
+  },
+  "chesterton-g-k_the-wisdom-of-father-brown_eng": {
+    "source_sha256": "f07903a97b2e1f23abb913a638a034853a038103b427abd0f035e6417cde69e5",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "chesterton-g-k_the-wisdom-of-father-brown_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/chesterton-g-k/chesterton-g-k_the-wisdom-of-father-brown_eng/chesterton-g-k_the-wisdom-of-father-brown_eng-light.pdf",
+        "revision": "b2edf6575993a15f4fac5f88ce748289b39a234c5e592d85f67626c0f1f3fc82"
+      },
+      {
+        "theme": "dark",
+        "file": "chesterton-g-k_the-wisdom-of-father-brown_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/chesterton-g-k/chesterton-g-k_the-wisdom-of-father-brown_eng/chesterton-g-k_the-wisdom-of-father-brown_eng-dark.pdf",
+        "revision": "a014b6d66900471dfbe789a7ce4468c1b6549f66647eb8afea266fbdfd2e9157"
       }
     ]
   },
@@ -795,6 +863,142 @@
         "file": "christie_the-seven-dials-mystery_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/christie/christie_the-seven-dials-mystery_eng/christie_the-seven-dials-mystery_eng-dark.pdf",
         "revision": "2a5bdaaae8c9d352d78150d38e21e23ecc8a9757708ead87aeb7c55bb1961ef1"
+      }
+    ]
+  },
+  "collins_basil_eng": {
+    "source_sha256": "5b3db03433f01b7ba30dc8a791f2dfa88948c0cad39fa46f355a2ef1770876ca",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "collins_basil_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_basil_eng/collins_basil_eng-light.pdf",
+        "revision": "1a426ab94b4de2c612744714713274e5c9fe14b0f22979e08942abb295a05449"
+      },
+      {
+        "theme": "dark",
+        "file": "collins_basil_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_basil_eng/collins_basil_eng-dark.pdf",
+        "revision": "0910216b58156608e02a149ed77cd4cb04bd3a0b5d0ad02c6caecf1ee6e066bf"
+      }
+    ]
+  },
+  "collins_man-and-wife_eng": {
+    "source_sha256": "dccbda54361e92cb2c43dd9a8a315a84c5fed8dc0a67069302e094bbc708410d",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "collins_man-and-wife_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_man-and-wife_eng/collins_man-and-wife_eng-light.pdf",
+        "revision": "066cee0b5fb39391faa266bf5b70e62adaf4804d77d0aa40ae07a2399c49f03e"
+      },
+      {
+        "theme": "dark",
+        "file": "collins_man-and-wife_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_man-and-wife_eng/collins_man-and-wife_eng-dark.pdf",
+        "revision": "88b9c5cd44dc35a3b437e39977099384d19d52fc0c7f93144278fbd9228e2159"
+      }
+    ]
+  },
+  "collins_no-name_eng": {
+    "source_sha256": "cb4a4ebf26945cf76a22c9946eb74137a6aca1e9fce10921165674fcd3904ee8",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "collins_no-name_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_no-name_eng/collins_no-name_eng-light.pdf",
+        "revision": "4e74de09733e091f01900b7d0e385988fa229d60ea9d5230759ebc673ee475fe"
+      },
+      {
+        "theme": "dark",
+        "file": "collins_no-name_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_no-name_eng/collins_no-name_eng-dark.pdf",
+        "revision": "0d7cbc5496393175f5fe0c47456423f5c15b3bd5213b957475e38575f7f39820"
+      }
+    ]
+  },
+  "collins_the-dead-secret_eng": {
+    "source_sha256": "012d2e0fd218f40ec9d20fcdf06fe2d53d4bd47302a5b1395be91cad4be900cd",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "collins_the-dead-secret_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-dead-secret_eng/collins_the-dead-secret_eng-light.pdf",
+        "revision": "0752fbb1d898ef569d15f1248b413be0eb2df05dd7d8cfe378ca1ef7865f4d92"
+      },
+      {
+        "theme": "dark",
+        "file": "collins_the-dead-secret_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-dead-secret_eng/collins_the-dead-secret_eng-dark.pdf",
+        "revision": "38085c3210a9508795a53f77496df1e41ee1994fe05eca3c42843675ae8d1868"
+      }
+    ]
+  },
+  "collins_the-haunted-hotel_eng": {
+    "source_sha256": "c34eb61e3bd616bca44a6cc096a7d4ad129eb9de1d81c7d0fd0ac4407c8d1d81",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "collins_the-haunted-hotel_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-haunted-hotel_eng/collins_the-haunted-hotel_eng-light.pdf",
+        "revision": "7aa107acca409f5af9bc982933fbcf256bdf848e0b0d9850075ba18c362f09f7"
+      },
+      {
+        "theme": "dark",
+        "file": "collins_the-haunted-hotel_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-haunted-hotel_eng/collins_the-haunted-hotel_eng-dark.pdf",
+        "revision": "bb70916fb9039fbabb2d72da1d508bf023f79ca4ad6778869dc10b3e6a477b3f"
+      }
+    ]
+  },
+  "collins_the-law-and-the-lady_eng": {
+    "source_sha256": "3937377aaf80f2221b4fd1565429aed509129ebaa5077845390dda34a190e643",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "collins_the-law-and-the-lady_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-law-and-the-lady_eng/collins_the-law-and-the-lady_eng-light.pdf",
+        "revision": "aad0419cee85099e218100a650cad3fc84daba46e2f88a02c666e8693c16539f"
+      },
+      {
+        "theme": "dark",
+        "file": "collins_the-law-and-the-lady_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-law-and-the-lady_eng/collins_the-law-and-the-lady_eng-dark.pdf",
+        "revision": "219022cd59672054816b65142a24634dc702b0b505c0d257966a9bb582c5dc91"
+      }
+    ]
+  },
+  "collins_the-moonstone_eng": {
+    "source_sha256": "0e954712d1f46510b5aad40b1fc283a590888878a0c1f7be6e9efbbbd548a179",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "collins_the-moonstone_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-moonstone_eng/collins_the-moonstone_eng-light.pdf",
+        "revision": "637a9e8f819d482a24a70446441c9e378aeec6790188afeee3b8343d0e4b5240"
+      },
+      {
+        "theme": "dark",
+        "file": "collins_the-moonstone_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-moonstone_eng/collins_the-moonstone_eng-dark.pdf",
+        "revision": "02e4c41b26b27f3248ef359c391eeca77f28f621a526ba8883d139a3f8b359b9"
+      }
+    ]
+  },
+  "collins_the-woman-in-white_eng": {
+    "source_sha256": "8015a9b8dcd2b5d6458a9ef963bffb0edba01d4ef3d912906295859720181052",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "collins_the-woman-in-white_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-woman-in-white_eng/collins_the-woman-in-white_eng-light.pdf",
+        "revision": "a364959ff6b54bc2b092c0a8bacfb0c7e83004fbb7c80e80de28638d208bbe6d"
+      },
+      {
+        "theme": "dark",
+        "file": "collins_the-woman-in-white_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/collins/collins_the-woman-in-white_eng/collins_the-woman-in-white_eng-dark.pdf",
+        "revision": "69d50641f9936e1db84cd5cdf0a88aa2f462544cf5d9c10f3862c3cd9c5ba5a9"
       }
     ]
   },
@@ -2835,6 +3039,108 @@
         "file": "poe_collected-works-of-mystery-and-horror_eng-dark.pdf",
         "href": "https://ianrastall.github.io/bookstacks-pdf/books/poe/poe_collected-works-of-mystery-and-horror_eng/poe_collected-works-of-mystery-and-horror_eng-dark.pdf",
         "revision": "d188aa984bb23e889827c398537d15fa7bb0ce1cd913d09a452e1ebfd4e59706"
+      }
+    ]
+  },
+  "sayers_clouds-of-witness_eng": {
+    "source_sha256": "0905bd790bf49afb3834fc790ed96233d0add9bf089fb12a42031046906cdc6b",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "sayers_clouds-of-witness_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_clouds-of-witness_eng/sayers_clouds-of-witness_eng-light.pdf",
+        "revision": "9f90aaffdc56024eceb0c551347821077230b7f714d6d70e0c47ebbbd4da0d05"
+      },
+      {
+        "theme": "dark",
+        "file": "sayers_clouds-of-witness_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_clouds-of-witness_eng/sayers_clouds-of-witness_eng-dark.pdf",
+        "revision": "31650236600b53c067a4e513695980081e13aeab00b5b721d290bcf2d3041c43"
+      }
+    ]
+  },
+  "sayers_lord-peter-views-the-body_eng": {
+    "source_sha256": "5729e5e51b5fb2dc6958c7da2bd7e0fa3e56f3ae425a5bcd1cb6c85c03552036",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "sayers_lord-peter-views-the-body_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_lord-peter-views-the-body_eng/sayers_lord-peter-views-the-body_eng-light.pdf",
+        "revision": "2da0e1ac1ddc2ec79adc79c3198ddcc72b65aafdb5e75a290e64fd8a9790600c"
+      },
+      {
+        "theme": "dark",
+        "file": "sayers_lord-peter-views-the-body_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_lord-peter-views-the-body_eng/sayers_lord-peter-views-the-body_eng-dark.pdf",
+        "revision": "c617ed59ade42c0dffd039dc238d3e2e5eaab78681871e9a52bcb0ebcdcbc178"
+      }
+    ]
+  },
+  "sayers_strong-poison_eng": {
+    "source_sha256": "be1df88c6c595a7d9ff01a7341249d3036bb3aeaec857c597c2004749014053e",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "sayers_strong-poison_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_strong-poison_eng/sayers_strong-poison_eng-light.pdf",
+        "revision": "a82f406bd778bef55ec024b04203a14dc7898d9c25e575491322846403df4824"
+      },
+      {
+        "theme": "dark",
+        "file": "sayers_strong-poison_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_strong-poison_eng/sayers_strong-poison_eng-dark.pdf",
+        "revision": "2575f5cb54d0d605f43f636f660e47ad7c3f46b7e08d1e986ee92931d8cbff4e"
+      }
+    ]
+  },
+  "sayers_the-unpleasantness-at-the-bellona-club_eng": {
+    "source_sha256": "f2f3934c2f7c223f049298d7d23ecdc0f1c9f61fb89ba4696334066d39095270",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "sayers_the-unpleasantness-at-the-bellona-club_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_the-unpleasantness-at-the-bellona-club_eng/sayers_the-unpleasantness-at-the-bellona-club_eng-light.pdf",
+        "revision": "64b9de40459b800ab320a48272ec144497cc90ae74c964cfaeb2a510ad585ccd"
+      },
+      {
+        "theme": "dark",
+        "file": "sayers_the-unpleasantness-at-the-bellona-club_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_the-unpleasantness-at-the-bellona-club_eng/sayers_the-unpleasantness-at-the-bellona-club_eng-dark.pdf",
+        "revision": "f847c32b877a6229642a11a0d0ebb30a76f4787a1170a93a1bdb48c290570ab3"
+      }
+    ]
+  },
+  "sayers_unnatural-death_eng": {
+    "source_sha256": "3576def6a358773b23f95f5ca6fcf0363933ad679ae088c0e936095db1d6c970",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "sayers_unnatural-death_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_unnatural-death_eng/sayers_unnatural-death_eng-light.pdf",
+        "revision": "61afa88293e8b789de1f68b5f3b4a889d2b2f00997d1dc6e0cd41e6a399f9528"
+      },
+      {
+        "theme": "dark",
+        "file": "sayers_unnatural-death_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_unnatural-death_eng/sayers_unnatural-death_eng-dark.pdf",
+        "revision": "f2869150c4696fb482f68532955cbf4f2d0aae30211bcfe289df15cd7821934c"
+      }
+    ]
+  },
+  "sayers_whose-body_eng": {
+    "source_sha256": "b8c1f2d191d3fe4cfe57819ce8b9df115a3d38af445481af6e4b6f04aef5f632",
+    "variants": [
+      {
+        "theme": "light",
+        "file": "sayers_whose-body_eng-light.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_whose-body_eng/sayers_whose-body_eng-light.pdf",
+        "revision": "74a0380a0d3b71710f9701a7f1761b1e71fc2ada23c9137bba52676c9f5cfa3e"
+      },
+      {
+        "theme": "dark",
+        "file": "sayers_whose-body_eng-dark.pdf",
+        "href": "https://ianrastall.github.io/bookstacks-pdf/books/sayers/sayers_whose-body_eng/sayers_whose-body_eng-dark.pdf",
+        "revision": "ea0670abf4e69d242ea68e2a2be562254bf5620b7daab9876d312adfd20ef800"
       }
     ]
   },

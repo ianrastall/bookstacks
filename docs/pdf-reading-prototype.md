@@ -101,6 +101,15 @@ publication is 891,230,036 PDF bytes, below the configured Pages size budget.
 Generation is an explicit offline
 step and remains separate from website deployment.
 
+## Standard Ebooks additions, 22 November 2026
+
+Pairs were generated for the eighteen Standard Ebooks editions (four Father
+Brown collections, six Lord Peter Wimsey books, eight Wilkie Collins novels).
+The publication now holds 299 editions and 598 PDFs, 924,365,490 bytes. All
+pairs passed source/PDF checksum, text and pagination validation. The exporter
+now sets Unicode superscript and subscript digits as LaTeX superscripts and
+subscripts, since the text font lacks those glyphs.
+
 ## EPUB follow-up
 
 The EPUB template and first two publications are described in
