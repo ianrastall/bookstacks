@@ -43,6 +43,8 @@ const SUPPLEMENTARY_KINDS = new Set([
   'publication-note',
   'suppressed-chapter',
   'title-page',
+  'afterword',
+  'appendix',
 ]);
 const WRAPPER_KINDS = new Set(['edition', 'translation']);
 const RELEASE_PDF_INDEX_PATH = path.resolve(process.cwd(), 'tmp', 'release-pdfs.json');

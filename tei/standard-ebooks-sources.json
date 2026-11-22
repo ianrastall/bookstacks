@@ -1,0 +1,102 @@
+[
+  {
+    "author": "chesterton-g-k",
+    "authorName": "G. K. Chesterton",
+    "work": "the-innocence-of-father-brown",
+    "epub": "g-k-chesterton_the-innocence-of-father-brown.epub",
+    "url": "https://standardebooks.org/ebooks/g-k-chesterton/the-innocence-of-father-brown",
+    "sha256": "b934d5f115ef4992a75db234c5cbb7e51a0b4d62a16c8daca79c21d3bb5b8b0b",
+    "firstPublished": "1911",
+    "units": { "story": 12 }
+  },
+  {
+    "author": "chesterton-g-k",
+    "authorName": "G. K. Chesterton",
+    "work": "the-wisdom-of-father-brown",
+    "epub": "g-k-chesterton_the-wisdom-of-father-brown.epub",
+    "url": "https://standardebooks.org/ebooks/g-k-chesterton/the-wisdom-of-father-brown",
+    "sha256": "fea1f9db6ac0691e9191d412f1902461cf39fc22f6106a76bc5583c077bb0145",
+    "firstPublished": "1914",
+    "units": { "story": 12 }
+  },
+  {
+    "author": "chesterton-g-k",
+    "authorName": "G. K. Chesterton",
+    "work": "the-incredulity-of-father-brown",
+    "epub": "g-k-chesterton_the-incredulity-of-father-brown.epub",
+    "url": "https://standardebooks.org/ebooks/g-k-chesterton/the-incredulity-of-father-brown",
+    "sha256": "dc88ed79b044b17a17636c54bfd04cd94169151f8671291a5afa0edfd88c7ac9",
+    "firstPublished": "1926",
+    "units": { "story": 8 }
+  },
+  {
+    "author": "chesterton-g-k",
+    "authorName": "G. K. Chesterton",
+    "work": "the-secret-of-father-brown",
+    "epub": "g-k-chesterton_the-secret-of-father-brown.epub",
+    "url": "https://standardebooks.org/ebooks/g-k-chesterton/the-secret-of-father-brown",
+    "sha256": "408c49fef5999e7ac464f0982ebc988dab697c8b753a4c09fca0ca4fd03d3a8b",
+    "firstPublished": "1927",
+    "units": { "story": 10 }
+  },
+  {
+    "author": "sayers",
+    "authorName": "Dorothy L. Sayers",
+    "work": "whose-body",
+    "epub": "dorothy-l-sayers_whose-body.epub",
+    "url": "https://standardebooks.org/ebooks/dorothy-l-sayers/whose-body",
+    "sha256": "738099268f886b398379ebfceab8ca73cd60cbf3a010f64c79e0002d832dc062",
+    "firstPublished": "1923",
+    "units": { "chapter": 13 }
+  },
+  {
+    "author": "sayers",
+    "authorName": "Dorothy L. Sayers",
+    "work": "clouds-of-witness",
+    "epub": "dorothy-l-sayers_clouds-of-witness.epub",
+    "url": "https://standardebooks.org/ebooks/dorothy-l-sayers/clouds-of-witness",
+    "sha256": "c52f2e2ea881942062e5e7da64f65cfa427c8c1fa213fcd2c60fdb69bd862718",
+    "firstPublished": "1926",
+    "units": { "chapter": 19 }
+  },
+  {
+    "author": "sayers",
+    "authorName": "Dorothy L. Sayers",
+    "work": "unnatural-death",
+    "epub": "dorothy-l-sayers_unnatural-death.epub",
+    "url": "https://standardebooks.org/ebooks/dorothy-l-sayers/unnatural-death",
+    "sha256": "7d4c832f98b04cbeb6169aa4c2fcfc4e2c144f29677b1ed86f2668200194ab8d",
+    "firstPublished": "1927",
+    "units": { "part": 3, "chapter": 23 }
+  },
+  {
+    "author": "sayers",
+    "authorName": "Dorothy L. Sayers",
+    "work": "the-unpleasantness-at-the-bellona-club",
+    "epub": "dorothy-l-sayers_the-unpleasantness-at-the-bellona-club.epub",
+    "url": "https://standardebooks.org/ebooks/dorothy-l-sayers/the-unpleasantness-at-the-bellona-club",
+    "sha256": "7c2a210d4d9c7a0d4301b32a4be3baacc76c28d21df9211aa58e6755b1f2053f",
+    "firstPublished": "1928",
+    "units": { "chapter": 23 }
+  },
+  {
+    "author": "sayers",
+    "authorName": "Dorothy L. Sayers",
+    "work": "lord-peter-views-the-body",
+    "epub": "dorothy-l-sayers_lord-peter-views-the-body.epub",
+    "url": "https://standardebooks.org/ebooks/dorothy-l-sayers/lord-peter-views-the-body",
+    "sha256": "0afb2c6a7900629ec16e933556599fe128b2713efa11ffe281d4a3dfd0510578",
+    "firstPublished": "1928",
+    "units": { "story": 12 }
+  },
+  {
+    "author": "sayers",
+    "authorName": "Dorothy L. Sayers",
+    "work": "strong-poison",
+    "epub": "dorothy-l-sayers_strong-poison.epub",
+    "url": "https://standardebooks.org/ebooks/dorothy-l-sayers/strong-poison",
+    "sha256": "4d3f5218f57bc7fb7c2c705488665296efd79360a4f0981ce27c1d9e62e62482",
+    "firstPublished": "1930",
+    "units": { "chapter": 23 }
+  }
+]

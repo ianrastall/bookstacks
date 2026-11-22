@@ -20,7 +20,7 @@ A collected volume counts once, even when it contains many separate works.
 | Anne Brontë | 1 | 1 | Only *Agnes Grey*. **High priority: The Tenant of Wildfell Hall**, with an unabridged source. |
 | Charlotte Brontë | 4 | 4 | All four novels in English. Strong novel coverage; poetry would be a distinct extension. |
 | Emily Brontë | 1 | 1 | *Wuthering Heights* is her sole novel. One record is appropriate coverage of that category; poetry is absent. |
-| G. K. Chesterton | 4 | 4 | *The Man Who Was Thursday*, *Orthodoxy*, *A Short History of England*, *George Bernard Shaw*. **Father Brown is conspicuously absent**; begin with *The Innocence of Father Brown*. |
+| G. K. Chesterton | 8 | 8 | *The Man Who Was Thursday*, *Orthodoxy*, *A Short History of England*, *George Bernard Shaw*, and (22 November 2026) the four Father Brown collections through 1927. *The Scandal of Father Brown* (1935) enters the US public domain in 2031. See [the Standard Ebooks edition record](standard-ebooks-editions.md). |
 | Charles Dickens | 8 | 8 | Substantial selection, missing **Great Expectations**, *Our Mutual Friend*, *Little Dorrit*, *The Pickwick Papers*, *Hard Times*, *Dombey and Son*, *The Old Curiosity Shop* and *Edwin Drood*. Start with *Great Expectations*. |
 | Fyodor Dostoevsky | 7 | 12 | Seven works in Russian, five in English. *The Adolescent* and *The Double* lack English editions. *Poor Folk*, *White Nights*, *The House of the Dead*, *The Gambler* would broaden coverage. |
 | Arthur Conan Doyle | 14 | 14 | All four Holmes novels and five story collections are present, alongside other fiction. Strong Holmes coverage. *The Lost World*, *The Poison Belt*, *The White Company*, *Sir Nigel*, and *Tales of Terror and Mystery* also present. |
@@ -77,7 +77,7 @@ It is an editorial judgment, not a ranking by download counts.
 | Following | Walt Whitman — `whitman-walt.png` | *Leaves of Grass* | Distinctly American poetry; choose an explicit edition rather than conflating revisions. |
 | Following | Jerome K. Jerome — `jerome-jerome-k.png` | *Three Men in a Boat* | Short comic counterweight to the existing shelf. |
 | Following | P. G. Wodehouse — `wodehouse-p-g.png` | *My Man Jeeves* | Another comic entry; source review must distinguish early eligible works from later ones. |
-| Following | Dorothy L. Sayers — `sayers-dorothy.png` | *Whose Body?* | Further detective fiction after Poe/Christie; exact edition and distribution eligibility required. |
+| Added 22 November 2026 | Dorothy L. Sayers — `sayers-dorothy.png` | Six Lord Peter Wimsey books, 1923–1930 | See [the Standard Ebooks edition record](standard-ebooks-editions.md) for sources and the public-domain boundary. |
 | Following | Christopher Marlowe — `marlowe-christopher.png` | *Doctor Faustus* | Adds an Elizabethan contemporary; identify A-text/B-text rather than merging silently. |
 | Following | Samuel Taylor Coleridge — `coleridge-samuel-taylor.png` | Selected poems: *The Rime of the Ancient Mariner*, *Christabel*, *Kubla Khan* | Gothic verse adjacent to Poe, but not material for the prose-only Poe volume. |
 | Following | William Wordsworth — `wordsworth-william.png` | Selected poems or a specified *Prelude* edition | Adds Romantic poetry; do not silently combine the 1805 and 1850 *Prelude*. |
