@@ -63,6 +63,12 @@ interpretations, not historical plates. Generated PNG masters are cached in
 the ignored `assets/source-christie-art/`; JPEG delivery images and smaller
 640-pixel previews are committed under `tei/christie/img/`.
 
+All eleven stories in *Poirot Investigates* also have color photo
+interpretations based on their individual engravings. Choose Photos or
+Sketches in Settings → Appearance → Illustrations. The
+[photo record](../tei/christie/poirot-investigates-photos.json) contains the
+reference images, scene descriptions, generation prompts and checksums.
+
 The explicit offline importer is `python tei/build_christie.py`. Download the
 HTML URLs in the selection manifest to `assets/source-christie/<id>.html`
 before running it. It refuses changed source bytes, compares every converted

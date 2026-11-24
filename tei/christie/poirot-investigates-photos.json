@@ -1,0 +1,94 @@
+{
+  "generationTool": "OpenAI built-in image generation",
+  "date": "2026-11-24",
+  "photos": {
+    "/tei/christie/img/poirot-investigates-001.jpg": {
+      "file": "img/poirot-investigates-001-photo.jpg",
+      "reference": "img/poirot-investigates-001.preview.jpg",
+      "alt": "A fashionable woman looks up at a London terrace while an errand boy and several adults follow at a distance.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. Look down diagonally through the detectives’ window at a stone-fronted London terrace in the early 1920s. A stylish young woman in a fashionable hat and a dark fur wrap pauses to look up at the houses. Farther behind are a few curious adults and one errand boy, with railings and stone steps in between. Keep the low window edge and the distance between her and the group. Strong, readable street geometry without making the bystanders sinister.",
+      "sha256": "269d97a2282bbdad5713c17d236766ed6c3e746089f317080add305f262ca56b",
+      "masterSha256": "09f4e8e4a63c9ee96424be8fdd6a77ca544257918ecc7d27c0f98aaf616c559c"
+    },
+    "/tei/christie/img/poirot-investigates-002.jpg": {
+      "file": "img/poirot-investigates-002-photo.jpg",
+      "reference": "img/poirot-investigates-002.preview.jpg",
+      "alt": "Poirot fastens a leather valise while Hastings stands beside the table.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. 1920s London sitting room in overcast window light. Poirot stands at the table carefully closing a small brown leather valise, right of center, while Hastings watches from behind his shoulder. A dark hat and folded traveling coat are near the case. The action is quiet and precise, with the valise and gestures clearly readable.",
+      "sha256": "89cabaf6f4571b2f7e40a74c368c1da034cc4d2c2c0cc96b673f66fa321a4c95",
+      "masterSha256": "146aab6c6fa5d255b9b21af3c38d9042683ce93fd47097365b832e790c87dec8"
+    },
+    "/tei/christie/img/poirot-investigates-003.jpg": {
+      "file": "img/poirot-investigates-003-photo.jpg",
+      "reference": "img/poirot-investigates-003.preview.jpg",
+      "alt": "A man gestures as a group of friends talks in a London drawing room.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. A modest, well-appointed London drawing room after the First World War. A young man at center gestures animatedly while friends in late-1910s or very early-1920s evening clothes listen from upholstered seats. Seen across the backs of two foreground guests, with a low table, fireplace and softly glowing shaded lamp. Unforced conversational poses, readable eye-lines.",
+      "sha256": "3b947266a1f5e64647f04d7a2d357bd429c4bd09f985b7332722567300463dd1",
+      "masterSha256": "7e9f2f9d30728dab6e6b164ff48e0c05dfda8d48e99c8a5884b8cc6d35fdf496"
+    },
+    "/tei/christie/img/poirot-investigates-004.jpg": {
+      "file": "img/poirot-investigates-004-photo.jpg",
+      "reference": "img/poirot-investigates-004.preview.jpg",
+      "alt": "Hastings sits beside Poirot, who is propped up in bed with a wool shawl around his head.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. A quiet early-1920s bedroom. Poirot is recovering from influenza. He sits propped up on white pillows with a dark wool shawl around his head and shoulders. Hastings sits to the left with a small cup and saucer. Several period medicine bottles are lined up on the mantel far behind them. Let Poirot's fastidiousness and wry expression carry the scene. Soft winter window light, two men only.",
+      "sha256": "0f196d070336c063be71518a9b8027c3882780ea84a35dd9e96e588f5c889c56",
+      "masterSha256": "9eeea049d0ec8018575e7b9aefd818306c064bdec8fd936722ef2e554d39e2d8"
+    },
+    "/tei/christie/img/poirot-investigates-005.jpg": {
+      "file": "img/poirot-investigates-005-photo.jpg",
+      "reference": "img/poirot-investigates-005.preview.jpg",
+      "alt": "A four-funnel transatlantic liner steams across a grey-blue sea.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. A full-length view of a great early-1920s four-funnel transatlantic liner like the fictional Olympia, sailing under its own steam toward the right. See the dark hull, cream superstructure and four warm buff funnels with black tops, all four attached correctly on the centerline. Low seaward three-quarter viewpoint with subtle grey-blue Atlantic chop and coal smoke trailing downwind. Pale overcast daylight, ship entirely within the wide frame, no people or readable ship name.",
+      "sha256": "30036bd825b4c6e89370da8feed389533e57b5331bfd331674a53d8d68e85244",
+      "masterSha256": "6396414d89f895037741f5f8f9171ae9108e813f359111fbda483ae7e7a81256"
+    },
+    "/tei/christie/img/poirot-investigates-006.jpg": {
+      "file": "img/poirot-investigates-006-photo.jpg",
+      "reference": "img/poirot-investigates-006.preview.jpg",
+      "alt": "Workers and archaeologists examine a stone tomb entrance at an excavation near the Giza pyramids.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. Archaeologists and Egyptian workers at a 1920s excavation near Giza, around an unadorned, rectangular stone tomb doorway below ground level. Frame the layered pale ochre excavation cutting low in the foreground and the distant pyramids high on the horizon. A few workers take notes or examine exposed masonry, in period linen, hats and work clothes. Dry natural desert light, believable geology, no supernatural imagery or modern equipment.",
+      "sha256": "3058b84221de9786424dfb44f7116e30b960e8493719f7be1c03ed586fb16c5f",
+      "masterSha256": "08e7b504987cb3afa3862299829f76dc41ad797c4dc076fc7e2106ae3c91f206"
+    },
+    "/tei/christie/img/poirot-investigates-007.jpg": {
+      "file": "img/poirot-investigates-007-photo.jpg",
+      "reference": "img/poirot-investigates-007.preview.jpg",
+      "alt": "Poirot and Hastings dine at a table with a white tablecloth in a crowded Brighton hotel.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. The bustling dining room of an elegant Brighton hotel, early 1920s. Poirot in black dinner dress and Hastings, seen partly from behind, dine at a small white-linen table among quiet conversation. Palms, tall arches and warm softened electric light distinguish this from a domestic sitting room. Tableware glasses and flowers arranged naturally. Background diners remain secondary to the two men.",
+      "sha256": "eaf3df4bea27872316ade2e5558beec841f9396714c8f5261c90f4a378c250f2",
+      "masterSha256": "bc5afcb80045e91f1b1e897158a65198e7382d9f79714045e6c5e4f53b9e08d4"
+    },
+    "/tei/christie/img/poirot-investigates-008.jpg": {
+      "file": "img/poirot-investigates-008-photo.jpg",
+      "reference": "img/poirot-investigates-008.preview.jpg",
+      "alt": "Poirot and Hastings discuss the news in a sitting room during the First World War.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. A modest London sitting room after dinner during the First World War. Poirot sits at left in an upholstered armchair by a fireplace, facing Hastings, who leans forward from a chair on the right with a folded newspaper. A softly shaded table lamp, a mantel clock, and heavy curtains in warm but natural low evening light. Both in period suits, a tense and quiet conversation; blank or unreadable newspaper print.",
+      "sha256": "b11038a07d932b3271cfc74aaed50eb5dd322772097b0e8c061a36b31a4ca63d",
+      "masterSha256": "ab6cbcb2790bfd763be20034b5376d550f3dbbec73e511b2d4bfe0bd063134c4"
+    },
+    "/tei/christie/img/poirot-investigates-009.jpg": {
+      "file": "img/poirot-investigates-009-photo.jpg",
+      "reference": "img/poirot-investigates-009.preview.jpg",
+      "alt": "Inspector Japp arrives while Poirot and Hastings sit at a neatly set tea table.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. Poirot and Hastings turn from a circular tea table as broad-shouldered Inspector Japp arrives in the doorway of a London sitting room in the early 1920s, carrying a dark bowler hat. A polished metal teapot and carefully aligned china are prominent in the foreground. Three men, friendly but preoccupied faces, diffused daylight, clear visual distinction between the seated pair and the standing visitor.",
+      "sha256": "122bc80b9d4366e1741b8b2a21d3565aa6e89aa45e60af036c09c8b4888f7581",
+      "masterSha256": "8cfb4512312f9f6b0e065ee2292ff7a6cbc17321fc4cdc265566d6f24f98254c"
+    },
+    "/tei/christie/img/poirot-investigates-010.jpg": {
+      "file": "img/poirot-investigates-010-photo.jpg",
+      "reference": "img/poirot-investigates-010.preview.jpg",
+      "alt": "Miss Rider interrupts Poirot and Dr. Hawker from the doorway of the sitting room.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. Early-1920s London, early June evening. Miss Rider, a middle-aged housekeeper in a plain cream apron over a dark practical dress, interrupts two men in a sitting room. She stands on the right in an open doorway with a hand at her chest, eyes on the grey-haired doctor. Poirot and Dr. Hawker are seated at left and center and turn to look at her. A shaded standing lamp and dark wood finish frame the moment, with restrained urgency.",
+      "sha256": "72e57be6cb1d614ff1dd5ff3f2b531740f318c3deabcfda0a0452959c7a0e084",
+      "masterSha256": "0a3d49bd9a125352c5c772b0bc7f6045de690bc334e6125a7ee89f6a99c77e32"
+    },
+    "/tei/christie/img/poirot-investigates-011.jpg": {
+      "file": "img/poirot-investigates-011-photo.jpg",
+      "reference": "img/poirot-investigates-011.preview.jpg",
+      "alt": "Violet Marsh sits across from Poirot and explains her case.",
+      "prompt": "Use case: sketch-to-render. Create one original live-action photographic interpretation for the Bookstacks reader sidebar. Use the attached engraving for story, composition, and character positions. The result is a natural color still from a restrained period drama with era-accurate clothing, soft but clear photographic lighting, organic real materials and ordinary faces. When visible, Poirot is a short, compact, meticulous middle-aged Belgian with a balding oval head, sleek dark side hair and a tidy dark waxed moustache. Hastings is taller, clean-shaven and dark-haired, with the bearing of a former officer. Original casting throughout. Landscape 3:2, main action readable at 260 pixels wide. No borders, lettering, logos, captions, or watermarks. Daytime in Poirot's London sitting room circa 1923. Violet Marsh, a tall, poised young woman in a neat charcoal walking suit and a practical hat, sits at right explaining an unusual concern. Poirot listens carefully from an upholstered chair on the left, one hand near his chin. Two people at eye level, balanced medium-wide composition, softly lit sash window and books on the far wall, sober early-1920s furnishings.",
+      "sha256": "a8d1fe8ea01cf510aed21278a6be7b4027cb32f9b0b5cbef4d96273ca16ab8bc",
+      "masterSha256": "7dd51524e47c178f36326082382a84133beb2c2a27e153817c7dc74d0015be5d"
+    }
+  }
+}

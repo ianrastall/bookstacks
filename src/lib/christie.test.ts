@@ -5,6 +5,7 @@ import { expect, it } from 'vitest';
 import { getLibrary, localizedUnitHref } from './library';
 import selection from '../../tei/christie/selection.json';
 import illustrations from '../../tei/christie/illustrations.json';
+import poirotPhotoData from '../../tei/christie/poirot-investigates-photos.json';
 
 it('publishes all pinned Christie editions with complete navigation and original source figures', () => {
   const author = getLibrary().authors.find(author => author.slug === 'christie')!;
@@ -64,5 +65,25 @@ it('provides a distinct checksum-verified sketch and preview for every Christie 
       const bytes = fs.readFileSync(path.join('tei/christie', file.file));
       expect(createHash('sha256').update(bytes).digest('hex')).toBe(file.sha256);
     }
+  }
+});
+
+it('pairs each Poirot Investigates sketch with a distinct checksum-verified photo', () => {
+  const edition = getLibrary().authors.find(author => author.slug === 'christie')!
+    .works.find(work => work.slug === 'poirot-investigates')!.editions[0];
+  const pairs = Object.entries(poirotPhotoData.photos);
+  expect(pairs).toHaveLength(11);
+  expect(edition.units.map(unit => unit.illustration?.src)).toEqual(pairs.map(([sketch]) => sketch));
+  expect(new Set(pairs.map(([, photo]) => photo.file)).size).toBe(11);
+
+  for (const [index, [sketch, photo]] of pairs.entries()) {
+    expect(edition.units[index].illustration).toMatchObject({
+      src: sketch,
+      previewSrc: `/tei/christie/${photo.reference}`,
+      photoSrc: `/tei/christie/${photo.file}`,
+      photoAlt: photo.alt,
+    });
+    const bytes = fs.readFileSync(path.join('tei/christie', photo.file));
+    expect(createHash('sha256').update(bytes).digest('hex')).toBe(photo.sha256);
   }
 });

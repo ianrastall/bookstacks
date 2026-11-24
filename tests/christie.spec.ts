@@ -28,3 +28,27 @@ test('Christie sketches sit below the right navigation and source diagrams remai
   await expect(page.getByRole('link', { name: 'Giants’ Bread', exact: true })).toBeVisible();
   await expect(page.getByRole('link', { name: 'The Plymouth Express Affair', exact: true })).toBeVisible();
 });
+
+test('Poirot Investigates switches to its own photos with scene descriptions', async ({ page }) => {
+  await page.goto('/en/authors/christie/poirot-investigates/story-1?ui=en');
+  const sketch = page.locator('.chapter-sidebar .tei-engraving img');
+  const photo = page.locator('.chapter-sidebar .reader-photo img');
+  const style = page.getByLabel('Illustrations', { exact: true });
+  await expect(sketch).toBeVisible();
+  await expect(photo).toBeHidden();
+
+  await page.locator('#appearance-open').click();
+  await style.selectOption('photos');
+  await page.keyboard.press('Escape');
+  await expect(sketch).toBeHidden();
+  await expect(photo).toBeVisible();
+  await expect(photo).toHaveAttribute('src', '/tei/christie/img/poirot-investigates-001-photo.jpg');
+  await expect(photo).toHaveAttribute('alt', /woman looks up at a London terrace/);
+  await photo.scrollIntoViewIfNeeded();
+  await expect.poll(() => photo.evaluate((img: HTMLImageElement) => img.naturalWidth)).toBe(640);
+
+  await page.locator('.chapter-navigation a[rel="next"]').click();
+  await expect(photo).toBeVisible();
+  await expect(photo).toHaveAttribute('src', '/tei/christie/img/poirot-investigates-002-photo.jpg');
+  await expect(photo).toHaveAttribute('alt', /Poirot fastens a leather valise/);
+});

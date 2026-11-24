@@ -10,6 +10,7 @@ import '../i18n/catalogues';
 import { text as interfaceText } from './interface';
 import publicationData from '../data/pdf-publications.json';
 import epubPublicationData from '../data/epub-publications.json';
+import poirotPhotoData from '../../tei/christie/poirot-investigates-photos.json';
 import poisonBeltArt from '../../tei/doyle/the-poison-belt-illustrations.json';
 import asYouLikeItArt from '../../tei/shakespeare/as-you-like-it-illustrations.json';
 import holmesPhotoData from '../../tei/doyle/holmes/photo-companions.json';
@@ -17,9 +18,13 @@ import holmesPhotoData from '../../tei/doyle/holmes/photo-companions.json';
 const PUBLICATION_URL = 'https://ianrastall.github.io/bookstacks-pdf/books/';
 const PUBLICATION_INDEX = publicationData as Record<string, { source_sha256: string; variants: PdfVariant[] }>;
 const EPUB_INDEX = epubPublicationData as Record<string,EpubPublication>;
-const HOLMES_PHOTOS: Partial<Record<string, { file: string }>> = holmesPhotoData.photos;
+type SidebarPhoto = { file: string; alt?: string };
+const PHOTO_COMPANIONS: Partial<Record<string, SidebarPhoto>> = {
+  ...holmesPhotoData.photos,
+  ...poirotPhotoData.photos,
+};
 const SIDEBAR_ART: Record<string, {
-  assets: Record<string, { file: string; alt: Partial<Record<Locale, string>>; photo?: { file: string } }>;
+  assets: Record<string, { file: string; alt: Partial<Record<Locale, string>>; photo?: SidebarPhoto }>;
   editions: Record<string, { sourceSha256: string; pages: Record<string, string> }>;
 }> = {
   'doyle/the-poison-belt': poisonBeltArt,
@@ -248,7 +253,7 @@ export interface ReadingUnit {
   title: string;
   context: string[];
   html: string;
-  illustration?: { src: string; previewSrc?: string; description: string; photoSrc?: string };
+  illustration?: { src: string; previewSrc?: string; description: string; photoSrc?: string; photoAlt?: string };
   previousPath?: string;
   nextPath?: string;
 }
@@ -616,7 +621,7 @@ function parseEdition(filePath: string): ParsedEdition {
     if (artEdition && (!asset || !description)) {
       throw new Error(`Missing sidebar illustration for ${fileName} at ${pathValue}`);
     }
-    const photoFile = sourceIllustration ? HOLMES_PHOTOS[sourceIllustration.src]?.file : asset?.photo?.file;
+    const photo = sourceIllustration ? PHOTO_COMPANIONS[sourceIllustration.src] : asset?.photo;
     const illustration = sourceIllustration ?? (asset && description
       ? { src: `/tei/${authorSlug}/${asset.file}`, description }
       : undefined);
@@ -626,8 +631,8 @@ function parseEdition(filePath: string): ParsedEdition {
       title,
       context,
       html: renderDivision(div, entities, locale, `/tei/${authorSlug}`, carried.get(div)),
-      illustration: illustration && photoFile
-        ? { ...illustration, photoSrc: `/tei/${authorSlug}/${photoFile}` }
+      illustration: illustration && photo
+        ? { ...illustration, photoSrc: `/tei/${authorSlug}/${photo.file}`, photoAlt: photo.alt }
         : illustration,
     });
   }
