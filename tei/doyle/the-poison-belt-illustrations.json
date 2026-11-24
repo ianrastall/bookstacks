@@ -1,0 +1,125 @@
+{
+  "generationTool": "OpenAI built-in image generation",
+  "date": "2026-11-23",
+  "assets": {
+    "chapter-1": {
+      "file": "img/the-poison-belt/chapter-1.jpg",
+      "prompt": "Use case: illustration-story. Traditional hand-drawn black charcoal on pale warm paper, tooth, soft smudged values, a few decisive dark strokes and lifted highlights. A clean, readable composition with lightly open edges. Draw the following scene. On a timber-canopied English railway platform around 1913, Lord John Roxton, a tall lean middle-aged man with greying reddish hair and yellow-brown tweed, greets young reporter Edward Malone and an older, angular professor. The two arrivals carry small heavy steel oxygen cylinders with brass fittings among their traveling bags. Beside them stands an Edwardian steam train, with steam drifting under the canopy. View the full scene at eye level from a few paces away, cylinders and greeting clear in the central two-thirds. Ordinary overcast daylight, period-accurate clothes and railway hardware. No text, signs, borders or watermarks. Landscape 3:2 for a small Bookstacks reader sidebar.",
+      "sha256": "d76282ef7ffee051ada2a76a77c0a8ceac97fe9850ab0d0f472c2c3c2ab8bf1c",
+      "masterSha256": "dc2f6376b8a3e71010ad79c4de24eae8f411639772ed11cc45b260c1e386ecaa",
+      "alt": {
+        "en": "Roxton greets Malone and Summerlee beside a steam train, with oxygen cylinders among the luggage."
+      },
+      "photo": {
+        "file": "img/the-poison-belt/chapter-1-photo.jpg",
+        "prompt": "Use case: historical-scene. Photorealistic still from a restrained early-twentieth-century period film, with believable natural light, lightly muted color, natural fabric texture and candid expressions. Depict the following scene. On a timber-canopied English railway platform around 1913, Lord John Roxton, a tall lean middle-aged man with greying reddish hair and yellow-brown tweed, greets young reporter Edward Malone and an older, angular professor. The two arrivals carry small heavy steel oxygen cylinders with brass fittings among their traveling bags. Beside them stands an Edwardian steam train, with steam drifting under the canopy. View the full scene at eye level from a few paces away, cylinders and greeting clear in the central two-thirds. Ordinary overcast daylight, period-accurate clothes and railway hardware. No text, signs, borders or watermarks. Landscape 3:2 for a small Bookstacks reader sidebar.",
+        "sha256": "85cb18d70bf04514b18a7b04ba404b8c9eef3185d28af8acd8ed7a5fc68c2802",
+        "masterSha256": "88b59aa3afd18b07a474024806d4c6926f5614c05b01d944fd5237cffd88f932"
+      }
+    },
+    "chapter-2": {
+      "file": "img/the-poison-belt/chapter-2.jpg",
+      "prompt": "Use case: illustration-story. Traditional hand-drawn black charcoal on pale warm paper, visible paper tooth, broad charcoal masses, a few decisive strokes and lifted highlights. Monochrome charcoal values on a warm paper base. Soft open edges and clear main shapes, historically convincing people and objects. In the entrance hall of a country house in Sussex, circa 1913, Professor George Challenger, a broad, imposing middle-aged man with swept black hair and a huge cascading black beard, speaks brusquely into a black Edwardian candlestick telephone, with the separate earpiece held against his ear. Three worried male visitors pause a few paces back by the staircase. Dark wainscoting, discreet window light, and the professor's clear silhouette. Eye-level medium-wide view, keep the main action in the central two-thirds. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+      "sha256": "0911ff2a37890fad3451066f6ff26d4f572429bf1399a20f2c3292f58352ca68",
+      "masterSha256": "7724fa4f27b4f4f1fe1d5a5d3127c26119bee32a938a3a2c9637a08f3ba19c20",
+      "alt": {
+        "en": "Professor Challenger speaks into a candlestick telephone while three visitors wait by the staircase."
+      },
+      "photo": {
+        "file": "img/the-poison-belt/chapter-2-photo.jpg",
+        "prompt": "Use case: historical-scene. Photorealistic still from a restrained early-twentieth-century period film. Believable natural light and candid human posture, naturally muted colors and real fabric and surface textures. Historically convincing clothes and objects. In the entrance hall of a country house in Sussex, circa 1913, Professor George Challenger, a broad, imposing middle-aged man with swept black hair and a huge cascading black beard, speaks brusquely into a black Edwardian candlestick telephone, with the separate earpiece held against his ear. Three worried male visitors pause a few paces back by the staircase. Dark wainscoting, discreet window light, and the professor's clear silhouette. Eye-level medium-wide view, keep the main action in the central two-thirds. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+        "sha256": "d87ac396602fa2fa0ce8a2abf8dbd39bac2d1009da95f107f634281014111291",
+        "masterSha256": "440276cc24ff174510e7406c52f975a64831be0223f05ea713617bfde1854ead"
+      }
+    },
+    "chapter-3": {
+      "file": "img/the-poison-belt/chapter-3.jpg",
+      "prompt": "Use case: illustration-story. Traditional hand-drawn black charcoal on pale warm paper, visible paper tooth, broad charcoal masses, a few decisive strokes and lifted highlights. Monochrome charcoal values on a warm paper base. Soft open edges and clear main shapes, historically convincing people and objects. In an Edwardian Sussex country house around 1913, five uneasy adults are waiting in Mrs Challenger's sealed sitting room. A long red velvet curtain partly screens the far end; strips of paper seal the edges of the broad low window. Show Mrs Challenger resting on a settee and the big black-bearded professor standing beside the five iron oxygen cylinders laid side by side along a wall. The other three men are only secondary silhouettes near the window. Potted shrubs and soft daylight, no panic or visible harm. Medium-wide central grouping, window light and cylinders easy to read. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+      "sha256": "8e57cc670e473d64ff2efdd7ee4ddf1cf09abf7fe02367cfe2d43045ca7165c3",
+      "masterSha256": "4a8226d842bae3c87215b7705e59ff9a9c877fb33c7a0d3002fde84c61d17ef5",
+      "alt": {
+        "en": "Challenger and his guests wait beside oxygen cylinders in the sealed sitting room."
+      },
+      "photo": {
+        "file": "img/the-poison-belt/chapter-3-photo.jpg",
+        "prompt": "Use case: historical-scene. Photorealistic still from a restrained early-twentieth-century period film. Believable natural light and candid human posture, naturally muted colors and real fabric and surface textures. Historically convincing clothes and objects. In an Edwardian Sussex country house around 1913, five uneasy adults are waiting in Mrs Challenger's sealed sitting room. A long red velvet curtain partly screens the far end; strips of paper seal the edges of the broad low window. Show Mrs Challenger resting on a settee and the big black-bearded professor standing beside the five iron oxygen cylinders laid side by side along a wall. The other three men are only secondary silhouettes near the window. Potted shrubs and soft daylight, no panic or visible harm. Medium-wide central grouping, window light and cylinders easy to read. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+        "sha256": "289ace125af8003643edc15d8966d6dedb2df5639b924298c0d6b3f393f6f05d",
+        "masterSha256": "ac8a73b974d5bead6e0f6348edc586fbed70e4e39cf0d2dfe33399db8032772f"
+      }
+    },
+    "chapter-4": {
+      "file": "img/the-poison-belt/chapter-4.jpg",
+      "prompt": "Use case: illustration-story. Traditional hand-drawn black charcoal on pale warm paper, visible paper tooth, broad charcoal masses, a few decisive strokes and lifted highlights. Monochrome charcoal values on a warm paper base. Soft open edges and clear main shapes, historically convincing people and objects. At night in an Edwardian English country house around 1913, young reporter Edward Malone, with short dark wavy hair and a brown tweed waistcoat, bends close over an open notebook, writing by the pool of light on a small table. A velvet curtain and faint silhouettes of his companions recede into shadow. A contemplative, intent expression; camera at a three-quarter angle showing his face and writing hand, no legible text, medium view. A moment of stillness and concentration. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+      "sha256": "8a069cf37d15443e4d7dc01d29a10264022f4b6cd5a8f563fa990f47ae9a2e7e",
+      "masterSha256": "be826576c259a73f4ce5d7df41e86445bbd3c2406b83a592038ece49c2a6c9ad",
+      "alt": {
+        "en": "Malone writes in his notebook late at night while his companions sit in the shadows."
+      },
+      "photo": {
+        "file": "img/the-poison-belt/chapter-4-photo.jpg",
+        "prompt": "Use case: historical-scene. Photorealistic still from a restrained early-twentieth-century period film. Believable natural light and candid human posture, naturally muted colors and real fabric and surface textures. Historically convincing clothes and objects. At night in an Edwardian English country house around 1913, young reporter Edward Malone, with short dark wavy hair and a brown tweed waistcoat, bends close over an open notebook, writing by the pool of light on a small table. A velvet curtain and faint silhouettes of his companions recede into shadow. A contemplative, intent expression; camera at a three-quarter angle showing his face and writing hand, no legible text, medium view. A moment of stillness and concentration. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+        "sha256": "5fe2944a251f52d1b8a948da4e5c068256fcc690bd0bf198d8406eec5cd1ca37",
+        "masterSha256": "6591e0d83eb8c00e69fc62b35f5736138a15e72a49d4c6b20364fb364fc5e474"
+      }
+    },
+    "chapter-5": {
+      "file": "img/the-poison-belt/chapter-5.jpg",
+      "prompt": "Use case: illustration-story. Traditional hand-drawn black charcoal on pale warm paper, visible paper tooth, broad charcoal masses, a few decisive strokes and lifted highlights. Monochrome charcoal values on a warm paper base. Soft open edges and clear main shapes, historically convincing people and objects. On a winding lane in the Sussex downs in brilliant August sunshine around 1913, an open-top dark Edwardian Humber touring motorcar carries five passengers through an eerily empty countryside. Tall ruddy-haired Lord John Roxton in a yellow-brown tweed suit is at the wheel, young dark-haired reporter Edward Malone is beside him, and Mrs Challenger sits between two older men in the rear. Low roadside three-quarter angle with the car entirely within the frame, hedgerows and distant purple heather. Beyond the car the road lies empty. No bodies, no collision, no modern objects. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+      "sha256": "39702fca9f961a3658250b64908581344967f8d32e72a527761eb5903a6622b2",
+      "masterSha256": "af36940411c57255fb14d8f861e5b4836215bb639971d2e34e3f882a7029f0f6",
+      "alt": {
+        "en": "Roxton drives the group in an open touring car through the empty Sussex countryside."
+      },
+      "photo": {
+        "file": "img/the-poison-belt/chapter-5-photo.jpg",
+        "prompt": "Use case: historical-scene. Photorealistic still from a restrained early-twentieth-century period film. Believable natural light and candid human posture, naturally muted colors and real fabric and surface textures. Historically convincing clothes and objects. On a winding lane in the Sussex downs in brilliant August sunshine around 1913, an open-top dark Edwardian Humber touring motorcar carries five passengers through an eerily empty countryside. Tall ruddy-haired Lord John Roxton in a yellow-brown tweed suit is at the wheel, young dark-haired reporter Edward Malone is beside him, and Mrs Challenger sits between two older men in the rear. Low roadside three-quarter angle with the car entirely within the frame, hedgerows and distant purple heather. Beyond the car the road lies empty. No bodies, no collision, no modern objects. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+        "sha256": "403f9333ddb3fc3c9c9c1625c0d4203ed2d08bdf3f309bb204d94a797eae6b85",
+        "masterSha256": "87208026547c4bb439bc63162f417b51f69fb576b814379cf9e0749f1a5d80f1"
+      }
+    },
+    "chapter-6": {
+      "file": "img/the-poison-belt/chapter-6.jpg",
+      "prompt": "Use case: illustration-story. Traditional hand-drawn black charcoal on pale warm paper, visible paper tooth, broad charcoal masses, a few decisive strokes and lifted highlights. Monochrome charcoal values on a warm paper base. Soft open edges and clear main shapes, historically convincing people and objects. On a sloping lane below a Sussex country house in 1913, a gaunt old cab horse slowly pulls an enclosed Edwardian horse-drawn cab uphill. Its driver sits hunched on the box and a young pressman in a dark jacket leans from the carriage window to call out. The vehicle and horse are clearly visible from the side in a medium-wide frame. A tangible sense of everyday movement returning to a still landscape, pale natural light, no modern objects. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+      "sha256": "a8e5cb174e5e0dcc70f6247db5e61d66401eba3c0c76a39358785b582f90fe16",
+      "masterSha256": "c79a338326704cf07b1053f65ec3f63ce40e799b3d3a809f0d31501a00295797",
+      "alt": {
+        "en": "A pressman calls from the window of a horse-drawn cab climbing the hill."
+      },
+      "photo": {
+        "file": "img/the-poison-belt/chapter-6-photo.jpg",
+        "prompt": "Use case: historical-scene. Photorealistic still from a restrained early-twentieth-century period film. Believable natural light and candid human posture, naturally muted colors and real fabric and surface textures. Historically convincing clothes and objects. On a sloping lane below a Sussex country house in 1913, a gaunt old cab horse slowly pulls an enclosed Edwardian horse-drawn cab uphill. Its driver sits hunched on the box and a young pressman in a dark jacket leans from the carriage window to call out. The vehicle and horse are clearly visible from the side in a medium-wide frame. A tangible sense of everyday movement returning to a still landscape, pale natural light, no modern objects. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+        "sha256": "d0e6b947a8c9e088cfc334eeaca7ef7ac4d4f4a8c75aefa83c8afd03c214b738",
+        "masterSha256": "b7efa4bb39918d0c00b0f253494bc736510edc97c8152b4e938c618261722775"
+      }
+    },
+    "epilogue-1": {
+      "file": "img/the-poison-belt/epilogue-1.jpg",
+      "prompt": "Use case: illustration-story. Traditional hand-drawn black charcoal on pale warm paper, visible paper tooth, broad charcoal masses, a few decisive strokes and lifted highlights. Monochrome charcoal values on a warm paper base. Soft open edges and clear main shapes, historically convincing people and objects. Edwardian newspaper press room in London, 1913. A printer in rolled white sleeves and a dark waistcoat examines a newly printed broadside at a cast-iron newspaper press, with folded newspapers stacked nearby. The press and the worker are the clear focus, paper caught in the light, a soft industrial background. The page is angled away and its printing is indistinct. Depict no readable headlines or letters. This is a quiet editorial scene about the publication of an extraordinary first-person report. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+      "sha256": "dc54420ae5c45568ccf51cd63f9f99768955a3bc3d9255a83993421fc160b4da",
+      "masterSha256": "03e8e1dbd5c793ec7701196abd14f368cce0ce064224e008285eab6aaf4431f9",
+      "alt": {
+        "en": "A printer examines a freshly printed newspaper beside the printing press."
+      },
+      "photo": {
+        "file": "img/the-poison-belt/epilogue-1-photo.jpg",
+        "prompt": "Use case: historical-scene. Photorealistic still from a restrained early-twentieth-century period film. Believable natural light and candid human posture, naturally muted colors and real fabric and surface textures. Historically convincing clothes and objects. Edwardian newspaper press room in London, 1913. A printer in rolled white sleeves and a dark waistcoat examines a newly printed broadside at a cast-iron newspaper press, with folded newspapers stacked nearby. The press and the worker are the clear focus, paper caught in the light, a soft industrial background. The page is angled away and its printing is indistinct. Depict no readable headlines or letters. This is a quiet editorial scene about the publication of an extraordinary first-person report. Landscape 3:2 with a balanced composition, legible as a 260-pixel-wide Bookstacks reader sidebar illustration. No letters, subtitles, borders, logos, watermarks, or modern details.",
+        "sha256": "0d41245587c4cd5053f73b220b05ba91f7e6f4f8f1e9e5dbf8321324cfb88349",
+        "masterSha256": "fd970d6a012d6031fd9b06b37a8fe1639ddff5def37207d04b80fcfaf4d17340"
+      }
+    }
+  },
+  "editions": {
+    "doyle_the-poison-belt_eng.xml": {
+      "sourceSha256": "ffecbef9dd881c60a0b8555ba1660179ef3608f0fe8cd5e759ea4123c194bba7",
+      "pages": {
+        "chapter-1": "chapter-1",
+        "chapter-2": "chapter-2",
+        "chapter-3": "chapter-3",
+        "chapter-4": "chapter-4",
+        "chapter-5": "chapter-5",
+        "chapter-6": "chapter-6",
+        "epilogue-1": "epilogue-1"
+      }
+    }
+  }
+}

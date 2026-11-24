@@ -13,6 +13,8 @@ npm run dev
 
 Use `npm run build` for the same type check and static production build used before deployment. The generated site is written to `dist/`.
 
+Run `python scripts/audit/reader_illustrations.py` after a build to check that every reading page in an edition that offers photos has a sketch and a distinct photo. The audit also reports sketch-only editions and checks that all referenced sidebar images are present in the build.
+
 ## Edition downloads
 
 Bookstacks distributes only the canonical TEI source and, when supplied, a PDF. The site build does not generate publication files. Every TEI file under `tei/<author>/` is downloadable from its book page and the downloads index.

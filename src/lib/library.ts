@@ -10,6 +10,7 @@ import '../i18n/catalogues';
 import { text as interfaceText } from './interface';
 import publicationData from '../data/pdf-publications.json';
 import epubPublicationData from '../data/epub-publications.json';
+import poisonBeltArt from '../../tei/doyle/the-poison-belt-illustrations.json';
 import asYouLikeItArt from '../../tei/shakespeare/as-you-like-it-illustrations.json';
 import holmesPhotoData from '../../tei/doyle/holmes/photo-companions.json';
 
@@ -20,7 +21,10 @@ const HOLMES_PHOTOS: Partial<Record<string, { file: string }>> = holmesPhotoData
 const SIDEBAR_ART: Record<string, {
   assets: Record<string, { file: string; alt: Partial<Record<Locale, string>>; photo?: { file: string } }>;
   editions: Record<string, { sourceSha256: string; pages: Record<string, string> }>;
-}> = { 'shakespeare/as-you-like-it': asYouLikeItArt };
+}> = {
+  'doyle/the-poison-belt': poisonBeltArt,
+  'shakespeare/as-you-like-it': asYouLikeItArt,
+};
 
 const XML_NS = 'http://www.w3.org/XML/1998/namespace';
 const TEI_NS = 'http://www.tei-c.org/ns/1.0';

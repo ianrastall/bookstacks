@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import publications from '../data/pdf-publications.json';
 import shakespearePlays from '../data/shakespeare-plays.json';
 import { createHash } from 'node:crypto';
+import poisonBeltArt from '../../tei/doyle/the-poison-belt-illustrations.json';
 import asYouLikeItArt from '../../tei/shakespeare/as-you-like-it-illustrations.json';
 it('keeps complete, separate English and French Shakespeare collections',()=>{
   const works=getLibrary().authors.find(author=>author.slug==='shakespeare')!.works;
@@ -50,6 +51,30 @@ it('illustrates every As You Like It reader page in its edition language', () =>
       expect(createHash('sha256').update(photo).digest('hex')).toBe(asset.photo.sha256);
     }
   }
+});
+it('renders a distinct charcoal and photo pair under each Poison Belt reading page', () => {
+  const edition = getLibrary().authors.find(author => author.slug === 'doyle')!
+    .works.find(work => work.slug === 'the-poison-belt')!.editions[0];
+  const { pages } = poisonBeltArt.editions['doyle_the-poison-belt_eng.xml'];
+  expect(edition.units).toHaveLength(7);
+  expect(edition.units.map(unit => unit.path)).toEqual(Object.keys(pages));
+
+  const paths = new Set<string>();
+  for (const unit of edition.units) {
+    const assetId = pages[unit.path as keyof typeof pages] as keyof typeof poisonBeltArt.assets;
+    const asset = poisonBeltArt.assets[assetId];
+    expect(unit.illustration, unit.path).toMatchObject({
+      src: `/tei/doyle/${asset.file}`,
+      photoSrc: `/tei/doyle/${asset.photo.file}`,
+      description: asset.alt.en,
+    });
+    for (const image of [asset, asset.photo]) {
+      paths.add(image.file);
+      const bytes = fs.readFileSync(`tei/doyle/${image.file}`);
+      expect(createHash('sha256').update(bytes).digest('hex')).toBe(image.sha256);
+    }
+  }
+  expect(paths.size).toBe(14);
 });
 it('retains the Hugo Kinsmen edition hierarchy, verse, collaborators and linked translator notes',()=>{
   const edition=getLibrary().authors.find(author=>author.slug==='shakespeare')!.works.find(work=>work.slug==='the-two-noble-kinsmen')!.editions.find(edition=>edition.code==='fr')!;
